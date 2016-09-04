@@ -1,15 +1,20 @@
 package extraction;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-public class HPWrapper extends Wrapper {
+public class HPWrapper extends AbstractWrapper {  
+
+    @Override
+    public String getProductName(Document doc) {
+        Element productNameElement = doc.getElementsByAttributeValue("itemprop", "name").first();
+        
+        return productNameElement.text();
+    }
     
     @Override
     public HashMap<String, List<String>> getSpecifications(Document doc) { 
@@ -34,8 +39,10 @@ public class HPWrapper extends Wrapper {
     }
 
     @Override
-    public double getPrice(Document doc) {
-        return 0;
+    public String getPrice(Document doc) {
+        Element priceElement = doc.getElementsByAttributeValue("itemprop", "price").first();        
+        
+        return priceElement.text();
     }
 
 }
