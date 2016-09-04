@@ -9,12 +9,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-public class HPWrapper implements IWrapper {
-
-    @Override
-    public Document getDocument(String url) throws IOException {
-        return Jsoup.connect(url).get();
-    }
+public class HPWrapper extends Wrapper {
     
     @Override
     public HashMap<String, List<String>> getSpecifications(Document doc) { 
