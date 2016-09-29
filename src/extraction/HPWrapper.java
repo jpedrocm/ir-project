@@ -19,6 +19,13 @@ public class HPWrapper extends AbstractWrapper {
     @Override
     public HashMap<String, List<String>> getSpecifications(Document doc) { 
         HashMap<String, List<String>> specifications = new HashMap<String, List<String>>();
+        
+        List<String> listOfNames = new ArrayList<String>();
+		listOfNames.add(getProductName(doc));
+		specifications.put("model", listOfNames);
+		List<String> listOfPrices = new ArrayList<String>();
+		listOfPrices.add(getPrice(doc));
+		specifications.put("price", listOfPrices);
 
         Element specs = doc.getElementById("specs");        
 

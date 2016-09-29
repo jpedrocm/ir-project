@@ -6,7 +6,6 @@ import java.util.List;
 
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
-import org.jsoup.nodes.Node;
 import org.jsoup.select.Elements;
 
 public class TigerDirectWrapper extends AbstractWrapper {
@@ -21,6 +20,13 @@ public class TigerDirectWrapper extends AbstractWrapper {
 	@Override
 	public HashMap<String, List<String>> getSpecifications(Document doc) {
 		HashMap<String, List<String>> specifications = new HashMap<>();
+		
+		List<String> listOfNames = new ArrayList<String>();
+		listOfNames.add(getProductName(doc));
+		specifications.put("model", listOfNames);
+		List<String> listOfPrices = new ArrayList<String>();
+		listOfPrices.add(getPrice(doc));
+		specifications.put("price", listOfPrices);
 		
 		Element specTable = doc.getElementsByClass("prodSpec").get(0);
 		Elements specRows = specTable.getElementsByTag("tr");

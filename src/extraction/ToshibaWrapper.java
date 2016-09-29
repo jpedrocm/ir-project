@@ -5,7 +5,6 @@ import java.util.HashMap;
 import java.util.List;
 
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 public class ToshibaWrapper extends AbstractWrapper{
@@ -20,7 +19,13 @@ public class ToshibaWrapper extends AbstractWrapper{
 	public HashMap<String, List<String>> getSpecifications(Document doc) {
 		HashMap<String, List<String>> specifications = new HashMap<String, List<String>>();
 		
-		Element specTable = doc.getElementById("sku-specs");
+		List<String> listOfNames = new ArrayList<String>();
+		listOfNames.add(getProductName(doc));
+		specifications.put("model", listOfNames);
+		List<String> listOfPrices = new ArrayList<String>();
+		listOfPrices.add(getPrice(doc));
+		specifications.put("price", listOfPrices);
+		
 		Elements specNames = doc.getElementsByTag("dt");
 		Elements specValues = doc.getElementsByTag("dd");
 		
