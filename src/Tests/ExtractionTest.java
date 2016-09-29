@@ -9,14 +9,15 @@ import org.jsoup.nodes.Document;
 import extraction.AbstractWrapper;
 import extraction.BrandSmartUSAWrapper;
 import extraction.DellWrapper;
+import extraction.LenovoWrapper;
 import extraction.StaplesWrapper;
 
 public class ExtractionTest {
     
-    private static final String URL = "http://www.staples.com/Dell-i3552-3240BLK-15-6-Intel-Pentium-N3700-1-6GHz-Processor-4-GB-RAM-500-GB-HDD-Windows-10-Black-Notebook/product_2256788";
+    private static final String URL = "http://shop.lenovo.com/us/en/laptops/thinkpad/x-series/x1-carbon/";
 
     public static void main(String[] args) throws IOException {
-        AbstractWrapper wrapper = new StaplesWrapper();
+        AbstractWrapper wrapper = new LenovoWrapper();
         Document doc =  wrapper.getDocument(URL);
         String productName = wrapper.getProductName(doc);
         HashMap<String, List<String>> specs = wrapper.getSpecifications(doc);
