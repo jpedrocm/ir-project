@@ -7,10 +7,7 @@ import java.util.List;
 import org.jsoup.nodes.Document;
 
 import extraction.AbstractWrapper;
-import extraction.BrandSmartUSAWrapper;
-import extraction.DellWrapper;
 import extraction.LenovoWrapper;
-import extraction.StaplesWrapper;
 
 public class ExtractionTest {
     
