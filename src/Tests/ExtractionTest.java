@@ -7,14 +7,14 @@ import java.util.List;
 import org.jsoup.nodes.Document;
 
 import extraction.AbstractWrapper;
-import extraction.AsusWrapper;
+import extraction.LenovoWrapper;
 
 public class ExtractionTest {
     
-    private static final String URL = "http://www.asus.com/us/Notebooks/K501UX/specifications/";
+    private static final String URL = "http://shop.lenovo.com/us/en/laptops/thinkpad/x-series/x1-carbon/";
 
     public static void main(String[] args) throws IOException {
-        AbstractWrapper wrapper = new AsusWrapper();
+        AbstractWrapper wrapper = new LenovoWrapper();
         Document doc =  wrapper.getDocument(URL);
         String productName = wrapper.getProductName(doc);
         HashMap<String, List<String>> specs = wrapper.getSpecifications(doc);
