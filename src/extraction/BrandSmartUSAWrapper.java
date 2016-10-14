@@ -23,15 +23,7 @@ public class BrandSmartUSAWrapper extends AbstractWrapper {
 
     @Override
     public HashMap<String, List<String>> getSpecifications(Document doc) {
-        HashMap<String, List<String>> specifications = new HashMap<String, List<String>>();
-        
-        String name = getProductName(doc);
-        if (name != null)
-            specifications.put("Name", Arrays.asList(name));
-        
-        String price = getPrice(doc);
-        if (price != null)
-            specifications.put("Price", Arrays.asList(price));
+        HashMap<String, List<String>> specifications = super.getSpecifications(doc);
         
         Element specsTable = doc.getElementById("specs");
         if (specsTable != null) {

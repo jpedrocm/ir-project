@@ -1,7 +1,6 @@
 package extraction;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
@@ -26,15 +25,7 @@ public class AsusWrapper extends AbstractWrapper {
 
     @Override
     public HashMap<String, List<String>> getSpecifications(Document doc) {
-        HashMap<String, List<String>> specifications = new HashMap<String, List<String>>();
-
-        String name = getProductName(doc);
-        if (name != null)
-            specifications.put("Name", Arrays.asList(name));
-        
-        String price = getPrice(doc);
-        if (price != null)
-            specifications.put("Price", Arrays.asList(price));
+        HashMap<String, List<String>> specifications = super.getSpecifications(doc);
 
         Element productSpecs = doc.getElementsByClass("product-spec").first();
         if (productSpecs != null) {
