@@ -1,6 +1,6 @@
 package extraction;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
@@ -12,26 +12,38 @@ public class StaplesWrapper extends AbstractWrapper {
 
     @Override
     public String getProductName(Document doc) {
+        String name = null;
+    
         Element productNameElement = doc.getElementsByAttributeValue("itemprop", "name").first();
-        return productNameElement.text();
+        if (productNameElement != null)
+            name = productNameElement.text();
+        
+        return name;
     }
 
     @Override
     public HashMap<String, List<String>> getSpecifications(Document doc) {
-        HashMap<String, List<String>> specifications = new HashMap<String, List<String>>();
-        
-        specifications.put("Name", Arrays.asList(getProductName(doc)));
-        specifications.put("Price", Arrays.asList(getPrice(doc)));
+        HashMap<String, List<String>> specifications = super.getSpecifications(doc);
         
         Elements specTables = doc.getElementsByClass("prod-specifications");
         
         for (Element specTable : specTables) {
             for (Element tableRow : specTable.getElementsByTag("tr")) {
                 Elements rowContent = tableRow.getElementsByTag("td");
-                String specName = rowContent.get(0).text();
-                String specDescription = rowContent.get(1).text();
                 
-                specifications.put(specName, Arrays.asList(specDescription));
+                if (rowContent.size() >= 2) {
+                    Element specNameElement = rowContent.get(0);
+                    
+                    List<String> specDescriptions = new ArrayList<String>();
+                    for (int i = 1; i < rowContent.size(); i++) {
+                        Element specDescriptionElement = rowContent.get(i);
+                        if (specDescriptionElement != null)
+                            specDescriptions.add(specDescriptionElement.text());
+                    }
+                    
+                    specifications.put(specNameElement.text(), specDescriptions);
+                    
+                }
             }
         }        
         
@@ -40,7 +52,7 @@ public class StaplesWrapper extends AbstractWrapper {
 
     @Override
     public String getPrice(Document doc) {
-        return "No price on this domain";
+        return null;
     }
 
 }
