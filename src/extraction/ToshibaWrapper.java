@@ -1,6 +1,6 @@
 package extraction;
 
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
@@ -19,12 +19,8 @@ public class ToshibaWrapper extends AbstractWrapper{
 	public HashMap<String, List<String>> getSpecifications(Document doc) {
 		HashMap<String, List<String>> specifications = new HashMap<String, List<String>>();
 		
-		List<String> listOfNames = new ArrayList<String>();
-		listOfNames.add(getProductName(doc));
-		specifications.put("Model", listOfNames);
-		List<String> listOfPrices = new ArrayList<String>();
-		listOfPrices.add(getPrice(doc));
-		specifications.put("Price", listOfPrices);
+		specifications.put("Model", Arrays.asList(getProductName(doc)));
+        specifications.put("Price", Arrays.asList(getPrice(doc)));
 		
 		Elements specNames = doc.getElementsByTag("dt");
 		Elements specValues = doc.getElementsByTag("dd");
@@ -32,9 +28,7 @@ public class ToshibaWrapper extends AbstractWrapper{
 		for(int i = 0; i < specNames.size(); i++){
 			String specName = specNames.get(i).text();
 			String specValue = specValues.get(i).text();
-			List<String> valueList = new ArrayList<>();
-			valueList.add(specValue);
-			specifications.put(specName, valueList);
+			specifications.put(specName, Arrays.asList(specValue));
 		}
 		
 		return specifications;
