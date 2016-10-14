@@ -14,7 +14,7 @@ public class AsusWrapper extends AbstractWrapper {
 
     @Override
     public String getProductName(Document doc) {
-        String name = "";
+        String name = null;
 
         Element productNameElement = doc.getElementById("ctl00_ContentPlaceHolder1_ctl00_span_model_name");
 
@@ -28,7 +28,10 @@ public class AsusWrapper extends AbstractWrapper {
     public HashMap<String, List<String>> getSpecifications(Document doc) {
         HashMap<String, List<String>> specifications = new HashMap<String, List<String>>();
 
-        specifications.put("Name", Arrays.asList(getProductName(doc)));
+        String name = getProductName(doc);
+        if (name != null)
+            specifications.put("Name", Arrays.asList(name));
+        
         String price = getPrice(doc);
         if (price != null)
             specifications.put("Price", Arrays.asList(price));

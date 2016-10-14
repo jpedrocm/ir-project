@@ -12,7 +12,7 @@ public class BrandSmartUSAWrapper extends AbstractWrapper {
 
     @Override
     public String getProductName(Document doc) {
-        String name = "";       
+        String name = null;       
         
         Element title = doc.getElementsByTag("title").first();  
         if (title != null)
@@ -25,7 +25,9 @@ public class BrandSmartUSAWrapper extends AbstractWrapper {
     public HashMap<String, List<String>> getSpecifications(Document doc) {
         HashMap<String, List<String>> specifications = new HashMap<String, List<String>>();
         
-        specifications.put("Name", Arrays.asList(getProductName(doc)));
+        String name = getProductName(doc);
+        if (name != null)
+            specifications.put("Name", Arrays.asList(name));
         
         String price = getPrice(doc);
         if (price != null)
