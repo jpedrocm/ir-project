@@ -1,5 +1,6 @@
 package extraction;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
@@ -11,45 +12,63 @@ public class HPWrapper extends AbstractWrapper {
 
     @Override
     public String getProductName(Document doc) {
-        Element productNameElement = doc.getElementsByAttributeValue("itemprop", "name").first();
+        String name = null;        
         
-        return productNameElement.text();
+        Element productNameElement = doc.getElementsByAttributeValue("itemprop", "name").first();
+        if (productNameElement != null)
+            name = productNameElement.text();
+        
+        return name;
     }
     
     @Override
     public HashMap<String, List<String>> getSpecifications(Document doc) { 
         HashMap<String, List<String>> specifications = new HashMap<String, List<String>>();
         
-        List<String> listOfNames = new ArrayList<String>();
-		listOfNames.add(getProductName(doc));
-		specifications.put("model", listOfNames);
-		List<String> listOfPrices = new ArrayList<String>();
-		listOfPrices.add(getPrice(doc));
-		specifications.put("price", listOfPrices);
+        String name = getProductName(doc);
+        if (name != null)
+            specifications.put("Name", Arrays.asList(name));
+        
+        String price = getPrice(doc);
+        if (price != null)
+            specifications.put("Price", Arrays.asList(price));     
 
         Element specs = doc.getElementById("specs");        
+        
+        if (specs != null) {
+            Elements rows = specs.getElementsByClass("row");  
+            
+            if (rows.size() > 2) {
+                Elements configs = rows.get(1).getElementsByClass("large-12");
 
-        Elements rows = specs.getElementsByClass("row"); 
+                for (Element config : configs) {
+                    Element specElement = config.getElementsByTag("h2").first();
+                    
+                    if (specElement != null) {
+                        String spec = specElement.text();
+                        
+                        specifications.put(spec, new ArrayList<String>());
 
-        Elements configs = rows.get(1).getElementsByClass("large-12");
-
-        for (Element config : configs) {
-            String spec = config.getElementsByTag("h2").first().text();
-            specifications.put(spec, new ArrayList<String>());
-
-            for (Element specDescription : config.getElementsByTag("p")) {
-                specifications.get(spec).add(specDescription.text());
-            }
-        }
+                        for (Element specDescription : config.getElementsByTag("p")) {
+                            specifications.get(spec).add(specDescription.text());
+                        }
+                    }                    
+                }
+            }            
+        }        
 
         return specifications;
     }
 
     @Override
     public String getPrice(Document doc) {
-        Element priceElement = doc.getElementsByAttributeValue("itemprop", "price").first();        
+        String price = null;
         
-        return priceElement.text();
+        Element priceElement = doc.getElementsByAttributeValue("itemprop", "price").first();  
+        if (priceElement != null)
+            price = priceElement.text();
+        
+        return price;
     }
 
 }
