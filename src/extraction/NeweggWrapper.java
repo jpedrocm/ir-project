@@ -1,6 +1,5 @@
 package extraction;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -13,14 +12,18 @@ public class NeweggWrapper extends AbstractWrapper {
 
     @Override
     public String getProductName(Document doc) {
-        Element productNameElement = doc.getElementById("grpDescrip_h");
+        String name = null;
         
-        return productNameElement.text();
+        Element productNameElement = doc.getElementById("grpDescrip_h");
+        if (productNameElement != null)
+            name = productNameElement.text();
+        
+        return name;
     }
 
     @Override
     public HashMap<String, List<String>> getSpecifications(Document doc) {
-        HashMap<String, List<String>> specifications = new HashMap<String, List<String>>();
+        HashMap<String, List<String>> specifications = super.getSpecifications(doc);
         
         Elements specTitles = doc.getElementsByClass("specTitle");
         
@@ -28,9 +31,11 @@ public class NeweggWrapper extends AbstractWrapper {
             Elements descriptionLists = specTitle.parent().getElementsByTag("dl");
             
             for (Element descriptionList : descriptionLists) {
-                String spec = descriptionList.getElementsByTag("dt").first().text();
-                String specDesc = descriptionList.getElementsByTag("dd").first().text();
-                specifications.put(spec, new ArrayList<String>(Arrays.asList(specDesc)));
+                Element specElement = descriptionList.getElementsByTag("dt").first();
+                Element specDescElement = descriptionList.getElementsByTag("dd").first();
+                
+                if (specElement != null && specDescElement != null)
+                    specifications.put(specElement.text(), Arrays.asList(specDescElement.text()));
             }
         }        
         
@@ -39,9 +44,14 @@ public class NeweggWrapper extends AbstractWrapper {
 
     @Override
     public String getPrice(Document doc) {
-        Element priceElement = doc.getElementsByAttributeValue("itemprop", "price").first();
+        String price = null;
         
-        return priceElement.attr("content");
+        Element priceElement = doc.getElementsByAttributeValue("itemprop", "price").first();
+        if (priceElement != null)
+            if (priceElement.hasAttr("content"))
+                price = priceElement.attr("content");
+        
+        return price;
     }
 
 }
