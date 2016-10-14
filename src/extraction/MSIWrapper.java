@@ -14,25 +14,38 @@ public class MSIWrapper extends AbstractWrapper {
 
 	@Override
 	public String getProductName(Document doc) {
-		String productName = doc.getElementById("prod-title").text();
-		return productName;
+	    String name = null;
+	    
+		Element productNameElement = doc.getElementById("prod-title");
+		if (productNameElement != null)
+		    name = productNameElement.text();
+		
+		return name;
 	}
 
 	@Override
 	public HashMap<String, List<String>> getSpecifications(Document doc) {
-        HashMap<String, List<String>> specifications = new HashMap<String, List<String>>();
-
-		specifications.put("Name", Arrays.asList(getProductName(doc)));
+        HashMap<String, List<String>> specifications = super.getSpecifications(doc);
 
 		Elements specItems = doc.getElementsByClass("sku-spec-item");
 		
 		for(Element specItem : specItems){
-            String specName = specItem.getElementsByClass("spec-head").get(0).text();
-			specifications.put(specName, new ArrayList<String>());
-            List<Node> specValues = specItem.getElementsByClass("spec-body").get(0).childNodes();
-            for(Node specValue : specValues)
-            	if(specValue.nodeName().equals("#text"))
-            		specifications.get(specName).add(specValue.toString().trim());
+		    Element specNameElement = specItem.getElementsByClass("spec-head").first();
+		    
+		    if (specNameElement != null) {
+		        Element specBodyElement = specItem.getElementsByClass("spec-body").first();
+		        
+		        if (specBodyElement != null) {
+		            String specName = specNameElement.text();
+		            specifications.put(specName, new ArrayList<String>());
+		            
+		            List<Node> specValues = specBodyElement.childNodes();
+		            
+		            for (Node specValue : specValues)
+		                if (specValue.nodeName().equals(("#text")))
+		                    specifications.get(specName).add(specValue.toString().trim());
+		        }
+		    }
 		}
 		
 		return specifications;

@@ -28,7 +28,7 @@ public class ToshibaWrapper extends AbstractWrapper{
 		Elements specNames = doc.getElementsByTag("dt");
 		Elements specValues = doc.getElementsByTag("dd");
 		
-		for(int i = 0; i < specNames.size() && i < specValues.size(); i++){
+		for(int i = 0; i < specNames.size() && i < specValues.size(); i++) {
 			String specName = specNames.get(i).text();
 			String specValue = specValues.get(i).text();
 			specifications.put(specName, Arrays.asList(specValue));
