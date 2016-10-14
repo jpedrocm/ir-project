@@ -1,9 +1,8 @@
 package extraction;
 
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
-
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -21,12 +20,8 @@ public class TigerDirectWrapper extends AbstractWrapper {
 	public HashMap<String, List<String>> getSpecifications(Document doc) {
 		HashMap<String, List<String>> specifications = new HashMap<>();
 		
-		List<String> listOfNames = new ArrayList<String>();
-		listOfNames.add(getProductName(doc));
-		specifications.put("model", listOfNames);
-		List<String> listOfPrices = new ArrayList<String>();
-		listOfPrices.add(getPrice(doc));
-		specifications.put("price", listOfPrices);
+		specifications.put("Name", Arrays.asList(getProductName(doc)));
+		specifications.put("Price", Arrays.asList(getPrice(doc)));
 		
 		Element specTable = doc.getElementsByClass("prodSpec").get(0);
 		Elements specRows = specTable.getElementsByTag("tr");
@@ -35,9 +30,7 @@ public class TigerDirectWrapper extends AbstractWrapper {
 			if(specRow.children().size() > 1){
 				String specName = specRow.child(0).text();
 				String specValue = specRow.child(1).text();
-				List<String> valueList = new ArrayList<String>();
-				valueList.add(specValue);
-				specifications.put(specName, valueList);
+				specifications.put(specName, Arrays.asList(specValue));
 			}
 		}
 		

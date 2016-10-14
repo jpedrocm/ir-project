@@ -13,7 +13,6 @@ public class StaplesWrapper extends AbstractWrapper {
     @Override
     public String getProductName(Document doc) {
         Element productNameElement = doc.getElementsByAttributeValue("itemprop", "name").first();
-
         return productNameElement.text();
     }
 
@@ -22,6 +21,7 @@ public class StaplesWrapper extends AbstractWrapper {
         HashMap<String, List<String>> specifications = new HashMap<String, List<String>>();
         
         specifications.put("Name", Arrays.asList(getProductName(doc)));
+        specifications.put("Price", Arrays.asList(getPrice(doc)));
         
         Elements specTables = doc.getElementsByClass("prod-specifications");
         
@@ -40,7 +40,7 @@ public class StaplesWrapper extends AbstractWrapper {
 
     @Override
     public String getPrice(Document doc) {
-        return null;
+        return "No price on this domain";
     }
 
 }

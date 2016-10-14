@@ -19,7 +19,7 @@ public class ToshibaWrapper extends AbstractWrapper{
 	public HashMap<String, List<String>> getSpecifications(Document doc) {
 		HashMap<String, List<String>> specifications = new HashMap<String, List<String>>();
 		
-		specifications.put("Model", Arrays.asList(getProductName(doc)));
+		specifications.put("Name", Arrays.asList(getProductName(doc)));
         specifications.put("Price", Arrays.asList(getPrice(doc)));
 		
 		Elements specNames = doc.getElementsByTag("dt");

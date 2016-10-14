@@ -53,7 +53,7 @@ public class ExtractionTest {
 	        
 	        HashMap<String, List<String>> specs = wrapper.getSpecifications(doc);	        
 		    
-	        System.out.println(i);
+	        System.out.println(i+1);
 	        for (String spec : specs.keySet())
 	            for (String specDescription : specs.get(spec))
 	                System.out.println(spec + ": " + specDescription);
