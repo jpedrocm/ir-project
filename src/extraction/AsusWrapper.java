@@ -14,30 +14,43 @@ public class AsusWrapper extends AbstractWrapper {
 
     @Override
     public String getProductName(Document doc) {
+        String name = "";
+
         Element productNameElement = doc.getElementById("ctl00_ContentPlaceHolder1_ctl00_span_model_name");
 
-        return productNameElement.text();
+        if (productNameElement != null)
+            name = productNameElement.text();
+
+        return name;
     }
 
     @Override
     public HashMap<String, List<String>> getSpecifications(Document doc) {
         HashMap<String, List<String>> specifications = new HashMap<String, List<String>>();
-        
+
         specifications.put("Name", Arrays.asList(getProductName(doc)));
 
-        Element productSpecs = doc.getElementsByClass("product-spec").  first();
-        Elements specList = productSpecs.getElementsByTag("li");
+        Element productSpecs = doc.getElementsByClass("product-spec").first();
+        if (productSpecs != null) {
+            Elements specList = productSpecs.getElementsByTag("li");
 
-        for (Element listItem : specList) {            
-            String specItem = listItem.getElementsByClass("spec-item").first().text();
-            specifications.put(specItem, new ArrayList<String>());
+            for (Element listItem : specList) {       
+                Element specItem = listItem.getElementsByClass("spec-item").first();
+                if (specItem != null) {
+                    String specName = specItem.text();
+                    specifications.put(specName, new ArrayList<String>());
 
-            Element specData = listItem.getElementsByClass("spec-data").first(); 
-            for (Node specDataItem : specData.childNodes()) {
-                if (specDataItem.nodeName().equals("#text") && !specDataItem.toString().trim().isEmpty())
-                    specifications.get(specItem).add(specDataItem.toString().trim());
+                    Element specData = listItem.getElementsByClass("spec-data").first(); 
+                    if (specData != null)
+                        for (Node specDataItem : specData.childNodes()) {
+                            if (specDataItem.nodeName().equals("#text") && !specDataItem.toString().trim().isEmpty())
+                                specifications.get(specName).add(specDataItem.toString().trim());
+                        }
+                }
+
             }
         }
+
 
         return specifications;
     }
