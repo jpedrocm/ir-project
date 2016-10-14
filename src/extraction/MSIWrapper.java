@@ -1,6 +1,7 @@
 package extraction;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
@@ -20,15 +21,10 @@ public class MSIWrapper extends AbstractWrapper {
 	@Override
 	public HashMap<String, List<String>> getSpecifications(Document doc) {
         HashMap<String, List<String>> specifications = new HashMap<String, List<String>>();
-        
-        List<String> listOfNames = new ArrayList<String>();
-		listOfNames.add(getProductName(doc));
-		specifications.put("model", listOfNames);
-		List<String> listOfPrices = new ArrayList<String>();
-		listOfPrices.add(getPrice(doc));
-		specifications.put("price", listOfPrices);
 
-		Elements specItems = doc.getElementsByClass("spec-item");
+		specifications.put("Name", Arrays.asList(getProductName(doc)));
+
+		Elements specItems = doc.getElementsByClass("sku-spec-item");
 		
 		for(Element specItem : specItems){
             String specName = specItem.getElementsByClass("spec-head").get(0).text();
