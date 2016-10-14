@@ -12,36 +12,58 @@ public class LenovoWrapper extends AbstractWrapper {
 
     @Override
     public String getProductName(Document doc) {
-        Element productNameElement = doc.getElementsByAttributeValue("name", "ModelNumber").first();
+        String name = null;
         
-        return productNameElement.attr("content");
+        Element productNameElement = doc.getElementsByAttributeValue("name", "ModelNumber").first();
+        if (productNameElement != null) {
+            if (productNameElement.hasAttr("content"))
+                name = productNameElement.attr("content");
+        }
+        
+        return name;
     }
 
     @Override
     public HashMap<String, List<String>> getSpecifications(Document doc) {
         HashMap<String, List<String>> specifications = new HashMap<String, List<String>>();
         
-        specifications.put("Name", Arrays.asList(getProductName(doc)));
+        String name = getProductName(doc);
+        if (name != null)
+            specifications.put("Name", Arrays.asList(name));
 
-        Elements rows = doc.getElementsByClass("techSpecs-table");
-        Element specs = rows.get(0);
-        Elements trs = specs.getElementsByTag("tr");
+        String price = getPrice(doc);
+        if (price != null)
+            specifications.put("Price", Arrays.asList(price));
+        
+        Element specTable = doc.getElementsByClass("techSpecs-table").first();
+        if (specTable != null) {
+            Elements tableRows = specTable.getElementsByTag("tr");
 
-        for(Element tr : trs){
-            String descName = tr.getAllElements().get(0).text();
-            String descDetail = tr.getAllElements().get(1).text();
-
-            specifications.put(descName, Arrays.asList(descDetail));
-        }
+            for(Element tr : tableRows){
+                Elements rowElements = tr.getAllElements();
+                
+                if (rowElements.size() > 2) {
+                    String descName = rowElements.get(0).text();
+                    String descDetail = rowElements.get(1).text();
+                    
+                    specifications.put(descName, Arrays.asList(descDetail));
+                }                
+            }
+        }        
         
         return specifications;
     }
 
     @Override
     public String getPrice(Document doc) {
-        Element priceElement = doc.getElementsByAttributeValue("itemprop", "price").first();
+        String price = null;
         
-        return priceElement.attr("content");
+        Element priceElement = doc.getElementsByAttributeValue("itemprop", "price").first();
+        if (priceElement != null)
+            if (priceElement.hasAttr("content"))
+                price = priceElement.attr("content");
+        
+        return price;
     }
 
 }
