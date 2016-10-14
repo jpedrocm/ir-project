@@ -21,10 +21,10 @@ public class ToshibaWrapper extends AbstractWrapper{
 		
 		List<String> listOfNames = new ArrayList<String>();
 		listOfNames.add(getProductName(doc));
-		specifications.put("model", listOfNames);
+		specifications.put("Model", listOfNames);
 		List<String> listOfPrices = new ArrayList<String>();
 		listOfPrices.add(getPrice(doc));
-		specifications.put("price", listOfPrices);
+		specifications.put("Price", listOfPrices);
 		
 		Elements specNames = doc.getElementsByTag("dt");
 		Elements specValues = doc.getElementsByTag("dd");
