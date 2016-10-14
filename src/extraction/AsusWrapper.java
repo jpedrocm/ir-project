@@ -29,6 +29,9 @@ public class AsusWrapper extends AbstractWrapper {
         HashMap<String, List<String>> specifications = new HashMap<String, List<String>>();
 
         specifications.put("Name", Arrays.asList(getProductName(doc)));
+        String price = getPrice(doc);
+        if (price != null)
+            specifications.put("Price", Arrays.asList(price));
 
         Element productSpecs = doc.getElementsByClass("product-spec").first();
         if (productSpecs != null) {

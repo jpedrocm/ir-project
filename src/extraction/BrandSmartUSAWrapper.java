@@ -12,9 +12,13 @@ public class BrandSmartUSAWrapper extends AbstractWrapper {
 
     @Override
     public String getProductName(Document doc) {
-        Element title = doc.getElementsByTag("title").first();  
+        String name = "";       
         
-        return title.text();
+        Element title = doc.getElementsByTag("title").first();  
+        if (title != null)
+            name = title.text();
+        
+        return name;
     }
 
     @Override
@@ -23,22 +27,29 @@ public class BrandSmartUSAWrapper extends AbstractWrapper {
         
         specifications.put("Name", Arrays.asList(getProductName(doc)));
         
-        Element specsTable = doc.getElementById("specs");
-        Elements specsTableRows = specsTable.getElementsByTag("tr");
+        String price = getPrice(doc);
+        if (price != null)
+            specifications.put("Price", Arrays.asList(price));
         
-        for (Element row : specsTableRows) {
-            String specItem = row.getElementsByTag("th").first().text();
-            String specData = row.getElementsByTag("td").first().text();
+        Element specsTable = doc.getElementById("specs");
+        if (specsTable != null) {
+            Elements specsTableRows = specsTable.getElementsByTag("tr");
             
-            specifications.put(specItem, Arrays.asList(specData));            
-        }
+            for (Element row : specsTableRows) {
+                Element tableHeader = row.getElementsByTag("th").first();
+                Element tableData = row.getElementsByTag("td").first();
+                                
+                if (tableHeader != null && tableData != null)
+                    specifications.put(tableHeader.text(), Arrays.asList(tableData.text()));
+                
+            }
+        }        
         
         return specifications;
     }
 
     @Override
     public String getPrice(Document doc) {
-        // TODO Auto-generated method stub
         return null;
     }
 
