@@ -32,11 +32,8 @@ public class JohnLewisWrapper extends AbstractWrapper {
                 Element specName = descList.getElementsByTag("dt").first();
                 Element specDesc = descList.getElementsByTag("dd").first();
                 
-                for (Element child : specName.children())
-                    child.remove();
-                
                 if (specName != null && specDesc != null)
-                    specifications.put(specName.text(), Arrays.asList(specDesc.text()));
+                    specifications.put(specName.ownText(), Arrays.asList(specDesc.ownText()));
             }
         }
         

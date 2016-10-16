@@ -7,42 +7,30 @@ import java.util.List;
 import org.jsoup.nodes.Document;
 
 import extraction.AbstractWrapper;
+import extraction.GeneralExtractor;
 import extraction.JohnLewisWrapper;
 
 public class ExtractionTest {
 
-    private static final String[] ToshibaURLs = {
-            "http://us.toshiba.com/computers/laptops/portege/A30/A30t-C1300ED",
-            "http://us.toshiba.com/computers/laptops/portege/Z20t/Z20t-C2110",
-            "http://us.toshiba.com/computers/laptops/portege/Z30/Z30-001011",
-            "http://us.toshiba.com/computers/laptops/portege/A30/A30t-C1340",
-            "http://us.toshiba.com/computers/laptops/tecra/Z50/Z50-034007",
-            "http://us.toshiba.com/computers/laptops/tecra/C40/C40-0ND03K",
-            "http://us.toshiba.com/computers/laptops/tecra/A40/A40-C1440",
-            "http://us.toshiba.com/computers/laptops/tecra/C50/C50-C1502",
-            "http://us.toshiba.com/computers/laptops/tecra/Z50/Z50-C1550",
-            "http://us.toshiba.com/computers/laptops/tecra/A50/A50-03P01G"
-    };
-
-    private static final String[] TDURLs = {
-            "http://www.tigerdirect.com/applications/SearchTools/item-details.asp?EdpNo=8921430&CatId=4935",
-            "http://www.tigerdirect.com/applications/SearchTools/item-details.asp?EdpNo=9943693&CatId=4935",
-            "http://www.tigerdirect.com/applications/SearchTools/item-details.asp?EdpNo=4392337&CatId=3998",
-            "http://www.tigerdirect.com/applications/SearchTools/item-details.asp?EdpNo=9960386&CatId=3998",
-            "http://www.tigerdirect.com/applications/SearchTools/item-details.asp?EdpNo=3662718&CatId=4935",
-            "http://www.tigerdirect.com/applications/SearchTools/item-details.asp?EdpNo=492238&CatId=4935",
-            "http://www.tigerdirect.com/applications/SearchTools/item-details.asp?EdpNo=5480858&CatId=4935",
-            "http://www.tigerdirect.com/applications/SearchTools/item-details.asp?EdpNo=9636943&CatId=4935",
-            "http://www.tigerdirect.com/applications/SearchTools/item-details.asp?EdpNo=3240879&CatId=4935",
-            "http://www.tigerdirect.com/applications/SearchTools/item-details.asp?EdpNo=1785447&CatId=4935"
-    };
-
     public static void main(String[] args) throws IOException {
-        AbstractWrapper wrapper = new JohnLewisWrapper();
+        AbstractWrapper wrapper = new GeneralExtractor();
         
         for(int i = 0; i < 1; i++){
-            Document doc =  wrapper.getDocument("http://www.johnlewis.com/apple-macbook-intel-core-m3-8gb-ram-256gb-flash-storage-12-retina-display/p2679758?colour=Space%20Grey");
+            //Document doc =  wrapper.getDocument("http://www.staples.com/Dell-Inspiron-I5555-0012-15-6-AMD-A8-Processor-6GB-RAM-500-GB-Hard-Drive-Windows-10-Black-Laptop/product_2276190##specificationsContent");
+            //Document doc =  wrapper.getDocument("http://www.pcworld.co.uk/gbuk/computing/laptops/laptops/asus-x541ua-15-6-laptop-silver-10146347-pdt.html?intcmp=home~asus-laptop~product~pr-1~sixth~sale~pr~-~121016");
+            //Document doc =  wrapper.getDocument("http://www.brandsmartusa.com/asus/187853/15+6+gaming+intel+core+laptop+computer.htm");
+            //Document doc =  wrapper.getDocument("http://shop.lenovo.com/us/en/laptops/thinkpad/x-series/x1-carbon/");            
+            //Document doc =  wrapper.getDocument("http://www.johnlewis.com/lenovo-ideapad-310-laptop-intel-core-i5-8gb-ram-1tb-15-6-/p2901246?navAction=jump");
+            //Document doc =  wrapper.getDocument("http://us.toshiba.com/computers/laptops/tecra/C40/C40-C1400ED"); 
+            //Document doc =  wrapper.getDocument("http://www.asus.com/us/Notebooks/ASUS-ZenBook-3-UX390UA/specifications/");
+            
+            //Document doc =  wrapper.getDocument("http://www.newegg.com/Product/Product.aspx?Item=N82E16834232776");
 
+            //Document doc =  wrapper.getDocument("http://store.hp.com/us/en/pdp/hp---15z-laptop-%28touch-option-available%29-v1v04av-1");
+            
+            Document doc =  wrapper.getDocument("http://www.microcenter.com/product/461035/15-ac114nr_156_Laptop_Computer_-_Textured_Diamond_Pattern_in_Black");
+
+            
             try {
                 Thread.sleep(250);
             } catch (InterruptedException e) {

@@ -39,6 +39,7 @@ public class URLQueue {
         return this.queuedURLS.size();
     }
     
+    @SuppressWarnings("unchecked")
     public HashSet<String> getQueuedURLS() {
         return (HashSet<String>) this.queuedURLS.clone();
     }
