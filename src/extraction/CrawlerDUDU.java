@@ -43,7 +43,7 @@ public class CrawlerDUDU {
         
         
         //urlContainer.add(getCrawledURLs("http://www.asus.com/us/", "http://www.asus.com", false));
-        //urlContainer.add(getCrawledURLs("http://www.asus.com/us/", "http://www.asus.com", true));
+        urlContainer.add(getCrawledURLs("http://www.asus.com/us/", "http://www.asus.com", true));
         //5 min, 37 sec
         
         //urlContainer.add(getCrawledURLs("http://www.brandsmartusa.com/", "http://www.brandsmartusa.com/", false));
@@ -58,7 +58,7 @@ public class CrawlerDUDU {
         //urlContainer.add(getCrawledURLs("http://www.bestbuy.com", "http://www.bestbuy.com", false));
         //urlContainer.add(getCrawledURLs("http://www.bestbuy.com/site/promo/blue-label-laptops-evn8139", "http://www.bestbuy.com", true));
         
-        urlContainer.add(getCrawledURLs("http://www.bestbuy.com", "http://www.bestbuy.com", true));
+        //urlContainer.add(getCrawledURLs("http://www.bestbuy.com", "http://www.bestbuy.com", true));
         //urlContainer.add(getCrawledURLs("http://www.computerlane.com", "http://www.computerlane.com", true));
 
         //urlContainer.add(getCrawledURLs("http://www.tigerdirect.com/applications/category/category_tlc.asp?CatId=17", "http://www.tigerdirect.com", true));

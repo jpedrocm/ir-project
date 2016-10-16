@@ -23,19 +23,6 @@ public abstract class AbstractWrapper {
     public abstract String getProductName(Document doc);
 
     public HashMap<String, List<String>> getSpecifications(Document doc) {
-        try (Writer writer = new BufferedWriter(new OutputStreamWriter(
-                new FileOutputStream("filename.txt"), "utf-8"))) {
-     writer.write(doc.html());
-  } catch (UnsupportedEncodingException e) {
-    e.printStackTrace();
-} catch (FileNotFoundException e) {
-    // TODO Auto-generated catch block
-    e.printStackTrace();
-} catch (IOException e) {
-    // TODO Auto-generated catch block
-    e.printStackTrace();
-}
-        
         HashMap<String, List<String>> specifications = new HashMap<String, List<String>>();
         
         String name = getProductName(doc);
@@ -49,5 +36,5 @@ public abstract class AbstractWrapper {
         return specifications;
     }
     
-    public abstract String getPrice(Document doc) ;
+    public abstract String getPrice(Document doc);
 }
