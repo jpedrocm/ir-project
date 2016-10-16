@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Health - Lenovo  Health</title>
+        
+        
+    <script type="text/javascript">
+        //<![CDATA[
+            window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(s){try{i("ierr",[s,(new Date).getTime(),!0])}catch(c){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,e,n){u&&(d+=1)}),s.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),s.on(m,function(){this.bstStart=Date.now()}),s.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,!1),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(17)(a),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){if(t[1]){var n=t[1];if("function"==typeof n){var r=c(n,"nr@wrapped",function(){return s(n,"fn-",null,n.name||"anonymous")});this.wrapped=t[1]=r}else"function"==typeof n.handleEvent&&s.inPlace(n,["handleEvent"],"fn-")}}),a.on(d+"-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[/s](d+.d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&"function"==typeof t&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t){function e(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(u){d([u,"",[r,a,o],s])}f(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(l){throw f(e+"err",[r,a,l],s),l}finally{f(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,u(t,nrWrapper),nrWrapper)}function n(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!c){c=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}c=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),e.inPlace=n,e.flag=a,e}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),s=a.length,c=0;c<s;c++)a[c].apply(i,r);var u=f[w[n]];return u&&u.push([v,n,r,i]),i}function d(t,e){m[t]=l(t).concat(e)}function l(t){return m[t]||[]}function p(t){return u[t]=u[t]||o(n)}function h(t,e){c(t,function(t,n){e=e||"feature",w[n]=e,e in f||(f[e]=[])})}var m={},w={},v={on:d,emit:n,get:p,listeners:l,context:e,buffer:h};return v}function i(){return new r}var a="nr@context",s=t("gos"),c=t(15),f={},u={},d=e.exports=o();d.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!g++){var t=y.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(w,function(e,n){t[e]||(t[e]=n)});var n="https"===m.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",s("mark",["onload",a()],null,"api");var r=u.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===u.readyState&&i()}function i(){s("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var s=t("handle"),c=t(15),f=window,u=f.document,d="addEventListener",l="attachEvent",p=f.XMLHttpRequest,h=p&&p.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:p,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(12);var m=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-963.min.js"},v=p&&h&&h[d]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:m,features:{},xhrWrappable:v};u[d]?(u[d]("DOMContentLoaded",i,!1),f[d]("load",r,!1)):(u[l]("onreadystatechange",o),f[l]("onload",r)),s("mark",["firstbyte",a()],null,"api");var g=0},{}]},{},["loader",2,10,4,3]);
+            ;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"9d040b0d81",applicationID:"8213555",sa:1}
+        //]]>
+    </script>
+
+        
+        <meta name="generator" content="SilverStripe - http://silverstripe.org" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="Lenovo’s innovative response to complicated challenges empower health professionals to improve delivery within institutions, at the bedside, and anywhere within providers’ reach." />
+<link rel="canonical" href="http://solutions.lenovo.com/health/"/>
+<meta content="Research" name="Buying Stage"/>
+<meta content="High" name="Value"/>
+<meta content="Solutions: Panel" name="Asset Type"/>
+<meta content="HLT" name="Sub-Segment"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="http://solutions.lenovo.com/health/"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Health"/>
+<meta property="og:description" content="Lenovo’s innovative response to complicated challenges empower health professionals to improve delivery within institutions, at the bedside, and anywhere within providers’ reach."/>
+<meta property="og:image" content="http://solutions.lenovo.com/assets/kapost-media/_resampled/CroppedFocusedImageWzYwMCwzMTUsIngiLDQ1Nl0/health-homepage-v2-1200x250.jpg"/>
+<meta property="og:image:type" content="image/jpeg"/>
+<meta property="og:image:width" content="600"/>
+<meta property="og:image:height" content="315"/><meta name="twitter:card" content="summary"/>
+<meta name="twitter:url" content="http://solutions.lenovo.com/health/"/>
+<meta name="twitter:site" content="@lenovous"/>
+<meta name="twitter:title" content="Health"/>
+<meta name="twitter:description" content="Lenovo’s innovative response to complicated challenges empower health professionals to improve delivery within institutions, at the bedside, and anywhere within providers’ reach."/>
+<meta name="twitter:image:src" content="http://solutions.lenovo.com/assets/kapost-media/_resampled/CroppedFocusedImageWzI0MCwyNDAsIngiLDQ1Nl0/health-homepage-v2-1200x250.jpg"/>
+<meta name="twitter:image:width" content="240"/>
+<meta name="twitter:image:height" content="240"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"/>
+        
+        <base href="http://solutions.lenovo.com/"><!--[if lte IE 6]></base><![endif]-->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <script type="text/javascript" id="vidyard-eloqua-include">
+            //<![CDATA[
+                var _elqQ=_elqQ || [];
+                _elqQ.push(['elqSetSiteId', '1717']);_elqQ.push(['elqUseFirstPartyCookie', 'tracking.lenovo.com']);_elqQ.push(['elqTrackPageView']);_elqQ.push(['elqGetCustomerGUID']);
+                (function() {
+                    function async_load() {var s=document.createElement('script'); s.type='text/javascript'; s.async=true;s.src='//img.en25.com/i/elqCfg.min.js';var x=document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);}
+                    if(window.addEventListener) {window.addEventListener('DOMContentLoaded', async_load, false);}else if(window.attachEvent) {window.attachEvent('onload', async_load);} 
+                })();
+            //]]>
+        </script>
+        
+        
+            <script type="text/javascript">
+                //<![CDATA[
+                    window.lmd={"cc":"US","bu":"RM","language":"EN","section":"Health","subSection":"Microsite Content","pageType":"Panel","buyingStage":"Research","value":"High","persona":""}
+                //]]>
+            </script>
+            
+            <script src="//assets.adobedtm.com/9f0b01d01b963414024fff848ca9d3750437e1fa/satelliteLib-049b1f0ec32513967b9eef550a7aa4db75461d8a.js"></script>
+        
+    <link rel="stylesheet" type="text/css" href="/assets/_combinedfiles/e4126a2907f78204abafdbfafa4bcb7d.css?m=1476189819" />
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:400,700,700italic,400italic,500,500italic,300,300italic" />
+</head>
+    <body class="typography PanelPage">
+        
+            
+                <div id="Header">
+            
+        
+            
+            <div class="top-bar inner">
+                <a href="home" class="logo" title="Lenovo"><!-- --></a>
+                
+                
+    <div class="menuwrapper">
+        <div class="menu-close hlt">
+            <button class="close"><i class="fa fa-close"></i></button>
+        </div>
+        <nav>
+            <ul class="menu-bar">
+                <li class="show-only-mobile"><a href="home"><span>Home</span></a></li>
+                
+                
+                    <li>
+                        
+                            <a href="/health/" class="segmentMenuTrigger hlt"><span>Health<i class="fa fa-chevron-down"></i></span></a>
+                        
+                        <button class="open-child"><i class="fa fa-chevron-down"></i></button>
+                        
+                        <ul class="otherSegments">
+                            
+                                <li><a href="/government/" class="gov">Government</a></li>
+                            
+                                <li><a href="/k-12-education/" class="k12">K-12 Education</a></li>
+                            
+                                <li><a href="/health/" class="hlt">Health</a></li>
+                            
+                                <li><a href="/higher-education/" class="hed">Higher Education</a></li>
+                            
+                                <li><a href="/large-enterprise/" class="ent">Large Enterprise</a></li>
+                            
+                                <li><a href="/lenovo-partner-network/" class="lpn">Lenovo Partner Network</a></li>
+                            
+                        </ul>
+                    </li>
+                
+                
+                
+                    
+                        <li>
+                            <a href="/products/" class="menu"><span>Products</span></a>
+                                                                                                              
+                            
+                                <button class="open-child"><i class="fa fa-chevron-down"></i></button>
+                                <ul>
+                                    
+                                        <li><a href="/products/laptops/" class="link">Laptops &amp; Tablets</a></li>
+                                    
+                                        <li><a href="/products/desktops/" class="link">Desktops</a></li>
+                                    
+                                        <li><a href="/products/workstations/" class="link">Workstations</a></li>
+                                    
+                                        <li><a href="/products/servers/" class="link">Servers</a></li>
+                                    
+                                        <li><a href="/products/services/" class="link">Services</a></li>
+                                    
+                                </ul>
+                            
+                        </li>
+                    
+                
+                
+                
+                    <li><a href="/resource-center/health" class="link"><span>Resources</span></a></li>
+                
+                
+                
+                    <li class="repContactLink"><a href="/have-a-rep-contact-you/"><span>Contact</span></a></li>
+                
+            </ul>
+        </nav>
+    </div>
+
+                
+                
+                    
+<form id="Form_SearchForm" action="http://solutions.lenovo.com/search" method="get" enctype="application/x-www-form-urlencoded" class="search-form">
+
+	
+	<p id="Form_SearchForm_error" class="message " style="display: none"></p>
+	
+
+	<fieldset>
+		
+		
+			<div id="Form_SearchForm_Keyword_Holder" class="field text nolabel">
+	
+	<div class="middleColumn">
+		<input type="text" name="Keyword" class="text nolabel" id="Form_SearchForm_Keyword" placeholder="Search" pattern=".{2,}" title="Search term must be a minimum of 2 characters" />
+	</div>
+	
+	
+	
+</div>
+
+		
+		<div class="clear"><!-- --></div>
+	</fieldset>
+
+	
+	<div class="Actions">
+		
+			<button type="submit" name="action_doSearch" value="Go" class="action" id="Form_SearchForm_action_doSearch" title="Go">
+		<i class="fa fa-search"><!-- --></i>
+	</button>
+		
+	</div>
+	
+
+</form>
+
+
+                
+                
+                <a href="/health/?menu-id=health#" id="mobile-menu-trigger"><i class="fa fa-bars"><!-- --></i></a>
+            </div>
+            
+            <div class="inner breadcrumbs hlt">
+                
+    <nav>
+        <a href="home">Workplace Solutions</a><i class="fa fa-angle-right"><!-- --></i><span>Health</span>
+    </nav>
+
+                
+                
+                    <div id="eloqua-welcome">
+                        
+                            <a href="home/join-newsletter" id="join-newsletter-link" rel="nofollow"><i class="fa fa-envelope"><!-- --></i>Join our Newsletter</a>
+                        
+                    </div>
+                
+            </div>
+        </div>
+        
+        <div id="Content">
+            
+    <div class="inner page-banner hlt" style="background-image: url(/assets/kapost-media/health-homepage-v2-1200x250.jpg)">
+    <div class="contents">
+        <h1>Customized Care, Anywhere</h1>
+        <h2>Lenovo Solutions for Health</h2>
+    </div>
+</div>
+
+
+
+    
+
+
+<div class="inner">
+    
+        
+            
+                <div id="pb-health-himss-midwest-event" data-segment="HLT" class="basic-panel centerText text-white subheading-white back-color-hlt no-second-column">
+                    <div class="flexWrap">
+    <div class="textBlock">
+        
+        
+        
+            <h4 class="panel-subheading">Join us at the HIMSS 2016 Midwest Fall Technology Conference</h4>
+        
+        
+        
+            <p>November 13-15 | Radisson Blu at the Mall of America, Bloomington, MN | <a href="http://www.midwest-ftc.org/" target="_blank">More Information</a></p>
+        
+    </div>
+    
+    
+</div>
+
+
+
+    <div class="panel-sharer-wrap">
+    <a href="/health/?menu-id=health#pb-health-himss-midwest-event" class="panel-sharer" title="Share This"><i class="fa fa-share-alt"><!-- --></i></a>
+    
+    <div class="panel-sharer-popup">
+        <span class="panel-sharer-title">Share This</span><!--
+        --><span class="st_twitter_custom fa fa-twitter" st_url="http://solutions.lenovo.com/health/#pb-health-himss-midwest-event" displayText="Tweet" st_via="LenovoHealth"></span><!--
+        --><span class="st_facebook_custom fa fa-facebook" st_url="http://solutions.lenovo.com/health/#pb-health-himss-midwest-event" displayText="Facebook"></span><!--
+        --><span class="st_linkedin_custom fa fa-linkedin" st_url="http://solutions.lenovo.com/health/#pb-health-himss-midwest-event" displayText="LinkedIn"></span><!--
+        --><span class="st_googleplus_custom fa fa-google-plus" st_url="http://solutions.lenovo.com/health/#pb-health-himss-midwest-event" displayText="Google+"></span><!--
+        --><span class="st_email_custom fa fa-envelope" st_url="http://solutions.lenovo.com/health/#pb-health-himss-midwest-event" displayText="Email This Page"></span><!--
+        --><span class="share_anchor_link fa fa-link" st_url="http://solutions.lenovo.com/health/#pb-health-himss-midwest-event" title="Copy Link"></span>
+    </div>
+</div>
+
+                </div>
+            
+                <div id="as-your-proactive-it-partner-lenovo-health-powers-the-delivery-of-healthcare-transformation-our-mobility-security-and-cloud-solutions-help-you-coordinate-and-customize-care-virtually-anywhere" data-segment="HLT" class="basic-panel centerText heading-hlt border-solid border-2x border-light-grey border-bottom no-cta-image">
+                    <div class="flexWrap">
+    <div class="textBlock">
+        
+            <h3 class="panel-heading">As your proactive IT partner, Lenovo Health powers the delivery of healthcare transformation. Our mobility, security and cloud solutions help you coordinate and customize care virtually anywhere.</h3>
+        
+        
+        
+        
+        
+            
+        
+    </div>
+    
+    
+        <div class="ctaBlock">
+            
+                
+                
+                
+                    
+                        
+                    
+                
+            
+        </div>
+    
+</div>
+
+
+
+                </div>
+            
+                <div id="new-resources" data-segment="HLT" class="basic-panel grid-panel has-back-image back-no-repeat back-bottom-center centerText heading-lcm no-second-column" style="background-image: url(/assets/Uploads/2px-gray-panel-border2.png)">
+                    
+    <div class="textBlock">
+        
+            <h3 class="panel-heading">New Resources</h3>
+        
+        
+        
+            <h4 class="panel-subheading">View the latest information on solutions, trends and tips to help you provide the best care</h4>
+        
+        
+        
+            
+        
+    </div>
+
+
+
+    <div class="panel-items-grid threeUp-grid">
+        
+            
+    <div class="grid-item height-not-adjusted hlt threeUp">
+        
+            <div class="imgWrap">
+                
+                    
+                        
+                            <img src="/assets/kapost-media/_resampled/CroppedFocusedImageWyIzNDMiLCIyNTAiLCJ4Iiw0Mjld/lenovo-health-by-the-numbers-v2-1200x250.jpg" alt="lenovo health by the numbers v2 1200x250" />
+                        
+                    
+                
+                
+                
+                    <h4><a href="/resource-center/health/lenovo-health-by-the-numbers/"><span>Lenovo Health by the Numbers</span></a></h4>
+            </div>
+        
+        
+        
+            <div class="textWrap">
+                <p>Lenovo Health helps providers turn information into insight for better clinical outcomes. See how. </p>
+            </div>
+        
+        
+        
+            <p class="ctaButton">
+                
+                    <a href="/resource-center/health/lenovo-health-by-the-numbers/" class="button">Partner with Lenovo Health<i class="fa fa-angle-right"><!-- --></i></a>
+                
+            </p>
+        
+    </div>
+
+        
+            
+    <div class="grid-item height-not-adjusted hlt threeUp">
+        
+            <div class="imgWrap">
+                
+                    
+                        
+                            <img src="/assets/kapost-media/_resampled/CroppedFocusedImageWyIzNDMiLCIyNTAiLCJ4Iiw0Mjld/end-to-end-health-it-solutions-v2-1200x250.jpg" alt="end to end health it solutions v2 1200x250" />
+                        
+                    
+                
+                
+                
+                    <h4><a href="http://bit.ly/1l7wEy3" class="ungated-download trackedDownloadLink" target="_blank" data-elq-default-source="16Q4_NA_RM_HLT_ALL_WEB_BN_WP_RSC_HCAwareness" data-elq-campaign="2003" data-sfdc-campaign="701140000026t5d" data-server-led="0" data-resource-next="/resource-center/health/lenovo-health-customized-care-anywhere/whats-next-content" data-tracker-url="/resource-center/health/lenovo-health-customized-care-anywhere/thank-you-tracker" data-download-type="eBook" data-download-name="Lenovo Health Solutions Portfolio"><span>Lenovo Health: Customized Care Anywhere</span></a></h4>
+            </div>
+        
+        
+        
+            <div class="textWrap">
+                <p>Lenovo is your single-source IT partner when it comes to providing the best level of patient care, satisfaction, and engagement across the care continuum. </p>
+            </div>
+        
+        
+        
+            <p class="ctaButton">
+                
+                    <a href="http://bit.ly/1l7wEy3" class="button ungated-download trackedDownloadLink" target="_blank" data-elq-default-source="16Q4_NA_RM_HLT_ALL_WEB_BN_WP_RSC_HCAwareness" data-elq-campaign="2003" data-sfdc-campaign="701140000026t5d" data-server-led="0" data-resource-next="/resource-center/health/lenovo-health-customized-care-anywhere/whats-next-content" data-tracker-url="/resource-center/health/lenovo-health-customized-care-anywhere/thank-you-tracker" data-download-type="eBook" data-download-name="Lenovo Health Solutions Portfolio">Explore Our Comprehensive Solutions<i class="fa fa-angle-right"><!-- --></i></a>
+                
+            </p>
+        
+    </div>
+
+        
+            
+    <div class="grid-item height-not-adjusted hlt threeUp end">
+        
+            <div class="imgWrap">
+                
+                    
+                        
+                            <img src="/assets/kapost-media/_resampled/CroppedFocusedImageWyIzNDMiLCIyNTAiLCJ4IiwxMDld/power-patient-engagement-with-tech-v2-1200x250.jpg" alt="power patient engagement with tech v2 1200x250" />
+                        
+                    
+                
+                
+                
+                    <h4><a href="http://bit.ly/1OiPgFR" class="ungated-download trackedDownloadLink" target="_blank" data-elq-default-source="16Q4_NA_RM_HLT_ALL_WEB_BN_WP_RSC_HCAwareness" data-elq-campaign="2003
+" data-sfdc-campaign="701140000026t5d" data-server-led="0" data-resource-next="/resource-center/health/power-patient-engagement-with-technology/whats-next-content" data-tracker-url="/resource-center/health/power-patient-engagement-with-technology/thank-you-tracker" data-download-type="Checklist" data-download-name="10 Tips for Better Patient Engagement"><span>Power Patient Engagement with Technology</span></a></h4>
+            </div>
+        
+        
+        
+            <div class="textWrap">
+                <p>Educate. Engage. Empower. 10 Ways to Improve Patient Care with Tips from Lenovo Health <br />
+</p>
+            </div>
+        
+        
+        
+            <p class="ctaButton">
+                
+                    <a href="http://bit.ly/1OiPgFR" class="button ungated-download trackedDownloadLink" target="_blank" data-elq-default-source="16Q4_NA_RM_HLT_ALL_WEB_BN_WP_RSC_HCAwareness" data-elq-campaign="2003
+" data-sfdc-campaign="701140000026t5d" data-server-led="0" data-resource-next="/resource-center/health/power-patient-engagement-with-technology/whats-next-content" data-tracker-url="/resource-center/health/power-patient-engagement-with-technology/thank-you-tracker" data-download-type="Checklist" data-download-name="10 Tips for Better Patient Engagement">Read More Now<i class="fa fa-angle-right"><!-- --></i></a>
+                
+            </p>
+        
+    </div>
+
+        
+        
+        
+    </div>
+
+
+
+
+
+
+    <div class="panel-sharer-wrap">
+    <a href="/health/?menu-id=health#new-resources" class="panel-sharer" title="Share This"><i class="fa fa-share-alt"><!-- --></i></a>
+    
+    <div class="panel-sharer-popup">
+        <span class="panel-sharer-title">Share This</span><!--
+        --><span class="st_twitter_custom fa fa-twitter" st_url="http://solutions.lenovo.com/health/#new-resources" displayText="Tweet" st_via="LenovoHealth"></span><!--
+        --><span class="st_facebook_custom fa fa-facebook" st_url="http://solutions.lenovo.com/health/#new-resources" displayText="Facebook"></span><!--
+        --><span class="st_linkedin_custom fa fa-linkedin" st_url="http://solutions.lenovo.com/health/#new-resources" displayText="LinkedIn"></span><!--
+        --><span class="st_googleplus_custom fa fa-google-plus" st_url="http://solutions.lenovo.com/health/#new-resources" displayText="Google+"></span><!--
+        --><span class="st_email_custom fa fa-envelope" st_url="http://solutions.lenovo.com/health/#new-resources" displayText="Email This Page"></span><!--
+        --><span class="share_anchor_link fa fa-link" st_url="http://solutions.lenovo.com/health/#new-resources" title="Copy Link"></span>
+    </div>
+</div>
+
+                </div>
+            
+                <div id="explore-these-lenovo-health-case-studies" data-segment="HLT" class="basic-panel grid-panel has-back-image back-no-repeat back-bottom-center centerText heading-hed subheading-light-grey no-second-column" style="background-image: url(/assets/Uploads/2px-gray-panel-border.png)">
+                    
+    <div class="textBlock">
+        
+            <h3 class="panel-heading">Explore these Lenovo health case studies</h3>
+        
+        
+        
+            <h4 class="panel-subheading">See how leading healthcare providers leverage Lenovo solutions to improve care and protect patient privacy</h4>
+        
+        
+        
+    </div>
+
+
+
+    <div class="panel-items-grid threeUp-grid">
+        
+            
+    <div class="grid-item height-not-adjusted hlt threeUp">
+        
+            <div class="imgWrap">
+                
+                    
+                        
+                            <img src="/assets/kapost-media/_resampled/CroppedFocusedImageWyIzNDMiLCIyNTAiLCJ4Iiw4MjVd/health-case-snapshot-dialysis-services-v2-1200x250.jpg" alt="health case snapshot dialysis services v2 1200x250" />
+                        
+                    
+                
+                
+                
+                    <h4><a href="http://bit.ly/22xMcf0" class="ungated-download trackedDownloadLink" target="_blank" data-elq-default-source="17Q2_NA_RMHLT_ALL_ALL_WEB_BN_CS_RSC_WhyLenovo_SnapShot1" data-elq-campaign="2532" data-sfdc-campaign="70114000000vl4J" data-server-led="0" data-resource-next="/resource-center/health/lenovo-health-for-dialysis/whats-next-content" data-tracker-url="/resource-center/health/lenovo-health-for-dialysis/thank-you-tracker" data-download-type="Case Study" data-download-name="Lenovo Health for Dialysis Services"><span>Lenovo Health for Dialysis</span></a></h4>
+            </div>
+        
+        
+        
+            <div class="textWrap">
+                <p>When a leading provider of outpatient dialysis services needed flexible, high-performance, totally reliable technology to support thousands of centers and nearly 200,000 patients, they turned to Lenovo. </p>
+            </div>
+        
+        
+        
+            <p class="ctaButton">
+                
+                    <a href="http://bit.ly/22xMcf0" class="button ungated-download trackedDownloadLink" target="_blank" data-elq-default-source="17Q2_NA_RMHLT_ALL_ALL_WEB_BN_CS_RSC_WhyLenovo_SnapShot1" data-elq-campaign="2532" data-sfdc-campaign="70114000000vl4J" data-server-led="0" data-resource-next="/resource-center/health/lenovo-health-for-dialysis/whats-next-content" data-tracker-url="/resource-center/health/lenovo-health-for-dialysis/thank-you-tracker" data-download-type="Case Study" data-download-name="Lenovo Health for Dialysis Services">Read the Case Study<i class="fa fa-angle-right"><!-- --></i></a>
+                
+            </p>
+        
+    </div>
+
+        
+            
+    <div class="grid-item height-not-adjusted hlt threeUp">
+        
+            <div class="imgWrap">
+                
+                    
+                        
+                            <img src="/assets/kapost-media/_resampled/CroppedFocusedImageWyIzNDMiLCIyNTAiLCJ4Iiw0OV0/health-case-snapshot-hospitals-clinics-practices-v2-1200x250.jpg" alt="health case snapshot hospitals clinics practices v2 1200x250" />
+                        
+                    
+                
+                
+                
+                    <h4><a href="http://bit.ly/1UeiRAs" class="ungated-download trackedDownloadLink" target="_blank" data-elq-default-source="17Q2_NA_RMHLT_ALL_ALL_WEB_BN_CS_RSC_WhyLenovo_SnapShot2" data-elq-campaign="2532" data-sfdc-campaign="70114000000vl4J" data-server-led="0" data-resource-next="/resource-center/health/lenovo-hospital-case-study/whats-next-content" data-tracker-url="/resource-center/health/lenovo-hospital-case-study/thank-you-tracker" data-download-type="Case Study" data-download-name="Lenovo Health for Hospitals"><span>Lenovo Hospital Case Study</span></a></h4>
+            </div>
+        
+        
+        
+            <div class="textWrap">
+                <p>Medical care doesn’t get downtime, which is why when a large network of hospitals, clinics, and local practices needed to expand collaborative care through technology, they chose Lenovo.</p>
+            </div>
+        
+        
+        
+            <p class="ctaButton">
+                
+                    <a href="http://bit.ly/1UeiRAs" class="button ungated-download trackedDownloadLink" target="_blank" data-elq-default-source="17Q2_NA_RMHLT_ALL_ALL_WEB_BN_CS_RSC_WhyLenovo_SnapShot2" data-elq-campaign="2532" data-sfdc-campaign="70114000000vl4J" data-server-led="0" data-resource-next="/resource-center/health/lenovo-hospital-case-study/whats-next-content" data-tracker-url="/resource-center/health/lenovo-hospital-case-study/thank-you-tracker" data-download-type="Case Study" data-download-name="Lenovo Health for Hospitals">Read the Case Study<i class="fa fa-angle-right"><!-- --></i></a>
+                
+            </p>
+        
+    </div>
+
+        
+            
+    <div class="grid-item height-not-adjusted hlt threeUp end">
+        
+            <div class="imgWrap">
+                
+                    
+                        
+                            <img src="/assets/kapost-media/_resampled/CroppedFocusedImageWyIzNDMiLCIyNTAiLCJ4Iiw4MTJd/health-case-snapshot-large-health-network-v2-1200x250.jpg" alt="health case snapshot large health network v2 1200x250" />
+                        
+                    
+                
+                
+                
+                    <h4><a href="http://bit.ly/1TJOUIS" class="ungated-download trackedDownloadLink" target="_blank" data-elq-default-source="17Q2_NA_RMHLT_ALL_ALL_WEB_BN_CS_RSC_WhyLenovo_SnapShot3" data-elq-campaign="2532" data-sfdc-campaign="70114000000vl4J" data-server-led="0" data-resource-next="/resource-center/health/health-built-with-lenovo/whats-next-content" data-tracker-url="/resource-center/health/health-built-with-lenovo/thank-you-tracker" data-download-type="Case Study" data-download-name="Health Network Snapshot"><span>Health Built with Lenovo</span></a></h4>
+            </div>
+        
+        
+        
+            <div class="textWrap">
+                <p>From administration to in-room patient engagement to nursing stations and digital signage, one of the largest and most complex health networks turned to Lenovo for technology that could deliver. </p>
+            </div>
+        
+        
+        
+            <p class="ctaButton">
+                
+                    <a href="http://bit.ly/1TJOUIS" class="button ungated-download trackedDownloadLink" target="_blank" data-elq-default-source="17Q2_NA_RMHLT_ALL_ALL_WEB_BN_CS_RSC_WhyLenovo_SnapShot3" data-elq-campaign="2532" data-sfdc-campaign="70114000000vl4J" data-server-led="0" data-resource-next="/resource-center/health/health-built-with-lenovo/whats-next-content" data-tracker-url="/resource-center/health/health-built-with-lenovo/thank-you-tracker" data-download-type="Case Study" data-download-name="Health Network Snapshot">Get the Details<i class="fa fa-angle-right"><!-- --></i></a>
+                
+            </p>
+        
+    </div>
+
+        
+        
+        
+    </div>
+
+
+
+
+
+
+    <div class="panel-sharer-wrap">
+    <a href="/health/?menu-id=health#explore-these-lenovo-health-case-studies" class="panel-sharer" title="Share This"><i class="fa fa-share-alt"><!-- --></i></a>
+    
+    <div class="panel-sharer-popup">
+        <span class="panel-sharer-title">Share This</span><!--
+        --><span class="st_twitter_custom fa fa-twitter" st_url="http://solutions.lenovo.com/health/#explore-these-lenovo-health-case-studies" displayText="Tweet" st_via="LenovoHealth"></span><!--
+        --><span class="st_facebook_custom fa fa-facebook" st_url="http://solutions.lenovo.com/health/#explore-these-lenovo-health-case-studies" displayText="Facebook"></span><!--
+        --><span class="st_linkedin_custom fa fa-linkedin" st_url="http://solutions.lenovo.com/health/#explore-these-lenovo-health-case-studies" displayText="LinkedIn"></span><!--
+        --><span class="st_googleplus_custom fa fa-google-plus" st_url="http://solutions.lenovo.com/health/#explore-these-lenovo-health-case-studies" displayText="Google+"></span><!--
+        --><span class="st_email_custom fa fa-envelope" st_url="http://solutions.lenovo.com/health/#explore-these-lenovo-health-case-studies" displayText="Email This Page"></span><!--
+        --><span class="share_anchor_link fa fa-link" st_url="http://solutions.lenovo.com/health/#explore-these-lenovo-health-case-studies" title="Copy Link"></span>
+    </div>
+</div>
+
+                </div>
+            
+                <div id="featured-products" data-segment="HLT" class="basic-panel grid-panel centerText heading-hlt no-second-column">
+                    
+    <div class="textBlock">
+        
+            <h3 class="panel-heading">Featured Products</h3>
+        
+        
+        
+            <h4 class="panel-subheading">See how the latest innovations and partnerships benefit providers and patients</h4>
+        
+        
+        
+            
+        
+    </div>
+
+
+
+    <div class="panel-items-grid threeUp-grid">
+        
+            
+    <div class="grid-item height-not-adjusted lcm oneUp end">
+        
+            <div class="imgWrap">
+                
+                    
+                        
+                            <img src="/assets/kapost-media/_resampled/CroppedFocusedImageWyIxMDkyIiwiMjUwIiwieCIsNTRd/ebook-x1-family-features-v2-1200x250.jpg" alt="ebook x1 family features v2 1200x250" />
+                        
+                    
+                
+                
+                
+                    <h4><a href="http://bit.ly/1l0r28z" class="ungated-download trackedDownloadLink" target="_blank" data-elq-default-source="16Q3_NA_RM_ALL_LN_X1_10_EB_WB" data-elq-campaign="16Q3_NA_RM_ALL_LN_X1" data-sfdc-campaign="701140000026mIV" data-server-led="0" data-resource-next="/resource-center/commercial-marketing/x1-product-family-brochure/whats-next-content" data-tracker-url="/resource-center/commercial-marketing/x1-product-family-brochure/thank-you-tracker" data-download-type="eBook" data-download-name="eBook X1 Family Features"><span>X1 Product Family Brochure</span></a></h4>
+            </div>
+        
+        
+        
+            <div class="textWrap">
+                <p>Lenovo X1: a new brand of products built to perform and designed to impress, bringing more of what matters to your most important work.</p>
+            </div>
+        
+        
+        
+            <p class="ctaButton">
+                
+                    <a href="http://bit.ly/1l0r28z" class="button ungated-download trackedDownloadLink" target="_blank" data-elq-default-source="16Q3_NA_RM_ALL_LN_X1_10_EB_WB" data-elq-campaign="16Q3_NA_RM_ALL_LN_X1" data-sfdc-campaign="701140000026mIV" data-server-led="0" data-resource-next="/resource-center/commercial-marketing/x1-product-family-brochure/whats-next-content" data-tracker-url="/resource-center/commercial-marketing/x1-product-family-brochure/thank-you-tracker" data-download-type="eBook" data-download-name="eBook X1 Family Features">View the X1 Family<i class="fa fa-angle-right"><!-- --></i></a>
+                
+            </p>
+        
+    </div>
+
+        
+        
+        
+    </div>
+
+
+
+
+
+
+    <div class="panel-sharer-wrap">
+    <a href="/health/?menu-id=health#featured-products" class="panel-sharer" title="Share This"><i class="fa fa-share-alt"><!-- --></i></a>
+    
+    <div class="panel-sharer-popup">
+        <span class="panel-sharer-title">Share This</span><!--
+        --><span class="st_twitter_custom fa fa-twitter" st_url="http://solutions.lenovo.com/health/#featured-products" displayText="Tweet" st_via="LenovoHealth"></span><!--
+        --><span class="st_facebook_custom fa fa-facebook" st_url="http://solutions.lenovo.com/health/#featured-products" displayText="Facebook"></span><!--
+        --><span class="st_linkedin_custom fa fa-linkedin" st_url="http://solutions.lenovo.com/health/#featured-products" displayText="LinkedIn"></span><!--
+        --><span class="st_googleplus_custom fa fa-google-plus" st_url="http://solutions.lenovo.com/health/#featured-products" displayText="Google+"></span><!--
+        --><span class="st_email_custom fa fa-envelope" st_url="http://solutions.lenovo.com/health/#featured-products" displayText="Email This Page"></span><!--
+        --><span class="share_anchor_link fa fa-link" st_url="http://solutions.lenovo.com/health/#featured-products" title="Copy Link"></span>
+    </div>
+</div>
+
+                </div>
+            
+                <div id="pb-health-product-more-info-cta" data-segment="HLT" class="basic-panel centerText no-cta-image">
+                    <div class="flexWrap">
+    <div class="textBlock">
+        
+        
+        
+        
+        
+    </div>
+    
+    
+        <div class="ctaBlock">
+            
+                
+                
+                
+                    
+                        
+                            <p class="ctaButton">
+                                <a href="http://solutions.lenovo.com/lenovo-health/lenovo-health-products/" target="_self" class="button">Learn More About Our Other Products<i class="fa fa-angle-right"><!-- --></i></a>
+                            </p>
+                        
+                    
+                
+            
+        </div>
+    
+</div>
+
+
+
+                </div>
+            
+                <div id="to-learn-how-lenovo-health-can-help-you-deliver-customized-care-anywhere-click-the-button-below" data-segment="HLT" class="basic-panel has-back-image back-no-repeat back-cover centerText heading-hlt no-cta-image" style="background-image: url(/assets/Uploads/generic-health-v2-ghost-1200x251.png)">
+                    <div class="flexWrap">
+    <div class="textBlock">
+        
+            <h3 class="panel-heading">To learn how Lenovo Health can help you deliver customized care anywhere, click the button below.</h3>
+        
+        
+        
+            <h4 class="panel-subheading"></h4>
+        
+        
+        
+            
+        
+    </div>
+    
+    
+        <div class="ctaBlock">
+            
+                
+                
+                
+                    
+                        
+                            <p class="ctaButton">
+                                <a href="http://solutions.lenovo.com/have-a-rep-contact-you/" target="_self" class="button">Have a Rep Contact You<i class="fa fa-angle-right"><!-- --></i></a>
+                            </p>
+                        
+                    
+                
+            
+        </div>
+    
+</div>
+
+
+
+    <div class="panel-sharer-wrap">
+    <a href="/health/?menu-id=health#to-learn-how-lenovo-health-can-help-you-deliver-customized-care-anywhere-click-the-button-below" class="panel-sharer" title="Share This"><i class="fa fa-share-alt"><!-- --></i></a>
+    
+    <div class="panel-sharer-popup">
+        <span class="panel-sharer-title">Share This</span><!--
+        --><span class="st_twitter_custom fa fa-twitter" st_url="http://solutions.lenovo.com/health/#to-learn-how-lenovo-health-can-help-you-deliver-customized-care-anywhere-click-the-button-below" displayText="Tweet" st_via="LenovoHealth"></span><!--
+        --><span class="st_facebook_custom fa fa-facebook" st_url="http://solutions.lenovo.com/health/#to-learn-how-lenovo-health-can-help-you-deliver-customized-care-anywhere-click-the-button-below" displayText="Facebook"></span><!--
+        --><span class="st_linkedin_custom fa fa-linkedin" st_url="http://solutions.lenovo.com/health/#to-learn-how-lenovo-health-can-help-you-deliver-customized-care-anywhere-click-the-button-below" displayText="LinkedIn"></span><!--
+        --><span class="st_googleplus_custom fa fa-google-plus" st_url="http://solutions.lenovo.com/health/#to-learn-how-lenovo-health-can-help-you-deliver-customized-care-anywhere-click-the-button-below" displayText="Google+"></span><!--
+        --><span class="st_email_custom fa fa-envelope" st_url="http://solutions.lenovo.com/health/#to-learn-how-lenovo-health-can-help-you-deliver-customized-care-anywhere-click-the-button-below" displayText="Email This Page"></span><!--
+        --><span class="share_anchor_link fa fa-link" st_url="http://solutions.lenovo.com/health/#to-learn-how-lenovo-health-can-help-you-deliver-customized-care-anywhere-click-the-button-below" title="Copy Link"></span>
+    </div>
+</div>
+
+                </div>
+            
+        
+    
+    
+    
+    
+    <div class="clear"><!-- --></div>
+</div>
+            
+            <div class="clear"><!-- --></div>
+            
+            
+                
+            
+        </div>
+            
+        
+    <div id="RepContactBar" class="inner">
+        <a href="/have-a-rep-contact-you/" id="RepContactFooterToggle">Want to talk to someone? <b>Have a rep contact you. <i class="fa fa-chevron-right"><!-- --></i></b></a>
+    </div>
+
+
+<div id="Footer" class="inner">
+    <div class="footerLeft">
+        <nav>
+            <ul>
+                <li><a href="http://community.lenovo.com/" target="_blank"><i class="fa fa-fw fa-group"><!-- --></i>Lenovo Community</a></li>
+                <li><a href="https://twitter.com/LenovoHealth" target="_blank"><i class="fa fa-fw fa-twitter"><!-- --></i>Follow us on Twitter</a></li>
+                
+                
+                    <li><a href="/subscribe-to-lenovo-communications/"><i class="fa fa-fw fa-envelope"><!-- --></i>Stay Connected</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="footerRight">
+        
+            <p class="fundingLogos">Ultrabook, Celeron, Celeron Inside, Core Inside, Intel, Intel Logo, Intel Atom, Intel Atom Inside, Intel Core, Intel Inside, Intel Inside Logo, Intel vPro, Pentium, Pentium Inside, vPro Inside, Xeon, and Xeon Inside are trademarks of Intel Corporation in the U.S. and/or other countries. All other trademarks are the property of their respective owners.</p>
+        
+        
+        <p>&copy;2016 Lenovo. All rights reserved.</p>
+        
+        
+            
+                <nav>
+                    <ul class="footerLinks">
+                        
+                            <li><a href="http://www.lenovo.com/lenovo/us/en/index.shtml">About Lenovo</a></li>
+                        
+                            <li><a href="/have-a-rep-contact-you/">Contact a Representative</a></li>
+                        
+                            <li><a href="http://www.lenovo.com/privacy/us/en/">Privacy</a></li>
+                        
+                            <li><a href="http://shop.lenovo.com/us/en/legal/index.html">Terms of Use</a></li>
+                        
+                    </ul>
+                </nav>
+            
+        
+    </div>
+    
+    <a href="/health/?menu-id=health#" id="backToTop"><i class="fa fa-chevron-circle-up"><!-- --></i><br/>Top</a>
+    
+    <div class="clear"><!-- --></div>
+</div>
+        
+        
+        
+        <!--[if lt IE 10]>
+            <script type="text/javascript" src="themes/lenovo/javascript/externals/modernizr.input.attrs.js"></script>
+            <script type="text/javascript">
+                //<![CDATA[
+                Modernizr.load({
+                    test: Modernizr.input.placeholder,
+                    nope: 'themes/lenovo/javascript/legacy-placeholder.js'
+                });
+                //]]>
+            </script>
+        <![endif]-->
+        
+        <script type="text/javascript">
+            //<![CDATA[
+                if(typeof _satellite!=="undefined")_satellite.pageBottom();
+            //]]>
+        </script>
+        
+        
+            <script type="text/javascript">
+                //<![CDATA[
+                    _bizo_data_partner_id = "7045";
+                    
+                    (function() {
+                      var s = document.getElementsByTagName("script")[0];
+                      var b = document.createElement("script");
+                      b.type = "text/javascript";
+                      b.async = true;
+                      b.src = (window.location.protocol === "https:" ? "https://sjs" : "http://js") + ".bizographics.com/insight.min.js";
+                      s.parentNode.insertBefore(b, s);
+                    })();
+                //]]>
+            </script>
+            <noscript>
+                <img height="1" width="1" alt="" style="display:none;" src="//www.bizographics.com/collect/?pid=7045&amp;fmt=gif" />
+            </noscript>
+            
+            <script type="text/javascript">
+                //<![CDATA[
+                    var versaTag = {};
+                    versaTag.id = "3608";
+                    versaTag.sync = 0;
+                    versaTag.dispType = "js";
+                    versaTag.ptcl = "HTTPS";
+                    versaTag.bsUrl = "bs.serving-sys.com/BurstingPipe";
+                    versaTag.activityParams = {
+                    "OrderID":"","Session":"","Value":"","productid":"","productinfo":"","Quantity":""
+                    };
+                    versaTag.retargetParams = {};
+                    versaTag.dynamicRetargetParams = {};
+                    versaTag.conditionalParams = {};
+                //]]>
+            </script>
+            <script id="ebOneTagUrlId" src="https://secure-ds.serving-sys.com/SemiCachedScripts/ebOneTag.js"></script>
+            <noscript>
+                <iframe src="https://bs.serving-sys.com/BurstingPipe?cn=ot&amp;onetagid=3608&amp;ns=1&amp;activityValues=$$Value=[Value]&amp;OrderID=[OrderID]&amp;Session=[Session]&amp;ProductID=[ProductID]&amp;ProductInfo=[ProductInfo]&amp;Quantity=[Quantity]$$&amp;retargetingValues=$$$$&amp;dynamicRetargetingValues=$$$$&amp;acp=$$$$&amp;" style="display:none;width:0px;height:0px"></iframe>
+            </noscript>
+            
+            <script type="text/javascript">
+                //<![CDATA[
+                    ;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+                    p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+                    };p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+                    n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d26x5ounzdjojj.cloudfront.net/2.5.3/sp.js","snowplow"));
+
+                    window.snowplow('newTracker', 'co', 'collector.thebigwillow.work', {appId: 'Lb9020726090907ee',platform: 'web',contexts: {webPage: true}});
+                    window.snowplow('enableActivityTracking', 30, 30); 
+                    window.snowplow('enableLinkClickTracking');
+                    window.snowplow('trackPageView');
+                //]]>
+            </script>
+        
+        
+        <script type="text/javascript" src="/assets/_combinedfiles/841ee579585688adbdaea05972b3536b.js?m=1476189819"></script><script type="text/javascript" src="http://play.vidyard.com/v0/api.js"></script><script type="text/javascript">//<![CDATA[
+var ELOQUA_NOT_YOU_URL='http://solutions.lenovo.com/health/not-me';
+
+//]]></script><script type="text/javascript">//<![CDATA[
+var switchTo5x=true;(function() {var stscr=document.createElement("script");stscr.type="text/javascript";stscr.async=true;stscr.src="https://ws.sharethis.com/button/buttons.js";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(stscr, s);stscr.onload=stCB;stscr.onreadystatechange=function(){if(stscr.readyState=="loaded"){stCB();}};function stCB(){stLight.options({publisher: "9eba3f6f-fecc-465f-b86e-3c079839c2ad",doNotHash: true,doNotCopy: true,hashAddressBar: false,onhover: false,servicePopup: true});}})();
+
+//]]></script><script type="text/javascript">//<![CDATA[
+var ELQ_METADATA={"lead_source":null,"sfdc_campaign_id":null,"elq_campaign_id":null,"server_led":""}
+
+//]]></script><script type="text/javascript"></script>
+    </body>
+</html>
