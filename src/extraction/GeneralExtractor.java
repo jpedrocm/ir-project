@@ -3,15 +3,11 @@ package extraction;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 
-import org.jsoup.nodes.Attribute;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-
-import com.sun.org.apache.bcel.internal.generic.GETFIELD;
 
 public class GeneralExtractor extends AbstractWrapper {
 

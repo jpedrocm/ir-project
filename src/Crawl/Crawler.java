@@ -15,17 +15,23 @@ import crawlercommons.robots.SimpleRobotRulesParser;
 
 public class Crawler {
     
-    public HashSet<String> crawlURL(String initialURL, String domain, String... filter) throws IOException {
-        return crawlURL(initialURL, domain, Integer.MAX_VALUE, filter);
+    private int maxURLs;
+    
+    public Crawler() {
+        this(Integer.MAX_VALUE);
     }
     
-    public HashSet<String> crawlURL(String initialURL, String domain, int maxURLS, String... filter) {          
-        URLQueue queue = new URLQueue(maxURLS);
+    public Crawler(int maxURLs) {
+        this.maxURLs = maxURLs;
+    }
+    
+    public HashSet<String> crawlURL(String initialURL, String domain, String... filter) {          
+        URLQueue queue = new URLQueue(this.maxURLs);
         BaseRobotRules robotRules = getRobotsRules(initialURL);
 
         queue.offer(initialURL);
         
-        while (queue.size() > 0 && queue.queuedURLSSize() < maxURLS) {
+        while (queue.size() > 0 && queue.queuedURLSSize() < this.maxURLs) {
             String currentURL = queue.poll();
             
             if (robotRules == null || robotRules.isAllowed(currentURL)) {
@@ -40,7 +46,7 @@ public class Crawler {
                     e.printStackTrace();
                 }    
                 
-                if (doc != null) {
+                if (doc != null) {                    
                     Elements allElements = doc.body().getElementsByAttribute("href");
                     
                     for (Element element : allElements) {
@@ -115,6 +121,8 @@ public class Crawler {
         
         return false;
     }
+    
+    
     
     
 }

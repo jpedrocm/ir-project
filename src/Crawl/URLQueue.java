@@ -23,7 +23,6 @@ public class URLQueue {
         if (!this.queuedURLS.contains(url) && this.queuedURLS.size() < this.maxQueued) {
             this.queuedURLS.add(url);
             this.queue.offer(url);
-            //System.out.println(queuedURLS.size() + ":" + url);
         }
     }
     

@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 
+import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
 import extraction.AbstractWrapper;
@@ -28,7 +29,7 @@ public class ExtractionTest {
 
             //Document doc =  wrapper.getDocument("http://store.hp.com/us/en/pdp/hp---15z-laptop-%28touch-option-available%29-v1v04av-1");
             
-            Document doc =  wrapper.getDocument("http://www.microcenter.com/product/461035/15-ac114nr_156_Laptop_Computer_-_Textured_Diamond_Pattern_in_Black");
+            Document doc =  Jsoup.connect("http://www.microcenter.com/product/461035/15-ac114nr_156_Laptop_Computer_-_Textured_Diamond_Pattern_in_Black").get();
 
             
             try {

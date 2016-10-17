@@ -3,6 +3,8 @@ package classification;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -11,8 +13,8 @@ import java.util.Map;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
+import Utils.Utils;
 import weka.classifiers.Classifier;
-import weka.classifiers.Evaluation;
 import weka.classifiers.trees.RandomForest;
 import weka.core.Attribute;
 import weka.core.DenseInstance;
@@ -23,6 +25,7 @@ import weka.core.SerializationHelper;
 import weka.core.converters.ArffSaver;
 import weka.core.converters.ConverterUtils.DataSource;
 
+@SuppressWarnings("deprecation")
 public class Classificador {
 	
 	List<String> featureNames;
@@ -31,14 +34,14 @@ public class Classificador {
 	final static String posDir = "Data/laptop/";
 	final static String negDir = "Data/non_laptop/";
 	Instances fullSet;
-	ArrayList<Integer> crawleds;
-	ArrayList<Integer> rels;
+	HashMap<String, Integer> crawleds;
+	HashMap<String, Integer> rels;
 	
 	public Classificador(){
 		chooseFeaturesToExtract();
 		createAttributes();
-		rels = new ArrayList<Integer>();
-		crawleds = new ArrayList<Integer>();
+		rels = new HashMap<String, Integer>();
+		crawleds = new HashMap<String, Integer>();
 	}
 	
 	private void chooseFeaturesToExtract(){
@@ -58,7 +61,6 @@ public class Classificador {
 		featureNames.add("operating");
 	}
 	
-	@SuppressWarnings("deprecation")
 	private Attribute addClasses(){
 		 FastVector<String> classes = new FastVector<String>(2);
 		 classes.add("relevant");
@@ -110,18 +112,8 @@ public class Classificador {
 		return instanceList;
 	}
 	
-	private Document fileToDoc(String filepath){
-		Document doc = null;
-		try {
-			doc = Jsoup.parse(new File(filepath), "UTF-8");
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		return doc;
-	}
-	
 	private Instance extractFeaturesFromDoc(String filepath, boolean train) {
-		Document doc = fileToDoc(filepath);
+		Document doc = Utils.fileToDoc(filepath);
 		
 		Instance featureVals = new DenseInstance(featureNames.size()+1);
 		featureVals.setDataset(fullSet);
@@ -178,29 +170,37 @@ public class Classificador {
 		ArrayList<String> relevantDocs = new ArrayList<String>();
 		String[] docs = new File(directory).list();
 		
-		crawleds.add(new Integer(docs.length));
+		String folderName = new File(directory).getName();
+		
+		crawleds.put(folderName, new Integer(docs.length));
 		
 		for(String doc : docs)
 			if(classifySingleDoc(directory+doc))
 				relevantDocs.add(doc);
 		
-		rels.add(new Integer((int)relevantDocs.size()));
+		rels.put(folderName, new Integer((int)relevantDocs.size()));
 		
 		return relevantDocs;
 	}
 	
-	protected ArrayList<ArrayList<String>> classifyAllDocs(String directory){
-		ArrayList<ArrayList<String>> relevantDocuments = new ArrayList<>();
+	public HashMap<String, ArrayList<String>> classifyAllDocs(String directory, boolean filtered, String setPath, String modelPath) {
+		HashMap<String, ArrayList<String>> relevantDocuments = new HashMap<String, ArrayList<String>>();
 		
+		this.loadSet("Data/full_data.arff");
+        this.loadModel("Data/random_forest.model");		
+        
 		String[] foldersPerDomain = new File(directory).list();
 		for(String folder : foldersPerDomain){
-			relevantDocuments.add(classifyAllDocsFromSingleDomain(directory+folder+"/"));
+		    if (filtered && folder.contains("Filtered"))
+		        relevantDocuments.put(folder, classifyAllDocsFromSingleDomain(directory+folder+"/"));	
+		    else if (!filtered && !folder.contains("Filtered"))
+		        relevantDocuments.put(folder, classifyAllDocsFromSingleDomain(directory+folder+"/"));
 		}
 		
 		return relevantDocuments;
 	}
 	
-	protected void loadModel(String filepath){
+	public void loadModel(String filepath){
 		try {
 			classifier = (RandomForest) SerializationHelper.read(new FileInputStream(filepath));
 		} catch (Exception e) {
@@ -208,7 +208,7 @@ public class Classificador {
 		}
 	}
 	
-	protected void loadSet(String filepath){
+	public void loadSet(String filepath){
 		DataSource source = null;
 		try {
 			source = new DataSource(filepath);
@@ -220,21 +220,24 @@ public class Classificador {
 		  fullSet.setClassIndex(0);
 	}
 	
-	public ArrayList<Double> calculateDomainsHarvestRatio(){
-		ArrayList<Double> results = new ArrayList<>();
-		for(int i = 0; i < crawleds.size(); i++){
-			Double d = new Double(crawleds.get(i));
-			Double n = new Double(rels.get(i));
-			results.add(n/d);
+	public HashMap<String, Double> calculateDomainsHarvestRatio(){
+	    HashMap<String, Double> results = new HashMap<String, Double>();
+	    
+		for(String domain : crawleds.keySet()){
+			Double d = new Double(crawleds.get(domain));
+			Double n = new Double(rels.get(domain));
+			results.put(domain , n/d);
 		}
+		
 		return results;
 	}
 	
 	public double calculateTotalHarvestRatio(){
 		double denom = 0, num = 0;
-		for(int i = 0; i < crawleds.size(); i++){
-			denom += (double) crawleds.get(i);
-			num+= (double) rels.get(i);
+		
+		for(String domain : crawleds.keySet()){
+			denom += (double) crawleds.get(domain);
+			num+= (double) rels.get(domain);
 		}
 		
 		return num/denom;
@@ -242,9 +245,9 @@ public class Classificador {
 
     public static void main(String[] args){
     	long start = System.currentTimeMillis();
-    	Classificador c = new Classificador(); 
-    	c.createFullSet();
-    	c.createArffFile();
+//    	Classificador c = new Classificador(); 
+//    	c.createFullSet();
+//    	c.createArffFile();
     	//c.loadSet("Data/full_data.arff");
     	//c.loadModel("Data/random_forest.model");
     	//ArrayList<ArrayList<String>> relevants = c.classifyAllDocs("Data/CrawledHTML/");
