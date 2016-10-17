@@ -1,0 +1,408 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta name="Description" content="Spec comparison of 802.11ac Wi-Fi Router, Adapter, Range Extender, Bridge to setup your best Wireless AC networking  environment."> 
+  <meta name="Keywords" content="802.11ac, Router, Wi-Fi Adapter, Wi-Fi Range Extender, Wi-Fi Bridge"> 
+  <title>802.11ac Wi-Fi solutions | ASUS Networking</title> 
+  <style type="text/css">
+<!--
+.Arial {
+	font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+.Arial {
+	font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+table tr { background-color:#fff;	 
+	}
+table td { width:6%}
+table td.first { width:12%}
+-->
+</style> 
+ </head> 
+ <body> 
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NJRLM8');</script> 
+  <!-- End Google Tag Manager --> 
+  <h2 class="Arial"><strong>Wireless AC networking solutions</strong></h2> 
+  <table border="0" cellpadding="1" cellspacing="1" bgcolor="#CCCCCC" width="1500"> 
+   <tbody>
+    <tr class="Arial"> 
+     <td class="first" width="15%" rowspan="3" align="center" valign="middle" style="background-color:#efefef">Model Name</td> 
+     <td colspan="8" align="center" valign="middle" bgcolor="#898989" style="color:#FFF"><strong>Router</strong></td> 
+     <td colspan="4" align="center" valign="middle" bgcolor="#898989" style="color:#FFF"><strong>Adapter</strong></td> 
+     <td width="11%" align="center" valign="middle" bgcolor="#898989" style="color:#FFF"><strong>RangeExtender</strong></td> 
+     <td width="15%" align="center" valign="middle" bgcolor="#898989" style="color:#FFF"><strong>AP/Media Bridge</strong></td> 
+    </tr> 
+    <tr style="background-color:#efefef"> 
+     <td width="9%" align="center" valign="middle" class="Arial"><font color="#FF6600">AC3200</font></td> 
+     <td width="9%" align="center" valign="middle" class="Arial"><font color="#660000">AC2400</font></td> 
+     <td width="9%" align="center" valign="middle" class="Arial"><font color="#CC0000">AC1900</font></td> 
+     <td width="9%" align="center" valign="middle" class="Arial"><font color="#FF6600">AC1750</font></td> 
+     <td width="9%" align="center" valign="middle" class="Arial"><font color="#0066FF">AC1200</font></td> 
+     <td width="9%" align="center" valign="middle" class="Arial"><font color="#0066FF">AC1200</font></td> 
+     <td width="9%" align="center" valign="middle" class="Arial"><font color="#009900">AC750</font></td> 
+     <td width="9%" align="center" valign="middle" class="Arial"><font color="#009900">AC750</font></td> 
+     <td width="9%" align="center" valign="middle" class="Arial"><font color="#CC0000">AC1900</font></td> 
+     <td width="9%" align="center" valign="middle" class="Arial"><font color="#0066FF">AC1300</font></td> 
+     <td width="9%" align="center" valign="middle" class="Arial"><font color="#0066FF">AC1300</font></td> 
+     <td width="11%" align="center" valign="middle" class="Arial"><font color="#0066FF">AC1200</font></td> 
+     <td align="center" valign="middle" class="Arial"><font color="#0066FF">AC750</font></td> 
+     <td align="center" valign="middle" class="Arial"><font color="#CC0000">AC1800</font></td> 
+    </tr> 
+    <tr> 
+     <td align="center" valign="middle" class="Arial">RT-AC3200</td> 
+     <td align="center" valign="middle" class="Arial">RT-AC87U</td> 
+     <td align="center" valign="middle" class="Arial">RT-AC68U</td> 
+     <td align="center" valign="middle" class="Arial">RT-AC66U</td> 
+     <td align="center" valign="middle" class="Arial">RT-AC56U</td> 
+     <td align="center" valign="middle" class="Arial">RT-AC55U</td> 
+     <td align="center" valign="middle" class="Arial">RT-AC52U</td> 
+     <td width="9%" align="center" valign="middle" class="Arial">RT-AC51U</td> 
+     <td width="9%" align="center" valign="middle" class="Arial">PCE-AC68</td> 
+     <td width="9%" align="center" valign="middle" class="Arial">USB-AC56</td> 
+     <td width="9%" align="center" valign="middle" class="Arial">USB-AC55</td> 
+     <td width="11%" align="center" valign="middle" class="Arial">USB-AC53</td> 
+     <td align="center" valign="middle" class="Arial">RP-AC52</td> 
+     <td align="center" valign="middle" class="Arial">EA-AC87</td> 
+    </tr> 
+    <tr class="Arial"> 
+     <td colspan="15" align="center" valign="middle" bgcolor="#898989" style="color:#FFF"><strong>Performance</strong></td> 
+    </tr> 
+    <tr style="background-color:#efefef"> 
+     <td width="15%" height="64" align="center" valign="middle" class="Arial">Data rate</td> 
+     <td align="center" valign="middle" class="Arial">3200 Mbps</td> 
+     <td align="center" valign="middle" class="Arial">2334 Mbps</td> 
+     <td align="center" valign="middle" class="Arial">1900 Mbps</td> 
+     <td align="center" valign="middle" class="Arial">1750 Mbps</td> 
+     <td align="center" valign="middle" class="Arial">1167 Mbps</td> 
+     <td align="center" valign="middle" class="Arial">1167 Mbps</td> 
+     <td align="center" valign="middle" class="Arial">733 Mbps</td> 
+     <td width="9%" align="center" valign="middle" class="Arial">733 Mbps</td> 
+     <td width="9%" align="center" valign="middle" class="Arial">600 + 1300 Mbps</td> 
+     <td width="9%" align="center" valign="middle" class="Arial">300 + 867 Mbps</td> 
+     <td width="9%" align="center" valign="middle" class="Arial">400 + 867 Mbps</td> 
+     <td width="11%" align="center" valign="middle" class="Arial">300 + 867 Mbps</td> 
+     <td align="center" valign="middle" class="Arial">300 + 433 Mbps</td> 
+     <td align="center" valign="middle" class="Arial">1734 Mbps</td> 
+    </tr> 
+    <tr> 
+     <td width="15%" align="center" valign="middle" class="Arial">Antenna</td> 
+     <td align="center" valign="middle" class="Arial">6 external and detachable</td> 
+     <td align="center" valign="middle" class="Arial">4 external and detachable</td> 
+     <td align="center" valign="middle" class="Arial">3 external and detachable</td> 
+     <td align="center" valign="middle" class="Arial">3 external and detachable</td> 
+     <td align="center" valign="middle" class="Arial">4 internal high efficiency</td> 
+     <td align="center" valign="middle" class="Arial">2 external and detachable</td> 
+     <td align="center" valign="middle" class="Arial">3 internal</td> 
+     <td width="9%" align="center" valign="middle" class="Arial">2 external and detachable</td> 
+     <td width="9%" align="center" valign="middle" class="Arial">3 external and detachable</td> 
+     <td width="9%" align="center" valign="middle" class="Arial">1 external and detachable, 2 internal</td> 
+     <td width="9%" align="center" valign="middle" class="Arial">2 internal</td> 
+     <td width="11%" align="center" valign="middle" class="Arial">2 internal</td> 
+     <td align="center" valign="middle" class="Arial">3 intenal</td> 
+     <td align="center" valign="middle" class="Arial">4 external and detachable</td> 
+    </tr> 
+    <tr style="background-color:#efefef"> 
+     <td width="15%" align="center" valign="middle" class="Arial">Frequency</td> 
+     <td align="center" valign="middle" class="Arial">2.4G, 5G-1, 5G-2</td> 
+     <td align="center" valign="middle" class="Arial">2.4G, 5G</td> 
+     <td align="center" valign="middle" class="Arial">2.4G, 5G</td> 
+     <td align="center" valign="middle" class="Arial">2.4G, 5G</td> 
+     <td align="center" valign="middle" class="Arial">2.4G, 5G</td> 
+     <td align="center" valign="middle" class="Arial">2.4G, 5G</td> 
+     <td align="center" valign="middle" class="Arial">2.4G, 5G</td> 
+     <td width="9%" align="center" valign="middle" class="Arial">2.4G, 5G</td> 
+     <td width="9%" align="center" valign="middle" class="Arial">2.4G, 5G</td> 
+     <td width="9%" align="center" valign="middle" class="Arial">2.4G, 5G</td> 
+     <td width="9%" align="center" valign="middle" class="Arial">2.4G, 5G</td> 
+     <td width="11%" align="center" valign="middle" class="Arial">2.4G, 5G</td> 
+     <td align="center" valign="middle" class="Arial">2.4G, 5G</td> 
+     <td align="center" valign="middle" class="Arial">5G</td> 
+    </tr> 
+    <tr> 
+     <td width="15%" align="center" valign="middle" class="Arial">Hardware structure</td> 
+     <td align="center" valign="middle" class="Arial">1 GHz CPU + 3 offload processors</td> 
+     <td align="center" valign="middle" class="Arial">Two dual-core processors</td> 
+     <td align="center" valign="middle" class="Arial">Dual-core processor</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">Dual-core processor</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td width="9%" align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td width="9%" align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td width="9%" align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td width="9%" align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td width="9%" align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td width="11%" align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+    </tr> 
+    <tr class="Arial"> 
+     <td colspan="15" align="center" valign="middle" bgcolor="#898989" style="color:#FFF"><strong>Unique Features</strong></td> 
+    </tr> 
+    <tr style="background-color:#efefef"> 
+     <td width="15%" align="center" valign="middle" class="Arial">CD-Free Installation</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+    </tr> 
+    <tr> 
+     <td width="15%" align="center" valign="middle" class="Arial">ASUSWRT&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp; </td> 
+     <td align="center" valign="middle" class="Arial">&nbsp; </td> 
+    </tr> 
+    <tr style="background-color:#efefef"> 
+     <td align="center" valign="middle" class="Arial">Smart Connect</td> 
+     <td align="center" valign="middle" class="Arial">Tri-band</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">Coming soon</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">Coming soon</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+    </tr> 
+    <tr> 
+     <td align="center" valign="middle" class="Arial">MU-MIMO</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">Coming soon</td> 
+    </tr> 
+    <tr style="background-color:#efefef"> 
+     <td width="15%" align="center" valign="middle" class="Arial">QoS</td> 
+     <td align="center" valign="middle" class="Arial">Adaptive</td> 
+     <td align="center" valign="middle" class="Arial">Adaptive</td> 
+     <td align="center" valign="middle" class="Arial">Pro</td> 
+     <td align="center" valign="middle" class="Arial">Pro</td> 
+     <td align="center" valign="middle" class="Arial">Pro</td> 
+     <td align="center" valign="middle" class="Arial">Pro</td> 
+     <td align="center" valign="middle" class="Arial">Pro</td> 
+     <td align="center" valign="middle" class="Arial">Pro</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp; </td> 
+     <td align="center" valign="middle" class="Arial">&nbsp; </td> 
+    </tr> 
+    <tr> 
+     <td align="center" valign="middle" class="Arial">AiProtection</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">Coming soon</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">Coming soon</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+    </tr> 
+    <tr style="background-color:#efefef"> 
+     <td width="15%" align="center" valign="middle" class="Arial">AiRadar</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V </td> 
+     <td align="center" valign="middle" class="Arial">V </td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp; </td> 
+     <td align="center" valign="middle" class="Arial">&nbsp; </td> 
+    </tr> 
+    <tr> 
+     <td width="15%" align="center" valign="middle" class="Arial">USB Printer Sharing Support</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V </td> 
+     <td align="center" valign="middle" class="Arial">V </td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp; </td> 
+     <td align="center" valign="middle" class="Arial">&nbsp; </td> 
+    </tr> 
+    <tr style="background-color:#efefef"> 
+     <td width="15%" align="center" valign="middle" class="Arial">AiCloud</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;　</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;　</td> 
+    </tr> 
+    <tr> 
+     <td width="15%" align="center" valign="middle" class="Arial">URL Filter</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;　</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+    </tr> 
+    <tr style="background-color:#efefef"> 
+     <td width="15%" align="center" valign="middle" class="Arial">Real-time Traffic Monitoring</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;　</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+    </tr> 
+    <tr> 
+     <td width="15%" align="center" valign="middle" class="Arial">Enhanced media server</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp; </td> 
+     <td align="center" valign="middle" class="Arial">&nbsp; </td> 
+    </tr> 
+    <tr style="background-color:#efefef"> 
+     <td width="15%" align="center" valign="middle" class="Arial">Parental Control</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;　</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+    </tr> 
+    <tr> 
+     <td width="15%" align="center" valign="middle" class="Arial">Multi-SSID</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+    </tr> 
+    <tr style="background-color:#efefef"> 
+     <td width="15%" align="center" valign="middle" class="Arial">IPv6 Support</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;</td> 
+     <td align="center" valign="middle" class="Arial">&nbsp;　</td> 
+     <td align="center" valign="middle" class="Arial">V</td> 
+    </tr> 
+   </tbody>
+  </table>   
+ </body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta name="viewport" content="width=device-width"> 
+  <title>ASUS Support</title> 
+  <link rel="icon" type="images/ico" href="logoico.ico"> 
+  <!-- mobile --> 
+  <link href="css/index_mobile.css" rel="stylesheet" type="text/css" media="only screen and (min-width:0px) and (max-width:700px)"> 
+  <!-- 電腦用 --> 
+  <link href="css/index_desktop.css" rel="stylesheet" type="text/css" media="only screen and (min-width:701px)"> 
+ </head> 
+ <body> 
+  <div class="wrap"> 
+   <!--wrap start--> 
+   <div class="header"> 
+    <!--header start--> 
+    <div id="topnav" align="center"></div> 
+   </div> 
+   <!--header end--> 
+   <div class="content"> 
+    <!--content start--> 
+    <div id="gradient"> 
+     <div class="part1"> 
+      <!--part1 start--> 
+      <div class="leftright"> 
+       <div class="left">
+        <img src="images/1-1.png">
+       </div> 
+       <div class="right"> 
+        <div class="right1">
+         <img src="images/1-2.png">
+        </div> 
+        <div class="right2">
+         <p>ASUS Support</p>
+        </div> 
+        <div class="right3">
+         <p>Enjoy a self-service approach for all your ASUS ZenUI needs!</p>
+        </div> 
+        <div class="right4">
+         <p>ASUS Support is a customer service app that provides ASUS device users with in-device assistance using the combination of Mobile Care, FAQs, user feedback, and public forums. Use it to interact with us and fellow ASUS users via discussion threads.</p>
+        </div> 
+        <div class="right5">
+         <p>Note: ASUS Support is specifically designed for ASUS phone and tablets. The version may vary depending on models. We highly recommend downloading or updating to the latest version to fully enjoy this app.</p>
+        </div> 
+        <div class="right6">
+         <a href="https://goo.gl/ucGFK8" target="_ASUSSupport" title="download ASUS Support"><img src="images/1-3.png" style="border:0px"></a>
+         <img src="images/1-4.png">
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <!--part1 end--> 
+    </div> 
+    <div id="gradient"> 
+     <div class="part2"> 
+      <!--part2 start--> 
+      <div class="top">
+       <img src="images/2-1.png"> 
+       <div id="topic">
+        <p>Assistance</p>
+       </div> 
+       <div id="detail">
+        <p>See troubleshooting tips and quick solutions to issues with your battery, call and messages, 3G/LTE/Wi-Fi/GPS connection, among others.</p>
+       </div> 
+      </div> 
+      <div class="below">
+       <img src="images/2-2.png">
+      </div> 
+     </div> 
+     <!--part2 end--> 
+    </div> 
+    <div id="gradient"> 
+     <div class="part3"> 
+      <!--part3 start--> 
+      <div class="top">
+       <img src="images/3-1.png"> 
+       <div id="topic">
+        <p>ZenUI FAQs</p>
+       </div> 
+       <div id="detail">
+        <p>ZenUI FAQs provide a more specific user experience to you, per ZenUI app. It also features the Top FAQs for popular troubleshooting information.</p>
+       </div> 
+      </div> 
+      <div class="below">
+       <img src="images/3-2.png">
+      </div> 
+     </div> 
+     <!--part3 end--> 
+    </div> 
+    <div id="gradient"> 
+     <div class="part4"> 
+      <!--part4 start--> 
+      <div class="top">
+       <img src="images/4-1.png"> 
+       <div id="topic">
+        <p>Message board</p>
+       </div> 
+       <div id="detail">
+        <p>Get the latest updates, know-hows, and the latest ZenUI promotions as soon as they’re released.</p>
+       </div> 
+      </div> 
+      <div class="below">
+       <img src="images/4-2.png">
+      </div> 
+     </div> 
+     <!--part4 end--> 
+    </div> 
+    <div id="gradient"> 
+     <div class="part5"> 
+      <!--part5 start--> 
+      <div class="top">
+       <img src="images/5-1.png"> 
+       <div id="topic">
+        <p>Mobile Care</p>
+       </div> 
+       <div id="detail">
+        <p>See real-time updates about your device’s memory, battery, and storage settings with tips to help you optimize these settings using Boost, Power Saver, and Auto-start Manager.</p>
+       </div> 
+      </div> 
+      <div class="below">
+       <img src="images/5-2.png">
+      </div> 
+     </div> 
+     <!--part5 end--> 
+    </div> 
+   </div> 
+   <!--content end--> 
+   <div class="footer"> 
+   </div> 
+  </div> 
+  <!--wrap end-->   
+  <script type="text/javascript">
+
+    window.ASUSInit = function () { asus_api.init({ appkey: 'event00006', lang: 'global' }); };
+    (function (d) {
+        var js, id = 'asus-jsapi';
+        if (d.getElementById("asus-jsapi")) { return; }
+        js = d.createElement('script');
+        js.id = id;
+        js.async = true;
+        js.src = "//www.asus.com/API/js/asus_api.js";
+        d.getElementsByTagName('head')[0].appendChild(js);
+    }(document));
+</script>
+ </body>
+</html>

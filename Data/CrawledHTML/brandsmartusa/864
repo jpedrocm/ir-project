@@ -1,0 +1,54 @@
+<html>
+ <head>
+  <link href="/css/modal-new.css" rel="stylesheet" type="text/css"> 
+ </head>
+ <body id="modal"> 
+  <div id="body" class="form"> 
+   <form id="zip-form" action=";jsessionid=q2bPwyVKwJCHig8oJ0YqT0XRvEevWN8DJ6WyYsILC7vbCG2DDIGe!-917492950?_DARGS=/global/modals/modal-zip.jsp.zip-form#" method="post">
+    <div style="display:none">
+     <input name="_dyncharset" value="UTF-8" type="hidden"> 
+    </div>
+    <div style="display:none">
+     <input name="_dynSessConf" value="-8694881376911646355" type="hidden"> 
+    </div>
+    <input name="/atg/userprofiling/ProfileFormHandler.updateMyZip" value="" type="hidden">
+    <input name="_D:/atg/userprofiling/ProfileFormHandler.updateMyZip" value=" " type="hidden"> 
+    <h1>Please Enter Your Zip Code</h1> 
+    <div id="showUpdateZipError" style="display:none"> 
+     <div class="message message-red" id="updateZipErrorMessage"></div> 
+    </div> 
+    <p>For accurate shipping, tax, and nearby store data, please enter your zip code below.</p> 
+    <dl class="form"> 
+     <dt>
+      <label>Zip Code:</label>
+     </dt> 
+     <dd>
+      <input id="myzip" maxlength="5" name="/atg/userprofiling/ProfileFormHandler.value.myzip" value="" class="form-m" onkeyup="leaveOnlyNumeric(this);" onkeypress="submitOnEnter(event, function() {myzipSubmitUpdate('/account/login.jsp', 'account')} )" type="text">
+      <input name="_D:/atg/userprofiling/ProfileFormHandler.value.myzip" value=" " type="hidden">
+     </dd> 
+     <dd class="clear">
+      &nbsp;
+     </dd> 
+    </dl> 
+    <div class="form-submit"> 
+     <input type="button" class="button" onclick="myzipSubmitUpdate('/account/login.jsp', 'account');" value="Update" title="Update"> 
+    </div> 
+    <div style="display:none">
+     <input name="_DARGS" value="/global/modals/modal-zip.jsp.zip-form" type="hidden"> 
+    </div>
+   </form> 
+  </div>  
+  <script type="text/javascript">
+	function getContextPath() {
+		return '';
+	}
+
+	function focusOnInput()
+	{
+		$("#myzip").focus();
+	}
+
+	focusOnInput();
+</script> 
+ </body>
+</html>

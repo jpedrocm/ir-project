@@ -1,0 +1,458 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" itemscope itemtype="http://schema.org/QAPage">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
+  <title>After upgrading to Windows 10 - Device(Printer) cannot be found
+</title> 
+  <link rel="canonical" href="https://www.asus.com/support/faq/1016490"> 
+  <script src="/support/js/jquery.js"></script> 
+  <link type="text/css" rel="stylesheet" href="/support/stylesheets/base.css"> 
+  <script src="/support/js/faq.js" type="text/javascript"></script> 
+  <script src="/support/js/Knowledge.js" type="text/javascript"></script> 
+ </head>  
+ <body> 
+  <form method="post" action="./1016490?ln=en&amp;no=1016490&amp;" id="ctl00"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExNTgyMDc0MzIPZBYCZg9kFggCBQ8WAh4EaHJlZgUPLy93d3cuYXN1cy5jb20vZAIHD2QWAgIBD2QWCAIBDxYEHwAFAS8eCWlubmVyaHRtbAUESG9tZWQCAg8WAh4Fc3R5bGUFDmRpc3BsYXk6aW5saW5lZAIDDxYGHwAFCC9zdXBwb3J0HwIFDmRpc3BsYXk6aW5saW5lHwEFB1N1cHBvcnRkAgQPFgIfAgUOZGlzcGxheTppbmxpbmVkAgkPZBYCAgEPFgIfAQUDRkFRZAILD2QWBGYPZBYEZg8PFgIeBFRleHQFRzxwPkFmdGVyIHVwZ3JhZGluZyB0byBXaW5kb3dzIDEwIC0gRGV2aWNlKFByaW50ZXIpIGNhbm5vdCBiZSBmb3VuZDwvcD4KZGQCAQ8WAh8DBeIIPHA+TWFrZSBzdXJlIHlvdXIgcHJpbnRlciBpcyB0dXJuZWQgb24gYW5kIGNvbm5lY3RzwqB0byB5b3VyIFBDLjwvcD4KCjxwPklmIHRoZSBwcmludGVywqBzdGlsbCBkb2Vzbid0IHdvcmsgYWZ0ZXIgY29ubmVjdGluZyAsIHlvdSBjYW7CoHRyeSB0byBkb3dubG9hZCBhbmQgcnVuwqB0aGU8YSBocmVmPSJodHRwOi8vYWthLm1zL2RpYWdfcHJpbnRlcjEwIj7CoHRyb3VibGVzaG9vdGluZyBmb3IgcHJpbmVyLjwvYT7CoGZvciBmdXJ0aGVyIHNvbHV0aW9uLsKgPC9wPgoKPHA+SG93ZXZlciwgaWYgcHJpbnRlciBpc8Kgc3RpbGwgbm90IG5vcm1hbGx5IG9wZXJhdGluZy93b3JraW5nwqAsIHlvdcKgbWF5IG5lZWQgYSBuZXcgZHJpdmVyIGZvciBwcmludGVyLjwvcD4KCjxwPlBsZWFzZSBmb2xsb3cgdGhlwqBiZWxvd8KgaW5zdHJ1Y3Rpb24gdG8gYXF1aXJlIHRoZSBkcml2ZXI6PC9wPgoKPHA+PGltZyBhbHQ9IkRldmljZXMgYW5kIFByaW50ZXJzIHNjcmVlbiIgc3JjPSJodHRwOi8vaGVsaXhiaW5nLmJsb2IuY29yZS53aW5kb3dzLm5ldC9zdGVwaW1hZ2VzL2JhZDFjNDA1LTNiNDQtNDI5Yy05MTMwLWYyYzllZDNiMjFiYy5qcGVnIiAvPjwvcD4KCjxvbD4KCTxsaT5PcGVuIDxzdHJvbmc+W8KgU3RhcnQgXSA+PC9zdHJvbmc+wqBlbnRlciA8c3Ryb25nPlvCoERldmljZXMgYW5kIFByaW50ZXJzIF3CoDwvc3Ryb25nPiwgc2VsZWN0IGl0IGZyb20gdGhlIGxpc3Qgb2YgcmVzdWx0cywgYW5kIHNlbGVjdCB5b3VyIHByaW50ZXIuID4gUHJlc3MgcmlnaHQgYnV0dG9uIG9mIG1vdXNlIGFuZCDCoHNlbGVjdCA8c3Ryb25nPlvCoFJlbW92ZSBkZXZpY2UgXcKgPC9zdHJvbmc+YXQgdGhlIHRvcCBvZiB0aGUgc2NyZWVuIGFuZCByZWluc3RhbGwgeW91ciBwcmludGVyLjwvbGk+Cgk8bGk+SWYgV2luZG93cyBkb2Vzbid0IGF1dG9tYXRpY2FsbHkgZmluZCBhIG5ldyBkcml2ZXIsIGxvb2sgZm9yIG9uZSBvbiB0aGUgZGV2aWNlIG1hbnVmYWN0dXJlcidzIHdlYnNpdGUgYW5kIGZvbGxvdyB0aGUgaW5zdGFsbGF0aW9uIGluc3RydWN0aW9ucy48L2xpPgo8L29sPgoKPHA+PGEgaHJlZj0iaHR0cDovL2FrYS5tcy9kaWFnX3ByaW50ZXIxMCI+UnVuIHRyb3VibGVzaG9vdGVyPC9hPjwvcD4KZAIBD2QWFgIBDxYCHwFlZAIDDxYCHwEFJkRvZXMgdGhpcyBkb2N1bWVudCBzb2x2ZSB5b3VyIHByb2JsZW0/ZAIFDxYCHwEFA1llc2QCBw8WAh8BBQJOb2QCCQ8WAh8BBRNJcyBpdCBlYXN5IHRvIGZpbmQ/ZAILDxYCHwEFA1llc2QCDQ8WAh8BBQJOb2QCDw8PFgIfAwUIYmVjYXVzZT9kZAIRDxYCHgtfIUl0ZW1Db3VudAIFFgpmD2QWAmYPFQMKcXVlc3Rpb25fMAExIFRoaXMgRkFRIGlzIG5vdCBzcGVjaWZpYyBlbm91Z2guZAIBD2QWAmYPFQMKcXVlc3Rpb25fMQEyKlRoaXMgRkFRIGlzIHRvbyBjb21wbGljYXRlZCB0byBjb21wcmVoZW5kLmQCAg9kFgJmDxUDCnF1ZXN0aW9uXzIBMyNUaGUgdGl0bGUgb2YgdGhpcyBGQVEgaXMgbm90IGNsZWFyLmQCAw9kFgJmDxUDCnF1ZXN0aW9uXzMBNFNTb21lIG9mIHRoZSBpbWFnZXMgaW4gdGhpcyBGQVEgY2Fubm90IGJlIGRpc3BsYXllZCBwcm9wZXJseSBvciBsYWNrIHJlbGF0ZWQgaW1hZ2VzLmQCBA9kFgJmDxUDCnF1ZXN0aW9uXzQBNU5Tb21lIG9mIHRoZSBsaW5rcyBpbiB0aGlzIEZBUSBjYW5ub3QgYmUgb3BlbmVkIHByb3Blcmx5IG9yIGxhY2sgcmVsYXRlZCBsaW5rcy5kAhMPFgIfAQUoV2hhdCBjYW4gd2UgZG8gdG8gaW1wcm92ZSB0aGlzIGRvY3VtZW50P2QCFQ8WAh4LcGxhY2Vob2xkZXIFWVRvIHByb3RlY3QgeW91ciBwcml2YWN5LCBwbGVhc2UgRE8gTk9UIGluY2x1ZGUgeW91ciBjb250YWN0IGluZm9ybWF0aW9uIGluIHlvdXIgZmVlZGJhY2suZGQgzmCbemmobIDAVIBx/t7fsiMHNg=="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="14BD25B6"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdABpc8GiYguYunPX1vYPIOtGtZJ5g6/mxVAyLL7pLu+1jWBuYfV4idFVYyc+C+jsdmxVsY1GbsNNnrrZ2VOa/j2O9KMxJPQRexYCAA3vXTL9Dg4t4GxE3XDJHQRQV/lGO+ZDYITSnInSQ+wJpr/sRs6AvOD2YBzoxYhlQhptE6XeIdyvHpGRA0RkoZaQ6Tz8Nf/jD/6gyGBSgN6uTT5FcsOYu5ZmL6XOuo2UBLHYiGzNZQ4wMHmZ3nA70roudDbi8wYKg2blLaM6WCy43Sr+KU5wBXABe/qz8xC3u3ellmYlwlcfUEF+L7yGNZTQxpJqXf5XHEql9eln9Spg3W3DooYjhaF50JlJslPraF8pmIMnm7rehgACrmthY5wY6tqMKBgm2dPP5l1Rcu0HGXjopXK1Z53ZrSJjhb1RIV8DxCgGvBtDUCT+Hj/jOFtUMe1wfBw4Zzit4vBnHsVWF9s/M0ySy0aASQJBmhh4ZmUds3OzXuj2WQufc8Ev3gOJYUuvbADvCvZdoA7Wl1tXD++gbqCaUVehs5eHi+mMCV2T5VwHDmsv/GIuADloRRRVC2jCAln0OAclo"> 
+   </div> 
+   <!-- H-A-7 --> 
+   <input name="page_info1$langNormal" type="hidden" id="langNormal" value="en"> 
+   <input name="page_info1$hd_lang_prefix" type="hidden" id="hd_lang_prefix" value="/support"> 
+   <input name="page_info1$hd_product" type="hidden" id="hd_product"> 
+   <input name="page_info1$hd_product_name" type="hidden" id="hd_product_name"> 
+   <input name="page_info1$hd_product_name_ml" type="hidden" id="hd_product_name_ml"> 
+   <input name="page_info1$hd_series" type="hidden" id="hd_series"> 
+   <input name="page_info1$hd_series_name" type="hidden" id="hd_series_name"> 
+   <input name="page_info1$hd_series_name_ml" type="hidden" id="hd_series_name_ml"> 
+   <input name="page_info1$hd_model" type="hidden" id="hd_model"> 
+   <input name="page_info1$hd_model_ml" type="hidden" id="hd_model_ml"> 
+   <input name="page_info1$hd_os" type="hidden" id="hd_os"> 
+   <input name="page_info1$hd_hid" type="hidden" id="hd_hid"> 
+   <input name="page_info1$hd_offical_url" type="hidden" id="hd_offical_url"> 
+   <!-- Google Tag Manager with Origin gaTrace --> 
+   <noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+   </noscript> 
+   <script src="/support/js/gaTrace.js" type="text/javascript"></script> 
+   <!-- End Google Tag Manager --> 
+   <!--Online Chat--> 
+   <link href="/support/stylesheets/online-chat-btn.css" rel="stylesheet" type="text/css"> 
+   <script>
+    function inIframe() {
+        try {
+            return window.self !== window.top; //window.self means the current application , window.top means the top ahead application
+        } catch (e) {
+            return true;
+        }
+    }
+</script> 
+   <script type="text/javascript">
+    $(document).ready(function () {
+        var IsInIframe = inIframe();
+
+        if (IsInIframe) {
+            return false;
+        }
+
+        var _Local = $("#langNormal").val();
+
+        var onlineService = initOnlineService(_Local);
+        onlineService.init();
+    });
+
+    function initOnlineService(Local) {
+        var ApiUrl = window.location.protocol + "//demeter.asus.com/WSC/Support_API_New/SupportNewAPI/GetOnlineChatUrl/",
+            ApiOption;
+
+        ApiUrl += Local;
+
+        return {
+            init: function () {
+                if ($("#online-service").length > 0) return;
+
+                $.getJSON(ApiUrl + "?callback=?", ApiOption).done(function (result) {
+                    if (result && result.StatusCode == 0) {
+                        var onlineServiceString = result.Link_Name ? result.Link_Name : "Online Chat",
+                            serviceUrl = result.URL;
+
+                        onlineChatBtn = '<div id="online-service"><a class="btn" onclick="javascript:window.open(\'' + serviceUrl + '\', \'\',  \'width=520, height=700, scrollbars=yes\'); ga(\'send\', \'event\', \'button\', \'clicked\', \'onlinechat\');">' + onlineServiceString + '</a></div>';
+                        $(onlineChatBtn).appendTo("body");
+                    }
+                });
+            }
+        }
+    };
+</script> 
+   <!--Redirect en--> 
+   <input name="page_info_faq1$faq_type" type="hidden" id="faq_type" value="list"> 
+   <input name="page_info_faq1$base_url_detail" type="hidden" id="base_url_detail" value="/Faq/Detail.aspx"> 
+   <input name="page_info_faq1$HitRecordID" type="hidden" id="HitRecordID"> 
+   <input name="page_info_faq1$KbGuid" type="hidden" id="KbGuid" value="6327DB33-CA65-44AF-9D2D-710AF9DA37FB"> 
+   <div class="faq-pop"> 
+    <div class="navbar"> 
+     <a href="//www.asus.com/" id="a_asusimg" target="_blank"> <img src="https://www.asus.com/images/asus.jpg" alt="" border="0"></a> 
+    </div> 
+    <!--Support--> 
+    <div class="grayBg"> 
+     <div class="faq-zone"> 
+      <div id="breadcrumbs"> 
+       <div id="product-topinfo"> 
+        <div id="breadcrumbs"> 
+         <a href="/" id="breadcrumb1_a_home" target="_self">Home</a>
+         <span id="breadcrumb1_s1" style="display:inline">&nbsp;&gt;&nbsp;</span>
+         <a href="/support" id="breadcrumb1_a_support" target="_self" style="display:inline">Support</a>
+         <span id="breadcrumb1_s2" style="display:inline">&nbsp;&gt;&nbsp;</span>
+         <a href="../../uc_3/general/index.aspx" id="breadcrumb1_a_pagename" target="_self" style="display: none">[Page Name]</a> 
+         <span id="breadcrumb1_s_l1" style="display: none">&nbsp;&gt;&nbsp;</span>
+         <a href="../../uc_3/general/index.aspx" id="breadcrumb1_a_l1" target="_self" style="display: none">[level 1]</a> 
+         <span id="breadcrumb1_s_l2" style="display: none">&nbsp;&gt;&nbsp;</span>
+         <a href="../../uc_3/general/index.aspx" id="breadcrumb1_a_l2" target="_self" style="display: none">[level 2]</a> 
+         <span id="breadcrumb1_s_m" style="display: none">&nbsp;&gt;&nbsp;</span>
+         <a href="../../uc_3/general/index.aspx" id="breadcrumb1_a_m" target="_self" style="display: none">[model]</a> 
+        </div> 
+        <div class="pull-right" id="MDA" style="display: none"> 
+         <span class="mdatext">ASUS recommends Windows® 7.</span> 
+        </div> 
+       </div> 
+      </div> 
+      <!--<script type="text/javascript" src="/support/js/gaTrace.js"></script>--> 
+      <!--Content Start--> 
+      <div> 
+       <h1 id="id_top_page_title" class="page-title" langtype="faq" langtextid="faq">FAQ</h1> 
+       <div class="divider"> 
+       </div> 
+      </div> 
+      <input name="faqheader$hd_version" type="hidden" id="hd_version" value="1"> 
+      <script type="text/javascript">
+    $(document).ready(function () {
+        var version = $("#hd_version").val();
+        if (version == "1") {//full_style需在resp前
+            var linkfs = document.createElement('link');
+            linkfs.type = 'text/css';
+            linkfs.rel = "stylesheet";
+            linkfs.href = "/support/stylesheets/full_style.css";
+            document.getElementsByTagName("head")[0].appendChild(linkfs);
+        }
+        var linkresp = document.createElement('link');
+        linkresp.type = 'text/css';
+        linkresp.rel = "stylesheet";
+        linkresp.href = "/support/stylesheets/responsive.css";
+        document.getElementsByTagName("head")[0].appendChild(linkresp);
+    });
+</script> 
+      <script type="text/javascript">
+
+    $("#a_mailpage").click(function () {
+        location.href = "mailto:?subject=" + escape(jQuery(document).attr('title')) + "&body=" + escape(document.location.href.replace(/ /g, "%20"));
+        return false;
+    });
+</script> 
+      <script src="/support/js/MISTrack.js" type="text/javascript"></script> 
+      <!--FAQ Start--> 
+      <div class="faq-content" itemscope itemtype="http://schema.org/Question"> 
+       <meta itemprop="author" content="ASUS"> 
+       <meta itemprop="dateCreated" content="2016-05-05T14:30:50"> 
+       <meta itemprop="dateModified" content="2016-05-09T11:29:14"> 
+       <meta itemprop="datePublished" content="2016-05-05T14:30:50"> 
+       <style>
+.sbs_title
+{
+    font-size:30px;
+    line-height:1.8 !important;
+}
+.sbs_titleDesc
+{
+    font-size:24px;
+    line-height:1.8 !important;
+}
+.sbs_steps_text
+{
+    font-size:18px;
+}
+.sbs_setps_imgs
+{    
+    margin:15px 0 80px 0;
+}
+@media (min-width: 768px) {
+    .sbs_steps_text
+    {
+        display:block;
+    }
+    .step-pop
+    {
+        display:none;
+    }
+}
+@media (max-width: 767px) 
+{
+    .sbs_steps_text
+    {
+        display:none;
+    }
+    .step-pop
+    {
+        display:block;
+    }
+    .phone
+    {
+        height:auto;
+    }
+    .phone-bg
+    {
+        display:none !important;
+    }
+}
+</style> 
+       <h3 class="title" itemprop="name"> <span id="mainzone_detail1_solutionzone1_Label1"><p>After upgrading to Windows 10 - Device(Printer) cannot be found</p> </span> </h3> 
+       <div itemprop="suggestedAnswer acceptedAnswer" itemscope itemtype="http://schema.org/Answer"> 
+        <meta itemprop="dateCreated" content="2016-05-05T14:30:50"> 
+        <meta itemprop="author" content="ASUS"> 
+        <div itemprop="text"> 
+         <p id="pnl_content"> </p>
+         <p>Make sure your printer is turned on and connects&nbsp;to your PC.</p> 
+         <p>If the printer&nbsp;still doesn't work after connecting , you can&nbsp;try to download and run&nbsp;the<a href="http://aka.ms/diag_printer10">&nbsp;troubleshooting for priner.</a>&nbsp;for further solution.&nbsp;</p> 
+         <p>However, if printer is&nbsp;still not normally operating/working&nbsp;, you&nbsp;may need a new driver for printer.</p> 
+         <p>Please follow the&nbsp;below&nbsp;instruction to aquire the driver:</p> 
+         <p><img alt="Devices and Printers screen" src="http://helixbing.blob.core.windows.net/stepimages/bad1c405-3b44-429c-9130-f2c9ed3b21bc.jpeg"></p> 
+         <ol> 
+          <li>Open <strong>[&nbsp;Start ] &gt;</strong>&nbsp;enter <strong>[&nbsp;Devices and Printers ]&nbsp;</strong>, select it from the list of results, and select your printer. &gt; Press right button of mouse and &nbsp;select <strong>[&nbsp;Remove device ]&nbsp;</strong>at the top of the screen and reinstall your printer.</li> 
+          <li>If Windows doesn't automatically find a new driver, look for one on the device manufacturer's website and follow the installation instructions.</li> 
+         </ol> 
+         <p><a href="http://aka.ms/diag_printer10">Run troubleshooter</a></p> 
+         <p></p> 
+         <input name="mainzone_detail1$solutionzone1$hd_Kbno" type="hidden" id="hd_Kbno" value="1016490"> 
+        </div> 
+       </div> 
+       <script>
+    $(window).on("resize", window_resize);
+    $(document).ready(function () {
+        if ($(window).width() < 768) {
+            setMobileView()
+        }
+    });
+    
+    function window_resize() {
+        if ($(window).width() < 768) {
+            setMobileView();
+        } else if ($(window).width() >= 768) {
+            $("#div_pc").show();
+            $("#div_mobile").hide();
+            
+        }
+    }
+    function setMobileView() {
+        $("#div_pc").hide();
+        $("#div_mobile").show();
+        var zm = ($(window).width() / $(".mobile-phone").attr("data-imgw"));
+        $(".mobile-phone").css("zoom", zm * 0.97);
+    }
+
+
+//$(document).ready(function () {
+//    if ($("#iframe_sbs").length) {
+//        var ww = $(window).width();
+//        if (ww < 768) {// && ("createTouch" in document))
+//            $("#iframe_sbs").hide();
+//            $("#div_sbs_static").show();
+//        }
+//        else {
+//            $("#iframe_sbs").show();
+//            $("#div_sbs_static").hide();
+//        }
+//    }
+//})
+</script> 
+       <div class="divider"> 
+       </div> 
+       <div class="feedback-zone"> 
+        <h3 langtype="faq" langtextid="feedback"></h3> 
+        <div> 
+         <p langtype="faq" langtextid="does_solved">Does this document solve your problem?</p> 
+         <label class="radio inline"> <input type="radio" name="rbList1" id="Radio1" onclick="solve_click()" value="1"><span id="mainzone_detail1_feedback1_Span1" langtype="faq" langtextid="yes">Yes</span> </label> 
+         <label class="radio inline"> <input type="radio" name="rbList1" id="Radio2" onclick="solve_click()" value="0"><span id="mainzone_detail1_feedback1_Span2" langtype="faq" langtextid="no">No</span> </label> 
+        </div> 
+        <div id="div_easyfind" style="display: none;"> 
+         <font id="mainzone_detail1_feedback1_Span3" langtype="faq" langtextid="is_easy_find">Is it easy to find?</font> 
+         <label class="radio inline"> <input id="Radio_Easy" type="radio" value="1" name="rbList2"><span id="mainzone_detail1_feedback1_Span4" langtype="faq" langtextid="yes">Yes</span></label> 
+         <label class="radio inline"> <input id="Radio_Hard" type="radio" value="0" name="rbList2"><span id="mainzone_detail1_feedback1_Span5" langtype="faq" langtextid="no">No</span></label> 
+        </div> 
+        <div id="div_questions" style="display: none" class="solve"> 
+         <span id="mainzone_detail1_feedback1_lbl_notsolve">because?</span> 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_0" value="1">This FAQ is not specific enough. 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_1" value="2">This FAQ is too complicated to comprehend. 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_2" value="3">The title of this FAQ is not clear. 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_3" value="4">Some of the images in this FAQ cannot be displayed properly or lack related images. 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_4" value="5">Some of the links in this FAQ cannot be opened properly or lack related links. 
+         <br> 
+        </div> 
+        <script type="text/javascript">
+        function solve_click() {
+            var answer1 = $("input[name='rbList1']:checked").val();
+
+            //是跟否的回傳值 20150503
+            //$("input[name='rbList1']").attr('disabled', 'disabled');
+            quick_feedback_solve();
+
+            //如果是否就出現勾勾 20150503
+            if (answer1 == "0") {
+                $("#div_questions").show();
+                $("#div_easyfind").hide();
+            }
+            else { //是就出現單選項 20150503
+                $("#div_easyfind").show();
+                $("#div_questions").hide();
+            }
+        }
+
+        //傳回值 20150503
+        function quick_feedback_solve() {
+            var s_langNormal = $("#langNormal").val();
+            var s_KbNo = $("#hd_Kbno").val();
+            var s_HitRecordID = $("#hdn_HitRecordID").val();
+            var s_product = $("#hdn_product").val();
+            var s_model = $("#hdn_model").val();
+            var s_kbtype = $("#hdn_kbtype").val();
+            
+            var s_isSolve = $("input[name='rbList1']:checked");
+            s_isSolve = s_isSolve.val();
+            
+
+            var strXML = "<?xml version='1.0' encoding='utf-8' ?>" +
+                "<root>" +
+                "<langNormal>" + s_langNormal + "</langNormal>" +
+                "<KBNO>" + s_KbNo + "</KBNO>" +
+                "<HitRecordID>" + s_HitRecordID + "</HitRecordID>" +
+                "<product>" + s_product + "</product>" +
+                "<model>" + s_model + "</model>" +
+                "<kbtype>" + s_kbtype + "</kbtype>" +
+                "<isSolve>" + s_isSolve + "</isSolve>" +
+                "</root>";
+
+            var post_url = "/support/utilities/log/feedback_qsolve.aspx";
+
+            $.ajax({
+                url: post_url,
+                data: strXML,
+                type: 'POST',
+                contentType: "text/xml",
+                dataType: "text",
+                success: function () {
+                    //console.log("");
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    console.log(xhr.status);
+                    console.log(thrownError);
+                }
+            });
+
+        }
+    </script> 
+        <div> 
+         <p id="mainzone_detail1_feedback1_P1" langtype="faq" langtextid="what_we_do">What can we do to improve this document?</p> 
+        </div> 
+        <div class="center"> 
+         <textarea name="mainzone_detail1$feedback1$text_feedback" id="mainzone_detail1_feedback1_text_feedback" class="text_feedback" cols="20" rows="3" langtype="faq" langtextid="is_easy_find" placeholder="To protect your privacy, please DO NOT include your contact information in your feedback."></textarea> 
+        </div> 
+        <div class="center"> 
+         <input type="button" value="Feedback" class="btn-asus" onclick="callfeedback();"> 
+        </div> 
+        <script type="text/javascript">
+        //傳回剩下的值  20150503
+        function callfeedback() {
+            var s_langNormal = $("#langNormal").val();
+            var s_KbGuid = $("#KbGuid").val();
+            var s_HitRecordID = $("#hdn_HitRecordID").val();
+            var s_product = $("#hdn_product").val();
+            var s_model = $("#hdn_model").val();
+            var s_kbtype = $("#hdn_kbtype").val();
+
+            var s_isSolve = $("input[name='rbList1']:checked");
+            if (s_isSolve.length <= 0) {
+                alert('please select Q1 answer');
+            } else {
+                s_isSolve = s_isSolve.val();
+                var s_isEasyfind = ($("input[name='rbList2']:checked").length > 0) ? $("input[name='rbList2']:checked").val() : "";
+                var rbList3 = $("input[name='rbList3']");
+
+                var question = new Array(5);
+                for (i = 0; i < rbList3.length; i++) {
+                    if (rbList3.eq(i)[0].checked == true) {
+                        question[i] = "1";
+                    } else {
+                        question[i] = "0"
+                    }
+                }
+                var s_feedBakTxt = $(".text_feedback").val();
+
+                var strXML = "<?xml version='1.0' encoding='utf-8' ?>" +
+                  "<root>" +
+                    "<langNormal>" + s_langNormal + "</langNormal>" +
+                    "<KbGuid>" + s_KbGuid + "</KbGuid>" +
+                    "<HitRecordID>" + s_HitRecordID + "</HitRecordID>" +
+                    "<product>" + s_product + "</product>" +
+                    "<model>" + s_model + "</model>" +
+                    "<kbtype>" + s_kbtype + "</kbtype>" +
+                    "<isSolve>" + s_isSolve + "</isSolve>" +
+                    "<isEasyfind>" + s_isEasyfind + "</isEasyfind>" +
+                    "<question1>" + question[0] + "</question1>" +
+                    "<question2>" + question[1] + "</question2>" +
+                    "<question3>" + question[2] + "</question3>" +
+                    "<question4>" + question[3] + "</question4>" +
+                    "<question5>" + question[4] + "</question5>" +
+                    "<feedBakTxt>" + s_feedBakTxt + "</feedBakTxt>" +
+                  "</root>";
+
+                var post_url = "/support/utilities/log/feedback.aspx";
+
+                $.ajax({
+                    url: post_url,
+                    data: strXML,
+                    type: 'POST',
+                    contentType: "text/xml",
+                    dataType: "text",
+                    success: function () {
+                        //console.log("");
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        console.log(xhr.status);
+                        console.log(thrownError);
+                    }
+                });
+
+                alert("OK");
+            }
+        }
+    </script> 
+       </div> 
+       <br> 
+       <br> 
+       <br> 
+      </div> 
+     </div> 
+    </div> 
+    <input name="hdn_HitRecordID" type="hidden" id="hdn_HitRecordID" value="6f5c26b1-8877-4bfa-a3b7-78d6eca8045e"> 
+    <input name="hdn_KbGuid" type="hidden" id="hdn_KbGuid"> 
+    <input name="hdn_product" type="hidden" id="hdn_product"> 
+    <input name="hdn_model" type="hidden" id="hdn_model"> 
+    <input name="hdn_kbtype" type="hidden" id="hdn_kbtype" value="2"> 
+   </div> 
+  </form> 
+  <script type="text/javascript">
+         var Parameter = window.location.search;
+         if (Parameter.indexOf("DisASUSMenu") > -1) {
+             $(".navbar").css("display", "none");
+         }
+    </script>   
+ </body>
+</html>

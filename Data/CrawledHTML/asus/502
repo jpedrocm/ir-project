@@ -1,0 +1,449 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-US" itemscope itemtype="http://schema.org/QAPage">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
+  <title>Troubleshooting- Monitor cannot be waken up when I open the leather case &nbsp;
+</title> 
+  <link rel="canonical" href="https://www.asus.com/us/support/faq/1015550"> 
+  <script src="/support/js/jquery.js"></script> 
+  <link type="text/css" rel="stylesheet" href="/support/stylesheets/base.css"> 
+  <script src="/support/js/faq.js" type="text/javascript"></script> 
+  <script src="/support/js/Knowledge.js" type="text/javascript"></script> 
+ </head>  
+ <body> 
+  <form method="post" action="./1015550?ln=en-us&amp;no=1015550&amp;" id="ctl00"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExNTgyMDc0MzIPZBYCZg9kFggCBQ8WAh4EaHJlZgURLy93d3cuYXN1cy5jb20vdXNkAgcPZBYCAgEPZBYIAgEPFgQfAAUEL3VzLx4JaW5uZXJodG1sBQRIb21lZAICDxYCHgVzdHlsZQUOZGlzcGxheTppbmxpbmVkAgMPFgYfAAULL3VzL3N1cHBvcnQfAgUOZGlzcGxheTppbmxpbmUfAQUHU3VwcG9ydGQCBA8WAh8CBQ5kaXNwbGF5OmlubGluZWQCCQ9kFgICAQ8WAh8BBQNGQVFkAgsPZBYEZg9kFgRmDw8WAh4EVGV4dAVXPHA+VHJvdWJsZXNob290aW5nLSBNb25pdG9yIGNhbm5vdCBiZSB3YWtlbiB1cCB3aGVuIEkgb3BlbiB0aGUgbGVhdGhlciBjYXNlICZuYnNwOzwvcD4KZGQCAQ8WAh8DBZsLPHA+4oC7VGhpcyB0cm91Ymxlc2hvb3RpbmcgaXMgYXBwbGllZCB0byB0aGUgcGhvbmUgd2hpY2ggc3VwcG9ydHMgVmlldyBGbGlwIENvdmVyPGJyIC8+CjxiciAvPgoxLiBBY3RpdmF0ZSBmdW5jdGlvbiBvZiBWaWV3IGZsaXAgQ292ZXIgKDxzdHJvbmc+U2V0dGluZyDihpIgQVNVUyBDb3ZlciDihpIgY2xpY2sgRW5hYmxlIFNob3cgQ292ZXIgVmlldzwvc3Ryb25nPu+8iTxiciAvPgo8YnIgLz4KMi4gVHVybiBvZmYgeW91ciBkZXZpY2UuIEFwcGx5IGEgZmV3IHNjcmVlbiBjbGVhbnNlciBvbiBzb2Z0IGNsb3RoZXMgYW5kIGxpZ2h0bHkgd2lwZSBvdXQgdGhlIGR1c3QgYW5kIGRpcnQgb24gc2NyZWVuLjxiciAvPgo8YnIgLz4KMy4gPGEgaHJlZj0iaHR0cHM6Ly93d3cuYXN1cy5jb20vc3VwcG9ydC9GQVEvMTAwOTc0OCI+VXBkYXRlIHlvdXIgc3lzdGVtIGZpcm13YXJlIHRvIHRoZSBsYXRlc3QgdmVyc2lvbjwvYT7vvJrCoDxzdHJvbmc+U2V0dGluZzwvc3Ryb25nPuKGkiBBYm91dCDihpIgU3lzdGVtIFVwZGF0ZSAsY2xpY2sgQ2hlY2sgVXBkYXRlPGJyIC8+CjxiciAvPgo0LsKgPGEgaHJlZj0iaHR0cHM6Ly93d3cuYXN1cy5jb20vc3VwcG9ydC9GQVEvMTAwNTE2MyI+RW50ZXIgdGhlIHNhZmUgbW9kZTwvYT7vvJpMb25nIHByZXNzwqAiPHN0cm9uZz5Qb3dlciBrZXk8L3N0cm9uZz4i4oaSIFRhcCBhbmQgaG9sZMKgIjxzdHJvbmc+UG93ZXIgT2ZmPC9zdHJvbmc+IsKg4oaSIHRhcMKgIjxzdHJvbmc+T0s8L3N0cm9uZz4iLsKgSWYgeW91ciBkZXZpY2Ugd29ya3Mgbm9ybWFsbHnCoGluIHNhZmUgbW9kZSwgbWFsZnVuY3Rpb24gbWlnaHQgYmUgY2F1c2VkIGJ5IDNyZCBwYXJ0eSBhcHBzLsKgUGxlYXNlIHJlYm9vdCB5b3VyIGRldmljZSBhbmQgY2hlY2sgYWdhaW7CoHRvIHNlZSBpZiBpdCB3b3JrcyB3ZWxsLsKgPGJyIC8+CjxiciAvPgo1LsKgPGEgaHJlZj0iaHR0cHM6Ly93d3cuYXN1cy5jb20vc3VwcG9ydC9GQVEvMTAxMTQ0NSIgdGFyZ2V0PSJfYmxhbmsiPkJhY2t1cCB5b3VyIGRhdGE8L2E+wqBhbmTCoDxhIGhyZWY9Imh0dHBzOi8vd3d3LmFzdXMuY29tL3N1cHBvcnQvRkFRLzEwMDYzNDciIHRhcmdldD0iX2JsYW5rIj5wZXJmb3JtIGZhY3RvcnkgZGF0YSByZXNldDwvYT48YnIgLz4K44CAPHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMjU1LCAwLCAwKTsiPk5vdGXvvJpPbmVjIFJFU0VUIHdhcyBwZXJmb3JtZWQgYWxsIGRhdGEsIGFwcHMsIHNldHRpbmdzIGFuZMKgeW91ciBpbmZvcm1hdGlvbiB3aWxsIGJlIGRlbGV0ZWQgYWZ0ZXIgaW5pdGlhbGl6YXRpb24uPC9zcGFuPjxiciAvPgo8YnIgLz4KNi4gSWYgeW91IGNhbm5vdCB3YWtlIHVwIHlvdXIgc2NyZWVuIHdoZW4gdGhlIHNjcmVlbiBwcm90ZWN0b3Igc3RpY2tlciBpcyBhcHBsaWVkICx5b3UgbWF5IG5lZWQgdG8gcmVtb3ZlIHRoZSBzdGlja2VywqA8L3A+CmQCAQ9kFhYCAQ8WAh8BZWQCAw8WAh8BBSZEb2VzIHRoaXMgZG9jdW1lbnQgc29sdmUgeW91ciBwcm9ibGVtP2QCBQ8WAh8BBQNZZXNkAgcPFgIfAQUCTm9kAgkPFgIfAQUTSXMgaXQgZWFzeSB0byBmaW5kP2QCCw8WAh8BBQNZZXNkAg0PFgIfAQUCTm9kAg8PDxYCHwMFCGJlY2F1c2U/ZGQCEQ8WAh4LXyFJdGVtQ291bnQCBRYKZg9kFgJmDxUDCnF1ZXN0aW9uXzABMSBUaGlzIEZBUSBpcyBub3Qgc3BlY2lmaWMgZW5vdWdoLmQCAQ9kFgJmDxUDCnF1ZXN0aW9uXzEBMipUaGlzIEZBUSBpcyB0b28gY29tcGxpY2F0ZWQgdG8gY29tcHJlaGVuZC5kAgIPZBYCZg8VAwpxdWVzdGlvbl8yATMjVGhlIHRpdGxlIG9mIHRoaXMgRkFRIGlzIG5vdCBjbGVhci5kAgMPZBYCZg8VAwpxdWVzdGlvbl8zATRTU29tZSBvZiB0aGUgaW1hZ2VzIGluIHRoaXMgRkFRIGNhbm5vdCBiZSBkaXNwbGF5ZWQgcHJvcGVybHkgb3IgbGFjayByZWxhdGVkIGltYWdlcy5kAgQPZBYCZg8VAwpxdWVzdGlvbl80ATVOU29tZSBvZiB0aGUgbGlua3MgaW4gdGhpcyBGQVEgY2Fubm90IGJlIG9wZW5lZCBwcm9wZXJseSBvciBsYWNrIHJlbGF0ZWQgbGlua3MuZAITDxYCHwEFKFdoYXQgY2FuIHdlIGRvIHRvIGltcHJvdmUgdGhpcyBkb2N1bWVudD9kAhUPFgIeC3BsYWNlaG9sZGVyBVlUbyBwcm90ZWN0IHlvdXIgcHJpdmFjeSwgcGxlYXNlIERPIE5PVCBpbmNsdWRlIHlvdXIgY29udGFjdCBpbmZvcm1hdGlvbiBpbiB5b3VyIGZlZWRiYWNrLmRk5a2GLuNHw7eCmYi6Fva0fU0TW7Q="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="14BD25B6"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdABokDaVUK+XychcMVhthWQkWZJ5g6/mxVAyLL7pLu+1jWBuYfV4idFVYyc+C+jsdmxVsY1GbsNNnrrZ2VOa/j2O9KMxJPQRexYCAA3vXTL9Dg4t4GxE3XDJHQRQV/lGO+ZDYITSnInSQ+wJpr/sRs6AvOD2YBzoxYhlQhptE6XeIdyvHpGRA0RkoZaQ6Tz8Nf/jD/6gyGBSgN6uTT5FcsOYu5ZmL6XOuo2UBLHYiGzNZQ4wMHmZ3nA70roudDbi8wYKg2blLaM6WCy43Sr+KU5wBXABe/qz8xC3u3ellmYlwlcfUEF+L7yGNZTQxpJqXf5XHEql9eln9Spg3W3DooYjhaF50JlJslPraF8pmIMnm7rehgACrmthY5wY6tqMKBgm2dPP5l1Rcu0HGXjopXK1Z53ZrSJjhb1RIV8DxCgGvBtDUCT+Hj/jOFtUMe1wfBw4Zzit4vBnHsVWF9s/M0ySy0aASQJBmhh4ZmUds3OzXuj2WQufc8Ev3gOJYUuvbADvCvZdoA7Wl1tXD++gbqCaUVehs5eHi+mMCV2T5VwHDmgFyMJqFujbLGasMN1HmXCGDupU1"> 
+   </div> 
+   <!-- H-A-6 --> 
+   <input name="page_info1$langNormal" type="hidden" id="langNormal" value="en-us"> 
+   <input name="page_info1$hd_lang_prefix" type="hidden" id="hd_lang_prefix" value="/us/support"> 
+   <input name="page_info1$hd_product" type="hidden" id="hd_product"> 
+   <input name="page_info1$hd_product_name" type="hidden" id="hd_product_name"> 
+   <input name="page_info1$hd_product_name_ml" type="hidden" id="hd_product_name_ml"> 
+   <input name="page_info1$hd_series" type="hidden" id="hd_series"> 
+   <input name="page_info1$hd_series_name" type="hidden" id="hd_series_name"> 
+   <input name="page_info1$hd_series_name_ml" type="hidden" id="hd_series_name_ml"> 
+   <input name="page_info1$hd_model" type="hidden" id="hd_model"> 
+   <input name="page_info1$hd_model_ml" type="hidden" id="hd_model_ml"> 
+   <input name="page_info1$hd_os" type="hidden" id="hd_os"> 
+   <input name="page_info1$hd_hid" type="hidden" id="hd_hid"> 
+   <input name="page_info1$hd_offical_url" type="hidden" id="hd_offical_url"> 
+   <!-- Google Tag Manager with Origin gaTrace --> 
+   <noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+   </noscript> 
+   <script src="/support/js/gaTrace.js" type="text/javascript"></script> 
+   <!-- End Google Tag Manager --> 
+   <!--Online Chat--> 
+   <link href="/support/stylesheets/online-chat-btn.css" rel="stylesheet" type="text/css"> 
+   <script>
+    function inIframe() {
+        try {
+            return window.self !== window.top; //window.self means the current application , window.top means the top ahead application
+        } catch (e) {
+            return true;
+        }
+    }
+</script> 
+   <script type="text/javascript">
+    $(document).ready(function () {
+        var IsInIframe = inIframe();
+
+        if (IsInIframe) {
+            return false;
+        }
+
+        var _Local = $("#langNormal").val();
+
+        var onlineService = initOnlineService(_Local);
+        onlineService.init();
+    });
+
+    function initOnlineService(Local) {
+        var ApiUrl = window.location.protocol + "//demeter.asus.com/WSC/Support_API_New/SupportNewAPI/GetOnlineChatUrl/",
+            ApiOption;
+
+        ApiUrl += Local;
+
+        return {
+            init: function () {
+                if ($("#online-service").length > 0) return;
+
+                $.getJSON(ApiUrl + "?callback=?", ApiOption).done(function (result) {
+                    if (result && result.StatusCode == 0) {
+                        var onlineServiceString = result.Link_Name ? result.Link_Name : "Online Chat",
+                            serviceUrl = result.URL;
+
+                        onlineChatBtn = '<div id="online-service"><a class="btn" onclick="javascript:window.open(\'' + serviceUrl + '\', \'\',  \'width=520, height=700, scrollbars=yes\'); ga(\'send\', \'event\', \'button\', \'clicked\', \'onlinechat\');">' + onlineServiceString + '</a></div>';
+                        $(onlineChatBtn).appendTo("body");
+                    }
+                });
+            }
+        }
+    };
+</script> 
+   <!--Redirect en--> 
+   <input name="page_info_faq1$faq_type" type="hidden" id="faq_type" value="list"> 
+   <input name="page_info_faq1$base_url_detail" type="hidden" id="base_url_detail" value="/Faq/Detail.aspx"> 
+   <input name="page_info_faq1$HitRecordID" type="hidden" id="HitRecordID"> 
+   <input name="page_info_faq1$KbGuid" type="hidden" id="KbGuid" value="67C7CC73-FEE0-4125-BA3C-2A2CA499D831"> 
+   <div class="faq-pop"> 
+    <div class="navbar"> 
+     <a href="//www.asus.com/us" id="a_asusimg" target="_blank"> <img src="https://www.asus.com/images/asus.jpg" alt="" border="0"></a> 
+    </div> 
+    <!--Support--> 
+    <div class="grayBg"> 
+     <div class="faq-zone"> 
+      <div id="breadcrumbs"> 
+       <div id="product-topinfo"> 
+        <div id="breadcrumbs"> 
+         <a href="/us/" id="breadcrumb1_a_home" target="_self">Home</a>
+         <span id="breadcrumb1_s1" style="display:inline">&nbsp;&gt;&nbsp;</span>
+         <a href="/us/support" id="breadcrumb1_a_support" target="_self" style="display:inline">Support</a>
+         <span id="breadcrumb1_s2" style="display:inline">&nbsp;&gt;&nbsp;</span>
+         <a href="../../../uc_3/general/index.aspx" id="breadcrumb1_a_pagename" target="_self" style="display: none">[Page Name]</a> 
+         <span id="breadcrumb1_s_l1" style="display: none">&nbsp;&gt;&nbsp;</span>
+         <a href="../../../uc_3/general/index.aspx" id="breadcrumb1_a_l1" target="_self" style="display: none">[level 1]</a> 
+         <span id="breadcrumb1_s_l2" style="display: none">&nbsp;&gt;&nbsp;</span>
+         <a href="../../../uc_3/general/index.aspx" id="breadcrumb1_a_l2" target="_self" style="display: none">[level 2]</a> 
+         <span id="breadcrumb1_s_m" style="display: none">&nbsp;&gt;&nbsp;</span>
+         <a href="../../../uc_3/general/index.aspx" id="breadcrumb1_a_m" target="_self" style="display: none">[model]</a> 
+        </div> 
+        <div class="pull-right" id="MDA" style="display: none"> 
+         <span class="mdatext">ASUS recommends Windows® 7.</span> 
+        </div> 
+       </div> 
+      </div> 
+      <!--<script type="text/javascript" src="/support/js/gaTrace.js"></script>--> 
+      <!--Content Start--> 
+      <div> 
+       <h1 id="id_top_page_title" class="page-title" langtype="faq" langtextid="faq">FAQ</h1> 
+       <div class="divider"> 
+       </div> 
+      </div> 
+      <input name="faqheader$hd_version" type="hidden" id="hd_version" value="1"> 
+      <script type="text/javascript">
+    $(document).ready(function () {
+        var version = $("#hd_version").val();
+        if (version == "1") {//full_style需在resp前
+            var linkfs = document.createElement('link');
+            linkfs.type = 'text/css';
+            linkfs.rel = "stylesheet";
+            linkfs.href = "/support/stylesheets/full_style.css";
+            document.getElementsByTagName("head")[0].appendChild(linkfs);
+        }
+        var linkresp = document.createElement('link');
+        linkresp.type = 'text/css';
+        linkresp.rel = "stylesheet";
+        linkresp.href = "/support/stylesheets/responsive.css";
+        document.getElementsByTagName("head")[0].appendChild(linkresp);
+    });
+</script> 
+      <script type="text/javascript">
+
+    $("#a_mailpage").click(function () {
+        location.href = "mailto:?subject=" + escape(jQuery(document).attr('title')) + "&body=" + escape(document.location.href.replace(/ /g, "%20"));
+        return false;
+    });
+</script> 
+      <script src="/support/js/MISTrack.js" type="text/javascript"></script> 
+      <!--FAQ Start--> 
+      <div class="faq-content" itemscope itemtype="http://schema.org/Question"> 
+       <meta itemprop="author" content="ASUS"> 
+       <meta itemprop="dateCreated" content="2016-09-29T16:41:27"> 
+       <meta itemprop="dateModified" content="2016-10-11T11:03:54"> 
+       <meta itemprop="datePublished" content="2016-09-29T16:41:27"> 
+       <style>
+.sbs_title
+{
+    font-size:30px;
+    line-height:1.8 !important;
+}
+.sbs_titleDesc
+{
+    font-size:24px;
+    line-height:1.8 !important;
+}
+.sbs_steps_text
+{
+    font-size:18px;
+}
+.sbs_setps_imgs
+{    
+    margin:15px 0 80px 0;
+}
+@media (min-width: 768px) {
+    .sbs_steps_text
+    {
+        display:block;
+    }
+    .step-pop
+    {
+        display:none;
+    }
+}
+@media (max-width: 767px) 
+{
+    .sbs_steps_text
+    {
+        display:none;
+    }
+    .step-pop
+    {
+        display:block;
+    }
+    .phone
+    {
+        height:auto;
+    }
+    .phone-bg
+    {
+        display:none !important;
+    }
+}
+</style> 
+       <h3 class="title" itemprop="name"> <span id="mainzone_detail1_solutionzone1_Label1"><p>Troubleshooting- Monitor cannot be waken up when I open the leather case &nbsp;</p> </span> </h3> 
+       <div itemprop="suggestedAnswer acceptedAnswer" itemscope itemtype="http://schema.org/Answer"> 
+        <meta itemprop="dateCreated" content="2016-09-29T16:41:27"> 
+        <meta itemprop="author" content="ASUS"> 
+        <div itemprop="text"> 
+         <p id="pnl_content"> </p>
+         <p>※This troubleshooting is applied to the phone which supports View Flip Cover<br> <br> 1. Activate function of View flip Cover (<strong>Setting → ASUS Cover → click Enable Show Cover View</strong>）<br> <br> 2. Turn off your device. Apply a few screen cleanser on soft clothes and lightly wipe out the dust and dirt on screen.<br> <br> 3. <a href="https://www.asus.com/support/FAQ/1009748">Update your system firmware to the latest version</a>：&nbsp;<strong>Setting</strong>→ About → System Update ,click Check Update<br> <br> 4.&nbsp;<a href="https://www.asus.com/support/FAQ/1005163">Enter the safe mode</a>：Long press&nbsp;"<strong>Power key</strong>"→ Tap and hold&nbsp;"<strong>Power Off</strong>"&nbsp;→ tap&nbsp;"<strong>OK</strong>".&nbsp;If your device works normally&nbsp;in safe mode, malfunction might be caused by 3rd party apps.&nbsp;Please reboot your device and check again&nbsp;to see if it works well.&nbsp;<br> <br> 5.&nbsp;<a href="https://www.asus.com/support/FAQ/1011445" target="_blank">Backup your data</a>&nbsp;and&nbsp;<a href="https://www.asus.com/support/FAQ/1006347" target="_blank">perform factory data reset</a><br> 　<span style="color: rgb(255, 0, 0);">Note：Onec RESET was performed all data, apps, settings and&nbsp;your information will be deleted after initialization.</span><br> <br> 6. If you cannot wake up your screen when the screen protector sticker is applied ,you may need to remove the sticker&nbsp;</p> 
+         <p></p> 
+         <input name="mainzone_detail1$solutionzone1$hd_Kbno" type="hidden" id="hd_Kbno" value="1015550"> 
+        </div> 
+       </div> 
+       <script>
+    $(window).on("resize", window_resize);
+    $(document).ready(function () {
+        if ($(window).width() < 768) {
+            setMobileView()
+        }
+    });
+    
+    function window_resize() {
+        if ($(window).width() < 768) {
+            setMobileView();
+        } else if ($(window).width() >= 768) {
+            $("#div_pc").show();
+            $("#div_mobile").hide();
+            
+        }
+    }
+    function setMobileView() {
+        $("#div_pc").hide();
+        $("#div_mobile").show();
+        var zm = ($(window).width() / $(".mobile-phone").attr("data-imgw"));
+        $(".mobile-phone").css("zoom", zm * 0.97);
+    }
+
+
+//$(document).ready(function () {
+//    if ($("#iframe_sbs").length) {
+//        var ww = $(window).width();
+//        if (ww < 768) {// && ("createTouch" in document))
+//            $("#iframe_sbs").hide();
+//            $("#div_sbs_static").show();
+//        }
+//        else {
+//            $("#iframe_sbs").show();
+//            $("#div_sbs_static").hide();
+//        }
+//    }
+//})
+</script> 
+       <div class="divider"> 
+       </div> 
+       <div class="feedback-zone"> 
+        <h3 langtype="faq" langtextid="feedback"></h3> 
+        <div> 
+         <p langtype="faq" langtextid="does_solved">Does this document solve your problem?</p> 
+         <label class="radio inline"> <input type="radio" name="rbList1" id="Radio1" onclick="solve_click()" value="1"><span id="mainzone_detail1_feedback1_Span1" langtype="faq" langtextid="yes">Yes</span> </label> 
+         <label class="radio inline"> <input type="radio" name="rbList1" id="Radio2" onclick="solve_click()" value="0"><span id="mainzone_detail1_feedback1_Span2" langtype="faq" langtextid="no">No</span> </label> 
+        </div> 
+        <div id="div_easyfind" style="display: none;"> 
+         <font id="mainzone_detail1_feedback1_Span3" langtype="faq" langtextid="is_easy_find">Is it easy to find?</font> 
+         <label class="radio inline"> <input id="Radio_Easy" type="radio" value="1" name="rbList2"><span id="mainzone_detail1_feedback1_Span4" langtype="faq" langtextid="yes">Yes</span></label> 
+         <label class="radio inline"> <input id="Radio_Hard" type="radio" value="0" name="rbList2"><span id="mainzone_detail1_feedback1_Span5" langtype="faq" langtextid="no">No</span></label> 
+        </div> 
+        <div id="div_questions" style="display: none" class="solve"> 
+         <span id="mainzone_detail1_feedback1_lbl_notsolve">because?</span> 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_0" value="1">This FAQ is not specific enough. 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_1" value="2">This FAQ is too complicated to comprehend. 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_2" value="3">The title of this FAQ is not clear. 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_3" value="4">Some of the images in this FAQ cannot be displayed properly or lack related images. 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_4" value="5">Some of the links in this FAQ cannot be opened properly or lack related links. 
+         <br> 
+        </div> 
+        <script type="text/javascript">
+        function solve_click() {
+            var answer1 = $("input[name='rbList1']:checked").val();
+
+            //是跟否的回傳值 20150503
+            //$("input[name='rbList1']").attr('disabled', 'disabled');
+            quick_feedback_solve();
+
+            //如果是否就出現勾勾 20150503
+            if (answer1 == "0") {
+                $("#div_questions").show();
+                $("#div_easyfind").hide();
+            }
+            else { //是就出現單選項 20150503
+                $("#div_easyfind").show();
+                $("#div_questions").hide();
+            }
+        }
+
+        //傳回值 20150503
+        function quick_feedback_solve() {
+            var s_langNormal = $("#langNormal").val();
+            var s_KbNo = $("#hd_Kbno").val();
+            var s_HitRecordID = $("#hdn_HitRecordID").val();
+            var s_product = $("#hdn_product").val();
+            var s_model = $("#hdn_model").val();
+            var s_kbtype = $("#hdn_kbtype").val();
+            
+            var s_isSolve = $("input[name='rbList1']:checked");
+            s_isSolve = s_isSolve.val();
+            
+
+            var strXML = "<?xml version='1.0' encoding='utf-8' ?>" +
+                "<root>" +
+                "<langNormal>" + s_langNormal + "</langNormal>" +
+                "<KBNO>" + s_KbNo + "</KBNO>" +
+                "<HitRecordID>" + s_HitRecordID + "</HitRecordID>" +
+                "<product>" + s_product + "</product>" +
+                "<model>" + s_model + "</model>" +
+                "<kbtype>" + s_kbtype + "</kbtype>" +
+                "<isSolve>" + s_isSolve + "</isSolve>" +
+                "</root>";
+
+            var post_url = "/support/utilities/log/feedback_qsolve.aspx";
+
+            $.ajax({
+                url: post_url,
+                data: strXML,
+                type: 'POST',
+                contentType: "text/xml",
+                dataType: "text",
+                success: function () {
+                    //console.log("");
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    console.log(xhr.status);
+                    console.log(thrownError);
+                }
+            });
+
+        }
+    </script> 
+        <div> 
+         <p id="mainzone_detail1_feedback1_P1" langtype="faq" langtextid="what_we_do">What can we do to improve this document?</p> 
+        </div> 
+        <div class="center"> 
+         <textarea name="mainzone_detail1$feedback1$text_feedback" id="mainzone_detail1_feedback1_text_feedback" class="text_feedback" cols="20" rows="3" langtype="faq" langtextid="is_easy_find" placeholder="To protect your privacy, please DO NOT include your contact information in your feedback."></textarea> 
+        </div> 
+        <div class="center"> 
+         <input type="button" value="Feedback" class="btn-asus" onclick="callfeedback();"> 
+        </div> 
+        <script type="text/javascript">
+        //傳回剩下的值  20150503
+        function callfeedback() {
+            var s_langNormal = $("#langNormal").val();
+            var s_KbGuid = $("#KbGuid").val();
+            var s_HitRecordID = $("#hdn_HitRecordID").val();
+            var s_product = $("#hdn_product").val();
+            var s_model = $("#hdn_model").val();
+            var s_kbtype = $("#hdn_kbtype").val();
+
+            var s_isSolve = $("input[name='rbList1']:checked");
+            if (s_isSolve.length <= 0) {
+                alert('please select Q1 answer');
+            } else {
+                s_isSolve = s_isSolve.val();
+                var s_isEasyfind = ($("input[name='rbList2']:checked").length > 0) ? $("input[name='rbList2']:checked").val() : "";
+                var rbList3 = $("input[name='rbList3']");
+
+                var question = new Array(5);
+                for (i = 0; i < rbList3.length; i++) {
+                    if (rbList3.eq(i)[0].checked == true) {
+                        question[i] = "1";
+                    } else {
+                        question[i] = "0"
+                    }
+                }
+                var s_feedBakTxt = $(".text_feedback").val();
+
+                var strXML = "<?xml version='1.0' encoding='utf-8' ?>" +
+                  "<root>" +
+                    "<langNormal>" + s_langNormal + "</langNormal>" +
+                    "<KbGuid>" + s_KbGuid + "</KbGuid>" +
+                    "<HitRecordID>" + s_HitRecordID + "</HitRecordID>" +
+                    "<product>" + s_product + "</product>" +
+                    "<model>" + s_model + "</model>" +
+                    "<kbtype>" + s_kbtype + "</kbtype>" +
+                    "<isSolve>" + s_isSolve + "</isSolve>" +
+                    "<isEasyfind>" + s_isEasyfind + "</isEasyfind>" +
+                    "<question1>" + question[0] + "</question1>" +
+                    "<question2>" + question[1] + "</question2>" +
+                    "<question3>" + question[2] + "</question3>" +
+                    "<question4>" + question[3] + "</question4>" +
+                    "<question5>" + question[4] + "</question5>" +
+                    "<feedBakTxt>" + s_feedBakTxt + "</feedBakTxt>" +
+                  "</root>";
+
+                var post_url = "/support/utilities/log/feedback.aspx";
+
+                $.ajax({
+                    url: post_url,
+                    data: strXML,
+                    type: 'POST',
+                    contentType: "text/xml",
+                    dataType: "text",
+                    success: function () {
+                        //console.log("");
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        console.log(xhr.status);
+                        console.log(thrownError);
+                    }
+                });
+
+                alert("OK");
+            }
+        }
+    </script> 
+       </div> 
+       <br> 
+       <br> 
+       <br> 
+      </div> 
+     </div> 
+    </div> 
+    <input name="hdn_HitRecordID" type="hidden" id="hdn_HitRecordID" value="62930598-18ea-41fd-bbc9-79140cd103d2"> 
+    <input name="hdn_KbGuid" type="hidden" id="hdn_KbGuid"> 
+    <input name="hdn_product" type="hidden" id="hdn_product"> 
+    <input name="hdn_model" type="hidden" id="hdn_model"> 
+    <input name="hdn_kbtype" type="hidden" id="hdn_kbtype" value="2"> 
+   </div> 
+  </form> 
+  <script type="text/javascript">
+         var Parameter = window.location.search;
+         if (Parameter.indexOf("DisASUSMenu") > -1) {
+             $(".navbar").css("display", "none");
+         }
+    </script>   
+ </body>
+</html>

@@ -1,0 +1,1358 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <meta name="description" content="ASUS Eye Care Monitors Receive Most Number of TÜV Rheinland Low Blue-Light Emissions and Flicker-Free Certifications. ASUS Low Blue Light Monitors feature a OSD menu that allows you to access four different Blue Light Filter settings onscreen. ASUS Flicker-Free technology uses Smart Dynamic Backlight Adjustment to reduce flicker, this protects you from eye fatigue, irritation and strains."> 
+  <meta property="og:site_name" content="EYE CARE TECHNOLOGY"> 
+  <meta property="og:title" content="EYE CARE TECHNOLOGY"> 
+  <meta property="og:description" content="ASUS Eye Care Monitors Receive Most Number of TÜV Rheinland Low Blue-Light Emissions and Flicker-Free Certifications. ASUS Low Blue Light Monitors feature a OSD menu that allows you to access four different Blue Light Filter settings onscreen. ASUS Flicker-Free technology uses Smart Dynamic Backlight Adjustment to reduce flicker, this protects you from eye fatigue, irritation and strains."> 
+  <link rel="shortcut icon" href="http://www.asus.com/media/img/favicon.ico"> 
+  <title>::EYE CARE TECHNOLOGY::</title> 
+  <link href="assets/css/normalize.css" rel="stylesheet" media="screen"> 
+  <link href="assets/css/style.css" rel="stylesheet" media="screen"> 
+  <link href="assets/css/picker.css" rel="stylesheet" media="screen"> 
+  <link rel="stylesheet" type="text/css" href="assets/css/mobile.css" media="screen and (max-width: 768px)"> 
+  <!-- <link rel="stylesheet" media="all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait)" href="assets/css/ipad-portrait.css" /> --> 
+  <!-- <link rel="stylesheet" media="all and (min-device-width: 768px) and (orientation:landscape)" href="assets/css/ipad-landscape.css" /> --> 
+ </head> 
+ <body> 
+  <!-- <div id="nba"></div> --> 
+  <div id="intro"> 
+   <a href="javascript:void(0)"> <img class="logo_asus" src="assets/images/logo_asus.png" alt="ASUS logo"> </a> 
+   <a href="javascript:void(0)"> <img class="btn_top" src="assets/images/btn_top.png"> </a> 
+   <a target="_black" href="http://www.asus.com/sa-en/Monitors/Eye_Care_Products/"> <img class="btn_findout" src="assets/images/btn_findout.png" height="42" width="184"></a> 
+   <a href="assets/ASUS_Eye_Care Technology_whitepaper.zip"> <img class="btn_more" src="assets/images/btn_more.png" height="42" width="183"> </a> 
+   <img class="dots_02" src="assets/images/dots.png"> 
+   <img class="header" src="assets/images/header.jpg" alt="ASUS Eye Care Monitors"> 
+   <img class="m_header" src="assets/images/mobile/header.jpg" alt="ASUS Eye Care Monitors"> 
+   <h2>ASUS Monitors are designed with your eyes in mind.<br>Keeping your eyes healthy in today’s digital world.</h2> 
+   <p>Whether in the home or office, we find ourselves staring at computer monitors for hours on end. Today’s digital lifestyle brings with it increased health risks, especially for our eyes. Being in front of a computer all day increases the risk of Computer Vision Syndrome(CVS).</p> 
+   <p>ASUS Eye Care technology has been designed to prevent CVS symptoms caused by prolonged computer use. With ASUS Eye Care technology, ASUS monitors ensure a comfortable viewing experience while keeping your eyes healthy at the same time.</p> 
+   <img class="pic_cvs" src="assets/images/pic_cvs.png" alt="Computer Vision Syndrome"> 
+   <img class="pic_circle" src="assets/images/pic_circle.png" alt="Computer Vision Syndrome"> 
+   <h4 class="text_cvs">Computer Vision Syndrome(CVS)</h4> 
+  </div> 
+  <div class="fix_nav"> 
+   <ul id="nav" class="clearfix"> 
+    <a href="javascript:void(0)"><li class="li_02">
+      <div></div>Low Blue Light</li></a> 
+    <a href="javascript:void(0)"><li class="li_01">
+      <div></div>Flicker-Free</li></a> 
+    <a href="javascript:void(0)"><li class="li_03">
+      <div></div>Anti-Glare Screen</li></a> 
+    <a href="javascript:void(0)"><li class="li_04">
+      <div></div>Ergonomic Design</li></a> 
+   </ul> 
+  </div> 
+  <!--picker start--> 
+  <h1 class="section-heading" id="Picker">
+   <div class="container">
+    <span class="lang_title_3">Choose Your Monitor</span>
+   </div></h1> 
+  <section class="picker-container"> 
+   <div class="container"> 
+    <div class="question-container"> 
+     <!--Q1--> 
+     <div class="question-group"> 
+      <div class="question">
+       What will you primarily be using this monitor for?
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Usage-1" name="Usage" data-answer="Usage.EverydayComputing" onclick="set_q('1', 0);" checked> 
+        <label class="answer-label" for="Usage-1">Everyday Computing</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Usage-2" name="Usage" data-answer="Usage.Movies" onclick="set_q('1', 1);"> 
+        <label class="answer-label" for="Usage-2">Movies / entertainment</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Usage-3" name="Usage" data-answer="Usage.GamingA" onclick="set_q('1', 2);"> 
+        <label class="answer-label" for="Usage-3">Gaming (MMO, RPG, RTS)</label> 
+       </div>
+       <br> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Usage-4" name="Usage" data-answer="Usage.GamingB" onclick="set_q('1', 3);"> 
+        <label class="answer-label" for="Usage-4">Gaming (FPS, Racing)</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Usage-5" name="Usage" data-answer="Usage.Productivity" onclick="set_q('1', 4);"> 
+        <label class="answer-label" for="Usage-5">Productivity / Business</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Usage-6" name="Usage" data-answer="Usage.Graphics" onclick="set_q('1', 5);"> 
+        <label class="answer-label" for="Usage-6">Graphics Design, Video Editing</label> 
+       </div> 
+      </div> 
+     </div> 
+     <!--Q2--> 
+     <div class="question-group"> 
+      <div class="question">
+       What is your preferred screen size?
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Size-1" name="Size" data-answer="Size.No" onclick="set_q('2', 0);" checked> 
+        <label class="answer-label" for="Size-1">No preference</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Size-2" name="Size" data-answer="Size.Small" onclick="set_q('2', 1);"> 
+        <label class="answer-label" for="Size-2">Small &lt; 23"</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Size-3" name="Size" data-answer="Size.Medium" onclick="set_q('2', 2);"> 
+        <label class="answer-label" for="Size-3">Medium 24" - 25"</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Size-4" name="Size" data-answer="Size.Large" onclick="set_q('2', 3);"> 
+        <label class="answer-label" for="Size-4">Large 27" - 34"</label> 
+       </div> 
+      </div> 
+     </div> 
+     <!--Q3--> 
+     <div class="question-group"> 
+      <div class="question">
+       What is your preferred aspect ratio?
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Ratio-1" name="Ratio" data-answer="Ratio.No" onclick="set_q('3', 0);" checked> 
+        <label class="answer-label" for="Ratio-1">No preference</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Ratio-2" name="Ratio" data-answer="Ratio.169" onclick="set_q('3', 1);"> 
+        <label class="answer-label" for="Ratio-2">16 : 9</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Ratio-3" name="Ratio" data-answer="Ratio.1610" onclick="set_q('3', 2);"> 
+        <label class="answer-label" for="Ratio-3">16 : 10</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Ratio-4" name="Ratio" data-answer="Ratio.219" onclick="set_q('3', 3);"> 
+        <label class="answer-label" for="Ratio-4">21 : 9</label> 
+       </div> 
+      </div> 
+     </div> 
+     <!--Q4--> 
+     <div class="question-group"> 
+      <div class="question">
+       What is your preferred resolution?
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Resolution-1" name="Resolution" data-answer="Resolution.No" onclick="set_q('4', 0);" checked> 
+        <label class="answer-label" for="Resolution-1">No preference</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Resolution-2" name="Resolution" data-answer="Resolution.FullHD" onclick="set_q('4', 1);"> 
+        <label class="answer-label" for="Resolution-2">Full HD</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Resolution-3" name="Resolution" data-answer="Resolution.2K" onclick="set_q('4', 2);"> 
+        <label class="answer-label" for="Resolution-3">2K Quad HD</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Resolution-4" name="Resolution" data-answer="Resolution.4K" onclick="set_q('4', 3);"> 
+        <label class="answer-label" for="Resolution-4">4K UHD</label> 
+       </div> 
+      </div> 
+     </div> 
+     <!--Q5--> 
+     <div class="question-group"> 
+      <div class="question">
+       Do you need built-in speakers?
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Speakers-1" name="Speakers" data-answer="Speakers.No" onclick="set_q('5', 0);" checked> 
+        <label class="answer-label" for="Speakers-1">No preference</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Speakers-2" name="Speakers" data-answer="Speakers.Speakers" onclick="set_q('5', 1);"> 
+        <label class="answer-label" for="Speakers-2">Speakers</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Speakers-3" name="Speakers" data-answer="Speakers.Premium" onclick="set_q('5', 2);"> 
+        <label class="answer-label" for="Speakers-3">Premium Speakers</label> 
+       </div> 
+      </div> 
+     </div> 
+     <!--Q6--> 
+     <div class="question-group"> 
+      <div class="question">
+       Will you be using G-SYNC or FREESYNC / Adaptive Sync?
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Sync-1" name="Sync" data-answer="Sync.No" onclick="set_q('6', 0);" checked> 
+        <label class="answer-label" for="Sync-1">No preference</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Sync-2" name="Sync" data-answer="Sync.GSync" onclick="set_q('6', 1);"> 
+        <label class="answer-label" for="Sync-2">G-SYNC</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Sync-3" name="Sync" data-answer="Sync.FreeSync" onclick="set_q('6', 2);"> 
+        <label class="answer-label" for="Sync-3">FreeSync / Adaptive Sync</label> 
+       </div> 
+      </div> 
+     </div> 
+     <!--Q7--> 
+     <div class="question-group"> 
+      <div class="question">
+       Do you need a built-in USB hub on the monitor?
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="USB-1" name="USB" data-answer="USB.No" onclick="set_q('7', 0);" checked> 
+        <label class="answer-label" for="USB-1">No preference</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="USB-2" name="USB" data-answer="USB.USB3" onclick="set_q('7', 1);"> 
+        <label class="answer-label" for="USB-2">Yes, USB 3.0</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="USB-3" name="USB" data-answer="USB.USB2" onclick="set_q('7', 2);"> 
+        <label class="answer-label" for="USB-3">Yes, USB 2.0</label> 
+       </div> 
+      </div> 
+     </div> 
+     <!--Q8--> 
+     <div class="question-group"> 
+      <div class="question">
+       Do ergonomics matter to you in a monitor?
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Ergonomics-1" name="Ergonomics" data-answer="Ergonomics.No" onclick="set_q('8', 0);" checked> 
+        <label class="answer-label" for="Ergonomics-1">No preference</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Ergonomics-2" name="Ergonomics" data-answer="Ergonomics.Yes" onclick="set_q('8', 1);"> 
+        <label class="answer-label" for="Ergonomics-2">Yes</label> 
+       </div> 
+      </div> 
+     </div> 
+     <!--Q9--> 
+     <div class="question-group"> 
+      <div class="question">
+       Are you planning to wall mount or use a monitor arm?
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Setup-1" name="Setup" data-answer="Setup.No" onclick="set_q('9', 0);" checked> 
+        <label class="answer-label" for="Setup-1">No preference</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Setup-2" name="Setup" data-answer="Setup.Yes" onclick="set_q('9', 1);"> 
+        <label class="answer-label" for="Setup-2">Yes</label> 
+       </div> 
+      </div> 
+     </div> 
+     <!--Q10--> 
+     <div class="question-group"> 
+      <div class="question">
+       Which input will you be primarily using?
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Input-1" name="Input" data-answer="Input.No" onclick="set_q('10', 0);" checked> 
+        <label class="answer-label" for="Input-1">No specific inputs</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Input-2" name="Input" data-answer="Input.DisplayPort" onclick="set_q('10', 1);"> 
+        <label class="answer-label" for="Input-2">DisplayPort</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Input-3" name="Input" data-answer="Input.DVI" onclick="set_q('10', 2);"> 
+        <label class="answer-label" for="Input-3">DVI</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Input-4" name="Input" data-answer="Input.HDMI" onclick="set_q('10', 3);"> 
+        <label class="answer-label" for="Input-4">HDMI</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="Input-5" name="Input" data-answer="Input.VGA" onclick="set_q('10', 4);"> 
+        <label class="answer-label" for="Input-5">VGA</label> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <section class="products-container"> 
+   <div class="container"> 
+    <p class="u-pull-right hide-for-small-only"><a id="a_compare_link" href="compare/index.html" class="btn-bright-blue lang_compare" target="_blank">Compare All Models</a></p> 
+    <h1 class="lang_products products_title">Products</h1> 
+    <div class="picker-object-container"> 
+     <!-- Product 1 --> 
+     <div class="picker-object" q1="110011" q2="1000" q3="1000" q4="1000" q5="100" q6="100" q7="110" q8="11" q9="11" q10="11111" s1="1"> 
+      <h4 class="picker-heading">PA248Q</h4>
+      <img src="assets/images/compare/PA248Q.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 2 --> 
+     <div class="picker-object" q1="110011" q2="1010" q3="1010" q4="1000" q5="100" q6="100" q7="110" q8="11" q9="11" q10="11111" s1="1"> 
+      <h4 class="picker-heading">PA248QJ</h4>
+      <img src="assets/images/compare/PA248QJ.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 3 --> 
+     <div class="picker-object" q1="110011" q2="1010" q3="1010" q4="1000" q5="100" q6="100" q7="110" q8="11" q9="11" q10="11111" s1="1"> 
+      <h4 class="picker-heading">PA249Q</h4>
+      <img src="assets/images/compare/PA249Q.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 4 --> 
+     <div class="picker-object" q1="110011" q2="1001" q3="1100" q4="1010" q5="110" q6="100" q7="110" q8="11" q9="11" q10="11110" s1="1"> 
+      <h4 class="picker-heading">PA279Q</h4>
+      <img src="assets/images/compare/PA279Q.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 5 --> 
+     <div class="picker-object" q1="110011" q2="1001" q3="1100" q4="1001" q5="110" q6="100" q7="110" q8="11" q9="11" q10="11010" s1="1"> 
+      <h4 class="picker-heading">PA328Q</h4>
+      <img src="assets/images/compare/PA328Q.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 6 --> 
+     <div class="picker-object" q1="110011" q2="1000" q3="1100" q4="1001" q5="110" q6="100" q7="110" q8="11" q9="11" q10="11010" s1="1"> 
+      <h4 class="picker-heading">PA329Q</h4>
+      <img src="assets/images/compare/PA329Q.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 7 --> 
+     <div class="picker-object" q1="110011" q2="1010" q3="1010" q4="1000" q5="110" q6="100" q7="110" q8="11" q9="11" q10="11111" s1="1"> 
+      <h4 class="picker-heading">PB248Q</h4>
+      <img src="assets/images/compare/PB248Q.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 8--> 
+     <div class="picker-object" q1="110011" q2="1010" q3="1100" q4="1010" q5="110" q6="100" q7="100" q8="11" q9="11" q10="11111" s1="1"> 
+      <h4 class="picker-heading">PB258Q</h4>
+      <img src="assets/images/compare/PB258Q.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 9--> 
+     <div class="picker-object" q1="100110" q2="1001" q3="1100" q4="1010" q5="110" q6="100" q7="100" q8="11" q9="11" q10="11111" s1="1"> 
+      <h4 class="picker-heading">PB277Q</h4>
+      <img src="assets/images/compare/PB277Q.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 10--> 
+     <div class="picker-object" q1="110011" q2="1001" q3="1100" q4="1010" q5="110" q6="100" q7="100" q8="11" q9="11" q10="11111" s1="1"> 
+      <h4 class="picker-heading">PB278QR</h4>
+      <img src="assets/images/compare/PB278QR.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 11--> 
+     <div class="picker-object" q1="111011" q2="1001" q3="1100" q4="1001" q5="110" q6="100" q7="100" q8="11" q9="11" q10="11010" s1="1"> 
+      <h4 class="picker-heading">PB279Q</h4>
+      <img src="assets/images/compare/PB279Q.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 12--> 
+     <div class="picker-object" q1="100110" q2="1001" q3="1100" q4="1001" q5="110" q6="100" q7="100" q8="11" q9="11" q10="11010" s1="1"> 
+      <h4 class="picker-heading">PB287Q</h4>
+      <img src="assets/images/compare/PB287Q.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 13--> 
+     <div class="picker-object" q1="110011" q2="1001" q3="1001" q4="1000" q5="110" q6="100" q7="100" q8="11" q9="11" q10="11110" s1="1"> 
+      <h4 class="picker-heading">PB298Q</h4>
+      <img src="assets/images/compare/PB298Q.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 14--> 
+     <div class="picker-object" q1="110011" q2="1001" q3="1100" q4="1010" q5="110" q6="100" q7="110" q8="11" q9="11" q10="11111" s1="1"> 
+      <h4 class="picker-heading">PB328Q</h4>
+      <img src="assets/images/compare/PB328Q.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 15--> 
+     <div class="picker-object" q1="100100" q2="1001" q3="1100" q4="1010" q5="100" q6="110" q7="100" q8="11" q9="11" q10="11000" s1="1"> 
+      <h4 class="picker-heading">PG278Q</h4>
+      <img src="assets/images/compare/PG278Q.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 16--> 
+     <div class="picker-object" q1="111000" q2="1001" q3="1100" q4="1010" q5="110" q6="110" q7="110" q8="11" q9="11" q10="11010" s1="1"> 
+      <h4 class="picker-heading">PG279Q</h4>
+      <img src="assets/images/compare/PG279Q.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 17--> 
+     <div class="picker-object" q1="111000" q2="1001" q3="1100" q4="1001" q5="110" q6="110" q7="110" q8="11" q9="11" q10="11010" s1="1"> 
+      <h4 class="picker-heading">PG27AQ</h4>
+      <img src="assets/images/compare/PG27AQ.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 18--> 
+     <div class="picker-object" q1="111000" q2="1001" q3="1001" q4="1000" q5="110" q6="110" q7="110" q8="11" q9="11" q10="11010" s1="1"> 
+      <h4 class="picker-heading">PG348Q</h4>
+      <img src="assets/images/compare/PG348Q.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 19--> 
+     <div class="picker-object" q1="100100" q2="1010" q3="1100" q4="1100" q5="110" q6="101" q7="100" q8="11" q9="11" q10="11110" s1="1"> 
+      <h4 class="picker-heading">MG248Q</h4>
+      <img src="assets/images/compare/MG248Q.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 20--> 
+     <div class="picker-object" q1="111000" q2="1010" q3="1100" q4="1001" q5="110" q6="101" q7="100" q8="11" q9="11" q10="11010" s1="1"> 
+      <h4 class="picker-heading">MG24UQ</h4>
+      <img src="assets/images/compare/MG24UQ.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 21--> 
+     <div class="picker-object" q1="100100" q2="1001" q3="1100" q4="1010" q5="110" q6="101" q7="110" q8="11" q9="11" q10="11010" s1="1"> 
+      <h4 class="picker-heading">MG278Q</h4>
+      <img src="assets/images/compare/MG278Q.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 22--> 
+     <div class="picker-object" q1="111000" q2="1001" q3="1100" q4="1010" q5="110" q6="101" q7="110" q8="11" q9="11" q10="11010" s1="1"> 
+      <h4 class="picker-heading">MG279Q</h4>
+      <img src="assets/images/compare/MG279Q.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 23--> 
+     <div class="picker-object" q1="100100" q2="1001" q3="1100" q4="1001" q5="110" q6="101" q7="110" q8="11" q9="11" q10="11010" s1="1"> 
+      <h4 class="picker-heading">MG28UQ</h4>
+      <img src="assets/images/compare/MG28UQ.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 24 --> 
+     <div class="picker-object" q1="110011" q2="1010" q3="1100" q4="1100" q5="101" q6="100" q7="100" q8="10" q9="10" q10="10011" s1="1"> 
+      <h4 class="picker-heading">MX259H</h4>
+      <img src="assets/images/compare/MX259H.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 25 --> 
+     <div class="picker-object" q1="110011" q2="1010" q3="1100" q4="1010" q5="101" q6="100" q7="100" q8="10" q9="10" q10="11010" s1="1"> 
+      <h4 class="picker-heading">MX25AQ</h4>
+      <img src="assets/images/compare/MX25AQ.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 26 --> 
+     <div class="picker-object" q1="110011" q2="1001" q3="1100" q4="1100" q5="101" q6="100" q7="100" q8="10" q9="10" q10="10011" s1="1"> 
+      <h4 class="picker-heading">MX279H</h4>
+      <img src="assets/images/compare/MX279H.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 27 --> 
+     <div class="picker-object" q1="110011" q2="1001" q3="1100" q4="1010" q5="101" q6="100" q7="100" q8="10" q9="10" q10="11010" s1="1"> 
+      <h4 class="picker-heading">MX27AQ</h4>
+      <img src="assets/images/compare/MX27AQ.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 28 --> 
+     <div class="picker-object" q1="110011" q2="1001" q3="1100" q4="1001" q5="101" q6="100" q7="100" q8="10" q9="10" q10="11010" s1="1"> 
+      <h4 class="picker-heading">MX27UQ</h4>
+      <img src="assets/images/compare/MX27UQ.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 29 --> 
+     <div class="picker-object" q1="110011" q2="1001" q3="1001" q4="1000" q5="101" q6="100" q7="100" q8="10" q9="10" q10="11110" s1="1"> 
+      <h4 class="picker-heading">MX299Q</h4>
+      <img src="assets/images/compare/MX299Q.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 30--> 
+     <div class="picker-object" q1="110011" q2="1100" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="10" q10="10000" s1="1"> 
+      <h4 class="picker-heading">MB169C+</h4>
+      <img src="assets/images/compare/MB169C.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 31--> 
+     <div class="picker-object" q1="110010" q2="1100" q3="1010" q4="1000" q5="110" q6="100" q7="101" q8="11" q9="11" q10="11101" s1="1"> 
+      <h4 class="picker-heading">BE209QLB</h4>
+      <img src="assets/images/compare/BE209QLB.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 32--> 
+     <div class="picker-object" q1="110010" q2="1100" q3="1010" q4="1000" q5="110" q6="100" q7="101" q8="11" q9="11" q10="11101" s1="1"> 
+      <h4 class="picker-heading">BE209TLB</h4>
+      <img src="assets/images/compare/BE209TLB.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 33--> 
+     <div class="picker-object" q1="110010" q2="1100" q3="1100" q4="1100" q5="110" q6="100" q7="101" q8="10" q9="11" q10="11101" s1="1"> 
+      <h4 class="picker-heading">BE229QB</h4>
+      <img src="assets/images/compare/BE229QB.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 34--> 
+     <div class="picker-object" q1="110010" q2="1100" q3="1100" q4="1100" q5="110" q6="100" q7="101" q8="11" q9="11" q10="11101" s1="1"> 
+      <h4 class="picker-heading">BE229QLB</h4>
+      <img src="assets/images/compare/BE229QLB.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 35--> 
+     <div class="picker-object" q1="110010" q2="1100" q3="1100" q4="1100" q5="110" q6="100" q7="101" q8="11" q9="11" q10="11101" s1="1"> 
+      <h4 class="picker-heading">BE239QLB</h4>
+      <img src="assets/images/compare/BE239QLB.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 36--> 
+     <div class="picker-object" q1="110010" q2="1010" q3="1100" q4="1100" q5="110" q6="100" q7="101" q8="11" q9="11" q10="11101" s1="1"> 
+      <h4 class="picker-heading">BE249QLB</h4>
+      <img src="assets/images/compare/BE249QLB.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 37--> 
+     <div class="picker-object" q1="110010" q2="1010" q3="1010" q4="1000" q5="110" q6="100" q7="101" q8="11" q9="11" q10="11101" s1="1"> 
+      <h4 class="picker-heading">BE24AQLB</h4>
+      <img src="assets/images/compare/BE24AQLB.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 38--> 
+     <div class="picker-object" q1="110010" q2="1100" q3="1100" q4="1100" q5="110" q6="100" q7="101" q8="10" q9="11" q10="11101" s1="1"> 
+      <h4 class="picker-heading">C422AQ</h4>
+      <img src="assets/images/compare/C422AQ.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 39--> 
+     <div class="picker-object" q1="110010" q2="1100" q3="1100" q4="1100" q5="110" q6="100" q7="101" q8="10" q9="11" q10="11101" s1="1"> 
+      <h4 class="picker-heading">C423AQ</h4>
+      <img src="assets/images/compare/C423AQ.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 40--> 
+     <div class="picker-object" q1="110010" q2="1010" q3="1100" q4="1100" q5="110" q6="100" q7="101" q8="10" q9="11" q10="11101" s1="1"> 
+      <h4 class="picker-heading">C424AQ</h4>
+      <img src="assets/images/compare/C424AQ.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 41--> 
+     <div class="picker-object" q1="110010" q2="1100" q3="1010" q4="1000" q5="110" q6="100" q7="101" q8="11" q9="11" q10="11101" s1="1"> 
+      <h4 class="picker-heading">C620AQ</h4>
+      <img src="assets/images/compare/C620AQ.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 42--> 
+     <div class="picker-object" q1="110010" q2="1100" q3="1100" q4="1100" q5="110" q6="100" q7="101" q8="11" q9="11" q10="11101" s1="1"> 
+      <h4 class="picker-heading">C622AQ</h4>
+      <img src="assets/images/compare/C622AQ.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 43--> 
+     <div class="picker-object" q1="110010" q2="1100" q3="1100" q4="1100" q5="110" q6="100" q7="101" q8="11" q9="11" q10="11101" s1="1"> 
+      <h4 class="picker-heading">C623AQ</h4>
+      <img src="assets/images/compare/C623AQ.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 44--> 
+     <div class="picker-object" q1="110010" q2="1100" q3="1100" q4="1100" q5="110" q6="100" q7="101" q8="11" q9="11" q10="11101" s1="1"> 
+      <h4 class="picker-heading">C623AQR</h4>
+      <img src="assets/images/compare/C623AQR.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 45--> 
+     <div class="picker-object" q1="110010" q2="1010" q3="1100" q4="1100" q5="110" q6="100" q7="101" q8="11" q9="11" q10="11101" s1="1"> 
+      <h4 class="picker-heading">C624AQ</h4>
+      <img src="assets/images/compare/C624AQ.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 46--> 
+     <div class="picker-object" q1="110010" q2="1010" q3="1010" q4="1000" q5="110" q6="100" q7="101" q8="11" q9="11" q10="11101" s1="1"> 
+      <h4 class="picker-heading">C624BQ</h4>
+      <img src="assets/images/compare/C624BQ.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 47--> 
+     <div class="picker-object" q1="110010" q2="1001" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="11" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VA321H</h4>
+      <img src="assets/images/compare/VA321H.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 48--> 
+     <div class="picker-object" q1="110010" q2="1001" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="11" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VA321N-W</h4>
+      <img src="assets/images/compare/VA321N-W.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 49--> 
+     <div class="picker-object" q1="110010" q2="1001" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="11" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VA322N-W</h4>
+      <img src="assets/images/compare/VA322N-W.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 50--> 
+     <div class="picker-object" q1="110010" q2="1001" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="11" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VA323N-W</h4>
+      <img src="assets/images/compare/VA323N-W.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 51--> 
+     <div class="picker-object" q1="110010" q2="1001" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="10" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VA325N-W</h4>
+      <img src="assets/images/compare/VA325N-W.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 52--> 
+     <div class="picker-object" q1="110010" q2="1100" q3="1010" q4="1000" q5="100" q6="100" q7="100" q8="10" q9="11" q10="10001" s1="1"> 
+      <h4 class="picker-heading">VC209D</h4>
+      <img src="assets/images/compare/VC209D.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 53--> 
+     <div class="picker-object" q1="110010" q2="1100" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="11" q10="10111" s1="1"> 
+      <h4 class="picker-heading">VC239H</h4>
+      <img src="assets/images/compare/VC239H.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 54--> 
+     <div class="picker-object" q1="110010" q2="1100" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="11" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VC239N</h4>
+      <img src="assets/images/compare/VC239N.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 55--> 
+     <div class="picker-object" q1="110010" q2="1100" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="11" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VC239N-W</h4>
+      <img src="assets/images/compare/VC239N-W.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 56--> 
+     <div class="picker-object" q1="110010" q2="1001" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="11" q10="10111" s1="1"> 
+      <h4 class="picker-heading">VC279H</h4>
+      <img src="assets/images/compare/VC279H.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 57--> 
+     <div class="picker-object" q1="110010" q2="1001" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="11" q10="10111" s1="1"> 
+      <h4 class="picker-heading">VC279H-W</h4>
+      <img src="assets/images/compare/VC279H-W.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 58--> 
+     <div class="picker-object" q1="110010" q2="1001" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="11" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VC279N</h4>
+      <img src="assets/images/compare/VC279N.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 59--> 
+     <div class="picker-object" q1="110010" q2="1001" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="11" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VC279N-W</h4>
+      <img src="assets/images/compare/VC279N-W.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 60--> 
+     <div class="picker-object" q1="110010" q2="1010" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="11" q10="10011" s1="1"> 
+      <h4 class="picker-heading">VN247HA</h4>
+      <img src="assets/images/compare/VN247HA.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 61--> 
+     <div class="picker-object" q1="110010" q2="1010" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="11" q10="10011" s1="1"> 
+      <h4 class="picker-heading">VN248HA</h4>
+      <img src="assets/images/compare/VN248HA.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 62--> 
+     <div class="picker-object" q1="110010" q2="1010" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="11" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VN248NA</h4>
+      <img src="assets/images/compare/VN248NA.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 63--> 
+     <div class="picker-object" q1="110010" q2="1010" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="11" q10="11011" s1="1"> 
+      <h4 class="picker-heading">VN248QA</h4>
+      <img src="assets/images/compare/VN248QA.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 64--> 
+     <div class="picker-object" q1="110010" q2="1001" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="11" q10="10011" s1="1"> 
+      <h4 class="picker-heading">VN279H</h4>
+      <img src="assets/images/compare/VN279H.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 65--> 
+     <div class="picker-object" q1="110010" q2="1001" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="11" q10="11011" s1="1"> 
+      <h4 class="picker-heading">VN279Q</h4>
+      <img src="assets/images/compare/VN279Q.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 66--> 
+     <div class="picker-object" q1="110010" q2="1001" q3="1100" q4="1100" q5="110" q6="100" q7="110" q8="11" q9="11" q10="11011" s1="1"> 
+      <h4 class="picker-heading">VN279QL</h4>
+      <img src="assets/images/compare/VN279QL.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 67--> 
+     <div class="picker-object" q1="110010" q2="1001" q3="1100" q4="1100" q5="110" q6="100" q7="110" q8="11" q9="11" q10="11011" s1="1"> 
+      <h4 class="picker-heading">VN279QLB</h4>
+      <img src="assets/images/compare/VN279QLB.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 68--> 
+     <div class="picker-object" q1="110010" q2="1001" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="11" q10="10011" s1="1"> 
+      <h4 class="picker-heading">VN289H</h4>
+      <img src="assets/images/compare/VN289H.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 69--> 
+     <div class="picker-object" q1="110010" q2="1001" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="11" q10="10011" s1="1"> 
+      <h4 class="picker-heading">VN289H-W</h4>
+      <img src="assets/images/compare/VN289H-W.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 70--> 
+     <div class="picker-object" q1="110010" q2="1001" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="11" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VN289N</h4>
+      <img src="assets/images/compare/VN289N.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 71--> 
+     <div class="picker-object" q1="110010" q2="1001" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="11" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VN289N-W</h4>
+      <img src="assets/images/compare/VN289N-W.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 72--> 
+     <div class="picker-object" q1="110010" q2="1001" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="11" q10="11111" s1="1"> 
+      <h4 class="picker-heading">VN289Q</h4>
+      <img src="assets/images/compare/VN289Q.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 73--> 
+     <div class="picker-object" q1="110010" q2="1001" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="11" q9="11" q10="11111" s1="1"> 
+      <h4 class="picker-heading">VN289QL</h4>
+      <img src="assets/images/compare/VN289QL.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 74--> 
+     <div class="picker-object" q1="110010" q2="1001" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="11" q10="11111" s1="1"> 
+      <h4 class="picker-heading">VN289QR</h4>
+      <img src="assets/images/compare/VN289QR.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 75--> 
+     <div class="picker-object" q1="100010" q2="1100" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="11" q10="10001" s1="1"> 
+      <h4 class="picker-heading">VP228DE</h4>
+      <img src="assets/images/compare/VP228DE.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 76--> 
+     <div class="picker-object" q1="100110" q2="1100" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="11" q10="10111" s1="1"> 
+      <h4 class="picker-heading">VP228H</h4>
+      <img src="assets/images/compare/VP228H.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 77--> 
+     <div class="picker-object" q1="100110" q2="1100" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="11" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VP228N</h4>
+      <img src="assets/images/compare/VP228N.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 78--> 
+     <div class="picker-object" q1="100110" q2="1100" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="11" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VP228NE</h4>
+      <img src="assets/images/compare/VP228NE.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 79--> 
+     <div class="picker-object" q1="100110" q2="1100" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="11" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VP228T</h4>
+      <img src="assets/images/compare/VP228T.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 80--> 
+     <div class="picker-object" q1="100110" q2="1100" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="11" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VP228TE</h4>
+      <img src="assets/images/compare/VP228TE.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 81--> 
+     <div class="picker-object" q1="110010" q2="1100" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="11" q10="10111" s1="1"> 
+      <h4 class="picker-heading">VP239H</h4>
+      <img src="assets/images/compare/VP239H.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 82--> 
+     <div class="picker-object" q1="110010" q2="1100" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="11" q10="10111" s1="1"> 
+      <h4 class="picker-heading">VP239H-P</h4>
+      <img src="assets/images/compare/VP239H-P.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 83--> 
+     <div class="picker-object" q1="110010" q2="1100" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="11" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VP239Q-P</h4>
+      <img src="assets/images/compare/VP239Q-P.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 84--> 
+     <div class="picker-object" q1="110010" q2="1100" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="11" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VP239T</h4>
+      <img src="assets/images/compare/VP239T.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 85--> 
+     <div class="picker-object" q1="100110" q2="1010" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="11" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VP247D</h4>
+      <img src="assets/images/compare/VP247D.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 86--> 
+     <div class="picker-object" q1="100110" q2="1010" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="11" q10="10111" s1="1"> 
+      <h4 class="picker-heading">VP247H</h4>
+      <img src="assets/images/compare/VP247H.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 87--> 
+     <div class="picker-object" q1="100110" q2="1010" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="11" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VP247N</h4>
+      <img src="assets/images/compare/VP247N.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 88--> 
+     <div class="picker-object" q1="100110" q2="1010" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="11" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VP247T</h4>
+      <img src="assets/images/compare/VP247T.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 89--> 
+     <div class="picker-object" q1="100110" q2="1001" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="11" q10="10011" s1="1"> 
+      <h4 class="picker-heading">VP278H</h4>
+      <img src="assets/images/compare/VP278H.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 90--> 
+     <div class="picker-object" q1="100110" q2="1001" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="11" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VP278N</h4>
+      <img src="assets/images/compare/VP278N.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 91--> 
+     <div class="picker-object" q1="100110" q2="1001" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="11" q10="11011" s1="1"> 
+      <h4 class="picker-heading">VP278Q</h4>
+      <img src="assets/images/compare/VP278Q.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 92--> 
+     <div class="picker-object" q1="100010" q2="1001" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="11" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VP279N</h4>
+      <img src="assets/images/compare/VP279N.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 93--> 
+     <div class="picker-object" q1="110010" q2="1001" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="11" q10="11011" s1="1"> 
+      <h4 class="picker-heading">VP279Q</h4>
+      <img src="assets/images/compare/VP279Q.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 94--> 
+     <div class="picker-object" q1="100010" q2="1100" q3="1100" q4="1000" q5="100" q6="100" q7="100" q8="10" q9="10" q10="10001" s1="1"> 
+      <h4 class="picker-heading">VX207DE</h4>
+      <img src="assets/images/compare/VX207DE.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 95--> 
+     <div class="picker-object" q1="100010" q2="1100" q3="1100" q4="1000" q5="100" q6="100" q7="100" q8="10" q9="10" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VX207NE</h4>
+      <img src="assets/images/compare/VX207NE.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 96--> 
+     <div class="picker-object" q1="100010" q2="1100" q3="1100" q4="1000" q5="110" q6="100" q7="100" q8="10" q9="10" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VX207TE</h4>
+      <img src="assets/images/compare/VX207TE.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 97--> 
+     <div class="picker-object" q1="100110" q2="1100" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="10" q10="10011" s1="1"> 
+      <h4 class="picker-heading">VX228H</h4>
+      <img src="assets/images/compare/VX228H.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 98--> 
+     <div class="picker-object" q1="110010" q2="1100" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="10" q10="10011" s1="1"> 
+      <h4 class="picker-heading">VX229H</h4>
+      <img src="assets/images/compare/VX229H.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 99--> 
+     <div class="picker-object" q1="110010" q2="1100" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="10" q10="10011" s1="1"> 
+      <h4 class="picker-heading">VX229H-W</h4>
+      <img src="assets/images/compare/VX229H-W.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 100--> 
+     <div class="picker-object" q1="100110" q2="1100" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="10" q10="10011" s1="1"> 
+      <h4 class="picker-heading">VX238H</h4>
+      <img src="assets/images/compare/VX238H.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 101--> 
+     <div class="picker-object" q1="100110" q2="1100" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="10" q10="10011" s1="1"> 
+      <h4 class="picker-heading">VX238H-W</h4>
+      <img src="assets/images/compare/VX238H-W.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 102--> 
+     <div class="picker-object" q1="110010" q2="1100" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="10" q10="10011" s1="1"> 
+      <h4 class="picker-heading">VX239H</h4>
+      <img src="assets/images/compare/VX239H.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 103--> 
+     <div class="picker-object" q1="110010" q2="1100" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="10" q10="10011" s1="1"> 
+      <h4 class="picker-heading">VX239H-W</h4>
+      <img src="assets/images/compare/VX239H-W.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 104--> 
+     <div class="picker-object" q1="100110" q2="1010" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="10" q10="10011" s1="1"> 
+      <h4 class="picker-heading">VX248H</h4>
+      <img src="assets/images/compare/VX248H.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 105--> 
+     <div class="picker-object" q1="110010" q2="1010" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="10" q10="10011" s1="1"> 
+      <h4 class="picker-heading">VX249H</h4>
+      <img src="assets/images/compare/VX249H.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 106--> 
+     <div class="picker-object" q1="110010" q2="1010" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="10" q10="10011" s1="1"> 
+      <h4 class="picker-heading">VX249HA</h4>
+      <img src="assets/images/compare/VX249HA.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 107--> 
+     <div class="picker-object" q1="110010" q2="1010" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="10" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VX249N</h4>
+      <img src="assets/images/compare/VX249N.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 108--> 
+     <div class="picker-object" q1="110010" q2="1010" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="10" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VX249NA</h4>
+      <img src="assets/images/compare/VX249NA.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 109--> 
+     <div class="picker-object" q1="110010" q2="1010" q3="1100" q4="1010" q5="110" q6="100" q7="100" q8="10" q9="10" q10="10011" s1="1"> 
+      <h4 class="picker-heading">VX24AH</h4>
+      <img src="assets/images/compare/VX24AH.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 110--> 
+     <div class="picker-object" q1="110010" q2="1010" q3="1100" q4="1010" q5="110" q6="100" q7="100" q8="10" q9="10" q10="10011" s1="1"> 
+      <h4 class="picker-heading">VX24AH-W</h4>
+      <img src="assets/images/compare/VX24AH-W.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 111--> 
+     <div class="picker-object" q1="110010" q2="1010" q3="1100" q4="1010" q5="110" q6="100" q7="100" q8="10" q9="10" q10="11011" s1="1"> 
+      <h4 class="picker-heading">VX24AQ</h4>
+      <img src="assets/images/compare/VX24AQ.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 112--> 
+     <div class="picker-object" q1="100110" q2="1001" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="10" q10="10011" s1="1"> 
+      <h4 class="picker-heading">VX278H</h4>
+      <img src="assets/images/compare/VX278H.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 113--> 
+     <div class="picker-object" q1="100110" q2="1001" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="10" q10="10001" s1="1"> 
+      <h4 class="picker-heading">VX278N</h4>
+      <img src="assets/images/compare/VX278N.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 114--> 
+     <div class="picker-object" q1="100110" q2="1001" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="10" q10="11011" s1="1"> 
+      <h4 class="picker-heading">VX278Q</h4>
+      <img src="assets/images/compare/VX278Q.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 115--> 
+     <div class="picker-object" q1="110010" q2="1001" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="10" q10="10011" s1="1"> 
+      <h4 class="picker-heading">VX279H</h4>
+      <img src="assets/images/compare/VX279H.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 116--> 
+     <div class="picker-object" q1="110010" q2="1001" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="10" q10="10011" s1="1"> 
+      <h4 class="picker-heading">VX279H-W</h4>
+      <img src="assets/images/compare/VX279H-W.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 117--> 
+     <div class="picker-object" q1="110010" q2="1001" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="10" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VX279N</h4>
+      <img src="assets/images/compare/VX279N.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 118--> 
+     <div class="picker-object" q1="110010" q2="1001" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="10" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VX279N-W</h4>
+      <img src="assets/images/compare/VX279N-W.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 119--> 
+     <div class="picker-object" q1="110010" q2="1001" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="10" q10="11011" s1="1"> 
+      <h4 class="picker-heading">VX279Q</h4>
+      <img src="assets/images/compare/VX279Q.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 120--> 
+     <div class="picker-object" q1="110010" q2="1001" q3="1100" q4="1100" q5="110" q6="100" q7="100" q8="10" q9="10" q10="11011" s1="1"> 
+      <h4 class="picker-heading">VX279Q-W</h4>
+      <img src="assets/images/compare/VX279Q-W.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 121--> 
+     <div class="picker-object" q1="110010" q2="1100" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="11" q10="10001" s1="1"> 
+      <h4 class="picker-heading">VS229DA</h4>
+      <img src="assets/images/compare/VS229DA.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 122--> 
+     <div class="picker-object" q1="110010" q2="1000" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="11" q10="10001" s1="1"> 
+      <h4 class="picker-heading">VS229DA-W</h4>
+      <img src="assets/images/compare/VS229DA-W.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 123--> 
+     <div class="picker-object" q1="110010" q2="1100" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="11" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VS229NA</h4>
+      <img src="assets/images/compare/VS229NA.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 124--> 
+     <div class="picker-object" q1="110010" q2="1100" q3="1100" q4="1100" q5="100" q6="100" q7="100" q8="10" q9="11" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VS229NA-W</h4>
+      <img src="assets/images/compare/VS229NA-W.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 125--> 
+     <div class="picker-object" q1="110010" q2="1010" q3="1010" q4="1000" q5="100" q6="100" q7="100" q8="10" q9="11" q10="10111" s1="1"> 
+      <h4 class="picker-heading">VS24AH</h4>
+      <img src="assets/images/compare/VS24AH.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 126--> 
+     <div class="picker-object" q1="110010" q2="1010" q3="1010" q4="1000" q5="100" q6="100" q7="100" q8="11" q9="11" q10="10111" s1="1"> 
+      <h4 class="picker-heading">VS24AHL</h4>
+      <img src="assets/images/compare/VS24AHL.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Product 127--> 
+     <div class="picker-object" q1="100010" q2="1100" q3="1100" q4="1000" q5="100" q6="100" q7="100" q8="10" q9="11" q10="10101" s1="1"> 
+      <h4 class="picker-heading">VT168N</h4>
+      <img src="assets/images/compare/VT168N.png" class="picker-thumbnail"> 
+      <p><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!-- Conditional --> 
+     <div class="picker-not-applicable" style="display:none;"> 
+      <h2 class="lang_no">Coming soon…</h2> 
+     </div> 
+     <div class="picker-see-switch"> 
+      <p id="p_show_picker_all" class="lang_see_more btn-bright-blue no-link" onclick="show_picker_all()">MORE MODELS</p>
+      <!--看所有model--> 
+      <p id="p_show_picker_part" class="lang_see_less btn-bright-blue no-link" style="display: none;" onclick="show_picker_part()">HIDE MODELS</p>
+      <!--只看25個model--> 
+      <input id="hf_show_all" type="hidden" value="0"> 
+     </div> 
+    </div> 
+    <div class="picker-controls"> 
+     <ul class="list-inline"> 
+      <li><a class="btn-bright-blue no-link lang_reset" href="javascript:clear_all_picker();void(0);">Reset Selection</a> </li> 
+     </ul> 
+    </div> 
+   </div> 
+  </section> 
+  <!--picker end--> 
+  <a name="feature_02"> </a> 
+  <div class="section_02"> 
+   <div id="topic_02"> 
+    <h2>ASUS Low Blue Light Technology protects you from harmful blue light</h2> 
+   </div> 
+   <div class="set_center"> 
+    <h3>How does blue light damage your eyes?</h3> 
+    <p>The cornea, situated at the front of the eye, is a transparent cover that protects your iris, pupil, and anterior chamber. Light passes through the cornea and pupil before the crystalline lens focuses it on the retina.</p> 
+    <p>High-energy blue-violet light in the narrow 415-455nm band is particularly damaging to eyes, in particular the lens and retina. The blue band of the light spectrum yields more energy and can pass straight through your eye – resulting in myopia and macular degeneration.</p> 
+    <p>Blue light from monitors may cause eye damage, strains, headaches, and sleep disorders. Children are more susceptible to eye damage because their crystalline lens is less effective in filtering out blue-light, adding to the risk of age-related macular degeneration.</p> 
+    <img class="pic_s2_01" src="assets/images/pic_s2_01.png" alt="Monitor blue light"> 
+    <img class="m_pic_s2_01" src="assets/images/mobile/pic_s2_01.png" alt="Monitor blue light"> 
+    <h3 class="m_sec02_h3">How blue light harms your eyes?</h3> 
+    <img class="m_pic_s2_02" src="assets/images/mobile/pic_s2_02.png" alt="ASUS Ultra-low Blue Light Technology"> 
+    <h3>ASUS Low Blue Light Technology – Blue Light Filter</h3> 
+    <p>ASUS researchers have been hard at work trying to determine the right amount of blue light reduction for various tasks; the latest ASUS Low Blue Light Monitors feature a OSD menu that allows you to access four different Blue Light Filter settings onscreen:</p> 
+    <div class="level_0"> 
+     <img class="pic_s2_02" src="assets/images/pic_s2_02.png" alt="ASUS Ultra-low Blue Light Technology"> 
+     <p class="txt"><span>Level 0:</span> standard mode</p> 
+    </div> 
+    <div class="level_1"> 
+     <p class="pc"><span>Level 1</span> is ideal for normal web browsing, and gives you excellent color reproduction for lifelike visuals, minimal color shift.</p> 
+     <img class="pic_s2_03" src="assets/images/pic_s2_03.png"> 
+     <p class="mobile"><span>Level 1</span> is ideal for normal web browsing, and gives you excellent color reproduction for lifelike visuals, minimal color shift.</p> 
+    </div> 
+    <div class="level_2"> 
+     <p class="pc"><span>Level 2</span> is ideal when you’re viewing photos and videos, giving you a perfect balance of high image quality.</p> 
+     <img class="pic_s2_04" src="assets/images/pic_s2_04.png"> 
+     <p class="mobile"><span>Level 2</span> is ideal when you’re viewing photos and videos, giving you a perfect balance of high image quality.</p> 
+    </div> 
+    <div class="level_3"> 
+     <p class="pc"><span>Level 3</span> gives you the look of real paper, making it ideal for long hours of reading or word processing.</p> 
+     <img class="pic_s2_05" src="assets/images/pic_s2_05.png"> 
+     <br> 
+     <p class="mobile"><span>Level 3</span> gives you the look of real paper, making it ideal for long hours of reading or word processing.</p> 
+     <a class="link1" href="http://www.certipedia.com/quality_marks/0000044278?locale=de&amp;qm_locale=en" target="_blank">&gt;&gt; TÜV Rheinland-certified ASUS Low Blue Light monitors</a> 
+    </div> 
+    <div class="level_4"> 
+     <p class="pc"><span>Level 4</span> is ideal for environments with dim ambient light.</p> 
+     <img class="pic_s2_06" src="assets/images/pic_s2_06.png"> 
+     <p class="mobile"><span>Level 4</span> is ideal for environments with dim ambient light.</p> 
+    </div> 
+   </div> 
+  </div> 
+  <a name="feature_01"> </a> 
+  <div class="section_01"> 
+   <div id="topic_01"> 
+    <h2>ASUS Flicker- Free Technology prevents you from monitor flickering</h2> 
+   </div> 
+   <div class="section"> 
+    <img class="dots_03" src="assets/images/dots.png"> 
+    <div class="set_right"> 
+     <h3>What is display flicker?</h3> 
+     <p>Flicker is caused by the rapid on/off cycle of the LED backlight as it tries to maintain the brightness of the display. Flicker is more noticeable when the display is set to low brightness settings.</p> 
+     <img class="pic_convenional" src="assets/images/pic_convenional.png" alt="What is flicker"> 
+     <!-- <img class="m_pic_conventional" src="assets/images/mobile/pic_conventional.png" /> --> 
+     <h3>How does flicker affect your eyes?</h3> 
+     <p>Flicker constantly bombards the human eye with a drastic change in brightness. These changes in light intensity cause the pupil to expand and contract, thereby causing eye fatigue, strain, and headaches.</p> 
+    </div> 
+    <img class="lamp" src="assets/images/lamp.png"> 
+    <img class="pic_work" src="assets/images/pic_work.png" alt="Eye strain"> 
+    <img class="m_pic_work" src="assets/images/mobile/pic_work.png" alt="Eye strain"> 
+    <div class="set_center"> 
+     <h3>ASUS Flicker-Free Technology</h3> 
+     <p>ASUS Flicker-Free technology uses Smart Dynamic Backlight Adjustment to reduce flicker for a comfortable viewing experience. Smart Dynamic Backlight Adjustment avoids low brightness levels that lead to high-speed LED backlight flashing.</p> 
+     <p class="width_200">Monitors with ASUS Flicker-Free technology protect you from eye fatigue, irritation and strains. This technology gives you flicker-free monitors so you work on spreadsheets, play games, or watch videos comfortably for hours on end.</p> 
+     <a class="link" href="http://www.certipedia.com/quality_marks/0000043082?locale=en" target="_blank">&gt;&gt; TÜV Rheinland-certified ASUS Flicker-Free monitors</a> 
+     <img class="pic_desk" src="assets/images/pic_desk.png" alt="ASUS Flicker-Free Technology"> 
+     <img class="m_pic_compare" src="assets/images/mobile/pic_compare.png"> 
+    </div> 
+    <div class="pic_tips_box"> 
+     <img class="ani_02" src="assets/images/ani_02.gif"> 
+     <img class="ani_03" src="assets/images/ani_03.gif"> 
+     <img class="ani_04" src="assets/images/ani_04.gif"> 
+    </div> 
+    <div class="pic_tips_box_m"> 
+     <img class="pic" src="assets/images/pic_tips_m.png" alt="Flicker test"> 
+     <div> 
+      <img class="m_ani_01" src="assets/images/m_ani_01.png"> 
+      <img class="m_ani_02" src="assets/images/m_ani_02.gif"> 
+      <img class="m_ani_03" src="assets/images/m_ani_03.gif"> 
+      <img class="m_ani_04" src="assets/images/m_ani_04.gif"> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <a name="feature_03"> </a> 
+  <div class="section_03"> 
+   <div id="topic_03"> 
+    <h2>ASUS A+ grade Anti-Glare panel helps prevent tired eyes</h2> 
+   </div> 
+   <div class="set_center"> 
+    <h3>How does a glossy screen affect your eyes?</h3> 
+    <p>Smooth, glossy surfaces tend to reflect light back directly and cause unwanted reflections and glare. These aren’t only annoying and distracting, but can be the source of eye strain and fatigue.</p> 
+    <img class="pic_s3_01" src="assets/images/pic_s3_01.png"> 
+    <h3>How does the ASUS A+ Anti-Glare panel help?</h3> 
+    <p>ASUS A+ Anti-Glare panel uses a rough matte surface to dissipate reflected light, making it easier for you to see what’s onscreen and reducing eye fatigue in the process. The panel effectively reduces reflections and glare in bright environments, be it under direct sunlight or those from fluorescent light bulbs.</p> 
+    <img class="pic_s3_02" src="assets/images/pic_s3_02.png" alt="Anti-glare monitor"> 
+   </div> 
+  </div> 
+  <a name="feature_04"> </a> 
+  <div class="section_04"> 
+   <div id="topic_04"> 
+    <h2>User ergonomics play a part too</h2> 
+   </div> 
+   <div class="set_center"> 
+    <h3>ASUS Ergonomic Monitors designed for your comfort</h3> 
+    <p>Improper posture could lead to numbness in your fingers, headaches, and lower back, shoulder, or neck pains. In addition, having your monitor set at a wrong height or angle can strain your eyes.</p> 
+    <div class="box_group"> 
+     <div class="box">
+      Not being able to tilt your monitor might require you to hunch your back to get an ideal viewing position
+     </div> 
+     <div class="box">
+      Not being able to swivel your monitor makes it difficult to share your screen with others
+     </div> 
+     <div class="box">
+      Not being able to adjust the height of your monitor might mean you have to slouch in your chair
+     </div> 
+     <div class="box">
+      Not being able to pivot your monitor into portrait mode makes it difficult to view certain documents in their entirety
+     </div> 
+    </div> 
+    <img class="pic_s4_01" src="assets/images/pic_s4_01.png" alt="Ergonomic design, sitting posture"> 
+    <h3>ASUS monitors are ergonomically designed for your comfort</h3> 
+    <p>All of the symptoms mentioned above may be relieved simply by adopting the correct body posture at your workstation. ASUS monitors feature a smart ergonomic design with full tilt, pivot, swivel, and height adjustments to give you the ideal viewing position whether you’re surfing the net, viewing pictures or watching movies, or getting work done.</p> 
+    <img class="pic_s4_02" src="assets/images/pic_s4_02.png" alt="Correct sitting posture"> 
+   </div> 
+   <div class="m_sec_04_box"> 
+    <div class="inner"> 
+     <h3>ASUS Ergonomic Monitors designed for your comfort</h3> 
+     <p>Improper posture could lead to numbness in your fingers, headaches, and lower back, shoulder, or neck pains. In addition, having your monitor set at a wrong height or angle can strain your eyes.</p> 
+     <img class="m_pic_s4_01" src="assets/images/mobile/pic_s4_01.png" alt="Ergonomic design, sitting posture"> 
+     <h3>Your monitor cannot be tilt to the right angle to meet your viewing angle?</h3> 
+     <img class="m_pic_s4_02" src="assets/images/mobile/pic_s4_02.png" alt="Correct sitting posture"> 
+     <h3>Cannot swivel your monitor to share the screen with other, so that you both get bad viewing angle?</h3> 
+     <img class="m_pic_s4_03" src="assets/images/mobile/pic_s4_03.png"> 
+     <h3>Your monitor doesn’t provide the right height to match your eye level?</h3> 
+     <img class="m_pic_s4_04" src="assets/images/mobile/pic_s4_04.png"> 
+     <h3>Want to see more at once?</h3> 
+     <p>All of the symptoms mentioned above may be relieved simply by adopting the correct body posture at your workstation. ASUS monitors feature a smart ergonomic design with full tilt, pivot, swivel, and height adjustments to give you the ideal viewing position whether you’re surfing the net, viewing pictures or watching movies, or getting work done.</p> 
+     <img class="m_pic_s4_desk" src="assets/images/mobile/pic_s4_desk.png"> 
+    </div> 
+   </div> 
+   <a target="_black" href="http://www.asus.com/sa-en/Monitors/Eye_Care_Products/"> <img class="btn_product" src="assets/images/btn_product.png"> </a> 
+   <a target="_black" href="http://www.asus.com/sa-en/Monitors/Eye_Care_Products/"> <img class="m_btn_product" src="assets/images/mobile/btn_product.png"> </a> 
+  </div> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ 
+  ga('create', ' UA-56028643-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script> 
+  <script src="assets/js/jquery-1.10.0.min.js"></script> 
+  <script src="assets/js/ani.js?150319-v3"></script> 
+  <script type="text/javascript">
+        var qlist = [1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1];
+
+        function set_q(nbr, val) {
+
+            qlist[nbr] = val;
+
+            $(".picker-object").each(function () {
+                $(this).attr('s1', '1');
+            });
+
+            var tmp_q = '';
+
+            for (var i = 1; i < qlist.length; i++)
+            {
+                if (qlist[i] != -1)
+                {
+                    //alert(i);
+                    $(".picker-object").each(function () {
+                        if ($(this).attr('Q' + i.toString()).substr(qlist[i], 1) == '0') {
+                            $(this).attr('s1', '0');
+                            //alert('Q' + i.toString() + '|' + val + '|' + $(this).attr('Q' + i.toString()).substr(val, 1));
+                        }
+                    });
+                }
+
+                if (tmp_q != '')
+                    tmp_q += ',';
+
+                tmp_q += qlist[i];
+            }
+
+            $('#a_compare_link').attr('href', 'compare/index.html?q=' + tmp_q);
+
+            show_picker_part();
+            //show_picker_object();
+        }
+
+        function show_picker_object()
+        {
+            var is_all_hide = true;
+
+            var show_count = 0;
+
+            $(".picker-object").each(function () {
+                $(this).hide();
+                if ($(this).attr('s1') != '0' && $(this).attr('s2') != '0')
+                {
+                    if ($('#hf_show_all').val() == '1')
+                    {
+                        $(this).show();
+                        is_all_hide = false;
+
+                        show_count += 1;
+                    }
+                    else //if ($('#hf_show_all').val() == '0')
+                    {
+                        if (show_count < 25) {
+                            $(this).show();
+                            is_all_hide = false;
+                            show_count += 1;
+                        }
+                    }
+                }
+            });
+
+            if (is_all_hide)
+                $('.picker-not-applicable').show();
+                else
+                $('.picker-not-applicable').hide();
+
+            if (show_count < 25)
+            {
+                $('#p_show_picker_all').hide();
+                $('#p_show_picker_part').hide();
+            }
+        }
+
+        function clear_all_picker()
+        {
+            $('#p_show_picker_all').show();
+            $('#p_show_picker_part').hide();
+
+            $('.answer-input').attr('checked', false);
+
+            qlist = [1, -1, -1, -1, -1, -1, -1, -1, -1, -1];
+
+            $(".picker-object").each(function () {
+                $(this).attr('s1', '1');
+            });
+
+            $('.picker-not-applicable').hide();
+
+            show_picker_object();
+        }
+
+        function show_picker_all()
+        {
+            $('#hf_show_all').val('1');
+
+            $('#p_show_picker_all').hide();
+            $('#p_show_picker_part').show();
+
+            show_picker_object();
+        }
+
+        function show_picker_part()
+        {
+            $('#hf_show_all').val('0');
+
+            $('#p_show_picker_all').show();
+            $('#p_show_picker_part').hide();
+
+            show_picker_object();
+        }
+
+        $(function () {
+            //alert('f');
+            show_picker_part();
+        });
+
+        function ga_lang(parm1, parm2, parm3, parm4, parm5)
+        {
+            //ga_lang('send', 'event', 'menus', 'clicked', '100series-menus-tw')
+            ga(parm1, parm2, parm3, parm4, parm5 + '-' + $('#sel_language').val());
+            //alert(parm5 + '-' + $('#sel_language').val());
+        }
+    </script>  
+ </body>
+</html>

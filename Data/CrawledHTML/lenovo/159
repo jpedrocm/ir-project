@@ -1,0 +1,72 @@
+<html>
+ <head>
+  <style type="text/css">
+        
+        * {
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+		
+		#fs-content {
+		    
+        }
+		 
+		#fs-content .main {
+		    overflow: hidden;
+            padding: 1%;
+            width: 100%;
+			background-color: rgb(255, 255, 255);			
+        }
+		
+		#fs-content .main .lft-cont{
+		    float: left;
+            width: 25%;	
+        }
+		
+		#fs-content .main .lft-cont .image {
+            text-align: center;
+        }
+
+        #fs-content .main .lft-cont .image img {
+            background-size: contain;
+            width: 100%;
+            max-width: 190px;
+        }
+		
+		#fs-content .main .rgt-cont {
+		    float: left;
+            width: 75%;	
+			padding-top: 25px;
+			padding-left: 10px;
+        }
+		
+		#fs-content .main .rgt-cont message {
+		    font-size: 1em;
+			font-family: Arial;
+			color: #000000;
+			padding:40px 0px 0px 7px;
+        }
+		
+</style> 
+ </head>
+ <body>
+  <div id="fs-content"> 
+   <div class="main"> 
+    <div class="lft-cont"> 
+     <div class="image"> 
+      <img src="//www.lenovo.com/shop/americas/content/img_lib/design_elements/free-shipping-popup-graphic.jpg" title="Free Shipping" alt="Free Shipping"> 
+     </div> 
+    </div> 
+    <div class="rgt-cont" "> 
+     <div class="message">
+       Purchase any product on Lenovo.com and get 
+      <b>FREE UPS Standard Shipping.</b>*
+      <br> *UPS standard deliveries generally arrive 5-to-7 business days after fulfillment.
+      <br> Fulfillment time varies by product. 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+ </body>
+</html>

@@ -1,0 +1,66 @@
+<html>
+ <head></head>
+ <body>
+  <wci:include filepath="/iss_static/WW/site/includes/owv2/global-vars.html" /> 
+  <link rel="stylesheet" href="/ISS_Static/WW/wci3/us/en/deals/info/freeshippingstyle.css"> 
+  <script>
+$(document).ready(function(){
+    
+    console.log(window.parent.utag_data, lmd.cc);
+    
+    if (lmd.cc == 'us' && window.parent.utag_data.business_type === "Affinity") {
+        var pathArray = window.location.pathname.split('/');
+        var friendly =  '//' + window.location.hostname + '/' + pathArray[1] + '/us/en/landingpage/promotions/thinkpad/quick-ship/';
+        $('#fshop').attr('href', friendly);
+    } else {
+        friendly = '//' + window.location.hostname + '/us/en/landingpage/promotions/thinkpad/quick-ship/';
+        $('#fshop').attr('href', friendly); 
+    }
+    
+	if (lmd.cc == 'ca') {
+		$('.expedited-shipping,.ships-free-title,.ships-free-text,.shop-now').hide();
+	}else if (lmd.bu == 'outletdev' || lmd.bu == 'outlet'){
+	$('.expedited-shipping').hide();
+	}
+    
+});
+</script> 
+  <div id="fs-content"> 
+   <img src="//www.lenovo.com/shop/americas/content/img_lib/design_elements/bpattern.jpg" alt="background pattern" class="background"> 
+   <img src="//www.lenovo.com/shop/americas/content/img_lib/design_elements/truck.jpg" title="Free Shipping" alt="Free Shipping" class="truck"> 
+   <div class="main"> 
+    <div class="free-shipping-title">
+     ALWAYS FREE SHIPPING
+    </div> 
+    <div class="free-shipping-text">
+      We stand by the quality of all Lenovo products and services.
+     <br>Your satisfaction is important to us, so we offer
+     <strong><br> UPS standard shipping on ALL Lenovo.com orders* </strong> 
+     <br>*UPS standard deliveries generally arrive 5-to-7 business
+     <br> days after fulfillment with no minimum purchase required. 
+    </div> 
+    <div class="ships-free-title">
+     SHIPS FREE AND QUICK!
+    </div> 
+    <div class="ships-free-text">
+     Many popular PC models are in stock and ready to ship to you.
+    </div> 
+    <div class="shop-now">
+     <a id="fshop" href="//shop.lenovo.com/us/en/landingpage/promotions/thinkpad/quick-ship/" style="color:white;cursor:pointer;">SHOP NOW</a>
+    </div> 
+   </div> 
+  </div> 
+  <!--<div id="fr-content">		 
+	<img src="//www.lenovo.com/shop/americas/content/img_lib/design_elements/bpattern.jpg" alt="background pattern" class="background">
+	<img src="//www.lenovo.com/shop/americas/content/img_lib/design_elements/free-returns.png" title="Free Shipping" alt="Free Shipping" class="logo"/>
+	<div class="main">
+		<div class="free-returns-title">FREE RETURNS</div>
+		<div class="free-returns-text">
+			Enjoy free returns for the holiday. Purchases made between 11/5/15 and 12/25/15 are eligible for no questions asked, free returns. Re-stocking fee will be waived during this time.  Returns must be initiated within 30 days of ship date.
+			<br><br>
+			* Limit 5 qty
+		</div> 
+	</div>     
+</div>-->
+ </body>
+</html>

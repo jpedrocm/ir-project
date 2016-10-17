@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width"> 
+  <meta name="description" content="Powered by ASUS offers dream machines with select system-builders, from small-form-factor dynamos to giant liquid-cooled beasts, Powered by ASUS means exclusivity, performance, and art."> 
+  <meta name="keywords" content="ASUS,VGA,MB,Desktop,Display,Monitor,Networks,Server &amp; Workstation,Chassis,Motherboards,PC Gaming hardware,Gaming motherboard,overclocking motherboard,Battlefield,assassins creed,Optical Storage,Graphics Cards,Multimedia,Peripherals &amp; Accessories,accessories,Peripheral,PC Accessories,Computer Peripheral,Power Supply,Thermal Solution,Eshop,PCs,Barebone PC, ASUS Partners, PBA, PBA Systems, ASUS System Integrator, ASUS System Builder, ASUS Gaming Systems, Gaming System, ASUS Computer, ASUS Gaming Computer"> 
+  <meta property="og:site_name" content="Powered by ASUS"> 
+  <meta property="og:title" content="Powered by ASUS."> 
+  <meta property="og:description" content="Powered by ASUS offers dream machines with select system-builders, from small-form-factor dynamos to giant liquid-cooled beasts, Powered by ASUS means exclusivity, performance, and art."> 
+  <link rel="shortcut icon" href="http://www.asus.com/media/img/favicon.ico"> 
+  <title>Powered by ASUS</title> 
+  <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" type="text/css"> 
+  <link href="Theme/CSS/normalize.css" rel="stylesheet" media="screen"> 
+  <link href="Theme/CSS/default.css" rel="stylesheet" media="screen"> 
+  <link href="Theme/CSS/idangerous.swiper.css" rel="stylesheet" media="screen"> 
+  <script src="Theme/Javascript/modernizr.custom.08193.js"></script> 
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> 
+  <script src="Theme/Javascript/default.js"></script> 
+  <script src="Theme/Javascript/idangerous.swiper.min.js"></script> 
+  <script type="text/javascript">
+    //ASUS header & footer
+       window.ASUSInit = function () {
+            asus_api.init({ appkey: 'campa00004' , lang: 'es', api_menu_logo: '0'});
+        };
+        (function(d){
+            var js, id = 'asus-jsapi';
+            if (d.getElementById("asus-jsapi")) {return;}
+            js = d.createElement('script');
+            js.id = id;
+            js.async = true;
+            js.src = "//www.asus.com/API/js/asus_api.js";
+            d.getElementsByTagName('head')[0].appendChild(js);
+        }(document));
+     </script> 
+ </head> 
+ <body> 
+  <div class="wrapper"> 
+   <header class="header"> 
+    <section class="header-inner"> 
+     <a href="index.html"><img class="logo" src="Theme/Image/UI/logo.png"></a> 
+     <div class="burger-wrapper"> 
+      <a class="burger burger-on"></a> 
+      <a class="burger burger-off"></a> 
+     </div> 
+     <ul class="menu"> 
+      <li><a href="index.html" class="active" onclick="ga('send', 'event', 'menus', 'clicked', ‘powered-by-asus-es')">Powered by ASUS</a></li> 
+      <li><a href="buynow.html" class="icon-cart" onclick="ga('send', 'event', 'menus', 'clicked', ‘compra-tu-pc-es')">Compra tu PC</a></li> 
+      <li><a href="companion.html" onclick="ga('send', 'event', ‘menus’, 'clicked', ‘los-mejores-accesorios-es')">Los mejores accesorios</a></li> 
+      <li><a href="promotion.html" onclick="ga('send', 'event', ‘menus', 'clicked', ‘eventos-y-promociones-es')">Eventos y promociones</a></li> 
+     </ul> 
+    </section> 
+   </header> 
+   <main class="main"> 
+    <section class="banner home-banner"> 
+     <div class="hero"> 
+      <!--banner slider : start --> 
+      <div class="swiper-container"> 
+       <div class="swiper-wrapper"> 
+        <div class="swiper-img">
+         <a href="#">
+          <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-1_3.jpg)"></div></a>
+        </div> 
+       </div> 
+      </div> 
+      <div class="pagination"></div> 
+      <!--banner slider : end --> 
+     </div> 
+    </section> 
+    <section class="home-intro"> 
+     <div class="home-intro-inner clear"> 
+      <div class="home-logo">
+       <img src="Theme/Image/UI/logo.png">
+      </div> 
+      <div class="text"> 
+       <h2>Powered by ASUS. La tecnología como obra de arte.</h2> 
+       <p>Powered by ASUS es para aquellos que solo se conforman con la perfección. ASUS cuenta con un galardonado equipo I+D comprometido al cien por cien con la filosofía "In Search of Incredible", un afán de perfección respaldado por los más de 3000 premios que las líneas de componentes ASUS reciben anualmente. Estamos orgullosos de contar con los mejores integradores para configurar equipos de ensueño que no se encuentran disponibles en ningún otro lugar. Powered by ASUS es exclusividad, es tecnología como obra de arte. ¿Vas a conformarte con menos?</p> 
+      </div> 
+     </div> 
+    </section> 
+    <section class="home-duet clear"> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>La marca líder en placas base</h3> 
+       <p>Fiel a la innovación y el rendimiento, ASUS lleva 10 años consecutivos liderando el mercado mundial de placas base. El diseño innovador, fácil de usar, estable y fiable de las placas ASUS ha recibido más premios que ningún otro fabricante. Con más de 500 millones de placas vendidas desde 1989, ASUS es la marca en la que puedes confiar.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-a-1.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>Tarjetas gráficas ASUS: La opción n.º 1 de los gamers</h3> 
+       <p>ASUS es la marca líder en tarjetas gráficas. La tecnología Auto-Extreme asegura la fiabilidad más avanzada mediante un proceso de manufactura 100 % automatizado. Con multitud de tecnologías exclusivas y un software muy intuitivo, las gráficas ASUS ofrecen una experiencia gaming de vanguardia para que disfrutes de más emociones y victorias.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-a-2.jpg">
+      </div> 
+     </div> 
+    </section> 
+    <section class="home-team clear"> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>La marca n.º 1 en monitores gaming con certificación TÜV Blue-Light</h3> 
+       <p>Los monitores ASUS son los pioneros de numerosas innovaciones de la industria. Además, permiten reducir hasta un 70 % las emisiones de luz azul perjudicial y es la marca con un mayor número de modelos con certificación TÜV Rheinland, la organización líder en pruebas de monitores. </p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-1.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>Soluciones de red FAST</h3> 
+       <p>Las soluciones de red ASUS ofrecen la cobertura más amplia; interfaces y aplicaciones como ASUS Router App y ASUSWRT para una configuración y control más simples; funciones de seguridad ASUS AiProtection, y una calidad y fiabilidad reconocidas con premios.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-2.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>Unidades ópticas internas con almacenamiento seguro durante un milenio </h3> 
+       <p>Las unidades ópticas de ASUS soportan M-DISC™, una tecnología de archivo que protege tu colección de recuerdos digitales grabándolos en una capa que es extremadamente resistente a condiciones extremas y dura más de un milenio. </p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-3.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>Readers' Choice de PC Games Hardware durante 3 años consecutivos</h3> 
+       <p>Las tarjetas de audio ASUS están fabricadas para satisfacer a las audiencias más exigentes. Diseñadas con materiales de grado audiófilo y pasión por los pequeños detalles, proporcionan una relación señal-ruido muy alta (SNR), un amplificador de auriculares meticulosamente seleccionado y sonido multicanal. Las tarjetas de audio ASUS son tu mejor opción para mejorar tu experiencia con juegos, música y películas.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-4.jpg">
+      </div> 
+     </div> 
+    </section> 
+    <section class="buy-now"> 
+     <a href="buynow.html" class="action" onclick="ga('send', 'event', 'navigations', 'clicked', ‘compra-tu-pc-es')">Compra tu PC</a> 
+    </section> 
+   </main> 
+   <footer class="footer"> 
+    <p class="backtotop"><a>Volver arriba</a></p> 
+    <section class="content"> 
+     <p class="copyright "><a href="https://asus.com/" target="_blank"><img src="Theme/Image/UI/asus.png"></a><br>© 2016 ASUSTeK Computer Inc. Todos los derechos reservados. Especificaciones y términos de uso sujetos a cambios sin previo aviso. Comprueba las ofertas exactas en tu punto de venta habitual. No todos los productos están disponibles en todos los países. Las marcas y nombres de productos son propiedad de sus respectivas compañías. ASUS no se responsabiliza de los posibles errores editoriales u omisiones contenidos en el presente sitio web.</p> 
+    </section> 
+   </footer> 
+   <div class="sidenav"> 
+    <!--<a class="sidenav-home-1"><span>OVERVIEW</span></a>--> 
+    <a class="sidenav-home-2"><span>Powered By ASUS</span></a> 
+    <a class="sidenav-home-3"><span>Productos ASUS</span></a> 
+   </div> 
+  </div>  
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NJRLM8');</script> 
+  <!-- End Google Tag Manager -->  
+ </body>
+</html>

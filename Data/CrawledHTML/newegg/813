@@ -1,0 +1,400 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1.0,user-scalable=no"> 
+  <meta content="black" name="apple-mobile-web-app-status-bar-style"> 
+  <meta content="telephone=no" name="format-detection"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8; IE=7; IE=EDGE"> 
+  <link type="text/css" rel="stylesheet" href="http://promotions.newegg.com/mobile/v6/images/base.css"> 
+  <link type="text/css" rel="stylesheet" href="http://promotions.newegg.com/mobile/v6/images/mobile_intro.css"> 
+  <!--[if lt IE 8]>  
+<link type="text/css" rel="stylesheet" href="http://promotions.newegg.com/mobile/v6/images/iefix.css" />
+<![endif]--> 
+  <title>Newegg</title> 
+  <script type="text/javascript" src="http://content.newegg.com/Common/TrackingLandingPageScripts.aspx"></script> 
+ </head> 
+ <body> 
+  <!-- Adobe Marketing Cloud Tag Loader Code
+Copyright 1996-2013 Adobe, Inc. All Rights Reserved
+More info available at http://www.adobe.com/solutions/digital-marketing.html --> 
+  <script type="text/javascript">
+var amc=amc||{};if(!amc.on){amc.on=amc.call=function(){}};
+document.write("<scr"+"ipt type='text/javascript' src='//www.adobetag.com/d1/v2/ZDEtbmV3ZWdnLTEzOTM0LTMxMjMt/amc.js'></sc"+"ript>");   
+</script> 
+  <!-- End Adobe Marketing Cloud Tag Loader Code --> 
+  <div class="intro"> 
+   <div class="introTop"> 
+    <div class="con"> 
+     <div class="text animated fadeInDown flyIn flyInDelay"> 
+      <a href="http://www.newegg.com" class="logo"> <img src="http://promotions.newegg.com/mobile/v6/images/logo.png" alt="Newegg.com" title="Newegg.com" class="retinaImg"> </a> 
+      <h1>Newegg Mobile</h1> 
+      <h2>The Whole Newegg&nbsp;&nbsp;·&nbsp;&nbsp;Reviews &amp; Images&nbsp;&nbsp;·&nbsp;&nbsp;Scan. Compare. Buy.</h2> 
+      <a href="javascript:;" id="VideoPlay" class="videoPlay"> <span class="icon"></span>See Video </a> 
+     </div> 
+     <div class="screenshot"> 
+      <div class="img img01 animated animated-500 fadeInRight flyIn flyInDelay"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/top_screenshot_01.png"> 
+      </div> 
+      <div class="img img02 animated fadeInRight flyIn flyInDelay"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/top_screenshot_02.png"> 
+      </div> 
+      <div class="img img03 animated animated-2000 fadeInRight flyIn flyInDelay"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/top_screenshot_03.png"> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="introNav"> 
+    <div class="introNavWrap"> 
+     <a href="http://www.newegg.com" class="logo"> <img src="http://promotions.newegg.com/mobile/v6/images/logo2_small.png" alt="Newegg.com" title="Newegg.com" class="retinaImg"> </a> 
+     <ul> 
+      <li><a href="javascript:;" class="navMobile current"><span></span>Mobile</a></li> 
+      <li><a href="javascript:;" class="navIOS"><span></span>iOS</a></li> 
+      <li><a href="javascript:;" class="navAndroid"><span></span>Android</a></li> 
+      <!--<li><a href="javascript:;" class="navWindows"><span></span>Windows</a></li>--> 
+      <li><a href="javascript:;" class="navGoogleTV"><span></span><label>Google </label>TV</a></li> 
+     </ul> 
+     <div class="arrowLeft"></div> 
+     <div class="arrow" id="IntroNavArrow">
+      <b></b>
+      <span></span>
+     </div> 
+    </div> 
+   </div> 
+   <!-- Mobile --> 
+   <div class="introNavCon" style="display: block"> 
+    <div class="introCon"> 
+     <div class="text animated" type="fadeInDown"> 
+      <h2>Mobile Exclusive Deals</h2> 
+      <h3>Enjoy special deals that are exclusive to Newegg Mobile.</h3> 
+      <div class="appDL"> 
+       <a href="http://m.newegg.com" class="appLink" onclick="siteCatalyst_mobile()"> <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/qr_mobilesite.png"> <span><b class="dlMobile"></b></span> </a> 
+      </div> 
+     </div> 
+     <div class="screenshot fr"> 
+      <div class="img imgL img50 imgM15 animated" type="fadeInLeft"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/m_screenshot_01.png"> 
+      </div> 
+      <div class="img img50 animated" type="fadeInRight"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/m_screenshot_02.png"> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="introCon"> 
+     <h2 class="animated" type="fadeInDown">Advanced Search</h2> 
+     <h3 class="animated" type="fadeInDown">Simple and powerful search functionality lets you use multiple filters at one time.</h3> 
+     <div class="screenshot screenshot2"> 
+      <div class="img animated" type="fadeInLeft"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/m_screenshot_03.png"> 
+      </div> 
+      <div class="img animated" type="fadeInRight"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/m_screenshot_04.png"> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="introCon"> 
+     <h2 class="animated" type="fadeInDown">Reviews and Detailed Product Images</h2> 
+     <h3 class="animated" type="fadeInDown">Expert customer reviews and detailed product images help your purchasing decisions.</h3> 
+     <div class="screenshot screenshot2"> 
+      <div class="img animated" type="fadeInLeft"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/m_screenshot_05.png"> 
+      </div> 
+      <div class="img animated" type="fadeInRight"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/m_screenshot_06.png"> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="introCon"> 
+     <h2 class="animated" type="fadeInDown">Track Your Order Anytime</h2> 
+     <h3 class="animated" type="fadeInDown">Track the status of a recently placed order, right from phone.</h3> 
+     <div class="screenshot screenshot2"> 
+      <div class="img animated" type="fadeInLeft"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/m_screenshot_07.png"> 
+      </div> 
+      <div class="img animated" type="fadeInRight"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/m_screenshot_08.png"> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- iOS --> 
+   <div class="introNavCon" style="display: none"> 
+    <div class="introCon"> 
+     <div class="text animated" type="fadeInDown"> 
+      <h2>Mobile Exclusive Deals</h2> 
+      <h3>Enjoy special deals that are exclusive to Newegg Mobile.</h3> 
+      <div class="appDL"> 
+       <a href="https://itunes.apple.com/us/app/newegg-mobile/id345188269" class="appLink" onclick="siteCatalyst_iphone()"> <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/qr_iphone.png"> <span><b class="dlIphone"></b></span> </a> 
+      </div> 
+     </div> 
+     <div class="screenshot screenshotBig fr"> 
+      <div class="img imgL img30 imgM10 animated" type="fadeInLeft"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/ios_screenshot_01.png"> 
+      </div> 
+      <div class="img img70 animated" type="fadeInRight"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/ios_screenshot_02.png"> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="introCon"> 
+     <h2 class="animated" type="fadeInDown">Push Notifications</h2> 
+     <h3 class="animated" type="fadeInDown">Time is of the essence.<br> Let Newegg notify you about special deals or price alerts as soon as they happen. </h3> 
+     <div class="screenshot"> 
+      <div class="img imgSingle animated" type="fadeInDown"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/ios_screenshot_03.png"> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="introCon"> 
+     <h2 class="animated" type="fadeInDown">Your Personal Homepage</h2> 
+     <h3 class="animated" type="fadeInDown">Customize your Newegg Mobile experience to get the information that you care most about.</h3> 
+     <div class="screenshot screenshot2 screenshot3"> 
+      <div class="img animated" type="fadeInLeft"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/ios_screenshot_04.png"> 
+      </div> 
+      <div class="img animated" type="fadeInRight"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/ios_screenshot_05.png"> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="introCon"> 
+     <h2 class="animated" type="fadeInDown">Reviews and Detailed Product Images</h2> 
+     <h3 class="animated" type="fadeInDown">Expert customer reviews and detailed product images help your purchasing decisions.</h3> 
+     <div class="screenshot screenshotRight"> 
+      <div class="img imgL imgM15 img15 animated" type="fadeInLeft"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/ios_screenshot_06.png"> 
+      </div> 
+      <div class="img img80 animated" type="fadeInRight"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/ios_screenshot_07.png"> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- Android --> 
+   <div class="introNavCon" style="display: none"> 
+    <div class="introCon"> 
+     <div class="fl"> 
+      <div class="text animated" type="fadeInDown"> 
+       <h2>Mobile Exclusive Deals</h2> 
+       <h3>Enjoy special deals that are exclusive to Newegg Mobile.</h3> 
+       <div class="appDL"> 
+        <a href="https://play.google.com/store/apps/details?id=com.newegg.app" class="appLink" onclick="siteCatalyst_androidPhone()"> <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/qr_android_phone.png"> <span><b class="dlAndroidPhone"></b></span> </a> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="screenshot screenshotBig fr"> 
+      <div class="img imgL img30 imgM10 animated" type="fadeInLeft"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/android_screenshot_01.png"> 
+      </div> 
+      <div class="img img70 animated" type="fadeInRight">
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/android_screenshot_02.png">
+      </div> 
+     </div> 
+    </div> 
+    <div class="introCon"> 
+     <h2 class="animated" type="fadeInDown">Push Notifications</h2> 
+     <h3 class="animated" type="fadeInDown">Time is of the essence. <br> Let Newegg notify you about special deals or price alerts as soon as they happen.</h3> 
+     <div class="screenshot screenshotRight"> 
+      <div class="img imgL img15 animated" type="fadeInLeft"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/android_screenshot_03.png"> 
+      </div> 
+      <div class="img img80 animated" type="fadeInRight"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/android_screenshot_04.png"> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="introCon"> 
+     <h2 class="animated" type="fadeInDown">Your Personal Homepage</h2> 
+     <h3 class="animated" type="fadeInDown">Customize your Newegg Mobile experience to get the information that you care most about.</h3> 
+     <div class="screenshot screenshotRight"> 
+      <div class="img imgL img15 animated" type="fadeInLeft"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/android_screenshot_05.png"> 
+      </div> 
+      <div class="img img80 animated" type="fadeInRight"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/android_screenshot_06.png"> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="introCon"> 
+     <h2 class="animated" type="fadeInDown">Reviews and Detailed Product Images</h2> 
+     <h3 class="animated" type="fadeInDown">Expert customer reviews and detailed product images help your purchasing decisions.</h3> 
+     <div class="screenshot"> 
+      <div class="img imgL imgAndroid07 animated" type="fadeInLeft"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/android_screenshot_07.png"> 
+      </div> 
+      <div class="img img50 animated" type="fadeInRight"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/android_screenshot_08.png"> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- Windows --> 
+   <!--
+	<div class="introNavCon" style="display: none">
+		<div class="introCon">
+			<div class="fl">
+				<div class="text animated" type="fadeInDown">
+					<h2>Mobile Exclusive Deals</h2>
+					<h3>Enjoy special deals that are exclusive to Newegg Mobile.</h3>
+
+					<div class="appDL">
+						<div class="appLinkWrap">
+							<a href="http://www.windowsphone.com/en-us/store/app/newegg/083d71d4-f629-4d2d-8df8-ecfcd337242e" class="appLink" onclick="siteCatalyst_winPhone()">
+								<img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/qr_window_phone.png">
+								<span><b class="dlWinPhone"></b></span>
+							</a>
+						</div>
+						<div class="appLinkWrap">
+							<a href="http://apps.microsoft.com/windows/en-us/app/newegg/58866e06-e093-4094-991f-c4daabe69d21" class="appLink" onclick="siteCatalyst_win8()">
+								<img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/qr_window_store.png">
+								<span><b class="dlWinStore"></b></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="screenshot screenshotBig fr">
+				<div class="img imgL img30 imgM10 animated" type="fadeInLeft">
+					<img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/window_screenshot_01.png" >
+				</div>
+				<div class="img img70 animated" type="fadeInRight">
+					<img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/window_screenshot_02.png">
+				</div>
+			</div>
+		</div>
+
+		<div class="introCon">
+			<h2 class="animated" type="fadeInDown">Advanced Search</h2>
+			<h3 class="animated" type="fadeInDown">Simple and powerful search function functionality lets you use multiple filters at one time.</h3>
+
+			<div class="screenshot screenshotRight">
+				<div class="img imgL img15 imgWin animated" type="fadeInLeft">
+					<img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/window_screenshot_03.png" >
+				</div>
+				<div class="img img80 animated" type="fadeInRight">
+					<img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/window_screenshot_04.png" >
+				</div>
+			</div>
+		</div>
+
+		<div class="introCon">
+			<h2 class="animated" type="fadeInDown">Reviews and Detailed Product Images</h2>
+			<h3 class="animated" type="fadeInDown">Expert customer reviews and detailed product images help your purchasing decisions.</h3>
+
+			<div class="screenshot screenshotRight">
+				<div class="img imgL img15 imgWin animated" type="fadeInLeft">
+					<img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/window_screenshot_05.png" >
+				</div>
+				<div class="img img80 animated" type="fadeInRight">
+					<img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/window_screenshot_06.png" >
+				</div>
+			</div>
+		</div>
+
+		<div class="introCon">
+			<h2 class="animated" type="fadeInDown">Extremely Fluid Shopping Experience</h2>
+			<h3 class="animated" type="fadeInDown">Shop intuitively with rich content and robust interactivity.</h3>
+
+			<div class="screenshot">
+				<div class="img imgTV animated" type="fadeInDown">
+					<img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/window_screenshot_07.png" >
+				</div>
+			</div>
+		</div>
+	</div>
+	--> 
+   <!-- Google TV --> 
+   <div class="introNavCon" style="display: none"> 
+    <div class="introCon"> 
+     <div class="fl"> 
+      <div class="text animated" type="fadeInDown"> 
+       <h2>Shop Newegg on your television!</h2> 
+       <div class="appDL"> 
+        <a href="https://play.google.com/store/apps/details?id=com.newegg.googletv" class="appLink" onclick="siteCatalyst_googleTV()"> <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/qr_googletv.png"> <span><b class="dlTV"></b></span> </a> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="screenshot fr"> 
+      <div class="img imgTVtop animated" type="fadeInDown"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/tv_screenshot_01.png"> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="introCon"> 
+     <h2 class="animated" type="fadeInDown">The Whole Newegg</h2> 
+     <h3 class="animated" type="fadeInDown">Browse, search and purchase, or save your favorite products to your personal Wishlist.</h3> 
+     <div class="screenshot"> 
+      <div class="img imgTV animated" type="fadeInDown"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/tv_screenshot_02.png"> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="introCon"> 
+     <h2 class="animated" type="fadeInDown">Share products with friends and family</h2> 
+     <div class="screenshot"> 
+      <div class="img imgTV animated" type="fadeInDown"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/tv_screenshot_03.png"> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="introCon"> 
+     <h2 class="animated" type="fadeInDown">Watch product overviews and<br>commentary via Newegg TV</h2> 
+     <div class="screenshot"> 
+      <div class="img imgTV animated" type="fadeInDown"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/tv_screenshot_04.png"> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="introCon"> 
+     <h2 class="animated" type="fadeInDown">Take control with your<br>Android phone App</h2> 
+     <h3 class="animated" type="fadeInDown">Android phones easily synchronize with Google TV.<br>Use your Android phone App to conveniently navigate the Newegg App for Google TV. </h3> 
+     <div class="screenshot"> 
+      <div class="img imgTV animated" type="fadeInDown"> 
+       <img src="http://promotions.newegg.com/mobile/v6/images/blank.gif" data-original="http://promotions.newegg.com/mobile/v6/images/tv_screenshot_05.png"> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="introBottom"> 
+    <div class="con"> 
+     <div class="subscribeWrap"> 
+      <label>Looking for special offers, coupon codes, and exclusive promotions?<br>Subscribe to the Newegg.com Newsletter</label> 
+      <div class="subscribe"> 
+       <form action="https://secure.newegg.com/NewMyAccount/NewsLetterSubscribe.aspx?Action=Manage" method="post" name="Newsletter" class="footer"> 
+        <input type="text" class="inputText" placeholder="Enter Your Email Address" id="subscriptionemail"> 
+        <input type="submit" class="inputBtn" value="subscribe" alt="Subscribe" title="Subscribe"> 
+        <input type="hidden" value="1" name="Subscribe"> 
+       </form> 
+      </div> 
+     </div> 
+     <div class="share"> 
+      <label>Follow us</label> 
+      <a class="iconShare iconFacebook" sharetype="Facebook" id="FacebookShareFooter" title="Follow us on Facebook" href="http://www.facebook.com/newegg" target="_blank"></a> 
+      <a class="iconShare iconTwitter" sharetype="Twitter" id="TwitterShareFooter" title="Follow us on Twitter" href="http://www.twitter.com/newegg" target="_blank"></a> 
+      <a class="iconShare iconInstagram" sharetype="Instagram" id="InstagramShareFooter" title="Follow us on Instagram" href="http://www.instagram.com/newegg" target="_blank"></a> 
+      <a class="iconShare iconGooglePlus" sharetype="Instagram" id="InstagramShareFooter" title="Follow us on Instagram" href="https://plus.google.com/+Newegg/posts" target="_blank"></a> 
+      <a class="iconShare iconPinterest" sharetype="Pinterest" id="PinterestShareFooter" title="Follow us on Pinterest" href="http://www.pinterest.com/newegg" target="_blank"></a> 
+      <a class="iconShare iconYoutube" sharetype="Tumblr" id="TumblrShareFooter" title="Follow us on Tumblr" href="https://www.youtube.com/user/newegg" target="_blank"></a> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> 
+  <script type="text/javascript" src="http://promotions.newegg.com/mobile/v6/images/jquery.lazyload.min.js"></script> 
+  <script type="text/javascript" src="http://promotions.newegg.com/mobile/v6/images/function.js"></script> 
+  <!-- SiteCatalyst --> 
+  <script type="text/javascript" language="javascript1.1">
+s.pageName='mobile introduction page'; 
+s.server='promotions';
+s.channel='Landingpage';
+s.prop1='browsing';
+s.prop23='MKT Promotion';
+ 
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)
+</script> 
+  <!-- End SiteCatalyst -->  
+ </body>
+</html>

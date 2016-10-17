@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width"> 
+  <meta name="description" content="Powered by ASUS offers dream machines with select system-builders, from small-form-factor dynamos to giant liquid-cooled beasts, Powered by ASUS means exclusivity, performance, and art."> 
+  <meta name="keywords" content="ASUS,VGA,MB,Desktop,Display,Monitor,Networks,Server &amp; Workstation,Chassis,Motherboards,PC Gaming hardware,Gaming motherboard,overclocking motherboard,Battlefield,assassins creed,Optical Storage,Graphics Cards,Multimedia,Peripherals &amp; Accessories,accessories,Peripheral,PC Accessories,Computer Peripheral,Power Supply,Thermal Solution,Eshop,PCs,Barebone PC, ASUS Partners, PBA, PBA Systems, ASUS System Integrator, ASUS System Builder, ASUS Gaming Systems, Gaming System, ASUS Computer, ASUS Gaming Computer"> 
+  <meta property="og:site_name" content="Powered by ASUS"> 
+  <meta property="og:title" content="Powered by ASUS."> 
+  <meta property="og:description" content="Powered by ASUS offers dream machines with select system-builders, from small-form-factor dynamos to giant liquid-cooled beasts, Powered by ASUS means exclusivity, performance, and art."> 
+  <link rel="shortcut icon" href="http://www.asus.com/media/img/favicon.ico"> 
+  <title>Optimisé par ASUS</title> 
+  <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" type="text/css"> 
+  <link href="Theme/CSS/normalize.css" rel="stylesheet" media="screen"> 
+  <link href="Theme/CSS/default.css" rel="stylesheet" media="screen"> 
+  <link href="Theme/CSS/idangerous.swiper.css" rel="stylesheet" media="screen"> 
+  <script src="Theme/Javascript/modernizr.custom.08193.js"></script> 
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> 
+  <script src="Theme/Javascript/default.js"></script> 
+  <script src="Theme/Javascript/idangerous.swiper.min.js"></script> 
+  <script type="text/javascript">
+    //ASUS header & footer
+        window.ASUSInit = function () {
+            asus_api.init({ appkey: 'campa00004' , lang: 'nafr-fr', api_menu_logo: '0'});
+        };
+        (function(d){
+            var js, id = 'asus-jsapi';
+            if (d.getElementById("asus-jsapi")) {return;}
+            js = d.createElement('script');
+            js.id = id;
+            js.async = true;
+            js.src = "//www.asus.com/API/js/asus_api.js";
+            d.getElementsByTagName('head')[0].appendChild(js);
+        }(document));
+     </script> 
+ </head> 
+ <body> 
+  <div class="wrapper"> 
+   <header class="header"> 
+    <section class="header-inner"> 
+     <a href="index.html"><img class="logo" src="Theme/Image/UI/logo.png"></a> 
+     <div class="burger-wrapper"> 
+      <a class="burger burger-on"></a> 
+      <a class="burger burger-off"></a> 
+     </div> 
+     <ul class="menu"> 
+      <li><a href="index.html" class="active" onclick="ga('send', 'event', 'menus', 'clicked', ‘powered-by-asus-au')">Optimisé par ASUS</a></li> 
+      <!-- <li><a href="buynow.html" class="icon-cart" onclick="ga('send', 'event', 'menus', 'clicked', ‘buy-a-pc-now-au')">Achetez un PC maintenant !</a></li> --> 
+      <li><a href="companion.html" onclick="ga('send', 'event', ‘menus’, 'clicked', ‘best-companion-with-your-pc-au')">Le compagnon idéal de votre PC</a></li> 
+      <li><a href="promotion.html" onclick="ga('send', 'event', ‘menus', 'clicked', ‘events-and-promotion-au')">Événements et promotions</a></li> 
+     </ul> 
+    </section> 
+   </header> 
+   <main class="main"> 
+    <section class="banner home-banner"> 
+     <div class="hero"> 
+      <!-- <a href="#"><div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-12.jpg)"></div></a> --> 
+      <!--banner slider : start --> 
+      <a class="arrow-left" href="#"></a> 
+      <a class="arrow-right" href="#"></a> 
+      <div class="swiper-container"> 
+       <div class="swiper-wrapper"> 
+        <div class="swiper-slide"> 
+         <div class="swiper-img">
+          <a href="http://www.asus.com/nafr-fr/Graphics-Cards/ROG-STRIX-GTX1080-O8G-GAMING/" target="_blank" onclick="ga('send', 'event', ‘banners', 'clicked', ‘ROG STRIX-GTX1080-O8G-GAMING')">
+           <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-12.jpg)"></div></a>
+         </div> 
+        </div> 
+        <div class="swiper-slide"> 
+         <div class="swiper-img">
+          <a href="#">
+           <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-1.jpg)"></div></a>
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pagination"></div> 
+      <!--banner slider : end --> 
+     </div> 
+    </section> 
+    <section class="home-intro"> 
+     <div class="home-intro-inner clear"> 
+      <div class="home-logo">
+       <img src="Theme/Image/UI/logo.png">
+      </div> 
+      <div class="text"> 
+       <h2>Optimisé par ASUS. La technologie comme une œuvre d'art.</h2> 
+       <p>Optimisé par ASUS pour ceux qui n'acceptent que la perfection. Nos équipes de recherche et développement donnent vie à la devise de notre entreprise - À la recherche de l'incroyable. Notre poursuite de la perfection est prouvée par les 1000 prix et plus que nous recevons annuellement. Ensuite, nos partenaires créent des machines de rêve inaccessibles ailleurs, depuis des petits facteurs de forme jusqu'à des équipements ultra-puissants refroidis par liquide. L'optimisation par ASUS est une garantie d'exclusivité. Cela signifie des performances. Cela implique la technologie comme une œuvre d'art. Pourquoi envisager quelque chose d'inférieur ?</p> 
+      </div> 
+     </div> 
+    </section> 
+    <section class="home-duet clear"> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>La 1re marque mondiale de cartes mères</h3> 
+       <p>ASUS est le leader mondial des fabricants de cartes mères depuis plus de 10 années consécutives grâce à ses innovations performantes. C'est également la plus primée, grâce à nos quatre principes de base : meilleures ventes, facilité d'utilisation, stables et éprouvées. Avec plus de 500 millions de cartes vendues dans le monde depuis 1989, vous pouvez avoir confiance en ASUS.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-a-1.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>La 1re marque mondiale de cartes graphiques</h3> 
+       <p>ASUS est la première marque au monde pour les cartes graphiques et la seule à offrir la technologie Auto-Extreme - un processus de production entièrement automatisé pour assurer la meilleure fiabilité. Avec de nombreuses technologies de refroidissement exclusives et la conception de logiciels intuitifs, les cartes graphiques ASUS fournissent des expériences vidéoludiques incroyables, avec plus de sensations, plus de fun et plus de victoires.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-a-2.jpg">
+      </div> 
+     </div> 
+    </section> 
+    <section class="home-team clear"> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>Marque numéro un pour les moniteurs de jeu, avec certification TÜV d'atténuation de la lumière bleue</h3> 
+       <p>Les écrans ASUS ont apporté de nombreuses innovations. Nos écrans sont également les meilleurs dans la réduction des émissions de lumière bleue, réduisant la lumière bleue nocive (jusqu'à 70 %). Ils ont en outre obtenu plus de certifications TÜV Rheinland (centre de tests d'écrans de réputation mondiale) !</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-1.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>Solutions de mise en réseau avancées</h3> 
+       <p>ASUS vous procure des solutions de mise en réseau rapide basées sur quatre valeurs de base : La portée la plus étendue pour être toujours connectés - La facilité de configuration et de gestion avec l'appli conviviale ASUS Router et ASUSWRT - Une mise en réseau sécurisée grâce à la technologie exclusive AiProtection - Une qualité éprouvée associée à une fiabilité primée.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-2.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>Stockage sécurisé pendant 1000 ans pour tous les lecteurs optiques internes</h3> 
+       <p>Les lecteurs optiques ASUS prennent en charge M-DISC™, la solution de stockage de qualité archive qui protège vos précieux souvenirs numériques. La technologie de gravure M-DISC d'ASUS grave les données enregistrées dans une couche semblable à un roc qui résiste à des conditions extrêmes - ce qui permet de conserver des informations durant un millénaire.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-3.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>Le choix des lecteurs de PC Games Hardware pour trois années consécutives</h3> 
+       <p>Les cartes son ASUS sont faites pour satisfaire les plus exigeants des auditeurs, conçues avec des matériaux de qualité audiophile et une attention toute particulière aux détails. Avec un rapport signal-bruit (SNR) élevé, un amplificateur de casque soigneusement sélectionné et le son surround multicanal, les cartes son ASUS sont votre meilleur choix pour améliorer votre expérience de jeu et de divertissement.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-4.jpg">
+      </div> 
+     </div> 
+    </section> 
+    <!-- <section class="buy-now">
+            <a href="buynow.html" class="action" onclick="ga('send', 'event', 'navigations', 'clicked', ‘buy-a-pc-now-au')">ACHETEZ UN PC MAINTENANT !</a>
+        </section> --> 
+   </main> 
+   <footer class="footer"> 
+    <p class="backtotop"><a>Back to Top</a></p> 
+    <section class="content"> 
+     <p class="copyright "><a href="https://asus.com/" target="_blank"><img src="Theme/Image/UI/asus.png"></a><br>© 2016 ASUSTeK Computer Inc. Tous droits réservés. Conditions d'utilisation. *Toutes les spécifications et conditions sont sujettes à changement sans notification préalable. Consultez votre revendeur pour connaitre les spécifications exactes en fonction des modèles. Les produits peuvent ne pas être disponibles dans tous les marchés. Le produit peut ne pas être exactement comme illustré sur les photos. Tous les noms de marques de commerce, de marques et de produits sont la propriété de leurs sociétés respectives. ASUS ne pourra être tenu pour responsable des erreurs techniques ou éditoriales, ou des omissions contenues dans ce document.</p> 
+    </section> 
+   </footer> 
+   <div class="sidenav"> 
+    <!--<a class="sidenav-home-1"><span>OVERVIEW</span></a>--> 
+    <a class="sidenav-home-2"><span>Pourquoi choisir l'optimisation ASUS?</span></a> 
+    <a class="sidenav-home-3"><span>Pourquoi préférer un produit ASUS?</span></a> 
+   </div> 
+  </div>  
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NJRLM8');</script> 
+  <!-- End Google Tag Manager -->  
+ </body>
+</html>

@@ -1,0 +1,532 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-US" itemscope itemtype="http://schema.org/QAPage">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
+  <title>Android 6.0 (Marshmallow) upgrade plan for ASUS phones
+</title> 
+  <link rel="canonical" href="https://www.asus.com/us/support/faq/1014835"> 
+  <script src="/support/js/jquery.js"></script> 
+  <link type="text/css" rel="stylesheet" href="/support/stylesheets/base.css"> 
+  <script src="/support/js/faq.js" type="text/javascript"></script> 
+  <script src="/support/js/Knowledge.js" type="text/javascript"></script> 
+ </head>  
+ <body> 
+  <form method="post" action="./1014835?ln=en-us&amp;no=1014835&amp;" id="ctl00"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExNTgyMDc0MzIPZBYCZg9kFggCBQ8WAh4EaHJlZgURLy93d3cuYXN1cy5jb20vdXNkAgcPZBYCAgEPZBYIAgEPFgQfAAUEL3VzLx4JaW5uZXJodG1sBQRIb21lZAICDxYCHgVzdHlsZQUOZGlzcGxheTppbmxpbmVkAgMPFgYfAAULL3VzL3N1cHBvcnQfAgUOZGlzcGxheTppbmxpbmUfAQUHU3VwcG9ydGQCBA8WAh8CBQ5kaXNwbGF5OmlubGluZWQCCQ9kFgICAQ8WAh8BBQNGQVFkAgsPZBYEZg9kFgRmDw8WAh4EVGV4dAU+PHA+QW5kcm9pZCA2LjAgKE1hcnNobWFsbG93KSB1cGdyYWRlIHBsYW4gZm9yIEFTVVMgcGhvbmVzPC9wPgpkZAIBDxYCHwMF+yE8cD48c3Ryb25nPkFubm91bmNlbWVudCBkYXRlOiA8L3N0cm9uZz48dT48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6IGNhbGlicmksc2Fucy1zZXJpZjsgZm9udC1zaXplOiAxMnB0OyI+TWFyY2guMcKgLDIwMTY8L3NwYW4+PC91PjwvcD4KCjxwPlRoZSBmb2xsb3dpbmcgQVNVUyBaZW5Gb25lIG1vZGVscyB3aWxsIHJlY2VpdmUgdGhlIEFuZHJvaWQgTSAoNi4wKSB1cGdyYWRlIGluIFEyIG9mIDIwMTY8L3A+Cgo8dWw+Cgk8bGk+UGFkRm9uZSBTIChQRjUwMEtMKTwvbGk+Cgk8bGk+WmVuRm9uZSAyIChaRTU1ME1MLCBaRTU1MU1MKTwvbGk+Cgk8bGk+WmVuRm9uZSAyIERlbHV4ZSAoWkU1NTFNTCk8L2xpPgoJPGxpPlplbkZvbmUgMiBEZWx1eGUgU3BlY2lhbCBFZGl0aW9uIChaRTU1MU1MKTwvbGk+Cgk8bGk+WmVuRm9uZSAyIExhc2VyIChaRTUwMEtHLCBaRTUwMEtMLCBaRTU1MEtMLCBaRTU1MUtMLCBaRTYwMEtMLCBaRTYwMUtMKTwvbGk+Cgk8bGk+WmVuRm9uZSBTZWxmaWUgKFpENTUxS0wpPC9saT4KCTxsaT5aZW5Gb25lIE1heCAoWkM1NTBLTCk8L2xpPgoJPGxpPlplbkZvbmUgWm9vbSAoWlg1NTFNTCk8L2xpPgo8L3VsPgoKPHA+PHN0cm9uZz5DdXJyZW50IHVwZGF0ZSBhcyBmb2xsb3dpbmfCoDwvc3Ryb25nPjwhLS1FbmRGcmFnbWVudCAtLT48L3A+Cgo8dGFibGUgYmdjb2xvcj0iI2U2ZTZlNiIgYm9yZGVyPSIxIiBjZWxsc3BhY2luZz0iMCIgY2xhc3M9InRfdGFibGUiIHN0eWxlPSJ3aWR0aDogNzAlOyI+Cgk8dGJvZHk+CgkJPHRyPgoJCQk8dGQ+PGZvbnQgY29sb3I9IiMwMDAwODAiPjxzdHJvbmc+UHJvZHVjdCBOYW1lPC9zdHJvbmc+PC9mb250PjwvdGQ+CgkJCTx0ZD48Zm9udCBjb2xvcj0iIzAwMDA4MCI+PHN0cm9uZz5Nb2RlbCBOYW1lPC9zdHJvbmc+PC9mb250PjwvdGQ+CgkJCTx0ZD48Zm9udCBjb2xvcj0iIzAwMDA4MCI+PHN0cm9uZz5TdGF0dXM8L3N0cm9uZz48L2ZvbnQ+PC90ZD4KCQk8L3RyPgoJCTx0ciBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwgMjU1LCAyNTUpOyI+CgkJCTx0ZD5QYWRGb25lUzwvdGQ+CgkJCTx0ZD5QRjUwMEtMPC90ZD4KCQkJPHRkPsKgPC90ZD4KCQk8L3RyPgoJCTx0cj4KCQkJPHRkPlplbkZvbmUyPC90ZD4KCQkJPHRkPlpFNTUwTUw8L3RkPgoJCQk8dGQ+PGEgaHJlZj0iaHR0cHM6Ly93d3cuYXN1cy5jb20vemVudGFsay9mb3J1bS5waHA/bW9kPXZpZXd0aHJlYWQmdGlkPTk4NTE5IiB0YXJnZXQ9Il9ibGFuayI+PGZvbnQgY29sb3I9IiMwMDY2Y2MiPkNvbXBsZXRlZDwvZm9udD48L2E+PC90ZD4KCQk8L3RyPgoJCTx0ciBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwgMjU1LCAyNTUpOyI+CgkJCTx0ZD5aZW5Gb25lMiBEZWx1eGUvU3BlY2lhbCBFZGl0aW9uPC90ZD4KCQkJPHRkPlpFNTUxTUw8L3RkPgoJCQk8dGQ+PGEgaHJlZj0iaHR0cDovL3d3dy5hc3VzLmNvbS96ZW50YWxrL3RocmVhZC05ODM3MC0xLTEuaHRtbCIgdGFyZ2V0PSJfYmxhbmsiPjxmb250IGNvbG9yPSIjMDA2NmNjIj5Db21wbGV0ZWQ8L2ZvbnQ+PC9hPjwvdGQ+CgkJPC90cj4KCQk8dHI+CgkJCTx0ZCByb3dzcGFuPSI2Ij5aZW5Gb25lMiBMYXNlcjwvdGQ+CgkJCTx0ZD5aRTUwMEtHPC90ZD4KCQkJPHRkPjxhIGhyZWY9Imh0dHA6Ly93d3cuYXN1cy5jb20vemVudGFsay90aHJlYWQtNzk1MzAtMS0xLmh0bWwiIHRhcmdldD0iX2JsYW5rIj48Zm9udCBjb2xvcj0iIzAwNjZjYyI+Q29tcGxldGVkPC9mb250PjwvYT48L3RkPgoJCTwvdHI+CgkJPHRyIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LCAyNTUsIDI1NSk7Ij4KCQkJPHRkPlpFNTAwS0w8L3RkPgoJCQk8dGQ+PGEgaHJlZj0iaHR0cDovL3d3dy5hc3VzLmNvbS96ZW50YWxrL2ZvcnVtLnBocD9tb2Q9dmlld3RocmVhZCZ0aWQ9NzUxNzImaGlnaGxpZ2h0PVpFNTAwS0wiIHRhcmdldD0iX2JsYW5rIj48Zm9udCBjb2xvcj0iIzAwNjZjYyI+Q29tcGxldGVkPC9mb250PjwvYT48L3RkPgoJCTwvdHI+CgkJPHRyPgoJCQk8dGQ+WkU1NTBLTDwvdGQ+CgkJCTx0ZD48YSBocmVmPSJodHRwOi8vd3d3LmFzdXMuY29tL3plbnRhbGsvdGhyZWFkLTgxNDY4LTEtMS5odG1sIiB0YXJnZXQ9Il9ibGFuayI+PGZvbnQgY29sb3I9IiMwMDY2Y2MiPkNvbXBsZXRlZDwvZm9udD48L2E+PC90ZD4KCQk8L3RyPgoJCTx0ciBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwgMjU1LCAyNTUpOyI+CgkJCTx0ZD5aRTU1MUtMPC90ZD4KCQkJPHRkPjxhIGhyZWY9Imh0dHA6Ly93d3cuYXN1cy5jb20vemVudGFsay90aHJlYWQtODE0NzAtMS0xLmh0bWwiIHRhcmdldD0iX2JsYW5rIj48Zm9udCBjb2xvcj0iIzAwNjZjYyI+Q29tcGxldGVkPC9mb250PjwvYT48L3RkPgoJCTwvdHI+CgkJPHRyPgoJCQk8dGQ+WkU2MDBLTDwvdGQ+CgkJCTx0ZD48YSBocmVmPSJodHRwOi8vd3d3LmFzdXMuY29tL3plbnRhbGsvdGhyZWFkLTgyMjA4LTEtMS5odG1sIiB0YXJnZXQ9Il9ibGFuayI+PGZvbnQgY29sb3I9IiMwMDY2Y2MiPkNvbXBsZXRlZDwvZm9udD48L2E+PC90ZD4KCQk8L3RyPgoJCTx0ciBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwgMjU1LCAyNTUpOyI+CgkJCTx0ZD5aRTYwMUtMPC90ZD4KCQkJPHRkPjxhIGhyZWY9Imh0dHA6Ly93d3cuYXN1cy5jb20vemVudGFsay90aHJlYWQtODIyMDktMS0xLmh0bWwiIHRhcmdldD0iX2JsYW5rIj48Zm9udCBjb2xvcj0iIzAwNjZjYyI+Q29tcGxldGVkPC9mb250PjwvYT48L3RkPgoJCTwvdHI+CgkJPHRyPgoJCQk8dGQ+WmVuRm9uZSBTZWxmaWU8L3RkPgoJCQk8dGQ+WkQ1NTFLTDwvdGQ+CgkJCTx0ZD48YSBocmVmPSJodHRwOi8vd3d3LmFzdXMuY29tL3plbnRhbGsvdGhyZWFkLTgxNjM0LTEtMS5odG1sIiB0YXJnZXQ9Il9ibGFuayI+PGZvbnQgY29sb3I9IiMwMDY2Y2MiPkNvbXBsZXRlZDwvZm9udD48L2E+PC90ZD4KCQk8L3RyPgoJCTx0ciBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwgMjU1LCAyNTUpOyI+CgkJCTx0ZD5aZW5Gb25lIE1heDwvdGQ+CgkJCTx0ZD5aQzU1MEtMPC90ZD4KCQkJPHRkPjxhIGhyZWY9Imh0dHA6Ly93d3cuYXN1cy5jb20vemVudGFsay90aHJlYWQtNzg1MDUtMS0xLmh0bWwiIHRhcmdldD0iX2JsYW5rIj48Zm9udCBjb2xvcj0iIzAwNjZjYyI+Q29tcGxldGVkPC9mb250PjwvYT48L3RkPgoJCTwvdHI+CgkJPHRyPgoJCQk8dGQ+WmVuRm9uZSBab29tPC90ZD4KCQkJPHRkPlpYNTUxTUw8L3RkPgoJCQk8dGQ+PGEgaHJlZj0iaHR0cDovL3d3dy5hc3VzLmNvbS96ZW50YWxrL3RocmVhZC04MTY2My0xLTEuaHRtbCIgdGFyZ2V0PSJfYmxhbmsiPjxmb250IGNvbG9yPSIjMDA2NmNjIj5Db21wbGV0ZWQ8L2ZvbnQ+PC9hPjwvdGQ+CgkJPC90cj4KCTwvdGJvZHk+CjwvdGFibGU+Cgo8cD48YnIgLz4KV2hhdCB0byBleHBlY3Qgd2hlbiB0aGUgQW5kcm9pZCBNIHVwZGF0ZSBpcyBpbnN0YWxsZWQgb24gYW4gQVNVUyBzbWFydHBob25lOjwvcD4KCjx1bD4KCTxsaT48c3Ryb25nPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDE0cHg7Ij5Hb29nbGUgTWVzc2VuZ2VyLCBDYWxlbmRhciwgYW5kIEdtYWlsIGFwcHM8L3NwYW4+PC9zdHJvbmc+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMTRweDsiPiB3aWxsIGF1dG9tYXRpY2FsbHkgYmUgaW5jbHVkZWQgd2l0aCB0aGUgQW5kcm9pZCBNIHVwZGF0ZS4gVGhlc2UgYXBwcyB3aWxsIHJlcGxhY2UgdGhyZWXCoFplblVJIGFwcHPigJQgQVNVUyBNZXNzZW5nZXIgLDxzcGFuIHN0eWxlPSJsaW5lLWhlaWdodDogMjIuNHB4OyBmb250LWZhbWlseTogIkx1Y2lkYSBHcmFuZGUiLCBIZWx2ZXRpY2EsIFRhaG9tYTsiPkFTVVMgTWFpbCBhbmQgQVNVUyBDYWxlbmRhcsKgPC9zcGFuPjxzcGFuIHN0eWxlPSJsaW5lLWhlaWdodDogMjIuNHB4OyBmb250LWZhbWlseTogIkx1Y2lkYSBHcmFuZGUiLCBIZWx2ZXRpY2EsIFRhaG9tYTsiPmlmIHlvdSByZXN0b3JlIHRvIGZhY3Rvcnkgc2V0dGluZ3MgYWZ0ZXIgdGhlIHVwZGF0ZS48L3NwYW4+PC9zcGFuPjwvbGk+CjwvdWw+Cgo8cD5QbGVhc2UgcmVmZXIgdG8gYW5ub3VjZW1lbnQgaW4gb3VyIG9mZmNpYWwgZm9ydW0gOjxhIGhyZWY9Imh0dHA6Ly93d3cuYXN1cy5jb20vemVudGFsay90aHJlYWQtNjg1NTItMS0xLmh0bWwiPmh0dHA6Ly93d3cuYXN1cy5jb20vemVudGFsay90aHJlYWQtNjg1NTItMS0xLmh0bWw8L2E+PC9wPgoKPHA+SG93IHRvIE1hbnVhbCB1cGRhdGUgZmlybXdhcmUgb24gbXkgcGhvbmU/IDxhIGhyZWY9Imh0dHBzOi8vd3d3LmFzdXMuY29tL3N1cHBvcnQvRkFRLzEwMDk3NDgiPmh0dHBzOi8vd3d3LmFzdXMuY29tL3N1cHBvcnQvRkFRLzEwMDk3NDg8L2E+PC9wPgpkAgEPZBYWAgEPFgIfAWVkAgMPFgIfAQUmRG9lcyB0aGlzIGRvY3VtZW50IHNvbHZlIHlvdXIgcHJvYmxlbT9kAgUPFgIfAQUDWWVzZAIHDxYCHwEFAk5vZAIJDxYCHwEFE0lzIGl0IGVhc3kgdG8gZmluZD9kAgsPFgIfAQUDWWVzZAINDxYCHwEFAk5vZAIPDw8WAh8DBQhiZWNhdXNlP2RkAhEPFgIeC18hSXRlbUNvdW50AgUWCmYPZBYCZg8VAwpxdWVzdGlvbl8wATEgVGhpcyBGQVEgaXMgbm90IHNwZWNpZmljIGVub3VnaC5kAgEPZBYCZg8VAwpxdWVzdGlvbl8xATIqVGhpcyBGQVEgaXMgdG9vIGNvbXBsaWNhdGVkIHRvIGNvbXByZWhlbmQuZAICD2QWAmYPFQMKcXVlc3Rpb25fMgEzI1RoZSB0aXRsZSBvZiB0aGlzIEZBUSBpcyBub3QgY2xlYXIuZAIDD2QWAmYPFQMKcXVlc3Rpb25fMwE0U1NvbWUgb2YgdGhlIGltYWdlcyBpbiB0aGlzIEZBUSBjYW5ub3QgYmUgZGlzcGxheWVkIHByb3Blcmx5IG9yIGxhY2sgcmVsYXRlZCBpbWFnZXMuZAIED2QWAmYPFQMKcXVlc3Rpb25fNAE1TlNvbWUgb2YgdGhlIGxpbmtzIGluIHRoaXMgRkFRIGNhbm5vdCBiZSBvcGVuZWQgcHJvcGVybHkgb3IgbGFjayByZWxhdGVkIGxpbmtzLmQCEw8WAh8BBShXaGF0IGNhbiB3ZSBkbyB0byBpbXByb3ZlIHRoaXMgZG9jdW1lbnQ/ZAIVDxYCHgtwbGFjZWhvbGRlcgVZVG8gcHJvdGVjdCB5b3VyIHByaXZhY3ksIHBsZWFzZSBETyBOT1QgaW5jbHVkZSB5b3VyIGNvbnRhY3QgaW5mb3JtYXRpb24gaW4geW91ciBmZWVkYmFjay5kZME8lG3xUYDvO2aAbNZ2ZVu873v8"> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="14BD25B6"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdABqfFZLRijFhovRKA8My4WRqZJ5g6/mxVAyLL7pLu+1jWBuYfV4idFVYyc+C+jsdmxVsY1GbsNNnrrZ2VOa/j2O9KMxJPQRexYCAA3vXTL9Dg4t4GxE3XDJHQRQV/lGO+ZDYITSnInSQ+wJpr/sRs6AvOD2YBzoxYhlQhptE6XeIdyvHpGRA0RkoZaQ6Tz8Nf/jD/6gyGBSgN6uTT5FcsOYu5ZmL6XOuo2UBLHYiGzNZQ4wMHmZ3nA70roudDbi8wYKg2blLaM6WCy43Sr+KU5wBXABe/qz8xC3u3ellmYlwlcfUEF+L7yGNZTQxpJqXf5XHEql9eln9Spg3W3DooYjhaF50JlJslPraF8pmIMnm7rehgACrmthY5wY6tqMKBgm2dPP5l1Rcu0HGXjopXK1Z53ZrSJjhb1RIV8DxCgGvBtDUCT+Hj/jOFtUMe1wfBw4Zzit4vBnHsVWF9s/M0ySy0aASQJBmhh4ZmUds3OzXuj2WQufc8Ev3gOJYUuvbADvCvZdoA7Wl1tXD++gbqCaUVehs5eHi+mMCV2T5VwHDmuaYI5zf2ywtWau27jgbqqs3nM9k"> 
+   </div> 
+   <!-- H-A-7 --> 
+   <input name="page_info1$langNormal" type="hidden" id="langNormal" value="en-us"> 
+   <input name="page_info1$hd_lang_prefix" type="hidden" id="hd_lang_prefix" value="/us/support"> 
+   <input name="page_info1$hd_product" type="hidden" id="hd_product"> 
+   <input name="page_info1$hd_product_name" type="hidden" id="hd_product_name"> 
+   <input name="page_info1$hd_product_name_ml" type="hidden" id="hd_product_name_ml"> 
+   <input name="page_info1$hd_series" type="hidden" id="hd_series"> 
+   <input name="page_info1$hd_series_name" type="hidden" id="hd_series_name"> 
+   <input name="page_info1$hd_series_name_ml" type="hidden" id="hd_series_name_ml"> 
+   <input name="page_info1$hd_model" type="hidden" id="hd_model"> 
+   <input name="page_info1$hd_model_ml" type="hidden" id="hd_model_ml"> 
+   <input name="page_info1$hd_os" type="hidden" id="hd_os"> 
+   <input name="page_info1$hd_hid" type="hidden" id="hd_hid"> 
+   <input name="page_info1$hd_offical_url" type="hidden" id="hd_offical_url"> 
+   <!-- Google Tag Manager with Origin gaTrace --> 
+   <noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+   </noscript> 
+   <script src="/support/js/gaTrace.js" type="text/javascript"></script> 
+   <!-- End Google Tag Manager --> 
+   <!--Online Chat--> 
+   <link href="/support/stylesheets/online-chat-btn.css" rel="stylesheet" type="text/css"> 
+   <script>
+    function inIframe() {
+        try {
+            return window.self !== window.top; //window.self means the current application , window.top means the top ahead application
+        } catch (e) {
+            return true;
+        }
+    }
+</script> 
+   <script type="text/javascript">
+    $(document).ready(function () {
+        var IsInIframe = inIframe();
+
+        if (IsInIframe) {
+            return false;
+        }
+
+        var _Local = $("#langNormal").val();
+
+        var onlineService = initOnlineService(_Local);
+        onlineService.init();
+    });
+
+    function initOnlineService(Local) {
+        var ApiUrl = window.location.protocol + "//demeter.asus.com/WSC/Support_API_New/SupportNewAPI/GetOnlineChatUrl/",
+            ApiOption;
+
+        ApiUrl += Local;
+
+        return {
+            init: function () {
+                if ($("#online-service").length > 0) return;
+
+                $.getJSON(ApiUrl + "?callback=?", ApiOption).done(function (result) {
+                    if (result && result.StatusCode == 0) {
+                        var onlineServiceString = result.Link_Name ? result.Link_Name : "Online Chat",
+                            serviceUrl = result.URL;
+
+                        onlineChatBtn = '<div id="online-service"><a class="btn" onclick="javascript:window.open(\'' + serviceUrl + '\', \'\',  \'width=520, height=700, scrollbars=yes\'); ga(\'send\', \'event\', \'button\', \'clicked\', \'onlinechat\');">' + onlineServiceString + '</a></div>';
+                        $(onlineChatBtn).appendTo("body");
+                    }
+                });
+            }
+        }
+    };
+</script> 
+   <!--Redirect en--> 
+   <input name="page_info_faq1$faq_type" type="hidden" id="faq_type" value="list"> 
+   <input name="page_info_faq1$base_url_detail" type="hidden" id="base_url_detail" value="/Faq/Detail.aspx"> 
+   <input name="page_info_faq1$HitRecordID" type="hidden" id="HitRecordID"> 
+   <input name="page_info_faq1$KbGuid" type="hidden" id="KbGuid" value="CC7F2D2D-9F86-4A59-93CF-5433F2F71322"> 
+   <div class="faq-pop"> 
+    <div class="navbar"> 
+     <a href="//www.asus.com/us" id="a_asusimg" target="_blank"> <img src="https://www.asus.com/images/asus.jpg" alt="" border="0"></a> 
+    </div> 
+    <!--Support--> 
+    <div class="grayBg"> 
+     <div class="faq-zone"> 
+      <div id="breadcrumbs"> 
+       <div id="product-topinfo"> 
+        <div id="breadcrumbs"> 
+         <a href="/us/" id="breadcrumb1_a_home" target="_self">Home</a>
+         <span id="breadcrumb1_s1" style="display:inline">&nbsp;&gt;&nbsp;</span>
+         <a href="/us/support" id="breadcrumb1_a_support" target="_self" style="display:inline">Support</a>
+         <span id="breadcrumb1_s2" style="display:inline">&nbsp;&gt;&nbsp;</span>
+         <a href="../../../uc_3/general/index.aspx" id="breadcrumb1_a_pagename" target="_self" style="display: none">[Page Name]</a> 
+         <span id="breadcrumb1_s_l1" style="display: none">&nbsp;&gt;&nbsp;</span>
+         <a href="../../../uc_3/general/index.aspx" id="breadcrumb1_a_l1" target="_self" style="display: none">[level 1]</a> 
+         <span id="breadcrumb1_s_l2" style="display: none">&nbsp;&gt;&nbsp;</span>
+         <a href="../../../uc_3/general/index.aspx" id="breadcrumb1_a_l2" target="_self" style="display: none">[level 2]</a> 
+         <span id="breadcrumb1_s_m" style="display: none">&nbsp;&gt;&nbsp;</span>
+         <a href="../../../uc_3/general/index.aspx" id="breadcrumb1_a_m" target="_self" style="display: none">[model]</a> 
+        </div> 
+        <div class="pull-right" id="MDA" style="display: none"> 
+         <span class="mdatext">ASUS recommends Windows® 7.</span> 
+        </div> 
+       </div> 
+      </div> 
+      <!--<script type="text/javascript" src="/support/js/gaTrace.js"></script>--> 
+      <!--Content Start--> 
+      <div> 
+       <h1 id="id_top_page_title" class="page-title" langtype="faq" langtextid="faq">FAQ</h1> 
+       <div class="divider"> 
+       </div> 
+      </div> 
+      <input name="faqheader$hd_version" type="hidden" id="hd_version" value="1"> 
+      <script type="text/javascript">
+    $(document).ready(function () {
+        var version = $("#hd_version").val();
+        if (version == "1") {//full_style需在resp前
+            var linkfs = document.createElement('link');
+            linkfs.type = 'text/css';
+            linkfs.rel = "stylesheet";
+            linkfs.href = "/support/stylesheets/full_style.css";
+            document.getElementsByTagName("head")[0].appendChild(linkfs);
+        }
+        var linkresp = document.createElement('link');
+        linkresp.type = 'text/css';
+        linkresp.rel = "stylesheet";
+        linkresp.href = "/support/stylesheets/responsive.css";
+        document.getElementsByTagName("head")[0].appendChild(linkresp);
+    });
+</script> 
+      <script type="text/javascript">
+
+    $("#a_mailpage").click(function () {
+        location.href = "mailto:?subject=" + escape(jQuery(document).attr('title')) + "&body=" + escape(document.location.href.replace(/ /g, "%20"));
+        return false;
+    });
+</script> 
+      <script src="/support/js/MISTrack.js" type="text/javascript"></script> 
+      <!--FAQ Start--> 
+      <div class="faq-content" itemscope itemtype="http://schema.org/Question"> 
+       <meta itemprop="author" content="ASUS"> 
+       <meta itemprop="dateCreated" content="2015-11-18T11:14:32"> 
+       <meta itemprop="dateModified" content="2016-09-21T15:12:18"> 
+       <meta itemprop="datePublished" content="2015-11-18T11:14:32"> 
+       <style>
+.sbs_title
+{
+    font-size:30px;
+    line-height:1.8 !important;
+}
+.sbs_titleDesc
+{
+    font-size:24px;
+    line-height:1.8 !important;
+}
+.sbs_steps_text
+{
+    font-size:18px;
+}
+.sbs_setps_imgs
+{    
+    margin:15px 0 80px 0;
+}
+@media (min-width: 768px) {
+    .sbs_steps_text
+    {
+        display:block;
+    }
+    .step-pop
+    {
+        display:none;
+    }
+}
+@media (max-width: 767px) 
+{
+    .sbs_steps_text
+    {
+        display:none;
+    }
+    .step-pop
+    {
+        display:block;
+    }
+    .phone
+    {
+        height:auto;
+    }
+    .phone-bg
+    {
+        display:none !important;
+    }
+}
+</style> 
+       <h3 class="title" itemprop="name"> <span id="mainzone_detail1_solutionzone1_Label1"><p>Android 6.0 (Marshmallow) upgrade plan for ASUS phones</p> </span> </h3> 
+       <div itemprop="suggestedAnswer acceptedAnswer" itemscope itemtype="http://schema.org/Answer"> 
+        <meta itemprop="dateCreated" content="2015-11-18T11:14:32"> 
+        <meta itemprop="author" content="ASUS"> 
+        <div itemprop="text"> 
+         <p id="pnl_content"> </p>
+         <p><strong>Announcement date: </strong><u><span style="font-family: calibri,sans-serif; font-size: 12pt;">March.1&nbsp;,2016</span></u></p> 
+         <p>The following ASUS ZenFone models will receive the Android M (6.0) upgrade in Q2 of 2016</p> 
+         <ul> 
+          <li>PadFone S (PF500KL)</li> 
+          <li>ZenFone 2 (ZE550ML, ZE551ML)</li> 
+          <li>ZenFone 2 Deluxe (ZE551ML)</li> 
+          <li>ZenFone 2 Deluxe Special Edition (ZE551ML)</li> 
+          <li>ZenFone 2 Laser (ZE500KG, ZE500KL, ZE550KL, ZE551KL, ZE600KL, ZE601KL)</li> 
+          <li>ZenFone Selfie (ZD551KL)</li> 
+          <li>ZenFone Max (ZC550KL)</li> 
+          <li>ZenFone Zoom (ZX551ML)</li> 
+         </ul> 
+         <p><strong>Current update as following&nbsp;</strong>
+          <!--EndFragment --></p> 
+         <table bgcolor="#e6e6e6" border="1" cellspacing="0" class="t_table" style="width: 70%;"> 
+          <tbody> 
+           <tr> 
+            <td><font color="#000080"><strong>Product Name</strong></font></td> 
+            <td><font color="#000080"><strong>Model Name</strong></font></td> 
+            <td><font color="#000080"><strong>Status</strong></font></td> 
+           </tr> 
+           <tr style="background-color: rgb(255, 255, 255);"> 
+            <td>PadFoneS</td> 
+            <td>PF500KL</td> 
+            <td>&nbsp;</td> 
+           </tr> 
+           <tr> 
+            <td>ZenFone2</td> 
+            <td>ZE550ML</td> 
+            <td><a href="https://www.asus.com/zentalk/forum.php?mod=viewthread&amp;tid=98519" target="_blank"><font color="#0066cc">Completed</font></a></td> 
+           </tr> 
+           <tr style="background-color: rgb(255, 255, 255);"> 
+            <td>ZenFone2 Deluxe/Special Edition</td> 
+            <td>ZE551ML</td> 
+            <td><a href="http://www.asus.com/zentalk/thread-98370-1-1.html" target="_blank"><font color="#0066cc">Completed</font></a></td> 
+           </tr> 
+           <tr> 
+            <td rowspan="6">ZenFone2 Laser</td> 
+            <td>ZE500KG</td> 
+            <td><a href="http://www.asus.com/zentalk/thread-79530-1-1.html" target="_blank"><font color="#0066cc">Completed</font></a></td> 
+           </tr> 
+           <tr style="background-color: rgb(255, 255, 255);"> 
+            <td>ZE500KL</td> 
+            <td><a href="http://www.asus.com/zentalk/forum.php?mod=viewthread&amp;tid=75172&amp;highlight=ZE500KL" target="_blank"><font color="#0066cc">Completed</font></a></td> 
+           </tr> 
+           <tr> 
+            <td>ZE550KL</td> 
+            <td><a href="http://www.asus.com/zentalk/thread-81468-1-1.html" target="_blank"><font color="#0066cc">Completed</font></a></td> 
+           </tr> 
+           <tr style="background-color: rgb(255, 255, 255);"> 
+            <td>ZE551KL</td> 
+            <td><a href="http://www.asus.com/zentalk/thread-81470-1-1.html" target="_blank"><font color="#0066cc">Completed</font></a></td> 
+           </tr> 
+           <tr> 
+            <td>ZE600KL</td> 
+            <td><a href="http://www.asus.com/zentalk/thread-82208-1-1.html" target="_blank"><font color="#0066cc">Completed</font></a></td> 
+           </tr> 
+           <tr style="background-color: rgb(255, 255, 255);"> 
+            <td>ZE601KL</td> 
+            <td><a href="http://www.asus.com/zentalk/thread-82209-1-1.html" target="_blank"><font color="#0066cc">Completed</font></a></td> 
+           </tr> 
+           <tr> 
+            <td>ZenFone Selfie</td> 
+            <td>ZD551KL</td> 
+            <td><a href="http://www.asus.com/zentalk/thread-81634-1-1.html" target="_blank"><font color="#0066cc">Completed</font></a></td> 
+           </tr> 
+           <tr style="background-color: rgb(255, 255, 255);"> 
+            <td>ZenFone Max</td> 
+            <td>ZC550KL</td> 
+            <td><a href="http://www.asus.com/zentalk/thread-78505-1-1.html" target="_blank"><font color="#0066cc">Completed</font></a></td> 
+           </tr> 
+           <tr> 
+            <td>ZenFone Zoom</td> 
+            <td>ZX551ML</td> 
+            <td><a href="http://www.asus.com/zentalk/thread-81663-1-1.html" target="_blank"><font color="#0066cc">Completed</font></a></td> 
+           </tr> 
+          </tbody> 
+         </table> 
+         <p><br> What to expect when the Android M update is installed on an ASUS smartphone:</p> 
+         <ul> 
+          <li><strong><span style="font-size: 14px;">Google Messenger, Calendar, and Gmail apps</span></strong><span style="font-size: 14px;"> will automatically be included with the Android M update. These apps will replace three&nbsp;ZenUI apps— ASUS Messenger ,<span style="line-height: 22.4px; font-family: " lucida grande", helvetica, tahoma;">ASUS Mail and ASUS Calendar&nbsp;</span><span style="line-height: 22.4px; font-family: " lucida grande", helvetica, tahoma;">if you restore to factory settings after the update.</span></span></li> 
+         </ul> 
+         <p>Please refer to annoucement in our offcial forum :<a href="http://www.asus.com/zentalk/thread-68552-1-1.html">http://www.asus.com/zentalk/thread-68552-1-1.html</a></p> 
+         <p>How to Manual update firmware on my phone? <a href="https://www.asus.com/support/FAQ/1009748">https://www.asus.com/support/FAQ/1009748</a></p> 
+         <p></p> 
+         <input name="mainzone_detail1$solutionzone1$hd_Kbno" type="hidden" id="hd_Kbno" value="1014835"> 
+        </div> 
+       </div> 
+       <script>
+    $(window).on("resize", window_resize);
+    $(document).ready(function () {
+        if ($(window).width() < 768) {
+            setMobileView()
+        }
+    });
+    
+    function window_resize() {
+        if ($(window).width() < 768) {
+            setMobileView();
+        } else if ($(window).width() >= 768) {
+            $("#div_pc").show();
+            $("#div_mobile").hide();
+            
+        }
+    }
+    function setMobileView() {
+        $("#div_pc").hide();
+        $("#div_mobile").show();
+        var zm = ($(window).width() / $(".mobile-phone").attr("data-imgw"));
+        $(".mobile-phone").css("zoom", zm * 0.97);
+    }
+
+
+//$(document).ready(function () {
+//    if ($("#iframe_sbs").length) {
+//        var ww = $(window).width();
+//        if (ww < 768) {// && ("createTouch" in document))
+//            $("#iframe_sbs").hide();
+//            $("#div_sbs_static").show();
+//        }
+//        else {
+//            $("#iframe_sbs").show();
+//            $("#div_sbs_static").hide();
+//        }
+//    }
+//})
+</script> 
+       <div class="divider"> 
+       </div> 
+       <div class="feedback-zone"> 
+        <h3 langtype="faq" langtextid="feedback"></h3> 
+        <div> 
+         <p langtype="faq" langtextid="does_solved">Does this document solve your problem?</p> 
+         <label class="radio inline"> <input type="radio" name="rbList1" id="Radio1" onclick="solve_click()" value="1"><span id="mainzone_detail1_feedback1_Span1" langtype="faq" langtextid="yes">Yes</span> </label> 
+         <label class="radio inline"> <input type="radio" name="rbList1" id="Radio2" onclick="solve_click()" value="0"><span id="mainzone_detail1_feedback1_Span2" langtype="faq" langtextid="no">No</span> </label> 
+        </div> 
+        <div id="div_easyfind" style="display: none;"> 
+         <font id="mainzone_detail1_feedback1_Span3" langtype="faq" langtextid="is_easy_find">Is it easy to find?</font> 
+         <label class="radio inline"> <input id="Radio_Easy" type="radio" value="1" name="rbList2"><span id="mainzone_detail1_feedback1_Span4" langtype="faq" langtextid="yes">Yes</span></label> 
+         <label class="radio inline"> <input id="Radio_Hard" type="radio" value="0" name="rbList2"><span id="mainzone_detail1_feedback1_Span5" langtype="faq" langtextid="no">No</span></label> 
+        </div> 
+        <div id="div_questions" style="display: none" class="solve"> 
+         <span id="mainzone_detail1_feedback1_lbl_notsolve">because?</span> 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_0" value="1">This FAQ is not specific enough. 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_1" value="2">This FAQ is too complicated to comprehend. 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_2" value="3">The title of this FAQ is not clear. 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_3" value="4">Some of the images in this FAQ cannot be displayed properly or lack related images. 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_4" value="5">Some of the links in this FAQ cannot be opened properly or lack related links. 
+         <br> 
+        </div> 
+        <script type="text/javascript">
+        function solve_click() {
+            var answer1 = $("input[name='rbList1']:checked").val();
+
+            //是跟否的回傳值 20150503
+            //$("input[name='rbList1']").attr('disabled', 'disabled');
+            quick_feedback_solve();
+
+            //如果是否就出現勾勾 20150503
+            if (answer1 == "0") {
+                $("#div_questions").show();
+                $("#div_easyfind").hide();
+            }
+            else { //是就出現單選項 20150503
+                $("#div_easyfind").show();
+                $("#div_questions").hide();
+            }
+        }
+
+        //傳回值 20150503
+        function quick_feedback_solve() {
+            var s_langNormal = $("#langNormal").val();
+            var s_KbNo = $("#hd_Kbno").val();
+            var s_HitRecordID = $("#hdn_HitRecordID").val();
+            var s_product = $("#hdn_product").val();
+            var s_model = $("#hdn_model").val();
+            var s_kbtype = $("#hdn_kbtype").val();
+            
+            var s_isSolve = $("input[name='rbList1']:checked");
+            s_isSolve = s_isSolve.val();
+            
+
+            var strXML = "<?xml version='1.0' encoding='utf-8' ?>" +
+                "<root>" +
+                "<langNormal>" + s_langNormal + "</langNormal>" +
+                "<KBNO>" + s_KbNo + "</KBNO>" +
+                "<HitRecordID>" + s_HitRecordID + "</HitRecordID>" +
+                "<product>" + s_product + "</product>" +
+                "<model>" + s_model + "</model>" +
+                "<kbtype>" + s_kbtype + "</kbtype>" +
+                "<isSolve>" + s_isSolve + "</isSolve>" +
+                "</root>";
+
+            var post_url = "/support/utilities/log/feedback_qsolve.aspx";
+
+            $.ajax({
+                url: post_url,
+                data: strXML,
+                type: 'POST',
+                contentType: "text/xml",
+                dataType: "text",
+                success: function () {
+                    //console.log("");
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    console.log(xhr.status);
+                    console.log(thrownError);
+                }
+            });
+
+        }
+    </script> 
+        <div> 
+         <p id="mainzone_detail1_feedback1_P1" langtype="faq" langtextid="what_we_do">What can we do to improve this document?</p> 
+        </div> 
+        <div class="center"> 
+         <textarea name="mainzone_detail1$feedback1$text_feedback" id="mainzone_detail1_feedback1_text_feedback" class="text_feedback" cols="20" rows="3" langtype="faq" langtextid="is_easy_find" placeholder="To protect your privacy, please DO NOT include your contact information in your feedback."></textarea> 
+        </div> 
+        <div class="center"> 
+         <input type="button" value="Feedback" class="btn-asus" onclick="callfeedback();"> 
+        </div> 
+        <script type="text/javascript">
+        //傳回剩下的值  20150503
+        function callfeedback() {
+            var s_langNormal = $("#langNormal").val();
+            var s_KbGuid = $("#KbGuid").val();
+            var s_HitRecordID = $("#hdn_HitRecordID").val();
+            var s_product = $("#hdn_product").val();
+            var s_model = $("#hdn_model").val();
+            var s_kbtype = $("#hdn_kbtype").val();
+
+            var s_isSolve = $("input[name='rbList1']:checked");
+            if (s_isSolve.length <= 0) {
+                alert('please select Q1 answer');
+            } else {
+                s_isSolve = s_isSolve.val();
+                var s_isEasyfind = ($("input[name='rbList2']:checked").length > 0) ? $("input[name='rbList2']:checked").val() : "";
+                var rbList3 = $("input[name='rbList3']");
+
+                var question = new Array(5);
+                for (i = 0; i < rbList3.length; i++) {
+                    if (rbList3.eq(i)[0].checked == true) {
+                        question[i] = "1";
+                    } else {
+                        question[i] = "0"
+                    }
+                }
+                var s_feedBakTxt = $(".text_feedback").val();
+
+                var strXML = "<?xml version='1.0' encoding='utf-8' ?>" +
+                  "<root>" +
+                    "<langNormal>" + s_langNormal + "</langNormal>" +
+                    "<KbGuid>" + s_KbGuid + "</KbGuid>" +
+                    "<HitRecordID>" + s_HitRecordID + "</HitRecordID>" +
+                    "<product>" + s_product + "</product>" +
+                    "<model>" + s_model + "</model>" +
+                    "<kbtype>" + s_kbtype + "</kbtype>" +
+                    "<isSolve>" + s_isSolve + "</isSolve>" +
+                    "<isEasyfind>" + s_isEasyfind + "</isEasyfind>" +
+                    "<question1>" + question[0] + "</question1>" +
+                    "<question2>" + question[1] + "</question2>" +
+                    "<question3>" + question[2] + "</question3>" +
+                    "<question4>" + question[3] + "</question4>" +
+                    "<question5>" + question[4] + "</question5>" +
+                    "<feedBakTxt>" + s_feedBakTxt + "</feedBakTxt>" +
+                  "</root>";
+
+                var post_url = "/support/utilities/log/feedback.aspx";
+
+                $.ajax({
+                    url: post_url,
+                    data: strXML,
+                    type: 'POST',
+                    contentType: "text/xml",
+                    dataType: "text",
+                    success: function () {
+                        //console.log("");
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        console.log(xhr.status);
+                        console.log(thrownError);
+                    }
+                });
+
+                alert("OK");
+            }
+        }
+    </script> 
+       </div> 
+       <br> 
+       <br> 
+       <br> 
+      </div> 
+     </div> 
+    </div> 
+    <input name="hdn_HitRecordID" type="hidden" id="hdn_HitRecordID" value="dcdf4999-a9af-421e-b975-bedb6c66359a"> 
+    <input name="hdn_KbGuid" type="hidden" id="hdn_KbGuid"> 
+    <input name="hdn_product" type="hidden" id="hdn_product"> 
+    <input name="hdn_model" type="hidden" id="hdn_model"> 
+    <input name="hdn_kbtype" type="hidden" id="hdn_kbtype" value="2"> 
+   </div> 
+  </form> 
+  <script type="text/javascript">
+         var Parameter = window.location.search;
+         if (Parameter.indexOf("DisASUSMenu") > -1) {
+             $(".navbar").css("display", "none");
+         }
+    </script>   
+ </body>
+</html>

@@ -1,0 +1,2869 @@
+<!doctype html>
+<!-- BEGIN SearchResults.jsp -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+ <!-- InstanceBegin template="/Templates/Header - Footer.dwt" codeOutsideHTMLIsLocked="false" -->
+ <!--[endif]---->
+ <head> 
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <link rel="shortcut icon" href="/wcsstore/HPStorefrontAssetStore/images/favicon.ico" mce_href="/wcsstore/HPStorefrontAssetStore/images/favicon.ico" type="image/x-icon"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/category/fnd5.min.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/category/LandingPageCustom.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/v2/hpbase.css"> 
+  <title>Desktops | HP® Official Store</title> 
+  <link rel="canonical" href="http://store.hp.com/us/en/vwa/desktops/form=Mini"> 
+  <meta name="allow-search" content="yes"> 
+  <meta name="hp_design_version" content="hpweb.1.4"> 
+  <meta name="target_country" content="US"> 
+  <meta name="page_content" content="Products"> 
+  <meta name="segment" content="consumer.home"> 
+  <meta name="lifecycle" content="presales.awareness"> 
+  <meta name="business_unit" content="shared"> 
+  <meta name="web_section_id" content="R329"> 
+  <meta name="language" content="en-us"> 
+  <meta name="CommerceSearch" content="storeId_10151"> 
+  <script type="text/javascript">
+			var hpmmd=window.hpmmd||{type: 'Unity eCommerce',
+			page:{events:[]},product:{list:[]},user:{},legacy:{},promo:{},search:{},browser:{}};
+		</script> 
+  <script type="text/javascript">
+			hpmmd.page.platform="wcs web";
+			hpmmd.page.site="hhos";	
+			hpmmd.page.store_type="hhos";
+			hpmmd.product.currency="USD";
+			hpmmd.page.discount_tier="gen";
+			
+		</script> 
+  <script type="text/javascript" src="//nexus.ensighten.com/hp/etr_std_prod/Bootstrap.js"></script> 
+  <!-- BEGIN CommonCSSToInclude.jspf -->
+  <!-- InstanceEndEditable -->
+  <!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<style type="text/css">
+		.gradient{ filter: none; }
+	</style>
+<![endif]--> 
+  <script>
+	// Picture element HTML5 shiv
+	document.createElement( "picture" );
+</script> 
+  <!-- InstanceBeginEditable name="Style sheets" --> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/foundation.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/custom.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/common.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/common-os.css" type="text/css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/custom-mobile.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/hps-euro-w01-fontface-core.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/jquery.bxslider.css"> 
+  <!-- Handlebars Templating CSS --> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/hpsf/hpsf.css"> 
+  <!-- InstanceEndEditable --> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/component.css"> 
+  <!-- For IE 8 and earlier -->
+  <!--[if lt IE 9]>
+	<link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/iesupport.css">
+    <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/IE8.css">
+  <![endif]--> 
+  <!-- For IE 9 and greater-->
+  <!--[if gte IE 9]>
+    <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/IE9.css">
+  <![endif]--> 
+  <link href="/wcsstore/HPStorefrontAssetStore/pattern-library/system/styles/patterns/icons.css" media="screen" rel="stylesheet" type="text/css"> 
+  <link href="/wcsstore/HPStorefrontAssetStore/pattern-library/system/styles/patterns/tooltip.css" media="screen" rel="stylesheet" type="text/css"> 
+  <link href="/wcsstore/HPStorefrontAssetStore/pattern-library/system/styles/patterns/lightbox.css" media="screen" rel="stylesheet" type="text/css"> 
+  <script type="text/javascript">var runResponsive = true;</script> 
+  <!--[if lt IE 9]>
+	<script type="text/javascript">runResponsive = false;</script>
+<![endif]--> 
+  <!-- END CommonCSSToInclude.jspf --> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/flick/jquery-ui-1.10.3.custom.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/v2/searchResult.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/v2/searchFacets.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/v2/customFacets.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/v2/searchPaging.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/v2/searchProducts.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/v2/searchResponsive.css"> 
+  <script type="text/javascript">
+			function searchboxText() {
+				if (HP.HF_IS_READY == true) {
+					$('#searchBox').val('');
+				}
+			}
+		</script> 
+ </head> 
+ <body> 
+  <input type="hidden" id="ccFlag" value="false"> 
+  <!-- BEGIN Header.jsp --> 
+  <script type="text/javascript">
+	function getAbsoluteURL(){
+	    return '/webapp/wcs/stores/servlet/';               
+	}           
+</script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/js/combineheader.js"></script> 
+  <script type="text/javascript" src="http://www8.hp.com/ie/en/scripts/framework/jquery/v-1-8/can.jquery.js"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/js/hputils.js"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/js/callCenterUtils.js"></script> 
+  <input type="hidden" id="ccFlag" value="false"> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/js/omniture/omniture-tag.js?v=62248"></script> 
+  <!-- http://www8.hp.com/caas/header-footer/us/en/default/4.0.r/head-styles?contentType=html -->
+  <!-- http://www8.hp.com/caas/header-footer/us/en/default/4.0.r/head-scripts?contentType=html -->
+  <!-- http://www8.hp.com/caas/header-footer/us/en/default/4.0.r/header?contentType=html&show_shopping_cart=true --> 
+  <script type="text/javascript">
+		var isGuest = true;
+		function resizeIframe(obj) {
+			obj.parentElement.style.top = "25px";
+		}
+				
+		(function(d, s, id) {
+			var js, ref = d.getElementsByTagName(s)[0];
+			if (!d.getElementById(id)) {
+				js = d.createElement(s);
+				js.id = id;
+				js.async = true;
+				js.src = "//www.paypalobjects.com/js/external/paypal.js";
+				ref.parentNode.insertBefore(js, ref);
+			}
+		} (document, "script", "paypal-js"));
+	</script> 
+  <meta name="hp_inav_version" content="ihfcaas.4.r">
+  <link rel="stylesheet" type="text/css" href="http://www.www8-hp.com/us/en/system/styles/hpi/hpi-fontface-core.css?v=4.0.1" media="screen, print">
+  <link rel="stylesheet" type="text/css" href="http://www.www8-hp.com/us/en/system/styles/hpi/caas-hf-v4.0/hpi-hf-r.css?v=4.0.1" media="screen, print">
+  <!--  HPI/Default CaaS Header Footer V4 -->
+  <!--Data Published 10/06/2016 05:22:23 PM, Template Published: UNKNOWN-->
+  <script type="text/javascript" src="http://www8.hp.com/us/en/scripts/hpi/caas-hf-v4.0/hpi-hf-r-jq.js?v=4.0.1" xml:space="preserve"></script>
+  <script type="text/javascript" src="http://www8.hp.com/us/en/scripts/hpi/caas-hf-v4.0/hpi-autocomplete-loader-store-jq.js?v=4.0.1" xml:space="preserve"></script>
+  <!--Data Published 10/06/2016 05:22:23 PM, Template Published: UNKNOWN-->
+  <input type="hidden" name="APPC" value="01"> 
+  <input type="hidden" name="APPN" value="g2t3068"> 
+  <input type="hidden" name="APPJ" value="2"> 
+  <input type="hidden" name="WEBSN" value="store"> 
+  <!-- Desktop Utility nav --> 
+  <div id="utilityNav"> 
+   <div class="login-container row"></div> 
+  </div> 
+  <!-- Mobile Utility nav --> 
+  <div id="utility_nav"></div> 
+  <div class="clearfix"></div> 
+  <!-- storeURL: http://store.hp.com --> 
+  <div id="header" class="header"> 
+   <!-- Start CAAS Header : true -->
+   <div class="background">
+    &nbsp;
+   </div>
+   <div class="hf_wrapper">
+    <div class="header_container hf_clf">
+     <div class="hp_logo">
+      <a class="hf_logo link_metrics" name="1414644" href="http://www8.hp.com/us/en/home.html" title="HP® Official Site | Laptops, Computers, Desktops , Printers, and more" tabindex="1"><img src="http://www.www8-hp.com/us/en/images/i/hpi/header-footer/caas-hf-v3.2/hpi-hp-logo-pr.gif" alt="HP® Official Site   | Laptops, Computers, Desktops , Printers, and more" class="hf_printable" aria-hidden="true"></a>
+     </div>
+     <span class="skip-links"><a class="screenReading js-skip-link" href="#skiptobody" tabindex="1">Skip to Content</a><a class="screenReading js-skip-link" href="#skiptofooter" tabindex="1">Skip to Footer</a></span>
+     <div class="hf_top_menu js_header_topmenu">
+      <ul class="js_hf_menu  hf_menu level1">
+       <li class="selectable  first_li H/F - Laptop menu-1"><a name="2082481" tabindex="2" class="level1-desktop icn_laptop header_link  link_metrics" href="http://store.hp.com/us/en/cat/Laptops"><span>Laptops &amp; tablets</span><span class="screenReading js_screen_reading">&nbsp;</span><span class="pointer">&nbsp;</span></a>
+        <div class="js_hf_menu hf_menu level2">
+         <ul>
+          <li class="js_item  "><a name="2101987" tabindex="-1" class="icn_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/laptops/business-laptops-tablets.html"> Business </a></li>
+          <li class="js_item  "><a name="2082497" tabindex="-1" class="icn_premium  no_flyout link_metrics" href="http://www8.hp.com/us/en/premium/laptops/index.html"> Premium </a></li>
+          <li class="js_item  "><a name="2082491" tabindex="-1" class="icn_gaming  no_flyout link_metrics" href="http://www8.hp.com/us/en/campaigns/gamingpcs/overview.html"> Gaming </a></li>
+          <li class="js_item  "><a name="2277655" tabindex="-1" class="icn_laptop  no_flyout link_metrics" href="http://store.hp.com/us/en/vwa/Laptops/form=Standard-laptop"> Standard <br xmlns="http://www.w3.org/1999/xhtml"> laptops </a></li>
+          <li class="js_item  "><a name="2082480" tabindex="-1" class="icn_workstn_laptop  no_flyout link_metrics" href="http://www8.hp.com/us/en/workstations/overview.html"> Workstations </a></li>
+          <li class="js_item  "><a name="2109495" tabindex="-1" class="icn_detachables  no_flyout link_metrics" href="http://store.hp.com/us/en/vwa/Laptops/form=Convertible,Detachable"> Convertibles &amp; <br xmlns="http://www.w3.org/1999/xhtml"> detachables </a></li>
+          <li class="js_item  "><a name="2082500" tabindex="-1" class="icn_tablet  no_flyout link_metrics" href="http://store.hp.com/us/en/vwa/Laptops/form=Tablet"> Tablets </a></li>
+          <li class="js_item lstchild "><a name="2277225" tabindex="-1" class="icn_3in1_laptop  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;eSpotName=Elite-x3"> 3-in-1 </a></li>
+         </ul>
+        </div></li>
+       <li class="selectable   H/F - Desktop menu-2"><a name="2082388" tabindex="2" class="level1-desktop icn_desktop header_link  link_metrics" href="http://store.hp.com/us/en/cat/desktops"><span>Desktops</span><span class="screenReading js_screen_reading">&nbsp;</span><span class="pointer">&nbsp;</span></a>
+        <div class="js_hf_menu hf_menu level2">
+         <ul>
+          <li class="js_item  "><a name="2082386" tabindex="-1" class="icn_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/desktops/business-desktops.html"> Business </a></li>
+          <li class="js_item  "><a name="2082399" tabindex="-1" class="icn_immersive  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?catalogId=10051&amp;langId=-1&amp;storeId=10151&amp;eSpotName=Sprout-Pro#"> Immersive </a></li>
+          <li class="js_item  "><a name="2082396" tabindex="-1" class="icn_gaming  no_flyout link_metrics" href="http://www8.hp.com/us/en/campaigns/gamingpcs/overview.html#desktops"> Gaming </a></li>
+          <li class="js_item  "><a name="2277634" tabindex="-1" class="icn_towers  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=desktop-finder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=ff-tower"> Towers </a></li>
+          <li class="js_item  "><a name="2082385" tabindex="-1" class="icn_workstn_desktop  no_flyout link_metrics" href="http://www8.hp.com/us/en/workstations/overview.html"> Workstations </a></li>
+          <li class="js_item  "><a name="2082407" tabindex="-1" class="icn_all_in_one  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=desktop-finder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=ff-all"> All-in-ones </a></li>
+          <li class="js_item lstchild "><a name="2277633" tabindex="-1" class="icn_3in1_desktop  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;eSpotName=Elite-x3"> 3-in-1 </a></li>
+         </ul>
+        </div></li>
+       <li class="selectable   H/F - Printer menu-3"><a name="2082508" tabindex="2" class="level1-desktop icn_printer header_link  link_metrics" href="http://store.hp.com/us/en/cat/printers"><span>Printers</span><span class="screenReading js_screen_reading">&nbsp;</span><span class="pointer">&nbsp;</span></a>
+        <div class="js_hf_menu hf_menu level2">
+         <ul>
+          <li class="js_item  "><a name="2082527" tabindex="-1" class="icn_home_office  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=use-h"> Home &amp; <br xmlns="http://www.w3.org/1999/xhtml"> home office </a></li>
+          <li class="js_item  "><a name="2100716" tabindex="-1" class="icn_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/printers/business-printers.html"> Business </a></li>
+          <li class="js_item  "><a name="2277681" tabindex="-1" class="icn_print_only  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=pfunc-print"> Print <br xmlns="http://www.w3.org/1999/xhtml"> only </a></li>
+          <li class="js_item  "><a name="2082515" tabindex="-1" class="icn_printer  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=pfunc-multi"> Multifunction </a></li>
+          <li class="js_item  "><a name="2082522" tabindex="-1" class="icn_scanner  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=pfunc-scan"> Scanners </a></li>
+          <li class="js_item  "><a name="2082513" tabindex="-1" class="icn_large_format  no_flyout link_metrics" href="http://www8.hp.com/us/en/commercial-printers/graphic-arts.html"> Large format &amp; <br xmlns="http://www.w3.org/1999/xhtml"> digital presses </a></li>
+          <li class="js_item lstchild "><a name="2244510" target="_blank" tabindex="-1" class="icn_3d_printing  no_flyout link_metrics" href="http://www8.hp.com/us/en/printers/3d-printers.html"> 3D Print </a></li>
+         </ul>
+        </div></li>
+       <li class="empty   H/F - Ink Toner menu-4"><a name="2082545" tabindex="2" class="level1-desktop icn_ink_toner header_link no_flyout link_metrics" href="http://store.hp.com/us/en/cat/ink--toner---paper"><span>Ink &amp; toner</span><span class="pointer">&nbsp;</span></a></li>
+       <li class="empty   H/F - Monitor menu-5"><a name="2101621" tabindex="2" class="level1-desktop icn_monitor header_link no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=Accessories&amp;storeId=10151&amp;langId=-1&amp;catalogId=10051"><span>Displays &amp; accessories</span><span class="pointer">&nbsp;</span></a></li>
+       <li class="selectable second-last  H/F - Business menu-6"><a name="2082864" tabindex="2" class="level1-desktop icn_business header_link  link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions.html"><span>Business solutions</span><span class="screenReading js_screen_reading">&nbsp;</span><span class="pointer">&nbsp;</span></a>
+        <div class="js_hf_menu hf_menu level2">
+         <ul>
+          <li class="js_item  "><a name="2082456" tabindex="-1" class="icn_printing_solutions  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/printing.html"> Printing </a></li>
+          <li class="js_item  "><a name="2082442" tabindex="-1" class="icn_desktop  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/computing.html"> Computing </a></li>
+          <li class="js_item  "><a name="2082452" tabindex="-1" class="icn_mobility  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/mobility.html"> Mobility </a></li>
+          <li class="js_item  "><a name="2082469" tabindex="-1" class="icn_software  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/software.html"> Software </a></li>
+          <li class="js_item  "><a name="2082465" tabindex="-1" class="icn_services  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/services.html"> Services </a></li>
+          <li class="js_item  "><a name="2101975" tabindex="-1" class="icn_small_med_business  no_flyout link_metrics" href="http://store.hp.com/us/en/cat/business-solutions"> Small &amp; medium <br xmlns="http://www.w3.org/1999/xhtml"> business store </a></li>
+          <li class="js_item  "><a name="2082869" tabindex="-1" class="icn_large_enterprise  no_flyout link_metrics" href="http://www8.hp.com/us/en/hp-information/business-site/index.html"> Enterprise <br xmlns="http://www.w3.org/1999/xhtml"> store </a></li>
+          <li class="js_item lstchild "><a name="2082876" tabindex="-1" class="icn_public_sector  no_flyout link_metrics" href="https://government.hp.com/index.aspx"> Public sector <br xmlns="http://www.w3.org/1999/xhtml"> purchasing </a></li>
+         </ul>
+        </div></li>
+       <li class="selectable  lstchild H/F - Support menu-7"><a name="2082882" tabindex="2" class="level1-desktop icn_support header_link  link_metrics" href="javascript:void(0);"><span>Support</span><span class="screenReading js_screen_reading">&nbsp;</span><span class="pointer">&nbsp;</span></a>
+        <div class="js_hf_menu hf_menu level2">
+         <ul>
+          <li class="js_item  "><a name="2082892" target="_blank" tabindex="-1" class="icn_support  no_flyout link_metrics" href="http://support.hp.com/us-en/"> Support &amp; <br xmlns="http://www.w3.org/1999/xhtml"> troubleshooting </a></li>
+          <li class="js_item  "><a name="2082889" tabindex="-1" class="icn_products  no_flyout link_metrics" href="http://support.hp.com/us-en/products/"> Products </a></li>
+          <li class="js_item  "><a name="2082891" target="_blank" tabindex="-1" class="icn_software  no_flyout link_metrics" href="http://support.hp.com/us-en/drivers"> Software &amp; <br xmlns="http://www.w3.org/1999/xhtml"> drivers </a></li>
+          <li class="js_item  "><a name="2082885" target="_blank" tabindex="-1" class="icn_forums  no_flyout link_metrics" href="http://h30434.www3.hp.com/"> Forums </a></li>
+          <li class="js_item  "><a name="2082886" tabindex="-1" class="icn_helpdesk_home  no_flyout link_metrics" href="http://www8.hp.com/us/en/services/consumer/smartfriend-overview.html"> Premium helpdesk <br xmlns="http://www.w3.org/1999/xhtml"> services for home </a></li>
+          <li class="js_item  "><a name="2082887" target="_blank" tabindex="-1" class="icn_helpdesk_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/services/smb/helpdesk.html"> Premium helpdesk <br xmlns="http://www.w3.org/1999/xhtml"> services for work </a></li>
+          <li class="js_item lstchild "><a name="2278001" tabindex="-1" class="icn_extended_warranty  no_flyout link_metrics" href="http://www8.hp.com/us/en/services/consumer/services-overview.html"> Extended <br xmlns="http://www.w3.org/1999/xhtml"> warranties </a></li>
+         </ul>
+        </div></li>
+      </ul>
+     </div>
+     <div class="submenu">
+      <ul class="js_hf_menu submenu-1 hf_menu level">
+       <li class="js_item  first_li "><a name="2101987" tabindex="-1" class="icn_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/laptops/business-laptops-tablets.html"> Business </a></li>
+       <li class="js_item   "><a name="2082497" tabindex="-1" class="icn_premium  no_flyout link_metrics" href="http://www8.hp.com/us/en/premium/laptops/index.html"> Premium </a></li>
+       <li class="js_item   "><a name="2082491" tabindex="-1" class="icn_gaming  no_flyout link_metrics" href="http://www8.hp.com/us/en/campaigns/gamingpcs/overview.html"> Gaming </a></li>
+       <li class="js_item   "><a name="2277655" tabindex="-1" class="icn_laptop  no_flyout link_metrics" href="http://store.hp.com/us/en/vwa/Laptops/form=Standard-laptop"> Standard <br xmlns="http://www.w3.org/1999/xhtml"> laptops </a></li>
+       <li class="js_item   "><a name="2082480" tabindex="-1" class="icn_workstn_laptop  no_flyout link_metrics" href="http://www8.hp.com/us/en/workstations/overview.html"> Workstations </a></li>
+       <li class="js_item   "><a name="2109495" tabindex="-1" class="icn_detachables  no_flyout link_metrics" href="http://store.hp.com/us/en/vwa/Laptops/form=Convertible,Detachable"> Convertibles &amp; <br xmlns="http://www.w3.org/1999/xhtml"> detachables </a></li>
+       <li class="js_item   "><a name="2082500" tabindex="-1" class="icn_tablet  no_flyout link_metrics" href="http://store.hp.com/us/en/vwa/Laptops/form=Tablet"> Tablets </a></li>
+       <li class="js_item lstchild  "><a name="2277225" tabindex="-1" class="icn_3in1_laptop  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;eSpotName=Elite-x3"> 3-in-1 </a></li>
+      </ul>
+      <ul class="js_hf_menu submenu-2 hf_menu level">
+       <li class="js_item  first_li "><a name="2082386" tabindex="-1" class="icn_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/desktops/business-desktops.html"> Business </a></li>
+       <li class="js_item   "><a name="2082399" tabindex="-1" class="icn_immersive  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?catalogId=10051&amp;langId=-1&amp;storeId=10151&amp;eSpotName=Sprout-Pro#"> Immersive </a></li>
+       <li class="js_item   "><a name="2082396" tabindex="-1" class="icn_gaming  no_flyout link_metrics" href="http://www8.hp.com/us/en/campaigns/gamingpcs/overview.html#desktops"> Gaming </a></li>
+       <li class="js_item   "><a name="2277634" tabindex="-1" class="icn_towers  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=desktop-finder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=ff-tower"> Towers </a></li>
+       <li class="js_item   "><a name="2082385" tabindex="-1" class="icn_workstn_desktop  no_flyout link_metrics" href="http://www8.hp.com/us/en/workstations/overview.html"> Workstations </a></li>
+       <li class="js_item   "><a name="2082407" tabindex="-1" class="icn_all_in_one  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=desktop-finder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=ff-all"> All-in-ones </a></li>
+       <li class="js_item lstchild  "><a name="2277633" tabindex="-1" class="icn_3in1_desktop  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;eSpotName=Elite-x3"> 3-in-1 </a></li>
+      </ul>
+      <ul class="js_hf_menu submenu-3 hf_menu level">
+       <li class="js_item  first_li "><a name="2082527" tabindex="-1" class="icn_home_office  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=use-h"> Home &amp; <br xmlns="http://www.w3.org/1999/xhtml"> home office </a></li>
+       <li class="js_item   "><a name="2100716" tabindex="-1" class="icn_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/printers/business-printers.html"> Business </a></li>
+       <li class="js_item   "><a name="2277681" tabindex="-1" class="icn_print_only  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=pfunc-print"> Print <br xmlns="http://www.w3.org/1999/xhtml"> only </a></li>
+       <li class="js_item   "><a name="2082515" tabindex="-1" class="icn_printer  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=pfunc-multi"> Multifunction </a></li>
+       <li class="js_item   "><a name="2082522" tabindex="-1" class="icn_scanner  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=pfunc-scan"> Scanners </a></li>
+       <li class="js_item   "><a name="2082513" tabindex="-1" class="icn_large_format  no_flyout link_metrics" href="http://www8.hp.com/us/en/commercial-printers/graphic-arts.html"> Large format &amp; <br xmlns="http://www.w3.org/1999/xhtml"> digital presses </a></li>
+       <li class="js_item lstchild  "><a name="2244510" target="_blank" tabindex="-1" class="icn_3d_printing  no_flyout link_metrics" href="http://www8.hp.com/us/en/printers/3d-printers.html"> 3D Print </a></li>
+      </ul>
+      <ul class="js_hf_menu submenu-6 hf_menu level">
+       <li class="js_item  first_li "><a name="2082456" tabindex="-1" class="icn_printing_solutions  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/printing.html"> Printing </a></li>
+       <li class="js_item   "><a name="2082442" tabindex="-1" class="icn_desktop  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/computing.html"> Computing </a></li>
+       <li class="js_item   "><a name="2082452" tabindex="-1" class="icn_mobility  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/mobility.html"> Mobility </a></li>
+       <li class="js_item   "><a name="2082469" tabindex="-1" class="icn_software  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/software.html"> Software </a></li>
+       <li class="js_item   "><a name="2082465" tabindex="-1" class="icn_services  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/services.html"> Services </a></li>
+       <li class="js_item   "><a name="2101975" tabindex="-1" class="icn_small_med_business  no_flyout link_metrics" href="http://store.hp.com/us/en/cat/business-solutions"> Small &amp; medium <br xmlns="http://www.w3.org/1999/xhtml"> business store </a></li>
+       <li class="js_item   "><a name="2082869" tabindex="-1" class="icn_large_enterprise  no_flyout link_metrics" href="http://www8.hp.com/us/en/hp-information/business-site/index.html"> Enterprise <br xmlns="http://www.w3.org/1999/xhtml"> store </a></li>
+       <li class="js_item lstchild  "><a name="2082876" tabindex="-1" class="icn_public_sector  no_flyout link_metrics" href="https://government.hp.com/index.aspx"> Public sector <br xmlns="http://www.w3.org/1999/xhtml"> purchasing </a></li>
+      </ul>
+      <ul class="js_hf_menu submenu-7 hf_menu level">
+       <li class="js_item  first_li "><a name="2082892" target="_blank" tabindex="-1" class="icn_support  no_flyout link_metrics" href="http://support.hp.com/us-en/"> Support &amp; <br xmlns="http://www.w3.org/1999/xhtml"> troubleshooting </a></li>
+       <li class="js_item   "><a name="2082889" tabindex="-1" class="icn_products  no_flyout link_metrics" href="http://support.hp.com/us-en/products/"> Products </a></li>
+       <li class="js_item   "><a name="2082891" target="_blank" tabindex="-1" class="icn_software  no_flyout link_metrics" href="http://support.hp.com/us-en/drivers"> Software &amp; <br xmlns="http://www.w3.org/1999/xhtml"> drivers </a></li>
+       <li class="js_item   "><a name="2082885" target="_blank" tabindex="-1" class="icn_forums  no_flyout link_metrics" href="http://h30434.www3.hp.com/"> Forums </a></li>
+       <li class="js_item   "><a name="2082886" tabindex="-1" class="icn_helpdesk_home  no_flyout link_metrics" href="http://www8.hp.com/us/en/services/consumer/smartfriend-overview.html"> Premium helpdesk <br xmlns="http://www.w3.org/1999/xhtml"> services for home </a></li>
+       <li class="js_item   "><a name="2082887" target="_blank" tabindex="-1" class="icn_helpdesk_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/services/smb/helpdesk.html"> Premium helpdesk <br xmlns="http://www.w3.org/1999/xhtml"> services for work </a></li>
+       <li class="js_item lstchild  "><a name="2278001" tabindex="-1" class="icn_extended_warranty  no_flyout link_metrics" href="http://www8.hp.com/us/en/services/consumer/services-overview.html"> Extended <br xmlns="http://www.w3.org/1999/xhtml"> warranties </a></li>
+      </ul>
+     </div>
+     <div id="widget_menu" class="hdr_widgets ">
+      <div class="search_block  js_search search_hp">
+       <form name="searchHP" id="searchHP" action="http://www8.hp.com/us/en/search/search-results.html" method="get">
+        <input type="hidden" name="client" value="">
+        <input type="hidden" name="jumpID" value="" disabled>
+        <div class="search_container">
+         <div class="search_mob_container hf_clf placeholder_wrapper">
+          <input class="searchBox" id="searchBox" name="qt" title="Search HP.com" placeholder="Search HP.com" type="search" size="23" maxlength="100" tabindex="3" autocomplete="off">
+          <a href="javascript:void(0);" title="Clear" class="searchClear" tabindex="3"><span class="screenReading hf_rlv">Clear search box</span></a>
+          <button class="searchSubmit" name="search" title="Begin your search" type="submit" tabindex="3" disabled="true">&nbsp;</button>
+         </div>
+        </div>
+        <span class="defaultTxt hidden">Search HP.com</span>
+        <span class="js_metricId hidden">1676317</span>
+        <input type="hidden" name="charset" value="utf-8">
+       </form>
+      </div>
+      <div class="hdr_buttons">
+       <ul class="nav_buttons js_nav_buttons" id="nav_buttons">
+        <li class="js_search_widget nav_button search_widget"><span class="top_corner">&nbsp;</span><a id="search_widget" class="js_search_trigger search_icon" href="javascript:void(0);" title="Search" tabindex="3"><span class="screenReading js_screen_reading">&nbsp;</span></a></li>
+        <li class="js_shopping_widget nav_button shopping_widget"><a name="2287273" id="shop_widget" class="js_shopping_trigger shopping_icon" href="https://store.hp.com/webapp/wcs/stores/servlet/AjaxOrderItemDisplayView?langId=-1&amp;catalogId=10051&amp;storeId=10151&amp;jumpid=gh_2287273" title="Shopping Cart" tabindex="4" data-href="" data-lang="en-us"><span class="screenReading js_screen_reading">&nbsp;</span></a><span class="item_count">&nbsp;</span>
+         <div class="js_shopping_target shop_widget">
+          <div class="top_corner">
+           &nbsp;
+          </div>
+          <div class="left_corner">
+           &nbsp;
+          </div>
+          <div id="sw_spooler" class="js_spooler wait_class " rel="">
+           <div>
+            &nbsp;
+           </div>
+          </div>
+          <div class="shopping_container">
+           <div class="shadow_cover_top">
+            &nbsp;
+           </div>
+           <a href="javascript:void(0);" title="Close" class="hf_close_btn"><span class="screenReading">Close Shopping Cart popup</span></a>
+           <div class="widget_content">
+            &nbsp;
+           </div>
+           <div class="shadow_cover_bottom">
+            &nbsp;
+           </div>
+          </div>
+         </div></li>
+        <li class="js_top_menu_widget nav_button top_menu_widget"><a class="js_top_menu_trigger top_m_widget hf-close" href="javascript:void(0);" tabindex="4" title=""><span class="screenReading js_screen_reading">&nbsp;</span><span class="bar1">&nbsp;</span><span class="bar2">&nbsp;</span><span class="bar3">&nbsp;</span></a>
+         <div class="js_top_menu_target top_menu_widget_accordion ">
+          <div class="hf_top_menu ">
+           <ul class="js_hf_menu  hf_menu level1">
+            <li class="selectable  first_li H/F - Laptop menu-1"><a name="2082481" tabindex="4" class="level1-desktop icn_laptop header_link  link_metrics" href="http://store.hp.com/us/en/cat/Laptops"><span>Laptops &amp; tablets</span><span class="screenReading js_screen_reading">&nbsp;</span><span class="pointer">&nbsp;</span></a>
+             <div class="js_hf_menu hf_menu level2">
+              <ul>
+               <li class="js_item  "><a name="2101987" tabindex="-1" class="icn_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/laptops/business-laptops-tablets.html"> Business </a></li>
+               <li class="js_item  "><a name="2082497" tabindex="-1" class="icn_premium  no_flyout link_metrics" href="http://www8.hp.com/us/en/premium/laptops/index.html"> Premium </a></li>
+               <li class="js_item  "><a name="2082491" tabindex="-1" class="icn_gaming  no_flyout link_metrics" href="http://www8.hp.com/us/en/campaigns/gamingpcs/overview.html"> Gaming </a></li>
+               <li class="js_item  "><a name="2277655" tabindex="-1" class="icn_laptop  no_flyout link_metrics" href="http://store.hp.com/us/en/vwa/Laptops/form=Standard-laptop"> Standard <br xmlns="http://www.w3.org/1999/xhtml"> laptops </a></li>
+               <li class="js_item  "><a name="2082480" tabindex="-1" class="icn_workstn_laptop  no_flyout link_metrics" href="http://www8.hp.com/us/en/workstations/overview.html"> Workstations </a></li>
+               <li class="js_item  "><a name="2109495" tabindex="-1" class="icn_detachables  no_flyout link_metrics" href="http://store.hp.com/us/en/vwa/Laptops/form=Convertible,Detachable"> Convertibles &amp; <br xmlns="http://www.w3.org/1999/xhtml"> detachables </a></li>
+               <li class="js_item  "><a name="2082500" tabindex="-1" class="icn_tablet  no_flyout link_metrics" href="http://store.hp.com/us/en/vwa/Laptops/form=Tablet"> Tablets </a></li>
+               <li class="js_item lstchild "><a name="2277225" tabindex="-1" class="icn_3in1_laptop  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;eSpotName=Elite-x3"> 3-in-1 </a></li>
+              </ul>
+             </div></li>
+            <li class="selectable   H/F - Desktop menu-2"><a name="2082388" tabindex="4" class="level1-desktop icn_desktop header_link  link_metrics" href="http://store.hp.com/us/en/cat/desktops"><span>Desktops</span><span class="screenReading js_screen_reading">&nbsp;</span><span class="pointer">&nbsp;</span></a>
+             <div class="js_hf_menu hf_menu level2">
+              <ul>
+               <li class="js_item  "><a name="2082386" tabindex="-1" class="icn_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/desktops/business-desktops.html"> Business </a></li>
+               <li class="js_item  "><a name="2082399" tabindex="-1" class="icn_immersive  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?catalogId=10051&amp;langId=-1&amp;storeId=10151&amp;eSpotName=Sprout-Pro#"> Immersive </a></li>
+               <li class="js_item  "><a name="2082396" tabindex="-1" class="icn_gaming  no_flyout link_metrics" href="http://www8.hp.com/us/en/campaigns/gamingpcs/overview.html#desktops"> Gaming </a></li>
+               <li class="js_item  "><a name="2277634" tabindex="-1" class="icn_towers  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=desktop-finder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=ff-tower"> Towers </a></li>
+               <li class="js_item  "><a name="2082385" tabindex="-1" class="icn_workstn_desktop  no_flyout link_metrics" href="http://www8.hp.com/us/en/workstations/overview.html"> Workstations </a></li>
+               <li class="js_item  "><a name="2082407" tabindex="-1" class="icn_all_in_one  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=desktop-finder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=ff-all"> All-in-ones </a></li>
+               <li class="js_item lstchild "><a name="2277633" tabindex="-1" class="icn_3in1_desktop  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;eSpotName=Elite-x3"> 3-in-1 </a></li>
+              </ul>
+             </div></li>
+            <li class="selectable   H/F - Printer menu-3"><a name="2082508" tabindex="4" class="level1-desktop icn_printer header_link  link_metrics" href="http://store.hp.com/us/en/cat/printers"><span>Printers</span><span class="screenReading js_screen_reading">&nbsp;</span><span class="pointer">&nbsp;</span></a>
+             <div class="js_hf_menu hf_menu level2">
+              <ul>
+               <li class="js_item  "><a name="2082527" tabindex="-1" class="icn_home_office  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=use-h"> Home &amp; <br xmlns="http://www.w3.org/1999/xhtml"> home office </a></li>
+               <li class="js_item  "><a name="2100716" tabindex="-1" class="icn_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/printers/business-printers.html"> Business </a></li>
+               <li class="js_item  "><a name="2277681" tabindex="-1" class="icn_print_only  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=pfunc-print"> Print <br xmlns="http://www.w3.org/1999/xhtml"> only </a></li>
+               <li class="js_item  "><a name="2082515" tabindex="-1" class="icn_printer  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=pfunc-multi"> Multifunction </a></li>
+               <li class="js_item  "><a name="2082522" tabindex="-1" class="icn_scanner  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=pfunc-scan"> Scanners </a></li>
+               <li class="js_item  "><a name="2082513" tabindex="-1" class="icn_large_format  no_flyout link_metrics" href="http://www8.hp.com/us/en/commercial-printers/graphic-arts.html"> Large format &amp; <br xmlns="http://www.w3.org/1999/xhtml"> digital presses </a></li>
+               <li class="js_item lstchild "><a name="2244510" target="_blank" tabindex="-1" class="icn_3d_printing  no_flyout link_metrics" href="http://www8.hp.com/us/en/printers/3d-printers.html"> 3D Print </a></li>
+              </ul>
+             </div></li>
+            <li class="empty   H/F - Ink Toner menu-4"><a name="2082545" tabindex="4" class="level1-desktop icn_ink_toner header_link no_flyout link_metrics" href="http://store.hp.com/us/en/cat/ink--toner---paper"><span>Ink &amp; toner</span><span class="pointer">&nbsp;</span></a></li>
+            <li class="empty   H/F - Monitor menu-5"><a name="2101621" tabindex="4" class="level1-desktop icn_monitor header_link no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=Accessories&amp;storeId=10151&amp;langId=-1&amp;catalogId=10051"><span>Displays &amp; accessories</span><span class="pointer">&nbsp;</span></a></li>
+            <li class="selectable second-last  H/F - Business menu-6"><a name="2082864" tabindex="4" class="level1-desktop icn_business header_link  link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions.html"><span>Business solutions</span><span class="screenReading js_screen_reading">&nbsp;</span><span class="pointer">&nbsp;</span></a>
+             <div class="js_hf_menu hf_menu level2">
+              <ul>
+               <li class="js_item  "><a name="2082456" tabindex="-1" class="icn_printing_solutions  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/printing.html"> Printing </a></li>
+               <li class="js_item  "><a name="2082442" tabindex="-1" class="icn_desktop  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/computing.html"> Computing </a></li>
+               <li class="js_item  "><a name="2082452" tabindex="-1" class="icn_mobility  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/mobility.html"> Mobility </a></li>
+               <li class="js_item  "><a name="2082469" tabindex="-1" class="icn_software  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/software.html"> Software </a></li>
+               <li class="js_item  "><a name="2082465" tabindex="-1" class="icn_services  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/services.html"> Services </a></li>
+               <li class="js_item  "><a name="2101975" tabindex="-1" class="icn_small_med_business  no_flyout link_metrics" href="http://store.hp.com/us/en/cat/business-solutions"> Small &amp; medium <br xmlns="http://www.w3.org/1999/xhtml"> business store </a></li>
+               <li class="js_item  "><a name="2082869" tabindex="-1" class="icn_large_enterprise  no_flyout link_metrics" href="http://www8.hp.com/us/en/hp-information/business-site/index.html"> Enterprise <br xmlns="http://www.w3.org/1999/xhtml"> store </a></li>
+               <li class="js_item lstchild "><a name="2082876" tabindex="-1" class="icn_public_sector  no_flyout link_metrics" href="https://government.hp.com/index.aspx"> Public sector <br xmlns="http://www.w3.org/1999/xhtml"> purchasing </a></li>
+              </ul>
+             </div></li>
+            <li class="selectable  lstchild H/F - Support menu-7"><a name="2082882" tabindex="4" class="level1-desktop icn_support header_link  link_metrics" href="javascript:void(0);"><span>Support</span><span class="screenReading js_screen_reading">&nbsp;</span><span class="pointer">&nbsp;</span></a>
+             <div class="js_hf_menu hf_menu level2">
+              <ul>
+               <li class="js_item  "><a name="2082892" target="_blank" tabindex="-1" class="icn_support  no_flyout link_metrics" href="http://support.hp.com/us-en/"> Support &amp; <br xmlns="http://www.w3.org/1999/xhtml"> troubleshooting </a></li>
+               <li class="js_item  "><a name="2082889" tabindex="-1" class="icn_products  no_flyout link_metrics" href="http://support.hp.com/us-en/products/"> Products </a></li>
+               <li class="js_item  "><a name="2082891" target="_blank" tabindex="-1" class="icn_software  no_flyout link_metrics" href="http://support.hp.com/us-en/drivers"> Software &amp; <br xmlns="http://www.w3.org/1999/xhtml"> drivers </a></li>
+               <li class="js_item  "><a name="2082885" target="_blank" tabindex="-1" class="icn_forums  no_flyout link_metrics" href="http://h30434.www3.hp.com/"> Forums </a></li>
+               <li class="js_item  "><a name="2082886" tabindex="-1" class="icn_helpdesk_home  no_flyout link_metrics" href="http://www8.hp.com/us/en/services/consumer/smartfriend-overview.html"> Premium helpdesk <br xmlns="http://www.w3.org/1999/xhtml"> services for home </a></li>
+               <li class="js_item  "><a name="2082887" target="_blank" tabindex="-1" class="icn_helpdesk_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/services/smb/helpdesk.html"> Premium helpdesk <br xmlns="http://www.w3.org/1999/xhtml"> services for work </a></li>
+               <li class="js_item lstchild "><a name="2278001" tabindex="-1" class="icn_extended_warranty  no_flyout link_metrics" href="http://www8.hp.com/us/en/services/consumer/services-overview.html"> Extended <br xmlns="http://www.w3.org/1999/xhtml"> warranties </a></li>
+              </ul>
+             </div></li>
+           </ul>
+          </div>
+          <div class="submenu">
+           <ul class="js_hf_menu submenu-1 hf_menu level">
+            <li class="js_item  first_li "><a name="2101987" tabindex="-1" class="icn_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/laptops/business-laptops-tablets.html"> Business </a></li>
+            <li class="js_item   "><a name="2082497" tabindex="-1" class="icn_premium  no_flyout link_metrics" href="http://www8.hp.com/us/en/premium/laptops/index.html"> Premium </a></li>
+            <li class="js_item   "><a name="2082491" tabindex="-1" class="icn_gaming  no_flyout link_metrics" href="http://www8.hp.com/us/en/campaigns/gamingpcs/overview.html"> Gaming </a></li>
+            <li class="js_item   "><a name="2277655" tabindex="-1" class="icn_laptop  no_flyout link_metrics" href="http://store.hp.com/us/en/vwa/Laptops/form=Standard-laptop"> Standard <br xmlns="http://www.w3.org/1999/xhtml"> laptops </a></li>
+            <li class="js_item   "><a name="2082480" tabindex="-1" class="icn_workstn_laptop  no_flyout link_metrics" href="http://www8.hp.com/us/en/workstations/overview.html"> Workstations </a></li>
+            <li class="js_item   "><a name="2109495" tabindex="-1" class="icn_detachables  no_flyout link_metrics" href="http://store.hp.com/us/en/vwa/Laptops/form=Convertible,Detachable"> Convertibles &amp; <br xmlns="http://www.w3.org/1999/xhtml"> detachables </a></li>
+            <li class="js_item   "><a name="2082500" tabindex="-1" class="icn_tablet  no_flyout link_metrics" href="http://store.hp.com/us/en/vwa/Laptops/form=Tablet"> Tablets </a></li>
+            <li class="js_item lstchild  "><a name="2277225" tabindex="-1" class="icn_3in1_laptop  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;eSpotName=Elite-x3"> 3-in-1 </a></li>
+           </ul>
+           <ul class="js_hf_menu submenu-2 hf_menu level">
+            <li class="js_item  first_li "><a name="2082386" tabindex="-1" class="icn_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/desktops/business-desktops.html"> Business </a></li>
+            <li class="js_item   "><a name="2082399" tabindex="-1" class="icn_immersive  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?catalogId=10051&amp;langId=-1&amp;storeId=10151&amp;eSpotName=Sprout-Pro#"> Immersive </a></li>
+            <li class="js_item   "><a name="2082396" tabindex="-1" class="icn_gaming  no_flyout link_metrics" href="http://www8.hp.com/us/en/campaigns/gamingpcs/overview.html#desktops"> Gaming </a></li>
+            <li class="js_item   "><a name="2277634" tabindex="-1" class="icn_towers  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=desktop-finder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=ff-tower"> Towers </a></li>
+            <li class="js_item   "><a name="2082385" tabindex="-1" class="icn_workstn_desktop  no_flyout link_metrics" href="http://www8.hp.com/us/en/workstations/overview.html"> Workstations </a></li>
+            <li class="js_item   "><a name="2082407" tabindex="-1" class="icn_all_in_one  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=desktop-finder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=ff-all"> All-in-ones </a></li>
+            <li class="js_item lstchild  "><a name="2277633" tabindex="-1" class="icn_3in1_desktop  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;eSpotName=Elite-x3"> 3-in-1 </a></li>
+           </ul>
+           <ul class="js_hf_menu submenu-3 hf_menu level">
+            <li class="js_item  first_li "><a name="2082527" tabindex="-1" class="icn_home_office  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=use-h"> Home &amp; <br xmlns="http://www.w3.org/1999/xhtml"> home office </a></li>
+            <li class="js_item   "><a name="2100716" tabindex="-1" class="icn_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/printers/business-printers.html"> Business </a></li>
+            <li class="js_item   "><a name="2277681" tabindex="-1" class="icn_print_only  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=pfunc-print"> Print <br xmlns="http://www.w3.org/1999/xhtml"> only </a></li>
+            <li class="js_item   "><a name="2082515" tabindex="-1" class="icn_printer  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=pfunc-multi"> Multifunction </a></li>
+            <li class="js_item   "><a name="2082522" tabindex="-1" class="icn_scanner  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=pfunc-scan"> Scanners </a></li>
+            <li class="js_item   "><a name="2082513" tabindex="-1" class="icn_large_format  no_flyout link_metrics" href="http://www8.hp.com/us/en/commercial-printers/graphic-arts.html"> Large format &amp; <br xmlns="http://www.w3.org/1999/xhtml"> digital presses </a></li>
+            <li class="js_item lstchild  "><a name="2244510" target="_blank" tabindex="-1" class="icn_3d_printing  no_flyout link_metrics" href="http://www8.hp.com/us/en/printers/3d-printers.html"> 3D Print </a></li>
+           </ul>
+           <ul class="js_hf_menu submenu-6 hf_menu level">
+            <li class="js_item  first_li "><a name="2082456" tabindex="-1" class="icn_printing_solutions  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/printing.html"> Printing </a></li>
+            <li class="js_item   "><a name="2082442" tabindex="-1" class="icn_desktop  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/computing.html"> Computing </a></li>
+            <li class="js_item   "><a name="2082452" tabindex="-1" class="icn_mobility  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/mobility.html"> Mobility </a></li>
+            <li class="js_item   "><a name="2082469" tabindex="-1" class="icn_software  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/software.html"> Software </a></li>
+            <li class="js_item   "><a name="2082465" tabindex="-1" class="icn_services  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/services.html"> Services </a></li>
+            <li class="js_item   "><a name="2101975" tabindex="-1" class="icn_small_med_business  no_flyout link_metrics" href="http://store.hp.com/us/en/cat/business-solutions"> Small &amp; medium <br xmlns="http://www.w3.org/1999/xhtml"> business store </a></li>
+            <li class="js_item   "><a name="2082869" tabindex="-1" class="icn_large_enterprise  no_flyout link_metrics" href="http://www8.hp.com/us/en/hp-information/business-site/index.html"> Enterprise <br xmlns="http://www.w3.org/1999/xhtml"> store </a></li>
+            <li class="js_item lstchild  "><a name="2082876" tabindex="-1" class="icn_public_sector  no_flyout link_metrics" href="https://government.hp.com/index.aspx"> Public sector <br xmlns="http://www.w3.org/1999/xhtml"> purchasing </a></li>
+           </ul>
+           <ul class="js_hf_menu submenu-7 hf_menu level">
+            <li class="js_item  first_li "><a name="2082892" target="_blank" tabindex="-1" class="icn_support  no_flyout link_metrics" href="http://support.hp.com/us-en/"> Support &amp; <br xmlns="http://www.w3.org/1999/xhtml"> troubleshooting </a></li>
+            <li class="js_item   "><a name="2082889" tabindex="-1" class="icn_products  no_flyout link_metrics" href="http://support.hp.com/us-en/products/"> Products </a></li>
+            <li class="js_item   "><a name="2082891" target="_blank" tabindex="-1" class="icn_software  no_flyout link_metrics" href="http://support.hp.com/us-en/drivers"> Software &amp; <br xmlns="http://www.w3.org/1999/xhtml"> drivers </a></li>
+            <li class="js_item   "><a name="2082885" target="_blank" tabindex="-1" class="icn_forums  no_flyout link_metrics" href="http://h30434.www3.hp.com/"> Forums </a></li>
+            <li class="js_item   "><a name="2082886" tabindex="-1" class="icn_helpdesk_home  no_flyout link_metrics" href="http://www8.hp.com/us/en/services/consumer/smartfriend-overview.html"> Premium helpdesk <br xmlns="http://www.w3.org/1999/xhtml"> services for home </a></li>
+            <li class="js_item   "><a name="2082887" target="_blank" tabindex="-1" class="icn_helpdesk_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/services/smb/helpdesk.html"> Premium helpdesk <br xmlns="http://www.w3.org/1999/xhtml"> services for work </a></li>
+            <li class="js_item lstchild  "><a name="2278001" tabindex="-1" class="icn_extended_warranty  no_flyout link_metrics" href="http://www8.hp.com/us/en/services/consumer/services-overview.html"> Extended <br xmlns="http://www.w3.org/1999/xhtml"> warranties </a></li>
+           </ul>
+          </div>
+         </div></li>
+       </ul>
+      </div>
+     </div>
+    </div>
+    <div class="submenu-category swiper">
+     &nbsp;
+    </div>
+   </div>
+   <a name="skiptobody" tabindex="-1"><span class="screenReading">Start of content</span></a>
+   <!--Data Published 10/06/2016 04:02:31 PM, Template Published: UNKNOWN-->
+   <!-- End CAAS Header --> 
+  </div> 
+  <!-- END Header.jsp --> 
+  <div class="header-container"> 
+   <div id="navigationWrapper"> 
+    <div class="loginStorenavGroup"> 
+     <div id="storeSlider" class="hide-for-small"> 
+      <div id="storenav" class=""> 
+       <div class="row"> 
+        <div class="prevcolumn"> 
+         <div id="prev">
+          <p>More</p>
+         </div> 
+        </div> 
+        <div class="slidercolumn"> 
+         <ul> 
+          <li> <a href="/us/en/"> 
+            <div class="sliderImgContainer">
+             <img src="/wcsstore/hpusstore/Banners/store_home_icon.png" alt="Store Home">
+            </div> <p class="caption">Store Home</p> </a> </li> 
+          <li> <a href="/us/en/cat/Laptops" onclick="CTOcookie('Laptops');navigationEventTrackMetrics('topNav'+':'+'Laptops')"> 
+            <div class="sliderImgContainer">
+             <img src="/wcsstore/hpusstore//wcsstore/hpusstore/Banners/nav_Laptops.png" alt="Laptops">
+            </div> <p class="caption">Laptops</p> </a> </li> 
+          <li> <a href="/us/en/cat/desktops" onclick="CTOcookie('Desktops');navigationEventTrackMetrics('topNav'+':'+'Desktops')"> 
+            <div class="sliderImgContainer">
+             <img src="/wcsstore/hpusstore//wcsstore/hpusstore/Banners/SMB-nav-Desktops-icon.png" alt="Desktops">
+            </div> <p class="caption">Desktops</p> </a> </li> 
+          <li> <a href="/us/en/cat/printers" onclick="CTOcookie('Printers');navigationEventTrackMetrics('topNav'+':'+'Printers')"> 
+            <div class="sliderImgContainer">
+             <img src="/wcsstore/hpusstore//wcsstore/hpusstore/Banners/nav_Printers.jpg" alt="Printers">
+            </div> <p class="caption">Printers</p> </a> </li> 
+          <li> <a href="/us/en/cat/ink--toner---paper" onclick="CTOcookie('Ink, toner &amp; paper');navigationEventTrackMetrics('topNav'+':'+'Ink, toner &amp; paper')"> 
+            <div class="sliderImgContainer">
+             <img src="/wcsstore/hpusstore//wcsstore/hpusstore/Banners/nav_inkpaper.png" alt="Ink, toner &amp; paper">
+            </div> <p class="caption">Ink, toner &amp; paper</p> </a> </li> 
+          <li> <a href="/us/en/cat/accessories-88342--1" onclick="CTOcookie('Accessories');navigationEventTrackMetrics('topNav'+':'+'Accessories')"> 
+            <div class="sliderImgContainer">
+             <img src="/wcsstore/hpusstore//wcsstore/hpusstore/Banners/Top-nav-Accessories-icon.jpg" alt="Accessories">
+            </div> <p class="caption">Accessories</p> </a> </li> 
+          <li> <a href="/us/en/cat/business-solutions" onclick="CTOcookie('Business');navigationEventTrackMetrics('topNav'+':'+'Business')"> 
+            <div class="sliderImgContainer">
+             <img src="/wcsstore/hpusstore//wcsstore/hpusstore/Banners/nav_BusiSolutions-final2.png" alt="Business">
+            </div> <p class="caption">Business</p> </a> </li> 
+          <li> <a href="/us/en/cat/tablets" onclick="CTOcookie('Tablets');navigationEventTrackMetrics('topNav'+':'+'Tablets')"> 
+            <div class="sliderImgContainer">
+             <img src="/wcsstore/hpusstore//wcsstore/hpusstore/Banners/nav_Tablets.png" alt="Tablets">
+            </div> <p class="caption">Tablets</p> </a> </li> 
+          <li> <a href="/us/en/cat/care-packs-88343--1" onclick="CTOcookie('Care Packs');navigationEventTrackMetrics('topNav'+':'+'Care Packs')"> 
+            <div class="sliderImgContainer">
+             <img src="/wcsstore/hpusstore/wcsstore/hpusstore/Banners/hp_CarePack_Icon_NoBg.png" alt="Care Packs">
+            </div> <p class="caption">Care Packs</p> </a> </li> 
+         </ul> 
+        </div> 
+        <div class="nextcolumn"> 
+         <div id="next">
+          <p>More</p>
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="clear"></div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="clear"></div> 
+  <script type="text/javascript">
+	document.cookie = "CTOType=false; path=/;domain=.hp.com";
+	function CTOcookie(catName) {
+		if (typeof trackMetrics != 'undefined') {
+			trackMetrics('new.link', {page:{navigation:'topNav:' + catName}});
+		}
+		document.cookie = "CTOType=true; path=/;domain=.hp.com";
+	}
+</script> 
+  <!-- Stick-kit --> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/vendor/sticky-kit/jquery.sticky-kit.js"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/vendor/jquery-ui-1.10.3.custom.min.js"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/vendor/mobile/jquery.ui.touch-punch.min.js"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/hpbase.js"></script> 
+  <div id="content"> 
+   <h1 id="PLPPageTitle" class="pageTitle">View All Desktops</h1> 
+   <div class="fnd5 l1-variation topBanner"> 
+    <!-- BEGIN ContentRecommendation/ContentRecommendation.jsp -->
+    <!-- BEGIN ESpotTitle_Data.jspf -->
+    <!-- END ESpotTitle_Data.jspf --> 
+    <script>
+		
+	</script> 
+    <!-- END ContentRecommendation/ContentRecommendation.jsp --> 
+   </div> 
+   <form id="catalogForm" style="display:none"> 
+    <input type="hidden" name="storeId" value="10151"> 
+    <input type="hidden" name="catalogId" value="10051"> 
+    <input type="hidden" name="categoryId" value="88339"> 
+    <input type="hidden" name="searchTerm" value=""> 
+    <input type="hidden" name="pageSize" value="12"> 
+    <input type="hidden" name="isAjax" value="true"> 
+   </form> 
+   <form id="pageForm" style="display:none"></form> 
+   <div id="main"> 
+    <div class="searchCount"> 
+     <span class="searchTotal">Showing 6 products</span> 
+     <form id="sortForm"> 
+      <select name="orderBy"> <option value="" selected>Sorted by</option> <option value="2">Sorted by Name</option> <option value="3">Sorted by Lowest price</option> <option value="4">Sorted by Highest price</option> <option value="5">Sorted by Ratings</option> <option value="6">Sorted by Best Seller</option> <option value="7">Sorted by Newest</option> </select> 
+     </form> 
+     <div class="filterPos">
+       Filter position: 
+      <span class="filterBtns"> <span class="filterTopBtn" onclick="$('#main').addClass('topFacets');">Top</span><span class="filterLeftBtn" onclick="$('#main').removeClass('topFacets');">Left</span> </span> 
+     </div> 
+     <div class="clear"></div> 
+    </div> 
+    <div id="facetNav"> 
+     <span class="mobileFacetCloseBtn" onclick="$('html').removeClass('mobileFacetOpen');"></span> 
+     <form id="facetForm"></form> 
+     <div class="clear"></div> 
+    </div> 
+    <div id="searchResults"> 
+     <div id="searchResultView"> 
+      <!-- FindTopCategoryForProduct.jspf - Start -->
+      <!-- FindTopCategoryForProduct.jsp - End -->
+      <!-- FindTopCategoryForProduct.jspf - Start -->
+      <!-- FindTopCategoryForProduct.jsp - End --> 
+      <div class="productWrapper"> 
+       <div class="productCard" id="p_836215"> 
+        <div class="productInfo1"> 
+         <a href="/us/en/pdp/desktops/hp-elitedesk-800-g1-desktop-mini-pc-%28energy-star%29-k1k71ut-aba" class="productImg" onclick="javascript:trackClick('836215');"> <img alt="HP EliteDesk 800 G1 Desktop Mini PC (ENERGY STAR)" title="HP EliteDesk 800 G1 Desktop Mini PC (ENERGY STAR)" src="http://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c04104186.png"> </a> 
+        </div> 
+        <div class="productInfo2"> 
+         <h3><a class="productHdr" href="/us/en/pdp/desktops/hp-elitedesk-800-g1-desktop-mini-pc-%28energy-star%29-k1k71ut-aba">HP EliteDesk 800 G1 Desktop Mini PC (ENERGY STAR)</a></h3> 
+         <div class="productRating"> 
+          <!-- 0 - false : 0 - false --> 
+         </div> 
+         <ul class="productFeatLst"> 
+          <li class="productFeat">Windows 7 Professional 64 (available through downgrade rights from Windows 8.1 Pro)</li> 
+          <li class="productFeat">Intel® Core™ i3 processor</li> 
+          <li class="productFeat">4 GB memory; 500 GB HDD storage</li> 
+          <li class="productFeat">Intel HD Graphics 4400</li> 
+         </ul> 
+         <div class="productOffers3 hasTooltip"> 
+          <label class="promoLabel">See all offers</label> 
+          <span class="tooltipContent"> 
+           <ul class="promoText"> 
+            <!-- Free ship messaging-10191051 :  -->
+            <li>Free shipping &amp; free returns</li>
+            <!-- 40_ACC_DT-NB_150520152416_1-10399057 : 0 -->
+            <li><a onclick="window.open('http://store.hp.com/us/en/SearchDisplay?client=&amp;searchTerm=bose+companion+offer&amp;search=%EF%80%A1&amp;beginIndex=0&amp;catalogId=10051&amp;charset=utf-8&amp;langId=-1&amp;pageSize=50&amp;pageView=grid&amp;resultCatEntryType=2&amp;sType=SimpleSearch&amp;searchSource=Q&amp;storeId=10151','','scrollbars=yes,resizable=yes');return false;" href="http://store.hp.com/us/en/SearchDisplay?client=&amp;searchTerm=bose+companion+offer&amp;search=%EF%80%A1&amp;beginIndex=0&amp;catalogId=10051&amp;charset=utf-8&amp;langId=-1&amp;pageSize=50&amp;pageView=grid&amp;resultCatEntryType=2&amp;sType=SimpleSearch&amp;searchSource=Q&amp;storeId=10151" data-mce-href="http://store.hp.com/us/en/SearchDisplay?client=&amp;searchTerm=bose+companion+offer&amp;search=%EF%80%A1&amp;beginIndex=0&amp;catalogId=10051&amp;charset=utf-8&amp;langId=-1&amp;pageSize=50&amp;pageView=grid&amp;resultCatEntryType=2&amp;sType=SimpleSearch&amp;searchSource=Q&amp;storeId=10151">Up to $40 off select Bose speakers with purchase of this PC</a></li> 
+           </ul> </span> 
+         </div> 
+        </div> 
+        <div class="productInfo3"> 
+         <div class="productPrice" id="price_holder_836215" data-ui="{&quot;itemId&quot;:&quot;836215&quot;}"></div> 
+         <a href="/us/en/pdp/desktops/hp-elitedesk-800-g1-desktop-mini-pc-%28energy-star%29-k1k71ut-aba" class="viewDetailsBtn" onclick="javascript:trackClick('836215');">View details</a> 
+         <div class="clear"></div> 
+         <div class="productInv inventory_holder" id="inventory_holder_836215_fnd" data-ui="{&quot;styleUI&quot;:&quot;fnd&quot;, &quot;linkUrl&quot;:&quot;/us/en/mdp/ink-toner/hp-elitedesk-800-g1-desktop-mini-pc-%28energy-star%29-p-k1k71ut-aba--1&quot;}" data-a2c="{&quot;itemId&quot;:&quot;836215&quot;, &quot;prodId&quot;:&quot;836168&quot;, &quot;isGiftCard&quot;:&quot;false&quot;, &quot;qty&quot;:&quot;1&quot;, &quot;popup&quot;:&quot;false&quot;, &quot;targetUrl&quot;:&quot;&quot;}" data-omni="{&quot;itemId&quot;: &quot;836215&quot;, &quot;prodId&quot;: &quot;836168&quot;, &quot;site&quot;:&quot;hhos&quot;, &quot;subSection&quot;: &quot;cart&quot;, &quot;xsellAttr&quot;: &quot;&quot;, &quot;addToCartMethod&quot;:&quot;&quot;, &quot;parentId&quot;:&quot;&quot;, &quot;location&quot;:&quot;&quot;}"> 
+         </div> 
+         <div class="pc_836168 add_compare_btn disabled" title="Click to compare" data-ui="{&quot;prodId&quot;:&quot;836168&quot;}">
+          Compare
+         </div> 
+         <div class="partNo">
+          K1K71UT#ABA
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <!-- Added for HPEUS-854 START --> 
+        <input type="hidden" var="isSMB" value="Yes"> 
+        <input type="hidden" var="category" value="Business Desktop PCs"> 
+        <!-- Added for HPEUS-854  END --> 
+        <div class="clear"></div> 
+       </div> 
+      </div> 
+      <!-- FindTopCategoryForProduct.jspf - Start -->
+      <!-- FindTopCategoryForProduct.jsp - End -->
+      <!-- FindTopCategoryForProduct.jspf - Start -->
+      <!-- FindTopCategoryForProduct.jsp - End --> 
+      <div class="productWrapper"> 
+       <div class="productCard" id="p_1456656"> 
+        <div class="productInfo1"> 
+         <a href="/us/en/pdp/business-solutions/hp-elite-slice-x9u62ut-aba" class="productImg" onclick="javascript:trackClick('1456656');"> <img alt="HP Elite Slice Desktop" title="HP Elite Slice Desktop" src="http://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c05222155.png"> </a> 
+        </div> 
+        <div class="productInfo2"> 
+         <h3><a class="productHdr" href="/us/en/pdp/business-solutions/hp-elite-slice-x9u62ut-aba">HP Elite Slice Desktop</a></h3> 
+         <div class="productRating"> 
+          <!-- 0 - false : 0 - false --> 
+         </div> 
+         <ul class="productFeatLst"> 
+          <li class="productFeat">Windows 10 Pro 64</li> 
+          <li class="productFeat">6th Generation Intel® Core™ i7 processor</li> 
+          <li class="productFeat">8 GB memory; 256 GB SSD storage</li> 
+          <li class="productFeat">Intel® HD Graphics 530</li> 
+         </ul> 
+         <div class="productOffers3 hasTooltip"> 
+          <label class="promoLabel">See all offers</label> 
+          <span class="tooltipContent"> 
+           <ul class="promoText"> 
+            <!-- Free ship messaging-10191051 :  -->
+            <li>Free shipping &amp; free returns</li> 
+           </ul> </span> 
+         </div> 
+        </div> 
+        <div class="productInfo3"> 
+         <div class="productPrice" id="price_holder_1456656" data-ui="{&quot;itemId&quot;:&quot;1456656&quot;}"></div> 
+         <a href="/us/en/pdp/business-solutions/hp-elite-slice-x9u62ut-aba" class="viewDetailsBtn" onclick="javascript:trackClick('1456656');">View details</a> 
+         <div class="clear"></div> 
+         <div class="productInv inventory_holder" id="inventory_holder_1456656_fnd" data-ui="{&quot;styleUI&quot;:&quot;fnd&quot;, &quot;linkUrl&quot;:&quot;/us/en/mdp/ink-toner/hp-elite-slice-p-x9u62ut-aba--1&quot;}" data-a2c="{&quot;itemId&quot;:&quot;1456656&quot;, &quot;prodId&quot;:&quot;1456651&quot;, &quot;isGiftCard&quot;:&quot;false&quot;, &quot;qty&quot;:&quot;1&quot;, &quot;popup&quot;:&quot;false&quot;, &quot;targetUrl&quot;:&quot;&quot;}" data-omni="{&quot;itemId&quot;: &quot;1456656&quot;, &quot;prodId&quot;: &quot;1456651&quot;, &quot;site&quot;:&quot;hhos&quot;, &quot;subSection&quot;: &quot;cart&quot;, &quot;xsellAttr&quot;: &quot;&quot;, &quot;addToCartMethod&quot;:&quot;&quot;, &quot;parentId&quot;:&quot;&quot;, &quot;location&quot;:&quot;&quot;}"> 
+         </div> 
+         <div class="pc_1456651 add_compare_btn disabled" title="Click to compare" data-ui="{&quot;prodId&quot;:&quot;1456651&quot;}">
+          Compare
+         </div> 
+         <div class="partNo">
+          X9U62UT#ABA
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <!-- Added for HPEUS-854 START --> 
+        <input type="hidden" var="isSMB" value="Yes"> 
+        <input type="hidden" var="category" value="Business Desktop PCs"> 
+        <!-- Added for HPEUS-854  END --> 
+        <div class="clear"></div> 
+       </div> 
+      </div> 
+      <!-- FindTopCategoryForProduct.jspf - Start -->
+      <!-- FindTopCategoryForProduct.jsp - End -->
+      <!-- FindTopCategoryForProduct.jspf - Start -->
+      <!-- FindTopCategoryForProduct.jsp - End --> 
+      <div class="productWrapper"> 
+       <div class="productCard" id="p_1456657"> 
+        <div class="productInfo1"> 
+         <a href="/us/en/pdp/desktops/hp-elite-slice-x9u63ut-aba" class="productImg" onclick="javascript:trackClick('1456657');"> <img alt="HP Elite Slice Desktop" title="HP Elite Slice Desktop" src="http://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c05222155.png"> </a> 
+        </div> 
+        <div class="productInfo2"> 
+         <h3><a class="productHdr" href="/us/en/pdp/desktops/hp-elite-slice-x9u63ut-aba">HP Elite Slice Desktop</a></h3> 
+         <div class="productRating"> 
+          <!-- 0 - false : 0 - false --> 
+         </div> 
+         <ul class="productFeatLst"> 
+          <li class="productFeat">Windows 10 Pro 64</li> 
+          <li class="productFeat">6th Generation Intel® Core™ i5 processor</li> 
+          <li class="productFeat">8 GB memory; 256 GB SSD storage</li> 
+          <li class="productFeat">Intel® HD Graphics 530</li> 
+         </ul> 
+         <div class="productOffers3 hasTooltip"> 
+          <label class="promoLabel">See all offers</label> 
+          <span class="tooltipContent"> 
+           <ul class="promoText"> 
+            <!-- Free ship messaging-10191051 :  -->
+            <li>Free shipping &amp; free returns</li> 
+           </ul> </span> 
+         </div> 
+        </div> 
+        <div class="productInfo3"> 
+         <div class="productPrice" id="price_holder_1456657" data-ui="{&quot;itemId&quot;:&quot;1456657&quot;}"></div> 
+         <a href="/us/en/pdp/desktops/hp-elite-slice-x9u63ut-aba" class="viewDetailsBtn" onclick="javascript:trackClick('1456657');">View details</a> 
+         <div class="clear"></div> 
+         <div class="productInv inventory_holder" id="inventory_holder_1456657_fnd" data-ui="{&quot;styleUI&quot;:&quot;fnd&quot;, &quot;linkUrl&quot;:&quot;/us/en/mdp/ink-toner/hp-elite-slice-p-x9u63ut-aba--1&quot;}" data-a2c="{&quot;itemId&quot;:&quot;1456657&quot;, &quot;prodId&quot;:&quot;1456652&quot;, &quot;isGiftCard&quot;:&quot;false&quot;, &quot;qty&quot;:&quot;1&quot;, &quot;popup&quot;:&quot;false&quot;, &quot;targetUrl&quot;:&quot;&quot;}" data-omni="{&quot;itemId&quot;: &quot;1456657&quot;, &quot;prodId&quot;: &quot;1456652&quot;, &quot;site&quot;:&quot;hhos&quot;, &quot;subSection&quot;: &quot;cart&quot;, &quot;xsellAttr&quot;: &quot;&quot;, &quot;addToCartMethod&quot;:&quot;&quot;, &quot;parentId&quot;:&quot;&quot;, &quot;location&quot;:&quot;&quot;}"> 
+         </div> 
+         <div class="pc_1456652 add_compare_btn disabled" title="Click to compare" data-ui="{&quot;prodId&quot;:&quot;1456652&quot;}">
+          Compare
+         </div> 
+         <div class="partNo">
+          X9U63UT#ABA
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <!-- Added for HPEUS-854 START --> 
+        <input type="hidden" var="isSMB" value="Yes"> 
+        <input type="hidden" var="category" value="Business Desktop PCs"> 
+        <!-- Added for HPEUS-854  END --> 
+        <div class="clear"></div> 
+       </div> 
+      </div> 
+      <!-- FindTopCategoryForProduct.jspf - Start -->
+      <!-- FindTopCategoryForProduct.jsp - End -->
+      <!-- FindTopCategoryForProduct.jspf - Start -->
+      <!-- FindTopCategoryForProduct.jsp - End --> 
+      <div class="productWrapper"> 
+       <div class="productCard" id="p_1456659"> 
+        <div class="productInfo1"> 
+         <a href="/us/en/pdp/business-solutions/hp-elite-slice-for-meeting-rooms-x9u65ut-aba" class="productImg" onclick="javascript:trackClick('1456659');"> <img alt="HP Elite Slice Desktop" title="HP Elite Slice Desktop" src="http://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c05295929.png"> </a> 
+        </div> 
+        <div class="productInfo2"> 
+         <h3><a class="productHdr" href="/us/en/pdp/business-solutions/hp-elite-slice-for-meeting-rooms-x9u65ut-aba">HP Elite Slice Desktop</a></h3> 
+         <div class="productRating"> 
+          <!-- 0 - false : 0 - false --> 
+         </div> 
+         <ul class="productFeatLst"> 
+          <li class="productFeat">Windows 10 Pro 64</li> 
+          <li class="productFeat">6th Generation Intel® Core™ i5 processor</li> 
+          <li class="productFeat">8 GB memory; 256 GB SSD storage</li> 
+          <li class="productFeat">Intel® HD Graphics 530</li> 
+         </ul> 
+         <div class="productOffers3 hasTooltip"> 
+          <label class="promoLabel">See all offers</label> 
+          <span class="tooltipContent"> 
+           <ul class="promoText"> 
+            <!-- Free ship messaging-10191051 :  -->
+            <li>Free shipping &amp; free returns</li> 
+           </ul> </span> 
+         </div> 
+        </div> 
+        <div class="productInfo3"> 
+         <div class="productPrice" id="price_holder_1456659" data-ui="{&quot;itemId&quot;:&quot;1456659&quot;}"></div> 
+         <a href="/us/en/pdp/business-solutions/hp-elite-slice-for-meeting-rooms-x9u65ut-aba" class="viewDetailsBtn" onclick="javascript:trackClick('1456659');">View details</a> 
+         <div class="clear"></div> 
+         <div class="productInv inventory_holder" id="inventory_holder_1456659_fnd" data-ui="{&quot;styleUI&quot;:&quot;fnd&quot;, &quot;linkUrl&quot;:&quot;/us/en/mdp/ink-toner/hp-elite-slice-for-meeting-rooms-p-x9u65ut-aba--1&quot;}" data-a2c="{&quot;itemId&quot;:&quot;1456659&quot;, &quot;prodId&quot;:&quot;1456654&quot;, &quot;isGiftCard&quot;:&quot;false&quot;, &quot;qty&quot;:&quot;1&quot;, &quot;popup&quot;:&quot;false&quot;, &quot;targetUrl&quot;:&quot;&quot;}" data-omni="{&quot;itemId&quot;: &quot;1456659&quot;, &quot;prodId&quot;: &quot;1456654&quot;, &quot;site&quot;:&quot;hhos&quot;, &quot;subSection&quot;: &quot;cart&quot;, &quot;xsellAttr&quot;: &quot;&quot;, &quot;addToCartMethod&quot;:&quot;&quot;, &quot;parentId&quot;:&quot;&quot;, &quot;location&quot;:&quot;&quot;}"> 
+         </div> 
+         <div class="pc_1456654 add_compare_btn disabled" title="Click to compare" data-ui="{&quot;prodId&quot;:&quot;1456654&quot;}">
+          Compare
+         </div> 
+         <div class="partNo">
+          X9U65UT#ABA
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <!-- Added for HPEUS-854 START --> 
+        <input type="hidden" var="isSMB" value="Yes"> 
+        <input type="hidden" var="category" value="Business Desktop PCs"> 
+        <!-- Added for HPEUS-854  END --> 
+        <div class="clear"></div> 
+       </div> 
+      </div> 
+      <!-- FindTopCategoryForProduct.jspf - Start -->
+      <!-- FindTopCategoryForProduct.jsp - End -->
+      <!-- FindTopCategoryForProduct.jspf - Start -->
+      <!-- FindTopCategoryForProduct.jsp - End --> 
+      <div class="productWrapper"> 
+       <div class="productCard" id="p_1456660"> 
+        <div class="productInfo1"> 
+         <a href="/us/en/pdp/business-solutions/hp-elite-slice-for-meeting-rooms-z2a23ut-aba" class="productImg" onclick="javascript:trackClick('1456660');"> <img alt="HP Elite Slice Desktop" title="HP Elite Slice Desktop" src="http://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c05222155.png"> </a> 
+        </div> 
+        <div class="productInfo2"> 
+         <h3><a class="productHdr" href="/us/en/pdp/business-solutions/hp-elite-slice-for-meeting-rooms-z2a23ut-aba">HP Elite Slice Desktop</a></h3> 
+         <div class="productRating"> 
+          <!-- 0 - false : 0 - false --> 
+         </div> 
+         <ul class="productFeatLst"> 
+          <li class="productFeat">Windows 10 Pro 64</li> 
+          <li class="productFeat">6th Generation Intel® Core™ i3 processor</li> 
+          <li class="productFeat">4 GB memory; 500 GB HDD storage</li> 
+          <li class="productFeat">Intel® HD Graphics 530</li> 
+         </ul> 
+         <div class="productOffers3 hasTooltip"> 
+          <label class="promoLabel">See all offers</label> 
+          <span class="tooltipContent"> 
+           <ul class="promoText"> 
+            <!-- Free ship messaging-10191051 :  -->
+            <li>Free shipping &amp; free returns</li> 
+           </ul> </span> 
+         </div> 
+        </div> 
+        <div class="productInfo3"> 
+         <div class="productPrice" id="price_holder_1456660" data-ui="{&quot;itemId&quot;:&quot;1456660&quot;}"></div> 
+         <a href="/us/en/pdp/business-solutions/hp-elite-slice-for-meeting-rooms-z2a23ut-aba" class="viewDetailsBtn" onclick="javascript:trackClick('1456660');">View details</a> 
+         <div class="clear"></div> 
+         <div class="productInv inventory_holder" id="inventory_holder_1456660_fnd" data-ui="{&quot;styleUI&quot;:&quot;fnd&quot;, &quot;linkUrl&quot;:&quot;/us/en/mdp/ink-toner/hp-elite-slice-for-meeting-rooms-p-z2a23ut-aba--1&quot;}" data-a2c="{&quot;itemId&quot;:&quot;1456660&quot;, &quot;prodId&quot;:&quot;1456655&quot;, &quot;isGiftCard&quot;:&quot;false&quot;, &quot;qty&quot;:&quot;1&quot;, &quot;popup&quot;:&quot;false&quot;, &quot;targetUrl&quot;:&quot;&quot;}" data-omni="{&quot;itemId&quot;: &quot;1456660&quot;, &quot;prodId&quot;: &quot;1456655&quot;, &quot;site&quot;:&quot;hhos&quot;, &quot;subSection&quot;: &quot;cart&quot;, &quot;xsellAttr&quot;: &quot;&quot;, &quot;addToCartMethod&quot;:&quot;&quot;, &quot;parentId&quot;:&quot;&quot;, &quot;location&quot;:&quot;&quot;}"> 
+         </div> 
+         <div class="pc_1456655 add_compare_btn disabled" title="Click to compare" data-ui="{&quot;prodId&quot;:&quot;1456655&quot;}">
+          Compare
+         </div> 
+         <div class="partNo">
+          Z2A23UT#ABA
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <!-- Added for HPEUS-854 START --> 
+        <input type="hidden" var="isSMB" value="Yes"> 
+        <input type="hidden" var="category" value="Business Desktop PCs"> 
+        <!-- Added for HPEUS-854  END --> 
+        <div class="clear"></div> 
+       </div> 
+      </div> 
+      <!-- FindTopCategoryForProduct.jspf - Start -->
+      <!-- FindTopCategoryForProduct.jsp - End -->
+      <!-- FindTopCategoryForProduct.jspf - Start -->
+      <!-- FindTopCategoryForProduct.jsp - End --> 
+      <div class="productWrapper"> 
+       <div class="productCard" id="p_1406154"> 
+        <div class="productInfo1"> 
+         <a href="/us/en/pdp/business-solutions/hp-elite-slice-w4v42av-1" class="productImg" onclick="javascript:trackClick('1406154');"> <img alt="HP Elite Slice Desktop" title="HP Elite Slice Desktop" src="http://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c05222155.png"> </a> 
+        </div> 
+        <div class="productInfo2"> 
+         <h3><a class="productHdr" href="/us/en/pdp/business-solutions/hp-elite-slice-w4v42av-1">HP Elite Slice Desktop</a></h3> 
+         <div class="productRating"> 
+          <!-- 0 - false : 0 - false --> 
+         </div> 
+         <ul class="productFeatLst"> 
+          <li class="productFeat">Windows 10 Pro 64</li> 
+          <li class="productFeat">6th Generation Intel® Core™ i3 Processor</li> 
+          <li class="productFeat">8 GB memory; 500 GB HDD storage</li> 
+          <li class="productFeat">Intel® HD Graphics 530</li> 
+         </ul> 
+         <div class="productOffers3 hasTooltip"> 
+          <label class="promoLabel">See all offers</label> 
+          <span class="tooltipContent"> 
+           <ul class="promoText"> 
+            <!-- Free ship messaging-10191051 :  -->
+            <li>Free shipping &amp; free returns</li>
+            <!-- DT_20160920_115714-10836051 :  -->
+            <li>Save 27% instantly</li> 
+           </ul> </span> 
+         </div> 
+        </div> 
+        <div class="productInfo3"> 
+         <div class="productPrice" id="price_holder_1406154" data-ui="{&quot;itemId&quot;:&quot;1406154&quot;}"></div> 
+         <a href="/us/en/pdp/business-solutions/hp-elite-slice-w4v42av-1" class="viewDetailsBtn" onclick="javascript:trackClick('1406154');">View details</a> 
+         <div class="clear"></div> 
+         <div class="productInv inventory_holder" id="inventory_holder_1406154_fnd" data-ui="{&quot;styleUI&quot;:&quot;fnd&quot;, &quot;linkUrl&quot;:&quot;/us/en/mdp/ink-toner/hp-elite-slice-w4v42av-1&quot;}" data-a2c="{&quot;itemId&quot;:&quot;1406154&quot;, &quot;prodId&quot;:&quot;1406154&quot;, &quot;isGiftCard&quot;:&quot;false&quot;, &quot;qty&quot;:&quot;1&quot;, &quot;popup&quot;:&quot;false&quot;, &quot;targetUrl&quot;:&quot;&quot;}" data-omni="{&quot;itemId&quot;: &quot;1406154&quot;, &quot;prodId&quot;: &quot;1406154&quot;, &quot;site&quot;:&quot;hhos&quot;, &quot;subSection&quot;: &quot;cart&quot;, &quot;xsellAttr&quot;: &quot;&quot;, &quot;addToCartMethod&quot;:&quot;&quot;, &quot;parentId&quot;:&quot;&quot;, &quot;location&quot;:&quot;&quot;}"> 
+         </div> 
+         <div class="pc_1406154 add_compare_btn disabled" title="Click to compare" data-ui="{&quot;prodId&quot;:&quot;1406154&quot;}">
+          Compare
+         </div> 
+         <div class="partNo">
+          W4V42AV_1
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <!-- Added for HPEUS-854 START --> 
+        <input type="hidden" var="isSMB" value="Yes"> 
+        <input type="hidden" var="category" value="Business Desktop PCs"> 
+        <!-- Added for HPEUS-854  END --> 
+        <div class="clear"></div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="loadMorePages">
+      <label for="page_more">Load more</label>
+     </div> 
+     <div class="clear"></div> 
+    </div> 
+    <div class="pagingNav" style="display:none">
+     <div class="pageNos"></div>
+    </div> 
+    <div class="clear"></div> 
+   </div> 
+  </div> 
+  <div class="mobileFacetShow"> 
+   <span class="mobileFacetShowBtn" onclick="$('html').toggleClass('mobileFacetOpen');">Filters</span> 
+  </div> 
+  <span style="display:none;" id="seoUrl"></span> 
+  <script>
+	var searchResults = {
+	"pageSize": "12",
+	"catalogId": "10051",
+	"orderBy": "6",
+	"totalProducts": 6,
+	"beginIndex": "0",
+	"categoryId": "88339",
+	"langId": -1,
+	"facets": [
+		[
+			"SALE",
+			[[
+				"Sale",
+				"15",
+				"x_onsale:\"1\"",
+				"xonsale",
+				"false"
+				]],
+			"true",
+			"-1",
+			"true",
+			"x_onsale",
+			"sale_facet"
+			],
+		[
+			"OPERATING SYSTEM",
+			[
+				[
+					"Windows 10",
+					5,
+					"ads_f32001_ntk_cs%3A*10*",
+					"ads_f32001_ntk_cs_0",
+					"false"
+					],
+				[
+					"Windows 8.1",
+					0,
+					"ads_f32001_ntk_cs%3A*8.1*",
+					"ads_f32001_ntk_cs_1",
+					"false"
+					],
+				[
+					"Windows 8",
+					0,
+					"ads_f32001_ntk_cs%3A*Windows%5C 8*",
+					"ads_f32001_ntk_cs_2",
+					"false"
+					],
+				[
+					"Windows 7",
+					1,
+					"ads_f32001_ntk_cs%3A*7*",
+					"ads_f32001_ntk_cs_3",
+					"false"
+					],
+				[
+					"Chrome OS",
+					0,
+					"ads_f32001_ntk_cs%3A*Chrome*",
+					"ads_f32001_ntk_cs_4",
+					"false"
+					],
+				[
+					"Android",
+					0,
+					"ads_f32001_ntk_cs%3A*Android*",
+					"ads_f32001_ntk_cs_5",
+					"false"
+					],
+				[
+					"Other",
+					0,
+					"ads_f32001_ntk_cs%3A*Other*",
+					"ads_f32001_ntk_cs_6",
+					"false"
+					]
+				],
+			"true",
+			"-1",
+			"true",
+			"ads_f32001_ntk_cs",
+			"dte_facet_OS"
+			],
+		[
+			"FORM FACTOR",
+			[
+				[
+					"Tower",
+					78,
+					"ads_f35001_ntk_cs%3A%22Tower%22",
+					"-700000000000000026984111119101114",
+					"false"
+					],
+				[
+					"All-in-One",
+					49,
+					"ads_f35001_ntk_cs%3A%22All-in-One%22",
+					"-700000000000000026965108108451051104579110101",
+					"false"
+					],
+				[
+					"Small form factor",
+					44,
+					"ads_f35001_ntk_cs%3A%22Small+form+factor%22",
+					"-7000000000000000269831099710810832102111114109321029799116111114",
+					"false"
+					],
+				[
+					"Mini",
+					6,
+					"ads_f35001_ntk_cs%3A%22Mini%22",
+					"-700000000000000026977105110105",
+					"true"
+					],
+				[
+					"Desktop",
+					1,
+					"ads_f35001_ntk_cs%3A%22Desktop%22",
+					"-700000000000000026968101115107116111112",
+					"false"
+					],
+				[
+					"Immersive computer",
+					1,
+					"ads_f35001_ntk_cs%3A%22Immersive+computer%22",
+					"-7000000000000000269731091091011141151051181013299111109112117116101114",
+					"false"
+					]
+				],
+			"true",
+			"-1",
+			"true",
+			"ads_f35001_ntk_cs",
+			"facet_formfactor"
+			],
+		[
+			"PROCESSOR",
+			[
+				[
+					"Intel Core i7",
+					1,
+					"ads_f49001_ntk_cs%3A*i7*",
+					"ads_f49001_ntk_cs_0",
+					"false"
+					],
+				[
+					"Intel Core i5",
+					2,
+					"ads_f49001_ntk_cs%3A*i5*",
+					"ads_f49001_ntk_cs_1",
+					"false"
+					],
+				[
+					"Intel Core i3",
+					3,
+					"ads_f49001_ntk_cs%3A*i3*",
+					"ads_f49001_ntk_cs_2",
+					"false"
+					],
+				[
+					"AMD",
+					0,
+					"ads_f49001_ntk_cs%3A*AMD*",
+					"ads_f49001_ntk_cs_3",
+					"false"
+					],
+				[
+					"Intel Celeron",
+					0,
+					"ads_f49001_ntk_cs%3A*Celeron*",
+					"ads_f49001_ntk_cs_4",
+					"false"
+					],
+				[
+					"Intel Xeon",
+					0,
+					"ads_f49001_ntk_cs%3A*Xeon*",
+					"ads_f49001_ntk_cs_5",
+					"false"
+					],
+				[
+					"Intel Pentium",
+					0,
+					"ads_f49001_ntk_cs%3A*Pentium*",
+					"ads_f49001_ntk_cs_6",
+					"false"
+					],
+				[
+					"Intel Atom",
+					0,
+					"ads_f49001_ntk_cs%3A*Atom*",
+					"ads_f49001_ntk_cs_7",
+					"false"
+					],
+				[
+					"Other",
+					0,
+					"ads_f49001_ntk_cs%3A*Other*",
+					"ads_f49001_ntk_cs_8",
+					"false"
+					]
+				],
+			"true",
+			"-1",
+			"true",
+			"ads_f49001_ntk_cs",
+			"dte_facet_processornew"
+			],
+		[
+			"SCREEN SIZE",
+			[
+				[
+					"19\"",
+					0,
+					"ads_f50001_ntk_cs%3A%2219%5C%22%22",
+					"-7000000000000204507495734",
+					"false"
+					],
+				[
+					"20\"",
+					0,
+					"ads_f50001_ntk_cs%3A%2220%5C%22%22",
+					"-7000000000000204507504834",
+					"false"
+					],
+				[
+					"21\"",
+					0,
+					"ads_f50001_ntk_cs%3A%2221%5C%22%22",
+					"-7000000000000204507504934",
+					"false"
+					],
+				[
+					"23\"",
+					0,
+					"ads_f50001_ntk_cs%3A%2223%5C%22%22",
+					"-7000000000000204507505134",
+					"false"
+					],
+				[
+					"27\"",
+					0,
+					"ads_f50001_ntk_cs%3A%2227%5C%22%22",
+					"-7000000000000204507505534",
+					"false"
+					],
+				[
+					"34\"",
+					0,
+					"ads_f50001_ntk_cs%3A%2234%5C%22%22",
+					"-7000000000000204507515234",
+					"false"
+					]
+				],
+			"true",
+			"-1",
+			"true",
+			"ads_f50001_ntk_cs",
+			"dte_facet_desktop_scrnsizeus"
+			],
+		[
+			"MEMORY",
+			[
+				[
+					"4 GB",
+					2,
+					"ads_f49501_ntk_cs%3A%224+GB%22",
+					"-700000000000020450652327166",
+					"false"
+					],
+				[
+					"8 GB",
+					4,
+					"ads_f49501_ntk_cs%3A%228+GB%22",
+					"-700000000000020450656327166",
+					"false"
+					],
+				[
+					"16 GB",
+					0,
+					"ads_f49501_ntk_cs%3A%2216+GB%22",
+					"-70000000000002045064954327166",
+					"false"
+					],
+				[
+					"12 GB",
+					0,
+					"ads_f49501_ntk_cs%3A%2212+GB%22",
+					"-70000000000002045064950327166",
+					"false"
+					],
+				[
+					"2 GB",
+					0,
+					"ads_f49501_ntk_cs%3A%222+GB%22",
+					"-700000000000020450650327166",
+					"false"
+					],
+				[
+					"Other",
+					0,
+					"ads_f49501_ntk_cs%3A%22Other%22",
+					"-700000000000020450679116104101114",
+					"false"
+					],
+				[
+					"Others",
+					0,
+					"ads_f49501_ntk_cs%3A%22Others%22",
+					"-700000000000020450679116104101114115",
+					"false"
+					],
+				[
+					"6 GB",
+					0,
+					"ads_f49501_ntk_cs%3A%226+GB%22",
+					"-700000000000020450654327166",
+					"false"
+					]
+				],
+			"true",
+			"-1",
+			"true",
+			"ads_f49501_ntk_cs",
+			"dte_facet_memory"
+			],
+		[
+			"STORAGE",
+			[
+				[
+					"2 TB",
+					0,
+					"ads_f51501_ntk_cs%3A*2%5C TB*",
+					"ads_f51501_ntk_cs_0",
+					"false"
+					],
+				[
+					"1 TB",
+					0,
+					"ads_f51501_ntk_cs%3A*1%5C TB*",
+					"ads_f51501_ntk_cs_1",
+					"false"
+					],
+				[
+					"500 GB",
+					3,
+					"ads_f51501_ntk_cs%3A*500%5C GB*",
+					"ads_f51501_ntk_cs_2",
+					"false"
+					],
+				[
+					"256 GB",
+					3,
+					"ads_f51501_ntk_cs%3A*256%5C GB*",
+					"ads_f51501_ntk_cs_3",
+					"false"
+					],
+				[
+					"128 GB",
+					0,
+					"ads_f51501_ntk_cs%3A*128%5C GB*",
+					"ads_f51501_ntk_cs_4",
+					"false"
+					],
+				[
+					"Other",
+					0,
+					"ads_f51501_ntk_cs%3A*Other*",
+					"ads_f51501_ntk_cs_5",
+					"false"
+					]
+				],
+			"true",
+			"-1",
+			"true",
+			"ads_f51501_ntk_cs",
+			"dte_facet_storage"
+			],
+		[
+			"BRAND",
+			[
+				[
+					"Chromebox",
+					0,
+					"ads_f37001_ntk_cs%3A%22Chromebox%22",
+					"-70000000000000002966710411411110910198111120",
+					"false"
+					],
+				[
+					"ENVY",
+					0,
+					"ads_f37001_ntk_cs%3A%22ENVY%22",
+					"-700000000000000029669788689",
+					"false"
+					],
+				[
+					"Elite",
+					6,
+					"ads_f37001_ntk_cs%3A%22Elite%22",
+					"-700000000000000029669108105116101",
+					"false"
+					],
+				[
+					"Essential",
+					0,
+					"ads_f37001_ntk_cs%3A%22Essential%22",
+					"-70000000000000002966911511510111011610597108",
+					"false"
+					],
+				[
+					"Flexible",
+					0,
+					"ads_f37001_ntk_cs%3A%22Flexible%22",
+					"-70000000000000002967010810112010598108101",
+					"false"
+					],
+				[
+					"OMEN by HP",
+					0,
+					"ads_f37001_ntk_cs%3A%22OMEN+by+HP%22",
+					"-7000000000000000296797769783298121327280",
+					"false"
+					],
+				[
+					"Pavilion",
+					0,
+					"ads_f37001_ntk_cs%3A%22Pavilion%22",
+					"-70000000000000002968097118105108105111110",
+					"false"
+					],
+				[
+					"Pro",
+					0,
+					"ads_f37001_ntk_cs%3A%22Pro%22",
+					"-700000000000000029680114111",
+					"false"
+					],
+				[
+					"Sprout by HP",
+					0,
+					"ads_f37001_ntk_cs%3A%22Sprout+by+HP%22",
+					"-7000000000000000296831121141111171163298121327280",
+					"false"
+					],
+				[
+					"Z",
+					0,
+					"ads_f37001_ntk_cs%3A%22Z%22",
+					"-700000000000000029690",
+					"false"
+					],
+				[
+					"Zero",
+					0,
+					"ads_f37001_ntk_cs%3A%22Zero%22",
+					"-700000000000000029690101114111",
+					"false"
+					]
+				],
+			"true",
+			"-1",
+			"true",
+			"ads_f37001_ntk_cs",
+			"facet_subbrand"
+			],
+		[
+			"TOUCH",
+			[
+				[
+					"Non-Touch",
+					0,
+					"ads_f50501_ntk_cs%3A%22Non-Touch%22",
+					"-700000000000020450878111110458411111799104",
+					"false"
+					],
+				[
+					"Touch",
+					0,
+					"ads_f50501_ntk_cs%3A%22Touch%22",
+					"-70000000000002045088411111799104",
+					"false"
+					],
+				[
+					"Others",
+					0,
+					"ads_f50501_ntk_cs%3A%22Others%22",
+					"-700000000000020450879116104101114115",
+					"false"
+					]
+				],
+			"true",
+			"-1",
+			"true",
+			"ads_f50501_ntk_cs",
+			"dte_facet_aio_touch"
+			],
+		[
+			"GRAPHICS",
+			[
+				[
+					"Intel",
+					6,
+					"ads_f52001_ntk_cs%3A*Intel*",
+					"ads_f52001_ntk_cs_0",
+					"false"
+					],
+				[
+					"AMD",
+					0,
+					"ads_f52001_ntk_cs%3A*AMD*",
+					"ads_f52001_ntk_cs_1",
+					"false"
+					],
+				[
+					"NVIDIA",
+					0,
+					"ads_f52001_ntk_cs%3A*NVIDIA*",
+					"ads_f52001_ntk_cs_2",
+					"false"
+					],
+				[
+					"Other",
+					0,
+					"ads_f52001_ntk_cs%3A*Other*",
+					"ads_f52001_ntk_cs_3",
+					"false"
+					]
+				],
+			"true",
+			"-1",
+			"true",
+			"ads_f52001_ntk_cs",
+			"dte_facet_graphics"
+			],
+		[
+			"USAGE",
+			[
+				[
+					"Everyday computing",
+					0,
+					"ads_f13001_ntk_cs%3A%22Everyday+computing%22",
+					"-700000000000000030069118101114121100971213299111109112117116105110103",
+					"false"
+					],
+				[
+					"Premium computing",
+					5,
+					"ads_f13001_ntk_cs%3A%22Premium+computing%22",
+					"-7000000000000000300801141011091051171093299111109112117116105110103",
+					"false"
+					],
+				[
+					"Proven productivity",
+					0,
+					"ads_f13001_ntk_cs%3A%22Proven+productivity%22",
+					"-7000000000000000300801141111181011103211211411110011799116105118105116121",
+					"false"
+					],
+				[
+					"Performance computing",
+					0,
+					"ads_f13001_ntk_cs%3A%22Performance+computing%22",
+					"-70000000000000003008010111410211111410997110991013299111109112117116105110103",
+					"false"
+					],
+				[
+					"Immersive computing",
+					0,
+					"ads_f13001_ntk_cs%3A%22Immersive+computing%22",
+					"-7000000000000000300731091091011141151051181013299111109112117116105110103",
+					"false"
+					],
+				[
+					"Mission Critical",
+					1,
+					"ads_f13001_ntk_cs%3A%22Mission+Critical%22",
+					"-70000000000000003007710511511510511111032671141051161059997108",
+					"false"
+					],
+				[
+					"Mission critical",
+					0,
+					"ads_f13001_ntk_cs%3A%22Mission+critical%22",
+					"-70000000000000003007710511511510511111032991141051161059997108",
+					"false"
+					]
+				],
+			"true",
+			"-1",
+			"true",
+			"ads_f13001_ntk_cs",
+			"facet_usage"
+			],
+		[
+			"ORDER TYPE",
+			[
+				[
+					"Ready to Ship",
+					4,
+					"ads_f30001_ntk_cs%3A*Ready*",
+					"ads_f30001_ntk_cs_0",
+					"false"
+					],
+				[
+					"Customizable",
+					1,
+					"ads_f30001_ntk_cs%3A*Customizable*",
+					"ads_f30001_ntk_cs_1",
+					"false"
+					],
+				[
+					"Built to Order",
+					1,
+					"ads_f30001_ntk_cs%3A*Built*",
+					"ads_f30001_ntk_cs_2",
+					"false"
+					],
+				[
+					"Bundle",
+					0,
+					"ads_f30001_ntk_cs%3A*Bundle*",
+					"ads_f30001_ntk_cs_3",
+					"false"
+					],
+				[
+					"Other",
+					0,
+					"ads_f30001_ntk_cs%3A*Other*",
+					"ads_f30001_ntk_cs_4",
+					"false"
+					]
+				],
+			"true",
+			"-1",
+			"true",
+			"ads_f30001_ntk_cs",
+			"dte_facet_shiptype"
+			],
+		[
+			"USE",
+			[
+				[
+					"Home",
+					0,
+					"ads_f38501_ntk_cs%3A*Home*",
+					"ads_f38501_ntk_cs_0",
+					"false"
+					],
+				[
+					"Business",
+					6,
+					"ads_f38501_ntk_cs%3A(*Business* *business*)",
+					"ads_f38501_ntk_cs_1",
+					"false"
+					],
+				[
+					"Enterprise",
+					0,
+					"ads_f38501_ntk_cs%3A*Enterprise*",
+					"ads_f38501_ntk_cs_2",
+					"false"
+					]
+				],
+			"true",
+			"-1",
+			"true",
+			"ads_f38501_ntk_cs",
+			"facet_segment"
+			]
+		],
+	"storeId": 10151
+};
+	var mainFacets = [
+	"dte_facet_OS",
+	"dte_facet_processornew",
+	"facet_formfactor"
+	];
+	var slideToggleTime = 100;
+	var shownFacetItemSize = 5;
+	var facetSetClass = 'facetSet';
+	
+	/* For  Price range facet  */
+	var priceRangeFacetPosn ='';
+	var minPrice = Math.floor(149.0);
+	var maxPrice = Math.ceil(4229.0);
+	var step = 10;
+	
+	var rangeMin = minPrice;
+	var rangeMax = maxPrice;
+	var isRangeSelected = false; /* To mark if there is price range selection */
+	var facetUrlSeq = new Array();
+	var facetUrl="";
+	var tempDispSeq="";
+	var facetUrlSequence="";
+	var displaySeq="";
+	
+	function decodeHtml(input) {
+		return $('<div/>').html(input).text();
+	}
+
+	function initializePriceSlider(){
+		/*
+		 * Slider
+		 */
+		$('#price-slider').slider({
+		    range: true,
+		    min: minPrice,
+		    max: maxPrice,
+		    step: step,
+		    values: [rangeMin, rangeMax],
+		    slide: function (event, ui) {
+	       		/* indicates the price range is selected */
+	       		isRangeSelected = true ;
+	       		/* update the price slider html values */
+				updateMinMaxPrice(ui.values[0], ui.values[1]);
+		    },
+		    stop: function(event, ui) {
+              	/* Do the processing only if the value has changed */
+		    	if(rangeMin != ui.values[0] || rangeMax != ui.values[1]){
+	                /**  updating the global variables to restrict the price range in the response */
+		    		rangeMin = ui.values[0];
+		       		rangeMax = ui.values[1];
+	                
+	                /* Do the facet processing */
+					changeFacets(false);
+				}
+            }
+		});
+		/* update the price slider html values */
+		updateMinMaxPrice(rangeMin, rangeMax);
+	}
+	
+	/** updates the HTML with values  */
+	function updateMinMaxPrice(min,max){
+		/* Labels */
+		$("#min_price").html(formatPrice("$" + min));
+		$("#max_price").html(formatPrice("$" + max));
+		
+		/* Do not set the price range unless the user had selected it 
+			This is to prevent other facets to fail in cases where PST job is not set .
+		 */
+	    if(isRangeSelected == true ){
+	    	if (min == minPrice)
+	    		$("#min_price").find('#minPrice').remove;
+	    	else
+				$("#min_price").append($('<input/>', { 'id': 'minPrice', 'type': 'hidden', 'name': 'minPrice', 'value': min }))
+
+	    	if (max == maxPrice)
+	    		$("#max_price").find('#maxPrice').remove;
+	    	else
+				$("#max_price").append($('<input/>', { 'id': 'maxPrice', 'type': 'hidden', 'name': 'maxPrice', 'value': max }));
+		}
+	}
+	
+	/* Formats the price with commas */
+	function formatPrice(nStr)
+	{
+	    nStr += '';
+	    x = nStr.split('.');
+	    x1 = x[0];
+	    x2 = x.length > 1 ? '.' + x[1] : '';
+	    var rgx = /(\d+)(\d{3})/;
+	    while (rgx.test(x1)) {
+	        x1 = x1.replace(rgx, '$1' + ',' + '$2');
+	    }
+	    return x1 + x2;
+	}
+	
+	
+	function updateSort(searchResults) {
+		if (searchResults && searchResults.orderBy) {
+			$('#sortForm [name=orderBy]').val(searchResults.orderBy);
+		} else {
+			$('#sortForm [name=orderBy]').val('');
+		}
+		Foundation.libs.forms.refresh_custom_select($('#sortForm.custom select[name=orderBy]'), true);
+
+		//update clones
+		$('.sortFormClone select[name=orderBy]').val($('#sortForm select[name=orderBy]').val());
+		Foundation.libs.forms.refresh_custom_select($('.sortFormClone.custom select[name=orderBy]'), true);
+
+		$('.sortFormClone :radio[name=orderBy]').prop('checked', false);
+		$('.sortFormClone :radio[name=orderBy]').each(function(){
+			if ($(this).val() == $('#sortForm select[name=orderBy]').val())
+				$(this).prop('checked', true);
+		});
+	}
+
+	function isMainFacet(facetFieldName, facetAttrId) {
+		var mainFacet = false;
+		mainFacets.forEach( function(item, index){
+			if (item.trim() == facetFieldName.trim())
+			{
+				mainFacet = true;
+			}else if(facetAttrId && facetAttrId.length > 0 
+						&& item.trim() == facetAttrId.trim()) {
+				/*Check if attribute identifier is mapped  */
+				mainFacet = true;		
+			
+			}
+		});
+		return mainFacet;
+	}
+
+	function renderFacets(searchResults) {
+		if (searchResults && searchResults.facets) {
+			facetUrlSeq.length=0;
+			facetUrl="";
+			facetUrlSequence="";
+			displaySeq="";
+			tempDispSeq = "";
+			var facetArray = searchResults.facets;
+			if ((!Array.isArray && Object.prototype.toString.call(facetArray) === '[object Array]') || Array.isArray(facetArray)) {
+				var facetForm = $('#facetForm');
+				facetForm.empty();
+
+				var facetsViewEle = $('<div/>', {'id': 'facetsResultsView'});
+				facetsViewEle.appendTo(facetForm);
+
+				var mainFacetEle = $('<div/>', {'class': 'mainFacets'});
+				var secFacetEle = $('<div/>', {'class': 'secFacets more'});
+
+				var facetCrumbs = $('.facetCrumbs');
+				facetCrumbs.empty();
+				
+				var tempDispSeqArr = new Array();
+				var facetMap = new Map();
+				var facetSeq = '1:Screen Size;2:Processor;3:Operating System;4:Touch Screen;5:Colors;';
+				var facetArr = facetSeq.split(";");
+				for(var i=0; i < facetArr.length-1; i++) {
+					var facetSeqArr=facetArr[i].split(":");
+					facetMap.set(facetSeqArr[1].toLowerCase(),facetSeqArr[0]);
+				}
+				
+				var facetDescMap = new Map();
+				var facetDesc = 'ads_f40501_ntk_cs:scrs;ads_f41501_ntk_cs:touch;ads_f50001_ntk_cs:dtscrnsize;ads_f44501_ntk_cs:numusr;ads_f51001_ntk_cs:disp;ads_f46501_ntk_cs:prntclr;ads_f30001_ntk_cs:ordr;ads_f52001_ntk_cs:grph;x_onsale:Deal;ads_f47501_ntk_cs:feat;ads_f31001_ntk_cs:tonertyp;ads_f48501_ntk_cs:ltwt;ads_f32001_ntk_cs:opsy;ads_f49501_ntk_cs:mem;ads_f28501_ntk_cs:cat;ads_f35001_ntk_cs:form;ads_f50501_ntk_cs:aiotch;ads_f51501_ntk_cs:stor;ads_f30501_ntk_cs:inktyp;ads_f52501_ntk_cs:acccat;ads_f31501_ntk_cs:papertyp;ads_f32501_ntk_cs:pr;ads_f11501_ntk_cs:func;ads_f13501_ntk_cs:feat;ads_f42001_ntk_cs:ssd;ads_f37501_ntk_cs:bizcat;ads_f38501_ntk_cs:segm;ads_f45001_ntk_cs:connct;ads_f46001_ntk_cs:prntbrnd;ads_f47001_ntk_cs:prntdup;ads_f48001_ntk_cs:prnttyp;ads_f49001_ntk_cs:proc;';
+				var facetDescArray = facetDesc.split(";");
+				for(var i=0; i < facetDescArray.length-1; i++) {
+					var facetDescArr=facetDescArray[i].split(":");
+					facetDescMap.set(facetDescArr[0],facetDescArr[1]);
+				}
+				
+				var facetColCnt = 0;
+				for(var i=0; i < facetArray.length; i++) {
+					var facet = facetArray[i];
+					var facetName = facet[0];
+					var facetItems = facet[1];
+					var allowMultiSel = facet[2];
+					var maxValToDisplay = facet[3];
+					var allValuesReturned = facet[4];
+					var facetFieldName = facet[5];
+					var facetAttrId = facet[6];
+
+					var sectionEle = $('<div/>', {'id': 'facet_' + facetFieldName, 'class': facetSetClass});
+					sectionEle.addClass("facetAttr_"+facetAttrId);
+
+					var headingEle = $('<h3/>', {'id': 'facetName_' + facetFieldName, 'class': 'facetName', 'text': facetName});
+					headingEle.appendTo(sectionEle);
+
+					var ulEle = $('<ul/>', {'id': 'facetItemList_' + facetFieldName, 'class': 'facetItemList'});
+					ulEle.appendTo(sectionEle);
+					
+					var facetCrumbsVals = '';
+
+					for(var j=0; j < facetItems.length; j++) {
+						var facetItem = facetItems[j];
+						var facetItemLabel = decodeURIComponent(facetItem[0]);
+						var facetItemUrl = decodeURIComponent(facetItem[0]).replace(/[^a-zA-Z0-9]+/g,'-');
+						var facetItemCount = facetItem[1];
+						var facetItemValue = facetItem[2];
+						var facetItemId = facetItem[3];
+						var facetItemSelected = facetItem[4];
+						var facetItemImg = facetItem[5];
+
+						var liEle = $('<li/>', {'id': 'facetItem_' + facetItemId, 'title': 'Click for ' + facetItemLabel + ' ' + facetName + ' products', 'class': 'facetItem'});
+						liEle.appendTo(ulEle);
+
+						var lblEle = $('<label/>');
+						lblEle.appendTo(liEle);
+
+						var checkBoxEle = $('<input/>', {'id': 'facetItem_' + facetItemId, 'type': 'checkbox', 'name': 'facet', 'class': 'facetItemChkBox', 'value': facetItemValue});
+						try {
+							if (parseInt(facetItemCount) < 1) {
+								checkBoxEle.prop('disabled', true);
+							}
+						} catch(error) {
+						}
+
+						if (facetItemSelected == 'true') {
+							checkBoxEle.prop('checked', true);
+							sectionEle.addClass('open');
+							facetCrumbsVals = facetCrumbsVals + (facetCrumbsVals.length > 0 ? ", "+facetItemLabel:facetItemLabel);
+							if(facetDescMap.get(facetFieldName) != undefined) {
+								var facetDescUrl=facetDescMap.get(facetFieldName);
+								var facetNameLower = facetName.toLowerCase();
+								if(facetMap.get(facetNameLower) != undefined) {								
+									if(tempDispSeqArr[facetMap.get(facetNameLower)] != undefined){
+										tempDispSeqArr[facetMap.get(facetNameLower)] = tempDispSeqArr[facetMap.get(facetNameLower)]+facetItemLabel+" ";
+									}else{
+										tempDispSeqArr[facetMap.get(facetNameLower)] = facetItemLabel+" ";
+									}
+									if(facetUrlSeq[facetMap.get(facetNameLower)] != undefined) {
+										facetUrlSeq[facetMap.get(facetNameLower)]=facetUrlSeq[facetMap.get(facetNameLower)]+","+facetItemUrl;
+									} else {
+										facetUrlSeq[facetMap.get(facetNameLower)]=facetDescUrl+"="+facetItemUrl;
+									}
+								} else {
+									tempDispSeq = tempDispSeq+facetItemLabel+" ";
+									if(facetUrl.length>0 && facetUrl[facetUrl.length-1]!=";") {
+										facetUrl=facetUrl+","+facetItemUrl;
+									} else {
+										facetUrl=facetUrl+facetDescUrl+"="+facetItemUrl;
+									}
+								}
+							} else{
+								if(facetMap.get(facetNameLower) != undefined) {
+									if(tempDispSeqArr[facetMap.get(facetNameLower)] != undefined){
+									tempDispSeqArr[facetMap.get(facetNameLower)] = tempDispSeqArr[facetMap.get(facetNameLower)]+facetItemLabel+" ";
+								}else{
+									tempDispSeqArr[facetMap.get(facetNameLower)] = facetItemLabel+" ";
+								}
+								} else {
+									tempDispSeq = tempDispSeq+facetItemLabel+" ";
+								}							
+							}
+						}
+						checkBoxEle.appendTo(lblEle);
+
+						var spanEle = $('<span/>', {'class': 'facetItemLbl', 'html': facetItemLabel});
+						spanEle.appendTo(lblEle);
+
+						if (facetItemImg) {
+							var imgEle = $('<img/>', {'class': 'facetItemImg', 'src': facetItemImg});
+							spanEle.prepend(imgEle);
+						}
+
+						if (facetItemCount > 0) {
+							spanEle = $('<span/>', {'class': 'facetItemCnt', 'html': facetItemCount});
+							spanEle.appendTo(lblEle);
+						}
+					}
+					if(facetUrl.substr(facetUrl.length-1)!=";" && facetUrl.length>0){
+						facetUrl=facetUrl+";";
+					}
+
+					var facetItems = sectionEle.find('.facetItem');
+					if (facetItems.length > 0) {
+						var mainFacet = isMainFacet(facetFieldName, facetAttrId);
+						if (!mainFacet && facetItems.length > shownFacetItemSize && facetItems.find('.facetItemChkBox:checked').length <= 0) {
+							facetItems.each(function(index){
+								if (index >= (shownFacetItemSize))
+									$(this).addClass('more');
+							});
+							sectionEle.append($('<div/>', {'class': 'facetItemShow more', 'html': 'More...'}));
+						}
+						sectionEle.appendTo(mainFacet ? mainFacetEle:secFacetEle);
+					}
+
+					if (facetCrumbs.length > 0 && facetCrumbsVals.length > 0) {
+						if (facetCrumbs.html().length > 0) {
+							facetCrumbs.append(", ");
+						} else {
+							facetCrumbs.append(": ");
+						}
+						facetCrumbs.append(facetName + " (" + facetCrumbsVals + ")");
+					}
+					
+					/*  Attach the price slider either on the configured position or as the last facet  add at the end if the position exceeds the total count*/
+					if( 
+						( priceRangeFacetPosn.length !=0 && (i+1 == priceRangeFacetPosn-1) )
+							|| ( (priceRangeFacetPosn.length ==0  || priceRangeFacetPosn > facetArray.length ) && (i+1 == facetArray.length) ) 
+							){
+							
+							/* Price range facet html */
+							var priceSlider = $('<div/>', {'class': 'priceSlider'});
+							priceSlider.append($('<div/>', { 'id': 'price-slider'}));
+							priceSlider.append($('<div/>', { 'id': 'min_price', 'class': 'facetItemLbl left'}));
+							priceSlider.append($('<div/>', { 'id': 'max_price', 'class': 'facetItemLbl right'}));
+							priceSlider.append($('<div/>', { 'class': 'clear'}));
+		
+							var sectionEle = $('<div/>', {'id': 'facet_PriceRange' , 'class': facetSetClass});
+							sectionEle.append($('<h3/>', {'class': 'facetName', 'text': 'PRICE RANGE'}));
+							sectionEle.append(($('<div/>', {'class': 'facetItemList'})).append(priceSlider));
+							sectionEle.appendTo(isMainFacet('price_USD','price_USD') ? mainFacetEle:secFacetEle);
+		
+							if( '' != '' || '' != '' ) {
+								isRangeSelected = true;
+								rangeMin= ('' != '') ? '':0;
+								rangeMax = ('' != '') ? '':8000;
+							}
+							if(rangeMin!=minPrice || rangeMax!=maxPrice) {
+								if(facetMap.get("Price Range") == undefined) {
+									facetUrl=facetUrl+"Price="+rangeMin.toString()+"-"+rangeMax.toString()+";";
+								} else{
+									facetUrlSeq[facetMap.get("Price Range")]="Price="+rangeMin.toString()+"-"+rangeMax.toString();
+								}
+							}
+					}
+				}
+				for(var i=0;i<facetUrlSeq.length;i++) {
+					if(facetUrlSeq[i]!=undefined) {
+						facetUrlSequence=facetUrlSequence+facetUrlSeq[i]+";";
+					}
+				}
+				for(var i=0;i<tempDispSeqArr.length;i++) {
+					if(tempDispSeqArr[i]!=undefined) {
+						displaySeq=displaySeq+tempDispSeqArr[i]+" ";
+					}
+				}
+				displaySeq = displaySeq+tempDispSeq;
+				displaySeq = decodeURI(displaySeq.replace('&amp;','&').replace('&lt;','<').replace('&gt;','>'));
+				facetUrlSequence=facetUrlSequence+facetUrl;
+				var plpUrl = window.location.href.split("?");
+				var vwaPos = plpUrl[0].split("vwa/");
+				if(vwaPos[1].indexOf("/") != -1) {
+					plpUrl[0] = vwaPos[0]+'vwa/'+vwaPos[1].substring(0,vwaPos[1].indexOf("/"));
+				} else {
+					plpUrl[0] = vwaPos[0]+'vwa/'+vwaPos[1];
+				}
+				plpUrl[1] = (plpUrl[1] != undefined) ? "?"+plpUrl[1] : "";
+				if(facetUrlSequence != "") {
+					facetUrlSequence = plpUrl[0]+"/"+facetUrlSequence;
+					facetUrlSequence = facetUrlSequence.substring(0,facetUrlSequence.length-1);
+					$("#seoUrl").text(facetUrlSequence);					
+					window.history.replaceState( {} , window.location.href, facetUrlSequence+plpUrl[1]);	
+					var metaTag = 'Free shipping. Buy direct from HP. See customer reviews and comparisons for' + ' ' +displaySeq +'Desktops'+'. Upgrades and savings on select products.';
+					//console.log(metaTag);
+					if("" != "" && "" != null) {
+						document.title = '';
+					} else {
+						document.title = 'Shop'+' '+displaySeq + 'Desktops | HP® Official Store';	
+					} 			
+					$('meta[name=description]').remove();
+					if("" != "" && "" != null) {
+						metaTag="";
+					}				
+					$('head').append($('<meta/>', {'name' : 'description', 'content':metaTag}));				
+					if("" != "" && "" != null){
+						document.getElementById("PLPPageTitle").innerHTML=""
+					} else {
+						document.getElementById("PLPPageTitle").innerHTML=displaySeq +' '+'Desktops';
+					}
+				} else {
+					if("" != "" && "" != null){
+						document.title = "";
+					} else {
+						document.title ="Desktops | HP® Official Store";	
+					}
+					$('meta[name=description]').remove();
+					if("" != "" && "" != null) {
+						var metaTag="";
+						$('head').append($('<meta/>', {'name' : 'description', 'content':metaTag}));						
+					}
+					if("" != "" && "" != null) {
+						document.getElementById("PLPPageTitle").innerHTML=''
+					} else {
+						document.getElementById("PLPPageTitle").innerHTML='View All Desktops';
+					}
+					$("#seoUrl").text("");
+					window.history.replaceState( {} , window.location.href, plpUrl[0]+plpUrl[1]);
+				}
+				var facetsCtrlEle = $('<div/>', {'class': 'facetsControl'});
+				if (secFacetEle.find('.facetSet').length > 0) {
+					facetsCtrlEle.append($('<div/>', {'class': 'secFacetShow more', 'html': 'More filters'}));
+					if (secFacetEle.find('.facetSet').find('.facetItemChkBox:checked').length > 0)
+						$('.secFacetShow').trigger('click');
+				}
+				facetsCtrlEle.append($('<div/>', {'class': 'clearFacets', 'html': 'Clear selections'}));
+
+				facetsCtrlEle.appendTo(facetsViewEle);
+				mainFacetEle.appendTo(facetsViewEle);
+				secFacetEle.appendTo(facetsViewEle);
+				/* Initialize Price range and set the limits */
+				initializePriceSlider();
+			}
+		}
+	}
+
+	function changeFacets(reset) {
+		$('html').addClass('refreshing');
+		$.ajax({
+			url: getAbsoluteURL() + "Finder",
+			data: reset ? $('#catalogForm').serialize(): decodeURIComponent($('#catalogForm, #facetForm, #sortForm').serialize()),
+			success: function(data) {
+				try {
+					searchResults = $.parseJSON($('<div/>').html(data).find('#searchResults').text());
+					
+					/*  reset price slider */
+					if (reset) {
+						rangeMin = minPrice; rangeMax = maxPrice;
+						isRangeSelected = false; /* To handle no price scenarios */
+					}
+					
+					updateSort(searchResults);
+					renderFacets(searchResults);
+					renderPaging(searchResults);
+
+					$('#searchResultView').html($('<div/>').html(data).find('#searchProducts').html());
+					initSlider();
+					$.hpsfData.refreshPriceInventoryStoreData();
+					
+					if(Number(searchResults.totalProducts) == 0){
+						$('#searchResultView').text("Filter selections have 0 results");
+					} 
+
+					$('html, body').animate({scrollTop: $('#facetForm').offset().top});
+				} catch (error) {
+				}
+			},
+			error: function(data) {
+				alert("System error! Please kindly refresh the page and try again.");
+			},
+			complete: function() {
+				$('html').removeClass('refreshing');
+				$('html').removeClass('mobileFacetOpen');
+			}
+		});
+	}
+
+	function renderPaging(searchResults) {
+		if (searchResults) {
+			var pageForm = $('#pageForm');
+			pageForm.empty();
+
+			var pagesEles = $('.pageNos');
+			pagesEles.empty();
+
+			$('.loadMorePages').hide();
+
+			var totalProductsCount = Number(searchResults.totalProducts);
+			$('.searchTotal').text(totalProductsCount + " products");
+			
+			
+			if (totalProductsCount > 0) {
+				var beginIndex = Number(searchResults.beginIndex);
+				var pageSize = Number(searchResults.pageSize);
+				$('#catalogForm input[name=pageSize]').val(pageSize);
+
+				var totalPages = Math.ceil(totalProductsCount/pageSize);
+				var resultPageNo = Math.ceil((beginIndex+1)/pageSize);
+
+				if (totalPages >= 1) {
+					if (resultPageNo > 1) {
+						pageForm.append($('<input/>', {'id':"page_first", type:"radio", name:"beginIndex", value:"0"}));
+						pageForm.append($('<input/>', {'id':"page_prev", type:"radio", name:"beginIndex", value:(resultPageNo-2)*pageSize}));
+
+						pagesEles.each(function(){
+							$(this).append($('<label/>', {'class': "pageNo", 'html':"&lt;&lt;", 'for':"page_first"}));
+							$(this).append($('<label/>', {'class': "pageNo", 'html':"&lt;", 'for':"page_prev"}));
+						});
+					}
+
+					var startPgCount = resultPageNo-3 < 1? 1:resultPageNo-3; 
+					var endPgCount = resultPageNo+3 > totalPages? totalPages:resultPageNo+3; 
+					for (var i= startPgCount; i<=endPgCount; i++) {
+						var radioEle = $('<input/>', {'id': "page_"+i, type:"radio", name:"beginIndex", value:(i-1)*pageSize});
+						if (resultPageNo == i)
+							radioEle.prop('checked', true);
+						radioEle.appendTo(pageForm);
+
+						var lblEle = $('<label/>', {'class': "pageNo", 'html':i, 'for':"page_"+i});
+						if (resultPageNo == i)
+							lblEle.addClass('checked');
+						pagesEles.each(function(){$(this).append(lblEle.clone())});
+					}
+
+					if (resultPageNo<totalPages) {
+						pageForm.append($('<input/>', {'id':"page_next", type:"radio", name:"beginIndex", value:resultPageNo*pageSize}));
+						pageForm.append($('<input/>', {'id':"page_more", type:"radio", name:"beginIndex", value:resultPageNo*pageSize}));
+						pageForm.append($('<input/>', {'id':"page_last", type:"radio", name:"beginIndex", value:(totalPages-1)*pageSize}));
+
+						pagesEles.each(function(){
+							$(this).append($('<label/>', {'class': "pageNo", 'html':"&gt", 'for':"page_next"}));
+							$(this).append($('<label/>', {'class': "pageNo", 'html':"&gt;&gt;", 'for':"page_last"}));
+						});
+
+						$('.loadMorePages').show();
+					}
+				}
+			}
+		}
+	}
+	function changePage(append) {
+		$('html').addClass('refreshing');
+		$.ajax({
+			url: getAbsoluteURL() + "Finder",
+			data: decodeURIComponent($('#catalogForm, #facetForm, #pageForm, #sortForm').serialize()+'&disableFacets=true'),
+			success: function(data) {
+				try {
+					searchResults = $.parseJSON($('<div/>').html(data).find('#searchResults').text());
+					updateSort(searchResults);
+					// renderFacets(searchResults);
+					renderPaging(searchResults);
+
+					if (append) {
+						$('#searchResultView').append($('<div/>').html(data).find('#searchProducts').html());
+						var firstNewPdtId = $('<div/>').html(data).find('.productCard').first().prop('id');
+						$('html, body').animate({scrollTop: $('#'+firstNewPdtId).closest('.productWrapper').offset().top});
+					} else {
+						$('#searchResultView').html($('<div/>').html(data).find('#searchProducts').html());
+						$('html, body').animate({scrollTop: $('#searchResults').offset().top});
+					}
+					initSlider();
+					$.hpsfData.refreshPriceInventoryStoreData();
+				} catch (error) {
+				}
+			},
+			error: function(data) {
+				alert("System error! Please kindly refresh the page and try again.");
+			},
+			complete: function() {
+				$('html').removeClass('refreshing');
+				$('html').removeClass('mobileFacetOpen');
+			}
+		});
+	}
+	
+	function initSlider() {
+		$('.bundle.image_pager').each(function () {
+			var $this = $(this);
+			if ($this.attr('id') == null) {
+				var idx = $this.index();
+				$this.attr('id', 'bund' + idx);
+				var prev = $this.find('.pager-prev').attr('id', 'pager-prev' + idx);
+				var next = $this.find('.pager-next').attr('id', 'pager-next' + idx);
+				
+				$('#bImg_' + $this.data('id') + '.main_image_slider').bxSlider({
+					pagerCustom : '#bund' + idx + ' .subslider',
+					mode : 'fade',
+					controls : false,
+				});
+				
+				$this.find('.subslider').bxSlider({
+					minSlides: 3,
+					maxSlides: 3,
+					slideWidth: 68,
+					slideMargin: 8,
+					infiniteLoop: false,
+					hideControlOnEnd: true,
+					pager: false,
+					nextSelector: next,
+					prevSelector: prev,
+				});
+			}
+		});
+	}
+
+	$(document).ready(function() {
+		$(document).hptooltip({items:'.hasTooltip'});
+		
+		$('#facetForm').on('click', '.facetName', function() {
+			$(this).parent().toggleClass('open');
+		});
+
+		$('#facetForm').on('click', '.facetItemShow', function() {
+			var facetEle = $(this).closest('.facetSet');
+			$(this).toggleClass('more');
+			if ($(this).hasClass('more')) {
+				$(this).html('More...');
+				var facetItems = facetEle.find('.facetItem');
+				facetItems.each(function(index){
+					if (index >= (shownFacetItemSize))
+						$(this).addClass('more');
+				});
+			} else {
+				$(this).html('...Less');
+				facetEle.find('.facetItem').removeClass('more');
+			}
+		});
+
+		$('#facetForm').on('click', '.secFacetShow', function() {
+			var secFacetEle = $('.secFacets');
+			$(this).toggleClass('more');
+			if ($(this).hasClass('more')) {
+				$(this).html('More filters');
+				secFacetEle.addClass('more');
+				$('html, body').animate({scrollTop: $('#facetForm').offset().top});
+			} else {
+				$(this).html('Less filters');
+				secFacetEle.removeClass('more');
+			}
+		});
+
+		$('#facetForm').on('change', '.facetItemChkBox', function(){
+			changeFacets(false);
+			
+			// send analytics event for omniture
+			if(window.sendFacetSelectionEvent) {
+			    var facetCategory = $(this).parents('.facetSet').children('.facetName').text().trim();
+			    var facetValue = $(this).next('.facetItemLbl').text().trim();
+			    var facetId = $(this).attr('id');
+			    
+			    sendFacetSelectionEvent(facetCategory, facetValue, facetId);
+			}
+
+		});
+
+		$('#facetForm').on('click', '.facetItemImg', function(event){ //ie bug fix
+			event.preventDefault();
+			$($(this).closest('.facetItem label')).click();
+		});
+
+		$('#facetForm').on('click', '.clearFacets', function(){
+			changeFacets(true);
+		});
+
+		$('#pageForm').on('change', 'input[name=beginIndex]', function(){
+			if ($('#pageForm input[name=beginIndex]:checked').prop('id') == 'page_more')
+				changePage(true);
+			else
+				changePage();
+		});
+		$('#sortForm').on('change', '[name=orderBy]', function(){
+			var selectedValue = $(this).val();
+			if(selectedValue != -1){
+				changeFacets();
+			}
+		});
+
+		$(document).on('change', '.sortFormClone [name=orderBy]', function(){
+			if ($(this).is(':radio:checked') || $(this).is('select')) {
+				var selectedValue = $(this).val();
+				if(selectedValue && selectedValue != -1){
+					$('#sortForm [name=orderBy]').val(selectedValue);
+					$('#sortForm [name=orderBy]').trigger('change');
+				}
+			}
+		});
+
+		updateSort(searchResults);
+		renderFacets(searchResults);
+		renderPaging(searchResults);
+		initSlider();
+	});
+</script> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/v2/searchCompare.css"> 
+  <div class="productCompare"> 
+   <div class="productCompareContent"> 
+    <h3>Compare Products (max. 4)</h3> 
+    <span id="clearProductCompare_btn">Clear all</span> 
+    <span id="toggleProductCompare_btn"></span> 
+    <div class="clear"></div> 
+    <div id="productCompareTable"> 
+    </div> 
+   </div> 
+  </div> 
+  <form id="compareForm" class="hide"> 
+   <input type="hidden" name="storeId" value="10151"> 
+   <input type="hidden" name="langId" value="-1"> 
+   <input type="hidden" name="catalogId" value="10051"> 
+   <input type="hidden" name="categoryId" value="88339"> 
+   <input type="hidden" name="action" id="action" value=""> 
+   <input type="hidden" name="productId" id="productId" value=""> 
+  </form> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/product_compare.js"></script> 
+  <script>
+				$(document).ready(function() {
+					ProductCompareJS.init();
+				});
+			</script> 
+  <!-- Footer CategoryId: 88339 --> 
+  <div class="box-sizing"> 
+   <ul id="footer_seo_links" class="row"> 
+    <li><a href="http://store.hp.com/us/en/vwa/desktops/form=Small-form-factor" alt="Small Form Factor PC">Small Form Factor PC</a></li> 
+    <li><a href="http://store.hp.com/us/en/vwa/desktops/form=Mini" alt="Mini PC">Mini PC</a></li> 
+    <li><a href="http://store.hp.com/us/en/vwa/desktops/form=Small-form-factor" alt="Small Form Factor PC">Small Form Factor PC</a></li> 
+    <li><a href="http://store.hp.com/us/en/vwa/desktops/form=Mini" alt="Mini PC">Mini PC</a></li> 
+    <li><a href="http://store.hp.com/us/en/mlp/desktops/elitedesk--prodesk---workstations" alt="Business Desktop Computers">Business Desktop Computers</a></li> 
+    <li><a href="http://store.hp.com/us/en/mdp/desktops/hp-all-in-one" alt="All in One Computers ">All in One Computers </a></li> 
+    <li><a href="http://store.hp.com/us/en/mlp/desktops/our-best-offers-of-the-week " alt="Desktop Computer Deals">Desktop Computer Deals</a></li> 
+    <li><a href="http://store.hp.com/us/en/mlp/desktops/gaming-367001--1" alt="Gaming desktops">Gaming desktops</a></li> 
+    <li><a href="http://store.hp.com/us/en/cat/Laptops" alt="Laptops">Laptops</a></li> 
+    <li><a href="http://store.hp.com/us/en/mlp/care-packs-88343--1/desktop-carepacks?Redirect_SMB_ETR=Yes" alt="Care Packs for Desktops">Care Packs for Desktops</a></li> 
+    <li><a href="http://store.hp.com/webapp/wcs/stores/servlet/us/en/cat/accessories-88342--1" alt="Accessories">Accessories</a></li> 
+   </ul> 
+  </div> 
+  <!-- BEGIN Footer/Footer.jsp --> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/vendor/jquery.validate.min.js"></script> 
+  <!-- http://www8.hp.com/caas/header-footer/us/en/default/4.0.r/footer?contentType=html -->
+  <!--BEGIN My shopping links section--> 
+  <div class=""> 
+   <div id="shoppinglinks_support" class="row"> 
+    <hr> 
+    <section id="myShoppingLinks" class=""> 
+     <div class="large-12"> 
+      <span class="list_title"><strong>My shopping links</strong></span> 
+      <ul> 
+       <li><a href="/us/en/MyOrdersLanding?catalogId=1005&amp;langId=-1&amp;storeId=10151">Order status</a></li> 
+       <li><a href="/us/en/ManageSubscription?orderStatusStyle=strong&amp;catalogId=1005&amp;langId=-1&amp;storeId=10151">Manage subscriptions</a></li> 
+       <li><a href="/us/en/MyAccountFormView?catalogId=1005&amp;langId=-1&amp;storeId=10151">My account</a></li> 
+       <li class="last_link"><a href="/us/en/ContentView?eSpotName=ReturnsandExchanges&amp;catalogId=1005&amp;langId=-1&amp;storeId=10151">Returns &amp; Exchanges</a></li> 
+      </ul> 
+     </div> 
+    </section> 
+    <section id="lp_chat" class="lp_chat"> 
+     <img src="/wcsstore/HPStorefrontAssetStore/img/lpchat.png"> 
+     <h2>Need help?</h2> 
+     <a id="live_help_dd" href="javascript:void(0)" class="live_help_dd downDisclosure">Contact us now</a> 
+     <ul id="live_help_list" class="live_help_list"> 
+      <li><a id="lp_link" href="javascript:void(0)" rel="live_chat_closed.html">Chat with a sales rep</a></li> 
+      <li><a id="lh_call" href="javascript:void(0)">Request a call</a></li> 
+      <li><a href="/us/en/SendEmailView?catalogId=1005&amp;langId=-1&amp;storeId=10151">Send us an email</a></li> 
+     </ul> 
+    </section> 
+   </div> 
+  </div> 
+  <!--END My shopping links section-->
+  <!--BEGIN Stay connected section-->
+  <!-- BEGIN ContentRecommendation.jsp -->
+  <!-- BEGIN ESpotTitle_Data.jspf -->
+  <!-- END ESpotTitle_Data.jspf -->
+  <!-- END ContentRecommendation.jsp -->
+  <!--END stay connected section-->
+  <!--BEGIN CategoryDisclaimer section-->
+  <!-- categoryCopyBlock_ -->
+  <!--END CategoryDisclaimer section-->
+  <!--BEGIN Disclaimer section-->
+  <!-- InstanceBeginEditable name="Disclaimer" --> 
+  <div class="row"> 
+   <div class="disclaimer_section"> 
+    <div class="large-12 columns"> 
+     <!-- BEGIN ContentRecommendation/ContentRecommendation.jsp -->
+     <!-- BEGIN ESpotTitle_Data.jspf -->
+     <!-- END ESpotTitle_Data.jspf -->
+     <!-- BEGIN ESpotTitle_UI.jspf -->
+     <!-- END ESpotTitle_UI.jspf -->
+     <p>Prices, specifications, availability and terms of offers may change without notice. Price protection, price matching or price guarantees do not apply to Intra-day, Daily Deals or limited-time promotions. Quantity limits may apply to orders, including orders for discounted and promotional items. Despite our best efforts, a small number of items may contain pricing, typography, or photography errors. Correct prices and promotions are validated at the time your order is placed. These terms apply only to products sold by HP.com; reseller offers may vary. Items sold by HP.com are not for immediate resale. Orders that do not comply with HP.com terms, conditions, and limitations may be cancelled. Contract and volume customers not eligible.</p> 
+     <p>HP’s MSRP is subject to discount. HP’s MSRP price is shown as either a stand-alone price or as a strike-through price with a discounted or promotional price also listed. Discounted or promotional pricing is indicated by the presence of an additional higher MSRP strike-through price.</p> 
+     <p>Toner cartridges: A SpencerLab 2013 study commissioned by HP compared Original HP Mono LaserJet toner cartridges with ten brands of non-HP cartridges sold in North America for the HP LaserJet P2035 and P1102 printers, HP 05A and 85A cartridges. For details, see www.spencerlab.com/reports/HP-Reliability-NA-2013.pdf.</p> 
+     <!-- END ContentRecommendation/ContentRecommendation.jsp --> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- InstanceEndEditable -->
+  <!--END Disclaimer section--> 
+  <section id="matrix" class="live_help_overlay pop_cnt overlay_popup"> 
+   <!--check_balance_overlay pop_cnt overlay_popup--> 
+   <a class="btnClose js_pop_close" href="javascript:void(0);"></a> 
+   <iframe frameborder="0" class="live_help_matrix" src="" scrolling="no" onload="resizeIframe(this)"></iframe> 
+  </section> 
+  <div id="footer" class="footer"> 
+   <!-- Start CAAS Footer : true -->
+   <div class="footer_lang_container">
+    <a name="skiptofooter" tabindex="-1"><span class="screenReading">End of content</span></a>
+    <div class="footer_lang_section hf_clf">
+     <div class="cs-container ">
+      <div class="js_cselector cselector_wrapper">
+       <a class="js_cselector_trigger cselector" rel="js_cselector_target" href="javascript:void(0);" tabindex="901" title="Country / Region Selector"><span class="screenReading js_screen_reading">&nbsp;</span><span class="flag">&nbsp;</span><span class="selectedCountry"><span class="screenReading">&nbsp;</span>United States</span></a>
+       <div class="worldmap_wrapper">
+        <div id="cs_spooler" class="js_spooler wait_class " rel="">
+         <div>
+          &nbsp;
+         </div>
+        </div>
+        <div class="world_map js_cselector_target">
+         <h4 class="screenReading">HP Worldwide</h4>
+         <div class="js_worldmap_wrapper">
+          &nbsp;
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="footer_container">
+    <div class="site_links column_5"> 
+     <div class="site_links_container fstchild  ">
+      <a tabindex="906" class="js_site_links_trigger ul_site_link_header" href="javascript:void(0);"><span class="accordion-header">About us</span><span class="accordion-icn">&nbsp;</span></a>
+      <ul class="ul_site_links js_site_links_target">
+       <li class="first_li"><a name="2082817" tabindex="906" target="_blank" class="link_metrics" href="http://www8.hp.com/us/en/hp-information/index.html">About us</a><span><a name="2082817" tabindex="906" target="_blank" class="link_metrics" href="http://www8.hp.com/us/en/hp-information/index.html">About us</a></span></li>
+       <li><a name="2082822" tabindex="906" target="_blank" class="link_metrics" href="http://www8.hp.com/us/en/contact-hp/contact.html">Contact HP</a></li>
+       <li><a name="2082818" tabindex="906" target="_blank" class="link_metrics" href="http://www8.hp.com/us/en/jobs/index.html">Careers</a></li>
+       <li><a name="2082819" tabindex="906" target="_blank" class="link_metrics" href="http://h30261.www3.hp.com/">Investor relations</a></li>
+       <li><a name="2117727" tabindex="906" target="_blank" class="link_metrics" href="http://www8.hp.com/us/en/hp-information/global-citizenship/index.html">Sustainability</a></li>
+       <li><a name="2082821" tabindex="906" target="_blank" class="link_metrics" href="http://www8.hp.com/us/en/hp-news/newsroom.html">Newsroom</a></li>
+       <li class="lstchild"><a name="2082323" tabindex="906" target="_blank" class="link_metrics" href="http://www8.hp.com/us/en/hp-information/accessibility-aging/index.html">Accessibility</a></li>
+      </ul>
+     </div> 
+     <div class="site_links_container   ">
+      <a tabindex="906" class="js_site_links_trigger ul_site_link_header" href="javascript:void(0);"><span class="accordion-header">Ways to buy</span><span class="accordion-icn">&nbsp;</span></a>
+      <ul class="ul_site_links js_site_links_target">
+       <li class="first_li"><span class="column_no_link"><span>Ways to buy</span></span></li>
+       <li><a name="2129060" tabindex="906" class="link_metrics" href="http://store.hp.com">Shop online</a></li>
+       <li><a name="2082335" tabindex="906" target="_blank" class="link_metrics" href="http://www8.hp.com/us/en/store-finder/index.do">Store locator</a></li>
+       <li><a name="2082334" tabindex="906" target="_blank" class="link_metrics" href="http://www8.hp.com/us/en/contact-hp/shopping.html">Call an HP rep</a></li>
+       <li><a name="2082333" tabindex="906" target="_blank" class="link_metrics" href="http://www8.hp.com/us/en/store-finder/find.do?bs=SR2&amp;type=reseller">Find a reseller</a></li>
+       <li><a name="2129062" tabindex="906" class="link_metrics" href="http://www8.hp.com/us/en/hp-information/business-site/index.html">Enterprise store</a></li>
+       <li class="lstchild"><a name="2129061" tabindex="906" class="link_metrics" href="https://government.hp.com/index.aspx">Public sector purchasing</a></li>
+      </ul>
+     </div> 
+     <div class="site_links_container   ">
+      <a tabindex="906" class="js_site_links_trigger ul_site_link_header" href="javascript:void(0);"><span class="accordion-header">Support</span><span class="accordion-icn">&nbsp;</span></a>
+      <ul class="ul_site_links js_site_links_target">
+       <li class="first_li"><a name="2082839" tabindex="906" target="_blank" class="link_metrics" href="http://support.hp.com/us-en/">Support</a><span><a name="2082839" tabindex="906" target="_blank" class="link_metrics" href="http://support.hp.com/us-en/">Support</a></span></li>
+       <li><a name="2082842" tabindex="906" class="link_metrics" href="http://support.hp.com/us-en/drivers">Download drivers</a></li>
+       <li><a name="2082849" tabindex="906" class="link_metrics" href="http://support.hp.com/us-en/">Support &amp; troubleshooting</a></li>
+       <li><a name="2157591" tabindex="906" target="_blank" class="link_metrics" href="http://h30434.www3.hp.com">Forums</a></li>
+       <li><a name="2082845" tabindex="906" class="link_metrics" href="https://register.hp.com/americas/flowPage/registration/index.do?execution=e1s1&amp;cc=us&amp;lang=en">Register your product</a></li>
+       <li><a name="2082848" tabindex="906" class="link_metrics" href="http://h20565.www2.hp.com/portal/site/hpsc/public/scm/home/">Manage commercial support cases</a></li>
+       <li><a name="2082840" tabindex="906" class="link_metrics" href="http://www8.hp.com/us/en/store-finder/find.do?bs=SR4&amp;type=authorized">Authorized service providers</a></li>
+       <li><a name="2082841" tabindex="906" target="_blank" class="link_metrics" href="https://gncpgslbpro1.houston.hp.com/Cso_Status/CsoStatus.aspx?lc=en&amp;cc=us">Check repair status</a></li>
+       <li class="lstchild"><a name="2122299" tabindex="906" target="_blank" class="link_metrics" href="https://hpsalescentral.com/#/training/training">Training &amp; certification</a></li>
+      </ul>
+     </div> 
+     <div class="site_links_container   ">
+      <a tabindex="906" class="js_site_links_trigger ul_site_link_header" href="javascript:void(0);"><span class="accordion-header">HP Partners</span><span class="accordion-icn">&nbsp;</span></a>
+      <ul class="ul_site_links js_site_links_target">
+       <li class="first_li"><span class="column_no_link"><span>HP Partners</span></span></li>
+       <li><a name="2110467" tabindex="906" class="link_metrics" href="http://www8.hp.com/us/en/hp-information/hp-partner-first/overview.html">HP Partner First program</a></li>
+       <li><a name="2122304" tabindex="906" target="_blank" class="link_metrics" href="https://partner.hp.com/login">HP Partner First Portal</a></li>
+       <li class="lstchild"><a name="2336240" tabindex="906" target="_blank" class="link_metrics" href="https://developers.hp.com/">Developers</a></li>
+      </ul>
+     </div> 
+     <div class="site_links_container  lstchild email_signup">
+      <a tabindex="906" class="js_site_links_trigger ul_site_link_header" href="javascript:void(0);"><span class="accordion-header">Stay connected</span><span class="accordion-icn">&nbsp;</span></a>
+      <ul class="ul_site_links js_site_links_target">
+       <li class="first_li lstchild"><span class="column_no_link"><span>Stay connected</span></span></li>
+       <li class=" last">
+        <ul class="ul_media_links">
+         <li class="first_li  Facebook"><a name="557110" tabindex="906" target="_blank" class="icn_fcb" data-label="HP on Facebook" href="http://www.facebook.com/HP"></a></li>
+         <li class="LinkedIn"><a name="2086338" tabindex="906" target="_blank" class="icn_sm_lkn" data-label="LinkedIn HP" href="https://www.linkedin.com/company/hp"></a></li>
+         <li class="Twitter"><a name="557112" tabindex="906" target="_blank" class="icn_twt" data-label="HP on Twitter" href="https://twitter.com/HP"></a></li>
+         <li class="lstchild YouTube"><a name="798961" tabindex="906" target="_blank" class="icn_ytb" data-label="HP YouTube" href="http://www.youtube.com/hp"></a></li>
+        </ul></li> 
+      </ul>
+      <a tabindex="906" class="js_site_links_trigger ul_site_link_header" href="javascript:void(0);"><span class="accordion-header">Sign up for news &amp; offers</span><span class="accordion-icn">&nbsp;</span></a>
+      <ul class="ul_site_links js_site_links_target site_links_subitems signup_submit">
+       <li class="first_li lstchild H/F - Email Signup"><label for="footer_email_input">Sign up for news &amp; offers</label><input id="footer_email_input" type="email" title="Email address" tabindex="906" placeholder="Email address"><a name="2082835" id="footer_email_submit" href="https://h41369.www4.hp.com/subhub.php?country=US&amp;language=US&amp;jumpid=gh_2082835" tabindex="906" class="footer_btn">Submit</a></li>
+      </ul> 
+     </div> 
+    </div>
+    <div class="footer_legal_block">
+     <ul class="privacy_links">
+      <li class="first_li"><a name="2082312" tabindex="910" class="link_metrics" href="http://www8.hp.com/us/en/hp-information/recalls.html">Recalls</a><span class="hf_separ">|</span></li>
+      <li><a name="2117732" tabindex="910" class="link_metrics" href="http://www8.hp.com/us/en/hp-information/environment/product-recycling.html">Product recycling</a><span class="hf_separ">|</span></li>
+      <li><a name="2253421" tabindex="910" class="link_metrics" href="http://www8.hp.com/us/en/hp-information/global-citizenship/society/california-transparency-in-supply-chains-act-of-2010.html">CA Supply Chains Act</a><span class="hf_separ">|</span></li>
+      <li><a name="2082313" tabindex="910" class="link_metrics" href="http://www8.hp.com/us/en/sitemap.html">Site map</a><span class="hf_separ">|</span></li>
+      <li><a name="2082311" tabindex="910" class="link_metrics" href="http://www8.hp.com/us/en/privacy/privacy.html">Privacy</a><span class="hf_separ">|</span></li>
+      <li><a name="2082315" tabindex="910" class="link_metrics" href="http://www8.hp.com/us/en/terms-of-use.html">Terms of Use</a><span class="hf_separ">|</span></li>
+      <li><a name="2082308" tabindex="910" class="link_metrics" href="http://www8.hp.com/us/en/privacy/privacy.html#hptpw">Cookies &amp; ad choices</a><span class="hf_separ">|</span></li>
+      <li><a name="2082310" tabindex="910" class="link_metrics" href="http://www8.hp.com/us/en/privacy/limited_warranty.html">Limited warranty statement</a><span class="hf_separ">|</span></li>
+      <li class="lstchild"><a name="2082314" tabindex="910" class="link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=TermsAndConditions&amp;catalogId=10051&amp;langId=-1&amp;storeId=10151&amp;jumpid=re_r11662_redirect_ETR&amp;ts=20151012014516_LIymYBM9Ho1W">Terms &amp; conditions of sales &amp; service</a></li>
+     </ul>
+     <div class="hf_bottom_links">
+      <p class="copyright">© Copyright 2016 HP Development Company, L.P.</p>
+      <p class="mobile_view"></p>
+     </div>
+    </div>
+   </div>
+   <!--Data Published 10/06/2016 04:17:20 PM, Template Published: UNKNOWN-->
+   <!-- End CAAS Footer --> 
+  </div> 
+  <div id="callCenterDialog" class="reveal-modal" style="display:none;"> 
+   <p id="message"></p> 
+   <a class="close-reveal-modal" onclick="javascript:$('#callCenterDialog').foundation('reveal','close');">×</a> 
+  </div>
+  <!-- begin usabilla live embed code --> 
+  <script type="text/javascript">
+		/*{literal}<![CDATA[*/window.lightningjs||function(c){function g(b,d){d&&(d+=(/\?/.test(d)?"&":"?")+"lv=1");c[b]||function(){var i=window,h=document,j=b,g=h.location.protocol,l="load",k=0;(function(){function b(){a.P(l);a.w=1;c[j]("_load")}c[j]=function(){function m(){m.id=e;return c[j].apply(m,arguments)}var b,e=++k;b=this&&this!=i?this.id||0:0;(a.s=a.s||[]).push([e,b,arguments]);m.then=function(b,c,h){var d=a.fh[e]=a.fh[e]||[],j=a.eh[e]=a.eh[e]||[],f=a.ph[e]=a.ph[e]||[];b&&d.push(b);c&&j.push(c);h&&f.push(h);return m};return m};var a=c[j]._={};a.fh={};a.eh={};a.ph={};a.l=d?d.replace(/^\/\//,(g=="https:"?g:"http:")+"//"):d;a.p={0:+new Date};a.P=function(b){a.p[b]=new Date-a.p[0]};a.w&&b();i.addEventListener?i.addEventListener(l,b,!1):i.attachEvent("on"+l,b);var q=function(){function b(){return["<head></head><",c,' onload="var d=',n,";d.getElementsByTagName('head')[0].",d,"(d.",g,"('script')).",i,"='",a.l,"'\"></",c,">"].join("")}var c="body",e=h[c];if(!e)return setTimeout(q,100);a.P(1);var d="appendChild",g="createElement",i="src",k=h[g]("div"),l=k[d](h[g]("div")),f=h[g]("iframe"),n="document",p;k.style.display="none";e.insertBefore(k,e.firstChild).id=o+"-"+j;f.frameBorder="0";f.id=o+"-frame-"+j;/MSIE[ ]+6/.test(navigator.userAgent)&&(f[i]="javascript:false");f.allowTransparency="true";l[d](f);try{f.contentWindow[n].open()}catch(s){a.domain=h.domain,p="javascript:var d="+n+".open();d.domain='"+h.domain+"';",f[i]=p+"void(0);"}try{var r=f.contentWindow[n];r.write(b());r.close()}catch(t){f[i]=p+'d.write("'+b().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};a.l&&setTimeout(q,0)})()}();c[b].lv="1";return c[b]}var o="lightningjs",k=window[o]=g(o);k.require=g;k.modules=c}({}); window.usabilla_live = lightningjs.require("usabilla_live", "//w.usabilla.com/0ef6e6f5c58b.js"); /*]]>{/literal}*/
+	</script> 
+  <!-- end usabilla live embed code --> 
+  <script type="text/javascript">
+	
+	var chatUrl = 'https://h30665.www3.hp.com/netagent/cimlogin.aspx?questid=246C34C5-5B3F-42D0-9EEC-D51634B0EE3F&portid=942E5E82-25F9-4DFD-9A71-537876996383';
+	var callUrl = 'https://h30665.www3.hp.com/netagent/cimlogin.aspx?questid=A54BA411-122B-4D0B-8B15-26E72DE88844&portid=21844431-8DFC-4978-B17E-AA1D3636C748';
+		
+
+	$('#lp_link').click(function(event) {
+    	openHelpWindow(chatUrl);
+    });
+    
+    $('#lh_call').click(function(event) {
+    	openHelpWindow(callUrl);
+    });
+	
+	var talCustProp = '';
+	$(document).ready(function() {
+		talCustProp = getHelpParams('#:Prop!');
+	});
+	
+	function openHelpWindow(helpUrl) {
+		helpUrl += getHelpParams('&') + '&nareferer=' + escape(document.location);
+		window.open(helpUrl, "popupWindow", "width=625,height=750,scrollbars=yes");
+	}
+
+	function getHelpParams(delimiter) {
+		var params = '';
+		var cartOrderId = $.cookie('WC_CartOrderId_10151');
+		if ($.trim(cartOrderId)){
+			var cartCookie = $.cookie('WC_CartTotal_' + cartOrderId);
+			var content = cartCookie  ? cartCookie.split(/;/) : new Array();
+			if(content.length > 1) {
+				params += delimiter + 'CartTotal=' + content[1];
+			}
+		}
+		return params;
+	}
+
+	function setCookieviewTopSellers(pLabel, pVal, pMinutes) {
+		var tExpDate = new Date();
+		tExpDate.setTime(tExpDate.getTime() + (pMinutes*60*1000));
+		document.cookie = pLabel + "=" + pVal + ((pMinutes == null) ? "" : ";expires=" + tExpDate.toGMTString()) + ";domain=.hp.com; path=/";
+	}
+	
+	function getParameterByName(name) {
+	    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+	    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+	        results = regex.exec(location.search);
+	    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+	}
+
+	window.SCREENREADING_LABELS = {
+        'open_menu_prefix': "Open ",
+        'open_menu_suffix': " Menu",
+        'close_menu_prefix': "Close ",
+        'close_menu_suffix': " Menu",
+
+        'opened_state_menu_prefix': "Menu ",
+        'opened_state_menu_suffix': " is opened",
+        'closed_state_menu_prefix': "Menu ",
+        'closed_state_menu_suffix': " is closed",
+
+        'opened_state_submenu_suffix': "Press Right Arrow or Space to open",
+        'selected_country_state': "Selected",
+
+        'open_popup_prefix': "Open ",
+        'open_popup_suffix': " Dialog",
+        'close_popup_prefix': "Close ",
+        'close_popup_suffix': " Dialog",
+
+        "expand_prefix": "Expand ",
+        "expand_suffix": "list",
+        "collapse_prefix": "Collapse",
+        "collapse_suffix": "list",
+        "search_box_suggestion_title": "Use arrow keys to select a search suggestion"
+    };
+    
+	
+		HP.hfInit({
+		    countrySelectorURL: "http://www8.hp.com/caas/header-footer/us/en/default/3.2.r/footer/country-selector?contentType=jsonp",
+		    countryCode:  "us",
+		    languageCode: "en",
+		    imageGridTopMenu:false,
+		    
+	        autocompleteParams: [
+	        {
+	            "type": "hho-store",
+	            "title": "HP Store",
+	            "inProgressHTML": "Searching HP Store ...",
+	            "noResultsHTML": "Searching HP Store ...",
+	            "count": 5,
+	            "actionURL": "/us/en/TopCategoriesDisplay?storeId=10151&urlLangId=-1&urlRequestType=Base&langId=-1&catalogId=1005/SearchDisplay?storeId=10151&catalogId=1005&langId=-1&searchTerm=@@term@@&beginIndex=0&pageSize=50&pageView=grid&resultCatEntryType=2&sType=SimpleSearch&searchSource=Q",
+	            "url": "/us/en/TopCategoriesDisplay?storeId=10151&urlLangId=-1&urlRequestType=Base&langId=-1&catalogId=1005/SearchComponentAutoSuggestView?coreName=MC_10001_CatalogEntry_en_US&serverURL=/us/en/TopCategoriesDisplay?storeId=10151&urlLangId=-1&urlRequestType=Base&langId=-1&catalogId=1005/solr\/MC_10001_CatalogEntry_en_US&langId=-1&storeId=10151&catalogId=1005&showHeader=true&lang=en",
+	            "callbackParam": "cbf",
+	            "defaultCookieValue": true
+	        },
+	        {
+	            "autocompleteSSRequest":true,
+	            "autocompleteVersion":"2",
+	            "type": "iap-fast",
+	            "title": "All of HP.com",
+	            "inProgressHTML": "Searching HP.com...",
+	            "noResultsHTML": "Did not find what you were looking for?\n<br xmlns=\"http:\/\/www.w3.org\/1999\/xhtml\" \/>\nClick <a href=\"http:\/\/www8.hp.com\/@@country_code@@\/@@language_code@@\/hp-search\/search-results.html?qt=@@term@@&amp;client=@@client@@&amp;search_context=@@search_context@@\" xmlns=\"http:\/\/www.w3.org\/1999\/xhtml\">here for more results<\/a>",
+	            "count": 5,
+	            "actionURL": "\/\/www8.hp.com\/us\/en\/hp-search\/search-results.html?search_context=@@search_context@@&client=@@client@@&qt=@@term@@",
+	            "url": "\/\/iapproltautocm.austin.hp.com\/hp-iap-autocomplete\/search?companyCode=HPI",
+	            "callbackParam": "cb"
+	        }]
+	    });
+	
+
+	//start reactive chat
+	var chatFlag = '';
+	var phoneFlag = '';
+	var emailFlag = '';
+	var livehelpFlag = '';
+	var contactusFlag = '';
+	
+	function removeChatLinks() {
+		//first check for livehelp & contactus
+		//if contactus is there then check for  li links
+		if (typeof MoxieCategoryContent !== 'undefined') {
+			var moxieChat = MoxieCategoryContent.substring((MoxieCategoryContent.indexOf(':') + 1), MoxieCategoryContent.length);
+			var  chatValues = moxieChat.split(',');
+			for (x in chatValues) {
+				var kv = chatValues[x].split('=');
+				if (kv[0].trim() === 'chat'.trim()) {
+					chatFlag = kv[1].trim();
+				} else if (kv[0].trim() === 'email'.trim()) {
+					emailFlag = kv[1].trim();
+				} else if (kv[0].trim() === 'phone'.trim()) {
+					phoneFlag = kv[1].trim();
+				} else if (kv[0].trim() === 'livehelp'.trim()) {
+					livehelpFlag = kv[1].trim();
+				} else if (kv[0].trim() === 'contactus'.trim()) {
+					contactusFlag = kv[1].trim();
+				}
+			}
+			// if chat, call & email are 0 remove livehelp & contact us
+			if ((chatFlag !== 'undefined' && chatFlag === '0') && (phoneFlag !== 'undefined' && phoneFlag === '0') && (emailFlag !== 'undefined' && emailFlag === '0')) {
+				contactusFlag = '0';
+				livehelpFlag = '0';
+			}
+		}
+	}
+
+	function moxieChatLinks() {
+		try {
+			if (livehelpFlag !== 'undefined' && livehelpFlag === '0') {
+				if ($('nav .topmenu ul.right li a.js_overlay_trigger').parent().length > 0) {
+					$('nav .topmenu ul.right li a.js_overlay_trigger').parent()[0].remove();
+				}
+			}
+			if (contactusFlag !== 'undefined' && contactusFlag === '0') {
+				if ($('#lp_chat').length > 0) {
+					$('#lp_chat').remove();
+				}
+			} else if (contactusFlag !== 'undefined' && contactusFlag === '1') {
+				if (phoneFlag !== 'undefined' && phoneFlag === '0') {
+					$('ul.live_help_list li a#lh_call').parent().remove();
+				}
+				if (chatFlag !== 'undefined' && chatFlag === '0') {
+					$('ul.live_help_list li a#lp_link').parent().remove();
+				}
+				if (emailFlag !== 'undefined' && emailFlag === '0') {
+					$('ul.live_help_list li:last').remove();
+				}
+			}
+		} catch (e) {}
+	}
+
+	var liveHelpURL = '/us/en/TopCategoriesDisplay?storeId=10151&urlLangId=-1&urlRequestType=Base&langId=-1&catalogId=1005LiveHelpView?storeId=10151&langId=-1&catalogId1005';
+	var searchDisplayUrl = '/us/en/TopCategoriesDisplay?storeId=10151&urlLangId=-1&urlRequestType=Base&langId=-1&catalogId=1005SearchDisplay';
+	
+	$(document).ready( function() {
+		liveHelpURL = liveHelpURL + '&pagelevel=' + pagelevel;
+		if (typeof picturefill == 'function') {
+			picturefill();
+		}
+		var initData = {
+			urls: {
+				jsPath  : '/wcsstore/HPStorefrontAssetStore/js/',
+				cssPath : '/wcsstore/HPStorefrontAssetStore/css/',
+				svcUrl  : getAbsoluteURL() + 'HPServices',
+				pdpUrl  : getAbsoluteURL() + 'PDPStdView',
+				viewCartUrl	: getAbsoluteURL() + 'OrderCalculate?storeId=10151&catalogId=1005&langId=-1&calculationUsageId=-1&URL=AjaxOrderItemDisplayView'
+			},
+			params: {
+				langId	: '-1',
+				storeId	: '10151',
+				userType  : 'G',
+				catalogId : '1005',
+				categoryId : $('#headerCategoryId').val(),
+				currencySymbol : '$',
+				dealsRedirect : getParameterByName('dl')
+			}
+		};
+						
+		$('form#searchHP').attr('action',searchDisplayUrl);
+		$('form#searchHP input#searchBox').attr('name','searchTerm');
+		$('form#searchHP').append('<input type="hidden" name="storeId" value="10151" />');
+		$('form#searchHP').append('<input type="hidden" name="catalogId" value="1005" />');
+		$('form#searchHP').append('<input type="hidden" name="langId" value="-1" />');
+		$('form#searchHP').append('<input type="hidden" name="beginIndex" value="0" />');
+		$('form#searchHP').append('<input type="hidden" name="pageSize" value="50" />');
+
+		$('ul#nav_buttons li.js_shopping_widget.nav_button').attr('data-uitype','minicart-icon');
+		$('ul#nav_buttons li.js_shopping_widget.nav_button a#shop_widget').attr('data-uitype','minicart-activator');
+		$('ul#nav_buttons li.js_shopping_widget.nav_button span.item_count').attr('id','minicart-itemcount');
+		$('ul#nav_buttons li.js_shopping_widget.nav_button div.shop_widget').attr('id','minicart-container').removeClass('shop_widget').addClass('minicart-container');		
+		$('ul#nav_buttons li.js_shopping_widget.nav_button div.shopping_container div.widget_content').attr('id','minicart-contents');
+		$.hpsfData.init(initData);
+		$.hpsfUI.init(initData);
+		
+		removeChatLinks();
+	});
+	function removeStoreCallCenterCookie()
+	{
+		document.cookie = "storeCallCenterCheck=false; expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=.hp.com;path=/";
+	}
+</script> 
+  <!-- END Footer/Footer.jsp -->
+  <!-- BEGIN CommonJSToInclude.jspf -->
+  <!--  script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/js/omniture/hpUtil.min.js"></script --> 
+  <!-- Foundation 3 for IE 8 and earlier -->
+  <!--[if lt IE 9]>
+			<script src="/wcsstore/HPStorefrontAssetStore/js/foundation3/foundation.min.js"></script>
+			<script src="/wcsstore/HPStorefrontAssetStore/js/foundation3/app.js"></script>
+		<![endif]--> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/commonjspartone.js"></script> 
+  <!--[if lt IE 9]>
+			<script src="/wcsstore/HPStorefrontAssetStore/js/vendor/jquery.corner.js"></script>
+			<script src="/wcsstore/HPStorefrontAssetStore/js/foundation3/jquery.foundation.forms.js"></script>
+			<script src="/wcsstore/HPStorefrontAssetStore/js/IE8.js"></script>
+		<![endif]--> 
+  <!-- @Note: use this version for production deployment  
+<script src="/wcsstore/HPStorefrontAssetStore/js/vendor/hammer.min.js"></script>
+--> 
+  <script>
+	$(document).foundation();
+</script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/commonjsparttwo.js"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/hpsf/lib/jquery.jsonp-2.1.4.js"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/hpsf/lib/jquery.timers-1.2.js"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/hpsf/hpsf-all.min.js"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/jquery.dotdotdot.min.js?v=11590"></script> 
+  <script type="text/javascript" charset="UTF-8" src="/wcsstore/dojo18/dojo/dojo.js" djconfig="parseOnLoad: true, isDebug: false,  modulePaths: {storetext: '/wcsstore/HPStorefrontAssetStore/'}, useCommentedJson: true,locale: 'en-us' "></script> 
+  <script type="text/javascript" charset="UTF-8" src="/wcsstore/dojo18/dojo/dojodesktop.js" djconfig="parseOnLoad: true, isDebug: false,  modulePaths: {storetext: '/wcsstore/HPStorefrontAssetStore/'}, useCommentedJson: true,locale: 'en-us' "></script> 
+  <script>
+	dojo.require("wc.service.common");
+	dojo.require("dojo.number");
+	dojo.require("dijit.Dialog");
+</script> 
+  <script type="text/javascript">
+	// Convert the WCParam object which contains request properties into javascript object
+	var WCParamJS = {
+		'storeId': '10151',
+		'catalogId': '10051',
+		'langId': '-1',
+		'pageView': 'grid',
+		'orderBy': '',
+		'orderByContent': '',
+		'CurrencySymbolToFormat': '$',
+		'searchTerm': ''
+	};
+	var absoluteURL = '/webapp/wcs/stores/servlet/';
+	var ctoURL = '/us/en/ConfigureView?catalogId=10051&urlLangId=&langId=-1&storeId=10151';	
+	var imageDirectoryPath = '/wcsstore/HPStorefrontAssetStore/';
+	var styleDirectoryPath = 'images/colors/color1/';
+	var supportPaymentTypePromotions = false;
+	var subsFulfillmentFrequencyAttrName = 'fulfillmentFrequency';
+	var subsPaymentFrequencyAttrName = 'paymentFrequency';
+	var subsTimePeriodAttrName = 'timePeriod';
+	
+	var storeNLS = null;
+	var storeUserType = 'G';
+	var ios = false;
+	var android = false;
+	
+	// Store the amount of time of inactivity before a re-login is required, this value is retrieved from wc-server.xml, default is 30 mins
+	var inactivityTimeout = 0;
+	
+	// Store the amount of time the inactivity warning dialog will be displayed before it closes itself, default is 20 seconds
+	var inactivityWarningDialogDisplayTimer = 20000;
+	
+	// Store the amount of time to display a inactivity warning dialog before a re-login is required, default is 30 seconds
+	var inactivityWarningDialogBuffer = 30000;
+	
+	// Store the timing event to display the inactivity dialog
+	var inactivityTimeoutTracker = null;
+
+	// Store the timing event to close the inactivity dialog
+	var dialogTimeoutTracker = null;
+	
+	//Summary: Returns the absolute URL to use for prefixing any Ajax URL call.
+	//Description: Dojo does not handle the case where the parameters in the URL are delimeted by the "/" forward slash. Therefore, in order to
+	//             workaround the issue, all AJAX requests must be done using absolute URLs rather than relative.
+	//Returns: The absolute URL to use for prefixing any Ajax URL call.
+	function getAbsoluteURL() {
+		return absoluteURL;
+	}
+	//Summary: Returns the path pointing to the shared image directory.
+	//Description: In order to get the image directory path in any javascript file, this function can be used.
+	//Returns: The path to reference images.
+	function getImageDirectoryPath() {
+		return imageDirectoryPath;
+	}
+	//Summary: Returns the path pointing to the directory containing color-dependant image files.
+	//Description: In order to get the directory containing color-dependant image files in any javascript file, this function can be used.
+	//Returns: The path to reference color-dependant image files.
+	function getStyleDirectoryPath() {
+		return styleDirectoryPath;
+	}
+</script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/javascript/StoreCommonUtilities_ShoppingActions.js?v=60973"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/javascript/Common/ShoppingActionsServicesDeclaration.js?v=54579"></script> 
+  <script type="text/javascript">
+	//Set the default NLS to use in the store.
+	if(storeNLS == null) {
+		dojo.requireLocalization("storetext", "StoreText");
+		storeNLS = dojo.i18n.getLocalization("storetext","StoreText");
+	}
+	initializeInactivityWarning();
+	var ie6 = false;
+	if (navigator != null && navigator.userAgent != null) {
+		ie6 = (navigator.userAgent.toLowerCase().indexOf("msie 6.0") > -1); 
+	}
+	if (location.href.indexOf('UnsupportedBrowserErrorView') == -1 && ie6) {
+		document.write('<meta http-equiv="Refresh" content="0;URL=/us/en/UnsupportedBrowserErrorView?catalogId=10001&amp;langId=-1&amp;storeId=10151"/>');
+	}
+	
+	// Variables required for image rotation. Used in js/script.min.js file.
+	var imgPath = '/wcsstore/HPStorefrontAssetStore/img/rotation/';
+	var imgExtn = '.jpg';
+	
+	dojo.addOnLoad(function() {
+		shoppingActionsJS.setCommonParameters('-1', '10151', '10051', 'G', '$');
+	});
+</script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/CallCenter/js/CallcenterCommon.js?v=54579"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/CallCenter/js/CallcenterCommonServicesDeclarations.js?v=54579"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/javascript/Analytics.js?v=43"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/javascript/servicesdeclaration_checkouthelper_shipmodeselectionext_tealeaWCf_query_dlmenu.js?v=60973"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/javascript/MessageHelper.js?v=52540"></script> 
+  <!-- END CommonJSToInclude.jspf --> 
+  <div id="MoxieChatLinks" style="color:blue; display:none;"> 
+   <!-- BEGIN ChatContentRecommendation.jsp -->
+   <!-- END ChatContentRecommendation.jsp --> 
+  </div> 
+  <script type="text/javascript">
+			var userId = '-1002';
+			var usertype = '';
+			var hp_profileId = '';
+			var CID = '';
+			var language = 'en_US';
+			var aoid = '';
+			
+			var loadResults = true;
+			var MoxieCategoryContent = '';
+			
+					var MoxiePageName='Finder';
+					hpmmd.page.page_function="plp";
+					hpmmd.page.events=["series.view"];
+					hpmmd.page.name="filter results";
+					hpmmd.page.section='Desktops';
+					hpmmd.page.subsection='Desktops';
+					hpmmd.product.hierarchy=["",hpmmd.page.section,hpmmd.page.subsection];
+					hpmmd.product.finding_method="browse:plp page";
+					hpmmd.browser.static_jumpid=static_jumpid;
+					hpmmd.browser.hpshopping2=aoid;
+				
+
+			function changeCookie() {
+				document.cookie = "ETR_OPT_IN=false; path=/;domain=.hp.com;expires=Wed, 15 Jan 2020 00:00:00 GMT";
+			}
+			
+			var nonCategoryContent =  $('div#MoxieChatLinks').text().trim();
+			if (nonCategoryContent !== 'undefined' && nonCategoryContent.length > 0) {
+				var nonCategoryArray = nonCategoryContent.split(';');
+				for (x in nonCategoryArray) {
+					var kv = nonCategoryArray[x].split(':');
+					if (kv[0].trim() === MoxiePageName) {
+						MoxieCategoryContent = kv[1].trim();
+						break;
+					}
+				}
+			}
+			if (MoxieCategoryContent !== 'undefined') {
+				liveHelpURL = liveHelpURL + '&moxiecontent=' + MoxieCategoryContent;
+			}
+
+			function omniture_Tag(Analyitc_usertype) {
+				setCommonUserParams(userId, usertype, hp_profileId);
+			}
+
+			function validateForm(form) {
+				var x = form["searchTerm"].value;
+				if ( x == null || x == "" ) {
+					return false;
+				}
+				return true;
+			}
+		</script> 
+  <div id="hpmmdframework_complete"></div> 
+  <!--[if lte IE 8]>
+		<script src="/wcsstore/HPStorefrontAssetStore/js/vendor/mediaqueries/respond.js"></script>
+		<![endif]-->   
+  <!-- END SearchResults.jsp -->
+ </body>
+</html>

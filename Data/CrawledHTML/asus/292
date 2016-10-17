@@ -1,0 +1,415 @@
+<!doctype html>
+<!--[if IE 6]><html class="ie6 lte9 lte8 lte7" lang="zh-tw"><![endif]-->
+<!--[if IE 8]><html class="ie8 lte9 lte8" lang="zh-tw"><![endif]-->
+<!--[if IE 9]><html class="ie9 lte9" lang="zh-tw"><![endif]-->
+<!--[if IE 7]><html class="ie7 lte9 lte8 lte7" lang="zh-tw"><![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8) | !(IE 9)  ]><!-->
+<html lang="zh-tw">
+ <!--<![endif]-->
+ <head> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable:no"> 
+  <meta property="og:title" content="華碩數位學園"> 
+  <meta property="og:description"> 
+  <meta property="og:image" content=""> 
+  <meta property="og:video:width" content="560"> 
+  <meta property="og:video:height" content="340"> 
+  <meta property="og:video:type" content="application/x-shockwave-flash"> 
+  <meta http-equiv="cache-control" content="max-age=0"> 
+  <meta http-equiv="cache-control" content="no-store"> 
+  <meta http-equiv="expires" content="0"> 
+  <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT"> 
+  <meta http-equiv="pragma" content="no-cache"> 
+  <link href="/TW/eService/learning/Content/bootstrap.min.css" rel="stylesheet"> 
+  <!--
+	<meta http-equiv="Pragma" content="no_cache">
+	<link rel="canonical" href=" "/>
+	 --> 
+  <!--[if lt IE 7 ]><meta content='0; url=ie6.html' http-equiv='refresh' /><![endif]--> 
+  <link href="/TW/eService/learning/Content/MainCSS/normalize.css" rel="stylesheet"> 
+  <link href="/TW/eService/learning/Content/MainCSS/style.css" rel="stylesheet"> 
+  <link href="/TW/eService/learning/Content/MainCSS/homepage.css" rel="stylesheet"> 
+  <link href="/TW/eService/learning/Content/MainCSS/lessons.css" rel="stylesheet"> 
+  <link href="/TW/eService/learning/Content/MainCSS/resaultlist.css" rel="stylesheet"> 
+  <!--[if gte IE 9]><!--> 
+  <link href="/TW/eService/learning/Content/MainCSS/responsive.css" rel="stylesheet"> 
+  <link href="/TW/eService/learning/Content/MainCSS/component.css" rel="stylesheet"> 
+  <!--<![endif]--> 
+  <!--[if lt IE 9]>
+		    <script src="js/libs/html5.js"></script>
+		    <script src="js/libs/IE9.js" ></script>      
+		<![endif]--> 
+  <link href="/TW/eService/learning/Content/Site.css" rel="stylesheet"> 
+  <link href="/TW/eService/learning/Content/Pager.css" rel="stylesheet"> 
+  <title>ASUS 華碩數位學園</title> 
+  <!--[if lt IE 9]><!--> 
+  <!--<script src="/TW/eService/learning/Scripts/Main_JS/libs/jquery-1.10.2.min.js"></script>--> 
+  <!--<![endif]--> 
+  <!--[if gte IE 9]><!--> 
+  <script src="/TW/eService/learning/Scripts/Main_JS/libs/jquery-2.0.3.min.js"></script> 
+  <!--<![endif]--> 
+  <script src="/TW/eService/learning/bundles/jquery?v=4u3FkTrip-EvFfTalpJO8bog7X6G91hLmBGtdPMOl1k1"></script> 
+  <script src="/TW/eService/learning/bundles/jqueryui?v=EHft7nwilnDMnejvwTyEKn_C5lwIsN1M3Xyb8c9OmSQ1"></script> 
+  <script src="/TW/eService/learning/Scripts/Bootstrap/bootstrap.min.js"></script> 
+  <script src="/TW/eService/learning/Scripts/jquery.unobtrusive-ajax.min.js"></script> 
+  <script src="/TW/eService/learning/Scripts/ViewScript/Common.js"></script> 
+ </head> 
+ <body> 
+  <section id="wrap_content" class="cbp-spmenu-push"> 
+   <header role="banner" id="header-top"> 
+    <div class="inner"> 
+     <div class="asus-logo"> 
+      <a href="/TW/eService/learning/learning/course.aspx" class="page-title pull-left">華碩數位學園</a> 
+     </div> 
+     <nav role="navigation" id="ads-nav"> 
+      <a class="nav-section" href="/TW/eService/learning/NewsSite/News">最新消息 </a> 
+      <a class="nav-section" href="/TW/eService/learning/CourseOverview/CourseDetails?FilterDate=2016%2F10">最新上架課程 </a> 
+      <a class="nav-section menu-tab" id="nav-nb" href="#">筆電課程 </a> 
+      <a class="nav-section menu-tab" id="nav-nb" href="#">平板課程 </a> 
+      <a class="nav-section menu-tab" id="nav-nb" href="#">手機課程 </a> 
+      <a class="nav-section menu-tab" id="nav-nb" href="#">手錶課程 </a> 
+      <a class="nav-section menu-tab" id="nav-nb" href="#">更多 </a> 
+     </nav> 
+     <!--R-nav--> 
+     <div id="dl-menu" class="dl-menuwrapper"> 
+      <button class="dl-trigger">Open Menu</button> 
+      <ul class="dl-menu"> 
+       <li> <a href="/TW/eService/learning/NewsSite/News">最新消息 </a> </li> 
+       <li> <a href="/TW/eService/learning/CourseOverview/CourseDetails?FilterDate=2016%2F10">最新上架課程 </a> </li> 
+       <li> <a href="/TW/eService/learning/CourseOverview/CourseDetails?Category=Ca01">筆電課程 </a> 
+        <ul class="dl-submenu"> 
+         <li> <a href="/TW/eService/learning/CourseOverview/CourseDetails?Category=Ca01">課程總覽</a> </li> 
+         <li> <a href="/TW/eService/learning/CourseDetailList/CourseListDetail?CategoryID=Ca01">實體課程</a> </li> 
+         <li> <a href="/TW/eService/learning/OnlineCourse/OnlineCourseDetail?CategoryID=Ca01">線上課程</a> </li> 
+         <li> <a href="/TW/eService/learning/ProductTipSite/TipDetail?CategoryID=Ca01">產品使用小技巧</a> </li> 
+         <li> <a href="/TW/eService/learning/ApplyRole">課程報名規則</a> </li> 
+        </ul> </li> 
+       <li> <a href="/TW/eService/learning/CourseOverview/CourseDetails?Category=Ca02">平板課程 </a> 
+        <ul class="dl-submenu"> 
+         <li> <a href="/TW/eService/learning/CourseOverview/CourseDetails?Category=Ca02">課程總覽</a> </li> 
+         <li> <a href="/TW/eService/learning/CourseDetailList/CourseListDetail?CategoryID=Ca02">實體課程</a> </li> 
+         <li> <a href="/TW/eService/learning/OnlineCourse/OnlineCourseDetail?CategoryID=Ca02">線上課程</a> </li> 
+         <li> <a href="/TW/eService/learning/ProductTipSite/TipDetail?CategoryID=Ca02">產品使用小技巧</a> </li> 
+         <li> <a href="/TW/eService/learning/ApplyRole">課程報名規則</a> </li> 
+        </ul> </li> 
+       <li> <a href="/TW/eService/learning/CourseOverview/CourseDetails?Category=Ca03">手機課程 </a> 
+        <ul class="dl-submenu"> 
+         <li> <a href="/TW/eService/learning/CourseOverview/CourseDetails?Category=Ca03">課程總覽</a> </li> 
+         <li> <a href="/TW/eService/learning/CourseDetailList/CourseListDetail?CategoryID=Ca03">實體課程</a> </li> 
+         <li> <a href="/TW/eService/learning/OnlineCourse/OnlineCourseDetail?CategoryID=Ca03">線上課程</a> </li> 
+         <li> <a href="/TW/eService/learning/ProductTipSite/TipDetail?CategoryID=Ca03">產品使用小技巧</a> </li> 
+         <li> <a href="/TW/eService/learning/ApplyRole">課程報名規則</a> </li> 
+        </ul> </li> 
+       <li> <a href="/TW/eService/learning/CourseOverview/CourseDetails?Category=Ca04">手錶課程 </a> 
+        <ul class="dl-submenu"> 
+         <li> <a href="/TW/eService/learning/CourseOverview/CourseDetails?Category=Ca04">課程總覽</a> </li> 
+         <li> <a href="/TW/eService/learning/CourseDetailList/CourseListDetail?CategoryID=Ca04">實體課程</a> </li> 
+         <li> <a href="/TW/eService/learning/OnlineCourse/OnlineCourseDetail?CategoryID=Ca04">線上課程</a> </li> 
+         <li> <a href="/TW/eService/learning/ProductTipSite/TipDetail?CategoryID=Ca04">產品使用小技巧</a> </li> 
+         <li> <a href="/TW/eService/learning/ApplyRole">課程報名規則</a> </li> 
+        </ul> </li> 
+       <li> <a href="/TW/eService/learning/ScenarioShot?Category=Ca03">更多 </a> 
+        <ul class="dl-submenu"> 
+         <li> <a onclick="checkCookie();">查詢已報名課程</a> </li> 
+         <li> <a href="/TW/eService/learning/ScenarioShot">課後花絮</a> </li> 
+        </ul> </li> 
+      </ul> 
+     </div> 
+     <!--R-nav--> 
+    </div> 
+    <!--dropdownM start--> 
+    <div id="dropdown_box"> 
+     <div data-target="null" class="dropdownmenu"> 
+      <div class="dd-inner"> 
+       <a href="/TW/eService/learning/CourseOverview/CourseDetails?Category=Ca01">課程總覽</a> 
+       <a href="/TW/eService/learning/CourseDetailList/CourseListDetail?CategoryID=Ca01">實體課程</a> 
+       <a href="/TW/eService/learning/OnlineCourse/OnlineCourseDetail?CategoryID=Ca01">線上課程</a> 
+       <a href="/TW/eService/learning/ProductTipSite/TipDetail?CategoryID=Ca01">產品使用小技巧</a> 
+       <a href="/TW/eService/learning/ApplyRole">課程報名規則</a> 
+      </div> 
+     </div> 
+     <div data-target="null" class="dropdownmenu"> 
+      <div class="dd-inner"> 
+       <a href="/TW/eService/learning/CourseOverview/CourseDetails?Category=Ca02">課程總覽</a> 
+       <a href="/TW/eService/learning/CourseDetailList/CourseListDetail?CategoryID=Ca02">實體課程</a> 
+       <a href="/TW/eService/learning/OnlineCourse/OnlineCourseDetail?CategoryID=Ca02">線上課程</a> 
+       <a href="/TW/eService/learning/ProductTipSite/TipDetail?CategoryID=Ca02">產品使用小技巧</a> 
+       <a href="/TW/eService/learning/ApplyRole">課程報名規則</a> 
+      </div> 
+     </div> 
+     <div data-target="null" class="dropdownmenu"> 
+      <div class="dd-inner"> 
+       <a href="/TW/eService/learning/CourseOverview/CourseDetails?Category=Ca03">課程總覽</a> 
+       <a href="/TW/eService/learning/CourseDetailList/CourseListDetail?CategoryID=Ca03">實體課程</a> 
+       <a href="/TW/eService/learning/OnlineCourse/OnlineCourseDetail?CategoryID=Ca03">線上課程</a> 
+       <a href="/TW/eService/learning/ProductTipSite/TipDetail?CategoryID=Ca03">產品使用小技巧</a> 
+       <a href="/TW/eService/learning/ApplyRole">課程報名規則</a> 
+      </div> 
+     </div> 
+     <div data-target="null" class="dropdownmenu"> 
+      <div class="dd-inner"> 
+       <a href="/TW/eService/learning/CourseOverview/CourseDetails?Category=Ca04">課程總覽</a> 
+       <a href="/TW/eService/learning/CourseDetailList/CourseListDetail?CategoryID=Ca04">實體課程</a> 
+       <a href="/TW/eService/learning/OnlineCourse/OnlineCourseDetail?CategoryID=Ca04">線上課程</a> 
+       <a href="/TW/eService/learning/ProductTipSite/TipDetail?CategoryID=Ca04">產品使用小技巧</a> 
+       <a href="/TW/eService/learning/ApplyRole">課程報名規則</a> 
+      </div> 
+     </div> 
+     <div data-target="null" class="dropdownmenu"> 
+      <div class="dd-inner"> 
+       <a onclick="checkCookie();">查詢已報名課程</a> 
+       <a href="/TW/eService/learning/ScenarioShot">課後花絮 </a> 
+      </div> 
+     </div> 
+    </div> 
+    <!--dropdownM end--> 
+   </header> 
+   <section id="index-top-banner"> 
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"> 
+     <!-- Indicators --> 
+     <ol class="carousel-indicators "> 
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li> 
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li> 
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li> 
+     </ol> 
+     <!-- Wrapper for slides --> 
+     <div class="carousel-inner" role="listbox"> 
+      <div class="item banner-area active" style="cursor: pointer ;
+                                               background-image: url(https://mercury.asus.com/learnadmin/Content/UploadImg/Banner/20161014150109.PNG)" ; onclick="location.href='https://goo.gl/fBLLLv';"> 
+      </div> 
+      <div class="item banner-area" style="cursor: pointer ;
+                                                background-image: url(https://mercury.asus.com/learnadmin/Content/UploadImg/Banner/banner_3.jpg)" ; onclick="location.href='https://goo.gl/fBLLLv';"> 
+      </div> 
+      <div class="item banner-area" style="cursor: pointer ;
+                                                background-image: url(https://mercury.asus.com/learnadmin/Content/UploadImg/Banner/20160305001509.jpg)" ; onclick="location.href='https://goo.gl/fBLLLv';"> 
+      </div> 
+     </div> 
+     <!-- Controls --> 
+     <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"> <span class="sr-only">Previous</span> </a> 
+     <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"> <span class="sr-only">Next</span> </a> 
+    </div> 
+   </section> 
+   <script type="text/javascript">
+
+    $(function () {
+        $(".video_mask img").each(function () {
+
+            var alt = $(this).attr("alt");
+
+            if (alt) {
+
+                $($(this).parent()).append('<div class="img_alt">' + alt + '</div>');
+            }
+
+        });
+    });
+</script> 
+   <main role="main" class="wrapper main-bg "> 
+    <div class="inner"> 
+     <div class="real-lesson"> 
+      <span class="section-title">實體課程</span> 
+      <a class="learn-more sec-more-fs" href="/TW/eService/learning/CourseDetailList/CourseListDetail?Vis=00">課程總覽</a> 
+     </div> 
+     <div class="rl-lesson-box"> 
+      <ul class="rl-lesson-box-content"> 
+       <li> 
+        <div class="le-image"> 
+         <img style="width:95px;height:95px;" src="https://mercury.asus.com/learnadmin/Content/UploadImg/Course/20161014150109.jpg"> 
+        </div> 
+        <div class="le-detail"> 
+         <p class="lesson-date"> 2016 年 11 月份課程 </p> 
+         <a href="/TW/eService/learning/CourseDetailList/CourseContent?CourseGuid=f9a3d00f-1f53-4da2-acb3-3db9c87f8af9"> <h2 class="lesson-title">Zenvolution 玩美體驗會</h2> </a> 
+         <p class="lesson-desc" style="white-space:normal;">對質感無比追求的您，獻給您一場「玩美體驗」！ 華碩數位學園邀請您一同參與Zenvolution饗宴玩美體驗！ ASUS最新的年度驚艷之作：ZenBook 3、Transformer 3 Pro、ZenPad 3S 10、ZenWatch 2與全系列ZenFone 3 智慧型手機。 玩美體驗會讓您率先體驗最新輕薄時尚機種ZenBook 3，不但能親手體驗觸摸它絕美的工藝設計外型，感受玫瑰金/石英灰潮流撞色調的時尚吸睛潮流 ; 變形筆電人氣王就屬ASUS Transformer 3 Pro，想怎麼玩怎麼體驗隨您來現場感受喔！ 另外，想體驗最新的反向充電與大容量電池續航力的話，絕不能錯過最新的ZenFone 3 Max，與好評不斷的ZenFone 3 Deluxe手機極致之作，全金屬鑽石切割機身，搭配世界首創隱形天線設計，外型完美展現優雅裸時尚！ 而當您拿起9.7吋的ZenPad 3S 10時，2048 x 1536 解析度與劇院級喇叭，讓您瞬間掉入身歷其境般的視覺、聽覺之旅。 穿戴裝置正夯！ ZenWatch 2除了是全能智慧助理，外型更可隨心所欲選擇多達60種設計錶面，讓科技一躍成為您品味生活的時尚精品。 所有的玩美體驗，我們都準備好在這裡等您親臨現場囉！ 名額有限，欲報從速喔！趕緊揪身邊的好友家人愛人一同前往吧～</p> 
+         <a href="/TW/eService/learning/CourseDetailList/CourseContent?CourseGuid=f9a3d00f-1f53-4da2-acb3-3db9c87f8af9" class="learn-more1 learn-more2 lesson-more" style="font-size:1.5em">我要報名</a> 
+        </div> </li> 
+       <li> 
+        <div class="le-image"> 
+         <img style="width:95px;height:95px;" src="https://mercury.asus.com/learnadmin/Content/UploadImg/Course/20160726115954.jpg"> 
+        </div> 
+        <div class="le-detail"> 
+         <p class="lesson-date"> 2016 年 8 月份課程 </p> 
+         <a href="/TW/eService/learning/CourseDetailList/CourseContent?CourseGuid=4e0d0a1b-bfe1-4686-a6d6-732689449ba8"> <h2 class="lesson-title">Zenvolution。真體驗 新品體驗會</h2> </a> 
+         <p class="lesson-desc" style="white-space:normal;">Zenvolution “ 真 “ Zen體驗會， 質感，只給懂得生活品味享受的你！華碩數位學園邀請您率先來「真體驗」Transformer 3 Pro和 ZenFone 3 的極致之美！源自於自然之美的細膩設計之作終於誕生～令人期待已久的新美學機，ASUS的年度重量級鉅作-Zen 3 系列產品終於隆重登場！ 實際體驗Transformer 3 Pro如何帶來更驚豔的筆電使用方式，你/妳可以親眼感受，二合一變形筆電之王 Transformer 3 Pro ，一機在手工作娛樂一次搞定的電競等級速度感！你/妳可以，親手體驗，ZenFone 3 首創專屬手機攝影的三混對焦，只要 0.03 秒，就能拍出你/妳心中的完美畫面。這些『真實』極致感，只有親臨現場才能親身體會！所有真Zen體驗，都準備好帶給你/妳驚艷感受！Zen 體驗，就等你真的來體驗！心動嗎！所有場次都名額有限！火速快來報名囉！ </p> 
+         <a href="/TW/eService/learning/CourseDetailList/CourseContent?CourseGuid=4e0d0a1b-bfe1-4686-a6d6-732689449ba8" class="learn-more1 learn-more2 lesson-more" style="font-size:1.5em">我要報名</a> 
+        </div> </li> 
+       <li> 
+        <div class="le-image"> 
+         <img style="width:95px;height:95px;" src="https://mercury.asus.com/learnadmin/Content/UploadImg/Course/NB_Default.jpg"> 
+        </div> 
+        <div class="le-detail"> 
+         <p class="lesson-date"> 2016 年 6 月份課程 </p> 
+         <a href="/TW/eService/learning/CourseDetailList/CourseContent?CourseGuid=654df70d-2a0b-462d-b8b1-a6494228a530"> <h2 class="lesson-title">華碩筆記型電腦體驗會</h2> </a> 
+         <p class="lesson-desc" style="white-space:normal;">六月是許多莘莘學子踏入社會轉為職場新鮮人時刻，不論你是哪一種筆電愛好者，一台好筆電能讓你生活工作都更加得心應手！該如何選擇最適合的筆電當你的好幫手，可會對生活與工作有相當大的影響喔！快趁著週末時光，來華碩數位學園聽聽講師們的現身實際傳授選筆電的訣竅，從溫馨提供的筆電選擇必備小提醒。教你如何運用最少的時間，挑到最適合你的筆電，又如何能在工作生活幫助你，快來數位學園加入我們的活動行列！趕緊來報名卡位吧！</p> 
+         <a href="/TW/eService/learning/CourseDetailList/CourseContent?CourseGuid=654df70d-2a0b-462d-b8b1-a6494228a530" class="learn-more1 learn-more2 lesson-more" style="font-size:1.5em">我要報名</a> 
+        </div> </li> 
+      </ul> 
+     </div> 
+     <div class="rl-lesson-box no-border"> 
+      <ul class="rl-lesson-box-content"> 
+       <li> 
+        <div class="le-image"> 
+         <img style="width:95px;height:95px;" src="https://mercury.asus.com/learnadmin/Content/UploadImg/Course/Others.jpg"> 
+        </div> 
+        <div class="le-detail"> 
+         <p class="lesson-date"> 2016 年 6 月份課程 </p> 
+         <a href="/TW/eService/learning/CourseDetailList/CourseContent?CourseGuid=151cd6a3-cf94-4aa6-8079-330189ad779a"> <h2 class="lesson-title">3C一同旅遊去</h2> </a> 
+         <p class="lesson-desc" style="white-space:normal;">台灣擁有富饒資源與美妙的景色與美食！但你知道該去哪裡好好玩？哪裡好好吃？又有哪些私人美景可以捕捉嗎？行程規劃的功課該怎麼安排？筆電、手機、平板又能如何完美輔助搭配，華碩數位學園，這次要與你分享3C旅遊的小秘密，告訴你如何一機在手，旅遊行程一手搞定的好招！趁夏季輕鬆出遊，就讓智慧裝置充當你的專屬私人行程導遊吧！其餘的，就負責好好放鬆玩樂，玩的心無限，名額卻有限，趕快揪人一同來報名吧！</p> 
+         <a href="/TW/eService/learning/CourseDetailList/CourseContent?CourseGuid=151cd6a3-cf94-4aa6-8079-330189ad779a" class="learn-more1 learn-more2 lesson-more " style="font-size:1.5em">我要報名</a> 
+        </div> </li> 
+       <li> 
+        <div class="le-image"> 
+         <img style="width:95px;height:95px;" src="https://mercury.asus.com/learnadmin/Content/UploadImg/Course/Phone_Default.jpg"> 
+        </div> 
+        <div class="le-detail"> 
+         <p class="lesson-date"> 2016 年 5 月份課程 </p> 
+         <a href="/TW/eService/learning/CourseDetailList/CourseContent?CourseGuid=14c4042e-a2e4-4cd8-984a-70997469c531"> <h2 class="lesson-title">我的ZenFone走走神拍小旅行</h2> </a> 
+         <p class="lesson-desc" style="white-space:normal;">瘋狂玩樂，走出戶外的繽紛夏天即將到來。熱情的陽光，美好的景色，該怎麼拍，才能拍好的、拍的瘦，又拍出自己風格呢！？這個月華碩數位學園，將帶您一次拍出心中的理想的好照片，無論是好用的拍照小技巧、構圖SOP、就讓今年的夏天記憶，用你的手機拍好拍滿，拍的輕輕鬆鬆，無負擔。 </p> 
+         <a href="/TW/eService/learning/CourseDetailList/CourseContent?CourseGuid=14c4042e-a2e4-4cd8-984a-70997469c531" class="learn-more1 learn-more2 lesson-more " style="font-size:1.5em">我要報名</a> 
+        </div> </li> 
+       <li> 
+        <div class="le-image"> 
+         <img style="width:95px;height:95px;" src="https://mercury.asus.com/learnadmin/Content/UploadImg/Course/NB_Default.jpg"> 
+        </div> 
+        <div class="le-detail"> 
+         <p class="lesson-date"> 2016 年 5 月份課程 </p> 
+         <a href="/TW/eService/learning/CourseDetailList/CourseContent?CourseGuid=dfd3fdda-d8ee-411a-b107-1775b2750b8b"> <h2 class="lesson-title">華碩筆記型電腦體驗會</h2> </a> 
+         <p class="lesson-desc" style="white-space:normal;">筆電選擇大解密，你知道，哪一款筆電超適合玩樂，哪一款筆電工作效益是最好的，哪一款工作娛樂都超無敵。該怎麼選、該怎麼挑，能讓你的生活娛樂都開心的不得了，數位學園的講師們將針對您的需求，解密該怎麼挑，怎麼選讓你荷包安心，使用上超開心。我們也將為您整理最方便的使用小撇步，讓你秒變電腦達人。溫暖的五月天，就別窩在家裡了，起身來數位學園，輕鬆學習秒變電腦達人吧！</p> 
+         <a href="/TW/eService/learning/CourseDetailList/CourseContent?CourseGuid=dfd3fdda-d8ee-411a-b107-1775b2750b8b" class="learn-more1 learn-more2 lesson-more " style="font-size:1.5em">我要報名</a> 
+        </div> </li> 
+      </ul> 
+     </div> 
+    </div> 
+   </main> 
+   <section class="wrapper"> 
+    <div class="inner"> 
+     <div class="two-column"> 
+      <div class="online-lesson"> 
+       <span class="section-title">線上課程</span> 
+       <a class="learn-more sec-more-fs" href="/TW/eService/learning/OnlineCourse/OnlineCourseDetail?CategoryID=Ca01">課程總覽</a> 
+      </div> 
+      <div class="ol-videos"> 
+       <li class="ol-videos-area"> 
+        <ul class="videos-list"> 
+         <li class="video-btn"> <a href="/TW/eService/learning/OnlineCourse/OnlineLesson?CourseGuid=2705d396-8f15-4e58-a326-89fe55298632"> <span class="video_mask"> <img src="http://img.youtube.com/vi/yXLMzwmv24M/0.jpg "> </span> <p class="video-title">華碩 ZenFone 2---如何製作手機截圖 </p> </a> </li> 
+         <li class="video-btn"> <a href="/TW/eService/learning/OnlineCourse/OnlineLesson?CourseGuid=16072aac-d42f-46f3-a1c5-70ec63e138af"> <span class="video_mask"> <img src="http://img.youtube.com/vi/jCImI-qNf5k/0.jpg "> </span> <p class="video-title">華碩筆記型電腦---Windows 10 資料夾界面新功能--快速存取 </p> </a> </li> 
+         <li class="video-btn"> <a href="/TW/eService/learning/OnlineCourse/OnlineLesson?CourseGuid=4e4c800c-0f24-4629-9aed-13bdeeeac71d"> <span class="video_mask"> <img src="http://img.youtube.com/vi/E-n1CnlZksE/0.jpg "> </span> <p class="video-title">華碩筆記型電腦---Windows 10 資料夾界面--如何設定「檔案總管」在「本機」頁面 </p> </a> </li> 
+         <li class="video-btn"> <a href="/TW/eService/learning/OnlineCourse/OnlineLesson?CourseGuid=9de44d56-9ee8-48e7-a642-a1c6499e4cc5"> <span class="video_mask"> <img src="http://img.youtube.com/vi/dY7sM9jKIKc/0.jpg "> </span> <p class="video-title">華碩筆記型電腦 --- Windows 10 Edge 瀏覽器 </p> </a> </li> 
+         <li class="video-btn"> <a href="/TW/eService/learning/OnlineCourse/OnlineLesson?CourseGuid=8bae8143-6ba1-4e08-bc89-24ba33759108"> <span class="video_mask"> <img src="http://img.youtube.com/vi/Qt_RffScQmg/0.jpg "> </span> <p class="video-title">華碩筆電產品---Windows 10市集操作 </p> </a> </li> 
+         <li class="video-btn"> <a href="/TW/eService/learning/OnlineCourse/OnlineLesson?CourseGuid=da236bb0-acf4-466b-be83-5c8d849e6c23"> <span class="video_mask"> <img src="http://img.youtube.com/vi/VoQerDUPBhY/0.jpg "> </span> <p class="video-title">華碩 ZenFone 2 --- 自啟動管理 </p> </a> </li> 
+        </ul> </li> 
+      </div> 
+     </div> 
+     <div class="mid-line"></div> 
+     <div class="two-column"> 
+      <div class="online-lesson"> 
+       <span class="section-title">產品小技巧</span> 
+       <a class="learn-more sec-more-fs" href="/TW/eService/learning/ProductTipSite/TipDetail">查看更多文章</a> 
+      </div> 
+      <div class="skill-list"> 
+       <a href="/TW/eService/learning/ProductTipSite/TipLession?TipGuid=19a12992-4516-4f1e-8505-7235263d2ac5" class="skill-topic"> 華碩 ZenWatch 2---如何用 ZenWatch 2 的 Wifi 功能與手機連接 </a> 
+       <a href="/TW/eService/learning/ProductTipSite/TipLession?TipGuid=8a4a09f0-c4a1-4b46-bb2a-af6ceb810d91" class="skill-topic"> ZenWatch 2 如何使用 Android Wear 或 華碩手錶管理大師（ZenWatch Manager）來更換錶面及客製化設定 </a> 
+       <a href="/TW/eService/learning/ProductTipSite/TipLession?TipGuid=d1dc264a-6018-423b-a0ff-db35fe1281eb" class="skill-topic"> 華碩 ZenWatch 2---如何用 ZenWatch 2 讀取電子郵件或 Line 並回覆 </a> 
+       <a href="/TW/eService/learning/ProductTipSite/TipLession?TipGuid=31cdcb1c-5400-490f-8e3b-e4212378baa1" class="skill-topic"> ZenWatch 2 如何直接更換錶面 </a> 
+       <a href="/TW/eService/learning/ProductTipSite/TipLession?TipGuid=79d00547-9d0c-45fe-b960-ec7ca0e165cd" class="skill-topic"> 華碩 ZenWatch 2---如何用 ZenWatch 2 操控手機拍照（ZenWatch遙控相機） </a> 
+       <a href="/TW/eService/learning/ProductTipSite/TipLession?TipGuid=51479eea-bbdb-47f7-aaec-cad6653e94f7" class="skill-topic"> 華碩 ZenWatch 2---如何喚醒 ZenWatch 2 與設定睡眠模式（Theater mode） </a> 
+       <a href="/TW/eService/learning/ProductTipSite/TipLession?TipGuid=d0deaa33-06c2-44df-9e39-787c558bc1ab" class="skill-topic"> 華碩 ZenWatch 2---如何用 ZenWatch 2 設定睡眠追蹤（SleepTracker） </a> 
+       <a href="/TW/eService/learning/ProductTipSite/TipLession?TipGuid=28187f30-f076-4aac-9231-3c88f3e0dd40" class="skill-topic"> ZenWatch 2 之如何更換錶帶 </a> 
+       <a href="/TW/eService/learning/ProductTipSite/TipLession?TipGuid=924befb8-3897-4db9-abf6-b3be4322ec15" class="skill-topic"> ASUS ZenBook Pro UX501超強大！讓你easy玩專業！專訪PM開發故事 </a> 
+       <a href="/TW/eService/learning/ProductTipSite/TipLession?TipGuid=8bb60b0b-7fe9-443b-ad50-b8af1cf4c084" class="skill-topic"> ZenWatch 2 之如何與手機配對 </a> 
+      </div> 
+     </div> 
+     <div class="ads-news"> 
+      <a href="/TW/eService/learning/NewsSite/Newspage?nid=126"> 
+       <div class="sub-sec-title">
+        最新消息與公告
+       </div> 
+       <div class="sub-sec-date">
+        2016/10/16
+       </div> 
+       <div class="sub-sec-desc">
+        華碩數位學園 --8月份 Zenvolution。真體驗新品體驗會抽獎得獎公告 
+       </div> </a> 
+      <a href="/TW/eService/learning/NewsSite/News" class="lesson-more news-more">更多最新消息與公告</a> 
+     </div> 
+     <section class="ads-features "> 
+      <div class="features-list"> 
+       <a class="features-content" href="https://www.facebook.com/asusclub.tw"> <img src="http://www.asus.com/TW/eService/learning/Content/Images/fb.jpg"> <span>ASUS Taiwan 粉絲團</span> </a> 
+       <a class="features-content" href="https://www.facebook.com/asus.learning.tw"> <img src="http://www.asus.com/TW/eService/learning/Content/Images/fb.jpg"> <span>華碩數位學園 粉絲團</span> </a> 
+       <a class="features-content" href="https://play.google.com/store/apps/details?id=com.asus.ia.asusapp&amp;hl=zh_TW"> <img src="http://www.asus.com/TW/eService/learning/Content/Images/myasus.jpg"> <span class="feature-items">MyASUS 華碩維修、<br> 皇家客服</span> </a> 
+       <a class="features-content" href="https://www.youtube.com/user/asustwn"> <img src="http://www.asus.com/TW/eService/learning/Content/Images/youtube.jpg"> <span class="feature-items">ASUS Taiwan<br> Youtube Channel</span> </a> 
+       <a class="features-content" href="http://shop.asus.com/tw"> <img src="http://www.asus.com/TW/eService/learning/Content/Images/shop.jpg"> <span class="feature-items">ASUS Store<br> ASUS eShop</span> </a> 
+      </div> 
+     </section> 
+    </div> 
+   </section> 
+   <footer id="footer" role="contentinfo"> 
+    <div class="inner"> 
+    </div> 
+   </footer> 
+  </section> 
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5465d185536f830e" async></script> 
+  <script type="text/javascript">
+
+         //window.ASUSInit = function () { asus_api.init({ appkey: 'test000002', lang: 'tw', api_layout: '1' }); };
+         window.ASUSInit = function () { asus_api.init({ appkey: 'learning01', lang: 'tw', api_layout: '1' }); };
+         (function (d) {
+             var js, id = 'asus-jsapi';
+             if (d.getElementById("asus-jsapi")) { return; }
+             js = d.createElement('script');
+             js.id = id;
+             js.async = true;
+             js.src = "//www.asus.com/API/js/asus_api.js";
+             //js.src = "//test.asus.com/API/js/asus_api_v2.js";
+             d.getElementsByTagName('head')[0].appendChild(js);
+         }(document));
+
+         /* callback function */
+         //function successCallback(){
+         //       $("#af-header").prependTo("#wrap_content");
+         //       $("#asus-api-footer").appendTo("#wrap_content");
+         //}
+
+    </script> 
+  <script>
+
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-56516578-1', 'auto');
+        ga('require', 'displayfeatures');
+        ga('require', 'linkid', 'linkid.js');
+        ga('send', 'pageview');
+
+</script> 
+  <!--R-nav--> 
+  <script src="/TW/eService/learning/Scripts/Main_JS/modernizr.custom.js"></script> 
+  <script src="/TW/eService/learning/Scripts/Main_JS/jquery.dlmenu.js"></script> 
+  <script src="/TW/eService/learning/Scripts/Main_JS/dropdown.js"></script> 
+  <script>
+		    $(function () {
+		        $('#dl-menu').dlmenu();
+
+		    });
+
+		    $(window).load(function () {
+		        
+		        successCallback();
+
+		    });
+            
+		    function successCallback() {
+		        $("#af-header").prependTo("#wrap_content");
+		        $("#asus-api-footer").appendTo("#wrap_content");
+		        $("#_atssh").appendTo("#wrap_content");
+		        $("#showLeftPush").attr("style", "top:90px");
+		    }
+
+		</script> 
+  <!--R-nav-->   
+ </body>
+</html>

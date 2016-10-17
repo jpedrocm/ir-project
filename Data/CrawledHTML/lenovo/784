@@ -1,0 +1,214 @@
+<html>
+ <head>
+  <style>
+    .accordion, .accordion * {
+    -webkit-box-sizing:border-box; 
+    -moz-box-sizing:border-box; 
+    box-sizing:border-box;
+}
+ 
+.accordion {
+    overflow:hidden;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.25);
+    border-radius:3px;
+    background:#f7f7f7;
+}
+ 
+.accordion-section-title {
+    width: 100%;
+    padding: 15px;
+    display: inline-block;
+    border-bottom: 1px solid #DBDBDB;
+    background: #EEE;
+    transition: all linear 0.15s;
+    font-size: 14px;
+    color: #fff;
+}
+ 
+.accordion-section-title.active, .accordion-section-title:hover {
+    background: #E5E5E5;
+    text-decoration: none;
+}
+ 
+.accordion-section:last-child .accordion-section-title {
+    border-bottom:none;
+}
+
+.accordion-section-content {
+    padding:15px;
+    display:none;
+}
+</style> 
+  <script>
+$(document).ready(function() {
+    function close_accordion_section() {
+        $('.accordion .accordion-section-title').removeClass('active');
+        $('.accordion .accordion-section-content').slideUp(300).removeClass('open');
+    }
+ 
+    $('.accordion-section-title').click(function(e) {
+        
+        var currentAttrValue = $(this).attr('href');
+ 
+        if($(e.target).is('.active')) {
+            close_accordion_section();
+        }else {
+            close_accordion_section();
+ 
+            $(this).addClass('active');
+
+            $('.accordion ' + currentAttrValue).slideDown(300).addClass('open'); 
+        }
+ 
+        e.preventDefault();
+    });
+});
+
+</script> 
+ </head>
+ <body>
+  <div class="faq" id="top"> 
+   <h2>FAQ:</h2> 
+   <div class="accordion"> 
+    <div class="accordion-section"> 
+     <a class="accordion-section-title" href="#accordion-1"> <strong>Does it cost me anything to become a Lenovo US/CA affiliate? </strong> </a> 
+     <div id="accordion-1" class="accordion-section-content"> 
+      <p>No! It's absolutely free to become a Lenovo US/ CA affiliate partner.</p> 
+     </div> 
+    </div> 
+    <div class="accordion-section"> 
+     <a class="accordion-section-title" href="#accordion-2"> <strong>Can a website outside the US be an affiliate?</strong> </a> 
+     <div id="accordion-2" class="accordion-section-content"> 
+      <p>Yes. However, our online Lenovo stores are geographically located to serve customers in over 160 countries and will only ship orders to customers in those countries, with a valid form of payment in that country. Reporting will be provided in the currency of your choice during account set up. You will also be paid out in that currency. Please note that getting paid through PayPal is available through Impact Radius only in the following currencies: USD, EUR, GBP, and AUD.</p> 
+     </div> 
+    </div> 
+    <div class="accordion-section"> 
+     <a class="accordion-section-title" href="#accordion-3"> <strong>I operate more than one website. Can I still be an affiliate?</strong> </a> 
+     <div id="accordion-3" class="accordion-section-content"> 
+      <p> Absolutely! You can have one Lenovo affiliate account that includes all of your sites. You can track the results from each of your sites separately and be paid with only one commission check. </p> 
+     </div> 
+    </div> 
+    <div class="accordion-section"> 
+     <a class="accordion-section-title" href="#accordion-4"> <strong>How do I sign up?</strong> </a> 
+     <div id="accordion-4" class="accordion-section-content"> 
+      <p> First, select the Join Now for Free Button! Whether or not you have an account on Impact Radius you must complete and submit the online application form. There is a radio button at the top of the online application form for you to enter your Impact Radius account ID if you have one. If not, you must complete the application, being sure to select your appropriate country and the currency you wish to see reporting and be paid in. Note: Currency cannot be changed after account is live. You will create your own username and password. After you submit your application, you need to validate your e-mail address. When your account is live and ready to be used: </p> 
+      <p> Ø Enter your username and password to login in to your Impact Radius affiliate account at <a href="https://member.impactradius.com/login.user">https://</a> <a href="https://member.impactradius.com/login.user">member.impactradius.com/login.user</a> </p> 
+      <p> Ø You will see a Tracking Link Generator on your dashboard. Use this tool if you wish to create your own deep links </p> 
+      <p> Ø Navigate to Ads from the top menu to find specific Lenovo ads (“Search Ads”), our full product catalog (“Product Catalogs”) or search for specific items to get links for (“Products”) </p> 
+      <p> Ø Go to Finance &gt;&gt; Withdrawal Settings from the top menu to make sure your payment settings are as you wish them to be. </p> 
+     </div> 
+    </div> 
+    <div class="accordion-section"> 
+     <a class="accordion-section-title" href="#accordion-5"> <strong>How does the program work?</strong> </a> 
+     <div id="accordion-5" class="accordion-section-content"> 
+      <p> The Lenovo Affiliate Program allows you to make money by referring customers to our website. You do this by placing links on your site. Every time you refer a customer to us and that customer makes a purchase, you earn a commission. Every month, Impact Radius on behalf of the Lenovo Affiliate program will send you a check for the amount your site earned. It's that easy! </p> 
+     </div> 
+    </div> 
+    <div class="accordion-section"> 
+     <a class="accordion-section-title" href="#accordion-6"> <strong>Is my website eligible to become an affiliate?</strong> </a> 
+     <div id="accordion-6" class="accordion-section-content"> 
+      <p> Most sites will qualify to participate in the program. We do reserve the right to refuse membership to a site or revoke a site's membership at any time if we deem that it contains objectionable material. For more detailed information on Lenovo’s right to terminate an affiliate partner, please see the Lenovo Affiliate Program Terms and Conditions upon membership. </p> 
+     </div> 
+    </div> 
+    <div class="accordion-section"> 
+     <a class="accordion-section-title" href="#accordion-7"> <strong>Is my website eligible to become an affiliate?</strong> </a> 
+     <div id="accordion-7" class="accordion-section-content"> 
+      <p> Most sites will qualify to participate in the program. We do reserve the right to refuse membership to a site or revoke a site's membership at any time if we deem that it contains objectionable material. For more detailed information on Lenovo’s right to terminate an affiliate partner, please see the Lenovo Affiliate Program Terms and Conditions upon membership. </p> 
+     </div> 
+    </div> 
+    <div class="accordion-section"> 
+     <a class="accordion-section-title" href="#accordion-8"> <strong>What are my responsibilities an as affiliate?</strong> </a> 
+     <div id="accordion-8" class="accordion-section-content"> 
+      <p> The only thing you are responsible for is using the automatic tag generator that creates HTML for you to create and place links (banners/text/content) on your site where they will be optimized to generate traffic to Lenovo.com. </p> 
+     </div> 
+    </div> 
+    <div class="accordion-section"> 
+     <a class="accordion-section-title" href="#accordion-10"> <strong>What if I operate more than one website?</strong> </a> 
+     <div id="accordion-10" class="accordion-section-content"> 
+      <p> You can have multiple sites under one affiliate account. You can create links specifically for each site and generate separate reports for each site. You will receive one commission check for all sites. </p> 
+     </div> 
+    </div> 
+    <div class="accordion-section"> 
+     <a class="accordion-section-title" href="#accordion-11"> <strong>Will becoming an affiliate increase traffic to my site?</strong> </a> 
+     <div id="accordion-11" class="accordion-section-content"> 
+      <p> Participating in the Lenovo Affiliate Program can help increase traffic to your site. Offering your visitors direct links to products and services available at Lenovo may encourage them to visit repeatedly. </p> 
+     </div> 
+    </div> 
+    <div class="accordion-section"> 
+     <a class="accordion-section-title" href="#accordion-12"> <strong>How do I create links?</strong> </a> 
+     <div id="accordion-12" class="accordion-section-content"> 
+      <p> There is an automatic tag generator that creates HTML you can cut and paste into your website. It is so easy to use, even beginners can create links in seconds. The tag generator allows you to create hundreds of types of links to Lenovo products. </p> 
+     </div> 
+    </div> 
+    <div class="accordion-section"> 
+     <a class="accordion-section-title" href="#accordion-13"> <strong>Where should I place the links on my site?</strong> </a> 
+     <div id="accordion-13" class="accordion-section-content"> 
+      <p> You should place links where they are easy for site visitors to find. Consider placing links on your home page, navigation bar, and any other high-traffic areas. If you place the links in an easily accessible location on your site, visitors will be more likely to make a purchase. </p> 
+     </div> 
+    </div> 
+    <div class="accordion-section"> 
+     <a class="accordion-section-title" href="#accordion-14"> <strong>How often should I update my links?</strong> </a> 
+     <div id="accordion-14" class="accordion-section-content"> 
+      <p> You should update links to our products frequently. We are constantly adding new products, so you should create new links that fit the interests of your visitors. </p> 
+     </div> 
+    </div> 
+    <div class="accordion-section"> 
+     <a class="accordion-section-title" href="#accordion-15"> <strong>How often should I update my links?</strong> </a> 
+     <div id="accordion-15" class="accordion-section-content"> 
+      <p> You should update links to our products frequently. We are constantly adding new products, so you should create new links that fit the interests of your visitors. </p> 
+     </div> 
+    </div> 
+    <div class="accordion-section"> 
+     <a class="accordion-section-title" href="#accordion-16"> <strong>How much can I earn?</strong> </a> 
+     <div id="accordion-16" class="accordion-section-content"> 
+      <p> How much revenue your site generates per Lenovo.com product will determine the amount of commission you will earn. Lenovo offers up to 5% of sale on Home/Home Office and Professional products. </p> 
+     </div> 
+    </div> 
+    <div class="accordion-section"> 
+     <a class="accordion-section-title" href="#accordion-17"> <strong>How do I know how much commission I've earned?</strong> </a> 
+     <div id="accordion-17" class="accordion-section-content"> 
+      <p> Through the Lenovo Affiliate Program within Impact Radius, you can access reports — updated every two hours — that provides information on click-throughs, orders, shipments, pending commission and commissions earned and other applicable metrics. </p> 
+     </div> 
+    </div> 
+    <div class="accordion-section"> 
+     <a class="accordion-section-title" href="#accordion-18"> <strong>How often do I get paid?</strong> </a> 
+     <div id="accordion-18" class="accordion-section-content"> 
+      <p> Lenovo pays affiliates based on monthly transactions. For more detailed information on payment, please refer to the Lenovo Affiliate Program Terms and Conditions. </p> 
+     </div> 
+    </div> 
+    <div class="accordion-section"> 
+     <a class="accordion-section-title" href="#accordion-19"> <strong>Do I earn commissions on my own purchases?</strong> </a> 
+     <div id="accordion-19" class="accordion-section-content"> 
+      <p> Yes. When you buy products from us through your website, you earn the same commission on your purchase that you would from a visitor purchase. </p> 
+     </div> 
+    </div> 
+    <div class="accordion-section"> 
+     <a class="accordion-section-title" href="#accordion-20"> <strong>What about product returns?</strong> </a> 
+     <div id="accordion-20" class="accordion-section-content"> 
+      <p> If a user returns a product for a refund, or if credit card charges are reversed due to a dispute or credit card fraud, the amount of the return or order cancellation will be deducted from your total commission amount prior to sending the month's check. For more detailed information on returns and cancellations, please refer to the Lenovo Affiliate Program Terms and Conditions. </p> 
+     </div> 
+    </div> 
+    <div class="accordion-section"> 
+     <a class="accordion-section-title" href="#accordion-21"> <strong>Who processes orders and handles customer service?</strong> </a> 
+     <div id="accordion-21" class="accordion-section-content"> 
+      <p> We do all of that for the customers you refer to our site. All you have to do is place links on your site. We do the rest. </p> 
+     </div> 
+    </div> 
+    <div class="accordion-section"> 
+     <a class="accordion-section-title" href="#accordion-22"> <strong>How will you know that the orders came from my site?</strong> </a> 
+     <div id="accordion-22" class="accordion-section-content"> 
+      <p> All links from your site to our site contain a unique identifier. Every time a user comes to us via your site, we know to credit you when a purchase is made. This is only possible, though, when you create all of your links with the tag generator on our Affiliate site. </p> 
+     </div> 
+    </div> 
+    <!-- End --> 
+   </div> 
+   <p> <strong>Contact Information</strong> </p> 
+   <p> <strong>Questions about the program?</strong> </p> 
+   <p> Contact Lenovo’s Affiliate Team (US) <a href="mailto:USAffiliate@lenovo.com">USAffiliate@lenovo.com</a> or (CA) <a href="mailto:CAAffiliate@lenovo.com">CAAffiliate@lenovo.com</a> </p> 
+   <p> <strong>Join the Lenovo Affiliate Program Today!</strong> </p> 
+   <p> <a href="https://ssl.linksynergy.com/php-bin/affiliate/registration/register.shtml?nids=5&amp;mid=3178">Apply Now!</a> </p> 
+   <p> <a href="https://member.impactradius.com/campaign-mediapartner-signup/Lenovo-USA.brand"> https://member.impactradius.com/campaign-mediapartner-signup/Lenovo-USA.brand </a> </p> 
+   <p> <a href="#top">Back to Top</a> </p> 
+  </div>
+ </body>
+</html>

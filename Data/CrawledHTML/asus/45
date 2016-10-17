@@ -1,0 +1,532 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta charset="utf-8"> 
+  <meta name="description" content="ASUS 100-series motherboards proudly exemplify “BEST”: Breakthrough, Easy Setup, Stable and Trusted motherboards. Whether you’re upgrading from Z97 or building for the first time, choose an ASUS 100-series motherboard as the foundation."> 
+  <meta name="author" content="ACI Marketing"> 
+  <meta property="og:type" content="article"> 
+  <meta property="og:url" content="http://www.asus.com/us/site/motherboards/Z170/"> 
+  <meta property="og:site_name" content="ASUS US"> 
+  <meta property="og:image" content="http://www.asus.com/us/site/motherboards/Z170//assets/img/social-1200x630.jpg"> 
+  <meta property="og:title" content="ASUS Motherboards - Intel Z170 100-Series 6th Gen Core"> 
+  <meta property="og:description" content="ASUS 100-series motherboards proudly exemplify “BEST”: Breakthrough, Easy Setup, Stable and Trusted motherboards. Whether you’re upgrading from Z97 or building for the first time, choose an ASUS 100-series motherboard as the foundation."> 
+  <meta property="article:author" content="http://www.asus.com/us/"> 
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:url" content="http://www.asus.com/us/site/motherboards/Z170/"> 
+  <meta name="twitter:title" content="ASUS Motherboards - Intel Z170 100-Series 6th Gen Core"> 
+  <meta name="twitter:description" content="ASUS 100-series motherboards proudly exemplify “BEST”: Breakthrough, Easy Setup, Stable and Trusted motherboards. Whether you’re upgrading from Z97 or building for the first time, choose an ASUS 100-series motherboard as the foundation."> 
+  <meta name="twitter:image" content="http://www.asus.com/us/site/motherboards/Z170//assets/img/social-1200x630.jpg"> 
+  <meta name="twitter:site" content="@asususa"> 
+  <meta name="twitter:site:id" content="21347710"> 
+  <link rel="shortcut icon" href="http://www.asus.com/media/img/favicon.ico"> 
+  <title>ASUS Motherboards - Intel Z170 100-Series 6th Gen Core</title> 
+  <link href="//fonts.googleapis.com" rel="dns-prefetch"> 
+  <link href="//ajax.googleapis.com" rel="dns-prefetch"> 
+  <link href="/us/site/motherboards/Z170/assets/css/main.min.css?v=1.1.2" rel="stylesheet"> 
+  <!-- Facebook Pixel Code --> 
+  <script>
+      !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+      document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+      fbq('init', '1217647361586583');
+      fbq('track', "PageView");
+    </script> 
+  <noscript> &lt;img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1217647361586583&amp;amp;ev=PageView&amp;amp;noscript=1"&gt; 
+  </noscript> 
+  <!-- End Facebook Pixel Code --> 
+  <script type="text/javascript">
+                      var w=window;
+                      if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document,AKSB=AKSB||{};AKSB.q=[];AKSB.mark=function(a,b){AKSB.q.push(["mark",a,b||(new Date).getTime()])};AKSB.measure=function(a,b,c){AKSB.q.push(["measure",a,b,c||(new Date).getTime()])};AKSB.done=function(a){AKSB.q.push(["done",a])};AKSB.mark("firstbyte",(new Date).getTime());AKSB.prof={custid:"327343",ustr:"UNKNOWN",originlat:0,clientrtt:51,ghostip:"177.159.159.52",
+                      ipv6:false,pct:10,clientip:"187.59.114.85",requestid:"23c3ca33",protocol:"",blver:10,akM:"e15",akN:"ae",akTT:"O",akTX:"1",akTI:"23c3ca33",ai:"159086",ra:"",pmgn:"",pmgi:"",pmp:""};(function(a){var b=
+                      d.createElement("script");b.async="async";b.src=a;a=d.getElementsByTagName("script");a=a[a.length-1];a.parentNode.insertBefore(b,a)})(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")};
+                    </script> 
+ </head> 
+ <body> 
+  <nav class="navbar"> 
+   <div class="container"> 
+    <a href="http://www.asus.com/us/" title="ASUS US Corporate Website"><img src="http://www.asus.com/us/site/assets/img/asus-logo/asus-logo-notag-white.svg" alt="ASUS Logo" class="asus-logo external"></a> 
+    <div class="u-pull-right"> 
+     <a href="#menu" title="Dropdown Menu" class="nav-button" data-nav="button"> 
+      <div class="menu-bars-container" data-nav="button-bars"> 
+       <div class="menu-bars"></div> 
+      </div>Menu</a> 
+    </div> 
+   </div> 
+   <div class="navbar-dropdown" data-nav="dropdown">
+    <a href="#Z170-Deluxe" class="navbar-dropdown-link first-link" data-slide="button" data-nav="dropdown-link">ROG Maximus VIII Formula</a> 
+    <a href="#Maximus-VIII-Hero" class="navbar-dropdown-link second-link" data-slide="button" data-nav="dropdown-link">Sabertooth Z170 S</a> 
+    <a href="#Picker" class="navbar-dropdown-link third-link" data-slide="button" data-nav="dropdown-link">Choose Your Motherboard</a> 
+    <a href="/us/site/motherboards/Z170/compare/" class="navbar-dropdown-link fourth-link hide-for-small-only">Compare All Motherboards</a>
+   </div> 
+  </nav> 
+  <div class="masthead"> 
+   <div class="masthead-kv">
+    <img src="/us/site/motherboards/Z170/assets/img/kv-main.jpg" alt="ASUS 100-Series Motherboards: Unleash the 6th Gen Core, Choose the BEST"> 
+    <img src="http://www.asus.com/us/site/assets/img/intel-logos/Z170-Chipset.svg" class="intel-chipset" alt="Intel Z170 Chipset Logo">
+   </div> 
+   <div class="masthead-copy"> 
+    <p><strong>ASUS 100-series motherboards</strong> proudly exemplify <strong>“BEST”</strong>: Breakthrough, Easy-to-use, Stable and Trusted motherboards. Whether you’re upgrading from Z97 or building for the first time, choose an <strong>ASUS 100-series motherboard</strong> as the foundation.</p> 
+   </div> 
+  </div> 
+  <h1 id="technology" class="section-heading-rog">
+   <div class="container">
+    The Choice of Winners Everywhere
+   </div></h1> 
+  <section class="technology-section"> 
+   <div class="container"> 
+    <div class="row u-buffer-top-2 u-buffer-bottom-2"> 
+     <div class="columns medium-4 medium-push-8 u-text-center">
+      <img src="/us/site/motherboards/Z170/assets/img/kv-new-technology.jpg" alt="Close up of ASUS Z170">
+     </div> 
+     <div class="columns medium-8 medium-pull-4"> 
+      <h3>10 Years Strong.</h3> 
+      <p>ROG has delivered the perfect formula for the ultimate Z170 experience, and it’s for good reason. Now in its 10th year, ROG celebrates the ever-evolving collaboration between world-class R&amp;D, insatiable enthusiasts and devoted gamers needed to embrace (and tame) the bleeding edge and is ready to keep outrunning technology for ten more.</p> 
+      <!--                     <div class=speed-graph-container>
+                        <div class=speed-graph-label>
+                            <h1 class="speed-graph-text huge-text">6x</h1>
+                            <h2 class=speed-graph-text>Faster</h2></div>
+                        <ul class=speed-graph>
+                            <li class="speed-graph-line pcie-3">32 GB/s <span class=line-label>PCIe 3.0 x4</span></li>
+                            <li class="speed-graph-line pcie-2">10 GB/s <span class=line-label>PCIe 2.0 x2</span></li>
+                            <li class="speed-graph-line pcie-1">5 GB/s <span class=line-label>PCIe 2.0 x1</span></li>
+                        </ul>
+                    </div> --> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <h1 class="section-heading">
+   <div class="container">
+    The Motherboards
+   </div></h1> 
+  <section id="Z170-Deluxe"> 
+   <div class="container u-container-collapse"> 
+    <div class="row collapse"> 
+     <div class="columns large-6 large-push-6 u-text-center">
+      <img src="/us/site/motherboards/Z170/assets/img/Maximus-VIII-Formula/kv.jpg" alt="Close up of ASUS Z170-Deluxe" class="kv">
+     </div> 
+     <div class="columns large-6 large-pull-6"> 
+      <div class="product-heading"> 
+       <h1>ROG MAXIMUS VIII FORMULA</h1> 
+       <h3>Perfect Your Build From Cooling to Color</h3> 
+       <p><a href="http://bit.ly/1R4ZBDr" class="btn-bright-blue external" title="Z170-DELUXE Section WTB">Buy Now</a> <br><small>Powered by PC Part Picker</small></p> 
+      </div> 
+      <ul class="fab-grid medium-block-grid-3"> 
+       <li><img src="/us/site/motherboards/Z170/assets/img/Maximus-VIII-Formula/thumb-1.jpg"> <p class="fab-grid-heading">Aura RGB lighting</p> <p>Express yourself with 28 onboard RGB LEDs and a header for 5050 strips. Choose from millions of colors with customizable effects for multiple zones.</p> </li> 
+       <li><img src="/us/site/motherboards/Z170/assets/img/Maximus-VIII-Formula/thumb-2.jpg"> <p class="fab-grid-heading">CrossChill EK cooling</p> <p>Created with EK Water Blocks, the VRM cooler has a copper channel and G1/4” fittings for liquid loops, plus a heatsink for air-cooled rigs.</p> </li> 
+       <li><img src="/us/site/motherboards/Z170/assets/img/Maximus-VIII-Formula/thumb-3.jpg"> <p class="fab-grid-heading">SupremeFX 2015 audio</p> <p>A premium ESS Sabre DAC paired with a dedicated clock and de-pop relay produces pristine sound that won’t distort the beautiful cacophony of combat.</p> </li> 
+       <li><img src="/us/site/motherboards/Z170/assets/img/Maximus-VIII-Formula/thumb-4.jpg"> <p class="fab-grid-heading">Wireless onboard</p> <p>Dual-band 802.11ac Wi-Fi with MIMO connects to wireless networks at warp speed, while Bluetooth 4.1 links peripherals without cable clutter.</p> </li> 
+       <li><img src="/us/site/motherboards/Z170/assets/img/Maximus-VIII-Formula/thumb-5.jpg"> <p class="fab-grid-heading">Armored for battle</p> <p>A stylish ROG Armor face shields surface components from damage and heat, while a cold-rolled steel backplate cools hot spots and resists warping.</p> </li> 
+       <li><img src="/us/site/motherboards/Z170/assets/img/Maximus-VIII-Formula/thumb-6.jpg"> <p class="fab-grid-heading">M.2 and U.2 storage</p> <p>Use whichever PCI Express SSD you want--the onboard M.2 slot and U.2 port both offer a staggering 32Gb/s of storage bandwidth.</p> </li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <section id="Maximus-VIII-Hero"> 
+   <div class="container u-container-collapse"> 
+    <div class="row collapse"> 
+     <div class="columns large-6 u-text-center">
+      <img src="/us/site/motherboards/Z170/assets/img/Sabertooth-Z170-S/kv.jpg" alt="Close up of ASUS Maximus VIII Hero" class="kv">
+     </div> 
+     <div class="columns large-6"> 
+      <div class="product-heading"> 
+       <h1>SABERTOOTH Z170 S</h1> 
+       <h3>Arctic Camo. TUF Core.</h3> 
+       <p><a href="http://bit.ly/1Yu0H1F" class="btn-bright-blue external" title="MAXIMUS VIII HERO Section WTB">Buy Now</a> <br><small>Powered by PC Part Picker</small></p> 
+      </div> 
+      <ul class="fab-grid medium-block-grid-3"> 
+       <li><img src="/us/site/motherboards/Z170/assets/img/Sabertooth-Z170-S/thumb-1.jpg"> <p class="fab-grid-heading">Arctic white-out</p> <p>A gleaming white PCB and digital camouflage blend seamlessly into arctic-themed builds. Even the onboard LEDs emit a matching white glow.</p> </li> 
+       <li><img src="/us/site/motherboards/Z170/assets/img/Sabertooth-Z170-S/thumb-2.jpg"> <p class="fab-grid-heading">Unmatched reliability</p> <p>TUF boards are subjected to the industry’s most punishing validation testing to ensure 24/7 dependability. And we stand behind them with a 5-year warranty.</p> </li> 
+       <li><img src="/us/site/motherboards/Z170/assets/img/Sabertooth-Z170-S/thumb-3.jpg"> <p class="fab-grid-heading">Copious cooling</p> <p>11 onboard fan headers, with one optimized for water pumps, let you manage an entire PC’s cooling from the UEFI or Thermal Radar 2 software.</p> </li> 
+       <li><img src="/us/site/motherboards/Z170/assets/img/Sabertooth-Z170-S/thumb-4.jpg"> <p class="fab-grid-heading">Thermal Radar 2</p> <p>Track temperatures with multiple onboard sensors and headers for external probes, each of which can be assigned to different fan profiles for optimal cooling.</p> </li> 
+       <li><img src="/us/site/motherboards/Z170/assets/img/Sabertooth-Z170-S/thumb-5.jpg"> <p class="fab-grid-heading">Advanced diagnostics</p> <p>Onboard LEDs provide feedback during the boot process, while the TUF Detective 2 Android app lets you monitor POST codes and system status in real time.</p> </li> 
+       <li><img src="/us/site/motherboards/Z170/assets/img/Sabertooth-Z170-S/thumb-6.jpg"> <p class="fab-grid-heading">Next-gen connectivity</p> <p>The M.2 slot supports the fastest PCI Express SSDs, while the USB 3.1 ports offer 10Gb/s speeds for Type-A and Type-C devices.</p> </li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <h1 id="Picker" class="section-heading">
+   <div class="container">
+    Choose Your Motherboard
+   </div></h1> 
+  <section class="picker-container"> 
+   <div class="container"> 
+    <div class="question-container"> 
+     <div class="question-group"> 
+      <div class="question">
+       Do you have a preferred form factor?
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="formFactor-1" name="formFactor" data-answer="none"> 
+        <label class="answer-label" for="formFactor-1">N/A</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="formFactor-2" name="formFactor" data-answer="formFactor.ATX"> 
+        <label class="answer-label" for="formFactor-2">Standard ATX</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="formFactor-3" name="formFactor" data-answer="formFactor.microATX"> 
+        <label class="answer-label" for="formFactor-3">microATX</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="formFactor-4" name="formFactor" data-answer="formFactor.miniITX"> 
+        <label class="answer-label" for="formFactor-4">Mini-ITX</label> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="question-group"> 
+      <div class="question">
+       Do you plan to utilize USB 3.1 devices?
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="USB31-1" name="USB31" data-answer="none"> 
+        <label class="answer-label" for="USB31-1">N/A</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="USB31-2" name="USB31" data-answer="USB31.typeC"> 
+        <label class="answer-label" for="USB31-2">Type A &amp; Type C</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="USB31-3" name="USB31" data-answer="USB31.typeA"> 
+        <label class="answer-label" for="USB31-3">Type A Only</label> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="question-group"> 
+      <div class="question tooltip-container">
+       Which PCIe-based storage drive(s) do you plan to use? 
+       <a href="#pcie-tip" data-tooltip="button">[?]</a> 
+       <div class="tooltip" data-tooltip="tip">
+        Z170 motherboards feature 20 lanes of PCIe 3.0 bandwidth, which unlocks a variety of storage possibilities.
+        <br>
+        <br>To add M.2 storage slots beyond the integrated options, the 
+        <b>ASUS Hyper M.2 x4</b> offers an easy upgrade to support all lengths of M.2 drives with the flexibility to place the card into any free PCIe slot.
+        <br>
+        <br>For U.2 support, many ASUS 100-series motherboards include U.2 connectivity onboard. For those that don't, the 
+        <b>ASUS Hyper Kit</b> easily adapts an M.2 slot to accommodate U.2 drives. 
+        <a href="#pcie-tip-close" data-tooltip="close" title="Close tooltip">Close</a>
+       </div> 
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="PCIe-1" name="PCIe" data-answer="none"> 
+        <label class="answer-label" for="PCIe-1">N/A</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="PCIe-2" name="PCIe" data-answer="PCIe.dualM2"> 
+        <label class="answer-label" for="PCIe-2">Dual M.2</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="PCIe-3" name="PCIe" data-answer="PCIe.singleM2"> 
+        <label class="answer-label" for="PCIe-3">Single M.2</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="PCIe-4" name="PCIe" data-answer="PCIe.u2"> 
+        <label class="answer-label" for="PCIe-4">U.2</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="PCIe-5" name="PCIe" data-answer="PCIe.NVMe"> 
+        <label class="answer-label" for="PCIe-5">PCIe NVMe</label> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="question-group"> 
+      <div class="question tooltip-container">
+       Are you planning to use DDR3 or DDR4 memory? 
+       <a href="#memory-tip" data-tooltip="button">[?]</a> 
+       <div class="tooltip" data-tooltip="tip">
+        Although 10-series motherboards represent DDR4 going mainstream, there are still situations where DDR3 memory is preferred. 
+        <a href="#memory-tip-close" data-tooltip="close" title="Close tooltip">Close</a>
+       </div> 
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="memory-1" name="memory" data-answer="none"> 
+        <label class="answer-label" for="memory-1">N/A</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="memory-2" name="memory" data-answer="memory.DDR3"> 
+        <label class="answer-label" for="memory-2">DDR3</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="memory-3" name="memory" data-answer="memory.DDR4"> 
+        <label class="answer-label" for="memory-3">DDR4</label> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="question-group"> 
+      <div class="question tooltip-container">
+       Do you plan to overclock this PC? 
+       <a href="#overclock-tip" data-tooltip="button">[?]</a> 
+       <div class="tooltip" data-tooltip="tip">
+        ASUS award-winning 5-Way Optimization with Auto Tuning automated overclocking has expanded from Signature motherboards to now include ROG and Pro Gaming Series motherboards. Choose a board from either of these 3 series to take advantage of 1-step overclocking. 
+        <a href="#overclock-tip-close" data-tooltip="close" title="Close tooltip">Close</a>
+       </div> 
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="overclock-1" name="overclock" data-answer="none"> 
+        <label class="answer-label" for="overclock-1">No</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="overclock-2" name="overclock" data-answer="overclock.yesAuto"> 
+        <label class="answer-label" for="overclock-2">Yes, and I prefer automatic overclocking</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="overclock-3" name="overclock" data-answer="overclock.yesManual"> 
+        <label class="answer-label" for="overclock-3">Yes, but I prefer manual tuning</label> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="question-group"> 
+      <div class="question tooltip-container">
+       Would you use a dedicated water pump header (for self-contained or custom water cooling)? 
+       <a href="#water-pump-tip" data-tooltip="button">[?]</a> 
+       <div class="tooltip" data-tooltip="tip">
+        A dedicated watercooling pump header that runs at 1A (PWM or DC) takes the guesswork out of where to plug in your pump. 
+        <a href="#water-pump-tip-close" data-tooltip="close" title="Close tooltip">Close</a>
+       </div> 
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="waterPump-1" name="waterPump" data-answer="waterPump.yes"> 
+        <label class="answer-label" for="waterPump-1">Yes</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="waterPump-2" name="waterPump" data-answer="none"> 
+        <label class="answer-label" for="waterPump-2">No</label> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="question-group"> 
+      <div class="question">
+       Do you plan to run NVIDIA SLI?
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="SLI-1" name="SLI" data-answer="none"> 
+        <label class="answer-label" for="SLI-1">No</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="SLI-2" name="SLI" data-answer="SLI.twoWay"> 
+        <label class="answer-label" for="SLI-2">2-Way SLI</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="SLI-3" name="SLI" data-answer="SLI.threeWay"> 
+        <label class="answer-label" for="SLI-3">3-Way / 4-Way SLI</label> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="question-group"> 
+      <div class="question">
+       Do you need onboard Wi-Fi?
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="WiFi-1" name="WiFi" data-answer="WiFi"> 
+        <label class="answer-label" for="WiFi-1">Yes</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="WiFi-2" name="WiFi" data-answer="none"> 
+        <label class="answer-label" for="WiFi-2">No</label> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="question-group"> 
+      <div class="question">
+       Do you have a preferred color scheme?
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="colorScheme-1" name="colorScheme" data-answer="none"> 
+        <label class="answer-label" for="colorScheme-1">No</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="colorScheme-2" name="colorScheme" data-answer="colorScheme.redBlack"> 
+        <label class="answer-label" for="colorScheme-2">Red/Black</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="colorScheme-3" name="colorScheme" data-answer="colorScheme.whiteBlack"> 
+        <label class="answer-label" for="colorScheme-3">White/Black</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="colorScheme-4" name="colorScheme" data-answer="colorScheme.military"> 
+        <label class="answer-label" for="colorScheme-4">Military</label> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <section class="products-container"> 
+   <div class="container"> 
+    <p class="hide-for-small-only"></p> 
+    <h1>Products</h1> 
+    <ul class="picker-controls list-inline"> 
+     <li><a href="#picker-reset" data-picker="reset" class="btn-bright-blue no-link is-off">Reset Selection</a></li> 
+     <li><a href="/us/site/motherboards/Z170/compare/" class="btn-bright-blue hide-for-small-only">Compare All Models</a></li> 
+    </ul> 
+    <div class="picker-object-container" data-picker="container"> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="maximusViiiExtreme"> 
+      <h4 class="picker-heading">MAXIMUS VIII Extreme</h4>
+      <img src="/us/site/motherboards/Z170/assets/img/compare/maximus-viii-extreme.png" alt="MAXIMUS VIII Extreme thumbnail" class="picker-thumbnail"> 
+      <p><a href="http://bit.ly/1MyDYMC" class="btn-bright-blue external" title="MAXIMUS VIII EXTREME Picker WTB">Buy Now</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="maximusViiiExtremeAssembly"> 
+      <h4 class="picker-heading">MAXIMUS VIII Extreme/Assembly</h4>
+      <img src="/us/site/motherboards/Z170/assets/img/compare/maximus-viii-extreme-assembly.png" alt="MAXIMUS VIII Extreme/Assembly thumbnail" class="picker-thumbnail"> 
+      <p><a href="http://bit.ly/1WGI8pw" class="btn-bright-blue external" title="MAXIMUS VIII EXTREME ASSEMBLY Picker WTB">Buy Now</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="maximusViiiFormula"> 
+      <h4 class="picker-heading">MAXIMUS VIII Formula</h4>
+      <img src="/us/site/motherboards/Z170/assets/img/compare/maximus-viii-formula.png" alt="MAXIMUS VIII Formula thumbnail" class="picker-thumbnail"> 
+      <p><a href="http://bit.ly/1R4ZBDr" class="btn-bright-blue external" title="MAXIMUS VIII FORMULA Picker WTB">Buy Now</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="maximusViiGene"> 
+      <h4 class="picker-heading">MAXIMUS VIII GENE</h4>
+      <img src="/us/site/motherboards/Z170/assets/img/compare/maximus-vii-gene.png" alt="MAXIMUS VIII GENE thumbnail" class="picker-thumbnail"> 
+      <p><a href="http://bit.ly/1SobivG" class="btn-bright-blue external" title="MAXIMUS VIII GENE Picker WTB">Buy Now</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="maximusViiHero"> 
+      <h4 class="picker-heading">MAXIMUS VIII HERO</h4>
+      <img src="/us/site/motherboards/Z170/assets/img/compare/maximus-vii-hero.png" alt="MAXIMUS VIII HERO thumbnail" class="picker-thumbnail"> 
+      <p><a href="http://bit.ly/1LUYs2o" class="btn-bright-blue external" title="MAXIMUS VIII HERO Picker WTB">Buy Now</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="maximusViiiRanger"> 
+      <h4 class="picker-heading">MAXIMUS VIII RANGER</h4>
+      <img src="/us/site/motherboards/Z170/assets/img/compare/maximus-vii-ranger.png" alt="MAXIMUS VIII RANGER thumbnail" class="picker-thumbnail"> 
+      <p><a href="http://bit.ly/1I7kOeM" class="btn-bright-blue external" title="MAXIMUS VIII RANGER Picker WTB">Buy Now</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="maximusViiiHeroAlpha"> 
+      <h4 class="picker-heading">MAXIMUS VIII HERO ALPHA</h4>
+      <img src="/us/site/motherboards/Z170/assets/img/compare/maximus-viii-hero-alpha.png" alt="MAXIMUS VIII HERO ALPHA thumbnail" class="picker-thumbnail"> 
+      <p><a href="http://bit.ly/1Sggj5t" class="btn-bright-blue external" title="MAXIMUS VIII HERO ALPHA Picker WTB">Buy Now</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="maximusViiiImpact"> 
+      <h4 class="picker-heading">MAXIMUS VIII IMPACT</h4>
+      <img src="/us/site/motherboards/Z170/assets/img/compare/maximus-viii-impact.png" alt="MAXIMUS VIII IMPACT thumbnail" class="picker-thumbnail"> 
+      <p><a href="http://bit.ly/1SXwPav" class="btn-bright-blue external" title="MAXIMUS VIII IMPACT Picker WTB">Buy Now</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="sabertoothZ170Mark1"> 
+      <h4 class="picker-heading">SABERTOOTH Z170 MARK 1</h4>
+      <img src="/us/site/motherboards/Z170/assets/img/compare/sabertooth-z170-mark-1.png" alt="SABERTOOTH Z170 MARK 1 thumbnail" class="picker-thumbnail"> 
+      <p><a href="http://bit.ly/1E9Dmad" class="btn-bright-blue external" title="SABERTOOTH Z170 MARK 1 Picker WTB">Buy Now</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="sabertoothZ170S"> 
+      <h4 class="picker-heading">SABERTOOTH Z170 S</h4>
+      <img src="/us/site/motherboards/Z170/assets/img/compare/sabertooth-z170-s.png" alt="SABERTOOTH Z170 S thumbnail" class="picker-thumbnail"> 
+      <p><a href="http://bit.ly/1Yu0H1F" class="btn-bright-blue external" title="SABERTOOTH Z170 S Picker WTB">Buy Now</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="Z170ProGaming"> 
+      <h4 class="picker-heading">Z170 PRO GAMING</h4>
+      <img src="/us/site/motherboards/Z170/assets/img/compare/z170-pro-gaming.png" alt="Z170 PRO GAMING thumbnail" class="picker-thumbnail"> 
+      <p><a href="http://bit.ly/1DeufKw" class="btn-bright-blue external" title="Z170 PRO GAMING Picker WTB">Buy Now</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="Z170A"> 
+      <h4 class="picker-heading">Z170-A</h4>
+      <img src="/us/site/motherboards/Z170/assets/img/compare/Z170-A.png" alt="Z170-A thumbnail" class="picker-thumbnail"> 
+      <p><a href="http://bit.ly/1haT4Nl" class="btn-bright-blue external" title="Z170-A Picker WTB">Buy Now</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="Z170AR"> 
+      <h4 class="picker-heading">Z170-AR</h4>
+      <img src="/us/site/motherboards/Z170/assets/img/compare/Z170-AR.png" alt="Z170-AR thumbnail" class="picker-thumbnail"> 
+      <p><a href="http://bit.ly/1OSW0ta" class="btn-bright-blue external" title="Z170-AR Picker WTB">Buy Now</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="Z170Deluxe"> 
+      <h4 class="picker-heading">Z170-DELUXE</h4>
+      <img src="/us/site/motherboards/Z170/assets/img/compare/Z170-DELUXE.png" alt="Z170-DELUXE thumbnail" class="picker-thumbnail"> 
+      <p><a href="http://bit.ly/1M1u7RF" class="btn-bright-blue external" title="Z170-DELUXE Picker WTB">Buy Now</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="Z170E"> 
+      <h4 class="picker-heading">Z170-E</h4>
+      <img src="/us/site/motherboards/Z170/assets/img/compare/Z170-E.png" alt="Z170-E thumbnail" class="picker-thumbnail"> 
+      <p><a href="http://bit.ly/1YqmAix" class="btn-bright-blue external" title="Z170-E Picker WTB">Buy Now</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="Z170K"> 
+      <h4 class="picker-heading">Z170-K</h4>
+      <img src="/us/site/motherboards/Z170/assets/img/compare/Z170-K.png" alt="Z170-K thumbnail" class="picker-thumbnail"> 
+      <p><a href="http://bit.ly/1HaASbx" class="btn-bright-blue external" title="Z170-K Picker WTB">Buy Now</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="Z170P"> 
+      <h4 class="picker-heading">Z170-P</h4>
+      <img src="/us/site/motherboards/Z170/assets/img/compare/Z170-P.png" alt="Z170-P thumbnail" class="picker-thumbnail"> 
+      <p><a href="http://bit.ly/1Iy7bqm" class="btn-bright-blue external" title="Z170-P Picker WTB">Buy Now</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="Z170PD3"> 
+      <h4 class="picker-heading">Z170-P D3</h4>
+      <img src="/us/site/motherboards/Z170/assets/img/compare/Z170-P-D3.png" alt="Z170-P D3 thumbnail" class="picker-thumbnail"> 
+      <p><a href="http://bit.ly/1DVQTSA" class="btn-bright-blue external" title="Z170-P D3 Picker WTB">Buy Now</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="Z170Premium"> 
+      <h4 class="picker-heading">Z170-PREMIUM</h4>
+      <img src="/us/site/motherboards/Z170/assets/img/compare/Z170-PREMIUM.png" alt="Z170-PREMIUM thumbnail" class="picker-thumbnail"> 
+      <p><a href="http://bit.ly/1YqmBTu" class="btn-bright-blue external" title="Z170-PREMIUM Picker WTB">Buy Now</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="Z170Pro"> 
+      <h4 class="picker-heading">Z170-PRO</h4>
+      <img src="/us/site/motherboards/Z170/assets/img/compare/Z170-PRO.png" alt="Z170-PRO thumbnail" class="picker-thumbnail"> 
+      <p><a href="http://bit.ly/1XmKetK" class="btn-bright-blue external" title="Z170-PRO Picker WTB">Buy Now</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="Z170WS"> 
+      <h4 class="picker-heading">Z170-WS</h4>
+      <img src="/us/site/motherboards/Z170/assets/img/compare/Z170-WS.png" alt="Z170-WS thumbnail" class="picker-thumbnail"> 
+      <p><a href="http://bit.ly/1SXx5q2" class="btn-bright-blue external" title="Z170-WS Picker WTB">Buy Now</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="Z170IProGaming"> 
+      <h4 class="picker-heading">Z170I PRO GAMING</h4>
+      <img src="/us/site/motherboards/Z170/assets/img/compare/z170i-pro-gaming.png" alt="Z170I PRO GAMING thumbnail" class="picker-thumbnail"> 
+      <p><a href="http://bit.ly/1NL05Be" class="btn-bright-blue external" title="Z170I PRO GAMING Picker WTB">Buy Now</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="Z170MED3"> 
+      <h4 class="picker-heading">Z170M-E D3</h4>
+      <img src="/us/site/motherboards/Z170/assets/img/compare/Z170M-E-D3.png" alt="Z170M-E D3 thumbnail" class="picker-thumbnail"> 
+      <p><a href="http://bit.ly/1IuhM1d" class="btn-bright-blue external" title="Z170-E D3 Picker WTB">Buy Now</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="Z170MPlus"> 
+      <h4 class="picker-heading">Z170M-PLUS</h4>
+      <img src="/us/site/motherboards/Z170/assets/img/compare/Z170M-PLUS.png" alt="Z170M-PLUS thumbnail" class="picker-thumbnail"> 
+      <p><a href="http://bit.ly/1IuhPtI" class="btn-bright-blue external" title="Z170M-PLUS Picker WTB">Buy Now</a></p> 
+     </div> 
+     <div class="picker-not-applicable" data-picker="not-applicable"> 
+      <h2>No motherboards fit your criteria... yet.</h2>
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <footer> 
+   <div class="container"> 
+    <p class="terms">© 2015 ASUSTeK Computer Inc. All Rights Reserved. <a href="http://www.asus.com/us/Terms_of_Use_Notice_Privacy_Policy/Official-Site/">Terms of Use</a>. All specifications are subject to change without notice and features are only in select models. Products may not be available in all markets.</p> 
+   </div> 
+  </footer> 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+  <script src="/us/site/motherboards/Z170/assets/js/main.min.js?v=1.1.0"></script> 
+  <!-- Google Code for Remarketing Tag --> 
+  <!--
+      Remarketing tags may not be associated with personally identifiable
+      information or placed on pages related to sensitive categories. See more
+      information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+    --> 
+  <script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = 1064481258;
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]> */
+    </script> 
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script> 
+  <noscript> 
+   <div style="display:inline;"> 
+    <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1064481258/?value=0&amp;guid=ON&amp;script=0"> 
+   </div> 
+  </noscript>   
+ </body>
+</html>

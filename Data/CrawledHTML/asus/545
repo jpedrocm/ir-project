@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta charset="utf-8"> 
+  <title>Asus - Zen Your Way | Intel</title> 
+  <meta name="description" content="ASUS wants you to Zen Your Way, celebrating and enabling you just being you. ASUS Zen Products include the ZenBook Ultrabook, ZenFone 2 Smartphone, Zen AiO All-in-One Desktop, and ZenPad Tablet"> 
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> --> 
+  <meta name="viewport" content="width=device-width,initial-scale=1"> 
+  <meta name="keywords" content="intel,inside,xeon,zen,atom,vpro,celeron,core,logo,pentium,asus,intel inside,inside intel,intel atom"> 
+  <!-- apple-touch-icon.png --> 
+  <link rel="stylesheet" href="styles/main.b252184b.css"> 
+  <link rel="shortcut icon" href="http://www.asus.com/media/img/favicon.ico"> 
+  <!-- THIS NEEDS TO BE UNCOMMENTED AS /us/site/zen-your-way/ FOR DIST @ ASUS --> 
+  <base href="/us/site/zen-your-way/"> 
+  <!-- THIS NEEDS TO BE UNCOMMENTED AS / FOR DEV LOCALLY AND ON STAGING S3 --> 
+  <!-- <base href="/"> --> 
+ </head> 
+ <body ng-app="zenApp" ng-contoller="appCtrl" ng-popstate="onPopState($state)"> 
+  <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]--> 
+  <div class="header"> 
+   <div class="navbar navbar-default" role="navigation"> 
+    <div class="container-fluid"> 
+     <div class="navbar-header"> 
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> 
+      <a class="navbar-brand" ng-href="{{settings.sitePath}}/{{settings.hash}}/"> <img ng-src="{{settings.sitePath}}/images/logo.png"> </a> 
+      <a href="" class="corner-flag uppercase white" data-toggle="social-menu" ng-click="toggleSocialMenu()"> Connect </a> 
+     </div> 
+     <div class="collapse navbar-collapse" id="js-navbar-collapse"> 
+      <ul class="nav navbar-nav"> 
+       <li ng-class="navActive(['/go-create','/on-the-go','/relax-and-be-zen','/buckle-down'])"><a href="{{settings.hash}}/on-the-go">Zen Your Way<span class="nav"></span></a></li> 
+       <li ng-class="navActive('/how-to')"><a href="{{settings.hash}}how-to">How-To<span class="nav"></span></a></li> 
+       <li ng-class="navActive('/express')" ng-show="settings.express"><a ng-href="{{settings.hash}}/express">Express<span class="nav"></span></a></li> 
+       <li ng-class="navActive('/asus-zen-tech')"><a ng-href="{{settings.hash}}/asus-zen-tech">ASUS Zen Tech<span class="nav"></span></a></li> 
+      </ul> 
+     </div> 
+     <div class="social-menu" ng-show="socialMenuVisible"> 
+      <ul class="social big"> 
+       <li ng-repeat="item in social" style="width: {{(100 / social.length)}}%" class="center"> <a ng-href="{{item.url}}" target="_blank" class="{{item.name}}"> <img class="hidden-xs" src="{{item.src}}"> <img class="hidden-lg hidden-md hidden-sm" src="{{item.smallSrc}}"> </a> </li> 
+      </ul> 
+      <div class="clearfix"></div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="container-fluid"> 
+   <div ng-view="" class="" autoscroll="true"></div> 
+  </div> 
+  <div class="footer"> 
+   <div class="container-fluid"> 
+    <p class="newblue4 center">Intel Inside®. Better Experiences Outside.</p> 
+    <div class="clearfix"></div> 
+    <div class="col-xs-1">
+     &nbsp;
+    </div> 
+    <div class="col-xs-10"> 
+     <p class="white small center"> © 2015 ASUSTeK Computer Inc. All Rights Reserved. <a href="http://www.asus.com/us/Terms_of_Use_Notice_Privacy_Policy/Official-Site/">Terms of Use</a> &amp; <a href="http://www.asus.com/us/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy/">Privacy Policy</a>. All specifications are subject to change without notice and features are only in select models. Products may not be available in all markets. Brand and product names mentioned are trademarks of their respective companies. Ultrabook, Celeron, Celeron Inside, Core Inside, Intel, Intel Logo, Intel Atom, Intel Atom Inside, Intel Core, Intel Inside, Intel Inside Logo, Intel vPro, Itanium, Itanium Inside, Pentium, Pentium Inside, vPro Inside, Xeon, Xeon Phi, and Xeon Inside are trademarks of Intel Corporation in the U.S. and/or other countries. </p> 
+    </div> 
+    <div class="col-xs-1">
+     &nbsp;
+    </div> 
+   </div> 
+  </div> 
+  <!-- Modal --> 
+  <div class="modal fade buy-now-modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"> 
+   <div class="modal-dialog" role="document"> 
+    <div class="modal-content"> 
+     <div class="modal-header"> 
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button> 
+      <h4 class="modal-title uppercase" id="myModalLabel">BUY NOW</h4> 
+     </div> 
+     <div class="modal-body"> 
+      <h3>US</h3> 
+      <ul class="clearfix"> 
+       <li ng-repeat="link in products[buyNow].us" class="col-md-3 col-xs-6"><a href="{{link.url}}" class="btn circle one buynow autocenter" target="_blank" country="US" etailer="{{link.text}}" code="{{products[buyNow].code}}"><span ng-bind-html="link.text"></span></a></li> 
+      </ul> 
+      <h3 ng-show="products[buyNow].can.length > 0">Canada</h3> 
+      <ul class="clearfix"> 
+       <li ng-repeat="link in products[buyNow].can" class="col-md-3 col-xs-6"><a href="{{link.url}}" class="btn circle two buynow autocenter" target="_blank" country="CA" etailer="{{link.text}}" code="{{products[buyNow].code}}"><span ng-bind-html="link.text"></span></a></li> 
+      </ul> 
+      <div class="clearfix"></div> 
+     </div> 
+     <!--
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+          --> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- Google Analytics --> 
+  <script>!function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-61230632-5');
+       ga('send', 'pageview');</script> 
+  <script src="scripts/vendor.4f60d9d3.js"></script> 
+  <script src="scripts/scripts.73c12e50.js"></script> 
+  <script src="//platform.twitter.com/oct.js" type="text/javascript"></script>  
+ </body>
+</html>

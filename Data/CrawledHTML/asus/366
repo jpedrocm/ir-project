@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width"> 
+  <meta name="description" content="Powered by ASUS offers dream machines with select system-builders, from small-form-factor dynamos to giant liquid-cooled beasts, Powered by ASUS means exclusivity, performance, and art."> 
+  <meta name="keywords" content="ASUS,VGA,MB,Desktop,Display,Monitor,Networks,Server &amp; Workstation,Chassis,Motherboards,PC Gaming hardware,Gaming motherboard,overclocking motherboard,Battlefield,assassins creed,Optical Storage,Graphics Cards,Multimedia,Peripherals &amp; Accessories,accessories,Peripheral,PC Accessories,Computer Peripheral,Power Supply,Thermal Solution,Eshop,PCs,Barebone PC, ASUS Partners, PBA, PBA Systems, ASUS System Integrator, ASUS System Builder, ASUS Gaming Systems, Gaming System, ASUS Computer, ASUS Gaming Computer"> 
+  <meta property="og:site_name" content="Powered by ASUS"> 
+  <meta property="og:title" content="Powered by ASUS."> 
+  <meta property="og:description" content="Powered by ASUS offers dream machines with select system-builders, from small-form-factor dynamos to giant liquid-cooled beasts, Powered by ASUS means exclusivity, performance, and art."> 
+  <link rel="shortcut icon" href="http://www.asus.com/media/img/favicon.ico"> 
+  <title>Powered by ASUS</title> 
+  <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" type="text/css"> 
+  <link href="Theme/CSS/normalize.css" rel="stylesheet" media="screen"> 
+  <link href="Theme/CSS/default.css" rel="stylesheet" media="screen"> 
+  <link href="Theme/CSS/idangerous.swiper.css" rel="stylesheet" media="screen"> 
+  <script src="Theme/Javascript/modernizr.custom.08193.js"></script> 
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> 
+  <script src="Theme/Javascript/default.js"></script> 
+  <script src="Theme/Javascript/idangerous.swiper.min.js"></script> 
+  <script type="text/javascript">
+    //ASUS header & footer
+        window.ASUSInit = function () {
+            asus_api.init({ appkey: 'campa00004' , lang: 'tw', api_menu_logo: '0');
+        };
+        (function(d){
+            var js, id = 'asus-jsapi';
+            if (d.getElementById("asus-jsapi")) {return;}
+            js = d.createElement('script');
+            js.id = id;
+            js.async = true;
+            js.src = "//www.asus.com/API/js/asus_api.js";
+            d.getElementsByTagName('head')[0].appendChild(js);
+        }(document));
+     </script> 
+ </head> 
+ <body> 
+  <div class="wrapper"> 
+   <header class="header"> 
+    <section class="header-inner"> 
+     <a href="index.html"><img class="logo" src="Theme/Image/UI/logo.png"></a> 
+     <div class="burger-wrapper"> 
+      <a class="burger burger-on"></a> 
+      <a class="burger burger-off"></a> 
+     </div> 
+     <ul class="menu"> 
+      <li><a href="index.html" class="active" onclick="ga('send', 'event', 'menus', 'clicked', ‘powered-by-asus-au')">Powered by ASUS</a></li> 
+      <li><a href="buynow.html" class="icon-cart" onclick="ga('send', 'event', 'menus', 'clicked', ‘buy-a-pc-now-au')">Beli PC Sekarang!</a></li> 
+      <li><a href="companion.html" onclick="ga('send', 'event', ‘menus’, 'clicked', ‘best-companion-with-your-pc-au')">Teman Terbaik untuk PC Anda</a></li> 
+      <li><a href="promotion.html" onclick="ga('send', 'event', ‘menus', 'clicked', ‘events-and-promotion-au')">Acara dan Promosi</a></li> 
+     </ul> 
+    </section> 
+   </header> 
+   <main class="main"> 
+    <section class="banner home-banner"> 
+     <div class="hero"> 
+      <!--banner slider : start --> 
+      <a class="arrow-left" href="#"></a> 
+      <a class="arrow-right" href="#"></a> 
+      <div class="swiper-container"> 
+       <div class="swiper-wrapper"> 
+        <div class="swiper-slide"> 
+         <div class="swiper-img">
+          <a href="#">
+           <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-1.jpg)"></div></a>
+         </div> 
+        </div> 
+        <div class="swiper-slide"> 
+         <div class="swiper-img">
+          <a href="http://www.asus.com/ID/Graphics-Cards/ROG-STRIX-GTX1080-O8G-GAMING/">
+           <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-strix-1080.jpg)"></div></a>
+         </div> 
+        </div> 
+        <div class="swiper-slide"> 
+         <div class="swiper-img">
+          <a href="http://www.asus.com/ID/Monitors/ROG-SWIFT-PG248Q/">
+           <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-ROG_PG248Q.jpg)"></div></a>
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pagination"></div> 
+      <!--banner slider : end --> 
+     </div> 
+    </section> 
+    <section class="home-intro"> 
+     <div class="home-intro-inner clear"> 
+      <div class="home-logo">
+       <img src="Theme/Image/UI/logo.png">
+      </div> 
+      <div class="text"> 
+       <h2>Powered by ASUS. Technology as a Work of Art</h2> 
+       <p><strong><strong>Powered by ASUS</strong></strong> hanya untuk mereka yang menyukai kesempurnaan. Tim riset dan pengembang kelas-dunia kami dikhususkan untuk merealisasikan motto-In Search of Incredible. Pengejaran kesempurnaan kami terbukti dengan 3000+ penghargaan yang kami terima setiap tahun-nya. Semua itu melalui partner-partner Powered by ASUS kami: pilih system-builder yang menciptakan mesin impian mereka yang belum pernah ada dimana pun, mulai dari small-form-factor dynamo hingga giant liquid-cooled beasts. Powered by ASUS adalah performa yang eksklusif, yang merupakan sebuah karya seni. Mengapa harus ragu?</p> 
+      </div> 
+     </div> 
+    </section> 
+    <section class="home-duet clear"> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>World’s #1 Motherboard Brand</h3> 
+       <p>ASUS telah menjadi pemimpin pasar dunia untuk merk motherboard lebih dari 10 tahun berturut-turut berkomitmen dalam inovasi dan performa. ASUS juga pemenang penghargaan terbanyak dan merk motherboard terbaik (BEST), dibangun diatas empat pilar utama utama-Best-selling, Easy to use, Stable dan Trusted. Dengan lebih dari 500 juta board yang telah terjual diseluruh dunia sejak 1989, ASUS merupakan merk terpercaya Anda.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-a-1.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>World’s #1 Graphics Card Brand</h3> 
+       <p>ASUS merupakan merk #1 kartu grafis, dengan <em>Auto-Extreme Technology-</em> (100% proses produksi otomatis) pertama di industri menjamin keandalan terbaik. Teknologi pendingin eksklusif yang banyak serta lengkap dan desain software yag intuitif, Kartu grafis ASUS memberikan pengalaman gaming yang benar-benar elite untuk sensasi, kesenangan, dan lebih banyak kemenangan.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-a-2.jpg">
+      </div> 
+     </div> 
+    </section> 
+    <section class="home-team clear"> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>#1 Gaming-Monitor Brand, Top TÜV Blue-Light Certified</h3> 
+       <p>ASUS display telah banyak mondominasi hal-hal pertama di Industri. Display kami juga pemain utama dalam pengurangan emisi cahaya biru (blue light) , mengurangi cahaya biru yang berbahaya sampai dengan 70%, dan dengan sertifikasi TÜV Rheinland yyang lebih banyak dari brand-brand lainnya—pengakuan serius dari organisasi otoritas pengujian-display terkemuka di dunia !</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-1.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>FAST Networking Solutions</h3> 
+       <p>ASUS memberikan Anda solusi FAST networking berdasarkan empat nilai-nilai inti: Jangkauan Wi-Fi terjauh jaringan yang selalu-terhubung; Pengaturan dan manajemen yang mudah dengan ASUS Router App dan ASUSWRT; Jaringan yang aman dengan ASUS AiProtection yang eksklusif; adan kualitas terpercaya dengan keandalan yang memenangkan penghargaan.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-2.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>Keamanan penyimpanan selama 1000-Tahun untuk semua Internal Optical Drive</h3> 
+       <p>ASUS optical drives mendukung M-DISC™, solusi penyimpanan berkualitas-arsip yang melindungi memori-memori digital berharga Anda. Teknologi ASUS M-DISC mengukir data yang disimpan ke lapisan-lapisan seperti batu yang dipatenkan yang tahan terhadap kondisi ekstrim — menjaga informasi tersimpan aman hingga satu millenium .</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-3.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>Readers’ Choice dari PC Games Hardware selama Tiga Tahun Berturut-turut</h3> 
+       <p>ASUS sound cards dibuat untuk memuaskan pendengar yang paling menuntut, di desain dengan material berkualitas audiophile dan perhatian yang pada detail. Dengan high signal-to-noise ratio (SNR), pilihan cermat-amplifier headphone , dan suara multi-channel surround, ASUS sound cards merupakan pilihan terbaik untuk meningkatkan pengalaman hiburan dan gaming Anda.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-4.jpg">
+      </div> 
+     </div> 
+    </section> 
+    <section class="buy-now"> 
+     <a href="buynow.html" class="action" onclick="ga('send', 'event', 'navigations', 'clicked', ‘buy-a-pc-now-au')">Beli pc sekarang!</a> 
+    </section> 
+   </main> 
+   <footer class="footer"> 
+    <p class="backtotop"><a>Back to Top</a></p> 
+    <section class="content"> 
+     <p class="copyright "><a href="https://asus.com/" target="_blank"><img src="Theme/Image/UI/asus.png"></a><br>© 2016 ASUSTeK Computer Inc. All Rights Reserved.&nbsp;Terms of Use. All specifications and terms are subject to change without notice. Please check with your supplier for exact offers on selected models. Products may not be available in all markets. Product may not be exactly as shown in photos. Brand and product names mentioned are trademarks of their respective companies. ASUS shall not be liable for technical or editorial errors or omissions contained herein.</p> 
+    </section> 
+   </footer> 
+   <div class="sidenav"> 
+    <!--<a class="sidenav-home-1"><span>OVERVIEW</span></a>--> 
+    <a class="sidenav-home-2"><span>MENGAPA POWERED BY ASUS?</span></a> 
+    <a class="sidenav-home-3"><span>MENGAPA MEMILIH PRODUK ASUS?</span></a> 
+   </div> 
+  </div>  
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NJRLM8');</script> 
+  <!-- End Google Tag Manager -->  
+ </body>
+</html>

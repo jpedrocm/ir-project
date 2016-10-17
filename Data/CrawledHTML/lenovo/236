@@ -1,0 +1,469 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title>Get Your Free PC Health Check | iolo technologies</title> 
+  <link href="http://shop.lenovo.com/us/en/landingpage/iolo-system-mechanic/" rel="canonical"> 
+  <meta content="http://shop.lenovo.com/us/en/landingpage/iolo-system-mechanic/" name="InternalSearchCanonical"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"> 
+  <meta name="description" content="Get a free PC health check and find out what's slowing down your computer. See how you can fix your PC and speed up your computer with a free checkup."> 
+  <meta name="keywords" content="iolo, optimizes PC, repairs, fix errors, fix crashes, PC health scan, PC checkup, PC scan, PC analysis, system analysis"> 
+  <meta content="index,follow,noodp" name="robots"> 
+  <link href="/us/en/landingpage/iolo-system-mechanic/css/SCU_Styles.css" rel="stylesheet" type="text/css"> 
+  <style type="text/css">
+
+/*Start Body*/
+html, body {
+	margin-left: 0px !important;	
+	margin-top: 0px !important;
+	margin-right: 0px !important;
+	margin-bottom: 0px !important;
+	font-family:Arial, Helvetica, sans-serif !important;
+	color:#000 !important;
+	height:100% !important;
+  background-color: #efefef;
+}
+
+#mainContainer {
+   min-height:100%;
+   position:relative;
+}
+
+#outterWrapper{
+  width: 1121px; min-height: 100%;
+  margin: 0 auto;
+  position: relative;
+  background-image: url(http://www.lenovo.com/shop/americas/content/img_lib/landing_pages/2013/iolo/BG_Shadow.png);
+  padding-bottom: 56px;
+}
+#wrapper {
+  width: 1001px; min-height: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding-bottom: 56px;
+}
+
+.BodyLeft{
+	float:left;
+	width:468px;
+	text-align:left;
+	margin-left: 40px;
+}
+.BodyLeft h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:42px;
+	line-height:46px;
+	font-weight:bold;
+	margin-top:0px;
+  color: #000;
+}
+.BodyLeft p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:22px;
+	margin-top:20px;
+}
+.BodyRight{
+	float:right;
+	width:452px;
+	margin-top:30px;
+}
+.TopButton{
+	margin-top:15px;
+}
+.Button a:hover {
+    background-position: 0 -93px;
+}
+.Button a {
+    background: url("http://www.lenovo.com/shop/americas/content/img_lib/landing_pages/2013/iolo/health-check-button.png") repeat-x scroll right 0 transparent;
+    float: left;
+    height: 93px;
+    left: -18px;
+    position: relative;
+    width: 308px;
+}
+
+a.Download{
+    color: #FFFFFF;
+    display: block;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 89px;
+    text-align: center;
+    text-shadow: 1px 1px 2px #333333;
+	height: 93px;
+    width: 308px;
+	text-decoration:none;
+}
+.MB{
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    left: -17px;
+    margin-top: 38px;
+    position: relative;
+}
+#mainTop{
+	height:425px;
+  padding: 0 15px;
+}
+#mainTab{
+    background: url("http://www.lenovo.com/shop/americas/content/img_lib/landing_pages/2013/iolo/solution-tab.png") no-repeat scroll right 0 transparent;
+    height: 59px;
+    left: 40px;
+	 *left: -257px;
+    position: relative;
+    top: -40px;
+    width: 364px;
+}
+#mainBottom{
+    background: url("http://www.lenovo.com/shop/americas/content/img_lib/landing_pages/2013/iolo/solution-tab-bg.png") repeat-x scroll right 0 transparent;
+    width: 960px; height: 310px;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+    top: -35px;
+}
+.mainTabOne{float: left; padding: 9px 5px 0px 15px;}
+.mainTabTwo{float: left; font-family: Arial,Helvetica,sans-serif; font-size: 16px; color: rgb(51, 51, 51); font-weight: bold; padding: 16px 10px 0px 0px;}
+.mainTabThree{
+    float: left;
+    height: 38px;
+    padding: 15px 10px 0 5px;
+    width: 107px;
+	padding: 12px 10px 0px 5px\0;
+  z-index: 999;
+}
+.mainTabThree img{
+	position:relative;
+	top:0px;
+	left:-6px;
+}
+.mainBottomText{
+	text-align:center;
+	font-family: Arial,Helvetica,sans-serif; 
+	font-size: 16px;
+	font-weight:bold;
+	color: rgb(51, 51, 51);
+	padding-bottom: 30px;
+}
+
+.ioloDifferenceContainer {
+  width: 881px; height: 168px;
+  margin: 0 auto;
+  border: 1px solid #cccccc;
+  background-color: #f8f8f8;
+}
+.divider {
+  width: 1px; height: 151px;
+  float: left;
+  margin-top: 9px;
+  background-color: #ccc;
+}
+
+
+.mainBottomIolo{
+  /*background: url("http://www.lenovo.com/shop/americas/content/img_lib/landing_pages/2013/iolo/solution-bg.png") repeat-x scroll right 0 transparent;*/
+  border-right: 1px solid #cccccc;
+  background-color:#FFFFFF;
+  width:203px;
+  height:168px;
+  float:left;
+}
+.mainBottomIolo p{
+  color:#000000;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:16px;
+  line-height:18px;
+  font-weight: bold;
+  text-align:center;
+}
+.mainBottomIolo img{
+  padding:25px 25px 10px 25px;
+}
+
+
+
+.mainBottomOne{
+	/*background: url("http://www.lenovo.com/shop/americas/content/img_lib/landing_pages/2013/iolo/solution-bg.png") repeat-x scroll right 0 transparent;*/
+	width:220px;
+	height:168px;
+	float:left;
+}
+.mainBottomOne p{
+	color:#7f7f7f;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:15px;
+	text-align:center;
+}
+.mainBottomOne img{
+	padding:25px 25px 10px 25px;
+}
+
+.mainBottomTwo{
+	/*background: url("http://www.lenovo.com/shop/americas/content/img_lib/landing_pages/2013/iolo/solution-bg.png") repeat-x scroll right 0 transparent;*/
+	width:220px;
+	height:168px;
+	float:left;
+}
+.mainBottomTwo p{
+	color:#7f7f7f;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:15px;
+	text-align:center;
+}
+.mainBottomTwo img{
+	padding:25px 25px 10px 25px;
+}
+
+.mainBottomThree{
+	/*background: url("http://www.lenovo.com/shop/americas/content/img_lib/landing_pages/2013/iolo/solution-bg.png") repeat-x scroll right 0 transparent;*/
+	width:220px;
+	height:168px;
+	float:left;
+}
+.mainBottomThree p{
+	color:#7f7f7f;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:15px;
+	text-align:center;
+}
+.mainBottomThree img{
+	padding:25px 25px 11px 25px;
+}
+
+.mainBottomFour{
+	/*background: url("http://www.lenovo.com/shop/americas/content/img_lib/landing_pages/2013/iolo/solution-bg.png") repeat-x scroll right 0 transparent;*/
+	width:167px;
+	height:168px;
+	float:left;
+}
+.mainBottomFour p{
+	color:#7f7f7f;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:15px;
+	text-align:center;
+}
+.mainBottomFour img{
+	padding:25px 25px 10px 25px;
+}
+.Counter{
+    background: url("http://www.lenovo.com/shop/americas/content/img_lib/landing_pages/2013/iolo/counter.png") no-repeat scroll 0px 0px transparent;
+    border: 0 none;
+    height: 25px;
+    left: -7px;
+    overflow: hidden;
+    position: relative;
+    top: 0px;
+    width: 95px;
+}
+/*End Body*/
+</style> 
+  <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+<style type="text/css">
+
+.mainBottomOne, .mainBottomTwo, .mainBottomThree, .mainBottomFour {
+  height: 150px;
+  padding-bottom: 20px;
+}
+.mainBottomOne p, .mainBottomFour p {
+}
+
+#mainTab{
+  left: 39px;
+}
+
+.Footer {
+margin-top: -56px;
+}
+
+
+</style>
+
+
+        <![endif]--> 
+  <!--[if IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+<style type="text/css">
+
+#mainTab{
+  left: 39px;
+}
+
+
+</style>
+
+
+        <![endif]--> 
+  <script type="text/javascript">
+       var _gaq = _gaq || [];
+       _gaq.push(['_setAccount', 'UA-701056-1']);
+       _gaq.push(['_setDomainName', '.iolo.com']);
+       _gaq.push(['_setAllowHash', false]);
+       _gaq.push(['_setAllowLinker', true]);
+       _gaq.push(['_setLocalRemoteServerMode']);
+       _gaq.push(['_trackPageview']);
+       (function () {
+           var ga = document.createElement('script'); ga.type = 'text/javascript';
+           ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+       })();
+  </script> 
+  <script>
+function thanksURL(){
+	document.location.href='http://www.iolo.com/promo/welcome/scu/lenovofs02-help/';
+}
+</script> 
+  <!-- Start Visual Website Optimizer Code --> 
+  <script type="text/javascript">
+    var _vis_opt_account_id = 6149;
+    var _vis_opt_protocol = (('https:' == document.location.protocol) ? 'https://' : 'http://');
+    document.write('<s' + 'cript src="' + _vis_opt_protocol + 'dev.visualwebsiteoptimizer.com/deploy/js_visitor_settings.php?v=1&a=' + _vis_opt_account_id + '&url=' + encodeURIComponent(document.URL) + '&random=' + Math.random() + '" type="text/javascript">' + '<\/s' + 'cript>');
+  </script> 
+  <script type="text/javascript">
+    if (typeof (_vis_opt_settings_loaded) == "boolean") { document.write('<s' + 'cript src="' + _vis_opt_protocol + 'd5phz18u4wuww.cloudfront.net/vis_opt.js" type="text/javascript">' + '<\/s' + 'cript>'); }
+    // if your site already has jQuery 1.4.2, replace vis_opt.js with vis_opt_no_jquery.js above
+  </script> 
+  <script type="text/javascript">
+    if (typeof (_vis_opt_settings_loaded) == "boolean" && typeof (_vis_opt_top_initialize) == "function") {
+      _vis_opt_top_initialize();
+      vwo_$(document).ready(function () { _vis_opt_bottom_initialize(); });
+    }
+  </script> 
+  <!-- End Visual Website Optimizer Code --> 
+ </head> 
+ <body> 
+  <div id="mainContainer">
+   <!-- open mainContainer --> 
+   <div id="outterWrapper"> 
+    <!-- open outterWrapper --> 
+    <div id="wrapper"> 
+     <!-- open wrapper  --> 
+     <div class="Header"> 
+      <!-- open ooHeader --> 
+      <div class="LenovoLogo"> 
+       <img src="http://www.lenovo.com/shop/americas/content/img_lib/landing_pages/2013/iolo/lenovo_headerLogo.jpg" width="390" height="65" alt="Lenovo" title="Lenovo"> 
+      </div> 
+      <div class="ioloLogo"> 
+       <img src="http://www.lenovo.com/shop/americas/content/img_lib/landing_pages/2013/iolo/poweredByiolo.jpg" width="234" height="65" alt="iolo technologies" title="iolo technologies"> 
+      </div> 
+     </div> 
+     <!-- close ooHeader --> 
+     <div id="mainTop" class="clear"> 
+      <!-- open mainTop --> 
+      <div id="content"> 
+       <!-- open content --> 
+       <div class="BodyLeft"> 
+        <!-- open ooBodyLeft --> 
+        <h1>Get Your FREE<br>PC Health Check</h1> 
+        <p>In minutes, you'll get a personalized report detailing<br> any problems found, plus a list of recommended fixes.</p> 
+        <div class="TopButton"> 
+         <!-- open ooTopButton --> 
+         <div class="Button">
+          <a class="Download" onclick="_gaq.push(['_trackEvent','SCU','download-click','http://download.iolo.net/scu/3/partners/lenovofs02/SCUDownloader.exe']); setTimeout('thanksURL()',1000);" href="http://download.iolo.net/scu/3/partners/lenovofs02/SCUDownloader.exe">Start Free Checkup</a>
+         </div> 
+         <div class="MB">
+          6 MB download
+         </div> 
+        </div> 
+        <!-- close ooTopButton --> 
+       </div> 
+       <!-- close ooBodyLeft --> 
+       <div class="BodyRight"> 
+        <!-- open ooBodyRight --> 
+        <img alt="Get Your FREE PC Health Check" align="left" src="http://www.lenovo.com/shop/americas/content/img_lib/landing_pages/2013/iolo/health-check-1.jpg" width="420" height="317"> 
+       </div> 
+       <!-- close ooBodyRight --> 
+      </div> 
+      <!-- close content --> 
+     </div> 
+     <!-- close mainTop --> 
+     <div id="mainBottom"> 
+      <!-- open mainBottom --> 
+      <div id="mainTab"> 
+       <!-- open mainTab --> 
+       <div class="mainTabOne">
+        <img alt="Scans last 24 hours:" width="50" height="36" src="http://www.lenovo.com/shop/americas/content/img_lib/landing_pages/2013/iolo/scan-rate.png">
+       </div> 
+       <div class="mainTabTwo">
+        Scans last 24 hours:
+       </div> 
+       <div class="mainTabThree">
+        <iframe style="border:0px;" frameborder="0" scrolling="no" width="93" height="25" src="http://www.iolo.com/customercare/counter.aspx"></iframe>
+       </div> 
+      </div> 
+      <!-- close mainTab --> 
+      <div class="mainBottomText">
+       Join the millions who have relied on iolo’s best-in-class PC performance solutions.
+      </div> 
+      <div class="ioloDifferenceContainer"> 
+       <!-- open ioloDifferenceContainer --> 
+       <div class="mainBottomIolo" align="center"> 
+        <img align="middle" src="http://www.lenovo.com/shop/americas/content/img_lib/landing_pages/2013/iolo/iolo-logo.png" width="101" height="48"> 
+        <p>The iolo Difference</p> 
+       </div> 
+       <div class="mainBottomOne" align="center"> 
+        <img align="middle" src="http://www.lenovo.com/shop/americas/content/img_lib/landing_pages/2013/iolo/16-years.gif" width="82"> 
+        <p>16 years of PC<br>tuneup innovation</p> 
+       </div> 
+       <div class="divider"></div> 
+       <div class="mainBottomTwo" align="center"> 
+        <img align="middle" src="http://www.lenovo.com/shop/americas/content/img_lib/landing_pages/2013/iolo/80-million.png" width="62" height="63"> 
+        <p>Over 80 million PCs<br>repaired worldwide</p> 
+       </div> 
+       <div class="divider"></div> 
+       <div class="mainBottomThree" align="center"> 
+        <img align="middle" src="http://www.lenovo.com/shop/americas/content/img_lib/landing_pages/2013/iolo/microsoft-cert.png" width="97" height="52"> 
+        <p>Microsoft Certified<br>Partner for Windows®<br>8, 7, Vista or XP</p> 
+       </div> 
+      </div> 
+      <!-- close ioloDifferenceContainer --> 
+     </div> 
+     <!-- close mainBottom --> 
+    </div> 
+    <!-- close wrapper --> 
+   </div> 
+   <!-- close outterWrapper --> 
+   <div class="Footer"> 
+    <!-- open ooFooter --> 
+    <div class="FooterBody"> 
+     <!-- open ooFooterBody --> 
+     <div class="CopyRight">
+      ©1998-2013 iolo technologies, LLC. All rights reserved.
+     </div> 
+     <div class="15Years" style="overflow: hidden;float: right;"> 
+      <p style="display: block; float: left; color: white; font-size: 43px; margin: 0; padding-top: 3px; font-family: trebuchet ms;">16</p> 
+      <p style="display: block; font-size: 10px; float: left; color: white; margin: 0; padding-top: 11px; padding-left: 7px; padding: 10px 10px 0px 5px; font-family: trebuchet ms; line-height: 13px;">16 years of<br>PC tune-up<br>innovation</p> 
+     </div> 
+    </div> 
+    <!-- close ooFooterBody --> 
+   </div> 
+   <!-- close ooFooter --> 
+  </div>
+  <!-- open mainContainer --> 
+  <!-- Google Code for Download - SCU - Pilot B Conversion Page --> 
+  <script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1072480827;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "666666";
+var google_conversion_label = "KDDsCMa3ogEQu4Sz_wM";
+var google_conversion_value = 1.72;
+/* ]]> */
+</script> 
+  <script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+</script> 
+  <noscript> 
+   <div style="display:inline;"> 
+    <img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1072480827/?value=0&amp;label=KDDsCMa3ogEQu4Sz_wM&amp;guid=ON&amp;script=0"> 
+   </div> 
+  </noscript>   
+ </body>
+</html>

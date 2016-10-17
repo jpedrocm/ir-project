@@ -1,0 +1,453 @@
+<!doctype html>
+<html class="no-js">
+ <head> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,requiresActiveX=true"> 
+  <title>Essence - High End Hi-Fi Audio</title> 
+  <meta name="keywords" content="Essence"> 
+  <meta name="description" content="Essence - High End Hi-Fi Audio"> 
+  <!-- Open Graph --> 
+  <meta property="og:title" content="Essence - High End Hi-Fi Audio"> 
+  <meta property="og:description" content="Essence - High End Hi-Fi Audio"> 
+  <!-- Handheld Usibilities --> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <meta name="HandheldFriendly" content="True"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <link rel="stylesheet" href="css/app/main.css?v=0123"> 
+  <script src="js/libs/modernizr.js"></script> 
+  <script src="js/libs/jquery-1.9.1.min.js"></script> 
+  <script src="js/libs/plugins.js?v=0123"></script> 
+  <script src="js/app/main.js?v=0123"></script> 
+  <!-- script type="text/javascript">
+window.ASUSInit = function () {
+    asus_api.init({ appkey: 'micro00004', lang: 'global', api_background: 'simply_black' });
+};
+
+(function(d){
+var js, id = 'asus-jsapi';
+if (d.getElementById("asus-jsapi")) {return;}
+js = d.createElement('script');
+js.id = id;
+js.async = true;
+js.src = "http://www.asus.com/API/js/asus_api.js";
+d.getElementsByTagName('head')[0].appendChild(js);
+}(document));
+</script --> 
+ </head> 
+ <body> 
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3098952-59']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script> 
+  <div id="wrap"> 
+   <header id="header"> 
+    <div class="inner"> 
+     <div class="logo"> 
+      <a class="scrllto" href="#" onclick=" MM_Essence_track (‘Navigation', ‘Menu', ‘Essence logo');"><img src="img/ui/logo.png" alt="Essence - High End Hi-Fi Audio"></a> 
+     </div> 
+     <nav id="nav"> 
+      <ul> 
+       <li><a class="scrllto" href="#find" onclick=" MM_Essence_track (‘Navigation', ‘Menu', ‘Find Your Essence');">Найди свой Essence</a></li> 
+       <li><a class="scrllto" href="#spirit" onclick=" MM_Essence_track (‘Navigation', ‘Menu', ‘The Spirit of Essence');">Дух Essence</a></li> 
+       <li><a class="scrllto" href="#acclaimed" onclick=" MM_Essence_track (‘Navigation', ‘Menu', ‘Acclaimed by Masters');">Признание мастеров</a></li> 
+       <li><a class="scrllto" href="#discover" onclick=" MM_Essence_track (‘Navigation', ‘Menu', ‘Discover the Essence');">Открой для себя Essence</a></li> 
+       <li><a href="Essence-at-A-Glance.htm" onclick=" MM_Essence_track (‘Navigation', ‘Menu', ‘Essence at A Glance');">Сводные характеристики Essence</a></li> 
+      </ul> 
+     </nav> 
+    </div>
+    <!--/.inner--> 
+   </header>
+   <!--/#header--> 
+   <div id="content"> 
+    <section id="cover" class="section"> 
+     <aside class="lang-selector" id="lang-selector"> 
+      <div class="toggle">
+       English
+       <b></b>
+      </div> 
+      <ul class="dropdown"> 
+       <li><a href="http://www.asus.com/microsite/essence/cz/" onclick=" MM_Essence_track (‘Navigation', ‘Language Change', ‘Czecn');">Czech Republic</a></li> 
+       <li><a href="http://www.asus.com/microsite/essence/fr/" onclick=" MM_Essence_track (‘Navigation', ‘Language Change', ‘France');">France</a></li> 
+       <li><a href="http://www.asus.com/microsite/essence/de/" onclick=" MM_Essence_track (‘Navigation', ‘Language Change', ‘germany');">Germany</a></li> 
+       <li><a href="http://www.asus.com/microsite/essence/hu/" onclick=" MM_Essence_track (‘Navigation', ‘Language Change', ‘Hungary');">Hungary</a></li> 
+       <li><a href="http://www.asus.com/microsite/essence/it/" onclick=" MM_Essence_track (‘Navigation', ‘Language Change', ‘Italy');">Italy</a></li> 
+       <li><a href="http://www.asus.com/microsite/essence/pl/" onclick=" MM_Essence_track (‘Navigation', ‘Language Change', ‘Poland');">Poland</a></li> 
+       <li><a href="http://www.asus.com/microsite/essence/ru/" onclick=" MM_Essence_track (‘Navigation', ‘Language Change', ‘Russian');">Russia</a></li> 
+       <li><a href="http://www.asus.com/microsite/essence/sk/" onclick=" MM_Essence_track (‘Navigation', ‘Language Change', ‘Slovakia');">Slovakia</a></li> 
+       <li><a href="http://www.asus.com/microsite/essence/es/" onclick=" MM_Essence_track (‘Navigation', ‘Language Change', ‘Spain');">Spain</a></li> 
+       <li><a href="http://www.asus.com/microsite/essence/tw/" onclick=" MM_Essence_track (‘Navigation', ‘Language Change', ‘Taiwan');">Taiwan</a></li> 
+       <li><a href="http://www.asus.com/microsite/essence/uk/" onclick=" MM_Essence_track (‘Navigation', ‘Language Change', ‘UK');">United Kingdom</a></li> 
+      </ul> 
+     </aside>
+     <!--/.lang--> 
+     <div id="topbanner" class="coverbannr" data-speed=".7" data-timeout="3"> 
+      <div class="coverbannr-slides"> 
+       <ul> 
+        <li class="video"> <a class="poster" href="http://www.youtube.com/watch?v=ZPeASOyqIHw"> 
+          <!-- backup <a class="poster" href="https://www.youtube.com/watch?v=s--kU9Q69zA"> --> <img width="100%" src="img/cover/banner-video-preview.jpg" alt> <i class="icon">Посмотреть видео</i> </a> 
+         <div class="player"></div> </li> 
+        <li class="active"><a href="http://www.asus.com/Sound_Cards_and_DigitaltoAnalog_Converters/Essence_III/
+" target="_blank"><img width="100%" src="img/cover/banner-Essence-III.jpg" onclick=" MM_Essence_track (‘Banner', ‘Click', ‘Essence_III / Page it opens');" alt></a></li> 
+        <li><a href="http://www.asus.com/Sound_Cards_and_DigitaltoAnalog_Converters/Xonar_Essence_STU/
+" target="_blank"><img width="100%" src="img/cover/banner-Essence-STU.jpg" onclick=" MM_Essence_track (‘Banner', ‘Click', ‘Xonar_Essence_STU / Page it opens');" alt></a></li> 
+        <li><a href="http://www.asus.com/Sound_Cards_and_DigitaltoAnalog_Converters/Xonar_Essence_One_MUSES_Edition/
+" target="_blank"><img width="100%" src="img/cover/banner-Essence-One.jpg" onclick=" MM_Essence_track (‘Banner', ‘Click', ‘Xonar_Essence_One_MUSES_Edition / Page it opens');" alt></a></li> 
+       </ul> 
+      </div> 
+      <div class="coverbannr-prev circle-prev" onclick=" MM_Essence_track (‘Banner', ‘Arrorw icon', ‘Left and Right');"></div> 
+      <div class="coverbannr-next circle-next" onclick=" MM_Essence_track (‘Banner', ‘Arrorw icon', ‘Left and Right');"></div> 
+     </div>
+     <!--/.coverbannr---> 
+    </section>
+    <!--/#cover--> 
+    <section id="find" class="section"> 
+     <h2 class="section-title"><span>Найди свой Essence<b></b><i></i></span></h2> 
+     <div class="toplink"> 
+      <a href="Essence-at-A-Glance.htm" onclick=" MM_Essence_track (‘Find Your Essence', ‘Menu-Find Your Essence', ‘Essence at A Glance');">Сводные характеристики Essence ▶</a> 
+     </div> 
+     <div id="product" class="prodfindr"> 
+      <div class="prodfindr-slides"> 
+       <div class="slides"> 
+        <ul> 
+         <li><img width="1200" src="img/product/Essence-III.jpg" alt></li> 
+         <li><img width="1200" src="img/product/Essence-STU.jpg" alt></li> 
+         <li> 
+          <!--
+							There are 3 link areas on this image,
+							Ajust each CSS inline style (left and top value in percentage relative to banner image)
+							as wanted.
+						--> <a title="Essence One MUSES Edition" class="more circle" target="_blank" href="http://www.asus.com/ru/Sound_Cards_and_DigitaltoAnalog_Converters/Xonar_Essence_One_MUSES_Edition/" style="left:16%; top:75%;" onclick=" MM_Essence_track (‘Find Your Essence', ‘Learn more', ‘Essence One MUSES Edition');">Подробнее</a> <a title="Essence One Plus Edition" class="more circle" target="_blank" href="http://www.asus.com/Sound_Cards_and_DigitaltoAnalog_Converters/Xonar_Essence_One_Plus_Edition/" style="left:46%; top:75%;" onclick=" MM_Essence_track (‘Find Your Essence', ‘Learn more', ‘Essence One Plus Edition');">Подробнее</a> <a title="Essence One" class="more circle" target="_blank" href="http://www.asus.com/ru/Sound_Cards_and_DigitaltoAnalog_Converters/Xonar_Essence_One/" style="left:74%; top:75%;" onclick=" MM_Essence_track (‘Find Your Essence', ‘Learn more', ‘Essence One');">Подробнее</a> <img width="1200" src="img/product/Essence-One.jpg" alt> </li>
+         <li><img width="1200" src="img/product/Essence-STU.jpg" alt></li> 
+         <li><img width="1200" src="img/product/Essence-STX-II-7_1.jpg" alt></li> 
+         <li><img width="1200" src="img/product/Essence-STX-II.jpg" alt></li> 
+         <li><img width="1200" src="img/product/Essence-STX-ST.jpg" alt></li> 
+         <!--<li><img width="1200" src="http://placehold.it/1200x483&text=1200x483(exact size)+ESSENCE+STX+II+7.1" alt></li>
+					<li><img width="1200" src="http://placehold.it/1200x483&text=1200x483(exact size)+ESSENCE+STX+II" alt></li>--> 
+        </ul> 
+       </div>
+       <!--/.slides--> 
+       <div class="prodfindr-prev circle-prev" onclick=" MM_Essence_track (‘Find Your Essence', ‘Arrow icon', ‘Left and Right');"></div> 
+       <div class="prodfindr-next circle-next" onclick=" MM_Essence_track (‘Find Your Essence', ‘Arrow icon', ‘Left and Right');"></div> 
+      </div>
+      <!--/.prodfindr-slides--> 
+      <nav class="prodfindr-menu"> 
+       <div class="menu"> 
+        <ul> 
+         <li class="active"><a href="javascript:;" onclick=" MM_Essence_track (‘Find Your Essence', ‘Product bar', ‘Essence III');"> <strong>Essence III</strong> <small>предусилитель, USB-ЦАП и усилитель для наушников в одном устройстве</small> </a></li> 
+         <li><a href="javascript:;" onclick=" MM_Essence_track (‘Find Your Essence', ‘Product bar', ‘Essence One MKII Series');"> <strong>Essence One MKII Series</strong> <small>USB-ЦАП и усилитель для наушников</small> </a></li> 
+         <li><a href="javascript:;" onclick=" MM_Essence_track (‘Find Your Essence', ‘Product bar', ‘Essence One Series');"> <strong>Essence One Series</strong> <small>USB-ЦАП и усилитель для наушников в одном устройстве</small> </a></li> 
+         <li><a href="javascript:;" onclick=" MM_Essence_track (‘Find Your Essence', ‘Product bar', ‘Essence STU');"> <strong>Essence STU</strong> <small>USB-ЦАП и усилитель для наушников в одном устройстве</small> </a></li> 
+         <li><a href="javascript:;" onclick=" MM_Essence_track (‘Find Your Essence', ‘Product bar', ‘Essence STX II 7.1');"> <strong>Essence STX II 7.1</strong> <small>звуковая карта класса Hi-Fi<br> с усилителем для наушников</small> </a></li> 
+         <li><a href="javascript:;" onclick=" MM_Essence_track (‘Find Your Essence', ‘Product bar', ‘Essence STX II');"> <strong>Essence STX II</strong> <small>звуковая карта класса Hi-Fi <br> с усилителем для наушников</small> </a></li> 
+         <li><a href="javascript:;" onclick=" MM_Essence_track (‘Find Your Essence', ‘Product bar', ‘Essence STX/ST');"> <strong>Essence STX/ST</strong> <small>звуковая карта с усилителем для наушников</small> </a></li> 
+        </ul> 
+       </div>
+       <!--/.menu--> 
+       <div class="active-brick">
+        <i></i>
+       </div> 
+       <div class="next"></div> 
+       <div class="prev"></div> 
+      </nav>
+      <!--/.prodfindr-menu--> 
+      <div class="prodfindr-detail"> 
+       <!--Essence III @start--> 
+       <section> 
+        <header> 
+         <h3>Essence III</h3> 
+        </header> 
+        <div class="content"> 
+         <blockquote>
+          Высокотехнологичное устройство с привлекательным дизайном, разработанное для современного дома
+         </blockquote> 
+         <ul> 
+          <li>Поддержка DSD (Direct Stream Digital)</li> 
+          <li>Усилитель для наушников с поддержкой симметричного и несимметричного подключения</li> 
+          <li>Ступенчатый аттенюатор с удаленным управлением</li> 
+          <li>Высокоточные кварцевые генераторы тактовой частоты с низким уровнем фазовых шумов и поддержка USB в асинхронном режиме</li> 
+          <li>Раздельные источники питания для левого и правого каналов</li> 
+          <li>Аналоговая, цифровая и силовая части устройства выполнены на отдельных печатных платах для минимизации помех</li> 
+          <li>Симметричная схема подключения на базе двух монофонических цифро-аналоговых преобразователей AD1955 </li> 
+          <li>Высококачественные операционные усилители AD827SQ и MUSES 02</li> 
+          <li>Линейный блок питания с тороидальным трансформатором на несколько раздельных шин питания</li> 
+         </ul> 
+        </div> 
+        <footer> 
+         <a class="more circle" href="http://www.asus.com/Sound_Cards_and_DigitaltoAnalog_Converters/Essence_III/" target="_blank" onclick=" MM_Essence_track (‘Find Your Essence', ‘Learn more', ‘Essence III');">Подробнее</a> 
+         <a class="buy circle twoline" href="where-to-buy.htm" onclick=" MM_Essence_track (‘Find Your Essence', ‘Where to buy', ‘Essence III');">Где купить</a> 
+        </footer> 
+       </section> 
+       <!--Essence One MKII @start--> 
+       <section> 
+        <header> 
+         <h3>Essence One MKII Series</h3> 
+        </header> 
+        <div class="content"> 
+         <blockquote>
+          Точное воспроизведение звука – поддержка формата DSD
+         </blockquote> 
+         <ul> 
+          <li>Реализация поддержки DSD (Direct Stream Digital) в формате DSD over PCM (DoP)</li> 
+          <li>Встроенный усилитель для наушников с импедансом до 600 Ом с аппаратным переключателем коэффициента усиления</li> 
+          <li>Соотношение сигнал/шум на уровне 120 дБ и симметричная схема подключения</li> 
+          <li>Высокоточный генератор тактовой частоты и поддержка USB в асинхронном режиме</li> 
+          <li>Высококачественный линейный источник питания с тороидальным трансформатором</li> 
+          <li>Восьмикратное симметричное повышение частоты дискретизации для минимизации искажений</li> 
+         </ul> 
+        </div> 
+        <footer> 
+         <!-- a class="more circle" href="http://www.asus.com/Essence_HiFi_Audio/Essence_One_MKII_MUSES_Edition/" target="_blank" onClick=" MM_Essence_track (‘Find Your Essence', ‘Learn more', ‘Essence One MKII MUSES Edition');">Learn More</a>
+						<br><br><br><br><br><br>
+						<a class="more circle" href="http://www.asus.com/Essence_HiFi_Audio/Essence_One_MKII/" target="_blank" onClick=" MM_Essence_track (‘Find Your Essence', ‘Learn more', ‘Essence One MKII');">Learn More</a --> 
+         <!-- a class="buy circle twoline" href="where-to-buy.htm"  onclick=" MM_Essence_track (‘Find Your Essence', ‘Where to buy', ‘Essence One Series');">Where to<br>buy</a --> 
+        </footer> 
+       </section> 
+       <!--Essence One @start--> 
+       <section> 
+        <header> 
+         <h3>Essence One Series</h3> 
+        </header> 
+        <div class="content"> 
+         <blockquote>
+          Гибкая настройка оттенков звучания
+         </blockquote> 
+         <ul> 
+          <li>11 сменных операционных усилителей для настройки звучания</li> 
+          <li>Восьмикратное симметричное повышение частоты дискретизации для минимизации искажений</li> 
+          <li>Встроенный 600-омный усилитель для наушников</li> 
+          <li>Чистый звук (соотношение сигнал/шум - 120 дБ)</li> 
+          <li>Линейный блок питания с тороидальным трансформатором на несколько раздельных шин питания</li> 
+          <li>Симметричная схема подключения на базе двух монофонических цифро-аналоговых преобразователей TI1795 </li> 
+         </ul> 
+        </div> 
+        <footer> 
+         <a class="buy circle twoline" href="where-to-buy.htm" onclick=" MM_Essence_track (‘Find Your Essence', ‘Where to buy', ‘Essence One Series');">Где купить</a> 
+        </footer> 
+       </section> 
+       <!--Essence STU @start--> 
+       <section> 
+        <header> 
+         <h3>Essence STU</h3> 
+        </header> 
+        <div class="content"> 
+         <blockquote>
+          Превратите свой ноутбук в музыкальный центр класса Hi-Fi
+         </blockquote> 
+         <ul> 
+          <li>Превосходное качество звука</li> 
+          <li>Высокоточные генераторы тактовой частоты и поддержка USB в асинхронном режиме</li> 
+          <li>Соотношение сигнал/шум на уровне 120 дБ</li> 
+          <li>Встроенный 600-омный усилитель для наушников с двумя вариантами усиления</li> 
+          <li>Возможность передачи аудиосигнала на усилитель в обход регулятора громкости</li> 
+          <li>Три сменных операционных усилителя для настройки оттенков звучания</li> 
+         </ul> 
+        </div> 
+        <footer> 
+         <a class="more circle" href="http://www.asus.com/Sound_Cards_and_DigitaltoAnalog_Converters/Xonar_Essence_STU/" target="_blank" onclick=" MM_Essence_track (‘Find Your Essence', ‘Learn more', ‘Essence STU');">Подробнее</a> 
+         <a class="buy circle twoline" href="where-to-buy.htm" onclick=" MM_Essence_track (‘Find Your Essence', ‘Where to buy', ‘Essence STU');">Где купить</a> 
+        </footer> 
+       </section> 
+       <!--Essence STX II 7.1 @start--> 
+       <section> 
+        <header> 
+         <h3>Essence STX II 7.1</h3> 
+        </header> 
+        <div class="content"> 
+         <blockquote>
+          Новое звучание любимой музыки!
+         </blockquote> 
+         <ul> 
+          <li>Великолепное соотношение сигнал/шум – 124 дБ!</li> 
+          <li>Высокоточный генератор тактовой частоты с низким уровнем фазовых шумов</li> 
+          <li>Стабильное питание на базе стабилизаторов с малым падением напряжения и высококачественных конденсаторов от WIMA</li> 
+          <li>Встроенный усилитель для наушников с импедансом до 600 Ом и дополнительным усилением для внутриканальных наушников</li> 
+          <li>Комплект из трех сменных операционных усилителей и инструментов для их установки</li> 
+          <li>Высококачественные операционные усилители MUSES</li> 
+          <li>Вывод качественного звука (сигнал/шум - 120 дБ) в формате 7.1 посредством эксклюзивной дочерней платы</li> 
+         </ul> 
+        </div> 
+        <footer> 
+         <a class="more circle" href="http://www.asus.com/Sound_Cards/Essence_STX_II_71/" target="_blank" onclick=" MM_Essence_track (‘Find Your Essence', ‘Learn more', ‘Essence STX II 7.1');">Подробнее</a> 
+         <!--a class="buy circle twoline" href="where-to-buy.htm" onclick=" MM_Essence_track (‘Find Your Essence', ‘Where to buy', ‘Essence STX II 7.1');">Where to<br>buy</a --> 
+        </footer> 
+       </section> 
+       <!--Essence STX II @start--> 
+       <section> 
+        <header> 
+         <h3>Essence STX II</h3> 
+        </header> 
+        <div class="content"> 
+         <blockquote>
+          Новое звучание любимой музыки!
+         </blockquote> 
+         <ul> 
+          <li>Великолепное соотношение сигнал/шум – 124 дБ!</li> 
+          <li>Высокоточный генератор тактовой частоты с низким уровнем фазовых шумов</li> 
+          <li>Стабильное питание на базе стабилизаторов с малым падением напряжения и высококачественных конденсаторов от WIMA</li> 
+          <li>Встроенный усилитель для наушников с импедансом до 600 Ом и дополнительным усилением для внутриканальных наушников</li> 
+          <li>Комплект из трех сменных операционных усилителей и инструментов для их установки</li> 
+          <li>Высококачественные операционные усилители MUSES</li> 
+         </ul> 
+        </div> 
+        <footer> 
+         <a class="more circle" href="http://www.asus.com/Sound_Cards/Essence_STX_II/" target="_blank">Подробнее</a> 
+         <!-- a class="buy circle twoline" href="where-to-buy.htm"  onclick=" MM_Essence_track (‘Find Your Essence', ‘Where to buy', ‘Essence STX II');">Where to<br>buy</a--> 
+        </footer> 
+       </section> 
+       <!--Essence STX/ST @start--> 
+       <section> 
+        <header> 
+         <h3>Essence STX/ST</h3> 
+        </header> 
+        <div class="content"> 
+         <blockquote>
+          Превратите свой компьютер в музыкальный центр класса Hi-Fi
+         </blockquote> 
+         <ul> 
+          <li>Чистый звук (соотношение сигнал/шум составляет 124 дБ)</li> 
+          <li>Встроенный усилитель для наушников с уровнем искажений менее 0,001%</li> 
+          <li>Высококачественные конденсаторы Fine Gold от Nichicon</li> 
+          <li>Экранированный аналоговый выходной тракт</li> 
+          <li>Возможность легкой замены операционного усилителя</li> 
+          <li>Высокоточный генератор тактовой частоты с низким уровнем фазовых шумов (только у модели Essence ST)</li> 
+         </ul> 
+        </div> 
+        <footer> 
+         <a class="more circle" href="http://www.asus.com/ru/Sound_Cards_and_DigitaltoAnalog_Converters/Xonar_Essence_ST/" target="_blank" onclick=" MM_Essence_track (‘Find Your Essence', ‘Learn more', ‘Essence STX/ST');">Подробнее</a> 
+         <a class="buy circle twoline" href="where-to-buy.htm" onclick=" MM_Essence_track (‘Find Your Essence', ‘Where to buy', ‘Essence STX/ST');">Где купить</a> 
+        </footer> 
+       </section> 
+      </div>
+      <!--/.prodfindr-detail--> 
+     </div>
+     <!--/.prodfindr---> 
+    </section>
+    <!--/#find--> 
+    <section id="spirit" class="section"> 
+     <h2 class="section-title"><span>Дух Essence</span></h2> 
+     <div class="section-descr"> 
+      <ul class="details"> 
+       <li> 
+        <figure> 
+         <img width="326" src="img/spirit/figure-1.jpg" alt> 
+         <figcaption>
+          <span>Безупречное<br>качество</span>
+         </figcaption> 
+        </figure> <p>В работе над созданием устройств серии Essence принимают участие множество инженеров и специалистов в области аудиотехнологий, которые являются такими же энтузиастами Hi-Fi, как и Вы! Каждый компонент и каждая деталь отбираются с особой тщательностью и в соответствии с гораздо более строгими стандартами качества, чем те, что применяются к обычным звуковым картам.</p> </li> 
+       <li> 
+        <figure> 
+         <img width="326" src="img/spirit/figure-2.jpg" alt> 
+         <figcaption>
+          <span>Великолепная<br> работа</span>
+         </figcaption> 
+        </figure> <p>Все продукты серии Essence подвергаются тщательному тестированию на соответствие стандартам надежности и безопасности, а также на совместимость с другими устройствами. В результате этого процесса к пользователю попадают только самые совершенные экземпляры, поэтому от них следует ожидать и требовать безупречной работы.</p> </li> 
+       <li> 
+        <figure> 
+         <img width="326" src="img/spirit/figure-3.jpg" alt> 
+         <figcaption>
+          <span>Идеальный<br> звук</span>
+         </figcaption> 
+        </figure> <p>Самый строгий судья - человек. Именно поэтому продукты серии Essence оцениваются специальной комиссией, в состав которой входят аудиофилы, профессиональные музыканты и опытные инженеры. Используя метод «слепого тестирования», они отбирают устройства с самыми лучшими характеристиками – так, как те воспринимаются непосредственно на слух.</p> </li> 
+      </ul> 
+     </div> 
+    </section>
+    <!--/#spirit--> 
+    <section id="acclaimed"> 
+     <div class="section"> 
+      <h2 class="section-title"><span>Признание мастеров<b></b><i></i></span></h2> 
+      <div class="section-descr"> 
+       <blockquote>
+         «Честный и убедительный звук, который уставляет не у дел многие традиционные бренды класса Hi-Fi!» 
+        <footer>
+         - 
+         <cite>из отзыва жюри ассоциации EISA, август 2014 года.</cite>
+        </footer> 
+       </blockquote>
+       <blockquote>
+         1 место по итогам опроса читателей в категории «Компьютерный звук и звуковые карты». 
+        <footer>
+         - 
+         <cite>Essence STX, Head-Fi.org</cite>
+        </footer> 
+       </blockquote> 
+       <blockquote>
+         «Продуманная конструкция и богатый набор интерфейсов. Приятный и сбалансированный звук». 
+        <footer>
+         - 
+         <cite>Обзор Essence One MUSES Edition, AudioVideo (Россия), февраль 2013 </cite>
+        </footer> 
+       </blockquote> 
+       <blockquote>
+         «Отборные компоненты и оригинальный инженерный подход». 
+        <footer>
+         - 
+         <cite>Обзор Essence STU, Haute-Fidélité (Франция), июль 2013</cite>
+        </footer> 
+       </blockquote> 
+      </div> 
+      <table class="awards" cellspacing="0" width="100%"> 
+       <tbody>
+        <tr> 
+         <td> <a href="javascript:;" onclick=" MM_Essence_track (‘Award', ‘Learn more', ‘Realsization Award');"> <img class="badge" src="img/award-logo/award_EISA_130x70.png" alt> <span class="title"> <strong>Лучший продукт 2014-2015 (ЦАП с интерфейсом USB)</strong><br> Essence III<br> EISA (Португалия), август 2014 
+            <!--<span class="more">Learn more</span>--> </span> </a> </td> 
+         <td> <a href="http://www.highfidelity.pl/@main-1865&amp;lang=" target="_blank" onclick=" MM_Essence_track (‘Award', ‘Learn more', ‘Special Award 2013');"> <img class="badge" src="img/award-logo/specialaward-2013.png" alt> <span class="title"> <strong>Специальная награда 2013</strong><br> Серия Essence<br> High Fidelity (Польша), декабрь 2013 <span class="more">Подробнее</span> </span> </a> </td> 
+         <td> <a href="javascript:;" onclick=" MM_Essence_track (‘Award', ‘Learn more', ‘Realsization Award');"> <img class="badge" src="img/award-logo/aeard_WattMagazine_120x58.png" alt> <span class="title"> <strong>5 звезд из 6</strong><br> Essence III <br> Watt Magazine <br> (Норвегия), май 2014 </span> </a> </td> 
+         <td> <a href="javascript:;" onclick=" MM_Essence_track (‘Award', ‘Learn more', ‘Realsization Award');"> <img class="badge" src="img/award-logo/award_AudioVideo_Recommendation.png" alt> <span class="title"> <strong>Рекомендация от Audio Video</strong><br> Essence III<br> Audio Video (Польша), январь 2014 </span> </a> </td> 
+        </tr> 
+        <tr> 
+         <td> <a href="javascript:;" onclick=" MM_Essence_track (‘Award', ‘Learn more', ‘We Recommend');"> <img class="badge" src="img/award-logo/hifimaailma-2013.png" alt> <span class="title"> <strong>We Recommend</strong><br> Essence One MUSES Edition<br> Hifimaailma (Финляндия), октябрь 2013 
+            <!--<span class="more">Learn more</span>--> </span> </a> </td> 
+         <td> <a href="http://www.salonav.com/arch/2013/02/046.htm" target="_blank" onclick=" MM_Essence_track (‘Award', ‘Learn more', ‘Choice of the Expert');"> <img class="badge" src="img/award-logo/audiovideo-expert-2013.png" alt> <span class="title"> <strong>Choice of the Expert</strong><br> Essence One MUSES Edition<br> AudioVideo (Россия), февраль 2013 <span class="more">Подробнее</span> </span> </a> </td> 
+         <td> <a href="http://www.6moons.com/audioreviews/asus/5.html" target="_blank" onclick=" MM_Essence_track (‘Award', ‘Learn more', ‘Realsization Award');"> <img class="badge" src="img/award-logo/realsization-2013.png" alt> <span class="title"> <strong>Realsization Award</strong><br> Essence One <br> 6moons.com (США), ноябрь 2012 <span class="more">Подробнее</span> </span> </a> </td> 
+         <td> <a href="http://www.highfidelity.pl/@main-1865&amp;lang=" target="_blank" onclick=" MM_Essence_track (‘Award', ‘Learn more', ‘Special Award 2013');"> <img class="badge" src="img/award-logo/specialaward-2013.png" alt> <span class="title"> <strong>Special Award 2013</strong><br> Essence series<br> High Fidelity (Польша), декабрь 2013 <span class="more">Подробнее</span> </span> </a> </td> 
+        </tr> 
+        <tr> 
+         <td> <a href="javascript:;" onclick=" MM_Essence_track (‘Award', ‘Learn more', ‘Editor’s Choice');"> <img class="badge" src="img/award-logo/audiovideo-editor-2012.png" alt> <span class="title"> <strong>Editor’s Choice</strong><br> Essence One<br> AudioVideo (Польша), январь 2012
+            <!--<span class="more">Learn more</span>--> </span> </a> </td> 
+         <td> <a href="javascript:;" onclick=" MM_Essence_track (‘Award', ‘Learn more', ‘Best Buy');"> <img class="badge" src="img/award-logo/audiovideo-bestbuy-2013.png" alt> <span class="title"> <strong>Best Buy</strong><br> Essence STU<br> AudioVideo (Россия), февраль 2013 
+            <!--<span class="more">Learn more</span>--> </span> </a> </td> 
+         <td> <a href="javascript:;" onclick=" MM_Essence_track (‘Award', ‘Learn more', ‘CES 2012 Innovations Award');"> <img class="badge" src="img/award-logo/ces-2012.png" alt> <span class="title"> <strong>CES 2012 Innovations Award</strong><br> Essence One<br> CES (США), январь 2012 
+            <!--<span class="more">Learn more</span>--> </span> </a> </td> 
+         <td> <a href="http://www.hi-fi.ru/magazine/stereo/929370" target="_blank" onclick=" MM_Essence_track (‘Award', ‘Learn more', ‘Editor’s Choice');"> <img class="badge" src="img/award-logo/hifi-2013.png" alt> <span class="title"> <strong>Editor’s Choice</strong><br> Essence STX<br> Hi-Fi.ru (Россия) февраль 2013 <span class="more">Подробнее</span> </span> </a> </td> 
+        </tr> 
+        <tr> 
+         <td> <a href="javascript:;" onclick=" MM_Essence_track (‘Award', ‘Learn more', ‘Quobuzissime');"> <img class="badge" src="img/award-logo/qobuzissime.png" alt> <span class="title"> <strong>Quobuzissime</strong><br> Essence STU<br> Qobuz (Франция), август 2013 
+            <!--<span class="more">Learn more</span>--> </span> </a> </td> 
+         <td> <a href="http://www.visualgrandprix.com/vgp2013_summer/vgp_p2_17.html" target="_blank" onclick=" MM_Essence_track (‘Award', ‘Learn more', ‘VGP2013 SUMMER Award');"> <img class="badge" src="img/award-logo/vgp-2013.png" alt> <span class="title"> <strong>VGP2013 SUMMER Award</strong><br> Essence One MUSES Edition<br> Phileweb (Япония), февраль 2013 <span class="more">Подробнее</span> </span> </a> </td> 
+         <td> <a href="http://vgp.phileweb.com/vgp2014/vgp_p2_9.html" target="_blank" onclick=" MM_Essence_track (‘Award', ‘Learn more', ‘VGP2014 Award');"> <img class="badge" src="img/award-logo/vgp-2014.png" alt> <span class="title"> <strong>VGP2014 Award</strong><br> Essence STU<br> Phileweb (Япония), ноябрь 2013 <span class="more">Подробнее</span></span></a><a href="http://vgp.phileweb.com/vgp2014/vgp_p2_9.html" target="_blank" onclick=" MM_Essence_track (‘Award', ‘Learn more', ‘VGP2014 Award');"> </a> </td> 
+         <td> <a href="javascript:;" onclick=" MM_Essence_track (‘Award', ‘Learn more', ‘Ljud &amp; Bild');"> <img class="badge" src="img/award-logo/ljudbild-2013.png" alt> <span class="title"> <strong>Ljud &amp; Bild</strong><br> Essence One<br> Ljud &amp; Blid (Швеция) февраль 2013 
+            <!--<span class="more">Learn more</span>--> </span> </a> </td> 
+        </tr> 
+       </tbody>
+      </table> 
+     </div>
+     <!--/.section--> 
+    </section>
+    <!--/#acclaimed--> 
+    <section id="discover" class="section"> 
+     <h2 class="section-title"><span>Открой для себя Essence<b></b><i></i></span></h2> 
+     <p class="section-descr">В чем секрет идеального звука? Для каждого человека ответ будет своим. Однако ясно одно - в любой мелодии можно открыть для себя много нового и интересного при условии, что ты знаешь, к чему прислушиваться. Чтобы получить максимальное удовольствие от качественной аудио-аппаратуры, познакомьтесь с советами специалистов.</p> 
+     <ul class="figures"> 
+      <li> <a href="tutorialpage/Foobar2000-DSD.html" onclick=" MM_Essence_track (‘Articles', ‘Click', ‘Windows® 7 DSD Setup Guide for foobar 2000 (Essence III)');"> <img width="236" src="img/discover/win7-asio-for-foobar-2000.jpg" alt><span>Руководство по установке Windows ® 7 ASIO аудио для Foobar 2000</span> </a> </li> 
+      <li> <a href="tutorialpage/JRiver-DSD.html" onclick=" MM_Essence_track (‘Articles', ‘Click', ‘Windows® 7 DSD Setup Guide for JRiver MC19 (Essence III)');"> <img width="236" src="img/discover/win7-asio-for-jriver-media-center.jpg" alt>Руководство по установке Windows ® 7 ASIO аудио для JRiver Media Center </a> </li> 
+      <li> <a href="tutorialpage/Foobar2000-ASIO.html" onclick=" MM_Essence_track (‘Articles', ‘Click', ‘Windows® 7 ASIO Audio Setup Guide for foobar 2000');"> <img width="236" src="img/discover/win7-dsd-for-foobar-2000.jpg" alt><span>Руководство по установке Windows® 7 DSD для foobar 2000 (Essence III)</span> </a> </li> 
+      <li> <a href="tutorialpage/JRiver-ASIO.html" onclick=" MM_Essence_track (‘Articles', ‘Click', ‘Windows® 7 ASIO Audio Setup Guide for JRiver Media Center');"> <img width="236" src="img/discover/win7-dsd-for-jriver-mc19.jpg" alt><span>Руководство по установке Windows® 7 DSD для JRiver MC19 (Essence III)</span> </a> </li> 
+     </ul> 
+    </section>
+    <!--/#discover--> 
+   </div>
+   <!--/#content--> 
+   <a id="backtop" class="scrllto backtop hide" href="#">Вверх</a> 
+  </div>
+  <!--/#wrap-->   
+ </body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta name="viewport" content="width=device-width"> 
+  <title>華碩小幫手 - ASUS Support</title> 
+  <link rel="icon" type="images/ico" href="logoico.ico"> 
+  <!-- mobile --> 
+  <link href="css/index_mobile.css" rel="stylesheet" type="text/css" media="only screen and (min-width:0px) and (max-width:700px)"> 
+  <!-- 電腦用 --> 
+  <link href="css/index_desktop.css" rel="stylesheet" type="text/css" media="only screen and (min-width:701px)"> 
+ </head> 
+ <body> 
+  <div class="wrap"> 
+   <!--wrap start--> 
+   <div class="header"> 
+    <!--header start--> 
+    <div id="topnav" align="center"></div> 
+   </div> 
+   <!--header end--> 
+   <div class="content"> 
+    <!--content start--> 
+    <div id="gradient"> 
+     <div class="part1"> 
+      <!--part1 start--> 
+      <div class="leftright"> 
+       <div class="left">
+        <img src="images/1-1.png">
+       </div> 
+       <div class="right"> 
+        <div class="right1">
+         <img src="images/1-2.png">
+        </div> 
+        <div class="right2">
+         <p>華碩小幫手</p>
+        </div> 
+        <div class="right3">
+         <p>即時解答您的華碩裝置使用問題，溝通更快更直接</p>
+        </div> 
+        <div class="right4">
+         <p>ASUS 重視您的使用者體驗，您可以直接在手機上找到系統與硬體相關問題的 疑難排解、 ZenUI 教學、訊息中心及手機健檢等服務；還可以將問題與建議，零時差的回饋給研發團隊，享受專屬的個人化服務。</p>
+        </div> 
+        <div class="right5">
+         <p>註：華碩小幫手是華碩手機/平板專用 APP，使用介面及功能可能因裝置或軟體版本而有差異；建議您下載最新版本，以享受完整的功能。</p>
+        </div> 
+        <div class="right6">
+         <a href="https://goo.gl/ucGFK8" target="_ASUSSupport" title="download ASUS Support"><img src="images/1-3.png" style="border:0px"></a>
+         <img src="images/1-4.png">
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <!--part1 end--> 
+    </div> 
+    <div id="gradient"> 
+     <div class="part2"> 
+      <!--part2 start--> 
+      <div class="top">
+       <img src="images/2-1.png"> 
+       <div id="topic">
+        <p>疑難排解</p>
+       </div> 
+       <div id="detail">
+        <p>您可以在此找到系統更新、電池耗電、通話聲音、音效喇叭、Wi-Fi / GPS 定位等裝置上的問題解答，無須撥打客服，就能立即解決！</p>
+       </div> 
+      </div> 
+      <div class="below">
+       <img src="images/2-2.png">
+      </div> 
+     </div> 
+     <!--part2 end--> 
+    </div> 
+    <div id="gradient"> 
+     <div class="part3"> 
+      <!--part3 start--> 
+      <div class="top">
+       <img src="images/3-1.png"> 
+       <div id="topic">
+        <p>ZenUI 教學</p>
+       </div> 
+       <div id="detail">
+        <p>提供所有 ZenUI 的教學及常見問題解答，讓您快速上手，享受 ZenUI 帶來的便利及樂趣！透過用戶討論區，分享密技並與線上用戶互動討論；或是將您的問題、建議與想法直接反應給研發團隊，溝通更快速。</p>
+       </div> 
+      </div> 
+      <div class="below">
+       <img src="images/3-2.png">
+      </div> 
+     </div> 
+     <!--part3 end--> 
+    </div> 
+    <div id="gradient"> 
+     <div class="part4"> 
+      <!--part4 start--> 
+      <div class="top">
+       <img src="images/4-1.png"> 
+       <div id="topic">
+        <p>訊息中心</p>
+       </div> 
+       <div id="detail">
+        <p>輕鬆掌握 ZenUI 的最新更新資訊、密技教學、活動訊息與好康優惠！</p>
+       </div> 
+      </div> 
+      <div class="below">
+       <img src="images/4-2.png">
+      </div> 
+     </div> 
+     <!--part4 end--> 
+    </div> 
+    <div id="gradient"> 
+     <div class="part5"> 
+      <!--part5 start--> 
+      <div class="top">
+       <img src="images/5-1.png"> 
+       <div id="topic">
+        <p>手機健檢</p>
+       </div> 
+       <div id="detail">
+        <p>讓您快速掌握手機記憶體、電量及內部儲存空間的使用狀況， 透過省電與加速、省電模式及自啟動管理，讓您的手機保持最佳效能。</p>
+       </div> 
+      </div> 
+      <div class="below">
+       <img src="images/5-2.png">
+      </div> 
+     </div> 
+     <!--part5 end--> 
+    </div> 
+   </div> 
+   <!--content end--> 
+   <div class="footer"> 
+   </div> 
+  </div> 
+  <!--wrap end-->   
+  <script type="text/javascript">
+
+    window.ASUSInit = function () { asus_api.init({ appkey: 'event00006', lang: 'tw' }); };
+    (function (d) {
+        var js, id = 'asus-jsapi';
+        if (d.getElementById("asus-jsapi")) { return; }
+        js = d.createElement('script');
+        js.id = id;
+        js.async = true;
+        js.src = "//www.asus.com/API/js/asus_api.js";
+        d.getElementsByTagName('head')[0].appendChild(js);
+    }(document));
+</script> 
+ </body>
+</html>

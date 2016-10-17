@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width"> 
+  <meta name="description" content="Powered by ASUS offers dream machines with select system-builders, from small-form-factor dynamos to giant liquid-cooled beasts, Powered by ASUS means exclusivity, performance, and art."> 
+  <meta name="keywords" content="ASUS,asus,VGA,MB,Desktop,Display,Monitor,Networks,Server &amp;,Workstation,Gaming gear,Motherboards,PC Gaming hardware,Gaming,motherboard,Gaming motherboard vn,overclocking motherboard,overclocking motherboard vn,Optical Storage,Graphics Cards,Thermal Solution,ASUS,Partners,PBA,pba vn,PBA VN,PBA Systems,ASUS System Builder ,ASUS Gaming Systems ,Gaming System,ASUS Computer,ASUS Gaming Computer,bo mạch chủ tốt nhất,card đồ họa tốt nhất,PC tốt nhất,bo mạch chủ chất lượng ,card đồ họa chất lượng,màn hình chất lượng,bo mạch chủ ASUS,card đồ họa ASUS,màn hình ASUS,asus pc,Anphat,hanoi computer,Tran anh,Tinh te,Gaming gear, phong vu, tan doanh,lol,cf"> 
+  <meta property="og:site_name" content="Powered by ASUS"> 
+  <meta property="og:title" content="Powered by ASUS."> 
+  <meta property="og:description" content="Powered by ASUS đem lại cho bạn các cấu hình PC mạnh mẽ, hoạt động ổn định cùng các chương trình khuyến mại đặc biệt từ ASUS Việt Nam!"> 
+  <link rel="shortcut icon" href="http://www.asus.com/media/img/favicon.ico"> 
+  <title>Powered by ASUS</title> 
+  <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" type="text/css"> 
+  <link href="Theme/CSS/normalize.css" rel="stylesheet" media="screen"> 
+  <link href="Theme/CSS/default.css" rel="stylesheet" media="screen"> 
+  <link href="Theme/CSS/idangerous.swiper.css" rel="stylesheet" media="screen"> 
+  <script src="Theme/Javascript/modernizr.custom.08193.js"></script> 
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> 
+  <script src="Theme/Javascript/default.js"></script> 
+  <script src="Theme/Javascript/idangerous.swiper.min.js"></script> 
+  <script type="text/javascript">
+    //ASUS header & footer
+        window.ASUSInit = function () {
+            asus_api.init({ appkey: 'campa00004' , lang: 'vn', api_menu_logo: '0');
+        };
+        (function(d){
+            var js, id = 'asus-jsapi';
+            if (d.getElementById("asus-jsapi")) {return;}
+            js = d.createElement('script');
+            js.id = id;
+            js.async = true;
+            js.src = "//www.asus.com/API/js/asus_api.js";
+            d.getElementsByTagName('head')[0].appendChild(js);
+        }(document));
+     </script> 
+ </head> 
+ <body> 
+  <div class="wrapper"> 
+   <header class="header"> 
+    <section class="header-inner"> 
+     <a href="index.html"><img class="logo" src="Theme/Image/UI/logo.png"></a> 
+     <div class="burger-wrapper"> 
+      <a class="burger burger-on"></a> 
+      <a class="burger burger-off"></a> 
+     </div> 
+     <ul class="menu"> 
+      <li><a href="index.html" class="active" onclick="ga('send', 'event', 'menus', 'clicked', ‘powered-by-asus-au')">Powered by ASUS</a></li> 
+      <li><a href="buynow.html" class="icon-cart" onclick="ga('send', 'event', 'menus', 'clicked', ‘buy-a-pc-now-au')">Mua PC Ngay!</a></li> 
+      <li><a href="companion.html" onclick="ga('send', 'event', ‘menus’, 'clicked', ‘best-companion-with-your-pc-au')">Tối Ưu Hóa Hiệu Năng PC</a></li> 
+      <li><a href="promotion.html" onclick="ga('send', 'event', ‘menus', 'clicked', ‘events-and-promotion-au')">Sự Kiện và Khuyến Mại</a></li> 
+     </ul> 
+    </section> 
+   </header> 
+   <main class="main"> 
+    <section class="banner home-banner"> 
+     <div class="hero"> 
+      <!--banner slider : start --> 
+      <a class="arrow-left" href="#"></a> 
+      <a class="arrow-right" href="#"></a> 
+      <div class="swiper-container"> 
+       <div class="swiper-wrapper"> 
+        <div class="swiper-slide"> 
+         <div class="swiper-img">
+          <a href="#">
+           <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-1.jpg)"></div></a>
+         </div> 
+        </div> 
+        <div class="swiper-slide"> 
+         <div class="swiper-img">
+          <a href="hhttps://www.asus.com/microsite/AURA/" target="_blank" onclick="ga('send', 'event', ‘banners', 'clicked', ‘AMD-Strix-R9-Fury-au')">
+           <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-9.jpg)"></div></a>
+         </div> 
+        </div> 
+        <div class="swiper-slide"> 
+         <div class="swiper-img">
+          <a href="http://www.asus.com/vn/Graphics-Cards/ROG-STRIX-GTX1080-O8G-GAMING/" target="_blank" onclick="ga('send', 'event', ‘banners', 'clicked', ‘AMD-Strix-R9-Fury-au')">
+           <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-13.jpg)"></div></a>
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pagination"></div> 
+      <!--banner slider : end --> 
+     </div> 
+    </section> 
+    <section class="home-intro"> 
+     <div class="home-intro-inner clear"> 
+      <div class="home-logo">
+       <img src="Theme/Image/UI/logo.png">
+      </div> 
+      <div class="text"> 
+       <h2>Powered by ASUS. Nghệ Thuật Đỉnh Cao Của Công Nghệ</h2> 
+       <p>Powered by ASUS dành cho khách hàng đang tìm kiếm sự hoàn hảo. Đội ngũ nghiên cứu và phát triển hàng đầu trên thế giới của chúng không ngừng làm việc với kim chỉ nam — Tìm Kiếm Sự Khác Biệt. Phương châm của chúng tôi đã được khẳng định bằng việc nhận được hơn 3000+ giải thưởng hàng năm. Không chỉ vậy, các đối tác của Powered by ASUS: lựa chọn các kỹ sư hệ thống để tạo nên các bộ máy tuyệt đẹp từ các bộ máy nhỏ đến bộ máy tản nhiệt bằng nước. Powered by ASUS có nghĩa là độc quyền, hiệu năng và nghệ thuật. Đó là tất cả những điều mà các bạn đang tìm kiếm!</p> 
+      </div> 
+     </div> 
+    </section> 
+    <section class="home-duet clear"> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>Thương Hiệu Bo Mạch Chủ Số #1 Thế Giới</h3> 
+       <p>ASUS là thương hiệu bo mạch chủ dẫn đầu trong 10 năm liên tiếp trên thế giới về sự đổi mới và hiệu năng. Thương hiệu bo mạch chủ TỐT NHÁT với rất nhiều giải thưởng đạt được, được khẳng định theo 4 tiêu chí — Bán Nhiều Nhất, Dễ Sử Dụng, Ổn Đinh và Tin Cậy. Với hơn 500 triệu bo mạch chủ được bán ra trên toàn Thế Giới từ năm 1989, ASUS là thương hiệu đem lại sự tin cậy cho bạn.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-a-1.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>Thương Hiệu Card Đồ Họa Số #1 Thế Giới</h3> 
+       <p>ASUS là thương hiệu card đồ họa số #1 Thế Giới, là thương hiệu áp dụng công nghệ tự động hóa trong sản xuất đầu tiên — 100% tự động hóa cho độ tin cậy tốt nhất. Kết hợp với các công nghệ làm mát độc quyền và ứng dụng điều khiển trực quan, card đồ họa ASUS đem lại cho người dùng trải nghiệm tốt nhất! </p>
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-a-2.jpg">
+      </div> 
+     </div> 
+    </section> 
+    <section class="home-team clear"> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>Thương Hiệu Màn Hình Chơi Game Số #1, Đạt Chứng Nhận Hàng Đầu TÜV về Ánh Sáng Xanh</h3> 
+       <p>Màn hình ASUS TỐT NHẤT. Màn hình hiển thị của ASUS giúp giảm thiểu 70% Ánh Sáng Xanh gây hại tới mắt khi sử dụng trong một thời gian dài. Điều này đã được chứng minh bằng chứng nhận TÜV Rheinland - Tổ chức chứng nhận &amp; Kiểm tra sản phẩm Thế Giới!</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-1.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>Giải Pháp Mạng Toàn Diện</h3> 
+       <p>ASUS đem lại cho bạn giải pháp mạng toàn diện và nhanh nhất: Tầm phủ sóng xa nhất, đảm bảo phạm vi kết nối - Dễ dàng cài đặt và sử dụng với ASUS Router App và ASUSWRT - Bảo vệ mạng độc quyền với ASUS AiProtection - Độ tin cậy và chất lượng với các giải thưởng đạt được! </p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-2.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>Lưu Giữ Dữ Liệu 1000 năm Với Ổ Đĩa Quang</h3> 
+       <p>Ổ đĩa quang ASUS hỗ trợ M-DISC™, các giải pháp lưu trữ dữ liệu dạng số. Công nghệ ghi đĩa ASUS M-DISC được cấp bằng sáng chế giúp bạn lưu trữ vào bảo vệ dữ liệu lên tới 1000 năm!</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-3.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>Linh Kiện PC Games Được Người Dùng Bình Chọn Nhiều Nhất Trong 3 Năm Liên Tiếp</h3> 
+       <p>Card âm thanh ASUS đáp ứng mọi yêu cầu của các thính giả khó tính nhất. Sản phẩm được thiết kế với vật liệu cao cấp nhất đối với mỗi chi tiết. Khả năng khử tiếng ồn cao SNR, bộ khuếch đại âm thanh kết hợp âm thanh vòng sẽ đem lại cho người dùng trải nghiệm âm thanh sống động như thật!</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-4.jpg">
+      </div> 
+     </div> 
+    </section> 
+    <section class="buy-now"> 
+     <a href="buynow.html" class="action" onclick="ga('send', 'event', 'navigations', 'clicked', ‘buy-a-pc-now-au')">Mua PC Ngay!</a> 
+    </section> 
+   </main> 
+   <footer class="footer"> 
+    <p class="backtotop"><a>Về Đầu Trang</a></p> 
+    <section class="content"> 
+     <p class="copyright "><a href="https://asus.com/" target="_blank"><img src="Theme/Image/UI/asus.png"></a><br>© 2016 ASUSTeK Computer Inc. All Rights Reserved.&nbsp;Terms of Use. All specifications and terms are subject to change without notice. Please check with your supplier for exact offers on selected models. Products may not be available in all markets. Product may not be exactly as shown in photos. Brand and product names mentioned are trademarks of their respective companies. ASUS shall not be liable for technical or editorial errors or omissions contained herein.</p> 
+    </section> 
+   </footer> 
+   <div class="sidenav"> 
+    <!--<a class="sidenav-home-1"><span>OVERVIEW</span></a>--> 
+    <a class="sidenav-home-2"><span>TẠI SAO CHỌN POWERED BY ASUS?</span></a> 
+    <a class="sidenav-home-3"><span>TẠI SAO LỰA CHỌN SẢN PHẨM ASUS?</span></a> 
+   </div> 
+  </div>  
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NJRLM8');</script> 
+  <!-- End Google Tag Manager -->  
+ </body>
+</html>

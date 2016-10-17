@@ -1,0 +1,35 @@
+<!doctype html>
+<html ng-app="ZenMoment">
+ <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Discover the ASUS ZenBook Family - sleek and stylish laptops with a lot of power under the hood. Find the one that's right for you.">
+  <title>Find your ZenBook | ASUS USA</title>
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/vendor-styles.min.css">
+  <link rel="stylesheet" href="css/styles.min.css">
+ </head>
+ <body>
+  <script type="text/javascript">var axel = Math.random() + "";
+      var a = axel * 10000000000000;
+      // Landing Page
+      document.write('<iframe src="https://6037902.fls.doubleclick.net/activityi;src=6037902;type=landi0;cat=landi00;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+      // UX501
+      document.write('<iframe src="https://6037902.fls.doubleclick.net/activityi;src=6037902;type=butto0;cat=ux5010;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+      // View All
+      document.write('<iframe src="https://6037902.fls.doubleclick.net/activityi;src=6037902;type=butto0;cat=viewa0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');</script>
+  <noscript>
+   <iframe src="https://6037902.fls.doubleclick.net/activityi;src=6037902;type=landi0;cat=landi00;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+   <iframe src="https://6037902.fls.doubleclick.net/activityi;src=6037902;type=butto0;cat=ux5010;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+   <iframe src="https://6037902.fls.doubleclick.net/activityi;src=6037902;type=butto0;cat=viewa0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+  </noscript>
+  <div ui-view autoscroll="'true'"></div>
+  <div ng-include src="'views/templates/footer.tmpl.html'"></div>
+  <script src="js/vendor-scripts.min.js"></script>
+  <script src="js/scripts.min.js"></script>
+  <noscript>
+   <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=393071437550964&amp;ev=PageView&amp;noscript=1">
+  </noscript>
+ </body>
+</html>

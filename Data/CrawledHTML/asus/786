@@ -1,0 +1,616 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta charset="utf-8"> 
+  <meta name="og:description" content="ASUS' commitment to innovation, quality, and performance has built a strong reputation for ASUS graphics  cards  since 1996. Today, ASUS  is the best-selling and most award-winning graphics card brand, and is the most popular brand in 3D Mark benchmarking by users on the HWBot overclocking website."> 
+  <meta property="og:title" content="The Fastest GTX 980 Infused with Award-winning Innovations - ASUS.com"> 
+  <meta property="og:image" content="http://showcase.insowe.com/AsusVGA20th/img/fb-pic.png"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, user-scalable=no"> 
+  <title>ASUS Graphics Card 20th Anniversary</title> 
+  <link rel="stylesheet" href="./css/jquery-ui.min.css"> 
+  <link rel="stylesheet" href="./css/fancybox/jquery.fancybox.css"> 
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300"> 
+  <link rel="stylesheet" href="./css/style.css"> 
+  <script src="./js/plugins/jquery-1.11.2.min.js"></script> 
+  <script src="./js/plugins/jquery.mousewheel.min.js"></script> 
+  <script src="./js/plugins/jquery-ui.min.js"></script> 
+  <script src="./js/plugins/jquery.fancybox.pack.js"></script> 
+  <script type="text/javascript" src="css/fancybox/helpers/jquery.fancybox-media.js"></script> 
+  <script src="./js/plugins/jQueryRotateCompressed.js"></script> 
+  <script src="./js/main.js"></script> 
+  <script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		 
+		  ga('create', ' UA-56028643-1', 'auto');
+		  ga('require', 'displayfeatures');
+		  ga('send', 'pageview');
+		</script> 
+  <!--[if lte IE 8]>
+		<link rel="stylesheet" href="./css/font.css">
+		<![endif]--> 
+  <!--[if gt IE 8]>
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300">
+		<![endif]--> 
+  <!--[if !IE]><!--> 
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300"> 
+  <!--<![endif]--> 
+  <!--[if lte IE 9]>
+		<link rel="stylesheet" href="./css/font.css">
+		<script src="./js/plugins/html5shiv.js"></script>
+		<script src="./js/plugins/respond.js"></script>
+		<![endif]--> 
+ </head> 
+ <body> 
+  <div class="content"> 
+   <div id="sec00" class="front"> 
+    <div class="top"> 
+     <div class="social"> 
+      <p class="web">Share with</p> 
+      <a href="javascript: void(window.open('http://twitter.com/home/?status='.concat(encodeURIComponent('ASUS: The Fastest GTX 980 Infused with Award-winning Innovations')) .concat(' ') .concat(encodeURIComponent(location.href))));" class="twitter"><img src="img/twittericon.png"></a> 
+      <a href="javascript: void(window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent(location.href)) ));" class="FB"><img src="img/fbicon.png"></a> 
+     </div> 
+     <div class="multiple"> 
+      <select name="lang" id="language"> <option selected value="http://www.asus.com/event/VGA/20THANNIVERSARY/">ENGLISH</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/UA/">Українська</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/TR/">TÜRKÇE</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/KR/">한국어</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/JP/">日本語</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/CZ/">Čeština</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/SK/">Slovensko</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/FR/">Français</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/DE/">DEUTSCH</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/VN/">Việt Nam</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/PL/">Polski</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/HU/">Magyar</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/IT/">Italiano</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/RU/">РУССКИЙ</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/ID/">Bahasa Indonesia</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/EG">ARABIC</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/EG/"> العربية</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/middleeast-fa/">فارسی</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/TW/">中文</option> 
+       <!--
+							<option value="">ENGLISH2</option>
+							<option value="">ENGLISH3</option>
+							<option value="">ENGLISH4</option>
+							<option value="">ENGLISH5</option>
+							--> </select> 
+     </div> 
+     <a id="mobilemenu" href="javascript:;" class="menu"><img src="img/menu.png"></a> 
+    </div> 
+    <div id="mobilesilde" class="fixed"> 
+     <ul class="years"> 
+      <table> 
+       <tbody> 
+        <tr> 
+         <td><a id="btn00" href="javascript:;">Innovation</a></td> 
+         <td>&nbsp;</td> 
+         <td><a id="btn11" href="javascript:;">FUTURE</a></td> 
+        </tr> 
+        <tr class="verline"> 
+         <td>|</td> 
+         <td>&nbsp;</td> 
+         <td>|</td> 
+        </tr> 
+        <tr> 
+         <td><a id="btn01" href="javascript:;">1996</a></td> 
+         <td>&nbsp;</td> 
+         <td><a id="btn10" href="javascript:;">2014</a></td> 
+        </tr> 
+        <tr class="verline"> 
+         <td>|</td> 
+         <td>&nbsp;</td> 
+         <td>|</td> 
+        </tr> 
+        <tr> 
+         <td><a id="btn02" href="javascript:;">1998</a></td> 
+         <td>&nbsp;</td> 
+         <td><a id="btn09" href="javascript:;">2013</a></td> 
+        </tr> 
+        <tr class="verline"> 
+         <td>|</td> 
+         <td>&nbsp;</td> 
+         <td>|</td> 
+        </tr> 
+        <tr> 
+         <td><a id="btn03" href="javascript:;">2005</a></td> 
+         <td>&nbsp;</td> 
+         <td><a id="btn08" href="javascript:;">2011</a></td> 
+        </tr> 
+        <tr class="verline"> 
+         <td>|</td> 
+         <td>&nbsp;</td> 
+         <td>|</td> 
+        </tr> 
+        <tr> 
+         <td><a id="btn04" href="javascript:;">2007</a></td> 
+         <td>&nbsp;</td> 
+         <td><a id="btn07" href="javascript:;">2010</a></td> 
+        </tr> 
+        <tr class="verline"> 
+         <td>|</td> 
+         <td>&nbsp;</td> 
+         <td>|</td> 
+        </tr> 
+        <tr> 
+         <td><a id="btn05" href="javascript:;">2008</a></td> 
+         <td class="horline"><img src="img/line.png"></td> 
+         <td><a id="btn06" href="javascript:;">2009</a></td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </ul> 
+    </div> 
+    <div class="title"> 
+     <div class="bg"> 
+      <img src="img/front.jpg"> 
+      <a target="_blank" href="http://www.asus.com/Graphics_Cards/GOLD20THGTX980P4GD5/"> <img src="img/frontCard.png"> </a> 
+     </div> 
+     <div class="text"> 
+      <h1>THE FASTEST GTX 980</h1> 
+      <p class="mobile">1431 MHz OC Edition <span class="line">|</span> DirectCU with 0dB Fan<br>Memory Defroster <span class="line">|</span> DIGI + VRM with Super Alloy Power</p> 
+      <p class="web">1431 MHz OC Edition <span class="line">|</span> DirectCU with 0dB Fan <span class="line">|</span> Memory Defroster <span class="line">|</span> DIGI + VRM with Super Alloy Power</p> 
+     </div> 
+    </div> 
+    <div class="start"> 
+     <a id="explore" href="javascript:;">EXPLORE</a> 
+    </div> 
+    <div class="startPc"> 
+     <a id="explorePc" href="javascript:;"> <span class="text">Award-winning Innovations Start From Here</span> <img src="img/arrow.png" alt=""> </a> 
+    </div> 
+    <div class="webyears"> 
+     <div class="years"> 
+      <div class="bg">
+       <img src="img/line.png">
+      </div> 
+      <a class="active" href="javascript:;" data-page="00"> <span>Home</span> <img src="img/icon/circle.png"> </a> 
+      <a href="javascript:;" data-page="01"> <span>1996</span> <img src="img/icon/circle.png"> </a> 
+      <a href="javascript:;" data-page="02"> <span>1998</span> <img src="img/icon/circle.png"> </a> 
+      <span> <span>2002</span> <img src="img/icon/circleS.png"> </span> 
+      <a href="javascript:;" data-page="03"> <span>2005</span> <img src="img/icon/circle.png"> </a> 
+      <a href="javascript:;" data-page="04"> <span>2007</span> <img src="img/icon/circle.png"> </a> 
+      <a href="javascript:;" data-page="05"> <span>2008</span> <img src="img/icon/circle.png"> </a> 
+      <a href="javascript:;" data-page="06"> <span>2009</span> <img src="img/icon/circle.png"> </a> 
+      <a href="javascript:;" data-page="07"> <span>2010</span> <img src="img/icon/circle.png"> </a> 
+      <a href="javascript:;" data-page="08"> <span>2011</span> <img src="img/icon/circle.png"> </a> 
+      <a href="javascript:;" data-page="09"> <span>2013</span> <img src="img/icon/circle.png"> </a> 
+      <a href="javascript:;" data-page="10"> <span>2014</span> <img src="img/icon/circle.png"> </a> 
+      <a href="javascript:;" data-page="11"> <span>2015</span> <img src="img/icon/circle.png"> </a> 
+      <a class="fake1" href="javascript:;" data-page="12"> <span>FUTURE</span> <img src="img/icon/circle.png"> </a> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="map"> 
+    <div class="bg">
+     <img src="img/map.png">
+    </div> 
+    <div id="sec01" class="year l1996"> 
+     <div class="left"> 
+      <h3>1996</h3> 
+      <a class="plus" href="#boxsec01" data-section="01"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>The First</h4> 
+      <p>ASUS graphics card, featuring S3 Virge/DX GPU</p> 
+      <div class="inweb"> 
+       <img src="img/1996/inweb1.png" data-move="T"> 
+       <p>ASUS 375</p> 
+      </div> 
+     </div> 
+     <div id="boxsec01" class="inbox"> 
+      <p>While 3D graphics acceleration was relatively uncommon, the ASUS 375 revolutionized graphics card manufacturing processes.</p> 
+     </div> 
+    </div> 
+    <div class="year small s1997"> 
+     <div class="left"> 
+      <h3>1997</h3> 
+      <a class="plus" href="#boxsec02" data-section="01"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>The First</h4> 
+      <p>Real 2D+3D graphics card with Direct3D fully supported</p> 
+      <div class="inweb"> 
+       <p>ASUS AGP-V3000</p> 
+      </div> 
+     </div> 
+     <div id="boxsec02" class="inbox"> 
+      <p>Designed to compete with Voodoo, the V3000 was the card that allowed ASUS to truly break into the graphics card industry.</p> 
+      <img src="img/1997/inbox1.png"> 
+     </div> 
+    </div> 
+    <div class="year l1998"> 
+     <div class="left"> 
+      <h3>1998</h3> 
+      <a class="plus" href="#boxsec03" data-section="01"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Establishing Industry Standard</h4> 
+      <p>The first graphics card with fan enhanced heatsink for the best cooling performance</p> 
+      <div class="inweb"> 
+       <p class="product">ASUS AGP-V3400</p> 
+       <img src="img/1998/inweb1.png" data-move="T"> 
+      </div> 
+     </div> 
+     <div id="boxsec03" class="inbox"> 
+      <p>Also the first graphics card with integrated TV In/Out function and the first graphics card with TV-to-digital recording capability.</p> 
+     </div> 
+    </div> 
+    <div id="sec02" class="year s1998"> 
+     <div class="left"> 
+      <h3>1998</h3> 
+      <a class="plus" href="#boxsec04" data-section="02"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Establishing Industry Standard</h4> 
+      <p>The first graphics card to provide 3D glasses kit</p> 
+      <div class="inweb"> 
+       <p class="product">ASUS VR-100</p> 
+       <img src="img/1998/inweb2.png" data-move="T"> 
+      </div> 
+     </div> 
+     <div id="boxsec04" class="inbox"> 
+      <p>Delivered a stunning universal stereoscopic gaming experience to users through shutterglass technology for any game utilizing Direct3D or OpenGL.</p> 
+     </div> 
+    </div> 
+    <div class="year small s1999"> 
+     <div class="left"> 
+      <h3>1999</h3> 
+      <a class="plus" href="#boxsec05" data-section="02"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Establishing Industry Standard</h4> 
+      <p>The first user software interface for controlling graphics performance</p> 
+     </div> 
+     <div id="boxsec05" class="inbox"> 
+      <p class="product">ASUS SmartDoctor</p> 
+      <p>Enabled users to overclock and compensate with additional cooling while monitoring fan speeds and temperatures in real time.</p> 
+      <img src="img/1999/inbox1.png"> 
+     </div> 
+    </div> 
+    <div class="year l2002"> 
+     <div class="left"> 
+      <h3>2002</h3> 
+      <a class="plus" href="#boxsec06" data-section="02"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Establishing Industry Standard</h4> 
+      <p>The first graphics card with premium black PCB</p> 
+      <div class="inweb"> 
+       <p>ASUS V8200 DLX</p> 
+       <img src="img/2002/inweb1.png" data-move="T"> 
+      </div> 
+     </div> 
+     <div id="boxsec06" class="inbox"> 
+      <p>V8200 Deluxe was also state of the art with the highest overclocking capability of the time, from 250MHz base to 550MHz overclock.</p> 
+     </div> 
+    </div> 
+    <div id="sec03" class="year small s2005"> 
+     <div class="left"> 
+      <h3>2005</h3> 
+      <a class="plus" href="#boxsec07" data-section="03"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>The First</h4> 
+      <p>Dual NVIDIA GPU graphics card available to consumers</p> 
+      <div class="inweb"> 
+       <img src="img/2005/inweb1.png" data-move="T"> 
+       <p>ASUS EN7800GT DUAL</p> 
+      </div> 
+     </div> 
+     <div id="boxsec07" class="inbox"> 
+      <p>Allowed users the flexibility to draw power from internal or internal power supply due to PSU limitations at the time.</p> 
+     </div> 
+    </div> 
+    <div class="year l2005"> 
+     <div class="left"> 
+      <h3>2005</h3> 
+      <a class="plus" href="#boxsec08" data-section="03"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Establishing Industry Standard</h4> 
+      <p>The first image enhancement technology implemented on graphics cards</p> 
+      <div class="inweb"> 
+       <img src="img/2005/inweb2.png" data-move="B"> 
+      </div> 
+     </div> 
+     <div id="boxsec08" class="inbox"> 
+      <p>ASUS was the first to implement image enhancement technology on graphics cards - greatly improves the image quality via preset image profiles.</p> 
+     </div> 
+    </div> 
+    <div id="sec04" class="year l2007"> 
+     <div class="left"> 
+      <h3>2007</h3> 
+      <a class="plus" href="#boxsec09" data-section="04"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>The First</h4> 
+      <p>External graphics card</p> 
+      <div class="inweb"> 
+       <img src="img/2007/inweb1.png" data-move="B"> 
+       <p>XG Station</p> 
+      </div> 
+     </div> 
+     <div id="boxsec09" class="inbox"> 
+      <p>The XG station allows users to control graphics frequency with a dial-turn on the Panel, while also displaying graphics-related information such as GPU Core temperature, GPU fan speed and volume of the system and so on.</p> 
+     </div> 
+    </div> 
+    <div class="year small s2007"> 
+     <div class="left"> 
+      <h3>2007</h3> 
+      <a class="plus" href="#boxsec10" data-section="04"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>The First</h4> 
+      <p>Hardware overclocking interface designed to fit into a chassis</p> 
+      <div class="inweb"> 
+       <img src="img/2007/inweb2.png" data-move="B"> 
+       <p>OC Gear Front Panel</p> 
+      </div> 
+     </div> 
+     <div id="boxsec10" class="inbox"> 
+      <p>Showed real-time information of video memory frequency and fan speed while allowing instant adjustments to overclock.</p> 
+     </div> 
+    </div> 
+    <div id="sec05" class="year l2008"> 
+     <div class="left"> 
+      <h3>2008</h3> 
+      <a class="plus" href="#boxsec11" data-section="05"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>The First</h4> 
+      <p>ROG graphics card</p> 
+      <div class="inweb"> 
+       <p>9600/ 9800 GT MATRIX</p> 
+       <img src="img/2008/inweb1.png" data-move="B"> 
+      </div> 
+     </div> 
+     <div id="boxsec11" class="inbox"> 
+      <p>Establishing the trend for all future ROG graphics cards, the MATRIX is designed for user friendly overclocking with blisteringly fast speeds out of the box.</p> 
+     </div> 
+    </div> 
+    <div class="year small s2008"> 
+     <div class="left"> 
+      <h3>2008</h3> 
+      <a class="plus" href="#boxsec12" data-section="05"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Establishing Industry Standard</h4> 
+      <p>The first dual fan graphics card</p> 
+      <div class="inweb"> 
+       <p>ASUS EAH4850/4870 MATRIX</p> 
+       <img src="img/2008/inweb2.png" data-move="B"> 
+      </div> 
+     </div> 
+     <div id="boxsec12" class="inbox"> 
+      <p>The precursor to the modern DirectCU cooling solution featuring dual large fans for quiet, yet extreme cooling for higher overclocking overhead.</p> 
+     </div> 
+    </div> 
+    <div id="sec06" class="year l2009"> 
+     <div class="left"> 
+      <h3>2009</h3> 
+      <a class="plus" href="#boxsec13" data-section="06"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>The First</h4> 
+      <p>ROG graphics card with Load Indicator LED, Safe Mode and VBIOS burning function.</p> 
+      <div class="inweb"> 
+       <p>ROG MATRIX GTX 285</p> 
+       <img src="img/2009/inweb1.png" data-move="B"> 
+      </div> 
+     </div> 
+     <div id="boxsec13" class="inbox"> 
+      <p>The ROG Matrix GTX 285 debuts a gorgeous color-coded Load Indicator LED that changes shade to reflect the GPU's load level and Safe Mode button for instant system recovery so you can overclock with more confidence.</p> 
+     </div> 
+    </div> 
+    <div class="year small s2009"> 
+     <div class="left"> 
+      <h3>2009</h3> 
+      <a class="plus" href="#boxsec14" data-section="06"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>The First</h4> 
+      <p>ROG dual GPU graphics card utilizing the NVIDIA solution</p> 
+      <div class="inweb"> 
+       <p>ROG MARS</p> 
+       <img src="img/2009/inweb2.png" data-move="B"> 
+      </div> 
+     </div> 
+     <div id="boxsec14" class="inbox"> 
+      <p>The beginning of the MARS legacy started with dual NVIDIA GTX 285 GPUs, resulting an entire series of the most powerful single PCIe graphics solutions in the world.</p> 
+     </div> 
+    </div> 
+    <div id="sec07" class="year l2010"> 
+     <div class="left"> 
+      <h3>2010</h3> 
+      <a class="plus" href="#boxsec15" data-section="07"><img src="img/icon/plus.png"></a> 
+      <a class="video" href="https://www.youtube.com/watch?v=8inXR-LqPNc"><img src="img/icon/video.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Establishing Industry Standard</h4> 
+      <p>The first direct contact GPU to copper heatpipe cooling solution</p> 
+      <div class="inweb"> 
+       <img src="img/2010/inweb1.png" data-move="B"> 
+       <p>DirectCU Technology</p> 
+      </div> 
+     </div> 
+     <div id="boxsec15" class="inbox"> 
+      <p>The advent of the modern DirectCU technology led directly to the more advanced DirectCU II cooling solution used on the majority of ASUS graphics cards today.</p> 
+     </div> 
+    </div> 
+    <div class="year small s2010"> 
+     <div class="left"> 
+      <h3>2010</h3> 
+      <a class="plus" href="#boxsec16" data-section="07"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>The First</h4> 
+      <p>ROG dual GPU graphics card utilizing the AMD solution</p> 
+      <div class="inweb"> 
+       <p>ROG ARES</p> 
+       <img src="img/2010/inweb2.png" data-move="B"> 
+      </div> 
+     </div> 
+     <div id="boxsec16" class="inbox"> 
+      <p>ROG Ares continues the dual GPU legacy, now on the AMD side, featuring dual Radeon HD 5870 GPUs on board for excellent performance vs single GPU counterparts.</p> 
+      <img src="img/2010/inbox1.png"> 
+     </div> 
+    </div> 
+    <div id="sec08" class="year l2011"> 
+     <div class="left"> 
+      <h3>2011</h3> 
+      <a class="plus" href="#boxsec17" data-section="08"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Establishing Industry Standard</h4> 
+      <p>Ensures maximum performance and lifespan with minimal power loss and thermal levels</p> 
+      <div class="inweb"> 
+       <img src="img/2011/inweb1.png" data-move="T"> 
+       <p>Super Alloy Power</p> 
+      </div> 
+     </div> 
+     <div id="boxsec17" class="inbox"> 
+      <p>Still used on all ASUS graphics cards today, Super Alloy Power is implemented on Capacitors, MOS, to ensure longest lifespan.</p> 
+      <img src="img/2011/inbox1.png"> 
+     </div> 
+    </div> 
+    <div class="year small s2012"> 
+     <div class="left"> 
+      <h3>2012</h3> 
+      <a class="plus" href="#boxsec18" data-section="08"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Establishing Industry Standard</h4> 
+      <p>Hardware linking headers from graphics card to motherboard for maximum OC compatibility</p> 
+      <div class="inweb"> 
+       <img src="img/2012/inweb1.png" data-move="B"> 
+       <p>VGA Hotwire</p> 
+      </div> 
+     </div> 
+     <div id="boxsec18" class="inbox"> 
+      <p>Offers the ultimate in overvolting by directly connecting graphics cards to motherboards without soldering, enabling real-time VRAM, PLL voltage altering.</p> 
+     </div> 
+    </div> 
+    <div id="sec09" class="year small s2013"> 
+     <div class="left"> 
+      <h3>2013</h3> 
+      <a class="plus" href="#boxsec19" data-section="09"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Establishing Industry Standard</h4> 
+      <p>The first graphics card to meet ITX form factor</p> 
+      <div class="inweb"> 
+       <img src="img/2013/inweb1.png" data-move="T"> 
+       <p>DirectCU Mini</p> 
+      </div> 
+     </div> 
+     <div id="boxsec19" class="inbox"> 
+      <p>Maximizes the potential of the high end GPU while retaining tiny form factor to ensure compatibility with even the smallest m-ITX builds.</p> 
+     </div> 
+    </div> 
+    <div class="year l2013"> 
+     <div class="left"> 
+      <h3>2013</h3> 
+      <a class="plus" href="#boxsec20" data-section="09"><img src="img/icon/plus.png"></a> 
+      <a class="video" href="https://www.youtube.com/watch?v=YnDpSlx6q68"><img src="img/icon/video.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Establishing Industry Standard</h4> 
+      <p>The first hybrid air/liquid cooling solution on graphics card</p> 
+      <div class="inweb"> 
+       <img src="img/2013/inweb2.png" data-move="T"> 
+       <p>ROG POSEIDON</p> 
+      </div> 
+     </div> 
+     <div id="boxsec20" class="inbox"> 
+      <p>Enables users to choose one or both liquid and air cooling solutions to maximize overclocking overhead while retaining options for any usage scenario.</p> 
+     </div> 
+    </div> 
+    <div id="sec10" class="year l2014"> 
+     <div class="left"> 
+      <h3>2014</h3> 
+      <a class="plus" href="#boxsec21" data-section="10"><img src="img/icon/plus.png"></a> 
+      <a class="video" href="http://www.youtube.com/watch?v=27hBljJjmGI"><img src="img/icon/video.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Establishing Industry Standard</h4> 
+      <p>All new Strix gaming series drives DirectCU technology further with its innovative 0dB-fan technology.</p> 
+      <div class="inweb"> 
+       <img src="img/2014/inweb1.png" data-move="T"> 
+       <p>0dB Fan</p> 
+      </div> 
+     </div> 
+     <div id="boxsec21" class="inbox"> 
+      <p>The 0dB fan technology lets gamers to enjoy popular online games* in complete silence — because the fan stops completely when the GPU temperature remains below a set level.</p> 
+      <p class="comment">*Performance may vary by system configuration, GPU variations and ambient temperature.</p> 
+     </div> 
+    </div> 
+    <div class="year small s2014"> 
+     <div class="left"> 
+      <h3>2014</h3> 
+      <a class="plus" href="#boxsec22" data-section="10"><img src="img/icon/plus.png"></a> 
+      <a class="video" href="https://www.youtube.com/watch?v=hP2WFOx3-to"><img src="img/icon/video.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>The First</h4> 
+      <p>ROG MATRIX with memory defroster. Instant defrost. Say goodbye to cold bugs.</p> 
+     </div> 
+     <div id="boxsec22" class="inbox"> 
+      <p>Recognizing enthusiast feedback, the Memory Defroster technology eliminates cold bugs from LN2 overclocking by maintaining the sweet spot for temperature.</p> 
+      <img src="img/2014/inbox1.png"> 
+     </div> 
+    </div> 
+    <div class="year small s2015_1"> 
+     <div class="left"> 
+      <h3>2015</h3> 
+      <a href="#boxsec23" class="plus" data-section="10"><img src="img/icon/plus.png"></a> 
+      <!--<a href="#" class="link"><img src="img/icon/link.png"></a>--> 
+     </div> 
+     <div class="right"> 
+      <h4>The First</h4> 
+      <p>An innovative modern dual blower design on GTX 900 Series graphics card for superior SLI configurations – in special white edition.</p> 
+     </div> 
+     <div id="boxsec23" class="inbox"> 
+      <p>The latest in a long line of industry innovations, the Turbo represents yet another pinnacle in the pursuit for the perfect graphics card.</p> 
+      <img src="img/2015/inbox1.png"> 
+     </div> 
+    </div> 
+    <div class="year small s2015_2"> 
+     <div class="left"> 
+      <h3>2015</h3> 
+      <a href="http://www.asus.com/Graphics_Cards/GOLD20THGTX980P4GD5/"><img src="img/icon/link.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>The First</h4> 
+      <p>A Golden Engineering Marvel – the fastest GTX 980 infused with award-winning innovations including the DirectCU, 0dB fans, Memory Defroster and more.</p> 
+      <div class="inweb"> 
+       <img src="img/2015/inweb1.png" data-move="B"> 
+       <p>GTX 980 20th Anniversary Gold Edition</p> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="sec11" class="year small s2015_3"> 
+     <!--
+					<div class="left">
+						<h3>2015</h3>
+						<a href="#" class="video"><img src="img/icon/video.png"></a>
+						<a href="#" class="link"><img src="img/icon/link.png"></a>
+					</div>
+					<div class="right">
+						<h4>Establishing Industry Standard</h4>
+						<p>Pursues the best product reliability and performance with Surface Mount Technology.</p>
+						<div class="inweb">
+							<img src="img/2015/inweb2.png" data-move="T">
+						</div>
+					</div>
+				--> 
+    </div> 
+   </div> 
+   <div id="sec12" class="end"> 
+    <div class="bg">
+     <img src="img/end.png">
+    </div> 
+    <div class="text"> 
+     <h2>THANK YOU FOR MAKING US</h2> 
+     <p class="left">The best-selling and most award-winning Graphics Card Brand</p> 
+     <p class="right">The most popular graphics brand in 3DMark benchmarking</p> 
+     <div class="logo">
+      <img src="img/logo.png">
+     </div> 
+    </div> 
+   </div> 
+   <div class="webshadow wleft">
+    &nbsp;
+   </div> 
+   <div class="webshadow wright">
+    &nbsp;
+   </div> 
+   <div class="b75"></div> 
+  </div>  
+ </body>
+</html>

@@ -1,0 +1,1791 @@
+<!doctype html>
+<html class="no-js" lang="en">
+ <head> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <title>ASUS Graphics Cards</title> 
+  <meta name="description" content="Game Faster, Quieter, Cooler."> 
+  <meta property="og:title" content="ASUS Graphics Cards"> 
+  <meta property="og:description" content="Game Faster, Quieter, Cooler."> 
+  <meta name="viewport" content="width=1100"> 
+  <meta http-equiv="cleartype" content="on"> 
+  <link rel="stylesheet" href="css/app/main.css?v=0112"> 
+  <script src="js/libs/jquery-1.9.1.min.js"></script> 
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script> 
+  <script>
+	$(function(){
+		$( '.draggable').draggable();
+	});
+</script> 
+  <script>var require = {baseUrl:'js/', waitSeconds:60, urlArgs:'v=0112', deps:['app/main']};</script> 
+  <script src="js/libs/modernizr+require.js"></script> 
+  <script type="text/javascript">
+window.ASUSInit = function () {
+	asus_api.init({ appkey: 'micro00001', lang: 'kr'});
+};
+(function(d){
+	var js, id = 'asus-jsapi';
+	if (d.getElementById("asus-jsapi")) {return;}
+	js = d.createElement('script');
+	js.id = id;
+	js.async = true;
+	js.src = "http://www.asus.com/API/js/asus_api.js";
+	d.getElementsByTagName('head')[0].appendChild(js);
+}(document));
+</script> 
+  <script type="text/javascript">
+    var AKSB=AKSB||{};AKSB.q=[];AKSB.mark=function(b,a){AKSB.q.push(["mark",b,a||(new Date).getTime()])};AKSB.measure=function(b,a,c){AKSB.q.push(["measure",b,a,c||(new Date).getTime()])};AKSB.done=function(b){AKSB.q.push(["done",b])};AKSB.mark("firstbyte",(new Date).getTime());
+    AKSB.prof={custid:"115061",ustr:"",originlat:0,clientrtt:40,ghostip:"184.28.66.181",ipv6:false,pct:10,xhrtest:false,clientip:"211.62.95.225"};
+    (function(b){var a=document.createElement("iframe");a.src="javascript:false";(a.frameElement||a).style.cssText="width: 0; height: 0; border: 0; display: none";var c=document.getElementsByTagName("script"),c=c[c.length-1];c.parentNode.insertBefore(a,c);a=a.contentWindow.document;a.open().write("<body onload=\"var js = document.createElement('script');js.id = 'aksb-ifr';js.src = '"+b+"';document.body.appendChild(js);\">");a.close()})(("https:"===document.location.protocol?"https:":"http:")+"//aksb-a.akamaihd.net/146060/aksb-a/aksb.min.js");
+    </script> 
+  <style type="text/css">
+<!--
+.style8 {font-size: 16px}
+.style9 {font-size: 18px}
+.style11 {font-weight: bold}
+.style13 {font-size: 11px}
+-->
+    </style> 
+ </head> 
+ <body> 
+  <div id="wrap"> 
+   <div id="logo"> 
+    <img src="img/common/logo.png" alt="ASUS">
+   </div> 
+   <nav id="nav"> 
+    <ul> 
+     <li><a id="share-button" href="javascript:;"> <i></i><b>공유</b></a></li> 
+     <li><a class="active" href="#front"> <i></i><b>메인</b></a></li> 
+     <li><a href="#graphics-power"> <i></i><b>그래픽스 파워</b></a></li> 
+     <li><a href="#rog-series"> <i></i><b>챔피언의 선택 ROG 시리즈</b></a></li> 
+     <li><a href="#quietly-cool"> <i></i><b> DirectCU 시리즈</b></a></li> 
+     <li><a href="#fan-design"> <i></i><b>쿨텍 기술</b></a></li> 
+     <li><a href="#power-up"> <i></i><b>승리를 위한 강력한 힘</b></a></li> 
+     <li><a href="#in-charge"> <i></i><b>ASUS만의 독자기술</b></a></li> 
+     <li><a href="#products-list"> <i></i><b>제품 리스트</b></a></li> 
+     <li><a href="#shop-list"> <i></i><b>그래픽카드 온라인 판매처</b></a></li> 
+    </ul> 
+   </nav>
+   <!--/#nav--> 
+   <div id="scrolldown">
+    아래로 내리기
+   </div> 
+   <div id="content"> 
+    <!--=============================================
+ Index
+===============================================--> 
+    <section id="front" class="section"> 
+     <div id="front--cover" class="view" data-bg="img/front/bg.jpg"> 
+      <div class="viewbody"> 
+       <h1><img src="img/front/heading.png" alt="ASUS Graphics Cards - Game Faster, Quieter, Cooler."></h1> 
+       <img class="card1" src="img/front/card1.png" alt=""> 
+       <img class="card2" src="img/front/card2.png" alt=""> 
+       <img class="card3" src="img/front/card3.png" alt=""> 
+       <div class="light"></div> 
+      </div> 
+     </div>
+     <!--/#front-cover--> 
+    </section>
+    <!--/#front--> 
+    <!--=============================================
+ Graphics Power
+===============================================--> 
+    <section id="graphics-power" class="section tilt counter-clockwise"> 
+     <div id="graphics-power--cover" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/graphics-power/heading.png" alt="Graphics Power"></h2> 
+       <p>ASUS 는 세계 최초로 3D 그래픽 카드를 소개한 1996년 이후로 기술 전문가들, 하드코어 게이머, 오버클럭커 들을 위해 그래픽 성능을 극대화 하는 데에 사활을 걸기 시작했습니다. 그 이후로, ASUS 엔지니어들 (그리고 게임 마니아들)은 기록을 깨뜨리는 성능과 마찬가지로 게임에서 픽셀 하나까지도 완벽하게 극대화시키는 향상된 쿨링과 전력 공급이 가능한 제품을 개발하고 있습니다. ASUS 그래픽 카드는 극대화된 성능의 추구를 위해 만들어지고 있습니다. 이러한 혁신적인 내용들은 ASUS 그래픽 카드를 세계에서 가장 어워드를 많이 수상한 그래픽 카드로 만들어 왔습니다. 추후에 PC를 꾸밀 계획이 있다면, ASUS 그래픽 카드는 여러분이 원하는 모든 PC 폼 팩터에서 보다 빠르고, 조용하고, 안정적인 게이밍 환경을 위한 최고의 선택이 될 것입니다.</p> 
+       <ul> 
+        <li> <a href="#rog-series"> <b>챔피언의 선택<br>ROG 시리즈<i class="icon-chevron-down"></i></b> <img src="img/graphics-power/menu-1.png" alt="ROG Series"> </a> </li> 
+        <li> <a href="#quietly-cool"> <b>조용히 식혀주는<br>DirectCU 시리즈<i class="icon-chevron-down"></i></b> <img src="img/graphics-power/menu-2.png" alt="DirectCU Series"> </a> </li> 
+        <li> <a href="#power-up"> <b>승리를 위한 강력한 힘<br>극강의 안정적인 컴포넌트<i class="icon-chevron-down"></i></b> <img src="img/graphics-power/menu-3.png" alt="Power up for the Win"> </a> </li> 
+        <li> <a href="#in-charge"> <b>인생은 스스로의 것<br>강력한 OC특징들<i class="icon-chevron-down"></i></b> <img src="img/graphics-power/menu-4.png" alt="You’re in Charge"> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="bg">
+       <div class="bg-inner" data-bg="img/graphics-power/bg.jpg"></div>
+      </div> 
+     </div>
+     <!--/#graphics-power-cover--> 
+    </section>
+    <!--/#graphics-power--> 
+    <!--=============================================
+ ROG Series
+===============================================--> 
+    <section id="rog-series" class="section tilt clockwise"> 
+     <!--********************************
+	 ROG Series / Cover
+    **********************************--> 
+     <section id="rog-series--cover" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/rog-series/cover-heading.png" alt="The Choice of Champions - Republic of Gamers Series Graphics Cards"></h2> 
+       <p>게이머들의 공화국에서, 자비로운 법은 약자들을 위한 것이며, 가까운 적을 정복하는 것은 모든 것을 의미합니다. ROG는 설득해야 하는 모든 게이머들과 오버클럭들에게 저항할 수 없는 경험을 선사합니다.</p> 
+       <ul> 
+        <li class="matrix"> <a href="#rog-series--matrix"> <b class="plus"><i class="icon-plus-sign"></i><span><strong>MATRIX</strong> <br>모든 기록을 깨뜨리는 강력한 성능</span></b> <img src="img/rog-series/cover-matrix.png" alt="MATRIX"> </a> </li> 
+        <li class="mars"> <a href="#rog-series--mars-n-ares"> <b class="plus"><i class="icon-plus-sign"></i><span><strong>MARS</strong> <br>듀얼 GPU의 강력한 성능</span></b> <img src="img/rog-series/cover-mars.png" alt="MARS"> </a> </li> 
+        <li class="poseidon"> <a href="#rog-series--poseidon"> <b class="plus"><i class="icon-plus-sign"></i><span><strong>POSEIDON</strong> <br>공랭 또는 수냉</span></b> <img src="img/rog-series/cover-poseidon.png" alt="POSEIDON"> </a> </li> 
+        <li class="ares"> <a href="#rog-series--mars-n-ares"> <b class="plus"><i class="icon-plus-sign"></i><span><strong>ARES</strong> <br>듀얼 GPU의 강력한 성능</span></b> <img src="img/rog-series/cover-ares.png" alt="ARES"> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="bg">
+       <div class="bg-inner" data-bg="img/rog-series/cover-bg.jpg"></div>
+      </div> 
+     </section>
+     <!--/#rog-series-cover--> 
+     <!--********************************
+	 ROG Series / Mars & Ares
+    **********************************--> 
+     <section id="rog-series--mars-n-ares" class="view" data-replay="false"> 
+      <div class="viewbody"> 
+       <h2><img src="img/rog-series/mars-n-ares-heading.png" alt="MARS &amp; ARES - World’s Fastest Dual GPU Graphics Card"></h2> 
+       <p>존경받는 전쟁의 신의 이름으로부터 영감을 얻은, ROG ARES와 MARS는 성능의 가장 빠른 정점에 다다른 듀얼 GPU 그래픽 카드입니다. 게이밍 경기장을 지배하는 최강의 게이머를 위해 탄생한 제품입니다.</p> 
+       <div class="pagi">
+        <i class="active"></i>
+        <i></i>
+       </div> 
+       <ul class="detail plus-hide-text"> 
+        <li class="n1"> <b class="plus"><i class="icon-plus-sign"></i><span>듀얼 GPU 성능</span></b> 
+         <div class="detail-title">
+          듀얼 GPU 성능
+         </div> 
+         <div class="detail-desc">
+          ROG MARS와 ARES는 레퍼런스 디자인보다 최대 14% 빠른 그래픽 성능을 제공합니다. 현재와 먼 장래에 가장 매끄러운 게임플레이를 즐길 수 있을 것입니다.
+         </div> 
+         <div class="detail-desc"></div> 
+         <div class="detail-figure">
+          <img src="img/rog-series/mars-n-ares-detail-figure-1.jpg" width="676">
+         </div> </li> 
+       </ul> 
+       <img class="card1" src="img/rog-series/mars-n-ares-card1.png" alt="MARS &amp; ARES"> 
+       <img class="card2" src="img/rog-series/mars-n-ares-card2.png" alt="MARS &amp; ARES"> 
+       <img class="card3" src="img/rog-series/mars-n-ares-card3.png" alt="MARS &amp; ARES"> 
+      </div> 
+      <div class="bg">
+       <div class="bg-inner" data-bg="img/rog-series/mars-n-ares-bg.jpg"></div>
+      </div> 
+     </section>
+     <!--/#rog-series-mars-n-ares--> 
+     <!--********************************
+	 ROG Series / Matrix
+    **********************************--> 
+     <section id="rog-series--matrix" class="view" data-replay="false"> 
+      <div class="viewbody"> 
+       <h2><img src="img/rog-series/matrix-heading.png" alt="MATRIX - Record-breaking Graphics Performance"></h2> 
+       <p>ROG MATRIX 그래픽 카드는 오버클럭커들에 의해, 오버클럭커들을 위해 탄생하였습니다. 즉각적이고 안전한 오버클럭킹을 위해 다양한 기능들이 탑재되어 있는 ROG Matrix는 오버클럭킹이 어떻게 이뤄지고, 세계 신기록을 깨뜨리고 갱신하기를 계속하면서 대변혁을 일으키고 있습니다.</p> 
+       <ul class="detail plus-hide-text"> 
+        <li class="n1"> <b class="plus"><i class="icon-plus-sign"></i><span>MATRIX LED 부하량 인디케이터</span></b> 
+         <div class="detail-title">
+          MATRIX LED 부하량 인디케이터
+         </div> 
+         <div class="detail-desc">
+          컬러로 부하량을 알리는 LED MATRIX 인디케이터는 그래픽 카드 뒷면에 자리잡고 있으며, 실시간으로 현재의 GPU 부하량을 알기 쉽게 비주얼한 디스플레이로 알려줍니다.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/rog-series/matrix-detail-figure-1.jpg" width="676" data-type="video" data-src="img/rog-series/matrix-detail-figure-1.flv">
+         </div> </li> 
+        <li class="n2"> <b class="plus"><i class="icon-plus-sign"></i><span>터보 팬 액티베이터</span></b> 
+         <div class="detail-title">
+          터보 팬 액티베이터
+         </div> 
+         <div class="detail-desc">
+          드라이버 설정과 관계없이 버튼을 누르면 듀얼 100mm 팬이 100%로 동작합니다.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/rog-series/matrix-detail-figure-4.jpg" width="500">
+         </div> </li> 
+        <li class="n3"> <b class="plus"><i class="icon-plus-sign"></i><span>TweakIt &amp; 세이프 모드</span></b> 
+         <div class="detail-title">
+          TweakIt &amp; 세이프 모드
+         </div> 
+         <div class="detail-desc">
+          + , - 버튼을 누르기만 하면 오버클럭킹에 필요한 오버볼팅 설정이 가능합니다. TweakIt은 게임 또는 벤치마크 프로그램의 구동중에도 편리한 오버클럭킹 컨트롤을 제공합니다. 세이프 모드 버튼은 그래픽 카드의 기본 클럭과 바이오스 세팅으로 원상복구 시키는데 사용됩니다.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/rog-series/matrix-detail-figure-3.jpg" width="500">
+         </div> </li> 
+        <li class="n4"> <b class="plus"><i class="icon-plus-sign"></i><span>VGA 핫와이어</span></b> 
+         <div class="detail-title">
+          VGA 핫와이어
+         </div> 
+         <div class="detail-desc">
+          호환이 가능한 ROG 마더보드의 전용 헤더와 VGA 핫와이어 커넥터를 연결하면, ASUS UEFI 바이오스를 통해 하드웨어 수준에서 직접 전압을 변경할 수 있습니다.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/rog-series/matrix-detail-figure-2.jpg" width="500">
+         </div> </li> 
+       </ul> 
+       <img class="card" src="img/rog-series/matrix-card.png" alt="MATRIX"> 
+       <div class="card-shade"></div> 
+      </div> 
+      <div class="bg">
+       <div class="bg-inner" data-bg="img/rog-series/matrix-bg.jpg"></div>
+      </div> 
+     </section>
+     <!--/#rog-series-matrix--> 
+     <!--********************************
+	 ROG Series / Poseidon
+    **********************************--> 
+     <section id="rog-series--poseidon" class="view" data-replay="false"> 
+      <div class="viewbody"> 
+       <h2><img src="img/rog-series/poseidon-heading.png" alt="POSEIDON - Air or Liquid, Your Choice to Chill"></h2> 
+       <p>수냉 쿨링은 엄선된하드웨어의 오버클럭킹 잠재력을 증대시키고, 발열을 해소할 효율적인 도구로서 많은 PC 마니아들에게 선택되어 왔습니다. ROG 팀은 수냉 쿨링을 시도하는 사용자에게 전체적인 편의성을 제공하는 최고의 공랭, 수냉 쿨링 성능을 제공하기 위해 혁신적인 DirectCU H₂O을 창조하였습니다. Poseidon으로 수냉 쿨링에 도전하면 GPU 온도를 최대 24도 떨어뜨리며, 최고의 안정적인 오버클럭킹을 만끽할 수 있습니다.</p> 
+       <ul class="detail plus-hide-text"> 
+        <li class="n1 draggable"> <b class="plus"><i class="icon-plus-sign"></i><span>DirectCU H2O 하이브리드 쿨링 </span></b> 
+         <div class="detail-title">
+          DirectCU H2O 하이브리드 쿨링
+         </div> 
+         <div class="detail-desc">
+          DirectCU H₂O는 베이퍼 챔버와 쉽게 기존의 수냉 장비에 적용이 가능한 표준 G1/4-인치 규격 피팅을 사용하는 워터 채널을 조합한 쿨링 솔루션입니다. 수냉으로 사용 시, DirectCU H₂O는 최대 3배 더 조용하게 소음을 감소시키는 동시에 140% 낮은 온도에 도달할 수 있습니다.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/rog-series/poseidon-detail-figure-1.jpg" width="676" data-type="swf" data-src="http://www.youtube.com/v/quNaYie6Qbc?hl=zh_TW&amp;version=3&amp;rel=0">
+         </div> </li> 
+       </ul> 
+       <img class="card" src="img/rog-series/poseidon-card.png" alt="POSEIDON"> 
+       <div class="card-shade"></div> 
+      </div> 
+      <div class="bg">
+       <div class="bg-inner" data-bg="img/rog-series/poseidon-bg.jpg"></div>
+      </div> 
+     </section>
+     <!--/#rog-series-matrix--> 
+     <div class="bg basebg">
+      <div class="bg-inner" data-bg="img/common/basebg.jpg"></div>
+     </div> 
+    </section>
+    <!--/#rog-series--> 
+    <!--=============================================
+ Quietly Cool
+===============================================--> 
+    <section id="quietly-cool" class="section cyan tilt clockwise"> 
+     <!--********************************
+	 Quietly Cool / Cover
+    **********************************--> 
+     <section id="quietly-cool--cover" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/quietly-cool/cover-heading.png" alt="QUIETLY COOL - DirectCU Series Graphics Cards"></h2> 
+       <p>ASUS 쿨링 엔지니어들은 속삭이는 듯 정숙하면서도 뛰어난 쿨링 성능을 가져다주는 ASUS만의 독자적인 DirectCU 쿨링 솔루션을 개발했습니다. DirectCU 쿨링 솔루션은 더 빠른 열해소를 위해 GPU 코어에 히트파이프가 직접 맞닿는 구조로 세심하게 설계되었습니다. 그 결과 레퍼런스 디자인보다 최대 30% 더 낮은 온도로 동작합니다.</p> 
+       <ul> 
+        <li class="cu2"> <a href="#quietly-cool--directcu-ii"> <b class="plus"><i class="icon-plus-sign"></i><span>DirectCU II</span></b> <img src="img/quietly-cool/cover-directcu-ii.png" alt="DirectCU II"> </a> </li> 
+        <li class="cu"> <a href="#quietly-cool--directcu"> <b class="plus"><i class="icon-plus-sign"></i><span>DirectCU</span></b> <img src="img/quietly-cool/cover-directcu.png" alt="DirectCU"> </a> </li> 
+        <li class="mini"> <a href="#quietly-cool--directcu-mini"> <b class="plus"><i class="icon-plus-sign"></i><span>DirectCU Mini</span></b></a><a href="#quietly-cool--directcu-mini"><img src="img/quietly-cool/cover-directcu-mini.png" alt="DirectCU Mini"></a> </li> 
+       </ul> 
+       <div class="shade"></div> 
+       <div class="openvideo" data-vid="SQOksavwCLY">
+        <i></i>
+        <div></div>
+       </div> 
+      </div>
+      <!--/.viewbody--> 
+      <figure class="videopreview" data-playing="1" data-totalframes="2" data-src="img/quietly-cool/cover-videopreview-frame-"> 
+       <div class="control"> 
+        <a class="play" href="http://youtu.be/SQOksavwCLY" data-vid="SQOksavwCLY" target="_blank">비디오 보기</a> 
+        <span class="skip"></span> 
+       </div> 
+       <div class="preview">
+        <div class="bg">
+         <div class="screendot"></div>
+         <div class="bg-inner" data-bg="img/quietly-cool/cover-videopreview-frame-1.jpg"></div>
+        </div>
+       </div> 
+      </figure>
+      <!--/.videopreview--> 
+     </section>
+     <!--/#quietly-cool-cover--> 
+     <!--********************************
+	 Quietly Cool / DirectCU H2O
+    **********************************--> 
+     <section id="quietly-cool--directcu-h2o" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/quietly-cool/directcu-h2o-heading.png" alt="DirectCU H2O - Air or Liquid, Your Choice to Chill."></h2> 
+       <p>DirectCU H₂O는 베이퍼 챔버와 쉽게 기존의 수냉 장비에 적용이 가능한 표준 G1/4-인치 규격 피팅을 사용하는 워터 채널을 조합한 쿨링 솔루션입니다. 수냉으로 사용 시, DirectCU H₂O는 최대 3배 더 조용하게 소음을 감소시키는 동시에 140% 낮은 온도에 도달할 수 있습니다.</p> 
+       <ul class="detail plus-hide-text"> 
+        <li class="n1 draggable"> <b class="plus"><i class="icon-plus-sign"></i><span>블랙 메탈릭 캐패시터</span></b> 
+         <div class="detail-title">
+          블랙 메탈릭 캐패시터
+         </div> 
+         <div class="detail-desc">
+          20% better temperature endurance and 5X longer lifetime usage.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-h2o-detail-figure-1.jpg" width="500">
+         </div> </li> 
+        <li class="n2 draggable"> <b class="plus"><i class="icon-plus-sign"></i><span>백플레이트</span></b> 
+         <div class="detail-title">
+          백플레이트
+         </div> 
+         <div class="detail-desc">
+          그래픽 카드를 안전하게 보호하며 탄탄하게 지탱합니다.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-h2o-detail-figure-2.jpg" width="500">
+         </div> </li> 
+        <li class="n3 draggable"> <b class="plus"><i class="icon-plus-sign"></i><span>슈퍼 알로이 파워 지원 DIGI+ VRM</span></b> 
+         <div class="detail-title">
+          슈퍼 알로이 파워 지원 DIGI+ VRM
+         </div> 
+         <div class="detail-desc">
+          미디어의 찬사를 받아온 ASUS DIGI+ VRM은 디지털 전압 레귤레이터를 사용하여 30%*까지 노이즈를 감소 시키며, 전력 효율을 15%*까지 끌어올리고, 전압-조정 내구성을 넓히고, 전반적으로 안정성을 향상시킵니다.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-h2o-detail-figure-3.jpg" width="500">
+         </div> </li> 
+        <li class="n4 draggable"> <b class="plus"><i class="icon-plus-sign"></i><span>DirectCU H20</span></b> 
+         <div class="detail-title">
+          DirectCU H20
+         </div> 
+         <div class="detail-desc"> 
+          <p>DirectCU H₂O는 베이퍼 챔버와 쉽게 기존의 수냉 장비에 적용이 가능한 표준 G1/4-인치 규격 피팅을 사용하는 워터 채널을 조합한 쿨링 솔루션입니다. 수냉으로 사용 시,DirectCU H₂O는 최대 3배 더 조용하게 소음을 감소시키는 동시에 140% 낮은 온도에 도달할 수 있습니다.</p> 
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-h2o-detail-figure-4.jpg" width="500">
+         </div> </li> 
+        <li class="n5 draggable"> <b class="plus"><i class="icon-plus-sign"></i><span>더스트 프루프 팬</span></b> 
+         <div class="detail-title">
+          더스트 프루프 팬
+         </div> 
+         <div class="detail-desc">
+          독특한 팬 디자인은 먼지, 오염물질 저항성의 향상을 통해 그래픽 카드의 수명을 25% 늘려주며 효율적으로 발열을 해소합니다.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-h2o-detail-figure-5.jpg" width="500">
+         </div> </li> 
+       </ul> 
+       <img class="comp1" src="img/quietly-cool/directcu-h2o-comp-1.png" alt=""> 
+       <img class="comp2" src="img/quietly-cool/directcu-h2o-comp-2.png" alt=""> 
+       <img class="comp3" src="img/quietly-cool/directcu-h2o-comp-3.png" alt=""> 
+       <img class="comp4" src="img/quietly-cool/directcu-h2o-comp-4.png" alt=""> 
+       <img class="comp5" src="img/quietly-cool/directcu-h2o-comp-5.png" alt=""> 
+       <div class="diagram" data-src="img/quietly-cool/directcu-h2o-diagram.swf"></div>
+       <!--/.diagram--> 
+      </div> 
+     </section>
+     <!--/#quietly-cool-directcu-h2o--> 
+     <!--********************************
+	 Quietly Cool / DirectCU II
+    **********************************--> 
+     <section id="quietly-cool--directcu-ii" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/quietly-cool/directcu-ii-heading.png" alt="DirectCU II - Deploy the Cool. Reign the Silence."></h2> 
+       <p>독자적인 DirectCU 쿨링 디자인은 뛰어난 쿨링 성능과 조용한 구동음을 만들어 냅니다. DirectCU 히트파이프는 레퍼런스와 비교하여 30% 더 낮은 온도로, 3배 더 조용한 성능을 내며, 열 발산을 가속화하기 위하여 GPU 코어에 직접 맞닿습니다.</p> 
+       <ul class="detail plus-hide-text"> 
+        <li class="n1"> <b class="plus"><i class="icon-plus-sign"></i><span>쿨텍 팬</span></b> 
+         <div class="detail-title">
+          쿨텍 팬
+         </div> 
+         <div class="detail-desc">
+          ASUS의 전매특허인 쿨텍 팬은 하이브리드 블레이드와 베어링 디자인으로 구성되어 있으며, 내부의 방사상 블로워와 외부의 플라워-타입 블레이드 구조로 이루어져 있습니다. 이러한 구조는 다양한 방향으로 바람을 불어내어, 방열을 가속화하며, 고도의 안정적인 그래픽 성능을 가능케 합니다.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-ii-detail-figure-1.jpg" width="500">
+         </div> </li> 
+        <li class="n2"> <b class="plus"><i class="icon-plus-sign"></i><span>백플레이트</span></b> 
+         <div class="detail-title">
+          백플레이트
+         </div> 
+         <div class="detail-desc">
+          그래픽 카드를 안전하게 보호하며 탄탄하게 지탱합니다.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-ii-detail-figure-2.jpg" width="500">
+         </div> </li> 
+        <li class="n3"> <b class="plus"><i class="icon-plus-sign"></i><span>슈퍼 알로이 파워 지원 DIGI+ VRM</span></b> 
+         <div class="detail-title">
+          슈퍼 알로이 파워 지원 DIGI+ VRM
+         </div> 
+         <div class="detail-desc">
+          미디어의 찬사를 받아온 ASUS DIGI+ VRM은 디지털 전압 레귤레이터를 사용하여 30%*까지 노이즈를 감소 시키며, , 전력 효율을 15%*까지 끌어올리고, 전압-조정 내구성을 넓히고, 전반적으로 안정성을 향상시킵니다.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-ii-detail-figure-3.jpg" width="500">
+         </div> </li> 
+        <li class="n4"> <b class="plus"><i class="icon-plus-sign"></i><span>DirectCU</span></b> 
+         <div class="detail-title">
+          DirectCU
+         </div> 
+         <div class="detail-desc">
+          적용된 독자적인 디자인의 히트파이프는 GPU 코어와 직접 맞닿아 레퍼런스 디자인보다 30%* 낮은 온도로 동작하며, 더 빠른 열 발산을 이끌어 냅니다.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-ii-detail-figure-4.jpg" width="500" data-type="swf" data-src="img/quietly-cool/directcu-ii-detail-figure-4.swf">
+         </div> </li> 
+        <li class="n5"> <b class="plus"><i class="icon-plus-sign"></i><span>더스트 프루프 팬</span></b> 
+         <div class="detail-title">
+          더스트 프루프 팬
+         </div> 
+         <div class="detail-desc">
+          독특한 팬 디자인은 먼지, 오염물질 저항성의 향상을 통해 그래픽 카드의 수명을 25% 늘려주며 효율적으로 발열을 해소합니다.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-ii-detail-figure-5.jpg" width="500">
+         </div> </li> 
+       </ul> 
+       <img class="comp1" src="img/quietly-cool/directcu-ii-comp-1.png" alt=""> 
+       <img class="comp2" src="img/quietly-cool/directcu-ii-comp-2.png" alt=""> 
+       <img class="comp3" src="img/quietly-cool/directcu-ii-comp-3.png" alt=""> 
+       <img class="comp4" src="img/quietly-cool/directcu-ii-comp-4.png" alt=""> 
+       <img class="comp5" src="img/quietly-cool/directcu-ii-comp-5.png" alt=""> 
+       <img class="comp6" src="img/quietly-cool/directcu-ii-comp-6.png" alt=""> 
+       <div class="diagram" data-src="img/quietly-cool/directcu-ii-diagram.swf"></div>
+       <!--/.diagram--> 
+      </div> 
+     </section>
+     <!--/#quietly-cool-directcu-ii--> 
+     <!--********************************
+	 Quietly Cool / DirectCU
+    **********************************--> 
+     <section id="quietly-cool--directcu" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/quietly-cool/directcu-heading.png" alt="DirectCU - Deploy the Cool. Reign the Silence."></h2> 
+       <p>독자적인 DirectCU 쿨링 디자인은 뛰어난 쿨링 성능과 조용한 구동음을 만들어 냅니다. DirectCU 히트파이프는 레퍼런스와 비교하여 30% 더 낮은 온도로, 3배 더 조용한 성능을 내며, 열 발산을 가속화하기 위하여 GPU 코어에 직접 맞닿습니다.</p> 
+       <ul class="detail plus-hide-text"> 
+        <li class="n1"> <b class="plus"><i class="icon-plus-sign"></i><span>DirectCU</span></b> 
+         <div class="detail-title">
+          DirectCU
+         </div> 
+         <div class="detail-desc">
+          적용된 독자적인 디자인의 히트파이프는 GPU 코어와 직접 맞닿아 레퍼런스 디자인보다 30%* 낮은 온도로 동작하며, 더 빠른 열 발산을 이끌어 냅니다. 
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-ii-detail-figure-4.jpg" width="500" data-type="swf" data-src="img/quietly-cool/directcu-ii-detail-figure-4.swf">
+         </div> </li> 
+        <li class="n2"> <b class="plus"><i class="icon-plus-sign"></i><span>더스트 프루프 팬</span></b> 
+         <div class="detail-title">
+          더스트 프루프 팬
+         </div> 
+         <div class="detail-desc">
+          독특한 팬 디자인은 먼지, 오염물질 저항성의 향상을 통해 그래픽 카드의 수명을 25% 늘려주며 효율적으로 발열을 해소합니다.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-ii-detail-figure-5.jpg" width="500">
+         </div> </li> 
+        <li class="n3 draggable"> <b class="plus"><i class="icon-plus-sign"></i><span>슈퍼 알로이 파워 지원 DIGI+ VRM</span></b> 
+         <div class="detail-title">
+          슈퍼 알로이 파워 지원 DIGI+ VRM
+         </div> 
+         <div class="detail-desc">
+          미디어의 찬사를 받아온 ASUS DIGI+ VRM은 디지털 전압 레귤레이터를 사용하여 30%*까지 노이즈를 감소 시키며, , 전력 효율을 15%*까지 끌어올리고, 전압-조정 내구성을 넓히고, 전반적으로 안정성을 향상시킵니다.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-ii-detail-figure-3.jpg" width="500">
+         </div> </li> 
+       </ul> 
+       <img class="comp1" src="img/quietly-cool/directcu-comp-1.png" alt=""> 
+       <img class="comp2" src="img/quietly-cool/directcu-comp-2.png" alt=""> 
+       <img class="comp3" src="img/quietly-cool/directcu-comp-3.png" alt=""> 
+       <img class="comp4" src="img/quietly-cool/directcu-comp-4.png" alt=""> 
+       <div class="diagram" data-src="img/quietly-cool/directcu-diagram.swf"></div>
+       <!--/.diagram--> 
+      </div> 
+     </section>
+     <!--/#quietly-cool-directcu--> 
+     <!--********************************
+	 Quietly Cool / DirectCU Mini
+    **********************************--> 
+     <section id="quietly-cool--directcu-mini" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/quietly-cool/directcu-mini-heading.png" alt="DirectCU Mini - Go Mini. Game Big."></h2> 
+       <p>DirectCU는 맞춤 베이퍼-챔버 쿨링 기술을 포함하고 있습니다. DirectCU Mini 사이즈에도, ASUS의 전매특허 디자인은 레퍼런스보다 최대 20%*낮은 온도로 동작하며, 3배 더 조용한 성능을 선사합니다.</p> 
+       <ul class="detail plus-hide-text"> 
+        <li class="n1"> <b class="plus"><i class="icon-plus-sign"></i><span>17cm 스몰 폼 팩터</span></b> 
+         <div class="detail-title">
+          17cm 스몰 폼 팩터
+         </div> 
+         <div class="detail-desc">
+          24.13cm 길이의 레퍼런스 그래픽 카드와 비교하여, ITX 게이밍 PC를 위한 완벽한 선택.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-mini-detail-figure-1.jpg" width="500">
+         </div> </li> 
+        <li class="n2"> <b class="plus"><i class="icon-plus-sign"></i><span>다이렉트 파워 &amp; 슈퍼 알로이 파워</span></b> 
+         <div class="detail-title">
+          다이렉트 파워 &amp; 슈퍼 알로이 파워
+         </div> 
+         <div class="detail-desc">
+          다이렉트 파워 기술이 적용된 맞춤 PCB와 VRM 디자인은 게임, 오버클럭킹 시에도 GPU에 높은 품질의 전력을 안정적으로 공급합니다. 덧붙여, 뛰어난 효율은 PCB 온도를 17%*까지 낮춰줍니다.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-mini-detail-figure-2.jpg" width="500">
+         </div> </li> 
+        <li class="n3"> <b class="plus"><i class="icon-plus-sign"></i><span>DirectCU Mini</span></b> 
+         <div class="detail-title">
+          DirectCU Mini
+         </div> 
+         <div class="detail-desc">
+          독자적으로 디자인된 베이퍼 챔버는 GPU와 직접 맞닿아 발열을 효율적으로 해소합니다.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-ii-detail-figure-4.jpg" width="500" data-type="swf" data-src="img/quietly-cool/directcu-ii-detail-figure-4.swf">
+         </div> </li> 
+        <li class="n4"> <b class="plus"><i class="icon-plus-sign"></i><span>쿨텍 팬</span></b> 
+         <div class="detail-title">
+          쿨텍 팬
+         </div> 
+         <div class="detail-desc">
+          ASUS의 전매특허인 쿨텍 팬은 하이브리드 블레이드와 베어링 디자인으로 구성되어 있으며, 내부의 방사상 블로워와 외부의 플라워-타입 블레이드 구조로 이루어져 있습니다. 이러한 구조는 다양한 방향으로 바람을 불어내어, 방열을 가속화하며, 고도의 안정적인 그래픽 성능을 가능케 합니다.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-mini-detail-figure-4.jpg" width="500">
+         </div> </li> 
+       </ul> 
+       <img class="comp1" src="img/quietly-cool/directcu-mini-comp-1.png" alt=""> 
+       <img class="comp2" src="img/quietly-cool/directcu-mini-comp-2.png" alt=""> 
+       <img class="comp3" src="img/quietly-cool/directcu-mini-comp-3.png" alt=""> 
+       <img class="comp4" src="img/quietly-cool/directcu-mini-comp-4.png" alt=""> 
+       <div class="diagram" data-src="img/quietly-cool/directcu-mini-diagram.swf"></div>
+       <!--/.diagram--> 
+      </div> 
+     </section>
+     <!--/#quietly-cool-directcu-mini--> 
+     <!--********************************
+	 Quietly Cool / DirectCU Silent
+    **********************************--> 
+     <section id="quietly-cool--directcu-silent" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/quietly-cool/directcu-silent-heading.png" alt="DirectCU SILENT -  Efficiently Silent. Visually Vibrant."></h2> 
+       <p>독자적인 디자인의 DirectCU 히트 싱크는 대형 표면적의 방열판을 채택, 효율적으로 그래픽 카드를 냉각하며, 구동 시 소음은 전혀 없습니다. – 홈 시어터 PC와 멀티미디어 센터에 적합한 높은 선명도, 정숙한 솔루션으로써 완벽합니다.</p> 
+       <img class="comp1" src="img/quietly-cool/directcu-silent-comp-1.png" alt=""> 
+       <img class="comp2" src="img/quietly-cool/directcu-silent-comp-2.png" alt=""> 
+       <img class="comp3" src="img/quietly-cool/directcu-silent-comp-3.png" alt=""> 
+       <img class="comp4" src="img/quietly-cool/directcu-silent-comp-4.png" alt=""> 
+       <div class="diagram" data-src="img/quietly-cool/directcu-silent-diagram.swf"></div>
+       <!--/.diagram--> 
+      </div> 
+     </section>
+     <!--/#quietly-cool-directcu-silent--> 
+     <div class="bg basebg">
+      <div class="bg-inner" data-bg="img/quietly-cool/cover-bg.jpg"></div>
+     </div> 
+    </section>
+    <!--/#quietly-cool--> 
+    <!--=============================================
+ Fan Design
+===============================================--> 
+    <section id="fan-design" class="section cyan tilt clockwise"> 
+     <!--********************************
+	 Quietly Cool / Dust Proof Fan
+    **********************************--> 
+     <section id="quietly-cool--dust-proof" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/quietly-cool/dust-proof-heading.png" alt="DUST PROOF FAN - Max Air Power."></h2> 
+       <p>독특한 팬 디자인은 먼지, 오염물질 저항성의 향상을 통해 그래픽 카드의 수명을 25% 늘려주며 효율적으로 발열을 해소합니다.</p> 
+       <ul class="detail plus-hide-text"> 
+        <li class="n2"> <b class="plus"><i class="icon-plus-sign"></i><span>하이브리드 디자인</span></b> 
+         <div class="detail-title">
+          하이브리드 디자인
+         </div> 
+         <div class="detail-desc">
+          ASUS의 전매특허인 쿨텍 팬은 하이브리드 블레이드와 베어링 디자인으로 구성되어 있으며, 내부의 방사상 블로워와 외부의 플라워-타입 블레이드 구조로 이루어져 있습니다. 이러한 구조는 다양한 방향으로 바람을 불어내어, 방열을 가속화하며, 고도의 안정적인 그래픽 성능을 가능케 합니다.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/dust-proof-detail-figure-1.jpg" width="676" data-type="swf" data-src="http://www.youtube.com/v/voY5eTaUJ_U?hl=zh_TW&amp;version=3&amp;rel=0">
+         </div> </li> 
+        <li class="n1"> <b class="plus"><i class="icon-plus-sign"></i><span>더스트 프루프 디자인</span></b> 
+         <div class="detail-title">
+          더스트 프루프 디자인
+         </div> 
+         <div class="detail-desc">
+          독특한 팬 디자인은 먼지, 오염물질 저항성의 향상을 통해 그래픽 카드의 수명을 25% 늘려주며 효율적으로 발열을 해소합니다. 
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/dust-proof-detail-figure-2.jpg" width="676" data-type="video" data-src="img/quietly-cool/dust-proof-detail-figure-2.flv">
+         </div> </li> 
+       </ul> 
+       <img class="card" src="img/quietly-cool/dust-proof-card.png" alt=""> 
+      </div>
+      <!--/.viewbody--> 
+     </section>
+     <!--/#quietly-cool-dust-proof--> 
+     <div class="bg basebg">
+      <div class="bg-inner" data-bg="img/quietly-cool/cover-bg.jpg"></div>
+     </div> 
+    </section>
+    <!--/#fan-design--> 
+    <!--=============================================
+ Power Up
+===============================================--> 
+    <section id="power-up" class="section"> 
+     <!--********************************
+	 Power Up / Cover
+    **********************************--> 
+     <section id="power-up--cover" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/power-up/cover-heading.png" alt="POWER UP FOR THE WIN"></h2> 
+       <p>그래픽 카드의 오버클럭킹 잠재력을 극대화하기 위해, 정밀하고 안정적이며 깨끗한 전력이 필요합니다. ASUS 는 처음부터 끝까지 그래픽 카드를 다시 디자인하여, 더 충분한 오버클럭킹의 여지를 제공하며 내구성을 향상시킵니다. </p> 
+      </div> 
+      <div class="bg">
+       <div class="bg-inner" data-bg="img/power-up/cover-bg.jpg"></div>
+      </div> 
+     </section>
+     <!--/#power-up-cover--> 
+     <!--********************************
+	 Power Up / Direct Power
+    **********************************--> 
+     <section id="power-up--direct-power" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/power-up/direct-power-heading.png" alt="DIRECT POWER - Clean and Precise Power Supply"></h2> 
+       <p>다이렉트 파워 기술이 적용된 맞춤 PCB와 VRM 디자인은 게임, 오버클럭킹 시에도 GPU에 높은 품질의 전력을 안정적으로 공급합니다. 덧붙여, 뛰어난 효율은 PCB 온도를 15%*까지 낮춰줍니다.</p> 
+       <ul class="detail plus-hide-text"> 
+        <li class="n1"> <b class="plus"><i class="icon-plus-sign"></i><span>다이렉트 파워</span></b> 
+         <div class="detail-title">
+          다이렉트 파워
+         </div> 
+         <div class="detail-desc">
+          ASUS의 전매특허인 쿨텍 팬은 하이브리드 블레이드와 베어링 디자인으로 구성되어 있으며, 내부의 방사상 블로워와 외부의 플라워-타입 블레이드 구조로 이루어져 있습니다. 이러한 구조는 다양한 방향으로 바람을 불어내어, 방열을 가속화하며, 고도의 안정적인 그래픽 성능을 가능케 합니다.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/power-up/direct-power-detail-figure-1.jpg" width="500" height="460" data-type="swf" data-src="img/power-up/direct-power-detail-figure-1.swf">
+         </div> </li> 
+       </ul> 
+      </div> 
+      <div class="bg">
+       <div class="bg-inner" data-bg="img/power-up/direct-power-bg.jpg"></div>
+      </div> 
+     </section>
+     <!--/#power-up-direct-power--> 
+     <!--********************************
+	 Power Up / Digi+
+    **********************************--> 
+     <section id="power-up--digiplus" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/power-up/digiplus-heading.png" alt="DIGI+ Super Alloy Power - 2.5 Times Greater Durability"></h2> 
+       <p>미디어의 찬사를 받아온 ASUS DIGI+ VRM은 디지털 전압 레귤레이터를 사용하여 30%*까지 노이즈를 감소 시키며, , 전력 효율을 15%*까지 끌어올리고, 전압-조정 내구성을 넓히고, 전반적으로 안정성을 향상시킵니다.</p> 
+       <div class="openvideo" data-vid="gpke45Q2JYI">
+        <i></i>
+        <div></div>
+       </div> 
+      </div> 
+      <figure class="videopreview" data-playing="0" data-totalframes="3" data-src="img/power-up/digiplus-videopreview-frame-"> 
+       <div class="control"> 
+        <a class="play" href="http://youtu.be/gpke45Q2JYI" data-vid="gpke45Q2JYI" target="_blank">비디오보기</a> 
+        <span class="skip"></span> 
+       </div> 
+       <div class="preview">
+        <div class="bg">
+         <div class="screendot"></div>
+         <div class="bg-inner" data-bg="img/power-up/digiplus-videopreview-frame-1.jpg"></div>
+        </div>
+       </div> 
+      </figure>
+      <!--/.videopreview--> 
+      <div class="bg">
+       <div class="bg-inner" data-bg="img/power-up/digiplus-bg.jpg"></div>
+      </div> 
+     </section>
+     <!--/#power-up-digiplus--> 
+     <div class="bg basebg">
+      <div class="bg-inner" data-bg="img/common/basebg.jpg"></div>
+     </div> 
+    </section>
+    <!--/#power-up--> 
+    <!--=============================================
+ In Charge
+===============================================--> 
+    <section id="in-charge" class="section tilt counter-clockwise"> 
+     <!--********************************
+	 In Charge / Cover
+    **********************************--> 
+     <section id="in-charge--cover" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/in-charge/cover-heading.png" alt="YOU’RE in CHARGE"></h2> 
+       <p>ASUS만의 독자적인 기술과 도구라면, 전문가 수준으로 쉽게 하드웨어, 소프트웨어를 컨트롤 하여, 강력한 성능을 주도적으로 이끌어 나갈 수 있습니다.</p> 
+       <div class="openvideo" data-vid="tNM3Z-mOrTA">
+        <i></i>
+        <div></div>
+       </div> 
+      </div>
+      <!--/.viewbody--> 
+      <figure class="videopreview" data-playing="0" data-totalframes="2" data-src="img/in-charge/cover-videopreview-frame-"> 
+       <div class="control"> 
+        <a class="play" href="http://youtu.be/tNM3Z-mOrTA" data-vid="tNM3Z-mOrTA" target="_blank">비디오보기</a> 
+        <span class="skip"></span> 
+       </div> 
+       <div class="preview">
+        <div class="bg">
+         <div class="screendot"></div>
+         <div class="bg-inner" data-bg="img/in-charge/cover-videopreview-frame-1.jpg"></div>
+        </div>
+       </div> 
+      </figure>
+      <!--/.videopreview--> 
+      <div class="bg">
+       <div class="bg-inner" data-bg="img/in-charge/cover-bg.jpg"></div>
+      </div> 
+     </section>
+     <!--/#in-charge-cover--> 
+     <!--********************************
+	 In Charge / GPU Tweak
+    **********************************--> 
+     <section id="in-charge--gpu-tweak" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/in-charge/gpu-tweak-heading.png" alt="GPU TWEAK - Real-time Intuitive Graphics Tuning"></h2> 
+       <p>사용자는 직관적인 인터페이스를 통해 개별적으로 또는 한꺼번에 각각 설치되어 있는 그래픽 카드의 GPU 코어, 메모리, 팬 속도를 동기화하여 설정할 수 있으며, 그 결과를 모니터링 할 수 있습니다.</p> 
+       <img class="gui" src="img/in-charge/gpu-tweak-gui.png" alt> 
+       <ul class="detail plus-hide-text"> 
+        <li class="n1 draggable"> <b class="plus"><i class="icon-plus-sign"></i><span>사용자 프로파일</span></b> 
+         <div class="detail-title">
+          사용자 프로파일
+         </div> 
+         <div class="detail-desc">
+          1-4 버튼에 최대 4개의 맞춤 사용자 프로파일을 저장하거나, ASUS에서 설정해놓은 절전 프리셋 모드(S), 게이밍 프리셋 모드 (G) 중에서 선택할 수 있습니다.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/in-charge/gpu-tweak-detail-figure-1.jpg" width="500">
+         </div> </li> 
+        <li class="n2 draggable"> <b class="plus"><i class="icon-plus-sign"></i><span>팬 속도</span></b> 
+         <div class="detail-title">
+          팬 속도
+         </div> 
+         <div class="detail-desc">
+          팬 속도를 설정하는 세 가지 방법 중 하나를 선택하십시오. – 오토, 매뉴얼, 사용자 정의 모드.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/in-charge/gpu-tweak-detail-figure-2.jpg" width="500">
+         </div> </li> 
+        <li class="n3 draggable"> <b class="plus"><i class="icon-plus-sign"></i><span>실시간 모니터링</span></b> 
+         <div class="detail-title">
+          실시간 모니터링
+         </div> 
+         <div class="detail-desc">
+          온도, 사용량, 팬 상태, GPU 클럭, 메모리를 실시간으로 모니터링합니다. 설정에서 무엇을, 어떻게 모니터링 할 것인지 선택할 수 있습니다.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/in-charge/gpu-tweak-detail-figure-3.jpg" width="500">
+         </div> </li> 
+        <li class="n4 draggable"> <b class="plus"><i class="icon-plus-sign"></i><span>ASUS x GPUz</span></b> 
+         <div class="detail-title">
+          ASUS x GPUz
+         </div> 
+         <div class="detail-desc">
+          그래픽 카드의 현재 상태와 디테일을 볼 수 있는 통합 GPU-Z.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/in-charge/gpu-tweak-detail-figure-4.jpg" width="500">
+         </div> </li> 
+        <li class="n5 draggable"> <b class="plus"><i class="icon-plus-sign"></i><span>튜닝 패널</span></b> 
+         <div class="detail-title">
+          튜닝 패널
+         </div> 
+         <div class="detail-desc">
+          클럭 속도, 전압, 팬 속도를 조절하여 정확하게 원하는 그래픽 카드의 상태로 조정합니다.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/in-charge/gpu-tweak-detail-figure-5.jpg" width="500">
+         </div> </li> 
+        <li class="n6 draggable"> <b class="plus"><i class="icon-plus-sign"></i><span>통합 업데이트</span></b> 
+         <div class="detail-title">
+          통합 업데이트
+         </div> 
+         <div class="detail-desc">
+          신속하게 드라이버와 V바이오스를 체크, 업데이트하여 최신의 상태로 여러분의 그래픽 카드를 유지합니다. 얼마나 자주, 어떻게 업데이트 할 것인지 맞춤 설정할 수 있습니다.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/in-charge/gpu-tweak-detail-figure-6.jpg" width="500">
+         </div> </li> 
+       </ul> 
+      </div>
+      <!--/.viewbody--> 
+      <div class="bg">
+       <div class="bg-inner" data-bg="img/in-charge/speedy-bg.jpg"></div>
+      </div> 
+     </section>
+     <!--/#in-charge-gpu-tweak--> 
+     <!--********************************
+	 In Charge / Streaming
+    **********************************--> 
+     <section id="in-charge--streaming" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/in-charge/streaming-heading.png" alt="GPU TWEAK STREAMING - Real-time Streaming Online"></h2> 
+       <p>GPU Tweak 스트리밍 툴을 이용하여 실시간으로 온라인 상의 사용자들과 현재 스크린 상에서 벌어지고 있는 상황을 공유할 수 있으며, 다른 사람들이 자신의 게임 플레이를 관전할 수 있고 스트리밍 창의 텍스트나 사진, 웹 캠 이미지에 제목을 덧붙여 대화가 가능합니다.</p> 
+       <img class="gui" src="img/in-charge/streaming-gui.jpg" alt>
+      </div> 
+      <!--/.viewbody--> 
+      <div class="bg">
+       <div class="bg-inner" data-bg="img/in-charge/speedy-bg.jpg"></div>
+      </div> 
+     </section>
+     <!--/#in-charge-streaming--> 
+     <!--********************************
+	 In Charge / Overclocking
+    **********************************--> 
+     <section id="in-charge--overclocking" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/in-charge/overclocking-heading.png" alt="PRO OVERCLOCKING TOOLS - Quick and deep hardware-level overvolting"></h2> 
+       <p>사용자는 직관적인 인터페이스를 통해 개별적으로 또는 한꺼번에 각각 설치되어 있는 그래픽 카드의 GPU 코어, 메모리, 팬 속도를 동기화하여 설정할 수 있으며, 그 결과를 모니터링 할 수 있습니다.</p> 
+       <ul class="detail plus-hide-text"> 
+        <li class="n1"> <a href="javascript:;"> <b class="plus">터보 팬<i class="icon-plus-sign"></i></b> <img src="img/in-charge/overclocking-menu-1.png" alt="Turbo Fan"> 
+          <div class="detail-title">
+           터보 팬
+          </div> 
+          <div class="detail-desc">
+           드라이버 설정에 관계없이 즉각적으로 버튼을 눌러 듀얼 팬을 100% 속도로 구동합니다.극도의 오버클럭킹, 기타 부하량이 극심하게 걸리는 상황에서 매우 유용함이 증명되었으며, 신속한 열 발산, 극대화된 쿨링이 필요한 곳에서 필수적입니다.
+          </div> 
+          <div class="detail-figure">
+           <img src="img/in-charge/overclocking-detail-figure-1.jpg" width="676" data-type="video" data-src="img/in-charge/overclocking-detail-figure-1.flv">
+          </div> </a> </li> 
+        <li class="n2"> <a href="javascript:;"> <b class="plus">TweakIt &amp; 세이프 모드<i class="icon-plus-sign"></i></b> <img src="img/in-charge/overclocking-menu-2.png" alt="TweakIt &amp; Safe Mode"> 
+          <div class="detail-title">
+           TweakIt &amp; 세이프 모드
+          </div> 
+          <div class="detail-desc">
+           TweakIt은 게임 또는 벤치마크 프로그램의 구동중에도 편리한 오버클럭킹 컨트롤을 제공합니다. + , - 버튼을 누르기만 하면 오버클럭킹에 필요한 오버볼팅 설정이 가능합니다. 세이프 모드 버튼은 그래픽 카드의 기본 클럭과 바이오스 세팅으로 원상복구 시키는데 사용됩니다.
+          </div> 
+          <div class="detail-figure">
+           <img src="img/in-charge/overclocking-detail-figure-2.jpg" width="676" data-type="video" data-src="img/in-charge/overclocking-detail-figure-2.flv">
+          </div> </a> </li> 
+        <li class="n3"> <a href="javascript:;"> <b class="plus">VGA 핫와이어<i class="icon-plus-sign"></i></b> <img src="img/in-charge/overclocking-menu-3.png" alt="VGA Hotwire"> 
+          <div class="detail-title">
+           VGA 핫와이어
+          </div> 
+          <div class="detail-desc">
+           이 기술을 사용하기 위해, 간편하게 그래픽 카드의 두 개의 와이어를 납땜질하여, 마더보드의 전용 헤더에 연결하면 즉각적으로 그래픽 카드에 오버볼팅이 가능합니다.
+          </div> 
+          <div class="detail-figure">
+           <img src="img/in-charge/overclocking-detail-figure-3.jpg" width="676" data-type="video" data-src="img/in-charge/overclocking-detail-figure-3.flv">
+          </div> </a> </li> 
+       </ul> 
+      </div>
+      <!--/.viewbody--> 
+      <div class="bg">
+       <div class="bg-inner" data-bg="img/in-charge/overclocking-bg.jpg"></div>
+      </div> 
+     </section>
+     <!--/#in-charge-overclocking--> 
+     <div class="bg basebg">
+      <div class="bg-inner" data-bg="img/common/basebg.jpg"></div>
+     </div> 
+    </section>
+    <!--/#in-charge--> 
+    <!--=============================================
+ products list
+===============================================--> 
+    <section id="products-list" class="section cyan tilt clockwise"> 
+     <!--********************************
+	       products list
+    **********************************--> 
+     <section id="products-list" class="view"> 
+      <div class="viewbody">
+       <br> 
+       <br> 
+       <table width="1102" border="0" bordercolor="#FF0000" cellpadding="2"> 
+        <tbody>
+         <tr> 
+          <td width="105">&nbsp;</td> 
+          <td width="1050">
+           <table cellspacing="1" cellpadding="2" class="spec">
+            <tbody>
+             <tr>
+              <td class="xl68 style14">
+               <table cellspacing="1" cellpadding="2" class="spec"> 
+                <tbody>
+                 <tr> 
+                  <td width="1000" class="xl68 style14">
+                   <table border="1" align="center" bordercolor="#990000" cellpadding="2"> 
+                    <tbody>
+                     <tr> 
+                      <td colspan="15" class="style8 xl66"><span class="style9 style6"><strong>그래픽카드 제품스펙 비교표 </strong></span></td> 
+                     </tr> 
+                     <tr> 
+                      <td width="83" rowspan="2" class="xl65 bordercolor= style13" #ff0000">
+                       <div align="center">
+                        GPU 
+                       </div></td> 
+                      <td width="162" rowspan="2" class="xl65 style14 style13">
+                       <div align="center">
+                        상품명
+                       </div></td> 
+                      <td width="99" rowspan="2" class="xl65 style14 style13">
+                       <div align="center">
+                        쿨러종류
+                       </div></td> 
+                      <td width="76" rowspan="2" class="xl75 style14 style13">
+                       <div align="center">
+                        팬
+                       </div></td> 
+                      <td width="58" rowspan="2" class="xl65 style14 style13">
+                       <div align="center">
+                        Power
+                       </div></td> 
+                      <td width="77" rowspan="2" class="xl77 style14 style13">
+                       <div align="center">
+                        Direct Power 
+                       </div></td> 
+                      <td colspan="4" class="xl65 style14 style13">
+                       <div align="center">
+                        Super Alloy Power 
+                       </div></td> 
+                      <td width="51" rowspan="2" class="xl65 style14 style13">
+                       <div align="center">
+                        추가 전원
+                       </div></td> 
+                      <td width="51" rowspan="2" class="xl65 style14 style13">
+                       <div align="center">
+                        권장 파워
+                       </div></td> 
+                      <td width="58" rowspan="2" class="xl65 style14 style13">
+                       <div align="center">
+                        백플레이트
+                       </div></td> 
+                     </tr> 
+                     <tr> 
+                      <td width="24" class="xl65 style14 style13">
+                       <div align="center">
+                        초크
+                       </div></td> 
+                      <td width="47" class="xl65 style14 style13">
+                       <div align="center">
+                        캐패시터
+                       </div></td> 
+                      <td width="51" class="xl65 style14 style13">
+                       <div align="center">
+                        MOSFET 
+                       </div></td> 
+                      <td width="52" class="xl65 style14 style13">
+                       <div align="center">
+                        SAP CAP 
+                       </div></td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">TITANZ </td> 
+                      <td class="xl69 style14 style13">GTXTITANZ-12GD5</td> 
+                      <td class="xl68 style14 style13">-</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">12 phase</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">8+8</td> 
+                      <td class="xl68 style14 style13">700W</td> 
+                      <td class="xl68 style14 style13">○</td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">GTX980</td> 
+                      <td class="xl69 style14 style13">STRIX GTX980 DC2OC 4GD5 </td> 
+                      <td class="xl68 style14 style13">STRIX DIrectCU II</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">10 phase</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">6+8</td> 
+                      <td class="xl68 style14 style13">500W</td> 
+                      <td class="xl68 style14 style13">○</td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">GTX970</td> 
+                      <td class="xl69 style14 style13">STRIX GTX970 DC2OC 4GD5 </td> 
+                      <td class="xl68 style14 style13">STRIX DIrectCU II</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">6 phase</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">8</td> 
+                      <td class="xl68 style14 style13">500W</td> 
+                      <td class="xl68 style14 style13">○</td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">GTX780 STRIX</td> 
+                      <td class="xl69 style14 style13">STRIX GTX780 OC 6GD5</td> 
+                      <td class="xl68 style14 style13">STRIX DIrectCU II</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">10 phase</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">6+8</td> 
+                      <td class="xl68 style14 style13">600W</td> 
+                      <td class="xl68 style14 style13">○</td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">GTX780TI </td> 
+                      <td class="xl69 style14 style13">MATRIX-P-GTX780TI-3GD5</td> 
+                      <td class="xl68 style14 style13">DirectCU II </td> 
+                      <td class="xl70 style14 style13">Cooltech FAN </td> 
+                      <td class="xl68 style14 style13">14 phase</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">8+8</td> 
+                      <td class="xl68 style14 style13">600W</td> 
+                      <td class="xl68 style14 style13">○</td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">GTX780TI </td> 
+                      <td class="xl69 style14 style13">GTX780TI-DC2OC-3GD5</td> 
+                      <td class="xl68 style14 style13">DirectCU II </td> 
+                      <td class="xl70 style14 style13">Cooltech FAN</td> 
+                      <td class="xl68 style14 style13">8+2 phase </td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">8+8</td> 
+                      <td class="xl68 style14 style13">600W</td> 
+                      <td class="xl68 style14 style13">○</td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">GTX780</td> 
+                      <td class="xl69 style14 style13">POSEIDON-GTX780-P-3GD5</td> 
+                      <td class="xl68 style14 style13">Direct H2O </td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">10 phase</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">6+8</td> 
+                      <td class="xl68 style14 style13">600W</td> 
+                      <td class="xl68 style14 style13">○</td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">GTX780</td> 
+                      <td class="xl69 style14 style13">GTX780-DC2OC-3GD5</td> 
+                      <td class="xl68 style14 style13">DirectCU II </td> 
+                      <td class="xl70 style14 style13">Cooltech FAN</td> 
+                      <td class="xl70 style14 style13">8+2 phase</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">6+8</td> 
+                      <td class="xl68 style14 style13">600W</td> 
+                      <td class="xl68 style14 style13">○</td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">GTX770</td> 
+                      <td class="xl69 style14 style13">GTX770-DC2OC-2GD5</td> 
+                      <td class="xl68 style14 style13">DirectCU II </td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">8+2 phase</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">6+8 </td> 
+                      <td class="xl68 style14 style13">600W</td> 
+                      <td class="xl68 style14 style13">○</td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">GTX760 X2</td> 
+                      <td class="xl69 style14 style13">MARS760-4GD5</td> 
+                      <td class="xl68 style14 style13">DirectCU II </td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">12 phase</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">8+8</td> 
+                      <td class="xl68 style14 style13">650W</td> 
+                      <td class="xl68 style14 style13">○</td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">GTX760</td> 
+                      <td class="xl69 style14 style13">GTX760-DC2OC-2GD5</td> 
+                      <td class="xl68 style14 style13">DirectCU II </td> 
+                      <td class="xl70 style14 style13">-</td> 
+                      <td class="xl68 style14 style13">5 phase</td> 
+                      <td class="xl70 style14 style13">Direct power</td> 
+                      <td class="xl70 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">8</td> 
+                      <td class="xl68 style14 style13">450W</td> 
+                      <td class="xl68 style14"><span class="xl70 style14 style13">-</span></td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">GTX760</td> 
+                      <td class="xl69 style14 style13">GTX760-DCMOC-2GD5 </td> 
+                      <td class="xl68 style14 style13">Direct mini</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">5 phase</td> 
+                      <td class="xl70 style14 style13">Direct power</td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">8 </td> 
+                      <td class="xl68 style14 style13">450W</td> 
+                      <td class="xl68 style14"><span class="xl70 style14 style13">-</span></td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">GTX760</td> 
+                      <td class="xl69 style14 style13">GTX760-DF-2GD5</td> 
+                      <td class="xl68 style14 style13">DirectCU II </td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">5 phase</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl70 style14 style13">○</td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">8 </td> 
+                      <td class="xl68 style14 style13">450W</td> 
+                      <td class="xl68 style14"><span class="xl70 style14 style13">-</span></td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">GTX750TI</td> 
+                      <td class="xl69 style14 style13">STRIX GTX50TI OC 2GD5 </td> 
+                      <td class="xl68 style14 style13">STRIX DIrectCU II</td> 
+                      <td class="xl70 style14 style13">-</td> 
+                      <td class="xl68 style14 style13">4 phase</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">○</td> 
+                      <td class="xl70 style14 style13">○</td> 
+                      <td class="xl70 style14 style13">○</td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">-</td> 
+                      <td class="xl70 style14 style13">400W</td> 
+                      <td class="xl70 style14 style13">-</td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">GTX750TI</td> 
+                      <td class="xl69 style14 style13">GTX750TI-OC-2GD5</td> 
+                      <td class="xl68 style14 style13">Dual Fan </td> 
+                      <td class="xl70 style14 style13">-</td> 
+                      <td class="xl68 style14 style13">4 phase</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">○</td> 
+                      <td class="xl70 style14 style13">○</td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">6 </td> 
+                      <td class="xl70 style14 style13">400W</td> 
+                      <td class="xl70 style14 style13">-</td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">GTX750</td> 
+                      <td class="xl69 style14 style13">GTX750-PHOC-1GD5 </td> 
+                      <td class="xl68 style14 style13">Dust proof fan</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">2 phase</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">○</td> 
+                      <td class="xl70 style14 style13">○</td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">400W</td> 
+                      <td class="xl70 style14 style13">-</td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">GT740 </td> 
+                      <td class="xl69 style14 style13">GT740-OC-2GD5</td> 
+                      <td class="xl68 style14 style13">Dust proof fan</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">3 phase</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">○</td> 
+                      <td class="xl70 style14 style13">○</td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">400W</td> 
+                      <td class="xl70 style14 style13">-</td> 
+                     </tr>
+                     <tr> 
+                      <td class="xl67 style14 style13">GT730</td> 
+                      <td class="xl69 style14 style13">GT730-MG-2GD3</td> 
+                      <td class="xl68 style14 style13">Dust proof fan</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">1 phase</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">○</td> 
+                      <td class="xl70 style14 style13"><span class="xl68 style14 style13">-</span></td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">350W</td> 
+                      <td class="xl70 style14 style13">-</td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">GTX660</td> 
+                      <td class="xl69 style14 style13">GTX660-DC2OCPH-2GD5</td> 
+                      <td class="xl68 style14 style13">DirectCU II</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">4 phase</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl68 style14"><span class="xl70 style14 style13">6</span></td> 
+                      <td class="xl68 style14"><span class="xl70 style14 style13">500W</span></td> 
+                      <td class="xl68 style14"><span class="xl70 style14 style13">-</span></td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">GTX650</td> 
+                      <td class="xl69 style14 style13">GTX650-E-1GD5</td> 
+                      <td class="xl68 style14 style13">Dust proof fan</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">3 phase</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl68 style14"><span class="xl70 style14 style13">-</span></td> 
+                      <td class="xl68 style14"><span class="xl70 style14 style13">400W</span></td> 
+                      <td class="xl68 style14"><span class="xl70 style14 style13">-</span></td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">GTX630</td> 
+                      <td class="xl69 style14 style13">GT630-SL-2GD3-L) </td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">-</td> 
+                      <td class="xl68 style14 style13">1 phase</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">○</td> 
+                      <td class="xl70 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">300W</td> 
+                      <td class="xl70 style14 style13">-</td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">R9290X</td> 
+                      <td class="xl69 style14 style13">MATRIX-P-R9290X-4GD5</td> 
+                      <td class="xl68 style14 style13">DirectCU II </td> 
+                      <td class="xl70 style14 style13">Cooltech FAN </td> 
+                      <td class="xl70 style14 style13">16 phase</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14"><span class="xl70 style14 style13">- </span></td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">8+8</td> 
+                      <td class="xl68 style14 style13">600W</td> 
+                      <td class="xl68 style14 style13">○</td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">R9290X</td> 
+                      <td class="xl69 style14 style13">R9290X-DC2OC-4GD5</td> 
+                      <td class="xl68 style14 style13">DirectCU II </td> 
+                      <td class="xl70 style14 style13">Cooltech FAN </td> 
+                      <td class="xl70 style14 style13">10 phase</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">6+8</td> 
+                      <td class="xl68 style14 style13">600W</td> 
+                      <td class="xl68 style14 style13">○</td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">R9290</td> 
+                      <td class="xl69 style14 style13">R9290-DC2OC-4GD45</td> 
+                      <td class="xl68 style14 style13">DirectCU II </td> 
+                      <td class="xl70 style14 style13">Cooltech FAN </td> 
+                      <td class="xl68 style14 style13">10 phase</td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">○</td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○</td> 
+                      <td class="xl68 style14 style13">6+8</td> 
+                      <td class="xl68 style14 style13">600W</td> 
+                      <td class="xl68 style14 style13">○</td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">R9280X</td> 
+                      <td class="xl69 style14 style13">R9280X-DC2T-3GD5</td> 
+                      <td class="xl68 style14 style13">DirectCU II </td> 
+                      <td class="xl70 style14 style13">Cooltech FAN</td> 
+                      <td class="xl70 style14 style13">12 phase</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">6+8</td> 
+                      <td class="xl68 style14 style13">600W</td> 
+                      <td class="xl68 style14"><span class="xl70 style14 style13">-</span></td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">R9280</td> 
+                      <td class="xl69 style14 style13">R9280-DC2T-3GD5</td> 
+                      <td class="xl68 style14 style13">DirectCU II </td> 
+                      <td class="xl70 style14 style13">Cooltech FAN </td> 
+                      <td class="xl68 style14 style13">12 phase</td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">○</td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○</td> 
+                      <td class="xl68 style14 style13">6+8</td> 
+                      <td class="xl68 style14 style13">600W</td> 
+                      <td class="xl68 style14"><span class="xl70 style14 style13">-</span></td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">R9270X</td> 
+                      <td class="xl69 style14 style13">R9270X-DC2T-2GD5</td> 
+                      <td class="xl68 style14 style13">DirectCU II </td> 
+                      <td class="xl70 style14 style13">-</td> 
+                      <td class="xl68 style14 style13">8 phase</td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">○</td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○</td> 
+                      <td class="xl68 style14 style13">6+6</td> 
+                      <td class="xl68 style14 style13">500W</td> 
+                      <td class="xl68 style14"><span class="xl70 style14 style13">-</span></td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">R9270X</td> 
+                      <td class="xl69 style14 style13">R9270X-DC2-2GD5</td> 
+                      <td class="xl68 style14 style13">DirectCU II </td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">8 phase </td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">6+6</td> 
+                      <td class="xl68 style14 style13">500W</td> 
+                      <td class="xl68 style14"><span class="xl70 style14 style13">-</span></td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">R9270</td> 
+                      <td class="xl69 style14 style13">R9270-DC2OC-2GD5</td> 
+                      <td class="xl68 style14 style13">DirectCU II </td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">8 phase</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">6 </td> 
+                      <td class="xl68 style14 style13">450W</td> 
+                      <td class="xl68 style14"><span class="xl70 style14 style13">-</span></td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">R7260</td> 
+                      <td class="xl69 style14 style13">R7260-1GD5</td> 
+                      <td class="xl68 style14 style13">Dual Fan </td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">3 phase</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">6 </td> 
+                      <td class="xl68 style14 style13">450W</td> 
+                      <td class="xl68 style14"><span class="xl70 style14 style13">-</span></td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">R7240</td> 
+                      <td class="xl69 style14 style13">R7240-SL-2GD3-L</td> 
+                      <td class="xl68 style14 style13">Dust proof fan</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">2 phase</td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">400W</td> 
+                      <td class="xl68 style14"><span class="xl70 style14 style13">-</span></td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">HD7870</td> 
+                      <td class="xl69 style14 style13">HD7870-DC2-2GD5</td> 
+                      <td class="xl68 style14 style13">Direct CUII</td> 
+                      <td class="xl70 style14 style13">-</td> 
+                      <td class="xl68 style14 style13">8 phase</td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">○</td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○</td> 
+                      <td class="xl68 style14 style13">6+6 </td> 
+                      <td class="xl68 style14 style13">450W</td> 
+                      <td class="xl68 style14 style13">○</td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">HD7850</td> 
+                      <td class="xl69 style14 style13">HD7850-DC2-2GD5-V2</td> 
+                      <td class="xl68 style14 style13">Direct CUII</td> 
+                      <td class="xl70 style14 style13">-</td> 
+                      <td class="xl68 style14 style13">8 phase</td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">○</td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○</td> 
+                      <td class="xl68 style14 style13">6</td> 
+                      <td class="xl68 style14 style13">450W</td> 
+                      <td class="xl68 style14"><span class="xl70 style14 style13">-</span></td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">HD7850</td> 
+                      <td class="xl69 style14 style13">HD7850-DC-1GD5 </td> 
+                      <td class="xl68 style14 style13">Direct CUII </td> 
+                      <td class="xl70 style14 style13">-</td> 
+                      <td class="xl68 style14 style13">8 phase</td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">○</td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○</td> 
+                      <td class="xl68 style14 style13">6</td> 
+                      <td class="xl68 style14 style13">450W</td> 
+                      <td class="xl68 style14"><span class="xl70 style14 style13">-</span></td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl67 style14 style13">HD7770</td> 
+                      <td class="xl69 style14 style13">HD7770-1GD5 </td> 
+                      <td class="xl68 style14 style13">Dust proof fan</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">5 phase</td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">○</td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○ </td> 
+                      <td class="xl68 style14 style13">○</td> 
+                      <td class="xl68 style14 style13">6 </td> 
+                      <td class="xl68 style14 style13">450W</td> 
+                      <td class="xl68 style14"><span class="xl70 style14 style13">-</span></td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl74 style14"><span class="xl67 style14 style13">HD7750</span></td> 
+                      <td class="xl69 style14 style13">HD7750-1GD5</td> 
+                      <td class="xl68 style14 style13">Dust proof fan</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">5 phase</td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">○</td> 
+                      <td class="xl68 style14 style13">○</td> 
+                      <td class="xl68 style14 style13">○</td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">450W</td> 
+                      <td class="xl70 style14 style13">-</td> 
+                     </tr> 
+                     <tr> 
+                      <td class="xl74 style14"><span class="xl67 style14 style13">HD7750</span></td> 
+                      <td class="xl69 style14 style13">HD7750-OC-1GD5</td> 
+                      <td class="xl68 style14 style13">Dust proof fan</td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">5 phase</td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl68 style14 style13">○</td> 
+                      <td class="xl68 style14 style13">○</td> 
+                      <td class="xl68 style14 style13">○</td> 
+                      <td class="xl68 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">- </td> 
+                      <td class="xl70 style14 style13">450W</td> 
+                      <td class="xl70 style14 style13">-</td> 
+                     </tr> 
+                    </tbody>
+                   </table></td> 
+                 </tr> 
+                </tbody>
+               </table> </td> 
+             </tr> 
+            </tbody>
+           </table> 
+           <table width="977" height="20" border="0"> 
+            <tbody>
+             <tr> 
+              <td width="971"><p align="right" class="xl63 style14">※2014년3月21日현재국내용으로 판매중인 그래픽카드 제품 정보입니다.</p> </td> 
+             </tr> 
+            </tbody>
+           </table></td> 
+         </tr> 
+        </tbody>
+       </table> 
+       <p>&nbsp;</p> 
+       <p>&nbsp;</p> 
+       <p>&nbsp;</p> 
+      </div> 
+      <!--/.viewbody--> 
+     </section>
+     <!--/#quietly-cool-dust-proof--> 
+     <div class="bg">
+      <div class="bg-inner" data-bg="img/Product/poseidon-bg_1.jpg"></div>
+     </div> 
+    </section>
+    <!--/#fan-design--> 
+    <!--=============================================
+shop list
+===============================================--> 
+    <section id="shop-list" class="section cyan tilt clockwise"> 
+     <!--********************************
+	       shop list
+    **********************************--> 
+     <section id="shop-list" class="view"> 
+      <div class="viewbody"> 
+       <p>&nbsp;</p> 
+       <p>&nbsp;</p> 
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <table border="0" align="center" cellpadding="0" cellspacing="0"> 
+        <tbody>
+         <tr> 
+          <td colspan="3" class="style8 xl72"><span class="style9 style6"><strong>ASUS 그래픽카드 온라인 판매처</strong></span></td> 
+         </tr> 
+         <tr> 
+          <td colspan="3" class="xl66 style9 style11">
+           <table width="0" border="0"> 
+            <tbody>
+             <tr> 
+              <td width="25">&nbsp;</td> 
+              <td width="220">&nbsp;</td> 
+              <td width="37">&nbsp;</td> 
+              <td width="230">&nbsp;</td> 
+              <td width="38">&nbsp;</td> 
+              <td width="229">&nbsp;</td> 
+              <td width="22">&nbsp;</td> 
+             </tr> 
+             <tr> 
+              <td>&nbsp;</td> 
+              <td>
+               <div align="center">
+                <a href="http://www.compuzone.co.kr/product/product_list.htm?BigDivNo=4&amp;MediumDivNo=1016#%26BigDivNo%3D4%26MediumDivNo%3D1016%26DivNo%3D%26PreOrder%3Drecommand%26OrderType%3D3%26OrderLinkType%3D%26SChkMaker%3D%26SChkBottom%3D%26MakerNo%3D%26stROW_CNT%3D40%26DivProductKey%3Dasus%26stSKIN_TYPE%3D1%26stPage%3D1" target="_blank"><img src="img/where to buy/compuzone.jpg" width="220" height="50" border="0"></a>
+               </div></td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>
+               <div align="center">
+                <a href="http://www.guidecom.co.kr/search/index.html?opt=&amp;keyword=asus&amp;cid=8803" target="_blank"><img src="img/where to buy/ezguide.jpg" width="220" height="50" border="0"></a>
+               </div></td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>
+               <div align="center">
+                <a href="http://www.icoda.co.kr/search/?search_lkind=25&amp;kwd=asus" target="_blank"><img src="img/where to buy/icoda.jpg" width="220" height="50" border="0"></a>
+               </div></td> 
+              <td>&nbsp;</td> 
+             </tr> 
+             <tr> 
+              <td>&nbsp;</td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>&nbsp;</td> 
+             </tr> 
+             <tr> 
+              <td>&nbsp;</td> 
+              <td>
+               <div align="center">
+                <a href="http://www.joyzen.co.kr/search/index.php?skey=asus&amp;sel_key=P&amp;scate1=&amp;scate2=42&amp;sort=A&amp;scate3=&amp;send=asus" target="_blank"><img src="img/where to buy/joyzen.jpg" width="220" height="50" border="0"></a>
+               </div></td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>
+               <div align="center">
+                <a href="http://www.mypcshop.co.kr/shop/list.php?ca_id=1040" target="_blank"><img src="img/where to buy/mypcshop.jpg" width="220" height="50" border="0"></a>
+               </div></td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>
+               <div align="center">
+                <a href="http://www.pcdaq.co.kr/goodsList.page?mode=list&amp;uid=1138" target="_blank"><img src="img/where to buy/pcdaq.jpg" width="220" height="50" border="0"></a>
+               </div></td> 
+              <td>&nbsp;</td> 
+             </tr> 
+             <tr> 
+              <td>&nbsp;</td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>&nbsp;</td> 
+             </tr> 
+             <tr> 
+              <td>&nbsp;</td> 
+              <td>
+               <div align="center">
+                <a href="http://www.itenjoy.co.kr/category.php?offset=0&amp;categoryId=876&amp;listtype=image&amp;dtlsch=N&amp;schCategory1=861&amp;schCategory2=876&amp;schCategory3=&amp;csc_schword=asus&amp;csc_promaker%5B%5D=ASUS&amp;orderby=DANAWASHOPCOUNT&amp;pagesize=25" target="_blank"><img src="img/where to buy/itenjoy.jpg" width="220" height="50" border="0"></a>
+               </div></td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>
+               <div align="center">
+                <a href="http://www.pc4all.co.kr/good_search.asp?ipage=1&amp;startpage=1&amp;category=40&amp;txtSearchType=ItemName&amp;strsearch=asus&amp;result_search=&amp;lineupStandard=" target="_blank"><img src="img/where to buy/pc4all.jpg" width="220" height="50" border="0"></a>
+               </div></td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>
+               <div align="center">
+                <a href="http://www.icomplay.co.kr/shop/list.php?ca_id=1040" target="_blank"><img src="img/where to buy/icomplay.jpg" width="220" height="50" border="0"></a>
+               </div></td> 
+              <td>&nbsp;</td> 
+             </tr> 
+             <tr> 
+              <td>&nbsp;</td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>&nbsp;</td> 
+             </tr> 
+             <tr> 
+              <td>&nbsp;</td> 
+              <td>
+               <div align="center">
+                <a href="http://www.iclub.co.kr/product/list_v2.html?t_cat=1&amp;l_cat=5" target="_blank"><img src="img/where to buy/iclub.jpg" width="220" height="50" border="0"></a>
+               </div></td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>
+               <div align="center"></div></td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>
+               <div align="center"></div></td> 
+              <td>&nbsp;</td> 
+             </tr> 
+             <tr> 
+              <td>&nbsp;</td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>
+               <div align="center">
+                <span class="style8"></span>
+               </div></td> 
+              <td>&nbsp;</td> 
+             </tr> 
+            </tbody>
+           </table></td> 
+         </tr> 
+        </tbody>
+       </table> 
+       <p>&nbsp;</p> 
+      </div> 
+      <!--/.viewbody--> 
+     </section>
+     <!--/#quietly-cool-dust-proof--> 
+     <div class="bg">
+      <div class="bg-inner" data-bg="img/rog-series/mars-n-ares-bg.jpg"></div>
+     </div> 
+    </section>
+    <!--/#fan-design--> 
+   </div>
+   <!--/#content--> 
+   <div id="socialModal" class="modal"> 
+    <a class="twitter" href="http://twitter.com/intent/tweet?text=">Twitter 공유</a> 
+    <a class="facebook" href="http://www.facebook.com/sharer/sharer.php?u=">Facebook 공유</a> 
+    <a class="google" href="http://plus.google.com/share?url=">Google+ 공유</a>
+   </div> 
+  </div>
+  <!--/#wrap--> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49196867-1', 'asus.com');
+  ga('send', 'pageview');
+
+</script>   
+ </body>
+</html>

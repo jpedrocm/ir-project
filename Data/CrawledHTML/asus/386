@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width"> 
+  <meta name="description" content="Powered by ASUS offers dream machines with select system-builders, from small-form-factor dynamos to giant liquid-cooled beasts, Powered by ASUS means exclusivity, performance, and art."> 
+  <meta name="keywords" content="ASUS,VGA,MB,Desktop,Display,Monitor,Networks,Server &amp; Workstation,Chassis,Motherboards,PC Gaming hardware,Gaming motherboard,overclocking motherboard,Battlefield,assassins creed,Optical Storage,Graphics Cards,Multimedia,Peripherals &amp; Accessories,accessories,Peripheral,PC Accessories,Computer Peripheral,Power Supply,Thermal Solution,Eshop,PCs,Barebone PC, ASUS Partners, PBA, PBA Systems, ASUS System Integrator, ASUS System Builder, ASUS Gaming Systems, Gaming System, ASUS Computer, ASUS Gaming Computer"> 
+  <meta property="og:site_name" content="Powered by ASUS"> 
+  <meta property="og:title" content="Powered by ASUS."> 
+  <meta property="og:description" content="Powered by ASUS offers dream machines with select system-builders, from small-form-factor dynamos to giant liquid-cooled beasts, Powered by ASUS means exclusivity, performance, and art."> 
+  <link rel="shortcut icon" href="http://www.asus.com/media/img/favicon.ico"> 
+  <title>Powered by ASUS</title> 
+  <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" type="text/css"> 
+  <link href="Theme/CSS/normalize.css" rel="stylesheet" media="screen"> 
+  <link href="Theme/CSS/default.css" rel="stylesheet" media="screen"> 
+  <link href="Theme/CSS/idangerous.swiper.css" rel="stylesheet" media="screen"> 
+  <script src="Theme/Javascript/modernizr.custom.08193.js"></script> 
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> 
+  <script src="Theme/Javascript/default.js"></script> 
+  <script src="Theme/Javascript/idangerous.swiper.min.js"></script> 
+  <script type="text/javascript">
+    //ASUS header & footer
+        window.ASUSInit = function () {
+            asus_api.init({ appkey: 'campa00004' , lang: 'lk', api_menu_logo: '0');
+        };
+        (function(d){
+            var js, id = 'asus-jsapi';
+            if (d.getElementById("asus-jsapi")) {return;}
+            js = d.createElement('script');
+            js.id = id;
+            js.async = true;
+            js.src = "//www.asus.com/API/js/asus_api.js";
+            d.getElementsByTagName('head')[0].appendChild(js);
+        }(document));
+     </script> 
+ </head> 
+ <body> 
+  <div class="wrapper"> 
+   <header class="header"> 
+    <section class="header-inner"> 
+     <a href="index.html"><img class="logo" src="Theme/Image/UI/logo.png"></a> 
+     <div class="burger-wrapper"> 
+      <a class="burger burger-on"></a> 
+      <a class="burger burger-off"></a> 
+     </div> 
+     <ul class="menu"> 
+      <li><a href="index.html" onclick="ga('send', 'event', 'menus', 'clicked', ‘powered-by-asus-in')">Powered by ASUS</a></li> 
+      <li><a href="buynow.html" class="icon-cart active" onclick="ga('send', 'event', 'menus', 'clicked', ‘buy-a-pc-now-in')">Buy A PC Now!</a></li> 
+      <li><a href="companion.html" onclick="ga('send', 'event', ‘menus’, 'clicked', ‘best-companion-with-your-pc-in')">Best Companion with Your PC</a></li> 
+      <li><a href="promotion.html" onclick="ga('send', 'event', ‘menus', 'clicked', ‘events-and-promotion-in')">Events and Promotions</a></li> 
+     </ul> 
+    </section> 
+   </header> 
+   <main class="main"> 
+    <section class="banner home-banner"> 
+     <div class="hero"> 
+      <a href="#">
+       <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-1a.jpg)"></div></a> 
+     </div> 
+    </section> 
+    <section class="retail"> 
+     <div class="retail-part-1"> 
+      <h2 class="belt">AUTHORIZED DEALERS</h2> 
+      <ul class="retail-list clear"> 
+       <li> <a href="http://www.barclays.lk/index.php/products-banners/68-powered-by-asus-pcs" target="_blank" onclick="ga('send', 'event', ‘buy-a-pc-now-best-water-coolers', 'clicked', ‘barclays-lk')"> <img class="retailer" src="Theme/Image/retail/barclays.jpg"> <img class="product" src="Theme/Image/retail/retail-product-7.jpg"> <span class="btn">CUSTOMIZE NOW</span> </a> </li> 
+       <li> <a href="http://www.computeragelk.com/" target="_blank" onclick="ga('send', 'event', ‘buy-a-pc-now-best-water-coolers', 'clicked', ‘computerage-lk')"> <img class="retailer" src="Theme/Image/retail/computerage.jpg"> <img class="product" src="Theme/Image/retail/retail-product-7.jpg"> <span class="btn">CUSTOMIZE NOW</span> </a> </li> 
+       <li> <a href="http://tulipcomputersystems.com/" target="_blank" onclick="ga('send', 'event', ‘buy-a-pc-now-best-water-coolers', 'clicked', ‘tulipcomputers-lk')"> <img class="retailer" src="Theme/Image/retail/tcs.jpg"> <img class="product" src="Theme/Image/retail/retail-product-7.jpg"> <span class="btn">CUSTOMIZE NOW</span> </a> </li> 
+       <!--  <li>
+                    <a href="http://www.gtslk.net/" target="_blank" onClick="ga('send', 'event', ‘buy-a-pc-now-best-water-coolers', 'clicked', ‘gts-lk">
+                        <img class="retailer" src="Theme/Image/retail/gts.jpg" />
+                        <img class="product" src="Theme/Image/retail/retail-product-7.jpg" />
+                        <span class="btn">CUSTOMIZE NOW</span>                    </a>                </li>--> 
+       <li> <a href="http://www.winsoft.lk/" target="_blank" onclick="ga('send', 'event', ‘buy-a-pc-now-best-water-coolers', 'clicked', ‘winsoft-lk"> <img class="retailer" src="Theme/Image/retail/winsoft.jpg"> <img class="product" src="Theme/Image/retail/retail-product-7.jpg"> <span class="btn">CUSTOMIZE NOW</span> </a> </li> 
+       <!--<li>
+                    <a class="internal" id="internal-1" onClick="ga('send', 'event', ‘buy-a-pc-now-best-water-coolers', 'clicked', ‘IJK-in')"><!--internal--
+                    <img class="retailer" src="Theme/Image/retail/ankita.jpg" /><img class="product" src="Theme/Image/retail/retail-product-7.jpg" />
+                        <span class="btn">CUSTOMIZE NOW</span>                    </a>                
+            </ul>
+        </div>
+        <div class="retail-part-2">
+            <h2 class="belt">BEST SYSTEM BUILDS</h2>
+            <ul class="retail-list clear"></li>--> 
+       <!--     <li>
+                    <a href="http://www.sujataindia.com/" target="_blank" onClick="ga('send', 'event', ‘buy-a-pc-now-best-water-coolers', 'clicked', ‘sujata-in')">
+                        <img class="retailer" src="Theme/Image/retail/Sujata.jpg" />
+                        <img class="product" src="Theme/Image/retail/retail-product-7.jpg" />
+                        <span class="btn">CUSTOMIZE NOW</span>                    </a>                </li>--> 
+       <li> <a href="http://www.galleit.com/" target="_blank" onclick="ga('send', 'event', ‘buy-a-pc-now-best-water-coolers', 'clicked', ‘galleit-lk')"> <img class="retailer" src="Theme/Image/retail/galleit.jpg"> <img class="product" src="Theme/Image/retail/retail-product-7.jpg"><span class="btn">CUSTOMIZE NOW</span> </a> </li> 
+       <li> <a href="http://www.lapzone.lk/" target="_blank" onclick="ga('send', 'event', ‘buy-a-pc-now-best-water-coolers', 'clicked', ‘lapzone-lk')"> <img class="retailer" src="Theme/Image/retail/lapzone.jpg"></a> <img class="product" src="Theme/Image/retail/retail-product-7.jpg"> <span class="btn">CUSTOMIZE NOW</span>  </li> 
+       <li> <a href="http://shadsdigital.lk/" target="_blank" onclick="ga('send', 'event', ‘buy-a-pc-now-best-water-coolers', 'clicked', ‘shads-lk')"> <img class="retailer" src="Theme/Image/retail/shads.jpg"> <img class="product" src="Theme/Image/retail/retail-product-7.jpg"> <span class="btn">CUSTOMIZE NOW</span> </a> </li> 
+       <li> <a href="http://www.redlinetech.lk/" target="_blank" onclick="ga('send', 'event', ‘buy-a-pc-now-best-system-builders', 'clicked', ‘redline-lk')"> <img class="retailer" src="Theme/Image/retail/redline.jpg"> <img class="product" src="Theme/Image/retail/retail-product-11.jpg"> <span class="btn">CUSTOMIZE NOW</span> </a> </li> 
+       <li> <a href="http://www.smstech.lk/" target="_blank" onclick="ga('send', 'event', ‘buy-a-pc-now-best-system-builders', 'clicked', ‘smetech-lk')"> <img class="retailer" src="Theme/Image/retail/sms.jpg"> <img class="product" src="Theme/Image/retail/retail-product-12.jpg"> <span class="btn">CUSTOMIZE NOW</span> </a> </li> 
+       <li> <a href="http://www.techzone.lk/" target="_blank" onclick="ga('send', 'event', ‘buy-a-pc-now-best-system-builders', 'clicked', ‘techzone-lk')"> <img class="retailer" src="Theme/Image/retail/techzone.jpg"> <img class="product" src="Theme/Image/retail/retail-product-13.jpg"> <span class="btn">CUSTOMIZE NOW</span> </a> </li> 
+       <li> <a href="https://docs.google.com/spreadsheets/d/15Rsu_IMdtmf_srkm9sbkv0Y0E3wdjI8XqerYKUZzLbs/edit?usp=sharing " target="_blank" onclick="ga('send', 'event', ‘buy-a-pc-now-best-system-builders', 'clicked', ‘nanotek-lk')"> <img class="retailer" src="Theme/Image/retail/nanotek.jpg"> <img class="product" src="Theme/Image/retail/retail-product-13.jpg"> <span class="btn">CUSTOMIZE NOW</span> </a> </li> 
+       <!-- <li>
+                    <a href="https://www.mightyape.co.nz/attribute/44/Series/Powered-by-Asus" target="_blank" onClick="ga('send', 'event', ‘buy-a-pc-now-best-system-builders', 'clicked', ‘Mighty-ape-au')">
+                        <img class="retailer" src="Theme/Image/retail/retailer-logo-14.jpg" />
+                        <img class="product" src="Theme/Image/retail/retail-product-14.jpg" />
+                        <span class="btn">CUSTOMIZE NOW</span>                    </a>                </li>--> 
+      </ul> 
+     </div> 
+    </section> 
+   </main> 
+   <footer class="footer"> 
+    <p class="backtotop"><a>Back to Top</a></p> 
+    <section class="content"> 
+     <p class="copyright "><a href="https://asus.com/" target="_blank"><img src="Theme/Image/UI/asus.png"></a><br>© 2016 ASUSTeK Computer Inc. All Rights Reserved.&nbsp;Terms of Use. All specifications and terms are subject to change without notice. Please check with your supplier for exact offers on selected models. Products may not be available in all markets. Product may not be exactly as shown in photos. Brand and product names mentioned are trademarks of their respective companies. ASUS shall not be liable for technical or editorial errors or omissions contained herein.</p> 
+    </section> 
+   </footer> 
+   <div class="sidenav"> 
+    <a class="sidenav-buynow-1"><span>BEST WATER-COOLERS</span></a> 
+    <a class="sidenav-buynow-2"><span>BEST SYSTEM BUILDS</span></a> 
+   </div> 
+  </div> 
+  <!--pop out 視窗開始--> 
+  <div class="pop-wrapper"> 
+   <div class="mask"></div> 
+   <div class="pop-inner"> 
+    <div class="pop-box clear" id="pop-1"> 
+     <a class="close">close</a> 
+     <div class="text"> 
+      <img src="Theme/Image/retail/retailer-logo-6.jpg"> 
+      <h3>Digital Storm is Powered By ASUS</h3> 
+      <p>Designed with a passion for breakneck performance, Digital Storm gaming computers are expertly built and tested with unmatched engineering that stands out above the competition. All systems are built with only the highest quality components to maximize your application's performance and to extend the longevity of your system's life.</p> 
+      <a class="more" href="Theme/Image/All-IT-GR8-PC-Package-A4.jpg" target="_blank" onclick="ga('send', 'event', ‘buy-a-pc-now-best-water-coolers', ‘flyers', ‘IJK-au')">Learn More Now</a> 
+      <p class="location"><a href="https://www.google.com.tw/maps?q=ijk+au&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwjv3LqgkL3KAhUBPpQKHdH6CJcQ_AUICCgB" target="_blank">230/228-236 Liverpool Rd, Enfield NSW 2136, Australia</a></p> 
+      <p class="phone">+61 2 9745 0877</p> 
+     </div> 
+     <div class="img"> 
+      <a><img src="Theme/Image/retail/retail-product-default-large.jpg"></a>
+      <br> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!--pop out 視窗結束-->  
+  <script>
+//popout
+$(function(){
+    //open pop box
+    $('#internal-1').click(function(){
+        $('.pop-wrapper').show();
+        $('.mask').show();
+        $('#pop-1').show();
+    });
+    //close pop box
+    $('.pop-wrapper .close').click(function(){
+        $('.pop-wrapper').hide();
+        $('.pop-box').hide();
+    });
+    $('.mask').click(function(){
+        $('.pop-wrapper').hide();
+        $('.pop-box').hide();
+    });
+});
+</script> 
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NJRLM8');</script> 
+  <!-- End Google Tag Manager -->  
+ </body>
+</html>

@@ -1,0 +1,826 @@
+<!doctype html>
+<html lang="en" itemscope itemtype="http://schema.org/ContactPage">
+ <head id="Head1">
+  <title>
+	ASUSTeK Computer Inc. -Support- Call Us
+</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="canonical" href="https://www.asus.com/support/callus"> 
+  <script src="/support/js/modernizr-2.5.3.min.js"></script> 
+  <script src="/support/js/jquery.js"></script> 
+  <script src="/support/js/bootstrap.js"></script> 
+  <script src="/support/js/browser.js"></script> 
+  <script src="/support/js/jquery.placeholder.js"></script> 
+  <script src="/support/js/jquery_phone_nav.js"></script> 
+  <link href="/support/stylesheets/reset.css" rel="stylesheet" type="text/css"> 
+  <link href="/support/stylesheets/base.css" rel="stylesheet" type="text/css"> 
+ </head>
+ <body>
+  <input name="header1$hd_version" type="hidden" id="hd_version" value="1"> 
+  <script type="text/javascript">
+    $(document).ready(function () {
+        var version = $("#hd_version").val();
+        if (version == "1") {//full_style需在resp前
+            var linkfs = document.createElement('link');
+            linkfs.type = 'text/css';
+            linkfs.rel = "stylesheet";
+            linkfs.href = "/support/stylesheets/full_style.css";
+            document.getElementsByTagName("head")[0].appendChild(linkfs);
+        }
+        var linkresp = document.createElement('link');
+        linkresp.type = 'text/css';
+        linkresp.rel = "stylesheet";
+        linkresp.href = "/support/stylesheets/responsive.css";
+        document.getElementsByTagName("head")[0].appendChild(linkresp);
+    });
+</script> 
+  <script type="text/javascript">
+    //loading local css file
+    $(document).ready(function () {
+        var css_name = "";
+        var lang_prefix = window.location.pathname.split("/");
+        if (lang_prefix.length >= 2)
+            if (lang_prefix[1] == "support")
+                css_name = "";
+            else
+                css_name = lang_prefix[1] + ".css";
+
+        if (window.location.hostname.indexOf("asus.com.cn") >= 0) {
+            css_name = "cn.css";
+        }
+
+        if (window.console)
+            console.log("css name: " + css_name);
+
+        if (css_name != "") {
+            var link = document.createElement('link');
+            link.type = 'text/css';
+            link.rel = "stylesheet";
+            link.href = "/support/stylesheets/local/" + css_name;
+            document.getElementsByTagName("head")[0].appendChild(link);
+        }
+    });
+</script> 
+  <script type="text/javascript">
+    window.ASUSInit = function () {
+        var api_lang = '';
+        var api_key = '0000000004';
+
+        var lang_prefix = window.location.pathname.split("/");
+
+        if (window.console) {
+            console.log("pathname: " + window.location.pathname);
+        }
+
+        if (lang_prefix.length >= 2) {
+            if (lang_prefix[1] == "support")
+                api_lang = "";
+            else
+                api_lang = lang_prefix[1];
+        }
+
+        if (window.location.hostname.indexOf("asus.com.cn") >= 0) {
+            api_lang = "cn";
+            api_key = '0000000019';
+        }
+
+        if (window.console)
+            console.log("lang: " + api_lang);
+
+        asus_api.init({ appkey: api_key, lang: api_lang });
+    };
+    (function (d) {
+        var js, id = 'asus-jsapi';
+        if (d.getElementById("asus-jsapi")) { return; }
+        js = d.createElement('script');
+        js.id = id;
+        js.async = true;
+        if (window.location.hostname.indexOf("asus.com.cn") >= 0)
+            js.src = "//www.asus.com.cn/API/js/asus_api.js";
+        else
+            js.src = "//www.asus.com/API/js/asus_api.js";
+        d.getElementsByTagName('head')[0].appendChild(js);
+    } (document));
+</script> 
+  <script language="javascript">
+    var _wmxq = _wmxq || [];
+    _wmxq.push(["_getTracker", "SupportSite", "website", "etrk.asus.com"]); _wmxq.push(["trackPageview"]);
+    (function () {
+        var sc = document.createElement("script"); sc.type = "text/javascript"; sc.async = true;
+        sc.src = ("https:" == document.location.protocol ? "https:" : "http:") + "//etrk.asus.com/web_service/TrackingJS/wmxtracker.js";
+        var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(sc, s);
+    })();
+</script>   
+  <div class="grayBg"> 
+   <div id="hotline-global" class="container main-zone"> 
+    <div id="breadcrumbs"> 
+     <a href="/" id="breadcrumb1_a_home" target="_self">Home</a>
+     <span id="breadcrumb1_s1" style="display:inline">&nbsp;&gt;&nbsp;</span>
+     <a href="/support" id="breadcrumb1_a_support" target="_self" style="display:inline">Support</a>
+     <span id="breadcrumb1_s2" style="display:inline">&nbsp;&gt;&nbsp;</span>
+     <a href="../uc_2/general/index.aspx" id="breadcrumb1_a_pagename" target="_self" style="display: none">[Page Name]</a> 
+     <span id="breadcrumb1_s_l1" style="display: none">&nbsp;&gt;&nbsp;</span>
+     <a href="../uc_2/general/index.aspx" id="breadcrumb1_a_l1" target="_self" style="display: none">[level 1]</a> 
+     <span id="breadcrumb1_s_l2" style="display: none">&nbsp;&gt;&nbsp;</span>
+     <a href="../uc_2/general/index.aspx" id="breadcrumb1_a_l2" target="_self" style="display: none">[level 2]</a> 
+     <span id="breadcrumb1_s_m" style="display: none">&nbsp;&gt;&nbsp;</span>
+     <a href="../uc_2/general/index.aspx" id="breadcrumb1_a_m" target="_self" style="display: none">[model]</a> 
+    </div> 
+    <h1 id="pagename1_h1_page_name" class="page-title">Call Us</h1> 
+    <div class="double-border-bottom"> 
+    </div> 
+    <!-- 2.0版 Call-us --> 
+    <div class="hotline-global-main">
+     <!--Left--> 
+     <div class="leftC">
+      <!-- Consumer Part -->
+      <span class="item-title">Global Hotline<br> Consumer Product</span> 
+      <!--phone draw--> 
+      <div class="visible-phone" id="phone-list-menu"> 
+       <div class="btn-group">
+        <button class="btn dropdown-toggle" data-toggle="dropdown" id="btn_hotline_global">America</button> 
+        <ul class="dropdown-menu" id="ul_regions" style="display: none;"> 
+         <li> 
+          <ul class="member-func unstyled"> 
+           <li><a dnname="div_1" href="#">America</a></li> 
+           <li><a dnname="div_2" href="#">Asia - Pacific</a></li> 
+           <li><a dnname="div_3" href="#">Europe</a></li> 
+           <li><a dnname="div_4" href="#">Middle East</a></li> 
+           <li><a dnname="div_5" href="#">Africa Region</a></li> 
+           <li><span class="item-title">Commerical Product</span> 
+            <!-- <ul class="search-nav hidden-phone" id="left-nav"> --></li> 
+           <li><a dnname="div_6" href="#">America</a></li> 
+           <li><a dnname="div_7" href="#">Asia - Pacific</a></li> 
+           <li><a dnname="div_8" href="#">Europe</a></li> 
+          </ul> </li> 
+        </ul> 
+       </div> 
+      </div> 
+      <!--phone draw end--> 
+      <ul class="search-nav hidden-phone" id="left-nav"> 
+       <li class="nav-item-sub"><a class="current" dnname="div_1" href="#">America</a></li> 
+       <li class="nav-item-sub"><a dnname="div_2" href="#">Asia - Pacific</a></li> 
+       <li class="nav-item-sub"><a dnname="div_3" href="#">Europe</a></li> 
+       <li class="nav-item-sub"><a dnname="div_4" href="#">Middle East</a></li> 
+       <li class="nav-item-sub"><a dnname="div_5" href="#">Africa Region</a>
+        <!-- </ul> -->
+        <!-- Consumer Part End --><br> <br> 
+        <!-- Commerical Part --></li> 
+       <li><span class="item-title">Commerical Product</span> 
+        <!-- <ul class="search-nav hidden-phone" id="left-nav"> --></li> 
+       <li class="nav-item-sub"><a dnname="div_6" href="#">America</a></li> 
+       <li class="nav-item-sub"><a dnname="div_7" href="#">Asia - Pacific</a></li> 
+       <li class="nav-item-sub"><a dnname="div_8" href="#">Europe</a>
+        <!--  <li class="nav-item-sub"><a dnname="div_9" href="#">Middle East</a></li>
+  <li class="nav-item-sub"><a dnname="div_10" href="#">Africa Region</a></li>
+</ul> -->
+        <!-- Commercial Part --></li> 
+      </ul> 
+     </div> 
+     <!--Right America 001 ---------------------------------------------------------------------------------------------- --> 
+     <div class="rightC curl-shadow" id="div_1"> 
+      <div class="hotline-global-zone">
+       <!--01--> 
+       <div class="long"> 
+        <h2 class="first">BRAZIL</h2> 
+        <p class="divider first">&nbsp;</p> 
+        <ul> 
+         <li> <p><b>Capital And Metropolitan Areas</b></p> <h3>3003-0398</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+         <li> <p><b>Other Areas in Brazil</b></p> <h3>(+55) 0800-288-8888</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--02--> 
+       <div class="bgGray clearfix"> 
+        <ul> 
+         <li> <h2>CANADA &amp; USA</h2> <p class="divider">&nbsp;</p> <a href="http://www.asus.com/us/support/CallUs" target="_blank">Please click here</a></li> 
+         <li> <h2>LATIN SPANISH</h2> <p class="divider">&nbsp;</p> <a href="http://www.asus.com/ar/support/CallUs/" target="_blank">Please click here</a></li> 
+        </ul> 
+       </div> 
+       <!--03--> 
+       <div class="long"> 
+        <ul> 
+         <li> <h2>MEXICO</h2> <p class="divider">&nbsp;</p> <h3>+1-8008367847</h3> <p>Mon-Fri 08:00-20:00 CST<br> Sat 09:00-15:00 CST</p> </li> 
+        </ul> 
+       </div> 
+       <!--America End-->
+      </div> 
+     </div> 
+     <!--002 Asia--------------------------------------------------------------------------------------> 
+     <div class="rightC curl-shadow" id="div_2" style="display: none;"> 
+      <div class="hotline-global-zone"> 
+       <div class="long"> 
+        <h2 class="first">Australia</h2> 
+        <p class="divider first">&nbsp;</p> 
+        <ul> 
+         <li> <h3>1300-278788</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+         <li> <p><b>For Wireless product: </b></p> <h3>1300-278788</h3> <p>Mon-Fri 08:00-20:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--02--> 
+       <div class="bgGray clearfix"> 
+        <ul> 
+         <li> <h2>China</h2> <p class="divider">&nbsp;</p> <a href="http://www.asus.com.cn/support/CallUs" target="_blank">Please click here</a></li> 
+         <li> <h2>Taiwan</h2> <p class="divider">&nbsp;</p> <a href="http://www.asus.com/tw/support/CallUs/" target="_blank">Please click here</a></li> 
+        </ul> 
+       </div> 
+       <!--03--> 
+       <div class="long"> 
+        <ul> 
+         <li> <h2>Hong Kong</h2> <p class="divider">&nbsp;</p> <h3>+852-35824770</h3> <p>Mon-Sat 10:00-19:00</p> </li> 
+        </ul> 
+       </div> 
+       <div class="bgGray clearfix"> 
+        <h2 class="first">India</h2> 
+        <p class="divider">&nbsp;</p> 
+        <ul> 
+         <li> <h3>1800-2090365</h3> <p>Mon-Sat 09:00-18:00</p> </li> 
+         <li> <p><b>For Wireless/Networking product</b></p> <h3>1800-2090365</h3> <p>Mon-Sun 09:00-21:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--04--> 
+       <div class="long"> 
+        <h2>Indonesia</h2> 
+        <p class="divider">&nbsp;</p> 
+        <ul> 
+         <li> <p><b>Local Indonesia Only</b></p> <h3>1500128</h3> <p>Mon-Fri 09:30-17:00<br> Sat 09:30-12:00</p> </li> 
+         <li> <h3>+62-2129495000</h3> <p>Mon-Fri 09:30-17:00<br> Sat 09:30-12:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--05--> 
+       <div class="bgGray clearfix"> 
+        <h2>Japan</h2> 
+        <p class="divider">&nbsp;</p> 
+        <ul> 
+         <li> <h3>0800-1232787</h3> <p>Mon-Sun 09:00-19:00</p> </li> 
+         <li> <p><b>Non-Toll Free</b></p> <h3>0570-783-886</h3> <p>Mon-Sun 09:00-19:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--05 end-->
+       <!--06--> 
+       <div class="long"> 
+        <ul> 
+         <li> <h2>Korea</h2> <p class="divider">&nbsp;</p> <h3>+82-215666868</h3> <p>Mon-Sat 09:00-18:00</p> </li> 
+         <li> <h2>Philippines</h2> <p class="divider">&nbsp;</p> <p><b>Non-Toll Free</b></p> <h3>+63-2-7985700</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--06 end--> 
+       <div class="bgGray clearfix"> 
+        <h2 class="first">New Zealand</h2> 
+        <p class="divider">&nbsp;</p> 
+        <ul> 
+         <li> <h3>0800-278788</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+         <li> <p><b>For Wireless/Networking product:</b></p> <h3>0800-278788</h3> <p>Mon-Fri 10:00-22:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--08-->
+       <!--09--> 
+       <div class="long"> 
+        <h2 class="first">Malaysia</h2> 
+        <p class="divider">&nbsp;</p> 
+        <ul> 
+         <li> <h3>1300-883495</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+        </ul> 
+       </div> 
+       <div class="bgGray clearfix"> 
+        <ul> 
+         <li> <h2>Singapore</h2> <p class="divider">&nbsp;</p> <h3>+65-66369163</h3> <p>Mon-Fri 09:30-17:30<br> *Extended hours on Sat 09:30-12:30<br> Closed on Sunday and Public Holiday</p> </li> 
+        </ul> 
+       </div> 
+       <!--9--> 
+       <div class="long"> 
+        <ul> 
+         <li> <h2>Turkey</h2> <p class="divider">&nbsp;</p> <h3>+90-2165243000</h3> <p>Mon-Fri 08:00-18:00</p> <p>Sat 08:00-13:00</p> </li> 
+         <li> <h2>Vietnam</h2> <p class="divider">&nbsp;</p> <h3>1900-555581</h3> <p>Mon-Sat 08:00-22:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--10--> 
+       <div class="bgGray clearfix"> 
+        <ul> 
+         <li> <h2>THAILAND</h2> <p class="divider">&nbsp;</p> <h3>+66-24011717</h3> <p>Mon-Sun 08:30-24:00</p> </li> 
+         <li> <h2>Nepal</h2> <p class="divider">&nbsp;</p> <p><b>Toll Free</b></p> <h3>1660-01-12787 (1-ASUS)</h3> <p>Sun-Fri 10:00-17:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--11--> 
+       <div class="long"> 
+        <ul> 
+         <li> <h2>Bangladesh</h2> <p class="divider">&nbsp;</p> <p>Non-Toll Free</p> <h3>09612332787</h3> <p>Mon-Sat 10:00-19:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--Asia End-->
+      </div> 
+     </div> 
+     <!--003 Europe--------------------------------------------------------------------------------------> 
+     <div class="rightC curl-shadow" id="div_3" style="display: none;"> 
+      <div class="hotline-global-zone">
+       <!--01--> 
+       <div class="long"> 
+        <h2>Bulgaria</h2> 
+        <p class="divider first">&nbsp;</p> 
+        <ul> 
+         <li> <h3>+359-70014411</h3> <p>Mon-Fri 09:30-18:30</p> </li> 
+         <li> <h3>+359-29889170</h3> <p>Mon-Fri 09:30-18:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--02--> 
+       <div class="bgGray clearfix"> 
+        <ul> 
+         <li> <h2>Belgium</h2> <p class="divider">&nbsp;</p> <h3>+32-78150231</h3> <p>Mon-Fri 08:30-17:00</p> </li> 
+         <li> <h2 class="first">Romania</h2> <p class="divider">&nbsp;</p> <h3>+40-213301786</h3> <p>Mon-Fri 09:00-18:30</p> </li> 
+        </ul> 
+       </div> 
+       <!--03--> 
+       <div> 
+        <ul> 
+         <li> <h2>Czech Rep</h2> <p class="divider">&nbsp;</p> <h3>+420-552302313</h3> <p>Mon-Fri 08:00-17:00</p> </li> 
+         <li> <h2>Denmark</h2> <p class="divider">&nbsp;</p> <h3>+45-38322943</h3> <p>Mon-Fri 09:00-19:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--04--> 
+       <div class="bgGray clearfix"> 
+        <ul> 
+         <li> <h2>Finland</h2> <p class="divider">&nbsp;</p> <h3>+358-969379690</h3> <p>Mon-Fri 09:00-19:00</p> </li> 
+         <li> <h2>France</h2> <p class="divider">&nbsp;</p> <h3>+33-170949400</h3> <p>Mon-Sat 09:00-18:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--05--> 
+       <div> 
+        <ul> 
+         <li> <h2>Germany</h2> <p class="divider">&nbsp;</p> <a href="http://www.asus.com/de/support/CallUs/" target="_blank">Please click here</a></li> 
+         <li> <h2>Norway</h2> <p class="divider">&nbsp;</p> <h3>+47-2316-2682</h3> <p>Mon-Fri 09:00-19:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--06--> 
+       <div class="bgGray clearfix"> 
+        <ul> 
+         <li> <h2>Greece</h2> <p class="divider">&nbsp;</p> <h3>+800-44142044</h3> <p>Mon-Fri 09:00-13:00 ; 14:00-18:00</p> </li> 
+         <li> <h2>Hungary</h2> <p class="divider">&nbsp;</p> <h3>+36-15054561</h3> <p>Mon-Fri 09:00-17:30</p> </li> 
+        </ul> 
+       </div> 
+       <!--07--> 
+       <div> 
+        <ul> 
+         <li> <h2>IRELAND REPUBLIC</h2> <p class="divider">&nbsp;</p> <p><b>Local Only</b></p> <h3>+353-1890719918</h3> <p>Mon-Fri 09:00-17:00</p> </li> 
+         <li> <h2>Italy</h2> <p class="divider">&nbsp;</p> <h3>199-400089</h3> <p>Mon-Fri 09:00-13:00 ; 14:00-18:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--08--> 
+       <div class="bgGray clearfix"> 
+        <h2>Netherlands / LUXEMBOURG</h2> 
+        <p class="divider">&nbsp;</p> 
+        <ul> 
+         <li> <h3>+31-591570290</h3> <p>Mon-Fri 08:30-17:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--09--> 
+       <div> 
+        <ul> 
+         <li> <h2>Poland</h2> <p class="divider">&nbsp;</p> <h3>+48-225718040</h3> <p>Mon-Fri 08:30-17:00</p> </li> 
+         <li> <h2>Portugal</h2> <p class="divider">&nbsp;</p> <h3>+351-211156011</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--10--> 
+       <div class="bgGray clearfix"> 
+        <ul> 
+         <li> <h2>Russia AND CIS</h2> <p class="divider">&nbsp;</p> <h3>+8-800-100-ASUS</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+         <li> <h2>Serbia</h2> <p class="divider">&nbsp;</p> <h3>+381-112070677</h3> <p>Mon-Fri 09:00-17:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--11--> 
+       <div class="long"> 
+        <ul> 
+         <li> <h2>SLOVAK REPUBLIC</h2> <p class="divider">&nbsp;</p> <h3>+421-232162621</h3> <p>Mon-Fri 08:00-17:00</p> </li> 
+         <li> <h2>Spain</h2> <p class="divider">&nbsp;</p> <h3>+34-932938154</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--12--> 
+       <div class="bgGray clearfix"> 
+        <ul> 
+         <li> <h2>Switzerland</h2> <p class="divider">&nbsp;</p> <p><b>German</b></p> <h3>+41-848111010</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+         <li> <h2>Switzerland</h2> <p class="divider">&nbsp;</p> <p><b>French</b></p> <h3>+41-848111014</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--13--> 
+       <div class="long"> 
+        <ul> 
+         <li> <h2>Switzerland</h2> <p class="divider">&nbsp;</p> <p><b>Italian</b></p> <h3>+41-848111012</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+         <li> <h2>Sweden</h2> <p class="divider">&nbsp;</p> <h3>+46-858769407</h3> <p>Mon-Fri 09:00-19:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--14--> 
+       <div class="bgGray clearfix"> 
+        <ul> 
+         <li> <h2>Ukraine</h2> <p class="divider">&nbsp;</p> <h3>+38-0445457727</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+         <li> <h2>United Kingdom</h2> <p class="divider">&nbsp;</p> <h3>+44-1442265548</h3> <p>Mon-Fri 09:00-17:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--15 add--> 
+       <div class="long"> 
+        <ul> 
+         <li> <h2>BOSNIA HERZEGOVINA</h2> <p class="divider">&nbsp;</p> <h3>+387-33773163</h3> <p>Mon-Fri 09:00-17:00</p> </li> 
+         <li> <h2>MONTENEGRO</h2> <p class="divider">&nbsp;</p> <h3>+382-20608251</h3> <p>Mon-Fri 09:00-17:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--16 add--> 
+       <div class="bgGray clearfix"> 
+        <ul> 
+         <li> <h2>CROATIA</h2> <p class="divider">&nbsp;</p> <h3>+385-1-3691-282</h3> <p>Mon-Fri 09:00-17:00</p> </li> 
+         <li> <h2>SLOVENIA</h2> <p class="divider">&nbsp;</p> <h3>+386-59045400, +386-59045401</h3> <p>Mon-Fri 08:00-16:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--17 add--> 
+       <div class="long"> 
+        <ul> 
+         <li> <h2>ESTONIA</h2> <p class="divider">&nbsp;</p> <h3>+372-6671796</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+         <li> <h2>LATVIA</h2> <p class="divider">&nbsp;</p> <h3>+371-67408838</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--18 add--> 
+       <div class="bgGray clearfix"> 
+        <ul> 
+         <li> <h2>LITHUANIA</h2> <p class="divider">&nbsp;</p> <p><b>Kaunas</b></p> <h3>+370-37329000</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+         <li> <h2>LITHUANIA</h2> <p class="divider">&nbsp;</p> <p><b>Vilnius</b></p> <h3>+370-52101160</h3> <p>Mon-Fri 08:00-18:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--18 add--> 
+       <div class="long"> 
+        <ul> 
+         <li> <h2>Kazakhstan</h2> <p class="divider">&nbsp;</p> <h3>8-800-080-5242</h3> <p>Mon-Fri 09:00-18:00</p> 
+          <!--   <li>
+  <h2>LATVIA</h2>
+
+  <p class="divider">&nbsp;</p>
+
+  <h3>+371-67408838</h3>
+
+  <p>Mon-Fri 09:00-18:00</p>
+  </li> --></li> 
+        </ul> 
+       </div> 
+       <!--19 end-->
+      </div> 
+     </div> 
+     <!--004-------------------------------------------------------------------------------------->
+     <!--Right America 001------------------------------------------------------------------------------------------------> 
+     <div class="rightC curl-shadow" id="div_4" style="display: none;"> 
+      <div class="hotline-global-zone">
+       <!--01--> 
+       <div class="long"> 
+        <ul> 
+         <li> <h2>ISRAEL</h2> <p class="divider">&nbsp;</p> <h3>+972-1-700-72-11-77</h3> <p>Sun-Thu 08:00-17:00</p> </li> 
+         <li> <h2>EGYPT</h2> <p class="divider">&nbsp;</p> <h3>+2-02 25949086</h3> <p>Sun-Thu 09:00-18:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--02--> 
+       <div class="bgGray clearfix"> 
+        <ul> 
+         <li> <h2>SAUDI ARABIA</h2> <p class="divider">&nbsp;</p> <h3>+966-8111-092196</h3> <p>Sun-Thu 09:00-18:00</p> <p>*Only in Saudi Arabia</p> </li> 
+         <li> <h2>SAUDI ARABIA</h2> <p class="divider">&nbsp;</p> <h3>800-820-0-426</h3> <p>Sun-Thu 09:00-18:00</p> </li> 
+        </ul> 
+       </div> 
+       <!--03--> 
+       <div class="long"> 
+        <ul> 
+         <li> <h2>UAE</h2> <p class="divider">&nbsp;</p> <h3>800-020-0-0428</h3> <p>Sun-Thu 09:00-18:00</p> <p>*Only in UAE</p> </li> 
+        </ul> 
+       </div> 
+       <!--America End-->
+      </div> 
+     </div> 
+     <!--005--------------------------------------------------------------------------------------> 
+     <div class="rightC curl-shadow" id="div_5" style="display: none;"> 
+      <div class="hotline-global-zone"> 
+       <div> 
+        <h2>South Africa</h2> 
+        <p class="divider first">&nbsp;</p> 
+        <ul>
+         <!--
+          <li>
+            <h2 class="first"> Africa</h2>
+            <p class="divider"> </p>
+            <h3>缺</h3>
+            <p></p>
+          </li>
+          --> 
+         <li> <h3>086 127 8792</h3> <p>Mon-Fri 08:00-17:00</p> </li> 
+        </ul> 
+       </div> 
+      </div> 
+     </div> 
+     <!--006 Amercia------------------------------------------------------------------------------------ --> 
+     <div class="rightC curl-shadow" id="div_6" style="display: none;"> 
+      <div class="hotline-global-zone"> 
+       <div class="long"> 
+        <h2>BRAZIL</h2> 
+        <p class="divider">&nbsp;</p> 
+        <ul> 
+         <li> <p><b>Capital And Metropolitan Areas</b></p> <h3>3003-0398</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+         <li> <p><b>Other Areas in Brazil</b></p> <h3>(+55) 0800-288-8888</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+        </ul> 
+       </div> 
+       <div class="bgGray clearfix"> 
+        <ul> 
+         <li> <h2>CANADA &amp; USA</h2> <p class="divider">&nbsp;</p> <a href="http://www.asus.com/us/support/CallUs" target="_blank">Please click here</a></li> 
+         <li> <h2>LATIN SPANISH</h2> <p class="divider">&nbsp;</p> <a href="http://www.asus.com/latin/support/CallUs/" target="_blank">Please click here</a></li> 
+        </ul> 
+       </div> 
+       <div class="long"> 
+        <h2>MEXICO</h2> 
+        <p class="divider">&nbsp;</p> 
+        <ul> 
+         <li> <h3>+1-8008367847</h3> <p>Mon-Fri 08:00-20:00 CST<br> Sat 09:00-15:00 CST</p> </li> 
+        </ul> 
+       </div> 
+      </div> 
+     </div> 
+     <!--007 Asia-Pacific------------------------------------------------------------------------------------ --> 
+     <div class="rightC curl-shadow" id="div_7" style="display: none;"> 
+      <div class="hotline-global-zone"> 
+       <div class="long"> 
+        <ul> 
+         <li> <h2>AUSTRALIA</h2> <p class="divider">&nbsp;</p> <h3>1300-278788</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+         <li> <h2>CHINA</h2> <p class="divider">&nbsp;</p> <h3>4000-666-400</h3> <p>Mon-Sun 00:00-24:00</p> </li> 
+        </ul> 
+       </div> 
+       <div class="bgGray clearfix"> 
+        <ul> 
+         <li> <h2>HONG KONG</h2> <p class="divider">&nbsp;</p> <h3>+852-35824770</h3> <p>Mon-Sat 10:00-19:00</p> </li> 
+         <li> <h2>INDIA</h2> <p class="divider">&nbsp;</p> <h3>1800-2090365</h3> <p>Mon-Sat 09:00-18:00</p> </li> 
+        </ul> 
+       </div> 
+       <div class="long"> 
+        <ul> 
+         <li> <h2>INDONESIA</h2> <p class="divider">&nbsp;</p> <p><b>Local Indonesia Only</b></p> <h3>500128</h3> <p>Mon-Fri 09:30-17:00<br> Sat 09:30-12:00</p> </li> 
+         <li> <h2>&nbsp;</h2> <p class="divider">&nbsp;</p> <h3>+62-2129495000</h3> <p>Mon-Fri 09:30-17:00<br> Sat 09:30-12:00</p> </li> 
+        </ul> 
+       </div> 
+       <div class="bgGray clearfix"> 
+        <ul> 
+         <li> <h2>JAPAN</h2> <p class="divider">&nbsp;</p> <h3>0800-1232787</h3> <p>Mon-Fri 09:00-18:00<br> Sat-Sun 09:00-17:00</p> </li> 
+         <li> <h2>&nbsp;</h2> <p class="divider">&nbsp;</p> <p><b>Non-Toll Free</b></p> <h3>+81-473905630</h3> <p>Mon-Fri 09:00-18:00<br> Sat-Sun 09:00-17:00</p> </li> 
+        </ul> 
+       </div> 
+       <div class="long"> 
+        <ul> 
+         <li> <h2>KOREA</h2> <p class="divider">&nbsp;</p> <h3>+82-215666868</h3> <p>Mon-Sat 09:00-18:00</p> </li> 
+         <li> <h2>MALAYSIA</h2> <p class="divider">&nbsp;</p> <h3>1300-883495</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+        </ul> 
+       </div> 
+       <div class="bgGray clearfix"> 
+        <ul> 
+         <li> <h2>NEW ZEALAND</h2> <p class="divider">&nbsp;</p> <h3>0800-278788</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+         <li> <h2>PHILIPPINES</h2> <p class="divider">&nbsp;</p> <h3>+63-2-7985700</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+        </ul> 
+       </div> 
+       <div class="long"> 
+        <ul> 
+         <li> <h2>SINGAPORE</h2> <p class="divider">&nbsp;</p> <h3>+65-66369163</h3> <p>Mon-Fri 09:30-17:30<br> *Extended hours on Sat 09:30-12:30, Closed on Sunday and Public Holiday</p> </li> 
+         <li> <h2>TAIWAN</h2> <p class="divider">&nbsp;</p> <a href="http://www.asus.com/tw/support/CallUs" target="_blank">Please click here</a></li> 
+        </ul> 
+       </div> 
+       <div class="bgGray clearfix"> 
+        <ul> 
+         <li> <h2>THAILAND</h2> <p class="divider">&nbsp;</p> <h3>+66-24011717</h3> <p>Mon-Sun 08:30-24:00</p> </li> 
+         <li> <h2>VIETNAM</h2> <p class="divider">&nbsp;</p> <h3>1900-555581</h3> <p>Mon-Sat 08:00-22:00</p> </li> 
+        </ul> 
+       </div> 
+      </div> 
+     </div> 
+     <!--008 EUROPE ------------------------------------------------------------------------------------ --> 
+     <div class="rightC curl-shadow" id="div_8" style="display: none;"> 
+      <div class="hotline-global-zone"> 
+       <div class="long"> 
+        <ul> 
+         <li> <h2>AUSTRIA</h2> <p class="divider">&nbsp;</p> <h3>+43-820240513</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+         <li> <h2>BELGIUM</h2> <p class="divider">&nbsp;</p> <h3>+32-78153032</h3> <p>Mon-Fri 08:30-17:00</p> </li> 
+        </ul> 
+       </div> 
+       <div class="bgGray clearfix"> 
+        <ul> 
+         <li> <h2>BOSNIA HERZEGOVINA</h2> <p class="divider">&nbsp;</p> <h3>+387-33773163</h3> <p>Mon-Fri 09:00-17:00</p> </li> 
+         <li> <h2>BULGARIA</h2> <p class="divider">&nbsp;</p> <h3>+359-70014411</h3> <p>Mon-Fri 09:30-18:30</p> </li> 
+        </ul> 
+       </div> 
+       <div class="long"> 
+        <ul> 
+         <li> <h2>CROATIA</h2> <p class="divider">&nbsp;</p> <h3>+385-1-3691-282</h3> <p>Mon-Fri 09:00-17:00</p> </li> 
+         <li> <h2>CYPRUS</h2> <p class="divider">&nbsp;</p> <h3>800-92491</h3> <p>Mon-Fri 09:00-13:00; 14:00-18:00</p> </li> 
+        </ul> 
+       </div> 
+       <div class="bgGray clearfix"> 
+        <ul> 
+         <li> <h2>CZECH REPUBLIC</h2> <p class="divider">&nbsp;</p> <h3>+420-596766890</h3> <p>Mon-Fri 08:00-17:00</p> </li> 
+         <li> <h2>DENMARK</h2> <p class="divider">&nbsp;</p> <h3>+45-43314944</h3> <p>Mon-Fri 09:00-19:00</p> </li> 
+        </ul> 
+       </div> 
+       <div class="long"> 
+        <ul> 
+         <li> <h2>ESTONIA</h2> <p class="divider">&nbsp;</p> <h3>+372-6671796</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+         <li> <h2>FINLAND</h2> <p class="divider">&nbsp;</p> <h3>+358-972519908</h3> <p>Mon-Fri 09:00-19:00</p> </li> 
+        </ul> 
+       </div> 
+       <div class="bgGray clearfix"> 
+        <ul> 
+         <li> <h2>CZECH REPUBLIC</h2> <p class="divider">&nbsp;</p> <h3>+420-596766890</h3> <p>Mon-Fri 08:00-17:00</p> </li> 
+         <li> <h2>FRANCE</h2> <p class="divider">&nbsp;</p> <h3>+33-170945050</h3> <p>Mon-Sat 09:00-18:00</p> </li> 
+        </ul> 
+       </div> 
+       <div class="long"> 
+        <ul> 
+         <li> <h2>HUNGARY</h2> <p class="divider">&nbsp;</p> <h3>+36-15054561</h3> <p>Mon-Fri 09:00-17:30</p> </li> 
+         <li> <h2>IRELAND</h2> <p class="divider">&nbsp;</p> <p>Local Only</p> <h3>+353-1890719918</h3> <p>Mon-Fri 09:00-17:00</p> </li> 
+        </ul> 
+       </div> 
+       <div class="bgGray clearfix"> 
+        <ul> 
+         <li> <h2>ITALY</h2> <p class="divider">&nbsp;</p> <h3>+39-0287367353</h3> <p>Mon-Fri 08:00-18:00</p> </li> 
+         <li> <h2>LATVIA</h2> <p class="divider">&nbsp;</p> <h3>+371-67408838</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+        </ul> 
+       </div> 
+       <div class="long"> 
+        <ul> 
+         <li> <h2>HUNGARY</h2> <p class="divider">&nbsp;</p> <h3>+36-15054561</h3> <p>Mon-Fri 09:00-17:30</p> </li> 
+         <li> <h2>IRELAND</h2> <p class="divider">&nbsp;</p> <p>Local Only</p> <h3>+353-1890719918</h3> <p>Mon-Fri 09:00-17:00</p> </li> 
+        </ul> 
+       </div> 
+       <div class="bgGray clearfix"> 
+        <ul> 
+         <li> <h2>LITHUANIA-Kaunas</h2> <p class="divider">&nbsp;</p> <h3>+370-37329000</h3> <p>Mon-Fri 08:00-18:00</p> </li> 
+         <li> <h2>LITHUANIA-Vilnius</h2> <p class="divider">&nbsp;</p> <h3>+370-52101160</h3> <p>Mon-Fri 08:00-18:00</p> </li> 
+        </ul> 
+       </div> 
+       <div class="long"> 
+        <ul> 
+         <li> <h2>MONTENEGRO</h2> <p class="divider">&nbsp;</p> <h3>+382-20608251</h3> <p>Mon-Fri 09:00-17:00</p> </li> 
+         <li> <h2>NETHERLANDS/LUXEMBOURG</h2> <p class="divider">&nbsp;</p> <h3>+31-591-636708</h3> <p>Mon-Fri 08:30-17:00</p> </li> 
+        </ul> 
+       </div> 
+       <div class="bgGray clearfix"> 
+        <ul> 
+         <li> <h2>NORWAY</h2> <p class="divider">&nbsp;</p> <h3>+47-23024716</h3> <p>Mon-Fri 09:00-19:00</p> </li> 
+         <li> <h2>POLAND</h2> <p class="divider">&nbsp;</p> <h3>+48-225718040</h3> <p>Mon-Fri 08:30-17:30</p> </li> 
+        </ul> 
+       </div> 
+       <div class="long"> 
+        <ul> 
+         <li> <h2>PORTUGAL</h2> <p class="divider">&nbsp;</p> <h3>+351-808500038</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+         <li> <h2>ROMANIA</h2> <p class="divider">&nbsp;</p> <h3>+40-213301786</h3> <p>Mon-Fri 09:00-18:30</p> </li> 
+        </ul> 
+       </div> 
+       <div class="bgGray clearfix"> 
+        <ul> 
+         <li> <h2>Russia and CIS</h2> <p class="divider">&nbsp;</p> <h3>+8-800-100-ASUS</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+         <li> <h2>SLOVAK REPUBLIC</h2> <p class="divider">&nbsp;</p> <h3>+421-232132091</h3> <p>Mon-Fri 08:00-17:00</p> </li> 
+        </ul> 
+       </div> 
+       <div class="long"> 
+        <ul> 
+         <li> <h2>SLOVENIA</h2> <p class="divider">&nbsp;</p> <h3>+386-59045400<br> +386-59045401</h3> <p>Mon-Fri 08:00-16:00</p> </li> 
+         <li> <h2>SPAIN</h2> <p class="divider">&nbsp;</p> <h3>+34-902570488</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+        </ul> 
+       </div> 
+       <div class="bgGray clearfix"> 
+        <ul> 
+         <li> <h2>SWEDEN</h2> <p class="divider">&nbsp;</p> <h3>+46-774400070</h3> <p>Mon-Fri 09:00-19:00</p> </li> 
+         <li> <h2>SWITZERLAND-French</h2> <p class="divider">&nbsp;</p> <h3>+41-848111016</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+        </ul> 
+       </div> 
+       <div class="long"> 
+        <ul> 
+         <li> <h2>SWITZERLAND-German</h2> <p class="divider">&nbsp;</p> <h3>+41-848111015</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+         <li> <h2>SWITZERLAND-Italian</h2> <p class="divider">&nbsp;</p> <h3>+41-848111017</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+        </ul> 
+       </div> 
+       <div class="bgGray clearfix"> 
+        <ul> 
+         <li> <h2>UKRAINE</h2> <p class="divider">&nbsp;</p> <h3>+38-0445457727</h3> <p>Mon-Fri 09:00-18:00</p> </li> 
+         <li> <h2>UNITED KINGDOM</h2> <p class="divider">&nbsp;</p> <h3>+44-1442265548</h3> <p>Mon-Fri 09:00-17:00</p> </li> 
+        </ul> 
+       </div> 
+      </div> 
+     </div> 
+     <!--Hotline End--> 
+     <div class="both">
+      &nbsp;
+     </div> 
+     <script>
+                $("#left-nav a").click(function () {
+                    $("#left-nav a").removeClass("current");
+                    $(this).addClass("current")
+                    $(".rightC").hide();
+                    //                            $("#" + $(this).attr("dnname")).slideToggle();
+                    $("#" + $(this).attr("dnname")).show();
+                });
+                $("#ul_regions a").click(function () {
+                    $("#ul_regions.dropdown-menu").toggle();
+                    $(".rightC").hide();
+                    $("#" + $(this).attr("dnname")).slideToggle();
+                    $("#btn_hotline_global").html($(this).text() + "<span class=caret></span>");
+                });
+
+                $("#btn_hotline_global").click(function () {
+                    $("#ul_regions.dropdown-menu").toggle();
+                });            
+              </script>
+     <!--Main Content End -->
+    </div> 
+   </div> 
+  </div> 
+  <!-- H-A-7 --> 
+  <input name="page_info1$langNormal" type="hidden" id="langNormal" value="en"> 
+  <input name="page_info1$hd_lang_prefix" type="hidden" id="hd_lang_prefix" value="/support"> 
+  <input name="page_info1$hd_product" type="hidden" id="hd_product"> 
+  <input name="page_info1$hd_product_name" type="hidden" id="hd_product_name"> 
+  <input name="page_info1$hd_product_name_ml" type="hidden" id="hd_product_name_ml"> 
+  <input name="page_info1$hd_series" type="hidden" id="hd_series"> 
+  <input name="page_info1$hd_series_name" type="hidden" id="hd_series_name"> 
+  <input name="page_info1$hd_series_name_ml" type="hidden" id="hd_series_name_ml"> 
+  <input name="page_info1$hd_model" type="hidden" id="hd_model"> 
+  <input name="page_info1$hd_model_ml" type="hidden" id="hd_model_ml"> 
+  <input name="page_info1$hd_os" type="hidden" id="hd_os"> 
+  <input name="page_info1$hd_hid" type="hidden" id="hd_hid"> 
+  <input name="page_info1$hd_offical_url" type="hidden" id="hd_offical_url"> 
+  <input name="page_info1$hd_country" type="hidden" id="hd_country"> 
+  <input name="page_info1$hd_country_ml" type="hidden" id="hd_country_ml"> 
+  <!-- Google Tag Manager with Origin gaTrace --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script src="/support/js/gaTrace.js" type="text/javascript"></script> 
+  <!-- End Google Tag Manager --> 
+  <link href="/support/stylesheets/online-chat-btn.css" rel="stylesheet" type="text/css"> 
+  <script>
+    function inIframe() {
+        try {
+            return window.self !== window.top; //window.self means the current application , window.top means the top ahead application
+        } catch (e) {
+            return true;
+        }
+    }
+</script> 
+  <script type="text/javascript">
+    $(document).ready(function () {
+        var IsInIframe = inIframe();
+        if (IsInIframe) {
+            return false;
+        }
+
+        var _Local = $("#langNormal").val();
+        var onlineService = initOnlineService(_Local);
+        onlineService.init();
+    });
+
+    function initOnlineService(Local) {
+        var ApiUrl = window.location.protocol + "//demeter.asus.com/WSC/Support_API_New/SupportNewAPI/GetOnlineChatUrl/",
+            ApiOption;
+
+        ApiUrl += Local;
+
+        return {
+            init: function () {
+                if ($("#online-service").length > 0) return;
+
+                $.getJSON(ApiUrl + "?callback=?", ApiOption).done(function (result) {
+                    if (result && result.StatusCode == 0) {
+                        var onlineServiceString = result.Link_Name ? result.Link_Name : "Online Chat",
+                            serviceUrl = result.URL;
+                        onlineChatBtn = '<div id="online-service"><a class="btn" onclick="javascript:window.open(\'' + serviceUrl + '\', \'\',  \'width=520, height=700, scrollbars=yes\'); ga(\'send\', \'event\', \'button\', \'clicked\', \'onlinechat\');">' + onlineServiceString + '</a></div>';
+                        $(onlineChatBtn).appendTo("body");
+                    }
+                });
+            }
+        }
+    };
+</script> 
+  <!--Redirect en--> 
+  <!--Announcement--> 
+  <script type="text/javascript">
+        var ApiUrl = "http://demeter.asus.com/TEST_WSC/Support_API_New/SupportNewAPI/GetCallUsAnnouncement/";
+        if (location.protocol == 'https:') {
+            ApiUrl = "https://demeter.asus.com/TEST_WSC/Support_API_New/SupportNewAPI/GetCallUsAnnouncement/";
+        }
+    
+    </script> 
+  <script type="text/javascript">
+        $(document).ready(function () {
+            var _Local = $("#langNormal").val();
+            var ServiceCenterAnnounceMent = initServiceCenterAnnounceMent(_Local);
+            ServiceCenterAnnounceMent.init();
+
+            function initServiceCenterAnnounceMent(Local) {
+
+                var ApiOption;
+
+                ApiUrl += Local;
+
+                return {
+                    init: function () {
+                        $.getJSON(ApiUrl + "?callback=?", ApiOption).done(function (reuslt) {
+                            $(reuslt).insertAfter("#mainzone_callus1_h_title");
+                        });
+                    }
+                }
+            }
+        });
+     </script>   
+ </body>
+</html>

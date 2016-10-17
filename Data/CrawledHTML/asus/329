@@ -1,0 +1,459 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" itemscope itemtype="http://schema.org/Article" class="no-js">
+ <head id="Head1">
+  <title>
+	How to Find Model Name
+</title> 
+  <link rel="shortcut icon" href="//www.asus.com/images/favicon.ico" type="image/x-icon"> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="description" content=""> 
+  <meta name="author" content=""> 
+  <link rel="canonical" href="https://www.asus.com/support/article/565/"> 
+  <script type="text/javascript" src="/support/js/modernizr-2.5.3.min.js"></script> 
+  <script type="text/javascript" src="/support/js/jquery.js"></script> 
+  <script type="text/javascript" src="/support/js/bootstrap.js"></script> 
+  <script type="text/javascript" src="/support/js/myscript.js"></script> 
+  <script type="text/javascript" src="/support/js/jquery.colorbox.js"></script> 
+  <script type="text/javascript" src="/support/js/jcarousellite_1.0.1.js"></script> 
+  <!--<script type="text/javascript" src="/support/js/gaTrace.js"></script>--> 
+  <script src="/support/js/browser.js"></script> 
+  <script src="/support/js/jquery_phone_nav.js"></script> 
+  <!--[if lt IE 9]>
+      <script src="/support/js/html5.js"></script>
+    <![endif]--> 
+  <link type="text/css" rel="stylesheet" href="/support/stylesheets/reset.css"> 
+  <link type="text/css" rel="stylesheet" href="/support/stylesheets/base.css"> 
+  <link type="text/css" rel="stylesheet" href="/support/stylesheets/colorbox.css"> 
+  <!-- Le fav and touch icons --> 
+ </head>
+ <body>
+  <input name="header1$hd_version" type="hidden" id="hd_version" value="1"> 
+  <script type="text/javascript">
+    $(document).ready(function () {
+        var version = $("#hd_version").val();
+        if(version == "1"){//full_style需在resp前
+            var linkfs = document.createElement('link');
+            linkfs.type = 'text/css';
+            linkfs.rel = "stylesheet";
+            linkfs.href = "/support/stylesheets/full_style.css";
+            document.getElementsByTagName("head")[0].appendChild(linkfs);
+        }
+        var linkresp = document.createElement('link');
+        linkresp.type = 'text/css';
+        linkresp.rel = "stylesheet";
+        linkresp.href = "/support/stylesheets/responsive.css";
+        document.getElementsByTagName("head")[0].appendChild(linkresp);
+    });
+</script> 
+  <script type="text/javascript">
+    //loading local css file
+    $(document).ready(function () {
+        var css_name = "";
+        var lang_prefix = window.location.pathname.split("/");
+        if (lang_prefix.length >= 2)
+            if (lang_prefix[1] == "support")
+                css_name = "en.css";
+            else
+                css_name = lang_prefix[1] + ".css";
+
+        if (window.console)
+            console.log("css name: " + css_name);
+
+        if (window.location.hostname.indexOf("asus.com.cn") >= 0) {
+            css_name = "cn.css";
+        }
+
+        if (window.console)
+            console.log("css name: " + css_name);
+
+        if (css_name != "") {
+            var link = document.createElement('link');
+            link.type = 'text/css';
+            link.rel = "stylesheet";
+            link.href = "/support/stylesheets/local/" + css_name;
+            document.getElementsByTagName("head")[0].appendChild(link);
+        }
+
+        //video play box
+        $(".vEmbedded > a").colorbox({ iframe: true, width: "70%", height: "80%" });
+
+
+
+
+    });
+</script> 
+  <script type="text/javascript">
+    window.ASUSInit = function () {
+        var api_lang = '';
+        var api_key = '0000000004';
+        var lang_prefix = window.location.pathname.split("/");
+        if (window.console) {
+            console.log("pathname: " + window.location.pathname);
+        }
+        if (lang_prefix.length >= 2) {
+            if (lang_prefix[1] == "support")
+                api_lang = "";
+            else
+                api_lang = lang_prefix[1];
+        }
+        if (window.location.hostname.indexOf("asus.com.cn") >= 0) {
+            api_lang = "cn";
+            api_key = '0000000019';
+        }
+        if (window.console)
+            console.log("lang: " + api_lang);
+        asus_api.init({ appkey: api_key, lang: api_lang });
+    };
+    (function (d) {
+        var js, id = 'asus-jsapi', IsDebug='False';
+
+        if (d.getElementById("asus-jsapi")) { return; }
+        js = d.createElement('script');
+        js.id = id;
+        js.async = true;
+
+        if(IsDebug == 'True'){
+//                js.src = "//test.asus.com/API/js/asus_api_v2.js";
+                js.src = "//www.asus.com/API/js/asus_api.js";
+        }else{
+            if (window.location.href.indexOf("asus.com.cn") >= 0 || window.location.hostname.indexOf("asus.com.cn") >= 0)
+                js.src = "//www.asus.com.cn/API/js/asus_api.js";
+            else
+                js.src = "//www.asus.com/API/js/asus_api.js";
+        }
+       
+        d.getElementsByTagName('head')[0].appendChild(js);
+    } (document)); 
+
+</script> 
+  <script src="/support/js/MISTrack.js" type="text/javascript"></script>   
+  <form method="post" action="./?ln=en&amp;no=565&amp;" id="form1"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTczMjI0NjUzOA9kFgICAQ9kFgICAQ9kFgpmD2QWAgIBD2QWCAIBDxYEHgRocmVmBQEvHglpbm5lcmh0bWwFBEhvbWVkAgIPFgIeBXN0eWxlBQ5kaXNwbGF5OmlubGluZWQCAw8WBh8ABQgvc3VwcG9ydB8CBQ5kaXNwbGF5OmlubGluZR8BBQdTdXBwb3J0ZAIEDxYCHwIFDmRpc3BsYXk6aW5saW5lZAIBDxYCHwEFFUltcG9ydGFudCBJbmZvcm1hdGlvbmQCAg8WAh8BBRZIb3cgdG8gRmluZCBNb2RlbCBOYW1lZAIDDxYCHgRUZXh0BdY4PGRpdiBjbGFzcz0icm93LWZsdWlkIiBpZD0iZmluZF9tb2RlbF9udW1iZXIiPg0KPGg0IGNsYXNzPSJ0b3AwIj5BbGwgcHJvZHVjdCB0eXBlIGFzIGZvbGxvdyA6PC9oND4NCjwhLS3liJfooajplovlp4sgTW90aGVyYm9hcmQtLT4NCg0KPGRpdiBjbGFzcz0iZmluZF9tb2RlbF9udW1iZXJfbGlzdCBjbGVhcmZpeCI+DQo8cCBjbGFzcz0ic3BhbjEyIGZyaXN0Ij5Nb3RoZXJib2FyZDwvcD4NCjxpbWcgY2xhc3M9InNwYW41IHByb2R1Y3QiIHNyYz0iL3N1cHBvcnQvaW1hZ2VzL3Byb2R1Y3RzL21vZGVsLWE3bjh4LXZtLmpwZyIgLz4NCjxkaXYgY2xhc3M9InNwYW43Ij4NCjxwPk1ldGhvZCAxIDogPGI+UmVib290aW5nIHlvdXIgc3lzdGVtPC9iPjwvcD4NCg0KPHA+SGl0IHRoZSAmcXVvdDtQYXVzZS9CcmVhayZxdW90OyBrZXkgd2hlbiB5b3Ugc2VlIEFTVVMgPHNwYW4gY2xhc3M9InJlZCI+WFhYWDwvc3Bhbj4gQUNQSSBCSU9TIFJldmlzaW9uPC9wPg0KDQo8cD5Gb3IgZXhhbXBsZe+8mjxiPkE3TjhYLVZNPC9iPiByZXByZXNlbnRzIHRoZSBtb3RoZXJib2FyZCBtb2RlbC48L3A+DQo8L2Rpdj4NCjwvZGl2Pg0KDQo8ZGl2IGNsYXNzPSJmaW5kX21vZGVsX251bWJlcl9saXN0IGNsZWFyZml4Ij48aW1nIGNsYXNzPSJzcGFuNSBwcm9kdWN0IiBzcmM9Ii9zdXBwb3J0L2ltYWdlcy9wcm9kdWN0cy9tb2RlbC1wNGM4MDAtZS5qcGciIC8+DQo8ZGl2IGNsYXNzPSJzcGFuNyI+DQo8cD5NZXRob2QgMiA6PGI+UGxlYXNlIGZpbmQgdGhlIG1vZGVsIG5hbWUgZnJvbSB0aGUgbW90aGVyYm9hcmQgc3VyZmFjZTwvYj48L3A+DQoNCjxwPklmIG5lY2Vzc2FyeSwgcGxlYXNlIG9wZW4gdGhlIHN5c3RlbSBjYXNlIGZvciBiZXR0ZXIgaW5zcGVjdGlvbi48L3A+DQoNCjxwPkZvciBleGFtcGxl77yaPGI+UDRDODAwLUU8L2I+IHJlcHJlc2VudHMgdGhlIG1vdGhlcmJvYXJkIG1vZGVsPC9wPg0KPC9kaXY+DQo8L2Rpdj4NCjwhLS1Ob3RlYm9vay0tPg0KDQo8ZGl2IGNsYXNzPSJmaW5kX21vZGVsX251bWJlcl9saXN0IGNsZWFyZml4Ij4NCjxwIGNsYXNzPSJzcGFuMTIiPk5vdGVib29rPC9wPg0KPGltZyBjbGFzcz0ic3BhbjUgcHJvZHVjdCIgc3JjPSIvc3VwcG9ydC9pbWFnZXMvdXBsb2FkLzMwM2RhNTEzLTdkZTUtNDQzMC04MmE4LTQxNDVjMTYzODQ3OC5wbmciIC8+DQo8ZGl2IGNsYXNzPSJzcGFuNyI+DQo8cD5NZXRob2QgMSA6IFlvdSBjYW4gZmluZCB0aGUgbW9kZWwgbmFtZSBvbiB0aGUgbGFiZWwgd2hpY2ggaXMgcGFzdGVkIG9uIHRoZSBiYWNrIG9mIHRoZSBsYXB0b3AuPC9wPg0KDQo8cD5Gb3IgZXhhbXBsZTogWDMwMkxBPC9wPg0KPC9kaXY+DQo8L2Rpdj4NCjwhLS1QYWRGb25lICYgWmVuRm9uZSAmIEZvbmVQYWQtLT4NCg0KPGRpdiBjbGFzcz0iZmluZF9tb2RlbF9udW1iZXJfbGlzdCBjbGVhcmZpeCI+DQo8cCBjbGFzcz0ic3BhbjEyIGZyaXN0Ij5QYWRGb25lICZhbXA7IFplbkZvbmUgJmFtcDsgRm9uZVBhZDwvcD4NCjxpbWcgY2xhc3M9InNwYW41IHByb2R1Y3QiIHNyYz0iL3N1cHBvcnQvaW1hZ2VzL3VwbG9hZC84MjY5OTk5YS1iMmVkLTRiNzItYmFjNy0xOWE5N2JiNmQ5NDYucG5nIiAvPg0KPGRpdiBjbGFzcz0ic3BhbjciPg0KPHA+JmJ1bGw7IFBsZWFzZSBnbyB0byBTZXR0aW5nLSZndDtBYm91dC0mZ3Q7TW9kZWwgbnVtYmVyIHRvIGNoZWNrIHRoZSBtb2RlbCBuYW1lLiAoRm9yIFplbmZvbmUvUGFkZm9uZS9Gb25lcGFkKTwvcD4NCjwvZGl2Pg0KPC9kaXY+DQoNCjxkaXYgY2xhc3M9ImZpbmRfbW9kZWxfbnVtYmVyX2xpc3QgY2xlYXJmaXgiPjxpbWcgY2xhc3M9InNwYW41IHByb2R1Y3QiIHNyYz0iL3N1cHBvcnQvaW1hZ2VzL3VwbG9hZC9lZWE4OTNiNi02OGE1LTRjZDAtYTZkMy05NTZiYWQxZDgzMWUucG5nIiAvPg0KPGRpdiBjbGFzcz0ic3BhbjciPg0KPHA+JmJ1bGw7IFBsZWFzZSBjaGVjayB0aGUgcGFja2FnZSBib3ggZm9yIHN0aWNrZXIgbGFiZWwuIFRoZSBtb2RlbCBuYW1lIGlzIGxpc3RlZCBvbiBzdGlja2VyIGxhYmVsIEZvciBleCBzYW1wbGUgOiBBU1VTX1QwMEYgKEE1MDBDRykuIChGb3IgWmVuZm9uZS9QYWRmb25lL0ZvbmVwYWQpPC9wPg0KPC9kaXY+DQo8L2Rpdj4NCg0KPGRpdiBjbGFzcz0iZmluZF9tb2RlbF9udW1iZXJfbGlzdCBjbGVhcmZpeCI+PGltZyBjbGFzcz0ic3BhbjUgcHJvZHVjdCIgc3JjPSIvc3VwcG9ydC9pbWFnZXMvdXBsb2FkL2Y5ZTFlYjM3LTM3NWEtNGMyNi1iNjk2LWFlMDBiMmJjYWUwMy5wbmciIC8+DQo8ZGl2IGNsYXNzPSJzcGFuNyI+DQo8cD4mYnVsbDsgUGxlYXNlIGNoZWNrIHRoZSBwYWNrYWdlIGJveCBmb3Igc3RpY2tlciBsYWJlbC4gVGhlIG1vZGVsIG5hbWUgaXMgbGlzdGVkIG9uIHN0aWNrZXIgbGFiZWwgYXMgcmVkIG1hcmsuIChGb3IgWmVuZm9uZS9QYWRmb25lKTwvcD4NCjwvZGl2Pg0KPC9kaXY+DQoNCjxkaXYgY2xhc3M9ImZpbmRfbW9kZWxfbnVtYmVyX2xpc3QgY2xlYXJmaXgiPjxpbWcgY2xhc3M9InNwYW41IHByb2R1Y3QiIHNyYz0iL3N1cHBvcnQvaW1hZ2VzL3VwbG9hZC8wNTJkMTllMS03ZWNhLTQ1MzUtYmJlMy01MTQ5ODhhMmUwNDYucG5nIiAvPg0KPGRpdiBjbGFzcz0ic3BhbjciPg0KPHA+JmJ1bGw7IEEuIFR1cm4gb2ZmIHRoZSBkZXZpY2UgYW5kIHB1bGwgdGhlIHJlYXIgY292ZXIgb2ZmLiBUaGUgbW9kZWwgbmFtZSBpcyBsaXN0ZWQgb24gc3RpY2tlciBsYWJlbC4gKEZvciBaZW5mb25lL1BhZGZvbmUpPC9wPg0KDQo8cD4mYnVsbDsgQi4gQ2hlY2sgdGhlIGJhY2sgb2YgdGhlIHRhYmxldCBhbmQgdGhlIG1vZGVsIG5hbWUgaXMgbGlzdGVkIG9uIHRoZSBjYXNlLiAoRm9yIEZvbmVwYWQpPC9wPg0KPC9kaXY+DQo8L2Rpdj4NCg0KPGRpdiBjbGFzcz0iZmluZF9tb2RlbF9udW1iZXJfbGlzdCBjbGVhcmZpeCI+PGltZyBjbGFzcz0ic3BhbjUgcHJvZHVjdCIgc3JjPSIvc3VwcG9ydC9pbWFnZXMvdXBsb2FkLzY2YmE5ZDAyLWZhYzMtNDU4NC04NzQ2LWI2NmZjMGM3MzgyNy5wbmciIC8+DQo8ZGl2IGNsYXNzPSJzcGFuNyI+DQo8cD4mYnVsbDsgUGxlYXNlIGNoZWNrIHRoZSBjb3ZlciBvZiB1c2VyIG1hbnVhbC4gKEZvciBaZW5mb25lKTwvcD4NCjwvZGl2Pg0KPC9kaXY+DQoNCjxkaXYgY2xhc3M9ImZpbmRfbW9kZWxfbnVtYmVyX2xpc3QgY2xlYXJmaXgiPg0KPHAgY2xhc3M9InNwYW4xMiBmcmlzdCI+WmVud2F0Y2g8L3A+DQo8aW1nIGNsYXNzPSJzcGFuNSBwcm9kdWN0IiBzcmM9Ii9zdXBwb3J0L2ltYWdlcy91cGxvYWQvOTZhZTE1MTktYjAyYy00ZDFkLWEyMjktNjk2YzE4YzllOTMyLnBuZyIgLz4NCjxkaXYgY2xhc3M9InNwYW43Ij4NCjxwPk1ldGhvZCAxIDogPGI+UGxlYXNlIGNoZWNrIHlvdXIgWmVud2F0Y2ggYmFjayBjb3Zlci4gSGVyZSB5b3UgY291bGQgZmluZCB0aGUgbW9kZWwgbmFtZS48L2I+PC9wPg0KPC9kaXY+DQo8L2Rpdj4NCg0KPGRpdiBjbGFzcz0iZmluZF9tb2RlbF9udW1iZXJfbGlzdCBjbGVhcmZpeCI+PGltZyBjbGFzcz0ic3BhbjUgcHJvZHVjdCIgc3JjPSIvc3VwcG9ydC9pbWFnZXMvdXBsb2FkL2VjOGMzNTliLTliYTMtNDAyMC05ZTI2LTcwOGViY2ZjYTMyMS5qcGciIC8+DQo8ZGl2IGNsYXNzPSJzcGFuNyI+DQo8cD5NZXRob2QgMiA6PGI+UGxlYXNlIGNoZWNrIHRoZSBwYWNrYWdlIGJveCBmb3Igc3RpY2tlciBsYWJlbC4gSGVyZSB5b3UgY291bGQgZmluZCB0aGUgbW9kZWwgbmFtZS48L2I+PC9wPg0KPC9kaXY+DQo8L2Rpdj4NCjwhLS1FZWUgUEMtLT4NCg0KPGRpdiBjbGFzcz0iZmluZF9tb2RlbF9udW1iZXJfbGlzdCBjbGVhcmZpeCI+DQo8cCBjbGFzcz0ic3BhbjEyIj5FZWUgUEM8L3A+DQo8aW1nIGNsYXNzPSJzcGFuNSBwcm9kdWN0IiBzcmM9Ii9zdXBwb3J0L2ltYWdlcy9wcm9kdWN0cy9tb2RlbC1FUEM3MDEuZ2lmIiAvPg0KPGRpdiBjbGFzcz0ic3BhbjciPg0KPHA+TWV0aG9kIDEgOiBQbGVhc2UgY2xvc2UgdGhlIG9wZW5pbmcgbGlkIGFuZCBmbGlwIHRoZSBFUEMgd2l0aCBpdHMgYmFjayBmYWNpbmcgdXB3YXJkLiBZb3VyIG1vZGVsIG5hbWUgd2lsbCBiZSBwcmludGVkIG9uIHRoZSByZWQgc2VjdGlvbi48L3A+DQoNCjxwPkZvciBleGFtcGxl77yaPGI+NzAxPC9iPiAobW9kZWwgbmFtZS4pPC9wPg0KPC9kaXY+DQo8L2Rpdj4NCjwhLS1PcHRpY2FsIERyaXZlLS0+DQoNCjxkaXYgY2xhc3M9ImZpbmRfbW9kZWxfbnVtYmVyX2xpc3QgY2xlYXJmaXgiPg0KPHAgY2xhc3M9InNwYW4xMiI+T3B0aWNhbCBEcml2ZTwvcD4NCjxpbWcgY2xhc3M9InNwYW41IHByb2R1Y3QiIHNyYz0iL3N1cHBvcnQvaW1hZ2VzL3Byb2R1Y3RzL21vZGVsLWNydzQwMTIuanBnIiAvPg0KPGRpdiBjbGFzcz0ic3BhbjciPg0KPHA+TWV0aG9kIDEgOiA8Yj5SZWJvb3RpbmcgeW91ciBzeXN0ZW08L2I+PC9wPg0KDQo8cD5IaXQgJnF1b3Q7UGF1c2UvQnJlYWsmcXVvdDsga2V5IHdoZW4geW91IHNlZSAmcXVvdDtEZXRlY3RpbmcgU2Vjb25kYXJ5IE1hc3RlciZxdW90OzwvcD4NCg0KPHA+Rm9yIGV4YW1wbGXvvJo8Yj5DUlctNDAxMkE8L2I+IHJlcHJlc2VudHMgdGhlIG9wdGljYWwgZHJpdmUgbW9kZWw8L3A+DQo8L2Rpdj4NCjwvZGl2Pg0KDQo8ZGl2IGNsYXNzPSJmaW5kX21vZGVsX251bWJlcl9saXN0IGNsZWFyZml4Ij48aW1nIGNsYXNzPSJzcGFuNSBwcm9kdWN0IiBzcmM9Ii9zdXBwb3J0L2ltYWdlcy9wcm9kdWN0cy9tb2RlbC1jcnctNTIyNGEuanBnIiAvPg0KPGRpdiBjbGFzcz0ic3BhbjciPg0KPHA+TWV0aG9kIDIgOjxiPlBsZWFzZSBjaGVjayB0aGUgbW9kZWwgbmFtZSBvbiB0aGUgc3VyZmFjZSBvZiB0aGUgb3B0aWNhbCBkcml2ZTwvYj48L3A+DQoNCjxwPkZvciBleGFtcGxl77yaPGI+Q1JXLTUyMjRBPC9iPiByZXByZXNlbnRzIHRoZSBvcHRpY2FsIGRyaXZlIG1vZGVsPC9wPg0KPC9kaXY+DQo8L2Rpdj4NCjwhLS1WR0EgQ2FyZC0tPg0KDQo8ZGl2IGNsYXNzPSJmaW5kX21vZGVsX251bWJlcl9saXN0IGNsZWFyZml4Ij4NCjxwIGNsYXNzPSJzcGFuMTIiPlZHQSBDYXJkPC9wPg0KPGltZyBjbGFzcz0ic3BhbjUgcHJvZHVjdCIgc3JjPSIvc3VwcG9ydC9pbWFnZXMvcHJvZHVjdHMvbW9kZWwtdjkyNTAtMS5naWYiIC8+DQo8ZGl2IGNsYXNzPSJzcGFuNyI+DQo8cD5NZXRob2QgMSA6IFBsZWFzZSByaWdodC1jbGljayB3aXRoIHRoZSBtb3VzZSBpbiB0aGUgZGVza3RvcCBhcmVhIG9mIFdpbmRvd3MsIHRoZW4gY2xpY2sgb24gJnF1b3Q7PGI+UHJvcGVydGllcyAtIFNldHRpbmdzPC9iPiZxdW90Oy48L3A+DQoNCjxwPkZvciBleGFtcGxl77yaPGI+VjkyODA8L2I+IHJlcHJlc2VudHMgdGhlIFZHQSBjYXJkIG1vZGVsPC9wPg0KPC9kaXY+DQo8L2Rpdj4NCg0KPGRpdiBjbGFzcz0iZmluZF9tb2RlbF9udW1iZXJfbGlzdCBjbGVhcmZpeCI+PGltZyBjbGFzcz0ic3BhbjUgcHJvZHVjdCIgc3JjPSIvc3VwcG9ydC9pbWFnZXMvcHJvZHVjdHMvbW9kZWwtdjkyNTAtMi5naWYiIC8+DQo8ZGl2IGNsYXNzPSJzcGFuNyI+DQo8cD5NZXRob2QgMiA6Q2xpY2sgb24gJnF1b3Q7PGI+U3RhcnQ8L2I+JnF1b3Q7IC0mZ3Q7ICZxdW90OzxiPkNvbnRyb2wgUGFuZWw8L2I+JnF1b3Q7IC0mZ3Q7ICZxdW90OzxiPkRldmljZSBNYW5hZ2VyPC9iPiZxdW90OyAtJmd0OyAmcXVvdDs8Yj5TeXN0ZW08L2I+JnF1b3Q7IC0mZ3Q7ICZxdW90OzxiPkRpc3BsYXkgYWRhcHRlcnM8L2I+JnF1b3Q7IGljb24uPC9wPg0KPC9kaXY+DQo8L2Rpdj4NCg0KPGRpdiBjbGFzcz0iZmluZF9tb2RlbF9udW1iZXJfbGlzdCBjbGVhcmZpeCI+PGltZyBjbGFzcz0ic3BhbjUgcHJvZHVjdCIgc3JjPSIvc3VwcG9ydC9pbWFnZXMvcHJvZHVjdHMvbW9kZWwtOTk4MC5qcGciIC8+DQo8ZGl2IGNsYXNzPSJzcGFuNyI+DQo8cD5NZXRob2QgMyA6IDxiPlBsZWFzZSBmaW5kIHRoZSBtb2RlbCBuYW1lIG9uIHRoZSBzdXJmYWNlIG9mIHlvdSBWR0EgY2FyZDwvYj48L3A+DQoNCjxwPkZvciBleGFtcGxl77yaPGI+Vjk5ODBVPC9iPiByZXByZXNlbnRzIHRoZSBWR0EgY2FyZCBtb2RlbDwvcD4NCjwvZGl2Pg0KPC9kaXY+DQo8IS0tV2lyZWxlc3MtLT4NCg0KPGRpdiBjbGFzcz0iZmluZF9tb2RlbF9udW1iZXJfbGlzdCBjbGVhcmZpeCI+DQo8cCBjbGFzcz0ic3BhbjEyIj5XaXJlbGVzczwvcD4NCjxpbWcgY2xhc3M9InNwYW41IHByb2R1Y3QiIHNyYz0iL3N1cHBvcnQvaW1hZ2VzL3Byb2R1Y3RzL21vZGVsLXdsNTMwZy5qcGciIC8+DQo8ZGl2IGNsYXNzPSJzcGFuNyI+DQo8cD5NZXRob2QgMSA6IDxiPlBsZWFzZSBmaW5kIHRoZSBtb2RlbCBuYW1lIG9uIHRoZSBzdXJmYWNlIG9mIHlvdXIgV2lyZWxlc3MgQVAgPC9iPjwvcD4NCg0KPHA+Rm9yIGV4YW1wbGXvvJo8Yj5XTC01MDBnPC9iPiByZXByZXNlbnRzIHRoZSBXaXJlbGVzcyBBUCBtb2RlbDwvcD4NCjwvZGl2Pg0KPC9kaXY+DQoNCjxkaXYgY2xhc3M9ImZpbmRfbW9kZWxfbnVtYmVyX2xpc3QgY2xlYXJmaXgiPjxpbWcgY2xhc3M9InNwYW41IHByb2R1Y3QiIHNyYz0iL3N1cHBvcnQvaW1hZ2VzL3Byb2R1Y3RzL21vZGVsLXdsMTA3LmpwZyIgLz4NCjxkaXYgY2xhc3M9InNwYW43Ij4NCjxwPk1ldGhvZCAyIDo8Yj5QbGVhc2UgZmluZCB0aGUgbW9kZWwgbmFtZSBvbiB0aGUgc3VyZmFjZSBvZiB0aGUgV2lyZWxlc3MgQ2FyZCA8L2I+PC9wPg0KDQo8cD5Gb3IgZXhhbXBsZe+8mjxiPldMLTEwN2c8L2I+IHJlcHJlc2VudHMgdGhlIFdpcmVsZXNzIENhcmQgbW9kZWw8L3A+DQo8L2Rpdj4NCjwvZGl2Pg0KDQo8ZGl2IGNsYXNzPSJmaW5kX21vZGVsX251bWJlcl9saXN0IGNsZWFyZml4Ij48aW1nIGNsYXNzPSJzcGFuNSBwcm9kdWN0IiBzcmM9Ii9zdXBwb3J0L2ltYWdlcy9wcm9kdWN0cy90NTAwLW1vZGVsbmFtZS5naWYiIC8+DQo8ZGl2IGNsYXNzPSJzcGFuNyI+DQo8cD5NZXRob2QgMyA6IDxiPlBsZWFzZSBmaW5kIHRoZSBtb2RlbCBuYW1lIG9uIHRoZSBzdXJmYWNlIG9mIHRoZSBIU0RQQSBDYXJkIDwvYj48L3A+DQoNCjxwPkZvciBleGFtcGxl77yaPGI+VDUwMDwvYj4gcmVwcmVzZW50cyB0aGUgSFNEUEEgQ2FyZCBtb2RlbDwvcD4NCjwvZGl2Pg0KPC9kaXY+DQo8IS0tT3RoZXItLT48L2Rpdj4NCg0KPGg0PkNvdmVyIG9mIFVzZXIgTWFudWFsPC9oND4NCg0KPHA+PGltZyBzcmM9Ii9zdXBwb3J0L2ltYWdlcy9wcm9kdWN0cy9tb2RlbC1uYW1lLTAxLmpwZyIgLz48L3A+DQoNCjxoND5TdGlja2VyIExhYmVsIG9uIFBhY2thZ2UgQm94PC9oND4NCg0KPHA+PGltZyBzcmM9Ii9zdXBwb3J0L2ltYWdlcy9wcm9kdWN0cy9tb2RlbC1uYW1lLmpwZyIgLz48L3A+ZAIED2QWCmYPFgIfAQUZV2hhdCYjMzk7cyBOZXcgYWJvdXQgQVNVU2QCAQ8WBB8ABRQvc3VwcG9ydC9JbmZvcm1hdGlvbh8BBRdOZXdzICZhbXA7IEFubm91bmNlbWVudGQCAg8WAh8DBQEwZAIDDxYCHwEFDVBvcHVsYXIgVG9waWNkAgQPFgIeC18hSXRlbUNvdW50AgoWFGYPZBYCZg8VAxUvc3VwcG9ydC9BcnRpY2xlLzU2NS8FX3NlbGYWSG93IHRvIGZpbmQgbW9kZWwgbmFtZWQCAQ9kFgJmDxUDFS9zdXBwb3J0L0FydGljbGUvNTY2LwVfc2VsZiFIb3cgdG8gZmluZCBwcm9kdWN0IFNlcmlhbCBOdW1iZXJkAgIPZBYCZg8VAxUvc3VwcG9ydC9BcnRpY2xlLzU4OC8FX3NlbGYgQVNVUyBTZXJ2ZXJDYXJlIFNlcnZpY2UgUHJvZ3JhbSBkAgMPZBYCZg8VAxUvc3VwcG9ydC9BcnRpY2xlLzYwNC8FX3NlbGYfQVNVUyBCYXR0ZXJ5IEluZm9ybWF0aW9uIENlbnRlcmQCBA9kFgJmDxUDFS9zdXBwb3J0L0FydGljbGUvNTk3LwVfc2VsZhRFUEVBVCBQcm9kdWN0IFBvbGljeWQCBQ9kFgJmDxUDFS9zdXBwb3J0L0FydGljbGUvNTkyLwVfc2VsZidDb21tZXJjaWFsIE5vdGVib29rIEhvdGxpbmUgSW5mb3JtYXRpb25kAgYPZBYCZg8VAxUvc3VwcG9ydC9BcnRpY2xlLzU2OC8FX3NlbGYXQ3VzdG9tZXIgSW5kdWNlZCBEYW1hZ2VkAgcPZBYCZg8VAxUvc3VwcG9ydC9BcnRpY2xlLzc1MC8FX3NlbGYRSG93IHRvIEZpbmQgUFBJRD9kAggPZBYCZg8VAxUvc3VwcG9ydC9BcnRpY2xlLzc1MS8FX3NlbGYZSG93IHRvIEZpbmQgQ2hlY2sgTnVtYmVyP2QCCQ9kFgJmDxUDFS9zdXBwb3J0L0FydGljbGUvNTgwLwVfc2VsZjZXYXJyYW50eSBSZXBsYWNlbWVudCBPcHRpb25zICYgSW5zdHJ1Y3Rpb25zKGluIEVVUk9QRSlkZK+zp4IrsuE4mNbP6tfhD4z6utac"> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="68439541"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdABCNibG4Yvheyk/xxyhMgD3ONZB+pap+Eh42iiSS4+k4PiDtOPoS55I9+oKXugLW/gJknmDr+bFUDIsvuku77WNYG5h9XiJ0VVjJz4L6Ox2bFWxjUZuw02eutnZU5r+PY70ozEk9BF7FgIADe9dMv0ODi3gbETdcMkdBFBX+UY75kNghNKcidJD7Ammv+xGzoC84PZgHOjFiGVCGm0Tpd4h3K8ekZEDRGShlpDpPPw1/+MP/qDIYFKA3q5NPkVyw5i7lmYvpc66jZQEsdiIbM1lDjAweZnecDvSui50NuLzBgqDZuUtozpYLLjdKv4pTnAFcAF7+rPzELe7d6WWZiXCVM5R/60AJcLELNZnz1OXk2dEd33k="> 
+   </div> 
+   <!--Support--> 
+   <div class="grayBg"> 
+    <div id="important-information" class="container main-zone"> 
+     <div id="breadcrumbs"> 
+      <div id="product-topinfo"> 
+       <div id="breadcrumbs"> 
+        <a href="/" id="mainzone1_breadcrumb2_a_home" target="_self">Home</a>
+        <span id="mainzone1_breadcrumb2_s1" style="display:inline">&nbsp;&gt;&nbsp;</span>
+        <a href="/support" id="mainzone1_breadcrumb2_a_support" target="_self" style="display:inline">Support</a>
+        <span id="mainzone1_breadcrumb2_s2" style="display:inline">&nbsp;&gt;&nbsp;</span>
+        <a href="../../../uc_3/general/index.aspx" id="mainzone1_breadcrumb2_a_pagename" target="_self" style="display: none">[Page Name]</a> 
+        <span id="mainzone1_breadcrumb2_s_l1" style="display: none">&nbsp;&gt;&nbsp;</span>
+        <a href="../../../uc_3/general/index.aspx" id="mainzone1_breadcrumb2_a_l1" target="_self" style="display: none">[level 1]</a> 
+        <span id="mainzone1_breadcrumb2_s_l2" style="display: none">&nbsp;&gt;&nbsp;</span>
+        <a href="../../../uc_3/general/index.aspx" id="mainzone1_breadcrumb2_a_l2" target="_self" style="display: none">[level 2]</a> 
+        <span id="mainzone1_breadcrumb2_s_m" style="display: none">&nbsp;&gt;&nbsp;</span>
+        <a href="../../../uc_3/general/index.aspx" id="mainzone1_breadcrumb2_a_m" target="_self" style="display: none">[model]</a> 
+       </div> 
+       <div class="pull-right" id="MDA" style="display: none"> 
+        <span class="mdatext">ASUS recommends Windows® 7.</span> 
+       </div> 
+      </div> 
+     </div> 
+     <h1 id="id_top_page_title" class="page-title" langtype="support_main" langtextid="info_title1">Important Information</h1> 
+     <div class="double-border-bottom"> 
+     </div> 
+     <!--Main Content --> 
+     <div class="im-main"> 
+      <!--right--> 
+      <div class="rightC curl-shadow"> 
+       <div id="search-result"> 
+        <!--Product--> 
+        <div class="product_contentZone"> 
+         <div class="mediaZone"> 
+          <!-- AddThis Button BEGIN，Expect CN Site --> 
+          <div class="addthis_toolbox addthis_default_style"> 
+           <a class="addthis_button_compact at300m">Share</a> 
+           <a style="width: 65px;"> 
+            <div class="g-plusone" data-size="medium" style="float: left;"> 
+            </div> </a>
+           <a> 
+            <div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true" data-font="arial"> 
+            </div> </a> 
+          </div> 
+          <!-- AddThis Button END --> 
+          <div class="both"> 
+          </div> 
+          <span class="visible-phone"><a href="#" class="btn-adv">more</a></span> 
+         </div> 
+         <h1 id="mainzone1_article_title" class="page-title">How to Find Model Name</h1> 
+         <div class="row-fluid" id="find_model_number"> 
+          <h4 class="top0">All product type as follow :</h4> 
+          <!--列表開始 Motherboard--> 
+          <div class="find_model_number_list clearfix"> 
+           <p class="span12 frist">Motherboard</p> 
+           <img class="span5 product" src="/support/images/products/model-a7n8x-vm.jpg"> 
+           <div class="span7"> 
+            <p>Method 1 : <b>Rebooting your system</b></p> 
+            <p>Hit the "Pause/Break" key when you see ASUS <span class="red">XXXX</span> ACPI BIOS Revision</p> 
+            <p>For example：<b>A7N8X-VM</b> represents the motherboard model.</p> 
+           </div> 
+          </div> 
+          <div class="find_model_number_list clearfix">
+           <img class="span5 product" src="/support/images/products/model-p4c800-e.jpg"> 
+           <div class="span7"> 
+            <p>Method 2 :<b>Please find the model name from the motherboard surface</b></p> 
+            <p>If necessary, please open the system case for better inspection.</p> 
+            <p>For example：<b>P4C800-E</b> represents the motherboard model</p> 
+           </div> 
+          </div> 
+          <!--Notebook--> 
+          <div class="find_model_number_list clearfix"> 
+           <p class="span12">Notebook</p> 
+           <img class="span5 product" src="/support/images/upload/303da513-7de5-4430-82a8-4145c1638478.png"> 
+           <div class="span7"> 
+            <p>Method 1 : You can find the model name on the label which is pasted on the back of the laptop.</p> 
+            <p>For example: X302LA</p> 
+           </div> 
+          </div> 
+          <!--PadFone & ZenFone & FonePad--> 
+          <div class="find_model_number_list clearfix"> 
+           <p class="span12 frist">PadFone &amp; ZenFone &amp; FonePad</p> 
+           <img class="span5 product" src="/support/images/upload/8269999a-b2ed-4b72-bac7-19a97bb6d946.png"> 
+           <div class="span7"> 
+            <p>• Please go to Setting-&gt;About-&gt;Model number to check the model name. (For Zenfone/Padfone/Fonepad)</p> 
+           </div> 
+          </div> 
+          <div class="find_model_number_list clearfix">
+           <img class="span5 product" src="/support/images/upload/eea893b6-68a5-4cd0-a6d3-956bad1d831e.png"> 
+           <div class="span7"> 
+            <p>• Please check the package box for sticker label. The model name is listed on sticker label For ex sample : ASUS_T00F (A500CG). (For Zenfone/Padfone/Fonepad)</p> 
+           </div> 
+          </div> 
+          <div class="find_model_number_list clearfix">
+           <img class="span5 product" src="/support/images/upload/f9e1eb37-375a-4c26-b696-ae00b2bcae03.png"> 
+           <div class="span7"> 
+            <p>• Please check the package box for sticker label. The model name is listed on sticker label as red mark. (For Zenfone/Padfone)</p> 
+           </div> 
+          </div> 
+          <div class="find_model_number_list clearfix">
+           <img class="span5 product" src="/support/images/upload/052d19e1-7eca-4535-bbe3-514988a2e046.png"> 
+           <div class="span7"> 
+            <p>• A. Turn off the device and pull the rear cover off. The model name is listed on sticker label. (For Zenfone/Padfone)</p> 
+            <p>• B. Check the back of the tablet and the model name is listed on the case. (For Fonepad)</p> 
+           </div> 
+          </div> 
+          <div class="find_model_number_list clearfix">
+           <img class="span5 product" src="/support/images/upload/66ba9d02-fac3-4584-8746-b66fc0c73827.png"> 
+           <div class="span7"> 
+            <p>• Please check the cover of user manual. (For Zenfone)</p> 
+           </div> 
+          </div> 
+          <div class="find_model_number_list clearfix"> 
+           <p class="span12 frist">Zenwatch</p> 
+           <img class="span5 product" src="/support/images/upload/96ae1519-b02c-4d1d-a229-696c18c9e932.png"> 
+           <div class="span7"> 
+            <p>Method 1 : <b>Please check your Zenwatch back cover. Here you could find the model name.</b></p> 
+           </div> 
+          </div> 
+          <div class="find_model_number_list clearfix">
+           <img class="span5 product" src="/support/images/upload/ec8c359b-9ba3-4020-9e26-708ebcfca321.jpg"> 
+           <div class="span7"> 
+            <p>Method 2 :<b>Please check the package box for sticker label. Here you could find the model name.</b></p> 
+           </div> 
+          </div> 
+          <!--Eee PC--> 
+          <div class="find_model_number_list clearfix"> 
+           <p class="span12">Eee PC</p> 
+           <img class="span5 product" src="/support/images/products/model-EPC701.gif"> 
+           <div class="span7"> 
+            <p>Method 1 : Please close the opening lid and flip the EPC with its back facing upward. Your model name will be printed on the red section.</p> 
+            <p>For example：<b>701</b> (model name.)</p> 
+           </div> 
+          </div> 
+          <!--Optical Drive--> 
+          <div class="find_model_number_list clearfix"> 
+           <p class="span12">Optical Drive</p> 
+           <img class="span5 product" src="/support/images/products/model-crw4012.jpg"> 
+           <div class="span7"> 
+            <p>Method 1 : <b>Rebooting your system</b></p> 
+            <p>Hit "Pause/Break" key when you see "Detecting Secondary Master"</p> 
+            <p>For example：<b>CRW-4012A</b> represents the optical drive model</p> 
+           </div> 
+          </div> 
+          <div class="find_model_number_list clearfix">
+           <img class="span5 product" src="/support/images/products/model-crw-5224a.jpg"> 
+           <div class="span7"> 
+            <p>Method 2 :<b>Please check the model name on the surface of the optical drive</b></p> 
+            <p>For example：<b>CRW-5224A</b> represents the optical drive model</p> 
+           </div> 
+          </div> 
+          <!--VGA Card--> 
+          <div class="find_model_number_list clearfix"> 
+           <p class="span12">VGA Card</p> 
+           <img class="span5 product" src="/support/images/products/model-v9250-1.gif"> 
+           <div class="span7"> 
+            <p>Method 1 : Please right-click with the mouse in the desktop area of Windows, then click on "<b>Properties - Settings</b>".</p> 
+            <p>For example：<b>V9280</b> represents the VGA card model</p> 
+           </div> 
+          </div> 
+          <div class="find_model_number_list clearfix">
+           <img class="span5 product" src="/support/images/products/model-v9250-2.gif"> 
+           <div class="span7"> 
+            <p>Method 2 :Click on "<b>Start</b>" -&gt; "<b>Control Panel</b>" -&gt; "<b>Device Manager</b>" -&gt; "<b>System</b>" -&gt; "<b>Display adapters</b>" icon.</p> 
+           </div> 
+          </div> 
+          <div class="find_model_number_list clearfix">
+           <img class="span5 product" src="/support/images/products/model-9980.jpg"> 
+           <div class="span7"> 
+            <p>Method 3 : <b>Please find the model name on the surface of you VGA card</b></p> 
+            <p>For example：<b>V9980U</b> represents the VGA card model</p> 
+           </div> 
+          </div> 
+          <!--Wireless--> 
+          <div class="find_model_number_list clearfix"> 
+           <p class="span12">Wireless</p> 
+           <img class="span5 product" src="/support/images/products/model-wl530g.jpg"> 
+           <div class="span7"> 
+            <p>Method 1 : <b>Please find the model name on the surface of your Wireless AP </b></p> 
+            <p>For example：<b>WL-500g</b> represents the Wireless AP model</p> 
+           </div> 
+          </div> 
+          <div class="find_model_number_list clearfix">
+           <img class="span5 product" src="/support/images/products/model-wl107.jpg"> 
+           <div class="span7"> 
+            <p>Method 2 :<b>Please find the model name on the surface of the Wireless Card </b></p> 
+            <p>For example：<b>WL-107g</b> represents the Wireless Card model</p> 
+           </div> 
+          </div> 
+          <div class="find_model_number_list clearfix">
+           <img class="span5 product" src="/support/images/products/t500-modelname.gif"> 
+           <div class="span7"> 
+            <p>Method 3 : <b>Please find the model name on the surface of the HSDPA Card </b></p> 
+            <p>For example：<b>T500</b> represents the HSDPA Card model</p> 
+           </div> 
+          </div> 
+          <!--Other-->
+         </div> 
+         <h4>Cover of User Manual</h4> 
+         <p><img src="/support/images/products/model-name-01.jpg"></p> 
+         <h4>Sticker Label on Package Box</h4> 
+         <p><img src="/support/images/products/model-name.jpg"></p> 
+        </div> 
+       </div> 
+      </div> 
+      <!--Left--> 
+      <div id="fast-link" class="leftC left-menu-zone"> 
+       <!--only phone--> 
+       <a href="#" class="btn-adv hide visible-phone">Go Back</a> 
+       <!--only phone--> 
+       <span id="mainzone1_links_news_popular1_Span1" class="item-title" langtype="support_main" langtextid="info_title3">What's New about ASUS</span> 
+       <ul id="left-nav" class="search-nav"> 
+        <li class="nav-item-sub"><a href="/support/Information" id="mainzone1_links_news_popular1_news_link" langtype="support_main" langtextid="info_title2">News &amp; Announcement</a><a href="/support/Information" id="A1"><span class="badge badge-asus">0</span></a></li> 
+        <li class="divider"></li> 
+        <li class="active"> <h3 id="mainzone1_links_news_popular1_h3_title" class="nav-item-title">Popular Topic</h3> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/565/" target="_self"> How to find model name</a> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/566/" target="_self"> How to find product Serial Number</a> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/588/" target="_self"> ASUS ServerCare Service Program </a> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/604/" target="_self"> ASUS Battery Information Center</a> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/597/" target="_self"> EPEAT Product Policy</a> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/592/" target="_self"> Commercial Notebook Hotline Information</a> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/568/" target="_self"> Customer Induced Damage</a> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/750/" target="_self"> How to Find PPID?</a> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/751/" target="_self"> How to Find Check Number?</a> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/580/" target="_self"> Warranty Replacement Options &amp; Instructions(in EUROPE)</a> </li> 
+       </ul> 
+      </div> 
+      <div class="both"> 
+      </div> 
+      <input type="hidden" name="mainzone1$links_news_popular1$hd_CurrURL" id="hd_CurrURL" value="/support/Article/565/"> 
+      <script type="text/javascript">
+    $("a[href$='" + $("#hd_CurrURL").val() + "']").css("color", "#0164a2");
+</script> 
+     </div> 
+     <!--Main Content end--> 
+    </div> 
+   </div> 
+   <!--support end--> 
+   <!--Cn 站不載入任何google & facebook 的套件--> 
+   <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=undefined"></script> 
+   <script type="text/javascript" src="/support/js/plusone.js"></script> 
+   <script type="text/javascript">
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+    } (document, 'script', 'facebook-jssdk'));</script> 
+   <!-- H-A-6 --> 
+   <input name="page_info1$langNormal" type="hidden" id="langNormal" value="en"> 
+   <input name="page_info1$hd_lang_prefix" type="hidden" id="hd_lang_prefix" value="/support"> 
+   <input name="page_info1$hd_product" type="hidden" id="hd_product"> 
+   <input name="page_info1$hd_product_name" type="hidden" id="hd_product_name"> 
+   <input name="page_info1$hd_product_name_ml" type="hidden" id="hd_product_name_ml"> 
+   <input name="page_info1$hd_series" type="hidden" id="hd_series"> 
+   <input name="page_info1$hd_series_name" type="hidden" id="hd_series_name"> 
+   <input name="page_info1$hd_series_name_ml" type="hidden" id="hd_series_name_ml"> 
+   <input name="page_info1$hd_model" type="hidden" id="hd_model"> 
+   <input name="page_info1$hd_model_ml" type="hidden" id="hd_model_ml"> 
+   <input name="page_info1$hd_os" type="hidden" id="hd_os"> 
+   <input name="page_info1$hd_hid" type="hidden" id="hd_hid"> 
+   <input name="page_info1$hd_offical_url" type="hidden" id="hd_offical_url"> 
+   <!-- Google Tag Manager with Origin gaTrace --> 
+   <noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+   </noscript> 
+   <script src="/support/js/gaTrace.js" type="text/javascript"></script> 
+   <!-- End Google Tag Manager --> 
+   <!--Online Chat--> 
+   <link href="/support/stylesheets/online-chat-btn.css" rel="stylesheet" type="text/css"> 
+   <script>
+    function inIframe() {
+        try {
+            return window.self !== window.top; //window.self means the current application , window.top means the top ahead application
+        } catch (e) {
+            return true;
+        }
+    }
+</script> 
+   <script type="text/javascript">
+    $(document).ready(function () {
+        var IsInIframe = inIframe();
+
+        if (IsInIframe) {
+            return false;
+        }
+
+        var _Local = $("#langNormal").val();
+
+        var onlineService = initOnlineService(_Local);
+        onlineService.init();
+    });
+
+    function initOnlineService(Local) {
+        var ApiUrl = window.location.protocol + "//demeter.asus.com/WSC/Support_API_New/SupportNewAPI/GetOnlineChatUrl/",
+            ApiOption;
+
+        ApiUrl += Local;
+
+        return {
+            init: function () {
+                if ($("#online-service").length > 0) return;
+
+                $.getJSON(ApiUrl + "?callback=?", ApiOption).done(function (result) {
+                    if (result && result.StatusCode == 0) {
+                        var onlineServiceString = result.Link_Name ? result.Link_Name : "Online Chat",
+                            serviceUrl = result.URL;
+
+                        onlineChatBtn = '<div id="online-service"><a class="btn" onclick="javascript:window.open(\'' + serviceUrl + '\', \'\',  \'width=520, height=700, scrollbars=yes\'); ga(\'send\', \'event\', \'button\', \'clicked\', \'onlinechat\');">' + onlineServiceString + '</a></div>';
+                        $(onlineChatBtn).appendTo("body");
+                    }
+                });
+            }
+        }
+    };
+</script> 
+   <!--Redirect en--> 
+  </form>   
+ </body>
+</html>

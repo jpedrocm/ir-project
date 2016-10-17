@@ -1,0 +1,498 @@
+<!doctype html>
+<!-- BEGIN - PlainTextRecommendationView.jsp -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+ <!-- InstanceBegin template="/Templates/Header - Footer.dwt" codeOutsideHTMLIsLocked="false" -->
+ <!--[endif]---->
+ <head> 
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="keyword" content="About Us HP-us-hho"> 
+  <link rel="shortcut icon" href="/wcsstore/HPStorefrontAssetStore/images/favicon.ico" mce_href="/wcsstore/HPStorefrontAssetStore/images/favicon.ico" type="image/x-icon"> 
+  <meta name="allow-search" content="yes"> 
+  <meta name="hp_design_version" content="hpweb.1.4"> 
+  <meta name="target_country" content="US"> 
+  <meta name="page_content" content="Products"> 
+  <meta name="segment" content="consumer.home"> 
+  <meta name="lifecycle" content="presales.consideration"> 
+  <meta name="business_unit" content="shared"> 
+  <meta name="web_section_id" content="R329"> 
+  <meta name="language" content="en-us"> 
+  <meta name="CommerceSearch" content="storeId_10151"> 
+  <link rel="canonical" href="http://store.hp.com/PlainContentView?eSpotName=CTOShipping&amp;storeId=10151&amp;langId=-1&amp;catalogId=10051"> 
+  <!-- Omniture - START --> 
+  <script type="text/javascript">
+            var hpmmd=window.hpmmd||{type: 'Unity eCommerce', page:{events:[]}, product:{list:[]},user:{},legacy:{},promo:{},search:{},browser:{}};
+        </script> 
+  <script type="text/javascript">
+            hpmmd.page.platform="wcs web";
+            hpmmd.page.site="hhos";
+            hpmmd.page.store_type="hhos";
+            hpmmd.product.currency="USD";
+            hpmmd.page.section="static";
+            hpmmd.page.subsection="static";
+            hpmmd.page.page_function="landing";
+            hpmmd.page.discount_tier="gen";
+            
+        </script> 
+  <script type="text/javascript" src="//nexus.ensighten.com/hp/etr_std_prod/Bootstrap.js"></script> 
+  <!-- Omniture - End-->
+  <!-- BEGIN CommonCSSToInclude.jspf -->
+  <!-- InstanceEndEditable -->
+  <!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<style type="text/css">
+		.gradient{ filter: none; }
+	</style>
+<![endif]--> 
+  <script>
+	// Picture element HTML5 shiv
+	document.createElement( "picture" );
+</script> 
+  <!-- InstanceBeginEditable name="Style sheets" --> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/foundation.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/custom.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/common.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/common-os.css" type="text/css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/custom-mobile.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/hps-euro-w01-fontface-core.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/jquery.bxslider.css"> 
+  <!-- Handlebars Templating CSS --> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/hpsf/hpsf.css"> 
+  <!-- InstanceEndEditable --> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/component.css"> 
+  <!-- For IE 8 and earlier -->
+  <!--[if lt IE 9]>
+	<link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/iesupport.css">
+    <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/IE8.css">
+  <![endif]--> 
+  <!-- For IE 9 and greater-->
+  <!--[if gte IE 9]>
+    <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/IE9.css">
+  <![endif]--> 
+  <link href="/wcsstore/HPStorefrontAssetStore/pattern-library/system/styles/patterns/icons.css" media="screen" rel="stylesheet" type="text/css"> 
+  <link href="/wcsstore/HPStorefrontAssetStore/pattern-library/system/styles/patterns/tooltip.css" media="screen" rel="stylesheet" type="text/css"> 
+  <link href="/wcsstore/HPStorefrontAssetStore/pattern-library/system/styles/patterns/lightbox.css" media="screen" rel="stylesheet" type="text/css"> 
+  <script type="text/javascript">var runResponsive = true;</script> 
+  <!--[if lt IE 9]>
+	<script type="text/javascript">runResponsive = false;</script>
+<![endif]--> 
+  <!-- END CommonCSSToInclude.jspf --> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/home.css?v=54853"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/sitemap.css?v=48617"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/component.css?v=54579"> 
+ </head> 
+ <body> 
+  <!-- BEGIN Header.jsp --> 
+  <script type="text/javascript">
+	function getAbsoluteURL(){
+	    return '/webapp/wcs/stores/servlet/';               
+	}           
+</script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/js/combineheader.js"></script> 
+  <script type="text/javascript" src="http://www8.hp.com/ie/en/scripts/framework/jquery/v-1-8/can.jquery.js"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/js/hputils.js"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/js/callCenterUtils.js"></script> 
+  <input type="hidden" id="ccFlag" value="false"> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/js/omniture/omniture-tag.js?v=62248"></script> 
+  <!-- http://www8.hp.com/caas/header-footer/us/en/default/4.0.r/head-styles?contentType=html -->
+  <!-- http://www8.hp.com/caas/header-footer/us/en/default/4.0.r/head-scripts?contentType=html -->
+  <!-- http://www8.hp.com/caas/header-footer/us/en/default/4.0.r/header?contentType=html&show_shopping_cart=true -->
+  <input type="hidden" name="APPC" value="01"> 
+  <input type="hidden" name="APPN" value="g1t4189"> 
+  <input type="hidden" name="APPJ" value="2"> 
+  <input type="hidden" name="WEBSN" value="store"> 
+  <!-- END Header.jsp -->
+  <!-- BEGIN ContentRecommendation/ContentRecommendation.jsp -->
+  <!-- BEGIN ESpotTitle_Data.jspf -->
+  <!-- END ESpotTitle_Data.jspf -->
+  <!-- BEGIN ESpotTitle_UI.jspf -->
+  <!-- END ESpotTitle_UI.jspf --> 
+  <style type="text/css">
+div.row#content a { color: #007DBA; text-decoration: none; }
+div.row#content a:hover { text-decoration: underline; }
+div.row#content ul, div.row#content ol { display: list-item; padding-left: 40px; }
+div.row#content ul li { display: list-item; list-style-type: disc; }
+div.row#content ol li { display: list-item; list-style-type: decimal; }
+</style> 
+  <div class="row" id="content" data-role="popup"> 
+   <h1>Shipping times for custom-built PCs</h1> 
+   <p>Shipping time frames for customized PCs are determined by the components you choose. To find out when your system will be shipped, look for the "Estimated build date" as you customize the PC. </p> 
+   <p>Our estimated build dates factor in the number of business days (Monday through Friday, excluding New Year's Day, Memorial Day, Independence Day, Labor Day, Thanksgiving Day, and Christmas Day) it will take to build your system. Your delivery date will also vary with the shipping method you select during checkout. In addition, for customized notebook PCs, please factor in a minimum of one shipping day for customs clearance. </p> 
+   <p>For more information on shipping options and our policies, visit our <a href="/webapp/wcs/stores/servlet/ContentView?eSpotName=ShippingPolicy&amp;storeId=10151&amp;langId=-1&amp;catalogId=10051">shipping policy page</a>.</p> 
+  </div> 
+  <!-- END ContentRecommendation/ContentRecommendation.jsp -->
+  <!-- BEGIN Footer/Footer.jsp --> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/vendor/jquery.validate.min.js"></script> 
+  <!-- http://www8.hp.com/caas/header-footer/us/en/default/4.0.r/footer?contentType=html --> 
+  <script type="text/javascript">
+	
+	var chatUrl = 'https://h30665.www3.hp.com/netagent/cimlogin.aspx?questid=246C34C5-5B3F-42D0-9EEC-D51634B0EE3F&portid=942E5E82-25F9-4DFD-9A71-537876996383';
+	var callUrl = 'https://h30665.www3.hp.com/netagent/cimlogin.aspx?questid=A54BA411-122B-4D0B-8B15-26E72DE88844&portid=21844431-8DFC-4978-B17E-AA1D3636C748';
+		
+
+	$('#lp_link').click(function(event) {
+    	openHelpWindow(chatUrl);
+    });
+    
+    $('#lh_call').click(function(event) {
+    	openHelpWindow(callUrl);
+    });
+	
+	var talCustProp = '';
+	$(document).ready(function() {
+		talCustProp = getHelpParams('#:Prop!');
+	});
+	
+	function openHelpWindow(helpUrl) {
+		helpUrl += getHelpParams('&') + '&nareferer=' + escape(document.location);
+		window.open(helpUrl, "popupWindow", "width=625,height=750,scrollbars=yes");
+	}
+
+	function getHelpParams(delimiter) {
+		var params = '';
+		var cartOrderId = $.cookie('WC_CartOrderId_10151');
+		if ($.trim(cartOrderId)){
+			var cartCookie = $.cookie('WC_CartTotal_' + cartOrderId);
+			var content = cartCookie  ? cartCookie.split(/;/) : new Array();
+			if(content.length > 1) {
+				params += delimiter + 'CartTotal=' + content[1];
+			}
+		}
+		return params;
+	}
+
+	function setCookieviewTopSellers(pLabel, pVal, pMinutes) {
+		var tExpDate = new Date();
+		tExpDate.setTime(tExpDate.getTime() + (pMinutes*60*1000));
+		document.cookie = pLabel + "=" + pVal + ((pMinutes == null) ? "" : ";expires=" + tExpDate.toGMTString()) + ";domain=.hp.com; path=/";
+	}
+	
+	function getParameterByName(name) {
+	    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+	    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+	        results = regex.exec(location.search);
+	    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+	}
+
+	window.SCREENREADING_LABELS = {
+        'open_menu_prefix': "Open ",
+        'open_menu_suffix': " Menu",
+        'close_menu_prefix': "Close ",
+        'close_menu_suffix': " Menu",
+
+        'opened_state_menu_prefix': "Menu ",
+        'opened_state_menu_suffix': " is opened",
+        'closed_state_menu_prefix': "Menu ",
+        'closed_state_menu_suffix': " is closed",
+
+        'opened_state_submenu_suffix': "Press Right Arrow or Space to open",
+        'selected_country_state': "Selected",
+
+        'open_popup_prefix': "Open ",
+        'open_popup_suffix': " Dialog",
+        'close_popup_prefix': "Close ",
+        'close_popup_suffix': " Dialog",
+
+        "expand_prefix": "Expand ",
+        "expand_suffix": "list",
+        "collapse_prefix": "Collapse",
+        "collapse_suffix": "list",
+        "search_box_suggestion_title": "Use arrow keys to select a search suggestion"
+    };
+    
+	
+
+	//start reactive chat
+	var chatFlag = '';
+	var phoneFlag = '';
+	var emailFlag = '';
+	var livehelpFlag = '';
+	var contactusFlag = '';
+	
+	function removeChatLinks() {
+		//first check for livehelp & contactus
+		//if contactus is there then check for  li links
+		if (typeof MoxieCategoryContent !== 'undefined') {
+			var moxieChat = MoxieCategoryContent.substring((MoxieCategoryContent.indexOf(':') + 1), MoxieCategoryContent.length);
+			var  chatValues = moxieChat.split(',');
+			for (x in chatValues) {
+				var kv = chatValues[x].split('=');
+				if (kv[0].trim() === 'chat'.trim()) {
+					chatFlag = kv[1].trim();
+				} else if (kv[0].trim() === 'email'.trim()) {
+					emailFlag = kv[1].trim();
+				} else if (kv[0].trim() === 'phone'.trim()) {
+					phoneFlag = kv[1].trim();
+				} else if (kv[0].trim() === 'livehelp'.trim()) {
+					livehelpFlag = kv[1].trim();
+				} else if (kv[0].trim() === 'contactus'.trim()) {
+					contactusFlag = kv[1].trim();
+				}
+			}
+			// if chat, call & email are 0 remove livehelp & contact us
+			if ((chatFlag !== 'undefined' && chatFlag === '0') && (phoneFlag !== 'undefined' && phoneFlag === '0') && (emailFlag !== 'undefined' && emailFlag === '0')) {
+				contactusFlag = '0';
+				livehelpFlag = '0';
+			}
+		}
+	}
+
+	function moxieChatLinks() {
+		try {
+			if (livehelpFlag !== 'undefined' && livehelpFlag === '0') {
+				if ($('nav .topmenu ul.right li a.js_overlay_trigger').parent().length > 0) {
+					$('nav .topmenu ul.right li a.js_overlay_trigger').parent()[0].remove();
+				}
+			}
+			if (contactusFlag !== 'undefined' && contactusFlag === '0') {
+				if ($('#lp_chat').length > 0) {
+					$('#lp_chat').remove();
+				}
+			} else if (contactusFlag !== 'undefined' && contactusFlag === '1') {
+				if (phoneFlag !== 'undefined' && phoneFlag === '0') {
+					$('ul.live_help_list li a#lh_call').parent().remove();
+				}
+				if (chatFlag !== 'undefined' && chatFlag === '0') {
+					$('ul.live_help_list li a#lp_link').parent().remove();
+				}
+				if (emailFlag !== 'undefined' && emailFlag === '0') {
+					$('ul.live_help_list li:last').remove();
+				}
+			}
+		} catch (e) {}
+	}
+
+	var liveHelpURL = '/us/en/LiveHelpView?storeId=10151&langId=-1&catalogId10051';
+	var searchDisplayUrl = '/us/en/SearchDisplay';
+	
+	$(document).ready( function() {
+		liveHelpURL = liveHelpURL + '&pagelevel=' + pagelevel;
+		if (typeof picturefill == 'function') {
+			picturefill();
+		}
+		var initData = {
+			urls: {
+				jsPath  : '/wcsstore/HPStorefrontAssetStore/js/',
+				cssPath : '/wcsstore/HPStorefrontAssetStore/css/',
+				svcUrl  : getAbsoluteURL() + 'HPServices',
+				pdpUrl  : getAbsoluteURL() + 'PDPStdView',
+				viewCartUrl	: getAbsoluteURL() + 'OrderCalculate?storeId=10151&catalogId=10051&langId=-1&calculationUsageId=-1&URL=AjaxOrderItemDisplayView'
+			},
+			params: {
+				langId	: '-1',
+				storeId	: '10151',
+				userType  : 'G',
+				catalogId : '10051',
+				categoryId : $('#headerCategoryId').val(),
+				currencySymbol : '$',
+				dealsRedirect : getParameterByName('dl')
+			}
+		};
+						
+		$('form#searchHP').attr('action',searchDisplayUrl);
+		$('form#searchHP input#searchBox').attr('name','searchTerm');
+		$('form#searchHP').append('<input type="hidden" name="storeId" value="10151" />');
+		$('form#searchHP').append('<input type="hidden" name="catalogId" value="10051" />');
+		$('form#searchHP').append('<input type="hidden" name="langId" value="-1" />');
+		$('form#searchHP').append('<input type="hidden" name="beginIndex" value="0" />');
+		$('form#searchHP').append('<input type="hidden" name="pageSize" value="50" />');
+
+		$('ul#nav_buttons li.js_shopping_widget.nav_button').attr('data-uitype','minicart-icon');
+		$('ul#nav_buttons li.js_shopping_widget.nav_button a#shop_widget').attr('data-uitype','minicart-activator');
+		$('ul#nav_buttons li.js_shopping_widget.nav_button span.item_count').attr('id','minicart-itemcount');
+		$('ul#nav_buttons li.js_shopping_widget.nav_button div.shop_widget').attr('id','minicart-container').removeClass('shop_widget').addClass('minicart-container');		
+		$('ul#nav_buttons li.js_shopping_widget.nav_button div.shopping_container div.widget_content').attr('id','minicart-contents');
+		$.hpsfData.init(initData);
+		$.hpsfUI.init(initData);
+		
+		removeChatLinks();
+	});
+	function removeStoreCallCenterCookie()
+	{
+		document.cookie = "storeCallCenterCheck=false; expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=.hp.com;path=/";
+	}
+</script> 
+  <!-- END Footer/Footer.jsp -->
+  <!-- BEGIN CommonJSToInclude.jspf -->
+  <!--  script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/js/omniture/hpUtil.min.js"></script --> 
+  <!-- Foundation 3 for IE 8 and earlier -->
+  <!--[if lt IE 9]>
+			<script src="/wcsstore/HPStorefrontAssetStore/js/foundation3/foundation.min.js"></script>
+			<script src="/wcsstore/HPStorefrontAssetStore/js/foundation3/app.js"></script>
+		<![endif]--> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/commonjspartone.js"></script> 
+  <!--[if lt IE 9]>
+			<script src="/wcsstore/HPStorefrontAssetStore/js/vendor/jquery.corner.js"></script>
+			<script src="/wcsstore/HPStorefrontAssetStore/js/foundation3/jquery.foundation.forms.js"></script>
+			<script src="/wcsstore/HPStorefrontAssetStore/js/IE8.js"></script>
+		<![endif]--> 
+  <!-- @Note: use this version for production deployment  
+<script src="/wcsstore/HPStorefrontAssetStore/js/vendor/hammer.min.js"></script>
+--> 
+  <script>
+	$(document).foundation();
+</script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/commonjsparttwo.js"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/hpsf/lib/jquery.jsonp-2.1.4.js"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/hpsf/lib/jquery.timers-1.2.js"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/hpsf/hpsf-all.min.js"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/jquery.dotdotdot.min.js?v=11590"></script> 
+  <script type="text/javascript" charset="UTF-8" src="/wcsstore/dojo18/dojo/dojo.js" djconfig="parseOnLoad: true, isDebug: false,  modulePaths: {storetext: '/wcsstore/HPStorefrontAssetStore/'}, useCommentedJson: true,locale: 'en-us' "></script> 
+  <script type="text/javascript" charset="UTF-8" src="/wcsstore/dojo18/dojo/dojodesktop.js" djconfig="parseOnLoad: true, isDebug: false,  modulePaths: {storetext: '/wcsstore/HPStorefrontAssetStore/'}, useCommentedJson: true,locale: 'en-us' "></script> 
+  <script>
+	dojo.require("wc.service.common");
+	dojo.require("dojo.number");
+	dojo.require("dijit.Dialog");
+</script> 
+  <script type="text/javascript">
+	// Convert the WCParam object which contains request properties into javascript object
+	var WCParamJS = {
+		'storeId': '10151',
+		'catalogId': '10051',
+		'langId': '-1',
+		'pageView': '',
+		'orderBy': '',
+		'orderByContent': '',
+		'CurrencySymbolToFormat': '$',
+		'searchTerm': ''
+	};
+	var absoluteURL = '/webapp/wcs/stores/servlet/';
+	var ctoURL = '/us/en/ConfigureView?catalogId=10051&urlLangId=&langId=-1&storeId=10151';	
+	var imageDirectoryPath = '/wcsstore/HPStorefrontAssetStore/';
+	var styleDirectoryPath = 'images/colors/color1/';
+	var supportPaymentTypePromotions = false;
+	var subsFulfillmentFrequencyAttrName = 'fulfillmentFrequency';
+	var subsPaymentFrequencyAttrName = 'paymentFrequency';
+	var subsTimePeriodAttrName = 'timePeriod';
+	
+	var storeNLS = null;
+	var storeUserType = 'G';
+	var ios = false;
+	var android = false;
+	
+	// Store the amount of time of inactivity before a re-login is required, this value is retrieved from wc-server.xml, default is 30 mins
+	var inactivityTimeout = 0;
+	
+	// Store the amount of time the inactivity warning dialog will be displayed before it closes itself, default is 20 seconds
+	var inactivityWarningDialogDisplayTimer = 20000;
+	
+	// Store the amount of time to display a inactivity warning dialog before a re-login is required, default is 30 seconds
+	var inactivityWarningDialogBuffer = 30000;
+	
+	// Store the timing event to display the inactivity dialog
+	var inactivityTimeoutTracker = null;
+
+	// Store the timing event to close the inactivity dialog
+	var dialogTimeoutTracker = null;
+	
+	//Summary: Returns the absolute URL to use for prefixing any Ajax URL call.
+	//Description: Dojo does not handle the case where the parameters in the URL are delimeted by the "/" forward slash. Therefore, in order to
+	//             workaround the issue, all AJAX requests must be done using absolute URLs rather than relative.
+	//Returns: The absolute URL to use for prefixing any Ajax URL call.
+	function getAbsoluteURL() {
+		return absoluteURL;
+	}
+	//Summary: Returns the path pointing to the shared image directory.
+	//Description: In order to get the image directory path in any javascript file, this function can be used.
+	//Returns: The path to reference images.
+	function getImageDirectoryPath() {
+		return imageDirectoryPath;
+	}
+	//Summary: Returns the path pointing to the directory containing color-dependant image files.
+	//Description: In order to get the directory containing color-dependant image files in any javascript file, this function can be used.
+	//Returns: The path to reference color-dependant image files.
+	function getStyleDirectoryPath() {
+		return styleDirectoryPath;
+	}
+</script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/javascript/StoreCommonUtilities_ShoppingActions.js?v=60973"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/javascript/Common/ShoppingActionsServicesDeclaration.js?v=54579"></script> 
+  <script type="text/javascript">
+	//Set the default NLS to use in the store.
+	if(storeNLS == null) {
+		dojo.requireLocalization("storetext", "StoreText");
+		storeNLS = dojo.i18n.getLocalization("storetext","StoreText");
+	}
+	initializeInactivityWarning();
+	var ie6 = false;
+	if (navigator != null && navigator.userAgent != null) {
+		ie6 = (navigator.userAgent.toLowerCase().indexOf("msie 6.0") > -1); 
+	}
+	if (location.href.indexOf('UnsupportedBrowserErrorView') == -1 && ie6) {
+		document.write('<meta http-equiv="Refresh" content="0;URL=/us/en/UnsupportedBrowserErrorView?catalogId=10001&amp;langId=-1&amp;storeId=10151"/>');
+	}
+	
+	// Variables required for image rotation. Used in js/script.min.js file.
+	var imgPath = '/wcsstore/HPStorefrontAssetStore/img/rotation/';
+	var imgExtn = '.jpg';
+	
+	dojo.addOnLoad(function() {
+		shoppingActionsJS.setCommonParameters('-1', '10151', '10051', 'G', '$');
+	});
+</script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/CallCenter/js/CallcenterCommon.js?v=54579"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/CallCenter/js/CallcenterCommonServicesDeclarations.js?v=54579"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/javascript/Analytics.js?v=43"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/javascript/servicesdeclaration_checkouthelper_shipmodeselectionext_tealeaWCf_query_dlmenu.js?v=60973"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/javascript/MessageHelper.js?v=52540"></script> 
+  <!-- END CommonJSToInclude.jspf --> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/sitemap.js?v=18197"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/modelflow.js?v=54579"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/vendor/behaviors/manual-trigger.js?v="></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/check_input_function.js?v=5447"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/vendor/jquery.autocomplete.js?v=6549"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/vendor/onmediaquery.min.js?v=6549"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/search-autocomplete.js?v="></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/vendor/jquery.dlmenu.js?v=6549"></script> 
+  <!-- reactive chat control start --> 
+  <div id="MoxieChatLinks" class="hide" style="color:blue;"> 
+   <!-- BEGIN ChatContentRecommendation.jsp -->
+   <!-- END ChatContentRecommendation.jsp --> 
+  </div> 
+  <!-- reactive chat control end -->
+  <!--Webanalytics -- START --> 
+  <script language="JavaScript">
+            hpmmd.page.name='CTOShipping';
+            var userId='-1002';
+            var userType='';
+            var hp_profileId='';
+            var language='en_US';
+            var CID='';
+            var aoid='';
+            hpmmd.browser.hpshopping2 = aoid;
+            var moxievalues = '';
+            var MoxieCategoryContent = '';
+
+            function omniture_Tag(Analyitc_userType) {
+                userType = Analyitc_userType;
+                setCommonUserParams(userId, userType, hp_profileId);
+            }
+
+            $(document).ready(function() {
+                var nonCategoryContent =  $('div#MoxieChatLinks').text().trim();
+                if (nonCategoryContent !== 'undefined' && nonCategoryContent.length > 0) {
+                    var nonCategoryArray = nonCategoryContent.split(';');
+                    for (x in nonCategoryArray) {
+                        var kv = nonCategoryArray[x].split(':');
+                        if (kv[0].trim() === 'PlainContent') {
+                            moxievalues = kv[1].trim();
+                            break;
+                        }
+                    }
+                }
+                MoxieCategoryContent = moxievalues;
+                if (MoxieCategoryContent !== 'undefined') {
+                    liveHelpURL = liveHelpURL + '&moxiecontent=' + MoxieCategoryContent;
+                }
+            });
+        </script> 
+  <!--Webanalytics -- END --> 
+  <div id="hpmmdframework_complete"></div>   
+ </body>
+</html>

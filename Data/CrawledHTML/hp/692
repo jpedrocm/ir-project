@@ -1,0 +1,390 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"> 
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="allow-search" content="yes"> 
+  <meta name="hp_design_version" content="hpweb.1.4"> 
+  <meta name="target_country" content="us"> 
+  <meta name="page_content" content="Solutions"> 
+  <meta name="segment" content="consumer.home"> 
+  <meta name="lifecycle" content="presales.selection"> 
+  <meta name="business_unit" content="shared"> 
+  <meta name="web_section_id" content="R329"> 
+  <meta name="language" content="en-US"> 
+  <meta name="CommerceSearch" content="storeId_10151">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="http://www.www8-hp.com/us/en/system/styles/hpi/hpi-fontface-core.css" media="screen, print">
+  <link rel="stylesheet" type="text/css" href="http://www.www8-hp.com/us/en/system/styles/hpi/caas-hf-v3.2/hpi-hf-r.css" media="screen, print">
+  <link href="http://www.www8-hp.com/us/en/system/styles/rdt/rdt.css" media="screen" type="text/css" rel="stylesheet">
+  <link href="http://www.www8-hp.com/us/en/system/styles/rdt/rdt-1.css" media="screen" type="text/css" rel="stylesheet">
+  <script src="http://www8.hp.com/us/en/scripts/framework/jquery/v-1-8/jquery.js" type="text/javascript"></script>
+  <script src="http://www8.hp.com/us/en/scripts/framework/jquery/v-1-8/can.jquery.js" type="text/javascript"></script>
+  <script type="text/javascript" src="http://www8.hp.com/us/en/scripts/hpi/caas-hf-v3.2/hpi-hf-r-jq.js" xml:space="preserve"></script>
+  <script type="text/javascript" src="http://www8.hp.com/us/en/scripts/hpi/caas-hf-v3.2/hpi-autocomplete-loader-2-jq.js" xml:space="preserve"></script>
+  <script type="text/javascript" src="http://www8.hp.com/us/en/scripts/hpi/caas-hf-v3.2/hpi-autocomplete-loader-store-jq.js" xml:space="preserve"></script>
+  <script type="text/javascript" src="http://www8.hp.com/us/en/scripts/hpi/caas-hf-v3.2/hpi-hf-init-r-jq.js" xml:space="preserve"></script>
+ </head>
+ <body>
+  <div class="header" id="header">
+   <div id="includedHeaderContent"></div>
+  </div>
+  <div class="wrapper">
+   <table>
+    <tbody>
+     <tr>
+      <td>
+       <ul>
+        <li><h1><a id="topCategoryName" href="http://store.hp.com/us/en/cat/Laptops">Laptops</a></h1>
+         <ul style="margin-left:10px;">
+          <li style="margin-left:20px;margin-bottom:20px"><h3><a href="http://store.hp.com/us/en/mlp/Laptops/workstation-352501--1">HP Z Workstations</a></h3>
+           <ul style="margin-left:30px;margin-bottom:20px">
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/zbook-15-mobile-workstation-352506--1">HP ZBook 15 Mobile Workstation</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/zbook-15u-mobile-workstation-352507--1">HP ZBook 15u Mobile Workstation</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/zbook-17-mobile-workstation-352508--1">HP ZBook 17 Mobile Workstation</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/zbook-studio-mobile-workstation-352510--1">HP Zbook Studio Mobile Workstation</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+           </ul></li>
+          <li style="margin-left:20px;margin-bottom:20px"><h3><a href="http://store.hp.com/us/en/mlp/Laptops/2-in-1s--1">Convertible &amp; Detachables</a></h3>
+           <ul style="margin-left:30px;margin-bottom:20px">
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/envy-x360-232003--1">ENVY x360</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-pavilion-x360-15-385502--1">HP Pavilion x360 15</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-pavilion-x360-387002--1">HP Pavilion x360</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/pavilion-x2-12--1">Pavilion x2 12</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/pavilion-x2-232001--1">Pavilion x2 10</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/spectre-x2-296008--1">Spectre x2</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/spectre-x360-232005--1">Spectre x360</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+           </ul></li>
+          <li style="margin-left:20px;margin-bottom:20px"><h3><a href="http://store.hp.com/us/en/mlp/Laptops/gaming--1">Gaming</a></h3>
+           <ul style="margin-left:30px;margin-bottom:20px">
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-omen-397505--1">OMEN by HP</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+           </ul></li>
+          <li style="margin-left:20px;margin-bottom:20px"><h3><a href="http://store.hp.com/us/en/mlp/Laptops/chromebook-344506--1">HP Chromebook</a></h3>
+           <ul style="margin-left:30px;margin-bottom:20px">
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/chromebook-344529--1">HP Chromebook</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-chromebook-11">HP Chromebook 11</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-chromebook-13">HP Chromebook 13</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+           </ul></li>
+          <li style="margin-left:20px;margin-bottom:20px"><h3><a href="http://store.hp.com/us/en/mlp/Laptops/elitebook--zbook---probook">Business</a></h3>
+           <ul style="margin-left:30px;margin-bottom:20px">
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/chromebook-g3">HP Chromebook 11</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/elite-x2-1012-358505--1">HP Elite X2 1012</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/elitebook-700--12-243561--1">HP EliteBook 725</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/elitebook-700--14-243562--1">HP EliteBook 745</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/elitebook-700--15-243563--1">HP EliteBook 755</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/elitebook-800--12-243564--1">HP EliteBook 820</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/elitebook-800--14-243565--1">HP EliteBook 840</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/elitebook-800--15-243566--1">HP EliteBook 850</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/elitebook-folio-14-243568--1">HP EliteBook Folio 1040</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/elitebook-folio-356503--1">HP EliteBook Folio</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/elitebook-revolve-810-243570--1">HP EliteBook Revolve 810</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-255-g4--1">HP 255</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-elite-x3-414504--1">HP Elite X3</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-elitebook-1030-385003--1">HP EliteBook 1030</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-probook-470">HP ProBook 470</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-x2-210-368016--1">HP x2 210</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-x360-310--1">HP x360 310</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/pro-x2-612-12-243571--1">HP Pro x2 612 12</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/probook-11">HP ProBook 11</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/probook-400-13-243572--1">HP ProBook 430</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/probook-400-14-243573--1">HP ProBook 440</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/probook-400-15-243574--1">HP ProBook 450</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/probook-455">HP ProBook 455</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/probook-600-14-243575--1">HP ProBook 640</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/probook-600-15-243576--1">HP ProBook 650</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/probook-645--1">HP ProBook 645</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/probook-655-277006--1">HP ProBook 655</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/spectre-pro-x360-277002--1">HP Spectre Pro x360</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/zbook-15-mobile-workstation-243578--1">HP ZBook 15 Mobile Workstation</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/zbook-15u-mobile-workstation-283503--1">HP ZBook 15u Mobile Workstation</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/zbook-17-mobile-workstation-243579--1">HP ZBook 17 Mobile Workstation</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/zbook-studio-mobile-workstation-315507--1">HP ZBook Studio</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+           </ul></li>
+          <li style="margin-left:20px;margin-bottom:20px"><h3><a href="http://store.hp.com/us/en/mlp/Laptops/pavilion-344505--1">HP Pavilion</a></h3>
+           <ul style="margin-left:30px;margin-bottom:20px">
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-pavilion-x360-387003--1">HP Pavilion x360</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/pavilion-15-344522--1">HP Pavilion 15</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/pavilion-17-344523--1">HP Pavilion 17</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/pavilion-x2-10-344524--1">HP Pavilion x2 10</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/pavilion-x2-12-344525--1">HP Pavilion x2 12</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+           </ul></li>
+          <li style="margin-left:20px;margin-bottom:20px"><h3><a href="http://store.hp.com/us/en/mlp/Laptops/new-products-369501--1">New products</a></h3>
+           <ul style="margin-left:30px;margin-bottom:20px">
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-envy-15">HP ENVY 15</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-envy-17">HP ENVY 17</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-envy-x360">HP ENVY x360</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-laptop-385006--1">HP Laptop</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-omen-397507--1">OMEN by HP</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-pavilion-15-385004--1">HP Pavilion 15</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-pavilion-17-385005--1">HP Pavilion 17</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-pavilion-x2-12">HP Pavilion x2 12</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-pavilion-x360">HP Pavilion x360</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-spectre">HP Spectre</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-spectre-x360--1">HP Spectre x360</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+           </ul></li>
+          <li style="margin-left:20px;margin-bottom:20px"><h3><a href="http://store.hp.com/us/en/mlp/Laptops/great-value-notebooks-348002--1">Great value</a></h3>
+           <ul style="margin-left:30px;margin-bottom:20px">
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/envy-15-348007--1">HP ENVY 15</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-pavilion-x360--1">HP Pavilion x360</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/pavilion-15-348009--1">HP Pavilion 15</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/pavilion-17-348011--1">HP Pavilion 17</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/pavilion-x2-10-348013--1">HP Pavilion x2 10</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/pavilion-x2-12-348014--1">HP Pavilion x2 12</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+           </ul></li>
+          <li style="margin-left:20px;margin-bottom:20px"><h3><a href="http://store.hp.com/us/en/mlp/Laptops/all-models-231504--1">All models</a></h3>
+           <ul style="margin-left:30px;margin-bottom:20px">
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/chromebook-348043--1">HP Chromebook</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/envy-13-296009--1">HP ENVY 13</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/envy-15--1">HP ENVY 15</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/envy-17-254006--1">HP ENVY 17</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/envy-x360-238003--1">HP ENVY x360</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-laptop--1">HP Laptop</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-omen">OMEN by HP</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-pavilion-x2">HP Pavilion x2 10</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-pavilion-x360-387004--1">HP Pavilion x360</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-stream">HP Stream</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/pavilion-15--1">HP Pavilion 15</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/pavilion-17--1">HP Pavilion 17</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/pavilion-x2-12-336002--1">HP Pavilion x2 12</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/spectre--1">HP Spectre</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/spectre-x2-296012--1">HP Spectre x2</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/spectre-x360-348041--1">HP Spectre x360</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/stream-notebook-348042--1">HP Stream Notebook</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/windows-10-spectre-laptops--1">HP Windows 10 Spectre Laptops</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+           </ul></li>
+          <li style="margin-left:20px;margin-bottom:20px"><h3><a href="http://store.hp.com/us/en/mlp/Laptops/elite-352503--1">HP Elite</a></h3>
+           <ul style="margin-left:30px;margin-bottom:20px">
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/elitebook-725">HP EliteBook 725</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/elitebook-745">HP EliteBook 745</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/elitebook-755-352525--1">HP EliteBook 755</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/elitebook-820">HP EliteBook 820</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/elitebook-840">HP EliteBook 840</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/elitebook-850">HP EliteBook 850</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/elitebook-folio-1040">HP EliteBook Folio 1040</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/elitebook-folio-356504--1">HP EliteBook Folio</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/elitebook-revolve-810-352532--1">HP EliteBook Revolve 810</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-elite-x3--1">HP Elite X3</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-elitebook-1030-385002--1">HP EliteBook 1030</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+           </ul></li>
+          <li style="margin-left:20px;margin-bottom:20px"><h3><a href="http://store.hp.com/us/en/mlp/Laptops/envy---omen">Premium</a></h3>
+           <ul style="margin-left:30px;margin-bottom:20px">
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/envy-13">HP ENVY 13</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/envy-15-204072--1">HP ENVY 15</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/envy-17-204073--1">HP ENVY 17</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/envy-x360-204075--1">HP ENVY x360</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-omen-397506--1">OMEN by HP</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/spectre-355003--1">HP Spectre</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/spectre-x2-296002--1">HP Spectre x2</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/spectre-x360-211501--1">HP Spectre x360</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+           </ul></li>
+          <li style="margin-left:20px;margin-bottom:20px"><h3><a href="http://store.hp.com/us/en/mlp/Laptops/spectre">HP Spectre</a></h3>
+           <ul style="margin-left:30px;margin-bottom:20px">
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-spectre-pro-x360">HP Spectre Pro x360</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/spectre-355002--1">HP Spectre</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/spectre-x2-344519--1">HP Spectre x2</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/spectre-x360-344520--1">HP Spectre x360</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+           </ul></li>
+          <li style="margin-left:20px;margin-bottom:20px"><h3><a href="http://store.hp.com/us/en/mlp/Laptops/envy-344503--1">HP ENVY</a></h3>
+           <ul style="margin-left:30px;margin-bottom:20px">
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/envy-13-344514--1">HP ENVY 13</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/envy-15-344516--1">HP ENVY 15</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/envy-17-344517--1">HP ENVY 17</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/envy-x360-344518--1">HP ENVY x360</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+           </ul></li>
+          <li style="margin-left:20px;margin-bottom:20px"><h3><a href="http://store.hp.com/us/en/mlp/Laptops/weekly-deals">Weekly Deals</a></h3>
+           <ul style="margin-left:30px;margin-bottom:20px">
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/weekly-top-deals-204133--1">Special offers</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+           </ul></li>
+          <li style="margin-left:20px;margin-bottom:20px"><h3><a href="http://store.hp.com/us/en/mlp/Laptops/pro-352502--1">HP Pro</a></h3>
+           <ul style="margin-left:30px;margin-bottom:20px">
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/pro-x2-612-12-352511--1">HP Pro x2 612 12</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/probook-11-352513--1">HP ProBook 11</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/probook-430">HP ProBook 430</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/probook-440">HP ProBook 440</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/probook-450">HP ProBook 450</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/probook-455-352517--1">HP ProBook 455</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/probook-470">HP ProBook 470</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/probook-640">HP ProBook 640</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/probook-645-352520--1">HP ProBook 645</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/probook-650">HP ProBook 650</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/probook-655-352522--1">HP ProBook 655</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+           </ul></li>
+          <li style="margin-left:20px;margin-bottom:20px"><h3><a href="http://store.hp.com/us/en/mlp/Laptops/hp-tablets">HP Tablets</a></h3>
+           <ul style="margin-left:30px;margin-bottom:20px">
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-elite-x2-1012">HP Elite X2 1012 </a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-elitepad-1000-374002--1">HP ElitePad 1000</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-envy-8-note-374012--1">HP ENVY 8 Note</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-pro-slate-12-374006--1">HP Pro Slate 12</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-pro-slate-8-374007--1">HP Pro Slate 8</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-pro-tablet-10">HP Pro Tablet 10 </a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-pro-tablet-408-374009--1">HP Pro Tablet 408</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-pro-x2-612-12-374005--1">HP Pro x2 612 12</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+           </ul></li>
+          <li style="margin-left:20px;margin-bottom:20px"><h3><a href="http://store.hp.com/us/en/mlp/Laptops/entry-level-notebooks-348003--1">Entry level</a></h3>
+           <ul style="margin-left:30px;margin-bottom:20px">
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/chromebook-348016--1">HP Chromebook</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-laptops">HP Laptop</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/stream-notebook-348017--1">HP Stream Laptop</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+           </ul></li>
+          <li style="margin-left:20px;margin-bottom:20px"><h3><a href="http://store.hp.com/us/en/mlp/Laptops/omen">OMEN by HP</a></h3>
+           <ul style="margin-left:30px;margin-bottom:20px">
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-omen--1">OMEN by HP</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+           </ul></li>
+          <li style="margin-left:20px;margin-bottom:20px"><h3><a href="http://store.hp.com/us/en/mlp/Laptops/hp">HP Laptop</a></h3>
+           <ul style="margin-left:30px;margin-bottom:20px">
+            <li><h4><a href="http://store.hp.com/us/en/mdp/Laptops/hp-laptop-344532--1">HP Laptop</a></h4>
+             <ul style="margin-left:30px;margin-bottom:5px"></ul></li>
+           </ul></li>
+         </ul></li>
+       </ul></td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+  <div class="footer">
+   <div id="includedContent"></div>
+  </div>
+  <script type="text/javascript">$(function(){$("#includedHeaderContent").load("header.html");$("#includedContent").load("footer.html");});</script>
+  <script> var pagelevel="Sitemap"; var hpmmd=window.hpmmd||{type: 'Unity eCommerce', page:{events:[]}, product:{list:[]},user:{},legacy:{},promo:{},search:{},browser:{}}; var hpprofid='';hpmmd.page.site="hhos";hpmmd.page.store_type = "hhos"; hpmmd.page.page_function = "service"; hpmmd.page.platform ="wcs web";hpmmd.page.section = 'misc';hpmmd.page.name = 'siteMap:Laptops';var uservalue=get_visitorid(); hpmmd.user.id=uservalue+ ":"+"generic"+":"+"-1002"; function get_visitorid() { var cookies = get_cookies_array(); var user_cookie=set_visitorid(cookies); var start=user_cookie.indexOf("|")+1; var end=user_cookie.lastIndexOf("["); user_cookie=user_cookie.substring(start,end); return user_cookie; } function set_visitorid(cookies) { var user_cookie=""; for(var cookieName in cookies) { if (cookieName == "s_vi") { user_cookie=cookies[cookieName]; } } return user_cookie; } function get_cookies_array() { var cookies = { }; if (document.cookie && document.cookie != '') { var split = document.cookie.split(';'); for (var i = 0; i < split.length; i++) { var name_value = split[i].split("="); name_value[0] = name_value[0].replace(/^ /, ''); cookies[decodeURIComponent(name_value[0])] = decodeURIComponent(name_value[1]); } } return cookies; }</script>
+  <script type="text/javascript" src="//nexus.ensighten.com/hp/etr_std_prod/Bootstrap.js"></script>
+  <script type="text/javascript" src="http://www8.hp.com/ww/en/scripts/rdt/rdt.js" xml:space="preserve"></script>
+ </body>
+</html>

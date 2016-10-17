@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en-US" xmlns:fb="http://ogp.me/ns/fb#" xmlns:addthis="http://www.addthis.com/help/api-spec" id="lang_en">
+ <head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <title>Staples Careers - Staples global careers</title> 
+  <link rel="stylesheet" href="http://careers.staples.com/wp-content/plugins/sitepress-multilingual-cms/res/css/language-selector.css?v=2.5.2" type="text/css" media="all"> 
+  <link rel="stylesheet" id="output-css" href="http://careers.staples.com/wp-content/plugins/addthis/css/output.css?ver=3.5" type="text/css" media="all"> 
+  <link rel="stylesheet" id="mobile-css" href="http://careers.staples.com/wp-content/themes/staples/css/mobile.css?ver=3.5" type="text/css" media="all"> 
+  <script type="text/javascript" src="http://careers.staples.com/wp-content/themes/staples/javascript/modernizr.js?ver=3.5"></script> 
+  <script type="text/javascript" src="http://careers.staples.com/wp-includes/js/jquery/jquery.js?ver=1.8.3"></script> 
+  <script type="text/javascript" src="http://careers.staples.com/wp-content/themes/staples/javascript/mobile.js?ver=3.5"></script> 
+  <script type="text/javascript">
+	var ajaxurl = 'http://careers.staples.com/wp-admin/admin-ajax.php';
+	</script> 
+  <script type="text/javascript">var icl_lang = 'en';var icl_home = 'http://careers.staples.com/';</script> 
+  <script type="text/javascript" src="http://careers.staples.com/wp-content/plugins/sitepress-multilingual-cms/res/js/sitepress.js"></script> 
+  <meta name="generator" content="WPML ver:2.5.2 stt:1,61,63,12,39,4,3,27,2,64,18,65,40,42,44,43,52;0"> 
+ </head> 
+ <body id="page_careers-home"> 
+  <section class="title"> 
+   <div class="logo"> 
+    <div class="image"></div> 
+   </div> 
+   <div class="language"> 
+    <div class="flag"> 
+     <div class="country"> 
+      <div class="image usa"></div> 
+     </div> 
+    </div> 
+    <div class="change"> 
+     <div class="change-language"> 
+      <p class="underline">English</p> 
+     </div> 
+     <div class="language-select"> 
+      <nav class="language-nav"> 
+       <div class="item">
+        <a href="http://careers.staples.com/da/startsiden-karrieremuligheder/" data-lang="Array">Dansk</a>
+       </div> 
+       <div class="item">
+        <a href="http://careers.staples.com/de/karriere-website/" data-lang="Array">Deutsch</a>
+       </div> 
+       <div class="item">
+        <a href="http://careers.staples.com/" data-lang="Array">English</a>
+       </div> 
+       <div class="item">
+        <a href="http://careers.staples.com/en-gb/careers-home/" data-lang="Array">English (UK)</a>
+       </div> 
+       <div class="item">
+        <a href="http://careers.staples.com/es/pagina-de-empleo/" data-lang="Array">Español</a>
+       </div> 
+       <div class="item">
+        <a href="http://careers.staples.com/fr/page-daccueil-carrieres/" data-lang="Array">Français</a>
+       </div> 
+       <div class="item">
+        <a href="http://careers.staples.com/fr-ca/careers-home/" data-lang="Array">Français (Canadien)</a>
+       </div> 
+       <div class="item">
+        <a href="http://careers.staples.com/it/home-carriere/" data-lang="Array">Italiano</a>
+       </div> 
+       <div class="item">
+        <a href="http://careers.staples.com/nl/homepage-carriere-maken/" data-lang="Array">Nederlands</a>
+       </div> 
+       <div class="item">
+        <a href="http://careers.staples.com/nb/karrierehjemmeside/" data-lang="Array">Norsk</a>
+       </div> 
+       <div class="item">
+        <a href="http://careers.staples.com/pl/kariera-strona-glowna/" data-lang="Array">Polski</a>
+       </div> 
+       <div class="item">
+        <a href="http://careers.staples.com/pt-pt/inicial-carreiras/" data-lang="Array">Português</a>
+       </div> 
+       <div class="item">
+        <a href="http://careers.staples.com/pt-br/pagina-inicial-de-carreiras/" data-lang="Array">Português do Brasil</a>
+       </div> 
+       <div class="item">
+        <a href="http://careers.staples.com/fi/urasivusto/" data-lang="Array">Suomi</a>
+       </div> 
+       <div class="item">
+        <a href="http://careers.staples.com/sv/startsida-for-jobb/" data-lang="Array">Svenska</a>
+       </div> 
+       <div class="item">
+        <a href="http://careers.staples.com/zh-hant/%e8%81%b7%e7%bc%ba%e9%a6%96%e9%a0%81/" data-lang="Array">繁體中文</a>
+       </div> 
+       <div class="item">
+        <a href="http://careers.staples.com/zh-hans/%e6%8b%9b%e8%81%98%e4%b8%bb%e9%a1%b5/" data-lang="Array">简体中文</a>
+       </div> 
+      </nav> 
+     </div>
+    </div> 
+   </div> 
+   <div class="country-select"> 
+    <nav> 
+     <ul> 
+      <li class="item">
+       <div class="amsterdam"></div><a href="http://careerseurohq.staples.nl/">Amsterdam - European Headquarters</a></li> 
+      <li class="item">
+       <div class="argentina"></div><a href="http://empleo.staples.com.ar/">Argentina</a></li> 
+      <li class="item">
+       <div class="australia"></div><a href="http://careers.staples.com.au/">Australia</a></li> 
+      <li class="item">
+       <div class="austria"></div><a href="http://karriere.staplesadvantage.at/">Austria</a></li> 
+      <li class="item">
+       <div class="belgium"></div><a href="http://carrieres.staples.be/">Belgium</a></li> 
+      <li class="item">
+       <div class="brazil"></div><a href="http://carreiras.staples.com.br/">Brazil</a></li> 
+      <li class="item">
+       <div class="canada"></div><a href="http://globalcareers.staples.ca/">Canada</a></li> 
+      <li class="item">
+       <div class="china"></div><a href="http://careers.staples.cn/">China</a></li> 
+      <li class="item">
+       <div class="denmark"></div><a href="http://karrieremuligheder.staplesdirect.dk/">Denmark</a></li> 
+      <li class="item">
+       <div class="finland"></div><a href="http://ura.staples.fi/">Finland</a></li> 
+      <li class="item">
+       <div class="france"></div><a href="http://carrieres.staples.fr/">France</a></li> 
+      <li class="item">
+       <div class="germany"></div><a href="http://karriere.staples.de/">Germany</a></li> 
+      <li class="item">
+       <div class="india"></div><a href="http://careers.staples.in/">India</a></li> 
+      <li class="item">
+       <div class="ireland"></div><a href="http://careers.staples.ie/">Ireland</a></li> 
+      <li class="item">
+       <div class="italy"></div><a href="http://carriere.staples.it/">Italy</a></li> 
+      <li class="item">
+       <div class="netherlands"></div><a href="http://carrieres.staples.nl/">Netherlands</a></li> 
+      <li class="item">
+       <div class="new_zealand"></div><a href="http://careers.staplesnz.co.nz/">New Zealand</a></li> 
+      <li class="item">
+       <div class="norway"></div><a href="http://karriere.staples.no/">Norway</a></li> 
+      <li class="item">
+       <div class="poland"></div><a href="http://cariers.staples.pl/">Poland</a></li> 
+      <li class="item">
+       <div class="portugal"></div><a href="http://carreiras.staples.pt/">Portugal</a></li> 
+      <li class="item">
+       <div class="spain"></div><a href="http://empleo.staplesadvantage.es/">Spain</a></li> 
+      <li class="item">
+       <div class="sweden"></div><a href="http://karriarer.staples.se/">Sweden</a></li> 
+      <li class="item">
+       <div class="taiwan"></div><a href="http://careers.staples.com.tw/">Taiwan</a></li> 
+      <li class="item">
+       <div class="uk"></div><a href="http://careers.staples.co.uk/">United Kingdom</a></li> 
+      <li class="item">
+       <div class="usa"></div><a href="http://careers.staples.com/">United States</a></li> 
+     </ul> 
+    </nav> 
+   </div>  
+  </section> 
+  <section class="nav"> 
+   <button class="nav-button">Navigation
+    <div class="arrow"></div></button> 
+   <button class="search-button block_link"><a href="http://careers.staples.com/search-jobs/">Search for a job</a>
+    <div class="search-glass"></div></button> 
+   <nav class="main"> 
+    <div class="inner"> 
+     <div class="item top current_page_item"> 
+      <div class="arrow"></div>
+      <a href="http://careers.staples.com/">Staples Careers</a> 
+     </div> 
+     <div class="item"> 
+      <div class="arrow"></div>
+      <a href="http://careers.staples.com/who-we-are/">About Us</a> 
+     </div> 
+     <div class="item"> 
+      <div class="arrow"></div>
+      <a href="http://careers.staples.com/careers-and-growth/">Career Growth</a> 
+     </div> 
+     <div class="item"> 
+      <div class="arrow"></div>
+      <a href="http://careers.staples.com/life-at-staples/">Life at Staples</a> 
+     </div> 
+     <div class="item"> 
+      <div class="arrow"></div>
+      <a href="http://careers.staples.com/staples-soul/">Corporate Responsibility</a> 
+     </div> 
+     <div class="item"> 
+      <div class="arrow"></div>
+      <a href="http://careers.staples.com/where-we-are/">Global Locations</a> 
+     </div> 
+     <hr> 
+     <div class="item"> 
+      <div class="arrow"></div>
+      <a href="http://careers.staples.com/search-jobs/">Search Jobs</a> 
+     </div> 
+     <div class="item"> 
+      <div class="arrow"></div>
+      <a href="http://careers.staples.com/application-status/">Already Applied?</a> 
+     </div> 
+     <hr> 
+     <div class="item">
+       Career Areas 
+     </div> 
+     <div class="item"> 
+      <div class="arrow"></div>
+      <a href="http://careers.staples.com/key-hiring-areas/hourly-retail/">Hourly Retail</a> 
+     </div> 
+     <div class="item"> 
+      <div class="arrow"></div>
+      <a href="http://careers.staples.com/key-hiring-areas/retail/">Retail Management</a> 
+     </div> 
+     <div class="item"> 
+      <div class="arrow"></div>
+      <a href="http://careers.staples.com/key-hiring-areas/sales-jobs/">B2B Sales</a> 
+     </div> 
+     <div class="item"> 
+      <div class="arrow"></div>
+      <a href="http://careers.staples.com/key-hiring-areas/ecommerce-jobs/">eCommerce</a> 
+     </div> 
+     <div class="item"> 
+      <div class="arrow"></div>
+      <a href="http://careers.staples.com/key-hiring-areas/it-jobs/">Global Technology</a> 
+     </div> 
+     <div class="inner"> 
+      <div class="item top subpage"> 
+       <div class="arrow"></div>
+       <a href="http://careers.staples.com/sanmateo/">– San Mateo Innovation Lab</a> 
+      </div> 
+      <div class="item subpage"> 
+       <div class="arrow"></div>
+       <a href="http://careers.staples.com/seattle/">– Seattle Development Center</a> 
+      </div> 
+     </div> 
+     <div class="item">
+       See more… 
+     </div> 
+     <div class="inner"> 
+      <div class="item top subpage"> 
+       <div class="arrow"></div>
+       <a href="http://careers.staples.com/key-hiring-areas/merchandising/">– Merchandising</a> 
+      </div> 
+      <div class="item subpage"> 
+       <div class="arrow"></div>
+       <a href="http://careers.staples.com/key-hiring-areas/marketing/">– Marketing</a> 
+      </div> 
+      <div class="item subpage"> 
+       <div class="arrow"></div>
+       <a href="http://careers.staples.com/key-hiring-areas/supply-chain/">– Supply Chain</a> 
+      </div> 
+      <div class="item subpage"> 
+       <div class="arrow"></div>
+       <a href="http://careers.staples.com/key-hiring-areas/customer-service/">– Customer Service</a> 
+      </div> 
+      <div class="item subpage"> 
+       <div class="arrow"></div>
+       <a href="http://careers.staples.com/key-hiring-areas/technology-sales/">– B2B Technology Sales</a> 
+      </div> 
+      <div class="item subpage"> 
+       <div class="arrow"></div>
+       <a href="http://careers.staples.com/key-hiring-areas/furniture-sales/">– Furniture Sales</a> 
+      </div> 
+      <div class="item subpage"> 
+       <div class="arrow"></div>
+       <a href="http://careers.staples.com/key-hiring-areas/facility-solutions/">– Facility Solutions Sales</a> 
+      </div> 
+      <div class="item subpage"> 
+       <div class="arrow"></div>
+       <a href="http://careers.staples.com/key-hiring-areas/promotional-products/">– Promotional Products</a> 
+      </div> 
+      <div class="item subpage"> 
+       <div class="arrow"></div>
+       <a href="http://careers.staples.com/key-hiring-areas/certified-tech/">– Certified Tech</a> 
+      </div> 
+      <div class="item subpage"> 
+       <div class="arrow"></div>
+       <a href="http://careers.staples.com/key-hiring-areas/finance/">– Finance</a> 
+      </div> 
+     </div>
+     <hr> 
+     <div class="item">
+       Programs &amp; Resources 
+     </div> 
+     <div class="item"> 
+      <div class="arrow"></div>
+      <a href="http://careers.staples.com/key-hiring-areas/university-relations/">University Recruiting</a> 
+     </div> 
+     <div class="item"> 
+      <div class="arrow"></div>
+      <a href="http://careers.staples.com/key-hiring-areas/diversity/">Inclusion &amp; Diversity</a> 
+     </div> 
+     <div class="item"> 
+      <div class="arrow"></div>
+      <a href="http://careers.staples.com/key-hiring-areas/veterans-program/">Veterans Program</a> 
+     </div> 
+     <div class="item"> 
+      <div class="arrow"></div>
+      <a href="http://careers.staples.com/key-hiring-areas/connect-with-staples/">Connect with Staples</a> 
+     </div> 
+     <div class="item"> 
+      <div class="arrow"></div>
+      <a href="http://careers.staples.com/employment-faq/">Employment FAQs</a> 
+     </div> 
+    </div>
+   </nav> 
+  </section> 
+  <section class="main"> 
+   <div class="promotion"> 
+    <div class="next"> 
+     <div class="arrow"></div> 
+    </div> 
+    <div class="item active"> 
+     <div class="inner"> 
+      <a href="/key-hiring-areas/sales-jobs/"> <h3 class="blue">US Sales</h3> <p>Interested in a career in sales,<br> then you’re in the right place</p> </a> 
+     </div> 
+    </div> 
+    <div class="item"> 
+     <div class="inner"> 
+      <a href="/key-hiring-areas/it-jobs/"> <h3 class="blue">US IT</h3> <p>We employ more than 2,200 IT professionals,<br> and we’ve got plenty of reasons why you should join them</p> </a> 
+     </div> 
+    </div> 
+    <div class="item"> 
+     <div class="inner"> 
+      <a href="/key-hiring-areas/ecommerce-jobs/"> <h3 class="blue">US eCommerce</h3> <p>Looking for an exciting position in eCommerce,<br> then join staples.com, the #2 eTailer in the world</p> </a> 
+     </div> 
+    </div> 
+    <div class="pips"> 
+     <div class="pip active"></div> 
+     <div class="pip"></div> 
+     <div class="pip"></div> 
+    </div> 
+   </div> 
+   <div class="bread block_link">
+    <a href="http://careers.staples.com/">Home</a>
+   </div> 
+   <div class="content"> 
+    <div id="headline"> 
+     <h1><span style="color: #cc0000;">Staples Careers</span></h1> 
+     <h2><span style="color: #000000;">Be amazed by</span><br> <span style="color: #000000;"> what’s inside.</span></h2> 
+    </div> 
+    <p>If you want to work for a company that believes in your talent and supports your career goals, then Staples is the place for you. Whether you’re just starting your career, interested in changing jobs, or looking to make a career change, you’ll be amazed by the opportunities Staples has to offer.</p> 
+    <p>You may know us from our stores, but we’re much more than that. Through our world-class retail, online and delivery capabilities, Staples lets customers shop however and whenever they want, whether it’s in store, online or on mobile devices. By expanding our product assortment and making shopping and saving easier than ever, we’re helping customers make more happen every day.</p> 
+    <p>Whether you’re working in one of Staples’ corporate offices, stores, distribution centers or field sales —we make working here motivating, rewarding and fun!</p> 
+    <p>Supporting our associates and their potential is what makes Staples an employer of choice. We offer flexible schedules, competitive salaries and comprehensive benefits. We provide associates with professional and personal growth opportunities though our educational and developmental programs.</p> 
+    <h4>Connect with Staples Careers:</h4> 
+    <h4><img alt="" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wAARCAAaABoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCJfHN7psl1b6fqd/bQG4YstvdzWwmMLPHFJLHDKFZ0RmCli5QO4VjuYt0vhDXPHfj3xZ4Z8DeEbnWNY8VeMfEGj+FvDelLrYsjqWu6/qFvpek2P23Ub6z06yW6vrqCF7zULu0sLVXa4vLq3to5Zk+KZPGe6SRhKCWkdsZz1Yk88nqf89K/eP8A4Iu/s23XjrxboX7YyfEGCwsvhL8RviJ8O5/h8fDctzca7LqfwdtbNNWj8TrrtvFp6QN8T4Zmsn0G9ZxosiC6Q36Paf6T8V8U4XhnIcxzes6Uq1DDVlgqdWnVnHFZk6EngcLUdCE5wjicRCFKVWXJTpxlzTqQilJfy5lGUVc1zDDYOHOoVatN15wlGMqWGU4LEVYe0ajJ0qblOMUpSk0lGEm7LrP2jP8Agnf8Vv2Z/wBmbxV8ePHfxx0jWNZ8K3fh/T9e8B+FrLxHe6PPY+MvHuj+ALBrDxnq99ot3eu1v4l0/UNUsrzwTYwRg6jpkV1exwQ317+SP/CXoOCIyR3LSZP1xMBn1wAPQAcV+xX/AAVz/Y18Q3Evxw/bn1X4zyarpOhW3wq0nw18LNQ8MX97L4b0Se98BfDWbRtF8U3PiuW20nSpfFGteIPiDLYaf4atrN9U17Vw8J1DUr7V5/50v+EwU/8ALRvwY4/D2rwPDTiHGZ5w68wzLPqed42tjHLEPD5X/Y9PKalTBYGvPI4xjTpfXll8q05LMPf9uq3J7SoqSqS9LinLKOXZmsNhcvlgcPGivZe0xbxjxkY1q0I468nN4d11BReHfK4ezTcY8/Kvl3/hK2/56f8Ajw/wr9J/+CQHiJJf+CjH7PLHYZPK+MOHONw/4sJ8URwcA9OODn6jivx83v8A3m/76P8AjX6af8EdHf8A4eOfs7/M3+r+Mf8AEf8AogfxS96jiiq58NcQRkk1LJM0Tvr8WBqq680paPy82VlVNQzTLZJu6x+Cf/lzS31/DZ6nef8ABW/xEif8FHf2mWyDIl98IlDk/MFP7PfwjbaCRkDLZx6nPXmvzr/4Stv+en6j/CvsT/gryzD/AIKQ/tP4Zh/xMPg/0J/6N2+D/vX5v73/ALzf99H/ABp8MVHDhvIIQSio5LlSVvLA4aN352t91upWb0lLNcxk5Nt43Ev760nbf+rvyt//2Q==" width="19" height="19"> <a title="Facebook" href="https://www.facebook.com/CareersatStaples" target="_blank">Facebook</a>&nbsp;&nbsp;&nbsp; <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAIAAAAmKNuZAAAEk0lEQVRIiaXR6zNjZxwH8PM/tLtt7ejuiCCRdqixGKZ0rKXSsGEZdpnpi86YdrbiuqMucatL61KsYrdkrZGTnBNC2mWWaiURIhKXCJFITg4SlMT9HrKnL4LqMtsOz3xenPnN7/udeZ4DjBvWqRU93tk8r0yuV2brpXC9s3nUij8U8xsAuaT7EVed12fME5nyRMZLMeX1GR9x1eSSHsA1vS2uczGWZ4hp119aLG8+rnPR9bs2gPSYE8szxLTPxbRdQbs+hmcgpXIAUionpk3/oHX2P0W3zt6HZ6gQGg6jUS0z1on14wF37mGb/rguunU2ioNGcdCoFjQc0lHZSFQLejw5mUfAOiob+frlXNafC0ldhkhYRwGRUBYSy52JbkGjWtDo1llSKgyQUuFIDhoBIREQQmUhCZ36x10GClN7H0IiTlBZSCSM1A+bVMa9rQOLYcP8q2r9e8Hii9GVnN6FcDYSASGRnBnnFBhwToHDIB2VpQ0FtRSmFpSv/LVlTujUBzZpKM2ae6D2HqgNYWorxUuW19jZs31g2T20QBOrERASCmrD2DrnFBggpsAhoJbSPB3cpKaCmm7NBoZh85vmYuFCOKgJaFT7NUyFMjVq0z527uwdWmqHlinN0180T4cwNcQUGCAmw+QmTfAL1eeNqgCGqk6yZF21vMbEc1uF/IUvW5C4dnTHbDlfx5abyI2qoEZV8AsVuUlNTIYAYjIU9FwVyJi626AMaFBm9+iN24dnMwub5oml3aM3rophGIbRe/QeNYpAxlQgYyrouYqQDAGEZOhOg9K/ftLv2UQQQ9k0sry2d3Q+eeFNkztQz5px//pJ//rJOw1KpyQIcEqC/J5O+NYpPq1TeFTLi3oN/6cLwzDdyv5DltqzWu5bp/CtU/g9nXBKYgNOSZBP7bh3jdy7Ru7xZOzuL4qOqdW9wwte6o3TMbXqXSP3qh6zZn1qx50S2YBjItuzeszjyagVsVT2DVdj3Da/vWv/0JLWqSOUSk+DntVjjolswCGR7VY54lYxbPVRqTSEoUBW9t5e161eda8cdi2XnQbdKkccEliAQwLbpVzmUiZ1KZN+XCZ1LhnCFw9SGIqXStP+0QV/E8Mw9fIOuX7c8QeJS7nUGnQpk7qUyxwSWAA+gUUqHSKVSJx/lHxSLvX9ecSjUuZZJaO/Qhc3D853qZZ2YpiTuEIxqUTyL6VDeGsdoXiQUCR2KBzwqZJVCfV87Zrporfb3D/6bcIYUDtyK7+fUCQmFIsJRWcUD+JpLMCexsIXDuAL+q3Iz0Z/4s/+rl6ZXt5Z2zWv7x7Oru6J0XWGZP4rthJfMGCbK8IX9Duc7P+jcMCeBgL2NNAuv98uT2SXL7LLE9nQhdczBcQi8WfVw9QGeRhDHlQ34l4m+YAuvJYhuJV7vHaB/H77eBDAxYM3c0U3c/pOfZjTZ0MXXs8QvJvOfyedfy2D/36mwDZbeHbnArkinLXONkdoSxdcVbYQFw8COBpkQxfYZPGvTICjQYBHFu9GWtd7Gb1XdCPt1e1MHjCkM7ml83A0yO5b5uXRIPfMdqnO9Ddxvgt0lCI7bgAAAABJRU5ErkJggg==" width="19" height="19"> <a title="@StaplesCareers" href="https://twitter.com/StaplesCareers" target="_blank">Twitter</a>&nbsp;&nbsp; <img alt="" src="http://careers.staples.com/wp-content/uploads/2012/05/Instagram-logo.jpg" width="19" height="19"> <a title="Staples Careers" href="https://www.instagram.com/staplescareers" target="_blank">Instagram</a>&nbsp;&nbsp;&nbsp; <img alt="" src="http://careers.staples.com/wp-content/uploads/2015/03/Glassdoor-logo-e1457037701542.png" width="12" height="19"> <a title="Glassdoor" href="https://www.glassdoor.com/Overview/Working-at-Staples-EI_IE1909.11,18.htm" target="_blank">Glassdoor</a></h4> 
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/G9zW4BCwhuQ?showinfo=0" frameborder="0" allowfullscreen></iframe></p> 
+    <p><strong>Ready to make more happen? Take a look at our current openings!</strong></p> 
+    <!-- Start: Easter egg box --> 
+    <div id="egg_wrapper" class="egg_position"> 
+     <div id="bubble" class="bubble_right"> 
+      <a href="#" id="bubble_close">Close</a> 
+      <div id="fact_outer_wrapper"> 
+       <div id="fact_inner_wrapper"> 
+        <div id="fact">
+         Headquartered outside of Boston, Staples, Inc. operates throughout North and South America, Europe, Asia, Australia and New Zealand. 
+        </div> 
+       </div> 
+      </div> 
+      <div id="bottom"></div> 
+     </div> 
+     <div id="ee_box"> 
+      <a href="#" onclick="_gaq.push(['_trackEvent', 'box', 'open', 'easteregg', 1, true]);"></a> 
+     </div> 
+    </div> 
+    <!-- End: Easter egg box --> 
+    <script type="text/javascript">if (typeof(addthis_share) == "undefined"){ addthis_share = {"url_transforms":{"shorten":{"twitter":"bitly"}},"shorteners":{"bitly":""}};}
+
+var addthis_config = {"data_track_clickback":false,"data_track_addressbar":false,"data_track_textcopy":false,"ui_atversion":"300"};
+var addthis_product = 'wpp-3.5';
+</script>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5373728c2a0b2147"></script> 
+   </div> 
+   <div class="sub-content"> 
+    <div class="discover"> 
+     <div class="image en"></div> 
+    </div> 
+    <div class="culture"> 
+     <div class="image en"></div> 
+    </div> 
+   </div> 
+  </section> 
+  <div id="carousel"> 
+   <div class="bread block_link">
+    <a href="http://careers.staples.com/">Home</a>
+   </div> 
+   <div class="inner"> 
+    <h2> Lift the lid on our culture </h2> 
+    <!-- Hidden for now because we don't have translations <h3>
+			Hear from our amazing associates.		</h3>--> 
+    <div class="culture-group"> 
+     <div class="culture-slide active"> 
+      <div class="item"> 
+       <div class="arrow"></div> 
+       <div class="image">
+        <img src="/wp-content/themes/staples/images/profiles/thumbs/mobile/raphael_n.png">
+       </div> 
+       <div class="left"> 
+        <h4>Raphael - Inbound Supervisor</h4> 
+        <p>Canada</p> 
+       </div> 
+       <div class="more-content">
+        <p>I’m just so proud to be selected from all Staples’ amazing associates to be featured on this Web site. I know it may sound corny, but I really wouldn’t be the associate that I am today without the great team that I’ve worked with for the last five years. Together we work with dedication and integrity.</p>
+        <p>Before I joined, I’d heard great things about Staples. So with my friend’s endorsement ringing in my ears, I applied for Divisional Sales Manager. The rest, as they say, is history. I’ve gone through a series of promotions within retail since then, and I’m now an Inbound Supervisor.</p>
+        <p>While I have plenty of time to spend with my kids, I can never forget about Staples because I have two Easy Buttons (in French and English) at home. We press them when there’s cooking, cleaning and homework to be done — which actually isn’t always easy…school is tough these days!</p>
+       </div> 
+      </div> 
+      <div class="item"> 
+       <div class="arrow"></div> 
+       <div class="image">
+        <img src="/wp-content/themes/staples/images/profiles/thumbs/mobile/danny_g.png">
+       </div> 
+       <div class="left"> 
+        <h4>Danny - Future Tech</h4> 
+        <p>Canada/U.S.</p> 
+       </div> 
+       <div class="more-content">
+        <p>When I joined Staples, I had just graduated and wanted a part-time job to tide me over while I looked for a way to start my career. Little did I know I’d already found it.</p>
+        <p>Since becoming a part of the family, I’ve enjoyed promotion after promotion. I have a whole host of managers to thank for supporting me and helping me settle into new roles (and often locations). My family and I have relocated six times over the years, and it’s definitely been worth it.</p>
+        <p>I’ve experienced some amazing things at Staples, and, even better, I feel I’ve played a big part in making them happen. My biggest achievement has been winning the Innovation Award. I submitted an idea for the Tech centre, which initially didn’t make the final cut. However, I was so sure that it would help our customers that I set it up in store anyway, and tested prices. The service took off and we expanded to other locations. At this point Staples recognized how useful the Express tech service was and rolled it out nationally. Now that was really cool.</p>
+       </div> 
+      </div> 
+      <div class="item"> 
+       <div class="arrow"></div> 
+       <div class="image">
+        <img src="/wp-content/themes/staples/images/profiles/thumbs/mobile/erika_h.png">
+       </div> 
+       <div class="left"> 
+        <h4>Erika - Director of Global Diversity and Inclusion</h4> 
+        <p>U.S.</p> 
+       </div> 
+       <div class="more-content">
+        <p>There’s never a dull moment at Staples — days fly by because it’s so busy. It’s not for the faint-hearted, but that’s exactly why I love being part of this organization. We are a very driven company that makes the most of each workday.</p>
+        <p>Little did I know that when I was hired as an HR Manager, some 10 years later I would be Director of Global Diversity and Inclusion. And while I’ve worked hard to progress in my career, I also owe my success to the many great managers who have respected my abilities and given me countless opportunities to strut my stuff.</p>
+        <p>And I got to strut my stuff in an entirely different sense when we sponsored a “Move your Body” campaign. We spent weeks secretly practicing one of Beyoncé’s routines before the final dance-off. The audience of over 300 associates went wild. Of course, some one recorded it and the next day we were a YouTube sensation — not that I’m going to share the link here, though!</p>
+       </div> 
+      </div> 
+      <div class="item"> 
+       <div class="arrow"></div> 
+       <div class="image">
+        <img src="/wp-content/themes/staples/images/profiles/thumbs/mobile/yilmaz_y.png">
+       </div> 
+       <div class="left"> 
+        <h4>Yilmaz - Store Manager</h4> 
+        <p>Germany</p> 
+       </div> 
+       <div class="more-content">
+        <p>Because I finished my vocational training with an “A,” I was named Germany’s best Staples apprentice and was able to visit the Staples Home Office in the U.S. After that impressive trip, I began my advanced training where I led a subsidiary store for 12 months. Finally, I became a real Store Manager in Bremen.</p>
+        <p>After opening the store at 8 am, I check out the sales and the accounting figures. Every day I try to coach employees on the German version of “inspired selling” as part of their development. I also motivate them and act as a role model, because if I expect something from them I have to stand behind it too. And it works, too — recently we were voted International Staples Store of the Year.</p>
+        <p>This year, we brought a sensational project to life when two of the strongest stores in Germany were led by our apprentices for a month. All associates and the Store Managers had to leave their stores and 30 apprentices took over. That really proved how much Staples trusts these young people as they help them to become the leaders of tomorrow.</p>
+       </div> 
+      </div> 
+      <div class="item"> 
+       <div class="arrow"></div> 
+       <div class="image">
+        <img src="/wp-content/themes/staples/images/profiles/thumbs/mobile/ruth_r.png">
+       </div> 
+       <div class="left"> 
+        <h4>Ruth - Picker</h4> 
+        <p>U.S.</p> 
+       </div> 
+       <div class="more-content">
+        <p>I’ve been a Picker with Staples since 1998, which just goes to show how much I love it here. It’s a great place to work, and everyone is really nice.</p>
+        <p>Nothing beats the satisfaction of doing your job and getting it right — every time! Staples has given me plenty of training over the years, so much so in fact that I’ve now stepped into the teacher’s shoes and coach my fellow associates.</p>
+        <p>Because we genuinely care about our customers, it makes our job easy. One time all the power went out. But did we close for business? Absolutely not! We charged up our flashlights and picked, packed and shipped our socks off so everything arrived on time and our customers were happy.</p>
+       </div> 
+      </div> 
+     </div> 
+     <div class="culture-slide"> 
+      <div class="item"> 
+       <div class="arrow"></div> 
+       <div class="image">
+        <img src="/wp-content/themes/staples/images/profiles/thumbs/mobile/lisa_f.png">
+       </div> 
+       <div class="left"> 
+        <h4>Lisa - USR Market Manager</h4> 
+        <p>District 67 — Las Vegas, NV, U.S.</p> 
+       </div> 
+       <div class="more-content">
+        <p>There’s a saying that goes, “If you always do what you’ve always done, you’ll always get what you’ve always got” — which is why we’re always changing and looking for new ways to be successful.</p>
+        <p>My day revolves around people. I start by collecting data and reviewing any feedback we’ve received. I then travel around stores and coach our associates. I’ll also take the time to speak to our customers so I can make sure we’re meeting their needs.</p>
+        <p>I’d heard Staples was a fun place to work, but since I joined I’ve found that it has plenty to offer for a serious career, too. While I started as a part-time Cashier, I’ve worked my way up to General Manager and have been named 2011 Business Woman of the Year. Along the way I’ve held positions in nearly every in-store department and have had plenty of training from mentors and Managers. It just goes to show that Staples is a company that really cares about its people’s success.</p>
+       </div> 
+      </div> 
+      <div class="item"> 
+       <div class="arrow"></div> 
+       <div class="image">
+        <img src="/wp-content/themes/staples/images/profiles/thumbs/mobile/luis_r.png">
+       </div> 
+       <div class="left"> 
+        <h4>Luis Maria - Web Development Manager</h4> 
+        <p>Spain</p> 
+       </div> 
+       <div class="more-content">
+        <p>We took teambuilding to another level when I parachuted out of a plane with my fellow associates. It was an incredible experience, if a little scary. But I’ve got more to show from my time at Staples than just a video of me falling through the sky. I’ve learned Italian and got a Black Belt too (in processes, that is).</p>
+        <p>In 1997 I’d just completed my degree in IT and was looking for a company where I could apply to “real life” all I’d learned. I definitely made the right decision, because in just a few years, Staples had rapidly expanded. When I moved into the European IT team I realized how much I loved being in an international environment. And since then Staples has given me the chance to work in America, France and Italy.</p>
+        <p>Wherever I am in the world, easy is about keeping it simple, using common sense and not overanalyzing situations. The best solution is often the simplest.</p>
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="buttons"> 
+     <div class="arrow-left inactive-left"></div> 
+     <div class="count"> 
+      <span class="current-page">1</span> of 2 pages 
+     </div> 
+     <div class="arrow-right"></div> 
+    </div> 
+   </div> 
+  </div> 
+  <section class="footer"> 
+   <div class="links-bg"> 
+    <div class="links-bg-grad"> 
+     <div class="links"> 
+      <div class="useful-links"> 
+       <div class="holder"> 
+        <span>Useful links</span> 
+        <nav class="bottom"> 
+         <ul> 
+          <li><a href="http://careers.staples.com/">Careers home</a></li> 
+          <li style="display:none;"><a href="#">Privacy policy</a></li> 
+          <li><a href="mailto:hrservice@staples.com">Contact us</a></li> 
+          <li><a href="http://www.staples.com" target="_blank">Staples eCommerce</a></li> 
+          <li><a href="/?force_device=desktop">Switch to browser version of Web site</a></li> 
+         </ul> 
+        </nav> 
+       </div> 
+      </div> 
+      <div class="highlighted-jobs"> 
+       <div class="holder"> 
+        <span>Highlighted Jobs</span>
+        <nav class="bottom">
+         <ul>
+          <li><a href="http://careers.staples.com/key-hiring-areas/sales-jobs/account-manager-jobs/">Account Manager Jobs at Staples</a></li>
+          <li><a href="http://careers.staples.com/key-hiring-areas/sales-jobs/business-development-jobs-minneapolis/">Business Development Jobs - Minneapolis, MN</a></li>
+          <li><a href="http://careers.staples.com/key-hiring-areas/sales-jobs/customer-service-jobs-denver/">Customer Service Jobs - Denver, CO</a></li>
+          <li><a href="http://careers.staples.com/key-hiring-areas/it-jobs/software-developer-jobs-boston/">Software Engineering Jobs - Boston, MA</a></li>
+          <li><a href="http://careers.staples.com/key-hiring-areas/it-jobs/software-developer-jobs-denver/">Software Engineering Jobs - Denver, CO</a></li>
+          <li><a href="http://careers.staples.com/key-hiring-areas/ecommerce-jobs/user-experience-jobs-boston/">User Experience Jobs - Boston, MA</a></li>
+         </ul>
+        </nav> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="social"> 
+    <nav class="icons"> 
+     <ul> 
+      <div class="social_column"> 
+       <ul> 
+        <li id="social_heading"><h3>Join us</h3></li> 
+        <li id="social_fb"><a target="_blank" href="https://www.facebook.com/CareersatStaples">Facebook</a></li>
+        <li id="social_tw"><a target="_blank" href="http://www.twitter.com/staplescareers">Twitter</a></li>
+        <li id="social_li"><a target="_blank" href="http://www.linkedin.com/company/staples/careers">LinkedIn</a></li>
+        <li id="social_yt"><a target="_blank" href="http://www.youtube.com/playlist?list=PL3WWdtAm70BmdVvyEPkh_7fejAu7-blhU">YouTube</a></li> 
+       </ul> 
+      </div> 
+     </ul> 
+    </nav> 
+   </div> 
+   <div class="footer-logo-box"> 
+    <div class="footer-logo block_link"> 
+     <a href="http://www.staples.com" target="_blank"></a>
+    </div>
+   </div>
+  </section>
+ </body>
+</html>

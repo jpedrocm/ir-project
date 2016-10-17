@@ -1,0 +1,340 @@
+<!-- $Revision: 2 $ $Workfile: printSkuSpecs.jsp $ --><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <title>Toshiba - Leading Inovation - Print Specs - A50-03P01G</title> 
+  <meta name="keywords" content="Toshiba, Laptos, Projectors, A50-03P01G"> 
+  <meta name="description" content="Toshiba, Laptos, Projectors, A50-03P01G"> 
+  <style type="text/css" media="all">
+
+body { font: normal 12px/1.4em Arial,sans-serif }
+.clearthis:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearthis { display: inline-block; }
+.clearthis { display: block; }
+a:link, a:visited { color: #0064AF }
+img { border: 0px }
+p, h1, h2, h3, h4 { padding:0; margin:0; }
+#print-view { width: 760px; margin: 0px auto; padding-bottom: 10px; }
+#logo { margin: 10px 0px }
+#marquee { border-top: solid 1px #aaa; border-bottom: solid 1px #aaa; padding: 15px 0px 0px 10px; clear: both; display: table; }
+#marquee p { position: relative; }
+#sku-image { display: table-cell; text-align: center; *float: left; }
+#sku-info { display: table-cell; vertical-align: middle; padding: 0 0 0 20px; *float: left; }
+#sku-info h2.sku-title { font-size: 26px; font-weight: bold; padding-bottom: 10px; line-height: 26px; }
+#sku-info .sku-description { padding-bottom: 15px; }
+#sku-info span.msrp { color: #666; font-size: 18px; }
+#pricing { padding: 3px 0px; clear: both; width: 240px; }
+#sku-price { color: #c00; font-weight: bold; font-size: 24px; }
+#rate-and-review { padding: 15px 0; font-size: 12px;}
+#rate-and-review strong { line-height: 18px; }
+#retailerImageDiv { display: none; margin-left: -10px; }
+#company-logos { clear: both; width: 240px; white-space: nowrap; }
+#company-logos span { display: block; float: left; text-align: center; padding: 5px 30px 0 0; width: auto; height: 100px; }
+#sku-info dl.info { background: url(/images/showcase/ui/bg-grad-line-fade-285.jpg) no-repeat; width: 280px; min-height: 40px; padding: 5px 0 10px 0; }
+#sku-info dl.info dt {  }
+#sku-info dl.info dd { color:#898989 }
+#sku-info dl.info dd.img { text-indent: 15px }
+#sku-info dl.info dt { line-height: 16px }
+#sku-info span.grey-text { color: #666; font-size: 11px }
+#sku-info #pricing #bto-td-price { padding-top: 5px; }
+#sku-info #pricing #bto-td-price ul { list-style: none; padding:0; margin:0; }
+#sku-info #pricing #bto-td-price ul li { color: #333; display: block; }
+#sku-info #pricing #bto-td-price ul li.label { float: left; clear: both; width: 160px; }
+#sku-info #pricing #bto-td-price ul li.value { float: right; text-align: right; font-weight: bold; width: 75px; }
+#sku-info #pricing #bto-td-price #bto-td-total-label { clear: both; float: left; color: #666; font-size: 14px; font-weight: bold; padding: 10px 0 15px 0; }
+#sku-info #pricing #bto-td-price #bto-td-total-price { float: right; text-align: right; margin-right: -2px; font-size: 24px; color: #c00; font-weight: bold; padding: 10px 0 15px 0; }
+
+#sku-specs { padding: 20px; }
+#sku-specs dl, #sku-specs dd, #sku-specs #tab-subtitle dl, #sku-specs #tab-subtitle dd, #sku-specs #tab-subtitle p { padding: 0; margin: 0; }
+#sku-specs h3 {  }
+#sku-specs .col { float: left; max-width: 350px; _width: 350px; }
+#sku-specs .one { margin: 15px 20px 0 0; clear: both; }
+#sku-specs .two { margin: 15px 0 0 0; }
+#sku-specs .col h4 { color: #c00; text-transform: none; font-size: 16px; padding: 15px 0 0 10px; }
+#sku-specs dl { padding: 0 10px 0 10px; }
+#sku-specs dt { font-size: 11px; font-weight: normal; color: #000; font-weight: bold; text-transform: uppercase; line-height: 13px; padding: 15px 0 0 0; }
+#sku-specs dt a, #sku-specs dt a:link, #sku-specs dt a:visited, #sku-specs dt a:active { text-decoration: none; font-size: 11px; font-weight: normal; color: #0063B1; text-transform: uppercase; line-height: 13px; padding-bottom: 5px; }
+#sku-specs dt span { font-weight: bold; }
+#sku-specs dd { line-height: 1.2em; padding: 3px 0 0 15px; }
+#sku-specs dd ul { list-style: none; margin: 0 0 0 3px; padding: 0; }
+#sku-specs dd ul li { padding: 4px 0; line-height: 1.2em; list-style-type: none; }
+#sku-specs dd ul li.selected { list-style-image: url(/images/showcase/ui/red-rchev-bullet.gif); font-weight: bold;}
+#sku-specs #tab-subtitle { padding-top: 5px; }
+#sku-specs #tab-subtitle p.selected { font-weight: bold; line-height: 1.2em; }
+#sku-specs #tab-subtitle p.selected:before { content: url(/images/showcase/ui/red-rchev-bullet.gif); padding-right: 5px; }
+
+#disclaimer { clear: both; padding: 30px 0 0 30px; font: normal 11px/1.2em Arial,sans-serif }
+</style> 
+ </head> 
+ <body> 
+  <!-- $Revision: 2 $ $Workfile: skuSpecsInclude.jsp $ --> 
+  <div id="print-view"> 
+   <img src="/images/showcase/ui/global-logo.gif" alt="" id="logo"> 
+   <div id="marquee" class="clearthis"> 
+    <div id="sku-image"> 
+     <img src="/images/showcase/products/tecra-a50-03p01g-laptop.png" alt="Toshiba Tecra A50-03P01G Laptop" title="Toshiba Tecra A50-03P01G Laptop"> 
+    </div> 
+    <div id="sku-info" itemscope itemtype="http://schema.org/Product"> 
+     <h2 class="sku-title" itemprop="name">Tecra <span style="white-space: nowrap;">A50-03P01G</span></h2> 
+     <div class="sku-info"> 
+      <div id="pricing" itemprop="offers" itemscope itemtype="http://schema.org/Offer"> 
+       <div id="bts-price"> 
+        <span class="msrp">MSRP<sup>†</sup>: :</span> 
+        <strong id="sku-price" itemprop="price">$939.99</strong> 
+       </div> 
+      </div> 
+      <div id="company-logos"> 
+       <span><img src="/images/showcase/processors/intel/6gen/core-i5-6gen.png" width="80" alt="Intel® Core i5 Processor"></span> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="sku-specs"> 
+    <h3 class="tab-title">A50-03P01G : Detailed Product Specs</h3> 
+    <div class="col one"> 
+     <div class="spec-block">
+      <h4>Performance</h4>
+      <dl>
+       <dt>
+        Processor
+        <a href="javascript:disclaimer('ProcessorCentralProcessingUnit')">*</a>
+       </dt>
+       <dd>
+         Intel® Core™ i5-6200U Processor
+       </dd>
+       <dt>
+        Operating System
+        <a href="javascript:disclaimer('OperatingSystem')">*</a>
+       </dt>
+       <dd>
+         Windows 7 Professional (available through downgrade rights from Windows 10 Pro)
+       </dd>
+       <dt>
+        Graphics Engine
+        <a href="javascript:disclaimer('GraphicsGraphicsProcessingUnit')">*</a>
+       </dt>
+       <dd>
+         Intel® HD Graphics 520
+       </dd>
+      </dl>
+     </div> 
+     <div class="spec-block">
+      <h4>Memory and Storage</h4>
+      <dl>
+       <dt>
+        Memory
+        <a href="javascript:disclaimer('MemoryMainSystem')">*</a>
+       </dt>
+       <dd>
+         8 GB DDR3L 1600 MHz
+       </dd>
+       <dt>
+        Hard Drive
+        <a href="javascript:disclaimer('HardDiskDriveHDDCapacity')">*</a>
+       </dt>
+       <dd>
+         256 GB M.2 Solid State Drive (SSD)
+       </dd>
+       <dt>
+        Optical Drive
+        <a href="javascript:disclaimer('OpticalDrive')">*</a>
+       </dt>
+       <dd>
+         DVD SuperMulti drive supporting 11 formats
+       </dd>
+      </dl>
+     </div> 
+     <div class="spec-block">
+      <h4>Audio and Video</h4>
+      <dl>
+       <dt>
+        Display Size
+       </dt>
+       <dd>
+         15.6" diagonal widescreen
+       </dd>
+       <dt>
+        Display Resolution
+       </dt>
+       <dd>
+         1366 x 768 (HD), Supports 720p content
+       </dd>
+       <dt>
+        Audio
+       </dt>
+       <dd>
+         DTS Studio Sound, Stereo Speakers, Dual-Microphones, Headset port - Microphone/Headphone Combination Port
+       </dd>
+      </dl>
+     </div> 
+     <div class="spec-block">
+      <h4>Communication</h4>
+      <dl>
+       <dt>
+        Webcam
+       </dt>
+       <dd>
+         FHD Webcam with TruTalk™ Dual Microphones
+       </dd>
+       <dt>
+        Wireless LAN
+        <a href="javascript:disclaimer('Wireless')">*</a>
+       </dt>
+       <dd>
+         Intel® Dual-Band Wireless-AC 8260
+       </dd>
+       <dt>
+        Bluetooth
+       </dt>
+       <dd>
+         Bluetooth®
+       </dd>
+       <dt>
+        LAN
+       </dt>
+       <dd>
+         Intel® Ethernet Connection i219-V (10/100/1000)
+       </dd>
+      </dl>
+     </div> 
+     <div class="spec-block">
+      <h4>Power</h4>
+      <dl>
+       <dt>
+        AC Adapter
+       </dt>
+       <dd>
+         45W AC Adapter - PA5177U-1ACA
+       </dd>
+       <dt>
+        Battery
+       </dt>
+       <dd>
+         4-cell 45 Wh - PA5212U-1BRS
+       </dd>
+      </dl>
+     </div> 
+    </div> 
+    <div class="col two"> 
+     <div class="spec-block">
+      <h4>Expansion</h4>
+      <dl>
+       <dt>
+        Media
+       </dt>
+       <dd>
+         SD Card Reader: Secure Digital, Secure Digital High Capacity
+       </dd>
+       <dt>
+        USB Ports
+       </dt>
+       <dd>
+         4 x USB 3.0 ports, USB Sleep and Charge
+       </dd>
+       <dt>
+        HDMI
+       </dt>
+       <dd>
+         HDMI®
+       </dd>
+       <dt>
+        RGB
+       </dt>
+       <dd>
+         RGB port
+       </dd>
+       <dt>
+        DisplayPort
+       </dt>
+       <dd>
+         None
+       </dd>
+       <dt>
+        Docking Connector
+       </dt>
+       <dd>
+         Docking Connector
+       </dd>
+      </dl>
+     </div> 
+     <div class="spec-block">
+      <h4>Software, Support and Security</h4>
+      <dl>
+       <dt>
+        Security and Protection
+       </dt>
+       <dd>
+         Trusted Platform Module (TPM v2.0), Fingerprint Reader, Reinforced Security Cable Lock Slot, HALT Tested Design
+       </dd>
+       <dt>
+        Software
+        <a href="javascript:disclaimer('Software')">*</a>
+       </dt>
+       <dd>
+         1 month trial for new Microsoft® Office 365 customers
+        <a href="http://info.toshiba.com#OfficeTrial" title="Toshiba Legal Disclaimer - Office Trial">*</a>, Intel® Wireless Display, McAfee Live Safe™ (30-day Trial)
+       </dd>
+       <dt>
+        Standards
+       </dt>
+       <dd>
+         ENERGY STAR Qualified, EPEAT Gold, RoHS Compatible
+       </dd>
+       <dt>
+        Standard Limited Warranty
+        <a href="javascript:disclaimer('Warranty')">*</a>
+       </dt>
+       <dd>
+         3 Year Standard Limited Warranty (1 Year on Battery)
+       </dd>
+      </dl>
+     </div> 
+     <div class="spec-block">
+      <h4>Physical Description</h4>
+      <dl>
+       <dt>
+        Inputs and Controls
+       </dt>
+       <dd>
+         AccuPoint® II Pointing Device, Clickpad Pointing Device with Multi-touch Control, Premium Spill-Resistant Raised Tile Backlit Keyboard with 10-key Numeric Pad (black)
+       </dd>
+       <dt>
+        Weight
+        <a href="javascript:disclaimer('Weight')">*</a>
+       </dt>
+       <dd>
+         Starting at 4.96 lbs (2.25 kg)
+       </dd>
+       <dt>
+        Color
+       </dt>
+       <dd>
+         Graphite Black
+       </dd>
+      </dl>
+     </div> 
+    </div> 
+   </div> 
+   <p id="disclaimer"><sup>†</sup>MSRP: Reseller/Retailer pricing may vary. Toshiba is not liable for pricing errors.</p> 
+  </div> 
+  <script type="text/javascript">
+    self.print();
+</script>   
+  <!-- $Revision: 3 $ $Workfile: analyticsInclude.jsp $ --> 
+  <!-- Start Google Reporting --> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-709632-1', 'auto');
+  ga('send', 'pageview');
+
+</script> 
+  <!-- End Google Reporting --> 
+  <!-- $Revision: 2 $ $Workfile: googleInclude.jsp $ --> 
+  <script type="text/javascript" src="/js/coremetrics/emptyfunctions.inc"></script> 
+  <!-- Page took 6  ms --> 
+ </body>
+</html>

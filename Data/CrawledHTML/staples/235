@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta charset="UTF-8"> 
+  <title>It's easy to find the Office Supplies, Copy Paper, Furniture, Ink, Toner, Cleaning Products, Electronics and Technology you need | Staples®</title> 
+  <meta name="PageName" content="Registration"> 
+  <meta name="robots" content="noindex,follow"> 
+  <meta name="description" content="Shop Staples® for everyday low prices and get everything you need for a home office or business. Staples Rewards® members get free shipping every day and up to 5% back in rewards, some exclusions apply."> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <link href="/styleguide/css/staples.min.css" rel="stylesheet"> 
+  <link href="/styleguide/docs/css/signup.css" rel="stylesheet"> 
+ </head> 
+ <body> 
+  <div id="main"></div> 
+  <input type="hidden" name="langId" id="langId" value="-1"> 
+  <input type="hidden" name="catalogId" id="catalogId" value="10051"> 
+  <input type="hidden" name="storeId" id="storeId" value="10001"> 
+  <input type="hidden" name="jumpUrl" id="jumpUrl" value=""> 
+  <input type="hidden" name="authToken" id="authToken" value="-1002%2CnW5Mo%2F6PVQu96kH4KFVTa3YtixU%3D"> 
+  <!--[if IE]>
+<script src="http://assets.staples-static.com/NDM/styleguide/js/polyfills.js"></script>
+<script src="http://assets.staples-static.com/NDM/styleguide/docs/bower_components/es5-shim/es5-shim.min.js"></script>
+<script src="http://assets.staples-static.com/NDM/styleguide/docs/bower_components/es5-shim/es5-sham.min.js"></script>
+<![endif]--> 
+  <script src="/sbdpas/js/jquery-1.11.1.min.js"></script> 
+  <script src="/styleguide/docs/js/staples.min.js"></script> 
+  <script src="https://maps.googleapis.com/maps/api/js?client=gme-staplesinc&amp;libraries=places"></script> 
+  <script src="/signupux/js/libs/addons/registrationBundle.js"></script> 
+  <script src="/signupux/js/registration.js"></script> 
+  <script src="/sbd/js/jsprops.sjs" type="text/javascript"></script> 
+  <script>
+   var BASEURL = "https://api-staples.nd.nudatasecurity.com/2.2/w/w-416554/sync/js/";
+   var nuSessionId ="FuripR1eTlQvONSNkT-qxvz";
+   var placement ="CreateAccount";
+   var placementPage ="1";
+   var pageId = "staplesuserregistration";
+   //Added for loading the nudata script after the pageLoad.
+	STAPLES.Onload.addWindowEvent(function(){
+		var ndScript = document.createElement("script");
+    	ndScript.type = "text/javascript";
+    	ndScript.src = '/sbdpas/20161006025247/js/ndscripts/nd_sync_v02_calls.js';
+    	ndScript.crossOrigin = 'anonymous';
+    	document.body.appendChild(ndScript);      
+   	});
+</script> 
+  <script type="text/javascript">
+	$(window).load(function(){
+		function loadjscssfile(filename, filetype){
+	 		if (filetype=="js"){
+	  			var fileref=document.createElement('script');
+	  			fileref.setAttribute("type","text/javascript");
+	  			fileref.setAttribute("src", filename);
+			}
+	 		else if (filetype=="css"){
+	  			var fileref=document.createElement("link");
+	  			fileref.setAttribute("rel", "stylesheet");
+	  			fileref.setAttribute("type", "text/css");
+	  			fileref.setAttribute("href", filename);
+	 		}
+	 		if (typeof fileref!="undefined")
+  				document.getElementsByTagName("head")[0].appendChild(fileref);
+	 	}
+	
+		loadjscssfile("/sbdpas/20161006025247/onlineopinionV5/oo_style_english.css", "css"); //MAIN OPINIONLAB STYLESHEET
+		loadjscssfile("/sbdpas/20161006025247/onlineopinionV5/oo_tab.js", "js"); //MAIN OPINIONLAB ENGINE
+	});
+</script> 
+  <script type="text/javascript">
+
+  $(window).load(function(){
+	 
+           var s = document.createElement("script");
+            s.type = "text/javascript";
+            s.src = '/sbdpas/20161006025247/js/powerfront/powerfrontchat.js';
+            s.crossOrigin = 'anonymous';
+            document.body.appendChild(s);
+       
+  });
+</script>  
+ </body>
+</html>

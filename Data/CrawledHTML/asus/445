@@ -1,0 +1,1496 @@
+<!doctype html>
+<!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">-->
+<html id="ctl00_HtmlTag" xmlns="http://www.w3.org/1999/xhtml" lang="no-NO">
+ <head id="ctl00_Head1">
+  <!--Info:I-49-->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
+  <meta name="Keywords" content="ASUS,Laptop,VGA,Tablet,MB,android phone,Informasjon om ASUS' nettsted,Kontakt ASUS service og support"> 
+  <meta id="ctl00_wmx_websiteid" content="Norway">
+  <meta id="ctl00_wmx_engagement">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="author">
+  <meta name="msvalidate.01" content="34DA1E6382CC8063A22EB8CAEEF605A4">
+  <!--uG6WBgek9hWb3x4WemdJDA==-->
+  <script>var isProductPage = ''; var addthis_settingLanguaheConfig='no';var in_page = 'ASUS_Website_Information'; var tracking_country = 'Norway';var EntryPageCookie = '1';var newVersionMenu = '1';</script>
+  <title>
+	Informasjon om ASUS' nettsted - Kontakt ASUS service og support 
+</title>
+  <!--[if lt IE 7 ]> <meta content='0; url=/no/BrowserInfo.htm' http-equiv='refresh' /> <![endif]-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700" rel="stylesheet" type="text/css"> 
+  <script>
+        if (window.location.host == "www.asus.com.cn") {
+            !window.jQuery && document.write(unescape('%3Cscript src="/js/web/jquery.js"%3E%3C/script%3E'))
+        }
+        else {
+            document.write(unescape('%3Cscript src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"%3E%3C/script%3E'));
+        }
+    </script> 
+  <script>
+        if (window.location.host != "www.asus.com.cn") {
+            !window.jQuery && document.write(unescape('%3Cscript src="/js/web/jquery.js"%3E%3C/script%3E'))
+        }
+    </script> 
+  <link rel="stylesheet" type="text/css" media="all" href="/css/2015/reset.css">
+  <link href="/css/2015/dist/base.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/web/business.css" type="text/css">
+  <link rel="stylesheet" href="/css/web/mybootstrap_to_cut.css" type="text/css">
+  <link rel="stylesheet" href="/css/web/overview.css" type="text/css"> 
+  <link rel="stylesheet" href="/css/about.css" type="text/css"> 
+  <link rel="stylesheet" href="/css/tabbedPanels.css" type="text/css"> 
+  <script type="text/javascript" src="/js/jquery.include.pack.js"></script> 
+  <script type="text/javascript" src="/js/tabbedPanels.js"></script>
+  <link href="/css/2015/dist/base_responsive.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="all" href="/css/2015/main.css"> 
+  <!-- Le fav and touch icons --> 
+  <link rel="shortcut icon" href="/media/img/favicon.ico"> 
+  <!--<link rel="apple-touch-icon" href="/media/img/apple-touch-icon.png" /><link rel="apple-touch-icon" sizes="72x72" href="/media/img/apple-touch-icon-72x72.png" /><link rel="apple-touch-icon" sizes="114x114" href="/media/img/apple-touch-icon-114x114.png" />--> 
+  <script src="/js/web/dist/asus.min.js"></script> 
+  <script type="text/javascript" src="/js/web/XML.js"></script> 
+  <script type="text/javascript" src="/js/web/dist/default.min.js"></script> 
+  <script src="/js/web/asus-setting.js"></script> 
+  <script src="/js/web/dist/bootstrap.min.js"></script> 
+  <!--<script type="text/javascript" src="/js/web/jquery.bt.min.js"></script>--> 
+  <script type="text/javascript" src="/js/2015/dist/main.min.js"></script> 
+  <!--[if lt IE 9]>
+    <script src="/js/web/html5.js"></script>
+    <script src="/js/web/respond.js"></script>
+    <link rel="stylesheet" type="text/css" media="all" href="/css/2015/ie-fix.css" />
+ <![endif]--> 
+  <script type="text/javascript">
+        var Global_Tracking_Flag = (getWebsite() == "global" && in_page == "Index") ? "0" : "1";
+        var SecureHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+        var addthis_settingConfig = "";
+        var addthis_settingLanguaheConfig = "";
+        if (getWebsite() == "cafr") {
+            addthis_settingLanguaheConfig = "fr";
+        }
+
+        var cookie_name = "";
+
+        if (isMultipleLanguageWebsite()) {
+            var strLang = querySt('Lang');
+            if (strLang != '') {
+                add_cookie('Lang', strLang);
+            }
+        }
+        
+        function setClickRelationIdCookie(ProductGroup_RelationId) {
+            if (!getcookiedata("ProductGroup_RelationId")) {
+                add_cookie('ProductGroup_RelationId', ProductGroup_RelationId);
+            }
+            else {
+                document.cookie = "ProductGroup_RelationId = '' ;path=/;domain=.asus.com;";
+                add_cookie('ProductGroup_RelationId', ProductGroup_RelationId);
+            }
+        }
+        
+        function setBusinessCookie(type) {
+            if (!getcookiedata("BuinsessCookie")) {
+                add_cookie("isBusiness", type);
+            }
+            else {
+                document.cookie = "BuinsessCookie = '' ;path=/;domain=.asus.com;";
+                add_cookie("isBusiness", type);
+            }
+        }
+
+   
+        
+
+        if (getWebsite() != "cn") {
+            (function() {
+                var sc = document.createElement("script"); sc.type = "text/javascript";
+                sc.src = "//apis.google.com/js/plusone.js";
+                var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(sc, s);
+            })();
+        }
+   </script> 
+  <link href="/css/2015/dist/APIs.css" rel="stylesheet">
+  <link href="/css/2015/dist/full_style.css" rel="stylesheet">
+  <script src="/js/web/asus_script.js"></script>
+  <link id="ctl00_localcss" rel="stylesheet" type="text/css"> 
+  <style>
+        iframe[name="google_conversion_frame"] {display: none;}
+        #main-product-nav div { display:none; }
+        #main-search,#main-product-nav { height:auto; }
+   </style> 
+  <script language="javascript">
+    if (tracking_country != "" && Global_Tracking_Flag == "1") {
+        var _wmxq = _wmxq || [];
+        _wmxq.push(["_getTracker", tracking_country, "website", "etrk.asus.com"]); _wmxq.push(["trackPageview"]);
+        (function() {
+            var sc = document.createElement("script"); sc.type = "text/javascript"; sc.async = true;
+            sc.src = ("https:" == document.location.protocol ? "https:" : "http:") + "//etrk.asus.com/web_service/TrackingJS/wmxtracker.js";
+            var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(sc, s);
+        })();
+    }
+</script> 
+  <script>
+    function ButtonTrk(level, product, type, detail_info) {
+        if (tracking_country != "") {
+            var _item = _item || [];
+            _item.push("1=" + tracking_country);
+            _item.push("2=" + level);
+            _item.push("5=" + product);
+            _item.push("6=" + type);
+            _item.push("7=" + detail_info);
+            try {
+                wmx_BtnTrack(_item);
+            }
+            catch (err) { }
+        }
+    }
+</script> 
+  <script>
+    if (getWebsite() == "cn") {
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?b4671500ff917b268437ff5be30c0ff0";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    }
+
+</script> 
+ </head> 
+ <body class=""> 
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({ 'gtm.start':
+new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+'//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NJRLM8');</script> 
+  <!-- End Google Tag Manager --> 
+  <div class="aai-point-bar"> 
+   <div class="aai-pb-inner"> 
+    <div class="aai-more-point"> 
+     <i id="dropMsg" class="aai-circle-num"></i> 
+    </div> 
+   </div> 
+  </div> 
+  <form name="aspnetForm" method="post" action="Rewrite.aspx" id="aspnetForm"> 
+   <div> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUBMA9kFgJmD2QWAmYPFgIeBGxhbmcFBW5vLU5PFgRmD2QWEGYPFgIeBFRleHQFEDwhLS1JbmZvOkktNDktLT5kAgUPFgIeB2NvbnRlbnQFZUFTVVMsTGFwdG9wLFZHQSxUYWJsZXQsTUIsYW5kcm9pZCBwaG9uZSxJbmZvcm1hc2pvbiBvbSBBU1VTJyBuZXR0c3RlZCxLb250YWt0IEFTVVMgc2VydmljZSBvZyBzdXBwb3J0ZAINDxYCHwEFHzwhLS11RzZXQmdlazloV2IzeDRXZW1kSkRBPT0tLT5kAg4PFgIfAWVkAg8PFgIfAQXNATxzY3JpcHQ+dmFyIGlzUHJvZHVjdFBhZ2UgPSAnJzsgdmFyIGFkZHRoaXNfc2V0dGluZ0xhbmd1YWhlQ29uZmlnPSdubyc7dmFyIGluX3BhZ2UgPSAnQVNVU19XZWJzaXRlX0luZm9ybWF0aW9uJzsgdmFyIHRyYWNraW5nX2NvdW50cnkgPSAnTm9yd2F5Jzt2YXIgRW50cnlQYWdlQ29va2llID0gJzEnO3ZhciBuZXdWZXJzaW9uTWVudSA9ICcxJzs8L3NjcmlwdD5kAhEPFgIfAQViPCEtLVtpZiBsdCBJRSA3IF0+IDxtZXRhIGNvbnRlbnQ9JzA7IHVybD0vbm8vQnJvd3NlckluZm8uaHRtJyBodHRwLWVxdWl2PSdyZWZyZXNoJyAvPiA8IVtlbmRpZl0tLT5kAhMPFgIfAQVxPGxpbmsgaHJlZj0iaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PVJvYm90bzo0MDAsMTAwLDMwMCw1MDAsNzAwIiByZWw9InN0eWxlc2hlZXQiIHR5cGU9InRleHQvY3NzIj5kAiMPFgIfAQWgATxsaW5rIGhyZWY9Ii9jc3MvMjAxNS9kaXN0L0FQSXMuY3NzIiByZWw9InN0eWxlc2hlZXQiPjxsaW5rIGhyZWY9Ii9jc3MvMjAxNS9kaXN0L2Z1bGxfc3R5bGUuY3NzIiByZWw9InN0eWxlc2hlZXQiPjxzY3JpcHQgc3JjPSIvanMvd2ViL2FzdXNfc2NyaXB0LmpzIj48L3NjcmlwdD5kAgMPZBYGAgEPZBYCZg9kFgJmD2QWAmYPFgIfAQVoPHNjcmlwdD5zdHJMYW5nID0gJ25vJztzdHJSZWdpc3Rlcj0nUmVnaXN0cmVyJzt2YXIgc3RyTG9naW4gPSAnTE9HRyBQw4UnO3ZhciBTaG93TWluaUNhcnQgPSAnMSc8L3NjcmlwdD5kAgMPZBYCZg9kFghmDxYCHwEFTDxzY3JpcHQ+dmFyIHN0clR5cGUgPSAnYm90dG9tJzsgdmFyIGlkPSAnNzg5Myc7IHZhciBzdHJJRCA9ICc3ODkzJzs8L3NjcmlwdD5kAgIPZBYCZg8WAh8BBSk8c2NyaXB0PnZhciBicmVhZGNydW1iU3RyID0gJywnOzwvc2NyaXB0PmQCBA8WAh8BBR1JbmZvcm1hc2pvbiBvbSBBU1VTJyBuZXR0c3RlZGQCCA9kFgICAQ8WAh4JaW5uZXJodG1sBb8SPGg0PjxzcGFuIGNsYXNzPSJ0aXRsZS1CbHVlIj5WZWxrb21tZW4gdGlsIEFTVVMgU2VydmljZSBvZyBTdXBwb3J0PC9zcGFuPjwvaDQ+DQo8cD5BU1VTIHNlcnZpY2Ugb2cgc3VwcG9ydCBlciBlbiB2aWt0aWcgZGVsIGF2IHYmIzIyOTtyIGZyZW1nYW5nLiBWaSBnaiYjMjQ4O3IgdiYjMjI5O3J0IHl0dGVyc3RlIGZvciAmIzIyOTsgZ2omIzI0ODtyZSB2JiMyMjk7cmUga3VuZGVyIGZvcm4mIzI0ODt5ZGUuIEFTVVMgaGFyIHV0dmlrbGV0IGRhdGFtYXNraW5lciBpIG92ZXIgMjAgJiMyMjk7ciwgb2cgdmkgdmV0IGF0IGVuIEFTVVMtZW5oZXQgdmlsIG9wcGZ5bGxlIGRpbmUga3ZhbGl0ZXRza3Jhdi4gVmkgaGFyIGlra2UgYmFyZSBmJiMyMjk7dHQgdXRtZXJrZWxzZXIgZm9yIHYmIzIyOTtyZSBwcm9kdWt0ZXIsIG1lbiBvZ3MmIzIyOTsgdiYjMjI5O3Igc2VydmljZSBvZyBzdXBwb3J0LiBEZXR0ZSBrcmV2ZXIgZXQgc3RvcnQgZW5nYXNqZW1lbnQsIG9nIG1lZCB2JiMyMjk7ciB1bmlrZSAyLSYjMjI5O3JzIGdhcmFudGkqIHAmIzIyOTsgYWxsZSB2JiMyMjk7cmUgYiYjMjMwO3JiYXJlIGRhdGFtYXNraW5lciBvZyBuZXRib29rcyBrYW4gZHUgYWxsdGlkIGYmIzI0ODtsZSBkZWcgdHJ5Z2cuPGJyIC8+KmthbiB2YXJpZXJlIG1lbGxvbSB1bGlrZSBlbmhldGVyIG9nIGZvcmhhbmRsZXJlLiBLb250YWt0IG9zcyBmb3IgbWVyIGluZm9ybWFzam9uPC9wPg0KPGg0PjxzcGFuIGNsYXNzPSJ0aXRsZS1CbHVlIj5TdXBwb3J0PC9zcGFuPjwvaDQ+DQo8cD5PbSBkdSB0cmVuZ2VyIGhqZWxwIG1lZCBkaXR0IEFTVVMtcHJvZHVrdCBlciBkdSB2ZWxrb21tZW4gdGlsICYjMjI5OyBrb250YWt0ZSB2JiMyMjk7ciB0ZWxlZm9uc3VwcG9ydCogZWxsZXIgc2VuZGUgb3NzIGVuIGVwb3N0IHZpYSB2JiMyMjk7cnQgd2ViLWZvcm11bGFyLiBFbiBBU1VTLWFnZW50IHZpbCBnaiYjMjQ4O3JlIHNpdHQgYmVzdGUgZm9yICYjMjI5OyBzdmFyZSBwJiMyMjk7IGRpbmUgc3AmIzI0ODtyc20mIzIyOTtsLjxiciAvPip0ZWxlZm9uc3VwcG9ydGVuIGhqZWxwZXIgZGVnIG1lZCBzcCYjMjQ4O3JzbSYjMjI5O2wgb20gZGl0dCBuZXR0YnJldHQvdGFibGV0LCBiJiMyMzA7cmJhcmUgZGF0YW1hc2tpbiwgbmV0dHZlcmtzcHJvZHVrdGVyLCBza2plcm1lciwgZWVlLXByb2R1a3RlciwgbW9iaWx0ZWxlZm9uZXIgb2cgc3Rhc2pvbiYjMjMwO3JlIGRhdGFtYXNraW5lci48L3A+DQo8aDQ+PHNwYW4gY2xhc3M9InRpdGxlLUJsdWUiPlNwJiMyNDg7cnNtJiMyMjk7bCBvbSBwcm9kdWt0dmVpbGVkbmluZzwvc3Bhbj48L2g0PkR1IGVyIHZlbGtvbW1lbiB0aWwgJiMyMjk7IGtvbnRha3RlIG9zcyBvbSBkdSBoYXIgc3AmIzI0ODtyc20mIzIyOTtsIGVsbGVyIHRyZW5nZXIgdmVpbGVkbmluZyBpbm5lbiBkdSBza2FsIGtqJiMyNDg7cGUgQVNVUy1wcm9kdWt0ZXIgDQo8cD4gPC9wPg0KPGg0PjxzcGFuIGNsYXNzPSJ0aXRsZS1CbHVlIj5Lb250YWt0IFN1cHBvcnQgb2cgU2VydmljZTwvc3Bhbj48L2g0PiYjMTk3O3BlbnQ6IE1hbmRhZyAmIzgyMTE7IEZyZWRhZywgMDktMTg6PGJyIC8+VGVsZWZvbiAoTm9yZ2UpOiAyMzE2MjY4MjxiciAvPjxzdHJvbmc+T0JTPC9zdHJvbmc+LiB0ZWxlZm9uc3VwcG9ydGVuIGhqZWxwZXIgZGVnIG1lZCBzcCYjMjQ4O3JzbSYjMjI5O2wgb20gZGl0dCBuZXR0YnJldHQvdGFibGV0LCBiJiMyMzA7cmJhcmUgZGF0YW1hc2tpbiwgbmV0dHZlcmtzcHJvZHVrdGVyLCBza2plcm1lciwgZWVlLXByb2R1a3RlciwgbW9iaWx0ZWxlZm9uZXIgb2cgc3Rhc2pvbiYjMjMwO3JlIGRhdGFtYXNraW5lci4gRm9yIHJlc3RlcmVuZGUgcHJvZHVrdGVyIHZlbm5saWdzdCBicnVrIHYmIzIyOTtydCB3ZWJmb3JtdWxhci4gDQo8cD4gPC9wPg0KPHA+RXBvc3QgdmlhIGRldHRlIGZvcm11bGFyZXQ6PGJyIC8+PGEgaHJlZj0iaHR0cDovL3ZpcC5hc3VzLmNvbS9lc2VydmljZS90ZWNoc2Vydi5hc3B4IiB0YXJnZXQ9Il9ibGFuayI+aHR0cDovL3ZpcC5hc3VzLmNvbS9lc2VydmljZS90ZWNoc2Vydi5hc3B4PC9hPiA8YnIgLz48YnIgLz5Ecml2ZXJlLCBtYW51YWxlciBvZyBGQVE6PGJyIC8+PGEgaHJlZj0iaHR0cDovL3N1cHBvcnQuYXN1cy5jb20vRG93bmxvYWQvT3B0aW9ucy5hc3B4P1NMYW5ndWFnZT1lbiZhbXA7dHlwZT0xIiB0YXJnZXQ9Il9ibGFuayI+aHR0cDovL3N1cHBvcnQuYXN1cy5jb20vRG93bmxvYWQvT3B0aW9ucy5hc3B4P1NMYW5ndWFnZT1lbiZhbXA7dHlwZT0xPC9hPiA8YnIgLz48YnIgLz5NZXIgaW5mb3JtYXNqb246PGJyIC8+PGEgaHJlZj0iaHR0cDovL3N1cHBvcnQuYXN1cy5jb20vIiB0YXJnZXQ9Il9ibGFuayI+aHR0cDovL3N1cHBvcnQuYXN1cy5jb20vPC9hPiA8L3A+ZAIFD2QWAmYPZBYQZg8WAh4LXyFJdGVtQ291bnQCAxYGAgEPZBYCZg8VAxRodHRwOi8vcm9nLmFzdXMuY29tLwZfYmxhbmsRUk9HIEludGVybmF0aW9uYWxkAgIPZBYCZg8VAxhodHRwOi8vemVuYm9vay5hc3VzLmNvbS8GX2JsYW5rB1pFTkJPT0tkAgMPZBYCZg8VAxpodHRwOi8vd3d3LmFzdXNkZXNpZ24uY29tLwZfYmxhbmsSQXN1cyBEZXNpZ24gQ2VudGVyZAIBDxYCHwEF6AMgDQogICAgICAgICAgICAgICAgPGxpIGNsYXNzPSJuYXZiYXItbGkiPjxhIGhyZWY9Ii9uby9Bd2FyZC9Bd2FyZD8mQXJlYT1OT1JXQVkiIGlkPSJtZW51X2F3YXJkcyIgdGFyZ2V0PSJfc2VsZiIgb25jbGljaz0iZ29vZ2xlVHJhY2tFdmVudCgnaW5kZXhfbWVudScsIHRoaXMsIHRydWUpO3JldHVybiBmYWxzZTsiPlV0bWVya2Vsc2VyPC9hPjwvbGk+DQogICAgICAgICAgICAgICAgPGxpIGNsYXNzPSJkaXZpZGVyLXZlcnRpY2FsIj48L2xpPg0KICAgICAgICAgICAgICAgIDxsaSBjbGFzcz0ibmF2YmFyLWxpIj48YSBocmVmPSIvbm8vTmV3cy8iIGlkPSJtZW51X25ld3MiPk55aGV0ZXI8L2E+PC9saT4NCiAgICAgICAgICAgICAgICA8bGkgY2xhc3M9ImRpdmlkZXItdmVydGljYWwiPjwvbGk+PGxpIGNsYXNzPSJuYXZiYXItbGkiPjxhIGhyZWY9L25vL0Fib3V0X0FTVVMvT3BwcmlubmVsc2VuIGlkPSJtZW51X2Fib3V0YXN1cyI+T00gQVNVUzwvYT48L2xpPmQCAg8WAh8EAgYWDAIBD2QWAmYPFQMqL25vL0FTVVNfV2Vic2l0ZV9JbmZvcm1hdGlvbi9Db250YWN0LUFTVVMyBF90b3ASS29udGFrdCBBU1VTIE5vcmdlZAICD2QWAmYPFQMpL25vL0FTVVNfV2Vic2l0ZV9JbmZvcm1hdGlvbi9Db250YWN0LUFTVVMFX3NlbGYfS29udGFrdCBBU1VTIHNlcnZpY2Ugb2cgc3VwcG9ydGQCAw9kFgJmDxUDES9uby9pbnZlc3Rvci5hc3B4BV9zZWxmFEludmVzdG9yZm9yYmluZGVsc2VyZAIED2QWAmYPFQMrL25vL0FTVVNfV2Vic2l0ZV9JbmZvcm1hdGlvbi9Kb2JibXVsaWdoZXRlcgRfdG9wDkpvYmJtdWxpZ2hldGVyZAIFD2QWAmYPFQMcaHR0cDovL2Nzci5hc3VzLmNvbS9lbmdsaXNoLwZfYmxhbmsGT00gQ1NSZAIGD2QWAmYPFQMWaHR0cDovL3ByZXNzLmFzdXMuY29tLwZfYmxhbmsJUHJlc3Nlcm9tZAIDDxYCHwQCAhYEAgEPZBYCZg8VAz5odHRwOi8vd3d3LmFzdXMuY29tL05PL0FTVVNfV2Vic2l0ZV9JbmZvcm1hdGlvbi9Db250YWN0LUFTVVMyLwVfc2VsZhJLb250YWt0IEFTVVMgTm9yZ2VkAgIPZBYCZg8VAz1odHRwOi8vd3d3LmFzdXMuY29tL05PL0FTVVNfV2Vic2l0ZV9JbmZvcm1hdGlvbi9Db250YWN0LUFTVVMvBV9zZWxmH0tvbnRha3QgQVNVUyBzZXJ2aWNlIG9nIHN1cHBvcnRkAgQPFgIfBAIDFgYCAQ9kFgJmDxUDIGh0dHA6Ly93d3cueW91dHViZS5jb20vdXNlci9hc3VzCFlvdSBUdWJlKC9tZWRpYS9nbG9iYWwvaWNvbnMvc29jaWFsbWVkaWEvNTJfbi5wbmdkAgIPZBYCZg8VAzRodHRwczovL3d3dy5mYWNlYm9vay5jb20vQVNVUz9zaz1hcHBfMTQyNDg2MDcyNDg1MTc0CEZhY2Vib29rKC9tZWRpYS9nbG9iYWwvaWNvbnMvc29jaWFsbWVkaWEvNTRfbi5wbmdkAgMPZBYCZg8VAyVodHRwczovL3d3dy5waW50ZXJlc3QuY29tL2FzdXNub3JkaWMvCmFzdXNub3JkaWMpL21lZGlhL2dsb2JhbC9pY29ucy9zb2NpYWxtZWRpYS8yMzdfbi5wbmdkAgUPFgIfBGZkAgYPFgIfAQW6ATxhIGhyZWY9Imh0dHA6Ly93d3cuYXN1cy5jb20vZW50cnkuaHRtIiBvbmNsaWNrPSJnb29nbGVUcmFja0V2ZW50KCdDb3VudHJ5X0xhbmdfTWVudScsIHRoaXMsIHRydWUpO3JldHVybiBmYWxzZTsiIHRpdGxlPSJlbnRyeV9wYWdlIj5Ob3J3YXkgLyA8c3BhbiBjbGFzcz0ibGFuZ19zZXQiPiBOb3J3ZWdpYW48L3NwYW4+PC9hPmQCBw8WAh8EAgIWBAIBD2QWAmYPFQM0L25vL1Rlcm1zX29mX1VzZV9Ob3RpY2VfUHJpdmFjeV9Qb2xpY3kvT2ZmaWNpYWwtU2l0ZQRfdG9wHEt1bm5nasO4cmluZyBvbSBicnVrc3ZpbGvDpXJkAgIPZBYCZg8VAzUvbm8vVGVybXNfb2ZfVXNlX05vdGljZV9Qcml2YWN5X1BvbGljeS9Qcml2YWN5X1BvbGljeQRfdG9wEVBlcnNvbnZlcm5zcG9saWN5ZGTo7bmkYOE8GY80ZBaZERzs2VdzpYAU4P3MXvSCVk6Yvw=="> 
+   </div> 
+   <div class="outer-wrapper"> 
+    <div id="af-container"> 
+     <div id="af-header"> 
+      <div class="af-inner"> 
+       <a class="logo" href="/no/"></a> 
+       <span class="mobile-menu-toggle"><i class="icon icon-css-menu"></i></span> 
+       <div class="nav-bar"> 
+        <!--Main Menu--> 
+        <div class="main-area"> 
+         <div class="nav-main nav">
+          <ul> 
+           <li data-target="products-menu"><a>Produkter</a></li> 
+           <li data-target="hot-menu"><a>Hva er populært</a></li> 
+           <li data-target="commercial-menu"><a>Kommersiell</a></li> 
+           <li data-target="service-menu"><a>Service</a></li> 
+          </ul> 
+         </div> 
+        </div> 
+        <div class="sub-area"> 
+         <div class="nav-member nav"> 
+          <ul> 
+           <!--member--> 
+           <li class="member-item member-info" data-lang="no" data-appid="0000000002" data-js-returnurl="asus.url.the_url" data-register="Registrer"> <script>strLang = 'no';strRegister='Registrer';var strLogin = 'LOGG PÅ';var ShowMiniCart = '1'</script> <a>LOGG PÅ <i class="icon icon-profile"></i></a> 
+            <div class="sub-block user-profile"> 
+             <div class="user-img"> 
+              <img src="" alt=""> 
+             </div> 
+             <div class="user-name"></div> 
+             <a href="" class="member-center-btn">ASUS Account</a> 
+             <a href="" class="logout">Logout</a> 
+            </div> </li> 
+           <!--message--> 
+           <li class="member-item msg-center" style="display:none"> <a title="Message"> <i class="icon icon-msg"></i><span class="count"></span></a> 
+            <div class="sub-block"> 
+             <p class="top-title">Message Center</p> 
+             <div class="af-msg-center-group"> 
+              <ul class="sender-list"></ul> 
+             </div> 
+             <div class="af-msg-center-footer"> 
+              <a href="">Display all</a> 
+             </div> 
+            </div> </li> 
+           <!--recently/compare--> 
+           <li id="menu_compare" class="aai-mm-item member-item products-compare"> 
+            <div class="aai-mm-sub aai-mms-list sub-block compare-block"> 
+             <div class="aai-mmst-inner"> 
+              <div class="aai-mst-header"> 
+               <a data-id="viewed-list"></a> 
+              </div> 
+              <!-- Viewed --> 
+              <div class="aai-tls-se " id="viewed-list"> 
+               <div class="aai-tm"> 
+                <ul class="aai-vls"> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                </ul> 
+               </div> 
+              </div> 
+              <!-- Viewed @end --> 
+              <!-- compare --> 
+              <div class="aai-tls-se " id="div_compare_panel"> 
+               <div class="aai-tm"> 
+                <div class="compare_group"></div> 
+               </div> 
+              </div> 
+              <!-- compare @end--> 
+             </div> 
+            </div> </li> 
+           <!-- Shopping Cart--> 
+           <li class="member-item shopcart"> 
+            <div class="sub-block"> 
+             <div class="cart-wrap"> 
+             </div> 
+            </div> </li> 
+          </ul> 
+         </div> 
+         <!--search--> 
+         <div class="search-bar"> 
+          <a class="aai-mm-btn hide"><i class="aai-icons aai-icon-search"></i></a> 
+          <input type="text" class="input-search" id="top-search-bar" name="q" autocomplete="off"> 
+          <input type="text" id="searchinputDefault" class="input-search hide"> 
+          <button class="btn btn-search-submit" onclick="Search();return false;"><i class="icon icon-search"></i></button> 
+          <div class="search-result"></div> 
+         </div> 
+        </div> 
+        <!--Sub Menu--> 
+        <div class="submenu-area">
+         <div class="products-menu submenu"> 
+          <h3 class="title">Produkter</h3> 
+          <ul class="nav"> 
+           <li class="products-item" data-submenu-id="1"><a>Mobiltelefon</a></li> 
+           <li class="products-item" data-submenu-id="78"><a>Bærbar datamaskin og 2-i-1-datamaskiner</a></li> 
+           <li class="products-item" data-submenu-id="155"><a>Nettbrett</a></li> 
+           <li class="products-item" data-submenu-id="232"><a>Hovedkort</a></li> 
+           <li class="products-item" data-submenu-id="309"><a>Grafikkort</a></li> 
+           <li class="products-item" data-submenu-id="386"><a>Bærbart utstyr og helsetjenester</a></li> 
+           <li class="products-item" data-submenu-id="463"><a>Stasjonære datamaskiner og alt-i-ett-datamaskiner</a></li> 
+           <li class="products-item" data-submenu-id="540"><a>Skjerm</a></li> 
+           <li class="products-item" data-submenu-id="617"><a>Nettverk</a></li> 
+           <li class="products-item" data-submenu-id="694"><a>Lyd</a></li> 
+           <li class="products-item" data-submenu-id="771"><a>Hjem og bil</a></li> 
+           <li class="products-item" data-submenu-id="848"><a>Eksternt utstyr</a></li> 
+           <li class="products-item" data-submenu-id="925"><a>Spilling</a></li> 
+          </ul> 
+          <div class="display-area"> 
+           <ul class="sub-products-list sub-cat-list"> 
+            <li class="products-1 sub-item"> <h3 class="origin-title">Mobiltelefon</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/no/Phone-Accessory/">Telefontilbehør</a> </h4>
+              <ul> 
+               <li><a href="/no/Phone-Accessory/Power-Banks-Products/">Strømbank</a></li> 
+               <li><a href="/no/Phone-Accessory/Adapters-Products/">Adaptere</a></li> 
+               <li><a href="/no/Phone-Accessory/Cases-Covers-Sleeves-Products/">Vesker, deksler og futteraler</a></li> 
+               <li><a href="/no/Phone-Accessory/Headphones-Headsets-Products/">Hodetelefoner og hodesett</a></li> 
+               <li><a href="/no/Phone-Accessory/Miracast-Products/">Miracast</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/no/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/no/ProductLevel1/Topmenu/1.png" alt="">
+                </div> 
+                <div class="title">
+                 ZenFone 4 (A400CG)
+                </div> 
+                <div class="summary">
+                 Mobility in style
+                </div> Lær mer</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-78 sub-item two-column"> <h3 class="origin-title">Bærbar datamaskin og 2-i-1-datamaskiner</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/no/Notebooks/">Bærbare datamaskiner</a> </h4>
+              <ul> 
+               <li><a href="/no/Notebooks/Zenbook-Series-Products/">ASUS Zenbook-serien</a></li> 
+               <li><a href="/no/Notebooks/Gaming-Series-Products/">Spillserien</a></li> 
+               <li><a href="/no/Notebooks/N-series-Products/">N-serien</a></li> 
+               <li><a href="/no/Notebooks/K-A-series-Products/">K/A-serien</a></li> 
+               <li><a href="/no/Notebooks/X-series-Products/">X-serien</a></li> 
+               <li><a href="/no/Notebooks/Chromebook-Products/">Chromebook</a></li> 
+               <li><a href="/no/Notebooks/E-Series-Products/">ASUS EeeBook-serien</a></li> 
+               <li><a href="/no/Notebooks/Vivobook-Series-Products/">V Series</a></li> 
+               <li><a href="/no/Notebooks/S-Series-Products/">VivoBook-serien</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/no/2-in-1-PCs/">2-i-1-datamaskiner</a> </h4>
+              <ul> 
+               <li><a href="/no/2-in-1-PCs/Transformer-Book-series-Detachable-Products/">Transformer Book-serien (avtagbar)</a></li> 
+               <li><a href="/no/2-in-1-PCs/Transformer-Book-series-Convertible-Products/">Transformer Book-serien (Convertible)</a></li> 
+               <li><a href="/no/2-in-1-PCs/VivoBook-Flip-Series-Products/">VivoBook Flip Series</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/no/Notebooks-Accessory/">Tilbehør for bærbare datamaskiner</a> </h4>
+              <ul> 
+               <li><a href="/no/Notebooks-Accessory/Adapters-Products/">Adaptere</a></li> 
+               <li><a href="/no/Notebooks-Accessory/Stylus-Products/">Pekepenn</a></li> 
+               <li><a href="/no/Notebooks-Accessory/Docks-Products/">Dokkingstasjoner</a></li> 
+               <li><a href="/no/Notebooks-Accessory/Screen-Protectors-Products/">Skjermbeskyttere</a></li> 
+               <li><a href="/no/Notebooks-Accessory/Cases-Covers-Sleeves-Products/">Vesker, deksler og futteraler</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/no/Notebooks/K501LB/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/no/ProductLevel1/Topmenu/78.png" alt="">
+                </div> 
+                <div class="title">
+                 K501LB
+                </div> 
+                <div class="summary">
+                 Stay Cool with Metallic Chic
+                </div> Lær mer</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-155 sub-item"> <h3 class="origin-title">Nettbrett</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/no/Tablets/">Nettbrett</a> </h4>
+              <ul> 
+               <li><a href="/no/Tablets/ZenPad-Products/">ZenPad</a></li> 
+               <li><a href="/no/Tablets/Transformer-Pad-Products/">Transformer Pad</a></li> 
+               <li><a href="/no/Tablets/Vivo-Tab-Products/">Vivo Tab</a></li> 
+               <li><a href="/no/Tablets/Nexus-Products/">Nexus</a></li> 
+               <li><a href="/no/Tablets/MeMO-Pad-Products/">MeMO Pad</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/no/Tablet-Accessory/">Nettbrettilbehør</a> </h4>
+              <ul> 
+               <li><a href="/no/Tablet-Accessory/Adapters-Products/">Adaptere</a></li> 
+               <li><a href="/no/Tablet-Accessory/Cases-Covers-Sleeves-Products/">Vesker, deksler og futteraler</a></li> 
+               <li><a href="/no/Tablet-Accessory/Screen-Protectors-Products/">Skjermbeskyttere</a></li> 
+               <li><a href="/no/Tablet-Accessory/Headphones-Headsets-Products/">Hodetelefoner og hodesett</a></li> 
+               <li><a href="/no/Tablet-Accessory/Keyboards-Products/">Tastatur</a></li> 
+               <li><a href="/no/Tablet-Accessory/Docks-Products/">Dokkingstasjoner</a></li> 
+               <li><a href="/no/Tablet-Accessory/Stylus-Products/">Pekepenn</a></li> 
+               <li><a href="/no/Tablet-Accessory/Miracast-Products/">Miracast</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/no/Tablets/ASUS_ZenPad_C_70_Z170C/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/no/ProductLevel1/Topmenu/155.png" alt="">
+                </div> 
+                <div class="title">
+                 ASUS ZenPad C 7.0 (Z170C)
+                </div> 
+                <div class="summary">
+                 Et stilig og prisgunstig 7-tommers nettbrett som leverer allround-underholdning
+                </div> Lær mer</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-232 sub-item"> <h3 class="origin-title">Hovedkort</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/no/Motherboards/">Hovedkort</a> </h4>
+              <ul> 
+               <li><a href="/no/Motherboards/ASUS-Prime-Products/">ASUS (Signature)</a></li> 
+               <li><a href="/no/Motherboards/ROG-Republic-of-Gamers-Products/">ROG - Republic of Gamers</a></li> 
+               <li><a href="/no/Motherboards/Pro-Gaming-Products/">Pro Gaming</a></li> 
+               <li><a href="/no/Motherboards/TUF-24-7-Durability-Products/">TUF – 24/7-holdbarhet</a></li> 
+               <li><a href="/no/Motherboards/Commercial-Products/">Kommersiell</a></li> 
+               <li><a href="/no/Motherboards/Workstation-Products/">Arbeidsstasjon</a></li> 
+               <li><a href="/no/Motherboards/Intel-platform-Products/">Intel-plattform</a></li> 
+               <li><a href="/no/Motherboards/AMD-platform-Products/">AMD-plattform</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"> <a href="/no/Motherboard-Accessory/">Hovedkorttilbehør</a> </h4>
+              <ul> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/no/Motherboards/N3150IC/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/no/ProductLevel1/Topmenu/232.png" alt="">
+                </div> 
+                <div class="title">
+                 N3150I-C
+                </div> 
+                <div class="summary">
+                 Et vifteløst mini-ITX-hovedkort med lavt strømforbruk for Intel Celeron® SoC N3150-prosessorer, med 5X Protection og HDMI/D-Sub/LVDS-støtte
+                </div> Lær mer</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-309 sub-item"> <h3 class="origin-title">Grafikkort</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/no/Graphics-Cards/">Grafikkort</a> </h4>
+              <ul> 
+               <li><a href="/no/Graphics-Cards/AMD-Series-Products/">AMD-serien</a></li> 
+               <li><a href="/no/Graphics-Cards/NVIDIA-Series-Products/">NVIDIA-serien</a></li> 
+               <li><a href="/no/Graphics-Cards/ROG-Republic-of-Gamers-Products/">ROG-serien</a></li> 
+               <li><a href="/no/Graphics-Cards/STRIX-Gaming-Products/">ROG STRIX-serien</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/no/Graphics-Cards-Accessory/">Grafikkorttilbehør</a> </h4>
+              <ul> 
+               <li><a href="/no/Graphics-Cards-Accessory/SLI-Bridge-Products/">SLI Bridge</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/no/Graphics-Cards/STRIXR9380DC2OC4GD5GAMING/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/no/ProductLevel1/Topmenu/309.png" alt="">
+                </div> 
+                <div class="title">
+                 STRIX-R9380-DC2OC-4GD5-GAMING
+                </div> 
+                <div class="summary">
+                 ASUS STRIX R9 380 leverer kraftig spillytelse og ekstrem pålitelighet
+                </div> Lær mer</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-386 sub-item"> <h3 class="origin-title">Bærbart utstyr og helsetjenester</h3> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"> <a href="/no/VivoWatch/">Helsetjenester og fitness</a> </h4>
+              <ul> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/no/VivoWatch/ASUS_VivoWatch/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/no/ProductLevel1/Topmenu/386.png" alt="">
+                </div> 
+                <div class="title">
+                 ASUS VivoWatch
+                </div> 
+                <div class="summary">
+                 Pulsen av liv: En klokke som tar vare på deg og familien
+                </div> Lær mer</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-463 sub-item two-column"> <h3 class="origin-title">Stasjonære datamaskiner og alt-i-ett-datamaskiner</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/no/Tower-PCs/">Tårndatamaskiner</a> </h4>
+              <ul> 
+               <li><a href="/no/Tower-PCs/VivoPC-Series-Products/">VivoPC-serien</a></li> 
+               <li><a href="/no/Tower-PCs/ROG-Series-Products/">ROG-serien</a></li> 
+               <li><a href="/no/Tower-PCs/Gaming-Series-Products/">Spillserien</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/no/Mini-PCs/">Mini PCs</a> </h4>
+              <ul> 
+               <li><a href="/no/Mini-PCs/VivoMini-Products/">VivoMini</a></li> 
+               <li><a href="/no/Mini-PCs/ROG-Series-Products/">ROG-serien</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/no/Stick-PCs/">Stick PCs</a> </h4>
+              <ul> 
+               <li><a href="/no/Stick-PCs/VivoStick-PC-Products/">Stick PCs</a></li> 
+               <li><a href="/no/Stick-PCs/Stick-PC-QM1-Products/">QM1</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/no/Chrome-Devices/">Chrome-enheter</a> </h4>
+              <ul> 
+               <li><a href="/no/Chrome-Devices/Chromebox-Products/">Chromebox</a></li> 
+               <li><a href="/no/Chrome-Devices/Chromebit-Products/">Chromebit CS10</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/no/AllinOne-PCs/">Alt-i-ett-datamaskiner</a> </h4>
+              <ul> 
+               <li><a href="/no/AllinOne-PCs/Zen-AiO-Series-Products/">Zen AiO</a></li> 
+               <li><a href="/no/AllinOne-PCs/Vivo-AiO-Products/">Vivo AiO</a></li> 
+               <li><a href="/no/AllinOne-PCs/Portable-AiO-Products/">Bærbar AiO</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/no/Chrome-Devices/ASUS_Chromebox_CN62/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/no/ProductLevel1/Topmenu/463.png" alt="">
+                </div> 
+                <div class="title">
+                 ASUS Chromebox CN62
+                </div> 
+                <div class="summary">
+                 Enkel. Rask. Stille. 
+                </div> Lær mer</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-540 sub-item"> <h3 class="origin-title">Skjerm</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/no/Monitors/">Skjermer</a> </h4>
+              <ul> 
+               <li><a href="/no/Monitors/4K-UHD-2K-WQHD-Products/">4K &amp; WQHD</a></li> 
+               <li><a href="/no/Monitors/Professional-Products/">Profesjonell</a></li> 
+               <li><a href="/no/Monitors/Gaming-Products/">Spilling</a></li> 
+               <li><a href="/no/Monitors/Business-Products/">Vidvinkelvisning</a></li> 
+               <li><a href="/no/Monitors/Touch-Products/">Bærbar</a></li> 
+               <li><a href="/no/Monitors/Eye-Care-Products/">Eye Care (øyehelse)</a></li> 
+               <li><a href="/no/Monitors/ZenScreen-Products/">Mer ...</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"> <a href="/no/Projectors/">Projektorer</a> </h4>
+              <ul> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/no/Monitors/PA329Q/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/no/ProductLevel1/Topmenu/540.png" alt="">
+                </div> 
+                <div class="title">
+                 PA329Q
+                </div> 
+                <div class="summary">
+                 Spektakulære farger i 4K/UHD
+                </div> Lær mer</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-617 sub-item"> <h3 class="origin-title">Nettverk</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/no/Networking/">Nettverk</a> </h4>
+              <ul> 
+               <li><a href="/no/Networking/Wireless-Routers-Products/">Trådløse rutere</a></li> 
+               <li><a href="/no/Networking/Wireless-AP-Repeater-Bridges-Products/">Trådløse tilgangspunkt/Repeater/broer</a></li> 
+               <li><a href="/no/Networking/xDSL-Modem-Routers-Products/">xDSL-modemrutere</a></li> 
+               <li><a href="/no/Networking/Wireless-Adapters-Products/">Trådløse adaptere</a></li> 
+               <li><a href="/no/Networking/Wired-Networking-Products/">Kablet nettverk</a></li> 
+               <li><a href="/no/Networking/Powerline-Networking-Products/">Nettverk over strømnett</a></li> 
+               <li><a href="/no/Networking/Bluetooth-Antennas-Products/">Bluetooth og antenner</a></li> 
+               <li><a href="/no/Networking/4G-LTE-3G-Routers-Products/">4G LTE/3G-rutere</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/no/Networking/RTAC3200/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/no/ProductLevel1/Topmenu/617.png" alt="">
+                </div> 
+                <div class="title">
+                 RT-AC3200
+                </div> 
+                <div class="summary">
+                 Tri-Band Wireless-AC3200 Gigabit Router 
+                </div> Lær mer</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-694 sub-item two-column"> <h3 class="origin-title">Lyd</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/no/Essence-Hi-Fi-Audio/">Essence Hi-Fi-lyd</a> </h4>
+              <ul> 
+               <li><a href="/no/Essence-Hi-Fi-Audio/Hi-Fi-Sound-Cards-Products/">Lydkort</a></li> 
+               <li><a href="/no/Essence-Hi-Fi-Audio/DACs-Amplifiers-Products/">DACs &amp; Amplifiers</a></li> 
+               <li><a href="/no/Essence-Hi-Fi-Audio/Accessories-Products/">Tilbehør</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/no/Sound-Cards/">Lydkort</a> </h4>
+              <ul> 
+               <li><a href="/no/Sound-Cards/Hi-Fi-Sound-Cards-Products/">Essence Hi-Fi-serien</a></li> 
+               <li><a href="/no/Sound-Cards/ROG-Republic-of-Gamers-Products/">ROG-Spillserien</a></li> 
+               <li><a href="/no/Sound-Cards/STRIX-Gaming-Series-Products/">STRIX-spillserien</a></li> 
+               <li><a href="/no/Sound-Cards/Gaming-Products/">Spilling</a></li> 
+               <li><a href="/no/Sound-Cards/Entertainment-Products/">Entertainment</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/no/Wireless-Bluetooth-Audio/">Trådløs lyd og Bluetooth-lyd</a> </h4>
+              <ul> 
+               <li><a href="/no/Wireless-Bluetooth-Audio/Music-streamer-Products/">Music streamer</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/no/Headphones-Headsets/">Hodetelefoner og hodesett</a> </h4>
+              <ul> 
+               <li><a href="/no/Headphones-Headsets/ROG-Republic-of-Gamers-Products/">ROG-spillserien</a></li> 
+               <li><a href="/no/Headphones-Headsets/Gaming-Products/">Spilling</a></li> 
+               <li><a href="/no/Headphones-Headsets/Entertainment-Products/">Entertainment</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/no/Speakers/">Høyttalere</a> </h4>
+              <ul> 
+               <li><a href="/no/Speakers/Speakers-Products/">Høyttalere</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/no/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/no/ProductLevel1/Topmenu/694.png" alt="">
+                </div> 
+                <div class="title">
+                 Xonar DX
+                </div> 
+                <div class="summary">
+                 Dolby Home Theater-teknologier og de rikeste spillydeffektene leverer den beste PC-lydoppgraderingen
+                </div> Lær mer</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-771 sub-item"> <h3 class="origin-title">Hjem og bil</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/no/Home-Entertainment/">Hjemmeunderholdning</a> </h4>
+              <ul> 
+               <li><a href="/no/Home-Entertainment/USB-TV-Tuner-Products/">USB TV-tuner</a></li> 
+               <li><a href="/no/Home-Entertainment/O-Play-Digital-Media-Player-Products/">O!Play Digital mediaspiller</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/no/Car-Electronics/">Bilelektronikk</a> </h4>
+              <ul> 
+               <li><a href="/no/Car-Electronics/Video-Recorder-Camcorder-Products/">Videoopptaker og videokamera</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/no/Home-Entertainment/OPlay_Mini_V2/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/no/ProductLevel1/Topmenu/771.png" alt="">
+                </div> 
+                <div class="title">
+                 O!Play Mini V2
+                </div> 
+                <div class="summary">
+                 Kompakt Full HD, 7.1-kanals lyd og flerformats-stueunderholdning
+                </div> Lær mer</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-848 sub-item two-column"> <h3 class="origin-title">Eksternt utstyr</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/no/Computer-Bags/">Datamaskinsekker</a> </h4>
+              <ul> 
+               <li><a href="/no/Computer-Bags/Backpacks-Products/">Ryggsekker</a></li> 
+               <li><a href="/no/Computer-Bags/Carry-Cases-Products/">Bærevesker</a></li> 
+               <li><a href="/no/Computer-Bags/Messengers-Products/">Budbringer-bærevesker</a></li> 
+               <li><a href="/no/Computer-Bags/Sleeves-Products/">Futteraler</a></li> 
+               <li><a href="/no/Computer-Bags/Accessory-Packs-Products/">Utstyrspakker</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/no/Keyboards-Mice/">Tastatur og mus</a> </h4>
+              <ul> 
+               <li><a href="/no/Keyboards-Mice/Keyboards-Products/">Tastatur</a></li> 
+               <li><a href="/no/Keyboards-Mice/Mice-Products/">Mus</a></li> 
+               <li><a href="/no/Keyboards-Mice/Combo-Products/">Kombi</a></li> 
+               <li><a href="/no/Keyboards-Mice/Mouse-pads-Products/">Musematter</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/no/Optical-Drives-Storage/">Optiske stasjoner og lagring</a> </h4>
+              <ul> 
+               <li><a href="/no/Optical-Drives-Storage/External-Blu-ray-Drive-Products/">Ekstern Blu-ray-stasjon</a></li> 
+               <li><a href="/no/Optical-Drives-Storage/External-Slim-DVD-Drive-Products/">Ekstern slank DVD-stasjon</a></li> 
+               <li><a href="/no/Optical-Drives-Storage/Internal-Blu-ray-Drive-Products/">Intern Blu-ray-stasjon</a></li> 
+               <li><a href="/no/Optical-Drives-Storage/Internal-DVD-Drive-Products/">Intern DVD-stasjon</a></li> 
+               <li><a href="/no/Optical-Drives-Storage/SSD-Products/">SSD</a></li> 
+               <li><a href="/no/Optical-Drives-Storage/Storage-Products/">Lagring</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"> <a href="/no/Docks/">Dokkingstasjoner</a> </h4>
+              <ul> 
+              </ul> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"> <a href="/no/Chargers/">Ladere</a> </h4>
+              <ul> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/no/Computer-Bags/ASUS_VECTOR_BACKPACK/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/no/ProductLevel1/Topmenu/848.png" alt="">
+                </div> 
+                <div class="title">
+                 ASUS VECTOR BACKPACK
+                </div> 
+                <div class="summary">
+                 Smart stil møter intelligent design
+                </div> Lær mer</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-925 sub-item"> <h3 class="origin-title">Spilling</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/no/ROG-Republic-Of-Gamers/">ROG - Republic Of Gamers</a> </h4>
+              <ul> 
+               <li><a href="/no/ROG-Republic-Of-Gamers/Notebooks-Products/">Bærbar datamaskin</a></li> 
+               <li><a href="/no/ROG-Republic-Of-Gamers/Desktops-Products/">Stasjonære datamaskiner</a></li> 
+               <li><a href="/no/ROG-Republic-Of-Gamers/Motherboards-Products/">Hovedkort</a></li> 
+               <li><a href="/no/ROG-Republic-Of-Gamers/Graphics-Cards-Products/">Grafikkort</a></li> 
+               <li><a href="/no/ROG-Republic-Of-Gamers/Monitors-Products/">Skjermer</a></li> 
+               <li><a href="/no/ROG-Republic-Of-Gamers/Headsets-Products/">Hodesett</a></li> 
+               <li><a href="/no/ROG-Republic-Of-Gamers/Keyboards-Products/">Tastatur</a></li> 
+               <li><a href="/no/ROG-Republic-Of-Gamers/Sound-Cards-Products/">Lyd</a></li> 
+               <li><a href="/no/ROG-Republic-Of-Gamers/Mice-Products/">Mus</a></li> 
+               <li><a href="/no/ROG-Republic-Of-Gamers/Mousepads-Products/">Musematter</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/no/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/no/ProductLevel1/Topmenu/925.png" alt="">
+                </div> 
+                <div class="title">
+                 CERBERUS
+                </div> 
+                <div class="summary">
+                 Spill-hodesett med store 60 mm neodymium-drivere som er designet for både PC-spill og mobilbruk.
+                </div> Lær mer</a> 
+              </div> 
+             </div> </li> 
+           </ul> 
+          </div> 
+         </div> 
+         <div class="hot-menu submenu three-column"> 
+          <h3 class="title">Hva er populært</h3> 
+          <ul class="hot-list clearfix"> 
+           <li class="hot-item first"><a onclick="TopmenuGoogleTraking(this, '1', '/media/no/TopMenuItem/116.jpg'); return false;" href="http://www.asus.com/no/AllinOne-PCs/Zen-AiO-Series-Products/" target="_blank"><img src="/media/no/TopMenuItem/116.jpg" alt="ASUS Zen AiO"><span class="title">ASUS Zen AiO</span></a></li> 
+           <li class="hot-item"><a onclick="TopmenuGoogleTraking(this, '2', '/media/no/TopMenuItem/118.jpg'); return false;" href="http://www.asus.com/no/Tablets/ASUS_ZenPad_S_80_Z580CA/" target="_blank"><img src="/media/no/TopMenuItem/118.jpg" alt="ASUS ZenPad S 80"><span class="title">ASUS ZenPad S 80</span></a></li> 
+           <li class="hot-item"><a onclick="TopmenuGoogleTraking(this, '3', '/media/no/TopMenuItem/119.jpg'); return false;" href="http://www.asus.com/no/Notebooks/Zenbook-Series-Products/" target="_blank"><img src="/media/no/TopMenuItem/119.jpg" alt="Zenbook UX305"><span class="title">Zenbook UX305</span></a></li> 
+          </ul> 
+          <ul class="hot-list clearfix"> 
+           <li class="hot-item"><a onclick="TopmenuGoogleTraking(this, '4', '/media/no/TopMenuItem/120.jpg'); return false;" href="http://www.asus.com/no/Notebooks/E502MA/" target="_blank"><img src="/media/no/TopMenuItem/120.jpg" alt="Eee Book E502"><span class="title">Eee Book E502</span></a></li> 
+           <li class="hot-item"><a onclick="TopmenuGoogleTraking(this, '5', '/media/no/TopMenuItem/121.jpg'); return false;" href="http://www.asus.com/no/2-in-1-PCs/ASUS_Transformer_Book_T100HA/?SearchKey=T100HA/" target="_blank"><img src="/media/no/TopMenuItem/121.jpg" alt="Transformer Book T100"><span class="title">Transformer Book T100</span></a></li> 
+           <li class="hot-item"><a onclick="TopmenuGoogleTraking(this, '6', '/media/no/TopMenuItem/122.jpg'); return false;" href="http://www.asus.com/no/search/results.aspx?SearchKey=G752" target="_blank"><img src="/media/no/TopMenuItem/122.jpg" alt="ROG G752"><span class="title">ROG G752</span></a></li> 
+          </ul> 
+          <ul class="hot-list clearfix"> 
+           <li class="hot-item"><a onclick="TopmenuGoogleTraking(this, '7', '/media/no/TopMenuItem/123.jpg'); return false;" href="http://www.asus.com/no/Tower-PCs/ROG-G20CB/?SearchKey=G20CB/" target="_blank"><img src="/media/no/TopMenuItem/123.jpg" alt="ROG G20CB"><span class="title">ROG G20CB</span></a></li> 
+           <li class="hot-item"><a onclick="TopmenuGoogleTraking(this, '8', '/media/no/TopMenuItem/124.jpg'); return false;" href="http://www.asus.com/Networking/RT-AC88U/" target="_blank"><img src="/media/no/TopMenuItem/124.jpg" alt="RT-AC88U"><span class="title">RT-AC88U</span></a></li> 
+           <li class="hot-item"><a onclick="TopmenuGoogleTraking(this, '9', '/media/no/TopMenuItem/125.jpg'); return false;" href="http://www.asus.com/Graphics-Cards/GOLD20TH-GTX980TI-P-6G-GAMING/" target="_blank"><img src="/media/no/TopMenuItem/125.jpg" alt="GTX980TI"><span class="title">GTX980TI</span></a></li> 
+          </ul> 
+         </div> 
+         <div class="commercial-menu submenu"> 
+          <h3 class="title">Kommersiell</h3> 
+          <ul class="nav"> 
+           <li class="commercial-item" data-submenu-id="products"><a href="/no/commercial/" target="_self">Produkter</a></li> 
+           <li class="commercial-item" data-submenu-id="Business_Size"><a href="/no/CommercialInfo/Business_Size/">Bedriftsstørrelse</a></li> 
+           <li class="commercial-item" data-submenu-id="Solution"><a href="/no/CommercialInfo/Solution/">Løsning</a></li> 
+           <li class="commercial-item" data-submenu-id="Industry"><a href="/no/CommercialInfo/Industry/">Industri</a></li> 
+          </ul> 
+          <div class="display-area"> 
+           <ul class="sub-commercial-list sub-cat-list"> 
+            <li class="commercial-products sub-item two-column"> <h3 class="origin-title">Produkter</h3> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/no/Commercial-Signage/">skilting</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/no/Commercial-All-in-One-PCs/">Alt-i-ett-datamaskiner</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/no/Commercial-Monitors/">Skjermer</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/no/Commercial-Servers-Workstations/">Servere og arbeidsstasjoner</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/no/Commercial-Desktop/">Stasjonær datamaskin</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/no/Commercial-Notebooks/">Bærbar datamaskin</a></h4> 
+             </div> </li> 
+            <li class="commercial-Business_Size sub-item two-column"> <h3 class="origin-title">Bedriftsstørrelse</h3> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/no/CommercialInfo/Business_Size/SOHO_Micro_Business/">Små-/hjemmekontorer og mikrobedrifter</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/no/CommercialInfo/Business_Size/Small_Midsize_Business/">Små og mellomstore bedrifter</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/no/CommercialInfo/Business_Size/Enterprise_Large_Business/">Foretak og store bedrifter</a></h4> 
+             </div> </li> 
+            <li class="commercial-Solution sub-item two-column"> <h3 class="origin-title">Løsning</h3> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/no/CommercialInfo/Solution/Mobile_Solution/">Mobil løsning</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/no/CommercialInfo/Solution/Business_Protection/">Bedriftsbeskyttelse</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/no/CommercialInfo/Solution/Improve_Performance/">Forbedre ytelsen</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/no/CommercialInfo/Solution/Enhance_Communication/">Forbedre kommunikasjonen</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/no/CommercialInfo/Solution/Green_Office/">Grønt kontor</a></h4> 
+             </div> </li> 
+            <li class="commercial-Industry sub-item two-column"> <h3 class="origin-title">Industri</h3> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/no/CommercialInfo/Industry/Education/">Utdanning</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/no/CommercialInfo/Industry/Retail_Service/">Detaljhandel og service</a></h4> 
+             </div> </li> 
+           </ul> 
+          </div> 
+         </div> 
+         <div class="service-menu submenu"> 
+          <h3 class="title">Service</h3> 
+          <ul class="nav"> 
+           <li class="service-item" data-submenu-id="1"><a href="http://www.asus.com/no/support/" target="_blank">Support</a></li> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="mobile-action"> 
+        <a class="btn" href="#"><i class="icon icon-search"></i></a> 
+       </div> 
+      </div> 
+     </div> 
+     <script>
+    var intControlstopSysWordingCheckId;
+    intControlstopSysWordingCheckId = setInterval("controlstopSysWordingCheck()", intSysWordingCheckSpeed);
+
+    function controlstopSysWordingCheck() {
+        if (sysWordingRead) {
+            $("#aai-search-btn").val(sysWording.SearchTitle);
+            $("#minicart_panel p.aai-item-titl").html(sysWording.ShoppingCart);
+
+            clearTimeout(intControlstopSysWordingCheckId);
+        }
+    }
+</script> 
+     <script>
+    var isInGroup = '0';
+    var compare_open = "F";
+
+    function checkShoppingCart(url) {
+        //: Check Cart Quantity
+        $.getJSON(url, function (cartJsonData) {
+            if (!cartJsonData.shoppingCart.isEmpty) $("#num_shoppingcart").html(cartJsonData.shoppingCart.totalQuantity);
+        });
+    }
+
+    //: ------------- BEGIN -------------
+    //: [[Compare Model 2012/05/29 Angel]]
+    function getCompareCookie() {
+        var theData = "";
+        var theCookie = document.cookie;
+        var compareGroupName = "";
+        var val = theCookie.split(";");
+
+        for (i = 0; i < val.length; i++) {
+            compareGroupName = "";
+            var data = val[i].split("=");
+            if (data.length > 1) {
+                var index = data[0].indexOf("compare_");
+                if (index > -1) {
+                    var compareid = data[0].substring(index + 8);
+                    if (CompareJson) {
+                        $.map(CompareJson, function (obj_compare) {
+                            if (obj_compare.CompareID === compareid)
+                                compareGroupName = obj_compare.CompareName
+                        });
+                    }
+                    if (data[1] != "")
+                        theData += "compare_" + compareid + "." + compareGroupName.replace(/^\s+/, "") + ":" + unescape(data[1]) + ";";
+                }
+            }
+        }
+        return theData;
+    }
+
+    function getMessage() {
+        //var msg_data = (getWebsite() == "cn") ? '//www.asus.com.cn/message.aspx.aspx?lang=' + strLang :
+        //    '//www.asus.com/message.aspx?lang=' + strLang;
+        //
+        //$.ajax({
+        //    url: msg_data,
+        //    dataType: 'jsonp',
+        //    jsonp: 'callback',
+        //    cache: true,
+        //    jsonpCallback: '_asus_message_fn',
+        //    success: function (res) {
+        //        $("#menu_msg ul.sender-list").html(res.message);
+        //        $("#menu_msg .aai-msgcenter-footer a").attr("href", "https://account.asus.com/msgcenter.aspx?lang=" + strLang + "&site=" + getWebsite());
+        //        $("#menu_msg ul.sender-list li.list-item").on("click", message_detail);
+        //
+        //        if (res.Total == "0") { $("#menu_msg .aai-circle-num").css({ 'display': 'none' }); $("#menu_msg .aai-circle-num").text("0"); }
+        //        else {
+        //            $("#menu_msg .aai-circle-num").css({ 'display': 'block' });
+        //            $("#menu_msg .aai-circle-num").text(res.Total);
+        //        }
+        //    },
+        //    error: function () { }
+        //});
+        //
+        //var message_detail = function () {
+        //    var message_id = $(this).data('messageid');
+        //    window.open("https://account.asus.com/msgcenter.aspx?sid=" + message_id + "&lang=" + strLang + "&site=" + getWebsite());
+        //};
+    }
+
+    var timeoutHandle;
+    function setCompareList() {
+        var content = getCompareCookie(),
+            compareCookieName = getcookiedata("comparecookiename"),
+            intI,
+            compareGroup = content.split(";"),
+            $cp = $("#div_compare_panel"),
+            slideVal,
+            compare_count = 0,
+            currentSliderValue = "",
+            imgTarget = "";
+        $cp.empty();
+        //$cp.append("<p class=\"aai-item-title\">" + sysWording.CompareList + "</p>");
+        for (i = 0; i < compareGroup.length - 1; i++) {
+            var cookie_type = compareGroup[i].split(":"),
+                models = cookie_type[1].split(","), tempCookie_name = cookie_type[0].split(".")[0], cookieAry = [];
+            if (Number(tempCookie_name.split('compare_')[1]) == Number(compareCookieName.split('compare_')[1])) { currentSliderValue = tempCookie_name; }
+            if (cookie_type[1] != "") {
+                $cp.append("<div class=\"compare_group\"><span class=\"panel-group-title\">" + cookie_type[0].split(".")[1] + "</span></div>");
+
+                $cp.find("div.compare_group:last").append("<ul class=\"aai-vls\"></ul>");
+                for (intI = 1; intI <= 5; intI++) {
+                    if (intI <= models.length - 1) {
+                        compare_count += 1;
+                        cookieAry = models[intI - 1].split(".");
+                        cookieAry[2] = cookieAry[2] == undefined ? "" : cookieAry[2];
+                        cookieAry[3] = cookieAry[3] == undefined ? "global" : cookieAry[3];
+                        imgTarget = cookieAry[2] == "png" ? "/P_setting_fff_1_80_end_130.png" : "/P_130.jpg";
+                        $cp.find("ul:last").append("<li class=\"span-5col\"><a href='product.aspx?P_ID=" + cookieAry[0] + "'><img src='/media/" + cookieAry[3] + "/products/" + cookieAry[0] + imgTarget + "' alt='Compare" + intI + "' /></a><a href='#' onclick='compare_remove_click(\"" + tempCookie_name + "\",\"" + cookieAry[0] + "\",\"" + cookieAry[1] + "\",\"" + cookieAry[2] + "\",\"" + cookieAry[3] + "\");return false;' class='removebutton'>" + sysWording.ProductComparisonButtom2 + "</a><span class=\"list-product-name\">" + cookieAry[1].replace("^", ".") + "</span></li>");
+                    }
+                    else {
+                        $cp.find("ul:last").append("<li class=\"span-5col\"><img src=\"/media/img/p_130_rull.jpg\"></li>");
+                    }
+                }
+                $cp.find("div.compare_group:last").append("<a class=\"btn-asus comparenow\" id='" + tempCookie_name + "' onclick=\"GoCompare('" + tempCookie_name + "', '" + models[0].split(".")[0] + "')\">" + sysWording.CompareNow + "</a>");
+            }
+        }
+
+        $("#num_compare").html(compare_count);
+        var topmenu_unm = (typeof ($("#num_shoppingcart")) == "undefined") ? Number($("#num_compare").html()) : (Number($("#num_compare").html()) + Number($("#num_shoppingcart").html()));
+        $(".aai-right-more a.aai-more .aai-circle-num").html(topmenu_unm);
+        $("#dropMsg").html(topmenu_unm);
+
+        if (Number(topmenu_unm) > 0) {
+            $(".aai-right-more a.aai-more .aai-circle-num").css({ display: 'inline-block' });
+        }
+        else {
+            $(".aai-right-more a.aai-more .aai-circle-num").css({ display: 'inline-block' });
+            $(".aai-right-more a.aai-more .aai-circle-num").css({ display: 'none' });
+        }
+    }
+
+    function compare_remove_click(cookie_name, product_id, model_name, imgtype, img_ref) {
+        remove_compare_model(cookie_name, product_id, model_name, imgtype, img_ref);
+        setCompareList();
+        //if (isInGroup == "1") checkCompareItem();
+        //if (isInGroup == "2") checkProductCompareItem();
+        $("div.aai-mst-header a.active").click();
+    }
+
+    function GoCompare(cookie_name, producthashedid) {
+        add_cookie("comparecookiename", cookie_name);
+        window.name = "";
+        window.location.href = 'compare.aspx';
+    }
+    //: ------------- END -------------
+
+
+    function SetGa(value1,value2,value3,value4,value5) {
+        ga(value1, value2, value3, value4, value5);
+    }
+
+</script> 
+     <script>var strType = 'bottom'; var id= '7893'; var strID = '7893';</script> 
+     <div id="main-zone" class="container-fluid gray-bg-small"> 
+      <div class="container"> 
+       <script>var breadcrumbStr = ',';</script> 
+       <div id="product-topinfo"> 
+        <!--<div id="breadcrumbs"></div>--> 
+        <div id="bmenu_outline" class="hide"> 
+         <div id="bemnu_content"> 
+          <div id="bmenu_return"></div> 
+          <div id="scrollbarBreadcrumb"> 
+           <div class="scrollbar">
+            <div class="track">
+             <div class="thumb">
+              <div class="end"></div>
+             </div>
+            </div>
+           </div> 
+           <div class="viewport"> 
+            <div class="overview"> 
+             <ul></ul> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="pull-right" id="MDA">
+         <span id="ctl00_ContentPlaceHolder1_ctl00_breadcrumbs1_lblMDA"></span>
+        </div> 
+       </div> 
+       <script type="text/javascript">
+    var breadcrumbsXML;
+    var intProductCategoryLevel = 1;
+    var xmlProduct;
+    var intMouseOverCategoryLevel;
+    var TrackerWording = "";
+
+    var intControlsbreadcrumbsSysWordingCheckId;
+
+    function getMBNo1() {
+        $("#MDA").html("<img src='/media/" + getWebsite() + "/images/no1.jpg' border='0' onerror='this.src=\"media/global/images/no1.jpg\";' />");
+    }
+
+    function create_breadcrumbs(ProductGroupNow, TargetNow) {}
+    
+    function controlsbreadcrumbsSysWordingCheck() {
+        if (sysWordingRead) {
+            $("#breadcrumbs a:first").html(sysWording.ProductNavigationHome);
+            clearTimeout(intControlsbreadcrumbsSysWordingCheckId);
+        }
+    }
+
+    function ProductGroupAll(xml) {
+        breadcrumbsXML = xml;
+        var intI;
+        var cont = $("content category" + intProductCategoryLevel, breadcrumbsXML).text();
+        while ($("content category" + intProductCategoryLevel, breadcrumbsXML).text().indexOf(strID) != -1) {
+            intProductCategoryLevel += 1;
+        }
+        intProductCategoryLevel -= 1;
+
+        if (breadcrumbStr != "" && intProductCategoryLevel > 0) {
+            var productgroupname = breadcrumbStr.split(",");
+            $("content category" + intProductCategoryLevel + "_name", breadcrumbsXML).each(function(e) {
+                if ($("content category" + intProductCategoryLevel + "_name:eq(" + e + ")", breadcrumbsXML).text() == productgroupname[productgroupname.length - 1]) {
+                    xmlProduct = $("content category" + intProductCategoryLevel + "_name:eq(" + e + ")", breadcrumbsXML);
+                    //:[[2012/02/09 Angel Motherboard AMD3 AMD3+ products]]
+                    for (i = intProductCategoryLevel - 1; i > 1; i--) {
+                        var temp = $(this).parents("category" + i);
+                        var temp2 = $(temp).parents("category" + (i - 1));
+                        if ((productgroupname[i] == $("category" + i + "_name", temp).text() &&
+                            productgroupname[i - 1] == $("category" + (i - 1) + "_name", temp2).text()
+                           )) {
+                            return false;
+                        }
+                    }
+                    //if ($("content category" + (intProductCategoryLevel - 1) + "_name:eq(" + e + ")", breadcrumbsXML).text() == productgroupname[1]) return false;
+                }
+            });
+            for (intI = 1; intI <= productgroupname.length; intI++) {
+                var config = {
+                    sensitivity: 3,
+                    interval: 200,
+                    over: pri_showmenu,
+                    out: function() { }
+                };
+                $("#breadcrumbs a:eq(" + (intI + 1) + ")").hoverIntent(config);
+                $("#breadcrumbs a:eq(" + (intI + 1) + ")").data('level', intI);
+            }
+        }
+        if (intProductCategoryLevel == 0) {
+            if (breadcrumbStr != "") {
+                var productgroupname = breadcrumbStr.split(",");
+                intProductCategoryLevel = productgroupname.length - 1;
+                var inCategory2 = "N";
+                $("content category1_name", breadcrumbsXML).each(function(e) {
+                    if ($("content category1_name:eq(" + e + ")", breadcrumbsXML).text() == productgroupname[1]) {
+                        var Level1Category = $(this).parent();
+                        $("category2", $(this).parent()).each(function(i) {
+                            if ($("category2_name", this).text() == productgroupname[2]) {
+                                xmlProduct = $($("category3_name:eq(0)", this), breadcrumbsXML);
+                                inCategory2 = "Y";
+                            }
+                        });
+                        if (inCategory2 == "N") xmlProduct = $("category2:eq(0) category3_name:eq(0)", Level1Category);
+                    }
+                });
+                for (intI = 1; intI <= productgroupname.length; intI++) {
+                    var config = {
+                        sensitivity: 3,
+                        interval: 200,
+                        over: pri_showmenu,
+                        out: function() { }
+                    };
+                    if (inCategory2 == "N") {
+                        if (intI < productgroupname.length - 1) {
+                            $("#breadcrumbs a:eq(" + (intI + 1) + ")").hoverIntent(config);
+                            $("#breadcrumbs a:eq(" + (intI + 1) + ")").data('level', intI);
+                        }
+                    }
+                    else {
+                        $("#breadcrumbs a:eq(" + (intI + 1) + ")").hoverIntent(config);
+                        $("#breadcrumbs a:eq(" + (intI + 1) + ")").data('level', intI);
+                    }
+                }
+            }
+        }
+        TrackerWording = TrackerWording + ">" + $(xmlProduct).parents("category" + intI).children("category" + intI + "_name").text();
+    }
+
+    function pri_showmenu() {
+        showmenu($(this));
+    }
+
+    function showmenu(aObject) {
+        var categoryLevel = $(aObject).data('level');
+        //var intMaxWidth=0;
+        $("#breadcrumbs a").removeClass("hovercolor");
+        $(aObject).addClass("hovercolor");
+        $("#bemnu_content ul").empty();
+        $("#bmenu_return").html("&nbsp;");
+        $(xmlProduct).parents("category" + categoryLevel).parent().children("category" + categoryLevel).each(function(e) {
+            if ($("category" + categoryLevel + "_ProductHashedId", this).text() == "") {
+                intMouseOverCategoryLevel = categoryLevel;
+                var sendObject = this;
+                $("#bemnu_content ul").append("<li class='havenext'><a href='#'>" + $("category" + categoryLevel + "_name", this).text() + "</a></li>");
+                $("#bemnu_content ul a:eq(" + e + ")").click(function() { showmenu_onclick(sendObject, (categoryLevel + 1)); return false; });
+            }
+            else {
+                $("#bemnu_content ul").append("<li><a href='product.aspx?P_ID=" + $("category" + categoryLevel + "_ProductHashedId", this).text() + "' onclick=\"setClickRelationIdCookie('" + $("ProductGroupRelationId", this).text() + "');\">" + $("category" + categoryLevel + "_name", this).text() + "</a></li>");
+                //$("#bemnu_content ul").append("<li><a href='product.aspx?P_ID=" + $("category" + categoryLevel + "_ProductHashedId", this).text() + "'>" + $("category" + categoryLevel + "_name", this).text() + "</a></li>");
+            }
+        });
+        $("#bmenu_outline").css({ left: $(aObject).position().left + "px" });
+        $("#bmenu_outline").removeClass("hide");
+        $('#scrollbarBreadcrumb').tinyscrollbar();
+    }
+
+    function showmenu_onclick(parentObject, level) {
+        $("#bemnu_content ul").slideUp("slow", function() {
+            $("#bemnu_content ul").empty();
+            if (level == intMouseOverCategoryLevel) {
+                $("#bmenu_return").html("&nbsp;");
+            }
+            else {
+                $("#bmenu_return").html("<a href='#'>" + $(parentObject).children("category" + (level - 1) + "_name").text() + "</a>");
+                $("#bmenu_return a").click(function() {
+                    showmenu_onclick($(parentObject).parent(), (level - 1));
+                    return false;
+                });
+            }
+            $("category" + level, $(parentObject)).each(function(e) {
+                if ($("category" + level + "_ProductHashedId", this).text() == "") {
+                    var sendObject = this;
+                    $("#bemnu_content ul").append("<li class='havenext'><a href='#'>" + $("category" + level + "_name", this).text() + "</a></li>");
+                    $("#bemnu_content ul a:eq(" + e + ")").click(function() { showmenu_onclick(sendObject, (level + 1)); return false; });
+                }
+                else {
+                    $("#bemnu_content ul").append("<li><a href='product.aspx?P_ID=" + $("category" + level + "_ProductHashedId", this).text() + "' onclick=\"setClickRelationIdCookie('" + $("ProductGroupRelationId", this).text() + "');\">" + $("category" + level + "_name", this).text() + "</a></li>");
+                    //$("#bemnu_content ul").append("<li><a href='product.aspx?P_ID=" + $("category" + level + "_ProductHashedId", this).text() + "'>" + $("category" + level + "_name", this).text() + "</a></li>");
+                }
+            });
+            $("#bemnu_content ul").slideDown("slow", function() { $('#scrollbarBreadcrumb').tinyscrollbar_update(); });
+        });
+    }
+
+    $("#product-topinfo").mouseout(function(evt) {
+        evt = evt || window.event;
+        var target = evt.target || evt.srcElement;
+        var relatedTarget = evt.relatedTarget || evt.toElement;
+        if ($(relatedTarget).parents('#product-topinfo').attr("id") != this.id && $(relatedTarget).attr('id') != this.id) {
+            $("#breadcrumbs a").removeClass("hovercolor");
+            $('#bmenu_outline').addClass('hide');
+        }
+    })
+</script> 
+       <h1 class="page-title double-border-bottom">Informasjon om ASUS' nettsted</h1> 
+       <div class="row"> 
+        <div id="contentpage_menu_list" class="span3"> 
+         <div class="visible-phone" id="phone-list-menu"> 
+          <div class="btn-group"> 
+           <button id="btn_category_all" class="btn dropdown-toggle" data-toggle="dropdown"> Kontakt ASUS service og support<span class="caret"></span> </button> 
+           <ul class="dropdown-menu"> 
+            <li><a href="/no/ASUS_Website_Information/Contact-ASUS2/">Kontakt ASUS Norge</a></li>
+            <li><a href="/no/ASUS_Website_Information/Contact-ASUS/">Kontakt ASUS service og support</a></li>
+            <li><a href="investor.aspx" target="_self">Investorforbindelser</a></li>
+            <li><a href="/no/ASUS_Website_Information/Jobbmuligheter/">Jobbmuligheter</a></li>
+            <li><a href="http://csr.asus.com/english/" target="_blank">OM CSR</a></li>
+            <li><a href="http://press.asus.com/" target="_blank">Presserom</a></li> 
+           </ul> 
+          </div> 
+         </div> 
+         <nav class="hidden-phone"> 
+          <ul class="member-func unstyled">
+           <span class="member-func-title"><a href="/no/ASUS_Website_Information/Contact-ASUS2/">Kontakt ASUS Norge</a></span>
+          </ul>
+          <ul class="member-func unstyled">
+           <span class="member-func-title"><a href="/no/ASUS_Website_Information/Contact-ASUS/">Kontakt ASUS service og support</a></span>
+          </ul>
+          <ul class="member-func unstyled">
+           <span class="member-func-title"><a href="investor.aspx" target="_self">Investorforbindelser</a></span>
+          </ul>
+          <ul class="member-func unstyled">
+           <span class="member-func-title"><a href="/no/ASUS_Website_Information/Jobbmuligheter/">Jobbmuligheter</a></span>
+          </ul>
+          <ul class="member-func unstyled">
+           <span class="member-func-title"><a href="http://csr.asus.com/english/" target="_blank">OM CSR</a></span>
+          </ul>
+          <ul class="member-func unstyled">
+           <span class="member-func-title"><a href="http://press.asus.com/" target="_blank">Presserom</a></span>
+          </ul> 
+         </nav> 
+        </div> 
+        <script type="text/javascript">
+    var intContentCategorysSysWordingCheckId;
+    intContentCategorysSysWordingCheckId = setInterval("ContentCategorySysWordingCheck()", intSysWordingCheckSpeed);
+    function ContentCategorySysWordingCheck() {
+        if (sysWordingRead) {
+            window.name = "";
+            create_breadcrumbs("", "");
+            clearTimeout(intContentCategorysSysWordingCheckId);
+        }
+    }
+</script> 
+        <div class="span9-line" id="member-page-content"> 
+         <span id="ctl00_ContentPlaceHolder1_ctl00_ContentPageContent1_span_product_content_area"><h4><span class="title-Blue">Velkommen til ASUS Service og Support</span></h4> <p>ASUS service og support er en viktig del av vår fremgang. Vi gjør vårt ytterste for å gjøre våre kunder fornøyde. ASUS har utviklet datamaskiner i over 20 år, og vi vet at en ASUS-enhet vil oppfylle dine kvalitetskrav. Vi har ikke bare fått utmerkelser for våre produkter, men også vår service og support. Dette krever et stort engasjement, og med vår unike 2-års garanti* på alle våre bærbare datamaskiner og netbooks kan du alltid føle deg trygg.<br>*kan variere mellom ulike enheter og forhandlere. Kontakt oss for mer informasjon</p> <h4><span class="title-Blue">Support</span></h4> <p>Om du trenger hjelp med ditt ASUS-produkt er du velkommen til å kontakte vår telefonsupport* eller sende oss en epost via vårt web-formular. En ASUS-agent vil gjøre sitt beste for å svare på dine spørsmål.<br>*telefonsupporten hjelper deg med spørsmål om ditt nettbrett/tablet, bærbare datamaskin, nettverksprodukter, skjermer, eee-produkter, mobiltelefoner og stasjonære datamaskiner.</p> <h4><span class="title-Blue">Spørsmål om produktveiledning</span></h4>Du er velkommen til å kontakte oss om du har spørsmål eller trenger veiledning innen du skal kjøpe ASUS-produkter <p> </p> <h4><span class="title-Blue">Kontakt Support og Service</span></h4>Åpent: Mandag – Fredag, 09-18:<br>Telefon (Norge): 23162682<br><strong>OBS</strong>. telefonsupporten hjelper deg med spørsmål om ditt nettbrett/tablet, bærbare datamaskin, nettverksprodukter, skjermer, eee-produkter, mobiltelefoner og stasjonære datamaskiner. For resterende produkter vennligst bruk vårt webformular. <p> </p> <p>Epost via dette formularet:<br><a href="http://vip.asus.com/eservice/techserv.aspx" target="_blank">http://vip.asus.com/eservice/techserv.aspx</a> <br><br>Drivere, manualer og FAQ:<br><a href="http://support.asus.com/Download/Options.aspx?SLanguage=en&amp;type=1" target="_blank">http://support.asus.com/Download/Options.aspx?SLanguage=en&amp;type=1</a> <br><br>Mer informasjon:<br><a href="http://support.asus.com/" target="_blank">http://support.asus.com/</a> </p></span> 
+        </div> 
+        <script type="text/javascript">
+    $(document).ready(function() {
+        tabbedPanels();
+    });
+</script> 
+        <script type="text/JavaScript">
+<!--
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//-->
+</script> 
+       </div> 
+      </div> 
+     </div> 
+     <script type="text/javascript">
+    $(document).ready(function() {
+        if ($("#phone-list-menu ul li").length == 0) {
+            $("#phone-list-menu").parents("div.row").addClass("no-menu-list");
+        }
+    });
+</script> 
+     <!-- footer @start  --> 
+     <div id="asus-api-footer"> 
+      <div class="aai-inner"> 
+       <div class="aai-fmiddle"> 
+        <div id="FindItFast_menu" class="aai-footer-span"> 
+         <h4>Ønsker mer?</h4> 
+         <ul class="aai-fnav"> 
+          <li><a href="http://rog.asus.com/" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">ROG International</a></li> 
+          <li><a href="http://zenbook.asus.com/" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">ZENBOOK</a></li> 
+          <li><a href="http://www.asusdesign.com/" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Asus Design Center</a></li> 
+         </ul> 
+        </div> 
+        <div id="Company_menu" class="aai-footer-span"> 
+         <h4>Hvem vi er?</h4> 
+         <ul class="aai-fnav"> 
+          <li class="navbar-li"><a href="/no/Award/Award?&amp;Area=NORWAY" id="menu_awards" target="_self" onclick="googleTrackEvent('index_menu', this, true);return false;">Utmerkelser</a></li> 
+          <li class="divider-vertical"></li> 
+          <li class="navbar-li"><a href="/no/News/" id="menu_news">Nyheter</a></li> 
+          <li class="divider-vertical"></li>
+          <li class="navbar-li"><a href="/no/About_ASUS/Opprinnelsen" id="menu_aboutasus">OM ASUS</a></li> 
+          <li><a href="/no/ASUS_Website_Information/Contact-ASUS2" target="_top" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Kontakt ASUS Norge</a></li> 
+          <li><a href="/no/ASUS_Website_Information/Contact-ASUS" target="_self" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Kontakt ASUS service og support</a></li> 
+          <li><a href="/no/investor.aspx" target="_self" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Investorforbindelser</a></li> 
+          <li><a href="/no/ASUS_Website_Information/Jobbmuligheter" target="_top" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Jobbmuligheter</a></li> 
+          <li><a href="http://csr.asus.com/english/" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">OM CSR</a></li> 
+          <li><a href="http://press.asus.com/" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Presserom</a></li> 
+         </ul> 
+        </div> 
+        <div id="Support_menu" class="aai-footer-span"> 
+         <h4>Trenger hjelp?</h4> 
+         <ul class="aai-fnav"> 
+          <li><a href="http://www.asus.com/NO/ASUS_Website_Information/Contact-ASUS2/" target="_self" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Kontakt ASUS Norge</a></li> 
+          <li><a href="http://www.asus.com/NO/ASUS_Website_Information/Contact-ASUS/" target="_self" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Kontakt ASUS service og support</a></li> 
+          <li>Mandag til fredag fra 9.00 til 18.00</li> 
+         </ul> 
+         <div id="service_call" class="hide"> 
+          <div id="call_center"> 
+           <h4></h4> 
+           <span class="tel"></span> 
+          </div> 
+         </div> 
+         <div id="call_message" class="hide"></div> 
+        </div> 
+        <div id="Community_menu" class="aai-footer-span"> 
+         <h4>Samfunnet</h4> 
+         <ul class="aai-fnav"> 
+          <li class="aai-social-media"> <a href="http://www.youtube.com/user/asus" target="_blank" title="You Tube" onclick="googleTrackFamilySite(this, 'SiteMap');return false;"><img src="/media/global/icons/socialmedia/52_n.png"></a> <a href="https://www.facebook.com/ASUS?sk=app_142486072485174" target="_blank" title="Facebook" onclick="googleTrackFamilySite(this, 'SiteMap');return false;"><img src="/media/global/icons/socialmedia/54_n.png"></a> <a href="https://www.pinterest.com/asusnordic/" target="_blank" title="asusnordic" onclick="googleTrackFamilySite(this, 'SiteMap');return false;"><img src="/media/global/icons/socialmedia/237_n.png"></a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div class="aai-fbootom"> 
+        <div id="extra_link"> 
+         <div id="footer_country_link"> 
+          <a href="http://www.asus.com/entry.htm" onclick="googleTrackEvent('Country_Lang_Menu', this, true);return false;" title="entry_page">Norway / <span class="lang_set"> Norwegian</span></a> 
+         </div> 
+        </div> 
+        <div id="aai-copyright"> 
+         <ul id="copyright"> 
+          <li><a href="/no/Terms_of_Use_Notice_Privacy_Policy/Official-Site" target="_top" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Kunngjøring om bruksvilkår</a></li>
+          <li><a href="/no/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy" target="_top" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Personvernspolicy</a></li> 
+          <li class="copyright">©ASUSTeK Computer Inc. Alle rettigheter forbeholdt.</li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <script>
+     var intControlsbottomSysWordingCheckId;
+     intControlsbottomSysWordingCheckId = setInterval("controlsbottomSysWordingCheck()", intSysWordingCheckSpeed);
+
+     function controlsbottomSysWordingCheck() {
+         if (sysWordingRead) {
+             $("#call_message").children().removeAttr("style");
+             clearTimeout(intControlsbottomSysWordingCheckId);
+         }
+     }
+     $(document).ready(function () {
+         $("#call_message>div").removeAttr("style");
+
+         if (isApplicationPathSite()) {
+             var domail_url = "";
+             switch (getWebsite()) {
+                 case "ch-de":
+                 case "ch-fr":
+                 case "ch-it":
+                     domail_url = "ch.asus.com"
+                     break;
+                 case "ca-fr":
+                 case "ca-en":
+                     domail_url = "ca.asus.com"
+                     break;
+                 case "ae-en":
+                 case "ae-ar":
+                     domail_url = "ae.asus.com"
+                     break;
+                 case "be-fr":
+                 case "be-nl":
+                     domail_url = "be.asus.com"
+                     break;
+                 case "af-pa":
+                 case "af-da":
+                     domail_url = "www.asus.com/af"
+                     break; be
+                 case "sa-en":
+                 case "sa-ar":
+                     domail_url = "www.asus.com/sa"
+                     break;
+                 case "nafr-ar":
+                 case "nafr-fr":
+                     domail_url = "www.asus.com/nafr"
+                     break;
+                 case "ua":
+                 case "ua-ua":
+                     domail_url = "www.asus.ua"
+                     break;
+                 case "tn-fr":
+                 case "tn-ar":
+                     domail_url = "www.asus.com/tn"
+                     break;
+                 case "ma-fr":
+                 case "ma-ar":
+                     domail_url = "www.asus.com/ma"
+                     break;
+                 case "dz-fr":
+                 case "dz-ar":
+                     domail_url = "www.asus.com/dz"
+                     break;
+             }
+
+             $.ajax({
+                 dataType: 'xml',
+                 url: "/" + getWebsite() + "/GetData.asmx/getMultipleLang",
+                 type: 'get',
+                 cache: true,
+                 success: function (xml) {
+                     $("Domain", xml).each(function (e) {
+                         if ($("domain_name", this).text() == domail_url) {
+                             $("website", this).each(function (e) {
+                                 if ($("website_code", this).text() != getWebsite()) {
+                                     $("#footer_country_link a:last").after(" | <a href=\"" + $("url", this).text() + "\"><span>" + $("websiteLanguage", this).text() + "</span></a>");
+                                 }
+                             });
+                         }
+                         return;
+                     });
+                 },
+                 error: function (XMLHttpRequest, textStatus, errorThrown) {
+                     //alert(XMLHttpRequest + '\n' + textStatus + '\n' + errorThrown);
+                 }
+             });
+         }
+     });
+
+</script> 
+     <script>
+    if (getWebsite() == "cn") {
+        document.write(unescape('%3Cdiv style="text-align:center"%3E'))
+        document.write(unescape('%3Cscript src="https://kxlogo.knet.cn/seallogo.dll?sn=2011012700100006231&size=1"%3E%3C/script%3E'))
+        document.write(unescape('%3C/div%3E'))
+    }
+</script> 
+    </div> 
+   </div> 
+   <a id="LangSelection" href="/LangSelection.aspx?KeepThis=ture&amp;TB_iframe=ture&amp;height=150&amp;width=300&amp;inlineId=displayWarning&amp;white=true" class="thickbox hide" title=""></a> 
+   <div> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C21772F6"> 
+   </div> 
+   <script>$(document).ready(function(){window.name = '';create_breadcrumbs('', '');});</script>
+  </form>   
+  <script>
+    $(document).ready(function () {
+        if (getWebsite() == "us") {
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("data-link", "http://store.asus.com/us/");
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("target", "_blank");
+        }
+        if (getWebsite() == "th") {
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("data-link", "http://store.asus.com/th/");
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("target", "_blank");
+        }
+        if (getWebsite() == "tw") {
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("data-link", "http://store.asus.com/tw/");
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("target", "_blank");
+        }
+        if (getWebsite() == "ph") {
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("data-link", "http://store.asus.com/ph/");
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("target", "_blank");
+        }
+    });
+
+    (function () {
+        var sc = document.createElement("link"); sc.type = "text/css"; sc.rel = 'stylesheet';
+        sc.href = "/css/2015/alert-info.css";
+        var s = document.getElementsByTagName("head")[0];
+        setTimeout(function () {
+            s.appendChild(sc);
+        }, 100);
+
+        var sc2 = document.createElement("script"); sc2.type = "text/javascript";
+        sc2.src = "/js/2015/alert-info.js";
+        var s2 = document.getElementsByTagName("script")[0]; s2.parentNode.insertBefore(sc2, s2);
+    })();
+
+</script>
+ </body>
+</html>

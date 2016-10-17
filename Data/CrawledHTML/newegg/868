@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1.0,user-scalable=no"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <title>5 Tips for Building a VR-Ready PC - Newegg.com</title> 
+  <meta name="description" content="Learn everything you need to know about Virtual Reality as Newegg covers 5 Tips for Building a VR-Ready PC with minimum requirements, benchmarks and more."> 
+  <link rel="stylesheet" type="text/css" href="http://images10.newegg.com/WebResource/Themes/2005/CSS/USA/font-awesome.v1.w.10825.0.css"> 
+  <link type="text/css" rel="stylesheet" href="http://promotions.newegg.com/template/us/css/2015/template.css"> 
+  <link type="text/css" rel="stylesheet" href="http://promotions.newegg.com/nepro/vr2/css/base.css"> 
+  <link type="text/css" rel="stylesheet" href="http://promotions.newegg.com/nepro/vr2/css/vr.css"> 
+  <!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="css/ie.css">
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]--> 
+  <!-- Adobe Dynamic Tag Management --> 
+  <script src="http://assets.adobedtm.com/d2f967b83a0c92b19d9b572545fdbdc3d591f6f5/satelliteLib-389760a7bc4573d6b081d36f6782b59f3c8ffb54.js"></script> 
+  <script type="text/javascript" src="http://promotions.newegg.com/template/us/js/jquery-1.5.1.nrv.min.js"></script> 
+  <!-- jQuery for Pricing | DO NOT REMOVE --> 
+ </head> 
+ <body> 
+  <script type="text/javascript" src="http://promotions.newegg.com/template/us/js/2015/header-blue.js"></script> 
+  <!-- HEADER --> 
+  <!-- VR MODULES BRGIN --> 
+  <section class="section-inner article"> 
+   <div class="article-main"> 
+    <h1>5 Tips for building a VR-ready PC</h1> 
+    <p class="author">By Christopher Atwood</p> 
+    <img class="article-image" src="http://promotions.newegg.com/nepro/vr2/guides/images/hardware_pc_gaming.jpg" title="5 Tips for building a VR-ready PC" alt="5 Tips for building a VR-ready PC"> 
+    <p>VR is hurtling towards the modern day gamer at breakneck speeds, but the question that remains unanswered is whether the consumer is ready for the admittedly impressive system requirements that go into running a streamlined VR experience. Oculus and HTC have both released their <a href="http://www.newegg.com/vr/guides/find-out-if-your-pc-can-handle-vr.html">minimum recommended requirements</a> that should guarantee a quality VR experience, but if you're building a VR PC there are a number of key elements you should keep in mind to make sure that you get the most of that nifty new set of screens strapped to your forehead.</p> 
+    <h2>Don't Skimp on the GPU</h2> 
+    <img src="http://promotions.newegg.com/nepro/vr2/guides/images/hardware_pc_12.jpg" title="Don't Skimp on the GPU" alt="Don't Skimp on the GPU"> 
+    <p>This seems like an obvious bit of advice, but even though the recommended specs for today's VR headsets hint that a <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16814127832&amp;cm_sp=VRCentral-_-Article-_-Build-_-GTX970">GTX 970</a> should be plenty of hardware to get by, it's worth it to invest into something a little more <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16814127872&amp;cm_sp=VRCentral-_-Article-_-Build-_-rR390X">heavy duty</a> to make sure your PC will be up to snuff when the time comes.</p> 
+    <p>Something to consider is that, even though Oculus and HTC have released recommended specs for their respective headsets, they really have little control over the optimization and hardware intensity of the games delivered on their services. Games like Crytek's <i>The Climb</i> might have an entirely different set of hardware requirements compared to an indie VR horror title, and both will likely deviate from the specs set out by Oculus and HTC. So although you can easily get by on the official recommended specs from your VR headset's manufacturer, if you want to guarantee that you'll be able to play every game the Oculus and Vive have to offer on the highest possible settings, you should consider making the leap to either the high end of superclocked <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16814487088&amp;cm_sp=VRCentral-_-Article-_-Build-_-GTX970">GTX 970s</a> and <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16814127874&amp;cm_sp=VRCentral-_-Article-_-Build-_-R9390">R9 390s</a>, or make the jump to the next most powerful family of <a href="http://www.newegg.com/Product/ProductList.aspx?Submit=Property&amp;N=100007709%2050001419%2050001315%2050001402%2050001312%2050001669%2050012150%2050001561%2050001314%20600536050%20600565061%20600559418%20600559642%20600566292%20600566291%20600566293%20600565674%20600565504&amp;IsNodeId=1&amp;cm_sp=VRCentral-_-Article-_-Build-_-GPUS">GPUs</a>.</p> 
+    <h2>Benchmark to 4K</h2> 
+    <img src="http://promotions.newegg.com/nepro/vr2/guides/images/htc_vive_review.jpg" title="Benchmark to 4K" alt="Benchmark to 4K"> 
+    <p>If you're having trouble deciding exactly which parts or builds to go with on your VR-ready build, consider checking how your prospective parts perform at 4K benchmarks. This is tossed around a lot on a lot of the VR forums out there, and it comes down to the number of pixels that your PC needs to process per second to deliver a seamless VR experience.</p> 
+    <p>The Vive and the Rift both feature two 1080 x 1200 resolution screens, but after calculating for things like eye buffer and lens refraction they come to a combined resolution of 3024 x 1680. Add in the fact that each screen features a 90Hz refresh rate, and at optimal frame rates the Vive and Rift require your rig to process and render a combined 457 million pixels per second. In contrast, a standard 4K screen running at 60fps comes out to a ballpark of 498 million pixels per second.</p> 
+    <p>At first this seems like a near impossible gap to bridge because a number of the biggest and baddest GPUs on the market struggle at 4K on ultra settings with most Triple-A titles, but odds are that few if any of the games that release on the Rift and the Vive are going to be sprinting towards the kind of graphical fidelity you can expect out of today's ultra benchmarks. So keep a close eye out for how your prospective card will perform at medium-to-high settings, because these are likely the kind of graphics we'll see roll out for the first few years, until drivers and APIs catch up to the current standard. If your GPU and CPU can handle any kind of medium-to-high 4K settings at near or above 30fps, you'll likely be running easily about 60fps when you hook up your headset.</p> 
+    <h2>Build with Long Term Upgrades in Mind</h2> 
+    <img class="article-image" src="http://promotions.newegg.com/nepro/vr2/guides/images/gigabyte_motherboards_blizzcon.jpg" title="Build With Long Term Upgrades in Mind" alt="Build With Long Term Upgrades in Mind"> 
+    <p>An important element to consider with any build is how easy it'll be to upgrade in the future. With PC gaming and VR both sprinting towards ever-higher levels of processing intensity, there's little doubt that your PC is going to need an engine upgrade every once in a while. And if you want to avoid having to do a full rebuild later on down the road, consider investing in a quality <a href="http://www.newegg.com/Intel-Motherboards/SubCategory/ID-280?cm_sp=VRCentral-_-Article-_-Build-_-Motherboard">motherboard</a> and <a href="http://www.newegg.com/Power-Supplies/SubCategory/ID-58?Tid=7657?cm_sp=VRCentral-_-Article-_-Build-_-PSU">PSU</a> now rather than later.</p> 
+    <p>Consider that VR will likely become one of the biggest reasons for dual GPUs when the driver support catches up, so make sure you have plenty of room and PCI Express 3.0 slots on your motherboard to potentially slot in a second graphics card when the time comes, or so that you're well and truly safe from potential bottlenecks from a low-quality CPU socket. Additionally, it's worthwhile to make sure your motherboard has a Thunderbolt 3 port or two – these high speed ports are more than likely going to be what VR headsets switch to within the next few generations to cut down on the killer cord frenzy associated with current headsets.</p> 
+    <h2>Keep it Cool</h2> 
+    <img src="http://promotions.newegg.com/nepro/vr2/guides/images/hardware_logitech_thermaltake.jpg" title="Keep it Cool" alt="Keep it Cool"> 
+    <p>Though VR headsets are the coolest cats coming to your town, the strain they put on even high-end systems is anything but. So, even if you're not planning on doing a hefty amount of overclocking on your system, consider investing in a few high quality fans and an aftermarket cooler for your <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16835103099&amp;cm_sp=VRCentral-_-Article-_-Build-_-Cooler">CPU</a> This is especially important if you decide to go for parts that are on the edgier side of the recommended specs, because they'll likely be working at the absolute maximum load the second you tweak your settings to anything near high or ultra. Keep in mind that good <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16835103099&amp;cm_sp=VRCentral-_-Article-_-Build-_-fans">fans</a> are important; although almost any fans will keep your system cool, it can easily ruin the picture perfect VR experience of climbing a mountain or meeting a dinosaur if you can pick up the sound of your PC trying to lift off from across the room.</p> 
+    <h2>Check Your Ports and Get Tactile</h2> 
+    <img src="http://promotions.newegg.com/nepro/vr2/guides/images/win_transformer_case.jpg" title="Check Your Ports and Get Tactile" alt="Check Your Ports and Get Tactile"> 
+    <p>If you do decide to go for a cheaper motherboard, keep in mind that no matter which VR headset you buy, you're going to need plenty of ports to stay ahead of the number of inputs that each headset requires.</p> 
+    <p>So if you're shopping around for cheap motherboards to keep your build cost as low as possible, make sure that you pick one with at least three USB 3.0 ports and one USB 2.0 port, as well as a few ports for your mouse, keyboard, mic, and anything else you can think of. Nothing will be more disappointing than finding out post-build that something as simple as USB ports is holding back your ability to jump into the world of VR.</p> 
+    <p>Additionally, if you're planning on playing any VR games on the market that use a controller or a keyboard, consider investing in a keyboard that has well-defined tactile keys so that you can easily find your good old WASD by <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16823126397&amp;cm_sp=VRCentral-_-Article-_-Build-_-Keyboard">braille</a> if necessary.</p> 
+    <div class="article-nav"> 
+     <a class="back-to-vr-main" href="http://www.newegg.com/vr"><i class="fa fa-angle-left"></i>Back to <em>VR Central</em></a> 
+     <span class="article-pagination"> <a class="article-nav-previous" href="the-ultimate-guide-to-choosing-a-vr-headset.html"><i class="fa fa-angle-left"></i><em>Previous</em></a> <span class="article-nav-divider">|</span> <a class="article-nav-next" href="15-virtual-reality-games-you-should-be-playing-right-now.html"><em>Next</em><i class="fa fa-angle-right"></i></a> </span> 
+    </div> 
+   </div> 
+   <div class="article-side"> 
+    <div class="article-section-title">
+     Featured Products
+    </div> 
+    <ul class="featured-product"> 
+     <li class="item-cell"> 
+      <div class="item-container fix"> 
+       <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16826197105&amp;cm_sp=VRCentral-_-product-_-vga-_-na" class="item-img"><img class="lazy-img" src="http://promotions.newegg.com/nepro/vr2/http://promotions.newegg.com/nepro/vr2/guides/images/s.png" data-original="http://images17.newegg.com/is/image/newegg/26-197-105-TS?$S640$"></a> 
+       <div class="item-info"> 
+        <h4 class="item-title"><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16826197105&amp;cm_sp=VRCentral-_-product-_-vga-_-na">Logitech G633 Artemis Spectrum USB Connector Circumaural RGB 7.1 Surround Sound Gaming Headset</a></h4> 
+        <div class="price" id="ngl_26-197-105"></div> 
+       </div> 
+      </div> </li> 
+     <li class="item-cell"> 
+      <div class="item-container fix"> 
+       <a href="http://www.newegg.com/Product/Product.aspx?Item=0TH-010C-000K1&amp;cm_sp=VRCentral-_-product-_-vga-_-na" class="item-img"><img class="lazy-img" src="http://promotions.newegg.com/nepro/vr2/http://promotions.newegg.com/nepro/vr2/guides/images/s.png" data-original="http://images10.newegg.com/ProductImage/0TH-010C-000K1-10.jpg"></a> 
+       <div class="item-info"> 
+        <h4 class="item-title"><a href="http://www.newegg.com/Product/Product.aspx?Item=0TH-010C-000K1&amp;cm_sp=VRCentral-_-product-_-vga-_-na">HTC Vive - Virtual Reality Headset</a></h4> 
+        <div class="price" id="ngl_0TH-010C-000K1"></div> 
+       </div> 
+      </div> </li> 
+     <li class="item-cell"> 
+      <div class="item-container fix"> 
+       <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16836627006&amp;cm_sp=VRCentral-_-product-_-vga-_-na" class="item-img"><img class="lazy-img" src="http://promotions.newegg.com/nepro/vr2/http://promotions.newegg.com/nepro/vr2/guides/images/s.png" data-original="http://images17.newegg.com/is/image/newegg/36-627-006-TS?$S640$"></a> 
+       <div class="item-info"> 
+        <h4 class="item-title"><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16836627006&amp;cm_sp=VRCentral-_-product-_-vga-_-na">BOSE Companion 2 Series III Multimedia Speaker System</a></h4> 
+        <div class="price" id="ngl_36-627-006"></div> 
+       </div> 
+      </div> </li> 
+    </ul> 
+   </div> 
+  </section> 
+  <div class="vr-section related guide"> 
+   <section class="section-inner">
+    <div class="article-section-title">
+     Related Articles
+    </div>
+   </section> 
+   <section class="section-inner"> 
+    <!-- guide 1 --> 
+    <a href="the-ultimate-guide-to-choosing-a-vr-headset.html" class="guide-group"> 
+     <div class="guide-image" style="background-image: url('http://promotions.newegg.com/nepro/vr2/guides/images/htc_vive_review.jpg');"></div> 
+     <div class="guide-text-content"> 
+      <span class="guide-main-title">The Ultimate Guide to Choosing a VR headset</span> 
+      <span class="guide-sub-title">VR Headset Guide.</span> 
+     </div> </a> 
+    <!-- guide 2 --> 
+    <a href="why-you-should-choose-the-htc-vive.html" class="guide-group"> 
+     <div class="guide-image" style="background-image: url('http://promotions.newegg.com/nepro/vr2/guides/images/greg-vive.jpg');"></div> 
+     <div class="guide-text-content"> 
+      <span class="guide-main-title">Why you should choose the HTC Vive</span> 
+      <span class="guide-sub-title">Here's what the Vive has to offer.</span> 
+     </div> </a> 
+   </section> 
+  </div> 
+  <!-- VR MODULES END --> 
+  <script type="text/javascript" src="http://promotions.newegg.com/template/us/js/2015/footer.js"></script> 
+  <!-- FOOTER --> 
+  <script type="text/javascript" src="http://promotions.newegg.com/nepro/vr2/scripts/jquery.lazyload.min.js"></script> 
+  <!-- Pop up message if promotion is expired | DO NOT REMOVE --> 
+  <div id="popupMessage"> 
+   <a id="popupMessageClose" title="Close">x</a> 
+   <div id="message_box"> 
+    <img src="http://promotions.newegg.com/template/us/imgs/error.jpg" height="30" width="40">
+    <span class="error_message">Promotion Has Expired</span> 
+   </div> 
+   <p id="contactArea"> We're sorry. This promotion has ended, but we have many more deals and bargains at <a href="http://www.newegg.com" class="link_message">Newegg.com</a>!<br> <br> Earn big savings every day with <a href="http://www.newegg.com/DailyDeal.aspx?name=DailyDeal" class="link_message">Daily Deals</a> and steal hot products at rock bottom prices with <a href="http://www.newegg.com/Special/ShellShocker.aspx" class="link_message">Shell Shockers</a>!<br> <br> Never miss your chance for big savings again by signing up for the <a href="http://promotions.newegg.com/NEemail/latest/index-landing.aspx" class="link_message">Newegg Newsletter</a>! </p> 
+  </div> 
+  <div id="backgroundPopup"></div> 
+  <script type="text/javascript" src="http://promotions.newegg.com/template/us/js/error_message.js"></script>
+  <!-- Message Popup Window Script --> 
+  <!-- expired date popup --> 
+  <script type="text/javascript">
+	var expireDate = new Date("12/31/2099"); 
+	var today = new Date();
+	if (today >= expireDate > 0)
+		{
+			//centering with css
+			centerPopup();
+			//load popup
+			loadPopup();
+		}
+</script> 
+  <!-- Original LP Javascript --> 
+  <!-- Product Inventory, Pricing, and Sold Out scripts --> 
+  <script type="text/javascript">var ng_list=["0TH-010C-000K1","26-197-105","36-627-006"];</script> 
+  <script type="text/javascript" src="http://content.newegg.com/Common/ProductForLandingPage4.aspx?ItemList=0TH-010C-000K1,26-197-105,36-627-006&amp;Action=jQuery"></script> 
+  <script type="text/javascript" src="http://promotions.newegg.com/scripts/adjustStock-soldout-0.2.js"></script>
+  <!-- Sold Out script --> 
+  <!-- Google + Configuration scripts --> 
+  <script type="text/javascript" src="http://content.newegg.com/Common/TrackingLandingPageScripts.aspx"></script> 
+  <script type="text/javascript" src="http://promotions.newegg.com/template/us/js/popup.js"></script>
+  <!-- Popup Window Script --> 
+  <script type="text/javascript">window.onerror=function(){return true;}</script> 
+  <!-- Google Analytics --> 
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1147542-1']);
+  _gaq.push(['_setDomainName', '.newegg.com']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script> 
+  <!-- End Google Analytics --> 
+  <!-- Adobe DTM  --> 
+  <script type="text/javascript" language="javascript1.1">
+s.pageName='US_00-0000_ProjectDescription/00000000';
+s.server='promotions';
+s.channel='Landingpage';
+s.prop1='browsing';
+s.prop11='US_00-0000_ProjectDescription/00000000';
+s.prop23='MKT Promotion';
+s.prop19=Web.StateManager.Cookies.get(Web.StateManager.Cookies.Name.NVTC);
+s.prop24=Web.StateManager.Cookies.get(Web.StateManager.Cookies.Name.UTMA);
+ 
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)
+</script> 
+  <script type="text/javascript">_satellite.pageBottom();</script> 
+  <!-- END Adobe DTM -->  
+  <!-- LAZY LOAD | DO NOT REMOVE --> 
+  <script>
+jQuery(document).ready(function(e) {
+	jQuery('.lazy-img').lazyload({
+		effect : 'fadeIn',
+		failure_limit: 3,
+		skip_invisible : false
+	});
+	
+	jQuery('.item-container .item-info').each(function(index, element) {
+		var $self = jQuery(this);
+		var $price = $self.find('.price');
+		var _id = $price.attr('id');
+		if (_id) {
+			_id = _id.replace('ngl_', '');
+			if ($self.hasClass('has-item-bullets')) {
+				$price.before(Product[_id].bullet.displayRawValue());
+			}
+			$price.html(Product[_id].itemAllPriceInfo.displayRawValue());
+		}
+	});
+});
+</script>  
+ </body>
+</html>

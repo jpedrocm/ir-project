@@ -1,0 +1,374 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link href="//www.asus.com/css/web/base.css" rel="stylesheet">
+  <link href="//www.asus.com/css/web/business.css" rel="stylesheet">
+  <link href="//www.asus.com/css/web/mybootstrap_to_cut.css" rel="stylesheet">
+  <link href="//www.asus.com/css/web/base_responsive.css" rel="stylesheet">
+  <link href="//www.asus.com/css/web/asus_responsive.css" rel="stylesheet">
+  <link href="//www.asus.com/css/web/APIs.css" rel="stylesheet">
+  <link href="//www.asus.com/css/web/full_style.css" rel="stylesheet">
+  <link href="/Search/MasterPages/css/SuggestStyle.css" rel="stylesheet">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>
+
+</title> 
+  <script src="/Search/MasterPages/js/jquery/jquery-1.8.3.min.js"></script> 
+  <script src="/Search/MasterPages/js/jquery/jquery.xdomainrequest.min.js"></script> 
+  <script src="/Search/MasterPages/js/UrlHelper.js"></script> 
+  <script src="/Search/MasterPages/js/GetUrlParameter.js"></script> 
+  <script src="/Search/MasterPages/js/SuggestScript.js"></script> 
+  <script src="/Search/MasterPages/js/RefinementScript.js"></script> 
+  <script src="//www.asus.com/js/web/asus.js"></script> 
+  <script src="//www.asus.com/js/web/bootstrap.js"></script> 
+  <script type="text/javascript" src="//www.asus.com/js/web/AsusGeneralScript.js"></script> 
+  <link class="websiteCSS" rel="stylesheet"> 
+  <script type="text/javascript">
+         var country = GetCountryCode().toLowerCase();
+         //主版頁面埋設GA code, 不同站須替換該國的GoogleTrackingCode欄位, CN與其他國家的處理方式較不同
+         //除CN使用百度tracking外, 其他國家皆用google analytic
+         function setGACode(GACode) {
+             if (country != "cn") {
+                 (function (i, s, o, g, r, a, m) {
+                     i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                         (i[r].q = i[r].q || []).push(arguments)
+                     }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                     m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+                 })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+                 ga('create', GACode, 'auto', { 'allowLinker': true });
+                 ga('require', 'linker');
+                 ga('require', 'displayfeatures');
+                 ga('linker:autoLink', ['asus.com']);
+                 ga('send', 'pageview');
+             }
+             else {
+                 var _hmt = _hmt || [];
+                 (function () {
+                     var hm = document.createElement("script");
+                     hm.src = "//hm.baidu.com/hm.js?b4671500ff917b268437ff5be30c0ff0";
+                     var s = document.getElementsByTagName("script")[0];
+                     s.parentNode.insertBefore(hm, s);
+                 })();
+             }
+         }
+
+         window.ASUSInit = function () {
+             asus_api.init({
+                 appkey: 'search0001',
+                 lang: country
+             });
+         };
+         (function (d) {
+             try {
+                 var js, id = 'asus-jsapi';
+                 if (d.getElementById("asus-jsapi")) { return; }
+                 js = d.createElement('script');
+                 js.id = id;
+                 js.async = true;
+                 js.src = "//www.asus.com/API/js/asus_api.js";
+                 d.getElementsByTagName('head')[0].appendChild(js);
+             }
+             catch(err)
+             {
+                 //d.write('主版頁面發生錯誤!!!');
+             }
+         }(document));
+
+         $(document).ready(function () {
+             setTimeout(function () {
+                 var country = GetCountryCode().toLowerCase().replace('-', '');
+                 $('.websiteCSS').attr('href', '//www.asus.com/websites/' + country + '/css/n_local.css');
+             }, 1000);
+
+         });
+    </script> 
+ </head> 
+ <body class="asus-lmenu-pushbody"> 
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+    new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+'//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NJRLM8');</script> 
+  <!-- End Google Tag Manager --> 
+  <form name="aspnetForm" method="post" action="./results.aspx?SearchKey=Notebook&amp;searchType=FAQ&amp;IsSupport=True" id="aspnetForm"> 
+   <div> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="76ZassVkTn0u51+nW+t6/meNf07A19hkZ91jOfdD4+ON3M/AXKtx46s1ppxVWiEAGPmv0zvYElpgMnNWo3XqM3fFe03Bn8pzAkNFVAvO2ks="> 
+   </div> 
+   <div> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D318BCA5"> 
+   </div> 
+   <div> 
+    <div class="modal hide" id="AwardModal"> 
+     <div class="modal-header"> 
+      <button class="close" data-dismiss="modal"><img src="//www.asus.com/media/images/g_close.png"></button> 
+      <h3><img></h3> 
+     </div> 
+     <div class="modal-body"> 
+      <p>You're about to access @@replaceword@@ which is not part of ASUS. ASUS is not responsible for the content of web pages nor the safety or privacy policies in place by @@replaceword@@.&gt;</p> 
+      <a class="btn btn-primary" href="#" target="_blank">I confirm, please take me there.</a> 
+      <a href="#" class="btn" data-dismiss="modal">Cancel</a> 
+     </div> 
+    </div> 
+    <div id="main-zone" class="container-fluid gray-bg-small"> 
+     <div class="container"> 
+      <h1 class="page-title double-border-bottom">Search</h1> 
+      <div class="row"> 
+       <div class="span12 searchbar-gray"> 
+        <div class="form-search"> 
+         <label>Did you mean to search for </label> 
+         <input type="text" id="searchinput2" name="q" class="input-medium search-query span7" onkeyup="lookup(this.value, event);" autocomplete="off"> 
+         <button id="search-btn2" type="submit" class="search-btn-blue"><span>搜尋結果</span></button> 
+         <ul class="selectbox2" style="display: none;"></ul> 
+        </div> 
+        <div id="suggestions" class="input-medium search-query" style=" left: 31%; position: absolute; display: none; z-index: 100"> 
+        </div> 
+        <a href="#" class="btn-adv hide" id="showLeftPush">Show/Hide products</a> 
+       </div> 
+      </div> 
+      <script type="text/javascript">
+    $(document).ready(function () {
+        var searchKey = getUrlParameter('SearchKey');
+        if (searchKey != undefined) {
+            $('#searchinput2').val(decodeURIComponent(searchKey));
+        }
+
+        $('#searchinput2').keypress(function (event) {
+            if (event.keyCode == 13) {
+                if ($('#searchinput2').val() != '') {
+					var index1 = window.location.href.toLowerCase().indexOf('?searchkey=');
+					var index2 = window.location.href.toLowerCase().indexOf('&searchtype=');
+					if (index2 > -1 && window.parent.document.getElementById('left-nav'))
+					{					
+						var href = window.location.href.replace(window.location.href.slice(index1,index2),'?SearchKey=' + encodeURI($('#searchinput2').val()));
+						var index3 = href.toLowerCase().indexOf('&page=');
+						if (index3 > -1 && href.slice(index3+1).indexOf('&') ==  -1)
+						{
+							href = href.replace(href.slice(index3), '&Page=1');
+						}
+						window.location.href = href;
+					}
+					else
+					{
+						window.location.href = '//' + window.location.host + window.location.pathname + '?SearchKey=' + encodeURI($('#searchinput2').val());
+					}
+					return false;
+                }
+            }
+        });
+
+        $('#search-btn2').click(function () {
+            if ($('#searchinput2').val() != '') {
+				var index1 = window.location.href.toLowerCase().indexOf('?searchkey=');
+				var index2 = window.location.href.toLowerCase().indexOf('&searchtype=');
+				if (index2 > -1 && window.parent.document.getElementById('left-nav'))
+				{						
+						var href = window.location.href.replace(window.location.href.slice(index1,index2),'?SearchKey=' + encodeURI($('#searchinput2').val()));
+						var index3 = href.toLowerCase().indexOf('&page=');
+						if (index3 > -1 && href.slice(index3+1).indexOf('&') ==  -1)
+						{
+							href = href.replace(href.slice(index3), '&Page=1');
+						}
+						window.location.href = href;				}
+				else
+				{
+					window.location.href = '//' + window.location.host + window.location.pathname + '?SearchKey=' + encodeURI($('#searchinput2').val());
+				}
+                return false;
+            }
+            else {
+                window.location.href = '//' + window.location.host + window.location.pathname + '?SearchKey=' + encodeURI($('#searchinput2').val());
+                return false;
+            }
+        });
+    });
+</script> 
+      <div id="ResultArea" class="row"> 
+       <div class="span3">
+        <nav class="left-menu-zone">
+         <ul id="left-nav" class="unstyled search-nav"> 
+          <li class="nav-item-sub"><a class="nav-item-title" href="?SearchKey=Notebook&amp;SearchType=Products&amp;IsSupport=True&amp;Page=1">Products<span class="badge badge-asus">204</span></a></li> 
+          <li class="nav-item-sub"><a class="" href="?SearchKey=Notebook&amp;SearchType=Products&amp;Category=Notebooks&amp;IsSupport=True&amp;Page=1">Notebooks<span class="badge badge-asus">68</span></a></li> 
+          <li class="nav-item-sub"><a class="" href="?SearchKey=Notebook&amp;SearchType=Products&amp;Category=Tablets&amp;IsSupport=True&amp;Page=1">Tablets<span class="badge badge-asus">4</span></a></li> 
+          <li class="nav-item-sub"><a class="" href="?SearchKey=Notebook&amp;SearchType=Products&amp;Category=Motherboards&amp;IsSupport=True&amp;Page=1">Motherboards<span class="badge badge-asus">36</span></a></li> 
+          <li class="nav-item-sub"><a class="" href="?SearchKey=Notebook&amp;SearchType=Products&amp;Category=Monitors&amp;IsSupport=True&amp;Page=1">Monitors<span class="badge badge-asus">4</span></a></li> 
+          <li class="nav-item-sub"><a class="" href="?SearchKey=Notebook&amp;SearchType=Products&amp;Category=Networking&amp;IsSupport=True&amp;Page=1">Networking<span class="badge badge-asus">30</span></a></li> 
+          <li class="nav-item-sub"><a class="" href="?SearchKey=Notebook&amp;SearchType=Products&amp;Category=Computer-Bags&amp;IsSupport=True&amp;Page=1">Computer Bags<span class="badge badge-asus">5</span></a></li> 
+          <li class="nav-item-sub"><a class="" href="?SearchKey=Notebook&amp;SearchType=Products&amp;Category=ROG-Republic-Of-Gamers&amp;IsSupport=True&amp;Page=1">ROG - Republic Of Gamers<span class="badge badge-asus">23</span></a></li> 
+          <li class="nav-item-sub"><a class="" href="?SearchKey=Notebook&amp;SearchType=Products&amp;Category=Phone-Accessory&amp;IsSupport=True&amp;Page=1">Phone Accessories<span class="badge badge-asus">1</span></a></li> 
+          <li class="nav-item-sub"><a class="" href="?SearchKey=Notebook&amp;SearchType=Products&amp;Category=2-in-1-PCs&amp;IsSupport=True&amp;Page=1">2-in-1 PCs<span class="badge badge-asus">8</span></a></li> 
+          <li class="nav-item-sub"><a class="" href="?SearchKey=Notebook&amp;SearchType=Products&amp;Category=Tablet-Accessory&amp;IsSupport=True&amp;Page=1">Tablet Accessories<span class="badge badge-asus">1</span></a></li> 
+          <li class="nav-item-sub"><a class="" href="?SearchKey=Notebook&amp;SearchType=Products&amp;Category=Projectors&amp;IsSupport=True&amp;Page=1">Projectors<span class="badge badge-asus">5</span></a></li> 
+          <li class="nav-item-sub"><a class="" href="?SearchKey=Notebook&amp;SearchType=Products&amp;Category=Motherboard-Accessory&amp;IsSupport=True&amp;Page=1">Motherboard Accessories<span class="badge badge-asus">1</span></a></li> 
+          <li class="nav-item-sub"><a class="" href="?SearchKey=Notebook&amp;SearchType=Products&amp;Category=Notebooks-Accessory&amp;IsSupport=True&amp;Page=1">Notebook Accessories<span class="badge badge-asus">13</span></a></li> 
+          <li class="nav-item-sub"><a class="" href="?SearchKey=Notebook&amp;SearchType=Products&amp;Category=Optical-Drives-Storage&amp;IsSupport=True&amp;Page=1">Optical Drives &amp; Storage<span class="badge badge-asus">2</span></a></li> 
+          <li class="nav-item-sub"><a class="" href="?SearchKey=Notebook&amp;SearchType=Products&amp;Category=Docks&amp;IsSupport=True&amp;Page=1">Docks<span class="badge badge-asus">2</span></a></li> 
+          <li class="nav-item-sub"><a class="" href="?SearchKey=Notebook&amp;SearchType=Products&amp;Category=AllinOne-PCs&amp;IsSupport=True&amp;Page=1">All-in-One PCs<span class="badge badge-asus">1</span></a></li> 
+          <li class="divider"></li> 
+          <li class="nav-item-sub"><a class="nav-item-title" href="?SearchKey=Notebook&amp;SearchType=Commercial&amp;IsSupport=True&amp;Page=1">Commercial<span class="badge badge-asus">68</span></a></li> 
+          <li class="nav-item-sub"><a class="" href="?SearchKey=Notebook&amp;SearchType=Commercial&amp;Category=Commercial-Notebooks&amp;IsSupport=True&amp;Page=1">Notebooks<span class="badge badge-asus">49</span></a></li> 
+          <li class="nav-item-sub"><a class="" href="?SearchKey=Notebook&amp;SearchType=Commercial&amp;Category=Commercial-Monitors&amp;IsSupport=True&amp;Page=1">Monitors<span class="badge badge-asus">14</span></a></li> 
+          <li class="nav-item-sub"><a class="" href="?SearchKey=Notebook&amp;SearchType=Commercial&amp;Category=Commercial-Projectors&amp;IsSupport=True&amp;Page=1">Projectors<span class="badge badge-asus">5</span></a></li> 
+          <li class="divider"></li> 
+          <li class="nav-item-sub"><a class="nav-item-title" href="?SearchKey=Notebook&amp;SearchType=FAQ&amp;IsSupport=True&amp;Page=1">FAQ<span class="badge badge-asus">122</span></a></li> 
+          <li class="divider"></li> 
+          <li class="nav-item-sub"><a class="nav-item-title" href="?SearchKey=Notebook&amp;SearchType=News&amp;IsSupport=True&amp;Page=1">Latest News<span class="badge badge-asus">102</span></a></li> 
+          <li class="divider"></li> 
+          <li class="nav-item-sub"><a class="nav-item-title" href="?SearchKey=Notebook&amp;SearchType=Awards&amp;IsSupport=True&amp;Page=1">Awards<span class="badge badge-asus">136</span></a></li> 
+          <li class="divider"></li> 
+         </ul>
+        </nav>
+       </div> 
+       <script type="text/javascript">
+    function HideShopBlock()
+    {
+        var shopBlock = $('.span9-line').first();
+        var noResult = $('.no-result');
+        if (shopBlock && noResult)
+        {
+            shopBlock.hide();
+        }
+    }
+</script> 
+       <div class="span9-line curl-shadow sp-faq sp-result-area"> 
+        <div id="search-result"> 
+         <div id="search-result-header" class="double-border-bottom clearfix"> 
+          <span class="item-title">FAQ</span> 
+          <span class="pull-right result-count">Total Rows:<span class="blueword">122</span></span> 
+         </div> 
+         <div class="search-unit"> 
+          <div class="clearfix"> 
+           <img src="//www.asus.com/support/images/faq.gif" class="hot-product-pic" style="display:none;"> 
+           <div class="side-content"> 
+            <h2 class="product-name"><a href="//www.asus.com/US/support/FAQ/1015536">[Desktop PC/Motherboard]Wireless Network fails to connect</a></h2> [Desktop PC/Motherboard]Wireless Network fails to connect ... If cable network can work while ... to specific network, please try to connect with other devices(phone,
+            <strong>notebook</strong>) to test ... 
+           </div> 
+          </div> 
+         </div> 
+         <hr class="gray"> 
+         <div class="search-unit"> 
+          <div class="clearfix"> 
+           <img src="//www.asus.com/support/images/faq.gif" class="hot-product-pic" style="display:none;"> 
+           <div class="side-content"> 
+            <h2 class="product-name"><a href="//www.asus.com/US/support/FAQ/1030673">How to inquire CPU type or correct model name?</a></h2> try to press and hold the power button for 5~8 seconds until the 
+            <strong>Notebook</strong> is shut down ... For previous edition of ASUS 
+            <strong>Notebook</strong>, you can press and hold "F2" to enter the BIOS when ... 
+           </div> 
+          </div> 
+         </div> 
+         <hr class="gray"> 
+         <div class="search-unit"> 
+          <div class="clearfix"> 
+           <img src="//www.asus.com/support/images/faq.gif" class="hot-product-pic" style="display:none;"> 
+           <div class="side-content"> 
+            <h2 class="product-name"><a href="//www.asus.com/US/support/FAQ/1018749">How to tell what TPM specification your notebook supports</a></h2> How to tell what TPM specification your 
+            <strong>notebook</strong> supports ... If your 
+            <strong>notebook</strong> does not support TPM you will see a message that says, 'TPM cannot be ... 
+           </div> 
+          </div> 
+         </div> 
+         <hr class="gray"> 
+         <div class="search-unit"> 
+          <div class="clearfix"> 
+           <img src="//www.asus.com/support/images/faq.gif" class="hot-product-pic" style="display:none;"> 
+           <div class="side-content"> 
+            <h2 class="product-name"><a href="//www.asus.com/US/support/FAQ/1018368">Can I modify the cover of my notebook?</a></h2> Can I modify the cover of my 
+            <strong>notebook</strong> ... To modify the 
+            <strong>notebook's</strong> cover:Go to 
+            <strong>notebook</strong> list page ... Tap and hold on the 
+            <strong>notebook</strong> that you want to modify, then tap Edit cover ... 
+           </div> 
+          </div> 
+         </div> 
+         <hr class="gray"> 
+         <div class="search-unit"> 
+          <div class="clearfix"> 
+           <img src="//www.asus.com/support/images/faq.gif" class="hot-product-pic" style="display:none;"> 
+           <div class="side-content"> 
+            <h2 class="product-name"><a href="//www.asus.com/US/support/FAQ/1018369">Can I have a check list on my memo?</a></h2> Can I have a check list on my memo ... When creating a 
+            <strong>Notebook</strong>, select Memo 
+           </div> 
+          </div> 
+         </div> 
+         <div class="pagination btn-group">
+          <ul>
+           <li class="disabled"> <a><span class="left-triangle"></span></a> </li>
+           <li class="active"> <a alt="1">1</a> </li>
+           <li> <a href="?SearchKey=Notebook&amp;SearchType=FAQ&amp;Category=0&amp;IsSupport=True&amp;Page=2" class="activelink" alt="2">2</a> </li>
+           <li> <a href="?SearchKey=Notebook&amp;SearchType=FAQ&amp;Category=0&amp;IsSupport=True&amp;Page=3" class="activelink" alt="3">3</a> </li>
+           <li> <a href="?SearchKey=Notebook&amp;SearchType=FAQ&amp;Category=0&amp;IsSupport=True&amp;Page=4" class="activelink" alt="4">4</a> </li>
+           <li> <a href="?SearchKey=Notebook&amp;SearchType=FAQ&amp;Category=0&amp;IsSupport=True&amp;Page=5" class="activelink" alt="5">...</a> </li>
+           <li><a href="?SearchKey=Notebook&amp;SearchType=FAQ&amp;Category=0&amp;IsSupport=True&amp;Page=5" class="activelink" alt=""><span class="right-triangle"></span></a></li>
+          </ul>
+         </div> 
+        </div> 
+       </div>
+       <div class="span9-line curl-shadow sp-shop sp-result-area"> 
+        <div id="search-result"> 
+         <div id="search-result-header" class="double-border-bottom clearfix"> 
+          <span class="item-title">{type}</span> 
+          <span class="pull-right result-count">Total Rows:<span class="blueword">{TotalCount}</span></span> 
+         </div> 
+         <iframe id="ifame_auto_size" class="auto_h" frameborder="0" width="100%" scrolling="no" src=""></iframe> 
+        </div> 
+       </div> 
+       <script type="text/javascript">
+                    $("#showLeftPush").on("click", function () {
+                        $("body").toggleClass("asus-lmenu-pushbody-toright");
+                    });
+               </script> 
+      </div> 
+     </div> 
+    </div> 
+    <script type="text/javascript">
+        $(function () {
+            //尋找refiner裡的內容, 名稱+數量 等於item-title, 加上className:active
+            var activeTitle = $('#search-result-header .item-title:first').text();
+            var itemCount = $('#search-result-header .blueword:first').text();
+            if (activeTitle != '{type}') {
+                $('li.nav-item-sub').each(function () {
+                    var $itemSub = $(this);
+                    if ($itemSub.find('a').text() == (activeTitle + itemCount)) {
+                        $itemSub.addClass('active');
+                    }
+                });
+            }
+        });
+        $(document).ready(function () {
+            var first = $('.span9-line').first();
+            if ($('.span9-line').length > 1) {
+                var second = $('.span9-line').eq(1);
+                if (first.has('#ifame_auto_size').length == 0) {
+                    //if first not contains iframe, hide second
+                    second.hide();
+                }
+            }
+            var lastDivider = $('#left-nav > li.divider:last');
+            if (lastDivider.length != 0) {
+                if (lastDivider.next().hasClass('.nav-item-sub') == false) {
+                    lastDivider.remove();
+                }
+            }
+        });
+
+        $(document).click(function (e) {
+            if (e.target.id != "suggestions") {
+                $('#suggestions').fadeOut();
+            }
+        });
+
+</script> 
+   </div> 
+   <script>setGACode('UA-57045933-1');</script>
+  </form>   
+ </body>
+</html>

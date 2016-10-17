@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <title>Invodo Video in an iFrame</title> 
+  <style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+    }
+  </style> 
+  <!-- Load Invodo JS file.  Be sure to specify your unique affiliate ID (a= parameter).    --> 
+  <script type="text/javascript">
+  var toplevel = false; //needed for invodo lib, it seems to look for this variable. As this file is inside an iframe put value as false.
+</script> 
+  <script type="text/javascript" src="//e.invodo.com/4.0/s/lenovo.com.js"></script> 
+  <script type="text/javascript">
+  function getUrlParams()
+   {
+    var params = [], pair;
+    var rawParams = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+    for(var i = 0; i < rawParams.length; i++)
+    {
+        pair = rawParams[i].split('=');
+        params.push(pair[0]);
+        params[pair[0]] = pair[1];
+    }
+    return params;
+   }
+
+function trigger()
+{
+   var params = getUrlParams();  // pull sku and canonical URL arguments from query string
+   if(params)
+   {
+    var mySku=decodeURI(params["sku"]);
+    var myCanonUrl=decodeURI(params["canonUrl"]);
+    var myPagename=decodeURI(params["pageName"]);
+   }
+   if(myPagename != "undefined")
+   {
+    //per invodo this is not needed as the 4.0 Init triggers page view itself.
+    // Invodo.Conversion.send("pageView",{p:"IFRAME:"+myPagename,pp:myPagename});  //log pageView using parent page name
+   }
+
+  Invodo.init({
+    pageName: "IFRAME:"+myPagename,
+    pageType: "hmd",
+    onload: function()
+    {
+      Invodo.Widget.add({mpd:mySku, widgetId:"hmd", mode:"embedded", parentDomId:"parentVideo", type:"inplayer", autoplay:true});
+      try
+      {
+        parent.videoFound(decodeURI(params["elementid"]));
+      }
+      catch(err)
+      {
+        document.domain = document.domain;
+        parent.videoFound(decodeURI(params["elementid"]));
+      }
+
+
+//      var wdg = "Widget_HMD"
+//      var ctawdg = "CTA" + wdg;
+//      var reff = document.getElementById("videoContainer");
+
+//      var ctaWidget = Invodo.Widget.add({type:"inplayer", mode:"overlay", widgetId:wdg, mpd:mySku, listensTo:ctawdg});
+//      Invodo.Widget.add({type:"cta", widgetId:ctawdg, mpd:mySku, parentDomId:"parent", data:reff});
+    }//,
+//    onpodload:function(podId)
+//    {
+      //add video text
+//      document.getElementById("parentVideo").style.display = "block";
+//    }
+  });
+
+
+/*
+   var initObject = {};
+   if(mySku != "undefined")
+   {
+
+    initObject.viewers = {sku:mySku, type:"e", selector:"#videoContainer"};
+    initObject.callsToAction = {sku:mySku,selector:"#videoContainer",foundContent:contentFound};
+   }
+   if(myCanonUrl && myCanonUrl != "undefined")
+   {
+     initObject.canonicalUrl = decodeURI(myCanonUrl);
+   }
+
+   if(initObject.viewers)
+   {
+     Invodo.init(initObject);   // load requested video
+   }
+
+   function contentFound(elem,data)
+   {
+     document.getElementById("videoContainer").style.display = "block";
+     Invodo.Conversion.send("ctaView",{p:"IFRAME:"+myPagename,pp:myPagename,selector:elem.id});
+     parent.videoFound(decodeURI(params["elementid"]),data);
+   }
+*/
+}
+
+</script> 
+ </head> 
+ <body onload="trigger()"> 
+  <!-- DIV where embedded video will be inserted --> 
+  <div id="parentVideo" style="text-align:center; width:640px; height:360px;">
+   <div id="videoContainer" style="text-align:center;"></div>
+  </div>  
+ </body>
+</html>

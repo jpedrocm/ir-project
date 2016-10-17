@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width"> 
+  <meta name="description" content="Powered by ASUS offers dream machines with select system-builders, from small-form-factor dynamos to giant liquid-cooled beasts, Powered by ASUS means exclusivity, performance, and art."> 
+  <meta name="keywords" content="ASUS,VGA,MB,Desktop,Display,Monitor,Networks,Server &amp; Workstation,Chassis,Motherboards,PC Gaming hardware,Gaming motherboard,overclocking motherboard,Battlefield,assassins creed,Optical Storage,Graphics Cards,Multimedia,Peripherals &amp; Accessories,accessories,Peripheral,PC Accessories,Computer Peripheral,Power Supply,Thermal Solution,Eshop,PCs,Barebone PC, ASUS Partners, PBA, PBA Systems, ASUS System Integrator, ASUS System Builder, ASUS Gaming Systems, Gaming System, ASUS Computer, ASUS Gaming Computer"> 
+  <meta property="og:site_name" content="Powered by ASUS"> 
+  <meta property="og:title" content="Powered by ASUS."> 
+  <meta property="og:description" content="Powered by ASUS offers dream machines with select system-builders, from small-form-factor dynamos to giant liquid-cooled beasts, Powered by ASUS means exclusivity, performance, and art."> 
+  <link rel="shortcut icon" href="http://www.asus.com/media/img/favicon.ico"> 
+  <title>Powered by ASUS</title> 
+  <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" type="text/css"> 
+  <link href="Theme/CSS/normalize.css" rel="stylesheet" media="screen"> 
+  <link href="Theme/CSS/default.css" rel="stylesheet" media="screen"> 
+  <link href="Theme/CSS/idangerous.swiper.css" rel="stylesheet" media="screen"> 
+  <script src="Theme/Javascript/modernizr.custom.08193.js"></script> 
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> 
+  <script src="Theme/Javascript/default.js"></script> 
+  <script src="Theme/Javascript/idangerous.swiper.min.js"></script> 
+  <script type="text/javascript">
+    //ASUS header & footer
+        window.ASUSInit = function () {
+            asus_api.init({ appkey: 'campa00004' , lang: 'tw', api_menu_logo: '0');
+        };
+        (function(d){
+            var js, id = 'asus-jsapi';
+            if (d.getElementById("asus-jsapi")) {return;}
+            js = d.createElement('script');
+            js.id = id;
+            js.async = true;
+            js.src = "//www.asus.com/API/js/asus_api.js";
+            d.getElementsByTagName('head')[0].appendChild(js);
+        }(document));
+     </script> 
+  <style type="text/css">
+ul {
+	font-family: "맑은 고딕";
+}
+</style> 
+ </head> 
+ <body> 
+  <div class="wrapper"> 
+   <header class="header"> 
+    <section class="header-inner"> 
+     <a href="index.html"><img class="logo" src="Theme/Image/UI/logo.png"></a> 
+     <div class="burger-wrapper"> 
+      <a class="burger burger-on"></a> 
+      <a class="burger burger-off"></a> 
+     </div> 
+     <ul class="menu"> 
+      <li><a href="index.html" class="active" onclick="ga('send', 'event', 'menus', 'clicked', ‘powered-by-asus-au')">Powered by ASUS</a></li> 
+      <li><a href="buynow.html" class="icon-cart" onclick="ga('send', 'event', 'menus', 'clicked', ‘buy-a-pc-now-au')">지금 ASUS PC 구매하기</a></li> 
+      <li><a href="companion.html" onclick="ga('send', 'event', ‘menus’, 'clicked', ‘best-companion-with-your-pc-au')">ASUS PC와 찰떡궁합 주변기기들</a></li> 
+      <li><a href="promotion.html" onclick="ga('send', 'event', ‘menus', 'clicked', ‘events-and-promotion-au')">이벤트 및 프로모션</a></li> 
+     </ul> 
+    </section> 
+   </header> 
+   <main class="main"> 
+    <section class="banner home-banner"> 
+     <div class="hero"> 
+      <!--banner slider : start --> 
+      <a class="arrow-left" href="#"></a> 
+      <a class="arrow-right" href="#"></a> 
+      <div class="swiper-container"> 
+       <div class="swiper-wrapper"> 
+        <div class="swiper-slide"> 
+         <div class="swiper-img">
+          <a href="http://www.asus.com/microsite/powered-by-asus/kr/index.html" target="_blank" onclick="ga('send', 'event', ‘banners', 'clicked', ‘strix-7.1-au')">
+           <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-1.jpg)"></div></a>
+         </div> 
+        </div> 
+        <div class="swiper-slide"> 
+         <div class="swiper-img">
+          <a href="http://www.asus.com/kr/Graphics-Cards/ROG-STRIX-GTX1080-O8G-GAMING/" target="_blank" onclick="ga('send', 'event', ‘banners’, 'clicked', ‘Strix-gaming-series-au')">
+           <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-8.jpg)"></div></a>
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pagination"></div> 
+      <!--banner slider : end --> 
+     </div>
+    </section> 
+    <section class="home-intro"> 
+     <div class="home-intro-inner clear"> 
+      <div class="home-logo">
+       <img src="Theme/Image/UI/logo.png">
+      </div> 
+      <div class="text"> 
+       <h2>Powered by ASUS, 예술의 경지에 오른 성능</h2> 
+       <p>Powered By ASUS는 오직 완벽함만을 추구하는 PC에만 허용되는 이름입니다. 세계 최고의 R&amp;D팀이 "In Search of Incredible"이라는 본사의 모토를 위해 헌신적인 노력을 기울이고 있습니다.<br> 완벽함을 향한 본사의 노력은 매년 3000개가 넘는 어워드 획득이라는 엄청난 성과로 이어지고 있습니다. 그리고 수 많은 Powered By ASUS파트너들의 선별된 시스템 제작자들이 초소형 미니PC부터 에서부터 대형 수냉 시스템까지, 다른 곳에서는 볼 수 없는 꿈의 기계를 구현합니다. <br> Powered By ASUS는 누구나 경험할 수 없는 특별함을 선사합니다. 뛰어난 성능과 예술적 경지에 오른 우수한 기술력, 그것이 바로 Powered By ASUS의 의미입니다.</p> 
+      </div> 
+     </div> 
+    </section> 
+    <section class="home-duet clear"> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3><strong>세계 최고의 마더보드 브랜드</strong></h3> 
+       <p>ASUS는 혁신과 성능에 헌신하겠다는 약속을 지키며, 10년 연속 세계 최고의 마더보드 브랜드 자리를 굳건히 지키고 있습니다. 가장 많은 어워드를 획득한 최고의 마더보드 브랜드로, 최다 판매, 쉬운 사용법, 안정적이고 믿을 수 있는 제품이라는 4가지 신념을 실현합니다. 1989년 이래 5억개 이상의 마더보드를 판매한 ASUS는 누구나가 신뢰할 수 있는 브랜드입니다. </p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-a-1.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3><strong>세계 최고의 그래픽 카드 브랜드</strong></h3> 
+       <p>ASUS는 최고의 신뢰성을 구현하기 위해 100% 자동화된 생산 공정인'Auto-Extreme Technology 기술'을 업계 최초로 도입한 No.1 그래픽카드 브랜드입니다. 다양한 독자적인 냉각 기술과 직관적인 소프트웨어 디자인을 제공하는 ASUS 그래픽 카드는, 폭발적인 성능으로 스릴감 넘치는 게이밍 환경과 즐거움, 그리고 최고의 게이밍 경험을 선사합니다.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-a-2.jpg">
+      </div> 
+     </div> 
+    </section> 
+    <section class="home-team clear"> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3><strong>No.1 게이밍 모니터 브랜드, TÜV 블루라이트 최다 인증</strong></h3> 
+       <p>ASUS의 모니터 제품들은 다양한 분야에서 업계 최고의 자리를 차지하고 있습니다. ASUS는 사용자의 시력에 영향을 주는 블루 라이트 감소에 심혈을 기울여 블루 라이트 방출을 최대 70%까지 감소시키며, 세계적 권위의 인증 기관인 TÜV Rheinland에서 가장 많은 인증을 획득한 브랜드로 명성을 떨치고 있습니다.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-1.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3><strong>게임, 4K 스트리밍, 그리고 스마트 홈을 위한 최상의 선택</strong></h3> 
+       <p>RT-AC88U가 새로운 차원의 wireless 네트워크를 소개합니다. 최신NitroQAM™ 기술이 사용자의 분주한 네트워크를 위해 Wi-Fi 속도를 배가시켜 드립니다. 전례없이 넓은 Wi-Fi 커버력, 번개같이 빠른 USB 및 WAN/LAN 속도, 그리고 완벽한 보안 및 LAN 포트까지, RT-AC88U는 다양한 재주와 최신 기술력을 모두 갖추었습니다. </p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-2.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3><strong>1,000년 이상 사용해도 안전한 내장 ODD</strong></h3> 
+       <p>ASUS ODD는 사용자의 소중한 디지털 메모리를 보호하기 위해 아카이브(Archive) 급 스토리지 솔루션인 M-DISC™를 지원합니다. ASUS M-DISC 기술은 기록된 데이터를 악조건 속에서도 바위처럼 견고하게 버틸 수 있도록 특허 받은 레이어에 새겨 넣어 1,000년이 넘어도 저장된 정보를 안전하게 지켜드립니다.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-3.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3><strong>PC Games Hardware의 Reader's Choice를 3년 연속 수상한 사운드카드!</strong></h3> 
+       <p>ASUS 사운드 카드는 음향 매니아들도 만족시킬 수 있는 수준급 부품들로 구성됨은 물론, 작은 소리까지 엄격하게 정제하여 청력에 까다로운 사용자들을 미소 짓게 할 사운드를 선사합니다. 높은 신호 대 잡음비(SNR)와 까다롭게 선별된 헤드폰 앰프, 그리고 멀티 채널 서라운드 사운드와 함께, 사용자의 청음 환경과 게이밍 경험을 새로운 차원으로 안내합니다.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-4.jpg">
+      </div> 
+     </div> 
+    </section> 
+    <section class="buy-now"> 
+     <a href="buynow.html" class="action" onclick="ga('send', 'event', 'navigations', 'clicked', ‘buy-a-pc-now-au')"><strong>지금 PC를 구매하세요!</strong></a> 
+    </section> 
+   </main> 
+   <footer class="footer"> 
+    <p class="backtotop"><a>Back to Top</a></p> 
+    <section class="content"> 
+     <p class="copyright "><a href="http://www.asus.com/KR/" target="_blank"><img src="Theme/Image/UI/asus.png"></a><br>© 2016 ASUSTeK Computer Inc. All Rights Reserved.&nbsp;Terms of Use. All specifications and terms are subject to change without notice. Please check with your supplier for exact offers on selected models. Products may not be available in all markets. Product may not be exactly as shown in photos. Brand and product names mentioned are trademarks of their respective companies. ASUS shall not be liable for technical or editorial errors or omissions contained herein.</p> 
+    </section> 
+   </footer> 
+   <div class="sidenav"> 
+    <!--<a class="sidenav-home-1"><span>OVERVIEW</span></a>--> 
+    <a class="sidenav-home-2"><span>왜 POWERED BY ASUS인가?</span></a> 
+    <a class="sidenav-home-3"><span>ASUS의 제품을 선택해야만 하는 이유</span></a> 
+   </div> 
+  </div>  
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NJRLM8');</script> 
+  <!-- End Google Tag Manager -->  
+ </body>
+</html>

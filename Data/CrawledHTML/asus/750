@@ -1,0 +1,397 @@
+<!doctype html>
+<!--單機DEMO框架，勿貼 @start-->
+<html>
+ <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google" value="notranslate"> 
+  <title>Oculus Ready PCs</title>
+  <style>html,body { padding: 0; margin: 0; background: black; }</style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+  <!-- Uncomment to test asus pre-included css --> 
+  <!--
+<link rel="stylesheet" type="text/css" media="all" href="http://digitalmkt.asus.com/css/2015/reset.css">
+<link href="http://digitalmkt.asus.com/css/web/base.css" rel="stylesheet">
+<link href="http://digitalmkt.asus.com/css/web/base_responsive.css" rel="stylesheet">
+<link rel='stylesheet' href='http://digitalmkt.asus.com/css/web/business.css' type='text/css'>
+<link rel='stylesheet' href='http://digitalmkt.asus.com/css/web/mybootstrap_to_cut.css' type='text/css'>
+<link rel='stylesheet' href='http://digitalmkt.asus.com/css/web/overview.css' type='text/css'>
+<link rel="stylesheet" type="text/css" media="all" href="http://digitalmkt.asus.com/css/2015/main.css">  
+<link href="http://digitalmkt.asus.com/css/web/APIs.css" rel="stylesheet">
+<link href="http://digitalmkt.asus.com/css/web/full_style.css" rel="stylesheet">
+<link href="http://digitalmkt.asus.com/css/web/ProductTab.css" rel="stylesheet">
+--> 
+ </head>
+ <body>
+  <div id="product_content_area">
+   <div id="overview" class="clearfix">
+    <div class="overview-wrapper"> 
+     <script>
+var version = '1', path = '/websites/global/products/PRODUCTHASHID/', reg = new RegExp('\\?r='+version);
+if(!reg.test(location.search) && !/file:/.test(location.href) && /wowface/.test(location.host)) {
+	//location.replace('http://wowface.tw/d/rog/oculus/?r=' + version );
+}
+
+document.getElementsByTagName('body')[0].style.opacity = 0;
+$(function(){ $('body').css({ 'opacity':1, 'webkitTransition':'opacity .4s ease-out .36s' }); });
+
+$(function(){
+	$('img,video,source').each(function(){
+		var s = $(this).attr('src')||$(this).attr('poster');
+		$(this).attr($(this).attr('poster')?'poster':'src', s.replace(path,''));
+	});
+});
+</script> 
+     <!--單機DEMO框架，勿貼 @end--> 
+     <!-- //////////////////////////////////////////////
+		#sectionOverview  @START
+ ////////////////////////////////////////////// --> 
+     <section id="sectionOverview"> 
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.carousel.min.css"> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/owl.carousel.min.js"></script> 
+      <!-- 下列三行供本機demo用，上稿時，請註解掉，改成再後三行 --> 
+      <link rel="stylesheet" href="css/main.css?v=1"> 
+      <script src="js/plugins.js?v=1"></script> 
+      <script src="js/main.min.js?v=1"></script> 
+      <!-- 上稿時，請用下列三行 --> 
+      <!--
+
+<link rel="stylesheet" href="/websites/global/products/PRODUCTHASHID/css/main.css?v=1">
+<script src="/websites/global/products/PRODUCTHASHID/js/plugins.js?v=1"></script>
+<script src="/websites/global/products/PRODUCTHASHID/js/main.min.js?v=1"></script>
+
+--> 
+      <div id="mMobiNavToggle"></div> 
+      <div id="mNav"> 
+       <div class="inner"> 
+        <ul> 
+         <li><a class="scrllto" href="#oculusReady-intro"><b>New Oculus Ready PC Family</b>
+           <div></div></a></li> 
+         <li><a class="scrllto" href="#oculusReady-vr-gaming"><b>VR Gaming Machines</b>
+           <div></div></a></li> 
+         <li><a class="scrllto" href="#oculusReady-usp"><b>Lighting, Easy setup, Oculus shortcuts</b>
+           <div></div></a></li> 
+         <li><a class="scrllto" href="#oculusReady-nvidia"><b>NVIDIA</b>
+           <div></div></a></li> 
+         <li><a class="scrllto" href="#oculusReady-testing"><b>Strict Testing</b>
+           <div></div></a></li> 
+         <li><a class="scrllto" href="#oculusReady-device1"><b>ASUS G11CD</b>
+           <div></div></a></li> 
+         <li><a class="scrllto" href="#oculusReady-device2"><b>ROG G20CB</b>
+           <div></div></a></li> 
+         <li><a class="scrllto" href="#oculusReady-device3"><b>G752VS/ VM</b>
+           <div></div></a></li> 
+        </ul> 
+       </div> 
+      </div> 
+      <div id="mMobiNavOverlay"></div> 
+      <div id="mWrap" class="mwrap"> 
+       <div id="mContent"> 
+        <!--
+	#intro
+--------------------------------------------------> 
+        <section id="oculusReady-intro" class="msect"> 
+         <div class="msect-inner"> 
+          <div class="text"> 
+           <div class="heading">
+            Immersive Virtual Reality 
+            <br class="pc">taken to the next level
+           </div> 
+           <div class="descr"> 
+            <p>Introducing the new Oculus Ready PC family, now upgraded with NVIDIA® GeForce® GTX 10-Series graphics.</p> 
+            <!--<img class="icn-oculus-ready" src="/websites/global/products/PRODUCTHASHID/img/icon-oculus-ready.png">--> 
+           </div> 
+          </div> 
+          <figure class="devices">
+           <img src="/websites/global/products/PRODUCTHASHID/img/intro-devices.png">
+          </figure> 
+          <div class="ground"></div> 
+         </div> 
+        </section> 
+        <!--
+	#vr-gaming
+--------------------------------------------------> 
+        <section id="oculusReady-vr-gaming" class="msect"> 
+         <div class="msect-inner"> 
+          <div class="text"> 
+           <div class="heading">
+            Welcome the new age of VR with these incredible gaming machines
+           </div> 
+           <div class="descr"> 
+            <p>Since the middle of last year, we started co-working with Oculus and set an ambitious goal – to make the first VR-compatible gaming systems in the market and spread VR technology across the globe.</p> 
+            <p>We gave Oculus our advanced ROG G20 and G11 gaming desktops at the creation of the Oculus Ready certification program. Today, the ROG G752VS/ VM gaming laptop joins our Oculus Ready PC family. Now ASUS offers even more variety when it’s time to pick out a gaming PC that delivers a truly immersive VR experience.</p> 
+           </div> 
+          </div> 
+         </div> 
+        </section> 
+        <!--
+	#usp
+--------------------------------------------------> 
+        <section id="oculusReady-usp" class="msect"> 
+         <div class="carousel"> 
+          <div class="usp1 msect-inner"> 
+           <div class="text"> 
+            <div class="heading">
+             Oculus Blue lighting
+            </div> 
+            <div class="descr"> 
+             <p>We co-worked with Oculus to develop this special Oculus Blue light effect – the default color effect for Oculus Ready PCs. The unique Oculus Blue color stands out, so there’s no mistaking that you’re using an Oculus Ready PC.</p> 
+            </div> 
+           </div> 
+           <figure class="hero">
+            <img src="/websites/global/products/PRODUCTHASHID/img/usp1-hero.jpg">
+           </figure> 
+          </div> 
+          <div class="usp2 msect-inner"> 
+           <div class="text"> 
+            <div class="heading">
+             Special instructional stickers for easy set up
+            </div> 
+            <div class="descr"> 
+             <p>We care about the user experience and we want your Oculus Ready PC up and running right out of the box. We’ve included instructional stickers to indicate where you should plug in your various peripherals to get you gaming in no time.</p> 
+            </div> 
+           </div> 
+           <figure class="hero">
+            <img src="/websites/global/products/PRODUCTHASHID/img/usp2-hero.jpg">
+           </figure> 
+          </div> 
+          <div class="usp3 msect-inner"> 
+           <div class="text"> 
+            <div class="heading">
+             Oculus shortcuts on your desktop
+            </div> 
+            <div class="descr"> 
+             <p>We’ve made it easy to install Oculus-related software on your desktop, so everything you need for truly immersive VR gaming is just a click away. It’s that simple.</p> 
+            </div> 
+           </div> 
+           <figure class="hero">
+            <img src="/websites/global/products/PRODUCTHASHID/img/usp3-hero.jpg">
+           </figure> 
+          </div> 
+         </div> 
+         <div id="btnNextUsp"></div> 
+         <div id="btnPrevUsp"></div> 
+        </section> 
+        <!--
+	#nvidia
+--------------------------------------------------> 
+        <section id="oculusReady-nvidia" class="msect"> 
+         <div class="msect-inner"> 
+          <div class="text"> 
+           <div class="heading">
+            Thrilling visuals, delivered by the latest NVIDIA Pascal architecture
+           </div> 
+           <div class="descr"> 
+            <p>The flagship NVIDIA® GeForce® GTX 10-series graphics card is the most advanced gaming graphics card ever created. Designed around the new NVIDIA Pascal™ architecture, GeForce GTX 1080 delivers up to three times the performance of previous-generation graphics cards, superior energy-efficiency, innovative gaming technologies and breakthrough VR experiences.</p> 
+            <p>Discover next-gen VR performance, the lowest latency, and plug-and-play compatibility with leading Oculus Rift. VR audio, physics and haptics let you hear and feel every moment.</p> 
+            <p>So strap on your Oculus Rift, and let these ROG Oculus Ready PCs and the latest NVIDIA VR technologies immerse you in expansive gaming worlds.</p> 
+           </div> 
+          </div> 
+          <figure class="hero">
+           <img src="/websites/global/products/PRODUCTHASHID/img/nvidia-hero.jpg">
+          </figure> 
+         </div> 
+        </section> 
+        <!--
+	#testing
+--------------------------------------------------> 
+        <section id="oculusReady-testing" class="msect"> 
+         <div class="testing-main"> 
+          <div class="testing-main-inner"> 
+           <img class="icn" src="/websites/global/products/PRODUCTHASHID/img/icon-testing-result.png"> 
+           <p class="descr">ASUS ROG worked with Oculus to create strict testing procedures and environments to ensure that you get the very best VR experience. Here’s a quick look at how our gaming PCs earn the Oculus Ready certification.</p> 
+          </div> 
+         </div> 
+         <div class="testing-item on"> 
+          <div class="testing-item-title"> 
+           <div class="testing-item-title-inner"> 
+            <strong class="heading">Preparation checklist</strong> 
+            <div class="toggle"></div> 
+           </div> 
+          </div> 
+          <div class="testing-item-cont" style="display: block"> 
+           <div class="testing-item-cont-inner"> 
+            <img class="icn" src="/websites/global/products/PRODUCTHASHID/img/icon-testing-score10.png"> 
+            <p class="descr">Every Oculus Ready system will go through a set of preliminary tests to determine software settings are configured correctly, updates are working properly, and hardware responds accordingly. Oculus ensures that a user’s out of box experience will propel them into VR effortlessly and painlessly.</p> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="testing-item"> 
+          <div class="testing-item-title"> 
+           <div class="testing-item-title-inner"> 
+            <strong class="heading">Functional Test Coverage</strong> 
+            <div class="toggle"></div> 
+           </div> 
+          </div> 
+          <div class="testing-item-cont"> 
+           <div class="testing-item-cont-inner"> 
+            <img class="icn" src="/websites/global/products/PRODUCTHASHID/img/icon-testing-score10.png"> 
+            <p class="descr">Applications rated in low, medium and high intensity are rigorously tested for an average of 30 minutes, ensuring that the framerates meet an optimal user experience. Oculus has determined that 90 FPS is absolutely critical for a comfortable and immersive VR experience and each Oculus Ready system must prove its ability to maintain this 90 FPS standard.</p> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="testing-item"> 
+          <div class="testing-item-title"> 
+           <div class="testing-item-title-inner"> 
+            <strong class="heading">Reliability &amp; performance test</strong> 
+            <div class="toggle"></div> 
+           </div> 
+          </div> 
+          <div class="testing-item-cont"> 
+           <div class="testing-item-cont-inner"> 
+            <img class="icn" src="/websites/global/products/PRODUCTHASHID/img/icon-testing-score10.png"> 
+            <p class="descr">The system hardware is put through 17 rigorous performance and reliability tests to ensure the system is fully battle-tested. This includes a 72 hour application stress test, and the repeated swapping of hardware ports to ensure connectivity and reliability.</p> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="testing-item"> 
+          <div class="testing-item-title"> 
+           <div class="testing-item-title-inner"> 
+            <strong class="heading">Oculus Ready certification score</strong> 
+            <div class="toggle"></div> 
+           </div> 
+          </div> 
+          <div class="testing-item-cont"> 
+           <div class="testing-item-cont-inner"> 
+            <img class="icn" src="/websites/global/products/PRODUCTHASHID/img/icon-testing-score9.png"> 
+            <p class="descr">After over 100+ tests and checks each Oculus Ready system is awarded a score out of a total 10 possible points.</p> 
+           </div> 
+          </div> 
+         </div> 
+        </section> 
+        <!--
+	#device1 (G11CD)
+--------------------------------------------------> 
+        <section id="oculusReady-device1" class="msect"> 
+         <div class="msect-inner"> 
+          <figure class="hero">
+           <img src="/websites/global/products/PRODUCTHASHID/img/device1-hero.jpg">
+          </figure> 
+          <div class="text"> 
+           <div class="heading">
+            ASUS G11CD
+           </div> 
+           <div class="descr"> 
+            <div class="feat"> 
+             <p class="tt">Blazing gaming performance</p> 
+             <ul> 
+              <li>6th-gen Intel® Core™ i7 processor</li> 
+              <li>NVIDIA® GeForce® GTX™ 1070 graphics</li> 
+              <li>DDR4 /USB 3.1 for superfast data access</li> 
+             </ul> 
+            </div> 
+            <div class="feat"> 
+             <p class="tt">Designed for gamers, optimized for everyone</p> 
+             <ul> 
+              <li>Customizable 8-million color LED effects with pulse mode</li> 
+              <li>Advanced design with Mayan-inspired detailing</li> 
+             </ul> 
+            </div> 
+            <div class="feat"> 
+             <p class="tt">Enhanced gaming features</p> 
+             <ul> 
+              <li>GameAlive feature lets you record, edit, and share gameplay videos</li> 
+              <li>SonicMaster-optimized gaming audio</li> 
+             </ul> 
+            </div> 
+           </div> 
+           <a class="morelink" href="https://www.asus.com/Tower-PCs/G11CD-Oculus-Ready/" target="_blank">LEARN MORE</a> 
+          </div> 
+         </div> 
+        </section> 
+        <!--
+	#device2 (G20CB)
+--------------------------------------------------> 
+        <section id="oculusReady-device2" class="msect"> 
+         <div class="msect-inner"> 
+          <figure class="hero">
+           <img src="/websites/global/products/PRODUCTHASHID/img/device2-hero.jpg">
+          </figure> 
+          <div class="text"> 
+           <div class="heading">
+            ROG G20CB
+           </div> 
+           <div class="descr"> 
+            <div class="feat"> 
+             <p class="tt">Blazing gaming performance</p> 
+             <ul> 
+              <li>9.5-liter chassis with a 6th-gen Intel® Core™ i7 processor NVIDIA® GeForce® GTX™ 1070/1080 graphics</li> 
+             </ul> 
+            </div> 
+            <div class="feat"> 
+             <p class="tt">Designed for gamers</p> 
+             <ul> 
+              <li>Customizable 8-million-color LED effects with audio sync</li> 
+              <li>GameAlive for custom shareable gameplay videos</li> 
+             </ul> 
+            </div> 
+            <div class="feat"> 
+             <p class="tt">Non-Stop Gaming</p> 
+             <ul> 
+              <li>Effective heat management for ultimate stability</li> 
+              <li>Ultra-quiet 22dB performance at idle</li> 
+             </ul> 
+            </div> 
+           </div> 
+           <a class="morelink" href="https://www.asus.com/Tower-PCs/ROG-G20CB-Oculus-Ready/" target="_blank">LEARN MORE</a> 
+          </div> 
+         </div> 
+        </section> 
+        <!--
+	#device3 (G752VS/ VM)
+--------------------------------------------------> 
+        <section id="oculusReady-device3" class="msect" style="margin-bottom: 50px"> 
+         <div class="msect-inner"> 
+          <figure class="hero">
+           <img src="/websites/global/products/PRODUCTHASHID/img/device3-hero.jpg">
+          </figure> 
+          <div class="text"> 
+           <div class="heading">
+            G752VS/ VM
+           </div> 
+           <div class="descr"> 
+            <div class="feat"> 
+             <p class="tt">Unbeatable performance</p> 
+             <ul> 
+              <li>Unlocked Intel® Core™ i7 ‘Skylake’ processor and VR-Ready NVIDIA® GeForce® GTX 1070/1060 GPU for unbeatable performance</li> 
+             </ul> 
+            </div> 
+            <div class="feat"> 
+             <p class="tt">Efficient cooling system</p> 
+             <ul> 
+              <li>ROG-exclusive 3D Vapor Chamber for effective and efficient cooling (G752VS Only)</li> 
+             </ul> 
+            </div> 
+            <div class="feat"> 
+             <p class="tt">120Hz panel with NVIDIA G-SYNC™</p> 
+             <ul> 
+              <li>Super-fast 120Hz wide-view panel with NVIDIA® G-SYNC™ display technology (G752VS Only)</li> 
+             </ul> 
+            </div> 
+            <div class="feat"> 
+             <p class="tt">Anti-ghosting keyboard</p> 
+             <ul> 
+              <li>World’s first backlit anti-ghosting keyboard with 30-key rollover</li> 
+             </ul> 
+            </div> 
+           </div> 
+           <a class="morelink" href="https://www.asus.com/Notebooks/ROG-G752VS/" target="_blank">LEARN MORE about G752VS </a> 
+           <a class="morelink" href="https://www.asus.com/Notebooks/ROG-G752VM/" target="_blank" style="margin-top:20px;padding-right:30px">LEARN MORE about G752VM</a> 
+          </div> 
+         </div> 
+        </section> 
+       </div>
+       <!--/#mContent--> 
+      </div>
+      <!--/#mWrap--> 
+     </section> 
+     <!-- //////////////////////////////////////////////
+		#sectionOverview  @END
+ ////////////////////////////////////////////// --> 
+     <!--單機DEMO框架，以下勿貼--> 
+    </div>
+   </div>
+  </div> 
+ </body>
+</html>

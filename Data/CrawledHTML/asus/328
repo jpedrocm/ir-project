@@ -1,0 +1,269 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+ <!--<![endif]-->
+ <head> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <title>ASUS</title> 
+  <meta name="description" content=""> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <link rel="apple-touch-icon" href="apple-touch-icon.png"> 
+  <link rel="stylesheet" href="css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="css/main.css"> 
+  <!--<link rel="stylesheet" href="css/youtubecarousel.css" type="text/css">--> 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,600" rel="stylesheet" type="text/css"> 
+  <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script> 
+ </head> 
+ <body> 
+  <!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]--> 
+  <!--[if gte IE 9]
+<style type="text/css">
+.gradient {
+	filter: none;
+}
+</style>
+
+<script src="js/vendor/selectivizr.js"></script>
+<script src="js/vendor/html5shiv.min.js"></script>
+<script src="js/vendor/respond.min.js"></script>
+<![endif]--> 
+  <!--========================================================
+                      HEADER NAVIGATION
+=========================================================--> 
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation"> 
+   <div class="container"> 
+    <!-- Brand and toggle get grouped for better mobile display --> 
+    <div class="navbar-header"> 
+     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> 
+     <a class="navbar-brand" href="index.html"><img src="img/asusproLogo.png" height="100%" alt="ASUSPRO"></a> 
+    </div> 
+    <!-- Collect the nav links, forms, and other content for toggling --> 
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
+     <ul class="nav navbar-nav"> 
+      <li class="dropdown"><a href="#why">Why ASUSPRO
+        <!--<span class="sr-only">(current)</span>--></a> 
+       <ul class="dropdown-menu"> 
+        <li><a href="proven.html"><span class="c_blue">PRO</span>VEN</a></li> 
+        <li><a href="progressive.html"><span class="c_blue">PRO</span>GRESSIVE</a></li> 
+        <li><a href="proactive.html"><span class="c_blue">PRO</span>ACTIVE</a></li> 
+        <li><a href="protection.html"><span class="c_blue">PRO</span>TECTION</a></li> 
+        <li><a href="pro-environment.html"><span class="c_blue">PRO</span>-ENVIRONMENT</a></li> 
+        <li><a href="proficient.html"><span class="c_blue">PRO</span>FICIENT</a></li> 
+        <li><a href="professional.html"><span class="c_blue">PRO</span>FESSIONAL</a></li> 
+       </ul> </li> 
+      <li class="dropdown"><a href="#products">Products</a> 
+       <ul class="dropdown-menu"> 
+        <li><a href="asuspro-notebook.html">Commercial <span class="c_blue">Notebooks</span></a> </li>
+        <li><a href="asuspro-desktop.html">Commercial <span class="c_blue">Desktops</span></a> </li>
+        <li><a href="asuspro-allInOne.html">Commercial <span class="c_blue">All-In-One PC</span></a> </li>
+        <li><a href="asuspro-miniPC.html">Commercial <span class="c_blue">Mini PC</span></a> </li>
+       </ul> </li> 
+      <li><a href="#videos">Videos</a></li> 
+     </ul> 
+    </div>
+    <!-- /.navbar-collapse --> 
+   </div>
+   <!-- /.container-fluid --> 
+  </nav> 
+  <!--========================================================
+                            MAIN
+=========================================================--> 
+  <section id="home" name="home" class="gradient"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="col-md-12 text-center"> 
+      <h2>DESIGNED FOR <span class="c_blue f_reg">PRO</span>FESSIONALS.</h2> 
+      <h3>Robust Quality. Reliable Performance. <br> Excellent Technology. Best User Experience.</h3> 
+      <img src="img/designedForProfessional.png" width="90%"> 
+      <br> 
+      <a href="#why" class="arrow_down"><img src="img/down.png" height="20"></a> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <section id="why" name="why"> 
+   <div class="container-fluid"> 
+    <div class="row"> 
+     <div class="col-md-12 text-left"> 
+      <h2><span class="c_blue">More</span> reliable, <span class="c_blue">more</span> flexible and <span class="c_blue">more</span> productive.</h2> 
+      <p>ASUSPRO Commercial Series is designed to up the professional standard in your business. All fast-growing businesses encounter challenging IT needs and these demands evolve rapidly. That is why all ASUSPRO commercial products are designed with quality, reliability and flexibility to meet these challenges with the ultimate objective of increasing the productivity returns for businesses’ IT investments. At ASUS, we never stop innovating and the result is an ASUSPRO Commercial Series, which is designed with all your business needs in mind, meeting all your objectives and priorities at the same time.</p> 
+     </div> 
+    </div> 
+    <div class="row"> 
+     <div class="col-md-12 text-left"> 
+      <ul id="products_menu"> 
+       <li class="proven"><a href="proven.html"><h3><span class="c_blue">PRO</span>VEN</h3> Learn more »</a></li> 
+       <li class="progressive"><a href="progressive.html"><h3><span class="c_blue">PRO</span>GRESSIVE</h3> Learn more »</a></li> 
+       <li class="proactive"><a href="proactive.html"><h3><span class="c_blue">PRO</span>ACTIVE</h3> Learn more »</a></li> 
+       <li class="protection"><a href="protection.html"><h3><span class="c_blue">PRO</span>TECTION</h3> Learn more »</a></li> 
+       <li class="pro-environment"><a href="pro-environment.html"><h3><span class="c_blue">PRO</span>-ENVIRONMENT</h3> Learn more »</a></li> 
+       <li class="proficient"><a href="proficient.html"><h3><span class="c_blue">PRO</span>FICIENT</h3> Learn more »</a></li> 
+       <li class="professional"><a href="professional.html"><h3><span class="c_blue">PRO</span>FESSIONAL</h3> Learn more »</a></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <section id="products" name="products"> 
+   <div id="asuspro_slides" style="position: relative; top: 0px; left: 0px; width: 2667px; height: 1425px;"> 
+    <!-- Slides Container --> 
+    <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 2667px; height: 1425px;"> 
+     <div>
+      <a href=""><img u="image" src="img/slide1.jpg" width="100%" height="" alt=""></a>
+     </div> 
+     <div>
+      <a href="asuspro-notebook.html"><img u="image" src="img/slide2.jpg" width="100%" height="" alt=""></a>
+     </div> 
+     <div>
+      <a href="asuspro-desktop.html"><img u="image" src="img/slide3.jpg" width="100%" height="" alt=""></a>
+     </div> 
+     <div>
+      <a href="asuspro-allInOne.html"><img u="image" src="img/slide4.jpg" width="100%" height="" alt=""></a>
+     </div> 
+     <div>
+      <a href="asuspro-miniPC.html"><img u="image" src="img/slide5.jpg" width="100%" height="" alt=""></a>
+     </div> 
+    </div> 
+    <!--#region Arrow Navigator Skin Begin --> 
+    <!-- bullet navigator container --> 
+    <div u="navigator" class="jssorb05" style="bottom: 15px; right: 6px;"> 
+     <!-- bullet navigator item prototype --> 
+     <div u="prototype"></div> 
+    </div> 
+    <!--#endregion Bullet Navigator Skin End --> 
+    <!--#region Arrow Navigator Skin Begin --> 
+    <!-- Arrow Left --> 
+    <span u="arrowleft" class="jssora21l" style="top: 123px; left: 15px;"></span> 
+    <!-- Arrow Right --> 
+    <span u="arrowright" class="jssora21r" style="top: 123px; right: 15px;"></span> 
+    <!--#endregion Arrow Navigator Skin End --> 
+   </div> 
+  </section> 
+  <section id="videos" name="videos" class="gradient"> 
+   <div class="container-fluid"> 
+    <div class="row"> 
+     <div class="col-md-12 text-center"> 
+      <h2><span class="c_blue">Discover more</span> about ASUSPRO and our commercial solutions.</h2> 
+      <br> 
+     </div> 
+    </div> 
+    <div class="row"> 
+     <div class="col-md-1">
+      &nbsp;
+     </div> 
+     <div class="col-md-6" id="videos_main"> 
+      <iframe name="discoverMore" src="video-ASUSPRO-Reliability-Video.html"> </iframe> 
+     </div> 
+     <div class="col-md-4" id="videos_list"> 
+      <h6 class="c_blue">More videos:</h6> 
+      <ul> 
+       <li><a href="video-ASUSPRO-Reliability-Video.html" target="discoverMore"><p>ASUSPRO Reliability Video</p></a></li> 
+       <li><a href="video-ASUSPRO-BU201-Video.html" target="discoverMore"><p>ASUSPRO BU201 Video</p></a></li> 
+       <li><a href="video-ASUSPRO-E810-Business-Mini-PC.html" target="discoverMore"><p>ASUSPRO E810 Business Mini PC</p></a></li> 
+       <li><a href="video-ASUSPRO-Business-Solutions-Introduction.html" target="discoverMore"><p>ASUSPRO Business Solutions Introduction</p></a></li> 
+       <li><a href="video-Tool-less-Design-Feature-Video.html" target="discoverMore"><p>Tool-less Design Feature Video</p></a></li> 
+       <li><a href="video-VESA-Mount-Feature-Video.html" target="discoverMore"><p>VESA Mount Feature Video</p></a></li> 
+       <li><a href="video-Extension-Bay-Feature-Video.html" target="discoverMore"><p>Extension Bay Feature Video</p></a></li> 
+       <li><a href="video-Fanless-Design-Feature-Video.html" target="discoverMore"><p>Fanless Design Feature Video</p></a></li> 
+       <li><a href="video-Reinforced-Carbon-Construction-Feature-Video.html" target="discoverMore"><p>Reinforced Carbon Construction Feature Video</p></a></li> 
+       <li><a href="video-Ultra-Docking-Station-Feature-Video.html" target="discoverMore"><p>Ultra Docking Station Feature Video</p></a></li> 
+       <li><a href="video-Spill-Resistant-Keyboard-Feature-Video.html" target="discoverMore"><p>Spill-resistant Keyboard Feature Video</p></a></li> 
+      </ul> 
+     </div> 
+     <div class="col-md-1">
+      &nbsp;
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <section id="banner" name="banner"> 
+   <div class="container-fluid"> 
+    <div class="row"> 
+     <div class="col-md-6 text-left" id="the_lightest_business_notebook"> 
+      <h4>THE LIGHTEST BUSINESS NOTEBOOK.</h4> 
+      <p>Ultraportable for professionals on the go.</p> 
+      <a href="asuspro.html#asuspro_card">Learn more »</a> 
+     </div> 
+     <div class="col-md-6 text-right" id="military_standard"> 
+      <h4 class="c_blue">MILITARY STANDARD</h4> 
+      <p>Test even exceeding stringent military standard.</p> 
+      <a href="https://www.youtube.com/watch?v=3Q5mSf1I-7U">Watch video »</a> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <!--========================================================
+                            FOOTER
+=========================================================--> 
+  <footer> 
+   <p id="desktop_footer"> <a href="http://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Official_Site">Terms of Use Notice</a> | <a href="http://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy">Privacy Policy</a> | ©ASUSTEK Computer Inc. All rights reserved. </p> 
+   <p id="mobile_footer"> <a href="http://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Official_Site">Terms of Use Notice</a> | <a href="http://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy">Privacy Policy</a> <br> ©ASUSTEK Computer Inc. All rights reserved. </p> 
+  </footer> 
+  <!--========================================================
+                            SCRIPTS
+=========================================================--> 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script> 
+  <script src="js/vendor/bootstrap.min.js"></script> 
+  <!--<script type="text/javascript" src="js/jquery.youtubecarousel.js"></script>--> 
+  <script type="text/javascript" src="js/jssor.slider.mini.js"></script> 
+  <script src="js/main.js"></script> 
+  <!--jssor slider--> 
+  <script>
+$(document).ready(function() {
+//JSSOR SLIDER
+var options = {
+	$AutoPlay: true,
+	$BulletNavigatorOptions: {
+		$Class: $JssorBulletNavigator$,
+		$ChanceToShow: 2,
+		$AutoCenter: 1,
+		$SpacingX: 3,
+		$SpacingY: 3,  
+	},
+	$ArrowNavigatorOptions: {
+		$Class: $JssorArrowNavigator$,
+		$ChanceToShow: 2,
+		$AutoCenter: 2
+	}
+};
+
+var jssor_slider1 = new $JssorSlider$('asuspro_slides', options);
+//responsive code begin
+//you can remove responsive code if you don't want the slider scales
+//while window resizes
+function ScaleSlider1() {
+	var bodyWidth = document.body.clientWidth;
+	if (bodyWidth) {
+		jssor_slider1.$ScaleWidth(Math.min(bodyWidth, 1920));
+	} else
+		window.setTimeout(ScaleSlider1, 30);
+}
+//Scale slider after document ready
+ScaleSlider1();
+                                        
+//Scale slider while window load/resize/orientationchange.
+$(window).bind("load", ScaleSlider1);
+$(window).bind("resize", ScaleSlider1);
+$(window).bind("orientationchange", ScaleSlider1);
+//responsive code end
+
+});
+</script> 
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. --> 
+  <script>
+	(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+	function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+	e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+	e.src='//www.google-analytics.com/analytics.js';
+	r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+	ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+</script>   
+ </body>
+</html>

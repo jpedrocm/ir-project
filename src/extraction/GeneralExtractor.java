@@ -15,13 +15,25 @@ public class GeneralExtractor extends AbstractWrapper {
 
     @Override
     public String getProductName(Document doc) {
-        // TODO Auto-generated method stub
-        return null;
+        String name = null;
+        
+        Element head = doc.head();
+        Elements metas = head.getElementsByTag("meta");
+        for (Element meta : metas)
+            if (meta.hasAttr("property") && meta.attr("property").toLowerCase().equals("og:title") && meta.hasAttr("content"))
+                name = meta.attr("content");
+        
+        if (name == null) {
+            Element title = head.getElementsByTag("title").first();
+            name = title.text();
+        }
+        
+        return name;
     }
 
     @Override
     public HashMap<String, List<String>> getSpecifications(Document doc) {
-        HashMap<String, List<String>> specifications = new HashMap<String, List<String>>();
+        HashMap<String, List<String>> specifications = super.getSpecifications(doc);
 
         Elements tableElements = searchSpecsTable(doc.getElementsByTag("table"));
 
@@ -159,7 +171,6 @@ public class GeneralExtractor extends AbstractWrapper {
 
     @Override
     public String getPrice(Document doc) {
-        // TODO Auto-generated method stub
         return null;
     }
 

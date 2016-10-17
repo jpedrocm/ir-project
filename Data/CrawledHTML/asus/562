@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <link href="css/reset.css" rel="stylesheet" type="text/css"> 
+  <link href="css/layout.css" rel="stylesheet" type="text/css">  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <title>ASUS │ ASUS VR ready</title> 
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+     
+    ga('create', ' UA-56028643-1', 'auto', {'allowLinker': true});
+    ga('require', 'linker');
+    ga('require', 'displayfeatures');
+    ga('linker:autoLink', ['asus.com']);
+    ga('send', 'pageview');
+  </script> 
+ </head> 
+ <body> 
+  <div id="wrapper"> 
+   <div id="header"> 
+    <a href="http://www.asus.com/"> 
+     <div class="logo"></div> </a> 
+    <h1 class="page-title">ASUS VR ready</h1> 
+    <div class="header_txt1 txtstyle">
+      ASUS GeForce® GTX 970 and above graphics cards provide a powerful next-generation platform for the ultimate immersive virtual reality experience. Rigs and cards marked with “GeForce GTX VR Ready” ensure that your VR games will be optimized with a best-in-class GPU.
+     <br>
+     <br>Immersive VR requires seven times1 the graphics processing power of traditional 3D apps and games. NVIDIA’s unique set of features—such as multi-res shading—mean you get the right level of performance, image quality, and latency to ensure your VR experience is nothing short of amazing. 
+    </div> 
+    <br class="clearfloat"> 
+   </div> 
+   <div id="sub00"> 
+    <div class="pdbox pd01"> 
+     <p class="pd_title">ROG MATRIX</p> 
+     <p class="pd_sub">Record-breaking<br>Performance</p> 
+     <a class="pd_link" target="_blank" href="http://www.asus.com/nz/Graphics-Cards/MATRIX-GTX980TI-P-6GD5-GAMING/" title="GTX 980 Ti">GTX 980 Ti</a> 
+    </div> 
+    <div class="pdbox pd02"> 
+     <p class="pd_title">ROG POSEIDON</p> 
+     <p class="pd_sub">Air or Liquid –<br>Your Choice to Chill</p> 
+     <a class="pd_link" target="_blank" href="http://www.asus.com/nz/Graphics-Cards/POSEIDON-GTX980TI-P-6GD5/" title="GTX 980 Ti">GTX 980 Ti</a> 
+    </div> 
+    <div class="pdbox pd03"> 
+     <p class="pd_title">STRIX</p> 
+     <p class="pd_sub">30% Cooler.<br>0dB Gaming</p> 
+     <a class="pd_link" target="_blank" href="http://www.asus.com/nz/Graphics-Cards/STRIXGTX980TIDC3OC6GD5GAMING/" title="GTX 980 Ti">GTX 980 Ti</a>
+     <br> 
+     <a class="pd_link" target="_blank" href="http://www.asus.com/nz/Graphics-Cards/STRIXGTX980DC2OC4GD5/" title="GTX 980">GTX 980</a>
+     <br> 
+     <a class="pd_link" target="_blank" href="http://www.asus.com/nz/Graphics-Cards/STRIXGTX970DC2OC4GD5/" title="GTX 970">GTX 970</a> 
+    </div> 
+    <div class="pdbox pd04"> 
+     <p class="pd_title">DIRECTCU BLACK</p> 
+     <p class="pd_sub">Game Faster.<br>Quieter. Cooler</p> 
+     <a class="pd_link" target="_blank" href="http://www.asus.com/nz/Graphics-Cards/TURBOGTX970OC4GD5/" title="GTX 970">GTX 970</a> 
+    </div> 
+    <div class="pdbox pd05"> 
+     <p class="pd_title">TURBO</p> 
+     <p class="pd_sub">10% Cooler.<br>4X Longer Lifespan</p> 
+     <a class="pd_link" target="_blank" href="http://www.asus.com/nz/Graphics-Cards/TURBOGTX970OC4GD5/" title="GTX 970">GTX 970</a> 
+    </div> 
+    <div class="pdbox pd06"> 
+     <p class="pd_title">MINI</p> 
+     <p class="pd_sub">Go Mini.<br>Game Big.</p> 
+     <a class="pd_link" target="_blank" href="http://www.asus.com/nz/Graphics-Cards/GTX970DCMOC4GD5/" title="GTX 970">GTX 970</a> 
+    </div> 
+   </div> 
+   <!--<div id="sub01">
+        <div class="pdbox pd01">
+          <p class="pd_title">ROG GX700</p>
+          <p class="pd_sub">World’s First Liquid-cooled<br>Gaming Laptop</p>
+          <a class="pd_link" target="_blank" href="http://www.asus.com/Notebooks/ROG-GX700VO/" title="GX700VO">GX700VO</a>
+        </div>
+        <div class="pdbox pd02">
+          <p class="pd_title">ROG G20</p>
+          <p class="pd_sub">Deceptively Powerful<br><br></p>
+          <a class="pd_link" target="_blank" href="http://www.asus.com/Tower-PCs/ROG-G20CB/" title="G20CB">G20CB</a>
+        </div>
+        <div class="pdbox pd03">
+          <p class="pd_title">G11</p>
+          <p class="pd_sub">Shedding Light on<br>Uncompromising Performance</p>
+          <a class="pd_link" target="_blank" href="http://www.asus.com/Tower-PCs/G11CB/" title="G11CB">G11CB</a><br>
+          <a class="pd_link" target="_blank" href="http://www.asus.com/Tower-PCs/G11CD/" title="G11CD">G11CD</a>
+        </div>
+      </div>
+      <div id="sub02">
+        <div class="pdbox pd01">
+          <p class="pd_title">M32</p>
+          <p class="pd_sub">The Perfect<br>Home Computer</p>
+          <a class="pd_link" target="_blank" href="http://www.asus.com/Tower-PCs/VivoPC-M32CD/" title="M32CD">M32CD</a>
+        </div>
+      </div>--> 
+   <div id="sub03"> 
+    <p class="note">1) A PC game rendering at 1920x1080 at 30fps on a single screen compared to a VR headset rendering at 1680x1512 at 90fps on each of two screens <a target="_blank" href="http://blogs.nvidia.com/blog/2015/11/09/gameworks-vr-unreal-engine-4-ue4/" title="Get Ready: Unreal Engine 4 to Incorporate NVIDIA GameWorks VR | NVIDIA Blog">http://blogs.nvidia.com/blog/2015/11/09/gameworks-vr-unreal-engine-4-ue4/</a><br><br> © 2015 NVIDIA Corporation. All rights reserved. NVIDIA, the NVIDIA logo, and GeForce are trademarks and/or registered trademarks of NVIDIA Corporation in the U.S. and other countries. Other company and product names may be trademarks of the respective companies with which they are associated.</p> 
+   </div> 
+  </div>   
+ </body>
+</html>

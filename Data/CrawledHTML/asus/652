@@ -1,0 +1,352 @@
+<!doctype html>
+<html class="no-js lock-overflow" lang="en">
+ <head> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,requiresActiveX=true"> 
+  <title>THE ULTIMATE FORCE</title> 
+  <meta http-equiv="cleartype" content="on"> 
+  <meta name="viewport" content="width=1100"> 
+  <link rel="stylesheet" href="css/app/main.css?v=0225"> 
+  <link rel="stylesheet" href="css/app/main-extend.css"> 
+  <script src="js/libs/modernizr.js"></script> 
+  <script src="js/libs/jquery-1.9.1.min.js"></script> 
+  <script src="js/libs/plugins.js?v=0225"></script> 
+  <script src="js/app/main.js?v=0225"></script> 
+  <script>
+window.ASUSInit = function () {
+        asus_api.init({ appkey: 'micro00001', api_background:'general_black' });
+};
+(function(d){
+        var js, id = 'asus-jsapi';
+        if (d.getElementById("asus-jsapi")) {return;}
+        js = d.createElement('script');
+        js.id = id;
+        js.async = true;
+        js.src = "http://www.asus.com/API/js/asus_api.js";
+        d.getElementsByTagName('head')[0].appendChild(js);
+}(document));
+
+</script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', ' UA-56028643-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script> 
+ </head> 
+ <body> 
+  <div id="wrap"> 
+   <header id="header"> 
+    <div class="logo">
+     <a href="index.htm"><img src="img/ui/logo.png" alt="THE ULTIMATE FORCE"></a>
+    </div> 
+    <nav id="nav"> 
+     <ul> 
+      <li class="n1"><a href="index.htm">Home</a></li> 
+      <li class="n2"><a href="why-tuf.htm">Why TUF</a></li> 
+      <li class="n3"><a href="feature.htm">All Features</a></li> 
+      <li class="n4"><a href="news.htm">News</a></li> 
+      <li class="n5"><a href="gallery.htm">TUF Special</a></li> 
+      <li class="n6"><a href="download.htm">Downloads</a></li> 
+     </ul> 
+     <div class="dash"></div> 
+    </nav> 
+   </header>
+   <!--/#header--> 
+   <div id="content"> 
+    <section id="hp-doors"> 
+     <div class="door n1"> 
+      <a href="news.htm"> 
+       <div class="ov"></div> 
+       <div class="pic">
+        <img width="100%" src="img/hp/door-why-tuf.jpg">
+       </div> 
+       <div class="callout"> 
+        <div class="callout-inner"> 
+         <h2 class="title boldtitle">NEWS</h2> 
+         <span class="descr"> <span class="line1">Press releases of TUF</span> <span class="line2">Learn More<i class="icon icn-arrow-tiny"></i></span> </span> 
+        </div> 
+       </div> </a> 
+     </div> 
+     <div class="door n2"> 
+      <a href="gallery.htm"> 
+       <div class="ov"></div> 
+       <div class="pic">
+        <img width="100%" src="img/hp/door-all-features.jpg">
+       </div> 
+       <div class="callout"> 
+        <div class="callout-inner"> 
+         <h2 class="title boldtitle">TUF SPECIAL</h2> 
+         <span class="descr"> <span class="line1">Users’ art works</span> <span class="line2">Learn More<i class="icon icn-arrow-tiny"></i></span> </span> 
+        </div> 
+       </div> </a> 
+     </div> 
+     <div class="door n3"> 
+      <a href="why-tuf.htm"> 
+       <div class="ov"></div> 
+       <div class="pic">
+        <img width="100%" src="img/hp/door-news.jpg">
+       </div> 
+       <div class="callout"> 
+        <div class="callout-inner"> 
+         <h2 class="title boldtitle">WHY TUF</h2> 
+         <span class="descr"> <span class="line1">Designed and tested for last!</span> <span class="line2">Learn More<i class="icon icn-arrow-tiny"></i></span> </span> 
+        </div> 
+       </div> </a> 
+     </div> 
+     <div class="door n4"> 
+      <a href="feature.htm"> 
+       <div class="ov"></div> 
+       <div class="pic">
+        <img width="100%" src="img/hp/door-users-work.jpg">
+       </div> 
+       <div class="callout"> 
+        <div class="callout-inner"> 
+         <h2 class="title boldtitle">ALL FEATURES</h2> 
+         <span class="descr"> <span class="line1">Cooling and reliability innovations</span> <span class="line2">Learn More<i class="icon icn-arrow-tiny"></i></span> </span> 
+        </div> 
+       </div> </a> 
+     </div> 
+     <div class="door n5"> 
+      <a href="download.htm"> 
+       <div class="ov"></div> 
+       <div class="pic">
+        <img width="100%" src="img/hp/door-downloads.jpg">
+       </div> 
+       <div class="callout"> 
+        <div class="callout-inner"> 
+         <h2 class="title boldtitle">DOWNLOADS</h2> 
+         <span class="descr"> <span class="line1">TUF Wallpapers and videos</span> <span class="line2">Learn More<i class="icon icn-arrow-tiny"></i></span> </span> 
+        </div> 
+       </div> </a> 
+     </div> 
+    </section> 
+    <section id="hp-model-list"> 
+     <header> 
+      <h2 class="boldtitle"><a href="model.htm">All Models</a></h2> 
+      <div class="carousel-prev bn-arrow-prev">
+       <i class="icn-arrow-prev">Previous</i>
+      </div> 
+      <div class="carousel-next bn-arrow-next">
+       <i class="icn-arrow-next">Next</i>
+      </div> 
+     </header> 
+     <div id="hp-model-carousel" class="carousel" data-display="6" data-speed=".8" data-width="144" data-gutter="20"> 
+      <div class="carousel-mask"> 
+       <ul class="carousel-slides"> 
+        <li> <a href="http://www.asus.com/Motherboards/SABERTOOTH-Z170-S/" target="_blank"> 
+          <div class="pic">
+           <img width="144" src="img/model/sabertooth-z170-s/hp.png">
+          </div> 
+          <div class="title"> 
+           <div class="title-inner"> 
+            <span>SABERTOOTH Z170 S</span> 
+           </div> 
+          </div> </a> </li> 
+        <li> <a href="http://www.asus.com/Motherboards/SABERTOOTH-Z170-MARK-1/" target="_blank"> 
+          <div class="pic">
+           <img width="144" src="img/model/sabertooth-z170-mark-s/hp.png">
+          </div> 
+          <div class="title"> 
+           <div class="title-inner"> 
+            <span>SABERTOOTH Z170 MARK 1</span> 
+           </div> 
+          </div> </a> </li> 
+        <li> <a href="http://www.asus.com/Motherboards/TROOPER-B150-D3/" target="_blank"> 
+          <div class="pic">
+           <img width="144" src="img/model/trooper-b150/hp.png">
+          </div> 
+          <div class="title"> 
+           <div class="title-inner"> 
+            <span>TROOPER B150 D3</span> 
+           </div> 
+          </div> </a> </li> 
+        <li> <a href="http://www.asus.com/Motherboards/SABERTOOTH_X99/" target="_blank"> 
+          <div class="pic">
+           <img width="144" src="img/model/sabertooth-x99/hp.png">
+          </div> 
+          <div class="title"> 
+           <div class="title-inner"> 
+            <span>SABERTOOTH X99</span> 
+           </div> 
+          </div> </a> </li> 
+        <li> <a href="http://www.asus.com/Motherboards/TROOPER-H110-D3/" target="_blank"> 
+          <div class="pic">
+           <img width="144" src="img/model/trooper-h110/hp.png">
+          </div> 
+          <div class="title"> 
+           <div class="title-inner"> 
+            <span>TROOPER H110 D3</span> 
+           </div> 
+          </div> </a> </li> 
+        <li> <a href="http://www.asus.com/Motherboards/SABERTOOTH_Z97_MARK_S/" target="_blank"> 
+          <div class="pic">
+           <img width="144" src="img/model/sabertooth-z97-mark-s/hp.png">
+          </div> 
+          <div class="title"> 
+           <div class="title-inner"> 
+            <span>SABERTOOTH Z97 MARK S</span> 
+           </div> 
+          </div> </a> </li> 
+        <li> <a href="http://www.asus.com/Motherboards/SABERTOOTH_Z97_MARK_1" target="_blank"> 
+          <div class="pic">
+           <img width="144" src="img/model/sabertooth-z97-mark-1/hp.png">
+          </div> 
+          <div class="title"> 
+           <div class="title-inner"> 
+            <span>SABERTOOTH Z97 MARK 1</span> 
+           </div> 
+          </div> </a> </li> 
+        <li> <a href="http://www.asus.com/Motherboards/SABERTOOTH_Z97_MARK_2" target="_blank"> 
+          <div class="pic">
+           <img width="144" src="img/model/sabertooth-z97-mark-2/hp.png">
+          </div> 
+          <div class="title"> 
+           <div class="title-inner"> 
+            <span>SABERTOOTH Z97 MARK 2</span> 
+           </div> 
+          </div> </a> </li> 
+        <li> <a href="http://www.asus.com/Motherboards/GRYPHON_Z97" target="_blank"> 
+          <div class="pic">
+           <img width="144" src="img/model/gryphon-z97/hp.png">
+          </div> 
+          <div class="title"> 
+           <div class="title-inner"> 
+            <span>GRYPHON Z97</span> 
+           </div> 
+          </div> </a> </li> 
+        <li> <a href="http://www.asus.com/Motherboards/GRYPHON_Z97_ARMOR_EDITION/" target="_blank"> 
+          <div class="pic">
+           <img width="144" src="img/model/gryphon-z97-armor-edition/hp.png">
+          </div> 
+          <div class="title"> 
+           <div class="title-inner"> 
+            <span>GRYPHON Z97 ARMOR EDITION</span> 
+           </div> 
+          </div> </a> </li> 
+        <li> <a href="http://www.asus.com/Motherboards/SABERTOOTH_Z87/" target="_blank"> 
+          <div class="pic">
+           <img width="144" src="img/model/sabertooth-z87/hp.png">
+          </div> 
+          <div class="title"> 
+           <div class="title-inner"> 
+            <span>SABERTOOTH Z87</span> 
+           </div> 
+          </div> </a> </li> 
+        <li> <a href="http://www.asus.com/Motherboards/GRYPHON_Z87/" target="_blank"> 
+          <div class="pic">
+           <img width="144" src="img/model/gryphon-z87/hp.png">
+          </div> 
+          <div class="title"> 
+           <div class="title-inner"> 
+            <span>GRYPHON Z87</span> 
+           </div> 
+          </div> </a> </li> 
+        <li> <a href="https://www.asus.com/Motherboards/GRYPHON_ARMOR_KIT/" target="_blank"> 
+          <div class="pic">
+           <img width="144" src="img/model/gryphon-armor-kit/hp.png">
+          </div> 
+          <div class="title"> 
+           <div class="title-inner"> 
+            <span>GRYPHON ARMOR KIT</span> 
+           </div> 
+          </div> </a> </li> 
+        <li> <a href="http://www.asus.com/Motherboards/VANGUARD_B85/" target="_blank"> 
+          <div class="pic">
+           <img width="144" src="img/model/vanguard-b85/hp.png">
+          </div> 
+          <div class="title"> 
+           <div class="title-inner"> 
+            <span>VANGUARD B85</span> 
+           </div> 
+          </div> </a> </li> 
+        <li> <a href="http://www.asus.com/Motherboards/SABERTOOTH_Z77/" target="_blank"> 
+          <div class="pic">
+           <img width="144" src="img/model/sabertooth-z77/hp.png">
+          </div> 
+          <div class="title"> 
+           <div class="title-inner"> 
+            <span>SABERTOOTH Z77</span> 
+           </div> 
+          </div> </a> </li> 
+        <li> <a href="http://www.asus.com/Motherboards/SABERTOOTH_990FXGEN3_R20/" target="_blank"> 
+          <div class="pic">
+           <img width="144" src="img/model/sabertooth-990fx-gen3-r2/hp.png">
+          </div> 
+          <div class="title"> 
+           <div class="title-inner"> 
+            <span>SABERTOOTH 990FX/GEN3 R2.0</span> 
+           </div> 
+          </div> </a> </li> 
+        <li> <a href="http://www.asus.com/Motherboards/SABERTOOTH_990FX_R20/" target="_blank"> 
+          <div class="pic">
+           <img width="144" src="img/model/sabertooth-990fx-r2/hp.png">
+          </div> 
+          <div class="title"> 
+           <div class="title-inner"> 
+            <span>SABERTOOTH 990FX R2.0</span> 
+           </div> 
+          </div> </a> </li> 
+        <li> <a href="https://www.asus.com/Motherboards/SABERTOOTH_X79" target="_blank"> 
+          <div class="pic">
+           <img width="144" src="img/model/sabertooth-x79/hp.png">
+          </div> 
+          <div class="title"> 
+           <div class="title-inner"> 
+            <span>SABERTOOTH X79</span> 
+           </div> 
+          </div> </a> </li> 
+        <li> <a href="http://www.asus.com/Motherboards/SABERTOOTH_990FX/" target="_blank"> 
+          <div class="pic">
+           <img width="144" src="img/model/sabertooth-990fx/hp.png">
+          </div> 
+          <div class="title"> 
+           <div class="title-inner"> 
+            <span>SABERTOOTH 990FX</span> 
+           </div> 
+          </div> </a> </li> 
+        <li> <a href="http://www.asus.com/Motherboards/SABERTOOTH_P67/" target="_blank"> 
+          <div class="pic">
+           <img width="144" src="img/model/sabertooth-p67/hp.png">
+          </div> 
+          <div class="title"> 
+           <div class="title-inner"> 
+            <span>SABERTOOTH P67</span> 
+           </div> 
+          </div> </a> </li> 
+        <li> <a href="http://www.asus.com/Motherboards/SABERTOOTH_X58/" target="_blank"> 
+          <div class="pic">
+           <img width="144" src="img/model/sabertooth-x58/hp.png">
+          </div> 
+          <div class="title"> 
+           <div class="title-inner"> 
+            <span>SABERTOOTH X58</span> 
+           </div> 
+          </div> </a> </li> 
+       </ul>
+       <!--/.carousel-slides--> 
+      </div> 
+     </div>
+     <!--/.carousel--> 
+    </section>
+    <!--/#hp-model-list--> 
+   </div>
+   <!--/#content--> 
+   <footer id="footer"> 
+    <div class="logo">
+     <img src="img/ui/logo.png" alt="THE ULTIMATE FORCE">
+    </div> 
+    <div class="slogan">
+     <img src="img/ui/footer-slogan.png" alt="STAY COOL. BE TUF">
+    </div> 
+   </footer>
+   <!--/#footer--> 
+  </div>
+  <!--/#wrap-->   
+ </body>
+</html>

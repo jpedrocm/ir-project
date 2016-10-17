@@ -1,0 +1,320 @@
+<!doctype html>
+<html>
+ <head id="Head1">
+  <title>
+	ASUSTeK Computer Inc. -Support- Acceda a la página de su país
+</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="canonical" href="https://www.asus.com/ar/support/service-center-all-countries/"> 
+  <script src="/support/js/modernizr-2.5.3.min.js"></script> 
+  <script src="/support/js/jquery.js"></script> 
+  <script src="/support/js/bootstrap.js"></script> 
+  <script src="/support/js/browser.js"></script> 
+  <script src="/support/js/jquery.placeholder.js"></script> 
+  <script src="/support/js/jquery_phone_nav.js"></script> 
+  <link href="/support/stylesheets/reset.css" rel="stylesheet" type="text/css"> 
+  <link href="/support/stylesheets/base.css" rel="stylesheet" type="text/css"> 
+ </head>
+ <body>
+  <input name="header1$hd_version" type="hidden" id="hd_version" value="1"> 
+  <script type="text/javascript">
+    $(document).ready(function () {
+        var version = $("#hd_version").val();
+        if (version == "1") {//full_style需在resp前
+            var linkfs = document.createElement('link');
+            linkfs.type = 'text/css';
+            linkfs.rel = "stylesheet";
+            linkfs.href = "/support/stylesheets/full_style.css";
+            document.getElementsByTagName("head")[0].appendChild(linkfs);
+        }
+        var linkresp = document.createElement('link');
+        linkresp.type = 'text/css';
+        linkresp.rel = "stylesheet";
+        linkresp.href = "/support/stylesheets/responsive.css";
+        document.getElementsByTagName("head")[0].appendChild(linkresp);
+    });
+</script> 
+  <script type="text/javascript">
+    //loading local css file
+    $(document).ready(function () {
+        var css_name = "";
+        var lang_prefix = window.location.pathname.split("/");
+        if (lang_prefix.length >= 2)
+            if (lang_prefix[1] == "support")
+                css_name = "";
+            else
+                css_name = lang_prefix[1] + ".css";
+
+        if (window.location.hostname.indexOf("asus.com.cn") >= 0) {
+            css_name = "cn.css";
+        }
+
+        if (window.console)
+            console.log("css name: " + css_name);
+
+        if (css_name != "") {
+            var link = document.createElement('link');
+            link.type = 'text/css';
+            link.rel = "stylesheet";
+            link.href = "/support/stylesheets/local/" + css_name;
+            document.getElementsByTagName("head")[0].appendChild(link);
+        }
+    });
+</script> 
+  <script type="text/javascript">
+    window.ASUSInit = function () {
+        var api_lang = '';
+        var api_key = '0000000004';
+
+        var lang_prefix = window.location.pathname.split("/");
+
+        if (window.console) {
+            console.log("pathname: " + window.location.pathname);
+        }
+
+        if (lang_prefix.length >= 2) {
+            if (lang_prefix[1] == "support")
+                api_lang = "";
+            else
+                api_lang = lang_prefix[1];
+        }
+
+        if (window.location.hostname.indexOf("asus.com.cn") >= 0) {
+            api_lang = "cn";
+            api_key = '0000000019';
+        }
+
+        if (window.console)
+            console.log("lang: " + api_lang);
+
+        asus_api.init({ appkey: api_key, lang: api_lang });
+    };
+    (function (d) {
+        var js, id = 'asus-jsapi';
+        if (d.getElementById("asus-jsapi")) { return; }
+        js = d.createElement('script');
+        js.id = id;
+        js.async = true;
+        if (window.location.hostname.indexOf("asus.com.cn") >= 0)
+            js.src = "//www.asus.com.cn/API/js/asus_api.js";
+        else
+            js.src = "//www.asus.com/API/js/asus_api.js";
+        d.getElementsByTagName('head')[0].appendChild(js);
+    } (document));
+</script> 
+  <script language="javascript">
+    var _wmxq = _wmxq || [];
+    _wmxq.push(["_getTracker", "SupportSite", "website", "etrk.asus.com"]); _wmxq.push(["trackPageview"]);
+    (function () {
+        var sc = document.createElement("script"); sc.type = "text/javascript"; sc.async = true;
+        sc.src = ("https:" == document.location.protocol ? "https:" : "http:") + "//etrk.asus.com/web_service/TrackingJS/wmxtracker.js";
+        var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(sc, s);
+    })();
+</script>   
+  <div class="grayBg"> 
+   <div id="service-provider" class="container main-zone"> 
+    <div id="breadcrumbs"> 
+     <a href="/ar/" id="breadcrumb1_a_home" target="_self">Início</a>
+     <span id="breadcrumb1_s1" style="display:inline">&nbsp;&gt;&nbsp;</span>
+     <a href="/ar/support" id="breadcrumb1_a_support" target="_self" style="display:inline">Soporte</a>
+     <span id="breadcrumb1_s2" style="display:inline">&nbsp;&gt;&nbsp;</span>
+     <a href="../../../uc_2/general/index.aspx" id="breadcrumb1_a_pagename" target="_self" style="display: none">[Page Name]</a> 
+     <span id="breadcrumb1_s_l1" style="display: none">&nbsp;&gt;&nbsp;</span>
+     <a href="../../../uc_2/general/index.aspx" id="breadcrumb1_a_l1" target="_self" style="display: none">[level 1]</a> 
+     <span id="breadcrumb1_s_l2" style="display: none">&nbsp;&gt;&nbsp;</span>
+     <a href="../../../uc_2/general/index.aspx" id="breadcrumb1_a_l2" target="_self" style="display: none">[level 2]</a> 
+     <span id="breadcrumb1_s_m" style="display: none">&nbsp;&gt;&nbsp;</span>
+     <a href="../../../uc_2/general/index.aspx" id="breadcrumb1_a_m" target="_self" style="display: none">[model]</a> 
+    </div> 
+    <h1 id="pagename1_h1_page_name" class="page-title">Acceda a la página de su país</h1> 
+    <div class="double-border-bottom"> 
+    </div> 
+    <!--Main Content--> 
+    <div id="service-provider-zone"> 
+     <div id="entry-area"> 
+      <h3 class="item-title"> Asia Pacific</h3> 
+      <ul class="clearfix"> 
+       <li><a href="//www.asus.com/au/support/Service-Center/Australia" id="Repeater1_Repeater2_0_a_country_0" class="sub-btn"> Australia</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/Bangladesh" id="Repeater1_Repeater2_0_a_country_1" class="sub-btn"> Bangladesh</a> </li> 
+       <li><a href="//www.asus.com.cn/support/Service-Center/China" id="Repeater1_Repeater2_0_a_country_2" class="sub-btn"> China</a> </li> 
+       <li><a href="//www.asus.com/hk/support/Service-Center/Hong Kong" id="Repeater1_Repeater2_0_a_country_3" class="sub-btn"> Hong Kong</a> </li> 
+       <li><a href="//www.asus.com/in/support/Service-Center/India" id="Repeater1_Repeater2_0_a_country_4" class="sub-btn"> India</a> </li> 
+       <li><a href="//www.asus.com/id/support/Service-Center/Indonesia" id="Repeater1_Repeater2_0_a_country_5" class="sub-btn"> Indonesia</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/Iraq" id="Repeater1_Repeater2_0_a_country_6" class="sub-btn"> Iraq</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/Israel" id="Repeater1_Repeater2_0_a_country_7" class="sub-btn"> Israel</a> </li> 
+       <li><a href="//www.asus.com/jp/support/Service-Center/Japan" id="Repeater1_Repeater2_0_a_country_8" class="sub-btn"> Japan</a> </li> 
+       <li><a href="//www.asus.com/kr/support/Service-Center/Korea" id="Repeater1_Repeater2_0_a_country_9" class="sub-btn"> Korea</a> </li> 
+       <li><a href="//www.asus.com/hk/support/Service-Center/Macau" id="Repeater1_Repeater2_0_a_country_10" class="sub-btn"> Macau</a> </li> 
+       <li><a href="//www.asus.com/my/support/Service-Center/Malaysia" id="Repeater1_Repeater2_0_a_country_11" class="sub-btn"> Malaysia</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/Maldives" id="Repeater1_Repeater2_0_a_country_12" class="sub-btn"> Maldives</a> </li> 
+       <li><a href="//www.asus.com/nz/support/Service-Center/New Zealand" id="Repeater1_Repeater2_0_a_country_13" class="sub-btn"> New Zealand</a> </li> 
+       <li><a href="//www.asus.com/pk/support/Service-Center/Pakistan" id="Repeater1_Repeater2_0_a_country_14" class="sub-btn"> Pakistan</a> </li> 
+       <li><a href="//www.asus.com/ph/support/Service-Center/Philippines" id="Repeater1_Repeater2_0_a_country_15" class="sub-btn"> Philippines</a> </li> 
+       <li><a href="//www.asus.com/sg/support/Service-Center/Singapore" id="Repeater1_Repeater2_0_a_country_16" class="sub-btn"> Singapore</a> </li> 
+       <li><a href="//www.asus.com/lk/support/Service-Center/Sri Lanka" id="Repeater1_Repeater2_0_a_country_17" class="sub-btn"> Sri Lanka</a> </li> 
+       <li><a href="//www.asus.com/tw/support/Service-Center/Taiwan" id="Repeater1_Repeater2_0_a_country_18" class="sub-btn"> Taiwan</a> </li> 
+       <li><a href="//www.asus.com/th/support/Service-Center/Thailand" id="Repeater1_Repeater2_0_a_country_19" class="sub-btn"> Thailand</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/Turkey" id="Repeater1_Repeater2_0_a_country_20" class="sub-btn"> Turkey</a> </li> 
+       <li><a href="//www.asus.com/vn/support/Service-Center/Vietnam" id="Repeater1_Repeater2_0_a_country_21" class="sub-btn"> Vietnam</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/Nepal" id="Repeater1_Repeater2_0_a_country_22" class="sub-btn"> Nepal</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/Myanmar" id="Repeater1_Repeater2_0_a_country_23" class="sub-btn"> Myanmar</a> </li> 
+      </ul> 
+      <h3 class="item-title"> America</h3> 
+      <ul class="clearfix"> 
+       <li><a href="//www.asus.com/ar/support/Service-Center/Argentina" id="Repeater1_Repeater2_1_a_country_0" class="sub-btn"> Argentina</a> </li> 
+       <li><a href="//www.asus.com/br/support/Service-Center/Brazil" id="Repeater1_Repeater2_1_a_country_1" class="sub-btn"> Brazil</a> </li> 
+       <li><a href="//www.asus.com/ca-en/support/Service-Center/Canada (English)" id="Repeater1_Repeater2_1_a_country_2" class="sub-btn"> Canada (English)</a> </li> 
+       <li><a href="//www.asus.com/ca-fr/support/Service-Center/Canada (French)" id="Repeater1_Repeater2_1_a_country_3" class="sub-btn"> Canada (French)</a> </li> 
+       <li><a href="//www.asus.com/ar/support/Service-Center/Ecuador" id="Repeater1_Repeater2_1_a_country_4" class="sub-btn"> Ecuador</a> </li> 
+       <li><a href="//www.asus.com/ar/support/Service-Center/Chile" id="Repeater1_Repeater2_1_a_country_5" class="sub-btn"> Chile</a> </li> 
+       <li><a href="//www.asus.com/ar/support/Service-Center/Colombia" id="Repeater1_Repeater2_1_a_country_6" class="sub-btn"> Colombia</a> </li> 
+       <li><a href="//www.asus.com/ar/support/Service-Center/Costa Rica" id="Repeater1_Repeater2_1_a_country_7" class="sub-btn"> Costa Rica</a> </li> 
+       <li><a href="//www.asus.com/ar/support/Service-Center/El Salvador" id="Repeater1_Repeater2_1_a_country_8" class="sub-btn"> El Salvador</a> </li> 
+       <li><a href="//www.asus.com/ar/support/Service-Center/Guatemala" id="Repeater1_Repeater2_1_a_country_9" class="sub-btn"> Guatemala</a> </li> 
+       <li><a href="//www.asus.com/ar/support/Service-Center/Honduras" id="Repeater1_Repeater2_1_a_country_10" class="sub-btn"> Honduras</a> </li> 
+       <li><a href="//www.asus.com/mx/support/Service-Center/Mexico" id="Repeater1_Repeater2_1_a_country_11" class="sub-btn"> Mexico</a> </li> 
+       <li><a href="//www.asus.com/ar/support/Service-Center/Panama" id="Repeater1_Repeater2_1_a_country_12" class="sub-btn"> Panama</a> </li> 
+       <li><a href="//www.asus.com/ar/support/Service-Center/Peru" id="Repeater1_Repeater2_1_a_country_13" class="sub-btn"> Peru</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/Puerto Rico" id="Repeater1_Repeater2_1_a_country_14" class="sub-btn"> Puerto Rico</a> </li> 
+       <li><a href="//www.asus.com/ar/support/Service-Center/Uruguay" id="Repeater1_Repeater2_1_a_country_15" class="sub-btn"> Uruguay</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/USA" id="Repeater1_Repeater2_1_a_country_16" class="sub-btn"> USA</a> </li> 
+       <li><a href="//www.asus.com/ar/support/Service-Center/Venezuela" id="Repeater1_Repeater2_1_a_country_17" class="sub-btn"> Venezuela</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/Nicaragua" id="Repeater1_Repeater2_1_a_country_18" class="sub-btn"> Nicaragua</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/Paraguay" id="Repeater1_Repeater2_1_a_country_19" class="sub-btn"> Paraguay</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/Bolivia" id="Repeater1_Repeater2_1_a_country_20" class="sub-btn"> Bolivia</a> </li> 
+      </ul> 
+      <h3 class="item-title"> Europe</h3> 
+      <ul class="clearfix"> 
+       <li><a href="//www.asus.com/support/Service-Center/Albania" id="Repeater1_Repeater2_2_a_country_0" class="sub-btn"> Albania</a> </li> 
+       <li><a href="//www.asus.com/ru/support/Service-Center/Armenia" id="Repeater1_Repeater2_2_a_country_1" class="sub-btn"> Armenia</a> </li> 
+       <li><a href="//www.asus.com/ru/support/Service-Center/Azerbaijan" id="Repeater1_Repeater2_2_a_country_2" class="sub-btn"> Azerbaijan</a> </li> 
+       <li><a href="//www.asus.com/ru/support/Service-Center/Belarus" id="Repeater1_Repeater2_2_a_country_3" class="sub-btn"> Belarus</a> </li> 
+       <li><a href="//www.asus.com/be-nl/support/Service-Center/Belgium (Dutch)" id="Repeater1_Repeater2_2_a_country_4" class="sub-btn"> Belgium (Dutch)</a> </li> 
+       <li><a href="//www.asus.com/be-fr/support/Service-Center/Belgium (French)" id="Repeater1_Repeater2_2_a_country_5" class="sub-btn"> Belgium (French)</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/Bosnia and Herzegovina" id="Repeater1_Repeater2_2_a_country_6" class="sub-btn"> Bosnia and Herzegovina</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/Bulgaria" id="Repeater1_Repeater2_2_a_country_7" class="sub-btn"> Bulgaria</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/Croatia" id="Repeater1_Repeater2_2_a_country_8" class="sub-btn"> Croatia</a> </li> 
+       <li><a href="//www.asus.com/cz/support/Service-Center/Czech" id="Repeater1_Repeater2_2_a_country_9" class="sub-btn"> Czech</a> </li> 
+       <li><a href="//www.asus.com/dk/support/Service-Center/Denmark" id="Repeater1_Repeater2_2_a_country_10" class="sub-btn"> Denmark</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/Estonia" id="Repeater1_Repeater2_2_a_country_11" class="sub-btn"> Estonia</a> </li> 
+       <li><a href="//www.asus.com/fi/support/Service-Center/Finland" id="Repeater1_Repeater2_2_a_country_12" class="sub-btn"> Finland</a> </li> 
+       <li><a href="//www.asus.com/fr/support/Service-Center/France" id="Repeater1_Repeater2_2_a_country_13" class="sub-btn"> France</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/Georgia" id="Repeater1_Repeater2_2_a_country_14" class="sub-btn"> Georgia</a> </li> 
+       <li><a href="//www.asus.com/de/support/Service-Center/Germany" id="Repeater1_Repeater2_2_a_country_15" class="sub-btn"> Germany</a> </li> 
+       <li><a href="//www.asus.com/gr/support/Service-Center/Greece" id="Repeater1_Repeater2_2_a_country_16" class="sub-btn"> Greece</a> </li> 
+       <li><a href="//www.asus.com/hu/support/Service-Center/Hungary" id="Repeater1_Repeater2_2_a_country_17" class="sub-btn"> Hungary</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/Ireland" id="Repeater1_Repeater2_2_a_country_18" class="sub-btn"> Ireland</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/Italy" id="Repeater1_Repeater2_2_a_country_19" class="sub-btn"> Italy</a> </li> 
+       <li><a href="//www.asus.com/ru/support/Service-Center/Kazakhstan" id="Repeater1_Repeater2_2_a_country_20" class="sub-btn"> Kazakhstan</a> </li> 
+       <li><a href="//www.asus.com/ru/support/Service-Center/Kyrgyzstan" id="Repeater1_Repeater2_2_a_country_21" class="sub-btn"> Kyrgyzstan</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/Latvia" id="Repeater1_Repeater2_2_a_country_22" class="sub-btn"> Latvia</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/Lithuania" id="Repeater1_Repeater2_2_a_country_23" class="sub-btn"> Lithuania</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/Macedonia" id="Repeater1_Repeater2_2_a_country_24" class="sub-btn"> Macedonia</a> </li> 
+       <li><a href="//www.asus.com/ru/support/Service-Center/Moldova" id="Repeater1_Repeater2_2_a_country_25" class="sub-btn"> Moldova</a> </li> 
+       <li><a href="//www.asus.com/nl/support/Service-Center/Netherlands" id="Repeater1_Repeater2_2_a_country_26" class="sub-btn"> Netherlands</a> </li> 
+       <li><a href="//www.asus.com/no/support/Service-Center/Norway" id="Repeater1_Repeater2_2_a_country_27" class="sub-btn"> Norway</a> </li> 
+       <li><a href="//www.asus.com/pl/support/Service-Center/Poland" id="Repeater1_Repeater2_2_a_country_28" class="sub-btn"> Poland</a> </li> 
+       <li><a href="//www.asus.com/pt/support/Service-Center/Portugal" id="Repeater1_Repeater2_2_a_country_29" class="sub-btn"> Portugal</a> </li> 
+       <li><a href="//www.asus.com/ro/support/Service-Center/Romania" id="Repeater1_Repeater2_2_a_country_30" class="sub-btn"> Romania</a> </li> 
+       <li><a href="//www.asus.com/ru/support/Service-Center/Russia" id="Repeater1_Repeater2_2_a_country_31" class="sub-btn"> Russia</a> </li> 
+       <li><a href="//www.asus.com/rs/support/Service-Center/Serbia" id="Repeater1_Repeater2_2_a_country_32" class="sub-btn"> Serbia</a> </li> 
+       <li><a href="//www.asus.com/sk/support/Service-Center/Slovakia" id="Repeater1_Repeater2_2_a_country_33" class="sub-btn"> Slovakia</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/Slovenia" id="Repeater1_Repeater2_2_a_country_34" class="sub-btn"> Slovenia</a> </li> 
+       <li><a href="//www.asus.com/es/support/Service-Center/Spain" id="Repeater1_Repeater2_2_a_country_35" class="sub-btn"> Spain</a> </li> 
+       <li><a href="//www.asus.com/se/support/Service-Center/Sweden" id="Repeater1_Repeater2_2_a_country_36" class="sub-btn"> Sweden</a> </li> 
+       <li><a href="//www.asus.com/ch-fr/support/Service-Center/Switzerland (French)" id="Repeater1_Repeater2_2_a_country_37" class="sub-btn"> Switzerland (French)</a> </li> 
+       <li><a href="//www.asus.com/ch-de/support/Service-Center/Switzerland (German)" id="Repeater1_Repeater2_2_a_country_38" class="sub-btn"> Switzerland (German)</a> </li> 
+       <li><a href="//www.asus.com/ch-it/support/Service-Center/Switzerland (Italian)" id="Repeater1_Repeater2_2_a_country_39" class="sub-btn"> Switzerland (Italian)</a> </li> 
+       <li><a href="//www.asus.com/ru/support/Service-Center/Tadjikistan" id="Repeater1_Repeater2_2_a_country_40" class="sub-btn"> Tadjikistan</a> </li> 
+       <li><a href="//www.asus.com/ru/support/Service-Center/Turkmenistan" id="Repeater1_Repeater2_2_a_country_41" class="sub-btn"> Turkmenistan</a> </li> 
+       <li><a href="//www.asus.com/ua/support/Service-Center/Ukraine (Russian)" id="Repeater1_Repeater2_2_a_country_42" class="sub-btn"> Ukraine (Russian)</a> </li> 
+       <li><a href="//www.asus.com/ua-ua/support/Service-Center/Ukraine (Ukranian)" id="Repeater1_Repeater2_2_a_country_43" class="sub-btn"> Ukraine (Ukranian)</a> </li> 
+       <li><a href="//www.asus.com/uk/support/Service-Center/United Kingdom" id="Repeater1_Repeater2_2_a_country_44" class="sub-btn"> United Kingdom</a> </li> 
+       <li><a href="//www.asus.com/ru/support/Service-Center/Uzbekistan" id="Repeater1_Repeater2_2_a_country_45" class="sub-btn"> Uzbekistan</a> </li> 
+      </ul> 
+      <h3 class="item-title"> Middle East &amp; Africa</h3> 
+      <ul class="clearfix"> 
+       <li><a href="//www.asus.com/eg/support/Service-Center/Egypt" id="Repeater1_Repeater2_3_a_country_0" class="sub-btn"> Egypt</a> </li> 
+       <li><a href="//www.asus.com/sa-ar/support/Service-Center/Saudi Arab" id="Repeater1_Repeater2_3_a_country_1" class="sub-btn"> Saudi Arab</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/South Africa" id="Repeater1_Repeater2_3_a_country_2" class="sub-btn"> South Africa</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/United Arab Emirates" id="Repeater1_Repeater2_3_a_country_3" class="sub-btn"> United Arab Emirates</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/Zimbabwe" id="Repeater1_Repeater2_3_a_country_4" class="sub-btn"> Zimbabwe</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/Kenya" id="Repeater1_Repeater2_3_a_country_5" class="sub-btn"> Kenya</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/Nigeria" id="Repeater1_Repeater2_3_a_country_6" class="sub-btn"> Nigeria</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/Tanzania" id="Repeater1_Repeater2_3_a_country_7" class="sub-btn"> Tanzania</a> </li> 
+       <li><a href="//www.asus.com/support/Service-Center/Uganda" id="Repeater1_Repeater2_3_a_country_8" class="sub-btn"> Uganda</a> </li> 
+      </ul> 
+     </div> 
+    </div> 
+    <!--Content End--> 
+   </div> 
+  </div> 
+  <!-- H-A-5 --> 
+  <input name="page_info1$langNormal" type="hidden" id="langNormal" value="es-ar"> 
+  <input name="page_info1$hd_lang_prefix" type="hidden" id="hd_lang_prefix" value="/ar/support"> 
+  <input name="page_info1$hd_product" type="hidden" id="hd_product"> 
+  <input name="page_info1$hd_product_name" type="hidden" id="hd_product_name"> 
+  <input name="page_info1$hd_product_name_ml" type="hidden" id="hd_product_name_ml"> 
+  <input name="page_info1$hd_series" type="hidden" id="hd_series"> 
+  <input name="page_info1$hd_series_name" type="hidden" id="hd_series_name"> 
+  <input name="page_info1$hd_series_name_ml" type="hidden" id="hd_series_name_ml"> 
+  <input name="page_info1$hd_model" type="hidden" id="hd_model"> 
+  <input name="page_info1$hd_model_ml" type="hidden" id="hd_model_ml"> 
+  <input name="page_info1$hd_os" type="hidden" id="hd_os"> 
+  <input name="page_info1$hd_hid" type="hidden" id="hd_hid"> 
+  <input name="page_info1$hd_offical_url" type="hidden" id="hd_offical_url"> 
+  <input name="page_info1$hd_country" type="hidden" id="hd_country"> 
+  <input name="page_info1$hd_country_ml" type="hidden" id="hd_country_ml"> 
+  <!-- Google Tag Manager with Origin gaTrace --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script src="/support/js/gaTrace.js" type="text/javascript"></script> 
+  <!-- End Google Tag Manager --> 
+  <link href="/support/stylesheets/online-chat-btn.css" rel="stylesheet" type="text/css"> 
+  <script>
+    function inIframe() {
+        try {
+            return window.self !== window.top; //window.self means the current application , window.top means the top ahead application
+        } catch (e) {
+            return true;
+        }
+    }
+</script> 
+  <script type="text/javascript">
+    $(document).ready(function () {
+        var IsInIframe = inIframe();
+        if (IsInIframe) {
+            return false;
+        }
+
+        var _Local = $("#langNormal").val();
+        var onlineService = initOnlineService(_Local);
+        onlineService.init();
+    });
+
+    function initOnlineService(Local) {
+        var ApiUrl = window.location.protocol + "//demeter.asus.com/WSC/Support_API_New/SupportNewAPI/GetOnlineChatUrl/",
+            ApiOption;
+
+        ApiUrl += Local;
+
+        return {
+            init: function () {
+                if ($("#online-service").length > 0) return;
+
+                $.getJSON(ApiUrl + "?callback=?", ApiOption).done(function (result) {
+                    if (result && result.StatusCode == 0) {
+                        var onlineServiceString = result.Link_Name ? result.Link_Name : "Online Chat",
+                            serviceUrl = result.URL;
+                        onlineChatBtn = '<div id="online-service"><a class="btn" onclick="javascript:window.open(\'' + serviceUrl + '\', \'\',  \'width=520, height=700, scrollbars=yes\'); ga(\'send\', \'event\', \'button\', \'clicked\', \'onlinechat\');">' + onlineServiceString + '</a></div>';
+                        $(onlineChatBtn).appendTo("body");
+                    }
+                });
+            }
+        }
+    };
+</script> 
+  <!--Redirect en-->   
+ </body>
+</html>

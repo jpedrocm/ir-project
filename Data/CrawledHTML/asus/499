@@ -1,0 +1,320 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <link href="css/reset.css" rel="stylesheet" type="text/css"> 
+  <link href="css/layout.css" rel="stylesheet" type="text/css"> 
+  <link rel="stylesheet" type="text/css" href="css/colorbox.css"> 
+  <script src="js/jquery.min.js" type="text/javascript"></script> 
+  <script src="js/jquery.navscroll.min.js" type="text/javascript"></script> 
+  <script src="js/jquery-ui.min.js" type="text/javascript"></script> 
+  <script src="js/main.js" type="text/javascript"></script> 
+  <script src="js/jquery.colorbox.js"></script> 
+  <script>
+      $(document).ready(function(){
+        $(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+      });
+  </script>  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <title>ASUS │ PG Series Gaming monitor</title> 
+  <script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	ga('create', ' UA-56028643-1', 'auto');
+	ga('require', 'displayfeatures');
+	ga('require', 'linkid', 'linkid.js');
+	ga('send', 'pageview');
+	</script> 
+ </head> 
+ <body> 
+  <div id="wrapper"> 
+   <div id="header"> 
+    <a href="http://www.asus.com/"> 
+     <div class="logo"></div> </a> 
+    <!-- <div class="header_txt1 txtstyle">
+          ASUS ROG Swift PG Series gaming monitors are built for victory in the professional gaming arena, and features sharp image details with exceptional refresh rate. Integrated NVIDIA® G-SYNC™ technology synchronizes the display's refresh rate to the GPU for smooth visuals and lag-free gameplay. This monitor features the latest technologies and design touches to make it a must-have weapon for all enthusiast players.
+        </div> --> 
+    <br class="clearfloat"> 
+   </div> 
+   <div id="sub01"> 
+    <div class="sub01_txt1 txtstyle"> 
+     <p class="txt_title">See sharper, more details</p>The ROG Swift PG Series is designed to give you the high image resolution. There are several models on offer, ranging from 2K/WQHD and 4K/UHD display. You’ll experience a much more pixel-precise, life-like gaming world where you have the advantage – pinpoint targets in the distance, or get a complete overview of the in-game map.
+    </div> 
+    <div class="point_01 point_txt"> 
+     <p class="txt_title">Conventional 27-inch 1920 x 1080 monitor</p>Shows less detail and spacing with less room for work bars on the side. 
+     <br>Images are relatively blurrier. 
+    </div> 
+    <div class="point_02 point_txt"> 
+     <p class="txt_title">ROG SWIFT PG279Q 27-inch 2560 x 1440 monitor</p>See more details and spacing with 77% more onscreen desktop space than standard Full HD displays. 
+    </div> 
+    <div class="point_03 point_txt"> 
+     <p class="txt_title">ROG Swift PG27AQ 27-inch 3840 x 2160 monitor</p>See more details and spacing with 300% more onscreen desktop space than standard Full HD displays. 
+    </div> 
+   </div> 
+   <div id="sub02"> 
+    <div class="sub02_txt1 txtstyle">
+     <p class="txt_title">IPS technology for consistent,<br>accurate color</p>Swift PG279Q and Swift PG27AQ give you superior images with outstanding colors and an astounding 1,000:1 contrast ratio. Wide 178-degree viewing angles ensure minimal distortion and color shift even when you’re viewing from extreme positions.
+    </div> 
+   </div> 
+   <div id="sub03"> 
+    <div class="sub03_txt1 txtstyle">
+     <p class="txt_title">Incredibly-fast 165Hz refresh rate</p>The ROG SWIFT PG279Q’s gaming monitor 165Hz refresh rate decimates lag and motion blur to give you the upper hand in first person shooters, racers, real-time strategy, and sports titles. This ultrafast refresh rate lets you play at the highest visual settings and lets you react instantly to what’s onscreen — so you’ll get that first strike in.
+    </div> 
+   </div> 
+   <div id="sub04"> 
+    <div class="sub04_txt1 txtstyle">
+     <p class="txt_title">Gain a competitive edge with NVIDIA®G-SYNC™ technology</p>ROG Swift PG gaming monitors incorporates NVIDIA® G-SYNC™ display technology delivers the smoothest, fastest, and most breathtaking gaming imaginable. G-SYNC synchronizes the monitor's refresh rate to the GPU in your GeForce GTX-powered PC, eliminating screen tearing, and minimizing display stutter and input lag. ROG Swift PG series gives you smooth and seamless lag-free visuals when playing the latest fast-paced first-person shooters, sports, and action-adventure titles.
+     <br>
+     <br>
+     <p class="point">Note: The PG279Q 2K/WQHD G-SYNC feature requires a NVIDIA GeForce GTX650Ti Boost GPU or higher.<br> It requires a NVIDIA GeForce GTX980 or higher graphics card to support 4K/UHD G-SYNC feature in PG27AQ.<br> For more detailed information, please refer to http://www.geforce.com/hardware/technology/g-sync </p>
+    </div> 
+    <a class="youtube" href="https://www.youtube.com/embed/EMsRjSOLw3M" title="NVIDIA G-Sync Technology"></a> 
+   </div> 
+   <div id="sub05"> 
+    <div class="sub05_txt1 txtstyle"> 
+     <p class="txt_title">ASUS-exclusive GamePlus technology </p>ROG Swift PG279Q and PG27AQ gaming monitors feature the ASUS-exclusive GamePlus hotkey for in-game enhancements so you get more out of your game. The crosshair overlay gives you four different crosshair options to suit the game you're playing. There's also an onscreen timer you can position on the left of the display so you can keep track of the elapsed gaming time; while the FPS (frames per second) counter lets you know how smooth the game is running. 
+     <br>
+     <br>
+     <p class="point">Note: the FPS counter function only works while the G-SYNC is on.</p> 
+    </div> 
+    <div id="pg27aq-warp" style="margin-top: 260px;"> 
+     <section id="pg27aq-gamer"> 
+      <div class="mainsize"> 
+       <div class="change_box"> 
+        <div class="imgs"> 
+         <img class="on" src="img/game_box1.png" alt=""> 
+         <img src="img/game_box2.png" alt=""> 
+         <img src="img/game_box3.png" alt=""> 
+        </div> 
+        <div class="btns"> 
+         <div class="box_btn on">
+          <img src="img/corss_btm.png" alt="">
+         </div> 
+         <div class="box_btn">
+          <img src="img/timer_btn.png" alt="">
+         </div> 
+         <div class="box_btn">
+          <img src="img/fps_btn.png" alt="">
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </section> 
+    </div> 
+    <div class="sub05_txt2 txtstyle"> 
+     <p class="txt_title">ASUS-exclusive GameVisual technology </p>ASUS GameVisual Technology has six pre-set display modes to optimize visuals for different types of content. This unique feature can be easily accessed through a hotkey or the On Screen Display (OSD) settings menu.
+     <p></p> 
+    </div> 
+    <div id="pg27aq-warp"> 
+     <section id="pg27aq-gamer"> 
+      <div class="mainsize"> 
+       <div class="exclusive"> 
+        <div class="sildeshow"> 
+         <div class="items"> 
+          <div class="mask"> 
+           <div class="item ">
+            <img src="img/game_racing.png" alt="">
+           </div> 
+           <div class="item ">
+            <img src="img/game_cinema.png" alt="">
+           </div> 
+           <div class="item on">
+            <img src="img/game_rts.png" alt="">
+           </div> 
+           <div class="item ">
+            <img src="img/game_fps.png" alt="">
+           </div> 
+           <div class="item ">
+            <img src="img/game_srgb.png" alt="">
+           </div> 
+           <div class="item ">
+            <img src="img/game_scenery.png" alt="">
+           </div> 
+          </div> 
+         </div> 
+         <div class="titles"> 
+          <div class="mask"> 
+           <div class="t_btn">
+            Racing
+           </div> 
+           <div class="t_btn">
+            Cinema
+           </div> 
+           <div class="t_btn on">
+            RTS/RPG
+           </div> 
+           <div class="t_btn">
+            FPS
+           </div> 
+           <div class="t_btn">
+            sRGB
+           </div> 
+           <div class="t_btn">
+            Scenery
+           </div> 
+          </div> 
+         </div> 
+         <div class="infos"> 
+          <div class="mask"> 
+           <div class="info">
+            Reduces input lag, making it ideal for racing games when G-SYNC™ is on.
+           </div> 
+           <div class="info">
+            Enhances contrast and color saturation for lively, vivid visuals — ideal for viewing movies.
+           </div> 
+           <div class="info on">
+            Enhances color saturation and contrast sharpness&nbsp; to give you better, brighter colors and detailed visuals for real-time strategy (RTS) or RPG games.
+           </div> 
+           <div class="info">
+            High contrast settings enhance the visibility even in dark scenes to clearly see your enemies.
+           </div> 
+           <div class="info">
+            Ideal settings for viewing photos and graphics online.
+           </div> 
+           <div class="info">
+            Provides a greater brightness range and introduces more contrast gradations. It tweaks color saturation for greens and blues, making it ideal for viewing photos and videos that depict scenery.
+           </div> 
+          </div> 
+         </div> 
+         <div class="arr_btn"> 
+          <div class="pre">
+           <img src="img/game_arr2.png" alt="">
+          </div> 
+          <div class="next">
+           <img src="img/game_arr.png" alt="">
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </section> 
+    </div> 
+   </div> 
+   <div id="sub06"> 
+    <div class="sub06_txt1 txtstyle">
+     <p class="txt_title">ASUS-exclusive GamePlus technology</p>
+    </div> 
+    <div class="sub06_txt2 txtstyle tal">
+     <p class="txt_title">Ultra-low blue light technology</p>The ROG Swift PG279Q and PG27AQ also comes with the ASUS Ultra Low Blue Light filters to protect you from harmful blue light. You can easily access and select four different filter settings onscreen through a handy five-way joystick makes it easy to jump through the On-screen display (OSD) menus to fulfill your different scenarios.
+     <br>
+     <br> 
+     <p class="txt_title">Low Blue Light Level</p> 
+    </div> 
+    <div class="sub06_txt3 txtstyle tal">
+     The ROG Swift gaming monitors has undergone stringent performance tests and is certified by TÜV Rheinland laboratories, a global provider of technical, safety, and certification services, to be flicker-free and to emit low blue light levels. 
+    </div> 
+    <div id="pg27aq-warp"> 
+     <section id="pg27aq-gaming"> 
+      <div class="mainsize"> 
+       <div class="light_ctr"> 
+        <figure class="light"> 
+         <img src="img/bpc.png" alt=""> 
+         <div class="pics"> 
+          <img class="on" src="img/light0.png" alt=""> 
+          <img src="img/light1.png" alt=""> 
+          <img src="img/light2.png" alt=""> 
+          <img src="img/light3.png" alt=""> 
+          <img src="img/light4.png" alt=""> 
+          <img src="img/light5.png" alt=""> 
+         </div> 
+        </figure> 
+        <div class="ctr_btn"> 
+         <div class="ctr"> 
+          <div class="l on">
+           <img src="img/l0.jpg" alt="">
+          </div> 
+          <div class="l">
+           <img src="img/l1.jpg" alt="">
+          </div> 
+          <div class="l">
+           <img src="img/l2.jpg" alt="">
+          </div> 
+          <div class="l">
+           <img src="img/l3.jpg" alt="">
+          </div> 
+          <div class="l">
+           <img src="img/l4.jpg" alt="">
+          </div> 
+         </div> 
+        </div> 
+        <div class="icon"> 
+         <img src="img/ic1.jpg" alt=""> 
+         <img src="img/ic2.jpg" alt=""> 
+        </div> 
+       </div> 
+      </div> 
+     </section> 
+    </div> 
+   </div> 
+   <div id="sub08"> 
+    <a class="learn_more_a" target="_blank" href="https://www.asus.com/Monitors/ROG-SWIFT-PG279Q/" title="PG279Q" onclick="ga('send', 'event', 'links', 'clicked', 'PG-Gaming-series-PG279Q');"><img src="img/learn_more.png"></a> 
+    <a class="learn_more_b" target="_blank" href="https://www.asus.com/Monitors/ROG-SWIFT-PG27AQ/" title="PG27AQ Gaming Monitor" onclick="ga('send', 'event', 'links', 'clicked', 'PG-Gaming-series-PG27AQ');"><img src="img/learn_more.png"></a> 
+    <div class="spec_box_a"> 
+     <table class="spec_table"> 
+      <tbody>
+       <tr> 
+        <td class="sub-t">Panel Size</td> 
+        <td>27" (68.6 cm) Wide Screen (16:9)</td> 
+       </tr> 
+       <tr> 
+        <td class="sub-t">True Resolution</td> 
+        <td>2560x1440</td> 
+       </tr> 
+       <tr> 
+        <td class="sub-t">Refresh Rate</td> 
+        <td>Up to 165Hz (for detailed information please refer to <a href="https://www.asus.com/Monitors/ROG-SWIFT-PG279Q/" target="_blank" title="PG279Q" style="text-decoration: underline;">here</a>)</td> 
+       </tr> 
+       <tr> 
+        <td class="sub-t">Viewing Angle</td> 
+        <td>178° (H)/178° (V) with IPS Technology</td> 
+       </tr> 
+       <tr> 
+        <td class="sub-t">Response Time</td> 
+        <td>4ms (GTG)</td> 
+       </tr> 
+       <tr> 
+        <td class="sub-t">Connectivity</td> 
+        <td>DisplayPort1.2,&nbsp;HDMI , USB3.0 x2</td> 
+       </tr> 
+      </tbody>
+     </table> 
+    </div> 
+    <div class="spec_box_b"> 
+     <table class="spec_table"> 
+      <tbody>
+       <tr> 
+        <td class="sub-t">Panel Size</td> 
+        <td>27" (68.56cm) Wide Screen (16:9)</td> 
+       </tr> 
+       <tr> 
+        <td class="sub-t">True Resolution</td> 
+        <td>3840x2160</td> 
+       </tr> 
+       <tr> 
+        <td class="sub-t">Refresh Rate</td> 
+        <td>Up to 60Hz (for detailed information please refer to <a href="https://www.asus.com/Monitors/ROG-SWIFT-PG27AQ/" target="_blank" title="PG27AQ" style="text-decoration: underline;">here</a>)</td> 
+       </tr> 
+       <tr> 
+        <td class="sub-t">Viewing Angle</td> 
+        <td>178° (H)/178° (V) with IPS Technology</td> 
+       </tr> 
+       <tr> 
+        <td class="sub-t">Response Time</td> 
+        <td>4ms (GTG)</td> 
+       </tr> 
+       <tr> 
+        <td class="sub-t">Connectivity</td> 
+        <td>DisplayPort1.2,&nbsp;HDMI , USB3.0 x2</td> 
+       </tr> 
+      </tbody>
+     </table> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="footer"> 
+   <p>The specifications and price are subject to change without prior notice. <br> ® 2015 <a href="http://advantage.asus.com">ASUS TeK </a>Computer Inc. All rights reserved. <br><br> <a href="http://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Official_Site"> Legal information</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy">Privacy Policy</a> </p> 
+  </div>   
+ </body>
+</html>

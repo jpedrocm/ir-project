@@ -1,0 +1,1011 @@
+<!doctype html>
+<html class="no-js" lang="en">
+ <head> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <title>ASUS Graphics Cards</title> 
+  <meta name="description" content="Game Faster, Quieter, Cooler."> 
+  <meta property="og:title" content="ASUS Graphics Cards"> 
+  <meta property="og:description" content="ASUS is the graphics-performance trailblazer, launching the world’s first 3D card in 1996. It’s simple: we lead, others follow. Click here to game faster, cooler and quieter with ASUS!"> 
+  <meta property="og:image" content="img/fb-img.jpg"> 
+  <meta name="viewport" content="width=1100"> 
+  <meta http-equiv="cleartype" content="on"> 
+  <link rel="stylesheet" href="css/app/main.css?v=2"> 
+  <link rel="stylesheet" href="css/app/main_m.css"> 
+  <script src="js/libs/modernizr.js"></script> 
+  <script src="js/libs/jquery-1.9.1.min.js"></script> 
+  <script>var require = {baseUrl:'js/', waitSeconds:60, urlArgs:'v=2', deps:['app/main']};</script> 
+  <script src="js/libs/require.js"></script> 
+  <script type="text/javascript">
+window.ASUSInit = function () {
+	asus_api.init({ appkey: 'micro00001'});
+};
+(function(d){
+	var js, id = 'asus-jsapi';
+	if (d.getElementById("asus-jsapi")) {return;}
+	js = d.createElement('script');
+	js.id = id;
+	js.async = true;
+	js.src = "http://www.asus.com/API/js/asus_api.js";
+	d.getElementsByTagName('head')[0].appendChild(js);
+}(document));
+</script> 
+ </head> 
+ <body> 
+  <div id="wrap"> 
+   <nav id="nav"> 
+    <ul> 
+     <li><a id="share-button" href="javascript:;"> <i></i><b>Share</b></a></li> 
+     <li><a class="active" href="#front"> <i></i><b>Home</b></a></li> 
+     <li><a href="#graphics-power"> <i></i><b>Graphics Power</b></a></li> 
+     <li><a href="#rog-series"> <i></i><b>The Choice of Champions</b></a></li> 
+     <li><a href="#quietly-cool"> <i></i><b>Quietly Cool</b></a></li> 
+     <li><a href="#fan-design"> <i></i><b>Max Air Power</b></a></li> 
+     <li><a href="#power-up"> <i></i><b>Power Up for the Win</b></a></li> 
+     <li><a href="#in-charge"> <i></i><b>Your're in Charge</b></a></li> 
+    </ul> 
+   </nav>
+   <!--/#nav--> 
+   <!--<div id="scrolldown">Scroll Down</div>--> 
+   <div id="content"> 
+    <!--=============================================
+ Index
+===============================================--> 
+    <section id="front" class="section"> 
+     <div id="front--cover" class="view" data-bg="img/front/bg.jpg" data-replay="false"> 
+      <div class="viewbody"> 
+       <h1><img src="img/front/heading.png" alt="ASUS Graphics Cards - Game Faster, Quieter, Cooler."></h1> 
+       <img class="card1" src="img/front/card1.png" alt=""> 
+       <img class="card2" src="img/front/card2.png" alt=""> 
+       <img class="card3" src="img/front/card3.png" alt=""> 
+       <div class="light"></div> 
+      </div> 
+     </div>
+     <!--/#front-cover--> 
+    </section>
+    <!--/#front--> 
+    <!--=============================================
+ Graphics Power
+===============================================--> 
+    <section id="graphics-power" class="section tilt counter-clockwise"> 
+     <div id="graphics-power--cover" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/graphics-power/heading.png" alt="Graphics Power"></h2> 
+       <p>ASUS began venturing into maximizing graphics performance for tech enthusiasts, hardcore gamers and overclockers since 1996 with the introduction of world’s first 3D graphics card. Since then, ASUS engineers (and gaming devotees), have been developing product with enhanced cooling and power delivery to maximize pixel perfection in games along with record-breaking performance. ASUS graphics cards are engineered in the pursuit of maximizing performance. These innovative features have made ASUS graphics cards the world’s most awarded graphics card brand in the world. If you are planning your next PC build, then ASUS graphics cards are the best choice for faster, cooler, quieter and more stable gaming, in any PC form factor you need.</p> 
+       <ul> 
+        <li> <a href="#rog-series"> <b>The Choice of Champions <br>ROG Series<i class="icon-chevron-down"></i></b> <img src="img/graphics-power/menu-1.png" alt="ROG Series"> </a> </li> 
+        <li> <a href="#quietly-cool"> <b>Quietly Cool <br>DirectCU Series<i class="icon-chevron-down"></i></b> <img src="img/graphics-power/menu-2.png" alt="DirectCU Series"> </a> </li> 
+        <li> <a href="#power-up"> <b>Power up for the Win<br>Ultimate Stable Components<i class="icon-chevron-down"></i></b> <img src="img/graphics-power/menu-3.png" alt="Power up for the Win"> </a> </li> 
+        <li> <a href="#in-charge"> <b>You’re in Charge<br>Ultimate OC Features<i class="icon-chevron-down"></i></b> <img src="img/graphics-power/menu-4.png" alt="You’re in Charge"> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="bg">
+       <div class="bg-inner" data-bg="img/graphics-power/bg.jpg"></div>
+      </div> 
+     </div>
+     <!--/#graphics-power-cover--> 
+    </section>
+    <!--/#graphics-power--> 
+    <!--=============================================
+ ROG Series
+===============================================--> 
+    <section id="rog-series" class="section tilt clockwise"> 
+     <!--********************************
+ ROG Series / Cover
+**********************************--> 
+     <section id="rog-series--cover" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/rog-series/cover-heading.png" alt="The Choice of Champions - Republic of Gamers Series "></h2> 
+       <p>In the Republic of Gamers, mercy rules are for the weak — and bragging rights mean everything. ROG provides an irresistible experience to gamers and overclockers of all persuasions.</p> 
+       <ul> 
+        <li class="mars"> <a href="#rog-series--mars-n-ares"> <b class="plus"><i class="icon-plus-sign"></i><span><strong>MARS</strong> <br>Dual GPU <br>Performance</span></b> <img src="img/rog-series/cover-mars.png" alt="MARS"> </a> </li> 
+        <li class="ares"> <a href="#rog-series--mars-n-ares"> <b class="plus"><i class="icon-plus-sign"></i><span><strong>ARES</strong> <br>Dual GPU <br>Performance</span></b> <img src="img/rog-series/cover-ares.png" alt="ARES"> </a> </li> 
+        <li class="matrix"> <a href="#rog-series--matrix"> <b class="plus"><i class="icon-plus-sign"></i><span><strong>MATRIX</strong> <br>Record-breaking <br>Performance</span></b> <img src="img/rog-series/cover-matrix.png" alt="MATRIX"> </a> </li> 
+        <li class="poseidon"> <a href="#rog-series--poseidon"> <b class="plus"><i class="icon-plus-sign"></i><span><strong>POSEIDON</strong> <br>Air or <br>Liquid cooling</span></b> <img src="img/rog-series/cover-poseidon.png" alt="POSEIDON"> </a> </li> 
+        <li class="striker"> <a href="#rog-series--striker"> <b class="plus"><i class="icon-plus-sign"></i><span><strong>STRIKER</strong> <br>Accelerate Your <br>Game</span></b> <img src="img/rog-series/cover-striker.png" alt="STRIKER"> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="bg">
+       <div class="bg-inner" data-bg="img/rog-series/cover-bg.jpg"></div>
+      </div> 
+     </section>
+     <!--/#rog-series-cover--> 
+     <!--********************************
+ ROG Series / Mars & Ares
+**********************************--> 
+     <section id="rog-series--mars-n-ares" class="view" data-replay="false"> 
+      <div class="viewbody"> 
+       <h2><img src="img/rog-series/mars-n-ares-heading.png" alt="MARS &amp; ARES - World’s Fastest Dual GPU Graphics Card"></h2> 
+       <p>Deriving names from revered gods of war, ROG ARES and MARS are forged with dual GPUs and armed to take into any battle. Each are carefully fine-tuned to deliver peak performance and utilizes the best engineering and innovation. </p> 
+       <div class="pagi">
+        <i class="active"></i>
+        <i></i>
+       </div> 
+       <div class="openvideo" data-vid="50AiY8Qeyn8">
+        <i></i>
+        <div></div>
+       </div> 
+       <ul class="detail plus-hide-text"> 
+        <li class="n1"> <b class="plus"><i class="icon-plus-sign"></i><span>Dual GPUs</span></b> 
+         <div class="detail-title">
+          Dual GPU performance
+         </div> 
+         <div class="detail-desc">
+          ROG MARS and ARES deliver graphics performance that's up to 14% faster than reference design! You enjoy the smoothest gameplay today and far into the future.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/rog-series/mars-n-ares-detail-figure-1.jpg" width="676" data-type="swf" data-src="img/rog-series/mars-n-ares-detail-figure-1.swf">
+         </div> </li> 
+        <li class="n2"> <b class="plus"><i class="icon-plus-sign"></i><span>MARS LED Light</span></b> 
+         <div class="detail-title">
+          MARS LED Light
+         </div> 
+         <div class="detail-desc">
+          Mars outperforms your expectations – and it also looks amazing. An awesome LED pulsates in glorious ROG red when the card is in use — an attention-grabbing beacon of brilliance!
+         </div> 
+         <div class="detail-figure">
+          <img src="img/rog-series/mars-n-ares-detail-figure-2.jpg" width="676">
+         </div> </li> 
+        <li class="n3"> <b class="plus"><i class="icon-plus-sign"></i><span>DIGI+VRM with Black Metallic Capacitors</span></b> 
+         <div class="detail-title">
+          DIGI+VRM with Black Metallic Capacitors
+         </div> 
+         <div class="detail-desc">
+          DIGI+ VRM is a digital voltage regulation that provides ample room for overclocking and performance tuning while reducing power noise by 30%. Along with Super Alloy Power specially formulated concreted chokes and harden MOSFETs to withstand greater stress and heat, Mars also uses Japanese-made black metallic solid-state capacitors for 20% better temperature endurance and 5 times longer lifespan.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/rog-series/mars-n-ares-detail-figure-3.jpg" width="676">
+         </div> </li> 
+        <li class="n4"> <b class="plus"><i class="icon-plus-sign"></i><span>Dust-Proof Fans</span></b> 
+         <div class="detail-title">
+          Dust-Proof Fans
+         </div> 
+         <div class="detail-desc">
+          Unique fan design extends longevity by 25% by increased dust and particle resistance while efficiently dissipates heat for optimal performance.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/rog-series/mars-n-ares-detail-figure-4.jpg" width="676">
+         </div> </li> 
+        <li class="n5"> <b class="plus"><i class="icon-plus-sign"></i><span>DIGI+ VRM with Super Alloy Power</span></b> 
+         <div class="detail-title">
+          DIGI+ VRM with Super Alloy Power
+         </div> 
+         <div class="detail-desc">
+          Acclaimed DIGI+ VRM has been applied via a 20-phase power design that uses digital voltage regulators to minimize power noise by 30%, enhance power efficiency by 15%, widen voltage modulation tolerance, and improve overall stability and longevity by 2.5 times over reference.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/rog-series/mars-n-ares-detail-figure-5.jpg" width="676">
+         </div> </li> 
+        <!--leran more--> 
+        <li class="n0"> <b class="more"><a href="http://www.asus.com/Graphics_Cards/ROG_MARS7604GD5" target="blank"><i class="icon-leran-more"></i></a></b> </li> 
+        <li class="n0-0"> <b class="more"><a href="http://www.asus.com/Graphics_Cards/ARES26GD5/" target="blank"><i class="icon-leran-more"></i></a></b> </li> 
+        <!--leran more--> 
+       </ul> 
+       <img class="card1" src="img/rog-series/mars-n-ares-card1.png" alt="MARS &amp; ARES"> 
+       <img class="card2" src="img/rog-series/mars-n-ares-card2.png" alt="MARS &amp; ARES"> 
+       <img class="card3" src="img/rog-series/mars-n-ares-card3.png" alt="MARS &amp; ARES"> 
+      </div> 
+      <div class="bg">
+       <div class="bg-inner" data-bg="img/rog-series/mars-n-ares-bg.jpg"></div>
+      </div> 
+     </section>
+     <!--/#rog-series-mars-n-ares--> 
+     <!--********************************
+ ROG Series / Matrix
+**********************************--> 
+     <section id="rog-series--matrix" class="view" data-replay="false"> 
+      <div class="viewbody"> 
+       <h2><img src="img/rog-series/matrix-heading.png" alt="MATRIX - Record-breaking Graphics Performance"></h2> 
+       <p>ROG Matrix graphics cards are designed by overclockers for overclockers. Pre-loaded with a variety of ROG exclusive tools for instant and safe overclocking, ROG Matrix revolutionized how overclocking is done and continues to innovate and shatter world records.</p> 
+       <div class="openvideo" data-vid="-eB6wXWcdqU">
+        <i></i>
+        <div></div>
+       </div> 
+       <ul class="detail plus-hide-text"> 
+        <li class="n1"> <b class="plus"><i class="icon-plus-sign"></i><span>LN2 Mode / STD Mode Jumper Switch</span></b> 
+         <div class="detail-title">
+          LN2 Mode / STD Mode Jumper Switch
+         </div> 
+         <div class="detail-desc">
+          Designed by overclockers for overclockers, your Matrix card's liquid-nitrogen (LN2) jumper switch unlocks restrictions on power target, voltage and overcurrent protection — so you can unleash maximum power from the GPU!
+         </div> 
+         <div class="detail-figure">
+          <img src="img/rog-series/matrix-detail-figure-1.jpg" width="500">
+         </div> </li> 
+        <li class="n2"> <b class="plus"><i class="icon-plus-sign"></i><span>DiectCU II with 10mm Heatpipe</span></b> 
+         <div class="detail-title">
+          DiectCU II with 10mm Heatpipe
+         </div> 
+         <div class="detail-desc">
+          An exclusive and award-winning cooling technology that puts industry-leading highly-conductive 10mm copper cooling pipes in direct contact with your Matrix card's graphics-processing unit (GPU), dissipating heat with extreme efficiency.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/rog-series/matrix-detail-figure-2.jpg" width="500">
+         </div> </li> 
+        <li class="n3"> <b class="plus"><i class="icon-plus-sign"></i><span>ROG Coded Load Indicator</span></b> 
+         <div class="detail-title">
+          ROG Coded Load Indicator
+         </div> 
+         <div class="detail-desc">
+          Matrix is equipped with a gorgeous color-coded LED that changes shade to reflect the GPU's load level. Shining brightly through four resplendent color gradients, it provides a real-time visual guide to performance — and an awesome internal glow!
+         </div> 
+         <div class="detail-figure">
+          <img src="img/rog-series/matrix-detail-figure-3.jpg" width="500" data-type="swf" data-src="img/rog-series/matrix-detail-figure-3.swf">
+         </div> </li> 
+        <li class="n4"> <b class="plus"><i class="icon-plus-sign"></i><span>CoolTech Fan</span></b> 
+         <div class="detail-title">
+          CoolTech Fan Technology
+         </div> 
+         <div class="detail-desc">
+          Proprietary CoolTech fan consists of a hybrid blade and bearing design, with inner radial blower and outer flower-type blades. These provide multi-directional airflow to accelerate heat removal and enable highly stable graphics performance.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/rog-series/matrix-detail-figure-4.jpg" width="500">
+         </div> </li> 
+        <li class="n5"> <b class="plus"><i class="icon-plus-sign"></i><span>DIGI+VRM with Black Metallic Capacitors</span></b> 
+         <div class="detail-title">
+          DIGI+VRM with Black Metallic Capacitors
+         </div> 
+         <div class="detail-desc">
+          DIGI+ VRM is a digital voltage regulation that provides ample room for overclocking and performance tuning while reducing power noise by 30%. Along with Super Alloy Power specially formulated concreted chokes and harden MOSFETs to withstand greater stress and heat, Mars also uses Japanese-made black metallic solid-state capacitors for 20% better temperature endurance and 5 times longer lifespan.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/rog-series/matrix-detail-figure-5.jpg" width="500">
+         </div> </li> 
+        <li class="n6"> <b class="plus"><i class="icon-plus-sign"></i><span>Safe Mode</span></b> 
+         <div class="detail-title">
+          Safe Mode
+         </div> 
+         <div class="detail-desc">
+          You can overclock with confidence thanks to Safe Mode. One tap of the Clear VBIOS button restores your Matrix's graphics card's default frequencies and voltages, so you can be as experimental as you dare!
+         </div> 
+         <div class="detail-figure">
+          <img src="img/rog-series/matrix-detail-figure-6.jpg" width="500">
+         </div> </li> 
+        <li class="n7"> <b class="plus"><i class="icon-plus-sign"></i><span>Memory Defroster</span></b> 
+         <div class="detail-title">
+          Memory Defroster
+         </div> 
+         <div class="detail-desc">
+          A brand-new ASUS-exclusive technology that'll seriously excite your extreme-overclocking ambitions. This clever feature instantly defrosts your Matrix card's memory during subzero overclocking to ensure sustained stability. With a flip of a switch you can wave goodbye to cold bugs — so you can take subzero overclocking even further!
+         </div> 
+         <div class="detail-figure">
+          <img src="img/rog-series/matrix-detail-figure-7.jpg" width="500">
+         </div> </li> 
+        <li class="n0"> <b class="more"><a href="http://www.asus.com/Graphics_Cards/MATRIXR9280XP3GD5/" target="blank"><i class="icon-leran-more"></i></a></b> </li> 
+       </ul> 
+      </div>
+      <!--/.viewbody--> 
+      <div class="bg">
+       <div class="bg-inner" data-bg="img/rog-series/matrix-bg.jpg"></div>
+      </div> 
+     </section>
+     <!--/#rog-series-matrix--> 
+     <!--********************************
+ ROG Series / Poseidon
+**********************************--> 
+     <section id="rog-series--poseidon" class="view" data-replay="false"> 
+      <div class="viewbody"> 
+       <h2><img src="img/rog-series/poseidon-heading.png" alt="POSEIDON - Air or Liquid, Your Choice to Chill"></h2> 
+       <p>Liquid cooling has been a choice for many PC enthusiast as a efficient means of heat removal and increased overclocking potential of carefully selected hardware. The ROG team engineered the Poseidon with revolutionary DirectCU H2O to give you the best of air and liquid cooling- providing total flexibility whether you are looking to liquid cool now or later. Venturing into liquid cooling with the Poseidon reduces GPU temperatures by up to 24°C and enjoy ultra-stable overclocking!</p> 
+       <div class="openvideo" data-vid="YnDpSlx6q68">
+        <i></i>
+        <div></div>
+       </div> 
+       <ul class="detail plus-hide-text"> 
+        <li class="n1"> <b class="plus"><i class="icon-plus-sign"></i><span>ROG LED Light</span></b> 
+         <div class="detail-title">
+          ROG LED Light
+         </div> 
+         <div class="detail-desc">
+          Poseidon exceeds your expectations while looking amazing. ROG LED pulsates in ROG red when the card is in use.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/rog-series/poseidon-detail-figure-1.jpg" width="500">
+         </div> </li> 
+        <li class="n2"> <b class="plus"><i class="icon-plus-sign"></i><span>DirectCU H2O Hybrid Cooling</span></b> 
+         <div class="detail-title">
+          DirectCU H2O Hybrid Cooling
+         </div> 
+         <div class="detail-desc">
+          DirectCU H2O is a hybrid thermal solution that combines the vapor chamber and water channel with standard G1/4- inch threaded fittings to easily accommodate existing liquid cooling equipment. With liquid, DirectCU H2O achieves up to 140% lower temperatures while reducing noise- up to 3X quieter. 
+         </div> 
+         <div class="detail-figure">
+          <img src="img/rog-series/poseidon-detail-figure-2.jpg" width="500">
+         </div> </li> 
+        <li class="n3"> <b class="plus"><i class="icon-plus-sign"></i><span>DIGI+VRM with Black Metallic Capacitors</span></b> 
+         <div class="detail-title">
+          DIGI+VRM with Black Metallic Capacitors
+         </div> 
+         <div class="detail-desc">
+          DIGI+ VRM is a digital voltage regulation that provides ample room for overclocking and performance tuning while reducing power noise by 30%. Along with Super Alloy Power specially formulated concreted chokes and harden MOSFETs to withstand greater stress and heat, Poseidon also uses Japanese-made black metallic solid-state capacitors for 20% better temperature endurance and 5 times longer lifespan. 
+         </div> 
+         <div class="detail-figure">
+          <img src="img/rog-series/poseidon-detail-figure-3.jpg" width="500">
+         </div> </li> 
+        <li class="n4"> <b class="plus"><i class="icon-plus-sign"></i><span>Dust-Proof Fans</span></b> 
+         <div class="detail-title">
+          Dust-Proof Fans
+         </div> 
+         <div class="detail-desc">
+          Unique fan design extends longevity by 25% by increased dust and particle resistance while efficiently dissipates heat for optimal performance.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/rog-series/poseidon-detail-figure-4.jpg" width="500">
+         </div> </li> 
+        <li class="n0"> <b class="more"><a href="http://www.asus.com/Graphics_Cards/ROG_POSEIDONGTX780P3GD5/" target="blank"><i class="icon-leran-more"></i></a></b> </li> 
+       </ul> 
+       <img class="card" src="img/rog-series/poseidon-card.png" alt="POSEIDON"> 
+       <div class="card-shade"></div> 
+      </div>
+      <!--/.viewbody--> 
+      <div class="bg">
+       <div class="bg-inner" data-bg="img/rog-series/poseidon-bg.jpg"></div>
+      </div> 
+     </section>
+     <!--/#rog-series-matrix--> 
+     <!--********************************
+ ROG Series / Striker
+**********************************--> 
+     <section id="rog-series--striker" class="view" data-replay="false"> 
+      <div class="viewbody"> 
+       <h2><img src="img/rog-series/striker-heading.png" alt="STRIKER - Accelerate Your Game"></h2> 
+       <p>Like the mightiest motorcycle, Striker has a beautifully streamlined body. A bold, gleaming heat-pipe. And ROG’s ravishing red-and-black bodywork. It throbs to be unleashed. So unleash Striker — and accelerate your game!</p> 
+       <div class="openvideo" data-vid="YnDpSlx6q68">
+        <i></i>
+        <div></div>
+       </div> 
+       <ul class="detail plus-hide-text"> 
+        <li class="n1"> <b class="plus"><i class="icon-plus-sign"></i><span>DIGI+ VRM with Super Alloy Power</span></b> 
+         <div class="detail-title">
+          DIGI+ VRM with Super Alloy Power
+         </div> 
+         <div class="detail-desc">
+          DIGI+ VRM is a digital voltage regulation that provides ample room for overclocking and performance tuning while reducing power noise by 30%. Along with Super Alloy Power specially formulated concreted chokes and harden MOSFETs to withstand greater stress and heat, Poseidon also uses Japanese-made black metallic solid-state capacitors for 20% better temperature endurance and 5 times longer lifespan.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/rog-series/striker-detail-figure-1.jpg" width="500">
+         </div> </li> 
+        <li class="n2"> <b class="plus"><i class="icon-plus-sign"></i><span>Color-coded load indicator</span></b> 
+         <div class="detail-title">
+          Color-coded load indicator
+         </div> 
+         <div class="detail-desc">
+          Striker is equipped with a gorgeous color-coded LED that changes shade to reflect the GPU’s load level. Shining brightly through three resplendent color gradients, it provides a real-time visual guide to performance — and an awesome internal glow!
+         </div> 
+         <div class="detail-figure">
+          <img src="img/rog-series/striker-detail-figure-2.jpg" width="500" data-type="swf" data-src="img/rog-series/striker-detail-figure-2.swf">
+         </div> </li> 
+        <li class="n3"> <b class="plus"><i class="icon-plus-sign"></i><span>DirectCU with 10mm heatpipe</span></b> 
+         <div class="detail-title">
+          DirectCU with 10mm heatpipe
+         </div> 
+         <div class="detail-desc">
+          An exclusive and award-winning cooling technology that puts industry-leading highly-conductive 10mm copper cooling pipes in direct contact with your Matrix card's graphics-processing unit (GPU), dissipating heat with extreme efficiency. 
+         </div> 
+         <div class="detail-figure">
+          <img src="img/rog-series/striker-detail-figure-3.jpg" width="500">
+         </div> </li> 
+        <li class="n4"> <b class="plus"><i class="icon-plus-sign"></i><span>CoolTech Fan</span></b> 
+         <div class="detail-title">
+          CoolTech Fan
+         </div> 
+         <div class="detail-desc">
+          Proprietary CoolTech fan consists of a hybrid blade and bearing design, with inner radial blower and outer flower-type blades. These provide multi-directional airflow to accelerate heat removal and enable highly stable graphics performance.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/rog-series/striker-detail-figure-4.jpg" width="500">
+         </div> </li> 
+        <li class="n0"> <b class="more"><a href="http://www.asus.com/Graphics_Cards/MATRIXR9280XP3GD5/" target="blank"><i class="icon-leran-more"></i></a></b> </li> 
+       </ul> 
+      </div>
+      <!--/.viewbody--> 
+      <div class="bg">
+       <div class="bg-inner" data-bg="img/rog-series/striker-bg.jpg"></div>
+      </div> 
+     </section>
+     <!--/#rog-series-striker--> 
+     <div class="bg basebg">
+      <div class="bg-inner" data-bg="img/common/basebg.jpg"></div>
+     </div> 
+    </section>
+    <!--/#rog-series--> 
+    <!--=============================================
+ Quietly Cool
+===============================================--> 
+    <section id="quietly-cool" class="section cyan tilt clockwise"> 
+     <!--********************************
+ Quietly Cool / Cover
+**********************************--> 
+     <section id="quietly-cool--cover" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/quietly-cool/cover-heading.png" alt="QUIETLY COOL - DirectCU Series Graphics Cards"></h2> 
+       <p style="width:700px">ASUS thermal engineers developed exclusive DirectCU cooling solutions to bring superior cooling performance while maintaining whisper-quiet acoustics. DirectCU cooling solutions applies meticulously engineered heatpipes directly on GPU core for faster heat dissipation resulting in up to 30%* cooler operations than reference designs.</p> 
+       <ul> 
+        <li class="cu2"> <a href="#quietly-cool--directcu-ii"> <b class="plus"><i class="icon-plus-sign"></i><span>DirectCU II</span></b> <img src="img/quietly-cool/cover-directcu-ii.png" alt="DirectCU II"> </a> </li> 
+        <li class="cu"> <a href="#quietly-cool--directcu"> <b class="plus"><i class="icon-plus-sign"></i><span>DirectCU</span></b> <img src="img/quietly-cool/cover-directcu.png" alt="DirectCU"> </a> </li> 
+        <li class="mini"> <a href="#quietly-cool--directcu-mini"> <b class="plus"><i class="icon-plus-sign"></i><span>DirectCU Mini</span></b> <img src="img/quietly-cool/cover-directcu-mini.png" alt="DirectCU Mini"> </a> </li> 
+       </ul> 
+       <div class="shade"></div> 
+       <div class="openvideo" data-vid="8inXR-LqPNc">
+        <i></i>
+        <div></div>
+       </div> 
+      </div>
+      <!--/.viewbody--> 
+      <figure class="videopreview" data-playing="1" data-totalframes="2" data-src="img/quietly-cool/cover-videopreview-frame-"> 
+       <div class="control"> 
+        <a class="play" href="http://www.youtube.com/watch?v=8inXR-LqPNc" data-vid="8inXR-LqPNc" target="_blank">Play video</a> 
+        <span class="skip"></span> 
+       </div> 
+       <div class="preview">
+        <div class="bg">
+         <div class="screendot"></div>
+         <div class="bg-inner" data-bg="img/quietly-cool/cover-videopreview-frame-1.jpg"></div>
+        </div>
+       </div> 
+      </figure>
+      <!--/.videopreview--> 
+     </section>
+     <!--/#quietly-cool-cover--> 
+     <!--********************************
+ Quietly Cool / DirectCU II
+**********************************--> 
+     <section id="quietly-cool--directcu-ii" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/quietly-cool/directcu-ii-heading.png" alt="DirectCU II - Deploy the Cool. Reign the Silence."></h2> 
+       <p>Superior cooling and acoustics are created with exclusive DirectCU thermal design. DirectCU heatpipes directly contact the GPU core to speed up heat dissipation for a 30%* cooler and 3X quieter performance compared to reference.</p> 
+       <ul class="detail plus-hide-text"> 
+        <li class="n1"> <b class="plus"><i class="icon-plus-sign"></i><span>CoolTech Fan</span></b> 
+         <div class="detail-title">
+          CoolTech Fan
+         </div> 
+         <div class="detail-desc">
+          Proprietary CoolTech fan consists of a hybrid blade and bearing design, with inner radial blower and outer flower-type blades. These provide multi-directional airflow to accelerate heat removal and enable highly stable graphics performance.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-ii-detail-figure-1.jpg" width="500">
+         </div> </li> 
+        <li class="n2"> <b class="plus"><i class="icon-plus-sign"></i><span>Backplate</span></b> 
+         <div class="detail-title">
+          Backplate
+         </div> 
+         <div class="detail-desc">
+          Backplate provides extra protection and support.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-ii-detail-figure-2.jpg" width="500">
+         </div> </li> 
+        <li class="n3"> <b class="plus"><i class="icon-plus-sign"></i><span>DIGI+ VRM with Super Alloy Power</span></b> 
+         <div class="detail-title">
+          DIGI+ VRM with Super Alloy Power
+         </div> 
+         <div class="detail-desc">
+          Acclaimed ASUS DIGI+ VRM uses digital voltage regulators to reduce noise by 30%*, enhance power efficiency by 15%*, widen voltage-modulation tolerance and improve overall stability.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-ii-detail-figure-3.jpg" width="500">
+         </div> </li> 
+        <li class="n4"> <b class="plus"><i class="icon-plus-sign"></i><span>DirectCU</span></b> 
+         <div class="detail-title">
+          DirectCU
+         </div> 
+         <div class="detail-desc">
+          Applying the exclusive designed heatpipes directly on GPU core for faster heat dissipation and cooler operation by 30%* than reference designs.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-ii-detail-figure-4.jpg" width="500" data-type="swf" data-src="img/quietly-cool/directcu-ii-detail-figure-4.swf">
+         </div> </li> 
+        <li class="n5"> <b class="plus"><i class="icon-plus-sign"></i><span>Dust-Proof Fan</span></b> 
+         <div class="detail-title">
+          Dust-Proof Fan
+         </div> 
+         <div class="detail-desc">
+          Unique fan design dissipates heat efficiently while extending a graphic card’s lifespan by 25%* through increased dust and particle resistance.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-ii-detail-figure-5.jpg" width="500">
+         </div> </li> 
+        <li class="n0"> <b class="more"><a href="http://www.asus.com/Graphics_Cards/R9290XDC2OC4GD5/" target="blank"><i class="icon-leran-more-blue"></i></a></b> </li> 
+       </ul> 
+       <img class="comp1" src="img/quietly-cool/directcu-ii-comp-1.png" alt=""> 
+       <img class="comp2" src="img/quietly-cool/directcu-ii-comp-2.png" alt=""> 
+       <img class="comp3" src="img/quietly-cool/directcu-ii-comp-3.png" alt=""> 
+       <img class="comp4" src="img/quietly-cool/directcu-ii-comp-4.png" alt=""> 
+       <img class="comp5" src="img/quietly-cool/directcu-ii-comp-5.png" alt=""> 
+       <img class="comp6" src="img/quietly-cool/directcu-ii-comp-6.png" alt=""> 
+       <div class="diagram" data-src="img/quietly-cool/directcu-ii-diagram.swf"></div>
+       <!--/.diagram--> 
+      </div> 
+     </section>
+     <!--/#quietly-cool-directcu-ii--> 
+     <!--********************************
+ Quietly Cool / DirectCU
+**********************************--> 
+     <section id="quietly-cool--directcu" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/quietly-cool/directcu-heading.png" alt="DirectCU - Deploy the Cool. Reign the Silence."></h2> 
+       <p>Superior cooling and acoustics are created with exclusive DirectCU thermal design. DirectCU heat pipes directly contact the GPU core to speed up heat dissipation for a 20%* cooler and 3X* quieter performance compared to reference.</p> 
+       <ul class="detail plus-hide-text"> 
+        <li class="n1"> <b class="plus"><i class="icon-plus-sign"></i><span>DirectCU</span></b> 
+         <div class="detail-title">
+          DirectCU
+         </div> 
+         <div class="detail-desc">
+          Applying the exclusive designed heatpipes directly on GPU core for faster heat dissipation and cooler operation by 30%* than reference designs.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-ii-detail-figure-4.jpg" width="500" data-type="swf" data-src="img/quietly-cool/directcu-ii-detail-figure-4.swf">
+         </div> </li> 
+        <li class="n2"> <b class="plus"><i class="icon-plus-sign"></i><span>Dust-Proof Fan</span></b> 
+         <div class="detail-title">
+          Dust-Proof Fan
+         </div> 
+         <div class="detail-desc">
+          Unique fan design dissipates heat efficiently while extending a graphic card’s lifespan by 25%* through increased dust and particle resistance.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-ii-detail-figure-5.jpg" width="500">
+         </div> </li> 
+        <li class="n3 draggable"> <b class="plus"><i class="icon-plus-sign"></i><span>DIGI+ VRM with Super Alloy Power</span></b> 
+         <div class="detail-title">
+          DIGI+ VRM with Super Alloy Power
+         </div> 
+         <div class="detail-desc">
+          Acclaimed ASUS DIGI+ VRM uses digital voltage regulators to reduce noise by 30%*, enhance power efficiency by 15%*, widen voltage-modulation tolerance and improve overall stability.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-ii-detail-figure-3.jpg" width="500">
+         </div> </li> 
+        <li class="n0"> <b class="more"><a href="http://www.asus.com/Graphics_Cards/GTX650DCT1GD5/" target="blank"><i class="icon-leran-more-blue"></i></a></b> </li> 
+       </ul> 
+       <img class="comp1" src="img/quietly-cool/directcu-comp-1.png" alt=""> 
+       <img class="comp2" src="img/quietly-cool/directcu-comp-2.png" alt=""> 
+       <img class="comp3" src="img/quietly-cool/directcu-comp-3.png" alt=""> 
+       <img class="comp4" src="img/quietly-cool/directcu-comp-4.png" alt=""> 
+       <div class="diagram" data-src="img/quietly-cool/directcu-diagram.swf"></div>
+       <!--/.diagram--> 
+      </div> 
+     </section>
+     <!--/#quietly-cool-directcu--> 
+     <!--********************************
+ Quietly Cool / DirectCU Mini
+**********************************--> 
+     <section id="quietly-cool--directcu-mini" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/quietly-cool/directcu-mini-heading.png" alt="DirectCU Mini - Go Mini. Game Big."></h2> 
+       <p>DirectCU includes custom vapor-chamber cooling technology. Even in DirectCU Mini form, the proprietary design delivers up to 20%* cooler operating temperatures and performance that’s three times quieter than reference.</p> 
+       <ul class="detail plus-hide-text"> 
+        <li class="n1"> <b class="plus"><i class="icon-plus-sign"></i><span>17cm Small Form Factor</span></b> 
+         <div class="detail-title">
+          17cm Small Form Factor
+         </div> 
+         <div class="detail-desc">
+          Perfect choice for ITX gaming PCs compared to large reference card at 24.13cm long.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-mini-detail-figure-1.jpg" width="500">
+         </div> </li> 
+        <li class="n2"> <b class="plus"><i class="icon-plus-sign"></i><span>Direct Power</span></b> 
+         <div class="detail-title">
+          Direct Power
+         </div> 
+         <div class="detail-desc">
+          A custom PCB and VRM design featuring Direct Power technology provides high quality and reliable power delivery to the GPU, whether for gaming or overclocking. In addition, superior efficiency reduces PCB temperatures by 17%*.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-mini-detail-figure-2.jpg" width="500">
+         </div> </li> 
+        <li class="n3"> <b class="plus"><i class="icon-plus-sign"></i><span>DirectCU Mini</span></b> 
+         <div class="detail-title">
+          DirectCU Mini
+         </div> 
+         <div class="detail-desc">
+          Exclusively-designed vapor chamber contacts the GPU directly to efficiently dissipate heat.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-ii-detail-figure-4.jpg" width="500" data-type="swf" data-src="img/quietly-cool/directcu-ii-detail-figure-4.swf">
+         </div> </li> 
+        <li class="n4"> <b class="plus"><i class="icon-plus-sign"></i><span>CoolTech Fan</span></b> 
+         <div class="detail-title">
+          CoolTech Fan
+         </div> 
+         <div class="detail-desc">
+          Proprietary CoolTech fan consists of a hybrid blade and bearing design, with inner radial blower and outer flower-type blades. These provide multi-directional airflow to accelerate heat removal and enable highly stable graphics performance.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-mini-detail-figure-4.jpg" width="500">
+         </div> </li> 
+        <li class="n5"> <b class="plus"><i class="icon-plus-sign"></i><span>Super Alloy Power</span></b> 
+         <div class="detail-title">
+          Super Alloy Power
+         </div> 
+         <div class="detail-desc">
+          Exclusively-formulated alloy components boost performance by reducing power loss, enhancing durability, and achieving cooler operation. Choke concrete cores eliminate buzzing sound under full load while capacitors assure a 50,000-hour lifespan: equivalent to 2.5 times longer than traditional capacitors. 
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/directcu-mini-detail-figure-3.jpg" width="500">
+         </div> </li> 
+        <!--<li class="n0">
+			<b class="more"><a href="http://www.asus.com/Graphics_Cards/ROG_POSEIDONGTX780P3GD5/" target="blank"><i class="icon-leran-more-blue"></i></a></b>
+		</li>--> 
+        <li class="n0"> <b class="more"><a href="http://www.asus.com/Graphics_Cards/GTX760DCMOC2GD5/" target="blank"><i class="icon-leran-more-blue"></i></a></b> </li> 
+       </ul> 
+       <img class="comp1" src="img/quietly-cool/directcu-mini-comp-1.png" alt=""> 
+       <img class="comp2" src="img/quietly-cool/directcu-mini-comp-2.png" alt=""> 
+       <img class="comp3" src="img/quietly-cool/directcu-mini-comp-3.png" alt=""> 
+       <img class="comp4" src="img/quietly-cool/directcu-mini-comp-4.png" alt=""> 
+       <div class="diagram" data-src="img/quietly-cool/directcu-mini-diagram.swf"></div>
+       <!--/.diagram--> 
+      </div> 
+     </section>
+     <!--/#quietly-cool-directcu-mini--> 
+     <!--********************************
+ Quietly Cool / DirectCU Silent
+**********************************--> 
+     <section id="quietly-cool--directcu-silent" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/quietly-cool/directcu-silent-heading.png" alt="DirectCU SILENT -  Efficiently Silent. Visually Vibrant."></h2> 
+       <p>Exclusively-designed DirectCU heat sink with large surface area efficiently cools the graphics cards passively so absolutely no sound is produced while running –perfect for high definition and hushed solution for home theater PCs and multimedia centers.</p> 
+       <ul class="detail plus-hide-text"> 
+        <li class="n0"> <b class="more"><a href="http://www.asus.com/Graphics_Cards/GT630DCSL2GD3V2/" target="blank"><i class="icon-leran-more-blue"></i></a></b> </li> 
+       </ul> 
+       <img class="comp1" src="img/quietly-cool/directcu-silent-comp-1.png" alt=""> 
+       <img class="comp2" src="img/quietly-cool/directcu-silent-comp-2.png" alt=""> 
+       <img class="comp3" src="img/quietly-cool/directcu-silent-comp-3.png" alt=""> 
+       <img class="comp4" src="img/quietly-cool/directcu-silent-comp-4.png" alt=""> 
+       <div class="diagram" data-src="img/quietly-cool/directcu-silent-diagram.swf"></div>
+       <!--/.diagram--> 
+      </div> 
+     </section>
+     <!--/#quietly-cool-directcu-silent--> 
+     <div class="bg basebg">
+      <div class="bg-inner" data-bg="img/quietly-cool/cover-bg.jpg"></div>
+     </div> 
+    </section>
+    <!--/#quietly-cool--> 
+    <!--=============================================
+ Fan Design
+===============================================--> 
+    <section id="fan-design" class="section cyan tilt clockwise"> 
+     <!--********************************
+ Quietly Cool / Dust Proof Fan
+**********************************--> 
+     <section id="quietly-cool--dust-proof" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/quietly-cool/dust-proof-heading.png" alt="DUST PROOF FAN - Max Air Power."></h2> 
+       <p>Exclusive CoolTech fan technology brings together a unique hybrid design and superb dust-proofing to maximize the airflow and prolong lifespan. Expertly-engineered radial fins combined with broad outer blades provide multi-directional airflow that is exceptionally effective. Heat is dissipated with terrific efficiency and dust is banished — enhancing lifespan by up to 25% compared to reference designs!</p> 
+       <ul class="detail plus-hide-text"> 
+        <li class="n2"> <b class="plus"><i class="icon-plus-sign"></i><span>Hybrid Design</span></b> 
+         <div class="detail-title">
+          Hybrid Design
+         </div> 
+         <div class="detail-desc">
+          Proprietary CoolTech fan consists of a hybrid blade and bearing design, with inner radial blower and outer flower-type blades. These provide multi-directional airflow to accelerate heat removal and enable highly stable graphics performance.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/dust-proof-detail-figure-1.jpg" width="676" data-type="swf" data-src="http://www.youtube.com/v/totFkHQftaI?hl=zh_TW&amp;version=3&amp;rel=0">
+         </div> </li> 
+        <li class="n1"> <b class="plus"><i class="icon-plus-sign"></i><span>Dust-Proof Design</span></b> 
+         <div class="detail-title">
+          Dust-Proof Design
+         </div> 
+         <div class="detail-desc">
+          Unique fan design dissipates heat efficiently while extending a graphic card’s lifespan by 25%* through increased dust and particle resistance.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/quietly-cool/dust-proof-detail-figure-2.jpg" width="676" data-type="video" data-src="img/quietly-cool/dust-proof-detail-figure-2.flv">
+         </div> </li> 
+       </ul> 
+       <img class="card" src="img/quietly-cool/dust-proof-card.png" alt=""> 
+      </div>
+      <!--/.viewbody--> 
+     </section>
+     <!--/#quietly-cool-dust-proof--> 
+     <div class="bg basebg">
+      <div class="bg-inner" data-bg="img/quietly-cool/cover-bg-red.jpg"></div>
+     </div> 
+    </section>
+    <!--/#fan-design--> 
+    <!--=============================================
+ Power Up
+===============================================--> 
+    <section id="power-up" class="section"> 
+     <!--********************************
+ Power Up / Cover
+**********************************--> 
+     <section id="power-up--cover" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/power-up/cover-heading.png" alt="POWER UP FOR THE WIN"></h2> 
+       <p>To maximize the overclocking potential of your graphics card, you need clean, precise and stable power. ASUS re-designed the cards from ground up - giving you greater overclocking headroom and extend durability.</p> 
+      </div> 
+      <div class="bg">
+       <div class="bg-inner" data-bg="img/power-up/cover-bg.jpg"></div>
+      </div> 
+     </section>
+     <!--/#power-up-cover--> 
+     <!--********************************
+ Power Up / Direct Power
+**********************************--> 
+     <section id="power-up--direct-power" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/power-up/direct-power-heading.png" alt="DIRECT POWER - Clean and Precise Power Supply"></h2> 
+       <p>Direct Power provides high quality and reliable power delivery to the GPU, whether for gaming or overclocking. In addition, superior efficiency reduces PCB temperatures by up to 15%.</p> 
+       <ul class="detail plus-hide-text"> 
+        <li class="n1"> <b class="plus"><i class="icon-plus-sign"></i><span>Direct Power</span></b> 
+         <div class="detail-title">
+          Direct Power
+         </div> 
+         <div class="detail-desc">
+          Direct Power provides high quality and reliable power delivery to the GPU, whether for gaming or overclocking. In addition, superior efficiency reduces PCB temperatures by up to 15%.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/power-up/direct-power-detail-figure-1.jpg" width="599" height="380">
+         </div> </li> 
+       </ul> 
+      </div> 
+      <div class="bg">
+       <div class="bg-inner" data-bg="img/power-up/direct-power-bg.jpg"></div>
+      </div> 
+     </section>
+     <!--/#power-up-direct-power--> 
+     <!--********************************
+ Power Up / Digi+
+**********************************--> 
+     <section id="power-up--digiplus" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/power-up/digiplus-heading.png" alt="DIGI+ Super Alloy Power - 2.5 Times Greater Durability"></h2> 
+       <p>Acclaimed ASUS DIGI+ VRM uses digital voltage regulators to reduce noise by 30%*, enhance power efficiency by 15%*, widen voltage-modulation tolerance and improve overall stability.</p> 
+       <div class="openvideo" data-vid="IUX5Mi996oY">
+        <i></i>
+        <div></div>
+       </div> 
+      </div> 
+      <figure class="videopreview" data-playing="0" data-totalframes="3" data-src="img/power-up/digiplus-videopreview-frame-"> 
+       <div class="control"> 
+        <a class="play" href="http://www.youtube.com/watch?v=IUX5Mi996oY" data-vid="IUX5Mi996oY" target="_blank">Play video</a> 
+        <span class="skip"></span> 
+       </div> 
+       <div class="preview">
+        <div class="bg">
+         <div class="screendot"></div>
+         <div class="bg-inner" data-bg="img/power-up/digiplus-videopreview-frame-1.jpg"></div>
+        </div>
+       </div> 
+      </figure>
+      <!--/.videopreview--> 
+      <div class="bg">
+       <div class="bg-inner" data-bg="img/power-up/digiplus-bg.jpg"></div>
+      </div> 
+     </section>
+     <!--/#power-up-digiplus--> 
+     <div class="bg basebg">
+      <div class="bg-inner" data-bg="img/common/basebg.jpg"></div>
+     </div> 
+    </section>
+    <!--/#power-up--> 
+    <!--=============================================
+ In Charge
+===============================================--> 
+    <section id="in-charge" class="section tilt counter-clockwise"> 
+     <!--********************************
+ In Charge / Cover
+**********************************--> 
+     <section id="in-charge--cover" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/in-charge/cover-heading.png" alt="YOU’RE in CHARGE"></h2> 
+       <p>With exclusive technologies and tools, you take over the driver’s seat to control at both hardware and software levels like a Pro- all with ease.</p> 
+       <div class="openvideo" data-vid="wSocUoYAJFY">
+        <i></i>
+        <div></div>
+       </div> 
+      </div>
+      <!--/.viewbody--> 
+      <figure class="videopreview" data-playing="0" data-totalframes="2" data-src="img/in-charge/cover-videopreview-frame-"> 
+       <div class="control"> 
+        <a class="play" href="http://www.youtube.com/watch?v=wSocUoYAJFY" data-vid="wSocUoYAJFY" target="_blank">Play video</a> 
+        <span class="skip"></span> 
+       </div> 
+       <div class="preview">
+        <div class="bg">
+         <div class="screendot"></div>
+         <div class="bg-inner" data-bg="img/in-charge/cover-videopreview-frame-1.jpg"></div>
+        </div>
+       </div> 
+      </figure>
+      <!--/.videopreview--> 
+      <div class="bg">
+       <div class="bg-inner" data-bg="img/in-charge/cover-bg.jpg"></div>
+      </div> 
+     </section>
+     <!--/#in-charge-cover--> 
+     <!--********************************
+ In Charge / GPU Tweak
+**********************************--> 
+     <section id="in-charge--gpu-tweak" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/in-charge/gpu-tweak-heading.png" alt="GPU TWEAK - Real-time Intuitive Graphics Tuning"></h2> 
+       <p>Users can tweak the GPU core, memory and fan speeds on each installed graphics card independently or together, in synchronization, as well as monitor the effects, all via an intuitive interface.</p> 
+       <img class="gui" src="img/in-charge/gpu-tweak-gui.png" alt> 
+       <ul class="detail plus-hide-text"> 
+        <li class="n1 draggable" style="top:625px;"> <b class="plus"><i class="icon-plus-sign"></i><span>User Profiles</span></b> 
+         <div class="detail-title">
+          User Profiles
+         </div> 
+         <div class="detail-desc">
+          Save up to four custom user profiles in the 1-4 buttons, or choose between ASUS engineered presets of Power Saving (S) and Gaming (G) modes.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/in-charge/gpu-tweak-detail-figure-1.jpg" width="500">
+         </div> </li> 
+        <li class="n2 draggable"> <b class="plus"><i class="icon-plus-sign"></i><span>Fan Speed</span></b> 
+         <div class="detail-title">
+          Fan Speed
+         </div> 
+         <div class="detail-desc">
+          Choose from one of the three ways to set your fan speed – Auto, Manual, or User Define mode.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/in-charge/gpu-tweak-detail-figure-2.jpg" width="500">
+         </div> </li> 
+        <li class="n3 draggable"> <b class="plus"><i class="icon-plus-sign"></i><span>Real-Time Monitoring</span></b> 
+         <div class="detail-title">
+          Real-Time Monitoring
+         </div> 
+         <div class="detail-desc">
+          Real-time monitoring of temperature, usage, fan status, GPU clock, and memory. Choose what to monitor and how to monitor it in its settings.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/in-charge/gpu-tweak-detail-figure-3.jpg" width="500" height="500" data-type="swf" data-src="img/in-charge/gpu-tweak-detail-figure-3.swf">
+         </div> </li> 
+        <li class="n4 draggable"> <b class="plus"><i class="icon-plus-sign"></i><span>ASUS x GPUz</span></b> 
+         <div class="detail-title">
+          ASUS x GPUz
+         </div> 
+         <div class="detail-desc">
+          Built in GPU-Z to see the details and current status of your graphics card(s).
+         </div> 
+         <div class="detail-figure">
+          <img src="img/in-charge/gpu-tweak-detail-figure-4.jpg" width="500">
+         </div> </li> 
+        <li class="n5 draggable"> <b class="plus"><i class="icon-plus-sign"></i><span>Tuning Panel</span></b> 
+         <div class="detail-title">
+          Tuning Panel
+         </div> 
+         <div class="detail-desc">
+          Adjust clock speeds, voltages and fan speeds to tune your graphics card(s) exactly how you want to.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/in-charge/gpu-tweak-detail-figure-5.jpg" width="500">
+         </div> </li> 
+        <li class="n6 draggable"> <b class="plus"><i class="icon-plus-sign"></i><span>Built-In Update</span></b> 
+         <div class="detail-title">
+          Built-In Update
+         </div> 
+         <div class="detail-desc">
+          Live update to quickly check drivers and VBIOS to keep your graphics card up-to-date. Customize how frequent to check for update and when to update.
+         </div> 
+         <div class="detail-figure">
+          <img src="img/in-charge/gpu-tweak-detail-figure-6.jpg" width="500">
+         </div> </li> 
+       </ul> 
+      </div>
+      <!--/.viewbody--> 
+      <div class="bg">
+       <div class="bg-inner" data-bg="img/in-charge/speedy-bg.jpg"></div>
+      </div> 
+     </section>
+     <!--/#in-charge-gpu-tweak--> 
+     <!--********************************
+ In Charge / Streaming
+**********************************--> 
+     <section id="in-charge--streaming" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/in-charge/streaming-heading.png" alt="GPU TWEAK STREAMING - Real-time Streaming Online"></h2> 
+       <p>GPU Tweak streaming tool that lets you share on-screen action in real time – so others can watch live as games are played. It's even possible to add to the streaming window scrolling text, pictures and webcam images.</p> 
+       <img class="gui" src="img/in-charge/streaming-gui.jpg" alt> 
+       <!--<ul class="detail plus-hide-text">
+		<li class="n1 draggable">
+			<b class="plus"><i class="icon-plus-sign"></i><span>Unknown 1</span></b>
+			<div class="detail-title">Unknown</div>
+			<div class="detail-desc">Unknown</div>
+			<div class="detail-figure"><img src="img/in-charge/streaming-detail-figure-1.jpg" width="500"></div>
+		</li>
+		<li class="n2 draggable">
+			<b class="plus"><i class="icon-plus-sign"></i><span>Unknown 2</span></b>
+			<div class="detail-title">Unknown</div>
+			<div class="detail-desc">Unknown</div>
+			<div class="detail-figure"><img src="img/in-charge/streaming-detail-figure-2.jpg" width="500"></div>
+		</li>
+		<li class="n3 draggable">
+			<b class="plus"><i class="icon-plus-sign"></i><span>Unknown 3</span></b>
+			<div class="detail-title">Unknown</div>
+			<div class="detail-desc">Unknown</div>
+			<div class="detail-figure"><img src="img/in-charge/streaming-detail-figure-3.jpg" width="500"></div>
+		</li>
+		<li class="n4 draggable">
+			<b class="plus"><i class="icon-plus-sign"></i><span>Unknown 4</span></b>
+			<div class="detail-title">Unknown</div>
+			<div class="detail-desc">Unknown</div>
+			<div class="detail-figure"><img src="img/in-charge/streaming-detail-figure-4.jpg" width="500"></div>
+		</li>
+		</ul>--> 
+      </div>
+      <!--/.viewbody--> 
+      <div class="bg">
+       <div class="bg-inner" data-bg="img/in-charge/speedy-bg.jpg"></div>
+      </div> 
+     </section>
+     <!--/#in-charge-streaming--> 
+     <!--********************************
+ In Charge / Overclocking
+**********************************--> 
+     <section id="in-charge--overclocking" class="view"> 
+      <div class="viewbody"> 
+       <h2><img src="img/in-charge/overclocking-heading.png" alt="PRO OVERCLOCKING TOOLS - Quick and deep hardware-level overvolting"></h2> 
+       <p>Users can tweak the GPU core, memory and fan speeds on each installed graphics card independently or sync’d together, as well as monitor the effects, all via an intuitive interface.</p> 
+       <ul class="detail plus-hide-text"> 
+        <li class="n1"> <a href="javascript:;"> <b class="plus">Turbo Fan<i class="icon-plus-sign"></i></b> <img src="img/in-charge/overclocking-menu-1.png" alt="Turbo Fan"> 
+          <div class="detail-title">
+           Turbo Fan
+          </div> 
+          <div class="detail-desc">
+           Instantly trigger the dual fans to 100% speed regardless of driver settings. This proves very useful in extreme overclocking and other heavy workload scenarios where rapid heat evacuation and max cooling are a must.
+          </div> 
+          <div class="detail-figure">
+           <img src="img/in-charge/overclocking-detail-figure-1.jpg" width="676" data-type="video" data-src="img/in-charge/overclocking-detail-figure-1.flv">
+          </div> </a> </li> 
+        <li class="n2"> <a href="javascript:;"> <b class="plus">TweakIt &amp; Safe Mode<i class="icon-plus-sign"></i></b> <img src="img/in-charge/overclocking-menu-2.png" alt="TweakIt &amp; Safe Mode"> 
+          <div class="detail-title">
+           TweakIt &amp; Safe Mode
+          </div> 
+          <div class="detail-desc">
+           TweakIt provides flexible overclocking control even when gaming or running benchmarks! Simple plus (‘+’) and minus (‘-‘) buttons overvolting adjustments at your fingertips, with more power translating into faster and smoother gaming. The Safe Mode button resets the graphics card back to default frequencies and BIOS settings.
+          </div> 
+          <div class="detail-figure">
+           <img src="img/in-charge/overclocking-detail-figure-2.jpg" width="676" data-type="video" data-src="img/in-charge/overclocking-detail-figure-2.flv">
+          </div> </a> </li> 
+        <li class="n3"> <a href="javascript:;"> <b class="plus">VGA Hotwire<i class="icon-plus-sign"></i></b> <img src="img/in-charge/overclocking-menu-3.png" alt="VGA Hotwire"> 
+          <div class="detail-title">
+           VGA Hotwire
+          </div> 
+          <div class="detail-desc">
+           Using this feature, simply solder two wires on to a graphics card and connect them to a dedicated header connection on the motherboard and you’ll be overvolting your graphics card in no time.
+          </div> 
+          <div class="detail-figure">
+           <img src="img/in-charge/overclocking-detail-figure-3.jpg" width="676" data-type="video" data-src="img/in-charge/overclocking-detail-figure-3.flv">
+          </div> </a> </li> 
+        <li class="n4"> <a href="javascript:;"> <b class="plus">Memory Defroster<i class="icon-plus-sign"></i></b> <img src="img/in-charge/overclocking-menu-4.png" alt="Memory Defroster"> 
+          <div class="detail-title">
+           Memory Defroster
+          </div> 
+          <div class="detail-desc">
+           A brand-new ASUS-exclusive technology that'll seriously excite your extreme-overclocking ambitions. This clever feature instantly defrosts your Matrix card's memory during subzero overclocking to ensure sustained stability. With a flip of a switch you can wave goodbye to cold bugs — so you can take subzero overclocking even further!
+          </div> 
+          <div class="detail-figure">
+           <img src="img/in-charge/overclocking-detail-figure-4.jpg" width="600" data-type="video" data-src="img/in-charge/overclocking-detail-figure-4.flv">
+          </div> </a> </li> 
+       </ul> 
+      </div>
+      <!--/.viewbody--> 
+      <div class="bg">
+       <div class="bg-inner" data-bg="img/in-charge/overclocking-bg.jpg"></div>
+      </div> 
+     </section>
+     <!--/#in-charge-overclocking--> 
+     <div class="bg basebg">
+      <div class="bg-inner" data-bg="img/common/basebg.jpg"></div>
+     </div> 
+    </section>
+    <!--/#in-charge--> 
+   </div>
+   <!--/#content--> 
+   <div id="socialModal" class="modal"> 
+    <a class="twitter" href="http://twitter.com/intent/tweet?text=">Share on Twitter</a> 
+    <a class="facebook" href="http://www.facebook.com/sharer/sharer.php?u=">Share on Facebook</a> 
+    <a class="google" href="http://plus.google.com/share?url=">Share on Google+</a> 
+   </div> 
+  </div>
+  <!--/#wrap-->   
+ </body>
+</html>

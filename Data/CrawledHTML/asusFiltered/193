@@ -1,0 +1,65 @@
+<!doctype html>
+<html ng-app="GSeries">
+ <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="author" content="Steve Fuller">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="The next generation of Republic of Gamers laptops are here. Providing everything you need to dominate your game, ROG notebooks are unmatched in the industry.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://www.asus.com/us/site/g-series/">
+  <meta property="og:site_name" content="ASUS US">
+  <meta property="og:image" content="http://www.asus.com/us/site/g-series/assets/img/social-1200x630.jpg">
+  <meta property="og:title" content="ROG G-Series Gaming Laptops | ASUS US">
+  <meta property="og:description" content="What do you get when you take the power of a gaming rig at only a fraction of its size? ASUS Gaming Laptops give you the perfect mix of power and mobility.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@asususa">
+  <meta name="twitter:title" content="ASUS G Series ROG Gaming Laptops - An Ultimate Gaming Rig Wherever You Go">
+  <meta name="twitter:description" content="What do you get when you take the power of a gaming rig at only a fraction of its size? ASUS Gaming Laptops give you the perfect mix of power and mobility.">
+  <meta name="twitter:image" content="http://www.asus.com/us/site/g-series/assets/img/social-1200x630.jpg">
+  <meta name="twitter:url" content="http://www.asus.com/us/site/g-series/">
+  <title>ROG G-Series Gaming Laptops | ASUS US</title>
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/vendor-styles.min.css">
+  <link rel="stylesheet" href="css/styles.min.css">
+ </head>
+ <body>
+  <script type="text/javascript">var axel = Math.random() + "";
+      var a = axel * 10000000000000;
+      // Landing Page
+      document.write('<iframe src="https://6037902.fls.doubleclick.net/activityi;src=6037902;type=landi0;cat=landi0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');</script>
+  <noscript>
+   <iframe src="https://6037902.fls.doubleclick.net/activityi;src=6037902;type=landi0;cat=landi0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+  </noscript>
+  <header layout="row">
+   <div class="container" layout="row" layout-align="start center">
+    <a href="http://asus.com"><img class="image-responsive header-logo" src="img/logos/logo-rog.png"></a>
+   </div>
+  </header>
+  <div class="module-wrapper" ng-include src="'templates/hero-banner.tmpl.html'"></div>
+  <div class="module-wrapper" ng-include src="'templates/next-gen-gaming.tmpl.html'"></div>
+  <div class="module-wrapper" ng-include src="'templates/impeccable-immersion.tmpl.html'"></div>
+  <div class="module-wrapper" ng-include src="'templates/overclocked-cpu-memory.tmpl.html'"></div>
+  <div class="module-wrapper" ng-include src="'templates/dedicated-cooling.tmpl.html'"></div>
+  <div class="module-wrapper" ng-include src="'templates/express-storage.tmpl.html'"></div>
+  <div class="module-wrapper" ng-include src="'templates/gaming-keyboard.tmpl.html'"></div>
+  <div class="module-wrapper" ng-include src="'templates/product-highlight.tmpl.html'"></div>
+  <footer>
+   <div class="copyright" layout="column" layout-align="center center">
+    <div class="container">
+     <div class="row" layout="row" layout-align="center center">
+      <img class="image-responsive image-intel-logo" src="img/logos/logo-intel-footer.png">
+      <div class="footer-vendor-text">
+       <p>Intel Inside<sup>®</sup>. Extraordinary Performance Outside.</p>
+       <p>ASUS G-Series laptops powered by up to Intel<sup>®</sup> Core™ i7 processors</p>
+      </div>
+     </div>
+     <img class="asus-logo" src="img/logos/logo-asus.png">
+     <p class="text-center">©2016 ASUSTeK Computer Inc. All Rights Reserved. Terms of Use. All specifcations are subject to change without notice and features are only in select models. Products may not be available in all markets. Brand and product names mentioned are trademarks of their respective companies. Ultrabook, Celeron, Celeron Inside, Core Inside, Intel, Intel Logo, Intel Atom, Intel Atom Inside, Intel Core, Intel Inside, Intel Inside Logo, Intel vPro, Itanium, Itanium Inside, Pentium, Pentium Inside, vPro Inside, Xeon, Xeon Phi, and Xeon Inside are trademarks of Intel Corporation in the U.S. and/or other countries.</p>
+    </div>
+   </div>
+  </footer>
+  <script src="js/vendor-scripts.min.js"></script>
+  <script src="js/scripts.min.js"></script>
+ </body>
+</html>

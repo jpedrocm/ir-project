@@ -1,0 +1,95 @@
+<html>
+ <head>
+  <script type="text/javascript">
+    
+    try { document.getElementsByTagName("body")[0].style.display = ''; } catch(ex) {}
+    
+    var searchPlatB=true; 
+    
+</script> 
+  <link rel="stylesheet" type="text/css" href="http://assets.staples-static.com/sbdpas/css/main.css"> 
+ </head>
+ <body>
+  <div id="genericerror"> 
+   <div class="c00 ducttape c00Wrapper"> 
+    <div class="content"> 
+     <h1>The product or category you were looking for is no longer available.</h1> 
+     <p>And we thought there wasn't anything duct tape couldn't fix.</p> 
+     <div class="g03"> 
+      <div class="c03"> 
+       <div class="b001"> 
+        <h4>Based on what you were searching for, we thought these links might also help find what you were looking for:</h4> 
+        <div class="narrow"> 
+         <div class="n01"> 
+          <ul> 
+           <li id="link_0"> <a href="/Copy-Resume-Multipurpose-Paper/cat_CL140691?fromUrl=genericerror">Copy &amp; Multipurpose Paper</a> </li> 
+          </ul> 
+         </div> 
+         <!-- end column:1 links, n01 --> 
+         <div class="hspace"></div> 
+         <div class="n01"> 
+          <ul> 
+           <li id="link_4"> <a href="/Paper-Stationery/cat_SC1676?fromUrl=genericerror">Paper &amp; Stationery</a> </li> 
+          </ul> 
+         </div> 
+         <!-- end column:2 links, n01 --> 
+        </div> 
+        <!-- end narrow --> 
+       </div> 
+       <!-- end b001--> 
+      </div> 
+      <!-- end c03--> 
+     </div> 
+     <!-- end g03--> 
+     <br> 
+     <div id="sitesearch"> 
+      <p>Continue to our <a href="/?fromUrl=genericerror">home page</a>, or search our site:</p> 
+      <form name="errorsearch" onsubmit="return STAPLES.SearchAC.submitSearch('errorsearch',document.forms['errorsearch'].elements['searchkey'].value);" id="errorsearch" method="get"> 
+       <fieldset id="errorsform"> 
+        <label for="errsearchkey">Search:</label> 
+        <input type="text" name="searchkey" id="errsearchkey" value="" onfocus="select()" autocomplete="off" onchange="this.value=this.value.replace(/^\s+|\s+$/g, '').toLowerCase();"> 
+        <button type="submit" id="errsearchgo" style="width: 5.4em">Search</button> 
+        <input type="hidden" name="catalogId" value=""> 
+        <input type="hidden" name="storeId" value=""> 
+        <input type="hidden" name="langId" value=""> 
+        <input type="hidden" name="fromUrl" value="genericerror"> 
+        <input type="hidden" name="errorUrl" value="searchnoresults"> 
+        <input type="hidden" name="currentUrl" id="errcurrentUrl"> 
+        <script type="text/javascript"> 
+                  
+                    STAPLES.Onload.addLoadEvent(
+                    function(){                 	
+                        var _autoSearch=false;                              
+                         $("#nsearchkey").autocomplete('/autocomplete',{selectFirst: false,inputClass:"",loadingClass:""}).result(function(e,item){setAutoSearchNew(item);});
+                         var url = window.location.href;
+                         document.getElementById("errcurrentUrl").value = url;
+                         });
+                    </script> 
+       </fieldset> 
+      </form> 
+     </div> 
+     <!-- end sitesearch --> 
+     <ul id="cs_contacts"> 
+      <li class="cs_contact_live_supports"> <a href="javascript:STAPLES.Main.popUp('https://chatnow.staples.com/netagent/cimlogin.aspx?questid=3B1B748F-5E09-4DD4-8618-A72A497B1E33&amp;portid=8388418A-E3ED-442E-B226-A78C61945B06&amp;nareferer='+escape(document.location),'chatframe',1)" onclick="cmCreatePageviewTag('Chat:genericerror',null,'chat');"> 
+        <div class="cs_contact"> 
+         <p class="contact_head">Live Chat</p> 
+         <p class="contact_info">Available Monday - Friday<br>8<sup>AM</sup> - 8<sup>PM</sup> EST</p> 
+         <p class="contact_note">Pop ups must be enabled</p> 
+        </div> </a> </li> 
+      <li class="cs_contact_email"> <a href="/sbd/content/help-center/contact-us.html"> 
+        <div class="cs_contact"> 
+         <p class="contact_head">Email</p> 
+         <p class="contact_info">Questions? Concerns? <br>Feel free to drop us a quick note.</p> 
+        </div> </a> </li> 
+      <li class="cs_contact_phone cs_last"> <a> 
+        <div class="cs_contact"> 
+         <p class="contact_head">Call 1-800-333-3330</p> 
+         <p class="contact_info">Have a question or just want to place an order? We're at your service.</p> 
+        </div> </a> </li> 
+     </ul> 
+    </div> 
+    <!-- end content --> 
+   </div> 
+  </div>
+ </body>
+</html>

@@ -1,0 +1,2321 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <title>Windows 10 MDA Microsites</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="robots" content="index,follow"> 
+  <!-- Compatibility with Latest IE Versions --> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <!-- Reset CSS --> 
+  <link href="assets/css/reset.css" rel="stylesheet" type="text/css" media="screen"> 
+  <!-- Fonts CSS --> 
+  <link href="assets/css/fonts.css" rel="stylesheet" type="text/css" media="screen"> 
+  <!-- Video CSS --> 
+  <link href="assets/css/video-js.css" rel="stylesheet" type="text/css" media="screen"> 
+  <!-- Main CSS --> 
+  <link href="assets/css/styles.css" rel="stylesheet" type="text/css" media="screen"> 
+  <!-- Table CSS --> 
+  <link href="assets/css/table.css" rel="stylesheet" type="text/css" media="screen"> 
+  <!-- Internet Explorer Speific CSS --> 
+  <!--[if IE 6]><link href="http://universal-ie6-css.googlecode.com/files/ie6.0.3.css" rel="stylesheet" type="text/css" media="screen" ><link rel="stylesheet" type="text/css" href="css/ie6.css" media="all" /><![endif]--> 
+  <!--[if IE 7]><link rel="stylesheet" type="text/css" href="css/ie7.css" media="all" /><![endif]--> 
+  <!-- jQuery --> 
+  <script type="text/javascript" language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script> 
+  <!-- Localscroll --> 
+  <script src="assets/js/lib/jquery.localscroll-1.2.7-min.js"></script> 
+  <script src="assets/js/lib/jquery.scrollTo-1.4.3.1-min.js"></script> 
+  <!-- jQuery Video --> 
+  <script type="text/javascript" language="javascript" src="assets/js/lib/video.js"></script> 
+  <!-- jQuery Main --> 
+  <script type="text/javascript" language="javascript" src="assets/js/main.js"></script> 
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --> 
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// --> 
+  <!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	      <link href="assets/css/ie8.css" rel="stylesheet" type="text/css" media="screen">
+	    <![endif]--> 
+  <script type="text/javascript"> 
+
+			// videojs.options.flash.swf = "video-js.swf";
+
+			jQuery(document).ready(function($) { _V_.options.techOrder = ["flash", "html5", "links"]; });
+
+		</script> 
+ </head> 
+ <body class="upgrade">
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NJRLM8');</script> 
+  <!-- End Google Tag Manager --> 
+  <div id="header" class="row"> 
+   <div class="container"> 
+    <ul id="main-nav"> 
+     <li><a href=""><img src="assets/img/asus-logo.png" alt="Contoso Logo"></a></li> 
+     <!--
+					--> 
+    </ul> 
+    <a href="http://www.asus.com" target="_blank"><img src="assets/img/asus-logo.png" alt="ASUS Logo" class="contoso-mobile"></a> 
+    <img src="assets/img/windows-10-logo-blue.png" alt="Windows 10" class="windows-logo"> 
+    <a href="#" class="push-menu-right-toggle"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> 
+   </div> 
+  </div> 
+  <div class="menu push-menu-right"> 
+   <!--<ul>
+				
+				
+				
+			</ul>--> 
+  </div> 
+  <div class="mask"></div> 
+  <div id="wrapper" class="row"> 
+   <div id="upgrade-hero" class="hero row"> 
+    <!--<div class="container table">
+
+					
+
+					
+
+				</div>--> 
+   </div> 
+   <div id="upgrade-section" class="row"> 
+    <div class="container table"> 
+     <div class="table-cell"> 
+      <img src="http://www.asus.com/event/2016/osupdate/assets/img/upgrade-NB.jpg" alt="Upgrade to Windows 10."> 
+      <h2>ASUS System Look-up</h2> 
+      <h3>Find out if your system runs Windows 10.<a href="https://support.microsoft.com/windows" target="_blank"><img src="http://www.asus.com/event/2016/osupdate/assets/img/info.png" alt="Learnmore" class="" style="width: auto; margin-left: 10px;"></a></h3> 
+      <form name="system-lookup-form" method="POST" action=""> 
+       <label for="serial-number-input">Enter your model name:</label> 
+       <input id="serial-number-input" name="serial-number-input" type="text" value=""> 
+       <input id="serial-number-submit" name="serial-number-submit" type="submit" value="Submit"> 
+      </form> 
+     </div> 
+     <div class="grey-background table-cell"> 
+      <h2>Get the best Windows ever.</h2> 
+      <p>Windows 10 gives you a familiar experience combined with great new features like a digital assistant and a new browser for getting things done online. It’s fast, great at multi-tasking, and even helps you stay up to date on the latest features and security.</p> 
+      <p><a href="https://support.microsoft.com/windows">https://support.microsoft.com/windows</a></p> 
+      <p style="color: #0078d7;">* All ASUS Windows 10 systems can support the Windows 10 Anniversary Update.</p> 
+     </div> 
+    </div> 
+   </div> 
+   <!--/////////Table/////////--> 
+   <div class="FAQ-gradient"></div> 
+   <div id="faq" class="row" style="background-color:#d7d7d7;"> 
+    <div class="container"> 
+     <h2 style="">Product List</h2> 
+    </div> 
+    <div class="CSSTableGenerator"> 
+     <table id="table"> 
+      <tbody>
+       <tr class="title"> 
+        <td>Product Type</td> 
+        <td>Model Name</td> 
+        <td>Operation System</td> 
+        <td>Windows 10 November Update (1511)</td> 
+        <td>Windows 10 Anniversary Update (1607)</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">G751JL</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">N501JW</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">G501JW</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">N591LB </td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">Q551LB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">Q302LAB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">UX305LA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">N542LAB </td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">Q502LAB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X555LAB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X555LB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X555LF</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X555LJ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">N551JW</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">G551JW</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">UX305FA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X455LAB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X455LB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X455LF</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X455LJ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X553MA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">TP550LJ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X751LJ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X751MA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">T300CHIA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X205TA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">E403SA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">T100TAF</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X453MA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X751LAB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X751LB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X751LX</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">N551JX</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">G551JX</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">G751JT</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">T300Chi</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">UX301LAB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">TP500LB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">G771JW</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">E402MA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">E502MA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">GL552JX</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">TP550LAB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">P552LA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">P552LJ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">P452LJ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">T100TAN</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">TP500LAB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X550JF</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X550JX</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X555LI</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X751MJ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X450JB </td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X550ZA </td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X555YA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X555YI</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X555DG</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">P452SJ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">P552SJ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">K501LX</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">P452SA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">UX303LB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X302LA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X302LJ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">K401LB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X550MJ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">G751JY</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">N751JX</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">T100Chi</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">T200TA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">T300FA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X555LD</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">UX303LAB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X550ZE</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">TP300LA </td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">Q302LA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">N551JB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">T100TAL</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">TP300LJ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X550WA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">T200TAC</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X550WAK</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X550WEK</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">P452LA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">K501LB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X450MJ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X455WA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X455WE</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X550WE</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">TP300LAB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X555DA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">N550JX </td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X556UA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X556UJ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X556UF</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X556UB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X456UA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X456UJ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X456UF</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X456UB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">G752VL</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">G752VT</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">N552VX</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">GL752VW</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X455YI</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X540LA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X540LJ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X540SA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">G752VY</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">N552VW</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">TP301UA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">TP301UJ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X756UA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X756UJ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X756UX</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X756UB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X455YA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">TP501UA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">TP501UB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">T301CA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">T100HAN</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">TP200SA </td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">E202SA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">UX303UA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">UX303UB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">GL552VW</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X555UA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X555UJ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X555UF</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X555UB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">N551VW</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">G551VW</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X751YI</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X751SA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X751SJ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">K501UB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">K501UX</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">UX305CA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">K401UB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X555SJ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X302UA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X302UJ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">N501VW</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">UX501VW</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">G501VW</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">E402SA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">E502SA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">UX305UA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X453SA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X553SA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">N592UB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">Q552UB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">N752VX</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">BU403UA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">BU403UAV</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">GL552VX</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">P553UA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">P553UJ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">P453UA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">P453UJ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">GX700VO</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X751LJC</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">P552SA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">E200HA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">Z450LA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">Z550MA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X540SC</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">TP300UA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">N593UB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">Q553UB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">N543UA </td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">Q503UA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">T100TAM</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">BU201LA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">BU201LAV</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">GL752VL</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">PU403UA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X550VX</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X455DG</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">T302CHI</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">GL502VT</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">UX360CA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">BU203UA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">BU203UAV</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X456UAM</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X456UV</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X456UR</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X456UQ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">GL502VY</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">GL552VL</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X556UQ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X556UR</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X556UV</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X556UAM</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">UX560UQ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">UX560UX</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">UX560UA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">K401UQ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">UX510UA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">UX510UX</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">UX510UW</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X456UAK</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X456UQK</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X441SA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X441SC</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">UX310UA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">UX310UV</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">UX310UQ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X441UV</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X441UA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">UX360UA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">GL702VT</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">G701VO</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">UX305UAB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">UX360CAK</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">T101HA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">UX330UA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X540YA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">TP501UAM</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">TP501UQ</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X541UA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X541UV</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X541SA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X541SC</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">T303UA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">Z550SA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">G752VM</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">G752VS</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2"> T102HA </td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X555QG</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X555QA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X555BP</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Notebook</td> 
+        <td class="t2">X555BA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">GT51CA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">G11CD</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">All-in-One</td> 
+        <td class="t2">Z240IC</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">All-in-One</td> 
+        <td class="t2">Z220IC</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">G11CB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">G20CB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">All-in-One</td> 
+        <td class="t2">V230IC</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">G20BM</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">All-in-One</td> 
+        <td class="t2">V200IB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">M32CD</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">K31CD</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">K20CD</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">K20CE</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">M32AD</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">K31AD</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">All-in-One</td> 
+        <td class="t2">A4321</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">M32BC</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">M32BF</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">K31BF</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">K20BF</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">K31AN</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">K31AM-J</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">All-in-One</td> 
+        <td class="t2">ET2231I</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">All-in-One</td> 
+        <td class="t2">ET2040</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">All-in-One</td> 
+        <td class="t2">V220IC</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">K30DA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">K31DAG</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">K20DA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">K31DAG</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">All-in-One</td> 
+        <td class="t2">A6421</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">All-in-One</td> 
+        <td class="t2">A4110 </td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">All-in-One</td> 
+        <td class="t2">V220IB</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">D820MT</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">D820SF</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">D620MT</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">D620SF</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">All-in-One</td> 
+        <td class="t2">A6420</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">All-in-One</td> 
+        <td class="t2">A4320</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">D520MT</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">D520SF</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">D302MT</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">D320SF</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">D415MT</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">All-in-One</td> 
+        <td class="t2">ZN220IC</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">D322MT</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">G31CA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">K31CLG</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">All-in-One</td> 
+        <td class="t2">ZN240IC</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">All-in-One</td> 
+        <td class="t2">V220IA</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">GR6</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">GR8</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">QM1</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">TS10</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">UN42</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">UN45</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">UN45H</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">UN62</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">UN62V</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">UN65</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">UN65H</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">VC60</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">VC60V</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">VC65</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">VC65R</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">VM42</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">VM60</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">VM62</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">VM62N</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">VM65</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">VM65N</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">E210</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">E410</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">E510</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">E810</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">ESC500 G3</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">ESC700 G3</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">ESC500 G4</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">TS100-E9-PI4</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">TS700-E8-RS8</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr> 
+       <tr class="change"> 
+        <td class="t1">Desktop</td> 
+        <td class="t2">TS110-E8-PI4</td> 
+        <td class="t3">Windows 10</td> 
+        <td class="t4">V</td> 
+        <td class="t5">V</td> 
+       </tr>
+      </tbody>
+     </table> 
+    </div> 
+   </div> 
+  </div>  
+ </body>
+</html>

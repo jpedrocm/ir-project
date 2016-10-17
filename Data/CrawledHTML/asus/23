@@ -1,0 +1,512 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-US" itemscope itemtype="http://schema.org/QAPage">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
+  <title>AI Suite 3 Introduction
+</title> 
+  <link rel="canonical" href="https://www.asus.com/us/support/faq/1012780"> 
+  <script src="/support/js/jquery.js"></script> 
+  <link type="text/css" rel="stylesheet" href="/support/stylesheets/base.css"> 
+  <script src="/support/js/faq.js" type="text/javascript"></script> 
+  <script src="/support/js/Knowledge.js" type="text/javascript"></script> 
+ </head>  
+ <body> 
+  <form method="post" action="./1012780?ln=en-us&amp;no=1012780&amp;" id="ctl00"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExNTgyMDc0MzIPZBYCZg9kFggCBQ8WAh4EaHJlZgURLy93d3cuYXN1cy5jb20vdXNkAgcPZBYCAgEPZBYIAgEPFgQfAAUEL3VzLx4JaW5uZXJodG1sBQRIb21lZAICDxYCHgVzdHlsZQUOZGlzcGxheTppbmxpbmVkAgMPFgYfAAULL3VzL3N1cHBvcnQfAgUOZGlzcGxheTppbmxpbmUfAQUHU3VwcG9ydGQCBA8WAh8CBQ5kaXNwbGF5OmlubGluZWQCCQ9kFgICAQ8WAh8BBQNGQVFkAgsPZBYEZg9kFgRmDw8WAh4EVGV4dAWhATxwPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTZweCI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmIj48c3Ryb25nPkFJIFN1aXRlIDMgPC9zdHJvbmc+PC9zcGFuPjwvc3Bhbj48c3Ryb25nPkludHJvZHVjdGlvbjwvc3Ryb25nPjwvcD4KZGQCAQ8WAh8DBY5dPHA+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMnB4Ij48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6YXJpYWwsaGVsdmV0aWNhLHNhbnMtc2VyaWYiPkFJIFN1aXRlIDMgaXMgYW4gYWxsLWluLW9uZSBpbnRlcmZhY2UgdGhhdCBpbnRlZ3JhdGVzIHNldmVyYWwgQVNVUyB1dGlsaXRpZXMgYW5kIGFsbG93cyB5b3UgdG8gbGF1bmNoIGFuZCBvcGVyYXRlIHRoZXNlIHV0aWxpdGllcyBzaW11bHRhbmVvdXNseS48L3NwYW4+PC9zcGFuPjwvcD4KCjxwPjxzdHJvbmc+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmIj48c3BhbiBzdHlsZT0iZm9udC1zaXplOjEycHgiPjxzcGFuIHN0eWxlPSJjb2xvcjpyZ2IoMjU1LCAwLCAwKSI+WW91IGNhbiBkb3dubG9hZCB0aGlzIHVudGlsaXR5IGluIEFTVVMgc3VwcG9ydCBzaXRlOjwvc3Bhbj4gPGEgaHJlZj0iaHR0cDovL3d3dy5hc3VzLmNvbS9zdXBwb3J0LyI+aHR0cDovL3d3dy5hc3VzLmNvbS9zdXBwb3J0LzwvYT4gPHNwYW4gc3R5bGU9ImNvbG9yOnJnYigyNTUsIDAsIDApIj5hY2NvcmRpbmcgdG8geW91ciBzcGVjaWZpYyBtb2RlbC48L3NwYW4+PC9zcGFuPjwvc3Bhbj48L3N0cm9uZz48L3A+Cgo8cD48c3Ryb25nPjxzcGFuIHN0eWxlPSJjb2xvcjpyZ2IoMjU1LCAwLCAwKSI+KkVudGVyIHByb2R1Y3QncyBtb2RlbCBuYW1lLT4gU3VwcG9ydC0+IERyaXZlciAmIFRvb2xzLT4gU2VsZWN0IE9TLT4gVXRpbGl0aWVzLT4gQVNVUyBBSSBTdWl0ZXMgMzwvc3Bhbj48L3N0cm9uZz48L3A+Cgo8cD48c3BhbiBzdHlsZT0iZm9udC1zaXplOjE2cHgiPjxzdHJvbmc+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmIj5JbnN0YWxsaW5nIEFJIFN1aXRlIDM8L3NwYW4+PC9zdHJvbmc+PC9zcGFuPjwvcD4KCjxwPjxzdHJvbmc+PHNwYW4gc3R5bGU9ImNvbG9yOnJnYigyNTUsIDAsIDApIj48c3BhbiBzdHlsZT0iZm9udC1zaXplOjEycHgiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTphcmlhbCxoZWx2ZXRpY2Esc2Fucy1zZXJpZiI+RW5zdXJlIHRoYXQgeW91IGhhdmUgYW4gQWRtaW5pc3RyYXRvciBhY2NvdW50IGJlZm9yZSBpbnN0YWxsaW5nIEFJIFN1aXRlIDMgaW4gV2luZG93cyA3IG9yIFdpbmRvd3MgOCBPUy48L3NwYW4+PC9zcGFuPjwvc3Bhbj48L3N0cm9uZz48L3A+Cgo8cD48c3Ryb25nPjxzcGFuIHN0eWxlPSJjb2xvcjpyZ2IoMjU1LCAwLCAwKSI+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMnB4Ij48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6YXJpYWwsaGVsdmV0aWNhLHNhbnMtc2VyaWYiPlRvIGluc3RhbGwgdGhlIFdpLUZpLWVuYWJsZWQgZmVhdHVyZXMgb2YgQUkgU3VpdGUgMywgZW5zdXJlIHRoYXQgeW91IGluc3RhbGwgdGhlIFdpLUZpIG1vZHVsZSBkcml2ZXIgZnJvbSB0aGUgYnVuZGxlZCBTdXBwb3J0IERWRC4gVG8gZG8gdGhpcywgZ28gdG8gRHJpdmVyIHRhYiA+IEFTVVMgQmx1ZXRvb3RoIDQuMCBXaS1GaSBEcml2ZXIgYW5kIGZvbGxvdyB0aGUgc3VjY2VlZGluZyBvbnNjcmVlbiBpbnN0cnVjdGlvbnMuPC9zcGFuPjwvc3Bhbj48L3NwYW4+PC9zdHJvbmc+PC9wPgoKPHA+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMnB4Ij48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6YXJpYWwsaGVsdmV0aWNhLHNhbnMtc2VyaWYiPsKgPC9zcGFuPjwvc3Bhbj48L3A+Cgo8cD48c3BhbiBzdHlsZT0iZm9udC1zaXplOjEycHgiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTphcmlhbCxoZWx2ZXRpY2Esc2Fucy1zZXJpZiI+VG8gaW5zdGFsbCBBSSBTdWl0ZSAzIG9uIHlvdXIgY29tcHV0ZXI6PC9zcGFuPjwvc3Bhbj48L3A+Cgo8cD48c3Ryb25nPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTJweCI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmIj5XaW5kb3dzIDcgT1M8L3NwYW4+PC9zcGFuPjwvc3Ryb25nPjwvcD4KCjxwPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTJweCI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmIj4xLsKgwqDCoMKgwqAgUGxhY2UgdGhlIDxzdHJvbmc+U3VwcG9ydCBEVkQgPC9zdHJvbmc+aW50byB0aGUgb3B0aWNhbCBkcml2ZS48L3NwYW4+PC9zcGFuPjwvcD4KCjxwPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTJweCI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmIj4yLsKgwqDCoMKgwqAgSW4gdGhlIDxzdHJvbmc+QXV0b1BsYXkgPC9zdHJvbmc+ZGlhbG9nIGJveCwgY2xpY2sgPHN0cm9uZz5SdW4gQVNTRVRVUC5leGU8L3N0cm9uZz4sIHRoZW4gc2VsZWN0IHRoZSA8c3Ryb25nPlV0aWxpdGllcyA8L3N0cm9uZz50YWIuPC9zcGFuPjwvc3Bhbj48L3A+Cgo8cD48c3BhbiBzdHlsZT0iZm9udC1zaXplOjEycHgiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTphcmlhbCxoZWx2ZXRpY2Esc2Fucy1zZXJpZiI+PGltZyBzcmM9Imh0dHA6Ly9rbXBpYy5hc3VzLmNvbS9pbWFnZXMvMjAxNS8wNy8wNi84NDU2MWM4YS05YjIxLTRmZTktYmJlZC1kNTMwMzBhYzk0NDQuanBnIiAvPjwvc3Bhbj48L3NwYW4+PC9wPgoKPHA+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMnB4Ij48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6YXJpYWwsaGVsdmV0aWNhLHNhbnMtc2VyaWYiPjMuwqDCoMKgwqDCoCBGcm9tIHRoZSA8c3Ryb25nPlV0aWxpdGllcyA8L3N0cm9uZz50YWIsIGNsaWNrPHN0cm9uZz4gQUkgU3VpdGUgMzwvc3Ryb25nPiwgdGhlbiBmb2xsb3cgdGhlIHN1Y2NlZWRpbmcgb25zY3JlZW4gaW5zdHJ1Y3Rpb25zLjwvc3Bhbj48L3NwYW4+PC9wPgoKPHA+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMnB4Ij48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6YXJpYWwsaGVsdmV0aWNhLHNhbnMtc2VyaWYiPsKgPC9zcGFuPjwvc3Bhbj48L3A+Cgo8cD48c3Ryb25nPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTJweCI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmIj5XaW5kb3dzIDggT1M8L3NwYW4+PC9zcGFuPjwvc3Ryb25nPjwvcD4KCjxwPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTJweCI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmIj4xLsKgwqDCoMKgwqAgUGxhY2UgdGhlPHN0cm9uZz4gU3VwcG9ydCBEVkQgPC9zdHJvbmc+aW50byB0aGUgb3B0aWNhbCBkcml2ZSwgdGhlbiBmb2xsb3cgdGhlIG9uc2NyZWVuIGluc3RydWN0aW9ucy48L3NwYW4+PC9zcGFuPjwvcD4KCjxwPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTJweCI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmIj4yLsKgwqDCoMKgwqAgRnJvbSB0aGUgPHN0cm9uZz5BU1VTIG1vdGhlcmJvYXJkIHN1cHBvcnQgRFZEIDwvc3Ryb25nPm1haW4gbWVudSwgc2VsZWN0IHRoZSA8c3Ryb25nPlV0aWxpdGllcyA8L3N0cm9uZz50YWIgYW5kIGNsaWNrIG9yIHRhcCA8c3Ryb25nPkFJIFN1aXRlIDMuPC9zdHJvbmc+PC9zcGFuPjwvc3Bhbj48L3A+Cgo8cD48c3BhbiBzdHlsZT0iZm9udC1zaXplOjEycHgiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTphcmlhbCxoZWx2ZXRpY2Esc2Fucy1zZXJpZiI+My7CoMKgwqDCoMKgIEZvbGxvdyB0aGUgc3VjY2VlZGluZyBvbnNjcmVlbiBpbnN0cnVjdGlvbnMuPC9zcGFuPjwvc3Bhbj48L3A+Cgo8cD48c3BhbiBzdHlsZT0iZm9udC1zaXplOjEycHgiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTphcmlhbCxoZWx2ZXRpY2Esc2Fucy1zZXJpZiI+wqDCoMKgwqDCoMKgwqDCoCBJZiB0aGUgQVNVUyBtb3RoZXJib2FyZCBzdXBwb3J0IERWRCBtYWluIG1lbnUgZG9lcyBub3QgYXBwZWFyLCB0cnkgdGhlIGZvbGxvd2luZyBzdGVwczo8L3NwYW4+PC9zcGFuPjwvcD4KCjxwPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTJweCI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmIj7CoMKgwqDCoMKgwqDCoMKgIDEpwqDCoMKgwqDCoCBHbyB0byB0aGUgU3RhcnQgc2NyZWVuIHRoZW4gY2xpY2sgb3IgdGFwIHRoZSA8c3Ryb25nPkRlc2t0b3AgPC9zdHJvbmc+YXBwLjwvc3Bhbj48L3NwYW4+PC9wPgoKPHA+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMnB4Ij48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6YXJpYWwsaGVsdmV0aWNhLHNhbnMtc2VyaWYiPsKgwqDCoMKgwqDCoMKgwqAgMinCoMKgwqDCoMKgIEZyb20gdGhlIHRhc2tiYXIsIGNsaWNrIG9yIHRhcCA8c3Ryb25nPkZpbGUgRXhwbG9yZXIgPC9zdHJvbmc+PGltZyBzcmM9Imh0dHA6Ly9rbXBpYy5hc3VzLmNvbS9pbWFnZXMvMjAxNS8wNy8wNi80OTc0YjQ5Ni0yZmZlLTRlNDUtYjhmOC0wMmViMjU4YjU2YWUucG5nIiAvPsKgdGhlbiBzZWxlY3QgeW91ciBEVkQgZHJpdmUgYW5kIGRvdWJsZS1jbGljayBvciB0YXAgdGhlIDxzdHJvbmc+U2V0dXAgPC9zdHJvbmc+YXBwbGljYXRpb24uPC9zcGFuPjwvc3Bhbj48L3A+Cgo8cD48c3BhbiBzdHlsZT0iZm9udC1zaXplOjEycHgiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTphcmlhbCxoZWx2ZXRpY2Esc2Fucy1zZXJpZiI+wqA8L3NwYW4+PC9zcGFuPjwvcD4KCjxwPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTJweCI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmIj7CoDwvc3Bhbj48L3NwYW4+PC9wPgoKPHA+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxNnB4Ij48c3Ryb25nPkxhdW5jaGluZyBBSSBTdWl0ZSAzPC9zdHJvbmc+PC9zcGFuPjwvcD4KCjxwPjxzdHJvbmc+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMnB4Ij48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6YXJpYWwsaGVsdmV0aWNhLHNhbnMtc2VyaWYiPldpbmRvd3MgNyBPUzwvc3Bhbj48L3NwYW4+PC9zdHJvbmc+PC9wPgoKPHA+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMnB4Ij48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6YXJpYWwsaGVsdmV0aWNhLHNhbnMtc2VyaWYiPkZyb20gdGhlIGRlc2t0b3AsIGNsaWNrPHN0cm9uZz4gU3RhcnQgPiBBbGwgUHJvZ3JhbXMgPiBBU1VTID4gQUkgU3VpdGUgMyA+IEFJIFN1aXRlIDMuPC9zdHJvbmc+PC9zcGFuPjwvc3Bhbj48L3A+Cgo8cD48c3BhbiBzdHlsZT0iZm9udC1zaXplOjEycHgiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTphcmlhbCxoZWx2ZXRpY2Esc2Fucy1zZXJpZiI+WW91IGNhbiBhbHNvIGxhdW5jaCBBSSBTdWl0ZSAzIGluIFdpbmRvd3MgNyBieSBjbGlja2luZyA8aW1nIHNyYz0iaHR0cDovL2ttcGljLmFzdXMuY29tL2ltYWdlcy8yMDE1LzA3LzA2LzNmNjZhODljLWRmN2YtNGE5NC1hZWJlLTcwNjA2MDBkMWQyMy5wbmciIC8+wqBvbiB0aGUgTm90aWZpY2F0aW9uIGFyZWE8L3NwYW4+PC9zcGFuPjwvcD4KCjxwPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTJweCI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmIj7CoDwvc3Bhbj48L3NwYW4+PC9wPgoKPHA+PHN0cm9uZz48c3BhbiBzdHlsZT0iZm9udC1zaXplOjEycHgiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTphcmlhbCxoZWx2ZXRpY2Esc2Fucy1zZXJpZiI+V2luZG93cyA4IE9TPC9zcGFuPjwvc3Bhbj48L3N0cm9uZz48L3A+Cgo8cD48c3BhbiBzdHlsZT0iZm9udC1zaXplOjEycHgiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTphcmlhbCxoZWx2ZXRpY2Esc2Fucy1zZXJpZiI+VG8gbGF1bmNoIEFJIFN1aXRlIDMgaW4gV2luZG93cyA4LCB0YXAgdGhlIDxzdHJvbmc+QUkgU3VpdGUgMzwvc3Ryb25nPiBhcHAgb24gdGhlIFN0YXJ0IHNjcmVlbiAob3IgaWYgeW91J3JlIHVzaW5nIGEgbW91c2UsIGNsaWNrIHRoZTxzdHJvbmc+IEFJIFN1aXRlIDM8L3N0cm9uZz4gYXBwIG9uIHRoZSBTdGFydCBzY3JlZW4pLjwvc3Bhbj48L3NwYW4+PC9wPgoKPHA+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMnB4Ij48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6YXJpYWwsaGVsdmV0aWNhLHNhbnMtc2VyaWYiPsKgPC9zcGFuPjwvc3Bhbj48L3A+Cgo8cD48c3BhbiBzdHlsZT0iZm9udC1zaXplOjEycHgiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTphcmlhbCxoZWx2ZXRpY2Esc2Fucy1zZXJpZiI+wqA8L3NwYW4+PC9zcGFuPjwvcD4KCjxwPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTZweCI+PHN0cm9uZz48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6YXJpYWwsaGVsdmV0aWNhLHNhbnMtc2VyaWYiPkFJIFN1aXRlIDMgTWFpbiBNZW51PC9zcGFuPjwvc3Ryb25nPjwvc3Bhbj48L3A+Cgo8cD48c3BhbiBzdHlsZT0iZm9udC1zaXplOjEycHgiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTphcmlhbCxoZWx2ZXRpY2Esc2Fucy1zZXJpZiI+VGhlIEFJIFN1aXRlIDMgbWFpbiBtZW51IGdpdmVzIHlvdSBlYXN5LWFjY2VzcyBjb250cm9scyBhbmQgaW5zaWdodCB0byB3aGF04oCZcyBnb2luZyBvbiB3aXRoIHlvdXIgY29tcHV0ZXIg4oCTIGFsbG93aW5nIHlvdSB0byBvcHRpbWl6ZSBwZXJmb3JtYW5jZSBzZXR0aW5ncyB3aGlsZSBhdCB0aGUgc2FtZSB0aW1lIGVuc3VyaW5nIHN5c3RlbSBzdGFiaWxpdHkuPC9zcGFuPjwvc3Bhbj48L3A+Cgo8cD48c3BhbiBzdHlsZT0iZm9udC1zaXplOjEycHgiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTphcmlhbCxoZWx2ZXRpY2Esc2Fucy1zZXJpZiI+VGhlIEFJIFN1aXRlIG1haW4gbWVudSBpbmNsdWRlcyBhIHF1aWNrLWFjY2VzcyBtZW51IGJhciB0aGF0IGFsbG93cyB5b3UgdG8gc3dpZnRseSBsYXVuY2ggYW55IG9mIHRoZSBpbnRlZ3JhdGVkIEFTVVMgdXRpbGl0aWVzLiBDbGljayBvciB0YXAgPGltZyBzcmM9Imh0dHA6Ly9rbXBpYy5hc3VzLmNvbS9pbWFnZXMvMjAxNS8wNy8wNi8yMmU3NmJiNS1iMDBhLTQyY2QtOTY2Mi0wOTJhYmNjZGQxNTQucG5nIiAvPsKgb24gdGhlIHRvcC1yaWdodCBjb3JuZXIgb2YgdGhlIG1lbnUgdG8gbGF1bmNoIHRoZSBtZW51IGJhci48L3NwYW4+PC9zcGFuPjwvcD4KCjxwPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTJweCI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmIj5Zb3UgY2FuIGFjY2VzcyB0aGUgQVNVUyB1dGlsaXRpZXMgZnJvbSBhbnkgb2YgdGhlc2UgdHdvIEFJIFN1aXRlIDMgbWFpbiBtZW51IGJhcnM6IER1YWwgSW50ZWxsaWdlbnQgUHJvY2Vzc29ycyBYWCB3aXRoIFhYLVdheSBPcHRpbWl6YXRpb24gYW5kIER1YWwgSW50ZWxsaWdlbnQgUHJvY2Vzc29ycyB3aXRoIFBlcmZvcm1hbmNlIGFuZCBQb3dlciBTYXZpbmcgVXRpbGl0aWVzLjwvc3Bhbj48L3NwYW4+PC9wPgoKPHA+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMnB4Ij48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6YXJpYWwsaGVsdmV0aWNhLHNhbnMtc2VyaWYiPlRoZSBBSSBTdWl0ZSAzIHNjcmVlbnNob3RzIGFyZSBvbmx5IGZvciByZWZlcmVuY2UgYW5kIGNhbiB2YXJ5IGRlcGVuZGluZyBvbiBtb3RoZXJib2FyZCBtb2RlbC48L3NwYW4+PC9zcGFuPjwvcD4KCjxwPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTJweCI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmIj7CoDwvc3Bhbj48L3NwYW4+PC9wPgoKPHA+PHN0cm9uZz48c3BhbiBzdHlsZT0iZm9udC1zaXplOjE0cHgiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTphcmlhbCxoZWx2ZXRpY2Esc2Fucy1zZXJpZiI+RHVhbCBJbnRlbGxpZ2VudCBQcm9jZXNzb3JzIFhYPC9zcGFuPjwvc3Bhbj48L3N0cm9uZz48L3A+Cgo8cD48c3BhbiBzdHlsZT0iZm9udC1zaXplOjEycHgiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTphcmlhbCxoZWx2ZXRpY2Esc2Fucy1zZXJpZiI+PGltZyBzcmM9Imh0dHA6Ly9rbXBpYy5hc3VzLmNvbS9pbWFnZXMvMjAxNS8wNy8wNi85MTMwMTJkMi1kZTkxLTRhOTYtODA5ZC1jMjgyY2IyOWExMzEuanBnIiAvPjwvc3Bhbj48L3NwYW4+PC9wPgoKPHA+wqA8L3A+Cgo8cD48c3Ryb25nPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTRweCI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmIj5EdWFsIEludGVsbGlnZW50IFByb2Nlc3NvcnMgWFggbWFpbiBtZW51IGJhcjwvc3Bhbj48L3NwYW4+PC9zdHJvbmc+PC9wPgoKPHA+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMnB4Ij48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6YXJpYWwsaGVsdmV0aWNhLHNhbnMtc2VyaWYiPjxpbWcgc3JjPSJodHRwOi8va21waWMuYXN1cy5jb20vaW1hZ2VzLzIwMTUvMDcvMDYvODkzODE1MjItYTk3YS00ZGQ2LTk0NTEtZTBjYTRiMTE5YzNkLmpwZyIgLz48L3NwYW4+PC9zcGFuPjwvcD4KCjxwPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTJweCI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmIj7CoDwvc3Bhbj48L3NwYW4+PC9wPgoKPHA+wqA8L3A+Cgo8cD48c3Ryb25nPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTRweCI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmIj5EdWFsIEludGVsbGlnZW50IFByb2Nlc3NvcnMgMjwvc3Bhbj48L3NwYW4+PC9zdHJvbmc+PC9wPgoKPHA+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMnB4Ij48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6YXJpYWwsaGVsdmV0aWNhLHNhbnMtc2VyaWYiPjxpbWcgc3JjPSJodHRwOi8va21waWMuYXN1cy5jb20vaW1hZ2VzLzIwMTUvMDcvMDYvOGVlMjM3NmQtMjQyOS00ZWU0LWFiODktMTU5ZGU1NTQ4MTgwLmpwZyIgLz48L3NwYW4+PC9zcGFuPjwvcD4KCjxwPsKgPC9wPgoKPHA+PHN0cm9uZz48c3BhbiBzdHlsZT0iZm9udC1zaXplOjE0cHgiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTphcmlhbCxoZWx2ZXRpY2Esc2Fucy1zZXJpZiI+RHVhbCBJbnRlbGxpZ2VudCBQcm9jZXNzb3JzIDIgbWFpbiBtZW51IGJhcjwvc3Bhbj48L3NwYW4+PC9zdHJvbmc+PC9wPgoKPHA+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMnB4Ij48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6YXJpYWwsaGVsdmV0aWNhLHNhbnMtc2VyaWYiPjxpbWcgc3JjPSJodHRwOi8va21waWMuYXN1cy5jb20vaW1hZ2VzLzIwMTUvMDcvMDYvYWY0MjY2OWItNzU3MS00MGEyLWEzNWMtOWJhMDA3M2NiOTk1LmpwZyIgLz48L3NwYW4+PC9zcGFuPjwvcD4KCjxwPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTJweCI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmIj7CoDwvc3Bhbj48L3NwYW4+PC9wPgoKPHA+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxNnB4Ij48c3Ryb25nPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTphcmlhbCxoZWx2ZXRpY2Esc2Fucy1zZXJpZiI+QmVsb3cgc2hvd3MgdGhlIGRldGFpbGVkIGZlYXR1cmVzIGluIEFJIFN1aXRlIDM6PC9zcGFuPjwvc3Ryb25nPjwvc3Bhbj48L3A+Cgo8cD48YSBocmVmPSJodHRwOi8vd3d3LmFzdXMuY29tL3N1cHBvcnQvRkFRLzEwMTIxNTMiPjxzdHJvbmc+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMnB4Ij48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6YXJpYWwsaGVsdmV0aWNhLHNhbnMtc2VyaWYiPkR1YWwgSW50ZWxsaWdlbnQgUHJvY2Vzc29ycyBYWDwvc3Bhbj48L3NwYW4+PC9zdHJvbmc+PC9hPjwvcD4KCjxwPjxhIGhyZWY9Imh0dHA6Ly93d3cuYXN1cy5jb20vc3VwcG9ydC9GQVEvMTAxMjE1MCI+PHN0cm9uZz48c3BhbiBzdHlsZT0iZm9udC1zaXplOjEycHgiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTphcmlhbCxoZWx2ZXRpY2Esc2Fucy1zZXJpZiI+QWkgQ2hhcmdlcis8L3NwYW4+PC9zcGFuPjwvc3Ryb25nPjwvYT48L3A+Cgo8cD48YSBocmVmPSJodHRwOi8vd3d3LmFzdXMuY29tL3N1cHBvcnQvRkFRLzEwMTIxNTIiPjxzdHJvbmc+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMnB4Ij48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6YXJpYWwsaGVsdmV0aWNhLHNhbnMtc2VyaWYiPkVaIFVwZGF0ZTwvc3Bhbj48L3NwYW4+PC9zdHJvbmc+PC9hPjwvcD4KCjxwPjxhIGhyZWY9Imh0dHA6Ly93d3cuYXN1cy5jb20vc3VwcG9ydC9GQVEvMTAxMjEzNiI+PHN0cm9uZz48c3BhbiBzdHlsZT0iZm9udC1zaXplOjEycHgiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTphcmlhbCxoZWx2ZXRpY2Esc2Fucy1zZXJpZiI+VVNCIDMuMCBCb29zdDwvc3Bhbj48L3NwYW4+PC9zdHJvbmc+PC9hPjwvcD4KCjxwPjxhIGhyZWY9Imh0dHA6Ly93d3cuYXN1cy5jb20vc3VwcG9ydC9GQVEvMTAxMjEzNyI+PHN0cm9uZz48c3BhbiBzdHlsZT0iZm9udC1zaXplOjEycHgiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTphcmlhbCxoZWx2ZXRpY2Esc2Fucy1zZXJpZiI+VVNCIDMuMSBCb29zdDwvc3Bhbj48L3NwYW4+PC9zdHJvbmc+PC9hPjwvcD4KCjxwPjxhIGhyZWY9Imh0dHA6Ly93d3cuYXN1cy5jb20vc3VwcG9ydC9GQVEvMTAxMjEzOSI+PHN0cm9uZz48c3BhbiBzdHlsZT0iZm9udC1zaXplOjEycHgiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTphcmlhbCxoZWx2ZXRpY2Esc2Fucy1zZXJpZiI+VVNCIENoYXJnZXIrPC9zcGFuPjwvc3Bhbj48L3N0cm9uZz48L2E+PC9wPgoKPHA+PGEgaHJlZj0iaHR0cDovL3d3dy5hc3VzLmNvbS9zdXBwb3J0L0ZBUS8xMDEyMTQwIj48c3Ryb25nPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTJweCI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmIj5XaS1GaSBFbmdpbmU8L3NwYW4+PC9zcGFuPjwvc3Ryb25nPjwvYT48L3A+Cgo8cD48YSBocmVmPSJodHRwOi8vd3d3LmFzdXMuY29tL3N1cHBvcnQvRkFRLzEwMTIxNTEiPjxzdHJvbmc+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMnB4Ij48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6YXJpYWwsaGVsdmV0aWNhLHNhbnMtc2VyaWYiPk5ldHdvcmsgaUNvbnRyb2w8L3NwYW4+PC9zcGFuPjwvc3Ryb25nPjwvYT48L3A+Cgo8cD48YSBocmVmPSJodHRwOi8vd3d3LmFzdXMuY29tL3N1cHBvcnQvRkFRLzEwMTIyNjciPjxzdHJvbmc+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMnB4Ij48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6YXJpYWwsaGVsdmV0aWNhLHNhbnMtc2VyaWYiPlVTQiBCSU9TIEZsYXNoYmFjazwvc3Bhbj48L3NwYW4+PC9zdHJvbmc+PC9hPjwvcD4KCjxwPjxhIGhyZWY9Imh0dHA6Ly93d3cuYXN1cy5jb20vc3VwcG9ydC9GQVEvMTAxMjE0OSI+PHN0cm9uZz48c3BhbiBzdHlsZT0iZm9udC1zaXplOjEycHgiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTphcmlhbCxoZWx2ZXRpY2Esc2Fucy1zZXJpZiI+V2ktRmkgR08hPC9zcGFuPjwvc3Bhbj48L3N0cm9uZz48L2E+PC9wPgoKPHA+PGEgaHJlZj0iaHR0cDovL3d3dy5hc3VzLmNvbS9zdXBwb3J0L0ZBUS8xMDEyMTgyIj48c3Ryb25nPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTJweCI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmIj5SZW1vdGUgR08hPC9zcGFuPjwvc3Bhbj48L3N0cm9uZz48L2E+PC9wPgoKPHA+PHN0cm9uZz48c3BhbiBzdHlsZT0iY29sb3I6I0ZGMDAwMCI+KiogSWYgeW91IGhhdmUgYW55IGlzc3VlIGFib3V0IEFJIFN1aXRlIDMgZm9yIFdpbmRvd3MgMTAgLCBwbGVhc2UgcmVmZXIgdG8gdGhlIDwvc3Bhbj48YSBocmVmPSJodHRwOi8vd3d3LmFzdXMuY29tL3N1cHBvcnQvZmFxLzEwMTU5MjEiPjxzcGFuIHN0eWxlPSJjb2xvcjojRkYwMDAwIj5BSSBTdWl0ZSAzIFRyb3VibGVzaG9vdGluZyBHdWlkZTwvc3Bhbj48L2E+PHNwYW4gc3R5bGU9ImNvbG9yOiNGRjAwMDAiPi48L3NwYW4+PC9zdHJvbmc+PC9wPgpkAgEPZBYWAgEPFgIfAWVkAgMPFgIfAQUmRG9lcyB0aGlzIGRvY3VtZW50IHNvbHZlIHlvdXIgcHJvYmxlbT9kAgUPFgIfAQUDWWVzZAIHDxYCHwEFAk5vZAIJDxYCHwEFE0lzIGl0IGVhc3kgdG8gZmluZD9kAgsPFgIfAQUDWWVzZAINDxYCHwEFAk5vZAIPDw8WAh8DBQhiZWNhdXNlP2RkAhEPFgIeC18hSXRlbUNvdW50AgUWCmYPZBYCZg8VAwpxdWVzdGlvbl8wATEgVGhpcyBGQVEgaXMgbm90IHNwZWNpZmljIGVub3VnaC5kAgEPZBYCZg8VAwpxdWVzdGlvbl8xATIqVGhpcyBGQVEgaXMgdG9vIGNvbXBsaWNhdGVkIHRvIGNvbXByZWhlbmQuZAICD2QWAmYPFQMKcXVlc3Rpb25fMgEzI1RoZSB0aXRsZSBvZiB0aGlzIEZBUSBpcyBub3QgY2xlYXIuZAIDD2QWAmYPFQMKcXVlc3Rpb25fMwE0U1NvbWUgb2YgdGhlIGltYWdlcyBpbiB0aGlzIEZBUSBjYW5ub3QgYmUgZGlzcGxheWVkIHByb3Blcmx5IG9yIGxhY2sgcmVsYXRlZCBpbWFnZXMuZAIED2QWAmYPFQMKcXVlc3Rpb25fNAE1TlNvbWUgb2YgdGhlIGxpbmtzIGluIHRoaXMgRkFRIGNhbm5vdCBiZSBvcGVuZWQgcHJvcGVybHkgb3IgbGFjayByZWxhdGVkIGxpbmtzLmQCEw8WAh8BBShXaGF0IGNhbiB3ZSBkbyB0byBpbXByb3ZlIHRoaXMgZG9jdW1lbnQ/ZAIVDxYCHgtwbGFjZWhvbGRlcgVZVG8gcHJvdGVjdCB5b3VyIHByaXZhY3ksIHBsZWFzZSBETyBOT1QgaW5jbHVkZSB5b3VyIGNvbnRhY3QgaW5mb3JtYXRpb24gaW4geW91ciBmZWVkYmFjay5kZMTVxQC+KX4icVDomam/atGnvZis"> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="14BD25B6"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdABq1cqA/9UUr4Q4vWcPIkqjVZJ5g6/mxVAyLL7pLu+1jWBuYfV4idFVYyc+C+jsdmxVsY1GbsNNnrrZ2VOa/j2O9KMxJPQRexYCAA3vXTL9Dg4t4GxE3XDJHQRQV/lGO+ZDYITSnInSQ+wJpr/sRs6AvOD2YBzoxYhlQhptE6XeIdyvHpGRA0RkoZaQ6Tz8Nf/jD/6gyGBSgN6uTT5FcsOYu5ZmL6XOuo2UBLHYiGzNZQ4wMHmZ3nA70roudDbi8wYKg2blLaM6WCy43Sr+KU5wBXABe/qz8xC3u3ellmYlwlcfUEF+L7yGNZTQxpJqXf5XHEql9eln9Spg3W3DooYjhaF50JlJslPraF8pmIMnm7rehgACrmthY5wY6tqMKBgm2dPP5l1Rcu0HGXjopXK1Z53ZrSJjhb1RIV8DxCgGvBtDUCT+Hj/jOFtUMe1wfBw4Zzit4vBnHsVWF9s/M0ySy0aASQJBmhh4ZmUds3OzXuj2WQufc8Ev3gOJYUuvbADvCvZdoA7Wl1tXD++gbqCaUVehs5eHi+mMCV2T5VwHDmuk5OBfLbVQo360s8yFZunJbtU0O"> 
+   </div> 
+   <!-- H-A-7 --> 
+   <input name="page_info1$langNormal" type="hidden" id="langNormal" value="en-us"> 
+   <input name="page_info1$hd_lang_prefix" type="hidden" id="hd_lang_prefix" value="/us/support"> 
+   <input name="page_info1$hd_product" type="hidden" id="hd_product"> 
+   <input name="page_info1$hd_product_name" type="hidden" id="hd_product_name"> 
+   <input name="page_info1$hd_product_name_ml" type="hidden" id="hd_product_name_ml"> 
+   <input name="page_info1$hd_series" type="hidden" id="hd_series"> 
+   <input name="page_info1$hd_series_name" type="hidden" id="hd_series_name"> 
+   <input name="page_info1$hd_series_name_ml" type="hidden" id="hd_series_name_ml"> 
+   <input name="page_info1$hd_model" type="hidden" id="hd_model"> 
+   <input name="page_info1$hd_model_ml" type="hidden" id="hd_model_ml"> 
+   <input name="page_info1$hd_os" type="hidden" id="hd_os"> 
+   <input name="page_info1$hd_hid" type="hidden" id="hd_hid"> 
+   <input name="page_info1$hd_offical_url" type="hidden" id="hd_offical_url"> 
+   <!-- Google Tag Manager with Origin gaTrace --> 
+   <noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+   </noscript> 
+   <script src="/support/js/gaTrace.js" type="text/javascript"></script> 
+   <!-- End Google Tag Manager --> 
+   <!--Online Chat--> 
+   <link href="/support/stylesheets/online-chat-btn.css" rel="stylesheet" type="text/css"> 
+   <script>
+    function inIframe() {
+        try {
+            return window.self !== window.top; //window.self means the current application , window.top means the top ahead application
+        } catch (e) {
+            return true;
+        }
+    }
+</script> 
+   <script type="text/javascript">
+    $(document).ready(function () {
+        var IsInIframe = inIframe();
+
+        if (IsInIframe) {
+            return false;
+        }
+
+        var _Local = $("#langNormal").val();
+
+        var onlineService = initOnlineService(_Local);
+        onlineService.init();
+    });
+
+    function initOnlineService(Local) {
+        var ApiUrl = window.location.protocol + "//demeter.asus.com/WSC/Support_API_New/SupportNewAPI/GetOnlineChatUrl/",
+            ApiOption;
+
+        ApiUrl += Local;
+
+        return {
+            init: function () {
+                if ($("#online-service").length > 0) return;
+
+                $.getJSON(ApiUrl + "?callback=?", ApiOption).done(function (result) {
+                    if (result && result.StatusCode == 0) {
+                        var onlineServiceString = result.Link_Name ? result.Link_Name : "Online Chat",
+                            serviceUrl = result.URL;
+
+                        onlineChatBtn = '<div id="online-service"><a class="btn" onclick="javascript:window.open(\'' + serviceUrl + '\', \'\',  \'width=520, height=700, scrollbars=yes\'); ga(\'send\', \'event\', \'button\', \'clicked\', \'onlinechat\');">' + onlineServiceString + '</a></div>';
+                        $(onlineChatBtn).appendTo("body");
+                    }
+                });
+            }
+        }
+    };
+</script> 
+   <!--Redirect en--> 
+   <input name="page_info_faq1$faq_type" type="hidden" id="faq_type" value="list"> 
+   <input name="page_info_faq1$base_url_detail" type="hidden" id="base_url_detail" value="/Faq/Detail.aspx"> 
+   <input name="page_info_faq1$HitRecordID" type="hidden" id="HitRecordID"> 
+   <input name="page_info_faq1$KbGuid" type="hidden" id="KbGuid" value="1D560A7A-FBD2-4177-A6F7-C697B7D914F6"> 
+   <div class="faq-pop"> 
+    <div class="navbar"> 
+     <a href="//www.asus.com/us" id="a_asusimg" target="_blank"> <img src="https://www.asus.com/images/asus.jpg" alt="" border="0"></a> 
+    </div> 
+    <!--Support--> 
+    <div class="grayBg"> 
+     <div class="faq-zone"> 
+      <div id="breadcrumbs"> 
+       <div id="product-topinfo"> 
+        <div id="breadcrumbs"> 
+         <a href="/us/" id="breadcrumb1_a_home" target="_self">Home</a>
+         <span id="breadcrumb1_s1" style="display:inline">&nbsp;&gt;&nbsp;</span>
+         <a href="/us/support" id="breadcrumb1_a_support" target="_self" style="display:inline">Support</a>
+         <span id="breadcrumb1_s2" style="display:inline">&nbsp;&gt;&nbsp;</span>
+         <a href="../../../uc_3/general/index.aspx" id="breadcrumb1_a_pagename" target="_self" style="display: none">[Page Name]</a> 
+         <span id="breadcrumb1_s_l1" style="display: none">&nbsp;&gt;&nbsp;</span>
+         <a href="../../../uc_3/general/index.aspx" id="breadcrumb1_a_l1" target="_self" style="display: none">[level 1]</a> 
+         <span id="breadcrumb1_s_l2" style="display: none">&nbsp;&gt;&nbsp;</span>
+         <a href="../../../uc_3/general/index.aspx" id="breadcrumb1_a_l2" target="_self" style="display: none">[level 2]</a> 
+         <span id="breadcrumb1_s_m" style="display: none">&nbsp;&gt;&nbsp;</span>
+         <a href="../../../uc_3/general/index.aspx" id="breadcrumb1_a_m" target="_self" style="display: none">[model]</a> 
+        </div> 
+        <div class="pull-right" id="MDA" style="display: none"> 
+         <span class="mdatext">ASUS recommends Windows® 7.</span> 
+        </div> 
+       </div> 
+      </div> 
+      <!--<script type="text/javascript" src="/support/js/gaTrace.js"></script>--> 
+      <!--Content Start--> 
+      <div> 
+       <h1 id="id_top_page_title" class="page-title" langtype="faq" langtextid="faq">FAQ</h1> 
+       <div class="divider"> 
+       </div> 
+      </div> 
+      <input name="faqheader$hd_version" type="hidden" id="hd_version" value="1"> 
+      <script type="text/javascript">
+    $(document).ready(function () {
+        var version = $("#hd_version").val();
+        if (version == "1") {//full_style需在resp前
+            var linkfs = document.createElement('link');
+            linkfs.type = 'text/css';
+            linkfs.rel = "stylesheet";
+            linkfs.href = "/support/stylesheets/full_style.css";
+            document.getElementsByTagName("head")[0].appendChild(linkfs);
+        }
+        var linkresp = document.createElement('link');
+        linkresp.type = 'text/css';
+        linkresp.rel = "stylesheet";
+        linkresp.href = "/support/stylesheets/responsive.css";
+        document.getElementsByTagName("head")[0].appendChild(linkresp);
+    });
+</script> 
+      <script type="text/javascript">
+
+    $("#a_mailpage").click(function () {
+        location.href = "mailto:?subject=" + escape(jQuery(document).attr('title')) + "&body=" + escape(document.location.href.replace(/ /g, "%20"));
+        return false;
+    });
+</script> 
+      <script src="/support/js/MISTrack.js" type="text/javascript"></script> 
+      <!--FAQ Start--> 
+      <div class="faq-content" itemscope itemtype="http://schema.org/Question"> 
+       <meta itemprop="author" content="ASUS"> 
+       <meta itemprop="dateCreated" content="2015-07-06T09:38:48"> 
+       <meta itemprop="dateModified" content="2016-06-23T16:50:04"> 
+       <meta itemprop="datePublished" content="2015-07-06T09:38:48"> 
+       <style>
+.sbs_title
+{
+    font-size:30px;
+    line-height:1.8 !important;
+}
+.sbs_titleDesc
+{
+    font-size:24px;
+    line-height:1.8 !important;
+}
+.sbs_steps_text
+{
+    font-size:18px;
+}
+.sbs_setps_imgs
+{    
+    margin:15px 0 80px 0;
+}
+@media (min-width: 768px) {
+    .sbs_steps_text
+    {
+        display:block;
+    }
+    .step-pop
+    {
+        display:none;
+    }
+}
+@media (max-width: 767px) 
+{
+    .sbs_steps_text
+    {
+        display:none;
+    }
+    .step-pop
+    {
+        display:block;
+    }
+    .phone
+    {
+        height:auto;
+    }
+    .phone-bg
+    {
+        display:none !important;
+    }
+}
+</style> 
+       <h3 class="title" itemprop="name"> <span id="mainzone_detail1_solutionzone1_Label1"><p><span style="font-size:16px"><span style="font-family:arial,helvetica,sans-serif"><strong>AI Suite 3 </strong></span></span><strong>Introduction</strong></p> </span> </h3> 
+       <div itemprop="suggestedAnswer acceptedAnswer" itemscope itemtype="http://schema.org/Answer"> 
+        <meta itemprop="dateCreated" content="2015-07-06T09:38:48"> 
+        <meta itemprop="author" content="ASUS"> 
+        <div itemprop="text"> 
+         <p id="pnl_content"> </p>
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">AI Suite 3 is an all-in-one interface that integrates several ASUS utilities and allows you to launch and operate these utilities simultaneously.</span></span></p> 
+         <p><strong><span style="font-family:arial,helvetica,sans-serif"><span style="font-size:12px"><span style="color:rgb(255, 0, 0)">You can download this untility in ASUS support site:</span> <a href="http://www.asus.com/support/">http://www.asus.com/support/</a> <span style="color:rgb(255, 0, 0)">according to your specific model.</span></span></span></strong></p> 
+         <p><strong><span style="color:rgb(255, 0, 0)">*Enter product's model name-&gt; Support-&gt; Driver &amp; Tools-&gt; Select OS-&gt; Utilities-&gt; ASUS AI Suites 3</span></strong></p> 
+         <p><span style="font-size:16px"><strong><span style="font-family:arial,helvetica,sans-serif">Installing AI Suite 3</span></strong></span></p> 
+         <p><strong><span style="color:rgb(255, 0, 0)"><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">Ensure that you have an Administrator account before installing AI Suite 3 in Windows 7 or Windows 8 OS.</span></span></span></strong></p> 
+         <p><strong><span style="color:rgb(255, 0, 0)"><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">To install the Wi-Fi-enabled features of AI Suite 3, ensure that you install the Wi-Fi module driver from the bundled Support DVD. To do this, go to Driver tab &gt; ASUS Bluetooth 4.0 Wi-Fi Driver and follow the succeeding onscreen instructions.</span></span></span></strong></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">&nbsp;</span></span></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">To install AI Suite 3 on your computer:</span></span></p> 
+         <p><strong><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">Windows 7 OS</span></span></strong></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Place the <strong>Support DVD </strong>into the optical drive.</span></span></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In the <strong>AutoPlay </strong>dialog box, click <strong>Run ASSETUP.exe</strong>, then select the <strong>Utilities </strong>tab.</span></span></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif"><img src="http://kmpic.asus.com/images/2015/07/06/84561c8a-9b21-4fe9-bbed-d53030ac9444.jpg"></span></span></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; From the <strong>Utilities </strong>tab, click<strong> AI Suite 3</strong>, then follow the succeeding onscreen instructions.</span></span></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">&nbsp;</span></span></p> 
+         <p><strong><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">Windows 8 OS</span></span></strong></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Place the<strong> Support DVD </strong>into the optical drive, then follow the onscreen instructions.</span></span></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; From the <strong>ASUS motherboard support DVD </strong>main menu, select the <strong>Utilities </strong>tab and click or tap <strong>AI Suite 3.</strong></span></span></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Follow the succeeding onscreen instructions.</span></span></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If the ASUS motherboard support DVD main menu does not appear, try the following steps:</span></span></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Go to the Start screen then click or tap the <strong>Desktop </strong>app.</span></span></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; From the taskbar, click or tap <strong>File Explorer </strong><img src="http://kmpic.asus.com/images/2015/07/06/4974b496-2ffe-4e45-b8f8-02eb258b56ae.png">&nbsp;then select your DVD drive and double-click or tap the <strong>Setup </strong>application.</span></span></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">&nbsp;</span></span></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">&nbsp;</span></span></p> 
+         <p><span style="font-size:16px"><strong>Launching AI Suite 3</strong></span></p> 
+         <p><strong><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">Windows 7 OS</span></span></strong></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">From the desktop, click<strong> Start &gt; All Programs &gt; ASUS &gt; AI Suite 3 &gt; AI Suite 3.</strong></span></span></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">You can also launch AI Suite 3 in Windows 7 by clicking <img src="http://kmpic.asus.com/images/2015/07/06/3f66a89c-df7f-4a94-aebe-7060600d1d23.png">&nbsp;on the Notification area</span></span></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">&nbsp;</span></span></p> 
+         <p><strong><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">Windows 8 OS</span></span></strong></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">To launch AI Suite 3 in Windows 8, tap the <strong>AI Suite 3</strong> app on the Start screen (or if you're using a mouse, click the<strong> AI Suite 3</strong> app on the Start screen).</span></span></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">&nbsp;</span></span></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">&nbsp;</span></span></p> 
+         <p><span style="font-size:16px"><strong><span style="font-family:arial,helvetica,sans-serif">AI Suite 3 Main Menu</span></strong></span></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">The AI Suite 3 main menu gives you easy-access controls and insight to what’s going on with your computer – allowing you to optimize performance settings while at the same time ensuring system stability.</span></span></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">The AI Suite main menu includes a quick-access menu bar that allows you to swiftly launch any of the integrated ASUS utilities. Click or tap <img src="http://kmpic.asus.com/images/2015/07/06/22e76bb5-b00a-42cd-9662-092abccdd154.png">&nbsp;on the top-right corner of the menu to launch the menu bar.</span></span></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">You can access the ASUS utilities from any of these two AI Suite 3 main menu bars: Dual Intelligent Processors XX with XX-Way Optimization and Dual Intelligent Processors with Performance and Power Saving Utilities.</span></span></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">The AI Suite 3 screenshots are only for reference and can vary depending on motherboard model.</span></span></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">&nbsp;</span></span></p> 
+         <p><strong><span style="font-size:14px"><span style="font-family:arial,helvetica,sans-serif">Dual Intelligent Processors XX</span></span></strong></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif"><img src="http://kmpic.asus.com/images/2015/07/06/913012d2-de91-4a96-809d-c282cb29a131.jpg"></span></span></p> 
+         <p>&nbsp;</p> 
+         <p><strong><span style="font-size:14px"><span style="font-family:arial,helvetica,sans-serif">Dual Intelligent Processors XX main menu bar</span></span></strong></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif"><img src="http://kmpic.asus.com/images/2015/07/06/89381522-a97a-4dd6-9451-e0ca4b119c3d.jpg"></span></span></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">&nbsp;</span></span></p> 
+         <p>&nbsp;</p> 
+         <p><strong><span style="font-size:14px"><span style="font-family:arial,helvetica,sans-serif">Dual Intelligent Processors 2</span></span></strong></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif"><img src="http://kmpic.asus.com/images/2015/07/06/8ee2376d-2429-4ee4-ab89-159de5548180.jpg"></span></span></p> 
+         <p>&nbsp;</p> 
+         <p><strong><span style="font-size:14px"><span style="font-family:arial,helvetica,sans-serif">Dual Intelligent Processors 2 main menu bar</span></span></strong></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif"><img src="http://kmpic.asus.com/images/2015/07/06/af42669b-7571-40a2-a35c-9ba0073cb995.jpg"></span></span></p> 
+         <p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">&nbsp;</span></span></p> 
+         <p><span style="font-size:16px"><strong><span style="font-family:arial,helvetica,sans-serif">Below shows the detailed features in AI Suite 3:</span></strong></span></p> 
+         <p><a href="http://www.asus.com/support/FAQ/1012153"><strong><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">Dual Intelligent Processors XX</span></span></strong></a></p> 
+         <p><a href="http://www.asus.com/support/FAQ/1012150"><strong><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">Ai Charger+</span></span></strong></a></p> 
+         <p><a href="http://www.asus.com/support/FAQ/1012152"><strong><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">EZ Update</span></span></strong></a></p> 
+         <p><a href="http://www.asus.com/support/FAQ/1012136"><strong><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">USB 3.0 Boost</span></span></strong></a></p> 
+         <p><a href="http://www.asus.com/support/FAQ/1012137"><strong><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">USB 3.1 Boost</span></span></strong></a></p> 
+         <p><a href="http://www.asus.com/support/FAQ/1012139"><strong><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">USB Charger+</span></span></strong></a></p> 
+         <p><a href="http://www.asus.com/support/FAQ/1012140"><strong><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">Wi-Fi Engine</span></span></strong></a></p> 
+         <p><a href="http://www.asus.com/support/FAQ/1012151"><strong><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">Network iControl</span></span></strong></a></p> 
+         <p><a href="http://www.asus.com/support/FAQ/1012267"><strong><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">USB BIOS Flashback</span></span></strong></a></p> 
+         <p><a href="http://www.asus.com/support/FAQ/1012149"><strong><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">Wi-Fi GO!</span></span></strong></a></p> 
+         <p><a href="http://www.asus.com/support/FAQ/1012182"><strong><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">Remote GO!</span></span></strong></a></p> 
+         <p><strong><span style="color:#FF0000">** If you have any issue about AI Suite 3 for Windows 10 , please refer to the </span><a href="http://www.asus.com/support/faq/1015921"><span style="color:#FF0000">AI Suite 3 Troubleshooting Guide</span></a><span style="color:#FF0000">.</span></strong></p> 
+         <p></p> 
+         <input name="mainzone_detail1$solutionzone1$hd_Kbno" type="hidden" id="hd_Kbno" value="1012780"> 
+        </div> 
+       </div> 
+       <script>
+    $(window).on("resize", window_resize);
+    $(document).ready(function () {
+        if ($(window).width() < 768) {
+            setMobileView()
+        }
+    });
+    
+    function window_resize() {
+        if ($(window).width() < 768) {
+            setMobileView();
+        } else if ($(window).width() >= 768) {
+            $("#div_pc").show();
+            $("#div_mobile").hide();
+            
+        }
+    }
+    function setMobileView() {
+        $("#div_pc").hide();
+        $("#div_mobile").show();
+        var zm = ($(window).width() / $(".mobile-phone").attr("data-imgw"));
+        $(".mobile-phone").css("zoom", zm * 0.97);
+    }
+
+
+//$(document).ready(function () {
+//    if ($("#iframe_sbs").length) {
+//        var ww = $(window).width();
+//        if (ww < 768) {// && ("createTouch" in document))
+//            $("#iframe_sbs").hide();
+//            $("#div_sbs_static").show();
+//        }
+//        else {
+//            $("#iframe_sbs").show();
+//            $("#div_sbs_static").hide();
+//        }
+//    }
+//})
+</script> 
+       <div class="divider"> 
+       </div> 
+       <div class="feedback-zone"> 
+        <h3 langtype="faq" langtextid="feedback"></h3> 
+        <div> 
+         <p langtype="faq" langtextid="does_solved">Does this document solve your problem?</p> 
+         <label class="radio inline"> <input type="radio" name="rbList1" id="Radio1" onclick="solve_click()" value="1"><span id="mainzone_detail1_feedback1_Span1" langtype="faq" langtextid="yes">Yes</span> </label> 
+         <label class="radio inline"> <input type="radio" name="rbList1" id="Radio2" onclick="solve_click()" value="0"><span id="mainzone_detail1_feedback1_Span2" langtype="faq" langtextid="no">No</span> </label> 
+        </div> 
+        <div id="div_easyfind" style="display: none;"> 
+         <font id="mainzone_detail1_feedback1_Span3" langtype="faq" langtextid="is_easy_find">Is it easy to find?</font> 
+         <label class="radio inline"> <input id="Radio_Easy" type="radio" value="1" name="rbList2"><span id="mainzone_detail1_feedback1_Span4" langtype="faq" langtextid="yes">Yes</span></label> 
+         <label class="radio inline"> <input id="Radio_Hard" type="radio" value="0" name="rbList2"><span id="mainzone_detail1_feedback1_Span5" langtype="faq" langtextid="no">No</span></label> 
+        </div> 
+        <div id="div_questions" style="display: none" class="solve"> 
+         <span id="mainzone_detail1_feedback1_lbl_notsolve">because?</span> 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_0" value="1">This FAQ is not specific enough. 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_1" value="2">This FAQ is too complicated to comprehend. 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_2" value="3">The title of this FAQ is not clear. 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_3" value="4">Some of the images in this FAQ cannot be displayed properly or lack related images. 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_4" value="5">Some of the links in this FAQ cannot be opened properly or lack related links. 
+         <br> 
+        </div> 
+        <script type="text/javascript">
+        function solve_click() {
+            var answer1 = $("input[name='rbList1']:checked").val();
+
+            //是跟否的回傳值 20150503
+            //$("input[name='rbList1']").attr('disabled', 'disabled');
+            quick_feedback_solve();
+
+            //如果是否就出現勾勾 20150503
+            if (answer1 == "0") {
+                $("#div_questions").show();
+                $("#div_easyfind").hide();
+            }
+            else { //是就出現單選項 20150503
+                $("#div_easyfind").show();
+                $("#div_questions").hide();
+            }
+        }
+
+        //傳回值 20150503
+        function quick_feedback_solve() {
+            var s_langNormal = $("#langNormal").val();
+            var s_KbNo = $("#hd_Kbno").val();
+            var s_HitRecordID = $("#hdn_HitRecordID").val();
+            var s_product = $("#hdn_product").val();
+            var s_model = $("#hdn_model").val();
+            var s_kbtype = $("#hdn_kbtype").val();
+            
+            var s_isSolve = $("input[name='rbList1']:checked");
+            s_isSolve = s_isSolve.val();
+            
+
+            var strXML = "<?xml version='1.0' encoding='utf-8' ?>" +
+                "<root>" +
+                "<langNormal>" + s_langNormal + "</langNormal>" +
+                "<KBNO>" + s_KbNo + "</KBNO>" +
+                "<HitRecordID>" + s_HitRecordID + "</HitRecordID>" +
+                "<product>" + s_product + "</product>" +
+                "<model>" + s_model + "</model>" +
+                "<kbtype>" + s_kbtype + "</kbtype>" +
+                "<isSolve>" + s_isSolve + "</isSolve>" +
+                "</root>";
+
+            var post_url = "/support/utilities/log/feedback_qsolve.aspx";
+
+            $.ajax({
+                url: post_url,
+                data: strXML,
+                type: 'POST',
+                contentType: "text/xml",
+                dataType: "text",
+                success: function () {
+                    //console.log("");
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    console.log(xhr.status);
+                    console.log(thrownError);
+                }
+            });
+
+        }
+    </script> 
+        <div> 
+         <p id="mainzone_detail1_feedback1_P1" langtype="faq" langtextid="what_we_do">What can we do to improve this document?</p> 
+        </div> 
+        <div class="center"> 
+         <textarea name="mainzone_detail1$feedback1$text_feedback" id="mainzone_detail1_feedback1_text_feedback" class="text_feedback" cols="20" rows="3" langtype="faq" langtextid="is_easy_find" placeholder="To protect your privacy, please DO NOT include your contact information in your feedback."></textarea> 
+        </div> 
+        <div class="center"> 
+         <input type="button" value="Feedback" class="btn-asus" onclick="callfeedback();"> 
+        </div> 
+        <script type="text/javascript">
+        //傳回剩下的值  20150503
+        function callfeedback() {
+            var s_langNormal = $("#langNormal").val();
+            var s_KbGuid = $("#KbGuid").val();
+            var s_HitRecordID = $("#hdn_HitRecordID").val();
+            var s_product = $("#hdn_product").val();
+            var s_model = $("#hdn_model").val();
+            var s_kbtype = $("#hdn_kbtype").val();
+
+            var s_isSolve = $("input[name='rbList1']:checked");
+            if (s_isSolve.length <= 0) {
+                alert('please select Q1 answer');
+            } else {
+                s_isSolve = s_isSolve.val();
+                var s_isEasyfind = ($("input[name='rbList2']:checked").length > 0) ? $("input[name='rbList2']:checked").val() : "";
+                var rbList3 = $("input[name='rbList3']");
+
+                var question = new Array(5);
+                for (i = 0; i < rbList3.length; i++) {
+                    if (rbList3.eq(i)[0].checked == true) {
+                        question[i] = "1";
+                    } else {
+                        question[i] = "0"
+                    }
+                }
+                var s_feedBakTxt = $(".text_feedback").val();
+
+                var strXML = "<?xml version='1.0' encoding='utf-8' ?>" +
+                  "<root>" +
+                    "<langNormal>" + s_langNormal + "</langNormal>" +
+                    "<KbGuid>" + s_KbGuid + "</KbGuid>" +
+                    "<HitRecordID>" + s_HitRecordID + "</HitRecordID>" +
+                    "<product>" + s_product + "</product>" +
+                    "<model>" + s_model + "</model>" +
+                    "<kbtype>" + s_kbtype + "</kbtype>" +
+                    "<isSolve>" + s_isSolve + "</isSolve>" +
+                    "<isEasyfind>" + s_isEasyfind + "</isEasyfind>" +
+                    "<question1>" + question[0] + "</question1>" +
+                    "<question2>" + question[1] + "</question2>" +
+                    "<question3>" + question[2] + "</question3>" +
+                    "<question4>" + question[3] + "</question4>" +
+                    "<question5>" + question[4] + "</question5>" +
+                    "<feedBakTxt>" + s_feedBakTxt + "</feedBakTxt>" +
+                  "</root>";
+
+                var post_url = "/support/utilities/log/feedback.aspx";
+
+                $.ajax({
+                    url: post_url,
+                    data: strXML,
+                    type: 'POST',
+                    contentType: "text/xml",
+                    dataType: "text",
+                    success: function () {
+                        //console.log("");
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        console.log(xhr.status);
+                        console.log(thrownError);
+                    }
+                });
+
+                alert("OK");
+            }
+        }
+    </script> 
+       </div> 
+       <br> 
+       <br> 
+       <br> 
+      </div> 
+     </div> 
+    </div> 
+    <input name="hdn_HitRecordID" type="hidden" id="hdn_HitRecordID" value="c7809a88-8576-43d3-9af3-10cddf40e15f"> 
+    <input name="hdn_KbGuid" type="hidden" id="hdn_KbGuid"> 
+    <input name="hdn_product" type="hidden" id="hdn_product"> 
+    <input name="hdn_model" type="hidden" id="hdn_model"> 
+    <input name="hdn_kbtype" type="hidden" id="hdn_kbtype" value="2"> 
+   </div> 
+  </form> 
+  <script type="text/javascript">
+         var Parameter = window.location.search;
+         if (Parameter.indexOf("DisASUSMenu") > -1) {
+             $(".navbar").css("display", "none");
+         }
+    </script>   
+ </body>
+</html>

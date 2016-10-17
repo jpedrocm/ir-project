@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width"> 
+  <meta name="description" content="Powered by ASUS offers dream machines with select system-builders, from small-form-factor dynamos to giant liquid-cooled beasts, Powered by ASUS means exclusivity, performance, and art."> 
+  <meta name="keywords" content="ASUS,VGA,MB,Desktop,Display,Monitor,Networks,Server &amp; Workstation,Chassis,Motherboards,PC Gaming hardware,Gaming motherboard,overclocking motherboard,Battlefield,assassins creed,Optical Storage,Graphics Cards,Multimedia,Peripherals &amp; Accessories,accessories,Peripheral,PC Accessories,Computer Peripheral,Power Supply,Thermal Solution,Eshop,PCs,Barebone PC, ASUS Partners, PBA, PBA Systems, ASUS System Integrator, ASUS System Builder, ASUS Gaming Systems, Gaming System, ASUS Computer, ASUS Gaming Computer"> 
+  <meta property="og:site_name" content="Powered by ASUS"> 
+  <meta property="og:title" content="Powered by ASUS."> 
+  <meta property="og:description" content="Powered by ASUS offers dream machines with select system-builders, from small-form-factor dynamos to giant liquid-cooled beasts, Powered by ASUS means exclusivity, performance, and art."> 
+  <link rel="shortcut icon" href="http://www.asus.com/media/img/favicon.ico"> 
+  <title>Powered by ASUS</title> 
+  <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" type="text/css"> 
+  <link href="Theme/CSS/normalize.css" rel="stylesheet" media="screen"> 
+  <link href="Theme/CSS/default.css" rel="stylesheet" media="screen"> 
+  <link href="Theme/CSS/idangerous.swiper.css" rel="stylesheet" media="screen"> 
+  <script src="Theme/Javascript/modernizr.custom.08193.js"></script> 
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> 
+  <script src="Theme/Javascript/default.js"></script> 
+  <script src="Theme/Javascript/idangerous.swiper.min.js"></script> 
+  <script type="text/javascript">
+    //ASUS header & footer
+        window.ASUSInit = function () {
+            asus_api.init({ appkey: 'campa00004' , lang: 'tw', api_menu_logo: '0');
+        };
+        (function(d){
+            var js, id = 'asus-jsapi';
+            if (d.getElementById("asus-jsapi")) {return;}
+            js = d.createElement('script');
+            js.id = id;
+            js.async = true;
+            js.src = "//www.asus.com/API/js/asus_api.js";
+            d.getElementsByTagName('head')[0].appendChild(js);
+        }(document));
+     </script> 
+ </head> 
+ <body> 
+  <div class="wrapper"> 
+   <header class="header"> 
+    <section class="header-inner"> 
+     <a href="index.html"><img class="logo" src="Theme/Image/UI/logo.png"></a> 
+     <div class="burger-wrapper"> 
+      <a class="burger burger-on"></a> 
+      <a class="burger burger-off"></a> 
+     </div> 
+     <ul class="menu"> 
+      <li><a href="index.html" class="active" onclick="ga('send', 'event', 'menus', 'clicked', ‘powered-by-asus-au')">Powered by ASUS</a></li> 
+      <li><a href="buynow.html" class="icon-cart" onclick="ga('send', 'event', 'menus', 'clicked', ‘buy-a-pc-now-au')">Kupi PC Sada!</a></li> 
+      <li><a href="companion.html" onclick="ga('send', 'event', ‘menus’, 'clicked', ‘best-companion-with-your-pc-au')">Najbolja oprema za vaš PC</a></li> 
+      <li><a href="promotion.html" onclick="ga('send', 'event', ‘menus', 'clicked', ‘events-and-promotion-au')">Događaji i promocije</a></li> 
+     </ul> 
+    </section> 
+   </header> 
+   <main class="main"> 
+    <section class="banner home-banner"> 
+     <div class="hero"> 
+      <!--banner slider : start --> 
+      <a class="arrow-left" href="#"></a> 
+      <a class="arrow-right" href="#"></a> 
+      <div class="swiper-container"> 
+       <div class="swiper-wrapper"> 
+        <div class="swiper-slide"> 
+         <div class="swiper-img">
+          <a href="#">
+           <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-1.jpg)"></div></a>
+         </div> 
+        </div> 
+        <div class="swiper-slide"> 
+         <div class="swiper-img">
+          <a href="http://www.asuspromotion.net/anz/starwars-promo/" target="_blank" onclick="ga('send', 'event', ‘banners', 'clicked', ‘AMD-Strix-R9-Fury-au')">
+           <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-2.jpg)"></div></a>
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pagination"></div> 
+      <!--banner slider : end --> 
+     </div> 
+    </section> 
+    <section class="home-intro"> 
+     <div class="home-intro-inner clear"> 
+      <div class="home-logo">
+       <img src="Theme/Image/UI/logo.png">
+      </div> 
+      <div class="text"> 
+       <h2>Powered by ASUS. Tehnologija kao umetnost</h2> 
+       <p>Powered by ASUS namenjeno je onima koji traže perfekciju. Naši razvojni timovi posvećeni su motou naše kompanije - u potrazi za neverovatnim. Naša težnja za savršenstvom, ogleda se u preko 3000 nagrada godišnje. Zatim naši Powered by ASUS partneri stvaraju neverovatne sisteme, od malih i brzih do neverovatnih mašina sa vodenim hlađenjem. Powered by ASUS podrazumeva ekskluzivnost, performanse i tehnologiju dostojnu remek dela. Zašto razmatrati išta manje?</p> 
+      </div> 
+     </div> 
+    </section> 
+    <section class="home-duet clear"> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>Svetski #1 Brend matičnih ploča</h3> 
+       <p>ASUS je vodeći svetski proizvođač matičnih ploča već 10 godina zaredom, posvećen inovacijama i performansama. ASUS je takođe najviše nagrađivani i NAJBOLJI brend matičnih ploča, zasnovanih na četiri stuba - Najbolja prodaja, Lakoća upotrebe, Stabilnost i Poverenje. Sa preko 500 miliona prodatih matičnih ploča od 1989., ASUS je ime od poverenja.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-a-1.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>Svetski #1 brend grafičkih karti</h3> 
+       <p>ASUS je #1 brend grafičkih karti, prvi i jedini na svetu sa Auto-Extreme Tehnologijom, 100% automatizovanim procesom proizvodnje koji obezbeđuje vrhunsku pouzdanost. Uz mnoštvo drugih ekskluzivnih tehnologija i intuitivnim softverom, ASUS grafičke karte pružaju elitno gejmersko iskustvo, za više uzbuđenja, zabave i pobeda.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-a-2.jpg">
+      </div> 
+     </div> 
+    </section> 
+    <section class="home-team clear"> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>#1 Brend gejmerskih monitora, TÜV Blue-Light sertifikovani</h3> 
+       <p>ASUS monitori drže rekord po broju inovacija. Naši monitori su vodeći u redukciji emisije plavog svetla, redukujući ga i do 70% i poseduju više TÜV Rheinland sertifikata od bilo kog drugog brenda – ozbiljno priznanje od strane vodećeg svetskog autoriteta na polju testiranja monitora!</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-1.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>FAST Mrežna rešenja</h3> 
+       <p>ASUS donosi FAST mrežna rešenja na bazi četiri ključna faktora: Najširu Wi-Fi pokrivenost za stalnu konekciju; Lako setovanje i upravljanje uz ASUS RouterApp i ASUSWRT; Sigurno mrežno okruženje uz ASUS AiProtection; i Kvalitet od poverenja uz višestruko nagrađivanju pouzdanost.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-2.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>1000 godina sigurnog skladištenja podataka za sve optičke uređaje</h3> 
+       <p>ASUS optički uređaji podržavaju M-DISC™, arhivsku tehnologiju zapisa koja štiti vaše digitalne podatke. ASUS M-DISC tehnologija upisuje podatke na patentirani sloj otporan na ekstremne uslove, čuvajući vaše podatke i do hiljadu godina.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-3.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>Izbor čitalaca PC Games Hardware tri godine zaredom</h3> 
+       <p>ASUS zvučne karte izrađene su da zadovolje potrebe najzahtevnijih korisnika, zasnovane na audiofilskim komponentama uz posebnu pažnju posvećenu detaljima. Uz visok odnos signal/šum (SNR), pažljivo odabrana pojačala i višekanalni prostorni zvuk, ASUS zvučne karte su najbolji izbor za zabavu i gejming.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-4.jpg">
+      </div> 
+     </div> 
+    </section> 
+    <section class="buy-now"> 
+     <a href="buynow.html" class="action" onclick="ga('send', 'event', 'navigations', 'clicked', ‘buy-a-pc-now-au')">Kupi PC Sada!</a> 
+    </section> 
+   </main> 
+   <footer class="footer"> 
+    <p class="backtotop"><a>Nazad na vrh strane</a></p> 
+    <section class="content"> 
+     <p class="copyright "><a href="https://asus.com/" target="_blank"><img src="Theme/Image/UI/asus.png"></a><br>© 2016 ASUSTeK Computer Inc. All Rights Reserved.&nbsp;Terms of Use. All specifications and terms are subject to change without notice. Please check with your supplier for exact offers on selected models. Products may not be available in all markets. Product may not be exactly as shown in photos. Brand and product names mentioned are trademarks of their respective companies. ASUS shall not be liable for technical or editorial errors or omissions contained herein.</p> 
+    </section> 
+   </footer> 
+   <div class="sidenav"> 
+    <!--<a class="sidenav-home-1"><span>OVERVIEW</span></a>--> 
+    <a class="sidenav-home-2"><span>WHY POWERED BY ASUS?</span></a> 
+    <a class="sidenav-home-3"><span>WHY SELECT ASUS PRODUCT?</span></a> 
+   </div> 
+  </div>  
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NJRLM8');</script> 
+  <!-- End Google Tag Manager -->  
+ </body>
+</html>

@@ -1,0 +1,364 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="utf-8">
+  <meta content-language="en">
+  <meta http-equiv="Content-Language" content="en">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  <meta property="og:title">
+  <meta property="og:description">
+  <meta property="og:url">
+  <meta property="og:image">
+  <link href="/support/stylesheets/self_service/css/normalize.css" rel="stylesheet">
+  <link href="/support/stylesheets/self_service/css/style.css" rel="stylesheet"> 
+  <!--[if lt IE 9]>
+		    <script src="/support/js/libs/html5.js"></script>
+		    <script src="/support/js/libs/IE9.js" ></script>      
+		<![endif]--> 
+  <script type="text/javascript" src="/support/js/jquery-1.8.2.min.js"></script> 
+  <script type="text/javascript" src="/support/js/thickbox.js"></script> 
+  <link type="text/css" rel="stylesheet" href="/support/js/thickbox.css"> 
+  <style type="text/css">
+        .pagination
+        {
+            text-align: center;
+        }
+        .pagination a
+        {
+            background: url(/support/images/miscellaneous_sprite.png) 0 -300px no-repeat transparent;
+            width: 15px;
+            height: 15px;
+            margin: 0 5px 0 0;
+            display: inline-block;
+        }
+        .pagination a.selected
+        {
+            background-position: -25px -300px;
+            cursor: default;
+        }
+        .pagination a span
+        {
+            display: none;
+        }
+    </style> 
+  <script type="text/javascript">
+        window.ASUSInit = function () {
+            var api_lang = '';
+            var api_key = '0000000004';
+            var lang_prefix = window.location.pathname.split("/");
+            if (window.console) {
+                console.log("pathname: " + window.location.pathname);
+            }
+            if (lang_prefix.length >= 2) {
+                if (lang_prefix[1] == "support")
+                    api_lang = "";
+                else
+                    api_lang = lang_prefix[1];
+            }
+            if (window.location.hostname.indexOf("asus.com.cn") >= 0) {
+                api_lang = "cn";
+                api_key = '0000000019';
+            }
+            if (window.console)
+                console.log("lang: " + api_lang);
+            asus_api.init({ appkey: api_key, lang: api_lang });
+        };
+        (function (d) {
+            var js, id = 'asus-jsapi';
+            if (d.getElementById("asus-jsapi")) { return; }
+            js = d.createElement('script');
+            js.id = id;
+            js.async = true;
+            if (window.location.indexOf("asus.com/cn") >= 0 || window.location.hostname.indexOf("asus.com.cn") >= 0)
+                js.src = "//www.asus.com.cn/API/js/asus_api.js";
+            else
+                js.src = "//www.asus.com/API/js/asus_api.js";
+            d.getElementsByTagName('head')[0].appendChild(js);
+        } (document)); 
+
+    </script> 
+  <script language="javascript">
+        var _wmxq = _wmxq || [];
+        _wmxq.push(["_getTracker", "SupportSite", "website", "etrk.asus.com"]); _wmxq.push(["trackPageview"]);
+        (function () {
+            var sc = document.createElement("script"); sc.type = "text/javascript"; sc.async = true;
+            sc.src = ("https:" == document.location.protocol ? "https:" : "http:") + "//etrk.asus.com/web_service/TrackingJS/wmxtracker.js";
+            var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(sc, s);
+        })();
+    </script> 
+  <title>
+	ASUSTeK Computer Inc. -Self-Service-
+</title>
+ </head> 
+ <body> 
+  <form method="post" action="./?ln=en-us&amp;filter=1&amp;" id="form1"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMTU0NTg4ODk5D2QWAgIDD2QWGmYPZBYCAgEPZBYIAgEPFgQeBGhyZWYFBC91cy8eCWlubmVyaHRtbAUESG9tZWQCAg8WAh4Fc3R5bGUFDmRpc3BsYXk6aW5saW5lZAIDDxYGHwAFCy91cy9zdXBwb3J0HwIFDmRpc3BsYXk6aW5saW5lHwEFB1N1cHBvcnRkAgQPFgIfAgUOZGlzcGxheTppbmxpbmVkAgEPZBYCZg8WAh8BZWQCAg8WAh4EVGV4dAUITm90ZWJvb2tkAgMPFgIfAwUFVmlkZW9kAgQPFgIfAwWGOA0KCQkgICAgCQkJCQkJPGxpPg0KCQkgICAgCQkJCQkJCTxhIGhyZWY9IiNUQl9pbmxpbmU/aGVpZ2h0PTU2MiZ3aWR0aD02NTAmaW5saW5lSWQ9dmlkZW9fMjQ2MCIgY2xhc3M9InRoaWNrYm94IHZpZGVvLWl0ZW0iPiANCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aSBjbGFzcz0idHZjLWljb24iPjwvaT4gDQoJCSAgICAJCQkJCQkJCTxpbWcgY2xhc3M9ImltZyIgIHdpZHRoPScxNzUnIGhlaWdodD0nMTAwJyBzcmM9Imh0dHA6Ly9pbWcueW91dHViZS5jb20vdmkvTEtJNmVRZnQ2SkEvMi5qcGciIGFsdD0iIj4NCgkJICAgIAkJCQkJCQkJPHAgY2xhc3M9InRpdGxlIiB0aXRsZT0nRG93bmxvYWQgdGhlIEJJT1MgZmlsZXMgYW5kIHRoZSBCSU9TIGZsYXNoIHRvb2xzLic+RG93bmxvYWQgdGhlIEJJT1MgZmlsZXMgYW5kIHRoZSBCSU9TIGZsYXNoIHRvb2xzLjwvcD4NCgkJICAgIAkJCQkJCQkJPHAgY2xhc3M9ImJ5IiAgdGl0bGU9Jyc+ICA8L3A+DQoJCSAgICAJCQkJCQkJCTxwIGNsYXNzPSJjYyI+Q0M8L3A+DQoJCSAgICAJCQkJCQkJPC9hPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBpZD0idmlkZW9fMjQ2MCIgIHN0eWxlPSJkaXNwbGF5Om5vbmUiPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGgzPkRvd25sb2FkIHRoZSBCSU9TIGZpbGVzIGFuZCB0aGUgQklPUyBmbGFzaCB0b29scy48L2gzPg0KICAgICAgICAgICAgICAgICAgICAgICAgPHA+IDwvcD4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aWZyYW1lIHdpZHRoPSI1MzAiIGhlaWdodD0iMzE1IiBzcmM9Imh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL2VtYmVkL0xLSTZlUWZ0NkpBIiBmcmFtZWJvcmRlcj0iMCIgYWxsb3dmdWxsc2NyZWVuPjwvaWZyYW1lPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQoJCSAgICAJCQkJCQkgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9saT4NCgkJICAgIAkJCQkJCTxsaT4NCgkJICAgIAkJCQkJCQk8YSBocmVmPSIjVEJfaW5saW5lP2hlaWdodD01NjImd2lkdGg9NjUwJmlubGluZUlkPXZpZGVvXzI0NjEiIGNsYXNzPSJ0aGlja2JveCB2aWRlby1pdGVtIj4gDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGkgY2xhc3M9InR2Yy1pY29uIj48L2k+IA0KCQkgICAgCQkJCQkJCQk8aW1nIGNsYXNzPSJpbWciICB3aWR0aD0nMTc1JyBoZWlnaHQ9JzEwMCcgc3JjPSJodHRwOi8vaW1nLnlvdXR1YmUuY29tL3ZpL0pOb01fTmJNYkdrLzIuanBnIiBhbHQ9IiI+DQoJCSAgICAJCQkJCQkJCTxwIGNsYXNzPSJ0aXRsZSIgdGl0bGU9J1VzZSBBU1VTIFdpbmZsYXNoIHRvIHVwZGF0ZSBCSU9TIGluIHRoZSBXaW5kb3dzIE9wZXJhdGlvbiBTeXN0ZW0uJz5Vc2UgQVNVUyBXaW5mbGFzaCB0byB1cGRhdGUgQklPUyBpbiB0aGUgV2luZG93cyBPcGVyYXRpb24gU3lzdGVtLjwvcD4NCgkJICAgIAkJCQkJCQkJPHAgY2xhc3M9ImJ5IiAgdGl0bGU9Jyc+ICA8L3A+DQoJCSAgICAJCQkJCQkJCTxwIGNsYXNzPSJjYyI+Q0M8L3A+DQoJCSAgICAJCQkJCQkJPC9hPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBpZD0idmlkZW9fMjQ2MSIgIHN0eWxlPSJkaXNwbGF5Om5vbmUiPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGgzPlVzZSBBU1VTIFdpbmZsYXNoIHRvIHVwZGF0ZSBCSU9TIGluIHRoZSBXaW5kb3dzIE9wZXJhdGlvbiBTeXN0ZW0uPC9oMz4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxwPiA8L3A+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGlmcmFtZSB3aWR0aD0iNTMwIiBoZWlnaHQ9IjMxNSIgc3JjPSJodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC9KTm9NX05iTWJHayIgZnJhbWVib3JkZXI9IjAiIGFsbG93ZnVsbHNjcmVlbj48L2lmcmFtZT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KCQkgICAgCQkJCQkJICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvbGk+DQoJCSAgICAJCQkJCQk8bGk+DQoJCSAgICAJCQkJCQkJPGEgaHJlZj0iI1RCX2lubGluZT9oZWlnaHQ9NTYyJndpZHRoPTY1MCZpbmxpbmVJZD12aWRlb18yNDYyIiBjbGFzcz0idGhpY2tib3ggdmlkZW8taXRlbSI+IA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpIGNsYXNzPSJ0dmMtaWNvbiI+PC9pPiANCgkJICAgIAkJCQkJCQkJPGltZyBjbGFzcz0iaW1nIiAgd2lkdGg9JzE3NScgaGVpZ2h0PScxMDAnIHNyYz0iaHR0cDovL2ltZy55b3V0dWJlLmNvbS92aS9aak92WkFrVVhVdy8yLmpwZyIgYWx0PSIiPg0KCQkgICAgCQkJCQkJCQk8cCBjbGFzcz0idGl0bGUiIHRpdGxlPSdIb3cgdG8gY2hlY2sgQklPUyB2ZXJzaW9uIGluIHRoZSBXaW5kb3dzIE9wZXJhdGlvbiBTeXN0ZW0/Jz5Ib3cgdG8gY2hlY2sgQklPUyB2ZXJzaW9uIGluIHRoZSBXaW5kb3dzIE9wZXJhdGlvbiBTeXN0ZW0/PC9wPg0KCQkgICAgCQkJCQkJCQk8cCBjbGFzcz0iYnkiICB0aXRsZT0nJz4gIDwvcD4NCgkJICAgIAkJCQkJCQkJPHAgY2xhc3M9ImNjIj5DQzwvcD4NCgkJICAgIAkJCQkJCQk8L2E+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGlkPSJ2aWRlb18yNDYyIiAgc3R5bGU9ImRpc3BsYXk6bm9uZSI+DQogICAgICAgICAgICAgICAgICAgICAgICA8aDM+SG93IHRvIGNoZWNrIEJJT1MgdmVyc2lvbiBpbiB0aGUgV2luZG93cyBPcGVyYXRpb24gU3lzdGVtPzwvaDM+DQogICAgICAgICAgICAgICAgICAgICAgICA8cD4gPC9wPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpZnJhbWUgd2lkdGg9IjUzMCIgaGVpZ2h0PSIzMTUiIHNyYz0iaHR0cHM6Ly93d3cueW91dHViZS5jb20vZW1iZWQvWmpPdlpBa1VYVXciIGZyYW1lYm9yZGVyPSIwIiBhbGxvd2Z1bGxzY3JlZW4+PC9pZnJhbWU+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCgkJICAgIAkJCQkJCSAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2xpPg0KCQkgICAgCQkJCQkJPGxpPg0KCQkgICAgCQkJCQkJCTxhIGhyZWY9IiNUQl9pbmxpbmU/aGVpZ2h0PTU2MiZ3aWR0aD02NTAmaW5saW5lSWQ9dmlkZW9fMjQ2MyIgY2xhc3M9InRoaWNrYm94IHZpZGVvLWl0ZW0iPiANCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aSBjbGFzcz0idHZjLWljb24iPjwvaT4gDQoJCSAgICAJCQkJCQkJCTxpbWcgY2xhc3M9ImltZyIgIHdpZHRoPScxNzUnIGhlaWdodD0nMTAwJyBzcmM9Imh0dHA6Ly9pbWcueW91dHViZS5jb20vdmkvZldhZkFzckJGV3MvMi5qcGciIGFsdD0iIj4NCgkJICAgIAkJCQkJCQkJPHAgY2xhc3M9InRpdGxlIiB0aXRsZT0nSG93IHRvIGtub3cgdGhlIHByb3BlcnRpZXMgb2YgV2luZG93cyBzeXN0ZW0/Jz5Ib3cgdG8ga25vdyB0aGUgcHJvcGVydGllcyBvZiBXaW5kb3dzIHN5c3RlbT88L3A+DQoJCSAgICAJCQkJCQkJCTxwIGNsYXNzPSJieSIgIHRpdGxlPScnPiAgPC9wPg0KCQkgICAgCQkJCQkJCQk8cCBjbGFzcz0iY2MiPkNDPC9wPg0KCQkgICAgCQkJCQkJCTwvYT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgaWQ9InZpZGVvXzI0NjMiICBzdHlsZT0iZGlzcGxheTpub25lIj4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxoMz5Ib3cgdG8ga25vdyB0aGUgcHJvcGVydGllcyBvZiBXaW5kb3dzIHN5c3RlbT88L2gzPg0KICAgICAgICAgICAgICAgICAgICAgICAgPHA+IDwvcD4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aWZyYW1lIHdpZHRoPSI1MzAiIGhlaWdodD0iMzE1IiBzcmM9Imh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL2VtYmVkL2ZXYWZBc3JCRldzIiBmcmFtZWJvcmRlcj0iMCIgYWxsb3dmdWxsc2NyZWVuPjwvaWZyYW1lPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQoJCSAgICAJCQkJCQkgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9saT4NCgkJICAgIAkJCQkJCTxsaT4NCgkJICAgIAkJCQkJCQk8YSBocmVmPSIjVEJfaW5saW5lP2hlaWdodD01NjImd2lkdGg9NjUwJmlubGluZUlkPXZpZGVvXzI0NTkiIGNsYXNzPSJ0aGlja2JveCB2aWRlby1pdGVtIj4gDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGkgY2xhc3M9InR2Yy1pY29uIj48L2k+IA0KCQkgICAgCQkJCQkJCQk8aW1nIGNsYXNzPSJpbWciICB3aWR0aD0nMTc1JyBoZWlnaHQ9JzEwMCcgc3JjPSJodHRwOi8vaW1nLnlvdXR1YmUuY29tL3ZpL1FnbTg1YlpSNU1ZLzIuanBnIiBhbHQ9IiI+DQoJCSAgICAJCQkJCQkJCTxwIGNsYXNzPSJ0aXRsZSIgdGl0bGU9J0hvdyB0byByZXN0b3JlIGEgV2luZG93cyA4IGxhcHRvcCBvciBQQyB0byBmYWN0b3J5IGRlZmF1bHQgc2V0dGluZ3M/Jz5Ib3cgdG8gcmVzdG9yZSBhIFdpbmRvd3MgOCBsYXB0b3Agb3IgUEMgdG8gZmFjdG9yeSBkZWZhdWx0IHNldHRpbmdzPzwvcD4NCgkJICAgIAkJCQkJCQkJPHAgY2xhc3M9ImJ5IiAgdGl0bGU9Jyc+ICA8L3A+DQoJCSAgICAJCQkJCQkJCTxwIGNsYXNzPSJjYyI+Q0M8L3A+DQoJCSAgICAJCQkJCQkJPC9hPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBpZD0idmlkZW9fMjQ1OSIgIHN0eWxlPSJkaXNwbGF5Om5vbmUiPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGgzPkhvdyB0byByZXN0b3JlIGEgV2luZG93cyA4IGxhcHRvcCBvciBQQyB0byBmYWN0b3J5IGRlZmF1bHQgc2V0dGluZ3M/PC9oMz4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxwPiA8L3A+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGlmcmFtZSB3aWR0aD0iNTMwIiBoZWlnaHQ9IjMxNSIgc3JjPSJodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC9RZ204NWJaUjVNWSIgZnJhbWVib3JkZXI9IjAiIGFsbG93ZnVsbHNjcmVlbj48L2lmcmFtZT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KCQkgICAgCQkJCQkJICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvbGk+DQoJCSAgICAJCQkJCQk8bGk+DQoJCSAgICAJCQkJCQkJPGEgaHJlZj0iI1RCX2lubGluZT9oZWlnaHQ9NTYyJndpZHRoPTY1MCZpbmxpbmVJZD12aWRlb18yNTM3IiBjbGFzcz0idGhpY2tib3ggdmlkZW8taXRlbSI+IA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpIGNsYXNzPSJ0dmMtaWNvbiI+PC9pPiANCgkJICAgIAkJCQkJCQkJPGltZyBjbGFzcz0iaW1nIiAgd2lkdGg9JzE3NScgaGVpZ2h0PScxMDAnIHNyYz0iaHR0cDovL2ltZy55b3V0dWJlLmNvbS92aS96cVdBTU1xSWhORS8yLmpwZyIgYWx0PSIiPg0KCQkgICAgCQkJCQkJCQk8cCBjbGFzcz0idGl0bGUiIHRpdGxlPSdIb3cgdG8gYm9vdCBmcm9tIFVTQiBmbGFzaCBkcml2ZT8nPkhvdyB0byBib290IGZyb20gVVNCIGZsYXNoIGRyaXZlPzwvcD4NCgkJICAgIAkJCQkJCQkJPHAgY2xhc3M9ImJ5IiAgdGl0bGU9Jyc+ICA8L3A+DQoJCSAgICAJCQkJCQkJCTxwIGNsYXNzPSJjYyI+Q0M8L3A+DQoJCSAgICAJCQkJCQkJPC9hPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBpZD0idmlkZW9fMjUzNyIgIHN0eWxlPSJkaXNwbGF5Om5vbmUiPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGgzPkhvdyB0byBib290IGZyb20gVVNCIGZsYXNoIGRyaXZlPzwvaDM+DQogICAgICAgICAgICAgICAgICAgICAgICA8cD4gPC9wPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpZnJhbWUgd2lkdGg9IjUzMCIgaGVpZ2h0PSIzMTUiIHNyYz0iaHR0cHM6Ly93d3cueW91dHViZS5jb20vZW1iZWQvenFXQU1NcUloTkUiIGZyYW1lYm9yZGVyPSIwIiBhbGxvd2Z1bGxzY3JlZW4+PC9pZnJhbWU+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCgkJICAgIAkJCQkJCSAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2xpPg0KCQkgICAgCQkJCQkJPGxpPg0KCQkgICAgCQkJCQkJCTxhIGhyZWY9IiNUQl9pbmxpbmU/aGVpZ2h0PTU2MiZ3aWR0aD02NTAmaW5saW5lSWQ9dmlkZW9fMjUzNiIgY2xhc3M9InRoaWNrYm94IHZpZGVvLWl0ZW0iPiANCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aSBjbGFzcz0idHZjLWljb24iPjwvaT4gDQoJCSAgICAJCQkJCQkJCTxpbWcgY2xhc3M9ImltZyIgIHdpZHRoPScxNzUnIGhlaWdodD0nMTAwJyBzcmM9Imh0dHA6Ly9pbWcueW91dHViZS5jb20vdmkvWVlBV3FJTTVzTTQvMi5qcGciIGFsdD0iIj4NCgkJICAgIAkJCQkJCQkJPHAgY2xhc3M9InRpdGxlIiB0aXRsZT0nSG93IHRvIGVuYWJsZSBTZWN1cmVib290IGluIE5vdGVib29rIEJJT1MnPkhvdyB0byBlbmFibGUgU2VjdXJlYm9vdCBpbiBOb3RlYm9vayBCSU9TPC9wPg0KCQkgICAgCQkJCQkJCQk8cCBjbGFzcz0iYnkiICB0aXRsZT0nJz4gIDwvcD4NCgkJICAgIAkJCQkJCQkJPHAgY2xhc3M9ImNjIj5DQzwvcD4NCgkJICAgIAkJCQkJCQk8L2E+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGlkPSJ2aWRlb18yNTM2IiAgc3R5bGU9ImRpc3BsYXk6bm9uZSI+DQogICAgICAgICAgICAgICAgICAgICAgICA8aDM+SG93IHRvIGVuYWJsZSBTZWN1cmVib290IGluIE5vdGVib29rIEJJT1M8L2gzPg0KICAgICAgICAgICAgICAgICAgICAgICAgPHA+IDwvcD4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aWZyYW1lIHdpZHRoPSI1MzAiIGhlaWdodD0iMzE1IiBzcmM9Imh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL2VtYmVkL1lZQVdxSU01c000IiBmcmFtZWJvcmRlcj0iMCIgYWxsb3dmdWxsc2NyZWVuPjwvaWZyYW1lPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQoJCSAgICAJCQkJCQkgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9saT5kAgUPFgIfAwUDRkFRZAIGDxYCHwMFjwE8YSBocmVmPSJodHRwOi8vd3d3LmFzdXMuY29tL3VzL3NlYXJjaC9yZXN1bHRzLmFzcHg/U2VhcmNoS2V5PU5vdGVib29rJnNlYXJjaFR5cGU9RkFRJklzU3VwcG9ydD1UcnVlIiB0YXJnZXQ9J19ibGFuaycgY2xhc3M9ImJoLW1vcmUiID5Nb3JlPC9hPmQCBw8WAh8DBcIGPGxpPjxhIGhyZWY9J2h0dHA6Ly93d3cuYXN1cy5jb20vdXMvc3VwcG9ydC9GQVEvMTAwODgyOS8nIHRhcmdldD0nX2JsYW5rJz5Ib3cgdG8gZW50ZXIgdGhlIEJJT1MgY29uZmlndXJhdGlvbiBvZiBteSBOb3RlYm9vaz88L2E+IDwvbGk+DQo8bGk+PGEgaHJlZj0naHR0cDovL3d3dy5hc3VzLmNvbS91cy9zdXBwb3J0L0ZBUS8xMDEzMDE1JyB0YXJnZXQ9J19ibGFuayc+V2luZG93cyAxMCAtIEhvdyB0byBlbnRlciBCSU9TIGNvbmZpZ3VyYXRpb24/PC9hPiA8L2xpPg0KPGxpPjxhIGhyZWY9J2h0dHA6Ly93d3cuYXN1cy5jb20vdXMvc3VwcG9ydC9GQVEvMTAwNjEzMycgdGFyZ2V0PSdfYmxhbmsnPldpbmRvd3MgOCAtIEhvdyB0byByZXN0b3JlIHRoZSBzeXN0ZW0gdG8gZmFjdG9yeSBkZWZhdWx0IHNldHRpbmdzPzwvYT4gPC9saT4NCjxsaT48YSBocmVmPSdodHRwOi8vd3d3LmFzdXMuY29tL3VzL3N1cHBvcnQvRkFRLzEwMDgyNzYnIHRhcmdldD0nX2JsYW5rJz5Ib3cgdG8gdXBkYXRlIHRoZSBCSU9TIHZlcnNpb24gaW4gV2luZG93cyBzeXN0ZW0/PC9hPiA8L2xpPg0KPGxpPjxhIGhyZWY9J2h0dHA6Ly93d3cuYXN1cy5jb20vdXMvc3VwcG9ydC9GQVEvMTAxMzAxOCcgdGFyZ2V0PSdfYmxhbmsnPldpbmRvd3MgMTAgLSBIb3cgdG8gZW50ZXIgU2FmZSBNb2RlPzwvYT4gPC9saT4NCjxsaT48YSBocmVmPSdodHRwOi8vd3d3LmFzdXMuY29tL3VzL3N1cHBvcnQvRkFRLzEwMTMwNzQnIHRhcmdldD0nX2JsYW5rJz5XaW5kb3dzIDEwIC0gSG93IHRvIGVudGVyIFNhZmUgTW9kZSBpZiBJIGNhbid0IGJvb3QgdGhlIHN5c3RlbSBzdWNjZXNzZnVsbHk/PC9hPiA8L2xpPg0KZAIIDxYCHwNlZAIJDxYCHwMFjwE8YSBocmVmPSJodHRwOi8vd3d3LmFzdXMuY29tL3VzL3NlYXJjaC9yZXN1bHRzLmFzcHg/U2VhcmNoS2V5PU5vdGVib29rJnNlYXJjaFR5cGU9RkFRJklzU3VwcG9ydD1UcnVlIiB0YXJnZXQ9J19ibGFuaycgY2xhc3M9ImJoLW1vcmUiID5Nb3JlPC9hPmQCCg8WAh8DBckEPGxpPjxhIGhyZWY9J2h0dHA6Ly93d3cuYXN1cy5jb20vdXMvc3VwcG9ydC9GQVEvMTAxMzAxNycgdGFyZ2V0PSdfYmxhbmsnPldpbmRvd3MgMTAgLSBIb3cgdG8gYm9vdCB0aGUgc3lzdGVtIGZyb20gVVNCIGRyaXZlL0NELVJPTT88L2E+IDwvbGk+DQo8bGk+PGEgaHJlZj0naHR0cDovL3d3dy5hc3VzLmNvbS91cy9zdXBwb3J0L0ZBUS8xMDEzMDY1JyB0YXJnZXQ9J19ibGFuayc+V2luZG93cyAxMCAtIEhvdyB0byByZXN0b3JlIHRoZSBzeXN0ZW0gdG8gZmFjdG9yeSBkZWZhdWx0IHNldHRpbmdzPzwvYT4gPC9saT4NCjxsaT48YSBocmVmPSdodHRwOi8vd3d3LmFzdXMuY29tL3VzL3N1cHBvcnQvRkFRLzEwMDk2MTMnIHRhcmdldD0nX2JsYW5rJz5TbWFydCBHZXN0dXJlIC0gSW50cm9kdWN0aW9uIG9mIEFTVVMgU21hcnQgR2VzdHVyZSBzb2Z0d2FyZTwvYT4gPC9saT4NCjxsaT48YSBocmVmPSdodHRwOi8vd3d3LmFzdXMuY29tL3VzL3N1cHBvcnQvRkFRLzEwMDgyNzcnIHRhcmdldD0nX2JsYW5rJz5Ib3cgdG8gYm9vdCB0aGUgc3lzdGVtIGZyb20gdGhlIFVTQiBkaXNrIG9yIHRoZSBDRC1ST00gZHJpdmU/PC9hPiA8L2xpPg0KZAILDxYCHwMFCFJlc291cmNlZAIMDxYCHwMFgRENCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InB1bGwtbGVmdCI+IA0KCQkgICAgCQkJCTx1bCA+IA0KICAgICAgICAgICAgICAgICAgICAgICAgCQ0KICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3M9InJlc291cmNlLWl0ZW0gY2xlYXJmaXgiPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj0iaHR0cDovL3d3dy5hc3VzLmNvbS9zdXBwb3J0L0FydGljbGUvNjA0LyIgIHRhcmdldD0nX2JsYW5rJz4NCgkJCQkgICAgCTxpbWcgIHdpZHRoPTUwIGhlaWdodD01MCBzcmM9Ii9zdXBwb3J0L2ltYWdlcy9zZWxmX3NlcnZpY2UvYmtfaW1hZ2UvMTE2MS5qcGciIGFsdD0iIj4NCgkJCQkgICAgCTxwPkFTVVMgQmF0dGVyeSBJbmZvcm1hdGlvbiBDZW50ZXI8L3A+DQoJCQkJICAgIAk8c3Bhbj48L3NwYW4+DQogICAgICAgICAgICAgICAgICAgICAgICA8L2E+DQoJCQkJICAgIDwvbGk+DQogICAgICAgICAgICAgICAgICAgIAkNCiAgICAgICAgICAgICAgICAgICAgPGxpIGNsYXNzPSJyZXNvdXJjZS1pdGVtIGNsZWFyZml4Ij4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxhIGhyZWY9Imh0dHA6Ly93d3cuYXN1cy5jb20vc3VwcG9ydC9BcnRpY2xlLzU4OC8iICB0YXJnZXQ9J19ibGFuayc+DQoJCQkJICAgIAk8aW1nICB3aWR0aD01MCBoZWlnaHQ9NTAgc3JjPSIvc3VwcG9ydC9pbWFnZXMvc2VsZl9zZXJ2aWNlL2JrX2ltYWdlLzExNjIuanBnIiBhbHQ9IiI+DQoJCQkJICAgIAk8cD5BU1VTIFNlcnZlckNhcmUgU2VydmljZSBQcm9ncmFtPC9wPg0KCQkJCSAgICAJPHNwYW4+PC9zcGFuPg0KICAgICAgICAgICAgICAgICAgICAgICAgPC9hPg0KCQkJCSAgICA8L2xpPg0KICAgICAgICAgICAgICAgICAgICAJDQogICAgICAgICAgICAgICAgICAgIDxsaSBjbGFzcz0icmVzb3VyY2UtaXRlbSBjbGVhcmZpeCI+DQogICAgICAgICAgICAgICAgICAgICAgICA8YSBocmVmPSJodHRwOi8vd3d3LmFzdXMuY29tL3N1cHBvcnQvQXJ0aWNsZS81NjYvIiAgdGFyZ2V0PSdfYmxhbmsnPg0KCQkJCSAgICAJPGltZyAgd2lkdGg9NTAgaGVpZ2h0PTUwIHNyYz0iL3N1cHBvcnQvaW1hZ2VzL3NlbGZfc2VydmljZS9ia19pbWFnZS8xMTYzLmpwZyIgYWx0PSIiPg0KCQkJCSAgICAJPHA+SG93IHRvIGZpbmQgcHJvZHVjdCBTZXJpYWwgTnVtYmVyPC9wPg0KCQkJCSAgICAJPHNwYW4+PC9zcGFuPg0KICAgICAgICAgICAgICAgICAgICAgICAgPC9hPg0KCQkJCSAgICA8L2xpPg0KICAgICAgICAgICAgICAgICAgICAJDQogICAgICAgICAgICAgICAgICAgIDxsaSBjbGFzcz0icmVzb3VyY2UtaXRlbSBjbGVhcmZpeCI+DQogICAgICAgICAgICAgICAgICAgICAgICA8YSBocmVmPSJodHRwOi8vd3d3LmFzdXMuY29tL3N1cHBvcnQvQXJ0aWNsZS81NjUvIiAgdGFyZ2V0PSdfYmxhbmsnPg0KCQkJCSAgICAJPGltZyAgd2lkdGg9NTAgaGVpZ2h0PTUwIHNyYz0iL3N1cHBvcnQvaW1hZ2VzL3NlbGZfc2VydmljZS9ia19pbWFnZS8xMTY0LmpwZyIgYWx0PSIiPg0KCQkJCSAgICAJPHA+SG93IHRvIEZpbmQgTW9kZWwgTmFtZTwvcD4NCgkJCQkgICAgCTxzcGFuPjwvc3Bhbj4NCiAgICAgICAgICAgICAgICAgICAgICAgIDwvYT4NCgkJCQkgICAgPC9saT4NCiAgICAgICAgICAgICAgICAgICAgCQ0KICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3M9InJlc291cmNlLWl0ZW0gY2xlYXJmaXgiPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj0iaHR0cDovL3d3dy5hc3VzLmNvbS91cy9zdXBwb3J0L0FydGljbGUvNzgyLyIgIHRhcmdldD0nX2JsYW5rJz4NCgkJCQkgICAgCTxpbWcgIHdpZHRoPTUwIGhlaWdodD01MCBzcmM9Ii9zdXBwb3J0L2ltYWdlcy9zZWxmX3NlcnZpY2UvYmtfaW1hZ2UvMjAzMC5qcGciIGFsdD0iIj4NCgkJCQkgICAgCTxwPk9yZGVyIFdpbmRvd3MgUmVjb3ZlcnkgTWVkaWEgKE5vdGVib29rIFBDIE9ubHkpPC9wPg0KCQkJCSAgICAJPHNwYW4+PC9zcGFuPg0KICAgICAgICAgICAgICAgICAgICAgICAgPC9hPg0KCQkJCSAgICA8L2xpPg0KICAgICAgICAgICAgICAgICAgICANCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC91bD4NCgkJICAgIAkJCQkgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgIGRk/ZYfE5FBI7b6M2DkKEagvuLVPzs="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A0A10521"> 
+   </div> 
+   <div class="wrapper"> 
+    <div class="w-top clearfix"> 
+     <div id="product-topinfo"> 
+      <div id="breadcrumbs"> 
+       <a href="/us/" id="breadcrumb1_a_home" target="_self">Home</a>
+       <span id="breadcrumb1_s1" style="display:inline">&nbsp;&gt;&nbsp;</span>
+       <a href="/us/support" id="breadcrumb1_a_support" target="_self" style="display:inline">Support</a>
+       <span id="breadcrumb1_s2" style="display:inline">&nbsp;&gt;&nbsp;</span>
+       <a href="../../../../uc_3/general/index.aspx" id="breadcrumb1_a_pagename" target="_self" style="display: none">[Page Name]</a> 
+       <span id="breadcrumb1_s_l1" style="display: none">&nbsp;&gt;&nbsp;</span>
+       <a href="../../../../uc_3/general/index.aspx" id="breadcrumb1_a_l1" target="_self" style="display: none">[level 1]</a> 
+       <span id="breadcrumb1_s_l2" style="display: none">&nbsp;&gt;&nbsp;</span>
+       <a href="../../../../uc_3/general/index.aspx" id="breadcrumb1_a_l2" target="_self" style="display: none">[level 2]</a> 
+       <span id="breadcrumb1_s_m" style="display: none">&nbsp;&gt;&nbsp;</span>
+       <a href="../../../../uc_3/general/index.aspx" id="breadcrumb1_a_m" target="_self" style="display: none">[model]</a> 
+      </div> 
+      <div class="pull-right" id="MDA" style="display: none"> 
+       <span class="mdatext">ASUS recommends Windows® 7.</span> 
+      </div> 
+     </div> 
+     <h1 id="pagename1_h1_page_name" class="page-title"></h1> 
+     <h1 class="page-title"> Notebook Quick Service</h1> 
+    </div> 
+    <div class="container"> 
+     <!--video section--> 
+     <div class="service-video"> 
+      <div class="inner"> 
+       <h2 class="section-title">Video</h2> 
+       <div class="video-list"> 
+        <a href="#" class="bh-arrow-left" id="arrow-left"></a> 
+        <a href="#" class="bh-arrow-right" id="arrow-right"></a> 
+        <div class="mask"> 
+         <ul id="video-box" class="viedo-ul clearfix" style="width:1500px;"> 
+          <li> <a href="#TB_inline?height=562&amp;width=650&amp;inlineId=video_2460" class="thickbox video-item"> <i class="tvc-icon"></i> <img class="img" width="175" height="100" src="http://img.youtube.com/vi/LKI6eQft6JA/2.jpg" alt=""> <p class="title" title="Download the BIOS files and the BIOS flash tools.">Download the BIOS files and the BIOS flash tools.</p> <p class="by" title=""> </p> <p class="cc">CC</p> </a> 
+           <div id="video_2460" style="display:none"> 
+            <h3>Download the BIOS files and the BIOS flash tools.</h3> 
+            <p> </p> 
+            <iframe width="530" height="315" src="https://www.youtube.com/embed/LKI6eQft6JA" frameborder="0" allowfullscreen></iframe> 
+           </div> </li> 
+          <li> <a href="#TB_inline?height=562&amp;width=650&amp;inlineId=video_2461" class="thickbox video-item"> <i class="tvc-icon"></i> <img class="img" width="175" height="100" src="http://img.youtube.com/vi/JNoM_NbMbGk/2.jpg" alt=""> <p class="title" title="Use ASUS Winflash to update BIOS in the Windows Operation System.">Use ASUS Winflash to update BIOS in the Windows Operation System.</p> <p class="by" title=""> </p> <p class="cc">CC</p> </a> 
+           <div id="video_2461" style="display:none"> 
+            <h3>Use ASUS Winflash to update BIOS in the Windows Operation System.</h3> 
+            <p> </p> 
+            <iframe width="530" height="315" src="https://www.youtube.com/embed/JNoM_NbMbGk" frameborder="0" allowfullscreen></iframe> 
+           </div> </li> 
+          <li> <a href="#TB_inline?height=562&amp;width=650&amp;inlineId=video_2462" class="thickbox video-item"> <i class="tvc-icon"></i> <img class="img" width="175" height="100" src="http://img.youtube.com/vi/ZjOvZAkUXUw/2.jpg" alt=""> <p class="title" title="How to check BIOS version in the Windows Operation System?">How to check BIOS version in the Windows Operation System?</p> <p class="by" title=""> </p> <p class="cc">CC</p> </a> 
+           <div id="video_2462" style="display:none"> 
+            <h3>How to check BIOS version in the Windows Operation System?</h3> 
+            <p> </p> 
+            <iframe width="530" height="315" src="https://www.youtube.com/embed/ZjOvZAkUXUw" frameborder="0" allowfullscreen></iframe> 
+           </div> </li> 
+          <li> <a href="#TB_inline?height=562&amp;width=650&amp;inlineId=video_2463" class="thickbox video-item"> <i class="tvc-icon"></i> <img class="img" width="175" height="100" src="http://img.youtube.com/vi/fWafAsrBFWs/2.jpg" alt=""> <p class="title" title="How to know the properties of Windows system?">How to know the properties of Windows system?</p> <p class="by" title=""> </p> <p class="cc">CC</p> </a> 
+           <div id="video_2463" style="display:none"> 
+            <h3>How to know the properties of Windows system?</h3> 
+            <p> </p> 
+            <iframe width="530" height="315" src="https://www.youtube.com/embed/fWafAsrBFWs" frameborder="0" allowfullscreen></iframe> 
+           </div> </li> 
+          <li> <a href="#TB_inline?height=562&amp;width=650&amp;inlineId=video_2459" class="thickbox video-item"> <i class="tvc-icon"></i> <img class="img" width="175" height="100" src="http://img.youtube.com/vi/Qgm85bZR5MY/2.jpg" alt=""> <p class="title" title="How to restore a Windows 8 laptop or PC to factory default settings?">How to restore a Windows 8 laptop or PC to factory default settings?</p> <p class="by" title=""> </p> <p class="cc">CC</p> </a> 
+           <div id="video_2459" style="display:none"> 
+            <h3>How to restore a Windows 8 laptop or PC to factory default settings?</h3> 
+            <p> </p> 
+            <iframe width="530" height="315" src="https://www.youtube.com/embed/Qgm85bZR5MY" frameborder="0" allowfullscreen></iframe> 
+           </div> </li> 
+          <li> <a href="#TB_inline?height=562&amp;width=650&amp;inlineId=video_2537" class="thickbox video-item"> <i class="tvc-icon"></i> <img class="img" width="175" height="100" src="http://img.youtube.com/vi/zqWAMMqIhNE/2.jpg" alt=""> <p class="title" title="How to boot from USB flash drive?">How to boot from USB flash drive?</p> <p class="by" title=""> </p> <p class="cc">CC</p> </a> 
+           <div id="video_2537" style="display:none"> 
+            <h3>How to boot from USB flash drive?</h3> 
+            <p> </p> 
+            <iframe width="530" height="315" src="https://www.youtube.com/embed/zqWAMMqIhNE" frameborder="0" allowfullscreen></iframe> 
+           </div> </li> 
+          <li> <a href="#TB_inline?height=562&amp;width=650&amp;inlineId=video_2536" class="thickbox video-item"> <i class="tvc-icon"></i> <img class="img" width="175" height="100" src="http://img.youtube.com/vi/YYAWqIM5sM4/2.jpg" alt=""> <p class="title" title="How to enable Secureboot in Notebook BIOS">How to enable Secureboot in Notebook BIOS</p> <p class="by" title=""> </p> <p class="cc">CC</p> </a> 
+           <div id="video_2536" style="display:none"> 
+            <h3>How to enable Secureboot in Notebook BIOS</h3> 
+            <p> </p> 
+            <iframe width="530" height="315" src="https://www.youtube.com/embed/YYAWqIM5sM4" frameborder="0" allowfullscreen></iframe> 
+           </div> </li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div id="pager2" class="pager"></div> 
+      </div> 
+     </div> 
+     <!-- 常見問題 --> 
+     <div class="service-faq"> 
+      <div class="inner"> 
+       <h2 class="section-title">FAQ</h2> 
+       <a href="#" class="bh-more"></a>
+       <a href="http://www.asus.com/us/search/results.aspx?SearchKey=Notebook&amp;searchType=FAQ&amp;IsSupport=True" target="_blank" class="bh-more">More</a> 
+       <ul class="ui-list"> 
+        <li><a href="http://www.asus.com/us/support/FAQ/1008829/" target="_blank">How to enter the BIOS configuration of my Notebook?</a> </li> 
+        <li><a href="http://www.asus.com/us/support/FAQ/1013015" target="_blank">Windows 10 - How to enter BIOS configuration?</a> </li> 
+        <li><a href="http://www.asus.com/us/support/FAQ/1006133" target="_blank">Windows 8 - How to restore the system to factory default settings?</a> </li> 
+        <li><a href="http://www.asus.com/us/support/FAQ/1008276" target="_blank">How to update the BIOS version in Windows system?</a> </li> 
+        <li><a href="http://www.asus.com/us/support/FAQ/1013018" target="_blank">Windows 10 - How to enter Safe Mode?</a> </li> 
+        <li><a href="http://www.asus.com/us/support/FAQ/1013074" target="_blank">Windows 10 - How to enter Safe Mode if I can't boot the system successfully?</a> </li> 
+       </ul> 
+      </div> 
+     </div> 
+     <!-- 論壇 --> 
+     <div class="service-forum"> 
+      <div class="inner"> 
+       <h2 class="section-title"></h2> 
+       <a href="#" class="bh-more"></a>
+       <a href="http://www.asus.com/us/search/results.aspx?SearchKey=Notebook&amp;searchType=FAQ&amp;IsSupport=True" target="_blank" class="bh-more">More</a> 
+       <ul class="ui-list"> 
+        <li><a href="http://www.asus.com/us/support/FAQ/1013017" target="_blank">Windows 10 - How to boot the system from USB drive/CD-ROM?</a> </li> 
+        <li><a href="http://www.asus.com/us/support/FAQ/1013065" target="_blank">Windows 10 - How to restore the system to factory default settings?</a> </li> 
+        <li><a href="http://www.asus.com/us/support/FAQ/1009613" target="_blank">Smart Gesture - Introduction of ASUS Smart Gesture software</a> </li> 
+        <li><a href="http://www.asus.com/us/support/FAQ/1008277" target="_blank">How to boot the system from the USB disk or the CD-ROM drive?</a> </li> 
+       </ul> 
+      </div> 
+     </div> 
+     <!--如果是台灣以外的self-service，那頁面上的"論壇"文字會是空白--> 
+     <script>
+                    if($(".service-forum h2").text()=="" || $(".service-forum h2").text()=="　") {
+                        $(".service-forum h2").html("<br>");
+                        $(".service-faq").css("border-right","0px");
+                        $(".service-faq .bh-more").css("display","none");
+                    }
+                </script> 
+     <!--更多訊息--> 
+     <div class="service-resource"> 
+      <div class="inner"> 
+       <h2 class="section-title">Resource</h2> 
+       <div class="resource-cont clearfix"> 
+        <div class="pull-left"> 
+         <ul> 
+          <li class="resource-item clearfix"> <a href="http://www.asus.com/support/Article/604/" target="_blank"> <img width="50" height="50" src="/support/images/self_service/bk_image/1161.jpg" alt=""> <p>ASUS Battery Information Center</p> <span></span> </a> </li> 
+          <li class="resource-item clearfix"> <a href="http://www.asus.com/support/Article/588/" target="_blank"> <img width="50" height="50" src="/support/images/self_service/bk_image/1162.jpg" alt=""> <p>ASUS ServerCare Service Program</p> <span></span> </a> </li> 
+          <li class="resource-item clearfix"> <a href="http://www.asus.com/support/Article/566/" target="_blank"> <img width="50" height="50" src="/support/images/self_service/bk_image/1163.jpg" alt=""> <p>How to find product Serial Number</p> <span></span> </a> </li> 
+          <li class="resource-item clearfix"> <a href="http://www.asus.com/support/Article/565/" target="_blank"> <img width="50" height="50" src="/support/images/self_service/bk_image/1164.jpg" alt=""> <p>How to Find Model Name</p> <span></span> </a> </li> 
+          <li class="resource-item clearfix"> <a href="http://www.asus.com/us/support/Article/782/" target="_blank"> <img width="50" height="50" src="/support/images/self_service/bk_image/2030.jpg" alt=""> <p>Order Windows Recovery Media (Notebook PC Only)</p> <span></span> </a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </form> 
+  <!-- H-A-7 --> 
+  <input name="page_info1$langNormal" type="hidden" id="langNormal" value="en-us"> 
+  <input name="page_info1$hd_lang_prefix" type="hidden" id="hd_lang_prefix" value="/us/support"> 
+  <input name="page_info1$hd_product" type="hidden" id="hd_product"> 
+  <input name="page_info1$hd_product_name" type="hidden" id="hd_product_name"> 
+  <input name="page_info1$hd_product_name_ml" type="hidden" id="hd_product_name_ml"> 
+  <input name="page_info1$hd_series" type="hidden" id="hd_series"> 
+  <input name="page_info1$hd_series_name" type="hidden" id="hd_series_name"> 
+  <input name="page_info1$hd_series_name_ml" type="hidden" id="hd_series_name_ml"> 
+  <input name="page_info1$hd_model" type="hidden" id="hd_model"> 
+  <input name="page_info1$hd_model_ml" type="hidden" id="hd_model_ml"> 
+  <input name="page_info1$hd_os" type="hidden" id="hd_os"> 
+  <input name="page_info1$hd_hid" type="hidden" id="hd_hid"> 
+  <input name="page_info1$hd_offical_url" type="hidden" id="hd_offical_url"> 
+  <!-- Google Tag Manager with Origin gaTrace --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script src="/support/js/gaTrace.js" type="text/javascript"></script> 
+  <!-- End Google Tag Manager --> 
+  <!--Online Chat--> 
+  <link href="/support/stylesheets/online-chat-btn.css" rel="stylesheet" type="text/css"> 
+  <script>
+    function inIframe() {
+        try {
+            return window.self !== window.top; //window.self means the current application , window.top means the top ahead application
+        } catch (e) {
+            return true;
+        }
+    }
+</script> 
+  <script type="text/javascript">
+    $(document).ready(function () {
+        var IsInIframe = inIframe();
+
+        if (IsInIframe) {
+            return false;
+        }
+
+        var _Local = $("#langNormal").val();
+
+        var onlineService = initOnlineService(_Local);
+        onlineService.init();
+    });
+
+    function initOnlineService(Local) {
+        var ApiUrl = window.location.protocol + "//demeter.asus.com/WSC/Support_API_New/SupportNewAPI/GetOnlineChatUrl/",
+            ApiOption;
+
+        ApiUrl += Local;
+
+        return {
+            init: function () {
+                if ($("#online-service").length > 0) return;
+
+                $.getJSON(ApiUrl + "?callback=?", ApiOption).done(function (result) {
+                    if (result && result.StatusCode == 0) {
+                        var onlineServiceString = result.Link_Name ? result.Link_Name : "Online Chat",
+                            serviceUrl = result.URL;
+
+                        onlineChatBtn = '<div id="online-service"><a class="btn" onclick="javascript:window.open(\'' + serviceUrl + '\', \'\',  \'width=520, height=700, scrollbars=yes\'); ga(\'send\', \'event\', \'button\', \'clicked\', \'onlinechat\');">' + onlineServiceString + '</a></div>';
+                        $(onlineChatBtn).appendTo("body");
+                    }
+                });
+            }
+        }
+    };
+</script> 
+  <!--Redirect en--> 
+  <script src="/support/js/asus_banner.js"></script> 
+  <script>
+           asus.banner({
+               click_back: "arrow-left",
+               click_next: "arrow-right",
+               auto_click_hide: false,
+               auto_next_time: 0,
+               move_time: 1000,
+               move_div: "video-box",
+               in_className: "active",
+               keyboard: false,
+               Mask: false,
+               loop: false,
+               click_end_className: "no_next",
+               n: $(window).width() > 1079 ? 5 : 1,
+               ease: 'Expo.easeInOut'
+               //time_bar : "sec-bar",
+           });
+	  </script> 
+  <script type="text/javascript">
+            //loading local css file
+            $(document).ready(function () {
+                var css_name = "";
+                var lang_prefix = window.location.pathname.split("/");
+                if (lang_prefix.length >= 2)
+                    if (lang_prefix[1] == "support")
+                        css_name = "en.css";
+                    else
+                        css_name = lang_prefix[1] + ".css";
+
+                if (window.console)
+                    console.log("css name: " + css_name);
+
+                if (window.location.hostname.indexOf("asus.com.cn") >= 0) {
+                    css_name = "cn.css";
+                }
+            
+                if (window.console)
+                    console.log("css name: " + css_name);
+
+                if (css_name != "") {
+                    var link = document.createElement('link');
+                    link.type = 'text/css';
+                    link.rel = "stylesheet";
+                    link.href = "/support/stylesheets/local/" + css_name;
+                    document.getElementsByTagName("head")[0].appendChild(link);
+                }
+
+                //video play box
+                $(".vEmbedded > a").colorbox({ iframe: true, width: "70%", height: "80%" });
+
+            });
+        </script>   
+ </body>
+</html>

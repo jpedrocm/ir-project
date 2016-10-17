@@ -1,0 +1,256 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:title" content="GET READY FOR Intel® Core™ i7 X-series Processors"> 
+  <meta name="twitter:description" content="UPDATE YOUR ASUS X99 SERIES MOTHERBOARD UEFI BIOS IN A FLASH"> 
+  <meta property="og:title" name="title" content="GET READY FOR Intel® Core™ i7 X-series Processors"> 
+  <meta property="og:description" name="description" content="UPDATE YOUR ASUS X99 SERIES MOTHERBOARD UEFI BIOS IN A FLASH"> 
+  <link rel="shortcut icon" href="http://www.asus.com/media/img/favicon.ico"> 
+  <title>GET READY FOR Intel® Core™ i7 X-series Processors</title> 
+  <link href="Style/normalize.css" rel="stylesheet" media="screen"> 
+  <link href="Style/default.css" rel="stylesheet" media="screen"> 
+  <link href="Style/responsive.css" rel="stylesheet" media="screen"> 
+  <!--[if lt IE 9]>  
+<link href="Style/ie.css" rel="stylesheet" type="text/css" media="screen" />  
+<![endif]--> 
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> 
+  <script type="text/javascript" src="Scripts/default.js"></script> 
+ </head> 
+ <body> 
+  <div class="wrapper" id="top"> 
+   <div class="header"> 
+    <div class="box"> 
+     <img class="hero-mobile" src="Image/hero-mobile.jpg"> 
+     <h1>GET READY FOR Intel® Core™ i7 X-series Processors</h1> 
+     <h2>UPDATE YOUR ASUS X99 SERIES MOTHERBOARD UEFI BIOS IN A FLASH</h2> 
+     <ul class="nav"> 
+      <li><a href="#flashback" class="nav-1"><img src="Image/nav1.png">UPDATE BY<br>USB BIOS FLASHBACK</a></li> 
+      <li><a href="#ezflash" class="nav-2"><img src="Image/nav2.png">UPDATE BY<br>EZ FLASH 2</a></li> 
+      <li><a href="#models" class="nav-3"><img src="Image/nav3.png">SUPPORTED<br>BIOS VERSION</a></li> 
+     </ul> 
+    </div> 
+   </div>
+   <!--end of .header--> 
+   <div class="section-1" id="flashback"> 
+    <h1 class="title">update steps</h1> 
+    <div class="box"> 
+     <div class="system-requirements"> 
+      <h2>USB BIOS Flashback</h2> 
+      <div class="checklist"> 
+       <h3><span>System requirements:</span></h3> 
+       <ul> 
+        <li>Power supply</li> 
+        <li>USB flash drive</li> 
+        <li>ASUS X99 Series motherboards featuring USB BIOS Flashback</li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="steps step-1"> 
+      <h2><span>1.</span> <b>Select </b>the exact UEFI BIOS file</h2> 
+      <p>Launch this software from AI Suite 3 and click ”<b>Check for New BIOS Update</b>” to search for the latest BIOS.</p> 
+      <div class="example"> 
+       <p class="example-title">Example:</p> 
+       <p class="bios-title">+BIOS</p> 
+       <a href="#" class="btn-look btn-look-1-1"><img src="Image/screenshot-th-1-1.jpg"></a> 
+      </div> 
+     </div> 
+     <div class="steps step-2"> 
+      <h2><span>2.</span> <b>Download </b>the BIOS file and save it to root folder on the USB storage device</h2> 
+      <p>Select the USB storage device and click <b>“Download.”</b> The BIOS file will be automatically renamed and saved to the top-level(root) folder on the USB storage device.</p> 
+      <div class="example"> 
+       <p class="example-title">Example:</p> 
+       <p class="bios-title">+BIOS Utilities</p> 
+       <a href="#" class="btn-look btn-look-1-2"><img src="Image/screenshot-th-1-2.jpg"></a> 
+      </div> 
+     </div> 
+     <div class="steps step-3"> 
+      <h2><span>3.</span> <b>Connect </b>a power supply to your system</h2> 
+      <img src="Image/connect.jpg"> 
+     </div> 
+     <div class="steps step-4"> 
+      <h2><span>4.</span> <b>Plug </b>USB storage device and press the button to complete the BIOS update</h2> 
+      <p>Plug the USB storage device into the motherboard’s USB BIOS Flashback port. Now press and hold USB BIOS Flashback button/ROG Connect button for&nbsp;three seconds&nbsp;until the LED begins to blink, then release.</p> 
+      <img src="Image/plug.jpg"> 
+     </div> 
+    </div>
+    <!--end of .box--> 
+   </div>
+   <!--end of .section-1--> 
+   <div class="section-2" id="ez-update"> 
+    <a class="back-to-top back-to-top-1" href="#top">Back to top</a> 
+    <div class="box"> 
+     <div class="system-requirements"> 
+      <h2>EZ FLASH 2</h2> 
+      <div class="checklist"> 
+       <h3>System requirements:</h3> 
+       <ul> 
+        <li>Boot your ASUS motherboard-based system with a current-generation Intel® Core™ Processor installed. When the update is complete, you can replace the current processor with Intel® Core™ i7 X-series Processors.</li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="steps step-1"> 
+      <h2><span>1.</span> <b>Download</b> latest BIOS file</h2> 
+      <p>Download the supported BIOS file from the support site. Rename the downloaded BIOS CAP file according to your model name and save it to a USB flash drive.</p> 
+     </div> 
+     <div class="steps step-2"> 
+      <h2><span>2.</span> <b>Enter </b>EZ Flash 2 setup</h2> 
+      <p>To enter the BIOS, press Delete (Del) or F2 during your system’s power-on, self-test (POST) procedure. In the BIOS, press F7 to access Advanced Mode, and then select Tool followed by ASUS EZ Flash 2 Utility.</p> 
+      <div class="example"> 
+       <a href="#" class="btn-look btn-look-2-2"><img src="Image/screenshot-th-2-2.jpg"></a> 
+      </div> 
+     </div> 
+     <div class="steps step-3"> 
+      <h2><span>3.</span> <b>Locate</b> the BIOS file</h2> 
+      <p>Use the ASUS EZ Flash 2 Utility page to locate the BIOS file saved on your USB storage device, then press Enter to load BIOS file. Follow the on-screen instruction to start updating BIOS.</p> 
+      <div class="example"> 
+       <a href="#" class="btn-look btn-look-2-3"><img src="Image/screenshot-th-2-3.jpg"></a> 
+      </div> 
+     </div> 
+     <div class="steps step-4"> 
+      <h2><span>4.</span> <b>Update</b> automatically</h2> 
+      <p>Wait for EZ Flash 2 to automatically update the BIOS. Once complete, your system will automatically restart.</p> 
+     </div> 
+    </div>
+    <!--end of .box--> 
+   </div>
+   <!--end of .section-2--> 
+   <div class="section-4" id="models"> 
+    <h1 class="title">SUPPORTED MODEL LIST</h1> 
+    <div class="box"> 
+     <p class="intro">The following ASUS X99 Series motherboards can be updated with the listed (or later) BIOS version for compatibility with the Intel<sup>®</sup> Core™ i7 X-series Processors</p> 
+     <table class="spec"> 
+      <tbody>
+       <tr> 
+        <th rowspan="2" scope="col" valign="middle" width="80">Chipset</th> 
+        <th rowspan="2" scope="col" valign="middle" width="300">Model Name</th> 
+        <th rowspan="2" scope="col" valign="middle">UEFI BIOS <br>Version</th> 
+        <th colspan="2" scope="col" style="border-bottom: 1px solid #000;">UEFI BIOS Update Tool</th> 
+       </tr> 
+       <tr> 
+        <th>BIOS Flashback</th> 
+        <th>EZ Update 2</th> 
+       </tr> 
+       <!--A88X--> 
+       <tr> 
+        <td class="chipset" rowspan="16">X99</td> 
+        <td class="name"><a href="http://www.asus.com/Motherboards/X99DELUXEU31/" target="_blank">X99-DELUXE/U3.1</a></td> 
+        <td><a href="http://www.asus.com/Motherboards/X99DELUXEU31/HelpDesk_Download/" target="_blank">3101</a></td> 
+        <td><span class="yes">Yes</span></td> 
+        <td><span class="yes">Yes</span></td> 
+       </tr> 
+       <tr> 
+        <td class="name"><a href="http://www.asus.com/Motherboards/X99DELUXE/" target="_blank">X99-DELUXE</a></td> 
+        <td><a href="http://www.asus.com/Motherboards/X99DELUXE/HelpDesk_Download/" target="_blank">3101</a></td> 
+        <td><span class="yes">Yes</span></td> 
+        <td><span class="yes">Yes</span></td> 
+       </tr> 
+       <tr> 
+        <td class="name"><a href="http://www.asus.com/Motherboards/X99S/" target="_blank">X99-S</a></td> 
+        <td><a href="http://www.asus.com/Motherboards/X99S/HelpDesk_Download/" target="_blank">3101</a></td> 
+        <td><span class="yes">Yes</span></td> 
+        <td><span class="yes">Yes</span></td> 
+       </tr> 
+       <tr> 
+        <td class="name"><a href="http://www.asus.com/Motherboards/X99PROUSB_31/" target="_blank">X99-PRO/USB 3.1</a></td> 
+        <td><a href="http://www.asus.com/Motherboards/X99PROUSB_31/HelpDesk_Download/" target="_blank">3101</a></td> 
+        <td><span class="yes">Yes</span></td> 
+        <td><span class="yes">Yes</span></td> 
+       </tr> 
+       <tr> 
+        <td class="name"><a href="http://www.asus.com/Motherboards/X99PRO/" target="_blank">X99-PRO</a></td> 
+        <td><a href="http://www.asus.com/Motherboards/X99PRO/HelpDesk_Download/" target="_blank">3101</a></td> 
+        <td><span class="yes">Yes</span></td> 
+        <td><span class="yes">Yes</span></td> 
+       </tr> 
+       <tr> 
+        <td class="name"><a href="http://www.asus.com/Motherboards/X99AUSB_31/" target="_blank">X99-A/USB 3.1</a></td> 
+        <td><a href="http://www.asus.com/Motherboards/X99AUSB_31/HelpDesk_Download/" target="_blank">3101</a></td> 
+        <td><span class="yes">Yes</span></td> 
+        <td><span class="yes">Yes</span></td> 
+       </tr> 
+       <tr> 
+        <td class="name"><a href="http://www.asus.com/Motherboards/X99AUSB_31TRANSFER_EXPRESS/" target="_blank">X99-A/USB 3.1(Transfer Express)</a></td> 
+        <td><a href="http://www.asus.com/Motherboards/X99AUSB_31TRANSFER_EXPRESS/HelpDesk_Download/" target="_blank">3101</a></td> 
+        <td><span class="yes">Yes</span></td> 
+        <td><span class="yes">Yes</span></td> 
+       </tr> 
+       <tr> 
+        <td class="name"><a href="http://www.asus.com/Motherboards/X99A/" target="_blank">X99-A</a></td> 
+        <td><a href="http://www.asus.com/Motherboards/X99A/HelpDesk_Download/" target="_blank">3101</a></td> 
+        <td><span class="yes">Yes</span></td> 
+        <td><span class="yes">Yes</span></td> 
+       </tr> 
+       <tr> 
+        <td class="name"><a href="http://www.asus.com/Motherboards/RAMPAGE_V_EXTREMEU31/" target="_blank">RAMPAGE V EXTREME/U3.1</a></td> 
+        <td><a href="http://www.asus.com/Motherboards/RAMPAGE_V_EXTREMEU31/HelpDesk_Download/" target="_blank">3202</a></td> 
+        <td><span class="yes">Yes</span></td> 
+        <td><span class="yes">Yes</span></td> 
+       </tr> 
+       <tr> 
+        <td class="name"><a href="http://www.asus.com/Motherboards/RAMPAGE_V_EXTREME/" target="_blank">RAMPAGE V EXTREME</a></td> 
+        <td><a href="http://www.asus.com/Motherboards/RAMPAGE_V_EXTREME/HelpDesk_Download/" target="_blank">3202</a></td> 
+        <td><span class="yes">Yes</span></td> 
+        <td><span class="yes">Yes</span></td> 
+       </tr> 
+       <tr> 
+        <td class="name"><a href="http://www.asus.com/Motherboards/SABERTOOTH_X99/" target="_blank">SABERTOOTH X99</a></td> 
+        <td><a href="http://www.asus.com/Motherboards/SABERTOOTH_X99/HelpDesk_Download/" target="_blank">3101</a></td> 
+        <td><span class="yes">Yes</span></td> 
+        <td><span class="yes">Yes</span></td> 
+       </tr> 
+       <tr> 
+        <td class="name"><a href="http://www.asus.com/Motherboards/X99E_WSUSB_31/" target="_blank">X99-E WS/USB 3.1</a></td> 
+        <td><a href="http://dlcdnet.asus.com/pub/ASUS/mb/Socket2011-R3/X99-E_WS_USB31/BIOS/X99-E-WS-USB31-ASUS-3101.zip?_ga=1.210216659.754818377.1440649528" target="_blank">3101</a></td> 
+        <td><span class="yes">Yes</span></td> 
+        <td><span class="yes">Yes</span></td> 
+       </tr> 
+       <tr> 
+        <td class="name"><a href="http://www.asus.com/Motherboards/X99E_WS/" target="_blank">X99-E WS</a></td> 
+        <td><a href="http://dlcdnet.asus.com/pub/ASUS/mb/Socket2011-R3/X99-E_WS/BIOS/X99-E-WS-ASUS-3101.zip?_ga=1.210216659.754818377.1440649528" target="_blank">3101</a></td> 
+        <td><span class="yes">Yes</span></td> 
+        <td><span class="yes">Yes</span></td> 
+       </tr> 
+       <tr> 
+        <td class="name"><a href="http://www.asus.com/Motherboards/X99WSIPMI/" target="_blank">X99-WS/IPMI</a></td> 
+        <td><a href="http://dlcdnet.asus.com/pub/ASUS/mb/Socket2011-R3/X99-WS_IPMI/BIOS/X99-WS-ASUS-IPMI-3006.zip?_ga=1.184935791.754818377.1440649528" target="_blank">3006</a></td> 
+        <td><span class="yes">Yes</span></td> 
+        <td><span class="yes">Yes</span></td> 
+       </tr> 
+       <tr> 
+        <td class="name"><a href="http://www.asus.com/Motherboards/X99M_WS/" target="_blank">X99-M WS</a></td> 
+        <td><a href="http://dlcdnet.asus.com/pub/ASUS/mb/Socket2011-R3/X99-M_WS/BIOS/X99-M-WS-ASUS-3003.zip?_ga=1.210813907.754818377.1440649528" target="_blank">3003</a></td> 
+        <td><span class="yes">Yes</span></td> 
+        <td><span class="yes">Yes</span></td> 
+       </tr> 
+       <tr> 
+        <td class="name"><a href="http://www.asus.com/Motherboards/X99-M-WSSE/" target="_blank">X99-M WS/SE</a></td> 
+        <td><a href="http://dlcdnet.asus.com/pub/ASUS/mb/Socket2011-R3/X99-M_WS_SE/BIOS/X99-M-WS-SE-ASUS-3003.zip?_ga=1.151954175.754818377.1440649528" target="_blank">3003</a></td> 
+        <td><span class="yes">Yes</span></td> 
+        <td><span class="yes">Yes</span></td> 
+       </tr> 
+      </tbody>
+     </table> 
+     <p class="notice">* The Intel® Xeon™ Processor Family is designed for servers. Some features may not be supported when installed on X99 series chipsets. For more details, refer to ASUS support site at <a href="http://support.asus.com" target="_blank">http://support.asus.com</a></p> 
+    </div>
+    <!--end of .box--> 
+    <a class="back-to-top" href="#top">Back to top</a> 
+   </div>
+   <!--end of .section-4--> 
+   <div class="footer"> 
+    <p class="credit">The specifications and price are subject to change without prior notice.<br>®2016 ASUSTek Computer Inc. All rights reserved.<br><a href="http://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Privacy_" target="_blank">Legal information</a>&nbsp;&nbsp;&nbsp;<a href="http://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Official" target="_blank">Privacy Policy</a></p> 
+   </div> 
+  </div>
+  <!--end of .wrapper--> 
+  <div class="mask"></div> 
+  <div class="popout"> 
+   <img class="screenshot-1-1" src="Image/pop-step-1-1.jpg"> 
+   <img class="screenshot-1-2" src="Image/pop-step-1-2.jpg"> 
+   <img class="screenshot-2-2" src="Image/pop-step-2-2.png"> 
+   <img class="screenshot-2-3" src="Image/pop-step-2-3.png"> 
+   <span class="close icon-close"></span> 
+  </div>   
+ </body>
+</html>

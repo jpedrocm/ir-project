@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <link href="css/reset.css" rel="stylesheet" type="text/css"> 
+  <link href="css/layout.css" rel="stylesheet" type="text/css">  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <title>ASUS │ WoW</title> 
+ </head> 
+ <body> 
+  <div id="wrapper"> 
+   <div id="header"> 
+    <a href="http://www.asus.com/"> 
+     <div class="logo"></div> </a> 
+   </div> 
+   <div id="sub02"> 
+    <div class="title01"> 
+     <img src="img/title01.png"> 
+     <a href="http://www.asus.com/event/info/activity_gaming_motherboard" class="redeem_now" title="Wymień kupon już teraz" target="_blank"><img src="img/redeem_now.png"></a> 
+    </div> 
+    <div class="title02"> 
+     <img src="img/title02.png"> 
+     <a href="http://www.asus.com/event/info/activity_gaming_graphics-cards" class="redeem_now" title="Wymień kupon już teraz" target="_blank"><img src="img/redeem_now.png"></a> 
+    </div> 
+   </div> 
+   <div id="sub03"> 
+    <ul class="sub02ul_a"> 
+     <li> <a href="http://www.asus.com/pl/Motherboards/ROG-Republic-of-Gamers-Products/" target="_blank" title="REPUBLIC OF GAMERS">‧ REPUBLIC OF GAMERS</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Motherboards/Pro-Gaming-Products/" target="_blank" title="PRO-GAMING">‧ PRO-GAMING</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Motherboards/ASUS-Signature-Products/" target="_blank" title="ASUS SIGNATURE">‧ ASUS SIGNATURE</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Motherboards/TUF-247-Durability-Products/" target="_blank" title="TUF">‧ TUF</a> </li> 
+    </ul> 
+    <ul class="sub03ul_a"> 
+     <li> <a href="http://www.asus.com/pl/Graphics-Cards/" target="_blank" title="GEFORCE GTX 750 TI AND ABOVE">‧ GEFORCE GTX 750 TI I MODELE WYŻSZE </a> </li> 
+     <li> <a href="http://www.asus.com/pl/Graphics-Cards/" target="_blank" title="RADEON R7 360 AND ABOVE">‧ RADEON R7 360 I MODELE WYŻSZE</a> </li> 
+    </ul> 
+   </div> 
+   <div id="sub04"> 
+    <a href="http://www.asus.com/event/info/activity_gaming_monitors" class="redeem_now a" title="Wymień kupon już teraz" target="_blank"><img src="img/redeem_now.png"></a> 
+    <a href="http://asus.worldofwarships.com" class="redeem_now b" title="Wymień kupon już teraz" target="_blank"><img src="img/redeem_now.png"></a> 
+   </div> 
+   <div id="sub05"> 
+    <ul class="sub04ul_a sub_h"> 
+     <li> <a href="http://www.asus.com/pl/Monitors/ROG_SWIFT_PG278Q/" target="_blank" title="PG278Q">‧ PG278Q</a> </li> 
+     <!-- <li>
+        <a href="#" target="_blank" title="PG279Q">‧ PG279Q</a>
+      </li>
+      <li>
+        <a href="#" target="_blank" title="PG27AQ">‧ PG27AQ</a>
+      </li> --> 
+     <li> <a href="http://www.asus.com/pl/Monitors/MG279Q/" target="_blank" title="MG279Q">‧ MG279Q</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Monitors/MG278Q-Gaming-Monitor/" target="_blank" title="MG278Q">‧ MG278Q</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Monitors/VG248QE/" target="_blank" title="VG248QE">‧ VG248QE</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Monitors/VG278HE/" target="_blank" title="VG278HE">‧ VG278HE</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Monitors/VX278Q/" target="_blank" title="VX278Q">‧ VX278Q</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Monitors/VX278H/" target="_blank" title="VX278H">‧ VX278H</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Monitors/VX248H/" target="_blank" title="VX248H">‧ VX248H</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Monitors/VX238H/" target="_blank" title="VX238H">‧ VX238H</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Monitors/VX228H/" target="_blank" title="VX228H">‧ VX228H</a> </li> 
+     <!-- <li>
+        <a href="#" target="_blank" title="VP278Q">‧ VP278Q</a>
+      </li>
+      <li>
+        <a href="#" target="_blank" title="VP278H">‧ VP278H</a>
+      </li>
+      <li>
+        <a href="#" target="_blank" title="VP247H">‧ VP247H</a>
+      </li>
+      <li>
+        <a href="#" target="_blank" title="VP228H">‧ VP228H</a>
+      </li> --> 
+    </ul> 
+    <ul class="sub04ul_b sub_h"> 
+     <li> <a href="http://www.asus.com/pl/Sound-Cards/STRIX-RAID-DLX/" target="_blank" title="STRIX RAID DLX">‧ STRIX RAID DLX</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Sound-Cards/STRIX-RAID-PRO/ " target="_blank" title="STRIX RAID PRO">‧ STRIX RAID PRO</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Sound-Cards/STRIX-SOAR/" target="_blank" title="STRIX SOAR">‧ STRIX SOAR</a> </li>
+     <br> 
+     <!-- <li>
+        <a href="https://www.asus.com/pl/Sound/STRIX_RAID_DLX/" target="_blank" title="STRIX RAID DLX">‧ STRIX RAID DLX</a>
+      </li>
+      <li>
+        <a href="https://www.asus.com/pl/Sound/STRIX_RAID_PRO/" target="_blank" title="STRIX RAID PRO">‧ STRIX RAID PRO</a>
+      </li>
+      <li>
+        <a href="https://www.asus.com/pl/Sound/STRIX_SOAR/" target="_blank" title="STRIX SOAR">‧ STRIX SOAR</a>
+      </li> --> 
+     <!--     <li>
+        <!-- <a href="http://www.asus.com/pl/Sound_Cards/ROG_Xonar_Phoebus/" target="_blank" title="ROG XONAR PHOEBUS">‧ ROG XONAR PHOEBUS</a> -->  --&gt; 
+     <li> <a href="http://www.asus.com/pl/Sound_Cards/Xonar_DX/" target="_blank" title="XONAR DX">‧ XONAR DX</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Sound_Cards/Xonar_U7/" target="_blank" title="XONAR U7">‧ XONAR U7</a> </li> 
+    </ul> 
+   </div> 
+   <div id="sub06"> 
+    <a href="http://www.asus.com/event/info/activity_gaming_notebooks" class="redeem_now a" title="Wymień kupon już teraz" target="_blank"><img src="img/redeem_now.png"></a> 
+    <ul class="sub06ul_a"> 
+     <li> <a href="http://www.asus.com/pl/Notebooks/ROG-G751JL/" target="_blank" title="ROG G751JL">‧ ROG G751JL</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Notebooks/ROG-G751JT/" target="_blank" title="ROG G751JT">‧ ROG G751JT</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Notebooks/ROG-G751JY/" target="_blank" title="ROG G751JY">‧ ROG G751JY</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Notebooks/ROG-G751JY/" target="_blank" title="ROG GL752VW">‧ ROG GL752VW</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Notebooks/ROG-G752VT/" target="_blank" title="G752VT">‧ ROG G752VT</a> </li> 
+     <li> <a href="http://www.asus.com/Notebooks/ROG-G752VY/" target="_blank" title="G752VY">‧ ROG G752VY</a> </li> 
+     <li> <a href="http://www.asus.com/Notebooks/ROG-G752VL/" target="_blank" title="G752VL">‧ ROG G752VYL</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Notebooks/ROG-GL552VW" target="_blank" title="GL552VW">‧ ROG GL552VW</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Notebooks/ROG-GL552JX/" target="_blank" title="GL552JX">‧ ROG GL552JX</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Notebooks/ROG-G551JW/" target="_blank" title="G551JW">‧ ROG G551JW</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Notebooks/ROG-G551JX/" target="_blank" title="G551JX">‧ ROG G551JX</a> </li> 
+    </ul> 
+    <a href="http://asus.worldofwarships.com" class="redeem_now b" title="Wymień kupon już teraz" target="_blank"><img src="img/redeem_now.png"></a> 
+    <ul class="sub06ul_b"> 
+     <li> <a href="http://www.asus.com/pl/ROG_Console_PC/ROG_GR8/" target="_blank" title="ROG GR8">‧ ROG GR8</a> </li> 
+     <li> <a href="http://www.asus.com/pl/ROG_Console_PC/ROG_GR6/" target="_blank" title="ROG GR6">‧ ROG GR6</a> </li> 
+    </ul> 
+   </div> 
+   <div id="sub07"> 
+    <a href="http://asus.worldofwarships.com" class="redeem_now a" title="Wymień kupon już teraz" target="_blank"><img src="img/redeem_now.png"></a> 
+    <ul class="sub07ul_b"> 
+     <li> <a href="http://www.asus.com/Tower-PCs/ROG-G20CB/" target="_blank" title="ROG G20CB">‧ ROG G20CB</a> </li> 
+     <li> <a href="http://www.asus.com/Tower-PCs/G11CB/" target="_blank" title="G11CB">‧ G11CB</a> </li> 
+     <li> <a href="http://www.asus.com/Tower-PCs/G11CD/" target="_blank" title="G11CD">‧ G11CD</a> </li> 
+    </ul> 
+   </div> 
+   <div id="sub08"> 
+    <a href="http://asus.worldofwarships.com" class="redeem_now a" title="Wymień kupon już teraz" target="_blank"><img src="img/redeem_now.png"></a> 
+    <ul class="sub08ul_b"> 
+     <li> <a href="http://www.asus.com/pl/Gaming/Orion/" target="_blank" title="ROG ORION">‧ ROG ORION</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Gaming/Orion_PRO/" target="_blank" title="ROG ORION PRO">‧ ROG ORION PRO</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Gaming/STRIX_PRO/" target="_blank" title="STRIX PRO">‧ STRIX PRO</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Gaming/STRIX_20/" target="_blank" title="STRIX 2.0">‧ STRIX 2.0</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Gaming/ECHELON_FOREST/" target="_blank" title="Echelon Forest">‧ Echelon Forest</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Gaming/ECHELON_NAVY/" target="_blank" title="Echelon Navy">‧ Echelon Navy</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Gaming/CERBERUS/" target="_blank" title="Cerberus">‧ Cerberus</a> </li> 
+    </ul> 
+   </div> 
+   <div id="sub09"> 
+    <a href="http://asus.worldofwarships.com" class="redeem_now a" title="Wymień kupon już teraz" target="_blank"><img src="img/redeem_now.png"></a> 
+    <ul class="sub09ul_a"> 
+     <li> <a href="http://www.asus.com/pl/Keyboards_Mice/ROG_Gladius/" target="_blank" title="ROG GLADIUS Gaming Mouse">‧ ROG GLADIUS Gaming Mouse</a> </li> 
+     <li> <a href="http://www.asus.com/pl/Gaming/ROG_Sica/" target="_blank" title="ROG SICA Gaming Mouse">‧ ROG SICA Gaming Mouse</a> </li> 
+    </ul> 
+    <ul class="sub09ul_b"> 
+     <li> <a href="http://www.asus.com/pl/Gaming/STRIX_CLAW/" target="_blank" title="STRIX CLAW Gaming Mouse">‧ STRIX CLAW Gaming Mouse</a> </li> 
+     <li> <a href="https://www.asus.com/pl/Gaming/STRIX_CLAW_DARK_EDITION/" target="_blank" title="STRIX CLAW DARK EDITION Gaming Mouse">‧ STRIX CLAW DARK EDITION Gaming Mouse</a> </li> 
+     <li> <a href="https://www.asus.com/pl/Gaming/STRIX_TACTIC_PRO/" target="_blank" title="STRIX TACTIC PRO Gaming Keyboard">‧ STRIX TACTIC PRO Gaming Keyboard</a> </li> 
+    </ul> 
+    <a href="http://asus.worldofwarships.com" class="in-game" title="Masz już kod?
+Zdobądź swoje bonusy
+" target="_blank"><img src="img/btn01.jpg"></a> 
+    <a href="http://www.asus.com/event/" class="code-first" title="Nie masz jeszcze kodu?
+Najpierw zdobądź kod
+" target="_blank"><img src="img/btn02.jpg"></a> 
+    <p class="note">Modele, które biorą udział w promocji, mogą różnić się w zależności od regionu lub kraju</p> 
+   </div> 
+   <div id="sub10"> 
+    <div class="point_area"> 
+     <ul> 
+      <li> 1. Przejdź na stronę: <a href="http://www.asus.com/event/" target="_blank" title="ASUS events">www.asus.com/event/</a> </li> 
+      <li> 2. Wpisz numer seryjny produktu (na opakowaniu) i numer PPID (na produkcie) </li> 
+      <li> 3. Odbierz cyfrowy kod bezpośrednio ze strony (po uprzedniej rejestracji) </li> 
+      <li> 4. Kod zostanie również wysłany na Twoją skrzynkę pocztową </li> 
+      <li> 5. Przejdź na stronę: <a href="http://asus.worldofwarships.com" target="_blank" title="http://asus.worldofwarships.com">http://asus.worldofwarships.com</a> </li> 
+      <li> 6. Wpisz kod i przejdź na stronę rejestracji Wargaming </li> 
+      <li> 7. Zarejestruj nowe konto Wargaming ID </li> 
+      <li> 8. Pobierz i zainstaluj na swoim komputerze grę World of Warships i odbierz swój bonus </li> 
+      <li> <span style=" color:#da0016 ">* W przypadku komputerów stacjonarnych, kart dźwiękowych, zestawów słuchawkowych i akcesoriów przejdź ze swoim kodem bezpośrednio do kroku nr 5.</span> </li> 
+     </ul> 
+     <p> Jeśli napotkałeś jakieś problemy techniczne, skontaktuj się z działem wsparcia Wargaming na stronie <a href="https://wargaming.net/support/" target="_blank" title="Wargaming.net Customer Service Center">https://wargaming.net/support/</a> <br> Wymiana kodów na całym świecie (z wyjątkiem Chin) rozpoczyna się 31 lipca 2015 i kończy 30 stycznia 2017.</p> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="footer"> 
+   <p style="font-size:11px;">Specyfikacja i cena mogą zostać zmienione bez uprzedniej informacji.<br> ® 2015 <a href="http://advantage.asus.com">ASUS TeK </a>Computer Inc. Wszelkie prawa zastrzeżone.<br> <a href="http://www.asus.com/pl/Terms_of_Use_Notice_Privacy_Policy/Official_Site" target="_blank"> Informacje prawne</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.asus.com/pl/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy" target="_blank">Ochrona prywatności </a></p> 
+  </div>   
+ </body>
+</html>

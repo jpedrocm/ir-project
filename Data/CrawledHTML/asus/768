@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta name="viewport" content="width=device-width"> 
+  <title> ZenCircle </title> 
+  <!-- mobile --> 
+  <link href="css/index_mobile.css" rel="stylesheet" type="text/css" media="only screen and (min-width:0px) and (max-width:700px)"> 
+  <!-- 電腦用 --> 
+  <link href="css/index_desktop.css" rel="stylesheet" type="text/css" media="only screen and (min-width:701px)"> 
+ </head> 
+ <body> 
+  <div class="wrap"> 
+   <!--wrap start--> 
+   <div class="header"> 
+    <!--header start--> 
+    <div id="topnav" align="center"></div> 
+   </div> 
+   <!--header end--> 
+   <div class="content"> 
+    <!--content start--> 
+    <div class="part1"> 
+     <!--part1 start--> 
+     <div class="leftright"> 
+      <div class="left">
+       <img src="images/1-1.gif">
+      </div> 
+      <div class="right"> 
+       <div class="right1">
+        <img src="images/1-2.jpg">
+       </div> 
+       <div class="right2">
+        <p>ZenCircle</p>
+       </div> 
+       <div class="right3">
+        <p>Make friends all over the world!</p>
+       </div> 
+       <div class="right4">
+        <p>ASUS ZenCircle is a photo-sharing community that allows you to connect and share experiences with other netizens worldwide. View user profiles, discover new interests, and meet fellow enthusiasts in this interactive visual platform.</p>
+       </div> 
+       <div class="right6">
+        <a href="https://goo.gl/BwrSZD" target="_ZenCircle" title="download ZenCircle"><img src="images/1-3.png" style="border:0px"></a>
+        <img src="images/1-4.png">
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <!--part1 end--> 
+    <div class="part2"> 
+     <!--part2 start--> 
+     <div class="top">
+      <img src="images/2-1.jpg"> 
+      <div id="topic">
+       <p>Check out what's <font style="font-weight: bold;">Featured</font></p>
+      </div> 
+      <div id="detail">
+       <p>What tickles your fancy? We've got a lot of interests for you to explore under Featured. See curated posts from fellow ZenCircle users and read helpful ZenUI tutorials to enhance your photo-sharing experience.</p>
+      </div> 
+     </div> 
+     <div class="below"> 
+      <div class="line">
+       <hr -webkit-size="1" style="color:gray;border-style:dashed;width:78%;-webkit-text-align:left; margin-bottom:10px">
+      </div> 
+      <img src="images/2-2.gif"> 
+     </div> 
+     <!--part2 end--> 
+     <div class="part3"> 
+      <!--part3 start--> 
+      <div class="top">
+       <img src="images/3-1.jpg"> 
+       <div id="topic">
+        <p>Meet the <font style="font-weight: bold;">Popular</font> ones</p>
+       </div> 
+       <div id="detail">
+        <p>See the reigning kings and queens of ZenCircle! Here you'll find well-liked posts you can browse through, and learn why they're currently on top of the Like charts.</p>
+       </div> 
+      </div> 
+      <br clear="all"> 
+      <div class="line">
+       <hr -webkit-size="1" style="color:gray;border-style:dashed;width:64.5%;text-align:left; margin-bottom:26px;margin-left:240px">
+      </div> 
+      <div class="below3"> 
+       <div class="below3_1">
+        <img src="images/3-2.jpg">
+       </div> 
+       <div class="below3_2">
+        <img src="images/3-3.jpg">
+       </div> 
+      </div> 
+     </div> 
+     <!--part3 end--> 
+     <div class="part4"> 
+      <!--part4 start--> 
+      <div class="top">
+       <img src="images/4-1.jpg"> 
+       <div id="topic">
+        <p>Interact with those you're <font style="font-weight: bold;">Following</font></p>
+       </div> 
+       <div id="detail">
+        <p>Get timely updates on ZenCircle users you're following. Like and comment from this tab to grow and make meaningful ZenCircle connections.</p>
+       </div> 
+      </div> 
+      <div class="below"> 
+       <div class="line">
+        <hr -webkit-size="1" style="color:gray;border-style:dashed;width:78%;text-align:left; margin-bottom:10px ; margin-left:90px">
+       </div> 
+       <img src="images/4-2.gif">
+      </div> 
+     </div> 
+     <!--part4 end--> 
+     <div class="part5"> 
+      <!--part5 start--> 
+      <div class="top">
+       <img src="images/5-1.jpg"> 
+       <div id="topic">
+        <p><font style="font-weight: bold;">Share</font> anywhere, anytime</p>
+       </div> 
+       <div id="detail">
+        <p>One tap is all it takes to share your favorite posts on other social media sites like Facebook and LINE. You can also copy and share the post's URL anywhere you like.</p>
+       </div> 
+      </div> 
+      <div class="below"> 
+       <div class="line">
+        <hr -webkit-size="1" style="color:gray;border-style:dashed;width:78%;-webkit-text-align:left; margin-bottom:26px">
+       </div> 
+       <div class="below5_1">
+        <img src="images/5-2.gif">
+       </div> 
+       <div class="below5_2">
+        <img src="images/5-3.jpg">
+       </div> 
+      </div> 
+     </div> 
+     <!--part5 end--> 
+     <br clear="all"> 
+    </div> 
+    <!--content end--> 
+    <div class="footer"> 
+    </div> 
+   </div> 
+   <!--wrap end-->   
+   <script type="text/javascript">
+
+    window.ASUSInit = function () { asus_api.init({ appkey: 'event00006', lang: 'global' }); };
+    (function (d) {
+        var js, id = 'asus-jsapi';
+        if (d.getElementById("asus-jsapi")) { return; }
+        js = d.createElement('script');
+        js.id = id;
+        js.async = true;
+        js.src = "//www.asus.com/API/js/asus_api.js";
+        d.getElementsByTagName('head')[0].appendChild(js);
+    }(document));
+</script>
+  </div>
+ </body>
+</html>

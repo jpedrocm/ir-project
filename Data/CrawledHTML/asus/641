@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width"> 
+  <meta name="description" content="Powered by ASUS offers dream machines with select system-builders, from small-form-factor dynamos to giant liquid-cooled beasts, Powered by ASUS means exclusivity, performance, and art."> 
+  <meta name="keywords" content="ASUS,VGA,MB,Desktop,Display,Monitor,Networks,Server &amp; Workstation,Chassis,Motherboards,PC Gaming hardware,Gaming motherboard,overclocking motherboard,Battlefield,assassins creed,Optical Storage,Graphics Cards,Multimedia,Peripherals &amp; Accessories,accessories,Peripheral,PC Accessories,Computer Peripheral,Power Supply,Thermal Solution,Eshop,PCs,Barebone PC, ASUS Partners, PBA, PBA Systems, ASUS System Integrator, ASUS System Builder, ASUS Gaming Systems, Gaming System, ASUS Computer, ASUS Gaming Computer"> 
+  <meta property="og:site_name" content="Powered by ASUS"> 
+  <meta property="og:title" content="Powered by ASUS."> 
+  <meta property="og:description" content="Powered by ASUS offers dream machines with select system-builders, from small-form-factor dynamos to giant liquid-cooled beasts, Powered by ASUS means exclusivity, performance, and art."> 
+  <link rel="shortcut icon" href="http://www.asus.com/media/img/favicon.ico"> 
+  <title>Powered by ASUS</title> 
+  <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" type="text/css"> 
+  <link href="Theme/CSS/normalize.css" rel="stylesheet" media="screen"> 
+  <link href="Theme/CSS/default.css" rel="stylesheet" media="screen"> 
+  <link href="Theme/CSS/idangerous.swiper.css" rel="stylesheet" media="screen"> 
+  <script src="Theme/Javascript/modernizr.custom.08193.js"></script> 
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> 
+  <script src="Theme/Javascript/default.js"></script> 
+  <script src="Theme/Javascript/idangerous.swiper.min.js"></script> 
+  <script type="text/javascript">
+    //ASUS header & footer
+        window.ASUSInit = function () {
+            asus_api.init({ appkey: 'campa00004' , lang: 'hk', api_menu_logo: '0');
+        };
+        (function(d){
+            var js, id = 'asus-jsapi';
+            if (d.getElementById("asus-jsapi")) {return;}
+            js = d.createElement('script');
+            js.id = id;
+            js.async = true;
+            js.src = "//www.asus.com/API/js/asus_api.js";
+            d.getElementsByTagName('head')[0].appendChild(js);
+        }(document));
+     </script> 
+  <script type="text/javascript">
+                      var w=window;
+                      if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document,AKSB=AKSB||{};AKSB.q=[];AKSB.mark=function(a,b){AKSB.q.push(["mark",a,b||(new Date).getTime()])};AKSB.measure=function(a,b,c){AKSB.q.push(["measure",a,b,c||(new Date).getTime()])};AKSB.done=function(a){AKSB.q.push(["done",a])};AKSB.mark("firstbyte",(new Date).getTime());AKSB.prof={custid:"327339",ustr:"UNKNOWN",originlat:0,clientrtt:55,ghostip:"177.159.159.52",
+                      ipv6:false,pct:10,clientip:"187.59.114.85",requestid:"23ea3901",protocol:"",blver:10,akM:"e15",akN:"ae",akTT:"O",akTX:"1",akTI:"23ea3901",ai:"159086",ra:"",pmgn:"",pmgi:"",pmp:""};(function(a){var b=
+                      d.createElement("script");b.async="async";b.src=a;a=d.getElementsByTagName("script");a=a[a.length-1];a.parentNode.insertBefore(b,a)})(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")};
+                    </script> 
+ </head> 
+ <body> 
+  <div class="wrapper"> 
+   <header class="header"> 
+    <section class="header-inner"> 
+     <a href="index.html"><img class="logo" src="Theme/Image/UI/logo.png"></a> 
+     <div class="burger-wrapper"> 
+      <a class="burger burger-on"></a> 
+      <a class="burger burger-off"></a> 
+     </div> 
+     <ul class="menu"> 
+      <li><a href="index.html" class="active" onclick="ga('send', 'event', 'menus', 'clicked', ‘powered-by-asus-hk')">ASUS 完美呈現</a></li> 
+      <li><a href="buynow.html" class="icon-cart" onclick="ga('send', 'event', 'menus', 'clicked', ‘buy-a-pc-now-hk')">立即購買電腦！</a></li> 
+      <li><a href="companion.html" onclick="ga('send', 'event', ‘menus’, 'clicked', ‘best-companion-with-your-pc-hk')">電競最佳裝備</a></li> 
+      <li><a href="promotion.html" onclick="ga('send', 'event', ‘menus', 'clicked', ‘events-and-promotion-hk')">活動和促銷</a></li> 
+     </ul> 
+    </section> 
+   </header> 
+   <main class="main"> 
+    <section class="banner home-banner"> 
+     <div class="hero"> 
+      <!--banner slider : start --> 
+      <a class="arrow-left" href="#"></a> 
+      <a class="arrow-right" href="#"></a>
+      <a class="arrow-right" href="#"></a> 
+      <div class="swiper-container"> 
+       <div class="swiper-wrapper"> 
+        <div class="swiper-slide"> 
+         <div class="swiper-img">
+          <a href="#">
+           <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-1.jpg)"></div></a>
+         </div> 
+        </div> 
+        <div class="swiper-slide"> 
+         <div class="swiper-img">
+          <a href="http://www.asus.com/microsite/beyond-vr-ready/" target="_blank" onclick="ga('send', 'event', ‘banners', 'clicked', ‘AMD-Strix-R9-Fury-hk')">
+           <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-2.jpg)"></div></a>
+         </div> 
+        </div> 
+        <div class="swiper-slide"> 
+         <div class="swiper-img">
+          <a href="http://www.asus.com/hk/Graphics-Cards/ROG-STRIX-GTX1080-O8G-GAMING/" target="_blank" onclick="ga('send', 'event', 'banners', 'clicked', 'GTX1080-hk')">
+           <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-1-1.jpg)"></div></a>
+         </div> 
+        </div> 
+        <!--<div class="swiper-slide">
+                            <div class="swiper-img"><a href="http://www.asus.com/event/VGA/tom-clancys-the-division/" target="_blank" onclick="ga('send', 'event', 'banners', 'clicked', 'AMD-Strix-R9-Fury-hk')"><div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-3.jpg)"></div></a></div>
+                        </div>--> 
+       </div> 
+      </div> 
+      <div class="pagination"></div> 
+      <!--banner slider : end --> 
+     </div> 
+    </section> 
+    <section class="home-intro"> 
+     <div class="home-intro-inner clear"> 
+      <div class="home-logo">
+       <img src="Theme/Image/UI/logo.png">
+      </div> 
+      <div class="text"> 
+       <h2>Powered by ASUS。堪稱藝術傑作</h2> 
+       <p>Powered by ASUS的產品，專門滿足完美主義者。華碩的世界級研發團隊一向致力於實現我們公司的理念 - 追尋無與倫比。我們每年榮獲 3000 多個獎項，無疑是追求盡善盡美的最佳佐證。對於與我們共同推出 Powered by ASUS產品的合作夥伴而言，則不僅於此：選擇系統建置商，打造獨一無二的夢幻機器，從精巧型靈活主機到大型水冷式效能猛獸，無所不包。Powered by ASUS的產品絕無僅有，代表卓越效能，代表堪稱藝術的高超技術。何須選擇其他？</p> 
+      </div> 
+     </div> 
+    </section> 
+    <section class="home-duet clear"> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>世界領導主機板品牌</h3> 
+       <p>ASUS 連續超過 10 年穩坐全球主機板品牌的龍頭寶座，致力於追求創新與效能。同時也是獲獎最多、品質最好的主機板品牌，這一切都奠基於四大特點 - 最佳銷售與創新、輕鬆易用、穩定耐久以及值得信賴。1989 年以來，ASUS 主機板全球總銷量超過 5 億張，絕對值得您信賴。</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-a-1.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>世界第一顯示卡品牌</h3> 
+       <p>ASUS 是排名第一的顯示卡品牌，搭載業界首創的 Auto-Extreme 獨家技術 - 100% 全自動化製程，確保最高穩定性。搭配許多獨家散熱技術和直覺式軟體設計，ASUS 顯示卡提供真正優異的遊戲體驗，帶來更多刺激、更多樂趣和更多勝利。</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-a-2.jpg">
+      </div> 
+     </div> 
+    </section> 
+    <section class="home-team clear"> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>首屈一指的遊戲顯示器品牌，通過最高權威 TÜV 藍光認證</h3> 
+       <p>作為電競顯示器品牌，華碩堅持以人性化角度出發設計，例如超低藍光濾鏡護眼技術，有效減少有害藍光最多達 70%。此外，我們獲得的 TÜV Rheinland 認證數超越其他品牌，擁有來自世界領先顯示器測試權威組織的肯定！</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-1.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>FAST 連線解決方案</h3> 
+       <p>ASUS 提供您以四大核心價值為基礎的 FAST 連線解決方案：最大無線覆蓋範圍提供隨時連線的穩定性; 直覺式 ASUSWRT 使用者介面，輕鬆設定及管理網路；獨家 ASUS AiProtection 防毒技術提供三重安全防護；產品可靠性獲獎無數，品質深受肯定。</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-2.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>內建光碟機均具備 1000 年安全儲存保證</h3> 
+       <p>ASUS 光碟機支援 M-DISC™ 千年光碟燒錄功能，可保護珍貴的檔案資料，讓您永存美好回憶。ASUS M-DISC 燒錄技術可將記錄的資料刻入堅若磐石的專利記憶層，抵抗各種不利條件 - 確保儲存的資訊安全無虞，最多保存一千年。</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-3.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>連續三年榮獲電腦遊戲硬體的「讀者選擇獎」</h3> 
+       <p>ASUS 音效卡採音響級材料設計而成，所有細節一絲不苟，專門滿足耳朵最挑剔的使用者。 配合高訊噪比 (SNR)、精心挑選的耳機擴大器，以及多聲道環繞音效，ASUS 音效卡是您強化遊戲娛樂體驗的首選。</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-4.jpg">
+      </div> 
+     </div> 
+    </section> 
+    <section class="buy-now"> 
+     <a href="buynow.html" class="action" onclick="ga('send', 'event', 'navigations', 'clicked', ‘buy-a-pc-now-hk')">立即購買電腦！</a> 
+    </section> 
+   </main> 
+   <footer class="footer"> 
+    <p class="backtotop"><a>返回頁首</a></p> 
+    <section class="content"> 
+     <p class="copyright "><a href="https://asus.com/" target="_blank"><img src="Theme/Image/UI/asus.png"></a><br>© 2016 ASUSTeK Computer Inc. 保留所有權利。使用條款。 規格和條款如有更改，恕不另行通知。 請洽詢供應商，瞭解特定型號的實際方案內容。 本產品可能不會在所有市場中上市。 產品外觀可能會與照片有所出入。 本文件提及之品牌與產品名稱為其所屬公司之商標。 所含內容如有任何技術或編輯誤漏，ASUS 概不負責。</p> 
+    </section> 
+   </footer> 
+   <div class="sidenav"> 
+    <!--<a class="sidenav-home-1"><span>OVERVIEW</span></a>--> 
+    <a class="sidenav-home-2"><span>為何選擇 ASUS 完美呈現的產品？</span></a> 
+    <a class="sidenav-home-3"><span>為何選擇 ASUS 產品？</span></a> 
+   </div> 
+  </div>  
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NJRLM8');</script> 
+  <!-- End Google Tag Manager -->  
+ </body>
+</html>

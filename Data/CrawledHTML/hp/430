@@ -1,0 +1,782 @@
+<!doctype html>
+<!-- BEGIN - PlainTextRecommendationView.jsp -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+ <!-- InstanceBegin template="/Templates/Header - Footer.dwt" codeOutsideHTMLIsLocked="false" -->
+ <!--[endif]---->
+ <head> 
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="keyword" content="About Us HP-us-hho"> 
+  <link rel="shortcut icon" href="/wcsstore/HPStorefrontAssetStore/images/favicon.ico" mce_href="/wcsstore/HPStorefrontAssetStore/images/favicon.ico" type="image/x-icon"> 
+  <meta name="allow-search" content="yes"> 
+  <meta name="hp_design_version" content="hpweb.1.4"> 
+  <meta name="target_country" content="US"> 
+  <meta name="page_content" content="Products"> 
+  <meta name="segment" content="consumer.home"> 
+  <meta name="lifecycle" content="presales.consideration"> 
+  <meta name="business_unit" content="shared"> 
+  <meta name="web_section_id" content="R329"> 
+  <meta name="language" content="en-us"> 
+  <meta name="CommerceSearch" content="storeId_10151"> 
+  <link rel="canonical" href="http://store.hp.com/PlainContentView?eSpotName=WhyShopAtHP&amp;storeId=10151&amp;langId=-1&amp;catalogId=10051"> 
+  <!-- Omniture - START --> 
+  <script type="text/javascript">
+            var hpmmd=window.hpmmd||{type: 'Unity eCommerce', page:{events:[]}, product:{list:[]},user:{},legacy:{},promo:{},search:{},browser:{}};
+        </script> 
+  <script type="text/javascript">
+            hpmmd.page.platform="wcs web";
+            hpmmd.page.site="hhos";
+            hpmmd.page.store_type="hhos";
+            hpmmd.product.currency="USD";
+            hpmmd.page.section="static";
+            hpmmd.page.subsection="static";
+            hpmmd.page.page_function="landing";
+            hpmmd.page.discount_tier="gen";
+            
+        </script> 
+  <script type="text/javascript" src="//nexus.ensighten.com/hp/etr_std_prod/Bootstrap.js"></script> 
+  <!-- Omniture - End-->
+  <!-- BEGIN CommonCSSToInclude.jspf -->
+  <!-- InstanceEndEditable -->
+  <!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<style type="text/css">
+		.gradient{ filter: none; }
+	</style>
+<![endif]--> 
+  <script>
+	// Picture element HTML5 shiv
+	document.createElement( "picture" );
+</script> 
+  <!-- InstanceBeginEditable name="Style sheets" --> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/foundation.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/custom.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/common.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/common-os.css" type="text/css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/custom-mobile.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/hps-euro-w01-fontface-core.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/jquery.bxslider.css"> 
+  <!-- Handlebars Templating CSS --> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/hpsf/hpsf.css"> 
+  <!-- InstanceEndEditable --> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/component.css"> 
+  <!-- For IE 8 and earlier -->
+  <!--[if lt IE 9]>
+	<link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/iesupport.css">
+    <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/IE8.css">
+  <![endif]--> 
+  <!-- For IE 9 and greater-->
+  <!--[if gte IE 9]>
+    <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/IE9.css">
+  <![endif]--> 
+  <link href="/wcsstore/HPStorefrontAssetStore/pattern-library/system/styles/patterns/icons.css" media="screen" rel="stylesheet" type="text/css"> 
+  <link href="/wcsstore/HPStorefrontAssetStore/pattern-library/system/styles/patterns/tooltip.css" media="screen" rel="stylesheet" type="text/css"> 
+  <link href="/wcsstore/HPStorefrontAssetStore/pattern-library/system/styles/patterns/lightbox.css" media="screen" rel="stylesheet" type="text/css"> 
+  <script type="text/javascript">var runResponsive = true;</script> 
+  <!--[if lt IE 9]>
+	<script type="text/javascript">runResponsive = false;</script>
+<![endif]--> 
+  <!-- END CommonCSSToInclude.jspf --> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/home.css?v=54853"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/sitemap.css?v=48617"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/component.css?v=54579"> 
+ </head> 
+ <body> 
+  <!-- BEGIN Header.jsp --> 
+  <script type="text/javascript">
+	function getAbsoluteURL(){
+	    return '/webapp/wcs/stores/servlet/';               
+	}           
+</script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/js/combineheader.js"></script> 
+  <script type="text/javascript" src="http://www8.hp.com/ie/en/scripts/framework/jquery/v-1-8/can.jquery.js"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/js/hputils.js"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/js/callCenterUtils.js"></script> 
+  <input type="hidden" id="ccFlag" value="false"> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/js/omniture/omniture-tag.js?v=62248"></script> 
+  <!-- http://www8.hp.com/caas/header-footer/us/en/default/4.0.r/head-styles?contentType=html -->
+  <!-- http://www8.hp.com/caas/header-footer/us/en/default/4.0.r/head-scripts?contentType=html -->
+  <!-- http://www8.hp.com/caas/header-footer/us/en/default/4.0.r/header?contentType=html&show_shopping_cart=true -->
+  <input type="hidden" name="APPC" value="01"> 
+  <input type="hidden" name="APPN" value="g2t3070"> 
+  <input type="hidden" name="APPJ" value="2"> 
+  <input type="hidden" name="WEBSN" value="store"> 
+  <!-- END Header.jsp -->
+  <!-- BEGIN ContentRecommendation/ContentRecommendation.jsp -->
+  <!-- BEGIN ESpotTitle_Data.jspf -->
+  <!-- END ESpotTitle_Data.jspf -->
+  <!-- BEGIN ESpotTitle_UI.jspf -->
+  <!-- END ESpotTitle_UI.jspf -->
+  <style type="text/css">
+<!--
+/*Global styles*/
+div.row#content { max-width: 1520px; color: #FFF; margin-bottom: 40px; }
+div.row#content h2, div.row#content h3, div.row#content h4, div.row#content p, div.row#content ul, div.row#content ol { color: #FFF; font-family: 'HPSimplified-Light'; }
+div.row#content h2 { font-size: 2.5em; font-weight: normal; }
+div.row#content h2 img { vertical-align: baseline; }
+div.row#content p { font-size: 1.5em; }
+div.row#content a { color: #FFF; text-decoration: none; }
+div.row#content a:hover { text-decoration: underline; }
+div.row#content a.btn { font-size: 14px; text-decoration: none; background: #0096d6; font-family: inherit; color: #FFF; border-radius: 0px 5px; cursor: pointer; box-sizing: border-box; font-weight: bold; padding: 0 1em; border: 0 solid #fff; text-align: center !important; }
+div.row#content a.btn:hover { background: #069; text-decoration: none; color: #FFF; }
+div.row#content section { position: relative; text-align: center; padding: 110px 25%; }
+div.row#content section h2 span { position: absolute; }
+div.row#content section h2 span span { position: relative; top: -1.1em; font-size: 67%; }
+.clear { clear: both; }
+/*Arrows and buttons*/
+div.row#content input[type='submit'], div.row#content input[type='button'], div.row#content .learnmore { background: none; border: #FFF solid thin; padding: 0.5em 1.2em; font-size: 1.2em !important; color: #FFF; border-radius: 0px 5px; cursor: pointer; box-sizing: border-box; }
+div.row#content input[type='submit']:hover, div.row#content input[type='button']:hover { background-image: url(/wcsstore/hpusstore/Banners/btn-bkgd.png); }
+div.row#content p.downAro { clear: both; position: absolute; width: 90%; top: 560px; left: 5%; right: 5%; font-size: 1em !important; }
+div.row#content p.downAro img { padding-top: 100px; }
+/*Floating links*/
+div.row#content ul li, div.row#content ol li { display: list-item; list-style-type: none !important; text-align: right; cursor:pointer;}
+div.row#content ul li:after { content: url(/wcsstore/hpusstore/Banners/ul-dot-20x10.png); }
+div.row#content ul li.activeLI:after, div.row#content ol li.activeLI:after { content: url(/wcsstore/hpusstore/Banners/ul-dot-hover-20x10.png); }
+div.row#content ul li a, div.row#content ol li a { display: none; }
+/*div.row#content ul li a.activeLI, div.row#content ol li a.activeLI { display: inline; }*/
+div.row#content ul li:hover:after, div.row#content ul li:active:after { content: url(/wcsstore/hpusstore/Banners/ul-dot-hover-20x10.png); }
+div.row#content div.floatUL { position: absolute; right: 12%; z-index: 10; min-width: 10em; top: 36%;}
+div.row#content div.floatUL ul, div.row#content div.floatUL ol { display: list-item; list-style: none; padding: 10px 20px; }
+div.row#content div.floatUL:hover { opacity: 1; }
+div.row#content div.floatUL ul li:hover > a, div.row#content div.floatUL ol li:hover > a { display: inline; text-decoration: none; }
+/*Imagery sections*/
+div.row#content section#intro { background: url(/wcsstore/hpusstore/Banners/bkgd-intro-1520x700.jpg) no-repeat center top #999; height: 700px; }
+div.row#content section#personalization { background: url(/wcsstore/hpusstore/Banners/bkgd-personalization-1520x800.jpg) no-repeat center top #999; height: 800px; padding-top: 80px; }
+div.row#content section#priceMatch { background: url(/wcsstore/hpusstore/Banners/bkgd-price-match-1520x800.jpg) no-repeat center top #999; height: 800px; padding-top: 80px; }
+/*Blue sections*/
+div.row#content div.HPblue { background-color: #0096D6; position: absolute; left: 0; width: 100%; height: 800px; }
+div.row#content div.darkBlue { background-color: #00336e; position: absolute; left: 0; width: 100%; height: 800px; }
+div.row#content div.HPblue#Shipfree { background: url(/wcsstore/hpusstore/Banners/bkgd-freeShip-2600x800.gif) center top no-repeat #14a8bf; }
+div.row#content div.HPblue#Adviceexpert { background: url(/wcsstore/hpusstore/Banners/bkgd-expertAdvice-2600x800.gif) center top no-repeat #0096D6; }
+div.row#content div.darkBlue#service { background: url(/wcsstore/hpusstore/Banners/bkgd-services-2600x800.gif) center top no-repeat #00336e; }
+div.row#content div.HPblue#Shopstart { background: url(/wcsstore/hpusstore/Banners/bkgd-startShop-2600x700.gif) center top no-repeat #0096D6; }
+div.row#content section#freeShip, div.row#content section#expertAdvice, div.row#content section#services { height: 800px; }
+div.row#content section#startShop { height: 700px; }
+/*Adjusts to sections*/
+div.row#content section#intro p.downAro { top: 470px; }
+div.row#content section#startShop p.downAro { top: 430px; }
+div.row#content section#services p.downAro { top: 590px; }
+div.row#content section#services div.col3 { width: 25%; margin: auto 4%; float: left; }
+div.row#content section#services div.col3 p { font-size: 1em; }
+div.row#content section#services div.col3 p a { font-size: 1.5em; color: #0096d6; }
+div.row#content section#services div.col3 p a:hover { color: #00a8f0; text-decoration: underline; }
+div.row#content section#freeShip h2, div.row#content section#expertAdvice h2, div.row#content section#services h2, div.row#content section#startShop h2 { margin-bottom: 1em; }
+/*Other special*/
+section#personalization h2 div { width: 160px !important; margin: auto 31% auto 35%; }
+/*Adjusts to section shifted h2 text*/
+div.row#content section#personalization h2 span span { position: relative; top: -0.8em; }
+div.row#content section#expertAdvice h2 span span { position: relative; top: -0.8em; }
+div.row#content section#priceMatch h2 span span { position: relative; top: 0em; }
+div.row#content section#services h2 span span { position: relative; top: -0.4em; }
+-->
+</style> 
+  <style media="(max-width:1100px)" type="text/css">
+<!--
+@media screen and (max-width: 1100px) {
+div.row#content { width: auto; }
+div.row#content div.floatUL { display:none; visibility:hidden; position: relative; opacity:1; top:0; right:0; width:100%; }
+div.row#content div.floatUL ul li, div.row#content div.floatUL ol li { float:left; padding-right:1em; }
+div.row#content section { position: relative; text-align: center; padding: 60px 18%; }
+div.row#content section#priceMatch p { font-size: 1.3em; }
+div.row#content section#priceMatch { padding-top: 40px; }
+div.row#content section#personalization h2 { font-size:1.8em !important; line-height:1em; }
+div.row#content section#intro, div.row#content section#personalization, div.row#content section#priceMatch, div.row#content section#Shipfree, div.row#content section#Adviceexpert, div.row#content section#services, div.row#content section#Shopstart { height: auto; }
+div.row#content div.HPblue#Shipfree, div.row#content div.HPblue#Adviceexpert, div.row#content div.darkBlue#service, div.row#content div.HPblue#Shopstart { background-image:none; background-color: #0096D6; visibility:hidden; display:none; }
+div.row#content section#freeShip, div.row#content section#personalization, div.row#content section#expertAdvice, div.row#content section#services, div.row#content section#startShop { background-color: #0096D6; height: auto; }
+div.row#content section#services { background-color: #00336e; }
+div.row#content input[type='submit'], div.row#content input[type='button'], div.row#content section#priceMatch input[type='submit'], div.row#content section#priceMatch input[type='button'] { font-size: 1em; }
+div.row#content p.downAro, div.row#content section#intro p.downAro, div.row#content section#services p.downAro, div.row#content section#startShop p.downAro { position: relative; width: 90%; top: auto; left: 5%; right: 5%; }
+div.row#content p.downAro img { padding-top: 10px; }
+}
+-->
+</style> 
+  <style media="(max-width:800px)" type="text/css">
+<!--
+@media screen and (max-width: 800px) {
+div.row#content div.floatUL ul li, div.row#content div.floatUL ol li { float:left; padding:1em; }
+div.row#content section { position: relative; text-align: center; padding: 20px 10%; }
+div.row#content section h2 { font-size:1.5em; line-height:1em; }
+div.row#content section p, div.row#content section#priceMatch p { font-size: 1em; }
+div.row#content section#services div.col3 { width: 100%; margin: auto; float: none; }
+div.row#content section h2 span span { top:-0.2em; }
+}
+-->
+</style> 
+  <div class="row" id="content"> 
+   <!--h1>HP value propostion</h1--> 
+   <section id="intro">
+    <a name="intro"></a> 
+    <div class="floatUL"> 
+     <ul> 
+      <li onclick="location.href='#intro';" class="activeLI"><a href="">welcome</a></li> 
+      <li onclick="location.href='#freeShip';"><a>shipping</a></li> 
+      <li onclick="location.href='#personalization';"><a>customization</a></li> 
+      <li onclick="location.href='#expertAdvice';"><a>support</a></li> 
+      <li onclick="location.href='#priceMatch';"><a>price match</a></li> 
+      <li onclick="location.href='#services';"><a href="">services</a></li> 
+      <li onclick="location.href='#startShop';"><a href="#startShop">shop</a></li> 
+     </ul> 
+     <div class="clear"></div> 
+    </div> 
+    <h2 style="margin-top:80px;"><img src="/wcsstore/hpusstore/Banners/value-Welcome1.gif" width="570" height="113" alt="hp.com. The only place to get it all"></h2> 
+    <p>Your satisfaction means everything to us, and we'll do everything we can to make sure you love what you buy, or your money back.</p> 
+    <form action="#freeShip" method="post"> 
+     <p class="downAro"> <input type="submit" value="See more" title="Next section"> <br> <a href="#freeShip" title="Next section"><img src="/wcsstore/hpusstore/Banners/nav-down-aro.png" width="43" height="29" alt="Next section"></a></p> 
+    </form> 
+   </section> 
+   <div class="HPblue" id="Shipfree"></div> 
+   <section id="freeShip">
+    <a name="freeShip"></a> 
+    <div class="floatUL"> 
+     <ul> 
+      <li onclick="location.href='#intro';"><a href="#intro">welcome</a></li> 
+      <li onclick="location.href='#freeShip';" class="activeLI"><a href="#freeShip">shipping</a></li> 
+      <li onclick="location.href='#personalization';"><a href="#personalization">customization</a></li> 
+      <li onclick="location.href='#expertAdvice';"><a href="#expertAdvice">support</a></li> 
+      <li onclick="location.href='#priceMatch';"><a href="#priceMatch">price match</a></li> 
+      <li onclick="location.href='#services';"><a href="#services">services</a></li> 
+      <li onclick="location.href='#startShop';"><a href="#startShop">shop</a></li> 
+     </ul> 
+     <div class="clear"></div> 
+    </div> 
+    <h2><img src="/wcsstore/hpusstore/Banners/value-shipping.gif" alt="" width="613" height="136"></h2> 
+    <h2>The place for <img src="/wcsstore/hpusstore/Banners/freeShip-icon-truck.png" width="91" height="49" alt="free"> <span><span>shipping</span></span> &amp; returns.</h2> 
+    <p>Get free shipping on all of your orders AND if you need to send something back, that's free too.</p> 
+    <!--  <form action="/webapp/wcs/stores/servlet/ContentView?eSpotName=HolidayPolicies&amp;storeId=10151&amp;langId=-1&amp;catalogId=10051" method="post" enctype="application/x-www-form-urlencoded" >
+   <p class="downAro">
+    <input type="submit" value="Learn more" title="Read details about our holiday shopping policies" data-reveal-id="myModal" data-reveal-ajax="true"/>--> 
+    <p class="downAro"> <input type="submit" value="Learn more" title="Read details about our holiday shopping policies" data-reveal-id="more-info-modal"> 
+     <!-- <a href="" class="learnmore" data-reveal-id="more-info-modal">Learn more</a>--> <br> <a href="#personalization" title="Next section"><img src="/wcsstore/hpusstore/Banners/nav-down-aro.png" width="43" height="29" alt="Next section"></a></p> 
+   </section> 
+   <section id="personalization">
+    <a name="personalization"></a> 
+    <div class="floatUL"> 
+     <ul> 
+      <li onclick="location.href='#intro';"><a href="#intro">welcome</a></li> 
+      <li onclick="location.href='#freeShip';"><a href="#freeShip">shipping</a></li> 
+      <li onclick="location.href='#personalization';" class="activeLI"><a href="#personalization">customization</a></li> 
+      <li onclick="location.href='#expertAdvice';"><a href="#expertAdvice">support</a></li> 
+      <li onclick="location.href='#priceMatch';"><a href="#priceMatch">price match</a></li> 
+      <li onclick="location.href='#services';"><a href="#services">services</a></li> 
+      <li onclick="location.href='#startShop';"><a href="#startShop">shop</a></li> 
+     </ul> 
+     <div class="clear"></div> 
+    </div> 
+    <h2 align="center"> 
+     <div>
+      <img src="/wcsstore/hpusstore/Banners/customize-exterior.png" alt="" width="160" height="160" style="position:absolute;">
+      <img src="/wcsstore/hpusstore/Banners/customize-interior.gif" alt="" width="160" height="160">
+     </div> </h2> 
+    <h2>The place for <img src="/wcsstore/hpusstore/Banners/personalization-icon-customize.png" alt="" width="59" height="58"> <span><span>complete</span></span> customization.</h2> 
+    <p>Easily choose and swap different configurations and personalize your computer to make it your own. Or chat with one of our experts to help you configure a computer that's made for you.</p> 
+    <form action="/webapp/wcs/stores/servlet/SearchDisplay?client=&amp;jumpID=se_r1002_usen_ac&amp;searchTerm=customizable&amp;search=%EF%80%A1&amp;beginIndex=0&amp;catalogId=10051&amp;charset=utf-8&amp;langId=-1&amp;pageSize=50&amp;pageView=list&amp;resultCatEntryType=2&amp;sType=SimpleSearch&amp;searchSource=Q&amp;storeId=10151" method="post" enctype="application/x-www-form-urlencoded" target="_blank"> 
+     <p class="downAro"> <input type="submit" value="Start customizing" title="Browse customizable HP PCs"> <br> <a href="#expertAdvice" title="Next section"><img src="/wcsstore/hpusstore/Banners/nav-down-aro.png" width="43" height="29" alt="Next section"></a></p> 
+    </form> 
+   </section> 
+   <div class="HPblue" id="Adviceexpert"></div> 
+   <section id="expertAdvice">
+    <a name="expertAdvice"></a> 
+    <div class="floatUL"> 
+     <ul> 
+      <li onclick="location.href='#intro';"><a href="#intro">welcome</a></li> 
+      <li onclick="location.href='#freeShip';"><a href="#freeShip">shipping</a></li> 
+      <li onclick="location.href='#personalization';"><a href="#personalization">customization</a></li> 
+      <li onclick="location.href='#expertAdvice';" class="activeLI"><a href="#expertAdvice">support</a></li> 
+      <li onclick="location.href='#priceMatch';"><a href="#priceMatch">price match</a></li> 
+      <li onclick="location.href='#services';"><a href="#services">services</a></li> 
+      <li onclick="location.href='#startShop';"><a href="#startShop">shop</a></li> 
+     </ul> 
+     <div class="clear"></div> 
+    </div> 
+    <h2><img src="/wcsstore/hpusstore/Banners/value-support.gif" alt="" width="222" height="154"></h2> 
+    <h2>The place for <img src="/wcsstore/hpusstore/Banners/expertAdvice-icon-365.png" width="57" height="57" alt="365"> <span><span>24/7 free</span></span> support.</h2> 
+    <p>Get free professional advice and anytime<strong> </strong>support from the ones who know HP products best.</p> 
+    <form method="post" enctype="application/x-www-form-urlencoded"> 
+     <p class="downAro"> <input type="submit" value="Need support?" title="Read about HP's Price Matching policy" onclick="window.open('http://support.hp.com/us-en');"> <br> <a href="#priceMatch" title="Next section"><img src="/wcsstore/hpusstore/Banners/nav-down-aro.png" width="43" height="29" alt="Next section"></a></p> 
+    </form> 
+   </section> 
+   <section id="priceMatch">
+    <a name="priceMatch"></a> 
+    <div class="floatUL"> 
+     <ul> 
+      <li onclick="location.href='#intro';"><a href="#intro">welcome</a></li> 
+      <li onclick="location.href='#freeShip';"><a href="#freeShip">shipping</a></li> 
+      <li onclick="location.href='#personalization';"><a href="#personalization">customization</a></li> 
+      <li onclick="location.href='#expertAdvice';"><a href="#expertAdvice">support</a></li> 
+      <li onclick="location.href='#priceMatch';" class="activeLI"><a href="#priceMatch">price match</a></li> 
+      <li onclick="location.href='#services';"><a href="#services">services</a></li> 
+      <li onclick="location.href='#startShop';"><a href="#startShop">shop</a></li> 
+     </ul> 
+     <div class="clear"></div> 
+    </div> 
+    <h4><img src="/wcsstore/hpusstore/Banners/value-pricematch.gif" alt="" width="224" height="212"></h4> 
+    <h2>The place for <img src="/wcsstore/hpusstore/Banners/price-match-icon.png" alt="" width="57" height="77"> <span><span>price</span></span> matching.</h2> 
+    <p>We guarantee you will always get the lowest price on HP technology. If you happen to find a lower price of a similar product on another online store like Best Buy or Amazon, we'll match it. </p> 
+    <form method="post" enctype="application/x-www-form-urlencoded"> 
+     <p class="downAro"> <input type="submit" value="Learn more" title="Read about HP's Price Matching policy" data-reveal-id="price-match-modal"> <br> <a href="#services" title="Next section"><img src="/wcsstore/hpusstore/Banners/nav-down-aro.png" width="43" height="29" alt="Next section"></a></p> 
+    </form> 
+   </section> 
+   <div class="darkBlue" id="service"></div> 
+   <section id="services">
+    <a name="services"></a> 
+    <div class="floatUL"> 
+     <ul> 
+      <li onclick="location.href='#intro';"><a href="#intro">welcome</a></li> 
+      <li onclick="location.href='#freeShip';"><a href="#freeShip">shipping</a></li> 
+      <li onclick="location.href='#personalization';"><a href="#personalization">customization</a></li> 
+      <li onclick="location.href='#expertAdvice';"><a href="#expertAdvice">support</a></li> 
+      <li onclick="location.href='#priceMatch';"><a href="#priceMatch">price match</a></li> 
+      <li onclick="location.href='#services';" class="activeLI"><a href="#services">services</a></li> 
+      <li onclick="location.href='#startShop';"><a href="#startShop">shop</a></li> 
+     </ul> 
+     <div class="clear"></div> 
+    </div> 
+    <h2>The place for <img src="/wcsstore/hpusstore/Banners/services-icon-services.png" alt=" " width="69" height="64"> <span><span>additional</span></span> services.</h2> 
+    <div class="col3" style="width:40%"> 
+     <h4><img src="/wcsstore/hpusstore/Banners/services-icon-ink.png" alt="HP Instant Ink" width="93" height="59"></h4> 
+     <h4>Got ink? </h4> 
+     <p>Your printer can notify us before it runs out of ink and we'll automatically send fresh ink straight to your door. </p> 
+     <p><a href="/webapp/wcs/stores/servlet/ContentView?eSpotName=InstantInk&amp;storeId=10151&amp;langId=-1&amp;catalogId=10051" target="_blank">Learn more</a></p> 
+    </div> 
+    <!--<div class="col3">
+   <h4><img src="/wcsstore/hpusstore/Banners/services-icon-4g.png" alt="Free 4G" width="85" height="64" /></h4>
+   <h4>Free Internet, for life. </h4>
+   <p>Surf more anytime, anywhere with free 4G wireless and 250MB of data every month, for forever. </p>
+   <p><a href="/webapp/wcs/stores/servlet/SearchDisplay?client=&searchTerm=4g&search=%EF%80%A1&beginIndex=0&catalogId=10051&charset=utf-8&langId=-1&pageSize=50&pageView=list&resultCatEntryType=2&sType=SimpleSearch&searchSource=Q&storeId=10151" target="_blank">See products</a></p>
+  </div>--> 
+    <div class="col3" style="width:40%"> 
+     <h4><img src="/wcsstore/hpusstore/Banners/services-icon-financing.png" alt="Financing" width="63" height="55"></h4> 
+     <h4>Payment options </h4> 
+     <p>Pay the way you want to, when you want to including PayPal Credit, HP Direct and more. </p> 
+     <p><a href="" data-reveal-id="payment-option-modal">Learn more</a></p> 
+    </div> 
+    <p class="downAro"><a href="#startShop" title="Next section"><img src="/wcsstore/hpusstore/Banners/nav-down-aro.png" width="43" height="29" alt="Next section"></a></p> 
+   </section> 
+   <div class="HPblue" id="Shopstart" style="height:700px;"></div> 
+   <section id="startShop">
+    <a name="startShop"></a> 
+    <div class="floatUL"> 
+     <ul> 
+      <li onclick="location.href='#intro';"><a href="#intro">welcome</a></li> 
+      <li onclick="location.href='#freeShip';"><a href="#freeShip">shipping</a></li> 
+      <li onclick="location.href='#personalization';"><a href="#personalization">customization</a></li> 
+      <li onclick="location.href='#expertAdvice';"><a href="#expertAdvice">support</a></li> 
+      <li onclick="location.href='#priceMatch';"><a href="#priceMatch">price match</a></li> 
+      <li onclick="location.href='#services';"><a href="#services">services</a></li> 
+      <li onclick="location.href='#startShop';" class="activeLI"><a href="#startShop">shop</a></li> 
+     </ul> 
+     <div class="clear"></div> 
+    </div> 
+    <h2><em>hp.com</em></h2> 
+    <h2>The <em>only</em> place to get it all.</h2> 
+    <form action="http://store.hp.com/" method="post" enctype="application/x-www-form-urlencoded" target="_blank"> 
+     <p class="downAro"> <input type="submit" value="Start shopping" title="Go to our home page"> </p> 
+    </form> 
+   </section> 
+   <img src="/wcsstore/hpusstore/Banners/ul-dot-20x10.png">
+   <img src="/wcsstore/hpusstore/Banners/ul-dot-hover-20x10.png"> 
+  </div> 
+  <div id="more-info-modal" class="reveal-modal large" data-reveal=""> 
+   <div class="flex-video widescreen vimeo" style="display: block;"> 
+    <iframe width="1280" height="720" src="/webapp/wcs/stores/servlet/PlainContentView?eSpotName=FreeShipping&amp;storeId=10151&amp;langId=-1&amp;catalogId=10051" frameborder="0" allowfullscreen data-src="/webapp/wcs/stores/servlet/PlainContentView?eSpotName=FreeShipping&amp;storeId=10151&amp;langId=-1&amp;catalogId=10051"></iframe> 
+   </div> 
+   <a class="close-reveal-modal">×</a> 
+  </div> 
+  <div id="price-match-modal" class="reveal-modal large" data-reveal=""> 
+   <div class="flex-video widescreen vimeo" style="display: block;"> 
+    <iframe width="1280" height="720" src="/webapp/wcs/stores/servlet/PlainContentView?eSpotName=PriceMatch&amp;storeId=10151&amp;langId=-1&amp;catalogId=10051" frameborder="0" allowfullscreen data-src="/webapp/wcs/stores/servlet/PlainContentView?eSpotName=PriceMatch&amp;storeId=10151&amp;langId=-1&amp;catalogId=10051"></iframe> 
+   </div> 
+   <a class="close-reveal-modal">×</a> 
+  </div> 
+  <div id="payment-option-modal" class="reveal-modal large" data-reveal=""> 
+   <div class="flex-video widescreen vimeo" style="display: block;"> 
+    <iframe width="1280" height="720" src="/webapp/wcs/stores/servlet/PlainContentView?eSpotName=TermsAndConditions&amp;storeId=10151&amp;langId=-1&amp;catalogId=10051" frameborder="0" allowfullscreen data-src="/webapp/wcs/stores/servlet/PlainContentView?eSpotName=TermsAndConditions&amp;storeId=10151&amp;langId=-1&amp;catalogId=10051"></iframe> 
+   </div> 
+   <a class="close-reveal-modal">×</a> 
+  </div> 
+  <div id="chat-modal" class="reveal-modal large" data-reveal=""> 
+   <div class="flex-video widescreen vimeo" style="display: block;"> 
+    <iframe width="1280" height="720" src="https://suth.ehosts.net/NetAgent/HPChatLogin.aspx?ROUTEIDENT=Chat%20ETR%20Footer" frameborder="0" allowfullscreen data-src="https://suth.ehosts.net/NetAgent/HPChatLogin.aspx?ROUTEIDENT=Chat%20ETR%20Footer"></iframe> 
+   </div> 
+   <a class="close-reveal-modal">×</a> 
+  </div> 
+  <div id="chat-modal" class="reveal-modal small" style="height:706px; width:43%;" data-reveal=""> 
+   <iframe width="800" height="720" src="http://support.hp.com/us-en" frameborder="0" allowfullscreen data-src="http://support.hp.com/us-en"></iframe> 
+   <a class="close-reveal-modal">×</a> 
+  </div>
+  <!-- END ContentRecommendation/ContentRecommendation.jsp -->
+  <!-- BEGIN Footer/Footer.jsp --> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/vendor/jquery.validate.min.js"></script> 
+  <!-- http://www8.hp.com/caas/header-footer/us/en/default/4.0.r/footer?contentType=html --> 
+  <script type="text/javascript">
+	
+	var chatUrl = 'https://h30665.www3.hp.com/netagent/cimlogin.aspx?questid=246C34C5-5B3F-42D0-9EEC-D51634B0EE3F&portid=942E5E82-25F9-4DFD-9A71-537876996383';
+	var callUrl = 'https://h30665.www3.hp.com/netagent/cimlogin.aspx?questid=A54BA411-122B-4D0B-8B15-26E72DE88844&portid=21844431-8DFC-4978-B17E-AA1D3636C748';
+		
+
+	$('#lp_link').click(function(event) {
+    	openHelpWindow(chatUrl);
+    });
+    
+    $('#lh_call').click(function(event) {
+    	openHelpWindow(callUrl);
+    });
+	
+	var talCustProp = '';
+	$(document).ready(function() {
+		talCustProp = getHelpParams('#:Prop!');
+	});
+	
+	function openHelpWindow(helpUrl) {
+		helpUrl += getHelpParams('&') + '&nareferer=' + escape(document.location);
+		window.open(helpUrl, "popupWindow", "width=625,height=750,scrollbars=yes");
+	}
+
+	function getHelpParams(delimiter) {
+		var params = '';
+		var cartOrderId = $.cookie('WC_CartOrderId_10151');
+		if ($.trim(cartOrderId)){
+			var cartCookie = $.cookie('WC_CartTotal_' + cartOrderId);
+			var content = cartCookie  ? cartCookie.split(/;/) : new Array();
+			if(content.length > 1) {
+				params += delimiter + 'CartTotal=' + content[1];
+			}
+		}
+		return params;
+	}
+
+	function setCookieviewTopSellers(pLabel, pVal, pMinutes) {
+		var tExpDate = new Date();
+		tExpDate.setTime(tExpDate.getTime() + (pMinutes*60*1000));
+		document.cookie = pLabel + "=" + pVal + ((pMinutes == null) ? "" : ";expires=" + tExpDate.toGMTString()) + ";domain=.hp.com; path=/";
+	}
+	
+	function getParameterByName(name) {
+	    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+	    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+	        results = regex.exec(location.search);
+	    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+	}
+
+	window.SCREENREADING_LABELS = {
+        'open_menu_prefix': "Open ",
+        'open_menu_suffix': " Menu",
+        'close_menu_prefix': "Close ",
+        'close_menu_suffix': " Menu",
+
+        'opened_state_menu_prefix': "Menu ",
+        'opened_state_menu_suffix': " is opened",
+        'closed_state_menu_prefix': "Menu ",
+        'closed_state_menu_suffix': " is closed",
+
+        'opened_state_submenu_suffix': "Press Right Arrow or Space to open",
+        'selected_country_state': "Selected",
+
+        'open_popup_prefix': "Open ",
+        'open_popup_suffix': " Dialog",
+        'close_popup_prefix': "Close ",
+        'close_popup_suffix': " Dialog",
+
+        "expand_prefix": "Expand ",
+        "expand_suffix": "list",
+        "collapse_prefix": "Collapse",
+        "collapse_suffix": "list",
+        "search_box_suggestion_title": "Use arrow keys to select a search suggestion"
+    };
+    
+	
+
+	//start reactive chat
+	var chatFlag = '';
+	var phoneFlag = '';
+	var emailFlag = '';
+	var livehelpFlag = '';
+	var contactusFlag = '';
+	
+	function removeChatLinks() {
+		//first check for livehelp & contactus
+		//if contactus is there then check for  li links
+		if (typeof MoxieCategoryContent !== 'undefined') {
+			var moxieChat = MoxieCategoryContent.substring((MoxieCategoryContent.indexOf(':') + 1), MoxieCategoryContent.length);
+			var  chatValues = moxieChat.split(',');
+			for (x in chatValues) {
+				var kv = chatValues[x].split('=');
+				if (kv[0].trim() === 'chat'.trim()) {
+					chatFlag = kv[1].trim();
+				} else if (kv[0].trim() === 'email'.trim()) {
+					emailFlag = kv[1].trim();
+				} else if (kv[0].trim() === 'phone'.trim()) {
+					phoneFlag = kv[1].trim();
+				} else if (kv[0].trim() === 'livehelp'.trim()) {
+					livehelpFlag = kv[1].trim();
+				} else if (kv[0].trim() === 'contactus'.trim()) {
+					contactusFlag = kv[1].trim();
+				}
+			}
+			// if chat, call & email are 0 remove livehelp & contact us
+			if ((chatFlag !== 'undefined' && chatFlag === '0') && (phoneFlag !== 'undefined' && phoneFlag === '0') && (emailFlag !== 'undefined' && emailFlag === '0')) {
+				contactusFlag = '0';
+				livehelpFlag = '0';
+			}
+		}
+	}
+
+	function moxieChatLinks() {
+		try {
+			if (livehelpFlag !== 'undefined' && livehelpFlag === '0') {
+				if ($('nav .topmenu ul.right li a.js_overlay_trigger').parent().length > 0) {
+					$('nav .topmenu ul.right li a.js_overlay_trigger').parent()[0].remove();
+				}
+			}
+			if (contactusFlag !== 'undefined' && contactusFlag === '0') {
+				if ($('#lp_chat').length > 0) {
+					$('#lp_chat').remove();
+				}
+			} else if (contactusFlag !== 'undefined' && contactusFlag === '1') {
+				if (phoneFlag !== 'undefined' && phoneFlag === '0') {
+					$('ul.live_help_list li a#lh_call').parent().remove();
+				}
+				if (chatFlag !== 'undefined' && chatFlag === '0') {
+					$('ul.live_help_list li a#lp_link').parent().remove();
+				}
+				if (emailFlag !== 'undefined' && emailFlag === '0') {
+					$('ul.live_help_list li:last').remove();
+				}
+			}
+		} catch (e) {}
+	}
+
+	var liveHelpURL = '/us/en/LiveHelpView?storeId=10151&langId=-1&catalogId10051';
+	var searchDisplayUrl = '/us/en/SearchDisplay';
+	
+	$(document).ready( function() {
+		liveHelpURL = liveHelpURL + '&pagelevel=' + pagelevel;
+		if (typeof picturefill == 'function') {
+			picturefill();
+		}
+		var initData = {
+			urls: {
+				jsPath  : '/wcsstore/HPStorefrontAssetStore/js/',
+				cssPath : '/wcsstore/HPStorefrontAssetStore/css/',
+				svcUrl  : getAbsoluteURL() + 'HPServices',
+				pdpUrl  : getAbsoluteURL() + 'PDPStdView',
+				viewCartUrl	: getAbsoluteURL() + 'OrderCalculate?storeId=10151&catalogId=10051&langId=-1&calculationUsageId=-1&URL=AjaxOrderItemDisplayView'
+			},
+			params: {
+				langId	: '-1',
+				storeId	: '10151',
+				userType  : 'G',
+				catalogId : '10051',
+				categoryId : $('#headerCategoryId').val(),
+				currencySymbol : '$',
+				dealsRedirect : getParameterByName('dl')
+			}
+		};
+						
+		$('form#searchHP').attr('action',searchDisplayUrl);
+		$('form#searchHP input#searchBox').attr('name','searchTerm');
+		$('form#searchHP').append('<input type="hidden" name="storeId" value="10151" />');
+		$('form#searchHP').append('<input type="hidden" name="catalogId" value="10051" />');
+		$('form#searchHP').append('<input type="hidden" name="langId" value="-1" />');
+		$('form#searchHP').append('<input type="hidden" name="beginIndex" value="0" />');
+		$('form#searchHP').append('<input type="hidden" name="pageSize" value="50" />');
+
+		$('ul#nav_buttons li.js_shopping_widget.nav_button').attr('data-uitype','minicart-icon');
+		$('ul#nav_buttons li.js_shopping_widget.nav_button a#shop_widget').attr('data-uitype','minicart-activator');
+		$('ul#nav_buttons li.js_shopping_widget.nav_button span.item_count').attr('id','minicart-itemcount');
+		$('ul#nav_buttons li.js_shopping_widget.nav_button div.shop_widget').attr('id','minicart-container').removeClass('shop_widget').addClass('minicart-container');		
+		$('ul#nav_buttons li.js_shopping_widget.nav_button div.shopping_container div.widget_content').attr('id','minicart-contents');
+		$.hpsfData.init(initData);
+		$.hpsfUI.init(initData);
+		
+		removeChatLinks();
+	});
+	function removeStoreCallCenterCookie()
+	{
+		document.cookie = "storeCallCenterCheck=false; expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=.hp.com;path=/";
+	}
+</script> 
+  <!-- END Footer/Footer.jsp -->
+  <!-- BEGIN CommonJSToInclude.jspf -->
+  <!--  script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/js/omniture/hpUtil.min.js"></script --> 
+  <!-- Foundation 3 for IE 8 and earlier -->
+  <!--[if lt IE 9]>
+			<script src="/wcsstore/HPStorefrontAssetStore/js/foundation3/foundation.min.js"></script>
+			<script src="/wcsstore/HPStorefrontAssetStore/js/foundation3/app.js"></script>
+		<![endif]--> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/commonjspartone.js"></script> 
+  <!--[if lt IE 9]>
+			<script src="/wcsstore/HPStorefrontAssetStore/js/vendor/jquery.corner.js"></script>
+			<script src="/wcsstore/HPStorefrontAssetStore/js/foundation3/jquery.foundation.forms.js"></script>
+			<script src="/wcsstore/HPStorefrontAssetStore/js/IE8.js"></script>
+		<![endif]--> 
+  <!-- @Note: use this version for production deployment  
+<script src="/wcsstore/HPStorefrontAssetStore/js/vendor/hammer.min.js"></script>
+--> 
+  <script>
+	$(document).foundation();
+</script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/commonjsparttwo.js"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/hpsf/lib/jquery.jsonp-2.1.4.js"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/hpsf/lib/jquery.timers-1.2.js"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/hpsf/hpsf-all.min.js"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/jquery.dotdotdot.min.js?v=11590"></script> 
+  <script type="text/javascript" charset="UTF-8" src="/wcsstore/dojo18/dojo/dojo.js" djconfig="parseOnLoad: true, isDebug: false,  modulePaths: {storetext: '/wcsstore/HPStorefrontAssetStore/'}, useCommentedJson: true,locale: 'en-us' "></script> 
+  <script type="text/javascript" charset="UTF-8" src="/wcsstore/dojo18/dojo/dojodesktop.js" djconfig="parseOnLoad: true, isDebug: false,  modulePaths: {storetext: '/wcsstore/HPStorefrontAssetStore/'}, useCommentedJson: true,locale: 'en-us' "></script> 
+  <script>
+	dojo.require("wc.service.common");
+	dojo.require("dojo.number");
+	dojo.require("dijit.Dialog");
+</script> 
+  <script type="text/javascript">
+	// Convert the WCParam object which contains request properties into javascript object
+	var WCParamJS = {
+		'storeId': '10151',
+		'catalogId': '10051',
+		'langId': '-1',
+		'pageView': '',
+		'orderBy': '',
+		'orderByContent': '',
+		'CurrencySymbolToFormat': '$',
+		'searchTerm': ''
+	};
+	var absoluteURL = '/webapp/wcs/stores/servlet/';
+	var ctoURL = '/us/en/ConfigureView?catalogId=10051&urlLangId=&langId=-1&storeId=10151';	
+	var imageDirectoryPath = '/wcsstore/HPStorefrontAssetStore/';
+	var styleDirectoryPath = 'images/colors/color1/';
+	var supportPaymentTypePromotions = false;
+	var subsFulfillmentFrequencyAttrName = 'fulfillmentFrequency';
+	var subsPaymentFrequencyAttrName = 'paymentFrequency';
+	var subsTimePeriodAttrName = 'timePeriod';
+	
+	var storeNLS = null;
+	var storeUserType = 'G';
+	var ios = false;
+	var android = false;
+	
+	// Store the amount of time of inactivity before a re-login is required, this value is retrieved from wc-server.xml, default is 30 mins
+	var inactivityTimeout = 1800000;
+	
+	// Store the amount of time the inactivity warning dialog will be displayed before it closes itself, default is 20 seconds
+	var inactivityWarningDialogDisplayTimer = 20000;
+	
+	// Store the amount of time to display a inactivity warning dialog before a re-login is required, default is 30 seconds
+	var inactivityWarningDialogBuffer = 30000;
+	
+	// Store the timing event to display the inactivity dialog
+	var inactivityTimeoutTracker = null;
+
+	// Store the timing event to close the inactivity dialog
+	var dialogTimeoutTracker = null;
+	
+	//Summary: Returns the absolute URL to use for prefixing any Ajax URL call.
+	//Description: Dojo does not handle the case where the parameters in the URL are delimeted by the "/" forward slash. Therefore, in order to
+	//             workaround the issue, all AJAX requests must be done using absolute URLs rather than relative.
+	//Returns: The absolute URL to use for prefixing any Ajax URL call.
+	function getAbsoluteURL() {
+		return absoluteURL;
+	}
+	//Summary: Returns the path pointing to the shared image directory.
+	//Description: In order to get the image directory path in any javascript file, this function can be used.
+	//Returns: The path to reference images.
+	function getImageDirectoryPath() {
+		return imageDirectoryPath;
+	}
+	//Summary: Returns the path pointing to the directory containing color-dependant image files.
+	//Description: In order to get the directory containing color-dependant image files in any javascript file, this function can be used.
+	//Returns: The path to reference color-dependant image files.
+	function getStyleDirectoryPath() {
+		return styleDirectoryPath;
+	}
+</script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/javascript/StoreCommonUtilities_ShoppingActions.js?v=60973"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/javascript/Common/ShoppingActionsServicesDeclaration.js?v=54579"></script> 
+  <script type="text/javascript">
+	//Set the default NLS to use in the store.
+	if(storeNLS == null) {
+		dojo.requireLocalization("storetext", "StoreText");
+		storeNLS = dojo.i18n.getLocalization("storetext","StoreText");
+	}
+	initializeInactivityWarning();
+	var ie6 = false;
+	if (navigator != null && navigator.userAgent != null) {
+		ie6 = (navigator.userAgent.toLowerCase().indexOf("msie 6.0") > -1); 
+	}
+	if (location.href.indexOf('UnsupportedBrowserErrorView') == -1 && ie6) {
+		document.write('<meta http-equiv="Refresh" content="0;URL=/us/en/UnsupportedBrowserErrorView?catalogId=10001&amp;langId=-1&amp;storeId=10151"/>');
+	}
+	
+	// Variables required for image rotation. Used in js/script.min.js file.
+	var imgPath = '/wcsstore/HPStorefrontAssetStore/img/rotation/';
+	var imgExtn = '.jpg';
+	
+	dojo.addOnLoad(function() {
+		shoppingActionsJS.setCommonParameters('-1', '10151', '10051', 'G', '$');
+	});
+</script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/CallCenter/js/CallcenterCommon.js?v=54579"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/CallCenter/js/CallcenterCommonServicesDeclarations.js?v=54579"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/javascript/Analytics.js?v=43"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/javascript/servicesdeclaration_checkouthelper_shipmodeselectionext_tealeaWCf_query_dlmenu.js?v=60973"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/javascript/MessageHelper.js?v=52540"></script> 
+  <!-- END CommonJSToInclude.jspf --> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/sitemap.js?v=18197"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/modelflow.js?v=54579"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/vendor/behaviors/manual-trigger.js?v="></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/check_input_function.js?v=5447"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/vendor/jquery.autocomplete.js?v=6549"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/vendor/onmediaquery.min.js?v=6549"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/search-autocomplete.js?v="></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/vendor/jquery.dlmenu.js?v=6549"></script> 
+  <!-- reactive chat control start --> 
+  <div id="MoxieChatLinks" class="hide" style="color:blue;"> 
+   <!-- BEGIN ChatContentRecommendation.jsp -->
+   <!-- END ChatContentRecommendation.jsp --> 
+  </div> 
+  <!-- reactive chat control end -->
+  <!--Webanalytics -- START --> 
+  <script language="JavaScript">
+            hpmmd.page.name='WhyShopAtHP';
+            var userId='-1002';
+            var userType='';
+            var hp_profileId='';
+            var language='en_US';
+            var CID='';
+            var aoid='';
+            hpmmd.browser.hpshopping2 = aoid;
+            var moxievalues = '';
+            var MoxieCategoryContent = '';
+
+            function omniture_Tag(Analyitc_userType) {
+                userType = Analyitc_userType;
+                setCommonUserParams(userId, userType, hp_profileId);
+            }
+
+            $(document).ready(function() {
+                var nonCategoryContent =  $('div#MoxieChatLinks').text().trim();
+                if (nonCategoryContent !== 'undefined' && nonCategoryContent.length > 0) {
+                    var nonCategoryArray = nonCategoryContent.split(';');
+                    for (x in nonCategoryArray) {
+                        var kv = nonCategoryArray[x].split(':');
+                        if (kv[0].trim() === 'PlainContent') {
+                            moxievalues = kv[1].trim();
+                            break;
+                        }
+                    }
+                }
+                MoxieCategoryContent = moxievalues;
+                if (MoxieCategoryContent !== 'undefined') {
+                    liveHelpURL = liveHelpURL + '&moxiecontent=' + MoxieCategoryContent;
+                }
+            });
+        </script> 
+  <!--Webanalytics -- END --> 
+  <div id="hpmmdframework_complete"></div>   
+ </body>
+</html>

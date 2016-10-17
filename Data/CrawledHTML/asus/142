@@ -1,0 +1,355 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-US" itemscope itemtype="http://schema.org/Article" class="no-js">
+ <head id="Head1">
+  <title>
+	ZenFone 2 Advanced Replacement Instructions
+</title> 
+  <link rel="shortcut icon" href="//www.asus.com/images/favicon.ico" type="image/x-icon"> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="description" content=""> 
+  <meta name="author" content=""> 
+  <link rel="canonical" href="https://www.asus.com/us/support/article/744"> 
+  <script type="text/javascript" src="/support/js/modernizr-2.5.3.min.js"></script> 
+  <script type="text/javascript" src="/support/js/jquery.js"></script> 
+  <script type="text/javascript" src="/support/js/bootstrap.js"></script> 
+  <script type="text/javascript" src="/support/js/myscript.js"></script> 
+  <script type="text/javascript" src="/support/js/jquery.colorbox.js"></script> 
+  <script type="text/javascript" src="/support/js/jcarousellite_1.0.1.js"></script> 
+  <!--<script type="text/javascript" src="/support/js/gaTrace.js"></script>--> 
+  <script src="/support/js/browser.js"></script> 
+  <script src="/support/js/jquery_phone_nav.js"></script> 
+  <!--[if lt IE 9]>
+      <script src="/support/js/html5.js"></script>
+    <![endif]--> 
+  <link type="text/css" rel="stylesheet" href="/support/stylesheets/reset.css"> 
+  <link type="text/css" rel="stylesheet" href="/support/stylesheets/base.css"> 
+  <link type="text/css" rel="stylesheet" href="/support/stylesheets/colorbox.css"> 
+  <!-- Le fav and touch icons --> 
+ </head>
+ <body>
+  <input name="header1$hd_version" type="hidden" id="hd_version" value="1"> 
+  <script type="text/javascript">
+    $(document).ready(function () {
+        var version = $("#hd_version").val();
+        if(version == "1"){//full_style需在resp前
+            var linkfs = document.createElement('link');
+            linkfs.type = 'text/css';
+            linkfs.rel = "stylesheet";
+            linkfs.href = "/support/stylesheets/full_style.css";
+            document.getElementsByTagName("head")[0].appendChild(linkfs);
+        }
+        var linkresp = document.createElement('link');
+        linkresp.type = 'text/css';
+        linkresp.rel = "stylesheet";
+        linkresp.href = "/support/stylesheets/responsive.css";
+        document.getElementsByTagName("head")[0].appendChild(linkresp);
+    });
+</script> 
+  <script type="text/javascript">
+    //loading local css file
+    $(document).ready(function () {
+        var css_name = "";
+        var lang_prefix = window.location.pathname.split("/");
+        if (lang_prefix.length >= 2)
+            if (lang_prefix[1] == "support")
+                css_name = "en.css";
+            else
+                css_name = lang_prefix[1] + ".css";
+
+        if (window.console)
+            console.log("css name: " + css_name);
+
+        if (window.location.hostname.indexOf("asus.com.cn") >= 0) {
+            css_name = "cn.css";
+        }
+
+        if (window.console)
+            console.log("css name: " + css_name);
+
+        if (css_name != "") {
+            var link = document.createElement('link');
+            link.type = 'text/css';
+            link.rel = "stylesheet";
+            link.href = "/support/stylesheets/local/" + css_name;
+            document.getElementsByTagName("head")[0].appendChild(link);
+        }
+
+        //video play box
+        $(".vEmbedded > a").colorbox({ iframe: true, width: "70%", height: "80%" });
+
+
+
+
+    });
+</script> 
+  <script type="text/javascript">
+    window.ASUSInit = function () {
+        var api_lang = '';
+        var api_key = '0000000004';
+        var lang_prefix = window.location.pathname.split("/");
+        if (window.console) {
+            console.log("pathname: " + window.location.pathname);
+        }
+        if (lang_prefix.length >= 2) {
+            if (lang_prefix[1] == "support")
+                api_lang = "";
+            else
+                api_lang = lang_prefix[1];
+        }
+        if (window.location.hostname.indexOf("asus.com.cn") >= 0) {
+            api_lang = "cn";
+            api_key = '0000000019';
+        }
+        if (window.console)
+            console.log("lang: " + api_lang);
+        asus_api.init({ appkey: api_key, lang: api_lang });
+    };
+    (function (d) {
+        var js, id = 'asus-jsapi', IsDebug='False';
+
+        if (d.getElementById("asus-jsapi")) { return; }
+        js = d.createElement('script');
+        js.id = id;
+        js.async = true;
+
+        if(IsDebug == 'True'){
+//                js.src = "//test.asus.com/API/js/asus_api_v2.js";
+                js.src = "//www.asus.com/API/js/asus_api.js";
+        }else{
+            if (window.location.href.indexOf("asus.com.cn") >= 0 || window.location.hostname.indexOf("asus.com.cn") >= 0)
+                js.src = "//www.asus.com.cn/API/js/asus_api.js";
+            else
+                js.src = "//www.asus.com/API/js/asus_api.js";
+        }
+       
+        d.getElementsByTagName('head')[0].appendChild(js);
+    } (document)); 
+
+</script> 
+  <script src="/support/js/MISTrack.js" type="text/javascript"></script>   
+  <form method="post" action="./744?ln=en-us&amp;no=744&amp;" id="form1"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTczMjI0NjUzOA9kFgICAQ9kFgICAQ9kFgpmD2QWAgIBD2QWCAIBDxYEHgRocmVmBQQvdXMvHglpbm5lcmh0bWwFBEhvbWVkAgIPFgIeBXN0eWxlBQ5kaXNwbGF5OmlubGluZWQCAw8WBh8ABQsvdXMvc3VwcG9ydB8CBQ5kaXNwbGF5OmlubGluZR8BBQdTdXBwb3J0ZAIEDxYCHwIFDmRpc3BsYXk6aW5saW5lZAIBDxYCHwEFFUltcG9ydGFudCBJbmZvcm1hdGlvbmQCAg8WAh8BBStaZW5Gb25lIDIgQWR2YW5jZWQgUmVwbGFjZW1lbnQgSW5zdHJ1Y3Rpb25zZAIDDxYCHgRUZXh0BdYUPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPg0KICAkKGRvY3VtZW50KS5yZWFkeShmdW5jdGlvbigkKSB7DQogICAgJCgnI2FjY29yZGlvbicpLmZpbmQoJy5hY2NvcmRpb24tdG9nZ2xlJykuY2xpY2soZnVuY3Rpb24oKXsNCg0KICAgICAgLy9FeHBhbmQgb3IgY29sbGFwc2UgdGhpcyBwYW5lbA0KICAgICAgJCh0aGlzKS5uZXh0KCkuc2xpZGVUb2dnbGUoJ2Zhc3QnKTsNCg0KICAgICAgLy9IaWRlIHRoZSBvdGhlciBwYW5lbHMNCiAgICAgICQoIi5hY2NvcmRpb24tY29udGVudCIpLm5vdCgkKHRoaXMpLm5leHQoKSkuc2xpZGVVcCgnZmFzdCcpOw0KDQogICAgfSk7DQogIH0pOw0KPC9zY3JpcHQ+PCEtLSBDU1MgLS0+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPi5hY2NvcmRpb24tdG9nZ2xlIHtjdXJzb3I6IHBvaW50ZXI7fQ0KICAuYWNjb3JkaW9uLWNvbnRlbnQge2Rpc3BsYXk6IG5vbmU7fQ0KICAuYWNjb3JkaW9uLWNvbnRlbnQuZGVmYXVsdCB7ZGlzcGxheTogYmxvY2s7fQ0KPC9zdHlsZT4NCjwhLS0gSFRNTCAtLT4NCjxkaXYgaWQ9ImFjY29yZGlvbiI+DQo8aDQgY2xhc3M9ImFjY29yZGlvbi10b2dnbGUiPldoYXQgaXMgWmVuRm9uZSAyIGFkdmFuY2VkIHJlcGxhY2VtZW50PzwvaDQ+DQoNCjxkaXYgY2xhc3M9ImFjY29yZGlvbi1jb250ZW50Ij4NCjxwPlRoaXMgb3B0aW9uIGF2YWlsYWJsZSB0byBaZW5Gb25lIDIgKG1vZGVsOiBaRTU1MU1MIGFuZCBaRTU1MUtMKSBjdXN0b21lcnMgd2hvIHdpc2ggdG8gb2J0YWluIGEgcmVwbGFjZW1lbnQgcHJvZHVjdCBiZWZvcmUgcmV0dXJuaW5nIGEgZGVmZWN0aXZlIHByb2R1Y3QuIEEgdmFsaWQgY3JlZGl0IGNhcmQgaXMgcmVxdWlyZWQgYXQgdGhlIHRpbWUgb2YgdGhlIHJlcXVlc3QuPC9wPg0KPC9kaXY+DQoNCjxoNCBjbGFzcz0iYWNjb3JkaW9uLXRvZ2dsZSI+V2hvIGlzIGVsaWdpYmxlIGZvciBhZHZhbmNlZCByZXBsYWNlbWVudD88L2g0Pg0KDQo8ZGl2IGNsYXNzPSJhY2NvcmRpb24tY29udGVudCI+DQo8cD5UaGUgWmVuRm9uZSAyIGFkdmFuY2VkIHJlcGxhY2VtZW50IG9wdGlvbiBpcyBjdXJyZW50bHkgYXZhaWxhYmxlIGZvciBpbi13YXJyYW50eSwgWmVuRm9uZSAyIChtb2RlbDogWkU1NTFNTCBhbmQgWkU1NTFLTCkgb3duZXJzIGxvY2F0ZWQgaW4gdGhlIFVuaXRlZCBTdGF0ZXMgYW5kIENhbmFkYSB0ZXJyaXRvcmllcyBvbmx5LjwvcD4NCjwvZGl2Pg0KDQo8aDQgY2xhc3M9ImFjY29yZGlvbi10b2dnbGUiPkFyZSB0aGVyZSBhbnkgY29zdHMgYXNzb2NpYXRlZCB3aXRoIGFkdmFuY2VkIHJlcGxhY2VtZW50PzwvaDQ+DQoNCjxkaXYgY2xhc3M9ImFjY29yZGlvbi1jb250ZW50Ij4NCjxwPlllcywgdGhlcmUgaXMgYSAkMjUgbm9uLXJlZnVuZGFibGUgcHJvY2Vzc2luZyBmZWUuPC9wPg0KPC9kaXY+DQombmJzcDsNCg0KPGhyIC8+Jm5ic3A7DQo8cD48c3BhbiBzdHlsZT0iZm9udC1zaXplOjIwcHg7Ij5TdGVwIDE6IDxhIGhyZWY9Imh0dHBzOi8vY21zLWFtLmFzdXMuY29tL2VjcC9SbWEuaHRtbD9fZ2E9MS4yMDA3MjUwNC4xNDI5ODcyNDgxLjE0MzIxNDA0MTIiIHRhcmdldD0iX2JsYW5rIj5BcHBseTwvYT4mbmJzcDtmb3IgYSBSTUEgbnVtYmVyPC9zcGFuPjwvcD4NCg0KPHA+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToyMHB4OyI+U3RlcCAyOiBGaWxsIG91dCB0aGUgPGEgaHJlZj0iaHR0cHM6Ly93d3cuYXN1cy5jb20vdXMvc3VwcG9ydC9hcnRpY2xlLzczNi8iIHRhcmdldD0iX2JsYW5rIj5aZW5Gb25lIDIgQWR2YW5jZWQgUmVwbGFjZW1lbnQgRm9ybTwvYT48L3NwYW4+PC9wPg0KJm5ic3A7DQoNCjxociAvPg0KPGg0IGNsYXNzPSJhY2NvcmRpb24tdG9nZ2xlIj5XaGF0IGhhcHBlbnMgbmV4dD88L2g0Pg0KDQo8ZGl2IGNsYXNzPSJhY2NvcmRpb24tY29udGVudCI+DQo8cD5BZnRlciB5b3Ugb2J0YWluIGEgUk1BIG51bWJlciBhbmQgc3VibWl0IHRoZSBhZHZhbmNlZCByZXBsYWNlbWVudCBmb3JtLCBwbGVhc2UgYWxsb3cgMjQtNDggaG91cnMgZm9yIHByb2Nlc3NpbmcuIEFzdXMgd2lsbCBzaGlwIHRoZSByZXBsYWNlbWVudCBkZXZpY2UgdmlhIEZlZGV4IFN0YW5kYXJkIE92ZXJuaWdodC4gVGhlIGRlZmVjdGl2ZSBkZXZpY2UgbXVzdCBiZSByZXR1cm5lZCB0byBBc3VzIHdpdGhpbiAxNCBkYXlzIG9mIHJlY2VpdmluZyB5b3VyIHJlcGxhY2VtZW50LiBJZiB5b3UgZmFpbCB0byByZXR1cm4geW91ciBkZXZpY2UgYXMgaW5zdHJ1Y3RlZCwgQXN1cyByZXNlcnZlcyB0aGUgcmlnaHQgdG8gY2hhcmdlIHRoZSBjcmVkaXQgY2FyZCBmb3IgdGhlIHJldGFpbCB2YWx1ZSBvZiB0aGUgZGV2aWNlIHBsdXMgc2hpcHBpbmcgYW5kIGhhbmRsaW5nLjwvcD4NCjwvZGl2Pg0KPC9kaXY+DQoNCjxwPiZuYnNwOzwvcD4NCg0KPHA+PGVtIHN0eWxlPSJjb2xvcjogcmdiKDI1NSwgMCwgMCk7IGZvbnQtc2l6ZTogMTFweDsgbGluZS1oZWlnaHQ6IDE1LjYwMDAwMDM4MTQ2OTdweDsiPjxzcGFuIHN0eWxlPSJsaW5lLWhlaWdodDogMTUuNjAwMDAwMzgxNDY5N3B4OyI+KlRoZSBaZW5Gb25lIDIgQWR2YW5jZWQgUmVwbGFjZW1lbnQgb3B0aW9uIGlzIG9ubHkgYXZhaWxhYmxlIGZvciBtb2RlbDogWkU1NTFNTCBhbmQgWkU1NTFLTCAoVVMgYW5kIENhbmFkYSB2ZXJzaW9uKS48L3NwYW4+PC9lbT48L3A+ZAIED2QWCmYPFgIfAQUZV2hhdCYjMzk7cyBOZXcgYWJvdXQgQVNVU2QCAQ8WBB8ABRcvdXMvc3VwcG9ydC9JbmZvcm1hdGlvbh8BBRdOZXdzICZhbXA7IEFubm91bmNlbWVudGQCAg8WAh8DBQIyNmQCAw8WAh8BBRVJbXBvcnRhbnQgSW5mb3JtYXRpb25kAgQPFgIeC18hSXRlbUNvdW50Ag8WHmYPZBYCZg8VAxgvdXMvc3VwcG9ydC9BcnRpY2xlLzU2NS8FX3NlbGYWSG93IHRvIGZpbmQgbW9kZWwgbmFtZWQCAQ9kFgJmDxUDGC91cy9zdXBwb3J0L0FydGljbGUvNTY2LwVfc2VsZhdIb3cgdG8gZmluZCBwcm9kdWN0IFMvTmQCAg9kFgJmDxUDGC91cy9zdXBwb3J0L0FydGljbGUvNzIwLwVfc2VsZhBTZXJ2aWNlIFByb2dyYW1zZAIDD2QWAmYPFQMYL3VzL3N1cHBvcnQvQXJ0aWNsZS82MjMvBV9zZWxmKFdoYXQgc2hvdWxkIEkgZG8gYmVmb3JlIGNvbnRhY3RpbmcgQVNVUz9kAgQPZBYCZg8VAxgvdXMvc3VwcG9ydC9BcnRpY2xlLzcxNy8FX3NlbGYgVG9wIDUgRnJlcXVlbnRseSBBc2tlZCBRdWVzdGlvbnNkAgUPZBYCZg8VAxgvdXMvc3VwcG9ydC9BcnRpY2xlLzY5NC8FX3NlbGYSUmVmdXJiaXNoIFdhcnJhbnR5ZAIGD2QWAmYPFQMYL3VzL3N1cHBvcnQvYXJ0aWNsZS83NzcvBV9zZWxmDFZlcmlmaWNhdGlvbmQCBw9kFgJmDxUDGC91cy9zdXBwb3J0L0FydGljbGUvNzgyLwVfc2VsZjpIb3cgdG8gcHVyY2hhc2UgV2luZG93cyByZWNvdmVyeSBtZWRpYT8gKE5vdGVib29rIFBDIE9ubHkpZAIID2QWAmYPFQMYL3VzL3N1cHBvcnQvQXJ0aWNsZS82MDQvBV9zZWxmH0FTVVMgQmF0dGVyeSBJbmZvcm1hdGlvbiBDZW50ZXJkAgkPZBYCZg8VAxgvdXMvc3VwcG9ydC9BcnRpY2xlLzU5Ny8FX3NlbGYURVBFQVQgUHJvZHVjdCBQb2xpY3lkAgoPZBYCZg8VAxcvdXMvc3VwcG9ydC9BcnRpY2xlLzc1NAVfc2VsZhlSZXBvcnRpbmcgU3RvbGVuIFByb2R1Y3RzZAILD2QWAmYPFQM3aHR0cDovL3d3dy5jb21tZXJjaWFsc3VwcG9ydC5hc3VzLmNvbS8jIWNvbW1lcmNpYWwvYzd4ZQZfYmxhbmsSQ29tbWVyY2lhbCBTdXBwb3J0ZAIMD2QWAmYPFQMXL3VzL3N1cHBvcnQvQXJ0aWNsZS83NDQFX3NlbGYeWmVuRm9uZSAyIEFkdmFuY2VkIFJlcGxhY2VtZW50ZAIND2QWAmYPFQMraHR0cDovL3d3dy5hc3VzLmNvbS91cy9zdXBwb3J0L0FydGljbGUvNjk2LwVfc2VsZg9aZXJvIEJyaWdodCBEb3RkAg4PZBYCZg8VAytodHRwOi8vd3d3LmFzdXMuY29tL3VzL3N1cHBvcnQvQXJ0aWNsZS83MDMvBV9zZWxmGEFTVVMgUmVnaXN0ZXJlZCBTZXJ2aWNlc2RkicDueXuow/0/4pnMplNnxVpPzpA="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="68439541"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdABCPh81gwPNNn4/jHH3ynZhINZB+pap+Eh42iiSS4+k4PiDtOPoS55I9+oKXugLW/gJknmDr+bFUDIsvuku77WNYG5h9XiJ0VVjJz4L6Ox2bFWxjUZuw02eutnZU5r+PY70ozEk9BF7FgIADe9dMv0ODi3gbETdcMkdBFBX+UY75kNghNKcidJD7Ammv+xGzoC84PZgHOjFiGVCGm0Tpd4h3K8ekZEDRGShlpDpPPw1/+MP/qDIYFKA3q5NPkVyw5i7lmYvpc66jZQEsdiIbM1lDjAweZnecDvSui50NuLzBgqDZuUtozpYLLjdKv4pTnAFcAF7+rPzELe7d6WWZiXCVgUHUbFLe1FA5NS9ly2cFX/CnwaY="> 
+   </div> 
+   <!--Support--> 
+   <div class="grayBg"> 
+    <div id="important-information" class="container main-zone"> 
+     <div id="breadcrumbs"> 
+      <div id="product-topinfo"> 
+       <div id="breadcrumbs"> 
+        <a href="/us/" id="mainzone1_breadcrumb2_a_home" target="_self">Home</a>
+        <span id="mainzone1_breadcrumb2_s1" style="display:inline">&nbsp;&gt;&nbsp;</span>
+        <a href="/us/support" id="mainzone1_breadcrumb2_a_support" target="_self" style="display:inline">Support</a>
+        <span id="mainzone1_breadcrumb2_s2" style="display:inline">&nbsp;&gt;&nbsp;</span>
+        <a href="../../../uc_3/general/index.aspx" id="mainzone1_breadcrumb2_a_pagename" target="_self" style="display: none">[Page Name]</a> 
+        <span id="mainzone1_breadcrumb2_s_l1" style="display: none">&nbsp;&gt;&nbsp;</span>
+        <a href="../../../uc_3/general/index.aspx" id="mainzone1_breadcrumb2_a_l1" target="_self" style="display: none">[level 1]</a> 
+        <span id="mainzone1_breadcrumb2_s_l2" style="display: none">&nbsp;&gt;&nbsp;</span>
+        <a href="../../../uc_3/general/index.aspx" id="mainzone1_breadcrumb2_a_l2" target="_self" style="display: none">[level 2]</a> 
+        <span id="mainzone1_breadcrumb2_s_m" style="display: none">&nbsp;&gt;&nbsp;</span>
+        <a href="../../../uc_3/general/index.aspx" id="mainzone1_breadcrumb2_a_m" target="_self" style="display: none">[model]</a> 
+       </div> 
+       <div class="pull-right" id="MDA" style="display: none"> 
+        <span class="mdatext">ASUS recommends Windows® 7.</span> 
+       </div> 
+      </div> 
+     </div> 
+     <h1 id="id_top_page_title" class="page-title" langtype="support_main" langtextid="info_title1">Important Information</h1> 
+     <div class="double-border-bottom"> 
+     </div> 
+     <!--Main Content --> 
+     <div class="im-main"> 
+      <!--right--> 
+      <div class="rightC curl-shadow"> 
+       <div id="search-result"> 
+        <!--Product--> 
+        <div class="product_contentZone"> 
+         <div class="mediaZone"> 
+          <!-- AddThis Button BEGIN，Expect CN Site --> 
+          <div class="addthis_toolbox addthis_default_style"> 
+           <a class="addthis_button_compact at300m">Share</a> 
+           <a style="width: 65px;"> 
+            <div class="g-plusone" data-size="medium" style="float: left;"> 
+            </div> </a>
+           <a> 
+            <div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true" data-font="arial"> 
+            </div> </a> 
+          </div> 
+          <!-- AddThis Button END --> 
+          <div class="both"> 
+          </div> 
+          <span class="visible-phone"><a href="#" class="btn-adv">more</a></span> 
+         </div> 
+         <h1 id="mainzone1_article_title" class="page-title">ZenFone 2 Advanced Replacement Instructions</h1> 
+         <script type="text/javascript">
+  $(document).ready(function($) {
+    $('#accordion').find('.accordion-toggle').click(function(){
+
+      //Expand or collapse this panel
+      $(this).next().slideToggle('fast');
+
+      //Hide the other panels
+      $(".accordion-content").not($(this).next()).slideUp('fast');
+
+    });
+  });
+</script>
+         <!-- CSS --> 
+         <style type="text/css">.accordion-toggle {cursor: pointer;}
+  .accordion-content {display: none;}
+  .accordion-content.default {display: block;}
+</style> 
+         <!-- HTML --> 
+         <div id="accordion"> 
+          <h4 class="accordion-toggle">What is ZenFone 2 advanced replacement?</h4> 
+          <div class="accordion-content"> 
+           <p>This option available to ZenFone 2 (model: ZE551ML and ZE551KL) customers who wish to obtain a replacement product before returning a defective product. A valid credit card is required at the time of the request.</p> 
+          </div> 
+          <h4 class="accordion-toggle">Who is eligible for advanced replacement?</h4> 
+          <div class="accordion-content"> 
+           <p>The ZenFone 2 advanced replacement option is currently available for in-warranty, ZenFone 2 (model: ZE551ML and ZE551KL) owners located in the United States and Canada territories only.</p> 
+          </div> 
+          <h4 class="accordion-toggle">Are there any costs associated with advanced replacement?</h4> 
+          <div class="accordion-content"> 
+           <p>Yes, there is a $25 non-refundable processing fee.</p> 
+          </div> &nbsp; 
+          <hr>&nbsp; 
+          <p><span style="font-size:20px;">Step 1: <a href="https://cms-am.asus.com/ecp/Rma.html?_ga=1.20072504.1429872481.1432140412" target="_blank">Apply</a>&nbsp;for a RMA number</span></p> 
+          <p><span style="font-size:20px;">Step 2: Fill out the <a href="https://www.asus.com/us/support/article/736/" target="_blank">ZenFone 2 Advanced Replacement Form</a></span></p> &nbsp; 
+          <hr> 
+          <h4 class="accordion-toggle">What happens next?</h4> 
+          <div class="accordion-content"> 
+           <p>After you obtain a RMA number and submit the advanced replacement form, please allow 24-48 hours for processing. Asus will ship the replacement device via Fedex Standard Overnight. The defective device must be returned to Asus within 14 days of receiving your replacement. If you fail to return your device as instructed, Asus reserves the right to charge the credit card for the retail value of the device plus shipping and handling.</p> 
+          </div> 
+         </div> 
+         <p>&nbsp;</p> 
+         <p><em style="color: rgb(255, 0, 0); font-size: 11px; line-height: 15.6000003814697px;"><span style="line-height: 15.6000003814697px;">*The ZenFone 2 Advanced Replacement option is only available for model: ZE551ML and ZE551KL (US and Canada version).</span></em></p> 
+        </div> 
+       </div> 
+      </div> 
+      <!--Left--> 
+      <div id="fast-link" class="leftC left-menu-zone"> 
+       <!--only phone--> 
+       <a href="#" class="btn-adv hide visible-phone">Go Back</a> 
+       <!--only phone--> 
+       <span id="mainzone1_links_news_popular1_Span1" class="item-title" langtype="support_main" langtextid="info_title3">What's New about ASUS</span> 
+       <ul id="left-nav" class="search-nav"> 
+        <li class="nav-item-sub"><a href="/us/support/Information" id="mainzone1_links_news_popular1_news_link" langtype="support_main" langtextid="info_title2">News &amp; Announcement</a><a href="/us/support/Information" id="A1"><span class="badge badge-asus">26</span></a></li> 
+        <li class="divider"></li> 
+        <li class="active"> <h3 id="mainzone1_links_news_popular1_h3_title" class="nav-item-title">Important Information</h3> </li> 
+        <li class="nav-item-sub"><a href="/us/support/Article/565/" target="_self"> How to find model name</a> </li> 
+        <li class="nav-item-sub"><a href="/us/support/Article/566/" target="_self"> How to find product S/N</a> </li> 
+        <li class="nav-item-sub"><a href="/us/support/Article/720/" target="_self"> Service Programs</a> </li> 
+        <li class="nav-item-sub"><a href="/us/support/Article/623/" target="_self"> What should I do before contacting ASUS?</a> </li> 
+        <li class="nav-item-sub"><a href="/us/support/Article/717/" target="_self"> Top 5 Frequently Asked Questions</a> </li> 
+        <li class="nav-item-sub"><a href="/us/support/Article/694/" target="_self"> Refurbish Warranty</a> </li> 
+        <li class="nav-item-sub"><a href="/us/support/article/777/" target="_self"> Verification</a> </li> 
+        <li class="nav-item-sub"><a href="/us/support/Article/782/" target="_self"> How to purchase Windows recovery media? (Notebook PC Only)</a> </li> 
+        <li class="nav-item-sub"><a href="/us/support/Article/604/" target="_self"> ASUS Battery Information Center</a> </li> 
+        <li class="nav-item-sub"><a href="/us/support/Article/597/" target="_self"> EPEAT Product Policy</a> </li> 
+        <li class="nav-item-sub"><a href="/us/support/Article/754" target="_self"> Reporting Stolen Products</a> </li> 
+        <li class="nav-item-sub"><a href="http://www.commercialsupport.asus.com/#!commercial/c7xe" target="_blank"> Commercial Support</a> </li> 
+        <li class="nav-item-sub"><a href="/us/support/Article/744" target="_self"> ZenFone 2 Advanced Replacement</a> </li> 
+        <li class="nav-item-sub"><a href="http://www.asus.com/us/support/Article/696/" target="_self"> Zero Bright Dot</a> </li> 
+        <li class="nav-item-sub"><a href="http://www.asus.com/us/support/Article/703/" target="_self"> ASUS Registered Services</a> </li> 
+       </ul> 
+      </div> 
+      <div class="both"> 
+      </div> 
+      <input type="hidden" name="mainzone1$links_news_popular1$hd_CurrURL" id="hd_CurrURL" value="/us/support/article/744"> 
+      <script type="text/javascript">
+    $("a[href$='" + $("#hd_CurrURL").val() + "']").css("color", "#0164a2");
+</script> 
+     </div> 
+     <!--Main Content end--> 
+    </div> 
+   </div> 
+   <!--support end--> 
+   <!--Cn 站不載入任何google & facebook 的套件--> 
+   <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=undefined"></script> 
+   <script type="text/javascript" src="/support/js/plusone.js"></script> 
+   <script type="text/javascript">
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+    } (document, 'script', 'facebook-jssdk'));</script> 
+   <!-- H-A-5 --> 
+   <input name="page_info1$langNormal" type="hidden" id="langNormal" value="en-us"> 
+   <input name="page_info1$hd_lang_prefix" type="hidden" id="hd_lang_prefix" value="/us/support"> 
+   <input name="page_info1$hd_product" type="hidden" id="hd_product"> 
+   <input name="page_info1$hd_product_name" type="hidden" id="hd_product_name"> 
+   <input name="page_info1$hd_product_name_ml" type="hidden" id="hd_product_name_ml"> 
+   <input name="page_info1$hd_series" type="hidden" id="hd_series"> 
+   <input name="page_info1$hd_series_name" type="hidden" id="hd_series_name"> 
+   <input name="page_info1$hd_series_name_ml" type="hidden" id="hd_series_name_ml"> 
+   <input name="page_info1$hd_model" type="hidden" id="hd_model"> 
+   <input name="page_info1$hd_model_ml" type="hidden" id="hd_model_ml"> 
+   <input name="page_info1$hd_os" type="hidden" id="hd_os"> 
+   <input name="page_info1$hd_hid" type="hidden" id="hd_hid"> 
+   <input name="page_info1$hd_offical_url" type="hidden" id="hd_offical_url"> 
+   <!-- Google Tag Manager with Origin gaTrace --> 
+   <noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+   </noscript> 
+   <script src="/support/js/gaTrace.js" type="text/javascript"></script> 
+   <!-- End Google Tag Manager --> 
+   <!--Online Chat--> 
+   <link href="/support/stylesheets/online-chat-btn.css" rel="stylesheet" type="text/css"> 
+   <script>
+    function inIframe() {
+        try {
+            return window.self !== window.top; //window.self means the current application , window.top means the top ahead application
+        } catch (e) {
+            return true;
+        }
+    }
+</script> 
+   <script type="text/javascript">
+    $(document).ready(function () {
+        var IsInIframe = inIframe();
+
+        if (IsInIframe) {
+            return false;
+        }
+
+        var _Local = $("#langNormal").val();
+
+        var onlineService = initOnlineService(_Local);
+        onlineService.init();
+    });
+
+    function initOnlineService(Local) {
+        var ApiUrl = window.location.protocol + "//demeter.asus.com/WSC/Support_API_New/SupportNewAPI/GetOnlineChatUrl/",
+            ApiOption;
+
+        ApiUrl += Local;
+
+        return {
+            init: function () {
+                if ($("#online-service").length > 0) return;
+
+                $.getJSON(ApiUrl + "?callback=?", ApiOption).done(function (result) {
+                    if (result && result.StatusCode == 0) {
+                        var onlineServiceString = result.Link_Name ? result.Link_Name : "Online Chat",
+                            serviceUrl = result.URL;
+
+                        onlineChatBtn = '<div id="online-service"><a class="btn" onclick="javascript:window.open(\'' + serviceUrl + '\', \'\',  \'width=520, height=700, scrollbars=yes\'); ga(\'send\', \'event\', \'button\', \'clicked\', \'onlinechat\');">' + onlineServiceString + '</a></div>';
+                        $(onlineChatBtn).appendTo("body");
+                    }
+                });
+            }
+        }
+    };
+</script> 
+   <!--Redirect en--> 
+  </form>   
+ </body>
+</html>

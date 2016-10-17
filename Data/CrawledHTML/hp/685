@@ -1,0 +1,2043 @@
+<!doctype html>
+<!-- BEGIN ContentRecommendation/ext/ContentRecommendation_UI.jsp -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+ <!-- InstanceBegin template="/Templates/Header - Footer.dwt" codeOutsideHTMLIsLocked="false" -->
+ <!--[endif]---->
+ <head> 
+  <link rel="canonical" href="http://store.hp.com/ContentView?eSpotName=InstantInk&amp;storeId=10151&amp;langId=-1&amp;catalogId=10051"> 
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="keyword" content="About Us HP-us-hho"> 
+  <link rel="shortcut icon" href="/wcsstore/HPStorefrontAssetStore/images/favicon.ico" mce_href="/wcsstore/HPStorefrontAssetStore/images/favicon.ico" type="image/x-icon"> 
+  <meta name="hp_design_version" content="hpweb.1.4"> 
+  <meta name="target_country" content="US"> 
+  <meta name="page_content" content="Products"> 
+  <meta name="segment" content="consumer.home"> 
+  <meta name="lifecycle" content="presales.consideration"> 
+  <meta name="business_unit" content="shared"> 
+  <meta name="web_section_id" content="cs:r329"> 
+  <meta name="language" content="en-us"> 
+  <meta name="CommerceSearch" content="storeId_10151"> 
+  <!-- Omniture - START --> 
+  <script type="text/javascript">
+			var hpmmd=window.hpmmd||{type: 'Unity eCommerce', page:{events:[]}, product:{list:[]},user:{},legacy:{},promo:{},search:{},browser:{}};
+		</script> 
+  <script type="text/javascript">
+			hpmmd.page.platform="wcs web";
+			hpmmd.page.site="hhos";	
+			hpmmd.page.store_type="hhos";
+			hpmmd.product.currency="USD";
+			hpmmd.page.section="static";
+			hpmmd.page.subsection="static";
+			hpmmd.page.page_function="landing";
+			hpmmd.page.discount_tier="gen";
+		</script> 
+  <script type="text/javascript" src="//nexus.ensighten.com/hp/etr_std_prod/Bootstrap.js"></script> 
+  <!-- Omniture - End-->
+  <!-- BEGIN CommonCSSToInclude.jspf -->
+  <!-- InstanceEndEditable -->
+  <!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<style type="text/css">
+		.gradient{ filter: none; }
+	</style>
+<![endif]--> 
+  <script>
+	// Picture element HTML5 shiv
+	document.createElement( "picture" );
+</script> 
+  <!-- InstanceBeginEditable name="Style sheets" --> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/foundation.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/custom.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/common.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/common-os.css" type="text/css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/custom-mobile.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/hps-euro-w01-fontface-core.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/jquery.bxslider.css"> 
+  <!-- Handlebars Templating CSS --> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/hpsf/hpsf.css"> 
+  <!-- InstanceEndEditable --> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/component.css"> 
+  <!-- For IE 8 and earlier -->
+  <!--[if lt IE 9]>
+	<link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/iesupport.css">
+    <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/IE8.css">
+  <![endif]--> 
+  <!-- For IE 9 and greater-->
+  <!--[if gte IE 9]>
+    <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/IE9.css">
+  <![endif]--> 
+  <link href="/wcsstore/HPStorefrontAssetStore/pattern-library/system/styles/patterns/icons.css" media="screen" rel="stylesheet" type="text/css"> 
+  <link href="/wcsstore/HPStorefrontAssetStore/pattern-library/system/styles/patterns/tooltip.css" media="screen" rel="stylesheet" type="text/css"> 
+  <link href="/wcsstore/HPStorefrontAssetStore/pattern-library/system/styles/patterns/lightbox.css" media="screen" rel="stylesheet" type="text/css"> 
+  <script type="text/javascript">var runResponsive = true;</script> 
+  <!--[if lt IE 9]>
+	<script type="text/javascript">runResponsive = false;</script>
+<![endif]--> 
+  <!-- END CommonCSSToInclude.jspf --> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/home.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/hero.slider.css"> 
+  <link rel="stylesheet" href="/wcsstore/HPStorefrontAssetStore/css/carousel_std.css"> 
+ </head> 
+ <body> 
+  <input type="hidden" id="ccFlag" value="false"> 
+  <!-- BEGIN Header.jsp --> 
+  <script type="text/javascript">
+	function getAbsoluteURL(){
+	    return '/webapp/wcs/stores/servlet/';               
+	}           
+</script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/js/combineheader.js"></script> 
+  <script type="text/javascript" src="http://www8.hp.com/ie/en/scripts/framework/jquery/v-1-8/can.jquery.js"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/js/hputils.js"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/js/callCenterUtils.js"></script> 
+  <input type="hidden" id="ccFlag" value="false"> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/js/omniture/omniture-tag.js?v=62248"></script> 
+  <!-- http://www8.hp.com/caas/header-footer/us/en/default/4.0.r/head-styles?contentType=html -->
+  <!-- http://www8.hp.com/caas/header-footer/us/en/default/4.0.r/head-scripts?contentType=html -->
+  <!-- http://www8.hp.com/caas/header-footer/us/en/default/4.0.r/header?contentType=html&show_shopping_cart=true --> 
+  <script type="text/javascript">
+		var isGuest = true;
+		function resizeIframe(obj) {
+			obj.parentElement.style.top = "25px";
+		}
+				
+		(function(d, s, id) {
+			var js, ref = d.getElementsByTagName(s)[0];
+			if (!d.getElementById(id)) {
+				js = d.createElement(s);
+				js.id = id;
+				js.async = true;
+				js.src = "//www.paypalobjects.com/js/external/paypal.js";
+				ref.parentNode.insertBefore(js, ref);
+			}
+		} (document, "script", "paypal-js"));
+	</script> 
+  <meta name="hp_inav_version" content="ihfcaas.4.r">
+  <link rel="stylesheet" type="text/css" href="http://www.www8-hp.com/us/en/system/styles/hpi/hpi-fontface-core.css?v=4.0.1" media="screen, print">
+  <link rel="stylesheet" type="text/css" href="http://www.www8-hp.com/us/en/system/styles/hpi/caas-hf-v4.0/hpi-hf-r.css?v=4.0.1" media="screen, print">
+  <!--  HPI/Default CaaS Header Footer V4 -->
+  <!--Data Published 10/06/2016 05:22:23 PM, Template Published: UNKNOWN-->
+  <script type="text/javascript" src="http://www8.hp.com/us/en/scripts/hpi/caas-hf-v4.0/hpi-hf-r-jq.js?v=4.0.1" xml:space="preserve"></script>
+  <script type="text/javascript" src="http://www8.hp.com/us/en/scripts/hpi/caas-hf-v4.0/hpi-autocomplete-loader-store-jq.js?v=4.0.1" xml:space="preserve"></script>
+  <!--Data Published 10/06/2016 05:22:23 PM, Template Published: UNKNOWN-->
+  <input type="hidden" name="APPC" value="01"> 
+  <input type="hidden" name="APPN" value="g2t3069"> 
+  <input type="hidden" name="APPJ" value="1"> 
+  <input type="hidden" name="WEBSN" value="store"> 
+  <!-- Desktop Utility nav --> 
+  <div id="utilityNav"> 
+   <div class="login-container row"></div> 
+  </div> 
+  <!-- Mobile Utility nav --> 
+  <div id="utility_nav"></div> 
+  <div class="clearfix"></div> 
+  <!-- storeURL: http://store.hp.com --> 
+  <div id="header" class="header"> 
+   <!-- Start CAAS Header : true -->
+   <div class="background">
+    &nbsp;
+   </div>
+   <div class="hf_wrapper">
+    <div class="header_container hf_clf">
+     <div class="hp_logo">
+      <a class="hf_logo link_metrics" name="1414644" href="http://www8.hp.com/us/en/home.html" title="HP® Official Site | Laptops, Computers, Desktops , Printers, and more" tabindex="1"><img src="http://www.www8-hp.com/us/en/images/i/hpi/header-footer/caas-hf-v3.2/hpi-hp-logo-pr.gif" alt="HP® Official Site   | Laptops, Computers, Desktops , Printers, and more" class="hf_printable" aria-hidden="true"></a>
+     </div>
+     <span class="skip-links"><a class="screenReading js-skip-link" href="#skiptobody" tabindex="1">Skip to Content</a><a class="screenReading js-skip-link" href="#skiptofooter" tabindex="1">Skip to Footer</a></span>
+     <div class="hf_top_menu js_header_topmenu">
+      <ul class="js_hf_menu  hf_menu level1">
+       <li class="selectable  first_li H/F - Laptop menu-1"><a name="2082481" tabindex="2" class="level1-desktop icn_laptop header_link  link_metrics" href="http://store.hp.com/us/en/cat/Laptops"><span>Laptops &amp; tablets</span><span class="screenReading js_screen_reading">&nbsp;</span><span class="pointer">&nbsp;</span></a>
+        <div class="js_hf_menu hf_menu level2">
+         <ul>
+          <li class="js_item  "><a name="2101987" tabindex="-1" class="icn_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/laptops/business-laptops-tablets.html"> Business </a></li>
+          <li class="js_item  "><a name="2082497" tabindex="-1" class="icn_premium  no_flyout link_metrics" href="http://www8.hp.com/us/en/premium/laptops/index.html"> Premium </a></li>
+          <li class="js_item  "><a name="2082491" tabindex="-1" class="icn_gaming  no_flyout link_metrics" href="http://www8.hp.com/us/en/campaigns/gamingpcs/overview.html"> Gaming </a></li>
+          <li class="js_item  "><a name="2277655" tabindex="-1" class="icn_laptop  no_flyout link_metrics" href="http://store.hp.com/us/en/vwa/Laptops/form=Standard-laptop"> Standard <br xmlns="http://www.w3.org/1999/xhtml"> laptops </a></li>
+          <li class="js_item  "><a name="2082480" tabindex="-1" class="icn_workstn_laptop  no_flyout link_metrics" href="http://www8.hp.com/us/en/workstations/overview.html"> Workstations </a></li>
+          <li class="js_item  "><a name="2109495" tabindex="-1" class="icn_detachables  no_flyout link_metrics" href="http://store.hp.com/us/en/vwa/Laptops/form=Convertible,Detachable"> Convertibles &amp; <br xmlns="http://www.w3.org/1999/xhtml"> detachables </a></li>
+          <li class="js_item  "><a name="2082500" tabindex="-1" class="icn_tablet  no_flyout link_metrics" href="http://store.hp.com/us/en/vwa/Laptops/form=Tablet"> Tablets </a></li>
+          <li class="js_item lstchild "><a name="2277225" tabindex="-1" class="icn_3in1_laptop  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;eSpotName=Elite-x3"> 3-in-1 </a></li>
+         </ul>
+        </div></li>
+       <li class="selectable   H/F - Desktop menu-2"><a name="2082388" tabindex="2" class="level1-desktop icn_desktop header_link  link_metrics" href="http://store.hp.com/us/en/cat/desktops"><span>Desktops</span><span class="screenReading js_screen_reading">&nbsp;</span><span class="pointer">&nbsp;</span></a>
+        <div class="js_hf_menu hf_menu level2">
+         <ul>
+          <li class="js_item  "><a name="2082386" tabindex="-1" class="icn_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/desktops/business-desktops.html"> Business </a></li>
+          <li class="js_item  "><a name="2082399" tabindex="-1" class="icn_immersive  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?catalogId=10051&amp;langId=-1&amp;storeId=10151&amp;eSpotName=Sprout-Pro#"> Immersive </a></li>
+          <li class="js_item  "><a name="2082396" tabindex="-1" class="icn_gaming  no_flyout link_metrics" href="http://www8.hp.com/us/en/campaigns/gamingpcs/overview.html#desktops"> Gaming </a></li>
+          <li class="js_item  "><a name="2277634" tabindex="-1" class="icn_towers  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=desktop-finder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=ff-tower"> Towers </a></li>
+          <li class="js_item  "><a name="2082385" tabindex="-1" class="icn_workstn_desktop  no_flyout link_metrics" href="http://www8.hp.com/us/en/workstations/overview.html"> Workstations </a></li>
+          <li class="js_item  "><a name="2082407" tabindex="-1" class="icn_all_in_one  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=desktop-finder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=ff-all"> All-in-ones </a></li>
+          <li class="js_item lstchild "><a name="2277633" tabindex="-1" class="icn_3in1_desktop  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;eSpotName=Elite-x3"> 3-in-1 </a></li>
+         </ul>
+        </div></li>
+       <li class="selectable   H/F - Printer menu-3"><a name="2082508" tabindex="2" class="level1-desktop icn_printer header_link  link_metrics" href="http://store.hp.com/us/en/cat/printers"><span>Printers</span><span class="screenReading js_screen_reading">&nbsp;</span><span class="pointer">&nbsp;</span></a>
+        <div class="js_hf_menu hf_menu level2">
+         <ul>
+          <li class="js_item  "><a name="2082527" tabindex="-1" class="icn_home_office  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=use-h"> Home &amp; <br xmlns="http://www.w3.org/1999/xhtml"> home office </a></li>
+          <li class="js_item  "><a name="2100716" tabindex="-1" class="icn_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/printers/business-printers.html"> Business </a></li>
+          <li class="js_item  "><a name="2277681" tabindex="-1" class="icn_print_only  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=pfunc-print"> Print <br xmlns="http://www.w3.org/1999/xhtml"> only </a></li>
+          <li class="js_item  "><a name="2082515" tabindex="-1" class="icn_printer  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=pfunc-multi"> Multifunction </a></li>
+          <li class="js_item  "><a name="2082522" tabindex="-1" class="icn_scanner  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=pfunc-scan"> Scanners </a></li>
+          <li class="js_item  "><a name="2082513" tabindex="-1" class="icn_large_format  no_flyout link_metrics" href="http://www8.hp.com/us/en/commercial-printers/graphic-arts.html"> Large format &amp; <br xmlns="http://www.w3.org/1999/xhtml"> digital presses </a></li>
+          <li class="js_item lstchild "><a name="2244510" target="_blank" tabindex="-1" class="icn_3d_printing  no_flyout link_metrics" href="http://www8.hp.com/us/en/printers/3d-printers.html"> 3D Print </a></li>
+         </ul>
+        </div></li>
+       <li class="empty   H/F - Ink Toner menu-4"><a name="2082545" tabindex="2" class="level1-desktop icn_ink_toner header_link no_flyout link_metrics" href="http://store.hp.com/us/en/cat/ink--toner---paper"><span>Ink &amp; toner</span><span class="pointer">&nbsp;</span></a></li>
+       <li class="empty   H/F - Monitor menu-5"><a name="2101621" tabindex="2" class="level1-desktop icn_monitor header_link no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=Accessories&amp;storeId=10151&amp;langId=-1&amp;catalogId=10051"><span>Displays &amp; accessories</span><span class="pointer">&nbsp;</span></a></li>
+       <li class="selectable second-last  H/F - Business menu-6"><a name="2082864" tabindex="2" class="level1-desktop icn_business header_link  link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions.html"><span>Business solutions</span><span class="screenReading js_screen_reading">&nbsp;</span><span class="pointer">&nbsp;</span></a>
+        <div class="js_hf_menu hf_menu level2">
+         <ul>
+          <li class="js_item  "><a name="2082456" tabindex="-1" class="icn_printing_solutions  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/printing.html"> Printing </a></li>
+          <li class="js_item  "><a name="2082442" tabindex="-1" class="icn_desktop  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/computing.html"> Computing </a></li>
+          <li class="js_item  "><a name="2082452" tabindex="-1" class="icn_mobility  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/mobility.html"> Mobility </a></li>
+          <li class="js_item  "><a name="2082469" tabindex="-1" class="icn_software  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/software.html"> Software </a></li>
+          <li class="js_item  "><a name="2082465" tabindex="-1" class="icn_services  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/services.html"> Services </a></li>
+          <li class="js_item  "><a name="2101975" tabindex="-1" class="icn_small_med_business  no_flyout link_metrics" href="http://store.hp.com/us/en/cat/business-solutions"> Small &amp; medium <br xmlns="http://www.w3.org/1999/xhtml"> business store </a></li>
+          <li class="js_item  "><a name="2082869" tabindex="-1" class="icn_large_enterprise  no_flyout link_metrics" href="http://www8.hp.com/us/en/hp-information/business-site/index.html"> Enterprise <br xmlns="http://www.w3.org/1999/xhtml"> store </a></li>
+          <li class="js_item lstchild "><a name="2082876" tabindex="-1" class="icn_public_sector  no_flyout link_metrics" href="https://government.hp.com/index.aspx"> Public sector <br xmlns="http://www.w3.org/1999/xhtml"> purchasing </a></li>
+         </ul>
+        </div></li>
+       <li class="selectable  lstchild H/F - Support menu-7"><a name="2082882" tabindex="2" class="level1-desktop icn_support header_link  link_metrics" href="javascript:void(0);"><span>Support</span><span class="screenReading js_screen_reading">&nbsp;</span><span class="pointer">&nbsp;</span></a>
+        <div class="js_hf_menu hf_menu level2">
+         <ul>
+          <li class="js_item  "><a name="2082892" target="_blank" tabindex="-1" class="icn_support  no_flyout link_metrics" href="http://support.hp.com/us-en/"> Support &amp; <br xmlns="http://www.w3.org/1999/xhtml"> troubleshooting </a></li>
+          <li class="js_item  "><a name="2082889" tabindex="-1" class="icn_products  no_flyout link_metrics" href="http://support.hp.com/us-en/products/"> Products </a></li>
+          <li class="js_item  "><a name="2082891" target="_blank" tabindex="-1" class="icn_software  no_flyout link_metrics" href="http://support.hp.com/us-en/drivers"> Software &amp; <br xmlns="http://www.w3.org/1999/xhtml"> drivers </a></li>
+          <li class="js_item  "><a name="2082885" target="_blank" tabindex="-1" class="icn_forums  no_flyout link_metrics" href="http://h30434.www3.hp.com/"> Forums </a></li>
+          <li class="js_item  "><a name="2082886" tabindex="-1" class="icn_helpdesk_home  no_flyout link_metrics" href="http://www8.hp.com/us/en/services/consumer/smartfriend-overview.html"> Premium helpdesk <br xmlns="http://www.w3.org/1999/xhtml"> services for home </a></li>
+          <li class="js_item  "><a name="2082887" target="_blank" tabindex="-1" class="icn_helpdesk_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/services/smb/helpdesk.html"> Premium helpdesk <br xmlns="http://www.w3.org/1999/xhtml"> services for work </a></li>
+          <li class="js_item lstchild "><a name="2278001" tabindex="-1" class="icn_extended_warranty  no_flyout link_metrics" href="http://www8.hp.com/us/en/services/consumer/services-overview.html"> Extended <br xmlns="http://www.w3.org/1999/xhtml"> warranties </a></li>
+         </ul>
+        </div></li>
+      </ul>
+     </div>
+     <div class="submenu">
+      <ul class="js_hf_menu submenu-1 hf_menu level">
+       <li class="js_item  first_li "><a name="2101987" tabindex="-1" class="icn_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/laptops/business-laptops-tablets.html"> Business </a></li>
+       <li class="js_item   "><a name="2082497" tabindex="-1" class="icn_premium  no_flyout link_metrics" href="http://www8.hp.com/us/en/premium/laptops/index.html"> Premium </a></li>
+       <li class="js_item   "><a name="2082491" tabindex="-1" class="icn_gaming  no_flyout link_metrics" href="http://www8.hp.com/us/en/campaigns/gamingpcs/overview.html"> Gaming </a></li>
+       <li class="js_item   "><a name="2277655" tabindex="-1" class="icn_laptop  no_flyout link_metrics" href="http://store.hp.com/us/en/vwa/Laptops/form=Standard-laptop"> Standard <br xmlns="http://www.w3.org/1999/xhtml"> laptops </a></li>
+       <li class="js_item   "><a name="2082480" tabindex="-1" class="icn_workstn_laptop  no_flyout link_metrics" href="http://www8.hp.com/us/en/workstations/overview.html"> Workstations </a></li>
+       <li class="js_item   "><a name="2109495" tabindex="-1" class="icn_detachables  no_flyout link_metrics" href="http://store.hp.com/us/en/vwa/Laptops/form=Convertible,Detachable"> Convertibles &amp; <br xmlns="http://www.w3.org/1999/xhtml"> detachables </a></li>
+       <li class="js_item   "><a name="2082500" tabindex="-1" class="icn_tablet  no_flyout link_metrics" href="http://store.hp.com/us/en/vwa/Laptops/form=Tablet"> Tablets </a></li>
+       <li class="js_item lstchild  "><a name="2277225" tabindex="-1" class="icn_3in1_laptop  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;eSpotName=Elite-x3"> 3-in-1 </a></li>
+      </ul>
+      <ul class="js_hf_menu submenu-2 hf_menu level">
+       <li class="js_item  first_li "><a name="2082386" tabindex="-1" class="icn_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/desktops/business-desktops.html"> Business </a></li>
+       <li class="js_item   "><a name="2082399" tabindex="-1" class="icn_immersive  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?catalogId=10051&amp;langId=-1&amp;storeId=10151&amp;eSpotName=Sprout-Pro#"> Immersive </a></li>
+       <li class="js_item   "><a name="2082396" tabindex="-1" class="icn_gaming  no_flyout link_metrics" href="http://www8.hp.com/us/en/campaigns/gamingpcs/overview.html#desktops"> Gaming </a></li>
+       <li class="js_item   "><a name="2277634" tabindex="-1" class="icn_towers  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=desktop-finder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=ff-tower"> Towers </a></li>
+       <li class="js_item   "><a name="2082385" tabindex="-1" class="icn_workstn_desktop  no_flyout link_metrics" href="http://www8.hp.com/us/en/workstations/overview.html"> Workstations </a></li>
+       <li class="js_item   "><a name="2082407" tabindex="-1" class="icn_all_in_one  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=desktop-finder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=ff-all"> All-in-ones </a></li>
+       <li class="js_item lstchild  "><a name="2277633" tabindex="-1" class="icn_3in1_desktop  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;eSpotName=Elite-x3"> 3-in-1 </a></li>
+      </ul>
+      <ul class="js_hf_menu submenu-3 hf_menu level">
+       <li class="js_item  first_li "><a name="2082527" tabindex="-1" class="icn_home_office  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=use-h"> Home &amp; <br xmlns="http://www.w3.org/1999/xhtml"> home office </a></li>
+       <li class="js_item   "><a name="2100716" tabindex="-1" class="icn_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/printers/business-printers.html"> Business </a></li>
+       <li class="js_item   "><a name="2277681" tabindex="-1" class="icn_print_only  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=pfunc-print"> Print <br xmlns="http://www.w3.org/1999/xhtml"> only </a></li>
+       <li class="js_item   "><a name="2082515" tabindex="-1" class="icn_printer  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=pfunc-multi"> Multifunction </a></li>
+       <li class="js_item   "><a name="2082522" tabindex="-1" class="icn_scanner  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=pfunc-scan"> Scanners </a></li>
+       <li class="js_item   "><a name="2082513" tabindex="-1" class="icn_large_format  no_flyout link_metrics" href="http://www8.hp.com/us/en/commercial-printers/graphic-arts.html"> Large format &amp; <br xmlns="http://www.w3.org/1999/xhtml"> digital presses </a></li>
+       <li class="js_item lstchild  "><a name="2244510" target="_blank" tabindex="-1" class="icn_3d_printing  no_flyout link_metrics" href="http://www8.hp.com/us/en/printers/3d-printers.html"> 3D Print </a></li>
+      </ul>
+      <ul class="js_hf_menu submenu-6 hf_menu level">
+       <li class="js_item  first_li "><a name="2082456" tabindex="-1" class="icn_printing_solutions  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/printing.html"> Printing </a></li>
+       <li class="js_item   "><a name="2082442" tabindex="-1" class="icn_desktop  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/computing.html"> Computing </a></li>
+       <li class="js_item   "><a name="2082452" tabindex="-1" class="icn_mobility  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/mobility.html"> Mobility </a></li>
+       <li class="js_item   "><a name="2082469" tabindex="-1" class="icn_software  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/software.html"> Software </a></li>
+       <li class="js_item   "><a name="2082465" tabindex="-1" class="icn_services  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/services.html"> Services </a></li>
+       <li class="js_item   "><a name="2101975" tabindex="-1" class="icn_small_med_business  no_flyout link_metrics" href="http://store.hp.com/us/en/cat/business-solutions"> Small &amp; medium <br xmlns="http://www.w3.org/1999/xhtml"> business store </a></li>
+       <li class="js_item   "><a name="2082869" tabindex="-1" class="icn_large_enterprise  no_flyout link_metrics" href="http://www8.hp.com/us/en/hp-information/business-site/index.html"> Enterprise <br xmlns="http://www.w3.org/1999/xhtml"> store </a></li>
+       <li class="js_item lstchild  "><a name="2082876" tabindex="-1" class="icn_public_sector  no_flyout link_metrics" href="https://government.hp.com/index.aspx"> Public sector <br xmlns="http://www.w3.org/1999/xhtml"> purchasing </a></li>
+      </ul>
+      <ul class="js_hf_menu submenu-7 hf_menu level">
+       <li class="js_item  first_li "><a name="2082892" target="_blank" tabindex="-1" class="icn_support  no_flyout link_metrics" href="http://support.hp.com/us-en/"> Support &amp; <br xmlns="http://www.w3.org/1999/xhtml"> troubleshooting </a></li>
+       <li class="js_item   "><a name="2082889" tabindex="-1" class="icn_products  no_flyout link_metrics" href="http://support.hp.com/us-en/products/"> Products </a></li>
+       <li class="js_item   "><a name="2082891" target="_blank" tabindex="-1" class="icn_software  no_flyout link_metrics" href="http://support.hp.com/us-en/drivers"> Software &amp; <br xmlns="http://www.w3.org/1999/xhtml"> drivers </a></li>
+       <li class="js_item   "><a name="2082885" target="_blank" tabindex="-1" class="icn_forums  no_flyout link_metrics" href="http://h30434.www3.hp.com/"> Forums </a></li>
+       <li class="js_item   "><a name="2082886" tabindex="-1" class="icn_helpdesk_home  no_flyout link_metrics" href="http://www8.hp.com/us/en/services/consumer/smartfriend-overview.html"> Premium helpdesk <br xmlns="http://www.w3.org/1999/xhtml"> services for home </a></li>
+       <li class="js_item   "><a name="2082887" target="_blank" tabindex="-1" class="icn_helpdesk_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/services/smb/helpdesk.html"> Premium helpdesk <br xmlns="http://www.w3.org/1999/xhtml"> services for work </a></li>
+       <li class="js_item lstchild  "><a name="2278001" tabindex="-1" class="icn_extended_warranty  no_flyout link_metrics" href="http://www8.hp.com/us/en/services/consumer/services-overview.html"> Extended <br xmlns="http://www.w3.org/1999/xhtml"> warranties </a></li>
+      </ul>
+     </div>
+     <div id="widget_menu" class="hdr_widgets ">
+      <div class="search_block  js_search search_hp">
+       <form name="searchHP" id="searchHP" action="http://www8.hp.com/us/en/search/search-results.html" method="get">
+        <input type="hidden" name="client" value="">
+        <input type="hidden" name="jumpID" value="" disabled>
+        <div class="search_container">
+         <div class="search_mob_container hf_clf placeholder_wrapper">
+          <input class="searchBox" id="searchBox" name="qt" title="Search HP.com" placeholder="Search HP.com" type="search" size="23" maxlength="100" tabindex="3" autocomplete="off">
+          <a href="javascript:void(0);" title="Clear" class="searchClear" tabindex="3"><span class="screenReading hf_rlv">Clear search box</span></a>
+          <button class="searchSubmit" name="search" title="Begin your search" type="submit" tabindex="3" disabled="true">&nbsp;</button>
+         </div>
+        </div>
+        <span class="defaultTxt hidden">Search HP.com</span>
+        <span class="js_metricId hidden">1676317</span>
+        <input type="hidden" name="charset" value="utf-8">
+       </form>
+      </div>
+      <div class="hdr_buttons">
+       <ul class="nav_buttons js_nav_buttons" id="nav_buttons">
+        <li class="js_search_widget nav_button search_widget"><span class="top_corner">&nbsp;</span><a id="search_widget" class="js_search_trigger search_icon" href="javascript:void(0);" title="Search" tabindex="3"><span class="screenReading js_screen_reading">&nbsp;</span></a></li>
+        <li class="js_shopping_widget nav_button shopping_widget"><a name="2287273" id="shop_widget" class="js_shopping_trigger shopping_icon" href="https://store.hp.com/webapp/wcs/stores/servlet/AjaxOrderItemDisplayView?langId=-1&amp;catalogId=10051&amp;storeId=10151&amp;jumpid=gh_2287273" title="Shopping Cart" tabindex="4" data-href="" data-lang="en-us"><span class="screenReading js_screen_reading">&nbsp;</span></a><span class="item_count">&nbsp;</span>
+         <div class="js_shopping_target shop_widget">
+          <div class="top_corner">
+           &nbsp;
+          </div>
+          <div class="left_corner">
+           &nbsp;
+          </div>
+          <div id="sw_spooler" class="js_spooler wait_class " rel="">
+           <div>
+            &nbsp;
+           </div>
+          </div>
+          <div class="shopping_container">
+           <div class="shadow_cover_top">
+            &nbsp;
+           </div>
+           <a href="javascript:void(0);" title="Close" class="hf_close_btn"><span class="screenReading">Close Shopping Cart popup</span></a>
+           <div class="widget_content">
+            &nbsp;
+           </div>
+           <div class="shadow_cover_bottom">
+            &nbsp;
+           </div>
+          </div>
+         </div></li>
+        <li class="js_top_menu_widget nav_button top_menu_widget"><a class="js_top_menu_trigger top_m_widget hf-close" href="javascript:void(0);" tabindex="4" title=""><span class="screenReading js_screen_reading">&nbsp;</span><span class="bar1">&nbsp;</span><span class="bar2">&nbsp;</span><span class="bar3">&nbsp;</span></a>
+         <div class="js_top_menu_target top_menu_widget_accordion ">
+          <div class="hf_top_menu ">
+           <ul class="js_hf_menu  hf_menu level1">
+            <li class="selectable  first_li H/F - Laptop menu-1"><a name="2082481" tabindex="4" class="level1-desktop icn_laptop header_link  link_metrics" href="http://store.hp.com/us/en/cat/Laptops"><span>Laptops &amp; tablets</span><span class="screenReading js_screen_reading">&nbsp;</span><span class="pointer">&nbsp;</span></a>
+             <div class="js_hf_menu hf_menu level2">
+              <ul>
+               <li class="js_item  "><a name="2101987" tabindex="-1" class="icn_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/laptops/business-laptops-tablets.html"> Business </a></li>
+               <li class="js_item  "><a name="2082497" tabindex="-1" class="icn_premium  no_flyout link_metrics" href="http://www8.hp.com/us/en/premium/laptops/index.html"> Premium </a></li>
+               <li class="js_item  "><a name="2082491" tabindex="-1" class="icn_gaming  no_flyout link_metrics" href="http://www8.hp.com/us/en/campaigns/gamingpcs/overview.html"> Gaming </a></li>
+               <li class="js_item  "><a name="2277655" tabindex="-1" class="icn_laptop  no_flyout link_metrics" href="http://store.hp.com/us/en/vwa/Laptops/form=Standard-laptop"> Standard <br xmlns="http://www.w3.org/1999/xhtml"> laptops </a></li>
+               <li class="js_item  "><a name="2082480" tabindex="-1" class="icn_workstn_laptop  no_flyout link_metrics" href="http://www8.hp.com/us/en/workstations/overview.html"> Workstations </a></li>
+               <li class="js_item  "><a name="2109495" tabindex="-1" class="icn_detachables  no_flyout link_metrics" href="http://store.hp.com/us/en/vwa/Laptops/form=Convertible,Detachable"> Convertibles &amp; <br xmlns="http://www.w3.org/1999/xhtml"> detachables </a></li>
+               <li class="js_item  "><a name="2082500" tabindex="-1" class="icn_tablet  no_flyout link_metrics" href="http://store.hp.com/us/en/vwa/Laptops/form=Tablet"> Tablets </a></li>
+               <li class="js_item lstchild "><a name="2277225" tabindex="-1" class="icn_3in1_laptop  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;eSpotName=Elite-x3"> 3-in-1 </a></li>
+              </ul>
+             </div></li>
+            <li class="selectable   H/F - Desktop menu-2"><a name="2082388" tabindex="4" class="level1-desktop icn_desktop header_link  link_metrics" href="http://store.hp.com/us/en/cat/desktops"><span>Desktops</span><span class="screenReading js_screen_reading">&nbsp;</span><span class="pointer">&nbsp;</span></a>
+             <div class="js_hf_menu hf_menu level2">
+              <ul>
+               <li class="js_item  "><a name="2082386" tabindex="-1" class="icn_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/desktops/business-desktops.html"> Business </a></li>
+               <li class="js_item  "><a name="2082399" tabindex="-1" class="icn_immersive  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?catalogId=10051&amp;langId=-1&amp;storeId=10151&amp;eSpotName=Sprout-Pro#"> Immersive </a></li>
+               <li class="js_item  "><a name="2082396" tabindex="-1" class="icn_gaming  no_flyout link_metrics" href="http://www8.hp.com/us/en/campaigns/gamingpcs/overview.html#desktops"> Gaming </a></li>
+               <li class="js_item  "><a name="2277634" tabindex="-1" class="icn_towers  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=desktop-finder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=ff-tower"> Towers </a></li>
+               <li class="js_item  "><a name="2082385" tabindex="-1" class="icn_workstn_desktop  no_flyout link_metrics" href="http://www8.hp.com/us/en/workstations/overview.html"> Workstations </a></li>
+               <li class="js_item  "><a name="2082407" tabindex="-1" class="icn_all_in_one  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=desktop-finder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=ff-all"> All-in-ones </a></li>
+               <li class="js_item lstchild "><a name="2277633" tabindex="-1" class="icn_3in1_desktop  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;eSpotName=Elite-x3"> 3-in-1 </a></li>
+              </ul>
+             </div></li>
+            <li class="selectable   H/F - Printer menu-3"><a name="2082508" tabindex="4" class="level1-desktop icn_printer header_link  link_metrics" href="http://store.hp.com/us/en/cat/printers"><span>Printers</span><span class="screenReading js_screen_reading">&nbsp;</span><span class="pointer">&nbsp;</span></a>
+             <div class="js_hf_menu hf_menu level2">
+              <ul>
+               <li class="js_item  "><a name="2082527" tabindex="-1" class="icn_home_office  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=use-h"> Home &amp; <br xmlns="http://www.w3.org/1999/xhtml"> home office </a></li>
+               <li class="js_item  "><a name="2100716" tabindex="-1" class="icn_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/printers/business-printers.html"> Business </a></li>
+               <li class="js_item  "><a name="2277681" tabindex="-1" class="icn_print_only  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=pfunc-print"> Print <br xmlns="http://www.w3.org/1999/xhtml"> only </a></li>
+               <li class="js_item  "><a name="2082515" tabindex="-1" class="icn_printer  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=pfunc-multi"> Multifunction </a></li>
+               <li class="js_item  "><a name="2082522" tabindex="-1" class="icn_scanner  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=pfunc-scan"> Scanners </a></li>
+               <li class="js_item  "><a name="2082513" tabindex="-1" class="icn_large_format  no_flyout link_metrics" href="http://www8.hp.com/us/en/commercial-printers/graphic-arts.html"> Large format &amp; <br xmlns="http://www.w3.org/1999/xhtml"> digital presses </a></li>
+               <li class="js_item lstchild "><a name="2244510" target="_blank" tabindex="-1" class="icn_3d_printing  no_flyout link_metrics" href="http://www8.hp.com/us/en/printers/3d-printers.html"> 3D Print </a></li>
+              </ul>
+             </div></li>
+            <li class="empty   H/F - Ink Toner menu-4"><a name="2082545" tabindex="4" class="level1-desktop icn_ink_toner header_link no_flyout link_metrics" href="http://store.hp.com/us/en/cat/ink--toner---paper"><span>Ink &amp; toner</span><span class="pointer">&nbsp;</span></a></li>
+            <li class="empty   H/F - Monitor menu-5"><a name="2101621" tabindex="4" class="level1-desktop icn_monitor header_link no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=Accessories&amp;storeId=10151&amp;langId=-1&amp;catalogId=10051"><span>Displays &amp; accessories</span><span class="pointer">&nbsp;</span></a></li>
+            <li class="selectable second-last  H/F - Business menu-6"><a name="2082864" tabindex="4" class="level1-desktop icn_business header_link  link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions.html"><span>Business solutions</span><span class="screenReading js_screen_reading">&nbsp;</span><span class="pointer">&nbsp;</span></a>
+             <div class="js_hf_menu hf_menu level2">
+              <ul>
+               <li class="js_item  "><a name="2082456" tabindex="-1" class="icn_printing_solutions  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/printing.html"> Printing </a></li>
+               <li class="js_item  "><a name="2082442" tabindex="-1" class="icn_desktop  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/computing.html"> Computing </a></li>
+               <li class="js_item  "><a name="2082452" tabindex="-1" class="icn_mobility  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/mobility.html"> Mobility </a></li>
+               <li class="js_item  "><a name="2082469" tabindex="-1" class="icn_software  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/software.html"> Software </a></li>
+               <li class="js_item  "><a name="2082465" tabindex="-1" class="icn_services  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/services.html"> Services </a></li>
+               <li class="js_item  "><a name="2101975" tabindex="-1" class="icn_small_med_business  no_flyout link_metrics" href="http://store.hp.com/us/en/cat/business-solutions"> Small &amp; medium <br xmlns="http://www.w3.org/1999/xhtml"> business store </a></li>
+               <li class="js_item  "><a name="2082869" tabindex="-1" class="icn_large_enterprise  no_flyout link_metrics" href="http://www8.hp.com/us/en/hp-information/business-site/index.html"> Enterprise <br xmlns="http://www.w3.org/1999/xhtml"> store </a></li>
+               <li class="js_item lstchild "><a name="2082876" tabindex="-1" class="icn_public_sector  no_flyout link_metrics" href="https://government.hp.com/index.aspx"> Public sector <br xmlns="http://www.w3.org/1999/xhtml"> purchasing </a></li>
+              </ul>
+             </div></li>
+            <li class="selectable  lstchild H/F - Support menu-7"><a name="2082882" tabindex="4" class="level1-desktop icn_support header_link  link_metrics" href="javascript:void(0);"><span>Support</span><span class="screenReading js_screen_reading">&nbsp;</span><span class="pointer">&nbsp;</span></a>
+             <div class="js_hf_menu hf_menu level2">
+              <ul>
+               <li class="js_item  "><a name="2082892" target="_blank" tabindex="-1" class="icn_support  no_flyout link_metrics" href="http://support.hp.com/us-en/"> Support &amp; <br xmlns="http://www.w3.org/1999/xhtml"> troubleshooting </a></li>
+               <li class="js_item  "><a name="2082889" tabindex="-1" class="icn_products  no_flyout link_metrics" href="http://support.hp.com/us-en/products/"> Products </a></li>
+               <li class="js_item  "><a name="2082891" target="_blank" tabindex="-1" class="icn_software  no_flyout link_metrics" href="http://support.hp.com/us-en/drivers"> Software &amp; <br xmlns="http://www.w3.org/1999/xhtml"> drivers </a></li>
+               <li class="js_item  "><a name="2082885" target="_blank" tabindex="-1" class="icn_forums  no_flyout link_metrics" href="http://h30434.www3.hp.com/"> Forums </a></li>
+               <li class="js_item  "><a name="2082886" tabindex="-1" class="icn_helpdesk_home  no_flyout link_metrics" href="http://www8.hp.com/us/en/services/consumer/smartfriend-overview.html"> Premium helpdesk <br xmlns="http://www.w3.org/1999/xhtml"> services for home </a></li>
+               <li class="js_item  "><a name="2082887" target="_blank" tabindex="-1" class="icn_helpdesk_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/services/smb/helpdesk.html"> Premium helpdesk <br xmlns="http://www.w3.org/1999/xhtml"> services for work </a></li>
+               <li class="js_item lstchild "><a name="2278001" tabindex="-1" class="icn_extended_warranty  no_flyout link_metrics" href="http://www8.hp.com/us/en/services/consumer/services-overview.html"> Extended <br xmlns="http://www.w3.org/1999/xhtml"> warranties </a></li>
+              </ul>
+             </div></li>
+           </ul>
+          </div>
+          <div class="submenu">
+           <ul class="js_hf_menu submenu-1 hf_menu level">
+            <li class="js_item  first_li "><a name="2101987" tabindex="-1" class="icn_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/laptops/business-laptops-tablets.html"> Business </a></li>
+            <li class="js_item   "><a name="2082497" tabindex="-1" class="icn_premium  no_flyout link_metrics" href="http://www8.hp.com/us/en/premium/laptops/index.html"> Premium </a></li>
+            <li class="js_item   "><a name="2082491" tabindex="-1" class="icn_gaming  no_flyout link_metrics" href="http://www8.hp.com/us/en/campaigns/gamingpcs/overview.html"> Gaming </a></li>
+            <li class="js_item   "><a name="2277655" tabindex="-1" class="icn_laptop  no_flyout link_metrics" href="http://store.hp.com/us/en/vwa/Laptops/form=Standard-laptop"> Standard <br xmlns="http://www.w3.org/1999/xhtml"> laptops </a></li>
+            <li class="js_item   "><a name="2082480" tabindex="-1" class="icn_workstn_laptop  no_flyout link_metrics" href="http://www8.hp.com/us/en/workstations/overview.html"> Workstations </a></li>
+            <li class="js_item   "><a name="2109495" tabindex="-1" class="icn_detachables  no_flyout link_metrics" href="http://store.hp.com/us/en/vwa/Laptops/form=Convertible,Detachable"> Convertibles &amp; <br xmlns="http://www.w3.org/1999/xhtml"> detachables </a></li>
+            <li class="js_item   "><a name="2082500" tabindex="-1" class="icn_tablet  no_flyout link_metrics" href="http://store.hp.com/us/en/vwa/Laptops/form=Tablet"> Tablets </a></li>
+            <li class="js_item lstchild  "><a name="2277225" tabindex="-1" class="icn_3in1_laptop  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;eSpotName=Elite-x3"> 3-in-1 </a></li>
+           </ul>
+           <ul class="js_hf_menu submenu-2 hf_menu level">
+            <li class="js_item  first_li "><a name="2082386" tabindex="-1" class="icn_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/desktops/business-desktops.html"> Business </a></li>
+            <li class="js_item   "><a name="2082399" tabindex="-1" class="icn_immersive  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?catalogId=10051&amp;langId=-1&amp;storeId=10151&amp;eSpotName=Sprout-Pro#"> Immersive </a></li>
+            <li class="js_item   "><a name="2082396" tabindex="-1" class="icn_gaming  no_flyout link_metrics" href="http://www8.hp.com/us/en/campaigns/gamingpcs/overview.html#desktops"> Gaming </a></li>
+            <li class="js_item   "><a name="2277634" tabindex="-1" class="icn_towers  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=desktop-finder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=ff-tower"> Towers </a></li>
+            <li class="js_item   "><a name="2082385" tabindex="-1" class="icn_workstn_desktop  no_flyout link_metrics" href="http://www8.hp.com/us/en/workstations/overview.html"> Workstations </a></li>
+            <li class="js_item   "><a name="2082407" tabindex="-1" class="icn_all_in_one  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=desktop-finder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=ff-all"> All-in-ones </a></li>
+            <li class="js_item lstchild  "><a name="2277633" tabindex="-1" class="icn_3in1_desktop  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;eSpotName=Elite-x3"> 3-in-1 </a></li>
+           </ul>
+           <ul class="js_hf_menu submenu-3 hf_menu level">
+            <li class="js_item  first_li "><a name="2082527" tabindex="-1" class="icn_home_office  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=use-h"> Home &amp; <br xmlns="http://www.w3.org/1999/xhtml"> home office </a></li>
+            <li class="js_item   "><a name="2100716" tabindex="-1" class="icn_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/printers/business-printers.html"> Business </a></li>
+            <li class="js_item   "><a name="2277681" tabindex="-1" class="icn_print_only  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=pfunc-print"> Print <br xmlns="http://www.w3.org/1999/xhtml"> only </a></li>
+            <li class="js_item   "><a name="2082515" tabindex="-1" class="icn_printer  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=pfunc-multi"> Multifunction </a></li>
+            <li class="js_item   "><a name="2082522" tabindex="-1" class="icn_scanner  no_flyout link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=PrinterFinder&amp;storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;answers=pfunc-scan"> Scanners </a></li>
+            <li class="js_item   "><a name="2082513" tabindex="-1" class="icn_large_format  no_flyout link_metrics" href="http://www8.hp.com/us/en/commercial-printers/graphic-arts.html"> Large format &amp; <br xmlns="http://www.w3.org/1999/xhtml"> digital presses </a></li>
+            <li class="js_item lstchild  "><a name="2244510" target="_blank" tabindex="-1" class="icn_3d_printing  no_flyout link_metrics" href="http://www8.hp.com/us/en/printers/3d-printers.html"> 3D Print </a></li>
+           </ul>
+           <ul class="js_hf_menu submenu-6 hf_menu level">
+            <li class="js_item  first_li "><a name="2082456" tabindex="-1" class="icn_printing_solutions  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/printing.html"> Printing </a></li>
+            <li class="js_item   "><a name="2082442" tabindex="-1" class="icn_desktop  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/computing.html"> Computing </a></li>
+            <li class="js_item   "><a name="2082452" tabindex="-1" class="icn_mobility  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/mobility.html"> Mobility </a></li>
+            <li class="js_item   "><a name="2082469" tabindex="-1" class="icn_software  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/software.html"> Software </a></li>
+            <li class="js_item   "><a name="2082465" tabindex="-1" class="icn_services  no_flyout link_metrics" href="http://www8.hp.com/us/en/solutions/business-solutions/services.html"> Services </a></li>
+            <li class="js_item   "><a name="2101975" tabindex="-1" class="icn_small_med_business  no_flyout link_metrics" href="http://store.hp.com/us/en/cat/business-solutions"> Small &amp; medium <br xmlns="http://www.w3.org/1999/xhtml"> business store </a></li>
+            <li class="js_item   "><a name="2082869" tabindex="-1" class="icn_large_enterprise  no_flyout link_metrics" href="http://www8.hp.com/us/en/hp-information/business-site/index.html"> Enterprise <br xmlns="http://www.w3.org/1999/xhtml"> store </a></li>
+            <li class="js_item lstchild  "><a name="2082876" tabindex="-1" class="icn_public_sector  no_flyout link_metrics" href="https://government.hp.com/index.aspx"> Public sector <br xmlns="http://www.w3.org/1999/xhtml"> purchasing </a></li>
+           </ul>
+           <ul class="js_hf_menu submenu-7 hf_menu level">
+            <li class="js_item  first_li "><a name="2082892" target="_blank" tabindex="-1" class="icn_support  no_flyout link_metrics" href="http://support.hp.com/us-en/"> Support &amp; <br xmlns="http://www.w3.org/1999/xhtml"> troubleshooting </a></li>
+            <li class="js_item   "><a name="2082889" tabindex="-1" class="icn_products  no_flyout link_metrics" href="http://support.hp.com/us-en/products/"> Products </a></li>
+            <li class="js_item   "><a name="2082891" target="_blank" tabindex="-1" class="icn_software  no_flyout link_metrics" href="http://support.hp.com/us-en/drivers"> Software &amp; <br xmlns="http://www.w3.org/1999/xhtml"> drivers </a></li>
+            <li class="js_item   "><a name="2082885" target="_blank" tabindex="-1" class="icn_forums  no_flyout link_metrics" href="http://h30434.www3.hp.com/"> Forums </a></li>
+            <li class="js_item   "><a name="2082886" tabindex="-1" class="icn_helpdesk_home  no_flyout link_metrics" href="http://www8.hp.com/us/en/services/consumer/smartfriend-overview.html"> Premium helpdesk <br xmlns="http://www.w3.org/1999/xhtml"> services for home </a></li>
+            <li class="js_item   "><a name="2082887" target="_blank" tabindex="-1" class="icn_helpdesk_business  no_flyout link_metrics" href="http://www8.hp.com/us/en/services/smb/helpdesk.html"> Premium helpdesk <br xmlns="http://www.w3.org/1999/xhtml"> services for work </a></li>
+            <li class="js_item lstchild  "><a name="2278001" tabindex="-1" class="icn_extended_warranty  no_flyout link_metrics" href="http://www8.hp.com/us/en/services/consumer/services-overview.html"> Extended <br xmlns="http://www.w3.org/1999/xhtml"> warranties </a></li>
+           </ul>
+          </div>
+         </div></li>
+       </ul>
+      </div>
+     </div>
+    </div>
+    <div class="submenu-category swiper">
+     &nbsp;
+    </div>
+   </div>
+   <a name="skiptobody" tabindex="-1"><span class="screenReading">Start of content</span></a>
+   <!--Data Published 10/06/2016 04:02:31 PM, Template Published: UNKNOWN-->
+   <!-- End CAAS Header --> 
+  </div> 
+  <!-- END Header.jsp --> 
+  <div class="header-container"> 
+   <div id="navigationWrapper"> 
+    <div class="loginStorenavGroup"> 
+     <div id="storeSlider" class="hide-for-small"> 
+      <div id="storenav" class=""> 
+       <div class="row"> 
+        <div class="prevcolumn"> 
+         <div id="prev">
+          <p>More</p>
+         </div> 
+        </div> 
+        <div class="slidercolumn"> 
+         <ul> 
+          <li> <a href="/us/en/"> 
+            <div class="sliderImgContainer">
+             <img src="/wcsstore/hpusstore/Banners/store_home_icon.png" alt="Store Home">
+            </div> <p class="caption">Store Home</p> </a> </li> 
+          <li> <a href="/us/en/cat/Laptops" onclick="CTOcookie('Laptops');navigationEventTrackMetrics('topNav'+':'+'Laptops')"> 
+            <div class="sliderImgContainer">
+             <img src="/wcsstore/hpusstore//wcsstore/hpusstore/Banners/nav_Laptops.png" alt="Laptops">
+            </div> <p class="caption">Laptops</p> </a> </li> 
+          <li> <a href="/us/en/cat/desktops" onclick="CTOcookie('Desktops');navigationEventTrackMetrics('topNav'+':'+'Desktops')"> 
+            <div class="sliderImgContainer">
+             <img src="/wcsstore/hpusstore//wcsstore/hpusstore/Banners/SMB-nav-Desktops-icon.png" alt="Desktops">
+            </div> <p class="caption">Desktops</p> </a> </li> 
+          <li> <a href="/us/en/cat/printers" onclick="CTOcookie('Printers');navigationEventTrackMetrics('topNav'+':'+'Printers')"> 
+            <div class="sliderImgContainer">
+             <img src="/wcsstore/hpusstore//wcsstore/hpusstore/Banners/nav_Printers.jpg" alt="Printers">
+            </div> <p class="caption">Printers</p> </a> </li> 
+          <li> <a href="/us/en/cat/ink--toner---paper" onclick="CTOcookie('Ink, toner &amp; paper');navigationEventTrackMetrics('topNav'+':'+'Ink, toner &amp; paper')"> 
+            <div class="sliderImgContainer">
+             <img src="/wcsstore/hpusstore//wcsstore/hpusstore/Banners/nav_inkpaper.png" alt="Ink, toner &amp; paper">
+            </div> <p class="caption">Ink, toner &amp; paper</p> </a> </li> 
+          <li> <a href="/us/en/cat/accessories-88342--1" onclick="CTOcookie('Accessories');navigationEventTrackMetrics('topNav'+':'+'Accessories')"> 
+            <div class="sliderImgContainer">
+             <img src="/wcsstore/hpusstore//wcsstore/hpusstore/Banners/Top-nav-Accessories-icon.jpg" alt="Accessories">
+            </div> <p class="caption">Accessories</p> </a> </li> 
+          <li> <a href="/us/en/cat/business-solutions" onclick="CTOcookie('Business');navigationEventTrackMetrics('topNav'+':'+'Business')"> 
+            <div class="sliderImgContainer">
+             <img src="/wcsstore/hpusstore//wcsstore/hpusstore/Banners/nav_BusiSolutions-final2.png" alt="Business">
+            </div> <p class="caption">Business</p> </a> </li> 
+          <li> <a href="/us/en/cat/tablets" onclick="CTOcookie('Tablets');navigationEventTrackMetrics('topNav'+':'+'Tablets')"> 
+            <div class="sliderImgContainer">
+             <img src="/wcsstore/hpusstore//wcsstore/hpusstore/Banners/nav_Tablets.png" alt="Tablets">
+            </div> <p class="caption">Tablets</p> </a> </li> 
+          <li> <a href="/us/en/cat/care-packs-88343--1" onclick="CTOcookie('Care Packs');navigationEventTrackMetrics('topNav'+':'+'Care Packs')"> 
+            <div class="sliderImgContainer">
+             <img src="/wcsstore/hpusstore/wcsstore/hpusstore/Banners/hp_CarePack_Icon_NoBg.png" alt="Care Packs">
+            </div> <p class="caption">Care Packs</p> </a> </li> 
+         </ul> 
+        </div> 
+        <div class="nextcolumn"> 
+         <div id="next">
+          <p>More</p>
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="clear"></div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="clear"></div> 
+  <script type="text/javascript">
+	document.cookie = "CTOType=false; path=/;domain=.hp.com";
+	function CTOcookie(catName) {
+		if (typeof trackMetrics != 'undefined') {
+			trackMetrics('new.link', {page:{navigation:'topNav:' + catName}});
+		}
+		document.cookie = "CTOType=true; path=/;domain=.hp.com";
+	}
+</script> 
+  <div id="content"> 
+   <!-- BEGIN ContentRecommendation/ContentRecommendation.jsp -->
+   <!-- BEGIN ESpotTitle_Data.jspf -->
+   <!-- END ESpotTitle_Data.jspf -->
+   <!-- BEGIN ESpotTitle_UI.jspf -->
+   <!-- END ESpotTitle_UI.jspf --> 
+   <!-- css for this pages --> 
+   <link href="/wcsstore/hpusstore/Treatment/value_prop.css?v2" rel="stylesheet" media="screen"> 
+   <link href="/wcsstore/hpusstore/Treatment/mdp_foundation_ad.css" media="screen" rel="stylesheet" type="text/css"> 
+   <link href="/wcsstore/hpusstore/Treatment/responsive_mdp_sep15_style.css" media="screen" rel="stylesheet" type="text/css"> 
+   <link href="/wcsstore/hpusstore/Treatment/responsive_mdp_sep15_style2.css" media="screen" rel="stylesheet" type="text/css"> 
+   <link href="/wcsstore/hpusstore/Treatment/2323_instantInk.css" media="screen" rel="stylesheet" type="text/css"> 
+   <link href="/wcsstore/hpusstore/Treatment/responsive_InstantInk_style.css" media="screen" rel="stylesheet" type="text/css"> 
+   <style>
+.reveal-modal-bg{z-index:9!important}
+</style> 
+   <!--[if IE]>f
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<![endif]--> 
+   <div class="fv5 clearfix"> 
+    <div class="FirstHeaderInstantInk"> 
+     <h3 style="float:left;">HP Instant Ink</h3> 
+     <a data-reveal-id="signup" href="" data-width="676" class="btn btn-msnew btn-red" style="float:right;"> Have an Enrollment Card? Sign up now </a> 
+    </div> 
+    <!--Hero banner #########################--> 
+    <div class="herobanner HPInstantInk bannerForSmall"> 
+     <div class="row content" style="padding:2% 0;"> 
+      <div class="column large-6 medium-6 small-12 heroText"> 
+       <h4 style="font-size:20px !important; font-weight:normal; color:rgb(118, 118, 118);">Introducing the most affordable way to print<sup style="font-size:10px;">†</sup> </h4> 
+       <h3 style="font-weight:500; font-size:46px !important;"> Save up to 50% on ink<sup style="font-size:10px;">†</sup> </h3> 
+       <p style="font-weight:100;">HP Instant Ink is an ink replacement service. Your printer orders Original HP Ink when you're running low and we ship it straight to your door. So you never have to worry about running out of ink again. </p> 
+       <div class="product-pricing"> 
+        <div class="price"> 
+         <span class="price-text" style="font-weight:100; color:#323232; font-size:14px;"> Plans starting at </span> 
+         <br> 
+         <span class="price-value"> $2.99 </span> 
+         <span class="price-text"><strong style="color:#767676; font-size:16px; font-weight:normal;">/month</strong></span> 
+        </div> 
+       </div> 
+       <div class="clearfix"> 
+        <div class="share-this"> 
+         <a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4cca2f1844d48f49" target="_blank" title="This link will open in a new window or, depending on your browser settings, in a new tab" class="addthis_button_compact button share at300m"><img src="/wcsstore/hpusstore/Treatment/InstaInk_share-icon_tcm_245_1494151.png"> Share</a> 
+        </div> 
+        <div class="share-fb"> 
+         <iframe frameborder="0" src="http://www.facebook.com/plugins/like.php?layout=button_count&amp;show_faces=false&amp;width=125&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=21&amp;href=http://www8.hp.com/us/en/ads/instant-ink/overview.html" title="Facebook 'Like' Button" allowtransparency="true" style="border:none; overflow:hidden; width:125px; height:25px; padding-top:4px;" scrolling="no"></iframe> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="column large-6 medium-6 small-12 heroText hide-for-small"> 
+      </div> 
+     </div> 
+    </div> 
+    <!--Video Small--> 
+    <div class="bodyCenterContent paddingtopbot"> 
+     <div class="row"> 
+      <div class="column large-4 medium-6 small-12">
+       <a data-reveal-id="video-intro" href="" data-width="800" class="modal video"> <img src="/wcsstore/hpusstore/Treatment/InstaInk_video-small_tcm_245_1871343.png"></a>
+      </div> 
+      <div class="column large-8 medium-6 small-12"> 
+       <h3 style="font-size:36px !important; font-weight:normal;">Original HP Ink ordered by your printer, delivered to your door.</h3> 
+       <p style="padding:15px 0;">Watch how the HP Instant Ink replacement service can save you up to 50% on ink.<sup>†</sup></p> 
+       <a data-reveal-id="video-intro" href="" data-width="800" class="play modal video"> <img src="/wcsstore/hpusstore/Treatment/InstaInk_icon-filmstrip_tcm_245_1765841.png" class="float-left"> Find out how it works </a> 
+      </div> 
+     </div> 
+    </div> 
+    <!--Buy Printer + Enroll in plan--> 
+    <div class="bodyCenterContent paddingtopbot"> 
+     <div class="row"> 
+      <div class="column large-3 medium-3 small-12 text-center"> 
+       <img src="/wcsstore/hpusstore/Treatment/InstantInk_BuyPrinter.png"> 
+       <h4 style="padding-top:10px; font-weight:normal;">Buy printer<sup>†</sup></h4> 
+       <p>To enroll in HP Instant Ink you need to have an eligible printer, which tells us when you're low on ink and orders it for you. </p> 
+      </div> 
+      <div class="column large-1 medium-1 small-12 text-center"> 
+       <img src="/wcsstore/hpusstore/Treatment/InstantInkPlus.png"> 
+      </div> 
+      <div class="column large-3 medium-3 small-12 text-center"> 
+       <img src="/wcsstore/hpusstore/Treatment/InstantInk_EnrollPlan.png"> 
+       <h4 style="padding-top:10px; font-weight:normal;">Enroll in plan</h4> 
+       <p>Pick one of three plans designed to fit your printing needs. You can change or cancel your plan online at any time and there's no annual fee.<sup>†</sup></p> 
+      </div> 
+      <div class="column large-1 medium-1 small-12 text-center"> 
+       <img src="/wcsstore/hpusstore/Treatment/InstantInkEqual.png"> 
+      </div> 
+      <div class="column large-3 medium-3 small-12 text-center"> 
+       <img src="/wcsstore/hpusstore/Treatment/InstaInk_icon-money_tcm_245_1871344.png"> 
+       <h4 style="padding-top:10px; font-weight:normal;">Start saving</h4> 
+       <p>Print high-quality photos or text – your cost is the same. Unused pages roll over and you can add additional pages for just a little more.<sup>†</sup></p> 
+      </div> 
+     </div> 
+     <div> 
+      <p style="padding:10px 0;"><a data-reveal-id="eligible-printers" href="" data-width="670" class="modal icon-chevron-right learnmore">View eligible printers</a></p> 
+      <p><a data-reveal-id="signup" href="" data-width="676" class=" icon-chevron-right learnmore">Already have an eligible printer? </a> </p> 
+     </div> 
+    </div> 
+    <!--Included every plan--> 
+    <div class="bodyCenterContent paddingtopbot" style="border-top:1px solid #CCC; border-bottom:1px solid #CCC;"> 
+     <h3 style="padding:15px 0; font-weight:normal;">Included in every plan</h3> 
+     <div class="row"> 
+      <div class="column large-6 medium-6 small-12"> 
+       <div class="row"> 
+        <div class="column large-3 medium-4 small-4"> 
+         <img src="/wcsstore/hpusstore/Treatment/InstaInk_icon-cartridge-plus.png"> 
+        </div> 
+        <div class="column large-9 medium-8 small-8"> 
+         <h3>Cartridges</h3> 
+         <p>HP Instant Ink cartridges are larger than XL cartridges, so you'll replace them less often.</p> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="hide-for-large hide-for-medium">
+       &nbsp;
+      </div> 
+      <div class="column large-6 medium-6 small-12"> 
+       <div class="row"> 
+        <div class="column large-3 medium-4 small-4"> 
+         <img src="/wcsstore/hpusstore/Treatment/InstaInk_icon-mailbox.png"> 
+        </div> 
+        <div class="column large-9 medium-8 small-8"> 
+         <h3>Shipping</h3> 
+         <p>The price of shipping and ink are included in your monthly fee.</p> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div>
+      &nbsp;
+     </div> 
+     <div class="row"> 
+      <div class="column large-6 medium-6 small-12"> 
+       <div class="row"> 
+        <div class="column large-3 medium-4 small-4"> 
+         <img src="/wcsstore/hpusstore/Treatment/InstaInk_icon-recycling.png"> 
+        </div> 
+        <div class="column large-9 medium-8 small-8"> 
+         <h3>Easy recycling</h3> 
+         <p>Return used cartridges in the postage-paid shipping materials provided and HP Planet Partners will recycle.</p> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="hide-for-large hide-for-medium">
+       &nbsp;
+      </div> 
+      <div class="column large-6 medium-6 small-12"> 
+       <div class="row"> 
+        <div class="column large-3 medium-4 small-4"> 
+         <img src="/wcsstore/hpusstore/Treatment/InstaInk_icon-money-arrow.png"> 
+        </div> 
+        <div class="column large-9 medium-8 small-8"> 
+         <h3>No annual fees</h3> 
+         <p>If your printing needs change, you can change or cancel your plan online at any time.<sup>†</sup></p> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div>
+      &nbsp;
+     </div> 
+    </div> 
+    <!--Monthly plans--> 
+    <div class="bodyCenterContent paddingtopbot" style="border-bottom:1px solid #CCC;"> 
+     <h3 style="font-weight:normal;">Monthly plans</h3> 
+     <p style="font-weight:100; padding-bottom:20px;">See how you can save time and up to 50% on ink† that's ordered by your printer and delivered to your door before you run out. </p> 
+     <div class="row"> 
+      <div class="column large-4 medium-4 small-12"> 
+       <div style="border:1px solid #ccc; border-radius:0 8px;"> 
+        <div style="background:#0096d6; color:#FFF; text-align:center; font-weight:100; padding:15px; border-radius:0 8px 0 0; font-size:20px;">
+          Occasional printing plan 
+        </div> 
+        <div style="padding:15px; display:table;"> 
+         <div style="float:left;"> 
+          <img src="/wcsstore/hpusstore/Treatment/InstaInk_icon-pages-blue_tcm_245_1682804.png"> 
+         </div> 
+         <div style="float:left; font-weight:100;"> 
+          <span style="font-size:40px !important;">$2.99</span>/month 
+          <p style="font-weight:100;">Up to 50 pages per month </p> 
+         </div> 
+         <div style="clear:both;">
+          <a target="_blank" href="http://store.hp.com/webapp/wcs/stores/servlet/PDPStdView?urlRequestType=Base&amp;catalogId=10051&amp;categoryId=&amp;productId=282662&amp;urlLangId=-1&amp;langId=-1&amp;top_category=&amp;parent_category_rn=&amp;storeId=10151" data-width="676" class="btn btn-msnew"> Shop now </a>
+         </div> 
+        </div> 
+        <div style="border-top:1px solid #ccc; padding:15px;"> 
+         <h5 style="font-weight:bold; font-size:16px; color:#0096d6; margin:0;">Print less?</h5> 
+         <p style="font-weight:100; color:#000;">Roll over up to 50 unused pages<sup>†</sup></p> 
+        </div> 
+        <div style="border-top:1px solid #ccc; padding:15px;"> 
+         <h5 style="font-weight:bold; font-size:16px; color:#0096d6; margin:0;">Print more?</h5> 
+         <p style="font-weight:100; color:#000;">Each additional 15 pages is just $1</p> 
+        </div> 
+        <div style="border-top:1px solid #ccc; padding:15px; display:table; width:100%;"> 
+         <h5 style="font-weight:bold; font-size:16px; color:#0096d6; margin:0;" id="callout1"> <a class="overage rollover" href="#!">Yearly savings</a> 
+          <!--Callout div--> 
+          <div class="calloutpop" id="calloutpop1"> 
+           <h3 style="font-weight:normal;">Yearly savings with HP Instant Ink</h3> 
+           <p style="font-weight: 100; padding-bottom: 10px; line-height: 24px;">See how you can save time and up to 50% on ink that's ordered by your printer and delivered to your door.<sup>†</sup></p> 
+           <h4 style="background-color:#0096d6; color:#fff; padding:10px; font-size:24px !important;">Occasional printing plan - $2.99/month</h4> 
+           <div class="row"> 
+            <div class="column large-4 meddium-4 small-4"> 
+             <div style="font-weight:100; color:#000;" class="text-center"> 
+              <span style="font-size:32px;">$36</span>/year 
+              <br> 
+              <span class="color-lighter"> with HP Instant Ink </span> 
+             </div> 
+            </div> 
+            <div class="column large-4 meddium-4 small-4"> 
+             <div style="font-weight:100; color:#000;" class="text-center"> 
+              <span style="font-size:32px;">$132</span>/year 
+              <br> 
+              <span class="color-lighter"> standard size cartridges ink </span> 
+             </div> 
+            </div> 
+            <div class="column large-4 meddium-4 small-4"> 
+             <div style="font-weight:100; color:#000;" class="text-center"> 
+              <span style="font-size:32px;">$96</span>
+              <br> 
+              <span class="color-lighter"> savings</span> 
+             </div> 
+            </div> 
+            <div class="tooltipBoxNub"> 
+             <s></s> 
+             <i></i> 
+            </div> 
+           </div> 
+          </div> 
+          <!--Callout div--> </h5> 
+         <div style="float:right; font-size:40px; font-weight:100; color:#000;">
+          $96
+         </div> 
+        </div> 
+       </div> 
+       <br>
+       <br> 
+      </div> 
+      <div class="column large-4 medium-4 small-12"> 
+       <div style="border:1px solid #ccc; border-radius:0 8px;"> 
+        <div style="background:#0e9648; color:#FFF; text-align:center; font-weight:100; padding:15px; border-radius:0 8px 0 0; font-size:20px;">
+          Moderate printing plan 
+        </div> 
+        <div style="padding:15px; display:table;"> 
+         <div style="float:left;"> 
+          <img src="/wcsstore/hpusstore/Treatment/InstaInk_icon-pages-green_tcm_245_1682805.png"> 
+         </div> 
+         <div style="float:left; font-weight:100;"> 
+          <span style="font-size:40px !important;">$4.99</span>/month 
+          <p style="font-weight:100;">Up to 100 pages per month </p> 
+         </div> 
+         <div style="clear:both;">
+          <a target="_blank" href="http://store.hp.com/webapp/wcs/stores/servlet/PDPStdView?urlRequestType=Base&amp;catalogId=10051&amp;categoryId=&amp;productId=282661&amp;urlLangId=-1&amp;langId=-1&amp;top_category=&amp;parent_category_rn=&amp;storeId=10151" data-width="676" class="btn btn-msnew"> Shop now </a>
+         </div> 
+        </div> 
+        <div style="border-top:1px solid #ccc; padding:15px;"> 
+         <h5 style="font-weight:bold; font-size:16px; color:#0096d6; margin:0;">Print less?</h5> 
+         <p style="font-weight:100; color:#000;">Roll over up to 100 unused pages<sup>†</sup></p> 
+        </div> 
+        <div style="border-top:1px solid #ccc; padding:15px;"> 
+         <h5 style="font-weight:bold; font-size:16px; color:#0096d6; margin:0;">Print more?</h5> 
+         <p style="font-weight:100; color:#000;">Each additional 20 pages is just $1</p> 
+        </div> 
+        <div style="border-top:1px solid #ccc; padding:15px; display:table; width:100%;"> 
+         <h5 style="font-weight:bold; font-size:16px; color:#0096d6; margin:0;" id="callout2"> <a class="overage rollover" href="#!">Yearly savings</a> 
+          <!--Callout div--> 
+          <div class="calloutpopgreen" id="calloutpop2"> 
+           <h3 style="font-weight:normal;">Yearly savings with HP Instant Ink</h3> 
+           <p style="font-weight: 100; padding-bottom: 10px; line-height: 24px;">See how you can save time and up to 50% on ink that's ordered by your printer and delivered to your door.<sup>†</sup></p> 
+           <h4 style="background-color:#0e9648; color:#fff; padding:10px; font-size:24px !important;">Moderate printing plan - $4.99/month</h4> 
+           <div class="row"> 
+            <div class="column large-4 meddium-4 small-4"> 
+             <div style="font-weight:100; color:#000;" class="text-center"> 
+              <span style="font-size:32px;">$60</span>/year 
+              <br> 
+              <span class="color-lighter"> with HP Instant Ink </span> 
+             </div> 
+            </div> 
+            <div class="column large-4 meddium-4 small-4"> 
+             <div style="font-weight:100; color:#000;" class="text-center"> 
+              <span style="font-size:32px;">$264</span>/year 
+              <br> 
+              <span class="color-lighter"> standard size cartridges ink </span> 
+             </div> 
+            </div> 
+            <div class="column large-4 meddium-4 small-4"> 
+             <div style="font-weight:100; color:#000;" class="text-center"> 
+              <span style="font-size:32px;">$204</span>
+              <br> 
+              <span class="color-lighter"> savings</span> 
+             </div> 
+            </div> 
+            <div class="tooltipBoxNub"> 
+             <s></s> 
+             <i></i> 
+            </div> 
+           </div> 
+          </div> 
+          <!--Callout div--> </h5> 
+         <div style="float:right; font-size:40px; font-weight:100; color:#000;">
+          $204
+         </div> 
+        </div> 
+       </div> 
+       <br>
+       <br> 
+      </div> 
+      <div class="column large-4 medium-4 small-12"> 
+       <div style="border:1px solid #ccc; border-radius:0 8px;"> 
+        <div style="background:#70339f; color:#FFF; text-align:center; font-weight:100; padding:15px; border-radius:0 8px 0 0; font-size:20px;">
+          Frequent printing plan 
+        </div> 
+        <div style="padding:15px; display:table;"> 
+         <div style="float:left;"> 
+          <img src="/wcsstore/hpusstore/Treatment/InstaInk_icon-pages-magenta_tcm_245_1682806.png"> 
+         </div> 
+         <div style="float:left; font-weight:100;"> 
+          <span style="font-size:40px !important;">$9.99</span>/month 
+          <p style="font-weight:100;"> Up to 300 pages per month </p> 
+         </div> 
+         <div style="clear:both;">
+          <a target="_blank" href="http://store.hp.com/webapp/wcs/stores/servlet/PDPStdView?urlRequestType=Base&amp;catalogId=10051&amp;categoryId=&amp;productId=282663&amp;urlLangId=-1&amp;langId=-1&amp;top_category=&amp;parent_category_rn=&amp;storeId=10151" data-width="676" class="btn btn-msnew"> Shop now </a>
+         </div> 
+        </div> 
+        <div style="border-top:1px solid #ccc; padding:15px;"> 
+         <h5 style="font-weight:bold; font-size:16px; color:#0096d6; margin:0;">Print less?</h5> 
+         <p style="font-weight:100; color:#000;">Roll over up to 300 unused pages<sup>†</sup></p> 
+        </div> 
+        <div style="border-top:1px solid #ccc; padding:15px;"> 
+         <h5 style="font-weight:bold; font-size:16px; color:#0096d6; margin:0;">Print more?</h5> 
+         <p style="font-weight:100; color:#000;">Each additional 25 pages is just $1</p> 
+        </div> 
+        <div style="border-top:1px solid #ccc; padding:15px; display:table; width:100%;"> 
+         <h5 style="font-weight:bold; font-size:16px; color:#0096d6; margin:0;" id="callout3"> <a class="overage rollover" href="#!">Yearly savings</a> 
+          <!--Callout div--> 
+          <div class="calloutpoppurp" id="calloutpop3"> 
+           <h3 style="font-weight:normal;">Yearly savings with HP Instant Ink</h3> 
+           <p style="font-weight: 100; padding-bottom: 10px; line-height: 24px;">See how you can save time and up to 50% on ink that's ordered by your printer and delivered to your door.<sup>†</sup></p> 
+           <h4 style="background-color:#70339f; color:#fff; padding:10px; font-size:24px !important;">Frequent printing plan - $9.99/month</h4> 
+           <div class="row"> 
+            <div class="column large-4 meddium-4 small-4"> 
+             <div style="font-weight:100; color:#000;" class="text-center"> 
+              <span style="font-size:32px;">$120</span>/year 
+              <br> 
+              <span class="color-lighter"> with HP Instant Ink </span> 
+             </div> 
+            </div> 
+            <div class="column large-4 meddium-4 small-4"> 
+             <div style="font-weight:100; color:#000;" class="text-center"> 
+              <span style="font-size:32px;">$792</span>/year 
+              <br> 
+              <span class="color-lighter"> standard size cartridges ink </span> 
+             </div> 
+            </div> 
+            <div class="column large-4 meddium-4 small-4"> 
+             <div style="font-weight:100; color:#000;" class="text-center"> 
+              <span style="font-size:32px;">$672</span>
+              <br> 
+              <span class="color-lighter"> savings</span> 
+             </div> 
+            </div> 
+            <div class="tooltipBoxNub"> 
+             <s></s> 
+             <i></i> 
+            </div> 
+           </div> 
+          </div> 
+          <!--Callout div--> </h5> 
+         <div style="float:right; font-size:40px; font-weight:100; color:#000;">
+          $672
+         </div> 
+        </div> 
+       </div> 
+       <br>
+       <br> 
+      </div> 
+     </div> 
+    </div> 
+    <!--Get started with--> 
+    <div class="bodyCenterContent paddingtopbot" style="border-bottom:1px solid #CCC;"> 
+     <h3 style="padding:15px 0; font-weight:normal;" class="text-center">Get started with HP Instant Ink</h3> 
+     <div class="row"> 
+      <div class="column large-5 medium-5 small-5"> 
+       <h4 style="font-size:24px !important; font-weight:normal;">I need an Instant Ink-eligible printer and an enrollment card.</h4> 
+       <p style="font-weight:100; line-height:22px; padding-bottom:15px;">HP Instant Ink can save you time and money – get started by finding the right printer and plan to fit your needs.</p> 
+       <a target="_blank" class="btn btn-msnew" href="http://store.hp.com/us/en/SearchDisplay?client=&amp;searchTerm=instant+ink+printers&amp;search=%EF%80%A1&amp;beginIndex=0&amp;catalogId=10051&amp;charset=utf-8&amp;langId=-1&amp;pageSize=50&amp;pageView=grid&amp;resultCatEntryType=2&amp;sType=SimpleSearch&amp;searchSource=Q&amp;storeId=10151"> Buy now</a> 
+      </div> 
+      <div class="column large-2 medium-2 small-2 text-center"> 
+       <img src="/wcsstore/hpusstore/Treatment/InstaInk_icon-or.png" style="margin-top:15px;"> 
+      </div> 
+      <div class="column large-5 medium-5 small-5"> 
+       <h4 style="font-size:24px !important; font-weight:normal;">I have an Instant Ink-eligible printer. I just need to enroll.</h4> 
+       <p style="font-weight:100; line-height:22px; padding-bottom:15px;">Once you've made sure your printer is eligible, all that's left to do is pick your plan, sign up, and start saving.</p> 
+       <a data-reveal-id="signup" href="" data-width="676" class="btn btn-msnew">Sign up now</a> 
+       <a data-reveal-id="eligible-printers2" href="" data-width="670">View eligible printers</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!--News & reviews--> 
+    <div class="bodyCenterContent paddingtopbot hide-for-small hideBelow1000res"> 
+     <h3 class="text-center" style="padding:15px 0; font-weight:normal;">HP Instant Ink news and reviews</h3> 
+     <ul data-orbit data-options="animation:fade; pause_on_hover:true; animation_speed:200; navigation_arrows:true; bullets:false; timer_speed:0; slide_number: false"> 
+      <!----> 
+      <li data-orbit-slide="headline-1" class="active" style="width: 25%;"> 
+       <div class="review"> 
+        <ul class="col-3" style="padding-left:10px;"> 
+         <li> 
+          <div class="mason-box"> 
+           <div id="quote-one" class="mason-box-quote font-light"> 
+            <p class="block-quote"><span class="big-quote white-text">In my opinion, the Instant Ink Program is the best and most cost effective way to purchase ink for my printer.I cannot say enough positive things about the program.</span></p> 
+            <div class="blue-square"> 
+            </div> 
+           </div> 
+           <p class="quote-author"><span id="bold-auth">Gene F., Retired Public School Teacher</span><br> <span class="author-location">Harpursville, NY</span> </p> 
+          </div> </li> 
+         <li> 
+          <div class="mason-box"> 
+           <img src="/wcsstore/hpusstore/Treatment/InstaInk_video-one-mom_tcm_245_1871352.png"> 
+           <p class="video-author-title" style="color:#FFF; padding-top:18px;"><span class="first-name">Angela</span>, After School Mom</p> 
+           <a data-reveal-id="video-testimonial-mom" data-width="800" href="" class="play-button-buzz modal buzz-video-button"></a> 
+           <div id="quote-two" class="mason-box-quote font-light"> 
+            <p class="block-quote-small-grey">Everything about it was simple. Having the Instant Ink is convenient, and it's inexpensive. You don't ususally get both of those things.</p> 
+           </div> 
+          </div> </li> 
+         <li> 
+          <div class="mason-box"> 
+           <div id="quote-three-plus" class="mason-box-quote font-light"> 
+            <img src="/wcsstore/hpusstore/Treatment/InstaInk_money-saving_tcm_245_1871339.png" class="center-image  even-padding"> 
+            <p class="block-quote-grey"><span class="big-quote">With all that HP has to offer, probably my favorite feature of the HP Envy 5530 All-In-One and HP Instant Ink is the ability to print my photos at home for an affordable price. The picture<br> quality is amazing and, with my plan, I can print 100 copies for $4.99. When compared to other printers and ink prices this is pretty awesome.</span></p> 
+            <a target="_blank" href="http://www.moneysavingmadness.com/2014/03/save-printer-ink-hp-instant-ink-hp-envy-5530-e-one-printer/" class="mason-article">Read full article</a> 
+           </div> 
+           <p class="quote-author"><span id="bold-auth">Michelle</span><br> <span class="author-location">Money Saving Madness</span></p> 
+          </div> </li> 
+         <li> 
+          <div id="video-student" class="mason-box"> 
+           <img src="/wcsstore/hpusstore/Treatment/InstaInk_video-student_tcm_245_1871353.png" class="center-image"> 
+           <p class="video-author-title" style="color:#FFF; padding-top: 18px;"><span class="first-name">Truett</span>, College Student</p> 
+           <a data-reveal-id="video-testimonial-student" data-width="800" href="" class="play-button-buzz modal buzz-video-button"></a> 
+           <div class="mason-box-quote font-light"> 
+            <p class="block-quote-small-grey">You don't have to go anywhere to pick any ink cartridges up. That's really great for a college student.</p> 
+           </div> 
+          </div> </li> 
+         <li> 
+          <div id="quote-biz-margin" class="mason-box"> 
+           <div id="quote-biz" class="mason-box-quote font-light"> 
+            <img src="/wcsstore/hpusstore/Treatment/InstaInk_smallbiz-logo_tcm_245_1871341.png" class="center-image  even-padding"> 
+            <p class="block-quote-grey"><span class="big-quote">You pay HP a low monthly fee, based on how much paper you'll use each month and when your printer is low on ink, it will order ink for you (automatically) and you'll have a fresh ink jet cartridge waiting for you.</span></p> 
+            <a target="_blank" href="http://www.smallbiztechnology.com/archive/2014/04/fridge-ordering-milk-onstar-calling-police-printer-ordering-ink-hp-printers-order-ink-before-you-need-it.html/" class="mason-article">Read full article</a> 
+           </div> 
+           <p class="quote-author"><span id="bold-auth">Ramon Ray</span><br> <span class="author-location"> Small Biz Technology</span><br> </p> 
+          </div> </li> 
+         <li> 
+          <div class="mason-box"> 
+           <div id="quote-one" class="mason-box-quote font-light"> 
+            <p class="block-quote"><span class="big-quote white-text">HP Instant Ink is the best value and time saver I have ever recieved and used. Without hesitationI have already recommended the printers and the program to many friends.</span></p> 
+            <div class="blue-square"> 
+            </div> 
+           </div> 
+           <p class="quote-author"><span id="bold-auth">Diane M., Interior Designer</span><br> <span class="author-location">Inverness, FL</span></p> 
+          </div> </li> 
+        </ul> 
+       </div> </li> 
+      <!----> 
+      <!----> 
+      <li data-orbit-slide="headline-2" style="width: 25%;"> 
+       <div class="review"> 
+        <ul class="col-3" style="padding-left:10px;"> 
+         <li> 
+          <div id="left-150" class="mason-box"> 
+           <img src="/wcsstore/hpusstore/Treatment/InstaInk_real-estate-video_tcm_245_1871350.png"> 
+           <p class="video-author-title" style="color:#FFF; padding-top:18px;"><span id="bold-auth">Colin,</span> Real Estate Agent</p> 
+           <a data-width="800" href="" data-reveal-id="video-testimonial-Colin" class="play-button-buzz modal buzz-video-button"></a> 
+           <div id="quote-two" class="mason-box-quote font-light"> 
+            <p class="block-quote-small-grey">I think it gives me a competitive edge. So that's really valuable for me.</p> 
+           </div> 
+          </div> </li> 
+         <li> </li> 
+         <li> 
+          <div id="right-150" class="mason-box"> 
+           <div id="quote-three" class="mason-box-quote font-light"> 
+            <img src="/wcsstore/hpusstore/Treatment/InstaInk_iheart-logo_tcm_245_1871338.png" class="center-image  even-padding"> 
+            <p class="block-quote-grey"><span class="big-quote">With Instant-Ink, I can now subscribe to HP's ink service which monitors my printing usage and automatically sends me ink when it is running low. No more running out mid-page or hopping in the car and driving twenty minutes to my nearest office supply store for replacement cartridges. For a low monthly fee based on my current printing needs, HP will automatically send me ink right to my door. This service now saves me almost 50% in ink costs! Because I am in love with all things colorful and printed, this is HUGE for me.</span></p> 
+            <a target="_blank" href="http://iheartorganizing.blogspot.com/2014/08/the-2015-iheart-planner-is-here-and.html" class="mason-article">Read full article</a> 
+           </div> 
+           <p class="quote-author"><span id="bold-auth">Jen</span><br> <span class="author-location">iHeart Organizing</span></p> 
+          </div> </li> 
+         <li style="margin-top:15px;"> 
+          <div id="thunk-margin" class="mason-box"> 
+           <div id="thunk-box" class="mason-box-quote font-light"> 
+            <img src="/wcsstore/hpusstore/Treatment/InstaInk_thunk-logo_tcm_245_1871342.png" class="center-image"> 
+            <p class="block-quote-small-grey">There are brand new apps and tech products that you will want to know about now as we inch closer to the holiday, and Emmy Award Winner and tech &amp; digital lifestyle commentator Mario Armstrong, will tell us why...</p> 
+            <a href="https://www.youtube.com/watch?v=wpPxzhGVA10" target="_blank" class="mason-article">Watch the video</a> 
+            <a target="_blank" href="http://www.thunkmedia.com/techpicks/" class="mason-article">Read full article</a> 
+           </div> 
+           <p class="quote-author"><span id="bold-auth">Mario Armstrong</span><br> <span class="author-location"></span></p> 
+          </div> </li> 
+         <li> 
+          <div id="babble-margin" class="mason-box"> 
+           <div id="babble-box" class="mason-box-quote font-light"> 
+            <img src="/wcsstore/hpusstore/Treatment/InstaInk_cmplogo_tcm_245_1871337.png" class="center-image"> 
+            <p class="block-quote-small-grey" style="margin-bottom:0;">If your current printer needs an upgrade, now's a great time to ask Santa for a brand new HP Printer like the sleek HP Envy 5530 which sets up quickly and has cool features like wireless printing from your phone, laptop or tablet. Pair that with the HP Instant Ink service which saves you up to 50% on the cost of original HP printer ink, and you'll be ready for all the cool printables we share year round.</p> 
+            <a target="_blank" href="http://coolmompicks.com/blog/2014/12/06/best-printable-holiday-crafts-for-kids-and-families/)" class="mason-article">Read full article</a> 
+           </div> 
+           <p class="quote-author"><span id="bold-auth">Cool Mom Picks</span><br> <span class="author-location"></span></p> 
+          </div> </li> 
+        </ul> 
+       </div> </li> 
+      <!----> 
+     </ul> 
+    </div> 
+    <!--Instant Ink-eligible printers--> 
+    <div class="bodyCenterContent paddingtopbot" style="border-bottom:1px solid #CCC; border-top:1px solid #CCC;"> 
+     <h3 style="padding:15px 0; font-weight:normal;" class="text-center">HP Instant Ink-eligible printers</h3> 
+     <div class="row"> 
+      <div class="column large-4 medium-4 small-12"> 
+       <a target="_blank" href="http://store.hp.com/webapp/wcs/stores/servlet/us/en/hp-envy-5660-e-all-in-one-printer?jumpid=cp_r163_us/en/ips/instant_ink/instantink/elg5660imageshopnow"> <img src="/wcsstore/hpusstore/Treatment/InstaInk_officejet-5660_tcm_245_1871340.png"></a> 
+       <h4 style="font-size:24px !important; font-weight:normal; padding:20px 0 10px;">HP ENVY 5660 e-All-in-One</h4> 
+       <p style="font-weight:100; line-height:22px; padding-bottom:15px;">Easy setup allows for quick printing right from your smartphone, tablet, or PC.</p> 
+       <ul style="padding-left:20px; font-weight:100;"> 
+        <li style="list-style:disc;">Print lab-quality, borderless photos; fast document printing.</li> 
+        <li style="list-style:disc;">4x6-inch photo tray; 2-sided printing.</li> 
+        <li style="list-style:disc;">Automatic paper tray disappears when not in use.</li> 
+       </ul> 
+       <p style="font-weight:100;">MSRP <span style="font-size:30px; color:#d7410b">$149.99</span></p> 
+       <a target="_blank" class="btn btn-msnew" href="http://store.hp.com/webapp/wcs/stores/servlet/us/en/pdp/printers/hp-envy-5660-e-all-in-one-printer"> Buy now</a> 
+       <br>
+       <br>
+       <br> 
+       <a data-reveal-id="signup" href="" data-width="676" class="modal" style="font-weight:100;">Own this printer? Sign up now</a> 
+       <br>
+       <br>
+       <br>
+       <br> 
+       <a target="_blank" href="http://store.hp.com/webapp/wcs/stores/servlet/SearchDisplay?client=&amp;searchTerm=instant+ink+printers&amp;search=%26%2361473%3B&amp;beginIndex=0&amp;catalogId=10051&amp;charset=utf-8&amp;langId=-1&amp;pageSize=50&amp;pageView=list&amp;resultCatEntryType=2&amp;sType=SimpleSearch&amp;searchSource=Q&amp;storeId=10151&amp;jumpid=cp_r163_us/en/ips/instant_ink/instantink/elgshopallprinters" class="learnmore">Shop all eligible printers</a> 
+       <br>
+       <br> 
+      </div> 
+      <div class="column large-4 medium-4 small-12"> 
+       <a target="_blank" href="http://store.hp.com/webapp/wcs/stores/servlet/us/en/pdp/printers/hp-officejet-5740-e-all-in-one-printer?jumpid=cp_r163_us/en/ips/instant_ink/instantink/elg5740imageshopnow"> <img src="/wcsstore/hpusstore/Treatment/InstaInk_officejet-5740-new_tcm_245_1871346.png"></a> 
+       <h4 style="font-size:24px !important; font-weight:normal; padding:20px 0 10px;">HP Officejet 5740</h4> 
+       <p style="font-weight:100; line-height:22px; padding-bottom:15px;">Print high-quality documents and photos from your smartphone or tablet.</p> 
+       <ul style="padding-left:20px; font-weight:100;"> 
+        <li style="list-style:disc;">Print, copy, scan, fax, Web, photo.</li> 
+        <li style="list-style:disc;">All the features you need to complete work or family projects.</li> 
+        <li style="list-style:disc;">25-page automatic document feeder; seperate 4x6-inch photo paper tray.</li> 
+       </ul> 
+       <p style="font-weight:100;">MSRP <span style="font-size:30px; color:#d7410b">$149.99</span></p> 
+       <a target="_blank" class="btn btn-msnew" href="http://store.hp.com/webapp/wcs/stores/servlet/us/en/pdp/printers/hp-officejet-5740-e-all-in-one-printer"> Buy now</a> 
+       <br>
+       <br>
+       <br> 
+       <a data-reveal-id="signup" href="" data-width="676" class="modal" style="font-weight:100;">Own this printer? Sign up now</a> 
+       <br>
+       <br> 
+      </div> 
+      <div class="column large-4 medium-4 small-12"> 
+       <a target="_blank" href="http://store.hp.com/webapp/wcs/stores/servlet/us/en/officejet-pro-8620-e-all-in-one-a7f65a-b1h?jumpid=cp_r163_us/en/ips/instant_ink/instantink/elg8620imageshopnow"> <img src="/wcsstore/hpusstore/Treatment/InstaInk_officejet-8620-new_tcm_245_1871347.png"></a> 
+       <h4 style="font-size:24px !important; font-weight:normal; padding:20px 0 10px;">HP Officejet Pro 8620 e-All-in-One</h4> 
+       <p style="font-weight:100; line-height:22px; padding-bottom:15px;">Print professional color marketing materials for up to 50% lower cost per page than lasers.<sup>†</sup></p> 
+       <ul style="padding-left:20px; font-weight:100;"> 
+        <li style="list-style:disc;">Print, copy, scan, fax, Web.</li> 
+        <li style="list-style:disc;">Print speeds up to 16.5 ppm color.<sup>†</sup></li> 
+        <li style="list-style:disc;">Automatic two-sided scanning; 50-page automatic document feeder.</li> 
+       </ul> 
+       <p style="font-weight:100;">MSRP <span style="font-size:30px; color:#d7410b">$299.99</span></p> 
+       <a target="_blank" class="btn btn-msnew" href="http://store.hp.com/webapp/wcs/stores/servlet/us/en/pdp/printers/hp-officejet-pro-8620-e-all-in-one-printer"> Buy now</a> 
+       <br>
+       <br>
+       <br> 
+       <a data-reveal-id="signup" href="" data-width="676" class="modal" style="font-weight:100;">Own this printer? Sign up now</a> 
+       <br>
+       <br> 
+      </div> 
+     </div> 
+    </div> 
+    <!--FAQs--> 
+    <div class="bodyCenterContent"> 
+     <div class="faq"> 
+      <div style="display:table; width:100%; padding:1%;"> 
+       <h3 style="padding:15px 0; font-weight:normal; float:left;">FAQs</h3> 
+       <div style="float:right; text-align:right;"> 
+        <h4>Support</h4> 
+        <a target="_blank" href="http://h10025.www1.hp.com/ewfrf/wc/product?cc=us&amp;dlc=en&amp;lang=en&amp;lc=en&amp;product=5401250">HP Instant Ink support forums</a> 
+       </div> 
+      </div> 
+      <div data-section="accordion" class="section-container accordion" style=""> 
+       <div data-section="accordion" class="section-container accordion" style=""> 
+        <section> 
+         <p data-section-title="" class="title" style="left: 0px;"><a href="#">How does HP Instant Ink work?</a></p> 
+         <div data-section-content="" class="content"> 
+          <p> When you enroll in an HP Instant Ink plan, you pay a monthly fee to print a defined number of pages per month. The plans are based on the number of pages that you print, not on how many ink cartridges you use. Your monthly fee pays for ink, shipping, and recycling. If you do not print all of your plan pages in a month, you can roll over up to the number of pages per month in your plan. If you need additional pages, they are automatically provided in blocks for only $1. A printed page counts the same whether it's black and white, a color document or a photo.</p> 
+          <p> </p> 
+          <p>There are three plans:</p> 
+          <table> 
+           <thead> 
+            <tr> 
+             <th>Monthly fee</th> 
+             <th>Pages per month</th> 
+             <th>Rollover pages per month</th> 
+             <th>Additional pages per month</th> 
+            </tr> 
+           </thead> 
+           <tbody> 
+            <tr> 
+             <td>$2.99</td> 
+             <td>50</td> 
+             <td>Up to 50</td> 
+             <td>Each additional set of 15 pages for just $1</td> 
+            </tr> 
+            <tr> 
+             <td>$4.99</td> 
+             <td>100</td> 
+             <td>Up to 100</td> 
+             <td>Each additional set of 20 pages for just $1</td> 
+            </tr> 
+            <tr> 
+             <td>$9.99</td> 
+             <td>300</td> 
+             <td>Up to 300</td> 
+             <td>Each additional set of 25 pages for just $1</td> 
+            </tr> 
+           </tbody> 
+          </table> 
+          <small>Applicable taxes, fees and surcharges by federal, state and local governments also apply.</small> 
+          <p> There is no annual fee and you can cancel or change plans anytime without penalty. As part of the service, HP will send you HP Instant Ink replacement cartridges and postage-paid recycling envelopes, before you run out of ink, at no additional cost.<sup>†</sup> Your billing month starts when you insert an HP Instant Ink cartridge in your enrolled printer. </p> 
+          <p> HP checks the ink usage of your enrolled printer, so we will know when to send you more ink. You will always have ink when you need it.<sup>†</sup> HP Instant Ink cartridges can only be used in printers you have enrolled. Used HP Instant Ink cartridges must be returned in the postage-paid recycling envelopes provided by HP. Returned cartridges will be recycled by HP Planet Partners </p> 
+         </div> 
+        </section> 
+        <section> 
+         <p data-section-title="" class="title" style="left: 575px;"><a href="#"> What are the requirements to sign up?</a></p> 
+         <div data-section-content="" class="content"> 
+          <p> To sign up for HP Instant Ink you need: </p> 
+          <ol> 
+           <li> An eligible HP printer </li> 
+           <li> Your printer must be connected to the Internet </li> 
+           <li> A valid email address </li> 
+           <li> A valid credit card or debit card (for billing purposes) </li> 
+          </ol> 
+          <p> To find out if your printer is eligible, <a data-reveal-id="eligible-printers" href="" data-width="665" class="modal">click here.</a> </p> 
+         </div> 
+        </section> 
+        <section> 
+         <p data-section-title="" class="title" style="left: 1150px;"><a href="#"> Is my printer eligible for HP Instant Ink?</a></p> 
+         <div data-section-content="" class="content"> 
+          <p> To find out if your printer is eligible, <a data-reveal-id="eligible-printers" href="" data-width="665" class="modal">click here.</a> </p> 
+         </div> 
+        </section> 
+        <section> 
+         <p data-section-title="" class="title" style="left: 1725px;"><a href="#"> Why should I enroll now when I still have ink? </a></p> 
+         <div data-section-content="" class="content"> 
+          <p> We'll send your HP Instant Ink cartridges now, so you will have them when you need replacement cartridges. Billing won't start until 30 days after you insert one of your HP Instant Ink cartridges into your enrolled printer. </p> 
+         </div> 
+        </section> 
+        <section> 
+         <p data-section-title="" class="title" style="left: 2300px;"><a href="#"> Can I change or cancel my plan anytime?</a></p> 
+         <div data-section-content="" class="content"> 
+          <p> Yes. There is no obligation or commitment beyond your first month. You may change plans or cancel your service at any time without penalty on your account page at HP Connected. After you sign in at <a target="_blank" href="https://webauth.hpconnected.com/oauth/ui/signUp?state=new_plan&amp;theme=DKTBR&amp;response_type=code&amp;client_id=1127bd7a6e76102d92b012313sicpsf2&amp;redirect_uri=https://instantink.hpconnected.com/users/auth/hp_webauth/callback&amp;jumpID=in_r11549_us_en_hpc_ii2_hpcampaignpage_060514">HP Connected</a>, click on Services, and then Instant Ink to change or cancel your account. Cancellations and plan downgrades are effective after the last day of the current billing cycle. Cancellations and plan downgrade changes are effective after the last day of your current billing cycle. You can choose to make plan upgrade changes effective during the current or next billing cycle. For full details, see HP Instant Ink <a target="_blank" href="https://instantink.hpconnected.com/us/en/terms">Terms of Service</a>. </p> 
+         </div> 
+        </section> 
+        <section> 
+         <p data-section-title="" class="title" style="left: 2875px;"><a href="#"> What if I don't know how much I print?</a></p> 
+         <div data-section-content="" class="content"> 
+          <p> You can start with any plan and change your plan at any time at HP Connected. After you sign in at HP Connected, click on Services, and then Instant Ink to change your plan or view your account information. On this page you can find out how many pages you have printed, how many rollover pages are available, and how many additional pages you have purchased. Cancellations and plan downgrades are effective after the last day of the current billing cycle. Plan upgrades are effective during the current or next billing cycle. See terms for full details. </p> 
+         </div> 
+        </section> 
+        <section> 
+         <p data-section-title="" class="title" style="left: 3450px;"><a href="#"> What if my printing needs change from month to month? </a></p> 
+         <div data-section-content="" class="content"> 
+          <p> Your unused pages are rolled over for you, up to your monthly plan amount. You can print more than your monthly page amount and still save. Additional sets of pages are automatically available and let you print beyond your limit for pennies per page. You can easily change your monthly plan whenever you want. Plan downgrade changes are effective after the last day of your current billing cycle. You can choose to make plan upgrade changes effective during the current or next billing cycle. </p> 
+         </div> 
+        </section> 
+        <section> 
+         <p data-section-title="" class="title" style="left: 4025px;"><a href="#">Will I get cartridges every month?</a></p> 
+         <div data-section-content="" class="content"> 
+          <p> No, you will only get cartridges when your printer tells us you need them. HP Instant Ink cartridges are extra high capacity, and they contain months-worth of ink depending on your usage. You can print as much as you want as long as you are enrolled in HP Instant Ink. </p> 
+         </div> 
+        </section> 
+        <section> 
+         <p data-section-title="" class="title" style="left: 4600px;"><a href="#">Is the cost the same for photos, color, black and white pages? </a></p> 
+         <div data-section-content="" class="content"> 
+          <p> Yes, you can print full color photos, color documents, or high-quality black and white pages. Each page costs the same. Your monthly fee is based on the number of pages you print, not on the amount of ink you use. You never have to worry again about printing in black and white to avoid using your color ink cartridges. </p> 
+         </div> 
+        </section> 
+        <section> 
+         <p data-section-title="" class="title" style="left: 5175px;"><a href="#"> When does the billing cycle start?</a></p> 
+         <div data-section-content="" class="content"> 
+          <p> Your billing cycle of approximately 30 days starts when you insert your first HP Instant Ink cartridge in your enrolled printer. You will be billed at the end of your billing cycle for your monthly fee and any additional pages you printed. If you purchased an enrollment kit in a retail store, your credit card will not be charged for your first monthly fee, since you already paid for your first month by purchasing an enrollment kit. Your enrollment kit fee does not include any additional pages that you print beyond the page amount in your plan. </p> 
+          <p> If you enroll now, we will send you a welcome kit with HP Instant Ink cartridges in about 10 days, so you'll have ink when you need it. Your billing cycle starts when you insert your first HP Instant Ink cartridge, it does not start when you enroll in the service. </p> 
+         </div> 
+        </section> 
+        <section> 
+         <p data-section-title="" class="title" style="left: 5750px;"><a href="#"> When is my credit card charged for my HP Instant Ink service? </a></p> 
+         <div data-section-content="" class="content"> 
+          <p> Your credit card is charged approximately 30 days after the day you insert your first HP Instant Ink cartridge in your enrolled printer. You are billed at the end of your billing cycle for the previous 30 days of service. You will be billed for your monthly plan fee, plus any additional pages you printed during your billing cycle. </p> 
+          <p> Since your monthly plan fee is the same every month, we will not send you a bill prior to charging your monthly fee, unless you print additional pages. When you print additional pages during your billing cycle, we will send you an email at the end of your billing cycle, listing your monthly fee and the charges for any additional sets of pages you printed. Remember to keep your printer connected to the Internet, so you can get notifications about your HP Instant Ink account. </p> 
+          <p> You can also find your complete billing history at <a target="_blank" href="https://webauth.hpconnected.com/oauth/ui/signUp?state=new_plan&amp;theme=DKTBR&amp;response_type=code&amp;client_id=1127bd7a6e76102d92b012313sicpsf2&amp;redirect_uri=https://instantink.hpconnected.com/users/auth/hp_webauth/callback&amp;jumpID=in_r11549_us_en_hpc_ii2_hpcampaignpage_060514">HP Connected</a>. After you sign in at HP Connected, click on <strong>Services</strong>, and then <strong>Instant Ink</strong>. To view your billing history, expand the <strong>Activity</strong> section, and then click on <strong>Billing</strong>.</p> 
+         </div> 
+        </section> 
+        <section> 
+         <p data-section-title="" class="title" style="left: 6325px;"><a href="#"> When should I insert the HP Instant Ink cartridges? </a></p> 
+         <div data-section-content="" class="content"> 
+          <p> Insert your HP Instant Ink cartridges when the cartridges that came with the printer run out of ink. </p> 
+         </div> 
+        </section> 
+        <section> 
+         <p data-section-title="" class="title" style="left: 6900px;"><a href="#"> When will HP send replacement cartridges? </a></p> 
+         <div data-section-content="" class="content"> 
+          <p> HP will send you replacement cartridges before you run out of ink. When your enrolled printer is connected to the Internet, your printer automatically orders ink for you because it knows when you are low on ink. Your printer orders ink when your cartridges have enough ink to print twice the number of average pages included in your monthly plan. Cartridges are sent using standard shipping, so they might take up to 10 days to arrive, however, your printer will take shipping time and regular ink usage into account when it orders your ink. Customers with high volume print needs may call Support to request expedited shipping, if they feel their cartridges will not arrive before running out of ink. (Additional shipping charges may apply.) </p> 
+         </div> 
+        </section> 
+        <section> 
+         <p data-section-title="" class="title" style="left: 7475px;"><a href="#"> How do rollover pages and additional pages work? </a></p> 
+         <div data-section-content="" class="content"> 
+          <p> If you do not use all your plan pages in a month, the unused pages will be kept in your account as rollover pages. Your rollover pages are available as long as you are enrolled in HP Instant Ink. You can continue to roll over up to the number of pages in your monthly plan (for example, you can roll over up to 100 pages if you are enrolled in a 100 page plan). If you have printed all of the pages in your plan, and you have used all of your rollover pages, you can still print additional pages and save. </p> 
+          <p> Additional pages are available in sets of 15, 20 and 25 pages, depending on your plan, for only a $1. As long as your printer is connected to the Internet, we will send you an email to remind you when you are near printing all of the pages in your plan. If you are regularly printing additional pages, you may want to change your plan at HP Connected. After you sign in at <a target="_blank" href="https://webauth.hpconnected.com/oauth/ui/signUp?state=new_plan&amp;theme=DKTBR&amp;response_type=code&amp;client_id=1127bd7a6e76102d92b012313sicpsf2&amp;redirect_uri=https://instantink.hpconnected.com/users/auth/hp_webauth/callback&amp;jumpID=in_r11549_us_en_hpc_ii2_hpcampaignpage_060514">HP Connected</a>, click on <strong>Services</strong>, and then <strong>Instant Ink</strong> to change your plan. Plan downgrade changes are effective after the last day of your current billing cycle. You can choose to make plan upgrade changes effective during the current or next billing cycle. </p> 
+         </div> 
+        </section> 
+        <section> 
+         <p data-section-title="" class="title" style="left: 8050px;"><a href="#"> How will I know how much I print every month? </a></p> 
+         <div data-section-content="" class="content"> 
+          <p> You can find out how many pages you have printed, how many rollover pages are available, and how many additional pages you have purchased at <a target="_blank" href="https://webauth.hpconnected.com/oauth/ui/signUp?state=new_plan&amp;theme=DKTBR&amp;response_type=code&amp;client_id=1127bd7a6e76102d92b012313sicpsf2&amp;redirect_uri=https://instantink.hpconnected.com/users/auth/hp_webauth/callback&amp;jumpID=in_r11549_us_en_hpc_ii2_hpcampaignpage_060514">HP Connected</a>. After you sign in at HP Connected, click on <strong>Services</strong>, and then <strong>Instant Ink</strong> to view and change your account information. </p> 
+          <p> </p> 
+         </div> 
+        </section> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <!--Footnotes ############### --> 
+    <div class="bodyCenterContent"> 
+     <div class="footNote-hpe no-border"> 
+      <p> * Estimated U.S. retail price. Actual prices may vary. </p> 
+      <p> <span class="font-simplified">† Lowest Cost Per Page (US):</span> For inkjet color printers less than $360 USD. Cost per page based on ISO/IEC 24711 yields reported by gap intelligence May 2013. Estimated street price of both standard and high capacity cartridges compared to the monthly HP Instant Ink Service fee when you print the exact monthly allotment. Actual savings may vary depending on number of pages printer per month, print resolution, type and size of pages printed, plan and printer platform. For more information on ISO standards: <a target="_blank" href="http://www.hp.com/go/pageyield"> www.hp.com/go/pageyield</a>.</p> 
+      <p> <span class="font-simplified">† Save up to 50% on ink:</span> Savings claim is based on HP Instant Ink Service plan price for 12 months using all pages in plan without purchase of additional pages compared to the cost per page ("CPP") of the majority of color inkjet printers &lt;$399 USD, market share reported by IDC Q3 2013. CPP comparisons for standard capacity inkjet supplies are based on estimated street price and page yield as reported by Gap Intelligence MFP Weekly and IJP Weekly Reports Q3 2013. Actual savings may vary depending on number of pages actually printed per month and content of pages printed. </p> 
+      <p> <span class="font-simplified">† Never run out of ink:</span> Based on plan usage (without excess printing), Internet connection to an eligible HP printer, valid credit/debit card, email address, and delivery service in your geographic area. Internet connectivity is sold separately. </p> 
+      <p> <span class="font-simplified">† Rollover pages:</span> Rollover allows unused pages in a month to be placed in a rollover account and then applied to pages in excess of your monthly allowance. The rollover account balance is limited to a maximum of your monthly service plan pages (e.g: $2.99 plan 50 pages = 50 page rollover maximum). </p> 
+      <p> <span class="font-simplified">† Change or cancel plans online anytime:</span> Cancellations and plan downgrades are effective after the last day of the current billing cycle. Plan upgrades are effective during the current or next billing cycle. See terms for full details. </p> 
+      <p> <span class="font-simplified">† Print wirelessly from your smart device:</span> Local printing requires mobile device and printer to be on the same network or have a direct wireless connection to printer. Wireless performance is dependent upon physical environment and distance from access point. Wireless operations are compatible with 2.4 GHz operations only. Remote printing requires an internet connection to an HP web-connected printer. App or software and HP ePrint account registration may also be required. Wireless broadband use requires separately purchased service contract for mobile devices. Check with service provider for coverage and availability in your area. See <a target="_blank" href="http://hp.com/go/mobileprinting">hp.com/go/mobileprinting</a>. </p> 
+      <p> <span class="font-simplified">† Up to 50% lower cost per page than laser:</span> Cost-per-page claim compares the majority of color laser MFPs &lt;US $500, August 2013; Officejet Pro ISO yield with highest-capacity cartridges based on continuous printing; see <a target="_blank" href="http://hp.com/go/learnaboutsupplies">hp.com/go/learnaboutsupplies</a>. </p> 
+      <p> <span class="font-simplified">† NFC touch-to-print technology:</span> Mobile device must support near field communications-enabled printing. For more information, see <a target="_blank" href="http://hp.com/go/mobileprinting">hp.com/go/mobileprinting</a>. </p> 
+      <p> <span class="font-simplified">† Compared with the majority of color laser AiOs</span> &lt;$500 USD as of August 2013; market share as reported by IDC as of Q2 2013. Cost per page (CPP) comparisons for laser supplies are based on published specifications of the manufacturers' highest capacity cartridges. CPP based on high-capacity HP ink supplies are based on published specifications of the manufacturers' highest capacity cartridges. CPP based on high-capacity ink cartridges estimated street price and page yield. ISO yield based on continuous printing in default mode. For more information, see <a href="http://hp.com/go/learnaboutsupplies" target="_blank"> hp.com/go/learnaboutsupplies</a>. </p> 
+      <p> <span class="font-simplified">† Up to 16.5 ppm color:</span> After first set of ISO test pages. For more information, see <a target="_blank" href="http://hp.com/go/printerclaims">hp.com/go/printerclaims</a>. </p> 
+      <p> © HP Inc. The information contained herein is subject to change without notice. The only warranties for HP products and services are set forth in the express warranty statements accompanying such products and services. Nothing herein should be construed as constituting an additional warranty. HP shall not be liable for technical or editorial errors or omissions contained herein. </p> 
+     </div> 
+    </div> 
+    <!--Signup modal window--> 
+    <div class="reveal-modal small" id="signup"> 
+     <div class="modal-body"> 
+      <img src="/wcsstore/hpusstore/Treatment/InstaInk_modal-welcome_tcm_245_1682809.jpg"> 
+      <div class="modal-text font-light"> 
+       <h4>Sign up for HP Instant Ink by creating your account</h4> 
+       <p>By clicking ‘Sign up now', you'll be directed to the HP Connected registration page – this is where you'll create your HP Instant Ink account and choose your monthly plan. If you've already chosen your plan and have purchased your enrollment kit, then all you need to do is sign up.</p> 
+       <hr> 
+       <div id="mod-foot"> 
+        <h2>PLUS,</h2> 
+        <p id="neg-marg">Get 1-Month <strong><span id="bigblue" class="font-light" style="font-size: 20px; color: rgb(0, 150, 214); font-weight: normal;">FREE</span></strong> if you act within 7 days<sup>†</sup></p> 
+        <p>Set up your printer &amp; complete sign up at <a href="http://www.hpinstantink.com">hpinstantink.com</a><br> Enter <strong>FREEINK</strong> at checkout (Write this down)</p> 
+        <div class="modal-footer"> 
+         <a target="_blank" href="https://webauth.hpconnected.com/oauth/ui/signUp?state=new_plan&amp;theme=DKTBR&amp;response_type=code&amp;client_id=1127bd7a6e76102d92b012313sicpsf2&amp;redirect_uri=https://instantink.hpconnected.com/users/auth/hp_webauth/callback&amp;jumpID=in_r11549_us_en_hpc_ii2_hpcampaignpage_060514" class="btn btn-msnew btn-red">Sign up now</a> 
+        </div> 
+        <p id="disclaimer" style="font-size:10px; line-height:1em; padding-top:40px;">†Offer valid until 12/31/2015 and requires a promotional code. Must complete HP Instant Ink sign up and enter code at checkout within 7 days of purchasing an enrollment card or adding an eligible printer to an HP Connected account. Code limited to one-time use and applied to a single printer. Offer cannot be redeemed for cash or combined with another offer.Requires online enrollment, valid credit/debit card, email address and Internet connection to printer. Unless service is cancelled within the free month period online at <a href="http://www.hpinstantink.com">hpinstantink.com</a> a monthly service fee of $2.99, $4.99, $9.99, based on the plan chosen, plus tax and overages fees will be charged to card. Customer is responsible for any overage fees, applicable taxes during the free month of service. For service details, see <a href="http://www.instantink.hpconnected.com/terms">instantink.hpconnected.com/terms</a></p> 
+       </div> 
+      </div> 
+     </div> 
+     <a class="close-reveal-modal">×</a> 
+    </div> 
+    <!--Video intro--> 
+    <div class="reveal-modal small" id="video-intro"> 
+     <div class="flex-video"> 
+      <object width="760" height="428" seamlesstabbing="undefined" class="BrightcoveExperience" id="myExperience" data="http://c.brightcove.com/services/viewer/federated_f9?&amp;width=760&amp;height=428&amp;flashID=myExperience&amp;htmlFallback=true&amp;bgcolor=%23FFFFFF&amp;playerID=1200279792001&amp;playerKey=AQ~~%2CAAABDi-Jknk~%2CMQ6DpUeTiFT02TLHLFuOXpbXo3TE3V93&amp;isVid=true&amp;isUI=true&amp;dynamicStreaming=true&amp;%40videoPlayer=ref%3A%7B4E9C6BD2-D451-4932-8A11-B7CE5DB34C18%7D&amp;autoStart=false&amp;debuggerID=&amp;startTime=1421840450437" type="application/x-shockwave-flash"> <param value="always" name="allowScriptAccess"> <param value="true" name="allowFullScreen"> <param value="false" name="seamlessTabbing"> <param value="true" name="swliveconnect"> <param value="window" name="wmode"> <param value="high" name="quality"> <param value="#FFFFFF" name="bgcolor"> </object> 
+     </div> 
+     <a class="close-reveal-modal">×</a> 
+    </div> 
+    <!--video testimonial student--> 
+    <div class="reveal-modal small" id="video-testimonial-student"> 
+     <div class="flex-video"> 
+      <object width="760" height="428" seamlesstabbing="undefined" class="BrightcoveExperience" id="myExperience2" data="http://c.brightcove.com/services/viewer/federated_f9?&amp;width=760&amp;height=428&amp;flashID=myExperience2&amp;htmlFallback=true&amp;bgcolor=%23FFFFFF&amp;playerID=1200279792001&amp;playerKey=AQ~~%2CAAABDi-Jknk~%2CMQ6DpUeTiFT02TLHLFuOXpbXo3TE3V93&amp;isVid=true&amp;isUI=true&amp;dynamicStreaming=true&amp;%40videoPlayer=ref%3AEFDC6ACF-4B4B-41CD-A849-8E8715F52BA4&amp;autoStart=false&amp;debuggerID=&amp;startTime=1421840450439" type="application/x-shockwave-flash"> <param value="always" name="allowScriptAccess"> <param value="true" name="allowFullScreen"> <param value="false" name="seamlessTabbing"> <param value="true" name="swliveconnect"> <param value="window" name="wmode"> <param value="high" name="quality"> <param value="#FFFFFF" name="bgcolor"> </object> 
+     </div> 
+     <a class="close-reveal-modal">×</a> 
+    </div> 
+    <!--video-testimonial-mom--> 
+    <div class="reveal-modal small" id="video-testimonial-mom"> 
+     <div class="flex-video"> 
+      <object width="760" height="428" seamlesstabbing="undefined" class="BrightcoveExperience" id="myExperience1" data="http://c.brightcove.com/services/viewer/federated_f9?&amp;width=760&amp;height=428&amp;flashID=myExperience1&amp;htmlFallback=true&amp;bgcolor=%23FFFFFF&amp;playerID=1200279792001&amp;playerKey=AQ~~%2CAAABDi-Jknk~%2CMQ6DpUeTiFT02TLHLFuOXpbXo3TE3V93&amp;isVid=true&amp;isUI=true&amp;dynamicStreaming=true&amp;%40videoPlayer=ref%3A992D0640-9115-4026-AE36-506D9172E19A&amp;autoStart=false&amp;debuggerID=&amp;startTime=1421840450438" type="application/x-shockwave-flash"> <param value="always" name="allowScriptAccess"> <param value="true" name="allowFullScreen"> <param value="false" name="seamlessTabbing"> <param value="true" name="swliveconnect"> <param value="window" name="wmode"> <param value="high" name="quality"> <param value="#FFFFFF" name="bgcolor"> </object> 
+     </div> 
+     <a class="close-reveal-modal">×</a> 
+    </div> 
+    <!--video-testimonial-Colin--> 
+    <div class="reveal-modal small" id="video-testimonial-Colin"> 
+     <div class="flex-video"> 
+      <object width="760" height="428" seamlesstabbing="undefined" class="BrightcoveExperience" id="myExperience3" data="http://c.brightcove.com/services/viewer/federated_f9?&amp;width=760&amp;height=428&amp;flashID=myExperience3&amp;htmlFallback=true&amp;bgcolor=%23FFFFFF&amp;playerID=1200279792001&amp;playerKey=AQ~~%2CAAABDi-Jknk~%2CMQ6DpUeTiFT02TLHLFuOXpbXo3TE3V93&amp;isVid=true&amp;isUI=true&amp;dynamicStreaming=true&amp;%40videoPlayer=ref%3A342995D4-5575-4E61-8BFA-FA4A0983A391&amp;autoStart=false&amp;debuggerID=&amp;startTime=1426089613890" type="application/x-shockwave-flash"> <param value="always" name="allowScriptAccess"> <param value="true" name="allowFullScreen"> <param value="false" name="seamlessTabbing"> <param value="true" name="swliveconnect"> <param value="window" name="wmode"> <param value="high" name="quality"> <param value="#FFFFFF" name="bgcolor"> </object> 
+     </div> 
+     <a class="close-reveal-modal">×</a> 
+    </div> 
+    <!--Ink-eligible printers--> 
+    <div class="reveal-modal medium no-padding" id="eligible-printers"> 
+     <div style="padding:25px;"> 
+      <h2>HP Instant Ink-eligible printers</h2> 
+      <div> 
+       <div style="line-height:20px; padding:10px 0;">
+         If you don't see your printer listed here, it is not eligible for the HP Instant Ink replacement service. 
+       </div> 
+       <div class="row FloatLeftforbelow"> 
+        <div class="column large-4 medium-6">
+          HP DeskJet 3630 series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP ENVY 4500 Series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP ENVY 4520 series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP ENVY 5530 Series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP ENVY 5540 series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP ENVY 5660 Series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP ENVY 7640 Series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP ENVY 8000 series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP OfficeJet 3830 series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP Officejet 4630 Series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP OfficeJet 4650 series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP Officejet 5740 Series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP Officejet 8040 Series with Neat® 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP Officejet Pro 6830 Series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP Officejet Pro 8610 Series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP Officejet Pro 8620 Series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP Officejet Pro 8630 Series 
+        </div> 
+       </div> 
+       <div style="margin:15px 0;">
+        <a class="learnmore" style="font-size:18px; color:#0096d6;" href="http://store.hp.com/us/en/SearchDisplay?client=&amp;searchTerm=instant+ink+printers&amp;search=%EF%80%A1&amp;beginIndex=0&amp;catalogId=10051&amp;charset=utf-8&amp;langId=-1&amp;pageSize=50&amp;pageView=grid&amp;resultCatEntryType=2&amp;sType=SimpleSearch&amp;searchSource=Q&amp;storeId=10151" target="_blank">Shop eligible printers</a>
+       </div> 
+      </div> 
+     </div> 
+     <a class="close-reveal-modal">×</a> 
+    </div> 
+    <!--Ink-eligible printers2--> 
+    <div class="reveal-modal medium no-padding" id="eligible-printers2"> 
+     <div style="padding:25px;"> 
+      <h2>HP Instant Ink-eligible printers</h2> 
+      <div> 
+       <div style="line-height:20px; padding:10px 0;">
+         If you don't see your printer listed here, it is not eligible for the HP Instant Ink replacement service. 
+       </div> 
+       <div class="row FloatLeftforbelow"> 
+        <div class="column large-4 medium-6">
+          HP DeskJet 3630 series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP ENVY 4500 Series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP ENVY 4520 series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP ENVY 5530 Series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP ENVY 5540 series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP ENVY 5660 Series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP ENVY 7640 Series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP ENVY 8000 series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP OfficeJet 3830 series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP Officejet 4630 Series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP OfficeJet 4650 series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP Officejet 5740 Series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP Officejet 8040 Series with Neat® 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP Officejet Pro 6830 Series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP Officejet Pro 8610 Series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP Officejet Pro 8620 Series 
+        </div> 
+        <div class="column large-4 medium-6">
+          HP Officejet Pro 8630 Series 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <a class="close-reveal-modal">×</a> 
+    </div> 
+   </div> 
+   <!--fv5 end--> 
+   <style>
+	.newFootLinks{max-width:1000px; margin:auto; color:#767676;}
+	.newFootLinks a{color:#767676; font-size:14px}
+	.newFootLinks a:hover{color:#2795B6}
+	.newFootLinks span{display:inline-block; padding:0 10px;}
+</style> 
+   <div class="newFootLinks"> 
+    <a href="/us/en/cat/Laptops">Laptops</a> 
+    <span>|</span> 
+    <a href="/us/en/cat/desktops">Destops</a> 
+    <span>|</span> 
+    <a href="/us/en/cat/printers">Printers</a> 
+   </div> 
+   <!-- END ContentRecommendation/ContentRecommendation.jsp --> 
+  </div> 
+  <div id="contentViewError" style="display:none">
+   /us/en/CustomErrorView?catalogId=10051&amp;langId=-1&amp;storeId=10151
+  </div> 
+  <!-- BEGIN Footer/Footer.jsp --> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/vendor/jquery.validate.min.js"></script> 
+  <!-- http://www8.hp.com/caas/header-footer/us/en/default/4.0.r/footer?contentType=html -->
+  <!--BEGIN My shopping links section--> 
+  <div class=""> 
+   <div id="shoppinglinks_support" class="row"> 
+    <hr> 
+    <section id="myShoppingLinks" class=""> 
+     <div class="large-12"> 
+      <span class="list_title"><strong>My shopping links</strong></span> 
+      <ul> 
+       <li><a href="/us/en/MyOrdersLanding?catalogId=10051&amp;langId=-1&amp;storeId=10151">Order status</a></li> 
+       <li><a href="/us/en/ManageSubscription?orderStatusStyle=strong&amp;catalogId=10051&amp;langId=-1&amp;storeId=10151">Manage subscriptions</a></li> 
+       <li><a href="/us/en/MyAccountFormView?catalogId=10051&amp;langId=-1&amp;storeId=10151">My account</a></li> 
+       <li class="last_link"><a href="/us/en/ContentView?eSpotName=ReturnsandExchanges&amp;catalogId=10051&amp;langId=-1&amp;storeId=10151">Returns &amp; Exchanges</a></li> 
+      </ul> 
+     </div> 
+    </section> 
+    <section id="lp_chat" class="lp_chat"> 
+     <img src="/wcsstore/HPStorefrontAssetStore/img/lpchat.png"> 
+     <h2>Need help?</h2> 
+     <a id="live_help_dd" href="javascript:void(0)" class="live_help_dd downDisclosure">Contact us now</a> 
+     <ul id="live_help_list" class="live_help_list"> 
+      <li><a id="lp_link" href="javascript:void(0)" rel="live_chat_closed.html">Chat with a sales rep</a></li> 
+      <li><a id="lh_call" href="javascript:void(0)">Request a call</a></li> 
+      <li><a href="/us/en/SendEmailView?catalogId=10051&amp;langId=-1&amp;storeId=10151">Send us an email</a></li> 
+     </ul> 
+    </section> 
+   </div> 
+  </div> 
+  <!--END My shopping links section-->
+  <!--BEGIN Stay connected section-->
+  <!-- BEGIN ContentRecommendation.jsp -->
+  <!-- BEGIN ESpotTitle_Data.jspf -->
+  <!-- END ESpotTitle_Data.jspf -->
+  <!-- END ContentRecommendation.jsp -->
+  <!--END stay connected section-->
+  <!--BEGIN CategoryDisclaimer section-->
+  <!-- categoryCopyBlock_ -->
+  <!--END CategoryDisclaimer section-->
+  <!--BEGIN Disclaimer section-->
+  <!-- InstanceBeginEditable name="Disclaimer" --> 
+  <div class="row"> 
+   <div class="disclaimer_section"> 
+    <div class="large-12 columns"> 
+     <!-- BEGIN ContentRecommendation/ContentRecommendation.jsp -->
+     <!-- BEGIN ESpotTitle_Data.jspf -->
+     <!-- END ESpotTitle_Data.jspf -->
+     <!-- BEGIN ESpotTitle_UI.jspf -->
+     <!-- END ESpotTitle_UI.jspf -->
+     <style type="text/css">.disclaimer_section{padding:0}.disclaimer_section .disclaimer-toggle{position:relative}.disclaimer_section .disclaimer-toggle:after{content:"";display:block;background-color:#e8e8e8;padding:0;position:absolute;width:1000%;height:100%;left:-100%;top:0;z-index:0}.disclaimer_section .disclaimer-content,.disclaimer_section .disclaimer-header{position:relative;z-index:1}.disclaimer_section .disclaimer-header{text-align:right;padding:20px 30px 22px}.disclaimer_section .disclaimer-header .title,.disclaimer_section .disclaimer-header .title:visited{font-size:18px;line-height:1.25;text-decoration:none;color:#767676;cursor:pointer}.disclaimer_section .disclaimer-header .title:before{content:"+";width:28px;height:28px;margin-right:8px;text-align:center;color:#0096d6;font-size:18px;font-weight:700}.disclaimer_section.active .disclaimer-header .title:before{content:"-"}.disclaimer_section .disclaimer-content{-webkit-transition:all .5s;-moz-transition:all .5s;-ms-transition:all .5s;-o-transition:all .5s;transition:all .5s;-webkit-transition-property:max-height,border-width;-moz-transition-property:max-height,border-width;-ms-transition-property:max-height,border-width;-o-transition-property:max-height,border-width;transition-property:max-height,border-width;overflow:hidden;max-height:0;border-top:0 solid #ccc}.disclaimer_section.active .disclaimer-content{max-height:6000px;border-top:2px solid #ccc;padding:20px 30px 30px}.disclaimer_section .disclaimer-content p{padding-bottom: 16px}</style> 
+     <div class="disclaimer-toggle" id="disclaimerToggle"> 
+      <div class="disclaimer-header">
+       <span class="title" onclick="$(this).closest('.disclaimer_section').toggleClass('active');">Disclaimer</span>
+      </div> 
+      <div class="disclaimer-content"> 
+       <p>Prices, specifications, availability and terms of offers may change without notice. Price protection, price matching or price guarantees do not apply to Intra-day, Daily Deals or limited-time promotions. Quantity limits may apply to orders, including orders for discounted and promotional items. Despite our best efforts, a small number of items may contain pricing, typography, or photography errors. Correct prices and promotions are validated at the time your order is placed. These terms apply only to products sold by HP.com; reseller offers may vary. Items sold by HP.com are not for immediate resale. Orders that do not comply with HP.com terms, conditions, and limitations may be cancelled. Contract and volume customers not eligible.</p> 
+       <p>HP’s MSRP is subject to discount. HP’s MSRP price is shown as either a stand-alone price or as a strike-through price with a discounted or promotional price also listed. Discounted or promotional pricing is indicated by the presence of an additional higher MSRP strike-through price.</p> 
+       <p>The following applies to HP systems with Intel 6th Gen and other future-generation processors on systems shipping with Windows 7, Windows 8, Windows 8.1 or Windows 10 Pro systems downgraded to Windows 7 Professional, Windows 8 Pro, or Windows 8.1: This version of Windows running with the processor or chipsets used in this system has limited support from Microsoft. For more information about Microsoft’s support, please see Microsoft’s Support Lifecycle FAQ at https://support.microsoft.com/lifecycle</p> 
+       <p>Ultrabook, Celeron, Celeron Inside, Core Inside, Intel, Intel Logo, Intel Atom, Intel Atom Inside, Intel Core, Intel Inside, Intel Inside Logo, Intel vPro, Itanium, Itanium Inside, Pentium, Pentium Inside, vPro Inside, Xeon, Xeon Phi, and Xeon Inside are trademarks of Intel Corporation in the U.S. and/or other countries.</p> 
+       <p>In-home warranty is available only on select customizable HP desktop PCs. Need for in-home service is determined by HP support representative. Customer may be required to run system self-test programs or correct reported faults by following advice given over phone. On-site services provided only if issue can't be corrected remotely. Service not available holidays and weekends.</p> 
+       <p>HP will transfer your name and address information, IP address, products ordered and associated costs and other personal information related to processing your application to Bill Me Later®. Bill Me Later will use that data under its privacy policy.</p> 
+       <p>Ultrabook, Celeron, Celeron Inside, Core Inside, Intel, Intel Logo, Intel Atom, Intel Atom Inside, Intel Core, Intel Inside, Intel Inside Logo, Intel vPro, Itanium, Itanium Inside, Pentium, Pentium Inside, vPro Inside, Xeon, Xeon Phi, and Xeon Inside are trademarks of Intel Corporation in the U.S. and/or other countries.</p> 
+       <p>Microsoft Windows 10: Not all features are available in all editions or versions of Windows 10. Systems may require upgraded and/or separately purchased hardware, drivers, software or BIOS update to take full advantage of Windows 10 functionality. Windows 10 is automatically updated, which is always enabled. ISP fees may apply and additional requirements may apply over time for updates. See http://www.microsoft.com.</p> 
+      </div> 
+     </div>
+     <!-- END ContentRecommendation/ContentRecommendation.jsp --> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- InstanceEndEditable -->
+  <!--END Disclaimer section--> 
+  <section id="matrix" class="live_help_overlay pop_cnt overlay_popup"> 
+   <!--check_balance_overlay pop_cnt overlay_popup--> 
+   <a class="btnClose js_pop_close" href="javascript:void(0);"></a> 
+   <iframe frameborder="0" class="live_help_matrix" src="" scrolling="no" onload="resizeIframe(this)"></iframe> 
+  </section> 
+  <div id="footer" class="footer"> 
+   <!-- Start CAAS Footer : true -->
+   <div class="footer_lang_container">
+    <a name="skiptofooter" tabindex="-1"><span class="screenReading">End of content</span></a>
+    <div class="footer_lang_section hf_clf">
+     <div class="cs-container ">
+      <div class="js_cselector cselector_wrapper">
+       <a class="js_cselector_trigger cselector" rel="js_cselector_target" href="javascript:void(0);" tabindex="901" title="Country / Region Selector"><span class="screenReading js_screen_reading">&nbsp;</span><span class="flag">&nbsp;</span><span class="selectedCountry"><span class="screenReading">&nbsp;</span>United States</span></a>
+       <div class="worldmap_wrapper">
+        <div id="cs_spooler" class="js_spooler wait_class " rel="">
+         <div>
+          &nbsp;
+         </div>
+        </div>
+        <div class="world_map js_cselector_target">
+         <h4 class="screenReading">HP Worldwide</h4>
+         <div class="js_worldmap_wrapper">
+          &nbsp;
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="footer_container">
+    <div class="site_links column_5"> 
+     <div class="site_links_container fstchild  ">
+      <a tabindex="906" class="js_site_links_trigger ul_site_link_header" href="javascript:void(0);"><span class="accordion-header">About us</span><span class="accordion-icn">&nbsp;</span></a>
+      <ul class="ul_site_links js_site_links_target">
+       <li class="first_li"><a name="2082817" tabindex="906" target="_blank" class="link_metrics" href="http://www8.hp.com/us/en/hp-information/index.html">About us</a><span><a name="2082817" tabindex="906" target="_blank" class="link_metrics" href="http://www8.hp.com/us/en/hp-information/index.html">About us</a></span></li>
+       <li><a name="2082822" tabindex="906" target="_blank" class="link_metrics" href="http://www8.hp.com/us/en/contact-hp/contact.html">Contact HP</a></li>
+       <li><a name="2082818" tabindex="906" target="_blank" class="link_metrics" href="http://www8.hp.com/us/en/jobs/index.html">Careers</a></li>
+       <li><a name="2082819" tabindex="906" target="_blank" class="link_metrics" href="http://h30261.www3.hp.com/">Investor relations</a></li>
+       <li><a name="2117727" tabindex="906" target="_blank" class="link_metrics" href="http://www8.hp.com/us/en/hp-information/global-citizenship/index.html">Sustainability</a></li>
+       <li><a name="2082821" tabindex="906" target="_blank" class="link_metrics" href="http://www8.hp.com/us/en/hp-news/newsroom.html">Newsroom</a></li>
+       <li class="lstchild"><a name="2082323" tabindex="906" target="_blank" class="link_metrics" href="http://www8.hp.com/us/en/hp-information/accessibility-aging/index.html">Accessibility</a></li>
+      </ul>
+     </div> 
+     <div class="site_links_container   ">
+      <a tabindex="906" class="js_site_links_trigger ul_site_link_header" href="javascript:void(0);"><span class="accordion-header">Ways to buy</span><span class="accordion-icn">&nbsp;</span></a>
+      <ul class="ul_site_links js_site_links_target">
+       <li class="first_li"><span class="column_no_link"><span>Ways to buy</span></span></li>
+       <li><a name="2129060" tabindex="906" class="link_metrics" href="http://store.hp.com">Shop online</a></li>
+       <li><a name="2082335" tabindex="906" target="_blank" class="link_metrics" href="http://www8.hp.com/us/en/store-finder/index.do">Store locator</a></li>
+       <li><a name="2082334" tabindex="906" target="_blank" class="link_metrics" href="http://www8.hp.com/us/en/contact-hp/shopping.html">Call an HP rep</a></li>
+       <li><a name="2082333" tabindex="906" target="_blank" class="link_metrics" href="http://www8.hp.com/us/en/store-finder/find.do?bs=SR2&amp;type=reseller">Find a reseller</a></li>
+       <li><a name="2129062" tabindex="906" class="link_metrics" href="http://www8.hp.com/us/en/hp-information/business-site/index.html">Enterprise store</a></li>
+       <li class="lstchild"><a name="2129061" tabindex="906" class="link_metrics" href="https://government.hp.com/index.aspx">Public sector purchasing</a></li>
+      </ul>
+     </div> 
+     <div class="site_links_container   ">
+      <a tabindex="906" class="js_site_links_trigger ul_site_link_header" href="javascript:void(0);"><span class="accordion-header">Support</span><span class="accordion-icn">&nbsp;</span></a>
+      <ul class="ul_site_links js_site_links_target">
+       <li class="first_li"><a name="2082839" tabindex="906" target="_blank" class="link_metrics" href="http://support.hp.com/us-en/">Support</a><span><a name="2082839" tabindex="906" target="_blank" class="link_metrics" href="http://support.hp.com/us-en/">Support</a></span></li>
+       <li><a name="2082842" tabindex="906" class="link_metrics" href="http://support.hp.com/us-en/drivers">Download drivers</a></li>
+       <li><a name="2082849" tabindex="906" class="link_metrics" href="http://support.hp.com/us-en/">Support &amp; troubleshooting</a></li>
+       <li><a name="2157591" tabindex="906" target="_blank" class="link_metrics" href="http://h30434.www3.hp.com">Forums</a></li>
+       <li><a name="2082845" tabindex="906" class="link_metrics" href="https://register.hp.com/americas/flowPage/registration/index.do?execution=e1s1&amp;cc=us&amp;lang=en">Register your product</a></li>
+       <li><a name="2082848" tabindex="906" class="link_metrics" href="http://h20565.www2.hp.com/portal/site/hpsc/public/scm/home/">Manage commercial support cases</a></li>
+       <li><a name="2082840" tabindex="906" class="link_metrics" href="http://www8.hp.com/us/en/store-finder/find.do?bs=SR4&amp;type=authorized">Authorized service providers</a></li>
+       <li><a name="2082841" tabindex="906" target="_blank" class="link_metrics" href="https://gncpgslbpro1.houston.hp.com/Cso_Status/CsoStatus.aspx?lc=en&amp;cc=us">Check repair status</a></li>
+       <li class="lstchild"><a name="2122299" tabindex="906" target="_blank" class="link_metrics" href="https://hpsalescentral.com/#/training/training">Training &amp; certification</a></li>
+      </ul>
+     </div> 
+     <div class="site_links_container   ">
+      <a tabindex="906" class="js_site_links_trigger ul_site_link_header" href="javascript:void(0);"><span class="accordion-header">HP Partners</span><span class="accordion-icn">&nbsp;</span></a>
+      <ul class="ul_site_links js_site_links_target">
+       <li class="first_li"><span class="column_no_link"><span>HP Partners</span></span></li>
+       <li><a name="2110467" tabindex="906" class="link_metrics" href="http://www8.hp.com/us/en/hp-information/hp-partner-first/overview.html">HP Partner First program</a></li>
+       <li><a name="2122304" tabindex="906" target="_blank" class="link_metrics" href="https://partner.hp.com/login">HP Partner First Portal</a></li>
+       <li class="lstchild"><a name="2336240" tabindex="906" target="_blank" class="link_metrics" href="https://developers.hp.com/">Developers</a></li>
+      </ul>
+     </div> 
+     <div class="site_links_container  lstchild email_signup">
+      <a tabindex="906" class="js_site_links_trigger ul_site_link_header" href="javascript:void(0);"><span class="accordion-header">Stay connected</span><span class="accordion-icn">&nbsp;</span></a>
+      <ul class="ul_site_links js_site_links_target">
+       <li class="first_li lstchild"><span class="column_no_link"><span>Stay connected</span></span></li>
+       <li class=" last">
+        <ul class="ul_media_links">
+         <li class="first_li  Facebook"><a name="557110" tabindex="906" target="_blank" class="icn_fcb" data-label="HP on Facebook" href="http://www.facebook.com/HP"></a></li>
+         <li class="LinkedIn"><a name="2086338" tabindex="906" target="_blank" class="icn_sm_lkn" data-label="LinkedIn HP" href="https://www.linkedin.com/company/hp"></a></li>
+         <li class="Twitter"><a name="557112" tabindex="906" target="_blank" class="icn_twt" data-label="HP on Twitter" href="https://twitter.com/HP"></a></li>
+         <li class="lstchild YouTube"><a name="798961" tabindex="906" target="_blank" class="icn_ytb" data-label="HP YouTube" href="http://www.youtube.com/hp"></a></li>
+        </ul></li> 
+      </ul>
+      <a tabindex="906" class="js_site_links_trigger ul_site_link_header" href="javascript:void(0);"><span class="accordion-header">Sign up for news &amp; offers</span><span class="accordion-icn">&nbsp;</span></a>
+      <ul class="ul_site_links js_site_links_target site_links_subitems signup_submit">
+       <li class="first_li lstchild H/F - Email Signup"><label for="footer_email_input">Sign up for news &amp; offers</label><input id="footer_email_input" type="email" title="Email address" tabindex="906" placeholder="Email address"><a name="2082835" id="footer_email_submit" href="https://h41369.www4.hp.com/subhub.php?country=US&amp;language=US&amp;jumpid=gh_2082835" tabindex="906" class="footer_btn">Submit</a></li>
+      </ul> 
+     </div> 
+    </div>
+    <div class="footer_legal_block">
+     <ul class="privacy_links">
+      <li class="first_li"><a name="2082312" tabindex="910" class="link_metrics" href="http://www8.hp.com/us/en/hp-information/recalls.html">Recalls</a><span class="hf_separ">|</span></li>
+      <li><a name="2117732" tabindex="910" class="link_metrics" href="http://www8.hp.com/us/en/hp-information/environment/product-recycling.html">Product recycling</a><span class="hf_separ">|</span></li>
+      <li><a name="2253421" tabindex="910" class="link_metrics" href="http://www8.hp.com/us/en/hp-information/global-citizenship/society/california-transparency-in-supply-chains-act-of-2010.html">CA Supply Chains Act</a><span class="hf_separ">|</span></li>
+      <li><a name="2082313" tabindex="910" class="link_metrics" href="http://www8.hp.com/us/en/sitemap.html">Site map</a><span class="hf_separ">|</span></li>
+      <li><a name="2082311" tabindex="910" class="link_metrics" href="http://www8.hp.com/us/en/privacy/privacy.html">Privacy</a><span class="hf_separ">|</span></li>
+      <li><a name="2082315" tabindex="910" class="link_metrics" href="http://www8.hp.com/us/en/terms-of-use.html">Terms of Use</a><span class="hf_separ">|</span></li>
+      <li><a name="2082308" tabindex="910" class="link_metrics" href="http://www8.hp.com/us/en/privacy/privacy.html#hptpw">Cookies &amp; ad choices</a><span class="hf_separ">|</span></li>
+      <li><a name="2082310" tabindex="910" class="link_metrics" href="http://www8.hp.com/us/en/privacy/limited_warranty.html">Limited warranty statement</a><span class="hf_separ">|</span></li>
+      <li class="lstchild"><a name="2082314" tabindex="910" class="link_metrics" href="http://store.hp.com/us/en/ContentView?eSpotName=TermsAndConditions&amp;catalogId=10051&amp;langId=-1&amp;storeId=10151&amp;jumpid=re_r11662_redirect_ETR&amp;ts=20151012014516_LIymYBM9Ho1W">Terms &amp; conditions of sales &amp; service</a></li>
+     </ul>
+     <div class="hf_bottom_links">
+      <p class="copyright">© Copyright 2016 HP Development Company, L.P.</p>
+      <p class="mobile_view"></p>
+     </div>
+    </div>
+   </div>
+   <!--Data Published 10/06/2016 04:17:20 PM, Template Published: UNKNOWN-->
+   <!-- End CAAS Footer --> 
+  </div> 
+  <div id="callCenterDialog" class="reveal-modal" style="display:none;"> 
+   <p id="message"></p> 
+   <a class="close-reveal-modal" onclick="javascript:$('#callCenterDialog').foundation('reveal','close');">×</a> 
+  </div>
+  <!-- begin usabilla live embed code --> 
+  <script type="text/javascript">
+		/*{literal}<![CDATA[*/window.lightningjs||function(c){function g(b,d){d&&(d+=(/\?/.test(d)?"&":"?")+"lv=1");c[b]||function(){var i=window,h=document,j=b,g=h.location.protocol,l="load",k=0;(function(){function b(){a.P(l);a.w=1;c[j]("_load")}c[j]=function(){function m(){m.id=e;return c[j].apply(m,arguments)}var b,e=++k;b=this&&this!=i?this.id||0:0;(a.s=a.s||[]).push([e,b,arguments]);m.then=function(b,c,h){var d=a.fh[e]=a.fh[e]||[],j=a.eh[e]=a.eh[e]||[],f=a.ph[e]=a.ph[e]||[];b&&d.push(b);c&&j.push(c);h&&f.push(h);return m};return m};var a=c[j]._={};a.fh={};a.eh={};a.ph={};a.l=d?d.replace(/^\/\//,(g=="https:"?g:"http:")+"//"):d;a.p={0:+new Date};a.P=function(b){a.p[b]=new Date-a.p[0]};a.w&&b();i.addEventListener?i.addEventListener(l,b,!1):i.attachEvent("on"+l,b);var q=function(){function b(){return["<head></head><",c,' onload="var d=',n,";d.getElementsByTagName('head')[0].",d,"(d.",g,"('script')).",i,"='",a.l,"'\"></",c,">"].join("")}var c="body",e=h[c];if(!e)return setTimeout(q,100);a.P(1);var d="appendChild",g="createElement",i="src",k=h[g]("div"),l=k[d](h[g]("div")),f=h[g]("iframe"),n="document",p;k.style.display="none";e.insertBefore(k,e.firstChild).id=o+"-"+j;f.frameBorder="0";f.id=o+"-frame-"+j;/MSIE[ ]+6/.test(navigator.userAgent)&&(f[i]="javascript:false");f.allowTransparency="true";l[d](f);try{f.contentWindow[n].open()}catch(s){a.domain=h.domain,p="javascript:var d="+n+".open();d.domain='"+h.domain+"';",f[i]=p+"void(0);"}try{var r=f.contentWindow[n];r.write(b());r.close()}catch(t){f[i]=p+'d.write("'+b().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};a.l&&setTimeout(q,0)})()}();c[b].lv="1";return c[b]}var o="lightningjs",k=window[o]=g(o);k.require=g;k.modules=c}({}); window.usabilla_live = lightningjs.require("usabilla_live", "//w.usabilla.com/0ef6e6f5c58b.js"); /*]]>{/literal}*/
+	</script> 
+  <!-- end usabilla live embed code --> 
+  <script type="text/javascript">
+	
+	var chatUrl = 'https://h30665.www3.hp.com/netagent/cimlogin.aspx?questid=246C34C5-5B3F-42D0-9EEC-D51634B0EE3F&portid=942E5E82-25F9-4DFD-9A71-537876996383';
+	var callUrl = 'https://h30665.www3.hp.com/netagent/cimlogin.aspx?questid=A54BA411-122B-4D0B-8B15-26E72DE88844&portid=21844431-8DFC-4978-B17E-AA1D3636C748';
+		
+
+	$('#lp_link').click(function(event) {
+    	openHelpWindow(chatUrl);
+    });
+    
+    $('#lh_call').click(function(event) {
+    	openHelpWindow(callUrl);
+    });
+	
+	var talCustProp = '';
+	$(document).ready(function() {
+		talCustProp = getHelpParams('#:Prop!');
+	});
+	
+	function openHelpWindow(helpUrl) {
+		helpUrl += getHelpParams('&') + '&nareferer=' + escape(document.location);
+		window.open(helpUrl, "popupWindow", "width=625,height=750,scrollbars=yes");
+	}
+
+	function getHelpParams(delimiter) {
+		var params = '';
+		var cartOrderId = $.cookie('WC_CartOrderId_10151');
+		if ($.trim(cartOrderId)){
+			var cartCookie = $.cookie('WC_CartTotal_' + cartOrderId);
+			var content = cartCookie  ? cartCookie.split(/;/) : new Array();
+			if(content.length > 1) {
+				params += delimiter + 'CartTotal=' + content[1];
+			}
+		}
+		return params;
+	}
+
+	function setCookieviewTopSellers(pLabel, pVal, pMinutes) {
+		var tExpDate = new Date();
+		tExpDate.setTime(tExpDate.getTime() + (pMinutes*60*1000));
+		document.cookie = pLabel + "=" + pVal + ((pMinutes == null) ? "" : ";expires=" + tExpDate.toGMTString()) + ";domain=.hp.com; path=/";
+	}
+	
+	function getParameterByName(name) {
+	    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+	    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+	        results = regex.exec(location.search);
+	    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+	}
+
+	window.SCREENREADING_LABELS = {
+        'open_menu_prefix': "Open ",
+        'open_menu_suffix': " Menu",
+        'close_menu_prefix': "Close ",
+        'close_menu_suffix': " Menu",
+
+        'opened_state_menu_prefix': "Menu ",
+        'opened_state_menu_suffix': " is opened",
+        'closed_state_menu_prefix': "Menu ",
+        'closed_state_menu_suffix': " is closed",
+
+        'opened_state_submenu_suffix': "Press Right Arrow or Space to open",
+        'selected_country_state': "Selected",
+
+        'open_popup_prefix': "Open ",
+        'open_popup_suffix': " Dialog",
+        'close_popup_prefix': "Close ",
+        'close_popup_suffix': " Dialog",
+
+        "expand_prefix": "Expand ",
+        "expand_suffix": "list",
+        "collapse_prefix": "Collapse",
+        "collapse_suffix": "list",
+        "search_box_suggestion_title": "Use arrow keys to select a search suggestion"
+    };
+    
+	
+		HP.hfInit({
+		    countrySelectorURL: "http://www8.hp.com/caas/header-footer/us/en/default/3.2.r/footer/country-selector?contentType=jsonp",
+		    countryCode:  "us",
+		    languageCode: "en",
+		    imageGridTopMenu:false,
+		    
+	        autocompleteParams: [
+	        {
+	            "type": "hho-store",
+	            "title": "HP Store",
+	            "inProgressHTML": "Searching HP Store ...",
+	            "noResultsHTML": "Searching HP Store ...",
+	            "count": 5,
+	            "actionURL": "/us/en//SearchDisplay?storeId=10151&catalogId=10051&langId=-1&searchTerm=@@term@@&beginIndex=0&pageSize=50&pageView=grid&resultCatEntryType=2&sType=SimpleSearch&searchSource=Q",
+	            "url": "/us/en//SearchComponentAutoSuggestView?coreName=MC_10001_CatalogEntry_en_US&serverURL=/us/en//solr\/MC_10001_CatalogEntry_en_US&langId=-1&storeId=10151&catalogId=10051&showHeader=true&lang=en",
+	            "callbackParam": "cbf",
+	            "defaultCookieValue": true
+	        },
+	        {
+	            "autocompleteSSRequest":true,
+	            "autocompleteVersion":"2",
+	            "type": "iap-fast",
+	            "title": "All of HP.com",
+	            "inProgressHTML": "Searching HP.com...",
+	            "noResultsHTML": "Did not find what you were looking for?\n<br xmlns=\"http:\/\/www.w3.org\/1999\/xhtml\" \/>\nClick <a href=\"http:\/\/www8.hp.com\/@@country_code@@\/@@language_code@@\/hp-search\/search-results.html?qt=@@term@@&amp;client=@@client@@&amp;search_context=@@search_context@@\" xmlns=\"http:\/\/www.w3.org\/1999\/xhtml\">here for more results<\/a>",
+	            "count": 5,
+	            "actionURL": "\/\/www8.hp.com\/us\/en\/hp-search\/search-results.html?search_context=@@search_context@@&client=@@client@@&qt=@@term@@",
+	            "url": "\/\/iapproltautocm.austin.hp.com\/hp-iap-autocomplete\/search?companyCode=HPI",
+	            "callbackParam": "cb"
+	        }]
+	    });
+	
+
+	//start reactive chat
+	var chatFlag = '';
+	var phoneFlag = '';
+	var emailFlag = '';
+	var livehelpFlag = '';
+	var contactusFlag = '';
+	
+	function removeChatLinks() {
+		//first check for livehelp & contactus
+		//if contactus is there then check for  li links
+		if (typeof MoxieCategoryContent !== 'undefined') {
+			var moxieChat = MoxieCategoryContent.substring((MoxieCategoryContent.indexOf(':') + 1), MoxieCategoryContent.length);
+			var  chatValues = moxieChat.split(',');
+			for (x in chatValues) {
+				var kv = chatValues[x].split('=');
+				if (kv[0].trim() === 'chat'.trim()) {
+					chatFlag = kv[1].trim();
+				} else if (kv[0].trim() === 'email'.trim()) {
+					emailFlag = kv[1].trim();
+				} else if (kv[0].trim() === 'phone'.trim()) {
+					phoneFlag = kv[1].trim();
+				} else if (kv[0].trim() === 'livehelp'.trim()) {
+					livehelpFlag = kv[1].trim();
+				} else if (kv[0].trim() === 'contactus'.trim()) {
+					contactusFlag = kv[1].trim();
+				}
+			}
+			// if chat, call & email are 0 remove livehelp & contact us
+			if ((chatFlag !== 'undefined' && chatFlag === '0') && (phoneFlag !== 'undefined' && phoneFlag === '0') && (emailFlag !== 'undefined' && emailFlag === '0')) {
+				contactusFlag = '0';
+				livehelpFlag = '0';
+			}
+		}
+	}
+
+	function moxieChatLinks() {
+		try {
+			if (livehelpFlag !== 'undefined' && livehelpFlag === '0') {
+				if ($('nav .topmenu ul.right li a.js_overlay_trigger').parent().length > 0) {
+					$('nav .topmenu ul.right li a.js_overlay_trigger').parent()[0].remove();
+				}
+			}
+			if (contactusFlag !== 'undefined' && contactusFlag === '0') {
+				if ($('#lp_chat').length > 0) {
+					$('#lp_chat').remove();
+				}
+			} else if (contactusFlag !== 'undefined' && contactusFlag === '1') {
+				if (phoneFlag !== 'undefined' && phoneFlag === '0') {
+					$('ul.live_help_list li a#lh_call').parent().remove();
+				}
+				if (chatFlag !== 'undefined' && chatFlag === '0') {
+					$('ul.live_help_list li a#lp_link').parent().remove();
+				}
+				if (emailFlag !== 'undefined' && emailFlag === '0') {
+					$('ul.live_help_list li:last').remove();
+				}
+			}
+		} catch (e) {}
+	}
+
+	var liveHelpURL = '/us/en/LiveHelpView?storeId=10151&langId=-1&catalogId10051';
+	var searchDisplayUrl = '/us/en/SearchDisplay';
+	
+	$(document).ready( function() {
+		liveHelpURL = liveHelpURL + '&pagelevel=' + pagelevel;
+		if (typeof picturefill == 'function') {
+			picturefill();
+		}
+		var initData = {
+			urls: {
+				jsPath  : '/wcsstore/HPStorefrontAssetStore/js/',
+				cssPath : '/wcsstore/HPStorefrontAssetStore/css/',
+				svcUrl  : getAbsoluteURL() + 'HPServices',
+				pdpUrl  : getAbsoluteURL() + 'PDPStdView',
+				viewCartUrl	: getAbsoluteURL() + 'OrderCalculate?storeId=10151&catalogId=10051&langId=-1&calculationUsageId=-1&URL=AjaxOrderItemDisplayView'
+			},
+			params: {
+				langId	: '-1',
+				storeId	: '10151',
+				userType  : 'G',
+				catalogId : '10051',
+				categoryId : $('#headerCategoryId').val(),
+				currencySymbol : '$',
+				dealsRedirect : getParameterByName('dl')
+			}
+		};
+						
+		$('form#searchHP').attr('action',searchDisplayUrl);
+		$('form#searchHP input#searchBox').attr('name','searchTerm');
+		$('form#searchHP').append('<input type="hidden" name="storeId" value="10151" />');
+		$('form#searchHP').append('<input type="hidden" name="catalogId" value="10051" />');
+		$('form#searchHP').append('<input type="hidden" name="langId" value="-1" />');
+		$('form#searchHP').append('<input type="hidden" name="beginIndex" value="0" />');
+		$('form#searchHP').append('<input type="hidden" name="pageSize" value="50" />');
+
+		$('ul#nav_buttons li.js_shopping_widget.nav_button').attr('data-uitype','minicart-icon');
+		$('ul#nav_buttons li.js_shopping_widget.nav_button a#shop_widget').attr('data-uitype','minicart-activator');
+		$('ul#nav_buttons li.js_shopping_widget.nav_button span.item_count').attr('id','minicart-itemcount');
+		$('ul#nav_buttons li.js_shopping_widget.nav_button div.shop_widget').attr('id','minicart-container').removeClass('shop_widget').addClass('minicart-container');		
+		$('ul#nav_buttons li.js_shopping_widget.nav_button div.shopping_container div.widget_content').attr('id','minicart-contents');
+		$.hpsfData.init(initData);
+		$.hpsfUI.init(initData);
+		
+		removeChatLinks();
+	});
+	function removeStoreCallCenterCookie()
+	{
+		document.cookie = "storeCallCenterCheck=false; expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=.hp.com;path=/";
+	}
+</script> 
+  <!-- END Footer/Footer.jsp -->
+  <!-- BEGIN CommonJSToInclude.jspf -->
+  <!--  script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/js/omniture/hpUtil.min.js"></script --> 
+  <!-- Foundation 3 for IE 8 and earlier -->
+  <!--[if lt IE 9]>
+			<script src="/wcsstore/HPStorefrontAssetStore/js/foundation3/foundation.min.js"></script>
+			<script src="/wcsstore/HPStorefrontAssetStore/js/foundation3/app.js"></script>
+		<![endif]--> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/commonjspartone.js"></script> 
+  <!--[if lt IE 9]>
+			<script src="/wcsstore/HPStorefrontAssetStore/js/vendor/jquery.corner.js"></script>
+			<script src="/wcsstore/HPStorefrontAssetStore/js/foundation3/jquery.foundation.forms.js"></script>
+			<script src="/wcsstore/HPStorefrontAssetStore/js/IE8.js"></script>
+		<![endif]--> 
+  <!-- @Note: use this version for production deployment  
+<script src="/wcsstore/HPStorefrontAssetStore/js/vendor/hammer.min.js"></script>
+--> 
+  <script>
+	$(document).foundation();
+</script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/commonjsparttwo.js"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/hpsf/lib/jquery.jsonp-2.1.4.js"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/hpsf/lib/jquery.timers-1.2.js"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/hpsf/hpsf-all.min.js"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/jquery.dotdotdot.min.js?v=11590"></script> 
+  <script type="text/javascript" charset="UTF-8" src="/wcsstore/dojo18/dojo/dojo.js" djconfig="parseOnLoad: true, isDebug: false,  modulePaths: {storetext: '/wcsstore/HPStorefrontAssetStore/'}, useCommentedJson: true,locale: 'en-us' "></script> 
+  <script type="text/javascript" charset="UTF-8" src="/wcsstore/dojo18/dojo/dojodesktop.js" djconfig="parseOnLoad: true, isDebug: false,  modulePaths: {storetext: '/wcsstore/HPStorefrontAssetStore/'}, useCommentedJson: true,locale: 'en-us' "></script> 
+  <script>
+	dojo.require("wc.service.common");
+	dojo.require("dojo.number");
+	dojo.require("dijit.Dialog");
+</script> 
+  <script type="text/javascript">
+	// Convert the WCParam object which contains request properties into javascript object
+	var WCParamJS = {
+		'storeId': '10151',
+		'catalogId': '10051',
+		'langId': '-1',
+		'pageView': '',
+		'orderBy': '',
+		'orderByContent': '',
+		'CurrencySymbolToFormat': '$',
+		'searchTerm': ''
+	};
+	var absoluteURL = '/webapp/wcs/stores/servlet/';
+	var ctoURL = '/us/en/ConfigureView?catalogId=10051&urlLangId=&langId=-1&storeId=10151';	
+	var imageDirectoryPath = '/wcsstore/HPStorefrontAssetStore/';
+	var styleDirectoryPath = 'images/colors/color1/';
+	var supportPaymentTypePromotions = false;
+	var subsFulfillmentFrequencyAttrName = 'fulfillmentFrequency';
+	var subsPaymentFrequencyAttrName = 'paymentFrequency';
+	var subsTimePeriodAttrName = 'timePeriod';
+	
+	var storeNLS = null;
+	var storeUserType = 'G';
+	var ios = false;
+	var android = false;
+	
+	// Store the amount of time of inactivity before a re-login is required, this value is retrieved from wc-server.xml, default is 30 mins
+	var inactivityTimeout = 0;
+	
+	// Store the amount of time the inactivity warning dialog will be displayed before it closes itself, default is 20 seconds
+	var inactivityWarningDialogDisplayTimer = 20000;
+	
+	// Store the amount of time to display a inactivity warning dialog before a re-login is required, default is 30 seconds
+	var inactivityWarningDialogBuffer = 30000;
+	
+	// Store the timing event to display the inactivity dialog
+	var inactivityTimeoutTracker = null;
+
+	// Store the timing event to close the inactivity dialog
+	var dialogTimeoutTracker = null;
+	
+	//Summary: Returns the absolute URL to use for prefixing any Ajax URL call.
+	//Description: Dojo does not handle the case where the parameters in the URL are delimeted by the "/" forward slash. Therefore, in order to
+	//             workaround the issue, all AJAX requests must be done using absolute URLs rather than relative.
+	//Returns: The absolute URL to use for prefixing any Ajax URL call.
+	function getAbsoluteURL() {
+		return absoluteURL;
+	}
+	//Summary: Returns the path pointing to the shared image directory.
+	//Description: In order to get the image directory path in any javascript file, this function can be used.
+	//Returns: The path to reference images.
+	function getImageDirectoryPath() {
+		return imageDirectoryPath;
+	}
+	//Summary: Returns the path pointing to the directory containing color-dependant image files.
+	//Description: In order to get the directory containing color-dependant image files in any javascript file, this function can be used.
+	//Returns: The path to reference color-dependant image files.
+	function getStyleDirectoryPath() {
+		return styleDirectoryPath;
+	}
+</script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/javascript/StoreCommonUtilities_ShoppingActions.js?v=60973"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/javascript/Common/ShoppingActionsServicesDeclaration.js?v=54579"></script> 
+  <script type="text/javascript">
+	//Set the default NLS to use in the store.
+	if(storeNLS == null) {
+		dojo.requireLocalization("storetext", "StoreText");
+		storeNLS = dojo.i18n.getLocalization("storetext","StoreText");
+	}
+	initializeInactivityWarning();
+	var ie6 = false;
+	if (navigator != null && navigator.userAgent != null) {
+		ie6 = (navigator.userAgent.toLowerCase().indexOf("msie 6.0") > -1); 
+	}
+	if (location.href.indexOf('UnsupportedBrowserErrorView') == -1 && ie6) {
+		document.write('<meta http-equiv="Refresh" content="0;URL=/us/en/UnsupportedBrowserErrorView?catalogId=10001&amp;langId=-1&amp;storeId=10151"/>');
+	}
+	
+	// Variables required for image rotation. Used in js/script.min.js file.
+	var imgPath = '/wcsstore/HPStorefrontAssetStore/img/rotation/';
+	var imgExtn = '.jpg';
+	
+	dojo.addOnLoad(function() {
+		shoppingActionsJS.setCommonParameters('-1', '10151', '10051', 'G', '$');
+	});
+</script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/CallCenter/js/CallcenterCommon.js?v=54579"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/CallCenter/js/CallcenterCommonServicesDeclarations.js?v=54579"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/javascript/Analytics.js?v=43"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/javascript/servicesdeclaration_checkouthelper_shipmodeselectionext_tealeaWCf_query_dlmenu.js?v=60973"></script> 
+  <script type="text/javascript" src="/wcsstore/HPStorefrontAssetStore/javascript/MessageHelper.js?v=52540"></script> 
+  <!-- END CommonJSToInclude.jspf --> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/home.js"></script> 
+  <script src="/wcsstore/HPStorefrontAssetStore/js/carousel_std.js"></script> 
+  <script type="text/javascript">
+			function changeCookie() {
+				document.cookie = "ETR_OPT_IN=false; path=/;domain=.hp.com;expires=Wed, 15 Jan 2020 00:00:00 GMT";
+			}
+		</script> 
+  <script type="text/javascript">
+			hpmmd.page.name = "InstantInk";
+			var userId = '-1002';
+			var usertype = '';
+			var hp_profileId = '';
+			var language = 'en_US';
+			
+			
+			function omniture_Tag(Analyitc_usertype) {
+				usertype = Analyitc_usertype;
+				//contentTag(userId,usertype,hp_profileId,countryname,websectionId,pagename);
+				setCommonUserParams(userId, usertype,hp_profileId);
+			}
+
+			HP.Utils.ready( function() {
+				//dynamically generated from used molecules
+				HP.Control.init(HP.Tooltip, '.tooltip', {});
+			    HP.Control.init(HP.LightBox, '.js_overlay_trigger', {addToPopupManager     : false});
+			});
+			
+			$(document).ready(function() {
+				
+				
+				
+			});
+		</script> 
+  <div id="hpmmdframework_complete"></div>   
+  <!-- END ContentRecommendation/ext/ContentRecommendation_UI.jsp -->
+ </body>
+</html>

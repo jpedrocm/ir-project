@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width"> 
+  <meta name="description" content="Powered by ASUS offers dream machines with select system-builders, from small-form-factor dynamos to giant liquid-cooled beasts, Powered by ASUS means exclusivity, performance, and art."> 
+  <meta name="keywords" content="ASUS,VGA,MB,Desktop,Display,Monitor,Networks,Server &amp; Workstation,Chassis,Motherboards,PC Gaming hardware,Gaming motherboard,overclocking motherboard,Battlefield,assassins creed,Optical Storage,Graphics Cards,Multimedia,Peripherals &amp; Accessories,accessories,Peripheral,PC Accessories,Computer Peripheral,Power Supply,Thermal Solution,Eshop,PCs,Barebone PC, ASUS Partners, PBA, PBA Systems, ASUS System Integrator, ASUS System Builder, ASUS Gaming Systems, Gaming System, ASUS Computer, ASUS Gaming Computer"> 
+  <meta property="og:site_name" content="Powered by ASUS"> 
+  <meta property="og:title" content="Powered by ASUS."> 
+  <meta property="og:description" content="Powered by ASUS offers dream machines with select system-builders, from small-form-factor dynamos to giant liquid-cooled beasts, Powered by ASUS means exclusivity, performance, and art."> 
+  <link rel="shortcut icon" href="http://www.asus.com/media/img/favicon.ico"> 
+  <title>Powered By ASUS</title> 
+  <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" type="text/css"> 
+  <link href="Theme/CSS/normalize.css" rel="stylesheet" media="screen"> 
+  <link href="Theme/CSS/default.css" rel="stylesheet" media="screen"> 
+  <link href="Theme/CSS/idangerous.swiper.css" rel="stylesheet" media="screen"> 
+  <script src="Theme/Javascript/modernizr.custom.08193.js"></script> 
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> 
+  <script src="Theme/Javascript/default.js"></script> 
+  <script src="Theme/Javascript/idangerous.swiper.min.js"></script> 
+  <script type="text/javascript">
+    //ASUS header & footer
+        window.ASUSInit = function () {
+            asus_api.init({ appkey: 'campa00004' , lang: 'www.asus.com/middleeast-fa', api_menu_logo: '0'});
+        };
+        (function(d){
+            var js, id = 'asus-jsapi';
+            if (d.getElementById("asus-jsapi")) {return;}
+            js = d.createElement('script');
+            js.id = id;
+            js.async = true;
+            js.src = "//www.asus.com/API/js/asus_api.js";
+            d.getElementsByTagName('head')[0].appendChild(js);
+        }(document));
+    </script> 
+  <style>
+     .wrapper {direction:ltr;font-family: Tahoma, Geneva, sans-serif !important;}
+     .reseller_text {
+        padding: 50px 30px 60px 30px;
+        color: #dddddd;
+      }
+    </style> 
+ </head> 
+ <body> 
+  <div class="wrapper"> 
+   <header class="header"> 
+    <section class="header-inner"> 
+     <a href="index.html"><img class="logo" src="Theme/Image/UI/logo.png"></a> 
+     <div class="burger-wrapper"> 
+      <a class="burger burger-on"></a> 
+      <a class="burger burger-off"></a> 
+     </div> 
+     <ul class="menu"> 
+      <li style="direction:rtl;"><a href="index.html" class="active" onclick="ga('send', 'event', 'menus', 'clicked', ‘powered-by-asus-au')">Powered By ASUS</a></li> 
+      <!--li><a href="buynow.html" class="icon-cart" onclick="ga('send', 'event', 'menus', 'clicked', ‘buy-a-pc-now-au')">Buy A PC Now!</a></li--> 
+      <li style="direction:rtl;"><a href="companion.html" onclick="ga('send', 'event', ‘menus’, 'clicked', ‘best-companion-with-your-pc-au')">بهترین همراه برای رایانه شما</a></li> 
+      <li style="direction:rtl;"><a href="promotion.html" onclick="ga('send', 'event', ‘menus', 'clicked', ‘events-and-promotion-au')">رویدادها و پروموشن‌ها </a></li> 
+     </ul> 
+    </section> 
+   </header> 
+   <main class="main"> 
+    <section class="banner home-banner"> 
+     <div class="hero"> 
+      <!--banner slider : start --> 
+      <a class="arrow-left" href="#"></a> 
+      <a class="arrow-right" href="#"></a> 
+      <div class="swiper-container"> 
+       <div class="swiper-wrapper"> 
+        <!--div class="swiper-slide">
+                            <div class="swiper-img"><a href="http://www.asus.com/middleeast-fa/ROG-Republic-Of-Gamers/ROG-SWIFT-PG348Q/" target="_blank"><div class="swiper-img-container" style="background-image: url(Theme/Image/banner/004.jpg)"></div></a></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-img"><a href="http://www.asus.com/middleeast-fa/Motherboards/ROG-MAXIMUS-VIII-FORMULA/" target="_blank"><div class="swiper-img-container" style="background-image: url(Theme/Image/banner/005.jpg)"></div></a></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-img"><a href="http://www.asus.com/middleeast-fa/Networking/RT-AC5300/" target="_blank"><div class="swiper-img-container" style="background-image: url(Theme/Image/banner/003.jpg)"></div></a></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-img"><a href="http://www.asus.com/middleeast-fa/Motherboards/MAXIMUS-VIII-HERO/" target="_blank"><div class="swiper-img-container" style="background-image: url(Theme/Image/banner/002.jpg)"></div></a></div>
+                        </div--> 
+        <div class="swiper-slide"> 
+         <div class="swiper-img">
+          <a href="http://athena.asus.com/middleeast-fa/Keyboards-Mice/ROG_Gladius/" target="_blank">
+           <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/001.jpg)"></div></a>
+         </div> 
+        </div> 
+        <div class="swiper-slide"> 
+         <div class="swiper-img">
+          <a href="http://athena.asus.com/middleeast-fa/Keyboards-Mice/ROG_Gladius/" target="_blank">
+           <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/006.jpg)"></div></a>
+         </div> 
+        </div> 
+        <div class="swiper-slide"> 
+         <div class="swiper-img">
+          <a href="http://www.asus.com/middleeast-fa/Graphics-Cards/ROG-STRIX-GTX1080-O8G-GAMING/" target="_blank">
+           <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/007.jpg)"></div></a>
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pagination"></div> 
+      <!--banner slider : end --> 
+     </div> 
+    </section> 
+    <section class="home-intro"> 
+     <div class="home-intro-inner clear"> 
+      <div class="home-logo">
+       <img src="Theme/Image/UI/logo.png">
+      </div> 
+      <div class="text" style="text-align:right;direction:rtl;"> 
+       <h2>Powered By ASUS. فناوری همانند یک اثر هنری.</h2> 
+       <p>قدرت ایسوس برای آنهایی است که تنها بهترین‌ها را می‌خواهند. تیم‌های تحقیق و توسعه ما در سطح جهان در راستای شعار کمپانی ما فعالیت می‌کنند: در جستجوی شگفتی. تعهد ما به کمال، با دریافت بیش از 3000 تقدیر و جایزه‌ای که سالانه دریافت می‌کنیم، ثابت شده است. اکنون ما قدرت ایسوس را به شرکای خود داده‌ایم: سازنده‌ سیستمی را انتخاب کنید تا ماشین‌های رویایی بسازد از دینام‌های سایز کوچک تا خنک‌کننده‌های غول آسا، ماشینی که جای دیگری نمی‌توانید آن را پیدا کنید. معنی قدرت ایسوس، اختصاصی است. به معنی عملکرد است. به معنی فناوری همانند یک اثر هنری است. چرا باید چیز دیگری در نظر بگیرید؟</p> 
+      </div> 
+     </div> 
+    </section> 
+    <hr id="reddiv" style="border-color: red;"> 
+    <div class="reseller_text"> 
+     <h3 style="text-align:center;direction:rtl;color:RED;font-size:2em">فرمانروایی با بهترین ها</h3> 
+     <p style="text-align:center;direction:rtl;color:GRAY;font-size:1.5em"><strong>با سبد کامل کالاهای ایسوس به اهداف خود برسید</strong></p> 
+     <p style="text-align:center;direction:rtl;">شرکت ایسوس به عنوان پیشگام در صنعت قطعات و تجهیزات سخت افزار رایانه، کامل ترین سبد کالا را برای کاربران خود فراهم کرده است. با توجه به طیف وسیع قطعات موجود در دنیای فناوری اطلاعات، بالاترین سازگاری و کیفیت، به همراه مدیریت همه جانبه قطعات، در سبد کالای ایسوس فراهم است. انطباق پذیری، انعطاف پذیری و مدیریت کاربری آسان، در ذات قطعات ایسوس بهینه سازی شده و این امر موجب شده تا دستیابی به بالاترین کارایی در عملیات محاسباتی، ورزش های الکترونیکی و کسب و کار روزمره برای کاربران فراهم شود. کیفیت در محصولات ایسوس، به همراه ابتکار و نوآوری باعث شده تا این شرکت همواره به فکر ارتقای هرچه بیشتر خدمات خود به مشتریان وفادار باشد.</p> 
+     <p style="text-align:center;direction:rtl;">این بار ایسوس شما را با کمپینی به نام Powered By ASUS شگفت زده خواهد کرد. در این کمپین فروشندگانی که اطلاعات فنی بالایی دارند و به صورت تخصصی در امر فروش مشغول هستند، به یاری خریداران عزیز همت گماشته اند. این کمپین مشاوره و پیشنهاد سیستم هایی متشکل از تمامی قطعات موجود در سبد کالای برند ایسوس (یعنی مادربورد، کارت گرافیک، نمایشگر، دیسک نوری و کارت شبکه بی سیم) برای کسانی که خواهان بالاترین کارایی، کیفیت و ماندگاری هستند، به راحتی فراهم می کند.</p> 
+     <p style="text-align:center;direction:rtl;">ایسوس با پشتوانه بر افتخارات خود مانند: برند نخست در کارت گرافیک های مخصوص بازی، بزرگترین تولید کننده مادربورد در جهان، نخستین برند با خط تولید اختصاصی قطعات مخصوص بازی، برند نخست در تولید و طراحی نمایشگرهای مخصوص بازی و برند تحسین شده در زمینه قطعات رده بالای شبکه همواره به فکر رضایت مشتری در همه زمینه ها بوده است. ایسوس قصد دارد تا طرح هایی ویژه برای مشتریانی که تمامی قطعات سخت افزار رایانه خود را از این شرکت تهیه کنند، اجرا و پیاده سازی کند.</p> 
+     <p style="text-align:center;direction:rtl;color:GRAY;font-size:1.5em"><strong>فرمانروایی با بهترین ها</strong></p> 
+     <p style="text-align:center;direction:rtl;">همانطور که می دانید، ایسوس سالانه بیشترین جایزه را در بررسی های سخت افزاری کسب می کند. در حال حاضر تمامی کارت گرافیک های ایسوس با فناوری تمام خودکار Auto-Extreme به همراه قطعات با کیفیت Super Alloy Power II تولید شده و به نرم افزار GPU Tweak II تجهیز شده است. ایسوس در بخش مادربورد نیز با کسب تاییده های مختلف، با داشتن کمترین میزان برگشت به کارخانه ماندگارترین و کارامد ترین برند تولید کننده مادربورد به نقل از LDLC (زیرمجموعه Hardware.fr) لقب گرفته است. در بخش نمایشگرهای مخصوص بازی نیز، با کسب 40 درصد از کل سهم بازار نمایشگرهای مخصوص بازی و بالاترین استانداردها و راهکارهای سلامتی، قدرت خود را نشان داده است. مهندسین طراح ایسوس با الهام از فلسفه Zen، بیشترین جوایز طراحی نظیر IF و RED Dot Design را در بخش طراحی محصولات کسب کرده است. راهکارهای ابتکاری و شگفت انگیز در محصولات رده بالای شبکه، این برند را به یکی از مدعیان قدرتمند در تجهیزات رده بالای مخصوص بازی تبدیل کرده است. این کمپین همزمان با دیگر کشورهای جهان در ایران هم اجرا می شود و هدف اصلی آن جلب رضایت هرچه بیشتر کاربران واقعی با هماهنگی کامل نرم افزاری و سازگاری کامل قطعات است که منجر به داشتن رایانه ای کامل از همه نظر خواهد شد.</p> 
+    </div> 
+    <hr id="reddiv" style="border-color: red;"> 
+    <section class="home-duet clear"> 
+     <div class="asset"> 
+      <div class="text" style="text-align:right;direction:rtl;"> 
+       <h3>برند اول مادربرد در جهان</h3> 
+       <p>ایسوس با تعهد به نوآوری و عملکرد، برای 10 سال متوالی، برترین برند مادربرد در جهان بوده‌ است. همچنین بیشترین تقدیرها را دریافت کرده است و بهترین مادربرد بر پایه چهار محور اصلی است: بهترین فروش، کاربرد آسان، پایدار و قابل اعتماد (B.E.S.T.) با فروش بیش از 500 میلیون در سراسر جهان از سال 1989، ایسوس نامی است که می‌‌توانید به آن اعتماد کنید.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-a-1.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text" style="text-align:right;direction:rtl;"> 
+       <h3>برند اول کارت گرافیک در جهان</h3> 
+       <p>ایسوس با اولین و تنها فناوری موجود در صنعت به نام Auto-Extreme Technology با تولید 100% مکانیزه محصول برای بیشترین اطمینان، برند اول کارت گرافیک در جهان است. کارت‌های گرافیک ایسوس با انبوهی از فناوری‌های خنک‌کننده و طراحی بصری نرم‌افزارها، برای نشاط بیشتر، سرگرمی بیشتر و پیروزی بیشتر، یک تجربه واقعا پیشرفته از اجرای بازی‌ها را فراهم می‌کنند.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-a-2.jpg">
+      </div> 
+     </div> 
+    </section> 
+    <section class="home-team clear"> 
+     <div class="asset"> 
+      <div class="text" style="text-align:right;direction:rtl;"> 
+       <h3>برند اول مانیتورهای مخصوص بازی، دارای گواهی TÜV Blue-Light</h3> 
+       <p>نمایشگرهای ایسوس بر بسیاری از اولین‌های این صنعت غلبه کرده‌اند. همچنین نمایشگرهای ما در کاهش پرتوهای نور آبی پیشتاز هستند که باعث کاهش نور آبی تا 70 درصد می‌شود و علاوه بر آن در مقایسه با سایر برندها، گواهی TÜV Rheinland را نیز دریافت کرده‌اند که مرجع مهمی در بررسی مادربردها در جهان است.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-1.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text" style="text-align:right;direction:rtl;"> 
+       <h3>راه‌حل‌های سریع شبکه</h3> 
+       <p>ایسوس راه‌حل‌های سریع شبکه بر پایه چهار محور اصلی را در اختیار شما قرار می‌دهد: پوشش وسیع‌تر شبکه وایرلس برای ارتباط مداوم، راه‌اندازی و مدیریت آسان توسط برنامه ASUS Router App و ASUSWRT، شبکه امن با قابلیت اختصاصی ASUS AiProtection و کیفیت تحسین شده مورد اطمینان.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-2.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text" style="text-align:right;direction:rtl;"> 
+       <h3>1000 سال ذخیره‌سازی امن برای تمام درایوهای نوری داخلی</h3> 
+       <p>درایوهای نوری ایسوس دارای M-DISC™ هستند که یک راه‌حل ذخیره‌سازی برای آرشیوها است و از خاطرات ارزشمند دیجیتالی شما محافظت می‌کند. فناوری رایت ASUS M-DISC داده‌ها را در یک لایه سخت ضبط می‌کند که در برابر شرایط دشوار مقاوم هستند و اطلاعات را برای یک هزاره، امن نگهداری می‌کند.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-3.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text" style="text-align:right;direction:rtl;"> 
+       <h3>انتخاب خوانندگان PC Games Hardware برای سومین سال متوالی</h3> 
+       <p>کارت‌های صدای ایسوس برای راضی کردن شنوندگان سخت‌گیر ساخته شده‌اند، با قطعات صوتی حرفه‌ای طراحی شده‌اند و توجه زیادی روی جزییات دارند. با نرخ بالای سیگنال به نویز (SNR)، انتخاب دقیق آمپلی‌فایر هدفون و صدای فراگیر چند کانال، کارت‌های صدای ایسوس بهترین انتخاب برای بهبود سرگرمی‌ها و تجربه شما از بازی‌ها هستند.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-4.jpg">
+      </div> 
+     </div> 
+    </section> 
+    <!--section class="buy-now">
+            <a href="buynow.html" class="action" onclick="ga('send', 'event', 'navigations', 'clicked', ‘buy-a-pc-now-au')">همین حالا یک رایانه خریداری کنید!</a>
+        </section--> 
+   </main> 
+   <footer class="footer"> 
+    <p class="backtotop"><a>Back to Top</a></p> 
+    <section class="content" style="text-align:right;direction:rtl;"> 
+     <p class="copyright "><a href="https://asus.com/" target="_blank"><img src="Theme/Image/UI/asus.png"></a><br>© 2016 ASUSTeK Computer Inc.، تمام حقوق محفوظ است. شرایط استفاده. تمام مشخصات و شرایط ممکن است بدون اطلاع تغییر کند. لطفا با توزیع‌کنندگان برای انتخاب دقیق مدل‌های پیشنهادی بررسی کنید. ممکن است تمام محصولات در تمام بازارها موجود نباشند. ممکن است محصولات دقیقا مشابه تصاویر نباشند. نام‌تجاری و نام محصولات ذکر شده، از علائم تجاری شرکت‌های مربوطه هستند. ایسوس در برابر اشتباهات فنی یا نگارشی یا از قلم‌افتادگی موجود در اینجا مسئول نخواهد بود.</p> 
+    </section> 
+   </footer> 
+   <div class="sidenav"> 
+    <!--<a class="sidenav-home-1"><span>OVERVIEW</span></a>--> 
+    <a class="sidenav-home-2"><span>WHY POWERED BY ASUS?</span></a> 
+    <a class="sidenav-home-3"><span>WHY SELECT ASUS PRODUCT?</span></a> 
+   </div> 
+  </div>  
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NJRLM8');</script> 
+  <!-- End Google Tag Manager -->  
+ </body>
+</html>

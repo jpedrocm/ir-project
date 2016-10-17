@@ -1,0 +1,834 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head> 
+  <script type="text/javascript">
+window.ASUSInit = function () {
+asus_api.init({ appkey: 'micro00001' });
+};
+(function(d){
+var js, id = 'asus-jsapi';
+if (d.getElementById("asus-jsapi")) {return;}
+js = d.createElement('script');
+js.id = id;
+js.async = true;
+js.src = "http://www.asus.com/API/js/asus_api.js";
+d.getElementsByTagName('head')[0].appendChild(js);
+}(document));
+</script> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <title>Keep up to date</title> 
+  <script type="text/javascript">
+window.ASUSInit = function () {
+asus_api.init({ appkey: 'micro00001'});
+};
+(function(D){
+var js, id = 'asus-jsapi';
+if (d.getElementById("asus-jsapi")) {return;}
+js = d.createElement('script');
+js.id = id;
+js.async = true;
+js.src = "http://www.asus.com/API/js/asus_api.js";
+d.getElementsByTagName('head')[0].appendChild(js);
+}(document));
+</script> 
+  <style type="text/css">
+<!--
+body {
+	background-color: #e6e6e6;
+	margin: 0 auto;
+	font-family: Calibri;
+	font-size: 11px;
+	color: #fff;
+	text-align: center;
+	-webkit-text-size-adjust: none;
+}
+table {
+	margin: 0 auto;
+	font-size: 12px;
+	color: #4e4e4e;
+}
+img {
+	vertical-align: bottom;
+}
+a:link {
+	color: #3aa2ea;
+	text-decoration: none;
+}
+a:visited {
+	color: #3aa2ea;
+	text-decoration: none;
+}
+a:hover {
+	color: #ff9c00;
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+	color: #3aa2ea;
+}
+p {
+	margin: 0;
+	padding: 0;
+	line-height: 1.3em;
+}
+.dot {
+	color: red;
+	line-height: 5px;
+	font-size: 8px;
+	line-height: 1.5em;
+	letter-spacing: -1px;
+	padding-left: 3px;
+}
+.spec {
+	margin: 0 auto 30px auto;
+	font-size: 11px;
+	padding-top: 10px;
+}
+.spec tr td {
+	border-top: 2px solid #539634;
+	padding: 3px 0 3px 5px;
+}
+.spec tr th {
+	padding: 3px 0 3px 6px;
+	;
+	text-align: left;
+	font-weight: bold;
+	font-size: 14px;
+	color: #00904b;
+}
+.spec tr.single_tr td {
+	border-top: 1px solid #539634;
+	padding: 3px 0 3px 5px;
+	background: #ddd;
+}
+.icons1 {
+	margin-left: 25px;
+	margin-top: 25px;
+}
+.icons2 {
+	margin-left: 21px;
+	margin-top: 22px;
+}
+.infop1 {
+	color: #d9de20;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 17px;
+	letter-spacing: 0.6px;
+	margin-top: 22px;
+}
+.infop2 {
+	color: #fff;
+	font-size: 12px;
+	line-height: 17px;
+	letter-spacing: 0px;
+}
+.infop3 {
+	color: #6b6b6b;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0px;
+}
+.infop4 {
+	color: #d9de20;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 17px;
+	letter-spacing: 0.6px;
+}
+.infopsp {
+	padding-left: 14px;
+	padding-top: 7px;
+}
+.infopsp2 {
+	padding-left: 14px;
+}
+.infopsp3 {
+	padding-left: 14px;
+	padding-top: 7px;
+}
+.specfont {
+	color: #565656;
+	font-size: 12px;
+	padding-left: 28px;
+}
+.style59 {
+	color: #BD0000;
+	font-size: 11px;
+}
+.titlebox_a {
+	text-align: left;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 0.5px
+}
+.titlebox {
+	padding-left: 60px;
+	text-align: left;
+	color: #afafaf;
+	padding-bottom: 15px;
+	font-size: 11px
+}
+.packagebox {
+	font-size: 10px;
+	color: #b3b3b3
+}
+.specbox {
+	font-size: 11px;
+	color: #898989;
+	text-align: left;
+	padding-top: 0px
+}
+.spec_bk {
+	border-bottom: 1px dashed #bdc1c8;
+	padding-top: 0px;
+}
+.spec_bk_padding {
+	padding-left: 8px
+}
+.cor_w {
+	color: #6c6c6c;
+	line-height: 15px;
+	padding: 2px 0px
+}
+.line_bk {
+	background-color: #eee
+}
+.points_box {
+	background-color: #fff;
+}
+.box_info {
+	color: #9E9E9E;
+	font-size: 11px;
+	font-family: Helvetica;
+	padding: 0 10px 0px 0;
+	line-height: 17px;
+}
+.box_info2 {
+	color: #6e6e6e;
+	font-size: 12px;
+	font-family: Calibri;
+	line-height:1.4em;
+}
+.box_info2 p {
+	color: #000;
+	font-size: 12px;
+}
+.icon_info {
+	font-size: 11px;
+	color: #7b7b7b;
+	padding-bottom: 35px;
+	padding-right: 8px
+}
+.icon_title {
+	font-weight:bold;
+	color: #0089ce;
+	font-size: 18px;
+	font-family: Helvetica;
+	padding: 5px 0 5px 8px;
+}
+.icon_bt {
+	font-size: 13px;
+	font: Calibri;
+	padding-bottom: 16px
+}
+.spec_tl {
+	font-weight: bold;
+	color: #6c6c6c
+}
+.bastFor span {
+	padding: 0px;
+	background: none;
+	color: #000;
+	font-weight: bold;
+	font-size: 14px;
+	margin-right: 0px;
+}
+.l_title {
+	text-align: left;
+	font-size: 11px;
+	line-height: 1.3em;
+	padding-top: 8px
+}
+.l_title span {
+	color: #0080cc
+}
+.listBox {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #006798;
+	width:304px;
+}
+.listBox li {
+	list-style: outside;
+	line-height: 1.5em;
+	padding-bottom: 10px;
+	width:260px
+}
+.icon_title1 {
+	color: #138add;
+	font-size: 15px;
+	font-family: Helvetica;
+	padding: 5px 0 4px 6px
+}
+-->
+</style> 
+ </head> 
+ <body bgcolor="#fff" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"> 
+  <table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff" align="center"> 
+   <tbody>
+    <tr> 
+     <td align="left" valign="top" style=" padding:20px 0px 0px 25px; line-height:1.4em; font-family: Calibri; font-weight:bold; font-size:14px; color:#000"> <img src="images/logo_03.png" width="85" height="26"></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <!--<table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff" align="center">
+  <tr>
+    <td width="370" align="left" valign="top" style=" padding:50px 25px 0px 25px; line-height:1.4em; font-family: Calibri;  font-size:14px; color:#000"><div style="font-size:24px; font-weight:bold;">ASUS Networking</div><br />
+    <div style="font-size:32px; font-weight:bold;">Customer Care Notice</div><br />
+    New firmware is available that improves security settings in ASUS networking products. We encourage you to keep all firmware up to date in order to benefit from the latest security and usability enhancements. Updating firmware is a safe and simple procedure, but please click the button below for more information.
+</td>
+  <td width="280" align="right" valign="top" style="; line-height:1.4em; font-family: Calibri; font-weight:bold; font-size:14px; color:#000"><img src="images/EDMlanding-page_s.png" width="280" height="280" /></tr>
+</table>
+
+
+<table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff" align="center">
+  <tr>
+    <td align="left" valign="top" style=" padding:0 25px 0px; line-height:1.4em; font-family: Calibri; font-weight:bold; font-size:14px; color:#000">  <br />Models and driver download link:</td>
+  </tr>
+</table>
+<table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff">
+  <tr>
+    <td align="left" valign="middle"><table width="800" border="0" cellspacing="0" cellpadding="0" class="specbox" style="color:#5b5b5b; font-size:11px; padding-bottom:30px; background:#fff" >
+      <tr>
+        <td width="19" height="10">&nbsp;</td>
+        <td height="10" class=" icon_title spec_bk"><p>Model name<br />
+        </p>          </td>
+        <td height="10" class=" icon_title spec_bk"><p>Support site link &#13;</p></td>
+        <td width="23" height="10">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="19" height="16">&nbsp;</td>
+        <td width="153" height="16" class="spec_bk spec_bk_padding spec_tl">RT-AC87U</td>
+        <td height="16" align="left" valign="top" class="cor_w spec_bk"><a href="http://www.asus.com/Networking/RTAC87U/HelpDesk_Download/">http://www.asus.com/Networking/RTAC87U/HelpDesk_Download </a></td>
+        <td width="23" height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk line_bk spec_tl spec_bk_padding">RT-AC87R</td>
+        <td height="16" align="left" valign="top" class="cor_w line_bk spec_bk"><a href="http://www.asus.com/Networking/RTAC87R/HelpDesk_Download/">http://www.asus.com/Networking/RTAC87R/HelpDesk_Download</a></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="19" height="16">&nbsp;</td>
+        <td width="153" height="16" class="spec_bk spec_bk_padding spec_tl "><p>RT-AC68U</p></td>
+        <td height="16" align="left" valign="top" class="cor_w spec_bk"><p><a href="http://www.asus.com/Networking/RTAC68U/HelpDesk_Download/">http://www.asus.com/Networking/RTAC68U/HelpDesk_Download </a>&#13;</p></td>
+        <td width="23" height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="19" height="16">&nbsp;</td>
+        <td width="153" height="16" class="spec_bk line_bk spec_bk_padding spec_tl"><p>RT-AC68R</p></td>
+        <td height="16" align="left" valign="top" class="cor_w line_bk spec_bk"><p><a href="http://www.asus.com/Networking/RTAC68R/HelpDesk_Download">http://www.asus.com/Networking/RTAC68R/HelpDesk_Download</a></p></td>
+        <td width="23" height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="19" height="16">&nbsp;</td>
+        <td width="153" height="16" valign="middle" class="spec_bk spec_bk_padding spec_tl"><p>RT-AC68W</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w"><p><a href="http://www.asus.com/Networking/RTAC68W/HelpDesk_Download/">http://www.asus.com/Networking/RTAC68W/HelpDesk_Download</a></p></td>
+        <td width="23" height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="19" height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding line_bk spec_tl"> <p>RT-AC68P</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w line_bk"><p><a href="http://www.asus.com/Networking/RTAC68P/HelpDesk_Download/">http://www.asus.com/Networking/RTAC68P/HelpDesk_Download</a></p></td>
+        <td width="23" height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding spec_tl"><p>RT-AC66U</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w"><p><a href="http://www.asus.com/Networking/RTAC66U/HelpDesk_Download/">http://www.asus.com/Networking/RTAC66U/HelpDesk_Download </a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding line_bk spec_tl"><p>RT-AC66R</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w line_bk"><p><a href="http://www.asus.com/Networking/RTAC66R/HelpDesk_Download/">http://www.asus.com/Networking/RTAC66R/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding spec_tl"><p>RT-AC66W</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w"> <a href="http://www.asus.com/Networking/RTAC66W/HelpDesk_Download/">http://www.asus.com/Networking/RTAC66W/HelpDesk_Download</a> </td>
+        <td height="16">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding line_bk spec_tl"><p>RT-AC56U</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w line_bk"><p><a href="http://www.asus.com/Networking/RTAC56U/HelpDesk_Download/">http://www.asus.com/Networking/RTAC56U/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding spec_tl"><p>RT-AC56R</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w"><p><a href="http://www.asus.com/Networking/RTAC56R/HelpDesk_Download/">http://www.asus.com/Networking/RTAC56R/HelpDesk_Download</a>&#13;</p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding line_bk spec_tl"><p>RT-AC56S</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w line_bk"><p><a href="http://www.asus.com/Networking/RTAC56S/HelpDesk_Download/">http://www.asus.com/Networking/RTAC56S/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding spec_tl"><p>RT-AC52U</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w"><p><a href="http://www.asus.com/Networking/RTAC52U/HelpDesk_Download/">http://www.asus.com/Networking/RTAC52U/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding line_bk spec_tl"><p>RT-AC51U</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w line_bk"><p><a href="http://www.asus.com/Networking/RTAC51U/HelpDesk_Download/">http://www.asus.com/Networking/RTAC51U/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding spec_tl"><p>RT-N66U</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w"><p><a href="http://www.asus.com/Networking/RTN66U/HelpDesk_Download/">http://www.asus.com/Networking/RTN66U/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding line_bk spec_tl"><p>RT-N66R</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w line_bk"><p><a href="http://www.asus.com/Networking/RTN66R/HelpDesk_Download/">http://www.asus.com/Networking/RTN66R/HelpDesk_Download</a>&#13;</p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding spec_tl"><p>RT-N66W</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w"><p><a href="http://www.asus.com/Networking/RTN66W/HelpDesk_Download/">http://www.asus.com/Networking/RTN66W/HelpDesk_Download</a>&#13;&#13;</p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding line_bk spec_tl"><p>RT-N65U</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w line_bk"><p><a href="http://www.asus.com/Networking/RTN65U/HelpDesk_Download/">http://www.asus.com/Networking/RTN65U/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding spec_tl"><p>RT-N65R</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w"><p><a href="http://www.asus.com/Networking/RTN65R/HelpDesk_Download/">http://www.asus.com/Networking/RTN65R/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding line_bk spec_tl"><p>RT-N56U</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w line_bk"><p><a href="http://www.asus.com/Networking/RTN56U/HelpDesk_Download/">http://www.asus.com/Networking/RTN56U/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+            <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding spec_tl"><p>RT-N56R</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w"><p><a href="http://www.asus.com/Networking/RTN56R/HelpDesk_Download/">http://www.asus.com/Networking/RTN56R/HelpDesk_Download/ </a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding line_bk spec_tl"><p>RT-N54U</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w line_bk"><p><a href="http://www.asus.com/Networking/RTN54U/HelpDesk_Download/">http://www.asus.com/Networking/RTN54U/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+            <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding spec_tl"><p>RT-N53</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w"><p><a href="http://www.asus.com/Networking/RTN53/HelpDesk_Download/">http://www.asus.com/Networking/RTN53/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding line_bk spec_tl"><p>RT-N18U</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w line_bk"><p><a href="http://www.asus.com/Networking/RTN18U/HelpDesk_Download/">http://www.asus.com/Networking/RTN18U/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+            <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding spec_tl"><p>RT-N16</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w"><p><a href="http://www.asus.com/Networking/RTN16/HelpDesk_Download/">http://www.asus.com/Networking/RTN16/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding line_bk spec_tl"><p>RT-N15U</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w line_bk"><p><a href="http://www.asus.com/Networking/RTN15U/HelpDesk_Download/">http://www.asus.com/Networking/RTN15U/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+            <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding spec_tl"><p>RT-N14UHP</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w"><p><a href="http://www.asus.com/Networking/RTN14UHP/HelpDesk_Download/">http://www.asus.com/Networking/RTN14UHP/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding line_bk spec_tl"><p>RT-N14U</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w line_bk"><p><a href="http://www.asus.com/Networking/RTN14U/HelpDesk_Download/">http://www.asus.com/Networking/RTN14U/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+            <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding spec_tl"><p>RT-N12HP</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w"><p><a href="http://www.asus.com/Networking/RTN12HP/HelpDesk_Download/">http://www.asus.com/Networking/RTN12HP/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding line_bk spec_tl"><p>RT-N12D1</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w line_bk"><p><a href="http://www.asus.com/Networking/RTN12_D1/HelpDesk_Download/">http://www.asus.com/Networking/RTN12_D1/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+            <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding spec_tl"><p>RT-N12C1</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w"><p><a href="http://www.asus.com/Networking/RTN12_C1/HelpDesk_Download">http://www.asus.com/Networking/RTN12_C1/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding line_bk spec_tl"><p>RT-N12B1</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w line_bk"><p><a href="http://www.asus.com/Networking/RTN12_B1/HelpDesk_Download/">http://www.asus.com/Networking/RTN12_B1/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+            <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding spec_tl"><p>RT-N11P</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w"><p><a href="http://www.asus.com/Networking/RTN11P/HelpDesk_Download/">http://www.asus.com/Networking/RTN11P/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding line_bk spec_tl"><p>RT-N10U</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w line_bk"><p><a href="http://www.asus.com/Networking/RTN10U/HelpDesk_Download/">http://www.asus.com/Networking/RTN10U/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+            <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding spec_tl"><p>RT-N10P</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w"><p><a href="http://www.asus.com/Networking/RTN10P/HelpDesk_Download/">http://www.asus.com/Networking/RTN10P/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding line_bk spec_tl"><p>RT-N10 D1</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w line_bk"><p><a href="http://www.asus.com/Networking/RTN10_D1/HelpDesk_Download/">http://www.asus.com/Networking/RTN10_D1/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+            <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding spec_tl"><p>DSL-AC68U</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w"><p><a href="http://www.asus.com/Networking/DSLAC68U/HelpDesk_Download/">http://www.asus.com/Networking/DSLAC68U/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding line_bk spec_tl"><p>DSL-AC68R</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w line_bk"><p><a href="http://www.asus.com/Networking/DSLAC68R/HelpDesk_Download/">http://www.asus.com/Networking/DSLAC68R/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+            <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding spec_tl"><p>DSL-N55U Annex B</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w"><p><a href="http://www.asus.com/Networking/DSLN55U_Annex_B/HelpDesk_Download/">http://www.asus.com/Networking/DSLN55U_Annex_B/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding line_bk spec_tl"><p>DSL-N55U Annex A</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w line_bk"><p><a href="http://www.asus.com/Networking/DSLN55U_Annex_A/HelpDesk_Download/">http://www.asus.com/Networking/DSLN55U_Annex_A/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+            <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding spec_tl"><p>DSL-N12U</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w"><p><a href="http://www.asus.com/Networking/DSLN12U/HelpDesk_Download/">http://www.asus.com/Networking/DSLN12U/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding line_bk spec_tl"><p>DSL-N12U B1</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w line_bk"><p><a href="http://www.asus.com/Networking/DSLN12U_B1/HelpDesk_Download/">http://www.asus.com/Networking/DSLN12U_B1/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+                  <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding spec_tl"><p>DSL-N10</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w"><p><a href="http://www.asus.com/Networking/DSLN10/HelpDesk_Download/">http://www.asus.com/Networking/DSLN10/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="16">&nbsp;</td>
+        <td height="16" class="spec_bk spec_bk_padding line_bk spec_tl"><p>DSL-N10 B1</p></td>
+        <td height="16" align="left" valign="top" class="spec_bk cor_w line_bk"><p><a href="http://www.asus.com/Networking/DSLN10_B1/HelpDesk_Download/">http://www.asus.com/Networking/DSLN10_B1/HelpDesk_Download</a></p></td>
+        <td height="16">&nbsp;</td>
+      </tr>
+    </table></td>
+</table>
+<table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff" align="center">
+  <tr>
+    <td width="975"><img src="images/line_bk.jpg" width="800" height="30" /></td>
+  </tr>
+</table>--> 
+  <table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff" align="center"> 
+   <tbody>
+    <tr> 
+     <td align="left" valign="top" style=" padding:25px 25px 0px 25px; line-height:1.4em; font-family: Calibri; font-size:20px; font-weight:bold; color:#000"> How to update the firmware on an ASUS networking product:</td> 
+    </tr> 
+    <tr> 
+     <td align="left" valign="top" style=" padding:25px 25px 0px 25px; font-family: Calibri; font-size:18px; color:#bd0000">➣If your firmware version is <b>later than 3.0.0.4.376.xxxx</b>, please follow below steps to do firmware update manually: </td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff" align="center"> 
+   <tbody>
+    <tr> 
+     <td align="left" valign="top"> 
+      <table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff"> 
+       <tbody>
+        <tr> 
+         <td align="left" valign="top" style=" padding:25px 25px 25px 25px; line-height:1.4em; font-family: Calibri; font-weight:bold; font-size:14px; color:#000"> <p>1. Open a web browser and navigate to your device’s configuration page by typing <a href="http://router.asus.com" target="blank">http://router.asus.com</a> into the address bar.</p> <br> 
+          <center> 
+           <img src="images/1-device-configuration-page-url.jpg" style="max-width:740px;"> 
+          </center> <p></p> </td> 
+        </tr> 
+       </tbody>
+      </table> </td>
+    </tr>
+    <tr> 
+     <td align="left" valign="top"> 
+      <table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff"> 
+       <tbody>
+        <tr> 
+         <td align="left" valign="top" style=" padding:25px 25px 25px 25px; line-height:1.4em; font-family: Calibri; font-weight:bold; font-size:14px; color:#000"> <p>2. You will see a hint for new firmware available at the upper right corner.</p> <br> 
+          <center> 
+           <img src="images/2-new-firmware-available-notification.jpg" style="max-width:740px;"> 
+          </center> <p></p> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+    <tr> 
+     <td align="left" valign="top"> 
+      <table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff"> 
+       <tbody>
+        <tr> 
+         <td align="left" valign="top" style=" padding:25px 25px 25px 25px; line-height:1.4em; font-family: Calibri; font-weight:bold; font-size:14px; color:#000"> <p>3. Click [Update now] and a pop-up window will show the New Firmware information. Click [Firmware Upgrade] to do firmware upgrade.</p> <br> 
+          <center> 
+           <img src="images/4-new-firmware-available-popup-window.jpg" style="max-width:740px;"> 
+          </center> <p></p> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+    <tr> 
+     <td align="left" valign="top"> 
+      <table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff"> 
+       <tbody>
+        <tr> 
+         <td align="left" valign="top" style=" padding:25px 25px 25px 25px; line-height:1.4em; font-family: Calibri; font-weight:bold; font-size:14px; color:#000"> <p>4. Please wait for a few minutes until the upload is shown as complete.</p> <br> 
+          <center> 
+           <img src="images/6-firmware-is-uprading.jpg" style="max-width:740px;"> 
+          </center> <p></p> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+    <tr> 
+     <td align="left" valign="top"> 
+      <table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff"> 
+       <tbody>
+        <tr> 
+         <td align="left" valign="top" style=" padding:25px 25px 25px 25px; line-height:1.4em; font-family: Calibri; font-weight:bold; font-size:14px; color:#000"> <p>5. The update is now completed.</p> <br> 
+          <center> 
+           <img src="images/7-update-is-completed.jpg" style="max-width:740px;"> 
+          </center> <p></p> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+    <tr> 
+     <td align="left" valign="top"> 
+      <table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff"> 
+       <tbody>
+        <tr> 
+         <td align="left" valign="top" style=" padding:25px 25px 25px 25px; line-height:1.4em; font-family: Calibri; font-weight:bold; font-size:14px; color:#000"> <p>※Notice: After updating the firmware, we recommend that you restore the factory default settings by pressing the reset button of the device for 5 seconds.</p> <br> 
+          <center> 
+           <img src="images/PIC11.png" style="max-width:740px;"> 
+          </center> <p></p> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff" align="center"> 
+   <tbody>
+    <tr> 
+     <td align="left" valign="top" style=" padding:25px 25px 0px 25px; font-family: Calibri; font-size:18px; color:#bd0000">➣If your firmware version is <b>older than 3.0.0.4.376.xxxx</b>, please follow below steps to do firmware update manually: </td> 
+    </tr> 
+    <tr> 
+     <td align="left" valign="top"> 
+      <table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff"> 
+       <tbody>
+        <tr> 
+         <td align="left" valign="top" style=" padding:25px 25px 25px 25px; line-height:1.4em; font-family: Calibri; font-weight:bold; font-size:14px; color:#000"> <p>1. Download the latest version of the firmware for your device from the ASUS website </p> <p>(The steps below show the ASUS RT-AC68U router as an example)</p> <br> 
+          <center> 
+           <img src="images/8-RT-AC68U-firmware-list.jpg" style="max-width:740px;"> 
+          </center> <p></p> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff" align="center"> 
+   <tbody>
+    <tr> 
+     <td align="left" valign="top">
+      <table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff"> 
+       <tbody>
+        <tr> 
+         <td align="left" valign="top" style=" padding:25px 25px 25px 25px; line-height:1.4em; font-family: Calibri; font-weight:bold; font-size:14px; color:#000"> <p></p> <p>2. Extract the contents of the downloaded Zip file&nbsp;</p> <br> 
+          <center> 
+           <img src="images/9-RT-AC68U-firmware-zip.jpg" style="max-width:740px;"> 
+          </center></td> 
+        </tr> 
+       </tbody>
+      </table></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff" align="center"> 
+   <tbody>
+    <tr> 
+     <td align="left" valign="top">
+      <table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff"> 
+       <tbody>
+        <tr> 
+         <td align="left" valign="top" style=" padding:25px 25px 25px 25px; line-height:1.4em; font-family: Calibri; font-weight:bold; font-size:14px; color:#000"> <p></p> <p>3. Open a web browser and navigate to your device’s configuration page by typing <a href="http://router.asus.com" target="blank">http://router.asus.com</a> into the address bar.</p> <br> 
+          <center> 
+           <img src="images/1-device-configuration-page-url.jpg" style="max-width:740px;"> 
+          </center></td> 
+        </tr> 
+       </tbody>
+      </table></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff" align="center"> 
+   <tbody>
+    <tr> 
+     <td align="left" valign="top">
+      <table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff"> 
+       <tbody>
+        <tr> 
+         <td align="left" valign="top" style=" padding:25px 25px 25px 25px; line-height:1.4em; font-family: Calibri; font-weight:bold; font-size:14px; color:#000"> <p></p> <p>4. Type the device’s user name and password in the appropriate boxes – if you have not changed the setting, please use the default values of ‘admin’ (in lowercase and without the quote marks) for both the user name and password. </p> <br> 
+          <center> 
+           <img src="images/10-ASUSWRT-sign-in-page.jpg" style="max-width:740px;"> 
+          </center></td> 
+        </tr> 
+       </tbody>
+      </table></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff" align="center"> 
+   <tbody>
+    <tr> 
+     <td align="left" valign="top">
+      <table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff"> 
+       <tbody>
+        <tr> 
+         <td align="left" valign="top" style=" padding:25px 25px 25px 25px; line-height:1.4em; font-family: Calibri; font-weight:bold; font-size:14px; color:#000"> <p></p> <p>5. On the main menu page, click the underlined link to the right of ‘Firmware Version’ near the top of the page.</p> <br> 
+          <center> 
+           <img src="images/11-firmware-version.jpg" style="max-width:740px;"> 
+          </center></td> 
+        </tr> 
+       </tbody>
+      </table></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff" align="center"> 
+   <tbody>
+    <tr> 
+     <td align="left" valign="top">
+      <table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff"> 
+       <tbody>
+        <tr> 
+         <td align="left" valign="top" style=" padding:25px 25px 25px 25px; line-height:1.4em; font-family: Calibri; font-weight:bold; font-size:14px; color:#000"> <p></p> <p>6. Click the [Choose File] and choose the firmware file you want to upload.</p> <br> 
+          <center> 
+           <img src="images/12-choose-file.jpg" style="max-width:740px;"> 
+          </center></td> 
+        </tr> 
+       </tbody>
+      </table></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff" align="center"> 
+   <tbody>
+    <tr> 
+     <td align="left" valign="top">
+      <table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff"> 
+       <tbody>
+        <tr> 
+         <td align="left" valign="top" style=" padding:25px 25px 25px 25px; line-height:1.4em; font-family: Calibri; font-weight:bold; font-size:14px; color:#000"> <p></p> 
+          <center> 
+           <img src="images/13-choose-firmware-file.jpg" style="max-width:740px;"> 
+          </center></td> 
+        </tr> 
+       </tbody>
+      </table></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff" align="center"> 
+   <tbody>
+    <tr> 
+     <td align="left" valign="top">
+      <table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff"> 
+       <tbody>
+        <tr> 
+         <td align="left" valign="top" style=" padding:25px 25px 25px 25px; line-height:1.4em; font-family: Calibri; font-weight:bold; font-size:14px; color:#000"> <p></p> <p>7. After choosing the file, click [Upload] button to upload firmware. </p> <br> 
+          <center> 
+           <img src="images/14-upload-firmware.jpg" style="max-width:740px;"> 
+          </center></td> 
+        </tr> 
+       </tbody>
+      </table></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff" align="center"> 
+   <tbody>
+    <tr> 
+     <td align="left" valign="top">
+      <table width="800" border="0" cellspacing="0" cellpadding="0" style="background:#fff"> 
+       <tbody>
+        <tr> 
+         <td align="left" valign="top" style=" padding:25px 25px 25px 25px; line-height:1.4em; font-family: Calibri; font-weight:bold; font-size:14px; color:#000"> <p></p> <p>8. Please wait for a few minutes until the upload is shown as complete.</p> <br> 
+          <center> 
+           <img src="images/6-firmware-is-uprading.jpg" style="max-width:740px;">
+           <br>
+           <br> 
+          </center></td> 
+        </tr> 
+       </tbody>
+      </table></td> 
+    </tr> 
+   </tbody>
+  </table>  
+ </body>
+</html>

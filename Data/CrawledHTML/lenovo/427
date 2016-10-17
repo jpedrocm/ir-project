@@ -1,0 +1,81 @@
+<html>
+ <head>
+  <style type="text/css">
+
+        * {
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+		#fs-content {
+			margin: 10px;
+        }
+
+		#fs-content .main {
+		    overflow: hidden;
+            padding: 3%;
+            width: 100%;
+        }
+
+		#fs-content .main .lft-cont{
+		    float: left;
+            width: 25%;
+        }
+
+		#fs-content .main .lft-cont .image {
+            text-align: center;
+        }
+
+        #fs-content .main .lft-cont .image img {
+            background-size: contain;
+            width: 100%;
+            max-width: 55px;
+        }
+
+		#fs-content .main .rgt-cont {
+		    float: left;
+            width: 75%;
+			line-height:1.5em;
+			padding-left: 10px;
+        }
+
+		#fs-content .main .rgt-cont .message {
+		    font-size: 1em;
+			font-family: Arial;
+			color: #000000;
+			padding:0px 0px 0px 10px;
+        }
+
+		#fancybox-close{
+			right: -35px !important;
+		}
+
+</style> 
+ </head>
+ <body>
+  <div id="fs-content" class="sd-shipping"> 
+   <div class="main"> 
+    <div class="lft-cont"> 
+     <div class="image"> 
+      <img src="//www.lenovo.com/shop/americas/content/img_lib/ThinkPad/QuickShip/next-day-badge.png" class="ticker" title="Next day ship clock" alt="Next day ship clock"> 
+     </div> 
+    </div> 
+    <div class="rgt-cont"> 
+     <div class="message" style="text-align:left;"> 
+      <b>Ship the same business day!</b>
+      <br> 
+      <!-- <p>Products will ship within the same business day (excluding bank holidays and weekends) for orders which have been placed prior to 3pm EST.</p> --> 
+      <p>Products ship within the same business day (excl. bank holidays and weekends) for orders which have been placed prior to 3pm ET and which are prepaid in full or payment approved.</p> 
+      <p>Limited quantities are available. Software and accessories will be shipped separately and may have a different estimated ship date.</p> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <script>
+	$( document ).ready(function() {
+		$(".sd-shipping").parent(".lnvmodal-content").parent(".lnvmodal-inner").css("height","auto");
+	});
+</script> 
+ </body>
+</html>

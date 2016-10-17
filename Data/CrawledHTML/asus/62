@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta charset="UTF-8"> 
+  <title>ROG</title> 
+  <link rel="stylesheet" href="public/vendor/slick-master/slick/slick.css"> 
+  <link rel="stylesheet" href="public/vendor/jQuery-Selectric/public/themes/plus/selectric.css"> 
+  <link rel="stylesheet" href="public/vendor/colorbox-master/example2/colorbox.css"> 
+  <link rel="stylesheet" href="public/css/oculus.css"> 
+ </head> 
+ <body> 
+  <div class="container oculus"> 
+   <div class="top-action-bar"> 
+    <div class="social-media"> 
+     <ul> 
+      <li style="padding-right:120px"> 
+       <form> 
+        <select onchange="location.href=this.options[this.selectedIndex].value" name="YourLocation" style="border:2px ;height:35px;background:#252525; color:#ffffff;"> <option value="http://www.asus.com/us/event/2015/oculus-ready-pc/?utm_source=oculus.com&amp;utm_medium=banner&amp;utm_campaign=oculusmember">USA – United State</option>　 <option value="http://www.asus.com/event/2015/oculus-ready-pc/">Global</option> 　 </select> 
+       </form> </li> 
+      <li> <a href="https://rog.asus.com/" target="_blank"> <img src="public/images/social-icon/rog.jpg" alt="ROG" class="auto_img"> </a> </li> 
+      <li> <a href="http://www.facebook.com/asus.n.america" target="_blank"> <img src="public/images/social-icon/fb.jpg" alt="FB" class="auto_img"> </a> </li> 
+      <li> <a href="http://www.youtube.com/c/asususa" target="_blank"> <img src="public/images/social-icon/ytb.jpg" alt="YOUTUBE" class="auto_img"> </a> </li> 
+      <li> <a href="http://twitter.com/asususa" target="_blank"> <img src="public/images/social-icon/tw.jpg" alt="TWITTER" class="auto_img"> </a> </li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="section top full-width"> 
+    <div class="title rog-font">
+     Immersive Virtual Reality
+    </div> 
+    <div class="info">
+     ASUS G11CD and ROG G20CB desktops with NVIDIA GeForce GTX graphics cards meet the recommended specifications required by Oculus to provide users with truly immersive virtual reality gaming experiences.
+    </div> 
+    <div class="rog-product-image"> 
+     <img style="max-width:1920px;" src="public/images/kv.jpg" alt=""> 
+    </div> 
+   </div> 
+   <div class="signup-bar"> 
+    <a href="https://account.asus.com/" target="_blank" class="signup-btn" onclick="ga('send', 'event', 'oculus event sign in buttons', 'clicked', 'member subscription');"> <span class="signup-to-asus">Sign up for updates on ASUS gaming PCs and upcoming discount offers</span> </a> 
+   </div> 
+   <div class="section highlight-info"> 
+    <h2 class="title rog-font">ASUS G11CD and ROG G20CB</h2> 
+    <p class="slogan">THE IDEAL VR GAMING PLATFORM FOR YOUR OCULUS RIFT!</p> 
+    <p class="depiction"> ASUS is pleased to announce an exclusive discount on ASUS G11CD <br> and ROG G20CB gaming PCs with any Oculus pre-order. <br> If you’ve pre-ordered an Oculus Rift headset, you’ll be invited to purchase <br> ASUS G11CD or ROG G20CB gaming PCs at a special discounted price via a special ASUS web store link.<br> Both PCs meet the recommended specifications required by Oculus <br> to fully support the Oculus Rift virtual reality experience. <br> <span style="margin-top:2%; display:block; font-size: 0.7em;">* Oculus Ready PCs are only available in select regions, please check with your local ASUS representative for exact offers</span> <br> </p> 
+   </div> 
+   <div class="section nvidia-info full-width"> 
+    <div class="inner two-cols"> 
+     <h2 class="title">NVIDIA® GeForce® GTX - Virtual Reality Ready</h2> 
+     <p class="col">ASUS G11CD and ROG G20CB gaming PCs are powered by NVIDIA® GeForce® GTX 970 or GTX 980 graphics giving you the power and advanced technologies to deliver the ultimate VR experience. </p> 
+     <p class="col">GeForce GTX graphics and advanced VR features boost performance by up to 50% and reduce latency. Enjoy a virtual reality experience that is nothing short of amazing. </p> 
+    </div> 
+   </div> 
+   <!-- // .nvidia-info --> 
+   <div class="section products full-width"> 
+    <div class="product-item g11cd"> 
+     <h3 class="title">ASUS G11CD</h3> 
+     <div class="decp"> 
+      <ul> 
+       <li> Blazing gaming performance 
+        <div class="detail">
+          6th-gen Intel® Core™ i7 processor 
+         <br> NVIDIA® GeForce® GTX™ graphics 
+         <br> DDR4 /USB 3.1 for superfast data access 
+        </div> </li> 
+       <li> Designed for gamers, optimized for everyone 
+        <div class="detail">
+          Customizable 8-million color LED effects with pulse mode 
+         <br> Advanced design with Mayan-inspired detailing 
+        </div> </li> 
+       <li> Enhanced gaming features 
+        <div class="detail">
+          GameAlive feature lets you record, edit, and share gameplay videos 
+         <br> SonicMaster-optimized gaming audio 
+        </div> </li> 
+      </ul> 
+      <a href="http://www.asus.com/us/Tower-PCs/G11CD-Oculus-Ready/" class="learn-more btn" target="_blank"> learn more </a> 
+      <a href="http://store.asus.com/us-oculus-program/item/201602AM170000005/A41209" class="learn-more btn" target="_blank"> buy at asus </a> 
+      <ul>
+       <br> 
+       <li style="list-style-type:none;"> Other retailers </li> 
+      </ul> 
+      <a href="http://www.amazon.com/Oculus-Rift-Certified-G11CD-WS51-Desktop-Bundle/dp/B01BHFI4XG" class="learn-more btn" target="_blank"> amazon </a> 
+      <a href="http://www.bestbuy.com/site/clp/oculus-rift-vr-offer/pcmcat748301736879.c?id=pcmcat748301736879" class="learn-more btn" target="_blank"> best buy </a> 
+      <a href="http://www.microsoftstore.com/store/msusa/en_US/pdp/Oculus-Rift-VR-Headset-+-ASUS-G11CD-Signature-Edition-Desktop-Bundle/productID.334533900" class="learn-more btn" target="_blank"> microsoft </a> 
+     </div> 
+    </div> 
+    <!-- // .g11cd --> 
+    <div class="product-item g20cb"> 
+     <h3 class="title">ROG G20CB</h3> 
+     <div class="decp"> 
+      <ul> 
+       <li> Powerful Gaming Performance 
+        <div class="detail">
+          9.5-liter chassis with a 6th-gen Intel® Core™ i7 processor and NVIDIA® GeForce® GTX™ graphics 
+        </div> </li> 
+       <li> Designed for Gamers 
+        <div class="detail">
+          Customizable 8-million-color LED effects with audio sync 
+         <br> GameAlive for custom shareable gameplay videos 
+        </div> </li> 
+       <li> Non-Stop Gaming 
+        <div class="detail">
+          Effective heat management for ultimate stability 
+         <br> Ultra-quiet 22dB performance at idle 
+        </div> </li> 
+      </ul> 
+      <a href="http://www.asus.com/us/Tower-PCs/ROG-G20CB-Oculus-Ready/" class="learn-more btn" target="_blank"> learn more </a> 
+      <a href="http://store.asus.com/us/category/A43104" class="learn-more btn" target="_blank"> buy at asus </a> 
+      <ul>
+       <br> 
+       <li style="list-style-type:none;"> Other retailers </li> 
+      </ul> 
+      <a href="http://www.amazon.com/Oculus-Rift-Ready-G20CB-WS51-Desktop-Bundle/dp/B01BHN1OMQ/ref=sr_1_2?s=videogames&amp;ie=UTF8&amp;qid=1455664743&amp;sr=1-2&amp;keywords=oculus+rift+%2B+g20" class="learn-more btn" target="_blank"> amazon </a> 
+      <a href="http://www.bestbuy.com/site/clp/oculus-rift-vr-offer/pcmcat748301736879.c?id=pcmcat748301736879" class="learn-more btn" target="_blank"> best buy </a> 
+     </div> 
+    </div> 
+    <!-- // .g20cb --> 
+   </div> 
+   <!-- // .products --> 
+   <!--2016/02/04--> 
+   <style>
+		.spec{width:70%; margin:0 auto}
+		.spec-title{font-family: 'ROGFonts';color: #ac0d15;font-size:4em; text-align:center}
+		.spec img{ width:100%}
+		.question{ font-family: "Xolonium";text-align:center;letter-spacing: 0.1em;font-size: 1.25em;margin-bottom: 0.4em; cursor:pointer}
+		.answer{font-size: 1em;color: #707070;text-align:center;line-height: 1.5em;background: #131212; padding:2.5em }
+		@media all and (max-width:415px){
+			.spec{width:100%;}
+			}
+        
+        </style> 
+   <div class="spec"> 
+    <h3 class="spec-title">SPECIFICATIONS</h3> 
+    <img src="public/images/spec.jpg" alt=""> 
+   </div> 
+   <!--Q&A--> 
+   <script type="text/javascript" src="public/javascripts/jquery.min.js"></script> 
+   <script type="text/javascript">
+			$(function(){
+				$('#qaContent ul.accordionPart li div.qa_title').hover(function(){
+					$(this).addClass('qa_title_on');
+				}, function(){
+					$(this).removeClass('qa_title_on');
+				}).click(function(){
+					$(this).next('div.qa_content').slideToggle();
+				}).siblings('div.qa_content').hide();
+		
+				$('#qaContent ul.accordionPart li div.qa_content:first').show();
+			});
+        </script> 
+   <style>
+        </style> 
+   <h3 class="spec-title">FAQ</h3> 
+   <div id="qaContent"> 
+    <ul class="accordionPart"> 
+     <!--Q1--> 
+     <li> 
+      <div class="qa_title question">
+       Is the Oculus preorder discount applicable to other ASUS systems?
+      </div> 
+      <div class="qa_content answer">
+        No. The Oculus preorder discount is only for systems that are certified Oculus Ready. 
+      </div> </li> 
+     <!--Q2--> 
+     <li> 
+      <div class="qa_title question">
+       What are Oculus Ready (tested and certified) PCs?
+      </div> 
+      <div class="qa_content answer">
+        ASUS’s Oculus Ready PCs have been stringently tested by Oculus and feature exclusive shortcuts that direct you to the latest Oculus Rift drivers and supporting files available for download. These Oculus Ready PCs even feature customizable Oculus Blue lighting. 
+      </div> </li> 
+     <!--Q3--> 
+     <li> 
+      <div class="qa_title question">
+       Will ASUS sell the Oculus Rift headset?
+      </div> 
+      <div class="qa_content answer">
+        The Oculus Rift headset is only available for purchase on Oculus.com. 
+      </div> </li> 
+     <!--Q4--> 
+     <li> 
+      <div class="qa_title question">
+       How do I get my Oculus Ready PC discount?
+      </div> 
+      <div class="qa_content answer">
+        Step 1: Preorder your Oculus Rift at Oculus.com. When prompted, register your interest with ASUS. 
+       <br> Step 2: From 16th February, 2016, you will receive an email from Oculus if you’ve successfully preordered your Oculus Rift. This email contains a secure link directing you to the ASUS Verification Page.
+       <br> Step 3: You can log in to your ASUS account (or sign up for one) on the ASUS Verification Page.
+       <br> Step 4: ASUS will verify your Oculus Rift preorder, and will redirect you to the ASUS Oculus Ready PC order page. 
+       <br> Step 5: Access the ASUS store to purchase your Oculus Ready ASUS PC at a discounted price. 
+       <br> 
+       <span style="margin-top:1%; display:block; font-size: 0.7em;">* Feb 16 pre-order date is only applicable in the U.S. For other regions, please check with your local ASUS representative for more information." </span> 
+      </div> </li> 
+     <!--Q5--> 
+     <li> 
+      <div class="qa_title question">
+       When will the Oculus Rift preorder promotion end?
+      </div> 
+      <div class="qa_content answer">
+        It ends 30th April, 2016. 
+      </div> </li> 
+    </ul> 
+   </div> 
+   <div class="section highlight-info"> 
+    <p class="depiction"><span style="margin-top:2%; display:block; font-size: 0.7em;">* Oculus Ready PCs are only available in select regions, please check with your local ASUS representative for exact offers</span><br> </p> 
+    <span style="display: block; font-size: 1em; color: #707070; text-align: center;line-height: 1.5em; padding: 2.5em;">© ASUSTeK Computer Inc. All rights reserved. Intel, the Intel Logo, Intel Inside, Intel Core, and Core Inside are trademarks of Intel Corporation in the U.S. and/or other countries.</span> 
+   </div> 
+  </div>
+  <!--#--> 
+  <div class="preload-block" style="display:none;"> 
+   <div id="uitox-login-sussess" class="box-wrapper"> 
+    <div class="box-inner"> 
+     <div class="box-header">
+       THANK YOU! 
+     </div> 
+     <div class="box-content"> 
+      <div class="info">
+        Hi bob_chen, 
+       <br> Thank you for participating in ASUS gaming special program. Your access for the exclusive discount has been sent to your email address. 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="login-sussess" class="box-wrapper"> 
+    <div class="box-inner"> 
+     <div class="box-header">
+       THANK YOU! 
+     </div> 
+     <div class="box-content"> 
+      <div class="info">
+        Hi bob_chen, 
+       <br> Thank you for participating in ASUS gaming special program. Here is your link for the exclusive discount, you can click to buy. 
+      </div> 
+      <a href="#" class="box-btn rog-base-btn">Enter</a> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="login-fail" class="box-wrapper"> 
+    <div class="box-inner"> 
+     <div class="box-header">
+       SORRY! 
+     </div> 
+     <div class="box-content"> 
+      <div class="info">
+        Your email address is not qualified for entering the VIP store. Please make sure the email address is the same with the one you were using on pre-ordering Oculus Rift VR goggles. 
+      </div> 
+      <a href="#" class="box-btn rog-base-btn">Back to Homepage</a> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <script type="text/javascript">
+    window.ASUSInit = function () {
+        asus_api.init({ appkey: 'micro00001', lang: 'US', api_background: 'general_black' });
+    };
+    (function (d) {
+        var js, id = 'asus-jsapi';
+        if (d.getElementById("asus-jsapi")) { return; }
+        js = d.createElement('script');
+        js.id = id;
+        js.async = true;
+        js.src = "//www.asus.com/API/js/asus_api.js";
+        d.getElementsByTagName('head')[0].appendChild(js);
+    }(document));
+</script> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+  <script>if (typeof jQuery === 'undefined') {
+    document.write(unescape('%3Cscript%20src%3D%22/public/vendor/jquery/jquery-1.10.2.min.js%22%3E%3C/script%3E'));
+}
+</script> 
+  <script src="public/vendor/jQuery-Selectric/public/jquery.selectric.min.js"></script> 
+  <script src="public/vendor/colorbox-master/jquery.colorbox-min.js"></script> 
+  <script src="public/javascripts/main.js"></script>  
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NJRLM8');</script> 
+  <!-- End Google Tag Manager -->  
+ </body>
+</html>

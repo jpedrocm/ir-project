@@ -1,0 +1,1349 @@
+<!doctype html>
+<!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">-->
+<html id="ctl00_HtmlTag" xmlns="http://www.w3.org/1999/xhtml" lang="sk-SK">
+ <head id="ctl00_Head1">
+  <!--Info:H-Q-113-->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta name="Description" content="Spoločnosť ASUS je jedným z TOP 3 výrobcov notebookov a tvorca najpredávanejších a najúspešnejších základných dosiek na svete. Spoločnosť ASUS sa zaviazala prinášať kvalitu a inovácie, a tiež preto v roku 2013 získala 4&nbsp;256 ocenení a vo svojom odvetví dosiahla veľké uznanie zásluhou revolučného počítača Eee PC™. Tržby spoločnosti za rok 2011 dosiahli takmer 11,9 miliardy amerických dolárov."> 
+  <meta name="Keywords" content="ASUS"> 
+  <meta id="ctl00_wmx_websiteid" content="Slovakia">
+  <meta id="ctl00_wmx_engagement" content="wmx_L1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="author">
+  <meta name="msvalidate.01" content="34DA1E6382CC8063A22EB8CAEEF605A4">
+  <meta property="fb:app_id" content="1203272286366350">
+  <!--6MASl0v7BwmZydwuBYgNDg==-->
+  <link rel="canonical" href="https://www.asus.com/sk/">
+  <script>var isProductPage = ''; var addthis_settingLanguaheConfig='sk';var in_page = 'Index'; var tracking_country = 'Slovakia';var EntryPageCookie = '1';var newVersionMenu = '1';</script>
+  <title>
+	ASUS Slovensko
+</title>
+  <!--[if lt IE 7 ]> <meta content='0; url=/sk/BrowserInfo.htm' http-equiv='refresh' /> <![endif]-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700" rel="stylesheet" type="text/css"> 
+  <script>
+        if (window.location.host == "www.asus.com.cn") {
+            !window.jQuery && document.write(unescape('%3Cscript src="/js/web/jquery.js"%3E%3C/script%3E'))
+        }
+        else {
+            document.write(unescape('%3Cscript src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"%3E%3C/script%3E'));
+        }
+    </script> 
+  <script>
+        if (window.location.host != "www.asus.com.cn") {
+            !window.jQuery && document.write(unescape('%3Cscript src="/js/web/jquery.js"%3E%3C/script%3E'))
+        }
+    </script> 
+  <link rel="stylesheet" type="text/css" media="all" href="/css/2015/reset.css">
+  <link href="/css/2015/dist/base.css" rel="stylesheet">
+  <link href="/css/2015/dist/base_responsive.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="all" href="/css/2015/main.css"> 
+  <!-- Le fav and touch icons --> 
+  <link rel="shortcut icon" href="/media/img/favicon.ico"> 
+  <!--<link rel="apple-touch-icon" href="/media/img/apple-touch-icon.png" /><link rel="apple-touch-icon" sizes="72x72" href="/media/img/apple-touch-icon-72x72.png" /><link rel="apple-touch-icon" sizes="114x114" href="/media/img/apple-touch-icon-114x114.png" />--> 
+  <script src="/js/web/dist/asus.min.js"></script> 
+  <script type="text/javascript" src="/js/web/XML.js"></script> 
+  <script type="text/javascript" src="/js/web/dist/default.min.js"></script> 
+  <script src="/js/web/asus-setting.js"></script> 
+  <script src="/js/web/dist/bootstrap.min.js"></script> 
+  <!--<script type="text/javascript" src="/js/web/jquery.bt.min.js"></script>--> 
+  <script type="text/javascript" src="/js/2015/dist/main.min.js"></script> 
+  <!--[if lt IE 9]>
+    <script src="/js/web/html5.js"></script>
+    <script src="/js/web/respond.js"></script>
+    <link rel="stylesheet" type="text/css" media="all" href="/css/2015/ie-fix.css" />
+ <![endif]--> 
+  <script type="text/javascript">
+        var Global_Tracking_Flag = (getWebsite() == "global" && in_page == "Index") ? "0" : "1";
+        var SecureHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+        var addthis_settingConfig = "";
+        var addthis_settingLanguaheConfig = "";
+        if (getWebsite() == "cafr") {
+            addthis_settingLanguaheConfig = "fr";
+        }
+
+        var cookie_name = "";
+
+        if (isMultipleLanguageWebsite()) {
+            var strLang = querySt('Lang');
+            if (strLang != '') {
+                add_cookie('Lang', strLang);
+            }
+        }
+        
+        function setClickRelationIdCookie(ProductGroup_RelationId) {
+            if (!getcookiedata("ProductGroup_RelationId")) {
+                add_cookie('ProductGroup_RelationId', ProductGroup_RelationId);
+            }
+            else {
+                document.cookie = "ProductGroup_RelationId = '' ;path=/;domain=.asus.com;";
+                add_cookie('ProductGroup_RelationId', ProductGroup_RelationId);
+            }
+        }
+        
+        function setBusinessCookie(type) {
+            if (!getcookiedata("BuinsessCookie")) {
+                add_cookie("isBusiness", type);
+            }
+            else {
+                document.cookie = "BuinsessCookie = '' ;path=/;domain=.asus.com;";
+                add_cookie("isBusiness", type);
+            }
+        }
+
+   
+        
+
+        if (getWebsite() != "cn") {
+            (function() {
+                var sc = document.createElement("script"); sc.type = "text/javascript";
+                sc.src = "//apis.google.com/js/plusone.js";
+                var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(sc, s);
+            })();
+        }
+   </script> 
+  <link href="/css/2015/dist/APIs.css" rel="stylesheet">
+  <link href="/css/2015/dist/full_style.css" rel="stylesheet">
+  <script src="/js/web/asus_script.js"></script>
+  <link id="ctl00_localcss" rel="stylesheet" type="text/css"> 
+  <style>
+        iframe[name="google_conversion_frame"] {display: none;}
+        #main-product-nav div { display:none; }
+        #main-search,#main-product-nav { height:auto; }
+   </style> 
+  <script language="javascript">
+    if (tracking_country != "" && Global_Tracking_Flag == "1") {
+        var _wmxq = _wmxq || [];
+        _wmxq.push(["_getTracker", tracking_country, "website", "etrk.asus.com"]); _wmxq.push(["trackPageview"]);
+        (function() {
+            var sc = document.createElement("script"); sc.type = "text/javascript"; sc.async = true;
+            sc.src = ("https:" == document.location.protocol ? "https:" : "http:") + "//etrk.asus.com/web_service/TrackingJS/wmxtracker.js";
+            var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(sc, s);
+        })();
+    }
+</script> 
+  <script>
+    function ButtonTrk(level, product, type, detail_info) {
+        if (tracking_country != "") {
+            var _item = _item || [];
+            _item.push("1=" + tracking_country);
+            _item.push("2=" + level);
+            _item.push("5=" + product);
+            _item.push("6=" + type);
+            _item.push("7=" + detail_info);
+            try {
+                wmx_BtnTrack(_item);
+            }
+            catch (err) { }
+        }
+    }
+</script> 
+  <script type="application/ld+json">{ "@context": "http://schema.org", "@type": "WebSite", "url": "http://www.asus.com/sk/", "potentialAction": { "@type": "SearchAction", "target": "http://www.asus.com/sk/Search/?SearchKey={search_term}", "query-input": "required name=search_term" } }</script> 
+  <script>
+    if (getWebsite() == "cn") {
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?b4671500ff917b268437ff5be30c0ff0";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    }
+
+</script> 
+ </head> 
+ <body class="landingPage"> 
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({ 'gtm.start':
+new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+'//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NJRLM8');</script> 
+  <!-- End Google Tag Manager --> 
+  <div class="aai-point-bar"> 
+   <div class="aai-pb-inner"> 
+    <div class="aai-more-point"> 
+     <i id="dropMsg" class="aai-circle-num"></i> 
+    </div> 
+   </div> 
+  </div> 
+  <form name="aspnetForm" method="post" action="Rewrite.aspx" id="aspnetForm"> 
+   <div> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUBMA9kFgJmD2QWAmYPFgIeBGxhbmcFBXNrLVNLFgRmD2QWEmYPFgIeBFRleHQFEzwhLS1JbmZvOkgtUS0xMTMtLT5kAg0PFgIfAQU4PG1ldGEgcHJvcGVydHk9ImZiOmFwcF9pZCIgY29udGVudD0iMTIwMzI3MjI4NjM2NjM1MCIgLz5kAg4PFgIfAQUfPCEtLTZNQVNsMHY3QndtWnlkd3VCWWdORGc9PS0tPmQCDw8WAh8BBTg8bGluayByZWw9ImNhbm9uaWNhbCIgaHJlZj0iaHR0cHM6Ly93d3cuYXN1cy5jb20vc2svIiAvPmQCEA8WAh8BBbwBPHNjcmlwdD52YXIgaXNQcm9kdWN0UGFnZSA9ICcnOyB2YXIgYWRkdGhpc19zZXR0aW5nTGFuZ3VhaGVDb25maWc9J3NrJzt2YXIgaW5fcGFnZSA9ICdJbmRleCc7IHZhciB0cmFja2luZ19jb3VudHJ5ID0gJ1Nsb3Zha2lhJzt2YXIgRW50cnlQYWdlQ29va2llID0gJzEnO3ZhciBuZXdWZXJzaW9uTWVudSA9ICcxJzs8L3NjcmlwdD5kAhIPFgIfAQViPCEtLVtpZiBsdCBJRSA3IF0+IDxtZXRhIGNvbnRlbnQ9JzA7IHVybD0vc2svQnJvd3NlckluZm8uaHRtJyBodHRwLWVxdWl2PSdyZWZyZXNoJyAvPiA8IVtlbmRpZl0tLT5kAhQPFgIfAQVxPGxpbmsgaHJlZj0iaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PVJvYm90bzo0MDAsMTAwLDMwMCw1MDAsNzAwIiByZWw9InN0eWxlc2hlZXQiIHR5cGU9InRleHQvY3NzIj5kAiQPFgIfAQWgATxsaW5rIGhyZWY9Ii9jc3MvMjAxNS9kaXN0L0FQSXMuY3NzIiByZWw9InN0eWxlc2hlZXQiPjxsaW5rIGhyZWY9Ii9jc3MvMjAxNS9kaXN0L2Z1bGxfc3R5bGUuY3NzIiByZWw9InN0eWxlc2hlZXQiPjxzY3JpcHQgc3JjPSIvanMvd2ViL2FzdXNfc2NyaXB0LmpzIj48L3NjcmlwdD5kAikPFgIfAQWlAjxzY3JpcHQgdHlwZT0iYXBwbGljYXRpb24vbGQranNvbiI+eyAiQGNvbnRleHQiOiAiaHR0cDovL3NjaGVtYS5vcmciLCAiQHR5cGUiOiAiV2ViU2l0ZSIsICJ1cmwiOiAiaHR0cDovL3d3dy5hc3VzLmNvbS9zay8iLCAicG90ZW50aWFsQWN0aW9uIjogeyAiQHR5cGUiOiAiU2VhcmNoQWN0aW9uIiwgInRhcmdldCI6ICJodHRwOi8vd3d3LmFzdXMuY29tL3NrL1NlYXJjaC8/U2VhcmNoS2V5PXtzZWFyY2hfdGVybX0iLCAicXVlcnktaW5wdXQiOiAicmVxdWlyZWQgbmFtZT1zZWFyY2hfdGVybSIgfSB9PC9zY3JpcHQ+ZAIDD2QWBgIBD2QWAmYPZBYCZg9kFgJmDxYCHwEFdDxzY3JpcHQ+c3RyTGFuZyA9ICdzay1zayc7c3RyUmVnaXN0ZXI9J1ByaWhsw6FzacWlIHNhJzt2YXIgc3RyTG9naW4gPSAnUFJJSEzDgVNFTklFJzt2YXIgU2hvd01pbmlDYXJ0ID0gJzEnPC9zY3JpcHQ+ZAIDD2QWAmYPZBYEAgEPZBYGAgEPFgIfAQXvCi50XzE0NzYzMjg1NTc1NTkgLml0ZW0tMXttYXJnaW4tdG9wOiAxMjBweCAhaW1wb3J0YW50O30KLnRfMTQ3NjMyODU1NzU1OSAuaXRlbS0ye21hcmdpbi10b3A6IC00MHB4ICFpbXBvcnRhbnQ7fQoudF8xNDc2MzI4NTU3NTU5IC5pdGVtLTN7Zm9udC1zaXplOiAyZW0gIWltcG9ydGFudDtjb2xvcjogI2ZmZmZmZiAhaW1wb3J0YW50O30KDQoudF8xNDY1NzEzMTk1MzE2IC5pdGVtLTF7ZGlzcGxheTogbm9uZTt9Ci50XzE0NjU3MTMxOTUzMTYgLml0ZW0tMntmb250LXNpemU6IDJlbSAhaW1wb3J0YW50O21hcmdpbi10b3A6IC0zMHB4ICFpbXBvcnRhbnQ7Y29sb3I6ICNmZmZmZmYgIWltcG9ydGFudDt9Ci50XzE0NjU3MTMxOTUzMTYgLml0ZW0tM3tmb250LXNpemU6IDEuM2VtICFpbXBvcnRhbnQ7bWFyZ2luLXRvcDogNTBweCAhaW1wb3J0YW50O2NvbG9yOiAjZmZmZmZmICFpbXBvcnRhbnQ7fQpAbWVkaWEgKG1heC13aWR0aDogMTE3MHB4KXsKLnRfMTQ2NTcxMzE5NTMxNiAuaXRlbS0xe2Rpc3BsYXk6IG5vbmU7fQoudF8xNDY1NzEzMTk1MzE2IC5pdGVtLTJ7Zm9udC1zaXplOiAxLjhlbSAhaW1wb3J0YW50O2NvbG9yOiAjZmZmZmZmICFpbXBvcnRhbnQ7fQoudF8xNDY1NzEzMTk1MzE2IC5pdGVtLTN7Zm9udC1zaXplOiAxLjVlbSAhaW1wb3J0YW50O21hcmdpbi10b3A6IDMwcHggIWltcG9ydGFudDtjb2xvcjogI2ZmZmZmZiAhaW1wb3J0YW50O30KfQpAbWVkaWEgKG1heC13aWR0aDogNzIwcHgpewoudF8xNDY1NzEzMTk1MzE2IC5pdGVtLTF7ZGlzcGxheTogbm9uZTt9Ci50XzE0NjU3MTMxOTUzMTYgLml0ZW0tMntmb250LXNpemU6IDEuOGVtICFpbXBvcnRhbnQ7Y29sb3I6ICNmZmZmZmYgIWltcG9ydGFudDt9Ci50XzE0NjU3MTMxOTUzMTYgLml0ZW0tM3tmb250LXNpemU6IDEuMWVtICFpbXBvcnRhbnQ7Y29sb3I6ICNmZmZmZmYgIWltcG9ydGFudDt9Cn0KDQoudF8xNDY3MTgzNjUwODUyIC5pdGVtLTV7fQoudF8xNDY3MTgzNjUwODUyIC5pdGVtLTZ7fQoudF8xNDY3MTgzNjUwODUyIC5pdGVtLTd7fQoudF8xNDY3MTgzNjUwODUyIC5pdGVtLTh7bWFyZ2luLXRvcDogLTIwcHggIWltcG9ydGFudDt9Cg0KLnRfMTQ3NTIwODg5NjQ1MyAuaXRlbS0xe2Rpc3BsYXk6IG5vbmU7fQoudF8xNDc1MjA4ODk2NDUzIC5pdGVtLTJ7bWFyZ2luLWxlZnQ6IC03NXB4ICFpbXBvcnRhbnQ7Y29sb3I6ICNmZmZmZmYgIWltcG9ydGFudDt9Ci50XzE0NzUyMDg4OTY0NTMgLml0ZW0tM3tmb250LXNpemU6IDIuMmVtICFpbXBvcnRhbnQ7bWFyZ2luLXRvcDogNDVweCAhaW1wb3J0YW50O21hcmdpbi1sZWZ0OiAtNDBweCAhaW1wb3J0YW50O2NvbG9yOiAjZmZmZmZmICFpbXBvcnRhbnQ7fQoudF8xNDc1MjA4ODk2NDUzIC5pdGVtLTR7ZGlzcGxheTogbm9uZTt9Cg0KZAIDDxYCHwEFOjxsaW5rIGhyZWY9Ii93ZWJzaXRlcy9zay9jc3MvYmFubmVyLmNzcyIgcmVsPSJzdHlsZXNoZWV0Ij5kAgUPFgIfAQX2LzxzZWN0aW9uIGNsYXNzPSJhZi1wYXJ0IGxheW91dC1iYXNlIGFmLWhlcm8gaGVyby1sYXlvdXQtMiAgdF8xNDc2MzI4NTU3NTU5IiBzdHlsZT0iYmFja2dyb3VuZC1pbWFnZTogdXJsKC9tZWRpYS9TSy9iYW5uZXJzL1ltSlRoOE11VGE0d0J2aXYvWW1KVGg4TXVUYTR3QnZpdi0wLmpwZyk7Ij4gICAgICAgICAgICAgICAgICAgIDxhIGNsYXNzPSJsaW5rLWFyZWEiIGhyZWY9Imh0dHBzOi8vd3d3LmFzdXMuY29tL3NrL1Bob25lL1plbkZvbmUtMy1aRTUyMEtMLyIgdGFyZ2V0PSIiIGFsdD0iIiB0aXRsZT0iWmVuRm9uZS0zLVpFNTIwS0wiIGRhdGEtdHJhY2s9ImJhbm5lci1tYWluIiBvbmNsaWNrPSJHQUJhbm5lclRyYWNrRXZlbnQodGhpcyk7cmV0dXJuIGZhbHNlOyI+WmVuRm9uZS0zLVpFNTIwS0w8L2E+ICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJpbm5lciI+ICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJncm91cC1ibG9jayBncm91cC0xIF9leCAiPiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iaXRlbSBjb3Zlci1pbWFnZSBjZW50ZXIgcGljIGl0ZW0tMSI+PGltZyBzcmM9Ii9tZWRpYS9TSy9iYW5uZXJzL1ltSlRoOE11VGE0d0J2aXYvWW1KVGg4TXVUYTR3QnZpdi0wLnBuZyIgYWx0PSIiPjwvZGl2PjwvZGl2PiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZ3JvdXAtYmxvY2sgZ3JvdXAtMiBfZXggICI+ICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJpdGVtIHRpdGxlIHBpYyBpdGVtLTIiPjxpbWcgc3JjPSIvbWVkaWEvU0svYmFubmVycy9ZbUpUaDhNdVRhNHdCdml2L1ltSlRoOE11VGE0d0J2aXYtMS5wbmciIGFsdD0iIj48L2Rpdj48ZGl2IGNsYXNzPSJpdGVtIHNsb2dhbiB0ZXh0IGl0ZW0tMyAiPlN0dm9yZW7DvSBwcmUgZG9rb25hbMOpIGZvdG9ncmFmaWU8L2Rpdj48L2Rpdj4gICAgICAgICAgICAgICAgICAgIDwvZGl2PiAgICAgICAgICAgICAgICAgICAgPC9zZWN0aW9uPg0KPHNlY3Rpb24gY2xhc3M9ImFmLXBhcnQgbGF5b3V0LWJhc2UgYWYtc2Vjb25kIGxheW91dC0xICB0XzE0NjU3MTMxOTUzMTYiIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiAjMDAwMDAwOyI+DQogICAgICAgICAgICAgICAgICAgICA8YSBjbGFzcz0ibGluay1hcmVhIiBocmVmPSJodHRwOi8vd3d3LmFzdXMuY29tL3NrL0dyYXBoaWNzLUNhcmRzL1JPRy1TVFJJWC1HVFgxMDgwLU84Ry1HQU1JTkcvIiB0YXJnZXQ9IiIgIGFsdD0iUk9HLVNUUklYLUdUWDEwODAtTzhHLUdBTUlORyIgdGl0bGU9IlJPRy1TVFJJWC1HVFgxMDgwLU84Ry1HQU1JTkciIGRhdGEtdHJhY2s9ImJhbm5lci1mb2xkMi1tYWluIiAgb25jbGljaz0iR0FCYW5uZXJUcmFja0V2ZW50KHRoaXMpO3JldHVybiBmYWxzZTsiDQo+Uk9HLVNUUklYLUdUWDEwODAtTzhHLUdBTUlORzwvYT4NCiAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImlubmVyIj4NCiAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9Imdyb3VwLWJsb2NrIGdyb3VwLTEgIF9leCAiPjxkaXYgY2xhc3M9Iml0ZW0gdGl0bGUgdGV4dCAgaXRlbS0xIiA+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNUUklYLVI5MzkwWA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj48ZGl2IGNsYXNzPSJpdGVtIGNlbnRlciBzdW1tYXJ5IHRleHQgIGl0ZW0tMiIgPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBST0cgU1RSSVggR0VGT1JDRTxzdXA+wq48L3N1cD4gPGJyPkdUWCAxMCBTRVJJRVMgDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PjxkaXYgY2xhc3M9Iml0ZW0gc2xvZ2FuIHRleHQgIGl0ZW0tMyIgPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBOw4FTS09LICBQUkVEIEtPTktVUkVOQ0lPVQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZ3JvdXAtYmxvY2sgZ3JvdXAtMiAgIF9leCAiPjxkaXYgY2xhc3M9Iml0ZW0gY292ZXItaW1hZ2UgcGljICBpdGVtLTQiID4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGltZyBzcmM9Ii9tZWRpYS9TSy9iYW5uZXJzL2o4c1c1WGM4M2NWZHBuajQvajhzVzVYYzgzY1ZkcG5qNC0zLmpwZyAiIGFsdD0iIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgPC9zZWN0aW9uPg0KPHNlY3Rpb24gY2xhc3M9ImFmLXBhcnQgYWYtdHdvLWNvbHMgZ3JpZHMgZ3JpZHMgbF9fZ3JpZC0xeDIgc19fZ3JpZC0xIGFmLXRoaXJkICAgdF8xNDY3MTgzNjUwODUyIiAgc3R5bGU9IiI+DQogICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJpbm5lciI+DQogICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJncm91cC1ibG9jayBncm91cC0xIGdyaWQiPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGEgY2xhc3M9ImxpbmstYXJlYSIgaHJlZj0iaHR0cDovL3d3dy5hc3VzLmNvbS9zay9Ob3RlYm9va3MvQVNVUy1aZW5Cb29rLTMtVVgzOTBVQS8iICAgdGFyZ2V0PSIiICAgYWx0PSJVWDM5MFVBIiAgdGl0bGU9IkFTVVMgWmVuQm9vayAzIFVYMzkwVUEiIGRhdGEtdHJhY2s9ImJhbm5lci1mb2xkMi0xIiAgb25jbGljaz0iR0FCYW5uZXJUcmFja0V2ZW50KHRoaXMpO3JldHVybiBmYWxzZTsiPkFTVVMgWmVuQm9vayAzIFVYMzkwVUE8L2E+DQogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJwcm9kdWN0LWluZm8iPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9Imdyb3VwICBfZXggIj48ZGl2IGNsYXNzPSJpdGVtIHRpdGxlIHBpYyAgaXRlbS0xIiA+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPSIvbWVkaWEvU0svYmFubmVycy9tQmdHUm10SXNpWHJrVHRKL21CZ0dSbXRJc2lYcmtUdEotMC5wbmcgIiBhbHQ9IiI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PjxkaXYgY2xhc3M9Iml0ZW0gc2xvZ2FuIHRleHQgIGl0ZW0tMiIgPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBOYWpwcmVzdMOtxb5uZWrFocOtIG5vdGVib29rIG5hIHN2ZXRlIHMgYmV6a29ua3VyZW7EjW5lIHZ5c29rw71tIHbDvWtvbm9tDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PjxkaXYgY2xhc3M9Iml0ZW0gc3VtbWFyeSB0ZXh0ICBpdGVtLTMiID4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PjwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJwcm9kdWN0LWltZyBwaWMgX2V4ICI+PGRpdiBjbGFzcz0iaXRlbSAgcGljICBpdGVtLTQiID4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGltZyBzcmM9Ii9tZWRpYS9TSy9iYW5uZXJzL21CZ0dSbXRJc2lYcmtUdEovbUJnR1JtdElzaVhya1R0Si0zLnBuZyAiIGFsdD0iIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+PC9kaXY+DQogICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9Imdyb3VwLWJsb2NrIGdyb3VwLTIgZ3JpZCI+DQogICAgICAgICAgICAgICAgICAgICAgICA8YSBjbGFzcz0ibGluay1hcmVhIiBocmVmPSJodHRwOi8vd3d3LmFzdXMuY29tL3NrLzItaW4tMS1QQ3MvQVNVUy1UcmFuc2Zvcm1lci0zLVByby1UMzAzVUEvIiAgIHRhcmdldD0iIiAgIGFsdD0iVDMwNUNBIiAgdGl0bGU9IkFTVVMgVHJhbnNmb3JtZXIgMyBQcm8gVDMwM1VBIiBkYXRhLXRyYWNrPSJiYW5uZXItZm9sZDItMiIgIG9uY2xpY2s9IkdBQmFubmVyVHJhY2tFdmVudCh0aGlzKTtyZXR1cm4gZmFsc2U7Ij5BU1VTIFRyYW5zZm9ybWVyIDMgUHJvIFQzMDNVQTwvYT4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InByb2R1Y3QtaW5mbyI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZ3JvdXAgIF9leCAiPjxkaXYgY2xhc3M9Iml0ZW0gdGl0bGUgcGljICBpdGVtLTUiID4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGltZyBzcmM9Ii9tZWRpYS9TSy9iYW5uZXJzL21CZ0dSbXRJc2lYcmtUdEovbUJnR1JtdElzaVhya1R0Si00LnBuZyAiIGFsdD0iIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+PGRpdiBjbGFzcz0iaXRlbSBzbG9nYW4gdGV4dCAgaXRlbS02IiA+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIE5hanbFoWVzdHJhbm5lasWhw60gcG/EjcOtdGHEjSBuYSBzdmV0ZS4gPGJyPlbDvWtvbm7DvS4gUHJha3RpY2vDvS4gUm96xaHDrXJpdGXEvm7DvS4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+PGRpdiBjbGFzcz0iaXRlbSBzdW1tYXJ5IHRleHQgIGl0ZW0tNyIgPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICANCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+PC9kaXY+DQogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InByb2R1Y3QtaW1nIHBpYyBfZXggIj48ZGl2IGNsYXNzPSJpdGVtICBwaWMgIGl0ZW0tOCIgPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW1nIHNyYz0iL21lZGlhL1NLL2Jhbm5lcnMvbUJnR1JtdElzaVhya1R0Si9tQmdHUm10SXNpWHJrVHRKLTcucG5nICIgYWx0PSIiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj48L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgICA8L3NlY3Rpb24+DQo8c2VjdGlvbiBjbGFzcz0iYWYtcGFydCBsYXlvdXQtYmFzZSAgbGF5b3V0LTMgICB0XzE0NzUyMDg4OTY0NTMiIHN0eWxlPSJiYWNrZ3JvdW5kLWltYWdlOiB1cmwoL21lZGlhL1NLL2Jhbm5lcnMvQzBaeW14MHVrQVVKT3FqUy9DMFp5bXgwdWtBVUpPcWpTLTAuanBnKTsiPiAgICAgICAgICAgICAgICAgICAgIDxhIGNsYXNzPSJsaW5rLWFyZWEiIGhyZWY9Imh0dHA6Ly93d3cuYXN1cy5jb20vc2svbW90aGVyYm9hcmRzLyIgdGFyZ2V0PSIiIGFsdD0iIiB0aXRsZT0iWsOBS0xBRE7DgSBET1NLQSBSQURVIFg5OSBTSUdOQVRVUkUiIGRhdGEtdHJhY2s9ImJhbm5lci1mb2xkMy1tYWluIiBvbmNsaWNrPSJHQUJhbm5lclRyYWNrRXZlbnQodGhpcyk7cmV0dXJuIGZhbHNlOyI+WsOBS0xBRE7DgSBET1NLQSBSQURVIFg5OSBTSUdOQVRVUkU8L2E+ICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iaW5uZXIiPiAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9Imdyb3VwLWJsb2NrIGdyb3VwLTEgIF9leCAiPiAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9Iml0ZW0gdGl0bGUgcGljIGl0ZW0tMSI+PGltZyBzcmM9InB1YmxpYy9pbWFnZXMvcHJvZHVjdHMvdXgtMzA1LWxvZ28ucG5nIiBhbHQ9IiI+PC9kaXY+PGRpdiBjbGFzcz0iaXRlbSBzdW1tYXJ5IHRleHQgaXRlbS0yICI+WsOBS0xBRE7DgSBET1NLQSBSQURVIFg5OSBTSUdOQVRVUkU8L2Rpdj48ZGl2IGNsYXNzPSJpdGVtIHNsb2dhbiB0ZXh0IGl0ZW0tMyAiPlBSRUJVxI5URSBTS1VUT8SMTsOdIFbDnUtPTiBSQURVIFg5OTwvZGl2PjwvZGl2PiAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9Imdyb3VwLWJsb2NrIGdyb3VwLTIgIF9leCAiPiAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9Iml0ZW0gY292ZXItaW1hZ2UgY2VudGVyIHBpYyBpdGVtLTQiPjxpbWcgc3JjPSJwdWJsaWMvaW1hZ2VzL3Byb2R1Y3RzL3plbmJvb2sucG5nIiBhbHQ9IiI+PC9kaXY+PC9kaXY+ICAgICAgICAgICAgICAgICAgICAgPC9kaXY+ICAgICAgICAgICAgICAgICAgICAgPC9zZWN0aW9uPg0KZAIDD2QWAgIBDxYCHgtfIUl0ZW1Db3VudAICFgQCAQ9kFgJmDxUHATEfaHR0cDovL3d3dy5hc3VzLmNvbS9zay9zdXBwb3J0LwZfYmxhbmsHUG9kcG9yYQdQb2Rwb3JhFUNIQ0VNRSBWw4FNIFBPTcOUQ8WkIR8vbWVkaWEvZ2xvYmFsL1B1c2hUb0J1eS81X24uanBnZAICD2QWAmYPFQcBMjxodHRwczovL2FjY291bnQuYXN1cy5jb20vcHJvZHVjdF9yZWcuYXNweD9sYW5nPXNrLXNrJnNpdGU9c2sGX2JsYW5rFVJlZ2lzdHLDoWNpYSB2w71yb2JrdRVSZWdpc3Ryw6FjaWEgdsO9cm9ia3UmVHUgc2kgemFyZWdpc3RydWp0ZSBzdm9qIOKAi+KAi3Byb2R1a3QfL21lZGlhL2dsb2JhbC9QdXNoVG9CdXkvNl9uLmpwZ2QCBQ9kFgJmD2QWEGYPFgIfAgIEFggCAQ9kFgJmDxUDLGh0dHBzOi8vYXN1c3Byb21vdGlvbnMuY29tL3NrL3NrL3JlbGlhYmlsaXR5Bl9ibGFuawpBU1VTIEJBTktBZAICD2QWAmYPFQMsaHR0cDovL3d3dy5hc3VzLmNvbS9zay9OZXdzL3gwZmJ2Q0JLRHdheDB6b0sGX2JsYW5rC0FTVVMgZXZlbnR5ZAIDD2QWAmYPFQMaaHR0cDovL3d3dy5hc3VzLXNvdXRlei5jei8GX2JsYW5rCVPDusWlYcW+ZWQCBA9kFgJmDxUDG2h0dHA6Ly9oZWFsdGhjYXJlLmFzdXMuY29tLwZfYmxhbmsPQVNVUyBIZWFsdGhDYXJlZAIBDxYCHwEF/gMgDQogICAgICAgICAgICAgICAgPGxpIGNsYXNzPSJuYXZiYXItbGkiPjxhIGhyZWY9Ii9zay9Bd2FyZC9Bd2FyZD8mQXJlYT1TTE9WQUtJQSIgaWQ9Im1lbnVfYXdhcmRzIiB0YXJnZXQ9Il9zZWxmIiBvbmNsaWNrPSJnb29nbGVUcmFja0V2ZW50KCdpbmRleF9tZW51JywgdGhpcywgdHJ1ZSk7cmV0dXJuIGZhbHNlOyI+T2NlbmVuaWE8L2E+PC9saT4NCiAgICAgICAgICAgICAgICA8bGkgY2xhc3M9ImRpdmlkZXItdmVydGljYWwiPjwvbGk+DQogICAgICAgICAgICAgICAgPGxpIGNsYXNzPSJuYXZiYXItbGkiPjxhIGhyZWY9Ii9zay9OZXdzLyIgaWQ9Im1lbnVfbmV3cyI+Tm92aW5reTwvYT48L2xpPg0KICAgICAgICAgICAgICAgIDxsaSBjbGFzcz0iZGl2aWRlci12ZXJ0aWNhbCI+PC9saT48bGkgY2xhc3M9Im5hdmJhci1saSI+PGEgaHJlZj0vc2svQWJvdXRfQVNVUy9PcmlnaW5fb2ZfdGhlX05hbWVfQVNVUyBpZD0ibWVudV9hYm91dGFzdXMiPk8gc3BvbG/EjW5vc3RpIEFTVVM8L2E+PC9saT5kAgIPFgIfAgIFFgoCAQ9kFgJmDxUDES9zay9pbnZlc3Rvci5hc3B4BV9zZWxmEkludmVzdG9yc2vDqSBzdHlreWQCAg9kFgJmDxUDJy9zay9BU1VTX1dlYnNpdGVfSW5mb3JtYXRpb24vRW1wbG95bWVudARfdG9wC1phbWVzdG5hbmllZAIDD2QWAmYPFQMeaHR0cDovL2dyZWVuLmFzdXMuY29tL2VuZ2xpc2gvBl9ibGFuaxNHcmVlbkFTVVMgYSBTRVJBU1VTZAIED2QWAmYPFQMpL3NrL0FTVVNfV2Vic2l0ZV9JbmZvcm1hdGlvbi9Db250YWN0X0FTVVMGX2JsYW5rHUtvbnRha3R1anRlIHNwb2xvxI1ub3PFpSBBU1VTZAIFD2QWAmYPFQMWaHR0cDovL3ByZXNzLmFzdXMuY29tLwZfYmxhbmsZTWllc3Rub3PFpSBwcmUgbm92aW7DoXJvdmQCAw8WAh8CAgYWDAIBD2QWAmYPFQNGaHR0cDovL3d3dy5hc3VzLmNvbS9zay9zdXBwb3J0L1JlcGFpci1TdGF0dXMtSW5xdWlyeS8/Y291bnRyeT1TbG92YWtpYQVfc2VsZhlTa29udHJvbG92YcWlIHN0YXYgb3ByYXZ5ZAICD2QWAmYPFQM2aHR0cDovL3d3dy5hc3VzLmNvbS9zay9zdXBwb3J0L1NlcnZpY2UtQ2VudGVyL1Nsb3Zha2lhBV9zZWxmG07DoWpzxaUgc2VydmlzbsOpIHN0cmVkaXNrb2QCAw9kFgJmDxUDPGh0dHBzOi8vYWNjb3VudC5hc3VzLmNvbS9wcm9kdWN0X3JlZy5hc3B4P2xhbmc9c2stc2smc2l0ZT1zawVfc2VsZhVSZWdpc3Ryw6FjaWEgdsO9cm9ia3VkAgQPZBYCZg8VAyNodHRwczovL2V1LXJtYS5hc3VzLmNvbS9waWNrX2V1L2N6LwVfc2VsZhNSZWtsYW1hY2llIGEgb3ByYXZ5ZAIFD2QWAmYPFQM7aHR0cHM6Ly92aXAuYXN1cy5jb20vVklQMi9TZXJ2aWNlcy9RdWVzdGlvbkZvcm0/bGFuZz1zay1zayAFX3NlbGYSTmFww63FoSBuw6FtIGVtYWlsZAIGD2QWAmYPFQMnaHR0cDovL3d3dy5hc3VzLmNvbS9zay9zdXBwb3J0L0NhbGxVcyAgBV9zZWxmDFphdm9sYWogbsOhbWQCBA8WAh8CAgQWCAIBD2QWAmYPFQMgaHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL2FzdXMuY3oIRmFjZWJvb2slL21lZGlhL1NLL2ljb25zL3NvY2lhbG1lZGlhLzI2Nl9uLnBuZ2QCAg9kFgJmDxUDOGh0dHA6Ly93d3cueW91dHViZS5jb20vY2hhbm5lbC9VQzRzenZ0MERsbUpSTW9VTXIyQkNMUncgB1lvdXR1YmUlL21lZGlhL1NLL2ljb25zL3NvY2lhbG1lZGlhLzE4N19uLnBuZ2QCAw9kFgJmDxUDGGh0dHBzOi8vdHdpdHRlci5jb20vQVNVUwdUd2l0dGVyJS9tZWRpYS9TSy9pY29ucy9zb2NpYWxtZWRpYS8yNjdfbi5wbmdkAgQPZBYCZg8VAx1odHRwOi8vcGludGVyZXN0LmNvbS9hc3VzaHEvIAlQaW50ZXJlc3QlL21lZGlhL1NLL2ljb25zL3NvY2lhbG1lZGlhLzI2OF9uLnBuZ2QCBQ8WAh8CZmQCBg8WAh8BBbwBPGEgaHJlZj0iaHR0cDovL3d3dy5hc3VzLmNvbS9lbnRyeS5odG0iIG9uY2xpY2s9Imdvb2dsZVRyYWNrRXZlbnQoJ0NvdW50cnlfTGFuZ19NZW51JywgdGhpcywgdHJ1ZSk7cmV0dXJuIGZhbHNlOyIgdGl0bGU9ImVudHJ5X3BhZ2UiPlNsb3Zha2lhIC8gPHNwYW4gY2xhc3M9Imxhbmdfc2V0Ij4gU2xvdmVuc2tvPC9zcGFuPjwvYT5kAgcPFgIfAgICFgQCAQ9kFgJmDxUDNC9zay9UZXJtc19vZl9Vc2VfTm90aWNlX1ByaXZhY3lfUG9saWN5L09mZmljaWFsLVNpdGUFX3NlbGYWUG9kbWllbmt5IHBvdcW+w612YW5pYWQCAg9kFgJmDxUDNS9zay9UZXJtc19vZl9Vc2VfTm90aWNlX1ByaXZhY3lfUG9saWN5L1ByaXZhY3lfUG9saWN5BF90b3AcT2NocmFuYSBzw7prcm9tbsO9Y2ggw7pkYWpvdmRkfhd8/Aq2k3U4idlD3WGOG/PZkR2I2B+4A3zMSedKg2E="> 
+   </div> 
+   <div class="outer-wrapper"> 
+    <div id="af-container"> 
+     <div id="af-header"> 
+      <div class="af-inner"> 
+       <a class="logo" href="/sk/"></a> 
+       <span class="mobile-menu-toggle"><i class="icon icon-css-menu"></i></span> 
+       <div class="nav-bar"> 
+        <!--Main Menu--> 
+        <div class="main-area"> 
+         <div class="nav-main nav">
+          <ul> 
+           <li data-target="products-menu"><a>Produkty</a></li> 
+           <li data-target="hot-menu"><a>Novinky</a></li> 
+           <li data-target="commercial-menu"><a>Firemný</a></li> 
+           <li data-target="service-menu"><a>Služby</a></li> 
+          </ul> 
+         </div> 
+        </div> 
+        <div class="sub-area"> 
+         <div class="nav-member nav"> 
+          <ul> 
+           <!--member--> 
+           <li class="member-item member-info" data-lang="sk-sk" data-appid="0000000002" data-js-returnurl="asus.url.the_url" data-register="Prihlásiť sa"> <script>strLang = 'sk-sk';strRegister='Prihlásiť sa';var strLogin = 'PRIHLÁSENIE';var ShowMiniCart = '1'</script> <a>PRIHLÁSENIE <i class="icon icon-profile"></i></a> 
+            <div class="sub-block user-profile"> 
+             <div class="user-img"> 
+              <img src="" alt=""> 
+             </div> 
+             <div class="user-name"></div> 
+             <a href="" class="member-center-btn">Konto ASUS</a> 
+             <a href="" class="logout">Odhlásenie</a> 
+            </div> </li> 
+           <!--message--> 
+           <li class="member-item msg-center" style="display:none"> <a title="Message"> <i class="icon icon-msg"></i><span class="count"></span></a> 
+            <div class="sub-block"> 
+             <p class="top-title">Centrum správ</p> 
+             <div class="af-msg-center-group"> 
+              <ul class="sender-list"></ul> 
+             </div> 
+             <div class="af-msg-center-footer"> 
+              <a href="">Zobraziť všetko </a> 
+             </div> 
+            </div> </li> 
+           <!--recently/compare--> 
+           <li id="menu_compare" class="aai-mm-item member-item products-compare"> 
+            <div class="aai-mm-sub aai-mms-list sub-block compare-block"> 
+             <div class="aai-mmst-inner"> 
+              <div class="aai-mst-header"> 
+               <a data-id="viewed-list"></a> 
+              </div> 
+              <!-- Viewed --> 
+              <div class="aai-tls-se " id="viewed-list"> 
+               <div class="aai-tm"> 
+                <ul class="aai-vls"> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                </ul> 
+               </div> 
+              </div> 
+              <!-- Viewed @end --> 
+              <!-- compare --> 
+              <div class="aai-tls-se " id="div_compare_panel"> 
+               <div class="aai-tm"> 
+                <div class="compare_group"></div> 
+               </div> 
+              </div> 
+              <!-- compare @end--> 
+             </div> 
+            </div> </li> 
+           <!-- Shopping Cart--> 
+           <li class="member-item shopcart"> 
+            <div class="sub-block"> 
+             <div class="cart-wrap"> 
+             </div> 
+            </div> </li> 
+          </ul> 
+         </div> 
+         <!--search--> 
+         <div class="search-bar"> 
+          <a class="aai-mm-btn hide"><i class="aai-icons aai-icon-search"></i></a> 
+          <input type="text" class="input-search" id="top-search-bar" name="q" autocomplete="off"> 
+          <input type="text" id="searchinputDefault" class="input-search hide"> 
+          <button class="btn btn-search-submit" onclick="Search();return false;"><i class="icon icon-search"></i></button> 
+          <div class="search-result"></div> 
+         </div> 
+        </div> 
+        <!--Sub Menu--> 
+        <div class="submenu-area">
+         <div class="products-menu submenu"> 
+          <h3 class="title">Produkty</h3> 
+          <ul class="nav"> 
+           <li class="products-item" data-submenu-id="1"><a>Telefón</a></li> 
+           <li class="products-item" data-submenu-id="78"><a>Notebooky a&nbsp;počítače typu 2 v&nbsp;1</a></li> 
+           <li class="products-item" data-submenu-id="155"><a>Tablet</a></li> 
+           <li class="products-item" data-submenu-id="232"><a>Základné dosky</a></li> 
+           <li class="products-item" data-submenu-id="309"><a>Grafické karty</a></li> 
+           <li class="products-item" data-submenu-id="386"><a>Nositeľné zariadenia</a></li> 
+           <li class="products-item" data-submenu-id="463"><a>Stolový počítač a počítače typu All in One</a></li> 
+           <li class="products-item" data-submenu-id="540"><a>Displej</a></li> 
+           <li class="products-item" data-submenu-id="617"><a>Sieťové pripojenie</a></li> 
+           <li class="products-item" data-submenu-id="694"><a>Zvuk</a></li> 
+           <li class="products-item" data-submenu-id="771"><a>Domácnosť a&nbsp;automobil</a></li> 
+           <li class="products-item" data-submenu-id="848"><a>Periférne zariadenie</a></li> 
+           <li class="products-item" data-submenu-id="925"><a>Hranie hier</a></li> 
+          </ul> 
+          <div class="display-area"> 
+           <ul class="sub-products-list sub-cat-list"> 
+            <li class="products-1 sub-item"> <h3 class="origin-title">Telefón</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/sk/Phone/">Telefón</a> </h4>
+              <ul> 
+               <li><a href="/sk/Phone/ZenFone-Products/">Všestranný umelec</a></li> 
+               <li><a href="/sk/Phone/ZenFone-Deluxe-Products/">Špičkový výkon</a></li> 
+               <li><a href="/sk/Phone/ZenFone-Zoom-Products/">Trojnásobný optický zoom</a></li> 
+               <li><a href="/sk/Phone/ZenFone-Selfie-Products/">Dva 13Mpx fotoaparáty</a></li> 
+               <li><a href="/sk/Phone/ZenFone-Laser-Products/">Automatické ostrenie pomocou laseru</a></li> 
+               <li><a href="/sk/Phone/ZenFone-Max-Products/">Extra veľká výdrž batérie</a></li> 
+               <li><a href="/sk/Phone/ZenFone-Go-Products/">Zábava a živé farby</a></li> 
+               <li><a href="/sk/Phone/Other-Phones-Products/">Ostatné smartfóny</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/sk/Phone-Accessory/">Príslušenstvo k&nbsp;telefónom</a> </h4>
+              <ul> 
+               <li><a href="/sk/Phone-Accessory/Power-Banks-Products/">Power banky</a></li> 
+               <li><a href="/sk/Phone-Accessory/Adapters-Products/">Adaptéry</a></li> 
+               <li><a href="/sk/Phone-Accessory/Cases-Covers-Sleeves-Products/">Puzdrá, kryty a&nbsp;obaly</a></li> 
+               <li><a href="/sk/Phone-Accessory/Headphones-Headsets-Products/">Slúchadlá</a></li> 
+               <li><a href="/sk/Phone-Accessory/Screen-Protectors-Products/">Ochranné fólie</a></li> 
+               <li><a href="/sk/Phone-Accessory/Storage-Products/">Úložiská</a></li> 
+               <li><a href="/sk/Phone-Accessory/Miracast-Products/">Miracast</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="http://www.asus.com/sk/Phone/ZenFone-3-ZE520KL/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/sk/ProductLevel1/Topmenu/1.png" alt="">
+                </div> 
+                <div class="title">
+                 ZenFone 3 ‏(ZE520KL)‏
+                </div> 
+                <div class="summary">
+                 Stvorený pre dokonalé fotografie 
+                </div> Viac informácií</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-78 sub-item two-column"> <h3 class="origin-title">Notebooky a&nbsp;počítače typu 2 v&nbsp;1</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/sk/Notebooks/">Notebooky</a> </h4>
+              <ul> 
+               <li><a href="/sk/Notebooks/Zenbook-Series-Products/">Rad Zenbook</a></li> 
+               <li><a href="/sk/Notebooks/Gaming-Series-Products/">Herný rad</a></li> 
+               <li><a href="/sk/Notebooks/N-series-Products/">Rad N</a></li> 
+               <li><a href="/sk/Notebooks/K-A-series-Products/">Rad K/A</a></li> 
+               <li><a href="/sk/Notebooks/X-series-Products/">Rad X</a></li> 
+               <li><a href="/sk/Notebooks/E-Series-Products/">Rad E</a></li> 
+               <li><a href="/sk/Notebooks/Vivobook-Series-Products/">Rad Vivobook</a></li> 
+               <li><a href="/sk/Notebooks/FR-Series-Products/">Rad F/R</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/sk/2-in-1-PCs/">Počítače typu 2 v&nbsp;1</a> </h4>
+              <ul> 
+               <li><a href="/sk/2-in-1-PCs/Transformer-Book-series-Detachable-Products/">Rad Transformer Book (odnímateľné vyhotovenie)</a></li> 
+               <li><a href="/sk/2-in-1-PCs/Transformer-Book-series-Convertible-Products/">Rad Transformer Book (konvertibilné vyhotovenie)</a></li> 
+               <li><a href="/sk/2-in-1-PCs/VivoBook-Flip-Series-Products/">Rad VivoBook Flip</a></li> 
+               <li><a href="/sk/2-in-1-PCs/ZenBook-Flip-Series-Products/">Rad ZenBook Flip</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/sk/Notebooks-Accessory/">Príslušenstvo k&nbsp;notebookom</a> </h4>
+              <ul> 
+               <li><a href="/sk/Notebooks-Accessory/Adapters-Products/">Adaptéry</a></li> 
+               <li><a href="/sk/Notebooks-Accessory/Cases-Covers-Sleeves-Products/">Puzdrá, kryty a&nbsp;obaly</a></li> 
+               <li><a href="/sk/Notebooks-Accessory/Docks-Products/">Dokovacie stanice</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="http://www.asus.com/sk/Notebooks/ASUS-ZenBook-3-UX390UA/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/sk/ProductLevel1/Topmenu/78.png" alt="">
+                </div> 
+                <div class="title">
+                 ZenBook 3
+                </div> 
+                <div class="summary">
+                 Najprestížnejší notebook na svete s bezkonkurenčne vysokým výkonom
+                </div> Viac informácií</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-155 sub-item"> <h3 class="origin-title">Tablet</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/sk/Tablets/">Tablety</a> </h4>
+              <ul> 
+               <li><a href="/sk/Tablets/ZenPad-Products/">ZenPad</a></li> 
+               <li><a href="/sk/Tablets/Fonepad-Products/">Fonepad</a></li> 
+               <li><a href="/sk/Tablets/Vivo-Tab-Products/">Vivo Tab</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/sk/Tablet-Accessory/">Príslušenstvo k&nbsp;tabletom</a> </h4>
+              <ul> 
+               <li><a href="/sk/Tablet-Accessory/Cases-Covers-Sleeves-Products/">Puzdrá, kryty a&nbsp;obaly</a></li> 
+               <li><a href="/sk/Tablet-Accessory/Adapters-Products/">Adaptéry</a></li> 
+               <li><a href="/sk/Tablet-Accessory/Headphones-Headsets-Products/">Slúchadlá</a></li> 
+               <li><a href="/sk/Tablet-Accessory/Docks-Products/">Dokovacie stanice</a></li> 
+               <li><a href="/sk/Tablet-Accessory/Stylus-Products/">Stylus</a></li> 
+               <li><a href="/sk/Tablet-Accessory/Miracast-Products/">Miracast</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="http://www.asus.com/sk/Tablets/ASUS_ZenPad_S_80_Z580CA/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/sk/ProductLevel1/Topmenu/155.png" alt="">
+                </div> 
+                <div class="title">
+                 ZenPad S 8.0 (Z580CA)
+                </div> 
+                <div class="summary">
+                 Skvelý štvorjadrový tablet s 8-palcovým 2K IPS displejom
+                </div> Viac informácií</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-232 sub-item"> <h3 class="origin-title">Základné dosky</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/sk/Motherboards/">Základné dosky</a> </h4>
+              <ul> 
+               <li><a href="/sk/Motherboards/ASUS-Prime-Products/">ASUS (Signature)</a></li> 
+               <li><a href="/sk/Motherboards/ROG-Republic-of-Gamers-Products/">ROG - Republic of Gamers</a></li> 
+               <li><a href="/sk/Motherboards/Pro-Gaming-Products/">profesionálne hranie</a></li> 
+               <li><a href="/sk/Motherboards/TUF-24-7-Durability-Products/">TUF - odolnosť 24/7</a></li> 
+               <li><a href="/sk/Motherboards/Commercial-Products/">Firemný</a></li> 
+               <li><a href="/sk/Motherboards/Workstation-Products/">Pracovné stanice</a></li> 
+               <li><a href="/sk/Motherboards/Intel-platform-Products/">Platforma Intel</a></li> 
+               <li><a href="/sk/Motherboards/AMD-platform-Products/">Platforma AMD</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"> <a href="/sk/Motherboard-Accessory/">Príslušenstvo k&nbsp;základným doskám</a> </h4>
+              <ul> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/sk/Motherboards/SABERTOOTH_X99/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/sk/ProductLevel1/Topmenu/232.png" alt="">
+                </div> 
+                <div class="title">
+                 SABERTOOTH X99
+                </div> 
+                <div class="summary">
+                 Výkonná základná doska TUF X99 kompatibilná so všetkými možnosťami úložiska NVM Express so zabudovaným portom USB 3.1 poskytuje extrémnu odolnosť.
+                </div> Viac informácií</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-309 sub-item"> <h3 class="origin-title">Grafické karty</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/sk/Graphics-Cards/">Grafické karty</a> </h4>
+              <ul> 
+               <li><a href="/sk/Graphics-Cards/AMD-Series-Products/">Rad AMD</a></li> 
+               <li><a href="/sk/Graphics-Cards/NVIDIA-Series-Products/">Rad NVIDIA</a></li> 
+               <li><a href="/sk/Graphics-Cards/ROG-Republic-of-Gamers-Products/">Rad ROG pre&nbsp;špičkové hranie a&nbsp;pretaktovanie</a></li> 
+               <li><a href="/sk/Graphics-Cards/STRIX-Gaming-Products/">Herný rad STRIX</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="http://www.asus.com/sk/Graphics-Cards/ROG-STRIX-GTX1080-O8G-GAMING/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/sk/ProductLevel1/Topmenu/309.png" alt="">
+                </div> 
+                <div class="title">
+                 ROG STRIX-GTX1080-O8G-GAMING 
+                </div> 
+                <div class="summary">
+                 ASUS ROG Strix GeForce® GTX 1080 zatieni všetkých konkurentov 
+                </div> Viac informácií</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-386 sub-item"> <h3 class="origin-title">Nositeľné zariadenia</h3> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"> <a href="/sk/VivoWatch/">VivoWatch</a> </h4>
+              <ul> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="http://www.asus.com/sk/Wearable/ASUS_VivoWatch/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/sk/ProductLevel1/Topmenu/386.png" alt="">
+                </div> 
+                <div class="title">
+                 VivoWatch 
+                </div> 
+                <div class="summary">
+                 Pulz života: Hodinky, ktoré sa postarajú o vás aj vašu rodinu
+                </div> Viac informácií</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-463 sub-item two-column"> <h3 class="origin-title">Stolový počítač a počítače typu All in One</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/sk/Tower-PCs/">Počítače typu Tower</a> </h4>
+              <ul> 
+               <li><a href="/sk/Tower-PCs/ROG-Series-Products/">Rad ROG</a></li> 
+               <li><a href="/sk/Tower-PCs/Gaming-Series-Products/">Herný rad</a></li> 
+               <li><a href="/sk/Tower-PCs/VivoPC-Series-Products/">Rad VivoPC</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/sk/Mini-PCs/">Mini PC</a> </h4>
+              <ul> 
+               <li><a href="/sk/Mini-PCs/ROG-Series-Products/">Rad ROG</a></li> 
+               <li><a href="/sk/Mini-PCs/VivoPC-Products/">VivoPC</a></li> 
+               <li><a href="/sk/Mini-PCs/VivoMini-Products/">VivoMini</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/sk/Stick-PCs/">Počítače Stick PC</a> </h4>
+              <ul> 
+               <li><a href="/sk/Stick-PCs/VivoStick-PC-Products/">Počítače Stick PC</a></li> 
+               <li><a href="/sk/Stick-PCs/Stick-PC-QM1-Products/">Stick PC QM1</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/sk/Chrome-Devices/">Zariadenia s&nbsp;Chrome OS</a> </h4>
+              <ul> 
+               <li><a href="/sk/Chrome-Devices/Chromebox-Products/">Chromebox</a></li> 
+               <li><a href="/sk/Chrome-Devices/Chromebit-Products/">Chromebit</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/sk/AllinOne-PCs/">Počítače typu All in One</a> </h4>
+              <ul> 
+               <li><a href="/sk/AllinOne-PCs/Zen-AiO-Series-Products/">Zen AiO</a></li> 
+               <li><a href="/sk/AllinOne-PCs/Vivo-AiO-Products/">Vivo AiO</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="http://www.asus.com/sk/AllinOne-PCs/Zen-AiO-Pro-Z240IC/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/sk/ProductLevel1/Topmenu/463.png" alt="">
+                </div> 
+                <div class="title">
+                 ASUS Zen AiO Pro Z240
+                </div> 
+                <div class="summary"></div> Viac informácií</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-540 sub-item"> <h3 class="origin-title">Displej</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/sk/Monitors/">Monitory</a> </h4>
+              <ul> 
+               <li><a href="/sk/Monitors/4K-UHD-2K-WQHD-Products/">Monitory s&nbsp;rozlíšením 4K a&nbsp;WQHD</a></li> 
+               <li><a href="/sk/Monitors/Professional-Products/">Profesionálne monitory</a></li> 
+               <li><a href="/sk/Monitors/Gaming-Products/">3D a&nbsp;herné monitory</a></li> 
+               <li><a href="/sk/Monitors/Business-Products/">Široké pozorovacie uhly</a></li> 
+               <li><a href="/sk/Monitors/Touch-Products/">Prenosné monitory</a></li> 
+               <li><a href="/sk/Monitors/Eye-Care-Products/">Eye Care</a></li> 
+               <li><a href="/sk/Monitors/ZenScreen-Products/">Viac…</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"> <a href="/sk/Projectors/">Projektory</a> </h4>
+              <ul> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="http://www.asus.com/sk/Monitors/ROG-SWIFT-PG348Q/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/sk/ProductLevel1/Topmenu/540.png" alt="">
+                </div> 
+                <div class="title">
+                 PG348Q
+                </div> 
+                <div class="summary">
+                 Rozšírte svoje herné obzory
+                </div> Viac informácií</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-617 sub-item"> <h3 class="origin-title">Sieťové pripojenie</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/sk/Networking/">Sieťové pripojenie</a> </h4>
+              <ul> 
+               <li><a href="/sk/Networking/Wireless-Routers-Products/">Bezdrôtové routery</a></li> 
+               <li><a href="/sk/Networking/Wireless-AP-Repeater-Bridges-Products/">Bezdrôtové opakovače / prístupové body / multimediálne mosty</a></li> 
+               <li><a href="/sk/Networking/xDSL-Modem-Routers-Products/">xDSL modemové routery</a></li> 
+               <li><a href="/sk/Networking/Wireless-Adapters-Products/">Bezdrôtové adaptéry</a></li> 
+               <li><a href="/sk/Networking/Wired-Networking-Products/">Káblové pripojenie</a></li> 
+               <li><a href="/sk/Networking/Powerline-Networking-Products/">Elektrické rozvody</a></li> 
+               <li><a href="/sk/Networking/4G-LTE-3G-Routers-Products/">4G LTE / 3G routery</a></li> 
+               <li><a href="/sk/Networking/Bluetooth-Antennas-Products/">Bluetooth</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/sk/Networking/RT-AC5300/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/sk/ProductLevel1/Topmenu/617.png" alt="">
+                </div> 
+                <div class="title">
+                 RT-AC5300
+                </div> 
+                <div class="summary">
+                 Trojpásmový gigabitový router Wireless-AC5300
+                </div> Viac informácií</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-694 sub-item two-column"> <h3 class="origin-title">Zvuk</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/sk/Essence-Hi-Fi-Audio/">Hi-Fi zvukové zariadenia Essence</a> </h4>
+              <ul> 
+               <li><a href="/sk/Essence-Hi-Fi-Audio/Hi-Fi-Sound-Cards-Products/">Zvukové karty</a></li> 
+               <li><a href="/sk/Essence-Hi-Fi-Audio/DACs-Amplifiers-Products/">D/A prevodníky a&nbsp;zosilňovače</a></li> 
+               <li><a href="/sk/Essence-Hi-Fi-Audio/Accessories-Products/">Príslušenstvo</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/sk/Sound-Cards/">Zvukové karty</a> </h4>
+              <ul> 
+               <li><a href="/sk/Sound-Cards/Hi-Fi-Sound-Cards-Products/">Hi-Fi zvukové zariadenia Essence</a></li> 
+               <li><a href="/sk/Sound-Cards/ROG-Republic-of-Gamers-Products/">Herný rad ROG</a></li> 
+               <li><a href="/sk/Sound-Cards/STRIX-Gaming-Series-Products/">Herný rad STRIX</a></li> 
+               <li><a href="/sk/Sound-Cards/Gaming-Products/">Hranie hier</a></li> 
+               <li><a href="/sk/Sound-Cards/Entertainment-Products/">Zábava</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/sk/Wireless-Bluetooth-Audio/">Streamovanie zvuku a Bluetooth zvuk</a> </h4>
+              <ul> 
+               <li><a href="/sk/Wireless-Bluetooth-Audio/Music-streamer-Products/">Prehrávanie hudby</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/sk/Headphones-Headsets/">Slúchadlá</a> </h4>
+              <ul> 
+               <li><a href="/sk/Headphones-Headsets/ROG-Republic-of-Gamers-Products/">Herný rad ROG</a></li> 
+               <li><a href="/sk/Headphones-Headsets/Gaming-Products/">Hranie hier</a></li> 
+               <li><a href="/sk/Headphones-Headsets/Entertainment-Products/">Zábava</a></li> 
+               <li><a href="/sk/Headphones-Headsets/STRIX-Gaming-Series-Products/">Herný rad STRIX</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/sk/Speakers/">Reproduktory</a> </h4>
+              <ul> 
+               <li><a href="/sk/Speakers/Speakers-Products/">Reproduktory</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/sk/Essence-Hi-Fi-Audio/Essence_III/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/sk/ProductLevel1/Topmenu/694.png" alt="">
+                </div> 
+                <div class="title">
+                 Essence III
+                </div> 
+                <div class="summary">
+                 Predzosilňovač, USB DAC a zosilňovač slúchadiel
+                </div> Viac informácií</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-771 sub-item"> <h3 class="origin-title">Domácnosť a&nbsp;automobil</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/sk/Home-Entertainment/">Domáca zábava</a> </h4>
+              <ul> 
+               <li><a href="/sk/Home-Entertainment/USB-TV-Tuner-Products/">USB TV tuner</a></li> 
+               <li><a href="/sk/Home-Entertainment/O-Play-Digital-Media-Player-Products/">Digitálny multimediálny prehrávač O!Play</a></li> 
+               <li><a href="/sk/Home-Entertainment/O-Play-Blu-ray-HD-Media-Player-Products/">Blu-ray/HD multimediálny prehrávač O!Play</a></li> 
+               <li><a href="/sk/Home-Entertainment/Gamepad-Products/">Gamepad</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/sk/Car-Electronics/">Elektronika do&nbsp;auta</a> </h4>
+              <ul> 
+               <li><a href="/sk/Car-Electronics/Video-Recorder-Camcorder-Products/">Videorekordéry a&nbsp;digitálne videokamery</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/sk/Home-Entertainment/OPlay_Mini_V2/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/sk/ProductLevel1/Topmenu/771.png" alt="">
+                </div> 
+                <div class="title">
+                 O!Play Mini V2
+                </div> 
+                <div class="summary">
+                 Kompaktné zariadenie pre zábavu vo vysokom rozlíšení s podporou celého radu formátov a 7.1-kanálovým zvukom 
+                </div> Viac informácií</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-848 sub-item two-column"> <h3 class="origin-title">Periférne zariadenie</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/sk/Computer-Bags/">Počítačové tašky</a> </h4>
+              <ul> 
+               <li><a href="/sk/Computer-Bags/Backpacks-Products/">Batohy</a></li> 
+               <li><a href="/sk/Computer-Bags/Carry-Cases-Products/">Tašky</a></li> 
+               <li><a href="/sk/Computer-Bags/Messengers-Products/">Tašky s&nbsp;extra úložným priestorom</a></li> 
+               <li><a href="/sk/Computer-Bags/Sleeves-Products/">Puzdrá</a></li> 
+               <li><a href="/sk/Computer-Bags/Accessory-Packs-Products/">Balíčky príslušenstva</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/sk/Keyboards-Mice/">Klávesnice a&nbsp;myši</a> </h4>
+              <ul> 
+               <li><a href="/sk/Keyboards-Mice/Keyboards-Products/">Klávesnica</a></li> 
+               <li><a href="/sk/Keyboards-Mice/Mice-Products/">Myši</a></li> 
+               <li><a href="/sk/Keyboards-Mice/Mouse-pads-Products/">Podložky pod&nbsp;myš</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/sk/Optical-Drives-Storage/">Optické jednotky a&nbsp;úložiská</a> </h4>
+              <ul> 
+               <li><a href="/sk/Optical-Drives-Storage/External-Blu-ray-Drive-Products/">Externá Blu-ray mechanika</a></li> 
+               <li><a href="/sk/Optical-Drives-Storage/External-Slim-DVD-Drive-Products/">Externá tenká DVD mechanika</a></li> 
+               <li><a href="/sk/Optical-Drives-Storage/Internal-Blu-ray-Drive-Products/">Interná Blu-ray mechanika</a></li> 
+               <li><a href="/sk/Optical-Drives-Storage/Internal-DVD-Drive-Products/">Interná DVD mechanika</a></li> 
+               <li><a href="/sk/Optical-Drives-Storage/Storage-Products/">Úložisko</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"> <a href="/sk/Docks/">Dokovacie stanice</a> </h4>
+              <ul> 
+              </ul> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"> <a href="/sk/Chargers/">Nabíjačky</a> </h4>
+              <ul> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/sk/Keyboards-Mice/UT210/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/sk/ProductLevel1/Topmenu/848.png" alt="">
+                </div> 
+                <div class="title">
+                 UT210
+                </div> 
+                <div class="summary">
+                 Pohodlná myš v rôznych farebných variantoch
+                </div> Viac informácií</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-925 sub-item"> <h3 class="origin-title">Hranie hier</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/sk/ROG-Republic-Of-Gamers/">ROG – Republic Of Gamers</a> </h4>
+              <ul> 
+               <li><a href="/sk/ROG-Republic-Of-Gamers/Notebooks-Products/">Notebooky</a></li> 
+               <li><a href="/sk/ROG-Republic-Of-Gamers/Desktops-Products/">Stolový počítač</a></li> 
+               <li><a href="/sk/ROG-Republic-Of-Gamers/Motherboards-Products/">Základné dosky</a></li> 
+               <li><a href="/sk/ROG-Republic-Of-Gamers/Graphics-Cards-Products/">Grafické karty</a></li> 
+               <li><a href="/sk/ROG-Republic-Of-Gamers/Monitors-Products/">Monitory</a></li> 
+               <li><a href="/sk/ROG-Republic-Of-Gamers/Headsets-Products/">Slúchadlá</a></li> 
+               <li><a href="/sk/ROG-Republic-Of-Gamers/Sound-Cards-Products/">Zvuk</a></li> 
+               <li><a href="/sk/ROG-Republic-Of-Gamers/Mice-Products/">Myš</a></li> 
+               <li><a href="/sk/ROG-Republic-Of-Gamers/Mousepads-Products/">Podložka pod&nbsp;myš</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/sk/Headphones-Headsets/STRIX_71/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/sk/ProductLevel1/Topmenu/925.png" alt="">
+                </div> 
+                <div class="title">
+                 STRIX 7.1
+                </div> 
+                <div class="summary">
+                 Herné slúchadlá s verným 7.1-kanálovým zvukom, 10 samostatnými neodýmovými meničmi a plug-and-play USB audiostanicou 
+                </div> Viac informácií</a> 
+              </div> 
+             </div> </li> 
+           </ul> 
+          </div> 
+         </div> 
+         <div class="hot-menu submenu"> 
+          <h3 class="title">Novinky</h3> 
+          <ul class="hot-list clearfix"> 
+           <li class="hot-item first"><a onclick="TopmenuGoogleTraking(this, '1', '/media/sk/TopMenuItem/2032.jpg'); return false;" href="http://www.asus.com/Microsite/beyond-vr-ready/sk/" target="_blank"><img src="/media/sk/TopMenuItem/2032.jpg" alt="Beyond VR Ready"><span class="title">Beyond VR Ready</span></a></li> 
+           <li class="hot-item"><a onclick="TopmenuGoogleTraking(this, '2', '/media/sk/TopMenuItem/2030.jpg'); return false;" href="http://www.asus.com/Microsite/No1-Gaming-Monitor-Brand/sk/" target="_blank"><img src="/media/sk/TopMenuItem/2030.jpg" alt="Herný monitor č. 1"><span class="title">Herný monitor č. 1</span></a></li> 
+           <li class="hot-item"><a onclick="TopmenuGoogleTraking(this, '3', '/media/sk/TopMenuItem/226.jpg'); return false;" href="http://www.asus.com/Microsite/2015/display/eye_care_technology/sk/" target="_blank"><img src="/media/sk/TopMenuItem/226.jpg" alt="Technológia Ultra Low Blue Light"><span class="title">Technológia Ultra Low Blue Light</span></a></li> 
+          </ul> 
+         </div> 
+         <div class="commercial-menu submenu"> 
+          <h3 class="title">Firemný</h3> 
+          <ul class="nav"> 
+           <li class="commercial-item" data-submenu-id="products"><a href="/sk/Commercial-Desktop/" target="_self">Stolové počítače</a></li> 
+           <li class="commercial-item" data-submenu-id="products"><a href="/sk/Commercial-Signage/" target="_self">Zariadenia na&nbsp;zobrazovanie reklamy</a></li> 
+           <li class="commercial-item" data-submenu-id="products"><a href="/sk/Commercial-Projectors/" target="_self">Projektory</a></li> 
+           <li class="commercial-item" data-submenu-id="products"><a href="/sk/Commercial-All-in-One-PCs/" target="_self">Počítače typu All in One</a></li> 
+           <li class="commercial-item" data-submenu-id="products"><a href="/sk/Commercial-Notebooks/" target="_self">Notebooky</a></li> 
+           <li class="commercial-item" data-submenu-id="products"><a href="/sk/Commercial-Monitors/" target="_self">Monitory</a></li> 
+           <li class="commercial-item" data-submenu-id="products"><a href="/sk/Commercial-Servers-Workstations/" target="_self">Servery a&nbsp;pracovné stanice</a></li> 
+          </ul> 
+          <div class="display-area"> 
+           <ul class="sub-commercial-list sub-cat-list"> 
+           </ul> 
+          </div> 
+         </div> 
+         <div class="service-menu submenu"> 
+          <h3 class="title">Služby</h3> 
+          <ul class="nav"> 
+           <li class="service-item" data-submenu-id="1"><a href="http://www.asus.com/sk/support/" target="_self">Podpora</a></li> 
+           <li class="service-item" data-submenu-id="2"><a href="http://www.asus.com/zentalk/portal.php?nocache=1" target="_self">ZenTalk</a></li> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="mobile-action"> 
+        <a class="btn" href="#"><i class="icon icon-search"></i></a> 
+       </div> 
+      </div> 
+     </div> 
+     <script>
+    var intControlstopSysWordingCheckId;
+    intControlstopSysWordingCheckId = setInterval("controlstopSysWordingCheck()", intSysWordingCheckSpeed);
+
+    function controlstopSysWordingCheck() {
+        if (sysWordingRead) {
+            $("#aai-search-btn").val(sysWording.SearchTitle);
+            $("#minicart_panel p.aai-item-titl").html(sysWording.ShoppingCart);
+
+            clearTimeout(intControlstopSysWordingCheckId);
+        }
+    }
+</script> 
+     <script>
+    var isInGroup = '0';
+    var compare_open = "F";
+
+    function checkShoppingCart(url) {
+        //: Check Cart Quantity
+        $.getJSON(url, function (cartJsonData) {
+            if (!cartJsonData.shoppingCart.isEmpty) $("#num_shoppingcart").html(cartJsonData.shoppingCart.totalQuantity);
+        });
+    }
+
+    //: ------------- BEGIN -------------
+    //: [[Compare Model 2012/05/29 Angel]]
+    function getCompareCookie() {
+        var theData = "";
+        var theCookie = document.cookie;
+        var compareGroupName = "";
+        var val = theCookie.split(";");
+
+        for (i = 0; i < val.length; i++) {
+            compareGroupName = "";
+            var data = val[i].split("=");
+            if (data.length > 1) {
+                var index = data[0].indexOf("compare_");
+                if (index > -1) {
+                    var compareid = data[0].substring(index + 8);
+                    if (CompareJson) {
+                        $.map(CompareJson, function (obj_compare) {
+                            if (obj_compare.CompareID === compareid)
+                                compareGroupName = obj_compare.CompareName
+                        });
+                    }
+                    if (data[1] != "")
+                        theData += "compare_" + compareid + "." + compareGroupName.replace(/^\s+/, "") + ":" + unescape(data[1]) + ";";
+                }
+            }
+        }
+        return theData;
+    }
+
+    function getMessage() {
+        //var msg_data = (getWebsite() == "cn") ? '//www.asus.com.cn/message.aspx.aspx?lang=' + strLang :
+        //    '//www.asus.com/message.aspx?lang=' + strLang;
+        //
+        //$.ajax({
+        //    url: msg_data,
+        //    dataType: 'jsonp',
+        //    jsonp: 'callback',
+        //    cache: true,
+        //    jsonpCallback: '_asus_message_fn',
+        //    success: function (res) {
+        //        $("#menu_msg ul.sender-list").html(res.message);
+        //        $("#menu_msg .aai-msgcenter-footer a").attr("href", "https://account.asus.com/msgcenter.aspx?lang=" + strLang + "&site=" + getWebsite());
+        //        $("#menu_msg ul.sender-list li.list-item").on("click", message_detail);
+        //
+        //        if (res.Total == "0") { $("#menu_msg .aai-circle-num").css({ 'display': 'none' }); $("#menu_msg .aai-circle-num").text("0"); }
+        //        else {
+        //            $("#menu_msg .aai-circle-num").css({ 'display': 'block' });
+        //            $("#menu_msg .aai-circle-num").text(res.Total);
+        //        }
+        //    },
+        //    error: function () { }
+        //});
+        //
+        //var message_detail = function () {
+        //    var message_id = $(this).data('messageid');
+        //    window.open("https://account.asus.com/msgcenter.aspx?sid=" + message_id + "&lang=" + strLang + "&site=" + getWebsite());
+        //};
+    }
+
+    var timeoutHandle;
+    function setCompareList() {
+        var content = getCompareCookie(),
+            compareCookieName = getcookiedata("comparecookiename"),
+            intI,
+            compareGroup = content.split(";"),
+            $cp = $("#div_compare_panel"),
+            slideVal,
+            compare_count = 0,
+            currentSliderValue = "",
+            imgTarget = "";
+        $cp.empty();
+        //$cp.append("<p class=\"aai-item-title\">" + sysWording.CompareList + "</p>");
+        for (i = 0; i < compareGroup.length - 1; i++) {
+            var cookie_type = compareGroup[i].split(":"),
+                models = cookie_type[1].split(","), tempCookie_name = cookie_type[0].split(".")[0], cookieAry = [];
+            if (Number(tempCookie_name.split('compare_')[1]) == Number(compareCookieName.split('compare_')[1])) { currentSliderValue = tempCookie_name; }
+            if (cookie_type[1] != "") {
+                $cp.append("<div class=\"compare_group\"><span class=\"panel-group-title\">" + cookie_type[0].split(".")[1] + "</span></div>");
+
+                $cp.find("div.compare_group:last").append("<ul class=\"aai-vls\"></ul>");
+                for (intI = 1; intI <= 5; intI++) {
+                    if (intI <= models.length - 1) {
+                        compare_count += 1;
+                        cookieAry = models[intI - 1].split(".");
+                        cookieAry[2] = cookieAry[2] == undefined ? "" : cookieAry[2];
+                        cookieAry[3] = cookieAry[3] == undefined ? "global" : cookieAry[3];
+                        imgTarget = cookieAry[2] == "png" ? "/P_setting_fff_1_80_end_130.png" : "/P_130.jpg";
+                        $cp.find("ul:last").append("<li class=\"span-5col\"><a href='product.aspx?P_ID=" + cookieAry[0] + "'><img src='/media/" + cookieAry[3] + "/products/" + cookieAry[0] + imgTarget + "' alt='Compare" + intI + "' /></a><a href='#' onclick='compare_remove_click(\"" + tempCookie_name + "\",\"" + cookieAry[0] + "\",\"" + cookieAry[1] + "\",\"" + cookieAry[2] + "\",\"" + cookieAry[3] + "\");return false;' class='removebutton'>" + sysWording.ProductComparisonButtom2 + "</a><span class=\"list-product-name\">" + cookieAry[1].replace("^", ".") + "</span></li>");
+                    }
+                    else {
+                        $cp.find("ul:last").append("<li class=\"span-5col\"><img src=\"/media/img/p_130_rull.jpg\"></li>");
+                    }
+                }
+                $cp.find("div.compare_group:last").append("<a class=\"btn-asus comparenow\" id='" + tempCookie_name + "' onclick=\"GoCompare('" + tempCookie_name + "', '" + models[0].split(".")[0] + "')\">" + sysWording.CompareNow + "</a>");
+            }
+        }
+
+        $("#num_compare").html(compare_count);
+        var topmenu_unm = (typeof ($("#num_shoppingcart")) == "undefined") ? Number($("#num_compare").html()) : (Number($("#num_compare").html()) + Number($("#num_shoppingcart").html()));
+        $(".aai-right-more a.aai-more .aai-circle-num").html(topmenu_unm);
+        $("#dropMsg").html(topmenu_unm);
+
+        if (Number(topmenu_unm) > 0) {
+            $(".aai-right-more a.aai-more .aai-circle-num").css({ display: 'inline-block' });
+        }
+        else {
+            $(".aai-right-more a.aai-more .aai-circle-num").css({ display: 'inline-block' });
+            $(".aai-right-more a.aai-more .aai-circle-num").css({ display: 'none' });
+        }
+    }
+
+    function compare_remove_click(cookie_name, product_id, model_name, imgtype, img_ref) {
+        remove_compare_model(cookie_name, product_id, model_name, imgtype, img_ref);
+        setCompareList();
+        //if (isInGroup == "1") checkCompareItem();
+        //if (isInGroup == "2") checkProductCompareItem();
+        $("div.aai-mst-header a.active").click();
+    }
+
+    function GoCompare(cookie_name, producthashedid) {
+        add_cookie("comparecookiename", cookie_name);
+        window.name = "";
+        window.location.href = 'compare.aspx';
+    }
+    //: ------------- END -------------
+
+
+    function SetGa(value1,value2,value3,value4,value5) {
+        ga(value1, value2, value3, value4, value5);
+    }
+
+</script> 
+     <script type="text/javascript">
+    add_cookie("current_site", "");
+    document.cookie = "BuinsessCookie = '' ;path=/;domain=.asus.com;";
+</script> 
+     <!--Banner--> 
+     <style>
+    .t_1476328557559 .item-1{margin-top: 120px !important;}
+.t_1476328557559 .item-2{margin-top: -40px !important;}
+.t_1476328557559 .item-3{font-size: 2em !important;color: #ffffff !important;}
+
+.t_1465713195316 .item-1{display: none;}
+.t_1465713195316 .item-2{font-size: 2em !important;margin-top: -30px !important;color: #ffffff !important;}
+.t_1465713195316 .item-3{font-size: 1.3em !important;margin-top: 50px !important;color: #ffffff !important;}
+@media (max-width: 1170px){
+.t_1465713195316 .item-1{display: none;}
+.t_1465713195316 .item-2{font-size: 1.8em !important;color: #ffffff !important;}
+.t_1465713195316 .item-3{font-size: 1.5em !important;margin-top: 30px !important;color: #ffffff !important;}
+}
+@media (max-width: 720px){
+.t_1465713195316 .item-1{display: none;}
+.t_1465713195316 .item-2{font-size: 1.8em !important;color: #ffffff !important;}
+.t_1465713195316 .item-3{font-size: 1.1em !important;color: #ffffff !important;}
+}
+
+.t_1467183650852 .item-5{}
+.t_1467183650852 .item-6{}
+.t_1467183650852 .item-7{}
+.t_1467183650852 .item-8{margin-top: -20px !important;}
+
+.t_1475208896453 .item-1{display: none;}
+.t_1475208896453 .item-2{margin-left: -75px !important;color: #ffffff !important;}
+.t_1475208896453 .item-3{font-size: 2.2em !important;margin-top: 45px !important;margin-left: -40px !important;color: #ffffff !important;}
+.t_1475208896453 .item-4{display: none;}
+
+
+</style> 
+     <link href="/websites/sk/css/banner.css" rel="stylesheet"> 
+     <section class="af-part layout-base af-hero hero-layout-2  t_1476328557559" style="background-image: url(/media/SK/banners/YmJTh8MuTa4wBviv/YmJTh8MuTa4wBviv-0.jpg);"> 
+      <a class="link-area" href="https://www.asus.com/sk/Phone/ZenFone-3-ZE520KL/" target="" alt="" title="ZenFone-3-ZE520KL" data-track="banner-main" onclick="GABannerTrackEvent(this);return false;">ZenFone-3-ZE520KL</a> 
+      <div class="inner"> 
+       <div class="group-block group-1 _ex "> 
+        <div class="item cover-image center pic item-1">
+         <img src="/media/SK/banners/YmJTh8MuTa4wBviv/YmJTh8MuTa4wBviv-0.png" alt="">
+        </div>
+       </div> 
+       <div class="group-block group-2 _ex  "> 
+        <div class="item title pic item-2">
+         <img src="/media/SK/banners/YmJTh8MuTa4wBviv/YmJTh8MuTa4wBviv-1.png" alt="">
+        </div>
+        <div class="item slogan text item-3 ">
+         Stvorený pre dokonalé fotografie
+        </div>
+       </div> 
+      </div> 
+     </section> 
+     <section class="af-part layout-base af-second layout-1  t_1465713195316" style="background-color: #000000;"> 
+      <a class="link-area" href="http://www.asus.com/sk/Graphics-Cards/ROG-STRIX-GTX1080-O8G-GAMING/" target="" alt="ROG-STRIX-GTX1080-O8G-GAMING" title="ROG-STRIX-GTX1080-O8G-GAMING" data-track="banner-fold2-main" onclick="GABannerTrackEvent(this);return false;">ROG-STRIX-GTX1080-O8G-GAMING</a> 
+      <div class="inner"> 
+       <div class="group-block group-1  _ex ">
+        <div class="item title text  item-1">
+          STRIX-R9390X 
+        </div>
+        <div class="item center summary text  item-2">
+          ROG STRIX GEFORCE
+         <sup>®</sup> 
+         <br>GTX 10 SERIES 
+        </div>
+        <div class="item slogan text  item-3">
+          NÁSKOK PRED KONKURENCIOU 
+        </div> 
+       </div> 
+       <div class="group-block group-2   _ex ">
+        <div class="item cover-image pic  item-4"> 
+         <img src="/media/SK/banners/j8sW5Xc83cVdpnj4/j8sW5Xc83cVdpnj4-3.jpg " alt=""> 
+        </div> 
+       </div> 
+      </div> 
+     </section> 
+     <section class="af-part af-two-cols grids grids l__grid-1x2 s__grid-1 af-third   t_1467183650852" style=""> 
+      <div class="inner"> 
+       <div class="group-block group-1 grid"> 
+        <a class="link-area" href="http://www.asus.com/sk/Notebooks/ASUS-ZenBook-3-UX390UA/" target="" alt="UX390UA" title="ASUS ZenBook 3 UX390UA" data-track="banner-fold2-1" onclick="GABannerTrackEvent(this);return false;">ASUS ZenBook 3 UX390UA</a> 
+        <div class="product-info"> 
+         <div class="group  _ex ">
+          <div class="item title pic  item-1"> 
+           <img src="/media/SK/banners/mBgGRmtIsiXrkTtJ/mBgGRmtIsiXrkTtJ-0.png " alt=""> 
+          </div>
+          <div class="item slogan text  item-2">
+            Najprestížnejší notebook na svete s bezkonkurenčne vysokým výkonom 
+          </div>
+          <div class="item summary text  item-3"> 
+          </div>
+         </div> 
+        </div> 
+        <div class="product-img pic _ex ">
+         <div class="item  pic  item-4"> 
+          <img src="/media/SK/banners/mBgGRmtIsiXrkTtJ/mBgGRmtIsiXrkTtJ-3.png " alt=""> 
+         </div>
+        </div> 
+       </div> 
+       <div class="group-block group-2 grid"> 
+        <a class="link-area" href="http://www.asus.com/sk/2-in-1-PCs/ASUS-Transformer-3-Pro-T303UA/" target="" alt="T305CA" title="ASUS Transformer 3 Pro T303UA" data-track="banner-fold2-2" onclick="GABannerTrackEvent(this);return false;">ASUS Transformer 3 Pro T303UA</a> 
+        <div class="product-info"> 
+         <div class="group  _ex ">
+          <div class="item title pic  item-5"> 
+           <img src="/media/SK/banners/mBgGRmtIsiXrkTtJ/mBgGRmtIsiXrkTtJ-4.png " alt=""> 
+          </div>
+          <div class="item slogan text  item-6">
+            Najvšestrannejší počítač na svete. 
+           <br>Výkonný. Praktický. Rozšíriteľný. 
+          </div>
+          <div class="item summary text  item-7"> 
+          </div>
+         </div> 
+        </div> 
+        <div class="product-img pic _ex ">
+         <div class="item  pic  item-8"> 
+          <img src="/media/SK/banners/mBgGRmtIsiXrkTtJ/mBgGRmtIsiXrkTtJ-7.png " alt=""> 
+         </div>
+        </div> 
+       </div> 
+      </div> 
+     </section> 
+     <section class="af-part layout-base  layout-3   t_1475208896453" style="background-image: url(/media/SK/banners/C0Zymx0ukAUJOqjS/C0Zymx0ukAUJOqjS-0.jpg);"> 
+      <a class="link-area" href="http://www.asus.com/sk/motherboards/" target="" alt="" title="ZÁKLADNÁ DOSKA RADU X99 SIGNATURE" data-track="banner-fold3-main" onclick="GABannerTrackEvent(this);return false;">ZÁKLADNÁ DOSKA RADU X99 SIGNATURE</a> 
+      <div class="inner"> 
+       <div class="group-block group-1  _ex "> 
+        <div class="item title pic item-1">
+         <img src="public/images/products/ux-305-logo.png" alt="">
+        </div>
+        <div class="item summary text item-2 ">
+         ZÁKLADNÁ DOSKA RADU X99 SIGNATURE
+        </div>
+        <div class="item slogan text item-3 ">
+         PREBUĎTE SKUTOČNÝ VÝKON RADU X99
+        </div>
+       </div> 
+       <div class="group-block group-2  _ex "> 
+        <div class="item cover-image center pic item-4">
+         <img src="public/images/products/zenbook.png" alt="">
+        </div>
+       </div> 
+      </div> 
+     </section> 
+     <script>
+    function setIndexBannerTopmenuBackground() {
+        $(".container").addClass("black-style");
+        $("#af-header").addClass("aai-bg-black");
+        $("#asus-api-footer").addClass("aai-bg-black");
+    }
+</script> 
+     <!--Support--> 
+     <section class="af-part action-area grids l__grid-1x2 s__grid-1"> 
+      <!----> 
+      <div class="block grid af-vc-wrap"> 
+       <a onclick="GABannerTrackEvent(this);return false;" data-tsrack="banner-fold3-1" class="link-area" href="http://www.asus.com/sk/support/" target="_blank"> Podpora </a>  
+       <div class="cover af-vc-ele"> 
+        <div class="title">
+         Podpora
+        </div> 
+        <div class="info">
+         CHCEME VÁM POMÔCŤ!
+        </div> 
+       </div> 
+       <img class="bg" src="/media/global/PushToBuy/5_n.jpg" alt=""> 
+      </div> 
+      <div class="block grid af-vc-wrap"> 
+       <a onclick="GABannerTrackEvent(this);return false;" data-tsrack="banner-fold3-2" class="link-area" href="https://account.asus.com/product_reg.aspx?lang=sk-sk&amp;site=sk" target="_blank"> Registrácia výrobku </a>  
+       <div class="cover af-vc-ele"> 
+        <div class="title">
+         Registrácia výrobku
+        </div> 
+        <div class="info">
+         Tu si zaregistrujte svoj ​​produkt
+        </div> 
+       </div> 
+       <img class="bg" src="/media/global/PushToBuy/6_n.jpg" alt=""> 
+      </div> 
+     </section> 
+     <!-- footer @start  --> 
+     <div id="asus-api-footer"> 
+      <div class="aai-inner"> 
+       <div class="aai-fmiddle"> 
+        <div id="FindItFast_menu" class="aai-footer-span"> 
+         <h4>Potrebujete ďalšie informácie?</h4> 
+         <ul class="aai-fnav"> 
+          <li><a href="https://asuspromotions.com/sk/sk/reliability" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">ASUS BANKA</a></li> 
+          <li><a href="http://www.asus.com/sk/News/x0fbvCBKDwax0zoK" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">ASUS eventy</a></li> 
+          <li><a href="http://www.asus-soutez.cz/" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Súťaže</a></li> 
+          <li><a href="http://healthcare.asus.com/" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">ASUS HealthCare</a></li> 
+         </ul> 
+        </div> 
+        <div id="Company_menu" class="aai-footer-span"> 
+         <h4>Kto sme?</h4> 
+         <ul class="aai-fnav"> 
+          <li class="navbar-li"><a href="/sk/Award/Award?&amp;Area=SLOVAKIA" id="menu_awards" target="_self" onclick="googleTrackEvent('index_menu', this, true);return false;">Ocenenia</a></li> 
+          <li class="divider-vertical"></li> 
+          <li class="navbar-li"><a href="/sk/News/" id="menu_news">Novinky</a></li> 
+          <li class="divider-vertical"></li>
+          <li class="navbar-li"><a href="/sk/About_ASUS/Origin_of_the_Name_ASUS" id="menu_aboutasus">O spoločnosti ASUS</a></li> 
+          <li><a href="/sk/investor.aspx" target="_self" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Investorské styky</a></li> 
+          <li><a href="/sk/ASUS_Website_Information/Employment" target="_top" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Zamestnanie</a></li> 
+          <li><a href="http://green.asus.com/english/" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">GreenASUS a SERASUS</a></li> 
+          <li><a href="/sk/ASUS_Website_Information/Contact_ASUS" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Kontaktujte spoločnosť ASUS</a></li> 
+          <li><a href="http://press.asus.com/" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Miestnosť pre novinárov</a></li> 
+         </ul> 
+        </div> 
+        <div id="Support_menu" class="aai-footer-span"> 
+         <h4>Potrebujete pomoc?</h4> 
+         <ul class="aai-fnav"> 
+          <li><a href="http://www.asus.com/sk/support/Repair-Status-Inquiry/?country=Slovakia" target="_self" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Skontrolovať stav opravy</a></li> 
+          <li><a href="http://www.asus.com/sk/support/Service-Center/Slovakia" target="_self" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Nájsť servisné stredisko</a></li> 
+          <li><a href="https://account.asus.com/product_reg.aspx?lang=sk-sk&amp;site=sk" target="_self" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Registrácia výrobku</a></li> 
+          <li><a href="https://eu-rma.asus.com/pick_eu/cz/" target="_self" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Reklamacie a opravy</a></li> 
+          <li><a href="https://vip.asus.com/VIP2/Services/QuestionForm?lang=sk-sk " target="_self" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Napíš nám email</a></li> 
+          <li><a href="http://www.asus.com/sk/support/CallUs  " target="_self" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Zavolaj nám</a></li> 
+          <li>Pondelok až piatok od 8:00 do 17:00</li> 
+         </ul> 
+         <div id="service_call" class="hide"> 
+          <div id="call_center"> 
+           <h4></h4> 
+           <span class="tel"></span> 
+          </div> 
+         </div> 
+         <div id="call_message" class="hide"></div> 
+        </div> 
+        <div id="Community_menu" class="aai-footer-span"> 
+         <h4>Komunita</h4> 
+         <ul class="aai-fnav"> 
+          <li class="aai-social-media"> <a href="https://www.facebook.com/asus.cz" target="_blank" title="Facebook" onclick="googleTrackFamilySite(this, 'SiteMap');return false;"><img src="/media/SK/icons/socialmedia/266_n.png"></a> <a href="http://www.youtube.com/channel/UC4szvt0DlmJRMoUMr2BCLRw " target="_blank" title="Youtube" onclick="googleTrackFamilySite(this, 'SiteMap');return false;"><img src="/media/SK/icons/socialmedia/187_n.png"></a> <a href="https://twitter.com/ASUS" target="_blank" title="Twitter" onclick="googleTrackFamilySite(this, 'SiteMap');return false;"><img src="/media/SK/icons/socialmedia/267_n.png"></a> <a href="http://pinterest.com/asushq/ " target="_blank" title="Pinterest" onclick="googleTrackFamilySite(this, 'SiteMap');return false;"><img src="/media/SK/icons/socialmedia/268_n.png"></a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div class="aai-fbootom"> 
+        <div id="extra_link"> 
+         <div id="footer_country_link"> 
+          <a href="http://www.asus.com/entry.htm" onclick="googleTrackEvent('Country_Lang_Menu', this, true);return false;" title="entry_page">Slovakia / <span class="lang_set"> Slovensko</span></a> 
+         </div> 
+        </div> 
+        <div id="aai-copyright"> 
+         <ul id="copyright"> 
+          <li><a href="/sk/Terms_of_Use_Notice_Privacy_Policy/Official-Site" target="_self" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Podmienky používania</a></li>
+          <li><a href="/sk/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy" target="_top" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Ochrana súkromných údajov</a></li> 
+          <li class="copyright">©ASUSTeK Computer Inc. Všetky práva vyhradené.</li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <script>
+     var intControlsbottomSysWordingCheckId;
+     intControlsbottomSysWordingCheckId = setInterval("controlsbottomSysWordingCheck()", intSysWordingCheckSpeed);
+
+     function controlsbottomSysWordingCheck() {
+         if (sysWordingRead) {
+             $("#call_message").children().removeAttr("style");
+             clearTimeout(intControlsbottomSysWordingCheckId);
+         }
+     }
+     $(document).ready(function () {
+         $("#call_message>div").removeAttr("style");
+
+         if (isApplicationPathSite()) {
+             var domail_url = "";
+             switch (getWebsite()) {
+                 case "ch-de":
+                 case "ch-fr":
+                 case "ch-it":
+                     domail_url = "ch.asus.com"
+                     break;
+                 case "ca-fr":
+                 case "ca-en":
+                     domail_url = "ca.asus.com"
+                     break;
+                 case "ae-en":
+                 case "ae-ar":
+                     domail_url = "ae.asus.com"
+                     break;
+                 case "be-fr":
+                 case "be-nl":
+                     domail_url = "be.asus.com"
+                     break;
+                 case "af-pa":
+                 case "af-da":
+                     domail_url = "www.asus.com/af"
+                     break; be
+                 case "sa-en":
+                 case "sa-ar":
+                     domail_url = "www.asus.com/sa"
+                     break;
+                 case "nafr-ar":
+                 case "nafr-fr":
+                     domail_url = "www.asus.com/nafr"
+                     break;
+                 case "ua":
+                 case "ua-ua":
+                     domail_url = "www.asus.ua"
+                     break;
+                 case "tn-fr":
+                 case "tn-ar":
+                     domail_url = "www.asus.com/tn"
+                     break;
+                 case "ma-fr":
+                 case "ma-ar":
+                     domail_url = "www.asus.com/ma"
+                     break;
+                 case "dz-fr":
+                 case "dz-ar":
+                     domail_url = "www.asus.com/dz"
+                     break;
+             }
+
+             $.ajax({
+                 dataType: 'xml',
+                 url: "/" + getWebsite() + "/GetData.asmx/getMultipleLang",
+                 type: 'get',
+                 cache: true,
+                 success: function (xml) {
+                     $("Domain", xml).each(function (e) {
+                         if ($("domain_name", this).text() == domail_url) {
+                             $("website", this).each(function (e) {
+                                 if ($("website_code", this).text() != getWebsite()) {
+                                     $("#footer_country_link a:last").after(" | <a href=\"" + $("url", this).text() + "\"><span>" + $("websiteLanguage", this).text() + "</span></a>");
+                                 }
+                             });
+                         }
+                         return;
+                     });
+                 },
+                 error: function (XMLHttpRequest, textStatus, errorThrown) {
+                     //alert(XMLHttpRequest + '\n' + textStatus + '\n' + errorThrown);
+                 }
+             });
+         }
+     });
+
+</script> 
+     <script>
+    if (getWebsite() == "cn") {
+        document.write(unescape('%3Cdiv style="text-align:center"%3E'))
+        document.write(unescape('%3Cscript src="https://kxlogo.knet.cn/seallogo.dll?sn=2011012700100006231&size=1"%3E%3C/script%3E'))
+        document.write(unescape('%3C/div%3E'))
+    }
+</script> 
+    </div> 
+   </div> 
+   <a id="LangSelection" href="/LangSelection.aspx?KeepThis=ture&amp;TB_iframe=ture&amp;height=150&amp;width=300&amp;inlineId=displayWarning&amp;white=true" class="thickbox hide" title=""></a> 
+   <div> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C21772F6"> 
+   </div> 
+   <script>$(document).ready(function(){setIndexBannerTopmenuBackground();});</script>
+  </form>   
+  <script>
+    $(document).ready(function () {
+        if (getWebsite() == "us") {
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("data-link", "http://store.asus.com/us/");
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("target", "_blank");
+        }
+        if (getWebsite() == "th") {
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("data-link", "http://store.asus.com/th/");
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("target", "_blank");
+        }
+        if (getWebsite() == "tw") {
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("data-link", "http://store.asus.com/tw/");
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("target", "_blank");
+        }
+        if (getWebsite() == "ph") {
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("data-link", "http://store.asus.com/ph/");
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("target", "_blank");
+        }
+    });
+
+    (function () {
+        var sc = document.createElement("link"); sc.type = "text/css"; sc.rel = 'stylesheet';
+        sc.href = "/css/2015/alert-info.css";
+        var s = document.getElementsByTagName("head")[0];
+        setTimeout(function () {
+            s.appendChild(sc);
+        }, 100);
+
+        var sc2 = document.createElement("script"); sc2.type = "text/javascript";
+        sc2.src = "/js/2015/alert-info.js";
+        var s2 = document.getElementsByTagName("script")[0]; s2.parentNode.insertBefore(sc2, s2);
+    })();
+
+</script>
+ </body>
+</html>

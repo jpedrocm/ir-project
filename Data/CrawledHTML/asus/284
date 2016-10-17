@@ -1,0 +1,616 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta charset="utf-8"> 
+  <meta name="og:description" content="ASUS' commitment to innovation, quality, and performance has built a strong reputation for ASUS graphics  cards  since 1996. Today, ASUS  is the best-selling and most award-winning graphics card brand, and is the most popular brand in 3D Mark benchmarking by users on the HWBot overclocking website."> 
+  <meta property="og:title" content="The Fastest GTX 980 Infused with Award-winning Innovations - ASUS.com"> 
+  <meta property="og:image" content="http://showcase.insowe.com/AsusVGA20th/img/fb-pic.png"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, user-scalable=no"> 
+  <title>ASUS Graphics Card 20th Anniversary</title> 
+  <link rel="stylesheet" href="./css/jquery-ui.min.css"> 
+  <link rel="stylesheet" href="./css/fancybox/jquery.fancybox.css"> 
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300"> 
+  <link rel="stylesheet" href="./css/style.css"> 
+  <script src="./js/plugins/jquery-1.11.2.min.js"></script> 
+  <script src="./js/plugins/jquery.mousewheel.min.js"></script> 
+  <script src="./js/plugins/jquery-ui.min.js"></script> 
+  <script src="./js/plugins/jquery.fancybox.pack.js"></script> 
+  <script type="text/javascript" src="css/fancybox/helpers/jquery.fancybox-media.js"></script> 
+  <script src="./js/plugins/jQueryRotateCompressed.js"></script> 
+  <script src="./js/main.js"></script> 
+  <script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		 
+		  ga('create', ' UA-56028643-1', 'auto');
+		  ga('require', 'displayfeatures');
+		  ga('send', 'pageview');
+		</script> 
+  <!--[if lte IE 8]>
+		<link rel="stylesheet" href="./css/font.css">
+		<![endif]--> 
+  <!--[if gt IE 8]>
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300">
+		<![endif]--> 
+  <!--[if !IE]><!--> 
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300"> 
+  <!--<![endif]--> 
+  <!--[if lte IE 9]>
+		<link rel="stylesheet" href="./css/font.css">
+		<script src="./js/plugins/html5shiv.js"></script>
+		<script src="./js/plugins/respond.js"></script>
+		<![endif]--> 
+ </head> 
+ <body> 
+  <div class="content"> 
+   <div id="sec00" class="front"> 
+    <div class="top"> 
+     <div class="social"> 
+      <p class="web">Megosztás</p> 
+      <a href="javascript: void(window.open('http://twitter.com/home/?status='.concat(encodeURIComponent('ASUS: The Fastest GTX 980 Infused with Award-winning Innovations')) .concat(' ') .concat(encodeURIComponent(location.href))));" class="twitter"><img src="img/twittericon.png"></a> 
+      <a href="javascript: void(window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent(location.href)) ));" class="FB"><img src="img/fbicon.png"></a> 
+     </div> 
+     <div class="multiple"> 
+      <select name="lang" id="language"> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/">ENGLISH</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/UA/">Українська</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/TR/">TÜRKÇE</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/KR/">한국어</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/JP/">日本語</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/CZ/">Čeština</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/SK/">Slovensko</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/FR/">Français</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/DE/">DEUTSCH</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/VN/">Việt Nam</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/PL/">Polski</option> <option selected value="http://www.asus.com/event/VGA/20THANNIVERSARY/HU/">Magyar</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/IT/">Italiano</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/RS/">SRPSKI</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/RU/">РУССКИЙ</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/ID/">Bahasa Indonesia</option> <option value="http://www.asus.com/event/VGA/20THANNIVERSARY/EG">ARABIC</option> 
+       <!--
+							<option value="">ENGLISH2</option>
+							<option value="">ENGLISH3</option>
+							<option value="">ENGLISH4</option>
+							<option value="">ENGLISH5</option>
+							--> </select> 
+     </div> 
+     <a id="mobilemenu" href="javascript:;" class="menu"><img src="img/menu.png"></a> 
+    </div> 
+    <div id="mobilesilde" class="fixed"> 
+     <ul class="years"> 
+      <table> 
+       <tbody> 
+        <tr> 
+         <td><a id="btn00" href="javascript:;">Innováció</a></td> 
+         <td>&nbsp;</td> 
+         <td><a id="btn11" href="javascript:;">JÖVŐ</a></td> 
+        </tr> 
+        <tr class="verline"> 
+         <td>|</td> 
+         <td>&nbsp;</td> 
+         <td>|</td> 
+        </tr> 
+        <tr> 
+         <td><a id="btn01" href="javascript:;">1996</a></td> 
+         <td>&nbsp;</td> 
+         <td><a id="btn10" href="javascript:;">2014</a></td> 
+        </tr> 
+        <tr class="verline"> 
+         <td>|</td> 
+         <td>&nbsp;</td> 
+         <td>|</td> 
+        </tr> 
+        <tr> 
+         <td><a id="btn02" href="javascript:;">1998</a></td> 
+         <td>&nbsp;</td> 
+         <td><a id="btn09" href="javascript:;">2013</a></td> 
+        </tr> 
+        <tr class="verline"> 
+         <td>|</td> 
+         <td>&nbsp;</td> 
+         <td>|</td> 
+        </tr> 
+        <tr> 
+         <td><a id="btn03" href="javascript:;">2005</a></td> 
+         <td>&nbsp;</td> 
+         <td><a id="btn08" href="javascript:;">2011</a></td> 
+        </tr> 
+        <tr class="verline"> 
+         <td>|</td> 
+         <td>&nbsp;</td> 
+         <td>|</td> 
+        </tr> 
+        <tr> 
+         <td><a id="btn04" href="javascript:;">2007</a></td> 
+         <td>&nbsp;</td> 
+         <td><a id="btn07" href="javascript:;">2010</a></td> 
+        </tr> 
+        <tr class="verline"> 
+         <td>|</td> 
+         <td>&nbsp;</td> 
+         <td>|</td> 
+        </tr> 
+        <tr> 
+         <td><a id="btn05" href="javascript:;">2008</a></td> 
+         <td class="horline"><img src="img/line.png"></td> 
+         <td><a id="btn06" href="javascript:;">2009</a></td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </ul> 
+    </div> 
+    <div class="title"> 
+     <div class="bg"> 
+      <img src="img/front.jpg"> 
+      <a target="_blank" href="http://www.asus.com/Graphics_Cards/GOLD20THGTX980P4GD5/"> <img src="img/frontCard.png"> </a> 
+     </div> 
+     <div class="text"> 
+      <h1>A LEGGYORSABB GTX 980</h1> 
+      <p class="mobile">1431 MHz OC Edition <span class="line">|</span> „DirectCU II with 0dB” ventilátor<br>Memória-jégtelenítés <span class="line">|</span> DIGI+ VRM with Super Alloy Power</p> 
+      <p class="web">1431 MHz OC Edition <span class="line">|</span> „DirectCU II with 0dB” ventilátor <span class="line">|</span> Memória-jégtelenítés <span class="line">|</span> DIGI+ VRM with Super Alloy Power</p> 
+     </div> 
+    </div> 
+    <div class="start"> 
+     <a id="explore" href="javascript:;">FEDEZZE FEL</a> 
+    </div> 
+    <div class="startPc"> 
+     <a id="explorePc" href="javascript:;"> <span class="text">A díjnyertes újítások innen indulnak</span> <img src="img/arrow.png" alt=""> </a> 
+    </div> 
+    <div class="webyears"> 
+     <div class="years"> 
+      <div class="bg">
+       <img src="img/line.png">
+      </div> 
+      <a class="active" href="javascript:;" data-page="00"> <span>Otthon</span> <img src="img/icon/circle.png"> </a> 
+      <a href="javascript:;" data-page="01"> <span>1996</span> <img src="img/icon/circle.png"> </a> 
+      <a href="javascript:;" data-page="02"> <span>1998</span> <img src="img/icon/circle.png"> </a> 
+      <span> <span>2002</span> <img src="img/icon/circleS.png"> </span> 
+      <a href="javascript:;" data-page="03"> <span>2005</span> <img src="img/icon/circle.png"> </a> 
+      <a href="javascript:;" data-page="04"> <span>2007</span> <img src="img/icon/circle.png"> </a> 
+      <a href="javascript:;" data-page="05"> <span>2008</span> <img src="img/icon/circle.png"> </a> 
+      <a href="javascript:;" data-page="06"> <span>2009</span> <img src="img/icon/circle.png"> </a> 
+      <a href="javascript:;" data-page="07"> <span>2010</span> <img src="img/icon/circle.png"> </a> 
+      <a href="javascript:;" data-page="08"> <span>2011</span> <img src="img/icon/circle.png"> </a> 
+      <a href="javascript:;" data-page="09"> <span>2013</span> <img src="img/icon/circle.png"> </a> 
+      <a href="javascript:;" data-page="10"> <span>2014</span> <img src="img/icon/circle.png"> </a> 
+      <a href="javascript:;" data-page="11"> <span>2015</span> <img src="img/icon/circle.png"> </a> 
+      <a class="fake1" href="javascript:;" data-page="12"> <span>JÖVŐ</span> <img src="img/icon/circle.png"> </a> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="map"> 
+    <div class="bg">
+     <img src="img/map.png">
+    </div> 
+    <div id="sec01" class="year l1996"> 
+     <div class="left"> 
+      <h3>1996</h3> 
+      <a class="plus" href="#boxsec01" data-section="01"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Az első</h4> 
+      <p>ASUS grafikus kártya S3 Virge/DX GPU-val</p> 
+      <div class="inweb"> 
+       <img src="img/1996/inweb1.png" data-move="T"> 
+       <p>ASUS 375</p> 
+      </div> 
+     </div> 
+     <div id="boxsec01" class="inbox"> 
+      <p>Amikor a 3D-s grafikai gyorsítás még nem volt túlságosan elterjedt, az ASUS 375 forradalmasította a grafikus kártyák gyártását.</p> 
+     </div> 
+    </div> 
+    <div class="year small s1997"> 
+     <div class="left"> 
+      <h3>1997</h3> 
+      <a class="plus" href="#boxsec02" data-section="01"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Az első</h4> 
+      <p>Valódi 2D+3D grafikus kártya (Direct3D funkció támogatása)</p> 
+      <div class="inweb"> 
+       <p>ASUS AGP-V3000</p> 
+      </div> 
+     </div> 
+     <div id="boxsec02" class="inbox"> 
+      <p>A Voodoo versenytársának tervezett V3000 volt az a kártya, amellyel az ASUS igazán betört a grafikus kártyák piacára.</p> 
+      <img src="img/1997/inbox1.png"> 
+     </div> 
+    </div> 
+    <div class="year l1998"> 
+     <div class="left"> 
+      <h3>1998</h3> 
+      <a class="plus" href="#boxsec03" data-section="01"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Egy ipari szabvány születése</h4> 
+      <p>Az első olyan grafikus kártya, amelyet a legjobb hűtés eléréséhez ventilátorral átszellőztetett hűtőbordákkal szereltek fel</p> 
+      <div class="inweb"> 
+       <p class="product">ASUS AGP-V3400</p> 
+       <img src="img/1998/inweb1.png" data-move="T"> 
+      </div> 
+     </div> 
+     <div id="boxsec03" class="inbox"> 
+      <p>Ez volt az első beépített TV In/Out funkcióval rendelkező, valamint televízióból digitálisan felvenni képes grafikus kártya is</p> 
+     </div> 
+    </div> 
+    <div id="sec02" class="year s1998"> 
+     <div class="left"> 
+      <h3>1998</h3> 
+      <a class="plus" href="#boxsec04" data-section="02"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Egy ipari szabvány születése</h4> 
+      <p>Az első 3D szemüveggel árult grafikus kártya</p> 
+      <div class="inweb"> 
+       <p class="product">ASUS VR-100</p> 
+       <img src="img/1998/inweb2.png" data-move="T"> 
+      </div> 
+     </div> 
+     <div id="boxsec04" class="inbox"> 
+      <p>Lenyűgöző 3D-s sztereoszkopikus játékélményt nyújtott az aktív képzáró (shutterglass) technológiával a Direct3D vagy OpenGL játékokhoz.</p> 
+     </div> 
+    </div> 
+    <div class="year small s1999"> 
+     <div class="left"> 
+      <h3>1999</h3> 
+      <a class="plus" href="#boxsec05" data-section="02"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Egy ipari szabvány születése</h4> 
+      <p>Az első grafikus kártya teljesítményének szabályozására szolgáló szoftverfelület</p> 
+     </div> 
+     <div id="boxsec05" class="inbox"> 
+      <p class="product">ASUS SmartDoctor</p> 
+      <p>Lehetőséget adott a felhasználóknak a túlhajtásra és ennek kiegészítő hűtéssel történő ellensúlyozására, a ventilátorsebességek és hőmérsékletek valós idejű figyelése mellett.</p> 
+      <img src="img/1999/inbox1.png"> 
+     </div> 
+    </div> 
+    <div class="year l2002"> 
+     <div class="left"> 
+      <h3>2002</h3> 
+      <a class="plus" href="#boxsec06" data-section="02"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Egy ipari szabvány születése</h4> 
+      <p>Az első különleges fekete NYÁK-lappal szerelt grafikus kártya</p> 
+      <div class="inweb"> 
+       <p>ASUS V8200 DLX</p> 
+       <img src="img/2002/inweb1.png" data-move="T"> 
+      </div> 
+     </div> 
+     <div id="boxsec06" class="inbox"> 
+      <p>A V8200 Deluxe is csúcstechnológiát képviselt korának legnagyobb túlhajtási kapacitásával (az alap 250 MHz-ről 550 MHz-re).</p> 
+     </div> 
+    </div> 
+    <div id="sec03" class="year small s2005"> 
+     <div class="left"> 
+      <h3>2005</h3> 
+      <a class="plus" href="#boxsec07" data-section="03"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4 style="font-size:18px;">Az első</h4> 
+      <p style="font-size:14px;">Fogyasztók számára elérhető két NVIDIA GPU-s grafikus kártyák</p> 
+      <div class="inweb"> 
+       <img src="img/2005/inweb1.png" data-move="T"> 
+       <p>ASUS EN7800GT DUAL</p> 
+      </div> 
+     </div> 
+     <div id="boxsec07" class="inbox"> 
+      <p>A kor tápegység-korlátait kezelendő lehetőséget nyújtott a felhasználóknak annak eldöntésére, hogy belső vagy külső tápellátást szeretnének-e használni.</p> 
+     </div> 
+    </div> 
+    <div class="year l2005"> 
+     <div class="left"> 
+      <h3>2005</h3> 
+      <a class="plus" href="#boxsec08" data-section="03"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Egy ipari szabvány születése</h4> 
+      <p>Az első, grafikus kártyákon megvalósított képjavítási technológia</p> 
+      <div class="inweb"> 
+       <img src="img/2005/inweb2.png" data-move="B"> 
+      </div> 
+     </div> 
+     <div id="boxsec08" class="inbox"> 
+      <p>Az ASUS volt az első vállalat, aki grafikus kártyáin képjavítási szolgáltatást alkalmazott - és az előre beállított képprofilok segítségével nagymértékben javította a képek minőségét</p> 
+     </div> 
+    </div> 
+    <div id="sec04" class="year l2007"> 
+     <div class="left"> 
+      <h3>2007</h3> 
+      <a class="plus" href="#boxsec09" data-section="04"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Az első</h4> 
+      <p>Külső grafikus kártya</p> 
+      <div class="inweb"> 
+       <img src="img/2007/inweb1.png" data-move="B"> 
+       <p>XG Station</p> 
+      </div> 
+     </div> 
+     <div id="boxsec09" class="inbox"> 
+      <p>Az XG Station segítségével a panelen egy gomb elforgatásával vezérelhető a grafikus kártya frekvenciája, ugyanakkor figyelemmel kísérhetők az olyan grafikával kapcsolatos információk, mint a GPU-magok teljesítménye, a GPU-ventilátor sebessége, a rendszer hangereje és egyebek.</p> 
+     </div> 
+    </div> 
+    <div class="year small s2007"> 
+     <div class="left"> 
+      <h3>2007</h3> 
+      <a class="plus" href="#boxsec10" data-section="04"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Az első</h4> 
+      <p>A hardveres túlhajtás-vezérlőt úgy tervezték, hogy illeszkedjen a számítógép-házba</p> 
+      <div class="inweb"> 
+       <img src="img/2007/inweb2.png" data-move="B"> 
+       <p>OC Gear előlapi panel</p> 
+      </div> 
+     </div> 
+     <div id="boxsec10" class="inbox"> 
+      <p>Valós időben mutatta a videomemória frekvenciáját és a ventilátor sebességét és közben azonnal beállítható volt a túlhajtás.</p> 
+     </div> 
+    </div> 
+    <div id="sec05" class="year l2008"> 
+     <div class="left"> 
+      <h3>2008</h3> 
+      <a class="plus" href="#boxsec11" data-section="05"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Az első</h4> 
+      <p>ROG grafikus kártya</p> 
+      <div class="inweb"> 
+       <p>9600/ 9800 GT MATRIX</p> 
+       <img src="img/2008/inweb1.png" data-move="B"> 
+      </div> 
+     </div> 
+     <div id="boxsec11" class="inbox"> 
+      <p>A későbbi ROG grafikus kártyáknak megágyazó MATRIX a felhasználóbarát túlhajtáshoz készült, de a kicsomagolás után azonnal szemkápráztató sebességre volt képes. </p> 
+     </div> 
+    </div> 
+    <div class="year small s2008"> 
+     <div class="left"> 
+      <h3>2008</h3> 
+      <a class="plus" href="#boxsec12" data-section="05"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Egy ipari szabvány születése</h4> 
+      <p>Az első kétventilátoros videokártya</p> 
+      <div class="inweb"> 
+       <p>ASUS EAH4850/4870 MATRIX</p> 
+       <img src="img/2008/inweb2.png" data-move="B"> 
+      </div> 
+     </div> 
+     <div id="boxsec12" class="inbox"> 
+      <p>A DirectCU hűtési megoldás előfutára két nagy ventilátorral biztosította a halk, mégis extrém hatékony hűtést a nagyobb túlhajthatósághoz.</p> 
+     </div> 
+    </div> 
+    <div id="sec06" class="year l2009"> 
+     <div class="left"> 
+      <h3>2009</h3> 
+      <a class="plus" href="#boxsec13" data-section="06"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4 style="font-size:18px;">Az első</h4> 
+      <p>ROG grafikus kártya LED-es terhelésjelzővel, biztonságos móddal (Safe Mode) és VBIOS frissítési funkcióval.</p> 
+      <div class="inweb"> 
+       <p>ROG MATRIX GTX 285</p> 
+       <img src="img/2009/inweb1.png" data-move="B"> 
+      </div> 
+     </div> 
+     <div id="boxsec13" class="inbox"> 
+      <p>A ROG Matrix GTX 285-ben megjelent egy gyönyörű színkódolt LED-es terhelésjelző, mely a GPU terhelésének megfelelően változtatta a színét, valamint a rendszer azonnali visszaállítására szolgáló Safe Mode gomb, hogy a felhasználók magabiztosabban próbálkozhassanak a túlhajtással.</p> 
+     </div> 
+    </div> 
+    <div class="year small s2009"> 
+     <div class="left"> 
+      <h3>2009</h3> 
+      <a class="plus" href="#boxsec14" data-section="06"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Az első</h4> 
+      <p>Az NVIDIA megoldását használó két GPU-s ROG grafikus kártya</p> 
+      <div class="inweb"> 
+       <p>ROG MARS</p> 
+       <img src="img/2009/inweb2.png" data-move="B"> 
+      </div> 
+     </div> 
+     <div id="boxsec14" class="inbox"> 
+      <p>A MARS hagyomány két NVIDIA GTX 285 GPU alkalmazásával kezdődött, és egy egész sorozat olyan grafikus kártyát eredményezett, amely a világ legerősebb egy PCIe-csatolós kártyája volt.</p> 
+     </div> 
+    </div> 
+    <div id="sec07" class="year l2010"> 
+     <div class="left"> 
+      <h3>2010</h3> 
+      <a class="plus" href="#boxsec15" data-section="07"><img src="img/icon/plus.png"></a> 
+      <a class="video" href="https://www.youtube.com/watch?v=8inXR-LqPNc"><img src="img/icon/video.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Egy ipari szabvány születése</h4> 
+      <p>Az első GPU-ra közvetlenül ráültetett réz hőcsöves megoldás</p> 
+      <div class="inweb"> 
+       <img src="img/2010/inweb1.png" data-move="B"> 
+       <p>DirectCU technológia</p> 
+      </div> 
+     </div> 
+     <div id="boxsec15" class="inbox"> 
+      <p>A modern DirectCU technológia hajnala gyorsan elvezetett a mai ASUS grafikus kártyák legnagyobb részében használt fejlettebb DirectCU II hűtési megoldáshoz.</p> 
+     </div> 
+    </div> 
+    <div class="year small s2010"> 
+     <div class="left"> 
+      <h3>2010</h3> 
+      <a class="plus" href="#boxsec16" data-section="07"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Az első</h4> 
+      <p>Az AMD megoldását használó két GPU-s ROG grafikus kártya</p> 
+      <div class="inweb"> 
+       <p>ROG ARES</p> 
+       <img src="img/2010/inweb2.png" data-move="B"> 
+      </div> 
+     </div> 
+     <div id="boxsec16" class="inbox"> 
+      <p style="font-size:13px;">A ROG Ares is a két GPU-s kártyák hagyományát folytatja, immár az AMD oldaláról. A lapon két Radeon HD 5870 GPU található az egy grafikus feldolgozóegységes versenytársakét messze túlszárnyaló kivételes teljesítményhez.</p> 
+      <img src="img/2010/inbox1.png"> 
+     </div> 
+    </div> 
+    <div id="sec08" class="year l2011"> 
+     <div class="left"> 
+      <h3>2011</h3> 
+      <a class="plus" href="#boxsec17" data-section="08"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4 style="font-size:13px;">Egy ipari szabvány születése</h4> 
+      <p style="font-size:13px;">Maximális teljesítményt és élettartamot kínál minimális energiaveszteséggel és melegedéssel</p> 
+      <div class="inweb"> 
+       <img src="img/2011/inweb1.png" data-move="T"> 
+       <p>Super Alloy Power</p> 
+      </div> 
+     </div> 
+     <div id="boxsec17" class="inbox"> 
+      <p>A mai ASUS grafikus kártyákban is alkalmazott Super Alloy Power anyagokat a kondenzátorokban és a fémoxid-félvezetőkben (MOS) használták az élettartam növelésére.</p> 
+      <img src="img/2011/inbox1.png"> 
+     </div> 
+    </div> 
+    <div class="year small s2012"> 
+     <div class="left"> 
+      <h3>2012</h3> 
+      <a class="plus" href="#boxsec18" data-section="08"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4 style="font-size:13px;">Egy ipari szabvány születése</h4> 
+      <p style="font-size:13px;">A grafikus kártya kivezetéseinek hardveres összekötése az alaplappal a maximális túlhajtási kompatibilitás érdekében.</p> 
+      <div class="inweb"> 
+       <img src="img/2012/inweb1.png" data-move="B"> 
+       <p>VGA Hotwire</p> 
+      </div> 
+     </div> 
+     <div id="boxsec18" class="inbox"> 
+      <p>A feszültség túlhúzásából a lehető legtöbbet képes kihozni azzal, hogy a grafikus kártya és az alaplap között közvetlen összeköttetést hoz létre forrasztás nélkül, ezzel lehetővé teszi a VRAM és a PLL feszültségének valós idejű változtatását.</p> 
+     </div> 
+    </div> 
+    <div id="sec09" class="year small s2013"> 
+     <div class="left"> 
+      <h3>2013</h3> 
+      <a class="plus" href="#boxsec19" data-section="09"><img src="img/icon/plus.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4 style="font-size:13px;">Egy ipari szabvány születése</h4> 
+      <p style="font-size:13px;">Az első ITX házba illeszkedő grafikus kártya</p> 
+      <div class="inweb"> 
+       <img src="img/2013/inweb1.png" data-move="T"> 
+       <p>DirectCU Mini</p> 
+      </div> 
+     </div> 
+     <div id="boxsec19" class="inbox"> 
+      <p>Maximálisan kihasználja a csúcskategóriás GPU lehetőségeit, miközben megtartja a kis méretet azért, hogy még a legkisebb m-ITX gépbe is beépíthető legyen.</p> 
+     </div> 
+    </div> 
+    <div class="year l2013"> 
+     <div class="left"> 
+      <h3>2013</h3> 
+      <a class="plus" href="#boxsec20" data-section="09"><img src="img/icon/plus.png"></a> 
+      <a class="video" href="https://www.youtube.com/watch?v=YnDpSlx6q68"><img src="img/icon/video.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4 style="font-size:13px;">Egy ipari szabvány születése</h4> 
+      <p style="font-size:13px;">Az első hibrid levegős/folyadékos hűtési megoldás grafikus kártyán</p> 
+      <div class="inweb"> 
+       <img src="img/2013/inweb2.png" data-move="T"> 
+       <p>ROG POSEIDON</p> 
+      </div> 
+     </div> 
+     <div id="boxsec20" class="inbox"> 
+      <p>A felhasználók választhatnak a léghűtés és a folyadékhűtés között a túlhajtási lehetőségek maximális kiaknázásához úgy, hogy közben megmarad a rugalmasságuk arra, hogy egy másik helyzetben változtassanak.</p> 
+     </div> 
+    </div> 
+    <div id="sec10" class="year l2014"> 
+     <div class="left"> 
+      <h3>2014</h3> 
+      <a class="plus" href="#boxsec21" data-section="10"><img src="img/icon/plus.png"></a> 
+      <a class="video" href="http://www.youtube.com/watch?v=27hBljJjmGI"><img src="img/icon/video.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Egy ipari szabvány születése</h4> 
+      <p style="font-size:12px;">A 0dB fan technológiával a játékosok teljes csendben élvezhetik a népszerű online játékokat*, mivel a ventilátorok teljesen leállnak, ha a GPU hőmérséklete egy meghatározott érték alatt marad.</p> 
+      <div class="inweb"> 
+       <img src="img/2014/inweb1.png" data-move="T"> 
+       <p>0dB Fan</p> 
+      </div> 
+     </div> 
+     <div id="boxsec21" class="inbox"> 
+      <p>A 0dB fan technológiával a játékosok teljes csendben élvezhetik a népszerű online játékokat*, mivel a ventilátorok teljesen leállnak, ha a GPU hőmérséklete egy meghatározott érték alatt marad.</p> 
+      <p class="comment">*A teljesítmény a rendszerkonfigurációtól, a GPU-változattól és a környezeti hőmérséklettől függően változhat.</p> 
+     </div> 
+    </div> 
+    <div class="year small s2014"> 
+     <div class="left"> 
+      <h3>2014</h3> 
+      <a class="plus" href="#boxsec22" data-section="10"><img src="img/icon/plus.png"></a> 
+      <a class="video" href="https://www.youtube.com/watch?v=hP2WFOx3-to"><img src="img/icon/video.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Az első</h4> 
+      <p style="font-size:13px;">ROG MATRIX memória-jégtelenítővel <br> Azonnal jégtelenítés. Nincs többé <br> jég miatti fagyás.</p> 
+     </div> 
+     <div id="boxsec22" class="inbox"> 
+      <p>A hívek visszajelzéseire támaszkodva a Memory Defroster technológia kiküszöböli a folyékonynitrogénes túlhajtásnál a hideg miatt bekövetkező hibákat azzal, hogy megtartja a hőmérsékleti optimumot.</p> 
+      <img src="img/2014/inbox1.png"> 
+     </div> 
+    </div> 
+    <div class="year small s2015_1"> 
+     <div class="left"> 
+      <h3>2015</h3> 
+      <a href="#boxsec23" class="plus" data-section="10"><img src="img/icon/plus.png"></a> 
+      <!--<a href="#" class="link"><img src="img/icon/link.png"></a>--> 
+     </div> 
+     <div class="right"> 
+      <h4>Az első</h4> 
+      <p>A GTX 900 sorozatú grafikus kártyák innovatív, kétventilátoros kialakítást kaptak a még jobb SLI-konfigurációk építéséhez – a különleges White Edition-ben.</p> 
+     </div> 
+     <div id="boxsec23" class="inbox"> 
+      <p>A tökéletes grafikus kártya megalkotását célzó iparági újítások hosszú sorában a Turbo újabb csúcspont.</p> 
+      <img src="img/2015/inbox1.png"> 
+     </div> 
+    </div> 
+    <div class="year small s2015_2"> 
+     <div class="left"> 
+      <h3>2015</h3> 
+      <a href="http://www.asus.com/Graphics_Cards/GOLD20THGTX980P4GD5/"><img src="img/icon/link.png"></a> 
+     </div> 
+     <div class="right"> 
+      <h4>Az első</h4> 
+      <p>Igazi mérnöki csoda – a leggyorsabb GTX 980 kártya olyan díjnyertes újításokkal van tele, mint a DirectCU, a 0dB fans, a Memory Defroster és egyebek.</p> 
+      <div class="inweb"> 
+       <img src="img/2015/inweb1.png" data-move="B"> 
+       <p>GTX 980 20th Anniversary Gold Edition</p> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="sec11" class="year small s2015_3"> 
+     <!--
+					<div class="left">
+						<h3>2015</h3>
+						<a href="#" class="video"><img src="img/icon/video.png"></a>
+						<a href="#" class="link"><img src="img/icon/link.png"></a>
+					</div>
+					<div class="right">
+						<h4>Egy ipari szabvány születése</h4>
+						<p>Pursues the best product reliability and performance with Surface Mount Technology.</p>
+						<div class="inweb">
+							<img src="img/2015/inweb2.png" data-move="T">
+						</div>
+					</div>
+				--> 
+    </div> 
+   </div> 
+   <div id="sec12" class="end"> 
+    <div class="bg">
+     <img src="img/end.png">
+    </div> 
+    <div class="text"> 
+     <h2 style="font-size:35px;">KÖSZÖNJÜK, HOGY SEGÍTSÉGÜKKEL MI LEHETÜNK</h2> 
+     <p class="left">A legnagyobb példányszámban eladott és legtöbb díjat nyert grafikus kártyák gyártója</p> 
+     <p class="right">A 3DMark mérések legnépszerűbb grafikuskártya-márkája</p> 
+     <div class="logo">
+      <img src="img/logo.png">
+     </div> 
+    </div> 
+   </div> 
+   <div class="webshadow wleft">
+    &nbsp;
+   </div> 
+   <div class="webshadow wright">
+    &nbsp;
+   </div> 
+   <div class="b75"></div> 
+  </div>  
+ </body>
+</html>

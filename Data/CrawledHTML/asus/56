@@ -1,0 +1,234 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7">
+  <![endif]-->
+<!--[if IE 7]>
+  <html lang="en-us" class="no-js lt-ie9 lt-ie8">
+    <![endif]-->
+<!--[if IE 8]>
+    <html lang="en-us" class="no-js lt-ie9">
+      <![endif]-->
+<!--[if gt IE 8]>
+      <!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head> 
+  <title>ASUS - computer, laptop, tablet, pad, android phone, vga, mb, lcd monitor, notebook</title> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="description" content="ASUS is a worldwide top-three consumer notebook vendor and maker of the world’s best-selling, most award-winning, motherboards. Driven by innovation and committed to quality, ASUS won 4,168 awards in 2012 and is widely credited with revolutionizing the PC industry with its Eee PC™. Company revenue for 2011 was approximately US$11.9 billion."> 
+  <meta name="Keywords" content="ASUS,notebook,Pad,graphics card,motherboard,lcd monitor,Desktop,Eee,Easy,Notebooks,Laptop,NB,laptops,Display,Mobile,Smartphone,Navigation smartphone,Mobile phone,Networks,Server &amp; Workstation,Chassis,Motherboards,MB,Optical Storage,Graphics Cards,VGA,Multimedia,Peripherals &amp; Accessories,accessories,Peripheral,PC Accessories,Computer Peripheral,NB Accessories,Power Supply,Thermal Solution,Eshop,All-in-one PCs,Commercial Notebooks,Commercial Desktop,Barebone PC,Tablet,Touch Panel,touch screen,"> 
+  <meta name="author" content=""> 
+  <!--[if lt IE 9]>
+        <script src="/js/web/html5.js"></script>
+        <![endif]--> 
+  <link href="/css/2015/dist/base.css" rel="stylesheet"> 
+  <link href="/css/web/new_b.css" rel="stylesheet" type="text/css"> 
+  <script>
+            if (window.location.host == "www.asus.com.cn") {
+                !window.jQuery && document.write(unescape('%3Cscript src="/js/web/jquery.js"%3E%3C/script%3E'))
+            }
+            else {
+                document.write(unescape('%3Cscript src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"%3E%3C/script%3E'));
+            }
+        </script> 
+  <script>
+            if (window.location.host != "www.asus.com.cn") {
+                !window.jQuery && document.write(unescape('%3Cscript src="/js/web/jquery.js"%3E%3C/script%3E'))
+            }
+        </script> 
+  <script src="/js/web/bootstrap.js"></script> 
+  <style>
+        .footer_in a {
+            color:#969696;
+            margin-right: 5px;
+        }
+    </style> 
+ </head> 
+ <body> 
+  <div class="modal hide" id="RememberModel" style="margin:-100px 0 0 -100px;"> 
+   <!--<div class="modal-header">
+        <button class="close" data-dismiss="modal"><img src="/media/images/g_close.png" /></button>
+    </div>--> 
+   <div class="modal-body">
+    Remember my choice.
+   </div> 
+   <div class="modal-footer"> 
+    <a class="btn btn-primary" onclick="setDefaultLocation();">Yes</a> 
+    <a class="btn" data-dismiss="modal" onclick="goSeltLocation();">No</a> 
+   </div> 
+  </div> 
+  <div id="main-zone"> 
+   <!--選單--> 
+   <div class="nav_menu"> 
+    <div class="nav_logo">
+     <a href="https://www.asus.com/"><img src="images/logo.png"></a>
+    </div> 
+   </div> 
+   <!--主要內容框--> 
+   <div id="zone_container"> 
+    <h1 class="country_title">Choose your country</h1> 
+    <p class="country_txt">Visit the <a href="//www.asus.com/" target="_top">ASUS Global website</a>, or choose your country/region below.</p> 
+    <!--國家--> 
+    <div id="entry-area"> 
+     <!--Africa & Middle East--> 
+     <h3>Africa &amp; Middle East</h3> 
+     <div class="country_box"> 
+      <ul class="country_list"> 
+       <li><a href="http://www.asus.com/aa/" target="_top">Africa / English</a></li> 
+       <li><a href="http://www.asus.com/eg/" target="_top">Egypt / العربية</a></li> 
+       <li><a href="http://www.asus.com/eg-en/" target="_top">Egypt / English</a></li> 
+       <li><a href="http://www.asus.com/il/" target="_top">Israel / עברית</a></li> 
+       <li><a href="http://www.asus.com/middleeast-fa/" target="_top">Middle East /فارسی</a></li> 
+       <li><a href="http://www.asus.com/ae-ar/" target="_top">Middle East / العربية</a></li> 
+       <li><a href="http://www.asus.com/ae-en/" target="_top">Middle East / English</a></li> 
+       <li><a href="http://www.asus.com/nafr-ar/" target="_top">North Africa / العربية</a></li> 
+       <li><a href="http://www.asus.com/nafr-fr/" target="_top">North Africa / Français</a></li> 
+       <li><a href="http://www.asus.com/sa-en/" target="_top">Saudi Arabia / English</a></li> 
+       <li><a href="http://www.asus.com/sa-ar/" target="_top">Saudi Arabia / العربية</a></li> 
+       <li><a href="http://www.asus.com/za/" target="_top">South Africa / English</a></li> 
+       <li><a href="http://www.asus.com/ng/" target="_top">Nigeria / English</a></li> 
+      </ul> 
+     </div> 
+     <!--America Region--> 
+     <h3>America Region</h3> 
+     <div class="country_box"> 
+      <ul class="country_list"> 
+       <li><a href="http://www.asus.com/br/" target="_top">Brazil / Português</a></li> 
+       <li><a href="http://www.asus.com/ca-en/" target="_top">Canada / English</a></li> 
+       <li><a href="http://www.asus.com/ca-fr/" target="_top">Canada / Français</a></li> 
+       <li><a href="http://www.asus.com/latin/" target="_top">Latin Spanish / Español</a></li> 
+       <li><a href="http://www.asus.com/mx/" target="_top">Mexico / Español</a></li> 
+       <li><a href="http://www.asus.com/us/" target="_top">United States / English</a> </li> 
+      </ul> 
+     </div> 
+     <!--Asia-Pacific--> 
+     <h3>Asia-Pacific</h3> 
+     <div class="country_box"> 
+      <ul class="country_list"> 
+       <li><a href="http://www.asus.com/au/" target="_top">Australia / English</a></li> 
+       <li><a href="http://www.asus.com/bd/" target="_top">Bangladesh / English</a></li> 
+       <li><a href="http://cn.asus.com/" target="_top">China / 简体中文</a></li> 
+       <li><a href="http://www.asus.com/hk/" target="_top">Hong Kong / 繁體中文</a></li> 
+       <li><a href="http://www.asus.com/in/" target="_top">India / English</a></li> 
+       <li><a href="http://www.asus.com/id/" target="_top">Indonesia / Bahasa Indonesia</a></li> 
+       <li><a href="http://www.asus.com/jp/" target="_top">Japan / 日本語</a></li> 
+       <li><a href="http://www.asus.com/kr/" target="_top">Korea / 한국어</a></li> 
+       <li><a href="http://www.asus.com/my/" target="_top">Malaysia / English</a></li> 
+       <li><a href="http://www.asus.com/np/" target="_top">Nepal / English</a></li> 
+       <li><a href="http://www.asus.com/nz/" target="_top">New Zealand / English</a></li> 
+       <li><a href="http://www.asus.com/ph/" target="_top">Philippines / English</a></li> 
+       <li><a href="http://www.asus.com/sg/" target="_top">Singapore / English</a></li> 
+       <li><a href="http://www.asus.com/lk/" target="_top">Sri Lanka / English</a></li> 
+       <li><a href="http://www.asus.com/tw/" target="_top">Taiwan / 繁體中文</a></li> 
+       <li><a href="http://www.asus.com/th/" target="_top">Thailand / ไทย</a></li> 
+       <li><a href="http://www.asus.com/tr/" target="_top">Turkey / Türkçe</a></li> 
+       <li><a href="http://www.asus.com/vn/" target="_top">Vietnam / Việt Nam</a></li> 
+      </ul> 
+     </div> 
+     <!--Europe Region--> 
+     <h3>Europe Region</h3> 
+     <ul class="country_list"> 
+      <li><a href="http://www.asus.com/be-nl/" target="_top">Belgium / Nederlands</a></li> 
+      <li><a href="http://www.asus.com/be-fr/" target="_top">Belgium / Français</a></li> 
+      <li><a href="http://www.asus.com/bg/" target="_top">Bulgaria / English</a></li> 
+      <li><a href="http://www.asus.com/cz/" target="_top">Czech Rep / Čeština</a></li> 
+      <li><a href="http://www.asus.com/dk/" target="_top">Denmark / Dansk</a></li> 
+      <li><a href="http://www.asus.com/fi/" target="_top">Finland / Suomi</a></li> 
+      <li><a href="http://www.asus.com/fr/" target="_top">France / Français</a></li> 
+      <li><a href="http://www.asus.com/de/" target="_top">Germany / Deutsch</a></li> 
+      <li><a href="http://www.asus.com/gr/" target="_top">Greece / English</a></li> 
+      <li><a href="http://www.asus.com/hu/" target="_top">Hungary / Magyar</a></li> 
+      <li><a href="http://www.asus.com/ie/" target="_top">Ireland / English</a></li> 
+      <li><a href="http://www.asus.com/it/" target="_top">Italy / Italiano</a></li> 
+      <li><a href="http://www.asus.com/nl/" target="_top">Netherlands / Nederlands</a></li> 
+      <li><a href="http://www.asus.com/no/" target="_top">Norway / Norsk</a></li> 
+      <li><a href="http://www.asus.com/pl/" target="_top">Poland / Polski</a></li> 
+      <li><a href="http://www.asus.com/pt/" target="_top">Portugal / Português</a></li> 
+      <li><a href="http://www.asus.com/ro/" target="_top">Romania / România</a></li> 
+      <li><a href="http://www.asus.com/ru/" target="_top">Russia / Русский</a></li> 
+      <li><a href="http://www.asus.com/rs/" target="_top">Serbia / Српски</a></li> 
+      <li><a href="http://www.asus.com/sk/" target="_top">Slovakia / Slovensko</a></li> 
+      <li><a href="http://www.asus.com/es/" target="_top">Spain / Español</a></li> 
+      <li><a href="http://www.asus.com/se/" target="_top">Sweden / Svenska</a></li> 
+      <li><a href="http://www.asus.com/ch-de/" target="_top">Switzerland / Deutsch</a></li> 
+      <li><a href="http://www.asus.com/ch-fr/" target="_top">Switzerland / Français</a></li> 
+      <li><a href="http://www.asus.com/ch-it/" target="_top">Switzerland / Italiano</a></li> 
+      <li><a href="http://www.asus.com/ua/" target="_top">Ukraine / Русский</a></li> 
+      <li><a href="http://www.asus.com/ua-ua/" target="_top">Ukraine / Українська</a></li> 
+      <li><a href="http://www.asus.com/uk/" target="_top">United Kingdom / English</a></li> 
+      <li><a href="http://www.asus.com/kz/" target="_top">Kazakhstan / Русский</a></li> 
+     </ul> 
+    </div> 
+   </div> 
+  </div> 
+  <!--//外圍--> 
+  <!--footer--> 
+  <div id="footer"> 
+   <div class="footer_in"> 
+    <a href="http://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Official_Site" target="_self">Terms of Use Notice</a> | 
+    <a href="http://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy" target="_self">Privacy Policy</a> ©ASUSTeK Computer Inc. All rights reserved. 
+   </div> 
+  </div> 
+  <script type="text/javascript">
+        var default_site = "";
+        var expiresec = 60 * 60 * 24 * 365 * 10 * 1000;
+
+        function directURL() {
+            if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+                var referLink = document.createElement('a');
+                referLink.href = default_site;
+                referLink.target = "_top";
+                document.body.appendChild(referLink);
+                referLink.click();
+            } else {
+                window.parent.location = default_site;
+            }
+        }
+
+        function setDefaultLocation() {
+            var exdate = new Date();
+            exdate.setSeconds(exdate.getSeconds() + expiresec);
+
+            document.cookie = "country_setting=" + escape(default_site) + ";path=/;expires=" + exdate.toGMTString() + ";domain=.asus.com;";
+            directURL();
+        }
+
+        function getLanguageMapping(LangSite) {
+            $.ajax({
+                datatype: 'xml',
+                url: 'GetData.asmx/getLanguageMapping',
+                type: 'GET',
+                data: { LangSite: LangSite },
+                success: function (xml) {
+                    $("#RememberModel div.modal-body").html($("Auto_Select_Region_Mesg", xml).text());
+                    $("#RememberModel div.modal-footer a:eq(0)").html($("Auto_Select_Region_Yes", xml).text());
+                    $("#RememberModel div.modal-footer a:eq(1)").html($("Auto_Select_Region_No", xml).text());
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) { }
+            });
+        }
+
+        $(document).ready(function () {
+            $("#RememberModel").css({ "height": 110, "width": 200 });
+            $("#main-zone a").on("click", function () {
+                $("#RememberModel").modal('show');
+                default_site = $(this).attr("href");
+                return false;
+            });
+
+            //: 2013/12/18 Angel, detect browser language as default
+            var lang = (navigator.language || navigator.systemLanguage || navigator.userLanguage || 'en').toLowerCase();
+            getLanguageMapping(lang);
+        });
+
+        function goSeltLocation() {
+            document.cookie = "GlobalNoFlag=Y;path=/;domain=.asus.com;";
+            document.cookie = "current_site=" + default_site + ";path=/;domain=.asus.com;";
+            directURL();
+        }
+
+      
+    </script> 
+ </body>
+</html>

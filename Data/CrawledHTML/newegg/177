@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1.0,user-scalable=no"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <title>How to build a budget VR-ready PC - Newegg.com</title> 
+  <meta name="description" content="Learn everything you need to know about Virtual Reality as Newegg covers 5 Tips for Building a VR-Ready PC with minimum requirements, benchmarks and more."> 
+  <link rel="stylesheet" type="text/css" href="http://images10.newegg.com/WebResource/Themes/2005/CSS/USA/font-awesome.v1.w.10825.0.css"> 
+  <link type="text/css" rel="stylesheet" href="http://promotions.newegg.com/template/us/css/2015/template.css"> 
+  <link type="text/css" rel="stylesheet" href="http://promotions.newegg.com/nepro/vr2/css/base.css"> 
+  <link type="text/css" rel="stylesheet" href="http://promotions.newegg.com/nepro/vr2/css/vr.css"> 
+  <!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="css/ie.css">
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]--> 
+  <!-- Adobe Dynamic Tag Management --> 
+  <script src="http://assets.adobedtm.com/d2f967b83a0c92b19d9b572545fdbdc3d591f6f5/satelliteLib-389760a7bc4573d6b081d36f6782b59f3c8ffb54.js"></script> 
+  <script type="text/javascript" src="http://promotions.newegg.com/template/us/js/jquery-1.5.1.nrv.min.js"></script> 
+  <!-- jQuery for Pricing | DO NOT REMOVE --> 
+ </head> 
+ <body> 
+  <script type="text/javascript" src="http://promotions.newegg.com/template/us/js/2015/header-blue.js"></script> 
+  <!-- HEADER --> 
+  <!-- VR MODULES BRGIN --> 
+  <section class="section-inner article"> 
+   <div class="article-main"> 
+    <h1>How to build a budget VR-ready PC</h1> 
+    <p class="author">By Angelo D’Argenio</p> 
+    <img class="article-image" src="http://promotions.newegg.com/nepro/vr2/guides/images/vive_vr_build_skylake_msi_r9_390_review_5_1.jpg" title="How to build a budget VR-ready PC" alt="How to build a budget VR-ready PC"> 
+    <p>VR can be an expensive technology, and a headset alone will run you $500-$800. If you have a relatively recent gaming PC, you can probably get away with upgrading your graphics card and jump right into gaming’s new era, but that too will set you back several hundred dollars. If you haven’t upgraded your PC in five or ten years, however, you are probably going to need a whole new rig.</p> 
+    <p>The idea of dropping $2000-$3000 on a new computer in addition to an already expensive VR headset is off-putting to anyone on a budget, especially humble gamers and tech enthusiasts whose diet primarily consists of ramen and multi-vitamins.</p> 
+    <p>Fortunately, there is a solution. VR technology only requires power in very specific areas of a computer build. With a little bit of cost-cutting and compromising, you can get yourself a brand new VR ready rig on a budget of about 700-900 bucks. You’ll meet all the minimums, but that’s about all you’ll meet. Don’t expect to run VR games at high specs (that’s what future upgrades are for).</p> 
+    <p>This guide will provide you a cheap but workable Rift-or Vive-ready PC build, as well as telling you what you are compromising and what you can improve by dishing out a few more dollars. </p> 
+    <p>By the end of this guide you should be ready to build your new rig, provided you have at least a small amount of experience putting together your own PCs.</p> 
+    <p><strong>Note:</strong> The following build advice does not factor in monitor, keyboard, mouse, or even a case. We recommend you salvage those from your last computer if possible, or grab something on sale from <a href="http://www.newegg.com/?cm_sp=VRCentral-_-Article-_-BudgetVR-_-NA">Newegg</a>.</p> 
+    <p>These are, quite simply, the barest of barebones components for a VR-ready system.</p> 
+    <h2>Processor</h2> 
+    <img src="http://promotions.newegg.com/nepro/vr2/guides/images/intel_core_i5_4590.jpg" title="Processor" alt="Processor"> 
+    <p><strong>Minimum Required:</strong> <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16819116991&amp;cm_sp=VRCentral-_-Article-_-BudgetVR-_-NA"> Intel Core i5-4590</a></p> 
+    <p><strong>The Compromise:</strong> When it comes to raw speed and power, your computer’s processor is the most important component. Processors are more difficult to upgrade than other parts, so you usually want one that will last you for a few years. Thus, while the i5-4590 is workable there is a good chance that your computer will be outpaced in the not-too-distant future.</p> 
+    <img src="http://promotions.newegg.com/nepro/vr2/guides/images/gigabyte_x99_6900k-broadwell_e_build_13.jpg" title="Processor" alt="Processor"> 
+    <p><strong>Alternatives:</strong> For a very small increased investment you can upgrade to one of Intel’s Skylake-based processors. <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16819117563&amp;cm_sp=VRCentral-_-Article-_-BudgetVR-_-NA">The Core i5-6500</a> is a good medium-range processor that should upgrade your speed and stability.</p> 
+    <p>If you want to dump even more money into future proofing your computer, consider <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16819117559&amp;cm_sp=VRCentral-_-Article-_-BudgetVR-_-NA">the Core i7-6700K</a>. That will up your processor price and will require some extra cost in a compatible motherboard, but it upgrades your build out of the budget PC category and guarantees you’ll have enough power to keep playing new VR titles for a longer time.</p> 
+    <p>You may note that we haven’t suggested AMD CPUs. That’s because the current consensus seems to be that AMD CPUs struggle a bit when trying to handle VR performance. Intel processors just perform better right now. While this might not be the case in the future as AMD upgrades their architecture to be more compatible with our VR landscape, for the short-term future we recommend sticking with Intel’s line.</p> 
+    <p>That being said, if you want to switch over to the AMD camp, the bare-minimum <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16819113284&amp;cm_sp=VRCentral-_-Article-_-BudgetVR-_-NA">AMD FX-8350</a> is cheaper than Intel’s offering.</p> 
+    <h2>Graphics Card</h2> 
+    <img src="http://promotions.newegg.com/nepro/vr2/guides/images/asus_geforce 970.jpg" title="Graphics Card" alt="Graphics Card"> 
+    <p><strong>Minimum Required:</strong> <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16814121899&amp;cm_sp=VRCentral-_-Article-_-BudgetVR-_-NA">Nvidia GeForce GTX 970</a> or AMD Radeon R9 290 </p> 
+    <p><strong>The Compromise:</strong> Your graphics card will be the part of your computer most taxed by VR, so once again you probably don’t want to go too cheap here. Luckily, if you are on a budget and do want to get the bare minimum, graphics cards are much easier to upgrade than processors are. Just note that you’ll end up spending more money in the long run.</p> 
+    <p>The major compromise here is graphical fidelity. A less powerful graphics card will give you a lower frame rate, lower resolution graphics, and might cause images to chug and stutter at points. While this usually isn’t a major problem with traditional PC games, remember that any problems with your framerate in VR can cause motion sickness. If at all possible, you want to avoid going bare-minimum here. </p> 
+    <img src="http://promotions.newegg.com/nepro/vr2/guides/images/zotac_980ti_omega_review_2.jpg" title="Graphics Card" alt="Graphics Card"> 
+    <p><strong>Alternatives:</strong> For about $100-$150 more you can upgrade to <a href="http://www.newegg.com/Product/ProductList.aspx?Submit=ENE&amp;DEPA=0&amp;Order=BESTMATCH&amp;Description=gtx+980&amp;N=-1&amp;isNodeId=1&amp;cm_sp=VRCentral-_-Article-_-BudgetVR-_-NA">the Nvidia GTX 980</a>, which has enough power to up your settings a bit and grant you more stability. Similarly you can upgrade to the AMD <a href="http://www.newegg.com/Product/ProductList.aspx?Submit=ENE&amp;DEPA=0&amp;Order=BESTMATCH&amp;Description=amd+r9+390&amp;N=-1&amp;isNodeId=1&amp;cm_sp=VRCentral-_-Article-_-BudgetVR-_-NA">Radeon R9</a> 390 if you are in the AMD camp. You can get comparable VR performance from either brand.</p> 
+    <p>As a simple price-saving strategy, remember that you can purchase <a href="http://www.newegg.com/Product/ProductList.aspx?Submit=ENE&amp;DEPA=0&amp;Order=BESTMATCH&amp;Description=refurbished+graphics+card&amp;N=-1&amp;isNodeId=1&amp;cm_sp=VRCentral-_-Article-_-BudgetVR-_-NA">pre-owned, refurbished, or open box graphics cards</a>. While these cards might have suffered some minor wear and tear it shouldn’. If that is acceptable to you, you can save $100-$200 on your graphics card of choice. This can greatly up your performance while keeping you on a budget.</p> 
+    <h2>Motherboard</h2> 
+    <p><strong>Recommended Minimum:</strong> <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16813157679&amp;cm_re=ASRock_H110M-_-13-157-679-_-Product">ASRock H110M-DGS Micro ATX LGA1151</a></p> 
+    <p><strong>The Compromise:</strong> It’s actually somewhat hard to suggest a motherboard because your minimum required board will change depending on the rest of your chosen components. Here is what you are looking for:</p> 
+    <p>One, your board should be compatible with your components (obviously).</p> 
+    <p>Two, your board should have at least two USB 3.0 ports (and more is better).</p> 
+    <p>Going with the minimum here means you might not be able to overclock or expand in any meaningful way. You also might have to be a bit careful when searching for a case. </p> 
+    <img src="http://promotions.newegg.com/nepro/vr2/guides/images/asrock_x99_motherboards_comparison_1.jpg" title="Motherboardd" alt="Motherboard"> 
+    <p><strong>Alternatives:</strong> Believe it or not, we’d recommend a bare-minimum graphics cards before a bare-minimum mother board. A good motherboard makes it easy to upgrade other components at a later date. Usually budget PCs are not long-term solutions so having upgrade flexibility is key. Once again it’s hard to recommend a board that will always work with your components, but a little extra will upgrade you to <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16813130790&amp;cm_sp=VRCentral-_-Article-_-BudgetVR-_-NA">the MSI 970 gaming motherboard</a> which has a little more upgrade flexibility. You might also want to keep watch for motherboards that support DDR4 RAM if you are thinking of switching to that standard.</p> 
+    <h2>RAM</h2> 
+    <img src="http://promotions.newegg.com/nepro/vr2/guides/images/gskill_ripjaws_ram.jpg" title="RAM" alt="RAM"> 
+    <p><strong>Minimum Required:</strong> 8GB DDR3 RAM [<a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16820231428&amp;cm_sp=VRCentral-_-Article-_-BudgetVR-_-NA">G.SKILL Ripjaws X Series 8GB</a>]</p> 
+    <p>The Compromise: The good news, RAM is cheap. The bad news, it won’t do that much to improve your VR experience. Many people mistakenly say that RAM effects how fast your computer is, but that isn’t exactly accurate. RAM allows your PC to do more things at once before it slows down. Both major PC VR headsets require a minimum of 8GB DDR 3 RAM, which shouldn’t cost you much money at all.</p> 
+    <p>Picking up more is not really required, though you might want to consider it if you plan to, say, stream, record video, or keep other programs running in the background while chilling in VR space.</p> 
+    <img src="http://promotions.newegg.com/nepro/vr2/guides/images/Gskill_ram_ddr4_trident_review_2.jpg" title="RAM" alt="RAM"> 
+    <p>Alternatives: RAM is affordable, and upgrading it is similarly affordable. If your board supports DDR4 RAM, at the very least you should upgrade to that. <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16820104532&amp;cm_re=8_gb_ddr4-_-20-104-532-_-Product">8GB of DDR4 RAM</a> is only a couple more dollars than DDR3. If you really want to make sure you have enough RAM to run all the programs you want, <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16820231568&amp;cm_sp=VRCentral-_-Article-_-BudgetVR-_-NA">16GB will cost you only around $20 extra</a>. This is what makes upgrading RAM such a hard choice. It’s not as important as some of the other components, but at such a low price-point, why not?</p> 
+    <h2>Hard Drive</h2> 
+    <img src="http://promotions.newegg.com/nepro/vr2/guides/images/wd_western_digital_drive.jpg" title="Hard Drive" alt="Hard Drive"> 
+    <p><strong>Recommended Minimum:</strong> <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16822236339&amp;cm_sp=VRCentral-_-Article-_-BudgetVR-_-NA">WD Blue 1TB Desktop Hard Disk Drive</a> </p> 
+    <p>The Compromise: Once again, there really isn’t any minimum hard drive required for VR. You just need a drive with enough space on it for your VR games and your operating system. Most builds will recommend that you have a solid state drive for your OS and a regular hard drive for your games and other data. We are going to go the unpopular route and say an SSD is not necessary. If you’re trying to be budget-conscious, then an HDD (and the longer load times you’ll experience with one) is a relatively minor sacrifice. </p> 
+    <img src="http://promotions.newegg.com/nepro/vr2/guides/images/samsung_850_pro.jpg" title="Hard Drive" alt="Hard Drive"> 
+    <p>Alternatives: If you want to upgrade your computer to a more modern solid state/hard drive setup then you’ll probably end up investing another $50-$70 on <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16820147372&amp;cm_sp=VRCentral-_-Article-_-BudgetVR-_-NA">a 250GB SSD</a>. There are plenty of makes and brands available and this is going to come down to personal preference. They all work just fine, so long as they are compatible with your board.</p> 
+    <p>Your VR headset won’t run any faster or slower based on your hard drive pick Also, if you can find an even smaller SSD you can go cheaper, but the cost isn’t really worth the drop in storage. </p> 
+    <h2>Power Supply</h2> 
+    <img src="http://promotions.newegg.com/nepro/vr2/guides/images/evga_supernova.jpg" title="Power Supply" alt="Power Supply"> 
+    <p><strong>Recommended Minimum:</strong> <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16817438053&amp;cm_re=EVGA_SuperNOVA_80%2b_GOLD_550W-_-17-438-053-_-Product">EVGA SuperNOVA 80+ GOLD 550W</a> ($80)</p> 
+    <p><strong>The Compromise</strong>: We went a little high on our power supply for one simple reason: you can’t really compromise when it comes to your powerful supply. Your computer either works because your power supply can handle it, or it doesn’t because it can’t. Now, the components that we’ve included in this list could be run on a lower-wattage power supply, but once again we are keeping future upgrading in mind. A 550 watt power supply should handle these parts and a few GPU and drive upgrades going into the future. </p> 
+    <img src="http://promotions.newegg.com/nepro/vr2/guides/images/silverstone_sx700_lpt-power_supply_review_6.jpg" title="Power Supply" alt="Power Supply"> 
+    <p><strong>Alternatives:</strong> We wouldn’t recommend going much cheaper or else you’ll invalidate your build shortly after you make it. We also wouldn’t recommend going much more expensive unless your build requires it, and you’ll be several upgrades in before that happens. </p> 
+    <p>On the upside, you can get hefty increases to performance for only about $20-$30, if you want to push yourself to <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16817438017&amp;cm_sp=VRCentral-_-Article-_-BudgetVR-_-NA">a 750W</a> or even <a href="http://www.newegg.com/Product/Product.aspx?Item=9SIA2F84BC9813&amp;cm_sp=VRCentral-_-Article-_-BudgetVR-_-NA">a 1000W</a> supply, but since you probably aren’t going to need this power until a few years down the line, you might as well wait for prices to drop.</p> 
+    <h2>The Final Product</h2> 
+    <img src="http://promotions.newegg.com/nepro/vr2/guides/images/vive_vr_build_skylake_msi_r9_390_review_5_1.jpg" title="The Final Product" alt="The Final Product"> 
+    <p>If you stick to the bare minimum this build will cost around $700 (at current, September 2016 price levels) and will play VR games reliably, though not at the greatest possible quality. It will also give you enough room to comfortably upgrade to a more powerful build later in order to increase your performance. If you take advantage of some of the alternatives we mentioned, you will probably increase your cost to around $900-$1000. However, you shouldn’t need to worry much about upgrading for a few years.</p> 
+    <p>What’s best for you? Once again this will come down to personal preference. One of the major mis-steps computer buyers make is the assumption that they can go cheap but also get a computer that is powerful and reliable. Unfortunately, this is one of those “choose two” scenarios. Your computer can be cheap and powerful, but you’ll have to deal with overclocking, hardware incompatibilities, and limited ability to upgrade. Your computer can be cheap and reliable, allowing you upgrade freedom and a stable system, but you’ll find yourself running games at low specs. If you really want your computer to be powerful and reliable, you’ll have to invest more money in it.</p> 
+    <p>Where you spend that money is going to depend on what you want to use this computer for. If all you want to do is play VR games and do nothing else, then feel free to narrow your focus and build a mini-PC. If this is going to be a real personal computer, however, you’ll probably want to invest more money to create an all-purpose machine. </p> 
+    <p>Either way, building your own PC will save you tons of money compared to pre-built machines. All you have left to do is buy your headset of choice.</p> 
+    <div class="article-nav"> 
+     <a class="back-to-vr-main" href="http://www.newegg.com/vr"><i class="fa fa-angle-left"></i>Back to <em>VR Central</em></a> 
+     <span class="article-pagination"> <a class="article-nav-previous" href="5-tip-for-room-scale-vr.html"><i class="fa fa-angle-left"></i><em>Previous</em></a> <span class="article-nav-divider">|</span> <a class="article-nav-next" href="why-you-should-choose-the-oculus-rift.html"><em>Next</em><i class="fa fa-angle-right"></i></a> </span> 
+    </div> 
+   </div> 
+   <div class="article-side"> 
+    <div class="article-section-title">
+     Featured Products
+    </div> 
+    <ul class="featured-product"> 
+     <li class="item-cell"> 
+      <div class="item-container fix"> 
+       <a href="http://www.newegg.com/Product/Product.aspx?Item=0TH-010C-000K1&amp;cm_sp=VRCentral-_-product-_-vga-_-na" class="item-img"><img class="lazy-img" src="http://promotions.newegg.com/nepro/vr2/http://promotions.newegg.com/nepro/vr2/guides/images/s.png" data-original="http://images10.newegg.com/ProductImage/0TH-010C-000K1-10.jpg"></a> 
+       <div class="item-info"> 
+        <h4 class="item-title"><a href="http://www.newegg.com/Product/Product.aspx?Item=0TH-010C-000K1&amp;cm_sp=VRCentral-_-product-_-vga-_-na">HTC Vive - Virtual Reality Headset</a></h4> 
+        <div class="price" id="ngl_0TH-010C-000K1"></div> 
+       </div> 
+      </div> </li> 
+     <li class="item-cell"> 
+      <div class="item-container fix"> 
+       <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16836627006&amp;cm_sp=VRCentral-_-product-_-vga-_-na" class="item-img"><img class="lazy-img" src="http://promotions.newegg.com/nepro/vr2/http://promotions.newegg.com/nepro/vr2/guides/images/s.png" data-original="http://images17.newegg.com/is/image/newegg/36-627-006-TS?$S640$"></a> 
+       <div class="item-info"> 
+        <h4 class="item-title"><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16836627006&amp;cm_sp=VRCentral-_-product-_-vga-_-na">BOSE Companion 2 Series III Multimedia Speaker System</a></h4> 
+        <div class="price" id="ngl_36-627-006"></div> 
+       </div> 
+      </div> </li> 
+     <li class="item-cell"> 
+      <div class="item-container fix"> 
+       <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16826816063&amp;cm_sp=VRCentral-_-product-_-vga-_-na" class="item-img"><img class="lazy-img" src="http://promotions.newegg.com/nepro/vr2/http://promotions.newegg.com/nepro/vr2/guides/images/s.png" data-original="http://images17.newegg.com/is/image/newegg/26-816-063-TS?$S640$"></a> 
+       <div class="item-info"> 
+        <h4 class="item-title"><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16826816063&amp;cm_sp=VRCentral-_-product-_-vga-_-na">Corsair Gaming M65 PRO RGB FPS Gaming Mouse, Backlit RGB LED, 12000 DPI, Optical, Black</a></h4> 
+        <div class="price" id="ngl_26-816-063"></div> 
+       </div> 
+      </div> </li> 
+    </ul> 
+   </div> 
+  </section> 
+  <div class="vr-section related guide"> 
+   <section class="section-inner">
+    <div class="article-section-title">
+     Related Articles
+    </div>
+   </section> 
+   <section class="section-inner"> 
+    <!-- guide 1 --> 
+    <a href="5-tips-for-building-a-vr-ready-pc.html" class="guide-group"> 
+     <div class="guide-image" style="background-image: url('http://promotions.newegg.com/nepro/vr2/guides/images/hardware_pc_gaming.jpg');"></div> 
+     <div href="http://www.newegg.com/vr/guides/5-tips-for-building-a-vr-ready-pc.html" class="guide-text-content"> 
+      <span class="guide-main-title">5 Tips for building a VR-ready PC</span> 
+      <span class="guide-sub-title">VR PC Build Guide</span> 
+     </div> </a> 
+    <!-- guide 2 --> 
+    <a href="vr-beginners-guide.html" class="guide-group"> 
+     <div class="guide-image" style="background-image: url('http://promotions.newegg.com/nepro/vr2/guides/images/htc-vive-vr-hands-on-review-16.jpg');"></div> 
+     <div class="guide-text-content"> 
+      <span class="guide-main-title">VR 101</span> 
+      <span class="guide-sub-title">Everything you need to know</span> 
+     </div> </a> 
+   </section> 
+  </div> 
+  <!-- VR MODULES END --> 
+  <script type="text/javascript" src="http://promotions.newegg.com/template/us/js/2015/footer.js"></script> 
+  <!-- FOOTER --> 
+  <script type="text/javascript" src="http://promotions.newegg.com/nepro/vr2/scripts/jquery.lazyload.min.js"></script> 
+  <!-- Pop up message if promotion is expired | DO NOT REMOVE --> 
+  <div id="popupMessage"> 
+   <a id="popupMessageClose" title="Close">x</a> 
+   <div id="message_box"> 
+    <img src="http://promotions.newegg.com/template/us/imgs/error.jpg" height="30" width="40">
+    <span class="error_message">Promotion Has Expired</span> 
+   </div> 
+   <p id="contactArea"> We're sorry. This promotion has ended, but we have many more deals and bargains at <a href="http://www.newegg.com" class="link_message">Newegg.com</a>!<br> <br> Earn big savings every day with <a href="http://www.newegg.com/DailyDeal.aspx?name=DailyDeal" class="link_message">Daily Deals</a> and steal hot products at rock bottom prices with <a href="http://www.newegg.com/Special/ShellShocker.aspx" class="link_message">Shell Shockers</a>!<br> <br> Never miss your chance for big savings again by signing up for the <a href="http://promotions.newegg.com/NEemail/latest/index-landing.aspx" class="link_message">Newegg Newsletter</a>! </p> 
+  </div> 
+  <div id="backgroundPopup"></div> 
+  <script type="text/javascript" src="http://promotions.newegg.com/template/us/js/error_message.js"></script>
+  <!-- Message Popup Window Script --> 
+  <!-- expired date popup --> 
+  <script type="text/javascript">
+	var expireDate = new Date("12/31/2099"); 
+	var today = new Date();
+	if (today >= expireDate > 0)
+		{
+			//centering with css
+			centerPopup();
+			//load popup
+			loadPopup();
+		}
+</script> 
+  <!-- Original LP Javascript --> 
+  <!-- Product Inventory, Pricing, and Sold Out scripts --> 
+  <script type="text/javascript">var ng_list=["0TH-010C-000K1","36-627-006","26-816-063"];</script> 
+  <script type="text/javascript" src="http://content.newegg.com/Common/ProductForLandingPage4.aspx?ItemList=0TH-010C-000K1,36-627-006,26-816-063&amp;Action=jQuery"></script> 
+  <script type="text/javascript" src="http://promotions.newegg.com/scripts/adjustStock-soldout-0.2.js"></script>
+  <!-- Sold Out script --> 
+  <!-- Google + Configuration scripts --> 
+  <script type="text/javascript" src="http://content.newegg.com/Common/TrackingLandingPageScripts.aspx"></script> 
+  <script type="text/javascript" src="http://promotions.newegg.com/template/us/js/popup.js"></script>
+  <!-- Popup Window Script --> 
+  <script type="text/javascript">window.onerror=function(){return true;}</script> 
+  <!-- Google Analytics --> 
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1147542-1']);
+  _gaq.push(['_setDomainName', '.newegg.com']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script> 
+  <!-- End Google Analytics --> 
+  <!-- Adobe DTM  --> 
+  <script type="text/javascript" language="javascript1.1">
+s.pageName='US_00-0000_ProjectDescription/00000000';
+s.server='promotions';
+s.channel='Landingpage';
+s.prop1='browsing';
+s.prop11='US_00-0000_ProjectDescription/00000000';
+s.prop23='MKT Promotion';
+s.prop19=Web.StateManager.Cookies.get(Web.StateManager.Cookies.Name.NVTC);
+s.prop24=Web.StateManager.Cookies.get(Web.StateManager.Cookies.Name.UTMA);
+ 
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)
+</script> 
+  <script type="text/javascript">_satellite.pageBottom();</script> 
+  <!-- END Adobe DTM -->  
+  <!-- LAZY LOAD | DO NOT REMOVE --> 
+  <script>
+jQuery(document).ready(function(e) {
+	jQuery('.lazy-img').lazyload({
+		effect : 'fadeIn',
+		failure_limit: 3,
+		skip_invisible : false
+	});
+	
+	jQuery('.item-container .item-info').each(function(index, element) {
+		var $self = jQuery(this);
+		var $price = $self.find('.price');
+		var _id = $price.attr('id');
+		if (_id) {
+			_id = _id.replace('ngl_', '');
+			if ($self.hasClass('has-item-bullets')) {
+				$price.before(Product[_id].bullet.displayRawValue());
+			}
+			$price.html(Product[_id].itemAllPriceInfo.displayRawValue());
+		}
+	});
+});
+</script>  
+ </body>
+</html>

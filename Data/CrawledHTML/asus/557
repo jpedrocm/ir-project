@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en-US" itemscope itemtype="http://schema.org/ContactPage">
+ <head id="Head1">
+  <title>
+	ASUSTeK Computer Inc. -Support- Call Us
+</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="canonical" href="https://www.asus.com/us/support/callus/"> 
+  <script src="/support/js/modernizr-2.5.3.min.js"></script> 
+  <script src="/support/js/jquery.js"></script> 
+  <script src="/support/js/bootstrap.js"></script> 
+  <script src="/support/js/browser.js"></script> 
+  <script src="/support/js/jquery.placeholder.js"></script> 
+  <script src="/support/js/jquery_phone_nav.js"></script> 
+  <link href="/support/stylesheets/reset.css" rel="stylesheet" type="text/css"> 
+  <link href="/support/stylesheets/base.css" rel="stylesheet" type="text/css"> 
+ </head>
+ <body>
+  <input name="header1$hd_version" type="hidden" id="hd_version" value="1"> 
+  <script type="text/javascript">
+    $(document).ready(function () {
+        var version = $("#hd_version").val();
+        if (version == "1") {//full_style需在resp前
+            var linkfs = document.createElement('link');
+            linkfs.type = 'text/css';
+            linkfs.rel = "stylesheet";
+            linkfs.href = "/support/stylesheets/full_style.css";
+            document.getElementsByTagName("head")[0].appendChild(linkfs);
+        }
+        var linkresp = document.createElement('link');
+        linkresp.type = 'text/css';
+        linkresp.rel = "stylesheet";
+        linkresp.href = "/support/stylesheets/responsive.css";
+        document.getElementsByTagName("head")[0].appendChild(linkresp);
+    });
+</script> 
+  <script type="text/javascript">
+    //loading local css file
+    $(document).ready(function () {
+        var css_name = "";
+        var lang_prefix = window.location.pathname.split("/");
+        if (lang_prefix.length >= 2)
+            if (lang_prefix[1] == "support")
+                css_name = "";
+            else
+                css_name = lang_prefix[1] + ".css";
+
+        if (window.location.hostname.indexOf("asus.com.cn") >= 0) {
+            css_name = "cn.css";
+        }
+
+        if (window.console)
+            console.log("css name: " + css_name);
+
+        if (css_name != "") {
+            var link = document.createElement('link');
+            link.type = 'text/css';
+            link.rel = "stylesheet";
+            link.href = "/support/stylesheets/local/" + css_name;
+            document.getElementsByTagName("head")[0].appendChild(link);
+        }
+    });
+</script> 
+  <script type="text/javascript">
+    window.ASUSInit = function () {
+        var api_lang = '';
+        var api_key = '0000000004';
+
+        var lang_prefix = window.location.pathname.split("/");
+
+        if (window.console) {
+            console.log("pathname: " + window.location.pathname);
+        }
+
+        if (lang_prefix.length >= 2) {
+            if (lang_prefix[1] == "support")
+                api_lang = "";
+            else
+                api_lang = lang_prefix[1];
+        }
+
+        if (window.location.hostname.indexOf("asus.com.cn") >= 0) {
+            api_lang = "cn";
+            api_key = '0000000019';
+        }
+
+        if (window.console)
+            console.log("lang: " + api_lang);
+
+        asus_api.init({ appkey: api_key, lang: api_lang });
+    };
+    (function (d) {
+        var js, id = 'asus-jsapi';
+        if (d.getElementById("asus-jsapi")) { return; }
+        js = d.createElement('script');
+        js.id = id;
+        js.async = true;
+        if (window.location.hostname.indexOf("asus.com.cn") >= 0)
+            js.src = "//www.asus.com.cn/API/js/asus_api.js";
+        else
+            js.src = "//www.asus.com/API/js/asus_api.js";
+        d.getElementsByTagName('head')[0].appendChild(js);
+    } (document));
+</script> 
+  <script language="javascript">
+    var _wmxq = _wmxq || [];
+    _wmxq.push(["_getTracker", "SupportSite", "website", "etrk.asus.com"]); _wmxq.push(["trackPageview"]);
+    (function () {
+        var sc = document.createElement("script"); sc.type = "text/javascript"; sc.async = true;
+        sc.src = ("https:" == document.location.protocol ? "https:" : "http:") + "//etrk.asus.com/web_service/TrackingJS/wmxtracker.js";
+        var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(sc, s);
+    })();
+</script>   
+  <div class="grayBg"> 
+   <div id="hotline-global" class="container main-zone"> 
+    <div id="breadcrumbs"> 
+     <a href="/us/" id="breadcrumb1_a_home" target="_self">Home</a>
+     <span id="breadcrumb1_s1" style="display:inline">&nbsp;&gt;&nbsp;</span>
+     <a href="/us/support" id="breadcrumb1_a_support" target="_self" style="display:inline">Support</a>
+     <span id="breadcrumb1_s2" style="display:inline">&nbsp;&gt;&nbsp;</span>
+     <a href="../../../uc_2/general/index.aspx" id="breadcrumb1_a_pagename" target="_self" style="display: none">[Page Name]</a> 
+     <span id="breadcrumb1_s_l1" style="display: none">&nbsp;&gt;&nbsp;</span>
+     <a href="../../../uc_2/general/index.aspx" id="breadcrumb1_a_l1" target="_self" style="display: none">[level 1]</a> 
+     <span id="breadcrumb1_s_l2" style="display: none">&nbsp;&gt;&nbsp;</span>
+     <a href="../../../uc_2/general/index.aspx" id="breadcrumb1_a_l2" target="_self" style="display: none">[level 2]</a> 
+     <span id="breadcrumb1_s_m" style="display: none">&nbsp;&gt;&nbsp;</span>
+     <a href="../../../uc_2/general/index.aspx" id="breadcrumb1_a_m" target="_self" style="display: none">[model]</a> 
+    </div> 
+    <h1 id="pagename1_h1_page_name" class="page-title">Call Us</h1> 
+    <div class="double-border-bottom"> 
+    </div> 
+    <div class="allC curl-shadow"> 
+     <div class="call-us-zone"> 
+      <div class="top"> 
+       <h2><span>English Speaking*</span></h2> 
+       <h4>System Product Support:</h4> 
+       <h3><a href="tel:1-888-678-3688">1-888-678-3688</a> <font size="2">(toll free)</font></h3> 
+       <h4>Available</h4> 
+       <p class="openHour">24/7</p> 
+       <p class="openHour">All-in-One, Desktop, Netbook, Notebook, Nettop, or Tablet</p> 
+       <p class="openHour">* Contact availability subject to change at any time without prior notification. Closed in observance of major national holidays</p> 
+       <p class="divider">&nbsp;</p> 
+      </div> 
+      <p>&nbsp;</p> 
+      <div class="top"> 
+       <h4>RETAIL Product Support ONLY:</h4> 
+       <h3><a href="tel:1-877-339-2787">1-877-339-2787</a> <font size="2">(toll free)</font></h3> 
+       <p class="openHour">(Best Buy USA, OfficeMax, Staples USA, Costco Wholesale, Microsoft, Office Depot, Walmart, Future Shop)</p> 
+       <h4>Available</h4> 
+       <p class="openHour">24/7</p> 
+       <p class="openHour">All-in-One, Desktop, Netbook, Notebook or Tablet</p> 
+       <p class="openHour">* Contact availability subject to change at any time without prior notification. Closed in observance of major national holidays.</p> 
+       <p class="divider">&nbsp;</p> 
+      </div> 
+      <p>&nbsp;</p> 
+      <div class="top"> 
+       <h4 style="font-size: 14px;">ASUS TAICHI VIP* Support Only:</h4> 
+       <h3><a href="tel:1-866-455-2787">1-866-455-2787​</a> <font size="2">(toll free)</font></h3> 
+       <p class="openHour" style="line-height: 15.6px; font-size: 12.8px;">(*Exclusive support for Taichi Notebook Only)</p> 
+       <h4 style="font-size: 14px;">Available</h4> 
+       <p class="openHour" style="line-height: 15.6px; font-size: 12.8px;">24/7</p> 
+       <p class="openHour" style="line-height: 15.6px; font-size: 12.8px;">Learn more about ASUS Taichi at <a href="taichi.asus.com">taichi.asus.com </a></p> 
+      </div> 
+      <p class="divider">&nbsp;</p> 
+     </div> 
+     <div class="top"> 
+      <h4>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Component Product Support:</h4> 
+      <h3>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="tel:1-812-282-2787">1-812-282-2787</a></h3> 
+      <h4>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Available</h4> 
+      <p class="openHour">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Monday – Friday, 5:30AM – 11:00PM PST</p> 
+      <p class="openHour">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Saturday – Sunday, 6:00AM – 3:00PM PST</p> 
+      <p class="openHour">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Display, Projector,&nbsp;Graphics Card, Motherboard, Multimedia, Networking, Optical Storage,or Server.</p> 
+      <p class="openHour">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;* Contact availability subject to change at any time without prior notification. Closed in observance of major national holidays.</p> 
+      <p class="divider">&nbsp;</p> 
+     </div> 
+     <p>&nbsp;</p> 
+     <div class="top"> 
+      <h4>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ASUS Store Support only:</h4> 
+      <h3>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="tel:1-855-755-2787">1-855-755-2787​</a> <font size="2">(toll free)</font></h3> 
+      <p class="openHour" style="line-height: 15.6px; font-size: 12.8px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(*Exclusive support for ASUS Store direct purchases only)</p> 
+      <h4 style="font-size: 14px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Available</h4> 
+      <p class="openHour" style="line-height: 15.6px; font-size: 12.8px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Monday - Friday, 6 am - 6 pm PST</p> 
+      <p class="openHour" style="line-height: 15.6px; font-size: 12.8px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *Contact availability subject to change at any time without prior notification. Closed in observance of major national holidays</p> 
+     </div> 
+     <p class="divider">&nbsp;</p> 
+     <p>&nbsp;</p> 
+     <div class="top"> 
+      <h2><span>&nbsp; &nbsp; &nbsp;Soutien en Français</span></h2> 
+      <h4>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;System Product Support (French Speaking):</h4> 
+      <h3>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href="tel:1-888-616-278">1-888-616-</a><a href="tel:1-812-282-2787">2787</a> <font size="2">(toll free)</font></h3> 
+      <h4>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Available</h4> 
+      <p class="openHour">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Monday – Friday, 6:00AM – 3:00PM PST</p> 
+      <p class="openHour">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;All-in-One, Desktop, Netbook, Notebook, Nettop, or Tablet</p> 
+      <p class="openHour">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;* Contact availability subject to change at any time without prior notification. Closed in observance of major national holidays.</p> 
+      <p class="divider">&nbsp;</p> 
+     </div> 
+     <div class="top"> 
+      <h4>﻿ &nbsp; &nbsp; &nbsp; &nbsp;Component Product Support (French Speaking):</h4> 
+      <h3>&nbsp; &nbsp; &nbsp; &nbsp;<a href="tel:1-905-370-2787">1-905-370-2787</a></h3> 
+      <h4>&nbsp; &nbsp; &nbsp; &nbsp; Available</h4> 
+      <p class="openHour">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Monday – Friday, 6:00AM – 3:00PM PST</p> 
+      <p class="openHour">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Display, Projector, Graphics Card, Motherboard, Multimedia, Networking, Optical Storage,or Server</p> 
+      <p class="openHour">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * Contact availability subject to change at any time without prior notification. Closed in observance of major national holidays.</p> 
+     </div> 
+     <p class="divider">&nbsp;</p> 
+     <p>&nbsp;</p> 
+     <div class="top"> 
+      <h2><span>&nbsp; &nbsp; &nbsp;Apoyo español</span></h2> 
+      <h4>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;System Product Support (Spanish Speaking):</h4> 
+      <h3>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href="tel:1-888-678-3688">1-888-678-3688, option 1</a> <font size="2">(toll free)</font></h3> 
+      <h4>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Available</h4> 
+      <p class="openHour">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Monday - Friday, 6am - 6pm PST</p> 
+      <p class="openHour">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; All-in-One, Desktop, Netbook, Notebook, Nettop, or Tablet</p> 
+      <p class="openHour">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;* Contact availability subject to change at any time without prior notification. Closed in observance of major national holidays.</p> 
+      <p class="divider">&nbsp;</p> 
+     </div> 
+     <p>&nbsp;</p> 
+     <div class="top"> 
+      <h4>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; RETAIL Product Support ONLY (Spanish Speaking):</h4> 
+      <h3>&nbsp; &nbsp; &nbsp; &nbsp; <a href="tel:1-877-339-2787">1-877-339-2787, option 1</a> <font size="2">(toll free)</font></h3> 
+      <p class="openHour">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(Best Buy USA, OfficeMax, Staples USA, Costco Wholesale, Microsoft, Office Depot, Walmart, Future Shop)</p> 
+      <h4>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Available</h4> 
+      <p class="openHour">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Monday - Friday, 6am - 6pm PST</p> 
+      <p class="openHour">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; All-in-One, Desktop, Netbook, Notebook or Tablet</p> 
+      <p class="openHour">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;* Contact availability subject to change at any time without prior notification. Closed in observance of major national holidays.</p> 
+      <p class="divider">&nbsp;</p> 
+     </div> 
+     <p>&nbsp;</p> 
+     <div class="top"> 
+      <h4>﻿ &nbsp; &nbsp; &nbsp; &nbsp;Commercial Product Support:</h4> 
+      <h3>&nbsp; &nbsp; &nbsp; &nbsp;<a href="http://www.asus.com/us/support/Article/722/">Please click here</a></h3> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- H-A-7 --> 
+  <input name="page_info1$langNormal" type="hidden" id="langNormal" value="en-us"> 
+  <input name="page_info1$hd_lang_prefix" type="hidden" id="hd_lang_prefix" value="/us/support"> 
+  <input name="page_info1$hd_product" type="hidden" id="hd_product"> 
+  <input name="page_info1$hd_product_name" type="hidden" id="hd_product_name"> 
+  <input name="page_info1$hd_product_name_ml" type="hidden" id="hd_product_name_ml"> 
+  <input name="page_info1$hd_series" type="hidden" id="hd_series"> 
+  <input name="page_info1$hd_series_name" type="hidden" id="hd_series_name"> 
+  <input name="page_info1$hd_series_name_ml" type="hidden" id="hd_series_name_ml"> 
+  <input name="page_info1$hd_model" type="hidden" id="hd_model"> 
+  <input name="page_info1$hd_model_ml" type="hidden" id="hd_model_ml"> 
+  <input name="page_info1$hd_os" type="hidden" id="hd_os"> 
+  <input name="page_info1$hd_hid" type="hidden" id="hd_hid"> 
+  <input name="page_info1$hd_offical_url" type="hidden" id="hd_offical_url"> 
+  <input name="page_info1$hd_country" type="hidden" id="hd_country"> 
+  <input name="page_info1$hd_country_ml" type="hidden" id="hd_country_ml"> 
+  <!-- Google Tag Manager with Origin gaTrace --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script src="/support/js/gaTrace.js" type="text/javascript"></script> 
+  <!-- End Google Tag Manager --> 
+  <link href="/support/stylesheets/online-chat-btn.css" rel="stylesheet" type="text/css"> 
+  <script>
+    function inIframe() {
+        try {
+            return window.self !== window.top; //window.self means the current application , window.top means the top ahead application
+        } catch (e) {
+            return true;
+        }
+    }
+</script> 
+  <script type="text/javascript">
+    $(document).ready(function () {
+        var IsInIframe = inIframe();
+        if (IsInIframe) {
+            return false;
+        }
+
+        var _Local = $("#langNormal").val();
+        var onlineService = initOnlineService(_Local);
+        onlineService.init();
+    });
+
+    function initOnlineService(Local) {
+        var ApiUrl = window.location.protocol + "//demeter.asus.com/WSC/Support_API_New/SupportNewAPI/GetOnlineChatUrl/",
+            ApiOption;
+
+        ApiUrl += Local;
+
+        return {
+            init: function () {
+                if ($("#online-service").length > 0) return;
+
+                $.getJSON(ApiUrl + "?callback=?", ApiOption).done(function (result) {
+                    if (result && result.StatusCode == 0) {
+                        var onlineServiceString = result.Link_Name ? result.Link_Name : "Online Chat",
+                            serviceUrl = result.URL;
+                        onlineChatBtn = '<div id="online-service"><a class="btn" onclick="javascript:window.open(\'' + serviceUrl + '\', \'\',  \'width=520, height=700, scrollbars=yes\'); ga(\'send\', \'event\', \'button\', \'clicked\', \'onlinechat\');">' + onlineServiceString + '</a></div>';
+                        $(onlineChatBtn).appendTo("body");
+                    }
+                });
+            }
+        }
+    };
+</script> 
+  <!--Redirect en--> 
+  <!--Announcement--> 
+  <script type="text/javascript">
+        var ApiUrl = "http://demeter.asus.com/TEST_WSC/Support_API_New/SupportNewAPI/GetCallUsAnnouncement/";
+        if (location.protocol == 'https:') {
+            ApiUrl = "https://demeter.asus.com/TEST_WSC/Support_API_New/SupportNewAPI/GetCallUsAnnouncement/";
+        }
+    
+    </script> 
+  <script type="text/javascript">
+        $(document).ready(function () {
+            var _Local = $("#langNormal").val();
+            var ServiceCenterAnnounceMent = initServiceCenterAnnounceMent(_Local);
+            ServiceCenterAnnounceMent.init();
+
+            function initServiceCenterAnnounceMent(Local) {
+
+                var ApiOption;
+
+                ApiUrl += Local;
+
+                return {
+                    init: function () {
+                        $.getJSON(ApiUrl + "?callback=?", ApiOption).done(function (reuslt) {
+                            $(reuslt).insertAfter("#mainzone_callus1_h_title");
+                        });
+                    }
+                }
+            }
+        });
+     </script>   
+ </body>
+</html>

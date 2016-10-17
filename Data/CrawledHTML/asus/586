@@ -1,0 +1,361 @@
+<!doctype html>
+<html>
+ <head>
+  <title>
+	ASUSTeK Computer Inc. -Support- Najít servisní středisko
+</title> 
+  <!--DeepLink--> 
+  <meta property="al:android:url" content="android-app://com.asus.ia.asusapp/myasus/asus.product-repair/cz"> 
+  <meta property="al:android:app_name" content="MyASUS">
+  <meta property="al:android:package" content="com.asus.ia.asusapp"> 
+  <meta property="al:web:url" content="https://www.asus.com/cz/support/Repair-Status-Inquiry/?country=Czech">
+ </head>
+ <body onload="initialize();">
+   　 
+  <link rel="alternate" href="android-app://com.asus.ia.asusapp/myasus/asus.product-repair/cz"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="canonical" href="https://www.asus.com/cz/support/service-center/czech"> 
+  <script src="/support/js/modernizr-2.5.3.min.js"></script> 
+  <script src="/support/js/jquery.js"></script> 
+  <script src="/support/js/bootstrap.js"></script> 
+  <script src="/support/js/browser.js"></script> 
+  <script src="/support/js/jquery.placeholder.js"></script> 
+  <script src="/support/js/jquery_phone_nav.js"></script> 
+  <link href="/support/stylesheets/reset.css" rel="stylesheet" type="text/css"> 
+  <link href="/support/stylesheets/base.css" rel="stylesheet" type="text/css"> 
+  <input name="header1$hd_version" type="hidden" id="hd_version" value="1"> 
+  <script type="text/javascript">
+    $(document).ready(function () {
+        var version = $("#hd_version").val();
+        if (version == "1") {//full_style需在resp前
+            var linkfs = document.createElement('link');
+            linkfs.type = 'text/css';
+            linkfs.rel = "stylesheet";
+            linkfs.href = "/support/stylesheets/full_style.css";
+            document.getElementsByTagName("head")[0].appendChild(linkfs);
+        }
+        var linkresp = document.createElement('link');
+        linkresp.type = 'text/css';
+        linkresp.rel = "stylesheet";
+        linkresp.href = "/support/stylesheets/responsive.css";
+        document.getElementsByTagName("head")[0].appendChild(linkresp);
+    });
+</script> 
+  <script type="text/javascript">
+    //loading local css file
+    $(document).ready(function () {
+        var css_name = "";
+        var lang_prefix = window.location.pathname.split("/");
+        if (lang_prefix.length >= 2)
+            if (lang_prefix[1] == "support")
+                css_name = "";
+            else
+                css_name = lang_prefix[1] + ".css";
+
+        if (window.location.hostname.indexOf("asus.com.cn") >= 0) {
+            css_name = "cn.css";
+        }
+
+        if (window.console)
+            console.log("css name: " + css_name);
+
+        if (css_name != "") {
+            var link = document.createElement('link');
+            link.type = 'text/css';
+            link.rel = "stylesheet";
+            link.href = "/support/stylesheets/local/" + css_name;
+            document.getElementsByTagName("head")[0].appendChild(link);
+        }
+    });
+</script> 
+  <script type="text/javascript">
+    window.ASUSInit = function () {
+        var api_lang = '';
+        var api_key = '0000000004';
+
+        var lang_prefix = window.location.pathname.split("/");
+
+        if (window.console) {
+            console.log("pathname: " + window.location.pathname);
+        }
+
+        if (lang_prefix.length >= 2) {
+            if (lang_prefix[1] == "support")
+                api_lang = "";
+            else
+                api_lang = lang_prefix[1];
+        }
+
+        if (window.location.hostname.indexOf("asus.com.cn") >= 0) {
+            api_lang = "cn";
+            api_key = '0000000019';
+        }
+
+        if (window.console)
+            console.log("lang: " + api_lang);
+
+        asus_api.init({ appkey: api_key, lang: api_lang });
+    };
+    (function (d) {
+        var js, id = 'asus-jsapi';
+        if (d.getElementById("asus-jsapi")) { return; }
+        js = d.createElement('script');
+        js.id = id;
+        js.async = true;
+        if (window.location.hostname.indexOf("asus.com.cn") >= 0)
+            js.src = "//www.asus.com.cn/API/js/asus_api.js";
+        else
+            js.src = "//www.asus.com/API/js/asus_api.js";
+        d.getElementsByTagName('head')[0].appendChild(js);
+    } (document));
+</script> 
+  <script language="javascript">
+    var _wmxq = _wmxq || [];
+    _wmxq.push(["_getTracker", "SupportSite", "website", "etrk.asus.com"]); _wmxq.push(["trackPageview"]);
+    (function () {
+        var sc = document.createElement("script"); sc.type = "text/javascript"; sc.async = true;
+        sc.src = ("https:" == document.location.protocol ? "https:" : "http:") + "//etrk.asus.com/web_service/TrackingJS/wmxtracker.js";
+        var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(sc, s);
+    })();
+</script> 
+  <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?v=3&amp;sensor=true">
+    </script> 
+  <script src="/support/js/gmapv3.js" type="text/javascript"></script>   
+  <div class="grayBg"> 
+   <div id="service-center" class="container main-zone"> 
+    <div id="breadcrumbs"> 
+     <a href="/cz/" id="breadcrumb1_a_home" target="_self">Domů</a>
+     <span id="breadcrumb1_s1" style="display:inline">&nbsp;&gt;&nbsp;</span>
+     <a href="/cz/support" id="breadcrumb1_a_support" target="_self" style="display:inline">Podpora</a>
+     <span id="breadcrumb1_s2" style="display:inline">&nbsp;&gt;&nbsp;</span>
+     <a href="../../../uc_2/general/index.aspx" id="breadcrumb1_a_pagename" target="_self" style="display: none">[Page Name]</a> 
+     <span id="breadcrumb1_s_l1" style="display: none">&nbsp;&gt;&nbsp;</span>
+     <a href="../../../uc_2/general/index.aspx" id="breadcrumb1_a_l1" target="_self" style="display: none">[level 1]</a> 
+     <span id="breadcrumb1_s_l2" style="display: none">&nbsp;&gt;&nbsp;</span>
+     <a href="../../../uc_2/general/index.aspx" id="breadcrumb1_a_l2" target="_self" style="display: none">[level 2]</a> 
+     <span id="breadcrumb1_s_m" style="display: none">&nbsp;&gt;&nbsp;</span>
+     <a href="../../../uc_2/general/index.aspx" id="breadcrumb1_a_m" target="_self" style="display: none">[model]</a> 
+    </div> 
+    <h1 id="pagename1_h1_page_name" class="page-title">Najít servisní středisko</h1> 
+    <!--Select Country--> 
+    <div class="pull-right"> 
+     <h4 id="h4_your_location" class="H4service-center">Vámi zvolená země je <span>Czech</span></h4> 
+     <a href="/cz/support/Service-Center-All-Countries/?country=Czech" id="a_different" class="sub-btn2">Select different country</a> 
+    </div> 
+    <div class="double-border-bottom"> 
+    </div> 
+    <!--Content Header--> 
+    <div id="service-center-search-zone" class="searchbar-gray" style="display: none"> 
+     <div id="service-center-search" class="form-search"> 
+      <input name="txt_ScKeyword" type="text" id="txt_ScKeyword" placeholder="Současná lokace ( adresa, město nebo PSČ )"> 
+      <button id="search-btn2" type="submit" class="search-btn-blue"> <span>Search</span></button> 
+     </div> 
+     <!--Products--> 
+     <div class="dropdown-zone"> 
+      <div class="btn-group"> 
+       <button id="btn_product" class="btn dropdown-toggle widthS3" data-toggle="dropdown"> <span class="txt">Kategorie produktu</span><span class="caret"></span></button> 
+       <ul class="dropdown-menu widthS3" style="display: none"> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="both"> 
+     </div> 
+    </div> 
+    <!--Main Content--> 
+    <div class="service-center-C" style="display: none"> 
+     <div class="list"> 
+      <ul id="sc_result"> 
+      </ul> 
+      <!--Page Bar--> 
+      <div class="pagination btn-group"> 
+       <ul id="ul_pager" style="display: none"> 
+        <li id="page1" class="active"><a href="#" class="activelink" alt="1" onclick="page_click(1)"> 1</a></li> 
+        <li id="page2"><a class="activelink" alt="2" onclick="page_click(2)">2</a></li> 
+        <li id="page3"><a href="#" class="activelink" alt="3" onclick="page_click(3)">3</a></li> 
+        <li id="page4"><a href="#" class="activelink" alt="4" onclick="page_click(4)">4</a></li> 
+       </ul> 
+      </div> 
+      <!--Page Bar end--> 
+     </div> 
+     <div id="map_canvas" class="map hidden-phone"> 
+     </div> 
+     <div class="both"> 
+     </div> 
+    </div> 
+    <!--Content End--> 
+    <div class="double-border-bottom-2" style="padding-top: 5px; font-size: 16px; padding-left: 25px;"> 
+    </div> 
+    <div class="allC curl-shadow"> 
+     <div class="call-us-zone" id="service-center-add"> 
+      <div class="call-us-list clearfix"> 
+       <div> 
+        <h2><span>Reklamace a opravy</span></h2> 
+        <p>Pokud si přejete reklamovat, klikněte <a href="https://eu-rma.asus.com/pick_eu/cz">ZDE</a></p> 
+       </div> 
+       <div class="lineleft"> 
+        <h2><span>Dotaz na Servis</span></h2> 
+        <p>Pro technickou podporu, nebo jiný dotaz na servis, prosím kontaktujte:</p> 
+        <ul> 
+         <li>ASUS Tým technické podpory <a href="http://vip.asus.com/VIP2/Services/QuestionForm?lang=cs-cz">ZDE</a>.</li> 
+         <li>ASUS Call Centrum <h4>Telefonní číslo</h4> <h3>+420 552 302 313</h3> <h4>Pracovní doba</h4> <p>Po-Pá, 08:00-17:00</p> </li> 
+        </ul> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- H-A-5 --> 
+  <input name="page_info1$langNormal" type="hidden" id="langNormal" value="cs-cz"> 
+  <input name="page_info1$hd_lang_prefix" type="hidden" id="hd_lang_prefix" value="/cz/support"> 
+  <input name="page_info1$hd_product" type="hidden" id="hd_product"> 
+  <input name="page_info1$hd_product_name" type="hidden" id="hd_product_name"> 
+  <input name="page_info1$hd_product_name_ml" type="hidden" id="hd_product_name_ml"> 
+  <input name="page_info1$hd_series" type="hidden" id="hd_series"> 
+  <input name="page_info1$hd_series_name" type="hidden" id="hd_series_name"> 
+  <input name="page_info1$hd_series_name_ml" type="hidden" id="hd_series_name_ml"> 
+  <input name="page_info1$hd_model" type="hidden" id="hd_model"> 
+  <input name="page_info1$hd_model_ml" type="hidden" id="hd_model_ml"> 
+  <input name="page_info1$hd_os" type="hidden" id="hd_os"> 
+  <input name="page_info1$hd_hid" type="hidden" id="hd_hid"> 
+  <input name="page_info1$hd_offical_url" type="hidden" id="hd_offical_url"> 
+  <input name="page_info1$hd_country" type="hidden" id="hd_country"> 
+  <input name="page_info1$hd_country_ml" type="hidden" id="hd_country_ml"> 
+  <!-- Google Tag Manager with Origin gaTrace --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script src="/support/js/gaTrace.js" type="text/javascript"></script> 
+  <!-- End Google Tag Manager --> 
+  <link href="/support/stylesheets/online-chat-btn.css" rel="stylesheet" type="text/css"> 
+  <script>
+    function inIframe() {
+        try {
+            return window.self !== window.top; //window.self means the current application , window.top means the top ahead application
+        } catch (e) {
+            return true;
+        }
+    }
+</script> 
+  <script type="text/javascript">
+    $(document).ready(function () {
+        var IsInIframe = inIframe();
+        if (IsInIframe) {
+            return false;
+        }
+
+        var _Local = $("#langNormal").val();
+        var onlineService = initOnlineService(_Local);
+        onlineService.init();
+    });
+
+    function initOnlineService(Local) {
+        var ApiUrl = window.location.protocol + "//demeter.asus.com/WSC/Support_API_New/SupportNewAPI/GetOnlineChatUrl/",
+            ApiOption;
+
+        ApiUrl += Local;
+
+        return {
+            init: function () {
+                if ($("#online-service").length > 0) return;
+
+                $.getJSON(ApiUrl + "?callback=?", ApiOption).done(function (result) {
+                    if (result && result.StatusCode == 0) {
+                        var onlineServiceString = result.Link_Name ? result.Link_Name : "Online Chat",
+                            serviceUrl = result.URL;
+                        onlineChatBtn = '<div id="online-service"><a class="btn" onclick="javascript:window.open(\'' + serviceUrl + '\', \'\',  \'width=520, height=700, scrollbars=yes\'); ga(\'send\', \'event\', \'button\', \'clicked\', \'onlinechat\');">' + onlineServiceString + '</a></div>';
+                        $(onlineChatBtn).appendTo("body");
+                    }
+                });
+            }
+        }
+    };
+</script> 
+  <!--Redirect en--> 
+  <input name="hd_country_name" type="hidden" id="hd_country_name" value="Czech"> 
+  <input name="hd_country_en_name" type="hidden" id="hd_country_en_name" value="Czech"> 
+  <input name="hd_country_id" type="hidden" id="hd_country_id" value="66"> 
+  <input name="hd_sc_product_name" type="hidden" id="hd_sc_product_name"> 
+  <input name="hd_sc_product_id" type="hidden" id="hd_sc_product_id" value="-1"> 
+  <input name="hd_us_ca_message" type="hidden" id="hd_us_ca_message" value="For Service Center location information in United States or Canada, please visit http://service.asus.com."> 
+  <input name="hd_country" type="hidden" id="hd_country"> 
+  <input name="hd_customer" type="hidden" id="hd_customer"> 
+  <input name="hd_yourbrowser" type="hidden" id="hd_yourbrowser"> 
+  <input name="hd_clickmap" type="hidden" id="hd_clickmap"> 
+  <input name="hd_geofailed" type="hidden" id="hd_geofailed"> 
+  <input name="hd_youhere" type="hidden" id="hd_youhere"> 
+  <input name="hd_address" type="hidden" id="hd_address" value="Adresa"> 
+  <input name="hd_phone" type="hidden" id="hd_phone" value="Telefon"> 
+  <input name="hd_hours" type="hidden" id="hd_hours" value="Pracovní doba"> 
+  <input name="hd_products" type="hidden" id="hd_products" value="Produkty"> 
+  <input name="hd_all_products" type="hidden" id="hd_all_products" value="Všechny modelové řady"> 
+  <input name="hd_directions" type="hidden" id="hd_directions" value="Najít trasu"> 
+  <input name="hd_booking" type="hidden" id="hd_booking" value="Online rezervace"> 
+  <input name="hd_show_map" type="hidden" id="hd_show_map" value="false"> 
+  <script type="text/javascript">
+        $("#btn_product").click(function () {
+            $("#service-center-search-zone .dropdown-menu").toggle();
+        });
+        $(".dropdown-menu a").click(function () {
+
+            $("#service-center-search-zone .dropdown-menu").toggle();
+            $("#hd_sc_product_id").val($(this).attr("l1_id"));
+            $("#hd_sc_product_name").val($(this).text());
+            $("#btn_product").html("<span class=txt>" + $(this).text() + "</span><span class=caret></span>");
+            RefleshScAround();
+        });
+
+        $("#search-btn2").click(function () {
+            RefleshScAround($('#hd_country_en_name').val(), $('#txt_ScKeyword').val());
+        });
+
+        $("#txt_ScKeyword").keydown(function (e) {
+            if (e.keyCode == 13) {
+                RefleshScAround($('#hd_country_en_name').val(), $('#txt_ScKeyword').val());
+            }
+        });
+    </script> 
+  <!--Announcement --> 
+  <script type="text/javascript">
+            var ApiUrl = "http://demeter.asus.com/WSC/Support_API_New/SupportNewAPI/GetServiceCenterAnnouncement/";
+            if (location.protocol == 'https:') {
+                ApiUrl = "http://demeter.asus.com/WSC/Support_API_New/SupportNewAPI/GetServiceCenterAnnouncement/";
+            }
+
+        </script> 
+  <script type="text/javascript">
+        $(document).ready(function () {
+            var _Local = $("#langNormal").val();
+            var ServiceCenterAnnounceMent = initServiceCenterAnnounceMent(_Local);
+            ServiceCenterAnnounceMent.init();
+
+            function initServiceCenterAnnounceMent(Local) {
+
+                var ApiOption;
+                
+                ApiUrl += Local;
+
+                if (Local == "ru-ua" || Local == "ua-ua") {
+                    ApiUrl += "/1/";
+                }
+
+                return {
+                    init: function () {
+                        $.getJSON(ApiUrl + "?callback=?", ApiOption).done(function (reuslt) {
+
+                            if (_Local == "ru-ua" || _Local == "ua-ua") {
+
+                                $(reuslt).insertAfter(".double-border-bottom-2");
+                            } else {
+                                $(reuslt).insertAfter(".double-border-bottom");
+                            }
+
+                            
+                        });
+                    }
+                }
+            }
+        });
+                </script>   
+ </body>
+</html>

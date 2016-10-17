@@ -1,0 +1,1414 @@
+<!doctype html>
+<!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">-->
+<html id="ctl00_HtmlTag" xmlns="http://www.w3.org/1999/xhtml" dir="rtl" class="af-rtl" lang="ar">
+ <head id="ctl00_Head1">
+  <!--Info:H-Q-17-->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta name="Description" content="شركة ASUS هي واحدة من أكبر ثلاثة مودرين للأجهزة المحمولة  الاستهلاكية على مستوى العالم, والمصنعة للوحات الأم الأفضل مبيعاً والأكثر إحرازاً للجوائز. وانطلاقاً من الإبتكار والإلتزام بالجودة, حصلت شركة ASUS على 4256 جائزة في عام 2013, ويرجع لها الفضل بشكل كبير في إحداث ثورة في صناعة الأجهزة المكتبية بالكشف عن الجهاز Eee PC™. وقد بلغت عائدات الشركة في عام 2011 حوالي 11.9 مليار دولار أمريكي. "> 
+  <meta name="Keywords" content="ASUS"> 
+  <meta id="ctl00_wmx_websiteid" content="NorthAfrica">
+  <meta id="ctl00_wmx_engagement" content="wmx_L1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="author">
+  <meta name="msvalidate.01" content="34DA1E6382CC8063A22EB8CAEEF605A4">
+  <meta property="fb:app_id" content="1203272286366350">
+  <!--6MASl0v7BwlF9sfzHpJAQw==-->
+  <link rel="canonical" href="https://www.asus.com/nafr-ar/">
+  <script>var isProductPage = ''; var addthis_settingLanguaheConfig='en';var in_page = 'Index'; var tracking_country = 'NorthAfrica';var EntryPageCookie = '1';var newVersionMenu = '1';</script>
+  <title>
+	ASUS
+</title>
+  <!--[if lt IE 7 ]> <meta content='0; url=/nafr-ar/BrowserInfo.htm' http-equiv='refresh' /> <![endif]-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700" rel="stylesheet" type="text/css"> 
+  <script>
+        if (window.location.host == "www.asus.com.cn") {
+            !window.jQuery && document.write(unescape('%3Cscript src="/js/web/jquery.js"%3E%3C/script%3E'))
+        }
+        else {
+            document.write(unescape('%3Cscript src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"%3E%3C/script%3E'));
+        }
+    </script> 
+  <script>
+        if (window.location.host != "www.asus.com.cn") {
+            !window.jQuery && document.write(unescape('%3Cscript src="/js/web/jquery.js"%3E%3C/script%3E'))
+        }
+    </script> 
+  <link rel="stylesheet" type="text/css" media="all" href="/css/2015/reset.css">
+  <link href="/css/2015/dist/base.css" rel="stylesheet">
+  <link href="/css/2015/dist/base_responsive.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="all" href="/css/2015/main.css"> 
+  <!-- Le fav and touch icons --> 
+  <link rel="shortcut icon" href="/media/img/favicon.ico"> 
+  <!--<link rel="apple-touch-icon" href="/media/img/apple-touch-icon.png" /><link rel="apple-touch-icon" sizes="72x72" href="/media/img/apple-touch-icon-72x72.png" /><link rel="apple-touch-icon" sizes="114x114" href="/media/img/apple-touch-icon-114x114.png" />--> 
+  <script src="/js/web/dist/asus.min.js"></script> 
+  <script type="text/javascript" src="/js/web/XML.js"></script> 
+  <script type="text/javascript" src="/js/web/dist/default.min.js"></script> 
+  <script src="/js/web/asus-setting.js"></script> 
+  <script src="/js/web/dist/bootstrap.min.js"></script> 
+  <!--<script type="text/javascript" src="/js/web/jquery.bt.min.js"></script>--> 
+  <script type="text/javascript" src="/js/2015/dist/main.min.js"></script> 
+  <!--[if lt IE 9]>
+    <script src="/js/web/html5.js"></script>
+    <script src="/js/web/respond.js"></script>
+    <link rel="stylesheet" type="text/css" media="all" href="/css/2015/ie-fix.css" />
+ <![endif]--> 
+  <script type="text/javascript">
+        var Global_Tracking_Flag = (getWebsite() == "global" && in_page == "Index") ? "0" : "1";
+        var SecureHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+        var addthis_settingConfig = "";
+        var addthis_settingLanguaheConfig = "";
+        if (getWebsite() == "cafr") {
+            addthis_settingLanguaheConfig = "fr";
+        }
+
+        var cookie_name = "";
+
+        if (isMultipleLanguageWebsite()) {
+            var strLang = querySt('Lang');
+            if (strLang != '') {
+                add_cookie('Lang', strLang);
+            }
+        }
+        
+        function setClickRelationIdCookie(ProductGroup_RelationId) {
+            if (!getcookiedata("ProductGroup_RelationId")) {
+                add_cookie('ProductGroup_RelationId', ProductGroup_RelationId);
+            }
+            else {
+                document.cookie = "ProductGroup_RelationId = '' ;path=/;domain=.asus.com;";
+                add_cookie('ProductGroup_RelationId', ProductGroup_RelationId);
+            }
+        }
+        
+        function setBusinessCookie(type) {
+            if (!getcookiedata("BuinsessCookie")) {
+                add_cookie("isBusiness", type);
+            }
+            else {
+                document.cookie = "BuinsessCookie = '' ;path=/;domain=.asus.com;";
+                add_cookie("isBusiness", type);
+            }
+        }
+
+   
+        
+
+        if (getWebsite() != "cn") {
+            (function() {
+                var sc = document.createElement("script"); sc.type = "text/javascript";
+                sc.src = "//apis.google.com/js/plusone.js";
+                var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(sc, s);
+            })();
+        }
+   </script> 
+  <link href="/css/2015/dist/APIs.css" rel="stylesheet">
+  <link href="/css/2015/dist/full_style.css" rel="stylesheet">
+  <script src="/js/web/asus_script.js"></script>
+  <link rel="stylesheet" type="text/css" media="all" href="/css/2015/rtl-style.css">
+  <link id="ctl00_localcss" rel="stylesheet" type="text/css"> 
+  <style>
+        iframe[name="google_conversion_frame"] {display: none;}
+        #main-product-nav div { display:none; }
+        #main-search,#main-product-nav { height:auto; }
+   </style> 
+  <script language="javascript">
+    if (tracking_country != "" && Global_Tracking_Flag == "1") {
+        var _wmxq = _wmxq || [];
+        _wmxq.push(["_getTracker", tracking_country, "website", "etrk.asus.com"]); _wmxq.push(["trackPageview"]);
+        (function() {
+            var sc = document.createElement("script"); sc.type = "text/javascript"; sc.async = true;
+            sc.src = ("https:" == document.location.protocol ? "https:" : "http:") + "//etrk.asus.com/web_service/TrackingJS/wmxtracker.js";
+            var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(sc, s);
+        })();
+    }
+</script> 
+  <script>
+    function ButtonTrk(level, product, type, detail_info) {
+        if (tracking_country != "") {
+            var _item = _item || [];
+            _item.push("1=" + tracking_country);
+            _item.push("2=" + level);
+            _item.push("5=" + product);
+            _item.push("6=" + type);
+            _item.push("7=" + detail_info);
+            try {
+                wmx_BtnTrack(_item);
+            }
+            catch (err) { }
+        }
+    }
+</script> 
+  <script type="application/ld+json">{ "@context": "http://schema.org", "@type": "WebSite", "url": "http://www.asus.com/nafr-ar/", "potentialAction": { "@type": "SearchAction", "target": "http://www.asus.com/nafr-ar/Search/?SearchKey={search_term}", "query-input": "required name=search_term" } }</script> 
+  <script>
+    if (getWebsite() == "cn") {
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?b4671500ff917b268437ff5be30c0ff0";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    }
+
+</script> 
+ </head> 
+ <body class="landingPage"> 
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({ 'gtm.start':
+new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+'//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NJRLM8');</script> 
+  <!-- End Google Tag Manager --> 
+  <div class="aai-point-bar"> 
+   <div class="aai-pb-inner"> 
+    <div class="aai-more-point"> 
+     <i id="dropMsg" class="aai-circle-num"></i> 
+    </div> 
+   </div> 
+  </div> 
+  <form name="aspnetForm" method="post" action="Rewrite.aspx" id="aspnetForm"> 
+   <div> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUBMA9kFgJmD2QWAmYPFgYeA2RpcgUDcnRsHgVjbGFzcwUGYWYtcnRsHgRsYW5nBQJhchYEZg9kFhRmDxYCHgRUZXh0BRI8IS0tSW5mbzpILVEtMTctLT5kAg0PFgIfAwU4PG1ldGEgcHJvcGVydHk9ImZiOmFwcF9pZCIgY29udGVudD0iMTIwMzI3MjI4NjM2NjM1MCIgLz5kAg4PFgIfAwUfPCEtLTZNQVNsMHY3QndsRjlzZnpIcEpBUXc9PS0tPmQCDw8WAh8DBT08bGluayByZWw9ImNhbm9uaWNhbCIgaHJlZj0iaHR0cHM6Ly93d3cuYXN1cy5jb20vbmFmci1hci8iIC8+ZAIQDxYCHwMFvwE8c2NyaXB0PnZhciBpc1Byb2R1Y3RQYWdlID0gJyc7IHZhciBhZGR0aGlzX3NldHRpbmdMYW5ndWFoZUNvbmZpZz0nZW4nO3ZhciBpbl9wYWdlID0gJ0luZGV4JzsgdmFyIHRyYWNraW5nX2NvdW50cnkgPSAnTm9ydGhBZnJpY2EnO3ZhciBFbnRyeVBhZ2VDb29raWUgPSAnMSc7dmFyIG5ld1ZlcnNpb25NZW51ID0gJzEnOzwvc2NyaXB0PmQCEg8WAh8DBWc8IS0tW2lmIGx0IElFIDcgXT4gPG1ldGEgY29udGVudD0nMDsgdXJsPS9uYWZyLWFyL0Jyb3dzZXJJbmZvLmh0bScgaHR0cC1lcXVpdj0ncmVmcmVzaCcgLz4gPCFbZW5kaWZdLS0+ZAIUDxYCHwMFcTxsaW5rIGhyZWY9Imh0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1Sb2JvdG86NDAwLDEwMCwzMDAsNTAwLDcwMCIgcmVsPSJzdHlsZXNoZWV0IiB0eXBlPSJ0ZXh0L2NzcyI+ZAIkDxYCHwMFoAE8bGluayBocmVmPSIvY3NzLzIwMTUvZGlzdC9BUElzLmNzcyIgcmVsPSJzdHlsZXNoZWV0Ij48bGluayBocmVmPSIvY3NzLzIwMTUvZGlzdC9mdWxsX3N0eWxlLmNzcyIgcmVsPSJzdHlsZXNoZWV0Ij48c2NyaXB0IHNyYz0iL2pzL3dlYi9hc3VzX3NjcmlwdC5qcyI+PC9zY3JpcHQ+ZAIlDxYCHwMFVDxsaW5rIHJlbD0ic3R5bGVzaGVldCIgdHlwZT0idGV4dC9jc3MiIG1lZGlhPSJhbGwiIGhyZWY9Ii9jc3MvMjAxNS9ydGwtc3R5bGUuY3NzIiAvPmQCKQ8WAh8DBa8CPHNjcmlwdCB0eXBlPSJhcHBsaWNhdGlvbi9sZCtqc29uIj57ICJAY29udGV4dCI6ICJodHRwOi8vc2NoZW1hLm9yZyIsICJAdHlwZSI6ICJXZWJTaXRlIiwgInVybCI6ICJodHRwOi8vd3d3LmFzdXMuY29tL25hZnItYXIvIiwgInBvdGVudGlhbEFjdGlvbiI6IHsgIkB0eXBlIjogIlNlYXJjaEFjdGlvbiIsICJ0YXJnZXQiOiAiaHR0cDovL3d3dy5hc3VzLmNvbS9uYWZyLWFyL1NlYXJjaC8/U2VhcmNoS2V5PXtzZWFyY2hfdGVybX0iLCAicXVlcnktaW5wdXQiOiAicmVxdWlyZWQgbmFtZT1zZWFyY2hfdGVybSIgfSB9PC9zY3JpcHQ+ZAIDD2QWBgIBD2QWAmYPZBYCZg9kFgJmDxYCHwMFbDxzY3JpcHQ+c3RyTGFuZyA9ICdlbi11cyc7c3RyUmVnaXN0ZXI9J9iq2LPYrNmK2YQnO3ZhciBzdHJMb2dpbiA9ICfYr9iu2YjZhCc7dmFyIFNob3dNaW5pQ2FydCA9ICcxJzwvc2NyaXB0PmQCAw9kFgJmD2QWBAIBD2QWBgIBDxYCHwMF/w4udF8xNDY0MDcxODA2MDI0IC5pdGVtLTF7Zm9udC1zaXplOiAxLjdlbSAhaW1wb3J0YW50O30KLnRfMTQ2NDA3MTgwNjAyNCAuaXRlbS0ye2ZvbnQtc2l6ZTogMS41ZW0gIWltcG9ydGFudDt9Ci50XzE0NjQwNzE4MDYwMjQgLml0ZW0tM3tmb250LXNpemU6IDEuMmVtICFpbXBvcnRhbnQ7fQoudF8xNDY0MDcxODA2MDI0IC5pdGVtLTR7bWFyZ2luLXRvcDogLTcwcHggIWltcG9ydGFudDt9CkBtZWRpYSAobWF4LXdpZHRoOiAxMTcwcHgpewoudF8xNDY0MDcxODA2MDI0IC5pdGVtLTF7Zm9udC1zaXplOiAxLjdlbSAhaW1wb3J0YW50O30KLnRfMTQ2NDA3MTgwNjAyNCAuaXRlbS0ye2ZvbnQtc2l6ZTogMS40ZW0gIWltcG9ydGFudDt9Ci50XzE0NjQwNzE4MDYwMjQgLml0ZW0tM3t9Cn0KQG1lZGlhIChtYXgtd2lkdGg6IDcyMHB4KXsKLnRfMTQ2NDA3MTgwNjAyNCAuaXRlbS0ze30KfQoNCi50XzE0NzAyMjc0NTM0MjMgLml0ZW0tMXtmb250LXNpemU6IDIuM2VtICFpbXBvcnRhbnQ7fQoudF8xNDcwMjI3NDUzNDIzIC5pdGVtLTJ7Zm9udC1zaXplOiAxLjJlbSAhaW1wb3J0YW50O30KLnRfMTQ3MDIyNzQ1MzQyMyAuaXRlbS0ze2Rpc3BsYXk6IG5vbmU7Zm9udC1zaXplOiAxLjNlbSAhaW1wb3J0YW50O30KDQoudF8xNDU0NTc2NzQyNDE2IC5pdGVtLTV7ZGlzcGxheTogbm9uZTt9Ci50XzE0NTQ1NzY3NDI0MTYgLml0ZW0tOHttYXJnaW4tdG9wOiA0NXB4ICFpbXBvcnRhbnQ7fQpAbWVkaWEgKG1heC13aWR0aDogMTE3MHB4KXsKLnRfMTQ1NDU3Njc0MjQxNiAuaXRlbS0ze2Rpc3BsYXk6IG5vbmU7fQoudF8xNDU0NTc2NzQyNDE2IC5pdGVtLTV7ZGlzcGxheTogbm9uZTt9Ci50XzE0NTQ1NzY3NDI0MTYgLml0ZW0tNnt9Ci50XzE0NTQ1NzY3NDI0MTYgLml0ZW0tN3t9Ci50XzE0NTQ1NzY3NDI0MTYgLml0ZW0tOHttYXJnaW4tdG9wOiA0MHB4ICFpbXBvcnRhbnQ7bWFyZ2luLWJvdHRvbTogMjBweCAhaW1wb3J0YW50O30KfQpAbWVkaWEgKG1heC13aWR0aDogNzIwcHgpewoudF8xNDU0NTc2NzQyNDE2IC5pdGVtLTN7ZGlzcGxheTogbm9uZTt9Ci50XzE0NTQ1NzY3NDI0MTYgLml0ZW0tNXtkaXNwbGF5OiBub25lO30KLnRfMTQ1NDU3Njc0MjQxNiAuaXRlbS04e21hcmdpbi1ib3R0b206IDQwcHggIWltcG9ydGFudDt9Cn0KDQoudF8xNDcwMjI3NDM3NzM4IC5pdGVtLTJ7Zm9udC1zaXplOiAyLjJlbSAhaW1wb3J0YW50O21hcmdpbi10b3A6IC02cHggIWltcG9ydGFudDtjb2xvcjogIzAwMDAwMCAhaW1wb3J0YW50O30KLnRfMTQ3MDIyNzQzNzczOCAuaXRlbS0ze2ZvbnQtc2l6ZTogMS4yZW0gIWltcG9ydGFudDtjb2xvcjogIzAwMDAwMCAhaW1wb3J0YW50O30KLnRfMTQ3MDIyNzQzNzczOCAuaXRlbS00e2Rpc3BsYXk6IG5vbmU7fQpAbWVkaWEgKG1heC13aWR0aDogMTE3MHB4KXsKLnRfMTQ3MDIyNzQzNzczOCAuaXRlbS0xe30KLnRfMTQ3MDIyNzQzNzczOCAuaXRlbS0ye2ZvbnQtc2l6ZTogMmVtICFpbXBvcnRhbnQ7Y29sb3I6ICMwMDAwMDAgIWltcG9ydGFudDt9Ci50XzE0NzAyMjc0Mzc3MzggLml0ZW0tM3tmb250LXNpemU6IDFlbSAhaW1wb3J0YW50O2NvbG9yOiAjMDAwMDAwICFpbXBvcnRhbnQ7fQoudF8xNDcwMjI3NDM3NzM4IC5pdGVtLTR7ZGlzcGxheTogbm9uZTt9Cn0KQG1lZGlhIChtYXgtd2lkdGg6IDcyMHB4KXsKLnRfMTQ3MDIyNzQzNzczOCAuaXRlbS0xe21hcmdpbi10b3A6IC03MHB4ICFpbXBvcnRhbnQ7fQoudF8xNDcwMjI3NDM3NzM4IC5pdGVtLTJ7Zm9udC1zaXplOiAyZW0gIWltcG9ydGFudDtjb2xvcjogIzAwMDAwMCAhaW1wb3J0YW50O30KLnRfMTQ3MDIyNzQzNzczOCAuaXRlbS0ze2ZvbnQtc2l6ZTogMWVtICFpbXBvcnRhbnQ7Y29sb3I6ICMwMDAwMDAgIWltcG9ydGFudDt9Ci50XzE0NzAyMjc0Mzc3MzggLml0ZW0tNHtkaXNwbGF5OiBub25lO30KfQoNCmQCAw8WAh8DBT48bGluayBocmVmPSIvd2Vic2l0ZXMvbmFmcmFyL2Nzcy9iYW5uZXIuY3NzIiByZWw9InN0eWxlc2hlZXQiPmQCBQ8WAh8DBdY0PHNlY3Rpb24gY2xhc3M9ImFmLXBhcnQgbGF5b3V0LWJhc2UgYWYtaGVybyBsYXlvdXQtMSBibGFjay12ZXIgdF8xNDY0MDcxODA2MDI0IiBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjogIzAwMDAwMDsiPg0KICAgICAgICAgICAgICAgICAgICAgPGEgY2xhc3M9ImxpbmstYXJlYSIgaHJlZj0iaHR0cDovL3d3dy5hc3VzLmNvbS9uYWZyLWFyL1JPRy1SZXB1YmxpYy1PZi1HYW1lcnMvUk9HLVNXSUZULVBHMzQ4US8iIHRhcmdldD0iIiAgYWx0PSJQRzM0OFEiIHRpdGxlPSJQRzM0OFEiICBkYXRhLXRyYWNrPSJiYW5uZXItbWFpbiIgICBvbmNsaWNrPSJHQUJhbm5lclRyYWNrRXZlbnQodGhpcyk7cmV0dXJuIGZhbHNlOyINCj5QRzM0OFE8L2E+DQogICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJpbm5lciI+DQogICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJncm91cC1ibG9jayBncm91cC0xICBfZXggIj48ZGl2IGNsYXNzPSJpdGVtIHRpdGxlIHRleHQgIGl0ZW0tMSIgPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBST0cgU3dpZnQgUEczNDhRwqANCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+PGRpdiBjbGFzcz0iaXRlbSBzbG9nYW4gY2VudGVyIHRleHQgIGl0ZW0tMiIgPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDYtNin2LTYqSDYo9mE2LnYp9ioINmF2YbYrdmG2YrYqQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj48ZGl2IGNsYXNzPSJpdGVtIHN1bW1hcnkgIGFmLWN0cmwgdGV4dCAgaXRlbS0zIiA+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDZiNiz2ZDZkdi5INii2YHYp9mCINin2YTZhNi52KgNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9Imdyb3VwLWJsb2NrIGdyb3VwLTIgICBfZXggIj48ZGl2IGNsYXNzPSJpdGVtIGNvdmVyLWltYWdlIHBpYyAgaXRlbS00IiA+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPSIvbWVkaWEvTkFGUmFyL2Jhbm5lcnMvcjQzT2IyY0d2dmNEMmdZbC9yNDNPYjJjR3Z2Y0QyZ1lsLTMucG5nICIgYWx0PSIiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgICA8L3NlY3Rpb24+DQo8c2VjdGlvbiBjbGFzcz0iYWYtcGFydCBsYXlvdXQtYmFzZSBhZi1zZWNvbmQgbGF5b3V0LTEgIHRfMTQ3MDIyNzQ1MzQyMyIgc3R5bGU9IiI+DQogICAgICAgICAgICAgICAgICAgICA8YSBjbGFzcz0ibGluay1hcmVhIiBocmVmPSJodHRwOi8vd3d3LmFzdXMuY29tL25hZnItYXIvR3JhcGhpY3MtQ2FyZHMvUk9HLVNUUklYLUdUWDEwNjAtNkctR0FNSU5HLyIgdGFyZ2V0PSIiICBhbHQ9IiIgdGl0bGU9IlJPRyBTVFJJWC1HVFgxMDYwLTZHLUdBTUlORyIgZGF0YS10cmFjaz0iYmFubmVyLWZvbGQyLW1haW4iICBvbmNsaWNrPSJHQUJhbm5lclRyYWNrRXZlbnQodGhpcyk7cmV0dXJuIGZhbHNlOyINCj5ST0cgU1RSSVgtR1RYMTA2MC02Ry1HQU1JTkc8L2E+DQogICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJpbm5lciI+DQogICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJncm91cC1ibG9jayBncm91cC0xICBfZXggIj48ZGl2IGNsYXNzPSJpdGVtIGNlbnRlciB0aXRsZSB0aXRsZSB0ZXh0ICBpdGVtLTEiID4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUk9HIFNUUklYLUdUWDEwNjAtNkctR0FNSU5HDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PjxkaXYgY2xhc3M9Iml0ZW0gc2xvZ2FuIGNlbnRlciB0ZXh0ICBpdGVtLTIiID4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQVNVUyBST0cgU3RyaXggR2VGb3JjZcKuIEdUWCAxMDYwINiq2KrYo9mE2YIg2YHZiiDYp9mE2YXZhtin2YHYs9ipINmF2Lkg2KfZhNil2LbYp9ih2KkgQXVyYSBSR0INCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+PGRpdiBjbGFzcz0iaXRlbSBjZW50ZXIgc3VtbWFyeSB0ZXh0ICBpdGVtLTMiID4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQVNVUyBST0cgU3RyaXggR2VGb3JjZcKuIEdUWCAxMDYwINiq2KrYo9mE2YIg2YHZiiDYp9mE2YXZhtin2YHYs9ipINmF2Lkg2KfZhNil2LbYp9ih2KkgQXVyYSBSR0INCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9Imdyb3VwLWJsb2NrIGdyb3VwLTIgICBfZXggIj48ZGl2IGNsYXNzPSJpdGVtIGNvdmVyLWltYWdlIHBpYyAgaXRlbS00IiA+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPSIvbWVkaWEvTkFGUmFyL2Jhbm5lcnMvaWxhcHY3SUJaaXkwRXRraS9pbGFwdjdJQlppeTBFdGtpLTMucG5nICIgYWx0PSIiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgICA8L3NlY3Rpb24+DQo8c2VjdGlvbiBjbGFzcz0iYWYtcGFydCBhZi10d28tY29scyBncmlkcyBncmlkcyBsX19ncmlkLTF4MiBzX19ncmlkLTEgYWYtdGhpcmQgICB0XzE0NTQ1NzY3NDI0MTYiICBzdHlsZT0iIj4NCiAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImlubmVyIj4NCiAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9Imdyb3VwLWJsb2NrIGdyb3VwLTEgZ3JpZCI+DQogICAgICAgICAgICAgICAgICAgICAgICA8YSBjbGFzcz0ibGluay1hcmVhIiBocmVmPSJodHRwOi8vd3d3LmFzdXMuY29tL25hZnItYXIvMi1pbi0xLVBDcy9BU1VTX1RyYW5zZm9ybWVyX0Jvb2tfVDMwMF9DaGkvIiAgIHRhcmdldD0iIiAgIGFsdD0iIiAgdGl0bGU9IlVONjVIIiBkYXRhLXRyYWNrPSJiYW5uZXItZm9sZDItMSIgIG9uY2xpY2s9IkdBQmFubmVyVHJhY2tFdmVudCh0aGlzKTtyZXR1cm4gZmFsc2U7Ij5VTjY1SDwvYT4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InByb2R1Y3QtaW5mbyI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZ3JvdXAgIF9leCAiPjxkaXYgY2xhc3M9Iml0ZW0gdGl0bGUgdGV4dCAgaXRlbS0xIiA+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRyYW5zZm9ybWVyIEJvb2sgVDMwMCBDaGkNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+PGRpdiBjbGFzcz0iaXRlbSBzbG9nYW4gdGV4dCAgaXRlbS0yIiA+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGRpcj0icnRsIj7YrNmH2KfYsiDZhNmI2K3ZiiDZgdin2KbZgiDYp9mE2YbYrdin2YHYqdiMPGJyLz7ZiNis2YfYp9iyINmF2K3ZhdmI2YQg2YLZiNmKINmB2Yog2KzZh9in2LIg2YjYp9it2K8gLjwvc3Bhbj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+PGRpdiBjbGFzcz0iaXRlbSBzdW1tYXJ5IHRleHQgIGl0ZW0tMyIgPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICANCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+PC9kaXY+DQogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InByb2R1Y3QtaW1nIHBpYyBfZXggIj48ZGl2IGNsYXNzPSJpdGVtICBwaWMgIGl0ZW0tNCIgPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW1nIHNyYz0iL21lZGlhL05BRlJhci9iYW5uZXJzL1IxN0hGNlM3Nko0NlhoOVovUjE3SEY2Uzc2SjQ2WGg5Wi0zLnBuZyAiIGFsdD0iIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+PC9kaXY+DQogICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9Imdyb3VwLWJsb2NrIGdyb3VwLTIgZ3JpZCI+DQogICAgICAgICAgICAgICAgICAgICAgICA8YSBjbGFzcz0ibGluay1hcmVhIiBocmVmPSJodHRwOi8vd3d3LmFzdXMuY29tL25hZnItYXIvTWluaS1QQ3MvVml2b01pbmktVU42NUgvIiAgIHRhcmdldD0iIiAgIGFsdD0iIiAgdGl0bGU9IlZpdm9NaW5pIFVONjVIIiBkYXRhLXRyYWNrPSJiYW5uZXItZm9sZDItMiIgIG9uY2xpY2s9IkdBQmFubmVyVHJhY2tFdmVudCh0aGlzKTtyZXR1cm4gZmFsc2U7Ij5WaXZvTWluaSBVTjY1SDwvYT4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InByb2R1Y3QtaW5mbyI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZ3JvdXAgIF9leCAiPjxkaXYgY2xhc3M9Iml0ZW0gdGl0bGUgdGV4dCAgaXRlbS01IiA+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj48ZGl2IGNsYXNzPSJpdGVtIHRpdGxlIHRpdGxlIHRleHQgIGl0ZW0tNiIgPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBBU1VTIFZpdm9NaW5pIFVONjVIDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PjxkaXYgY2xhc3M9Iml0ZW0gc2xvZ2FuIHRleHQgIGl0ZW0tNyIgPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBkaXI9InJ0bCI+2KPYr9in2KEg2KfZhNis2YfYp9iyINin2YTZhdmD2KrYqNmK2Iwg2KjYrdis2YUg2LXYutmK2LEuPC9zcGFuPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj48L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0icHJvZHVjdC1pbWcgcGljIF9leCAiPjxkaXYgY2xhc3M9Iml0ZW0gY292ZXItaW1hZ2UgcGljICBpdGVtLTgiID4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGltZyBzcmM9Ii9tZWRpYS9OQUZSYXIvYmFubmVycy9SMTdIRjZTNzZKNDZYaDlaL1IxN0hGNlM3Nko0NlhoOVotNy5wbmcgIiBhbHQ9IiI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PjwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgIDwvc2VjdGlvbj4NCjxzZWN0aW9uIGNsYXNzPSJhZi1wYXJ0IGxheW91dC1iYXNlICBsYXlvdXQtNSAgYmxhY2stdmVyIHRfMTQ3MDIyNzQzNzczOCIgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6ICNmZmZmZmY7Ij4NCiAgICAgICAgICAgICAgICAgICAgIDxhIGNsYXNzPSJsaW5rLWFyZWEiIGhyZWY9Imh0dHA6Ly93d3cuYXN1cy5jb20vbmFmci1hci9HcmFwaGljcy1DYXJkcy9ST0ctU1RSSVgtUlg0ODAtOEctR0FNSU5HLyIgdGFyZ2V0PSIiICBhbHQ9IiIgdGl0bGU9IlJPRyBTVFJJWC1SWDQ4MC04Ry1HQU1JTkciIGRhdGEtdHJhY2s9ImJhbm5lci1mb2xkMy1tYWluIiAgb25jbGljaz0iR0FCYW5uZXJUcmFja0V2ZW50KHRoaXMpO3JldHVybiBmYWxzZTsiDQo+Uk9HIFNUUklYLVJYNDgwLThHLUdBTUlORzwvYT4NCiAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImlubmVyIj4NCiAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9Imdyb3VwLWJsb2NrIGdyb3VwLTEgX2V4ICI+PGRpdiBjbGFzcz0iaXRlbSBjb3Zlci1pbWFnZSBjZW50ZXIgcGljICBpdGVtLTEiID4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGltZyBzcmM9Ii9tZWRpYS9OQUZSYXIvYmFubmVycy9hcE8yZ0J6WXdvMlE2dVlKL2FwTzJnQnpZd28yUTZ1WUotMC5wbmcgIiBhbHQ9IiI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJncm91cC1ibG9jayBncm91cC0yIF9leCAiPjxkaXYgY2xhc3M9Iml0ZW0gdGl0bGUgdGV4dCAgaXRlbS0yIiA+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFJPRyBTVFJJWC1SWDQ4MC04Ry1HQU1JTkcNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+PGRpdiBjbGFzcz0iaXRlbSBzbG9nYW4gdGV4dCAgaXRlbS0zIiA+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFTVVMgUk9HIFN0cml4IFJYIDQ4MCDYqtiq2KPZhNmCINmB2Yog2KfZhNmF2YbYp9mB2LPYqSDZhdi5INin2YTYpdi22KfYodipIEF1cmEgUkdCDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PjxkaXYgY2xhc3M9Iml0ZW0gc3VtbWFyeSB0ZXh0ICBpdGVtLTQiID4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTcOgbiBIw6xuaCBXUUhEIEctU1lOQyDEkOG6p3UgVGnDqm4gVHLDqm4gVGjhur8gR2nhu5tpDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgIDwvc2VjdGlvbj4NCmQCAw9kFgICAQ8WAh4LXyFJdGVtQ291bnQCAhYEAgEPZBYCZg8VBwExJGh0dHA6Ly93d3cuYXN1cy5jb20vbmFmci1hci9zdXBwb3J0LwZfYmxhbmsb2KfYrdi12YQg2LnZhNmJINin2YTYr9i52YUgG9in2K3YtdmEINi52YTZiSDYp9mE2K/YudmFIB/Zhtit2YYg2YfZhtinINmE2YTZhdiz2KfYudiv2KkgHy9tZWRpYS9nbG9iYWwvUHVzaFRvQnV5LzVfbi5qcGdkAgIPZBYCZg8VBwEyKWh0dHBzOi8vYWNjb3VudC5hc3VzLmNvbS9wcm9kdWN0X3JlZy5hc3B4Bl9ibGFuaxjYqtiz2KzZitmEINin2YTZhdmG2KrYrCAY2KrYs9is2YrZhCDYp9mE2YXZhtiq2KwgJdiz2KzZhCDZhdmG2KrYrCBBU1VTINin2YTYrtin2LUg2KjZgyAfL21lZGlhL2dsb2JhbC9QdXNoVG9CdXkvNl9uLmpwZ2QCBQ9kFgJmD2QWEGYPFgIfBAIEFggCAQ9kFgJmDxUDFGh0dHA6Ly9yb2cuYXN1cy5jb20vBl9ibGFuawNST0dkAgIPZBYCZg8VAxxodHRwOi8vc29uaWNtYXN0ZXIuYXN1cy5jb20vBl9ibGFuawtTb25pY01hc3RlcmQCAw9kFgJmDxUDFGh0dHA6Ly9lZWUuYXN1cy5jb20vBl9ibGFuawlFZWUgaXMgTWVkAgQPZBYCZg8VAzZodHRwOi8vd3d3LmFzdXMuY29tL21pY3Jvc2l0ZS9wb3dlcmVkLWJ5LWFzdXMvbmFmci1hci8GX2JsYW5rD1Bvd2VyZWQgYnkgQVNVU2QCAQ8WAh8DBf0DIA0KICAgICAgICAgICAgICAgIDxsaSBjbGFzcz0ibmF2YmFyLWxpIj48YSBocmVmPSIvbmFmci1hci9Bd2FyZC8iIGlkPSJtZW51X2F3YXJkcyIgdGFyZ2V0PSJfc2VsZiIgb25jbGljaz0iZ29vZ2xlVHJhY2tFdmVudCgnaW5kZXhfbWVudScsIHRoaXMsIHRydWUpO3JldHVybiBmYWxzZTsiPtin2YTYrNmI2KfYptiyPC9hPjwvbGk+DQogICAgICAgICAgICAgICAgPGxpIGNsYXNzPSJkaXZpZGVyLXZlcnRpY2FsIj48L2xpPg0KICAgICAgICAgICAgICAgIDxsaSBjbGFzcz0ibmF2YmFyLWxpIj48YSBocmVmPSIvbmFmci1hci9OZXdzLyIgaWQ9Im1lbnVfbmV3cyI+2KfZhNij2K7YqNin2LE8L2E+PC9saT4NCiAgICAgICAgICAgICAgICA8bGkgY2xhc3M9ImRpdmlkZXItdmVydGljYWwiPjwvbGk+PGxpIGNsYXNzPSJuYXZiYXItbGkiPjxhIGhyZWY9L25hZnItYXIvQWJvdXRfQVNVUy9PcmlnaW5fb2ZfdGhlX05hbWVfQVNVUyBpZD0ibWVudV9hYm91dGFzdXMiPti52YYgQVNVUyA8L2E+PC9saT5kAgIPFgIfBAIFFgoCAQ9kFgJmDxUDFi9uYWZyLWFyL2ludmVzdG9yLmFzcHgFX3NlbGYh2LnZhNin2YLYp9iqINin2YTZhdiz2KrYq9mF2LHZitmGZAICD2QWAmYPFQMsL25hZnItYXIvQVNVU19XZWJzaXRlX0luZm9ybWF0aW9uL0VtcGxveW1lbnQEX3RvcCjYp9mG2LbZhSDYpdmE2Ykg2YHYsdmK2YIg2LnZhdmEINij2LPZiNizZAIDD2QWAmYPFQMeaHR0cDovL2dyZWVuLmFzdXMuY29tL2VuZ2xpc2gvBl9ibGFuaxdHcmVlbkFTVVMgJmFtcDsgU0VSQVNVU2QCBA9kFgJmDxUDFmh0dHA6Ly9wcmVzcy5hc3VzLmNvbS8GX2JsYW5rF9i62LHZgdipINin2YTYtdit2KfZgdipZAIFD2QWAmYPFQMyL25hZnItYXIvQVNVU19XZWJzaXRlX0luZm9ybWF0aW9uL09TX0NvbXBhdGliaWxpdHkGX2JsYW5rMdmF2YLYr9mF2Ykg2K7Yr9mF2KfYqiDYo9iz2YjYsyDYp9mE2YXYudiq2YXYr9mK2YZkAgMPFgIfBGZkAgQPFgIfBAICFgQCAQ9kFgJmDxUDJWh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS9BU1VTLlR1bmlzaWUMQVNVUyBUdW5pc2llKC9tZWRpYS9nbG9iYWwvaWNvbnMvc29jaWFsbWVkaWEvNTRfbi5wbmdkAgIPZBYCZg8VAyRodHRwczovL3d3dy5mYWNlYm9vay5jb20vQVNVUy5NYXJvYyAKQVNVUyBNYXJvYygvbWVkaWEvZ2xvYmFsL2ljb25zL3NvY2lhbG1lZGlhLzU0X24ucG5nZAIFDxYCHwRmZAIGDxYCHwMFxQE8YSBocmVmPSJodHRwOi8vd3d3LmFzdXMuY29tL2VudHJ5Lmh0bSIgb25jbGljaz0iZ29vZ2xlVHJhY2tFdmVudCgnQ291bnRyeV9MYW5nX01lbnUnLCB0aGlzLCB0cnVlKTtyZXR1cm4gZmFsc2U7IiB0aXRsZT0iZW50cnlfcGFnZSI+Tm9ydGggQWZyaWNhIC8gPHNwYW4gY2xhc3M9Imxhbmdfc2V0Ij4g2KfZhNi52LHYqNmK2Kk8L3NwYW4+PC9hPmQCBw8WAh8EAgIWBAIBD2QWAmYPFQM5L25hZnItYXIvVGVybXNfb2ZfVXNlX05vdGljZV9Qcml2YWN5X1BvbGljeS9PZmZpY2lhbC1TaXRlBV9zZWxmJdin2YTZhdi52YTZiNmF2KfYqiDYp9mE2YLYp9mG2YjZhtmK2KlkAgIPZBYCZg8VAzovbmFmci1hci9UZXJtc19vZl9Vc2VfTm90aWNlX1ByaXZhY3lfUG9saWN5L1ByaXZhY3lfUG9saWN5BF90b3Ab2LPZitin2LPYqSDYp9mE2K7YtdmI2LXZitipZGT/jG9SIEVXEshcQhWbFgdmnW5u5th4w5+HkRJ0RtRCHQ=="> 
+   </div> 
+   <div class="outer-wrapper"> 
+    <div id="af-container"> 
+     <div id="af-header"> 
+      <div class="af-inner"> 
+       <a class="logo" href="/nafr-ar/"></a> 
+       <span class="mobile-menu-toggle"><i class="icon icon-css-menu"></i></span> 
+       <div class="nav-bar"> 
+        <!--Main Menu--> 
+        <div class="main-area"> 
+         <div class="nav-main nav">
+          <ul> 
+           <li data-target="products-menu"><a>المنتجات</a></li> 
+           <li data-target="hot-menu"><a>الجديد من</a></li> 
+           <li data-target="commercial-menu"><a>تجارية</a></li> 
+           <li><a href="http://www.asus.com/nafr-ar/support/" target="_blank">الخدمة</a></li> 
+          </ul> 
+         </div> 
+        </div> 
+        <div class="sub-area"> 
+         <div class="nav-member nav"> 
+          <ul> 
+           <!--member--> 
+           <li class="member-item member-info" data-lang="en-us" data-appid="0000000002" data-js-returnurl="asus.url.the_url" data-register="تسجيل"> <script>strLang = 'en-us';strRegister='تسجيل';var strLogin = 'دخول';var ShowMiniCart = '1'</script> <a>دخول <i class="icon icon-profile"></i></a> 
+            <div class="sub-block user-profile"> 
+             <div class="user-img"> 
+              <img src="" alt=""> 
+             </div> 
+             <div class="user-name"></div> 
+             <a href="" class="member-center-btn">حساب ASUS </a> 
+             <a href="" class="logout">تسجيل الخروج </a> 
+            </div> </li> 
+           <!--message--> 
+           <li class="member-item msg-center" style="display:none"> <a title="Message"> <i class="icon icon-msg"></i><span class="count"></span></a> 
+            <div class="sub-block"> 
+             <p class="top-title">مركز الرسائل </p> 
+             <div class="af-msg-center-group"> 
+              <ul class="sender-list"></ul> 
+             </div> 
+             <div class="af-msg-center-footer"> 
+              <a href="">عرض الكل </a> 
+             </div> 
+            </div> </li> 
+           <!--recently/compare--> 
+           <li id="menu_compare" class="aai-mm-item member-item products-compare"> 
+            <div class="aai-mm-sub aai-mms-list sub-block compare-block"> 
+             <div class="aai-mmst-inner"> 
+              <div class="aai-mst-header"> 
+               <a data-id="viewed-list"></a> 
+              </div> 
+              <!-- Viewed --> 
+              <div class="aai-tls-se " id="viewed-list"> 
+               <div class="aai-tm"> 
+                <ul class="aai-vls"> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                </ul> 
+               </div> 
+              </div> 
+              <!-- Viewed @end --> 
+              <!-- compare --> 
+              <div class="aai-tls-se " id="div_compare_panel"> 
+               <div class="aai-tm"> 
+                <div class="compare_group"></div> 
+               </div> 
+              </div> 
+              <!-- compare @end--> 
+             </div> 
+            </div> </li> 
+           <!-- Shopping Cart--> 
+           <li class="member-item shopcart"> 
+            <div class="sub-block"> 
+             <div class="cart-wrap"> 
+             </div> 
+            </div> </li> 
+          </ul> 
+         </div> 
+         <!--search--> 
+         <div class="search-bar"> 
+          <a class="aai-mm-btn hide"><i class="aai-icons aai-icon-search"></i></a> 
+          <input type="text" class="input-search" id="top-search-bar" name="q" autocomplete="off"> 
+          <input type="text" id="searchinputDefault" class="input-search hide"> 
+          <button class="btn btn-search-submit" onclick="Search();return false;"><i class="icon icon-search"></i></button> 
+          <div class="search-result"></div> 
+         </div> 
+        </div> 
+        <!--Sub Menu--> 
+        <div class="submenu-area">
+         <div class="products-menu submenu"> 
+          <h3 class="title">المنتجات</h3> 
+          <ul class="nav"> 
+           <li class="products-item" data-submenu-id="1"><a>هاتف</a></li> 
+           <li class="products-item" data-submenu-id="78"><a>الأجهزة المحمولة والأجهزة المزدوجة</a></li> 
+           <li class="products-item" data-submenu-id="155"><a>جهاز لوحي</a></li> 
+           <li class="products-item" data-submenu-id="232"><a>اللوحات الأم</a></li> 
+           <li class="products-item" data-submenu-id="309"><a>كروت الشاشة</a></li> 
+           <li class="products-item" data-submenu-id="386"><a>الأجهزة الممكن ارتداؤها وأجهزة الرعاية الصحية</a></li> 
+           <li class="products-item" data-submenu-id="463"><a>الأجهزة المكتبية</a></li> 
+           <li class="products-item" data-submenu-id="540"><a>شاشات العرض</a></li> 
+           <li class="products-item" data-submenu-id="617"><a>الشبكات</a></li> 
+           <li class="products-item" data-submenu-id="694"><a>الصوت</a></li> 
+           <li class="products-item" data-submenu-id="771"><a>أجهزة المنزل والسيارات</a></li> 
+           <li class="products-item" data-submenu-id="848"><a>الأجهزة الطرفية</a></li> 
+           <li class="products-item" data-submenu-id="925"><a>الألعاب</a></li> 
+          </ul> 
+          <div class="display-area"> 
+           <ul class="sub-products-list sub-cat-list"> 
+            <li class="products-1 sub-item"> <h3 class="origin-title">هاتف</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Phone/">هاتف</a> </h4>
+              <ul> 
+               <li><a href="/nafr-ar/Phone/ZenFone-Products/">ZenFone (‏الرائد)</a></li> 
+               <li><a href="/nafr-ar/Phone/ZenFone-Deluxe-Products/">ZenFone Deluxe (‏أداء بمستوى الأجهزة المكتبية)</a></li> 
+               <li><a href="/nafr-ar/Phone/ZenFone-Max-Products/">ZenFone Max (‏عمر بطارية فائق للغاية)</a></li> 
+               <li><a href="/nafr-ar/Phone/ZenFone-Go-Products/">ZenFone Go (‏المرح والحيوية)</a></li> 
+               <li><a href="/nafr-ar/Phone/Other-Phones-Products/">الهواتف الأخرى</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Phone-Accessory/">ملحقات هاتف</a> </h4>
+              <ul> 
+               <li><a href="/nafr-ar/Phone-Accessory/Power-Banks-Products/">خزائن الطاقة</a></li> 
+               <li><a href="/nafr-ar/Phone-Accessory/Adapters-Products/">المحولات</a></li> 
+               <li><a href="/nafr-ar/Phone-Accessory/Cases-Covers-Sleeves-Products/">الحقائب والأغطية</a></li> 
+               <li><a href="/nafr-ar/Phone-Accessory/Screen-Protectors-Products/">واقيات الشاشة</a></li> 
+               <li><a href="/nafr-ar/Phone-Accessory/Storage-Products/">Storage</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/nafr-ar/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/nafrar/ProductLevel1/Topmenu/1.png" alt="">
+                </div> 
+                <div class="title">
+                 ZenFone 4 (‏A400CG)
+                </div> 
+                <div class="summary">
+                 أناقة التنقل
+                </div> اعرف المزيد</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-78 sub-item two-column"> <h3 class="origin-title">الأجهزة المحمولة والأجهزة المزدوجة</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Notebooks/">أجهزة الحاسب المحمولة</a> </h4>
+              <ul> 
+               <li><a href="/nafr-ar/Notebooks/Zenbook-Series-Products/">سلسلة Zenbook</a></li> 
+               <li><a href="/nafr-ar/Notebooks/Gaming-Series-Products/">سلسلة الألعاب</a></li> 
+               <li><a href="/nafr-ar/Notebooks/N-series-Products/">السلسلة N</a></li> 
+               <li><a href="/nafr-ar/Notebooks/K-A-series-Products/">السلسلة K</a></li> 
+               <li><a href="/nafr-ar/Notebooks/X-series-Products/">السلسلة X</a></li> 
+               <li><a href="/nafr-ar/Notebooks/Chromebook-Products/">Chromebook</a></li> 
+               <li><a href="/nafr-ar/Notebooks/E-Series-Products/">E سلسلة</a></li> 
+               <li><a href="/nafr-ar/Notebooks/Vivobook-Series-Products/">Vivobook سلسلة</a></li> 
+               <li><a href="/nafr-ar/Notebooks/Taichi-Series-Products/">Taichi سلسلة</a></li> 
+               <li><a href="/nafr-ar/Notebooks/S-Series-Products/">S سلسلة</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/2-in-1-PCs/">الأجهزة المكتبية المزدوجة</a> </h4>
+              <ul> 
+               <li><a href="/nafr-ar/2-in-1-PCs/Transformer-Book-series-Detachable-Products/">سلسلة Transformer Book (القابلة للفصل)</a></li> 
+               <li><a href="/nafr-ar/2-in-1-PCs/Transformer-Book-series-Convertible-Products/">سلسلة Transformer Book (القابلة للتحويل)</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Notebooks-Accessory/">ملحقات الأجهزة المحمولة</a> </h4>
+              <ul> 
+               <li><a href="/nafr-ar/Notebooks-Accessory/Adapters-Products/">المحولات</a></li> 
+               <li><a href="/nafr-ar/Notebooks-Accessory/Cases-Covers-Sleeves-Products/">الحقائب والأغطية</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="http://www.asus.com/nafr-ar/2-in-1-PCs/ASUS_Transformer_Book_T100TAF/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/nafrar/ProductLevel1/Topmenu/78.png" alt="">
+                </div> 
+                <div class="title">
+                 ASUS Transformer Book T100TAF
+                </div> 
+                <div class="summary">
+                 جهاز لوحي، وكمبيوتر محمول في جهاز واحد
+                </div> اعرف المزيد</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-155 sub-item"> <h3 class="origin-title">جهاز لوحي</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Tablets/">جهاز لوحي</a> </h4>
+              <ul> 
+               <li><a href="/nafr-ar/Tablets/ZenPad-Products/">ZenPad</a></li> 
+               <li><a href="/nafr-ar/Tablets/Fonepad-Products/">Fonepad</a></li> 
+               <li><a href="/nafr-ar/Tablets/Transformer-Pad-Products/">Transformer Pad</a></li> 
+               <li><a href="/nafr-ar/Tablets/Vivo-Tab-Products/">Vivo Tab</a></li> 
+               <li><a href="/nafr-ar/Tablets/Nexus-Products/">Nexus</a></li> 
+               <li><a href="/nafr-ar/Tablets/MeMO-Pad-Products/">MeMO Pad</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Tablet-Accessory/">ملحقات الأجهزة اللوحية</a> </h4>
+              <ul> 
+               <li><a href="/nafr-ar/Tablet-Accessory/Adapters-Products/">المحولات</a></li> 
+               <li><a href="/nafr-ar/Tablet-Accessory/Cases-Covers-Sleeves-Products/">الحقائب والأغطية</a></li> 
+               <li><a href="/nafr-ar/Tablet-Accessory/Docks-Products/">قواعد التوصيل</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/nafr-ar/Tablets/ASUS_VivoTab_Note_8_M80TA/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/nafrar/ProductLevel1/Topmenu/155.png" alt="">
+                </div> 
+                <div class="title">
+                 ASUS VivoTab Note 8 (‏M80TA)
+                </div> 
+                <div class="summary">
+                 الجهاز اللوحي المذهل قياس 8 بوصة و نظام تشغيل ويندوز 8.1 و قلم Wacom الإحترافي
+                </div> اعرف المزيد</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-232 sub-item"> <h3 class="origin-title">اللوحات الأم</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Motherboards/">اللوحات الأم</a> </h4>
+              <ul> 
+               <li><a href="/nafr-ar/Motherboards/ASUS-Prime-Products/">ASUS (التوقيع)</a></li> 
+               <li><a href="/nafr-ar/Motherboards/ROG-Republic-of-Gamers-Products/">ROG (أجهزة الألعاب وزيادة التردد المتميزة)</a></li> 
+               <li><a href="/nafr-ar/Motherboards/Pro-Gaming-Products/">اللاعب المحترف (الألعاب العادية)</a></li> 
+               <li><a href="/nafr-ar/Motherboards/TUF-24-7-Durability-Products/">TUF (متانة 24/7)</a></li> 
+               <li><a href="/nafr-ar/Motherboards/Commercial-Products/">تجارية</a></li> 
+               <li><a href="/nafr-ar/Motherboards/Workstation-Products/">محطات العمل</a></li> 
+               <li><a href="/nafr-ar/Motherboards/Intel-platform-Products/">منصة Intel</a></li> 
+               <li><a href="/nafr-ar/Motherboards/AMD-platform-Products/">منصة AMD</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Motherboard-Accessory/">ملحقات اللوحة الأم</a> </h4>
+              <ul> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/nafr-ar/Motherboards/Z170M-PLUS/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/nafrar/ProductLevel1/Topmenu/232.png" alt="">
+                </div> 
+                <div class="title">
+                 Z170M-PLUS
+                </div> 
+                <div class="summary">
+                 لوحة أم micro-ATX Z170 رائدة مع خاصية الحماية 5X Protection لاستقرار يعتمد عليه، وأداء رائع للذاكرة DDR4، وتوصيل عن طريق منفذ USB Type-C المزدوج
+                </div> اعرف المزيد</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-309 sub-item"> <h3 class="origin-title">كروت الشاشة</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Graphics-Cards/">كروت الشاشة</a> </h4>
+              <ul> 
+               <li><a href="/nafr-ar/Graphics-Cards/AMD-Series-Products/">سلسلة AMD</a></li> 
+               <li><a href="/nafr-ar/Graphics-Cards/NVIDIA-Series-Products/">سلسلة NVIDIA</a></li> 
+               <li><a href="/nafr-ar/Graphics-Cards/ROG-Republic-of-Gamers-Products/">سلسلة ROG</a></li> 
+               <li><a href="/nafr-ar/Graphics-Cards/STRIX-Gaming-Products/">السلسلة STRIX</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Graphics-Cards-Accessory/">ملحقات كروت الشاشة</a> </h4>
+              <ul> 
+               <li><a href="/nafr-ar/Graphics-Cards-Accessory/SLI-Bridge-Products/">SLI Bridge</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="http://www.asus.com/nafr-ar/Graphics-Cards/ROG-STRIX-GTX1080-O8G-GAMING/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/nafrar/ProductLevel1/Topmenu/309.png" alt="">
+                </div> 
+                <div class="title">
+                 ROG STRIX-GTX1080-O8G-GAMING
+                </div> 
+                <div class="summary">
+                 البطاقة ASUS ROG Strix GeForce® GTX 1080 تتألق في المنافسة
+                </div> اعرف المزيد</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-386 sub-item"> <h3 class="origin-title">الأجهزة الممكن ارتداؤها وأجهزة الرعاية الصحية</h3> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/VivoWatch/">الصحة واللياقة</a> </h4>
+              <ul> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/nafr-ar/VivoWatch/ASUS_VivoWatch/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/nafrar/ProductLevel1/Topmenu/386.png" alt="">
+                </div> 
+                <div class="title">
+                 ASUS VivoWatch
+                </div> 
+                <div class="summary">
+                 نبض الحياه: ساعة للعناية بك وبعائلتك
+                </div> اعرف المزيد</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-463 sub-item two-column"> <h3 class="origin-title">الأجهزة المكتبية</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Tower-PCs/">الأجهزة المكتبية البرجية</a> </h4>
+              <ul> 
+               <li><a href="/nafr-ar/Tower-PCs/VivoPC-Series-Products/">الأجهزة المكتبية البرجية</a></li> 
+               <li><a href="/nafr-ar/Tower-PCs/Gaming-Series-Products/">سلسلة الألعاب</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Mini-PCs/">Mini PCs</a> </h4>
+              <ul> 
+               <li><a href="/nafr-ar/Mini-PCs/VivoPC-Products/">VivoPC</a></li> 
+               <li><a href="/nafr-ar/Mini-PCs/VivoMini-Products/">جهاز مكتبي بحجم عصا</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Stick-PCs/">الأجهزة المكتبية Stick</a> </h4>
+              <ul> 
+               <li><a href="/nafr-ar/Stick-PCs/Stick-PC-QM1-Products/">QM1</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Chrome-Devices/">أجهزة Chrome</a> </h4>
+              <ul> 
+               <li><a href="/nafr-ar/Chrome-Devices/Chromebox-Products/">Chromebox</a></li> 
+               <li><a href="/nafr-ar/Chrome-Devices/Chromebit-Products/">أجهزة Chrome</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/AllinOne-PCs/">الأجهزة المتكاملة</a> </h4>
+              <ul> 
+               <li><a href="/nafr-ar/AllinOne-PCs/Zen-AiO-Series-Products/">أجهزة Zen المتكاملة</a></li> 
+               <li><a href="/nafr-ar/AllinOne-PCs/Vivo-AiO-Products/">أجهزة Vivo المتكاملة</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Destkop-Accessories/">ملحقات الأجهزة المكتبية</a> </h4>
+              <ul> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/nafr-ar/Chrome-Devices/ASUS_Chromebox_CN62/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/nafrar/ProductLevel1/Topmenu/463.png" alt="">
+                </div> 
+                <div class="title">
+                 ASUS Chromebox CN62
+                </div> 
+                <div class="summary">
+                 بسيط. سريع. صامت
+                </div> اعرف المزيد</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-540 sub-item two-column"> <h3 class="origin-title">شاشات العرض</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Monitors/">شاشات العرض</a> </h4>
+              <ul> 
+               <li><a href="/nafr-ar/Monitors/4K-UHD-2K-WQHD-Products/">4K &amp; WQHD</a></li> 
+               <li><a href="/nafr-ar/Monitors/Professional-Products/">إحترافية</a></li> 
+               <li><a href="/nafr-ar/Monitors/Gaming-Products/">3D شاشات الألعاب والشاشات ثلاثية الأبعاد 3D &amp; Gam</a></li> 
+               <li><a href="/nafr-ar/Monitors/Business-Products/">الرؤية الواسعة</a></li> 
+               <li><a href="/nafr-ar/Monitors/Touch-Products/">المحمولة</a></li> 
+               <li><a href="/nafr-ar/Monitors/Eye-Care-Products/">Eye Care</a></li> 
+               <li><a href="/nafr-ar/Monitors/ZenScreen-Products/">المزيد…</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Projectors/">أجهزة العرض</a> </h4>
+              <ul> 
+              </ul> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Monitor-Accessory/">ملحقات الشاشات</a> </h4>
+              <ul> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/nafr-ar/Commercial-Monitors/PB328Q/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/nafrar/ProductLevel1/Topmenu/540.png" alt="">
+                </div> 
+                <div class="title">
+                 PB328Q
+                </div> 
+                <div class="summary">
+                 الشاشة الإحترافية ASUS PB328Q - قياس 32 بوصة بدقة 2K WQHD (‏2560x1440)، وإطار نحيف، وحامل مريح، وتكنولوجيا Flicker Free، وتكنولوجيا Low Blue Light
+                </div> اعرف المزيد</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-617 sub-item"> <h3 class="origin-title">الشبكات</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Networking/">الشبكات</a> </h4>
+              <ul> 
+               <li><a href="/nafr-ar/Networking/Wireless-Routers-Products/">راوتر لاسلكى</a></li> 
+               <li><a href="/nafr-ar/Networking/Wireless-AP-Repeater-Bridges-Products/">نقاط التوصيل اللاسلكية/ موسع المدى/ جسر الوسائط</a></li> 
+               <li><a href="/nafr-ar/Networking/xDSL-Modem-Routers-Products/">أجهزة الراوتر ومودم xDSL</a></li> 
+               <li><a href="/nafr-ar/Networking/Wireless-Adapters-Products/">المحولات اللاسلكية</a></li> 
+               <li><a href="/nafr-ar/Networking/Powerline-Networking-Products/">شبكة خطوط الطاقة</a></li> 
+               <li><a href="/nafr-ar/Networking/4G-LTE-3G-Routers-Products/">أجهزة الراوتر 4G LTE / 3G</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/nafr-ar/Networking/RTAC3200/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/nafrar/ProductLevel1/Topmenu/617.png" alt="">
+                </div> 
+                <div class="title">
+                 RT-AC3200
+                </div> 
+                <div class="summary">
+                 جهاز راوتر AC3200 Gigabit لاسلكي ثلاثي النطاق
+                </div> اعرف المزيد</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-694 sub-item two-column"> <h3 class="origin-title">الصوت</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Sound/">الصوت</a> </h4>
+              <ul> 
+               <li><a href="/nafr-ar/Sound/Essence-HiFi-Audio-Products/">صوت Essence عالي الدقة</a></li> 
+               <li><a href="/nafr-ar/Sound/Sound-Cards-Products/">بطاقات الصوت</a></li> 
+               <li><a href="/nafr-ar/Sound/Headphones-Headsets-Products/">سماعات الرأس والسماعات</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Essence-Hi-Fi-Audio/">صوت Essence عالي الدقة</a> </h4>
+              <ul> 
+               <li><a href="/nafr-ar/Essence-Hi-Fi-Audio/Hi-Fi-Sound-Cards-Products/">بطاقات الصوت</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Sound-Cards/">بطاقات الصوت</a> </h4>
+              <ul> 
+               <li><a href="/nafr-ar/Sound-Cards/Hi-Fi-Sound-Cards-Products/">Essence Hi-Fi سلسلة</a></li> 
+               <li><a href="/nafr-ar/Sound-Cards/ROG-Republic-of-Gamers-Products/">ROG Gaming سلسلة</a></li> 
+               <li><a href="/nafr-ar/Sound-Cards/STRIX-Gaming-Series-Products/">STRIX Gaming سلسلة</a></li> 
+               <li><a href="/nafr-ar/Sound-Cards/Gaming-Products/">الألعاب</a></li> 
+               <li><a href="/nafr-ar/Sound-Cards/Entertainment-Products/">الترفيه</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Headphones-Headsets/">سماعات الرأس والسماعات</a> </h4>
+              <ul> 
+               <li><a href="/nafr-ar/Headphones-Headsets/ROG-Republic-of-Gamers-Products/">ROG Gaming سلسلة</a></li> 
+               <li><a href="/nafr-ar/Headphones-Headsets/Gaming-Products/">الألعاب</a></li> 
+               <li><a href="/nafr-ar/Headphones-Headsets/Entertainment-Products/">الترفيه</a></li> 
+               <li><a href="/nafr-ar/Headphones-Headsets/STRIX-Gaming-Series-Products/">STRIX Gaming سلسلة</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/nafr-ar/Sound-Cards/Xonar_U5/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/nafrar/ProductLevel1/Topmenu/694.png" alt="">
+                </div> 
+                <div class="title">
+                 Xonar U5
+                </div> 
+                <div class="summary">
+                 بطاقة صوت USB 5.1-channel مضغوطة و مضخم السماعات مع صوت 192kHz/24-bit HD و مجموعة Sonic Studio
+                </div> اعرف المزيد</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-771 sub-item"> <h3 class="origin-title">أجهزة المنزل والسيارات</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Home-Entertainment/">الترفيه المنزلي</a> </h4>
+              <ul> 
+               <li><a href="/nafr-ar/Home-Entertainment/O-Play-Digital-Media-Player-Products/">O!Play Digital Media Player</a></li> 
+               <li><a href="/nafr-ar/Home-Entertainment/Gamepad-Products/">Gamepad</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Car-Electronics/">إلكترونيات السيارة</a> </h4>
+              <ul> 
+               <li><a href="/nafr-ar/Car-Electronics/Video-Recorder-Camcorder-Products/">مسجل الفيديو وCamCoder</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/nafr-ar/Home-Entertainment/OPlay_Media_Pro/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/nafrar/ProductLevel1/Topmenu/771.png" alt="">
+                </div> 
+                <div class="title">
+                 O!Play Media Pro
+                </div> 
+                <div class="summary">
+                 مشغل أفلام / أغاني/ صور ومستقبِل رقمي للقنوات الفضائية التليفزيونية في جهاز واحد
+                </div> اعرف المزيد</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-848 sub-item two-column"> <h3 class="origin-title">الأجهزة الطرفية</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Keyboards-Mice/">لوحات المفاتيح والفأرة</a> </h4>
+              <ul> 
+               <li><a href="/nafr-ar/Keyboards-Mice/Keyboards-Products/">لوحات المفاتيح</a></li> 
+               <li><a href="/nafr-ar/Keyboards-Mice/Mice-Products/">الفأرات</a></li> 
+               <li><a href="/nafr-ar/Keyboards-Mice/Combo-Products/">كومبو</a></li> 
+               <li><a href="/nafr-ar/Keyboards-Mice/Mouse-pads-Products/">مساند الفأرة</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Optical-Drives-Storage/">الأقراص الضوئية وأقراص التخزين</a> </h4>
+              <ul> 
+               <li><a href="/nafr-ar/Optical-Drives-Storage/External-Blu-ray-Drive-Products/">محرك Blu Ray خارجي</a></li> 
+               <li><a href="/nafr-ar/Optical-Drives-Storage/External-Slim-DVD-Drive-Products/">محرك DVD خارجي نحيف</a></li> 
+               <li><a href="/nafr-ar/Optical-Drives-Storage/Internal-Blu-ray-Drive-Products/">محرك Blu Ray داخلي</a></li> 
+               <li><a href="/nafr-ar/Optical-Drives-Storage/Internal-DVD-Drive-Products/">محرك DVD داخلي</a></li> 
+               <li><a href="/nafr-ar/Optical-Drives-Storage/Storage-Products/">التخزين</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/3D-Sensor/">وحدة الاستشعار ثلاثية الأبعاد</a> </h4>
+              <ul> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/nafr-ar/Optical-Drives-Storage/DRW24B1ST/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/nafrar/ProductLevel1/Topmenu/848.png" alt="">
+                </div> 
+                <div class="title">
+                 DRW-24B1ST
+                </div> 
+                <div class="summary">
+                 بيئة نظيفة الان و في المستقبل
+                </div> اعرف المزيد</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-925 sub-item"> <h3 class="origin-title">الألعاب</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/ROG-Republic-Of-Gamers/">ROG - Republic Of Gamers</a> </h4>
+              <ul> 
+               <li><a href="/nafr-ar/ROG-Republic-Of-Gamers/Notebooks-Products/">أجهزة الحاسب المحمولة</a></li> 
+               <li><a href="/nafr-ar/ROG-Republic-Of-Gamers/Motherboards-Products/">اللوحات الأم</a></li> 
+               <li><a href="/nafr-ar/ROG-Republic-Of-Gamers/Graphics-Cards-Products/">كروت الشاشة</a></li> 
+               <li><a href="/nafr-ar/ROG-Republic-Of-Gamers/Monitors-Products/">شاشات العرض</a></li> 
+               <li><a href="/nafr-ar/ROG-Republic-Of-Gamers/Headsets-Products/">سماعة الرأس</a></li> 
+               <li><a href="/nafr-ar/ROG-Republic-Of-Gamers/Sound-Cards-Products/">الصوت</a></li> 
+               <li><a href="/nafr-ar/ROG-Republic-Of-Gamers/Mice-Products/">الفأرة</a></li> 
+               <li><a href="/nafr-ar/ROG-Republic-Of-Gamers/Mousepads-Products/">مسند الفأرة</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"> <a href="/nafr-ar/Gaming/">الألعاب</a> </h4>
+              <ul> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/nafr-ar/Sound-Cards/ROG_Xonar_Phoebus/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/nafrar/ProductLevel1/Topmenu/925.png" alt="">
+                </div> 
+                <div class="title">
+                 ROG Xonar Phoebus
+                </div> 
+                <div class="summary">
+                 مهّد طريقك نحو الفوز مع التقنية الحصرية ROG Command
+                </div> اعرف المزيد</a> 
+              </div> 
+             </div> </li> 
+           </ul> 
+          </div> 
+         </div> 
+         <div class="hot-menu submenu three-column"> 
+          <h3 class="title">الجديد من</h3> 
+          <ul class="hot-list clearfix"> 
+           <li class="hot-item first"><a onclick="TopmenuGoogleTraking(this, '1', '/media/nafrar/TopMenuItem/2105.jpg'); return false;" href="https://www.asus.com/event/vga/gears-of-war-4/" target="_blank"><img src="/media/nafrar/TopMenuItem/2105.jpg" alt="Gears of War 4 game"><span class="title">Gears of War 4 game</span></a></li> 
+           <li class="hot-item"><a onclick="TopmenuGoogleTraking(this, '2', '/media/nafrar/TopMenuItem/2090.jpg'); return false;" href="https://asus.cablemod.com/" target="_blank"><img src="/media/nafrar/TopMenuItem/2090.jpg" alt="ASUSxCableMod"><span class="title">ASUSxCableMod</span></a></li> 
+           <li class="hot-item"><a onclick="TopmenuGoogleTraking(this, '3', '/media/nafrar/TopMenuItem/381.jpg'); return false;" href="http://www.asus.com/Microsite/2015/display/eye_care_technology/AR" target="_blank"><img src="/media/nafrar/TopMenuItem/381.jpg" alt="ضوء أزرق منخفض للغاية "><span class="title">ضوء أزرق منخفض للغاية </span></a></li> 
+          </ul> 
+          <ul class="hot-list clearfix"> 
+           <li class="hot-item"><a onclick="TopmenuGoogleTraking(this, '4', '/media/nafrar/TopMenuItem/1999.jpg'); return false;" href="http://www.asus.com/nafr-ar/Graphics-Cards/RX480-8G/" target="_blank"><img src="/media/nafrar/TopMenuItem/1999.jpg" alt="RX480-8G"><span class="title">RX480-8G</span></a></li> 
+           <li class="hot-item"><a onclick="TopmenuGoogleTraking(this, '5', '/media/nafrar/TopMenuItem/948.jpg'); return false;" href="http://www.asus.com/nafr-ar/Graphics-Cards/GTX1080-8G/" target="_blank"><img src="/media/nafrar/TopMenuItem/948.jpg" alt="GTX1080-8G"><span class="title">GTX1080-8G</span></a></li> 
+           <li class="hot-item"><a onclick="TopmenuGoogleTraking(this, '6', '/media/nafrar/TopMenuItem/944.jpg'); return false;" href="http://www.asus.com/nafr-ar/News/F0cdM6PDVdX7LCz7/" target="_blank"><img src="/media/nafrar/TopMenuItem/944.jpg" alt="Z170 - X99 WR&amp; GFP"><span class="title">Z170 - X99 WR&amp; GFP</span></a></li> 
+          </ul> 
+          <ul class="hot-list clearfix"> 
+           <li class="hot-item"><a onclick="TopmenuGoogleTraking(this, '7', '/media/nafrar/TopMenuItem/935.jpg'); return false;" href="http://www.asus.com/nafr-ar/event/x99/" target="_blank"><img src="/media/nafrar/TopMenuItem/935.jpg" alt="X99-DELUXE II"><span class="title">X99-DELUXE II</span></a></li> 
+           <li class="hot-item"><a onclick="TopmenuGoogleTraking(this, '8', '/media/nafrar/TopMenuItem/868.jpg'); return false;" href="http://www.asus.com/Microsite/No1-Gaming-Monitor-Brand/nafr-ar/" target="_blank"><img src="/media/nafrar/TopMenuItem/868.jpg" alt="No.1 Gaming Monitor Brand"><span class="title">No.1 Gaming Monitor Brand</span></a></li> 
+           <li class="hot-item"><a onclick="TopmenuGoogleTraking(this, '9', '/media/nafrar/TopMenuItem/770.jpg'); return false;" href="http://www.asus.com/microsite/powered-by-asus/nafr-ar/" target="_blank"><img src="/media/nafrar/TopMenuItem/770.jpg" alt="بدعم من ASUS"><span class="title">بدعم من ASUS</span></a></li> 
+          </ul> 
+         </div> 
+         <div class="commercial-menu submenu"> 
+          <h3 class="title">تجارية</h3> 
+          <ul class="nav"> 
+           <li class="commercial-item" data-submenu-id="products"><a href="/nafr-ar/commercial/" target="_self">المنتجات</a></li> 
+           <li class="commercial-item" data-submenu-id="Business_Size"><a href="/nafr-ar/CommercialInfo/Business_Size/">حجم العمل</a></li> 
+           <li class="commercial-item" data-submenu-id="Solution"><a href="/nafr-ar/CommercialInfo/Solution/">الحل</a></li> 
+           <li class="commercial-item" data-submenu-id="Industry"><a href="/nafr-ar/CommercialInfo/Industry/">الصناعة</a></li> 
+          </ul> 
+          <div class="display-area"> 
+           <ul class="sub-commercial-list sub-cat-list"> 
+            <li class="commercial-products sub-item two-column"> <h3 class="origin-title">المنتجات</h3> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/nafr-ar/Commercial-Tablets/">جهاز لوحي</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/nafr-ar/Commercial-All-in-One-PCs/">الأجهزة المتكاملة</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/nafr-ar/Commercial-Signage/">اللافتات</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/nafr-ar/Commercial-Projectors/">أجهزة العرض</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/nafr-ar/Commercial-Monitors/">شاشات العرض</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/nafr-ar/Commercial-Servers-Workstations/">الخوادم ومحطات العمل</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/nafr-ar/Commercial-Desktop/">الأجهزة المكتبية</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/nafr-ar/Commercial-Notebooks/">الأجهزة المحمولة</a></h4> 
+             </div> </li> 
+            <li class="commercial-Business_Size sub-item two-column"> <h3 class="origin-title">حجم العمل</h3> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/nafr-ar/CommercialInfo/Business_Size/SOHO_Micro_Business/">المكاتب الصغيرة و الشركات متناهية الصغر</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/nafr-ar/CommercialInfo/Business_Size/Small_Midsize_Business/">شركات الأعمال الصغيرة والمتوسطة الحجم</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/nafr-ar/CommercialInfo/Business_Size/Enterprise_Large_Business/">المنظمات و الشركات الكبيرة</a></h4> 
+             </div> </li> 
+            <li class="commercial-Solution sub-item two-column"> <h3 class="origin-title">الحل</h3> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/nafr-ar/CommercialInfo/Solution/Mobile_Solution/">الحل المتنقل</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/nafr-ar/CommercialInfo/Solution/Business_Protection/">حماية الشركات</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/nafr-ar/CommercialInfo/Solution/Improve_Performance/">تحسين الأداء</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/nafr-ar/CommercialInfo/Solution/Enhance_Communication/">تعزيز الاتصالات</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/nafr-ar/CommercialInfo/Solution/Green_Office/">المكاتب الصديقة للبيئة</a></h4> 
+             </div> </li> 
+            <li class="commercial-Industry sub-item two-column"> <h3 class="origin-title">الصناعة</h3> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/nafr-ar/CommercialInfo/Industry/Education/">التعليم</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/nafr-ar/CommercialInfo/Industry/Retail_Service/">تجارة التجزئة والخدمات</a></h4> 
+             </div> </li> 
+           </ul> 
+          </div> 
+         </div> 
+         <div class="service-menu submenu"> 
+          <h3 class="title">الخدمة</h3> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="mobile-action"> 
+        <a class="btn" href="#"><i class="icon icon-search"></i></a> 
+       </div> 
+      </div> 
+     </div> 
+     <script>
+    var intControlstopSysWordingCheckId;
+    intControlstopSysWordingCheckId = setInterval("controlstopSysWordingCheck()", intSysWordingCheckSpeed);
+
+    function controlstopSysWordingCheck() {
+        if (sysWordingRead) {
+            $("#aai-search-btn").val(sysWording.SearchTitle);
+            $("#minicart_panel p.aai-item-titl").html(sysWording.ShoppingCart);
+
+            clearTimeout(intControlstopSysWordingCheckId);
+        }
+    }
+</script> 
+     <script>
+    var isInGroup = '0';
+    var compare_open = "F";
+
+    function checkShoppingCart(url) {
+        //: Check Cart Quantity
+        $.getJSON(url, function (cartJsonData) {
+            if (!cartJsonData.shoppingCart.isEmpty) $("#num_shoppingcart").html(cartJsonData.shoppingCart.totalQuantity);
+        });
+    }
+
+    //: ------------- BEGIN -------------
+    //: [[Compare Model 2012/05/29 Angel]]
+    function getCompareCookie() {
+        var theData = "";
+        var theCookie = document.cookie;
+        var compareGroupName = "";
+        var val = theCookie.split(";");
+
+        for (i = 0; i < val.length; i++) {
+            compareGroupName = "";
+            var data = val[i].split("=");
+            if (data.length > 1) {
+                var index = data[0].indexOf("compare_");
+                if (index > -1) {
+                    var compareid = data[0].substring(index + 8);
+                    if (CompareJson) {
+                        $.map(CompareJson, function (obj_compare) {
+                            if (obj_compare.CompareID === compareid)
+                                compareGroupName = obj_compare.CompareName
+                        });
+                    }
+                    if (data[1] != "")
+                        theData += "compare_" + compareid + "." + compareGroupName.replace(/^\s+/, "") + ":" + unescape(data[1]) + ";";
+                }
+            }
+        }
+        return theData;
+    }
+
+    function getMessage() {
+        //var msg_data = (getWebsite() == "cn") ? '//www.asus.com.cn/message.aspx.aspx?lang=' + strLang :
+        //    '//www.asus.com/message.aspx?lang=' + strLang;
+        //
+        //$.ajax({
+        //    url: msg_data,
+        //    dataType: 'jsonp',
+        //    jsonp: 'callback',
+        //    cache: true,
+        //    jsonpCallback: '_asus_message_fn',
+        //    success: function (res) {
+        //        $("#menu_msg ul.sender-list").html(res.message);
+        //        $("#menu_msg .aai-msgcenter-footer a").attr("href", "https://account.asus.com/msgcenter.aspx?lang=" + strLang + "&site=" + getWebsite());
+        //        $("#menu_msg ul.sender-list li.list-item").on("click", message_detail);
+        //
+        //        if (res.Total == "0") { $("#menu_msg .aai-circle-num").css({ 'display': 'none' }); $("#menu_msg .aai-circle-num").text("0"); }
+        //        else {
+        //            $("#menu_msg .aai-circle-num").css({ 'display': 'block' });
+        //            $("#menu_msg .aai-circle-num").text(res.Total);
+        //        }
+        //    },
+        //    error: function () { }
+        //});
+        //
+        //var message_detail = function () {
+        //    var message_id = $(this).data('messageid');
+        //    window.open("https://account.asus.com/msgcenter.aspx?sid=" + message_id + "&lang=" + strLang + "&site=" + getWebsite());
+        //};
+    }
+
+    var timeoutHandle;
+    function setCompareList() {
+        var content = getCompareCookie(),
+            compareCookieName = getcookiedata("comparecookiename"),
+            intI,
+            compareGroup = content.split(";"),
+            $cp = $("#div_compare_panel"),
+            slideVal,
+            compare_count = 0,
+            currentSliderValue = "",
+            imgTarget = "";
+        $cp.empty();
+        //$cp.append("<p class=\"aai-item-title\">" + sysWording.CompareList + "</p>");
+        for (i = 0; i < compareGroup.length - 1; i++) {
+            var cookie_type = compareGroup[i].split(":"),
+                models = cookie_type[1].split(","), tempCookie_name = cookie_type[0].split(".")[0], cookieAry = [];
+            if (Number(tempCookie_name.split('compare_')[1]) == Number(compareCookieName.split('compare_')[1])) { currentSliderValue = tempCookie_name; }
+            if (cookie_type[1] != "") {
+                $cp.append("<div class=\"compare_group\"><span class=\"panel-group-title\">" + cookie_type[0].split(".")[1] + "</span></div>");
+
+                $cp.find("div.compare_group:last").append("<ul class=\"aai-vls\"></ul>");
+                for (intI = 1; intI <= 5; intI++) {
+                    if (intI <= models.length - 1) {
+                        compare_count += 1;
+                        cookieAry = models[intI - 1].split(".");
+                        cookieAry[2] = cookieAry[2] == undefined ? "" : cookieAry[2];
+                        cookieAry[3] = cookieAry[3] == undefined ? "global" : cookieAry[3];
+                        imgTarget = cookieAry[2] == "png" ? "/P_setting_fff_1_80_end_130.png" : "/P_130.jpg";
+                        $cp.find("ul:last").append("<li class=\"span-5col\"><a href='product.aspx?P_ID=" + cookieAry[0] + "'><img src='/media/" + cookieAry[3] + "/products/" + cookieAry[0] + imgTarget + "' alt='Compare" + intI + "' /></a><a href='#' onclick='compare_remove_click(\"" + tempCookie_name + "\",\"" + cookieAry[0] + "\",\"" + cookieAry[1] + "\",\"" + cookieAry[2] + "\",\"" + cookieAry[3] + "\");return false;' class='removebutton'>" + sysWording.ProductComparisonButtom2 + "</a><span class=\"list-product-name\">" + cookieAry[1].replace("^", ".") + "</span></li>");
+                    }
+                    else {
+                        $cp.find("ul:last").append("<li class=\"span-5col\"><img src=\"/media/img/p_130_rull.jpg\"></li>");
+                    }
+                }
+                $cp.find("div.compare_group:last").append("<a class=\"btn-asus comparenow\" id='" + tempCookie_name + "' onclick=\"GoCompare('" + tempCookie_name + "', '" + models[0].split(".")[0] + "')\">" + sysWording.CompareNow + "</a>");
+            }
+        }
+
+        $("#num_compare").html(compare_count);
+        var topmenu_unm = (typeof ($("#num_shoppingcart")) == "undefined") ? Number($("#num_compare").html()) : (Number($("#num_compare").html()) + Number($("#num_shoppingcart").html()));
+        $(".aai-right-more a.aai-more .aai-circle-num").html(topmenu_unm);
+        $("#dropMsg").html(topmenu_unm);
+
+        if (Number(topmenu_unm) > 0) {
+            $(".aai-right-more a.aai-more .aai-circle-num").css({ display: 'inline-block' });
+        }
+        else {
+            $(".aai-right-more a.aai-more .aai-circle-num").css({ display: 'inline-block' });
+            $(".aai-right-more a.aai-more .aai-circle-num").css({ display: 'none' });
+        }
+    }
+
+    function compare_remove_click(cookie_name, product_id, model_name, imgtype, img_ref) {
+        remove_compare_model(cookie_name, product_id, model_name, imgtype, img_ref);
+        setCompareList();
+        //if (isInGroup == "1") checkCompareItem();
+        //if (isInGroup == "2") checkProductCompareItem();
+        $("div.aai-mst-header a.active").click();
+    }
+
+    function GoCompare(cookie_name, producthashedid) {
+        add_cookie("comparecookiename", cookie_name);
+        window.name = "";
+        window.location.href = 'compare.aspx';
+    }
+    //: ------------- END -------------
+
+
+    function SetGa(value1,value2,value3,value4,value5) {
+        ga(value1, value2, value3, value4, value5);
+    }
+
+</script> 
+     <script type="text/javascript">
+    add_cookie("current_site", "");
+    document.cookie = "BuinsessCookie = '' ;path=/;domain=.asus.com;";
+</script> 
+     <!--Banner--> 
+     <style>
+    .t_1464071806024 .item-1{font-size: 1.7em !important;}
+.t_1464071806024 .item-2{font-size: 1.5em !important;}
+.t_1464071806024 .item-3{font-size: 1.2em !important;}
+.t_1464071806024 .item-4{margin-top: -70px !important;}
+@media (max-width: 1170px){
+.t_1464071806024 .item-1{font-size: 1.7em !important;}
+.t_1464071806024 .item-2{font-size: 1.4em !important;}
+.t_1464071806024 .item-3{}
+}
+@media (max-width: 720px){
+.t_1464071806024 .item-3{}
+}
+
+.t_1470227453423 .item-1{font-size: 2.3em !important;}
+.t_1470227453423 .item-2{font-size: 1.2em !important;}
+.t_1470227453423 .item-3{display: none;font-size: 1.3em !important;}
+
+.t_1454576742416 .item-5{display: none;}
+.t_1454576742416 .item-8{margin-top: 45px !important;}
+@media (max-width: 1170px){
+.t_1454576742416 .item-3{display: none;}
+.t_1454576742416 .item-5{display: none;}
+.t_1454576742416 .item-6{}
+.t_1454576742416 .item-7{}
+.t_1454576742416 .item-8{margin-top: 40px !important;margin-bottom: 20px !important;}
+}
+@media (max-width: 720px){
+.t_1454576742416 .item-3{display: none;}
+.t_1454576742416 .item-5{display: none;}
+.t_1454576742416 .item-8{margin-bottom: 40px !important;}
+}
+
+.t_1470227437738 .item-2{font-size: 2.2em !important;margin-top: -6px !important;color: #000000 !important;}
+.t_1470227437738 .item-3{font-size: 1.2em !important;color: #000000 !important;}
+.t_1470227437738 .item-4{display: none;}
+@media (max-width: 1170px){
+.t_1470227437738 .item-1{}
+.t_1470227437738 .item-2{font-size: 2em !important;color: #000000 !important;}
+.t_1470227437738 .item-3{font-size: 1em !important;color: #000000 !important;}
+.t_1470227437738 .item-4{display: none;}
+}
+@media (max-width: 720px){
+.t_1470227437738 .item-1{margin-top: -70px !important;}
+.t_1470227437738 .item-2{font-size: 2em !important;color: #000000 !important;}
+.t_1470227437738 .item-3{font-size: 1em !important;color: #000000 !important;}
+.t_1470227437738 .item-4{display: none;}
+}
+
+
+</style> 
+     <link href="/websites/nafrar/css/banner.css" rel="stylesheet"> 
+     <section class="af-part layout-base af-hero layout-1 black-ver t_1464071806024" style="background-color: #000000;"> 
+      <a class="link-area" href="http://www.asus.com/nafr-ar/ROG-Republic-Of-Gamers/ROG-SWIFT-PG348Q/" target="" alt="PG348Q" title="PG348Q" data-track="banner-main" onclick="GABannerTrackEvent(this);return false;">PG348Q</a> 
+      <div class="inner"> 
+       <div class="group-block group-1  _ex ">
+        <div class="item title text  item-1">
+          ROG Swift PG348Q&nbsp; 
+        </div>
+        <div class="item slogan center text  item-2">
+          شاشة ألعاب منحنية 
+        </div>
+        <div class="item summary  af-ctrl text  item-3">
+          وسِّع آفاق اللعب 
+        </div> 
+       </div> 
+       <div class="group-block group-2   _ex ">
+        <div class="item cover-image pic  item-4"> 
+         <img src="/media/NAFRar/banners/r43Ob2cGvvcD2gYl/r43Ob2cGvvcD2gYl-3.png " alt=""> 
+        </div> 
+       </div> 
+      </div> 
+     </section> 
+     <section class="af-part layout-base af-second layout-1  t_1470227453423" style=""> 
+      <a class="link-area" href="http://www.asus.com/nafr-ar/Graphics-Cards/ROG-STRIX-GTX1060-6G-GAMING/" target="" alt="" title="ROG STRIX-GTX1060-6G-GAMING" data-track="banner-fold2-main" onclick="GABannerTrackEvent(this);return false;">ROG STRIX-GTX1060-6G-GAMING</a> 
+      <div class="inner"> 
+       <div class="group-block group-1  _ex ">
+        <div class="item center title title text  item-1">
+          ROG STRIX-GTX1060-6G-GAMING 
+        </div>
+        <div class="item slogan center text  item-2">
+          ASUS ROG Strix GeForce® GTX 1060 تتألق في المنافسة مع الإضاءة Aura RGB 
+        </div>
+        <div class="item center summary text  item-3">
+          ASUS ROG Strix GeForce® GTX 1060 تتألق في المنافسة مع الإضاءة Aura RGB 
+        </div> 
+       </div> 
+       <div class="group-block group-2   _ex ">
+        <div class="item cover-image pic  item-4"> 
+         <img src="/media/NAFRar/banners/ilapv7IBZiy0Etki/ilapv7IBZiy0Etki-3.png " alt=""> 
+        </div> 
+       </div> 
+      </div> 
+     </section> 
+     <section class="af-part af-two-cols grids grids l__grid-1x2 s__grid-1 af-third   t_1454576742416" style=""> 
+      <div class="inner"> 
+       <div class="group-block group-1 grid"> 
+        <a class="link-area" href="http://www.asus.com/nafr-ar/2-in-1-PCs/ASUS_Transformer_Book_T300_Chi/" target="" alt="" title="UN65H" data-track="banner-fold2-1" onclick="GABannerTrackEvent(this);return false;">UN65H</a> 
+        <div class="product-info"> 
+         <div class="group  _ex ">
+          <div class="item title text  item-1">
+            Transformer Book T300 Chi 
+          </div>
+          <div class="item slogan text  item-2"> 
+           <span dir="rtl">جهاز لوحي فائق النحافة،<br>وجهاز محمول قوي في جهاز واحد .</span> 
+          </div>
+          <div class="item summary text  item-3"> 
+          </div>
+         </div> 
+        </div> 
+        <div class="product-img pic _ex ">
+         <div class="item  pic  item-4"> 
+          <img src="/media/NAFRar/banners/R17HF6S76J46Xh9Z/R17HF6S76J46Xh9Z-3.png " alt=""> 
+         </div>
+        </div> 
+       </div> 
+       <div class="group-block group-2 grid"> 
+        <a class="link-area" href="http://www.asus.com/nafr-ar/Mini-PCs/VivoMini-UN65H/" target="" alt="" title="VivoMini UN65H" data-track="banner-fold2-2" onclick="GABannerTrackEvent(this);return false;">VivoMini UN65H</a> 
+        <div class="product-info"> 
+         <div class="group  _ex ">
+          <div class="item title text  item-5"> 
+          </div>
+          <div class="item title title text  item-6">
+            ASUS VivoMini UN65H 
+          </div>
+          <div class="item slogan text  item-7"> 
+           <span dir="rtl">أداء الجهاز المكتبي، بحجم صغير.</span> 
+          </div>
+         </div> 
+        </div> 
+        <div class="product-img pic _ex ">
+         <div class="item cover-image pic  item-8"> 
+          <img src="/media/NAFRar/banners/R17HF6S76J46Xh9Z/R17HF6S76J46Xh9Z-7.png " alt=""> 
+         </div>
+        </div> 
+       </div> 
+      </div> 
+     </section> 
+     <section class="af-part layout-base  layout-5  black-ver t_1470227437738" style="background-color: #ffffff;"> 
+      <a class="link-area" href="http://www.asus.com/nafr-ar/Graphics-Cards/ROG-STRIX-RX480-8G-GAMING/" target="" alt="" title="ROG STRIX-RX480-8G-GAMING" data-track="banner-fold3-main" onclick="GABannerTrackEvent(this);return false;">ROG STRIX-RX480-8G-GAMING</a> 
+      <div class="inner"> 
+       <div class="group-block group-1 _ex ">
+        <div class="item cover-image center pic  item-1"> 
+         <img src="/media/NAFRar/banners/apO2gBzYwo2Q6uYJ/apO2gBzYwo2Q6uYJ-0.png " alt=""> 
+        </div> 
+       </div> 
+       <div class="group-block group-2 _ex ">
+        <div class="item title text  item-2">
+          ROG STRIX-RX480-8G-GAMING 
+        </div>
+        <div class="item slogan text  item-3">
+          ASUS ROG Strix RX 480 تتألق في المنافسة مع الإضاءة Aura RGB 
+        </div>
+        <div class="item summary text  item-4">
+          Màn Hình WQHD G-SYNC Đầu Tiên Trên Thế Giới 
+        </div> 
+       </div> 
+      </div> 
+     </section> 
+     <script>
+    function setIndexBannerTopmenuBackground() {
+        $(".container").addClass("black-style");
+        $("#af-header").addClass("aai-bg-black");
+        $("#asus-api-footer").addClass("aai-bg-black");
+    }
+</script> 
+     <!--Support--> 
+     <section class="af-part action-area grids l__grid-1x2 s__grid-1"> 
+      <!----> 
+      <div class="block grid af-vc-wrap"> 
+       <a onclick="GABannerTrackEvent(this);return false;" data-tsrack="banner-fold3-1" class="link-area" href="http://www.asus.com/nafr-ar/support/" target="_blank"> احصل على الدعم </a>  
+       <div class="cover af-vc-ele"> 
+        <div class="title">
+         احصل على الدعم 
+        </div> 
+        <div class="info">
+         نحن هنا للمساعدة 
+        </div> 
+       </div> 
+       <img class="bg" src="/media/global/PushToBuy/5_n.jpg" alt=""> 
+      </div> 
+      <div class="block grid af-vc-wrap"> 
+       <a onclick="GABannerTrackEvent(this);return false;" data-tsrack="banner-fold3-2" class="link-area" href="https://account.asus.com/product_reg.aspx" target="_blank"> تسجيل المنتج </a>  
+       <div class="cover af-vc-ele"> 
+        <div class="title">
+         تسجيل المنتج 
+        </div> 
+        <div class="info">
+         سجل منتج ASUS الخاص بك 
+        </div> 
+       </div> 
+       <img class="bg" src="/media/global/PushToBuy/6_n.jpg" alt=""> 
+      </div> 
+     </section> 
+     <!-- footer @start  --> 
+     <div id="asus-api-footer"> 
+      <div class="aai-inner"> 
+       <div class="aai-fmiddle"> 
+        <div id="FindItFast_menu" class="aai-footer-span"> 
+         <h4>هل تريد المزيد؟</h4> 
+         <ul class="aai-fnav"> 
+          <li><a href="http://rog.asus.com/" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">ROG</a></li> 
+          <li><a href="http://sonicmaster.asus.com/" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">SonicMaster</a></li> 
+          <li><a href="http://eee.asus.com/" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Eee is Me</a></li> 
+          <li><a href="http://www.asus.com/microsite/powered-by-asus/nafr-ar/" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Powered by ASUS</a></li> 
+         </ul> 
+        </div> 
+        <div id="Company_menu" class="aai-footer-span"> 
+         <h4>من نحن؟</h4> 
+         <ul class="aai-fnav"> 
+          <li class="navbar-li"><a href="/nafr-ar/Award/" id="menu_awards" target="_self" onclick="googleTrackEvent('index_menu', this, true);return false;">الجوائز</a></li> 
+          <li class="divider-vertical"></li> 
+          <li class="navbar-li"><a href="/nafr-ar/News/" id="menu_news">الأخبار</a></li> 
+          <li class="divider-vertical"></li>
+          <li class="navbar-li"><a href="/nafr-ar/About_ASUS/Origin_of_the_Name_ASUS" id="menu_aboutasus">عن ASUS </a></li> 
+          <li><a href="/nafr-ar/investor.aspx" target="_self" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">علاقات المستثمرين</a></li> 
+          <li><a href="/nafr-ar/ASUS_Website_Information/Employment" target="_top" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">انضم إلى فريق عمل أسوس</a></li> 
+          <li><a href="http://green.asus.com/english/" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">GreenASUS &amp; SERASUS</a></li> 
+          <li><a href="http://press.asus.com/" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">غرفة الصحافة</a></li> 
+          <li><a href="/nafr-ar/ASUS_Website_Information/OS_Compatibility" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">مقدمى خدمات أسوس المعتمدين</a></li> 
+         </ul> 
+        </div> 
+        <div id="Support_menu" class="aai-footer-span"> 
+         <h4>هل تحتاج مساعدة؟</h4> 
+         <ul class="aai-fnav"> 
+          <li>الاثنين إلى الجمعة من الساعة 9:00 صباحا و حتى الساعة 6:00 مساء</li> 
+         </ul> 
+         <div id="service_call" class="hide"> 
+          <div id="call_center"> 
+           <h4></h4> 
+           <span class="tel"></span> 
+          </div> 
+         </div> 
+         <div id="call_message" class="hide"></div> 
+        </div> 
+        <div id="Community_menu" class="aai-footer-span"> 
+         <h4>المجتمع </h4> 
+         <ul class="aai-fnav"> 
+          <li class="aai-social-media"> <a href="https://www.facebook.com/ASUS.Tunisie" target="_blank" title="ASUS Tunisie" onclick="googleTrackFamilySite(this, 'SiteMap');return false;"><img src="/media/global/icons/socialmedia/54_n.png"></a> <a href="https://www.facebook.com/ASUS.Maroc " target="_blank" title="ASUS Maroc" onclick="googleTrackFamilySite(this, 'SiteMap');return false;"><img src="/media/global/icons/socialmedia/54_n.png"></a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div class="aai-fbootom"> 
+        <div id="extra_link"> 
+         <div id="footer_country_link"> 
+          <a href="http://www.asus.com/entry.htm" onclick="googleTrackEvent('Country_Lang_Menu', this, true);return false;" title="entry_page">North Africa / <span class="lang_set"> العربية</span></a> 
+         </div> 
+        </div> 
+        <div id="aai-copyright"> 
+         <ul id="copyright"> 
+          <li><a href="/nafr-ar/Terms_of_Use_Notice_Privacy_Policy/Official-Site" target="_self" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">المعلومات القانونية</a></li>
+          <li><a href="/nafr-ar/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy" target="_top" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">سياسة الخصوصية</a></li> 
+          <li class="copyright">جميع حقوق النشر محفوظة لدى ©ASUSTeK Computer Inc.</li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <script>
+     var intControlsbottomSysWordingCheckId;
+     intControlsbottomSysWordingCheckId = setInterval("controlsbottomSysWordingCheck()", intSysWordingCheckSpeed);
+
+     function controlsbottomSysWordingCheck() {
+         if (sysWordingRead) {
+             $("#call_message").children().removeAttr("style");
+             clearTimeout(intControlsbottomSysWordingCheckId);
+         }
+     }
+     $(document).ready(function () {
+         $("#call_message>div").removeAttr("style");
+
+         if (isApplicationPathSite()) {
+             var domail_url = "";
+             switch (getWebsite()) {
+                 case "ch-de":
+                 case "ch-fr":
+                 case "ch-it":
+                     domail_url = "ch.asus.com"
+                     break;
+                 case "ca-fr":
+                 case "ca-en":
+                     domail_url = "ca.asus.com"
+                     break;
+                 case "ae-en":
+                 case "ae-ar":
+                     domail_url = "ae.asus.com"
+                     break;
+                 case "be-fr":
+                 case "be-nl":
+                     domail_url = "be.asus.com"
+                     break;
+                 case "af-pa":
+                 case "af-da":
+                     domail_url = "www.asus.com/af"
+                     break; be
+                 case "sa-en":
+                 case "sa-ar":
+                     domail_url = "www.asus.com/sa"
+                     break;
+                 case "nafr-ar":
+                 case "nafr-fr":
+                     domail_url = "www.asus.com/nafr"
+                     break;
+                 case "ua":
+                 case "ua-ua":
+                     domail_url = "www.asus.ua"
+                     break;
+                 case "tn-fr":
+                 case "tn-ar":
+                     domail_url = "www.asus.com/tn"
+                     break;
+                 case "ma-fr":
+                 case "ma-ar":
+                     domail_url = "www.asus.com/ma"
+                     break;
+                 case "dz-fr":
+                 case "dz-ar":
+                     domail_url = "www.asus.com/dz"
+                     break;
+             }
+
+             $.ajax({
+                 dataType: 'xml',
+                 url: "/" + getWebsite() + "/GetData.asmx/getMultipleLang",
+                 type: 'get',
+                 cache: true,
+                 success: function (xml) {
+                     $("Domain", xml).each(function (e) {
+                         if ($("domain_name", this).text() == domail_url) {
+                             $("website", this).each(function (e) {
+                                 if ($("website_code", this).text() != getWebsite()) {
+                                     $("#footer_country_link a:last").after(" | <a href=\"" + $("url", this).text() + "\"><span>" + $("websiteLanguage", this).text() + "</span></a>");
+                                 }
+                             });
+                         }
+                         return;
+                     });
+                 },
+                 error: function (XMLHttpRequest, textStatus, errorThrown) {
+                     //alert(XMLHttpRequest + '\n' + textStatus + '\n' + errorThrown);
+                 }
+             });
+         }
+     });
+
+</script> 
+     <script>
+    if (getWebsite() == "cn") {
+        document.write(unescape('%3Cdiv style="text-align:center"%3E'))
+        document.write(unescape('%3Cscript src="https://kxlogo.knet.cn/seallogo.dll?sn=2011012700100006231&size=1"%3E%3C/script%3E'))
+        document.write(unescape('%3C/div%3E'))
+    }
+</script> 
+    </div> 
+   </div> 
+   <a id="LangSelection" href="/LangSelection.aspx?KeepThis=ture&amp;TB_iframe=ture&amp;height=150&amp;width=300&amp;inlineId=displayWarning&amp;white=true" class="thickbox hide" title=""></a> 
+   <div> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C21772F6"> 
+   </div> 
+   <script>$(document).ready(function(){setIndexBannerTopmenuBackground();});</script>
+  </form>   
+  <script>
+    $(document).ready(function () {
+        if (getWebsite() == "us") {
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("data-link", "http://store.asus.com/us/");
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("target", "_blank");
+        }
+        if (getWebsite() == "th") {
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("data-link", "http://store.asus.com/th/");
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("target", "_blank");
+        }
+        if (getWebsite() == "tw") {
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("data-link", "http://store.asus.com/tw/");
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("target", "_blank");
+        }
+        if (getWebsite() == "ph") {
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("data-link", "http://store.asus.com/ph/");
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("target", "_blank");
+        }
+    });
+
+    (function () {
+        var sc = document.createElement("link"); sc.type = "text/css"; sc.rel = 'stylesheet';
+        sc.href = "/css/2015/alert-info.css";
+        var s = document.getElementsByTagName("head")[0];
+        setTimeout(function () {
+            s.appendChild(sc);
+        }, 100);
+
+        var sc2 = document.createElement("script"); sc2.type = "text/javascript";
+        sc2.src = "/js/2015/alert-info.js";
+        var s2 = document.getElementsByTagName("script")[0]; s2.parentNode.insertBefore(sc2, s2);
+    })();
+
+</script>
+ </body>
+</html>

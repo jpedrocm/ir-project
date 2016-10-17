@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <title>ASUS Routers Customer Care Notice</title> 
+  <script type="text/javascript">
+window.ASUSInit = function () {
+asus_api.init({ appkey: 'micro00001', lang: ''});
+};
+(function(D){
+var js, id = 'asus-jsapi';
+if (d.getElementById("asus-jsapi")) {return;}
+js = d.createElement('script');
+js.id = id;
+js.async = true;
+js.src = "http://www.asus.com/API/js/asus_api.js";
+d.getElementsByTagName('head')[0].appendChild(js);
+}(document));
+</script> 
+  <style type="text/css">
+<!--
+body {
+	background-color: #e6e6e6;
+	margin: 0 auto;
+	font-family: Calibri;
+	font-size: 11px;
+	color: #fff;
+	text-align: center;
+	-webkit-text-size-adjust: none;
+}
+table {
+	margin: 0 auto;
+	font-size: 12px;
+	color: #4e4e4e;
+}
+img {
+	vertical-align: bottom;
+}
+a:link {
+	color: #3aa2ea;
+	text-decoration: none;
+}
+a:visited {
+	color: #3aa2ea;
+	text-decoration: none;
+}
+a:hover {
+	color: #ff9c00;
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+	color: #3aa2ea;
+}
+p {
+	margin: 0;
+	padding: 0;
+	line-height: 1.3em;
+}
+.dot {
+	color: red;
+	line-height: 5px;
+	font-size: 8px;
+	line-height: 1.5em;
+	letter-spacing: -1px;
+	padding-left: 3px;
+}
+.spec {
+	margin: 0 auto 30px auto;
+	font-size: 11px;
+	padding-top: 10px;
+}
+.spec tr td {
+	border-top: 2px solid #539634;
+	padding: 3px 0 3px 5px;
+}
+.spec tr th {
+	padding: 3px 0 3px 6px;
+	;
+	text-align: left;
+	font-weight: bold;
+	font-size: 14px;
+	color: #00904b;
+}
+.spec tr.single_tr td {
+	border-top: 1px solid #539634;
+	padding: 3px 0 3px 5px;
+	background: #ddd;
+}
+.icons1 {
+	margin-left: 25px;
+	margin-top: 25px;
+}
+.icons2 {
+	margin-left: 21px;
+	margin-top: 22px;
+}
+.infop1 {
+	color: #d9de20;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 17px;
+	letter-spacing: 0.6px;
+	margin-top: 22px;
+}
+.infop2 {
+	color: #fff;
+	font-size: 12px;
+	line-height: 17px;
+	letter-spacing: 0px;
+}
+.infop3 {
+	color: #6b6b6b;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0px;
+}
+.infop4 {
+	color: #d9de20;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 17px;
+	letter-spacing: 0.6px;
+}
+.infopsp {
+	padding-left: 14px;
+	padding-top: 7px;
+}
+.infopsp2 {
+	padding-left: 14px;
+}
+.infopsp3 {
+	padding-left: 14px;
+	padding-top: 7px;
+}
+.specfont {
+	color: #565656;
+	font-size: 12px;
+	padding-left: 28px;
+}
+.style59 {
+	color: #BD0000;
+	font-size: 11px;
+}
+.titlebox_a {
+	text-align: left;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 0.5px
+}
+.titlebox {
+	padding-left: 60px;
+	text-align: left;
+	color: #afafaf;
+	padding-bottom: 15px;
+	font-size: 11px
+}
+.packagebox {
+	font-size: 10px;
+	color: #b3b3b3
+}
+.specbox {
+	font-size: 11px;
+	color: #898989;
+	text-align: left;
+	padding-top: 0px
+}
+.spec_bk {
+	border-bottom: 1px dashed #bdc1c8;
+	padding-top: 0px;
+}
+.spec_bk_padding {
+	padding-left: 8px
+}
+.cor_w {
+	color: #6c6c6c;
+	line-height: 15px;
+	padding: 2px 0px
+}
+.line_bk {
+	background-color: #eee
+}
+.points_box {
+	background-color: #fff;
+}
+.box_info {
+	color: #9E9E9E;
+	font-size: 11px;
+	font-family: Helvetica;
+	padding: 0 10px 0px 0;
+	line-height: 17px;
+}
+.box_info2 {
+	color: #6e6e6e;
+	font-size: 12px;
+	font-family: Calibri;
+	line-height:1.4em;
+}
+.box_info2 p {
+	color: #000;
+	font-size: 12px;
+}
+.icon_info {
+	font-size: 11px;
+	color: #7b7b7b;
+	padding-bottom: 35px;
+	padding-right: 8px
+}
+.icon_title {
+	font-weight:bold;
+	color: #0089ce;
+	font-size: 18px;
+	font-family: Helvetica;
+	padding: 5px 0 5px 8px;
+}
+.icon_bt {
+	font-size: 13px;
+	font: Calibri;
+	padding-bottom: 16px
+}
+.spec_tl {
+	font-weight: bold;
+	color: #6c6c6c
+}
+.bastFor span {
+	padding: 0px;
+	background: none;
+	color: #000;
+	font-weight: bold;
+	font-size: 14px;
+	margin-right: 0px;
+}
+.l_title {
+	text-align: left;
+	font-size: 11px;
+	line-height: 1.3em;
+	padding-top: 8px
+}
+.l_title span {
+	color: #0080cc
+}
+.listBox {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #006798;
+	width:304px;
+}
+.listBox li {
+	list-style: outside;
+	line-height: 1.5em;
+	padding-bottom: 10px;
+	width:260px
+}
+.icon_title1 {
+	color: #138add;
+	font-size: 15px;
+	font-family: Helvetica;
+	padding: 5px 0 4px 6px
+}
+-->
+</style> 
+ </head> 
+ <body> 
+  <table style="border: 1px solid rgb(102, 102, 102);" align="center" border="0" cellpadding="0" cellspacing="0" width="860"> 
+   <tbody> 
+    <tr> 
+     <td width="860" colspan="2" bgcolor="#000000"> 
+      <table style="font-size: 11px; color: rgb(153, 153, 153); font-family: Arial,Helvetica,sans-serif;" border="0" cellpadding="3" cellspacing="3" width="100%"> 
+       <tbody> 
+        <tr> 
+         <td>ASUS Routers Customer Care Notice</td> 
+         <td align="right">If the content is not displayed, please click <a target="_blank" href="http://www.asus.com/Microsite/2015/networks/routerfirmware_update/global/">here</a></td> 
+        </tr> 
+       </tbody> 
+      </table> </td> 
+    </tr> 
+    <tr> 
+     <td width="510" bgcolor="#f0f0f0" align="left" valign="top" style=" padding:60px 25px 0px 50px; line-height:1.4em; font-family: Calibri;  font-size:16px; color:#999">
+      <div style="font-size:30px; font-weight:bold; color:#666; ">
+       ASUS Networking
+      </div><br> 
+      <div style="font-size:40px; font-weight:bold; color:#666;">
+       Customer Care Notice
+      </div><br> New firmware is available that improves security settings in ASUS networking products. We encourage you to keep all firmware up to date in order to benefit from the latest security and usability enhancements. Updating firmware is a safe and simple procedure, but please click the button below for more information.<br> <a href="http://www.asus.com/Microsite/2015/networks/routerfirmware_update/" target="_self"><img style=" padding:30px 25px 23px 30px;" src="http://www.asus.com/Microsite/2015/networks/routerfirmware_update/global/images/botton.png" width="280" height="62"></a></td> 
+     <td width="350" bgcolor="#f0f0f0" align="right" valign="top" style=" padding:60px 0px 0px 0px; line-height:1.4em; font-family: Calibri;  font-size:14px; color:#000"><img src="http://www.asus.com/Microsite/2015/networks/routerfirmware_update/global/images/EDMlanding-page.png" width="350" height="354"></td> 
+    </tr> 
+    <tr> 
+     <td colspan="2" bgcolor="#ffffff"> 
+      <table style="color: rgb(153, 153, 153); font-size: 12px; font-family: Arial,Helvetica,sans-serif;" align="center" border="0" cellpadding="2" cellspacing="5"> 
+       <tbody> 
+        <tr> 
+         <td></td> 
+         <td>&nbsp;</td> 
+         <td><a href="http://www.asus.com/" target="_blank">Website</a></td> 
+         <td>&nbsp;</td> 
+         <td><a target="_blank" href="https://account.asus.com/cancel_edm.aspx?medm_id=Routers">Unsubscribe</a></td> 
+         <td>&nbsp;</td> 
+         <td><a target="_blank" href="http://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy/">Privacy Policy</a></td> 
+        </tr> 
+       </tbody> 
+      </table> </td> 
+    </tr> 
+    <tr> 
+     <td colspan="2" bgcolor="#000000"> 
+      <table style="font-size: 11px; color: rgb(153, 153, 153); font-family: Arial,Helvetica,sans-serif;" align="center" border="0" cellpadding="3" cellspacing="3" width="100%"> 
+       <tbody> 
+        <tr> 
+         <td align="left" width="50%"></td> 
+         <td align="right" width="50%">Copyright 2015 ⓒ ASUSTek Computer Inc. All rights reserved. </td> 
+        </tr> 
+       </tbody> 
+      </table> </td> 
+    </tr> 
+   </tbody> 
+  </table>  
+ </body>
+</html>

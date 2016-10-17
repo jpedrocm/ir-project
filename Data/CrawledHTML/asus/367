@@ -1,0 +1,826 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags --> 
+  <meta name="description" content="ASUS lets you pick the right laptop to fit your needs."> 
+  <meta name="author" content=""> 
+  <!-- Facebook Metadata /--> 
+  <meta property="og:image" content="http://www.asus.com/Event/gifting/img/share_home_fb.jpg"> 
+  <meta property="og:description" content="ASUS lets you pick the right laptop to fit your needs."> 
+  <meta property="og:title" content="Pick the Best Laptop"> 
+  <!-- Google+ Metadata /--> 
+  <meta itemprop="name" content="Pick the Best Laptop"> 
+  <meta itemprop="description" content="ASUS lets you pick the right laptop to fit your needs"> 
+  <meta itemprop="image" content="http://www.asus.com/Event/gifting/img/share_home_fb.jpg"> 
+  <link rel="apple-touch-icon" sizes="57x57" href="/EVENT/gifting/images/favicon/apple-touch-icon-57x57.png"> 
+  <link rel="apple-touch-icon" sizes="60x60" href="/EVENT/gifting/images/favicon/apple-touch-icon-60x60.png"> 
+  <link rel="apple-touch-icon" sizes="72x72" href="/EVENT/gifting/images/favicon/apple-touch-icon-72x72.png"> 
+  <link rel="apple-touch-icon" sizes="76x76" href="/EVENT/gifting/images/favicon/apple-touch-icon-76x76.png"> 
+  <link rel="apple-touch-icon" sizes="114x114" href="/EVENT/gifting/images/favicon/apple-touch-icon-114x114.png"> 
+  <link rel="apple-touch-icon" sizes="120x120" href="/EVENT/gifting/images/favicon/apple-touch-icon-120x120.png"> 
+  <link rel="apple-touch-icon" sizes="144x144" href="/EVENT/gifting/images/favicon/apple-touch-icon-144x144.png"> 
+  <link rel="apple-touch-icon" sizes="152x152" href="/EVENT/gifting/images/favicon/apple-touch-icon-152x152.png"> 
+  <link rel="apple-touch-icon" sizes="180x180" href="/EVENT/gifting/images/favicon/apple-touch-icon-180x180.png"> 
+  <link rel="icon" type="image/png" href="/EVENT/gifting/images/favicon/favicon-32x32.png" sizes="32x32"> 
+  <link rel="icon" type="image/png" href="/EVENT/gifting/images/favicon/favicon-194x194.png" sizes="194x194"> 
+  <link rel="icon" type="image/png" href="/EVENT/gifting/images/favicon/favicon-96x96.png" sizes="96x96"> 
+  <link rel="icon" type="image/png" href="/EVENT/gifting/images/favicon/android-chrome-192x192.png" sizes="192x192"> 
+  <link rel="icon" type="image/png" href="/EVENT/gifting/images/favicon/favicon-16x16.png" sizes="16x16"> 
+  <link rel="manifest" href="/EVENT/gifting/images/favicon/manifest.json"> 
+  <link rel="mask-icon" href="/EVENT/gifting/images/favicon/safari-pinned-tab.svg" color="#ffffff"> 
+  <meta name="msapplication-TileColor" content="#333333"> 
+  <meta name="msapplication-TileImage" content="/EVENT/gifting/images/favicon/mstile-144x144.png"> 
+  <meta name="theme-color" content="#ffffff"> 
+  <title>Asus Pick the Best Laptop</title> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300italic,300,100italic,100,400italic,500,900italic,700italic,500italic,700,900" rel="stylesheet" type="text/css"> 
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries --> 
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]--> 
+ </head>
+ <body>
+  <div id="fb-root"></div> 
+  <script src="//connect.facebook.net/en_US/all.js"></script> 
+  <link href="/EVENT/gifting/css/bootstrap.css" rel="stylesheet"> 
+  <script type="text/javascript">
+        window.ASUSInit = function () {
+            // Need to request for proper appkey before it goes live
+            // Lang: au, uk, id, in, jp, it
+            asus_api.init({ appkey: 'event00013', lang: 'id' });
+        };
+        (function (d) {
+            var js, id = 'asus-jsapi';
+            if (d.getElementById("asus-jsapi")) { return; }
+            js = d.createElement('script');
+            js.id = id;
+            js.async = true;
+            js.src = "//www.asus.com/API/js/asus_api.js";
+            d.getElementsByTagName('head')[0].appendChild(js);
+        }(document));
+    </script> 
+  <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    </script> 
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56318daf3c0d2a0e" async></script> 
+  <style>
+        footer> .tal.sf_headline > .container > .row > .col-md-offset-1.col-md-10 {
+            text-align: center;
+        }
+        footer> .tal.sf_headline > .container > .row > .col-md-offset-1.col-md-10>p{
+            display: inline-block;
+        }
+        .hero_vid_list >li:nth-child(3),
+        .hero_vid_list >li:nth-child(1){
+	        display:none !important;
+	    }
+    </style>   
+  <!-- Google Tag Manager --> 
+  <noscript> 
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe> 
+  </noscript> 
+  <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NJRLM8');</script> 
+  <!-- End Google Tag Manager --> 
+  <!-- Start of header --> 
+  <header class="sh"> 
+   <div class="sh_anchor"></div> 
+   <nav class="sh_nav"> 
+    <ul class="container"> 
+     <li class="active"><a href="/EVENT/gifting/ID">Home</a></li> 
+     <li class=""><a href="/EVENT/gifting/ID/pick-the-best-laptop" onclick="ga('send', 'event', 'Button', 'Home Main Tab', 'PickPerfectGift');">Pick the Best Laptop</a></li> 
+     <li class=""><a href="/EVENT/gifting/ID/hottest-deals" onclick="ga('send', 'event', 'Button', 'Home Main Tab', 'Hottest Deals');">Hottest Deals</a></li> 
+     <li class="dropdown"> <button class="btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"> ID <span class="caret"></span> </button> 
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1"> 
+       <li><a href="/EVENT/gifting/UK">UK</a></li> 
+       <li><a href="/EVENT/gifting/IN">India</a></li> 
+       <li><a href="/EVENT/gifting/DE">Germany</a></li> 
+       <li><a href="/EVENT/gifting/FR">France</a></li> 
+       <li><a href="/EVENT/gifting/AE-EN">UAE (EN)</a></li> 
+       <li><a href="/EVENT/gifting/AE-AR">UAE (AR)</a></li> 
+       <li><a href="/EVENT/gifting/RU">Russia</a></li> 
+       <li><a href="/EVENT/gifting/HK">Hong Kong</a></li> 
+       <li><a href="/EVENT/gifting/CH-DE">Switzerland (DE)</a></li> 
+       <li><a href="/EVENT/gifting/CH-FR">Switzerland (FR)</a></li> 
+       <li><a href="/EVENT/gifting/AU">Australia</a></li> 
+       <li><a href="/EVENT/gifting/MY">Malaysia</a></li> 
+       <li><a href="/EVENT/gifting/PH">Philippines</a></li> 
+       <li><a href="/EVENT/gifting/TH">Thailand</a></li> 
+       <li><a href="/EVENT/gifting/ID">Indonesia</a></li> 
+       <li><a href="/EVENT/gifting/PT">Portugal</a></li> 
+       <li><a href="/EVENT/gifting/NO">Norway</a></li> 
+       <li><a href="/EVENT/gifting/FI">Finland</a></li> 
+       <li><a href="/EVENT/gifting/DK">Denmark</a></li> 
+       <li><a href="/EVENT/gifting/VN">Vietnam</a></li> 
+      </ul> </li> 
+     <li class="social-dropdown"> 
+      <ul class="social-dropdown-menu"> 
+       <li><a href="javascript:void(0)" class="circle bg-fb btn-fb" onclick="ga('send', 'event', 'Button', 'Share', 'Facebook');"><i class="fa fa-facebook"></i></a></li> 
+       <li><a href="javascript:void(0)" class="circle bg-twitter btn-tweet" onclick="ga('send', 'event', 'Button', 'Share', 'Twitter');"><i class="fa fa-twitter"></i></a></li> 
+      </ul> <a class="circle bg-share btn-share" href="javascript:void(0)"><i class="fa fa-share-alt"></i></a> </li> 
+    </ul> 
+   </nav> 
+  </header> 
+  <!-- End of header --> 
+  <!-- Start of body --> 
+  <div class="main"> 
+   <div class="vid"> 
+    <a href="javascript:void(0);" class="vid-close" onclick="closeVID(); return false;"> <i class="fa fa-close"></i> </a> 
+    <video id="player" width="100%" height="100%" style="width:100%; height:100%;" poster="" controls="controls" preload="none"> 
+     <track kind="subtitles" src="/Event/gifting/media/subtitles.srt" srclang="id"> 
+    </video> 
+   </div> 
+   <div class="sticky-powered"> 
+    <img src="/EVENT/gifting/images/global/intel-logo.png" alt=""> 
+    <p> Powered by Intel® Core™ Processors <br> Powered by Intel® Atom™ processor <br> Intel Inside®. Extraordinary <br> Performance Outside. </p> 
+   </div> 
+   <div class="hero sticky-target dark" style="background-image:url(/Event/gifting/images/home/hero/hero.jpg);"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="hero_recommend col-md-12">
+       ASUS merekomendasikan Windows
+      </div> 
+     </div> 
+     <div class="row"> 
+      <div class="centerlize full-height-hero col-md-6"> 
+       <div class="content-middle"> 
+        <div class="hero_desc"> 
+         <h2> <span>Pick The</span><br> Best Laptop </h2> 
+         <p>ASUS punya laptop yang tepat sesuai dengan kebutuhan Anda.</p> 
+         <ul class="hero_vid_list"> 
+          <li> <a href="javascript:void(0);" onclick="callVID('/Event/gifting/media/Video1.mp4', '/Event/gifting/media/Video1_ID.srt','id'); ga('send', 'event', 'Video', 'Play', 'Video 1');  return false;"> <img src="/EVENT/gifting/images/home/hero/thumb-1.png" alt=""> </a> </li> 
+          <li> <a href="javascript:void(0);" onclick="callVID('/Event/gifting/media/Video2.mp4', '/Event/gifting/media/Video2_ID.srt','id'); ga('send', 'event', 'Video', 'Play', 'Video 2'); return false;"> <img src="/EVENT/gifting/images/home/hero/thumb-2.png" alt=""> </a> </li> 
+          <li> <a href="javascript:void(0);" onclick="callVID('/Event/gifting/media/Video3.mp4', '/Event/gifting/media/Video3_ID.srt','id'); ga('send', 'event', 'Video', 'Play', 'Video 3'); return false;"> <img src="/EVENT/gifting/images/home/hero/thumb-3.png" alt=""> </a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <a class="scroll-down" onclick="scrollSnap(); return false;" href="javascript:void(0);"></a> 
+   </div> 
+   <div class="offer"> 
+    <div class="offer_headbold headbold-primary"> 
+     <div class="container"> 
+      <div class="row"> 
+       <div class="col-md-12"> 
+        <h2>Hanya untuk waktu terbatas, hemat untuk rangkaian produk menarik.</h2> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <section name="hottestdeal" class="scroll-snap stripe stripe-with-img" style="background-color:#e8e8e8;"> 
+     <div class="centerlize"> 
+      <div class="content-middle"> 
+       <div class="container"> 
+        <div class="row"> 
+         <div class="col-sm-7 col-sm-push-5"> 
+          <img src="/EVENT/gifting/images/home/promotion/promo-1.png" alt=""> 
+         </div> 
+         <div class="col-sm-5 col-sm-pull-7"> 
+          <h3>NIKMATI PROMO INI SEKARANG JUGA</h3> 
+          <p> Manfaatkan promo terdahsyat kami. Hanya dalam waktu terbatas, hemat untuk rangkaian produk menarik. </p> 
+          <a class="btn btn-primary" href="/Event/gifting/ID/hottest-deals" onclick="ga('send', 'event', 'Button', 'Home', 'SeeNow');"> LIHAT SEKARANG <i class="sprite sprite-right sprite-arrow-angle-right arrow-white"></i> </a> 
+          <p class="stripe-note">* harga dan spesifikasi mungkin berbeda tergantung retailer</p> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </section> 
+    <section name="pickthebestlaptop" class="stripe stripe-with-bgimg responsive-img" data-small="/Event/gifting/images/home/promotion/promo-2_small.jpg" data-medium="/Event/gifting/images/home/promotion/promo-2_medium.jpg" data-large="/Event/gifting/images/home/promotion/promo-2_large.jpg" style="background-color:#f1f0ec;"> 
+     <div class="container"> 
+      <div class="row"> 
+       <div class="col-sm-offset-6 col-sm-6"> 
+        <div class="centerlize"> 
+         <div class="content-middle"> 
+          <h3 class="title-primary"> <span>TANYAKAN. JAWAB.</span><br> TERIMA. </h3> 
+          <p> Mencari laptop terbaik? Tanyakan pada kami. Cukup jawab beberapa pertanyaan dan kami akan membantu Anda memilih laptop yang pas dengan kebutuhan Anda. </p> 
+          <a class="btn btn-primary" href="/Event/gifting/ID/pick-the-best-laptop" onclick="ga('send', 'event', 'Button', 'Home', 'GetStarted');"> MULAI <i class="sprite sprite-right sprite-arrow-angle-right arrow-white"></i> </a> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </section> 
+   </div> 
+   <div class="witharticle_highlight" name="article"> 
+    <div class="container"> 
+     <div class="witharticle-item row" data-modaltype="fullimg" data-img="/Event/gifting/images/home/infographics/Survive_Laptop_Shopping_ID.jpg" data-imgalt="Membeli laptop: panduan untuk menemukan PC yang sempurna bagi Anda" data-article="infographic-article1" data-title="Membeli laptop: panduan untuk menemukan PC yang sempurna bagi Anda" data-url="http://www.asus.com/EVENT/gifting/ID?article=infographic-article1&amp;modal=witharticalModal" data-fbimg="www.asus.com/Event/gifting/images/home/infographics/Survive_Laptop_Shopping_ID.jpg" data-fbcaption="" data-fbdesc="Sebuah Teknologi yang dirancang sesuai dengan kebutuhan anda, selayaknya sebuah pakaian yang di rancang untuk Anda.  -- segalanya mulai dari kebiasaan Anda dalam menggunakan perangkat hingga memilih gaya, akan mengungkapkan PC apa yang paling sesuai untuk Anda. Jadi apakah perangkat yang ideal bagi Anda?" data-hashtag="Asus, Bestlaptop" data-twdesc="" data-disclaimer="*Penafian: Spesifikasi produk berbeda di tiap negara. Kami sarankan Anda mengecek terlebih dahulu dengan pengecer lokal mengenai spesifikasi produk yang tersedia untuk Anda. Warna dan tampilan produk yang sebenarnya mungkin tidak selalu sama yang disebabkan variasi dalam pengaturan monitor dan foto. Walaupun kami berusaha menampilkan informasi paling akurat dan menyeluruh saat memublikasikannya, kami berhak melakukan perubahan tanpa pemberitahuan terlebih dahulu.
+"> 
+      <a href="javascript:void(0);" class="witharticle-img col-sm-6 col-md-8" onclick="ga('send', 'event', 'Button', 'Infographic', 'Survive Laptop Shopping');" style="background-image:url(/Event/gifting/images/home/infographics/Survive_Laptop_Shopping_thumbnail_ID.jpg)" data-mh="mh-witharticleItem" data-toggle="modal" data-target="#witharticalModal"> </a> 
+      <div class="witharticle-desc col-sm-6 col-md-4" data-mh="mh-witharticleItem"> 
+       <h3>Membeli laptop: panduan untuk menemukan PC yang sempurna bagi Anda</h3> 
+       <p> Sebuah Teknologi yang dirancang sesuai dengan kebutuhan anda, selayaknya sebuah pakaian yang di rancang untuk Anda. -- segalanya mulai dari kebiasaan Anda dalam menggunakan perangkat hingga memilih gaya, akan mengungkapkan PC apa yang paling sesuai untuk Anda. Jadi apakah perangkat yang ideal bagi Anda? </p> 
+       <a href="javascript:void(0);" data-toggle="modal" data-target="#witharticalModal" onclick="ga('send', 'event', 'Button', 'Infographic', 'Survive Laptop Shopping');"> Read More <i class="sprite sprite-right sprite-arrow-angle-right arrow-grey"></i> </a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="witharticle_list"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="witharticle-item col-sm-4" data-modaltype="quiz" data-lang="id" data-article="quiz-article" data-disclaimer="*Penafian: Spesifikasi produk berbeda di tiap negara. Kami sarankan Anda mengecek terlebih dahulu dengan pengecer lokal mengenai spesifikasi produk yang tersedia untuk Anda. Warna dan tampilan produk yang sebenarnya mungkin tidak selalu sama yang disebabkan variasi dalam pengaturan monitor dan foto. Walaupun kami berusaha menampilkan informasi paling akurat dan menyeluruh saat memublikasikannya, kami berhak melakukan perubahan tanpa pemberitahuan terlebih dahulu.
+"> 
+       <a href="javascript:void(0);" class="witharticle-img" onclick="ga('send', 'event', 'Button', 'Infographic', 'Detachable or Flippable');" style="background-image:url(/Event/gifting/images/home/article/tp301.jpg)" data-toggle="modal" data-target="#witharticalModal"> </a> 
+       <div class="witharticle-desc" data-mh="mh-witharticleItem"> 
+        <h3>Perangkat 2-in-1 apakah yang Anda pilih?</h3> 
+        <p> Memilih perangkat yang tepat untuk melengkapi gaya hidup Anda bukanlah perkara mudah. Lebih daripada sekedar perangkat — namun teman elektronik terbaik Anda. Dan seperti halnya teman, perangkat Anda juga punya karakter. Jadi yang manakah perangkat 2-in-1 yang paling sesuai dengan sifat Anda? </p> 
+        <a href="" data-toggle="modal" data-target="#witharticalModal" onclick="ga('send', 'event', 'Button', 'Infographic', 'Detachable or Flippable');"> Read More <i class="sprite sprite-right sprite-arrow-angle-right arrow-grey"></i> </a> 
+       </div> 
+      </div> 
+      <div class="witharticle-item col-sm-4" data-modaltype="fullimg" data-img="/Event/gifting/images/home/infographics/Evolution_Laptop_ID.jpg" data-imgalt="Evolusi laptop: dimulai dari hal yang sederhana hingga paling mutakhir" data-article="infographic-article2" data-title="Evolusi laptop: dimulai dari hal yang sederhana hingga paling mutakhir" data-url="http://www.asus.com/EVENT/gifting/ID?article=infographic-article2&amp;modal=witharticalModal" data-fbimg="www.asus.com/Event/gifting/images/home/infographics/Evolution_Laptop_thumbnail_ID.jpg" data-fbcaption="" data-fbdesc="Dari yang seberat 10,9 kilogram di masa Osborne 1 hingga seringan 1,18 kg seperti ASUS ZenBook UX305, [14] laptop telah melalui perjalanan panjang — dan perjalanan luar biasa tersebut mengandung banyak kejutan tak terduga." data-hashtag="Asus, Bestlaptop" data-twdesc="" data-disclaimer="*Penafian: Spesifikasi produk berbeda di tiap negara. Kami sarankan Anda mengecek terlebih dahulu dengan pengecer lokal mengenai spesifikasi produk yang tersedia untuk Anda. Warna dan tampilan produk yang sebenarnya mungkin tidak selalu sama yang disebabkan variasi dalam pengaturan monitor dan foto. Walaupun kami berusaha menampilkan informasi paling akurat dan menyeluruh saat memublikasikannya, kami berhak melakukan perubahan tanpa pemberitahuan terlebih dahulu.
+"> 
+       <a href="javascript:void(0);" class="witharticle-img" onclick="ga('send', 'event', 'Button', 'Infographic', 'Laptop Evolution');" style="background-image:url(/Event/gifting/images/home/infographics/Evolution_Laptop_thumbnail_ID.jpg)" data-toggle="modal" data-target="#witharticalModal"> </a> 
+       <div class="witharticle-desc" data-mh="mh-witharticleItem"> 
+        <h3>Evolusi laptop: dimulai dari hal yang sederhana hingga paling mutakhir</h3> 
+        <p> Dari yang seberat 10,9 kilogram di masa Osborne 1 hingga seringan 1,18 kg seperti ASUS ZenBook UX305, [14] laptop telah melalui perjalanan panjang — dan perjalanan luar biasa tersebut mengandung banyak kejutan tak terduga. </p> 
+        <a href="javascript:void(0);" data-toggle="modal" data-target="#witharticalModal" onclick="ga('send', 'event', 'Button', 'Infographic', 'Laptop Evolution');"> Read More <i class="sprite sprite-right sprite-arrow-angle-right arrow-grey"></i> </a> 
+       </div> 
+      </div> 
+      <div class="witharticle-item col-sm-4" data-modaltype="html" data-title="Teknohias: 4 cara ASUS ZenBook melengkapi penampilan Anda" data-article="html-article1" data-img="/Event/gifting/images/home/article/techcessorizing_1.jpg" data-imgalt="Teknohias: 4 cara ASUS ZenBook melengkapi penampilan Anda" data-shortdesc="short desc 5" data-longdesc="
+                     <p>Warna hitam dengan plastik mengkilat yang membosankan — permukaan standar laptop mungkin terlihat biasa. Namun kami menyadari bahwa laptop ternyata juga aksesoris, seperti halnya jepitan dasi atau tas tangan favorit Anda, itulah sebabnya pola lingkaran konsentris dan polesan warna metalik tipis yang klasik pada ASUS ZenBook sangat melengkapi gaya berbusana Anda, tidak seperti laptop lainnya; laptop ini cocok dengan aplikasi, Wi-Fi, dan busana Anda.</p>
+
+                    <p><strong>Kesederhanaan yang bertenaga</strong></p>
+                    <img src='/Event/gifting/images/home/article/techcessorizing_2.jpg' />
+                    <p>
+                        Mungkin Anda tidak mengira akan melihat kata 'sederhana' dan 'prosesor Intel™ Core® generasi keenam' dalam satu rumpun, namun ZenBook UX305 mengubah semua itu. Di samping polesan warna Obsidian Stone gelap yang klasik atau Aurora Metallic — dengan polesan tipis sewarna sampanye —menawarkan sensasi menyenangkan pada laptop ini, yang sempurna berpasangan dengan tampilan bertekstur seragam yang tidak membosankan. Warna emas muda ini menonjolkan blazer wol, jaket kulit coklat, sepatu bot kulit, dan sepatu santai Anda. Jangan lupa kemampuan tinggi laptop Anda untuk membuat tampilan QHD+ tersebut. 
+                    </p>
+
+                    <p><strong>Produktif di segala bidang</strong></p>
+                    <img src='/Event/gifting/images/home/article/techcessorizing_4.jpg' />
+                    <p>
+                        Pekerjaan tidak mengenal kata istirahat dan santai. Jika Anda mengenakan gaun hitam atau jas slim-fit lengkap, ZenBook UX305 Obsidian Stone berwarna hitam pekat akan melengkapi penampilan Anda.  Busana serba hitam tidak pernah terlihat jelek — tidak peduli apakah Anda memakai gaun atau tuksedo — namun kenapa tidak mencoba tampil berani? Lain kali saat Anda memadukan celana panjang putih dengan aksesoris berwarna obsidian, ZenBook UX305 Anda akan terlihat mengagumkan di samping dompet satin hitam Anda.
+                    </p>
+
+
+                    <p><strong>Design yang menawan</strong></p>
+                    <img src='/Event/gifting/images/home/article/techcessorizing_3.jpg' />
+                    <p>
+                        Karyawan perusahaan, pekerja lepas, pekerja kreatif — apa pun profesi Anda, polesan warna logam memungkinkan Anda membaur dalam dunia bisnis tanpa terlihat monoton dengan yang lain. Dengan rancangan baru yang tersusun agak lancip, ZenBook UX305 sempurna dibawa ke kantor beruangan terbuka, juga bersantai di rumah atau kedai kopi yang sedang populer. Tonjolkan garis lekuk indah tersebut celana kain atau jeans ketat di hari santai Anda, atau saat pergi bekerja dengan rok lancip dan jaket seragam rapi.
+                    </p>
+
+                    
+
+                    <p><strong>Aksesoris</strong></p>
+                    <img src='/Event/gifting/images/home/article/techcessorizing_5.jpg' />
+                    <p>
+                        Kami namai 'ZenBook' dengan alasan agar pola berulang lingkaran konsentris penuh ketenangan yang membedakan tampilan laptop Anda menegaskan filosofi Zen — jadi pertimbangkanlah aksesoris Anda baik-baik dan rengkuhlah garis lekuk menawan tersebut. Anda dapat membuat kreasi dengan memasangkan ZenBook UX305 Anda dengan anting-anting atau gelang emas yang bulat tipis atau lonjong, atau pilih tema yang melibatkan sabuk rantai untuk mengikat gaun panjang Anda atau jam tangan bulat klasik yang maskulin. Ini sewajar riak air di kolam.
+                    </p>
+                    
+                " data-url="http://www.asus.com/EVENT/gifting/ID?article=html-article1&amp;modal=witharticalModal" data-fbimg="www.asus.com/Event/gifting/images/home/article/techcessorizing_1.jpg" data-fbcaption="" data-fbdesc="Warna hitam dengan plastik mengkilat yang membosankan — permukaan standar laptop mungkin terlihat biasa. Namun kami menyadari bahwa laptop ternyata juga aksesoris, seperti halnya jepitan dasi atau tas tangan favorit Anda, itulah sebabnya pola lingkaran konsentris dan polesan warna metalik tipis yang klasik pada ASUS ZenBook sangat melengkapi gaya berbusana Anda, tidak seperti laptop lainnya; laptop ini cocok dengan aplikasi, Wi-Fi, dan busana Anda." data-hashtag="Asus, Bestlaptop" data-twdesc="" data-disclaimer="*Penafian: Spesifikasi produk berbeda di tiap negara. Kami sarankan Anda mengecek terlebih dahulu dengan pengecer lokal mengenai spesifikasi produk yang tersedia untuk Anda. Warna dan tampilan produk yang sebenarnya mungkin tidak selalu sama yang disebabkan variasi dalam pengaturan monitor dan foto. Walaupun kami berusaha menampilkan informasi paling akurat dan menyeluruh saat memublikasikannya, kami berhak melakukan perubahan tanpa pemberitahuan terlebih dahulu.
+"> 
+       <a href="javascript:void(0);" class="witharticle-img" onclick="ga('send', 'event', 'Button', 'Infographic', 'Techcessorizing');" style="background-image:url(/Event/gifting/images/home/article/techcessorizing_1.jpg)" data-toggle="modal" data-target="#witharticalModal"> </a> 
+       <div class="witharticle-desc" data-mh="mh-witharticleItem"> 
+        <h3>Teknohias: 4 cara ASUS ZenBook melengkapi penampilan Anda</h3> 
+        <p> Warna hitam dengan plastik mengkilat yang membosankan — permukaan standar laptop mungkin terlihat biasa. Namun kami menyadari bahwa laptop ternyata juga aksesoris, seperti halnya jepitan dasi atau tas tangan favorit Anda, itulah sebabnya pola lingkaran konsentris dan polesan warna metalik tipis yang klasik pada ASUS ZenBook sangat melengkapi gaya berbusana Anda, tidak seperti laptop lainnya; laptop ini cocok dengan aplikasi, Wi-Fi, dan busana Anda. </p> 
+        <a href="javascript:void(0);" data-toggle="modal" data-target="#witharticalModal" onclick="ga('send', 'event', 'Button', 'Infographic', 'Techcessorizing');"> Read More <i class="sprite sprite-right sprite-arrow-angle-right arrow-grey"></i> </a> 
+       </div> 
+      </div> 
+      <div class="witharticle-item col-sm-4" data-modaltype="fullimg" data-img="/Event/gifting/images/home/infographics/Next_Tech_Gadget_ID.jpg" data-imgalt="Anda butuh lebih dari sekadar ponsel pintar: Apakah perangkat teknologi yang cocok untuk Anda selanjutnya?" data-article="infographic-article3" data-title="Anda butuh lebih dari sekadar ponsel pintar: Apakah perangkat teknologi yang cocok untuk Anda selanjutnya?" data-url="http://www.asus.com/EVENT/gifting/ID?article=infographic-article3&amp;modal=witharticalModal" data-fbimg="www.asus.com/Event/gifting/images/home/infographics/Next_Tech_Gadget_thumbnail_ID.jpg" data-fbcaption="" data-fbdesc="Untuk memaksimalkan konektivitas dan produktivitas, Anda perlu lebih dari sekadar ponsel pintar — pilihlah yang paling menggambarkan diri 'Anda'." data-hashtag="Asus, Bestlaptop" data-twdesc="" data-disclaimer="*Penafian: Spesifikasi produk berbeda di tiap negara. Kami sarankan Anda mengecek terlebih dahulu dengan pengecer lokal mengenai spesifikasi produk yang tersedia untuk Anda. Warna dan tampilan produk yang sebenarnya mungkin tidak selalu sama yang disebabkan variasi dalam pengaturan monitor dan foto. Walaupun kami berusaha menampilkan informasi paling akurat dan menyeluruh saat memublikasikannya, kami berhak melakukan perubahan tanpa pemberitahuan terlebih dahulu.
+"> 
+       <a href="javascript:void(0);" class="witharticle-img" onclick="ga('send', 'event', 'Button', 'Infographic', 'Next Tech Gadget');" style="background-image:url(/Event/gifting/images/home/infographics/Next_Tech_Gadget_thumbnail_ID.jpg)" data-toggle="modal" data-target="#witharticalModal"> </a> 
+       <div class="witharticle-desc" data-mh="mh-witharticleItem"> 
+        <h3>Anda butuh lebih dari sekadar ponsel pintar: Apakah perangkat teknologi yang cocok untuk Anda selanjutnya?</h3> 
+        <p> Untuk memaksimalkan konektivitas dan produktivitas, Anda perlu lebih dari sekadar ponsel pintar — pilihlah yang paling menggambarkan diri "Anda". </p> 
+        <a href="javascript:void(0);" data-toggle="modal" data-target="#witharticalModal" onclick="ga('send', 'event', 'Button', 'Infographic', 'Next Tech Gadget');"> Read More <i class="sprite sprite-right sprite-arrow-angle-right arrow-grey"></i> </a> 
+       </div> 
+      </div> 
+      <div class="witharticle-item col-sm-4" data-modaltype="html" data-title="Jika Anda memiliki salah satu dari keenam jenis bisnis kecil ini, maka ASUS Zen AiO Pro sangat cocok bagi Anda" data-img="/Event/gifting/images/home/article/6_small_businesses_1.jpg" data-article="html-article2" data-imgalt="Jika Anda memiliki salah satu dari keenam jenis bisnis kecil ini, maka ASUS Zen AiO Pro sangat cocok bagi Anda" data-shortdesc="Menjalan sebuah bisnis tidaklah mudah, dan Anda membutuhkan komputer yang bekerja mendukung Anda. Tidak peduli apakah bisnis Anda berpusat di bidang teknologi atau tidak, PC multifungsi berkualitas membantu Anda mengatur operasi harian, berfungsi sebagai basis pangkal digital dan, secara ideal, juga memiliki daya dan bermacam kegunaan untuk membantu membangun bisnis Anda. Zen AiO Pro, PC multifungsi supertangguh dan penuh gaya yang membantu Anda menjalankan bisnis dan meningkatkan keuntungan Anda." data-longdesc="
+                     <p>
+                         Menjalan sebuah bisnis tidaklah mudah, dan Anda membutuhkan komputer yang bekerja mendukung Anda. Tidak peduli apakah bisnis Anda berpusat di bidang teknologi atau tidak, PC multifungsi berkualitas membantu Anda mengatur operasi harian, berfungsi sebagai basis pangkal digital dan, secara ideal, juga memiliki daya dan bermacam kegunaan untuk membantu membangun bisnis Anda. Zen AiO Pro, PC multifungsi supertangguh dan penuh gaya yang membantu Anda menjalankan bisnis dan meningkatkan keuntungan Anda.
+                    </p>
+
+                    <p><strong>Marketer dan Agency periklanan</strong></p>
+                    <img src='/Event/gifting/images/home/article/6_small_businesses_2.jpg' />
+                    <p>
+                        Saat membantu pelanggan Anda untuk tampil menjadi yang terbaik, Anda membutuhkan teknologi terbaik. Kinerja tangguh Zen Aio Pro memudahkan pembuatan logo, infografis, gambar, dan video yang sempurna bagi klien Anda. Layar 23,8 inci yang luar biasa besar membantu Anda mengatur lancarnya CMS dan berita media sosial pelanggan, dengan ruangan tersisa yang cukup untuk mengedit foto atau video. Dan resolusi layar yang luar biasa besar— hingga UHD/4K — memungkinkan Anda melihat setiap detail indah dari karya Anda, sehingga Anda dapat dengan mudah mengeditnya hingga sempurna. Monitor Zen Aio Pro memungkinkan Anda melihat corak warna yang sangat hidup dan nyata dalam sudut pandang 178° sehingga pelanggan dapat mengagumi karya Anda saat bertemu langsung dengan Anda — tanpa membutuhkan peralatan lain.
+                    </p>
+
+                    <p><strong>Pembelajaran dan Pengajaran Elektronik</strong></p>
+                    <img src='/Event/gifting/images/home/article/6_small_businesses_3.jpg' />
+                    <p>
+                        Konektivitas penting dalam bidang apa pun, khususnya dalam dunia pendidikan saat ini. Kamera Intel RealSense memungkinkan Anda memindai gambar dan video menjadi 3D, dan bermacam aplikasi dalam RealSense memudahkan Anda menciptakan materi pembelajaran yang menarik. Gunakan kameranya untuk menciptakan peragaan dan kuliah yang memberikan pengalaman belajar senyata di kelas bagi murid Anda, bahkan jika Anda mengajar secara jarak jauh. Libatkan pula Zen AiO Pro dalam kelas Anda — bermacam aplikasi pendidikan dalam RealSense memungkinkan pembelajaran yang sepenuhnya interaktif dan terpadu, baik saat Anda mengajar penulisan dasar atau ilmu kedokteran lanjutan. Kamera RealSense juga mampu melakukan identifikasi biometrik — sehingga Anda dapat merasa tenang karena informasi pribadi mengenai murid-murid Anda terjaga dengan aman. Zen Aio pro juga siap terhubung dengan banyak port USB dan pengaturan yang mudah — tidak ada waktu terbuang untuk menangani 'masalah teknis.'
+                    </p>
+
+                    <p><strong>Blogging</strong></p>
+                    <img src='/Event/gifting/images/home/article/6_small_businesses_4.jpg' />
+                    <p>
+                        Jika Anda seorang blogger, Anda menjalankan berbagai peran — Anda harus menjadi editor foto, perancang desain, penulis, editor, akuntan, dan bahkan pembuat video. Bergembiralah — Zen Aio Pro siap untuk menjalankan berbagai pekerjaan secara bersamaan dengan Anda. Ukuran layarnya yang besar memungkinkan Anda menjalankan browser, file teks, dan program edit foto secara dwiarah dalam satu layar, sedangkan USB tipe-C yang sangat cepat memungkinkan Anda menghubungkan serangkaian perangkat tanpa perlu adaptor — sempurna untuk mengatur ruang kerja/kegiatan Anda bersih dan bebas dari kesemrawutan. Dan prosesor Intel® Core™ Zen Aio Pro yang tangguh memungkinkan Anda mengedit foto dan video dengan lancar, memperbarui blog Anda, dan mengikuti media sosial tanpa kelambatan yang menjengkelkan, dengan kapasitas penyimpanan data ultracepat yang luar biasa besar — mampu menampung hinga 2TB — memudahkan Anda menyimpan semua karya yang Anda butuhkan, dengan masih ada ruang tersisa untuk file pribadi Anda.
+                    </p>
+
+                    <p><strong>Usaha Kecil</strong></p>
+                    <img src='/Event/gifting/images/home/article/6_small_businesses_5.jpg' />
+                    <p>
+                        Menjalankan toko atau tempat usaha Anda belum pernah semudah ini berkat konektivitas Zen AiO Pro yang tinggi dan kemampuannya mengerjakan bermacam pekerjaan pada saat bersamaan. Rancangannya yang ramping dan elegan serta polesan warna Icicle Gold sangat memukau tanpa membutuhkan banyak ruang dan cocok dengan hampir semua gaya dekorasi.  Konektivitas Zen AiO Pro dan bermacam port — termasuk 4 port USB 3.0, 1 port USB 3.1 Type-C, dan 2 port HDMI — memudahkannya terhubung dengan scanner, printer label, dan semuanya yang Anda butuhkan dalam POS Anda. Gunakan prosesornya yang tangguh dan memorinya yang besar untuk dengan mudah mengatur daftar inventaris Anda dan menghubungkannya dengan pelanggan agar gudang Anda — baik gudang fisik maupun virtual — tidak kekurangan ruang. Dan prosesor yang tangguh, RAM yang luar biasa cepat dan hard drive secepat kilat memudahkan pengelolaan situs web dan media sosial dari komputer yang juga menjalankan POS Anda.
+                    </p>
+
+                    <p><strong>Podcast dan siaran</strong></p>
+                    <img src='/Event/gifting/images/home/article/6_small_businesses_6.jpg' />
+                    <p>
+                        Dengan tingginya daya pemrosesan dan memori, kemampuan Wi-Fi yang secepat kilat dan kompatibilitas perangkat, gunakanlah Zen AiO Pro agar sukses menghasilkan podcast. Prosesor multi-core dan RAM yang luar biasa cepat, yang dapat ditambah hingga 32 GB, membuat Zen Aio Pro Anda dapat menangani perekaman, pengaliran dan edit audio/video dengan mudah, sedangkan layar yang besar dan resolusi yang mengagumkan memungkinkan Anda mengatur jendela aliran atau edit sebanyak yang dibutuhkan. Kompatibilitas USB Type-C memungkinkan PC Anda menyambung dengan mudah ke mikrofon, kamera, dan peralatan lain, serta dapat mendukung pengaturan multilayar melalui rangkaian sambungan USB. Kipas yang berbunyi sangat lirih memastikan Anda tidak akan mendengar suara yang mengganggu dalam siaran Anda, dan jalur sambungan kabel yang tersembunyi membuat semuanya terlihat rapi dan teratur — ini penting sekali, jika Anda bekerja di ruang studio yang kecil atau sempit.
+                    </p>
+
+                    <p><strong>Restoran</strong></p>
+                    <img src='/Event/gifting/images/home/article/6_small_businesses_7.jpg' />
+                    <p>
+                        Anda pemilik restoran? Inilah rekan terbaik Anda yang baru. Zen Aio Pro menghasilkan pemrosesan yang cepat, penyimpanan data yang ultracepat dan banyak memori untuk mengatur transaksi POS dan inventaris dapur dengan mudah, menjalankan situs web dan memasarkan bisnis Anda, semuanya dari komputer yang sama. Berbicara tentang pemasaran, prosesor Zen Aio Pro yang tangguh memudahkan edit foto, sedangkan port USB Type-C memungkinkan transfer file yang secepat kilat antara kamera dan komputer Anda, sehingga Anda dapat mengedit dan menyempurnakan gambar yang memukau (dan menarik pelanggan), hasil karya Anda, untuk diunggah secara online. Perbarui saja media sosial Anda dengan gambar dan video, yang diedit dengan sempurna oleh Zen AiO Pro, dan lihatlah saat para pelanggan baru berebut ingin menggunakan jasa Anda.
+                    </p>
+                    
+                " data-url="http://www.asus.com/EVENT/gifting/ID?article=html-article2&amp;modal=witharticalModal" data-fbimg="www.asus.com/Event/gifting/images/home/article/6_small_businesses_1.jpg" data-fbcaption="" data-fbdesc="Menjalan sebuah bisnis tidaklah mudah, dan Anda membutuhkan komputer yang bekerja mendukung Anda. Tidak peduli apakah bisnis Anda berpusat di bidang teknologi atau tidak, PC multifungsi berkualitas membantu Anda mengatur operasi harian, berfungsi sebagai basis pangkal digital dan, secara ideal, juga memiliki daya dan bermacam kegunaan untuk membantu membangun bisnis Anda. Zen AiO Pro, PC multifungsi supertangguh dan penuh gaya yang membantu Anda menjalankan bisnis dan meningkatkan keuntungan Anda." data-hashtag="Asus, Bestlaptop" data-twdesc="" data-disclaimer="*Penafian: Spesifikasi produk berbeda di tiap negara. Kami sarankan Anda mengecek terlebih dahulu dengan pengecer lokal mengenai spesifikasi produk yang tersedia untuk Anda. Warna dan tampilan produk yang sebenarnya mungkin tidak selalu sama yang disebabkan variasi dalam pengaturan monitor dan foto. Walaupun kami berusaha menampilkan informasi paling akurat dan menyeluruh saat memublikasikannya, kami berhak melakukan perubahan tanpa pemberitahuan terlebih dahulu.
+"> 
+       <a href="javascript:void(0);" class="witharticle-img" onclick="ga('send', 'event', 'Button', 'Infographic', 'Small Business');" style="background-image:url(/Event/gifting/images/home/article/6_small_businesses_1.jpg)" data-toggle="modal" data-target="#witharticalModal"> </a> 
+       <div class="witharticle-desc" data-mh="mh-witharticleItem"> 
+        <h3>Jika Anda memiliki salah satu dari keenam jenis bisnis kecil ini, maka ASUS Zen AiO Pro sangat cocok bagi Anda</h3> 
+        <p> Menjalan sebuah bisnis tidaklah mudah, dan Anda membutuhkan komputer yang bekerja mendukung Anda. Tidak peduli apakah bisnis Anda berpusat di bidang teknologi atau tidak, PC multifungsi berkualitas membantu Anda mengatur operasi harian, berfungsi sebagai basis pangkal digital dan, secara ideal, juga memiliki daya dan bermacam kegunaan untuk membantu membangun bisnis Anda. Zen AiO Pro, PC multifungsi supertangguh dan penuh gaya yang membantu Anda menjalankan bisnis dan meningkatkan keuntungan Anda. </p> 
+        <a href="javascript:void(0);" data-toggle="modal" data-target="#witharticalModal" onclick="ga('send', 'event', 'Button', 'Infographic', 'Small Business');"> Read More <i class="sprite sprite-right sprite-arrow-angle-right arrow-grey"></i> </a> 
+       </div> 
+      </div> 
+      <div class="witharticle-item col-sm-4" data-modaltype="html" data-title="Laptop atau desktop: Mana yang saya butuhkan?" data-img="/Event/gifting/images/home/article/laptop_desktop_1.jpg" data-article="html-article3" data-imgalt="Laptop atau desktop: Mana yang saya butuhkan?" data-shortdesc="Penjualan komputer desktop telah melampaui laptop hingga hampir 4 banding 1, namun saat Anda merasa butuh perangkat baru, sulit untuk memilih di antara keduanya. Di satu sisi, Anda menemukan model desktop yang multifungsi, yang memadukan tiap komponen internal sistem ke dalam satu wadah. Di sisi lain, ada laptop (yang lebih mudah dibawa) yang memanfaatkan inovasi teknologi seluler dan biasanya dengan harga yang sama terjangkaunya dengan pesaing desktopnya. Jadi bagaimanakah Anda memilihnya sesuai gaya hidup Anda?" data-longdesc="
+                     <p>Penjualan komputer desktop telah melampaui laptop hingga hampir 4 banding 1, namun saat Anda merasa butuh perangkat baru, sulit untuk memilih di antara keduanya. Di satu sisi, Anda menemukan model desktop yang multifungsi, yang memadukan tiap komponen internal sistem ke dalam satu wadah. Di sisi lain, ada laptop (yang lebih mudah dibawa) yang memanfaatkan inovasi teknologi seluler dan biasanya dengan harga yang sama terjangkaunya dengan pesaing desktopnya. Jadi bagaimanakah Anda memilihnya sesuai gaya hidup Anda?</p>
+
+                    <img src='/Event/gifting/images/home/article/laptop_desktop_2.jpg' />
+                    <p><strong>Personalisasi</strong></p>
+                    <p>Tidak peduli apakah Anda menghabiskan $500 atau $5.000, sifat modular komputer desktop yang dirakit sesuai pesanan membuat Anda cenderung membelinya apalagi dengan komponen yang memang Anda inginkan. Butuh tambahan daya untuk fungsionalitas grafik yang lebih baik, namun tidak menginginkan ruang penyimpanan hingga satu terabyte? Tertarik dengan prosesor yang lebih cepat, namun bukan yang dilengkapi tampilan 4K mutakhir dengan semua komponen bawaannya? Saat Anda merakit komputer desktop sesuai keinginan, Anda memilih komponennya dan mengonfigurasikan perangkat sesuai yang Anda inginkan. Dengan laptop atau desktop multifungsi, pembaruan mungkin lebih sulit dilakukan.</p>
+
+                    <img src='/Event/gifting/images/home/article/laptop_desktop_3.jpg' />
+                    <p><strong>Pasang dan Gunakan</strong></p>
+                    <p>Kemudahan penggunaan, terutama saat Anda pertama kali mencoba menjalankan perangkat, merupakan pertimbangan lain. Dengan komputer desktop berbentuk tower yang kuno, Anda membutuhkan banyak waktu untuk menghubungkan semua kabel. Jika Anda memilih merakit desktop sesuai keinginan, Anda perlu menemukan dan memperbarui driver untuk semua komponen yang ditambahkan ke perangkat rakitan Anda. Laptop atau PC multifungsi, di sisi lain, dirakit untuk kemudahannya. Keluarkan saja laptopnya dari kotak, nyalakan, dan laptop itu siap digunakan. Untuk PC multifungsi, Anda hanya perlu menyambungkan atau memasangkan keyboard dan mouse Anda, maka perangkat itu siap digunakan.</p>
+
+                    <img src='/Event/gifting/images/home/article/laptop_desktop_4.jpg' />
+                    <p><strong>Kemudahan saat dibawa</strong></p>
+                    <p>Komputer dekstop dinamai seperti itu karena dimaksudkan untuk ditempatkan di atas meja, sehingga walaupun Anda dapat mengonfigurasinya sepuasnya, Anda tidak dapat menyelipkan dan membawanya saat Anda keluar rumah. Hal yang sama juga terjadi pada PC Multifungsi. Komputer desktop juga biasanya lebih besar ukurannya dan dirakit dari banyak potongan terpisah, membuat pemindahannya repot dan susah dilakukan. Laptop, di sisi lain — seperti ASUS VivoBook Flip atau paduan laptop/tablet seperti Transformer Book — memberikan kenyamanan yang Anda butuhkan karena berbobot ringan dan cukup kecil untuk bisa masuk ke dalam tas Anda.</p>
+
+                    <img src='/Event/gifting/images/home/article/laptop_desktop_5.jpg' />
+                    <p><strong>Penempatan</strong></p>
+                    <p>Ruang kegiatan dapat menjadi faktor yang penting sekali dalam memutuskan antara laptop dan desktop. Komputer dekstop multifungsi seperti Zen Aio Pro merupakan perangkat yang ramping. Rancangan aluminium yang sederhana dan tampilan 4K pasti akan cocok dengan ruang kegiatan di mana pun, namun perlu diatur di suatu tempat. Disisi lain, laptop ZenBook UX305, dirakit dengan banyak fitur yang sama, namun dapat dipindahkan ke mana pun saat Anda membutuhkan ruangan yang lebih besar. Dan jangan lupakan peralatan penghubungnya, mouse ekstra, monitor, dan keyboard yang membuat pekerjaan dengan desktop membutuhkan ruangan tersendiri.</p>
+
+                    <img src='/Event/gifting/images/home/article/laptop_desktop_6.jpg' />
+                    <p><strong>Ukuran Layar</strong></p>
+                    <p>Ukuran layar seringkali menjadi faktor yang menentukan, walaupun tidak sepenting yang orang kira. Anda biasanya menemukan layar laptop yang berukuran 10 hingga 17 inci, karena ukuran perangkat yang lebih kecil perlu untuk menjaga kemudahan saat dibawa. Monitor desktop biasanya berukuran sekitar 15 inci, walaupun dapat juga berukuran lebih besar karena desktop dapat digunakan hanya di satu tempat. Dalam kedua hal tersebut, komputer dapat dihubungkan ke monitor eksternal atau dilebarkan jangkauannya hingga ke beragam tampilan. Anda bahkan dapat menyambungkannya ke TV utama Anda, membuat solusi yang fleksibel pada ruang kegiatan yang sempit.</p>
+
+                    <img src='/Event/gifting/images/home/article/laptop_desktop_7.jpg' />
+                    <p><strong>Kemajuan</strong></p>
+                    <p>Kemampuan pembaruan laptop dan desktop multifungsi juga sulit dilakukan dibandingkan dengan desktop standar atau rakitan sendiri. Pastikan Anda mempertimbangkan bagaimana menjaga perangkat Anda selalu terbarui. Laptop dan desktop multifungsi biasanya memiliki memori dan pembaruan hard drive yang terbatas, karena komponen yang tersisa dirakit dalam bawaan dan permanen atau lebih sulit diganti. Itu berarti bahwa sebagian besar komponen yang diinstal saat ini adalah komponen yang sama yang Anda gunakan selama masa hidup perangkat Anda. Dengan komputer desktop yang dahulu, di sisi lain, komponen jarang dipasang secara permanen dan ukuran wadahnya yang besar membuat penggantian lebih mudah. Itu berarti bahwa Anda dapat menukar komponen dengan yang lebih baru dan memberikan masa hidup baru bagi desktop Anda saat terasa sudah kuno.</p>
+
+                    
+                " data-url="http://www.asus.com/EVENT/gifting/ID?article=html-article3&amp;modal=witharticalModal" data-fbimg="www.asus.com/Event/gifting/images/home/article/laptop_desktop_1.jpg" data-fbcaption="" data-fbdesc="Penjualan komputer desktop telah melampaui laptop hingga hampir 4 banding 1, namun saat Anda merasa butuh perangkat baru, sulit untuk memilih di antara keduanya. Di satu sisi, Anda menemukan model desktop yang multifungsi, yang memadukan tiap komponen internal sistem ke dalam satu wadah. Di sisi lain, ada laptop (yang lebih mudah dibawa) yang memanfaatkan inovasi teknologi seluler dan biasanya dengan harga yang sama terjangkaunya dengan pesaing desktopnya. Jadi bagaimanakah Anda memilihnya sesuai gaya hidup Anda?" data-hashtag="Asus, Bestlaptop" data-twdesc="" data-disclaimer="*Penafian: Spesifikasi produk berbeda di tiap negara. Kami sarankan Anda mengecek terlebih dahulu dengan pengecer lokal mengenai spesifikasi produk yang tersedia untuk Anda. Warna dan tampilan produk yang sebenarnya mungkin tidak selalu sama yang disebabkan variasi dalam pengaturan monitor dan foto. Walaupun kami berusaha menampilkan informasi paling akurat dan menyeluruh saat memublikasikannya, kami berhak melakukan perubahan tanpa pemberitahuan terlebih dahulu.
+"> 
+       <a href="javascript:void(0);" class="witharticle-img" onclick="ga('send', 'event', 'Button', 'Infographic', 'Laptop Desktop');" style="background-image:url(/Event/gifting/images/home/article/laptop_desktop_1.jpg)" data-toggle="modal" data-target="#witharticalModal"> </a> 
+       <div class="witharticle-desc" data-mh="mh-witharticleItem"> 
+        <h3>Laptop atau desktop: Mana yang saya butuhkan?</h3> 
+        <p> Penjualan komputer desktop telah melampaui laptop hingga hampir 4 banding 1, namun saat Anda merasa butuh perangkat baru, sulit untuk memilih di antara keduanya. Di satu sisi, Anda menemukan model desktop yang multifungsi, yang memadukan tiap komponen internal sistem ke dalam satu wadah. Di sisi lain, ada laptop (yang lebih mudah dibawa) yang memanfaatkan inovasi teknologi seluler dan biasanya dengan harga yang sama terjangkaunya dengan pesaing desktopnya. Jadi bagaimanakah Anda memilihnya sesuai gaya hidup Anda? </p> 
+        <a href="javascript:void(0);" data-toggle="modal" data-target="#witharticalModal" onclick="ga('send', 'event', 'Button', 'Infographic', 'Laptop Desktop');"> Read More <i class="sprite sprite-right sprite-arrow-angle-right arrow-grey"></i> </a> 
+       </div> 
+      </div> 
+      <div class="witharticle-item col-sm-4" data-modaltype="fullimg" data-img="/Event/gifting/images/home/infographics/Laptops_Dummies_ID.jpg" data-imgalt="Laptop bagi Pemula : Pedoman teknis tentang laptop" data-article="infographic-article4" data-title="Laptop bagi Pemula : Pedoman teknis tentang laptop" data-url="http://www.asus.com/EVENT/gifting/ID?article=infographic-article4&amp;modal=witharticalModal" data-fbimg="www.asus.com/Event/gifting/images/home/infographics/Laptops_Dummies_thumbnails_ID.jpg" data-fbcaption="" data-fbdesc="Giga ... apa? Membeli laptop serasa seperti belajar bahasa baru. Lupakan istilah-istilah sulit itu — berikut adalah fitur yang Anda butuhkan." data-hashtag="Asus, Bestlaptop" data-twdesc="" data-disclaimer="*Penafian: Spesifikasi produk berbeda di tiap negara. Kami sarankan Anda mengecek terlebih dahulu dengan pengecer lokal mengenai spesifikasi produk yang tersedia untuk Anda. Warna dan tampilan produk yang sebenarnya mungkin tidak selalu sama yang disebabkan variasi dalam pengaturan monitor dan foto. Walaupun kami berusaha menampilkan informasi paling akurat dan menyeluruh saat memublikasikannya, kami berhak melakukan perubahan tanpa pemberitahuan terlebih dahulu.
+"> 
+       <a href="javascript:void(0);" class="witharticle-img" onclick="ga('send', 'event', 'Button', 'Infographic', 'For Dummies');" style="background-image:url(/Event/gifting/images/home/infographics/Laptops_Dummies_thumbnails_ID.jpg)" data-toggle="modal" data-target="#witharticalModal"> </a> 
+       <div class="witharticle-desc" data-mh="mh-witharticleItem"> 
+        <h3>Laptop bagi Pemula : Pedoman teknis tentang laptop</h3> 
+        <p> Giga ... apa? Membeli laptop serasa seperti belajar bahasa baru. Lupakan istilah-istilah sulit itu — berikut adalah fitur yang Anda butuhkan. </p> 
+        <a href="javascript:void(0);" data-toggle="modal" data-target="#witharticalModal" onclick="ga('send', 'event', 'Button', 'Infographic', 'For Dummies');"> Read More <i class="sprite sprite-right sprite-arrow-angle-right arrow-grey"></i> </a> 
+       </div> 
+      </div> 
+      <div class="witharticle-item col-sm-4" data-modaltype="html" data-title="ASUS Zen AiO Pro membuat semua lebih teratur" data-imgalt="ASUS Zen AiO Pro membuat semua lebih teratur" data-article="html-article4" data-img="/Event/gifting/images/home/article/NeatFreakZenAiO_1.jpg" data-shortdesc="Hidup Anda sudah tersita penuh untuk mengurus pekerjaan, keluarga dan komitmen pribadi — bukan berarti meja kerja anda terlihat berantakan. Walaupun Anda adalah seorang perfeksionis yang menuntut kerapian — yang segalanya harus tersusun rapi hingga ke detail terkecil — atau hanya semata-mata menyukai kerapian, ASUS Zen AiO Pro sempurna untuk Anda.  Kami merancang Zen AiO Pro agar terlihat ramping, efisien dan bebas dari kesemrawutan. Hasilnya? Anda akan dapat menyelesaikan pekerjaan dengan lebih cepat, mudah, dan santai." data-longdesc="
+                     <p>Hidup Anda sudah tersita penuh untuk mengurus pekerjaan, keluarga dan komitmen pribadi — bukan berarti meja kerja anda terlihat berantakan. Walaupun Anda adalah seorang perfeksionis yang menuntut kerapian — yang segalanya harus tersusun rapi hingga ke detail terkecil — atau hanya semata-mata menyukai kerapian, ASUS Zen AiO Pro sempurna untuk Anda.  Kami merancang Zen AiO Pro agar terlihat ramping, efisien dan bebas dari kesemrawutan. Hasilnya? Anda akan dapat menyelesaikan pekerjaan dengan lebih cepat, mudah, dan santai.</p>
+
+                    <p><strong>Jejak Sebuah komputer mini</strong></p>
+                    <img src='/Event/gifting/images/home/article/NeatFreakZenAiO_2.jpg' />
+                    <p>
+                        Selamat tinggal perangkat besar dan lamban! Zen AiO Pro ramping dan tipis, sehingga Anda tidak perlu mengorbankan banyak ruang di meja Anda. Aluminium berkualitas tinggi menjaga kekokohan dasarnya dan design 人 yang menggambarkan estetika sebuah Zen. Lapisan tunggal berbahan aluminium yang dipoles sempurna memungkinkan rancangan yang ultra tipis, sehingga tidak akan memenuhi ruang kerja bahkan yang ruang sempit sekalipun. Singkatnya, Zen AiO Pro memungkinkan Anda menyisakan ruang untuk semua peralatan kerja di meja Anda dan bahkan lebih dari itu — seperti pot bunga mungil — tanpa terlihat semrawut. 
+                    </p>
+
+                    <p><strong>Sebuah kabel yang sudah tersusun dengan rapi dan simple</strong></p>
+                    <img src='/Event/gifting/images/home/article/NeatFreakZenAiO_3.jpg' />
+                    <p>
+                        Apakah Anda menyukai kabel yang berantakan? Tentu tidak bukan. Karena itulah kami merancang Zen AiO Pro untuk mengurangi kesemrawutan sambungan kabel dan menjaga meja Anda bersih dan bebas gangguan. Port dan jalur kabel yang tersembunyi — yang terletak di bagian belakang perangkat — menjaga bagian depan meja Anda bersih dan rapi, serta sambungan kabel teratur agar tidak menghalangi Anda. Teknologi terbaru Bluetooth 4.0 menjadikan Zen AiO Pro bekerja lancar dengan mouse dan keyboard nirkabel untuk lebih mengurangi kesemrawutan. Kemampuan USB Tipe-C memungkinkan Anda menghubungkan perangkat Anda secara langsung tanpa membutuhkan adaptor untuk menghindari kesemrawutan, dan 4 terminal USB 3.0 memungkinkan transfer data yang ultra cepat. Sinkronisasi berbasis cloud personal Anda memungkinkan komunikasi dua arah antara komputer dengan perangkat Anda yang lain, dengan sambungan kabel- maupun tidak — dan, sebagai bonus, Anda akan mendapatkan gratis 100GB ASUS WebStorage selama satu tahun saat pembelian. 
+                    </p>
+
+                    <p><strong>Performa cepat setiap saat</strong></p>
+                    <img src='/Event/gifting/images/home/article/NeatFreakZenAiO_4.jpg' />
+                    <p>
+                        Tidak bisa dibayangkan bagaimana rasanya menggunakan PC lambat dan menyusahkan saat Anda harus menyelesaikan sebuah pekerjaan dengan cepat. Dengan Zen AiO Pro, masalah tersebut tidak akan Anda alami. Prosesor Intel generasi ke-6, RAM yang besar(hingga 32GB) dan SSD PCI Express® 3.0 x4 — yang 4x lebih cepat daripada SSD SATA 3.0 — memungkinkan kinerja yang ultra cepat, sehingga Anda dapat mengatur inbox, mengatur prioritas tugas, dan merencanakan kegiatan Anda di akhir pekan — tanpa perlu memacu kapasitas kinerja PC Anda. Dan grafik NVIDIA® GeForce khusus milik Zen AiO Pro membuat semuanya terlihat sempurna — bahkan selama mengambil foto terus-menerus atau mengedit video atau bermain game. Anda tidak pernah harus merelakan kesan estetika Anda yang rapi dan teratur demi kinerja yang bagus.
+                    </p>
+
+                    <p><strong>Design yang sesuai dengan gaya Anda</strong></p>
+                    <img src='/Event/gifting/images/home/article/NeatFreakZenAiO_5.jpg' />
+                    <p>
+                        Selamat tinggal komputer yang besar dan lamban. Zen AiO Pro sangat cocok dengan estetika Anda, baik yang suka dengan rancangan minimalis, gaya proffesional, gaya modern abad ini, atau gaya yang benar-benar berbeda. Warna polesan icicle gold menyeimbangkan kehangatan dan sejuk yang berguna sebagai warna netral yang sempurna di ruang kerja atau rumah Anda — yang akan terlihat serasi dengan rancangan Anda. Dan konstruksi lapisan yang mulus dan sisi yang bergaya dengan potongan intan memungkinkan setiap permukaan, lekukan dan garis benar-benar mulus, teliti, dan indah. Bagian Zen AiO Pro terpadu dengan ruang kerja Anda — tidak ada kesemrawutan yang mengacaukan mata Anda.
+                    </p>
+
+                    <p><strong>Ruang Kerja yang Bersih dan Teratur</strong></p>
+                    <img src='/Event/gifting/images/home/article/NeatFreakZenAiO_6.jpg' />
+                    <p>
+                        Bahkan ruang kerja paling teratur sekalipun tidak berguna jika Anda menatap layar yang semrawut sepanjang — hari atau lebih buruk lagi, harus memicingkan mata saat berusaha mengerjakan banyak pekerjaan sekaligus dengan layar beresolusi rendah. Layar 23,8 inci Zen AiO Pro menyisakan banyak ruang untuk bekerja di banyak jendela pada saat bersamaan dan resolusi HD atau UHD/4K yang mengagumkan memungkinkan Anda melihat segalanya dalam definisi gambar yang sangat jelas dan segar, sehingga ruang kerja virtual Anda terlihat rapi dan teratur saat bekerja di banyak jendela.
+                    </p>
+                    
+                " data-url="http://www.asus.com/EVENT/gifting/ID?article=html-article4&amp;modal=witharticalModal" data-fbimg="www.asus.com/Event/gifting/images/home/article/NeatFreakZenAiO_1.jpg" data-fbcaption="" data-fbdesc="Hidup Anda sudah tersita penuh untuk mengurus pekerjaan, keluarga dan komitmen pribadi — bukan berarti meja kerja anda terlihat berantakan. Walaupun Anda adalah seorang perfeksionis yang menuntut kerapian — yang segalanya harus tersusun rapi hingga ke detail terkecil — atau hanya semata-mata menyukai kerapian, ASUS Zen AiO Pro sempurna untuk Anda.  Kami merancang Zen AiO Pro agar terlihat ramping, efisien dan bebas dari kesemrawutan. Hasilnya? Anda akan dapat menyelesaikan pekerjaan dengan lebih cepat, mudah, dan santai." data-hashtag="Asus, Bestlaptop" data-twdesc="" data-disclaimer="*Penafian: Spesifikasi produk berbeda di tiap negara. Kami sarankan Anda mengecek terlebih dahulu dengan pengecer lokal mengenai spesifikasi produk yang tersedia untuk Anda. Warna dan tampilan produk yang sebenarnya mungkin tidak selalu sama yang disebabkan variasi dalam pengaturan monitor dan foto. Walaupun kami berusaha menampilkan informasi paling akurat dan menyeluruh saat memublikasikannya, kami berhak melakukan perubahan tanpa pemberitahuan terlebih dahulu.
+"> 
+       <a href="javascript:void(0);" class="witharticle-img" onclick="ga('send', 'event', 'Button', 'Infographic', 'Inner Neat Freak');" style="background-image:url(/Event/gifting/images/home/article/NeatFreakZenAiO_1.jpg)" data-toggle="modal" data-target="#witharticalModal"> </a> 
+       <div class="witharticle-desc" data-mh="mh-witharticleItem"> 
+        <h3>ASUS Zen AiO Pro membuat semua lebih teratur</h3> 
+        <p> Hidup Anda sudah tersita penuh untuk mengurus pekerjaan, keluarga dan komitmen pribadi — bukan berarti meja kerja anda terlihat berantakan. Walaupun Anda adalah seorang perfeksionis yang menuntut kerapian — yang segalanya harus tersusun rapi hingga ke detail terkecil — atau hanya semata-mata menyukai kerapian, ASUS Zen AiO Pro sempurna untuk Anda. Kami merancang Zen AiO Pro agar terlihat ramping, efisien dan bebas dari kesemrawutan. Hasilnya? Anda akan dapat menyelesaikan pekerjaan dengan lebih cepat, mudah, dan santai. </p> 
+        <a href="javascript:void(0);" data-toggle="modal" data-target="#witharticalModal" onclick="ga('send', 'event', 'Button', 'Infographic', 'Inner Neat Freak');"> Read More <i class="sprite sprite-right sprite-arrow-angle-right arrow-grey"></i> </a> 
+       </div> 
+      </div> 
+      <div class="witharticle-item col-sm-4" data-modaltype="fullimg" data-img="/Event/gifting/images/home/infographics/Eye_Candy_ID.jpg" data-imgalt="ASUS ZenBook untuk Anda yang berjiwa seorang perancang" data-article="infographic-article5" data-title="ASUS ZenBook untuk Anda yang berjiwa seorang perancang" data-url="http://www.asus.com/EVENT/gifting/ID?article=infographic-article5&amp;modal=witharticalModal" data-fbimg="www.asus.com/Event/gifting/images/home/infographics/Eye_Candy_ID.jpg" data-fbcaption="" data-fbdesc="Ruang kerja yang tampak indah tidak hanya luar biasa; namun benar-benar dapat membuat Anda lebih produktif. Gunakan ASUS ZenBook Anda untuk menciptakan tampilan yang menawan — di mana pun Anda berada." data-hashtag="Asus, Bestlaptop" data-twdesc="" data-disclaimer="*Penafian: Spesifikasi produk berbeda di tiap negara. Kami sarankan Anda mengecek terlebih dahulu dengan pengecer lokal mengenai spesifikasi produk yang tersedia untuk Anda. Warna dan tampilan produk yang sebenarnya mungkin tidak selalu sama yang disebabkan variasi dalam pengaturan monitor dan foto. Walaupun kami berusaha menampilkan informasi paling akurat dan menyeluruh saat memublikasikannya, kami berhak melakukan perubahan tanpa pemberitahuan terlebih dahulu.
+"> 
+       <a href="javascript:void(0);" class="witharticle-img" onclick="ga('send', 'event', 'Button', 'Infographic', 'Eye Candy');" style="background-image:url(/Event/gifting/images/home/infographics/Eye_Candy_thumbnail_ID.jpg)" data-toggle="modal" data-target="#witharticalModal"> </a> 
+       <div class="witharticle-desc" data-mh="mh-witharticleItem"> 
+        <h3>ASUS ZenBook untuk Anda yang berjiwa seorang perancang</h3> 
+        <p> Ruang kerja yang tampak indah tidak hanya luar biasa; namun benar-benar dapat membuat Anda lebih produktif. Gunakan ASUS ZenBook Anda untuk menciptakan tampilan yang menawan — di mana pun Anda berada. </p> 
+        <a href="javascript:void(0);" data-toggle="modal" data-target="#witharticalModal" onclick="ga('send', 'event', 'Button', 'Infographic', 'Eye Candy');"> Read More <i class="sprite sprite-right sprite-arrow-angle-right arrow-grey"></i> </a> 
+       </div> 
+      </div> 
+      <div class="witharticle-item col-sm-4" data-modaltype="html" data-title="5 hal tentang laptop ASUS yang harus Anda diketahui setelah kuliah" data-img="/Event/gifting/images/home/article/new_grads_1.jpg" data-imgalt="5 hal tentang laptop ASUS yang harus Anda diketahui setelah kuliah" data-article="html-article5" data-shortdesc="Life after college is all about learning how to balance who you are with what you’ve learned.
+                     It’s a time to figure out that unique combination of personal strengths, qualifications, and motivating skills
+                     that’ll make you stand out from the millions of other people graduating beside you. And a big part of the adventure
+                      is deciding which tools will best help you along the way. Here are five things you may not have known about ASUS
+                      laptops that might just make your transition from school to the “real world” that much smoother." data-longdesc="
+                    <p>Life after college is all about learning how to balance who you are with what you’ve learned.
+                     It’s a time to figure out that unique combination of personal strengths, qualifications, and motivating skills
+                     that’ll make you stand out from the millions of other people graduating beside you. And a big part of the adventure
+                      is deciding which tools will best help you along the way. Here are five things you may not have known about ASUS
+                      laptops that might just make your transition from school to the “real world” that much smoother.</p>
+                    <p><strong>1. Menciptakan sejarah</strong></p>
+                    <img src='/Event/gifting/images/home/article/new_grads_2.jpg' />
+                    <p>
+                        Dengan 3.000 penghargaan internasional yang diraih di tahun 2015 saja, jelas bahwa ASUS dibangun untuk menjadi yang terbaik, namun laptop ASUS sebenarnya telah memiliki pencapaian bersejarah yang luar biasa pula. Saat astronot yang tiba di Stasiun Luar Angkasa MIR diperlengkapi dengan dua laptop ASUS, laptop tersebut adalah satu-satunya merek yang mampu bertahan tanpa masalah, dalam gravitasi nol selama 600 hari. Yang lebih hebat lagi, laptop ASUS juga memainkan peran penting untuk unit helikopter penyelamat dan medis darurat di Australia, diuji dalam kondisi gurun dan kutub yang ekstrim selama balapan off-road PATAGONIA 2000, serta merupakan pilihan utama tim pendaki gunung saat menjelajah puncak-puncak tertinggi Gunung Everest dan Antartika. Adakah merek lain yang mampu menyamainya?
+                    </p>
+                    <p><strong>2. Ketipisan dan keringanan yang terasa berbeda</strong></p>
+                    <img src='/Event/gifting/images/home/article/new_grads_3.jpg' />
+                    <p>
+                        Laptop ultratipis seperti ZenBook UX305 membuat rancangan dan kemudahan saat dibawa terasa berbeda. Memperkenalkan prosesor Intel™ Core® yang tangguh, penyimpanan SSD yang berlimpah, dan daya baterai yang bertahan sepanjang hari; model ZenBook ini juga memperkenalkan rancangan yang dibentuk khusus untuk mengurangi ketegangan saat mengetik. Keyboardnya terangkat sedikit saat laptop terbuka — bayangkan secepat apa Anda akan dapat mengetik laporan sebanyak 20 lembar untuk atasan Anda. ZenBook juga dirakit kuat dengan casis sepenuhnya terbuat dari aluminium yang setebal kurang lebih 1,2 milimeter dan seberat 1,2 kilogram. Anda dapat membawanya saat keluar kantor seharian untuk rapat dan bahkan bisa saja tidak sadar laptop itu ada dalam tas Anda.
+                    </p>
+                    <p><strong>3. Mudah bertransformasi dan berengsel unik</strong></p>
+                    <img src='/Event/gifting/images/home/article/new_grads_4.jpg' />
+                    <p>
+                        Kinerja tinggi dan daya respons laptop tidak ada artinya jika perangkat kerasnya tidak mampu bertahan lama saat dipacu bekerja. Lupakan kerepotan putaran dan mekanisme poros yang rumit. Model paduan seperti ASUS Transformer Book T100HA memperkenalkan magnet yang dipasang sedemikian tepat hingga secara otomatis mampu menyangga layar. Model yang dapat diubah seperti ViVoBook Flip memperkenalkan engsel multi dengan rancangan multipenggerak, sehingga dengan mudah mampu memutar laptop menjadi tablet dan berdiri dalam mode tent Dan semua model telah diuji melalui 20.000 goncangan untuk memastikan perangkat kerasnya bertahan melawan semua goncangan dan getaran yang dapat menghantamnya. Laptop Transfomer Book Anda terjatuh di pagi hari setelah bekerja keras semalaman? Jangan khawatir, laptop itu masih siap digunakan untuk bekerja sepanjang hari lagi.  
+                    </p>
+                    <p><strong>4. Percaya apa yang dilihat</strong></p>
+                    <img src='/Event/gifting/images/home/article/new_grads_5.jpg' />
+                    <p>
+                        Jika berbicara mengenai tampilan menarik, ASUS memang memiliki tampilan yang berbeda, namun kejernihan warna, kejelasan saat dilihat di luar ruangan dan sudut pandang yang lebih lebarlah yang membuat merek ASUS berbeda dari yang lain. Layar direct bonding menampilkan transparansi yang lebih tinggi dan refleksi yang lebih sedikit, membuat gambar terlihat lebih jelas bahkan dalam lingkungan bercahaya terang — sempurna saat tim Anda ingin melakukan rapat di luar demi suasana segar. Teknologi panel IPS memperlihatkan setiap detail dalam sudut pandang lebih lebar, hampir sekitar 180 derajat. Ingin yang lebih hebat lagi? Pilihlah laptop ZenBook UX305 yang membuat direct bonding dan teknologi IPS terasa berbeda dengan resolusi tampilan 4K/UHD. Laptop ASUS Anda akan menjadi penyelamat dalam rapat besar saat sinar matahari atau sudut pandang yang buruk menghalangi rekan kerja Anda menyimak layar mereka. 
+                    </p>
+                    <p><strong>5. Tenang di bawah tekanan</strong></p>
+                    <img src='/Event/gifting/images/home/article/new_grads_6.jpg' />
+                    <p>
+                        Jika Anda pernah melalui malam penuh tekanan akibat pekerjaan untuk menyempurnakan presentasi Anda, pastilah Anda tahu banyak hal yang cepat membuat stres. ASUS mempertimbangkan tekanan semacam itu saat merancang laptop ZenBook UX305. Alih-alih membuat Anda berpeluh setelah pengetikan lama yang melelahkan, sandaran tangan laptop ini dirakit dengan teknologi IceCool milik ASUS, yang menjaga bagian sandaran tangan di bawah suhu tubuh dengan suhu berkisar antara 28 hingga 35 derajat Celsius — seperti inilah yang namanya dingin! Tidak ada lagi yang namanya telapak tangan berkeringat, paling tidak saat menggunakan komputer Anda ... namun saat mempresentasikannya, itu lain lagi! 
+                    </p>
+                    
+                " data-url="http://www.asus.com/EVENT/gifting/ID?article=html-article5&amp;modal=witharticalModal" data-fbimg="www.asus.com/Event/gifting/images/home/article/new_grads_1.jpg" data-fbcaption="" data-fbdesc="Kehidupan usai kuliah adalah tentang belajar menemukan keseimbangan antara siapa diri Anda dengan apa yang telah Anda pelajari. Inilah waktunya menemukan kombinasi unik dari kekuatan, kualifikasi, dan kemampuan memotivasi pribadi yang membuat Anda unggul dari jutaan orang lain yang lulus berbarengan dengan Anda. Dan bagian penting dari petualangan ini adalah menentukan peralatan terbaik untuk membantu Anda. Berikut adalah lima hal yang mungkin tidak Anda ketahui tentang laptop ASUS yang dapat membuat transisi Anda dari sekolah ke 'dunia kerja' jauh lebih lancar." data-hashtag="Asus, Bestlaptop" data-twdesc="" data-disclaimer="*Penafian: Spesifikasi produk berbeda di tiap negara. Kami sarankan Anda mengecek terlebih dahulu dengan pengecer lokal mengenai spesifikasi produk yang tersedia untuk Anda. Warna dan tampilan produk yang sebenarnya mungkin tidak selalu sama yang disebabkan variasi dalam pengaturan monitor dan foto. Walaupun kami berusaha menampilkan informasi paling akurat dan menyeluruh saat memublikasikannya, kami berhak melakukan perubahan tanpa pemberitahuan terlebih dahulu.
+"> 
+       <a href="javascript:void(0);" class="witharticle-img" onclick="ga('send', 'event', 'Button', 'Infographic', 'Top 5');" style="background-image:url(/Event/gifting/images/home/article/new_grads_1.jpg)" data-toggle="modal" data-target="#witharticalModal"> </a> 
+       <div class="witharticle-desc" data-mh="mh-witharticleItem"> 
+        <h3>5 hal tentang laptop ASUS yang harus Anda diketahui setelah kuliah</h3> 
+        <p> Kehidupan usai kuliah adalah tentang belajar menemukan keseimbangan antara siapa diri Anda dengan apa yang telah Anda pelajari. Inilah waktunya menemukan kombinasi unik dari kekuatan, kualifikasi, dan kemampuan memotivasi pribadi yang membuat Anda unggul dari jutaan orang lain yang lulus berbarengan dengan Anda. Dan bagian penting dari petualangan ini adalah menentukan peralatan terbaik untuk membantu Anda. Berikut adalah lima hal yang mungkin tidak Anda ketahui tentang laptop ASUS yang dapat membuat transisi Anda dari sekolah ke 'dunia kerja' jauh lebih lancar. </p> 
+        <a href="" data-toggle="modal" data-target="#witharticalModal" onclick="ga('send', 'event', 'Button', 'Infographic', 'Top 5');"> Read More <i class="sprite sprite-right sprite-arrow-angle-right arrow-grey"></i> </a> 
+       </div> 
+      </div> 
+      <div class="witharticle-item col-sm-4" data-modaltype="fullimg" data-img="/Event/gifting/images/home/infographics/Work_Hard_Play_Hard.jpg" data-imgalt="Mantap untuk kerja dan hiburan dengan ASUS Transformer Book T100" data-article="infographic-article6" data-title="Mantap untuk kerja dan hiburan dengan ASUS Transformer Book T100" data-url="http://www.asus.com/EVENT/gifting/ID?article=infographic-article6&amp;modal=witharticalModal" data-fbimg="www.asus.com/Event/gifting/images/home/infographics/Work_Hard_Play_Hard.jpg" data-fbcaption="" data-fbdesc="Anda sudah tidak perlu pusing lagi untuk membeli tablet untuk hiburan dan laptop untuk membantu produktivitas kerja Anda. ASUS Transformer Book T100 menggabungkan fitur-fitur terbaik dari keduanya, memberikan Anda fungsionalitas keyboard dan komputer saat Anda butuhkan, dan tablet yang mudah dilepas saat Anda ingin bersenang-senang." data-hashtag="Asus, Bestlaptop" data-twdesc="" data-disclaimer="*Penafian: Spesifikasi produk berbeda di tiap negara. Kami sarankan Anda mengecek terlebih dahulu dengan pengecer lokal mengenai spesifikasi produk yang tersedia untuk Anda. Warna dan tampilan produk yang sebenarnya mungkin tidak selalu sama yang disebabkan variasi dalam pengaturan monitor dan foto. Walaupun kami berusaha menampilkan informasi paling akurat dan menyeluruh saat memublikasikannya, kami berhak melakukan perubahan tanpa pemberitahuan terlebih dahulu.
+"> 
+       <a href="javascript:void(0);" class="witharticle-img" onclick="ga('send', 'event', 'Button', 'Infographic', 'Work Hard Play Hard');" style="background-image:url(/Event/gifting/images/home/infographics/Work_Hard_Play_Hard_thumbnail_ID.jpg)" data-toggle="modal" data-target="#witharticalModal"> </a> 
+       <div class="witharticle-desc" data-mh="mh-witharticleItem"> 
+        <h3>Mantap untuk kerja dan hiburan dengan ASUS Transformer Book T100</h3> 
+        <p> Anda sudah tidak perlu pusing lagi untuk membeli tablet untuk hiburan dan laptop untuk membantu produktivitas kerja Anda. ASUS Transformer Book T100 menggabungkan fitur-fitur terbaik dari keduanya, memberikan Anda fungsionalitas keyboard dan komputer saat Anda butuhkan, dan tablet yang mudah dilepas saat Anda ingin bersenang-senang. </p> 
+        <a href="javascript:void(0);" data-toggle="modal" data-target="#witharticalModal" onclick="ga('send', 'event', 'Button', 'Infographic', 'Work Hard Play Hard');"> Read More <i class="sprite sprite-right sprite-arrow-angle-right arrow-grey"></i> </a> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="shareguide" name="bestlaptopstep"> 
+    <div class="shareguide_headbold"> 
+     <div class="container"> 
+      <div class="row"> 
+       <div class="col-md-12"> 
+        <h2>Share pengalaman Anda di media sosial <span>#ASUS #bestnotebook</span></h2> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="shareguide_steps"> 
+     <div class="container"> 
+      <div class="row"> 
+       <div class="col-sm-6" data-mh="mh-share"> 
+        <div class="media"> 
+         <div class="media-left"> 
+          <img class="shareguide_badge" src="/EVENT/gifting/images/home/share/badge-camera.png" alt="Camera" title="Camera"> 
+          <img class="media-object" src="/EVENT/gifting/images/home/share/step1.png" alt="Step 1" title="Step 1"> 
+         </div> 
+         <div class="media-body"> 
+          <h3> LANGKAH 1: <span>Ambil foto</span> </h3> 
+          <p> Unggah foto yang menunjukkan mengapa ASUS ZenBook, VivoBook Flip, atau T100HA adalah Laptop Terbaik untuk Anda atau orang yang Anda cintai. Anda juga bisa menambahkan ide kreatif pada foto Anda sebelum diunggah. </p> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-sm-6" data-mh="mh-share"> 
+        <div class="media"> 
+         <div class="media-left"> 
+          <img class="shareguide_badge" src="/EVENT/gifting/images/home/share/badge-phone.png" alt="Phone" title="Phone"> 
+          <img class="media-object" src="/EVENT/gifting/images/home/share/step2.png" alt="Step 2" title="Step 2"> 
+         </div> 
+         <div class="media-body"> 
+          <h3> Langkah 2: <span>Bagikan!</span> </h3> 
+          <p> Bagikan pengalaman Anda di media sosial (Facebook, Instagram, atau Twitter) Jangan lupa jadikan akun Anda terbuka untuk publik. </p> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <ul name="bestlaptop" class="gift_gallery dark" id="ulEBG"> 
+   </ul> 
+  </div> 
+  <div class="witharticle_modal modal fade" id="witharticalModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"> 
+   <div class="modal-dialog modal-lg" role="document"> 
+    <div class="modal-content"> 
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <i class="fa fa-close"></i> </button> 
+     <div class="modal-body"> 
+      <div class="row"> 
+       <div class="col-sm-12"> 
+        <h2 class="witharticle-attr-title"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque eros vitae tristique. cursus. </h2> 
+        <img class="witharticle-attr-img" src="http://placehold.it/1200x560" alt=""> 
+       </div> 
+      </div> 
+      <div class="row"> 
+       <div class="col-sm-3"> 
+        <div class="witharticle_modal-product-header"> 
+         <div class="witharticle_modal-product-name"> 
+          <span class="witharticle_modal-product-type">Notebook</span> 
+          <span class="witharticle_modal-product-series">TP200</span> 
+         </div> 
+        </div> 
+        <ul class="witharticle_modal-social_list"> 
+         <li><a href="#" class="circle btn-fb bg-fb"><i class="fa fa-facebook"></i></a></li> 
+         <li><a href="#" class="circle btn-twitter btn-tweet bg-twitter"><i class="fa fa-twitter"></i></a></li> 
+        </ul> 
+       </div> 
+       <div class="witharticle-attr-longdesc col-sm-9"> 
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem velit unde repellat itaque molestias explicabo eaque deleniti aut ratione iste, tempora debitis qui commodi officia animi est et quia voluptatum. </p> 
+        <h3>Title Here</h3> 
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem velit unde repellat itaque molestias explicabo eaque deleniti aut ratione iste, tempora debitis qui commodi officia animi est et quia voluptatum. </p> 
+        <img src="http://placehold.it/800x400" alt=""> 
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem velit unde repellat itaque molestias explicabo eaque deleniti aut ratione iste, tempora debitis qui commodi officia animi est et quia voluptatum. </p> 
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem velit unde repellat itaque molestias explicabo eaque deleniti aut ratione iste, tempora debitis qui commodi officia animi est et quia voluptatum. </p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="badgift_modal modal fade" id="badgiftModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"> 
+   <div class="modal-dialog" role="document"> 
+    <div class="modal-content"> 
+     <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <i class="fa fa-close"></i> </button> 
+     <div class="social-dropdown"> 
+      <ul class="social-dropdown-menu"> 
+       <li><a href="#" class="circle btn-fb bg-fb"><i class="fa fa-facebook"></i></a></li> 
+       <li><a href="#" class="circle btn-twitter btn-tweet bg-twitter"><i class="fa fa-twitter"></i></a></li> 
+      </ul> 
+      <a class="circle bg-share btn-share" href="javascript:void(0);"><i class="fa fa-share-alt"></i></a> 
+     </div> 
+     <div class="modal-body"> 
+      <div class="badgift_preview"> 
+       <div class="badgift_preview-attr"></div> 
+       <div class="modal-controller"> 
+        <a href="javascript:void(0);" class="modal-prev"><i class="fa fa-angle-left"></i></a> 
+        <a href="javascript:void(0);" class="modal-next"><i class="fa fa-angle-right"></i></a> 
+       </div> 
+      </div> 
+      <div class="badgift_info"> 
+       <div class="media"> 
+        <div class="media-left"> 
+         <img class="media-object" src="http://placehold.it/300x300" alt="..."> 
+        </div> 
+        <div class="media-body media-middle">
+          Nick Miller 
+        </div> 
+       </div> 
+       <div class="badgift_desc"> 
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum id quis exercitationem provident laudantium officia, officiis alias iusto commodi, quidem omnis saepe numquam? Voluptatum cum cupiditate non odit doloremque aliquam! </p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- End of body --> 
+  <div class="clearfix"></div> 
+  <footer class="sf"> 
+   <div class="tal sf_headline"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="col-md-offset-1 col-md-10"> 
+       <p> Intel, the Intel Logo, Intel Inside, Intel Core, and Core Inside are trademarks of Intel Corporation in the U.S. and/or other countries. </p> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </footer> 
+  <script id="quiz-page" type="text/template">
+        <div class="quiz-page">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="content">
+
+                    </div>
+                    <div class="action text-center">
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img class="img img-responsive" src="" alt="" />
+                </div>
+            </div>
+        </div>
+    </script> 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+  <script src="/EVENT/gifting/js/bootstrap.min.js"></script> 
+  <script src="/EVENT/gifting/js/plugins.js"></script> 
+  <script src="/EVENT/gifting/js/scripts.js"></script> 
+  <script>
+        if (window.location.href.indexOf('pick-the-best-laptop') > 1) {
+            $('body').addClass('quiz');
+        }
+        if (window.location.href.toLowerCase().indexOf('sa-ar') > 1) {
+            $('body').addClass('rtl');
+        }
+    </script> 
+  <script>
+    //EBG section, load more
+    $(function () {
+        if ($("#ulEBG").children().length < 24) {
+            $('#aLoadMore').hide();
+        }
+    });
+
+    //Load more click event
+    $("#aLoadMore").click(function () {
+        var page = $("#ulEBG").children().length / 8;
+
+        if (page >= 3) {
+            $.ajax({
+                type: 'GET',
+                url: 'http://www.asus.com/EVENT/gifting/ID',
+                data: "pageNum=" + page,
+                beforeSend: function () {
+                    $("#imgLoading").show();
+                },
+                success: function (data, textstatus) {
+                    if (data != '') {
+                        $("#ulEBG").append(data);
+                        resizeBadGiftsThumbs();
+
+                        //Hide load more button when there is no more feed
+                        if (($("#ulEBG").children().length / 8) % 1 != 0)
+                            $('#aLoadMore').hide();
+                    }
+                    else
+                        $('#aLoadMore').hide();
+
+                    $("#imgLoading").hide();
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    $("#imgLoading").hide();
+                }
+            });
+        }
+        else {
+            $('#aLoadMore').hide();
+        }
+    });
+</script> 
+  <script>
+    var uid = 'notlogon';
+
+    //Initialize fb app
+    //window.fbAsyncInit = function () {
+    $(function () {
+        FB.init({
+            appId: '528797660608459',
+            //appId: '528807870607438', //Staging App ID
+            status: true, // check login status
+            cookie: true, // enable cookies to allow the server to access the session
+            xfbml: true,  // parse XFBML
+            version: 'v2.5'
+        });
+        
+        ////Check if user has logon/authorize the app
+        //FB.getLoginStatus(function (response) {
+        //    if (response.status === 'connected') {
+        //        FB.api('/me', function (response) {
+        //            //Get user fb id
+        //            uid = response.id;
+        //        });
+        //    }
+        //    else if (response.status === 'not_authorized') {
+        //        uid = 'notauthorized';
+        //    } else {
+        //        uid = 'notlogon';
+        //    }
+        //});
+    });
+    //};
+
+    //Share post to user's fb profile
+    function sharePost(title, imageUrl, caption) {
+        if (imageUrl != '')
+        {
+            if (imageUrl.indexOf('http') < 0)
+                imageUrl = "http://" + imageUrl;
+
+            //console.log('Share post with image');
+            //console.log(title + ' | ' + imageUrl + '&output=embed' + ' | ' + caption)
+
+            FB.ui({
+                method: 'feed',
+                link: 'http://www.asus.com/EVENT/gifting/ID',
+                picture: imageUrl,
+                name: title,
+                description: '',
+                caption: caption
+            },
+                function (response) {
+                    if (response && !response.error) {
+                        console.log(response);
+                        console.log('Succeed: Share post with image');
+                    }
+                }
+            );
+        }
+        else
+        {
+            //console.log('Share post without image');
+            //console.log(title + ' | ' + imageUrl + ' | ' + caption)
+
+            FB.ui({
+                method: 'feed',
+                link: 'http://www.asus.com/EVENT/gifting/ID'
+            },
+                function (response) {
+                    if (response && !response.error) {
+                        console.log(response);
+                        console.log('Succeed: Share post without image');
+                    }
+                }
+            );
+        }
+    }
+
+    $('.btn-fb').click(function (e) {
+        e.preventDefault;
+
+        var type = $(this).data('type') == undefined ? '' : $(this).data('type');
+        var title = $(this).data('title') == undefined ? '' : $(this).data('title');
+        var imageUrl = $(this).data('imageurl') == undefined ? '' : $(this).data('imageurl');
+        var caption = $(this).data('caption') == undefined ? '' : $(this).data('caption');
+
+        sharePost(title, imageUrl, caption);
+    });
+
+    $('.btn-tweet').click(function (e) {
+        e.preventDefault;
+        
+        var text = $(this).data("text") == undefined ? '' : $(this).data('text');
+        var hashtag;
+
+        if (text == '')
+            text = window.jsTweetMessage == undefined ? '' : window.jsTweetMessage;
+
+        if (text == '')
+            text = 'Pick the Best Laptop';
+            
+        if ('id' == 'fr')
+            hashtag = 'Pcidéal';
+        else if ('id' == 'it')
+            hashtag = 'regalosbagliato';
+        else
+            hashtag = 'bestlaptop';
+
+        var url = 'https://twitter.com/intent/tweet?url=http://www.asus.com/EVENT/gifting/ID&hashtags=' + hashtag + '&text=' + text;
+
+        popupWindow = window.open(
+        url, 'popUpWindow', 'height=700,width=800,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+    });
+</script>   
+ </body>
+</html>

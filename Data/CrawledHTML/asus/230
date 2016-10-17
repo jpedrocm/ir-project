@@ -1,0 +1,1357 @@
+<!doctype html>
+<html>
+ <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description">
+  <meta name="author">
+  <link type="text/css" rel="stylesheet" href="/support/stylesheets/MDA.css">
+  <title>
+	Support Center | 
+</title>
+  <meta name="description" property="og:description" content=" ASUS Support Center helps you to downloads Drivers, Manuals, Firmware, Software; find FAQ and how-to guides, step-by-step set up and installation.">
+  <meta name="keyword" content="Download,Driver,ASUS"> 
+  <link rel="shortcut icon" href="//www.asus.com/images/favicon.ico" type="image/x-icon"> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="description" content=""> 
+  <meta name="author" content=""> 
+  <link rel="canonical" href="https://www.asus.com/ae-en/support/"> 
+  <script type="text/javascript" src="/support/js/modernizr-2.5.3.min.js"></script> 
+  <script type="text/javascript" src="/support/js/jquery.js"></script> 
+  <script type="text/javascript" src="/support/js/bootstrap.js"></script> 
+  <script type="text/javascript" src="/support/js/myscript.js"></script> 
+  <script type="text/javascript" src="/support/js/jquery.colorbox.js"></script> 
+  <script type="text/javascript" src="/support/js/jcarousellite_1.0.1.js"></script> 
+  <!--<script type="text/javascript" src="/support/js/gaTrace.js"></script>--> 
+  <script src="/support/js/browser.js"></script> 
+  <script src="/support/js/jquery_phone_nav.js"></script> 
+  <!--[if lt IE 9]>
+      <script src="/support/js/html5.js"></script>
+    <![endif]--> 
+  <link type="text/css" rel="stylesheet" href="/support/stylesheets/reset.css"> 
+  <link type="text/css" rel="stylesheet" href="/support/stylesheets/base.css"> 
+  <link type="text/css" rel="stylesheet" href="/support/stylesheets/colorbox.css"> 
+  <!-- Le fav and touch icons --> 
+ </head>
+ <body>
+  <input name="header1$hd_version" type="hidden" id="hd_version" value="1"> 
+  <script type="text/javascript">
+    $(document).ready(function () {
+        var version = $("#hd_version").val();
+        if(version == "1"){//full_style需在resp前
+            var linkfs = document.createElement('link');
+            linkfs.type = 'text/css';
+            linkfs.rel = "stylesheet";
+            linkfs.href = "/support/stylesheets/full_style.css";
+            document.getElementsByTagName("head")[0].appendChild(linkfs);
+        }
+        var linkresp = document.createElement('link');
+        linkresp.type = 'text/css';
+        linkresp.rel = "stylesheet";
+        linkresp.href = "/support/stylesheets/responsive.css";
+        document.getElementsByTagName("head")[0].appendChild(linkresp);
+    });
+</script> 
+  <script type="text/javascript">
+    //loading local css file
+    $(document).ready(function () {
+        var css_name = "";
+        var lang_prefix = window.location.pathname.split("/");
+        if (lang_prefix.length >= 2)
+            if (lang_prefix[1] == "support")
+                css_name = "en.css";
+            else
+                css_name = lang_prefix[1] + ".css";
+
+        if (window.console)
+            console.log("css name: " + css_name);
+
+        if (window.location.hostname.indexOf("asus.com.cn") >= 0) {
+            css_name = "cn.css";
+        }
+
+        if (window.console)
+            console.log("css name: " + css_name);
+
+        if (css_name != "") {
+            var link = document.createElement('link');
+            link.type = 'text/css';
+            link.rel = "stylesheet";
+            link.href = "/support/stylesheets/local/" + css_name;
+            document.getElementsByTagName("head")[0].appendChild(link);
+        }
+
+        //video play box
+        $(".vEmbedded > a").colorbox({ iframe: true, width: "70%", height: "80%" });
+
+
+
+
+    });
+</script> 
+  <script type="text/javascript">
+    window.ASUSInit = function () {
+        var api_lang = '';
+        var api_key = '0000000004';
+        var lang_prefix = window.location.pathname.split("/");
+        if (window.console) {
+            console.log("pathname: " + window.location.pathname);
+        }
+        if (lang_prefix.length >= 2) {
+            if (lang_prefix[1] == "support")
+                api_lang = "";
+            else
+                api_lang = lang_prefix[1];
+        }
+        if (window.location.hostname.indexOf("asus.com.cn") >= 0) {
+            api_lang = "cn";
+            api_key = '0000000019';
+        }
+        if (window.console)
+            console.log("lang: " + api_lang);
+        asus_api.init({ appkey: api_key, lang: api_lang });
+    };
+    (function (d) {
+        var js, id = 'asus-jsapi', IsDebug='False';
+
+        if (d.getElementById("asus-jsapi")) { return; }
+        js = d.createElement('script');
+        js.id = id;
+        js.async = true;
+
+        if(IsDebug == 'True'){
+//                js.src = "//test.asus.com/API/js/asus_api_v2.js";
+                js.src = "//www.asus.com/API/js/asus_api.js";
+        }else{
+            if (window.location.href.indexOf("asus.com.cn") >= 0 || window.location.hostname.indexOf("asus.com.cn") >= 0)
+                js.src = "//www.asus.com.cn/API/js/asus_api.js";
+            else
+                js.src = "//www.asus.com/API/js/asus_api.js";
+        }
+       
+        d.getElementsByTagName('head')[0].appendChild(js);
+    } (document)); 
+
+</script> 
+  <script src="/support/js/MISTrack.js" type="text/javascript"></script> 
+  <link href="/support/stylesheets/homepage.css" rel="stylesheet">  
+  <!-- H-A-5 --> 
+  <input name="page_info1$langNormal" type="hidden" id="langNormal" value="en-ae"> 
+  <input name="page_info1$hd_lang_prefix" type="hidden" id="hd_lang_prefix" value="/ae-en/support"> 
+  <input name="page_info1$hd_product" type="hidden" id="hd_product"> 
+  <input name="page_info1$hd_product_name" type="hidden" id="hd_product_name"> 
+  <input name="page_info1$hd_product_name_ml" type="hidden" id="hd_product_name_ml"> 
+  <input name="page_info1$hd_series" type="hidden" id="hd_series"> 
+  <input name="page_info1$hd_series_name" type="hidden" id="hd_series_name"> 
+  <input name="page_info1$hd_series_name_ml" type="hidden" id="hd_series_name_ml"> 
+  <input name="page_info1$hd_model" type="hidden" id="hd_model"> 
+  <input name="page_info1$hd_model_ml" type="hidden" id="hd_model_ml"> 
+  <input name="page_info1$hd_os" type="hidden" id="hd_os"> 
+  <input name="page_info1$hd_hid" type="hidden" id="hd_hid"> 
+  <input name="page_info1$hd_offical_url" type="hidden" id="hd_offical_url"> 
+  <!-- Google Tag Manager with Origin gaTrace --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script src="/support/js/gaTrace.js" type="text/javascript"></script> 
+  <!-- End Google Tag Manager --> 
+  <!--Online Chat--> 
+  <link href="/support/stylesheets/online-chat-btn.css" rel="stylesheet" type="text/css"> 
+  <script>
+    function inIframe() {
+        try {
+            return window.self !== window.top; //window.self means the current application , window.top means the top ahead application
+        } catch (e) {
+            return true;
+        }
+    }
+</script> 
+  <script type="text/javascript">
+    $(document).ready(function () {
+        var IsInIframe = inIframe();
+
+        if (IsInIframe) {
+            return false;
+        }
+
+        var _Local = $("#langNormal").val();
+
+        var onlineService = initOnlineService(_Local);
+        onlineService.init();
+    });
+
+    function initOnlineService(Local) {
+        var ApiUrl = window.location.protocol + "//demeter.asus.com/WSC/Support_API_New/SupportNewAPI/GetOnlineChatUrl/",
+            ApiOption;
+
+        ApiUrl += Local;
+
+        return {
+            init: function () {
+                if ($("#online-service").length > 0) return;
+
+                $.getJSON(ApiUrl + "?callback=?", ApiOption).done(function (result) {
+                    if (result && result.StatusCode == 0) {
+                        var onlineServiceString = result.Link_Name ? result.Link_Name : "Online Chat",
+                            serviceUrl = result.URL;
+
+                        onlineChatBtn = '<div id="online-service"><a class="btn" onclick="javascript:window.open(\'' + serviceUrl + '\', \'\',  \'width=520, height=700, scrollbars=yes\'); ga(\'send\', \'event\', \'button\', \'clicked\', \'onlinechat\');">' + onlineServiceString + '</a></div>';
+                        $(onlineChatBtn).appendTo("body");
+                    }
+                });
+            }
+        }
+    };
+</script> 
+  <!--Redirect en--> 
+  <script src="/support/js/jquery.placeholder.js" type="text/javascript"></script> 
+  <script src="/support/js/jquery.autocomplete.js" type="text/javascript"></script> 
+  <script src="/support/js/MyasusDL_support.js" type="text/javascript"></script> 
+  <link href="/support/stylesheets/jquery.autocomplete.css" rel="stylesheet" type="text/css"> 
+  <style type="text/css">
+    .holdplace::-webkit-input-placeholder { color: red }
+    .holdplace:-ms-input-placeholder { color: red }
+    .holdplace:-moz-placeholder { color: red }
+    .holdplace::-moz-placeholder { color: red }
+    .stop-scrolling
+    {
+        height: 100%;
+        overflow: hidden;
+    }
+</style> 
+  <header class="home-header"> 
+   <div class="wide-inner"> 
+    <div class="MDA_top"> 
+     <div class="MDA_rela"> 
+      <div class="MDA_content"> 
+       <a href="//www.asus.com/event/2016/osupdate/" id="mainheader2_span_MDA_Url" target="_blank"> <img src="/support/images/MDA2/Img20150727/IMAGELINK_MDA_EN.png" id="mainheader2_span_MDA_Pic" alt="win10"> </a> 
+      </div> 
+     </div> 
+     <script type="text/javascript">
+                if ($("#langNormal").val() == "ar-ae" || $("#langNormal").val() == "ar-sa" || $("#langNormal").val() == "ar-eg")
+                {
+                    $(".MDA_content").css("position", "absolute");
+                    $(".MDA_content").css("left", "0px");
+                    $(".MDA_content").css("top", "0px");
+                    $(".MDA_content").css("vertical-align", "middle");
+
+                    //$(".MDA_content a").css("margin-right", "20px");
+                    //$(".MDA_content a").css("vertical-align", "top");
+                    $(".MDA_content span").css("vertical-align", "top");
+                    $(".MDA_content").removeClass("MDA_content");
+                }
+            </script> 
+    </div> 
+    <div class="header-box"> 
+     <h1 id="mainheader2_h1_support" class="pages-title landing-page-title">Support</h1> 
+     <div class="mda"></div> 
+     <div class="hh-cont"> 
+      <h2 id="mainheader2_H5" class="title" langtype="support_main" langtextid="header_title">We're Here To Help!</h2> 
+      <ul class="hl-list"> 
+       <li><span id="mainheader2_Span1" langtype="support_main" langtextid="header_li1">Downloads</span>&nbsp;<span id="mainheader2_Span2" langtype="support_main" langtextid="header_li1_Desc">Manuals, Drivers, Firmware, and Software, Declaration of conformity.</span></li> 
+       <li><span id="mainheader2_Span3" langtype="support_main" langtextid="header_li2">FAQ</span>&nbsp;<span id="mainheader2_Span4" langtype="support_main" langtextid="header_li2_Desc">Frequently Asked Questions</span></li> 
+       <li><span id="mainheader2_Span5" langtype="support_main" langtextid="header_li3">How-To Guides</span>&nbsp;<span id="mainheader2_Span6" langtype="support_main" langtextid="header_li3_Desc">Step-by-step set up and installation</span></li> 
+      </ul> 
+      <div class="search-box"> 
+       <div class="search-bar"> 
+        <input name="mainheader2$txtSearch" type="text" id="txtSearch" class="search-input" langtype="support_main" langtextid="header_txt_plshld" placeholder="Enter Product's Model Name"> 
+        <a href="javascript:;" class="search-btn" value="Search" onclick="DoSearch();"></a> 
+       </div> 
+       <div class="tips"> 
+        <a id="atips" href="javascript:;" class="tips-btn"></a> 
+        <ul id="lb_step0" class="dropdown-menu" style="display: none;"> 
+         <li><b id="mainheader2_B1" langtype="support_main" langtextid="manual_lv0_needhelp">Need Some Help?</b></li> 
+         <li><a href="javascript:;" id="mainheader2_A1" class="sub-btn2" onclick="FindSerialArticle(this)" langtype="support_main" langtextid="manual_lv0_findSerial">How to Find Model Name?</a></li> 
+         <li><a href="javaScript:;" id="btnManualSelect" class="sub-btn2" langtype="support_main" langtextid="manual_lv0_selmodelmanu"> Find your product by category</a></li> 
+        </ul> 
+       </div> 
+      </div> 
+     </div> 
+     <!--PC 下拉手動區塊--> 
+     <div id="lb_zone" class="dropdown-menu"> 
+      <h3 id="mainheader2_H1" langtype="support_main" langtextid="manual_lv1_title"> Find your product by category</h3> 
+      <p id="mainheader2_P1" langtype="support_main" langtextid="manual_lv1_desc">Find your model by selecting the product type and product series.</p> 
+      <div class="product-category"> 
+       <h2 id="mainheader2_H2" langtype="support_main" langtextid="manual_lv1_prodcategory">Select Product Category</h2> 
+       <ul> 
+        <li> <img alt="Notebooks &amp; Ultrabooks" src="/support/images/LB_nb.jpg"> <h4>Notebooks &amp; Ultrabooks</h4> <a href="javascript:void(0);" id="mainheader2_Repeater1_1_Repeater1_2_0_a_product_line1_0" l1_id="30" product="Eee PC" l2_id="" series="Eee PC">Eee PC </a> <a href="javascript:void(0);" id="mainheader2_Repeater1_1_Repeater1_2_0_a_product_line1_1" l1_id="3" product="Notebook" l2_id="" series="Notebook">Notebook </a> </li> 
+        <li> <img alt="Tablet &amp; Mobile" src="/support/images/LB_phone.jpg"> <h4>Tablet &amp; Mobile</h4> <a href="javascript:void(0);" id="mainheader2_Repeater1_1_Repeater1_2_1_a_product_line1_0" l1_id="28" product="Eee Pad" l2_id="1" series="ASUS Transformer Pad">ASUS Transformer Pad </a> <a href="javascript:void(0);" id="mainheader2_Repeater1_1_Repeater1_2_1_a_product_line1_1" l1_id="28" product="Eee Pad" l2_id="2" series="Nexus">Nexus </a> <a href="javascript:void(0);" id="mainheader2_Repeater1_1_Repeater1_2_1_a_product_line1_2" l1_id="28" product="Eee Pad" l2_id="3" series="ASUS Slate">ASUS Slate </a> <a href="javascript:void(0);" id="mainheader2_Repeater1_1_Repeater1_2_1_a_product_line1_3" l1_id="28" product="Eee Pad" l2_id="4" series="ASUS Slider Pad">ASUS Slider Pad </a> <a href="javascript:void(0);" id="mainheader2_Repeater1_1_Repeater1_2_1_a_product_line1_4" l1_id="29" product="PadFone" l2_id="1" series="PadFone">PadFone </a> <a href="javascript:void(0);" id="mainheader2_Repeater1_1_Repeater1_2_1_a_product_line1_5" l1_id="39" product="ZenFone" l2_id="1" series="ASUS ZenFone">ASUS ZenFone </a> </li> 
+        <li> <img alt="Desktop &amp; AiO PCs" src="/support/images/LB_AIO.jpg"> <h4>Desktop &amp; AiO PCs</h4> <a href="javascript:void(0);" id="mainheader2_Repeater1_1_Repeater1_2_2_a_product_line1_0" l1_id="26" product="All-in-one PCs" l2_id="" series="All-in-one PCs">All-in-one PCs </a> <a href="javascript:void(0);" id="mainheader2_Repeater1_1_Repeater1_2_2_a_product_line1_1" l1_id="8" product="Barebone" l2_id="" series="Barebone">Barebone </a> <a href="javascript:void(0);" id="mainheader2_Repeater1_1_Repeater1_2_2_a_product_line1_2" l1_id="14" product="Desktop PC" l2_id="" series="Desktop PC">Desktop PC </a> <a href="javascript:void(0);" id="mainheader2_Repeater1_1_Repeater1_2_2_a_product_line1_3" l1_id="31" product="Eee Box" l2_id="" series="Eee Box">Eee Box </a> <a href="javascript:void(0);" id="mainheader2_Repeater1_1_Repeater1_2_2_a_product_line1_4" l1_id="32" product="Vivo PC" l2_id="" series="Vivo PC">Vivo PC </a> </li> 
+        <li> <img alt="Monitors &amp; Projects" src="/support/images/LB_monitors.jpg"> <h4>Monitors &amp; Projects</h4> <a href="javascript:void(0);" id="mainheader2_Repeater1_1_Repeater1_2_3_a_product_line1_0" l1_id="34" product="Digital Signage" l2_id="" series="Digital Signage">Digital Signage </a> <a href="javascript:void(0);" id="mainheader2_Repeater1_1_Repeater1_2_3_a_product_line1_1" l1_id="13" product="LCD Monitors" l2_id="" series="LCD Monitors">LCD Monitors </a> <a href="javascript:void(0);" id="mainheader2_Repeater1_1_Repeater1_2_3_a_product_line1_2" l1_id="17" product="LCD TV" l2_id="" series="LCD TV">LCD TV </a> <a href="javascript:void(0);" id="mainheader2_Repeater1_1_Repeater1_2_3_a_product_line1_3" l1_id="27" product="Projectors" l2_id="" series="Projectors">Projectors </a> </li> 
+        <li> <img alt="Accessories" src="/support/images/LB_accessories.jpg"> <h4>Accessories</h4> <a href="javascript:void(0);" id="mainheader2_Repeater1_1_Repeater1_2_4_a_product_line1_0" l1_id="25" product="Peripherals &amp; Accessories" l2_id="1" series="Speaker">Speaker </a> <a href="javascript:void(0);" id="mainheader2_Repeater1_1_Repeater1_2_4_a_product_line1_1" l1_id="25" product="Peripherals &amp; Accessories" l2_id="2" series="Docking Station">Docking Station </a> <a href="javascript:void(0);" id="mainheader2_Repeater1_1_Repeater1_2_4_a_product_line1_2" l1_id="25" product="Peripherals &amp; Accessories" l2_id="3" series="Cable">Cable </a> <a href="javascript:void(0);" id="mainheader2_Repeater1_1_Repeater1_2_4_a_product_line1_3" l1_id="25" product="Peripherals &amp; Accessories" l2_id="4" series="Keyboard &amp; Mouse">Keyboard &amp; Mouse </a> <a href="javascript:void(0);" id="mainheader2_Repeater1_1_Repeater1_2_4_a_product_line1_4" l1_id="24" product="Webcam" l2_id="" series="Webcam">Webcam </a> </li> 
+        <div class="divider"></div> 
+        <li> <img alt="Motherboard" src="/support/images/LB_Motherboard.jpg"> <h4>Motherboard</h4> <a href="javascript:void(0);" id="mainheader2_Repeater2_1_Repeater2_2_0_a_product_line2_0" l1_id="1" product="Motherboard" l2_id="" series="Motherboard">Motherboard </a> </li> 
+        <li> <img alt="Graphic Card" src="/support/images/LB_Graphic.jpg"> <h4>Graphic Card</h4> <a href="javascript:void(0);" id="mainheader2_Repeater2_1_Repeater2_2_1_a_product_line2_0" l1_id="9" product="Graphic Card" l2_id="" series="Graphic Card">Graphic Card </a> <a href="javascript:void(0);" id="mainheader2_Repeater2_1_Repeater2_2_1_a_product_line2_1" l1_id="9" product="Graphic Card" l2_id="2" series="NVIDIA SERIES">NVIDIA SERIES </a> <a href="javascript:void(0);" id="mainheader2_Repeater2_1_Repeater2_2_1_a_product_line2_2" l1_id="9" product="Graphic Card" l2_id="10" series="ATi SERIES">ATi SERIES </a> </li> 
+        <li> <img alt="Audio &amp; Multimedia" src="/support/images/LB_Audio.jpg"> <h4>Audio &amp; Multimedia</h4> <a href="javascript:void(0);" id="mainheader2_Repeater2_1_Repeater2_2_2_a_product_line2_0" l1_id="21" product="Audio Cards" l2_id="" series="Audio Cards">Audio Cards </a> <a href="javascript:void(0);" id="mainheader2_Repeater2_1_Repeater2_2_2_a_product_line2_1" l1_id="19" product="Multimedia" l2_id="" series="Multimedia">Multimedia </a> </li> 
+        <li> <img alt="Networking" src="/support/images/LB_Networking.jpg"> <h4>Networking</h4> <a href="javascript:void(0);" id="mainheader2_Repeater2_1_Repeater2_2_3_a_product_line2_0" l1_id="7" product="Broadband" l2_id="" series="Broadband">Broadband </a> <a href="javascript:void(0);" id="mainheader2_Repeater2_1_Repeater2_2_3_a_product_line2_1" l1_id="10" product="Networking" l2_id="" series="Networking">Networking </a> <a href="javascript:void(0);" id="mainheader2_Repeater2_1_Repeater2_2_3_a_product_line2_2" l1_id="11" product="Wireless" l2_id="" series="Wireless">Wireless </a> </li> 
+       </ul> 
+      </div> 
+      <div class="step2-zone" style="display: none"> 
+       <div class="step2-zone-side"> 
+        <!--01--> 
+        <div id="ddlSelectProd" class="dropdown-select"> 
+         <ul> 
+          <li id="li_step1" class="step-icon step-icon-gray1">1</li> 
+          <li class="btn-group-zone"> 
+           <div class="btn-group"> 
+            <span id="btn_product_name" data-toggle="dropdown" class="btn dropdown-toggle new-dropdown"> <span class="txt">Notebook</span><span class="caret"></span> </span> 
+            <ul id="ddlProd" class="dropdown-menu width330 has-scroll"> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;All-in-one PCs&quot;,&quot;26&quot;)">All-in-one PCs</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;ASUSTOR&quot;,&quot;50&quot;)">ASUSTOR</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Audio Cards&quot;,&quot;21&quot;)">Audio Cards</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Barebone&quot;,&quot;8&quot;)">Barebone</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Chromebox&quot;,&quot;40&quot;)">Chromebox</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Commercial NB&quot;,&quot;47&quot;)">Commercial NB</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Desktop PC&quot;,&quot;14&quot;)">Desktop PC</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Digital Home&quot;,&quot;18&quot;)">Digital Home</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Digital Signage&quot;,&quot;34&quot;)">Digital Signage</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;DT LCD Monitor&quot;,&quot;33&quot;)">DT LCD Monitor</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Eee Book&quot;,&quot;45&quot;)">Eee Book</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Eee Box&quot;,&quot;31&quot;)">Eee Box</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Eee Keyboard&quot;,&quot;35&quot;)">Eee Keyboard</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Eee Note&quot;,&quot;36&quot;)">Eee Note</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Eee Pad&quot;,&quot;28&quot;)">Eee Pad</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Eee PC&quot;,&quot;30&quot;)">Eee PC</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Eee Reader&quot;,&quot;37&quot;)">Eee Reader</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Graphic Card&quot;,&quot;9&quot;)">Graphic Card</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Healthcare System&quot;,&quot;44&quot;)">Healthcare System</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;HSDPA Cards&quot;,&quot;22&quot;)">HSDPA Cards</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Internet of Things&quot;,&quot;43&quot;)">Internet of Things</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;IOT&quot;,&quot;53&quot;)">IOT</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;LCD Monitors&quot;,&quot;13&quot;)">LCD Monitors</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;LCD TV&quot;,&quot;17&quot;)">LCD TV</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Mobile Phone&quot;,&quot;12&quot;)">Mobile Phone</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Monitor Accessory&quot;,&quot;52&quot;)">Monitor Accessory</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Motherboard&quot;,&quot;1&quot;)">Motherboard</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Multimedia&quot;,&quot;19&quot;)">Multimedia</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Nano PC&quot;,&quot;49&quot;)">Nano PC</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Networking&quot;,&quot;10&quot;)">Networking</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Notebook&quot;,&quot;3&quot;)">Notebook</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Optical Storage&quot;,&quot;2&quot;)">Optical Storage</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;PadFone&quot;,&quot;29&quot;)">PadFone</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;PDA&quot;,&quot;6&quot;)">PDA</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Peripherals &amp; Accessories&quot;,&quot;25&quot;)">Peripherals &amp; Accessories</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Phone Accessory&quot;,&quot;46&quot;)">Phone Accessory</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;PND&quot;,&quot;23&quot;)">PND</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Projectors&quot;,&quot;27&quot;)">Projectors</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;ROG Console PC&quot;,&quot;41&quot;)">ROG Console PC</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Server&quot;,&quot;5&quot;)">Server</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Smart Home&quot;,&quot;48&quot;)">Smart Home</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Video Phone(skype phone)&quot;,&quot;38&quot;)">Video Phone(skype phone)</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Vivo PC&quot;,&quot;32&quot;)">Vivo PC</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Wearable&quot;,&quot;42&quot;)">Wearable</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;Wireless&quot;,&quot;11&quot;)">Wireless</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;ZenFone&quot;,&quot;39&quot;)">ZenFone</a> </li> 
+             <li> <a href="javascript:void(0);" onclick="ProductClick(&quot;en-ae&quot;,&quot;ZenPad&quot;,&quot;51&quot;)">ZenPad</a> </li> 
+            </ul> 
+           </div> </li> 
+         </ul> 
+        </div> 
+        <!--02--> 
+        <div id="ddlSelectSeries" class="dropdown-select current"> 
+         <ul> 
+          <li id="li_step2" class="step-icon step-icon-blue2">1</li> 
+          <li class="btn-group-zone"> 
+           <div class="btn-group"> 
+            <span id="btn_series_name" data-toggle="dropdown" class="btn dropdown-toggle new-dropdown"> <span class="txt">Please select Series</span><span class="caret"></span> </span> 
+            <ul id="ul_series" class="dropdown-menu width330 has-scroll"></ul> 
+           </div> </li> 
+         </ul> 
+        </div> 
+        <!--03--> 
+        <div id="ddlSelectModel" class="dropdown-select"> 
+         <ul> 
+          <li id="li_step3" class="step-icon step-icon-gray3">1</li> 
+          <li class="btn-group-zone"> 
+           <div class="btn-group"> 
+            <span id="btn_model_name" data-toggle="dropdown" class="btn dropdown-toggle new-dropdown"> <span class="txt">Please select Model</span><span class="caret"></span> </span> 
+            <p id="mainheader2_pModelDesc" style="display: none;" langtype="support_main" langtextid="manual_lv1_referpic">Select Product Type</p> 
+            <ul id="ul_model" class="dropdown-menu width330 has-scroll"></ul> 
+           </div> </li> 
+         </ul> 
+        </div> 
+        <!--03 end--> 
+       </div> 
+       <div class="step2-zone-img">
+        <img class="img_product" src="" alt="">
+       </div> 
+       <div class="step3-zone-model-number" style="display: none;"> 
+        <h3 id="mainheader2_H3" langtype="support_main" langtextid="manual_lv3_findmodelnm">Here is your model number</h3> 
+        <img src="/support/images/photo-model-number.png" alt="Here's Where To Find The Model Number"> 
+        <p id="mainheader2_P2" langtype="support_main" langtextid="manual_lv3_checkbox">Please check the package box to find sticker label</p> 
+        <p id="mainheader2_P3" langtype="support_main" langtextid="manual_lv3_serialno">The serial number is a string of numbers listed after “Serial No :”</p> 
+       </div> 
+       <div class="step4-zone-link" style="display: none;"> 
+        <img id="imgModel" src=""> 
+        <div class="text-zone"> 
+         <h2 id="step4_ModelName"></h2> 
+         <h4 id="mainheader2_H4" langtype="support_main" langtextid="manual_lv4_service">Support &amp; Service:</h4> 
+         <ul id="step4_List" class="line-list"></ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <!--PC 下拉手動區塊 End--> 
+     <input name="mainheader2$hd_clientid" type="hidden" id="hd_clientid" class="hd_Client_ID" value="txtSearch"> 
+     <script>
+                $("#txtSearch").placeholder();
+                var Client_ID = $(".hd_Client_ID").val();
+
+                $(window).resize(function () {
+                    SetAdditionaljCar();
+
+                    if ($(window).width() <= 767) {
+                        $("#lb_step0").hide();
+                        $("#lb_zone").hide();
+                        $(".channelBlack").hide();
+                        $("#ul_phone_prod").hide();
+                        $("#ul_phone_prod_sub").hide();
+                        $("#ul_phone_seriel").hide();
+                        $("#ul_phone_model").hide();
+                        $("#ul_phone_final").hide();
+                    }
+
+                    if ($(".ac_results").is(":visible")) {
+                        //var input = $("#" + Client_ID + "_txtSearch")[0];
+                        var input = $("#txtSearch")[0];
+                        var pos = findPos(input);
+                        $(".ac_results").css({
+                            width: $(input).width() + "px",
+                            top: (pos.y + input.offsetHeight) + "px",
+                            left: pos.x + "px"
+                        })
+                    }
+                });
+
+                //***手動選擇清單***
+                function FindSerialArticle(me) {
+                    me.href = $("#hd_lang_prefix").val() + "/Article/565/";
+                }
+
+                function close_popup() {
+                    //TW 站--隱藏選單
+                    $("#Ul1").hide();
+                    $("#lb_step0").hide();
+                    $("#lb_zone").hide();
+                    $(".channelBlack").hide();
+                    $('body').removeClass('stop-scrolling');
+                }
+
+                if ($.browser.msie) {
+                    document.onmouseup = (function () { close_popup(); });
+                }
+                else {
+                    $(window).on("mouseup", close_popup);
+                }
+
+                $("#btnManualSelect").click(function () {
+                    //$("#lb_step0").toggle();
+                    $("#lb_zone").show();
+                    $(".channelBlack").show();
+                    $(".channelBlack").height($("body").height());
+                    $('body').addClass('stop-scrolling');
+
+                    //$("#lb_zone").css("left", ($(window).width() - $("#lb_zone").width()) / 2 + $(window).scrollLeft() + "px");
+                    $(".step2-zone").hide();
+                    $(".product-category").show();
+
+                    //ScrolltoSelManual_0();
+                });
+
+                $(document).on("click", "#btnManualSelect_tw", function () {
+                    //$("#lb_step0").toggle();
+                    $("#lb_zone").show();
+                    $(".channelBlack").show();
+                    $(".channelBlack").height($("body").height());
+                    $('body').addClass('stop-scrolling');
+
+                    //$("#lb_zone").css("left", ($(window).width() - $("#lb_zone").width()) / 2 + $(window).scrollLeft() + "px");
+                    $(".step2-zone").hide();
+                    $(".product-category").show();
+
+                    //ScrolltoSelManual_0();
+                });
+
+                $("#lb_zone").on("mouseenter", function () {
+                    if ($.browser.msie) {
+                        document.onmouseup = (function () { });
+                    }
+                    else {
+                        $(window).off("mouseup", close_popup);
+                    }
+                })
+
+                $("#lb_zone").on("mouseleave", function () {
+                    if ($.browser.msie) {
+                        document.onmouseup = (function () {
+                            close_popup();
+                        });
+                    } else {
+                        $(window).on("mouseup", close_popup);
+                    }
+                })
+            </script> 
+    </div> 
+   </div> 
+  </header> 
+  <div class="channelBlack" style=" display:none;"></div> 
+  <!--phone下拉手動區塊--> 
+  <div id="LB-phone" class="visible-phone"> 
+   <div class="LB-phone-link"> 
+    <a href="../../uc_3/201408/main/#" class="serial-number" onclick="FindSerialArticle(this)" langtype="support_main" langtextid="manual_lv0_findSerial">How to Find Model Name?</a> 
+    <p class="divider"></p> 
+    <a href="javaScript:;" id="btnManualSelect_phone" class="manually LB-current" langtype="support_main" langtextid="manual_lv0_selmodelmanu"> Find your product by category</a> 
+   </div> 
+   <!--black--> 
+   <div id="main-product-nav"> 
+    <ul id="ul_phone_prod" class="product-list" style="display: none;"> 
+     <li class="back-title" onclick="Phone_Close_Prod();" langtype="support_main" langtextid="manual_title_back">Back</li> 
+     <li> <a href="javascript:void(0);" prod_id="0">Notebooks &amp; Ultrabooks</a> </li> 
+     <li> <a href="javascript:void(0);" prod_id="1">Tablet &amp; Mobile</a> </li> 
+     <li> <a href="javascript:void(0);" prod_id="2">Desktop &amp; AiO PCs</a> </li> 
+     <li> <a href="javascript:void(0);" prod_id="3">Monitors &amp; Projects</a> </li> 
+     <li> <a href="javascript:void(0);" prod_id="9">Accessories</a> </li> 
+     <li> <a href="javascript:void(0);" prod_id="5">Motherboard</a> </li> 
+     <li> <a href="javascript:void(0);" prod_id="6">Graphic Card</a> </li> 
+     <li> <a href="javascript:void(0);" prod_id="7">Audio &amp; Multimedia</a> </li> 
+     <li> <a href="javascript:void(0);" prod_id="8">Networking</a> </li> 
+    </ul> 
+    <ul id="ul_phone_prod_sub" class="product-list" style="display: none;"> 
+     <li class="back-title"></li> 
+    </ul> 
+    <ul id="ul_phone_seriel" class="product-list" style="display: none;"> 
+     <li class="back-title"></li> 
+    </ul> 
+    <ul id="ul_phone_model" class="product-list" style="display: none;"> 
+     <li class="back-title"></li> 
+    </ul> 
+    <ul id="ul_phone_final" style="display: none;"> 
+     <li class="back-title" onclick="Phone_Back_Model();" langtype="download" langtextid="model">Model</li> 
+     <div class="main-product-step4"> 
+      <div class="main-product-step4-zone"> 
+       <h2 id="phone_final_ModelName"></h2> 
+       <img id="phone_final_Img" src=""> 
+       <h4 langtype="support_main" langtextid="manual_lv4_service">Support &amp; Service:</h4> 
+       <ul id="ul_phone_prodlink" class="line-list"></ul> 
+      </div> 
+     </div> 
+    </ul> 
+   </div> 
+   <!--black end--> 
+  </div> 
+  <!--phone下拉手動區塊 end--> 
+  <input name="mainheader2$hd_menual_product" type="hidden" id="hd_menual_product" value="Product"> 
+  <input name="mainheader2$hd_menual_prodcategory" type="hidden" id="hd_menual_prodcategory" value="Product Category"> 
+  <input name="mainheader2$hd_menual_series" type="hidden" id="hd_menual_series" value="Series"> 
+  <input name="mainheader2$hd_menual_model" type="hidden" id="hd_menual_model"> 
+  <input name="mainheader2$hd_select_product" type="hidden" id="hd_select_product" value="Please select Product"> 
+  <input name="mainheader2$hd_select_series" type="hidden" id="hd_select_series" value="Please select Series"> 
+  <input name="mainheader2$hd_select_model" type="hidden" id="hd_select_model" value="Please select Model"> 
+  <input id="hd_lb_zone_status" type="hidden" value=""> 
+  <input name="mainheader2$txt_placeholder" type="text" id="txt_placeholder" langtype="support_main" langtextid="placeholder" style=" display:none" placeholder="Please Enter the valid Product's Model Name"> 
+  <input name="mainheader2$hd_myasus_phone_line1" type="hidden" id="hd_myasus_phone_line1" value="MyASUS Customer Servive Live Chat"> 
+  <input name="mainheader2$hd_myasus_phone_line2" type="hidden" id="hd_myasus_phone_line2" value="A must download for an ASUS product owner like you!"> 
+  <input name="mainheader2$hd_myasus_phone_linkbtn" type="hidden" id="hd_myasus_phone_linkbtn" value="View/Download"> 
+  <input name="mainheader2$hd_myasus_phone_link" type="hidden" id="hd_myasus_phone_link" value="http://qr.asus.com/myasus/GLOBAL_support_site_to_google_play"> 
+  <input name="mainheader2$hd_myasus_main_line1" type="hidden" id="hd_myasus_main_line1" value="MyASUS App"> 
+  <input name="mainheader2$hd_myasus_main_line2" type="hidden" id="hd_myasus_main_line2" value="A must download for an ASUS product owner like you!"> 
+  <input name="mainheader2$hd_myasus_main_line3" type="hidden" id="hd_myasus_main_line3" value="Customer Service Live Chat No phone calls, no traveling time saves you 50% of your time"> 
+  <input name="mainheader2$hd_myasus_main_linkbtn" type="hidden" id="hd_myasus_main_linkbtn"> 
+  <input name="mainheader2$hd_myasus_main_link" type="hidden" id="hd_myasus_main_link" value="http://qr.asus.com/myasus/GLOBAL_support_site_to_google_play"> 
+  <script type="text/javascript">
+    $(document).ready(function () {
+        MyasusDL_Phone(0);
+        MyasusDL_Main();
+    });
+
+    function SetAdditionaljCar() {
+        if ($(".additional-zone li").length > 0) {
+            if ($(window).width() < 959) {
+                //additional to vertical
+                $("#vote_right_btn").unbind();
+                $("#vote_left_btn").unbind();
+
+                $(".additional-zone").jCarouselLite({
+                    btnNext: "#vote_right_btn",
+                    btnPrev: "#vote_left_btn",
+                    circular: false,
+                    visible: 2,
+                    vertical: true
+                });
+            } else {
+                $("#vote_right_btn").unbind();
+                $("#vote_left_btn").unbind();
+                if ($("#hd_lsttype").val() == "additional") {
+                    $(".additional-zone").jCarouselLite({
+                        btnNext: "#vote_right_btn",
+                        btnPrev: "#vote_left_btn",
+                        circular: false,
+                        visible: 2
+                    });
+                } else if ($("#hd_lsttype").val() == "additional-2") {
+                    $(".additional-zone").jCarouselLite({
+                        btnNext: "#vote_right_btn",
+                        btnPrev: "#vote_left_btn",
+                        circular: false,
+                        visible: 4,
+                        vertical: true
+                    });
+                }
+            }
+        }
+    }
+
+    function findPos(obj) {
+        var curleft = obj.offsetLeft || 0;
+        var curtop = obj.offsetTop || 0;
+        while (obj = obj.offsetParent) {
+            curleft += obj.offsetLeft
+            curtop += obj.offsetTop
+        }
+        return { x: curleft, y: curtop };
+    }
+
+    $("#atips").click(function () {
+        $("#lb_step0").toggle();
+        $('#lb_zone').hide();
+        $(".channelBlack").hide();
+        //$("#hd_lb_zone_status").val("false");
+    });
+
+    $("#a2").click(function () {
+        $("#Ul1").toggle();
+        $('#lb_zone').hide();
+        $(".channelBlack").hide();
+    });
+
+    //$("#a2").blur(function () {
+    //    $("#Ul1").toggle();
+    //    $('#lb_zone').hide();
+    //    $(".channelBlack").hide();
+    //});
+
+//    function ScrolltoSelManual_0() {
+//        var parent = document.getElementById("lb_zone");
+//        var topOffset = 0;
+//        while (parent != document.body) {
+//            topOffset += parent.offsetTop;
+//            parent = parent.offsetParent;
+//        }
+//        document.documentElement.scrollTop = topOffset - 60;
+//        document.body.scrollTop = topOffset - 60;
+//    }
+
+    $(".product-category a").click(function () {
+        var span = "<span class='caret'></span>";
+        var space = "";
+        var l1 = $(this).attr("l1_id");
+        var l2 = $(this).attr("l2_id");
+        var product = $(this).attr("product");
+        var series = $(this).attr("series");
+        $("#btn_product_name").html("<span class='txt'>" + product + "</span>" + span);
+        $("#ul_model li").remove();
+        $("#ul_series li").remove();
+
+        if (l2 != "")
+            $("#btn_series_name").html("<span class='txt'>" + series + "</span>" + span);
+
+        var str_url;
+        if (l1 != "" && l2 == "") {
+            $("#btn_series_name").html("<span class='txt'>" + $("#hd_select_series").val() + "</span>" + span);
+            $("#btn_model_name").html("<span class='txt'>" + $("#hd_select_model").val() + "</span>");
+            Bind_Series($("#langNormal").val(), l1);
+            goto_step2();
+        }
+        else if (l1 != "" && l2 != "") {
+            $("#btn_model_name").html("<span class='txt'>" + $("#hd_select_model").val() + "</span>" + span);
+            Bind_Series($("#langNormal").val(), l1);
+            Bind_Model($("#langNormal").val(), l1, l2);
+            goto_step3();
+        }
+
+        $(".img_product").attr("src", "/support/images/products/" + l1 + "/304.jpg");
+        $(".product-category").hide();
+        $(".step2-zone").show();
+        return false;
+    });
+
+    function goto_step2() {
+        if ($("#ddlSelectModel").hasClass('current')) {
+            $("#ddlSelectModel").removeClass('current');
+        }
+        $("#ddlSelectSeries").addClass('current');
+
+        document.getElementById("li_step1").className = "step-icon step-icon-gray1";
+        document.getElementById("li_step2").className = "step-icon step-icon-blue2";
+        document.getElementById("li_step3").className = "step-icon step-icon-gray3";
+        $("#" + Client_ID + "_" + "pModelDesc").hide();
+        $(".img_product").show();
+        $(".step3-zone-model-number").hide();
+        $(".step4-zone-link").hide();
+    }
+
+    function goto_step3() {
+        if ($("#ddlSelectSeries").hasClass('current')) {
+            $("#ddlSelectSeries").removeClass('current');
+        }
+        $("#ddlSelectModel").addClass('current');
+
+        document.getElementById("li_step1").className = "step-icon step-icon-gray1";
+        document.getElementById("li_step2").className = "step-icon step-icon-gray2";
+        document.getElementById("li_step3").className = "step-icon step-icon-blue3";
+        $("#" + Client_ID + "_" + "pModelDesc").show();
+        $(".img_product").hide();
+        $(".step3-zone-model-number").show();
+        $(".step4-zone-link").hide();
+    }
+
+    function goto_start() {
+        if ($("#ddlSelectSeries").hasClass('current')) {
+            $("#ddlSelectSeries").removeClass('current');
+        }
+        if ($("#ddlSelectModel").hasClass('current')) {
+            $("#ddlSelectModel").removeClass('current');
+        }
+        document.getElementById("li_step1").className = "step-icon step-icon-gray1";
+        document.getElementById("li_step2").className = "step-icon step-icon-gray2";
+        document.getElementById("li_step3").className = "step-icon step-icon-gray3";
+        $("#" + Client_ID + "_" + "pModelDesc").hide();
+        $(".img_product").hide();
+        $(".step3-zone-model-number").hide();
+        $(".step4-zone-link").show();
+    }
+
+    function Bind_Series(lang_id, l1) {
+        var str_url = "/support/utilities/GetProducts.aspx" + "?ln=" + lang_id + "&p=" + l1;
+        $.ajax({
+            type: "GET",
+            url: str_url,
+            dataType: "xml",
+            success: parseXml_series
+        });
+        return false;
+    }
+
+    function Bind_Model(lang_id, l1, l2) {
+        var str_url = "/support/utilities/GetProducts.aspx" + "?ln=" + lang_id + "&p=" + l1 + "&s=" + l2;
+        $.ajax({
+            type: "GET",
+            url: str_url,
+            dataType: "xml",
+            success: parseXml_model
+        });
+        return false;
+    }
+
+    function parseXml_series(xml) {
+        $(xml).find("Table").each(function () {
+            en_name = $(this).find("en_name").text();
+            gname = $(this).find("gname").text();
+            l1 = $(this).find("l1_id").text();
+            l2 = $(this).find("id").text();
+            $("#ul_series").append("<li><a href='javascript:void(0);' onclick=SeriesClick(this,'" + $("#langNormal").val() + "'," + l1 + "," + l2 + ")>" + gname + "</a></li>");
+        });
+    }
+
+    function parseXml_model(xml) {
+        $(xml).find("Table").each(function () {
+            m_name = $(this).find("m_name").text();
+            l1 = $(this).find("l1_id").text();
+            l2 = $(this).find("l2_id").text();
+
+            var lang_id = $("#langNormal").val();
+            var m_new_name=m_name;
+
+            //20131120歐洲 infinity限制
+            en_name = $(this).find("en_name").text();
+
+            $("#ul_model").append("<li><a href='javascript:void(0);' onclick=ModelClick(this,'" + $("#langNormal").val() + "'," + l1 + "," + l2 + ") en_name='" + m_name + "'>" + m_name + "</a></li>");
+        });
+    }
+
+    function ProductClick(lang_id, name, l1) {
+        var span = "<span class='caret'></span>";
+        var space = "";
+        $('#btn_product_name').html("<span class='txt'>" + name + "</span>" + space);
+        $('#ul_series li').remove();
+        $('#btn_series_name').html("<span class='txt'>" + $("#hd_select_series").val() + "</span>" + span);
+        $('#btn_model_name').html("<span class='txt'>" + $("#hd_select_model").val() + "</span>" + span);
+        Bind_Series(lang_id, l1);
+        $('#ul_model li').remove();
+        $(".img_product").attr("src", "/support/images/products/" + l1 + "/304.jpg");
+        goto_step2();
+    }
+
+    function SeriesClick(sender, lang_id, l1, l2) {
+        var name = sender.innerHTML;
+        var span = "<span class='caret'></span>";
+        $('#btn_series_name').html("<span class='txt'>" + name + "</span>" + span);
+        $('#ul_model li').remove();
+        $('#btn_model_name').html("<span class='txt'>" + $("#hd_select_model").val() + "</span>" + span);
+        Bind_Model(lang_id, l1, l2);
+        goto_step3();
+    }
+
+    function ModelClick(sender, lang_id, l1, l2) {
+        var span = "<span class='caret'></span>";
+        var name = $(sender).attr("en_name");
+        var display_name = sender.innerHTML;
+        $('#btn_model_name').html("<span class='txt'>" + display_name + "</span>" + span);
+        $("#step4_ModelName").html(display_name);
+        Get_ModelHash(name);
+        Get_ProdLinks(lang_id, l1, l2, name);
+        goto_start();
+    }
+
+    function Get_ModelHash(model) {
+        var str_url = "/support/utilities/GetModelHashID.aspx" + "?m=" + model;
+        $.ajax({
+            type: "GET",
+            url: str_url,
+            dataType: "text",
+            success: function (hash) {
+                $("#imgModel").attr("src", "//www.asus.com/websites/global/products/" + hash + "/P_500.jpg");
+                $("#imgModel").error(function () { $("#imgModel").attr("src", $(".img_product").attr("src")); });
+            }
+        });
+        return false;
+    }
+
+    function Get_ProdLinks(lang_id, l1, l2, model) {
+        //var str_url = "/support/utilities/GetProductSupportLink.aspx" + "?ln=" + lang_id + "&p=" + l1;
+        var str_url = "/support/utilities/GetProductSupportLink.aspx" + "?ln=" + lang_id + "&p=" + l1 + "&s=" + l2 + "&m=" + model;
+        $.ajax({
+            type: "GET",
+            url: str_url,
+            dataType: "xml",
+            success: function (xml) {
+                $("#step4_List").empty();
+                $(xml).find("Table1").each(function () {
+                    Link_Name = $(this).find("Link_Name").text();
+                    URL = $(this).find("URL").text();
+                    var mkturl = $(this).find("Description").text(); 
+                    //$("#step4_List").append("<li><a href='/support/" + URL + "/" + l1 + "/" + l2 + "/" + model + "'>" + Link_Name + "</a></li>");
+
+                    //20140423
+                    //$("#step4_List").append("<li><a href='" + $("#hd_lang_prefix").val() + "/Product/" + URL + "/" + modelReplace(model) + "/'>" + Link_Name + "</a></li>");
+                    $("#step4_List").append("<li><a target='_blank' href='" + mkturl + "/'>" + Link_Name + "</a></li>");
+                });
+            }
+        });
+        return false;
+    }
+
+    //    function SetProdImg() {
+    //        $("#imgModel").attr("src", $(".img_product").attr("src"));
+    //    }
+
+    ////Phone////
+
+    function ScrolltoSelManual() {
+        var parent = document.getElementById("btnManualSelect_phone");
+        var topOffset = 0;
+        while (parent != document.body) {
+            //leftOffset += parent.offsetLeft;
+            topOffset += parent.offsetTop;
+            parent = parent.offsetParent;
+        }
+        //document.body.scrollTop = $(".serial-number").offset().top;        
+        //if (BrowserDetect.browser == "Explorer" || BrowserDetect.browser == "Firefox") {
+            document.documentElement.scrollTop = topOffset;
+        //} else {
+            document.body.scrollTop = topOffset;
+        //}
+    }
+
+    $("#btnManualSelect_phone").click(function () {
+        $("#ul_phone_prod").toggle();
+        $("#ul_phone_prod_sub").hide();
+        $("#ul_phone_seriel").hide();
+        $("#ul_phone_model").hide();
+        $("#ul_phone_final").hide();
+    });
+
+    $("#ul_phone_prod a").click(function () {
+        var prod_id = $(this).attr("prod_id");
+        Phone_Bind_SubProduct($("#langNormal").val(), prod_id);
+
+        $("#ul_phone_prod").hide();
+        $("#ul_phone_prod_sub").show();
+        ScrolltoSelManual();
+    });
+
+    function Phone_Bind_SubProduct(lang_id, prod_id) {
+        var str_url = "/support/utilities/GetProdSubCategory.aspx" + "?ln=" + lang_id + "&pid=" + prod_id;
+        $.ajax({
+            type: "GET",
+            url: str_url,
+            dataType: "xml",
+            success: function (xml) {
+                $("#ul_phone_prod_sub").empty();
+                $("#ul_phone_prod_sub").append("<li class='back-title' onclick='Phone_Back_Prod();' >" + $("#hd_menual_product").val() + "</li>");
+                $(xml).find("Table").each(function () {
+                    display_name = $(this).find("display_name").text().trim();
+                    l1 = $(this).find("l1_id").text();
+                    l2 = $(this).find("l2_id").text();
+                    var para = "'" + $("#langNormal").val() + "','" + l1 + "','" + l2 + "'";
+                    $("#ul_phone_prod_sub").append("<li><a href='javascript:void(0);' onclick=\"Phone_Click_ProdSub(" + para + ");\">" + display_name + "</a></li>");
+                });
+            }
+        });
+        return false;
+    }
+
+    function Phone_Bind_Series(lang_id, l1) {
+        var str_url = "/support/utilities/GetProducts.aspx" + "?ln=" + lang_id + "&p=" + l1;
+        $.ajax({
+            type: "GET",
+            url: str_url,
+            dataType: "xml",
+            success: function (xml) {
+                $("#ul_phone_seriel").empty();
+                $("#ul_phone_seriel").append("<li class='back-title' onclick='Phone_Back_ProdSub();'>" + $("#hd_menual_prodcategory").val() + "</li>");
+                $(xml).find("Table").each(function () {
+                    gname = $(this).find("gname").text();
+                    l1 = $(this).find("l1_id").text();
+                    l2 = $(this).find("id").text();
+                    var para = "'" + $("#langNormal").val() + "','" + l1 + "','" + l2 + "'";
+                    $("#ul_phone_seriel").append("<li><a href='javascript:void(0);' onclick=\"Phone_Click_Seriel(" + para + ");\" >" + gname + "</a></li>");
+                });
+            }
+        });
+        return false;
+    }
+
+    function Phone_Bind_Model(lang_id, l1, l2) {
+        var str_url = "/support/utilities/GetProducts.aspx" + "?ln=" + lang_id + "&p=" + l1 + "&s=" + l2;
+        $.ajax({
+            type: "GET",
+            url: str_url,
+            dataType: "xml",
+            success: function (xml) {
+                $("#ul_phone_model").empty();
+                $("#ul_phone_model").append("<li class='back-title' onclick='Phone_Back_Seriel();' >" + $("#hd_menual_series").val() + "</li>");
+                $(xml).find("Table").each(function () {
+                    m_name = $(this).find("m_name").text();
+                    l1 = $(this).find("l1_id").text();
+                    l2 = $(this).find("l2_id").text();
+                    //var para = "'" + $("#langNormal").val() + "','" + m_name + "','" + l1 + "','" + l2 + "'";
+
+                    //20131120歐洲 infinity限制
+                    var en_name = $(this).find("en_name").text();
+                    var para = "'" + $("#langNormal").val() + "','" + m_name + "','" + l1 + "','" + l2 + "','" + m_name + "'";
+
+                    $("#ul_phone_model").append("<li><a href='javascript:void(0);' onclick=\"Phone_Click_Model(" + para + ");\" >" + m_name + "</a></li>");
+                });
+            }
+        });
+        return false;
+    }
+
+    function Phone_Bind_ModelbyL2(lang_id, l1, l2) {
+        var str_url = "/support/utilities/GetProducts.aspx" + "?ln=" + lang_id + "&p=" + l1 + "&s=" + l2;
+        $.ajax({
+            type: "GET",
+            url: str_url,
+            dataType: "xml",
+            success: function (xml) {
+                $("#ul_phone_model").empty();
+                $("#ul_phone_model").append("<li class='back-title' onclick='Phone_Back_ProdSub_byModel();'>" + $("#hd_menual_prodcategory").val() + "</li>");
+                $(xml).find("Table").each(function () {
+                    m_name = $(this).find("m_name").text();
+                    l1 = $(this).find("l1_id").text();
+                    l2 = $(this).find("l2_id").text();
+                    //var para = "'" + $("#langNormal").val() + "','" + m_name + "','" + l1 + "','" + l2 + "','" + m_name + "'";
+
+                    //20131120歐洲 infinity限制
+                    var en_name = $(this).find("en_name").text();
+                    var para = "'" + $("#langNormal").val() + "','" + m_name + "','" + l1 + "','" + l2 + "','" + m_name + "'";
+                    $("#ul_phone_model").append("<li><a href='javascript:void(0);' onclick=\"Phone_Click_Model(" + para + ");\" >" + m_name + "</a></li>");
+
+                });
+            }
+        });
+        return false;
+    }
+
+    function Phone_Get_ModelHash(model, l1) {
+        var str_url = "/support/utilities/GetModelHashID.aspx" + "?m=" + model;
+        $.ajax({
+            type: "GET",
+            url: str_url,
+            dataType: "text",
+            success: function (hash) {
+                $("#phone_final_Img").attr("src", "//www.asus.com/websites/global/products/" + hash + "/P_500.jpg");
+                $("#phone_final_Img").error(function () { $("#phone_final_Img").attr("src", "/support/images/products/" + l1 + "/304.jpg") });
+            }
+        });
+        return false;
+    }
+
+    function Phone_Get_ProdLinks(lang_id, l1, l2, model) {
+        //var str_url = "/support/utilities/GetProductSupportLink.aspx" + "?ln=" + lang_id + "&p=" + l1;
+        var str_url = "/support/utilities/GetProductSupportLink.aspx" + "?ln=" + lang_id + "&p=" + l1 + "&s=" + l2 + "&m=" + model;
+        $.ajax({
+            type: "GET",
+            url: str_url,
+            dataType: "xml",
+            success: function (xml) {
+                $("#ul_phone_prodlink").empty();
+                $(xml).find("Table1").each(function () {
+                    Link_Name = $(this).find("Link_Name").text();
+                    URL = $(this).find("URL").text();
+                    var mkturl = $(this).find("Description").text(); 
+                    //$("#ul_phone_prodlink").append("<li><a href='/support/" + URL + "/" + l1 + "/" + l2 + "/" + model + "'>" + Link_Name + "</a></li>");
+                    
+                    //20140423
+                    //$("#ul_phone_prodlink").append("<li><a href='" + $("#hd_lang_prefix").val() + "/Product/" + URL + "/" + modelReplace(model) + "/'>" + Link_Name + "</a></li>");
+                    $("#ul_phone_prodlink").append("<li><a target='_blank' href='" + mkturl + "/'>" + Link_Name + "</a></li>");
+                });
+            }
+        });
+        return false;
+    }
+
+    function Phone_Close_Prod() { $("#ul_phone_prod").hide(); }
+
+    function Phone_Click_ProdSub(lang_id, l1, l2) {
+        if (l2 == "") {
+            Phone_Bind_Series(lang_id, l1);
+            $("#ul_phone_prod_sub").hide();
+            $("#ul_phone_seriel").show();
+        } else {
+            Phone_Click_SerielbyL2(lang_id, l1, l2);
+        }
+        ScrolltoSelManual();
+    }
+
+    function Phone_Click_Seriel(lang_id, l1, l2) {
+        Phone_Bind_Model(lang_id, l1, l2);
+        $("#ul_phone_seriel").hide();
+        $("#ul_phone_model").show();
+        ScrolltoSelManual();
+    }
+
+    function Phone_Click_SerielbyL2(lang_id, l1, l2) {
+        Phone_Bind_ModelbyL2(lang_id, l1, l2);
+        $("#ul_phone_prod_sub").hide();
+        $("#ul_phone_model").show();
+        ScrolltoSelManual();
+    }
+
+    function Phone_Click_Model(lang_id, m_name, l1, l2, en_name) {
+        Phone_Get_ModelHash(en_name, l1);
+        Phone_Get_ProdLinks(lang_id, l1, l2, en_name);
+        $("#ul_phone_model").hide();
+        $("#ul_phone_final").show();
+        $("#phone_final_ModelName").html(m_name);
+        ScrolltoSelManual();
+    }
+
+    function Phone_Back_Prod() {
+        $("#ul_phone_prod").show();
+        $("#ul_phone_prod_sub").hide();
+    }
+
+    function Phone_Back_ProdSub() {
+        $("#ul_phone_prod_sub").show();
+        $("#ul_phone_seriel").hide();
+    }
+
+    function Phone_Back_ProdSub_byModel() {
+        $("#ul_phone_prod_sub").show();
+        $("#ul_phone_model").hide();
+    }
+
+    function Phone_Back_Seriel() {
+        $("#ul_phone_seriel").show();
+        $("#ul_phone_model").hide();
+    }
+
+    function Phone_Back_Model() {
+        $("#ul_phone_model").show();
+        $("#ul_phone_final").hide();
+    }
+
+    ////Phone////
+
+    //***手動選擇清單***
+
+    //***Auto Complete TextBox***
+    var hd_lang_prefix = $("#hd_lang_prefix").val().split('/');
+    var _country = hd_lang_prefix.length > 2 ? hd_lang_prefix[1] : 'global';
+    if (window.location.hostname.indexOf("asus.com.cn") >= 0) {
+        _country = 'cn';
+    }
+
+    $("#txtSearch").autocomplete("//www.asus.com/searchapi/api/Suggestion",
+        {
+            delay: 450,
+            width: 414,
+            minChars: 2, //至少輸入幾個字元才開始給提示?
+            matchSubset: false,
+            matchContains: false,
+            cacheLength: 0,
+            noCache: true, //每次都重新連後端查詢
+            onItemSelect: findValue,
+            onFindValue: findValue,
+            extraParams: { country: _country, type: "Products,Commercial", RowLimit: "10,10", eventDBRowLimit: 0 },
+            formatItem: function (row) {
+              //  var re = new RegExp($("#txtSearch").val(), 'gi');
+                return "<div  class=\"search-result\">" + row + "</div>";
+            },
+            autoFill: false,
+            mustMatch: false //是否允許輸入提示清單上沒有的值?
+        });
+    function findValue(li) {
+        if (li == null) return;
+        //$("#mainheader1_txtSearch").val(li.extra[0]);
+    }
+    //***Auto Complete TextBox***
+
+    //Search Link
+    function DoSearch() {
+        var txtSearch = encodeURIComponent($.trim($("#txtSearch").val()));
+        var txtGlobal = _country + '/';
+        if (txtSearch.length > 0) {
+            if (_country == 'cn') {
+                window.location.href = 'http://www.asus.com.cn/search/results.aspx?SearchKey=' + txtSearch + '&IsSupport=True';
+            } else {
+                if (txtGlobal == 'global/') txtGlobal = ''
+                window.location.href = 'http://www.asus.com/' + txtGlobal + 'search/results.aspx?SearchKey=' + txtSearch + '&IsSupport=True';
+            }
+        /*
+            //check in KB
+            $.post("/support/utilities/search_autocomp_check.aspx?q=" + txtSearch + "&lang=" + $("#langNormal").val(), function (data) {
+                document.location.href = data;
+
+            });*/
+        }
+        return false;
+    }
+
+    function modelReplace(model) {
+        var re1 = new RegExp("/", "g");
+        //var re2 = new RegExp("\.", "g");
+        var re3 = new RegExp("-", "g");
+        var re4 = new RegExp(" ", "g");
+        return model.replace(re1, "").replace(/\./g, "").replace(re3, "").replace(re4, "_");
+    }
+</script> 
+  <main class="content"> 
+   <div class="wide-inner"> 
+    <div class="service-top fluid-box"> 
+    </div> 
+    <script>
+    (function () {
+        if ($("#langNormal").val() == "zh-tw") {
+            $(".entry h2").each(function () {
+                var txt = $(this).text();
+                if (txt.length > 0) {
+                    var wfst = txt.substring(0, 1);
+                    var whtm = "<span class='keyword'>" + wfst + "</span>" + txt.replace(wfst, '');
+                    $(this).html(whtm);
+                }
+            });
+        }
+    } ());
+</script> 
+    <script type="text/javascript" src="/support/js/jquery.blockUI_light.js"></script> 
+    <div class="service-middle fluid-box"> 
+     <section class="half-box"> 
+      <div id="pnl_sign" class="service-account"> 
+       <h2 langtype="support_main" langtextid="account_title" class="title">ASUS Account</h2> 
+       <div class="account-item item"> 
+        <div class="entry"> 
+         <p id="quick_service1_p_reg" class="mb-20">Get fuller and faster service by having ASUS account. Don't have ASUS account yet? </p> 
+         <a href="https://account.asus.com/signup.aspx?lang=en-ae&amp;site=ae-en" id="quick_service1_a_reglink" target="_blank" class="see-all ">Sign up now.</a> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="pnl_regest" class="service-account"> 
+       <h2 id="quick_service1_H1" langtype="support_main" langtextid="account_myprod" class="title">My Product</h2> 
+       <div class="account-item item"> 
+        <div class="entry"> 
+         <p id="quick_service1_p_regprod" class="mb-20">Get faster technical support, updates, and better service.</p> 
+         <a href="https://account.asus.com/product_reg.aspx?lang=en-ae&amp;site=ae-en" id="quick_service1_a_regprodlink" target="_blank" class="see-all ">Register Now.</a> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="pnl_myprod" class="my-products"> 
+       <header class="header"> 
+        <h2 langtype="support_main" langtextid="account_myprod" class="title">My Product</h2> 
+        <a href="https://account.asus.com/product_reg.aspx?lang=en-ae&amp;site=ae-en" id="quick_service1_a_regist1" target="_blank" class="see-all " langtype="support_main" langtextid="prodreg">Product Registration</a> 
+       </header> 
+       <div class="arrow-group"> 
+        <a class="article-go-left no_next ar-prev" id="vote_left_btn" href="#"></a> 
+        <a class="article-go-right ar-next" id="vote_right_btn" href="#"></a> 
+       </div> 
+       <div class="products-box slider-group"> 
+        <div class="mask"> 
+         <div class="silder-cont additional-zone" "> 
+          <ul id="ul_regprod"> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </section> 
+     <section class="half-box"> 
+      <div class="quick-group"> 
+       <h2 class="title">Quick Service</h2> 
+       <div class="quick-nav"> 
+        <a href="http://www.asus.com/ae-en/support/self-service/402/" target="_blank" class="quick-unit ss-bh ss-6"> <i class="service-icon"></i><p>Windows 10</p> </a> 
+        <a href="http://www.asus.com/ae-en/support/self-service/1/" target="_blank" class="quick-unit ss-bh no-br"> <i class="service-icon"></i><p>Notebook</p> </a> 
+        <a href="http://www.asus.com/ae-en/support/self-service/2/" target="_blank" class="quick-unit ss-bh ss-2"> <i class="service-icon"></i><p>Tablet</p> </a> 
+        <a href="http://www.asus.com/ae-en/support/self-service/4/" target="_blank" class="quick-unit ss-bh ss-3"> <i class="service-icon"></i><p>Motherboards</p> </a> 
+        <a href="http://www.asus.com/ae-en/support/self-service/3/" target="_blank" class="quick-unit ss-bh ss-4"> <i class="service-icon"></i><p>Networking</p> </a> 
+       </div> 
+      </div> 
+     </section> 
+    </div> 
+    <img alt="loading" id="loadingBox" src="/support/images/support-loading.gif" width="50px" height="50px" style="display: none;"> 
+    <input name="quick_service1$hd_logype" type="hidden" id="hd_logype" value="non"> 
+    <input name="quick_service1$hd_more" type="hidden" id="hd_more" value="More Detail"> 
+    <input name="quick_service1$hd_download" type="hidden" id="hd_download" value="Download"> 
+    <script>
+
+    function GetRegProd() {
+        $("#pnl_sign").show();
+        $("#pnl_regest").hide();
+        $("#pnl_myprod").hide();
+
+        $("#pnl_sign").block({ message: $('#loadingBox'),
+            css: {
+                border: 'none',
+                backgroundColor: 'transparent',
+                width: '50px'
+            }
+        }); 
+
+        $.post("/support/utilities/fak/get_regprod.aspx?lang_id=" + $("#langNormal").val(), function (data) {
+            if (data != undefined && data != null && data.length > 0) {
+                if (data[0].RegCnt != undefined && data[0].RegCnt != null && data[0].RegCnt == "0") {
+                    DispReg(0);
+                } else {
+
+                    for (var i = 0; i < data.length; i++) {
+                        var pmodel = data[i].pmodel;
+                        var img = data[i].img;
+                        var detail = data[i].detail;
+                        var download = data[i].download;
+
+                        $("#ul_regprod").append("<li><div class='item prod-item'><div class='left'><img src='" + img + "' width='56px' alt=''></div>" +
+            							        "<div class='entry' style='width:255px; margin-right:20px'><p class='title-name'>" + pmodel + "</p>" +
+            								    "<a href='" + detail + "' target='_blank'>" + $("#hd_more").val() + "</a>" +
+            								    "<a href='" + download + "' target='_blank'>" + $("#hd_download").val() + "</a>" +
+            							        "</div></div></li>");
+
+                    }
+                    DispReg(data.length);
+                }
+            }
+            else
+                DispReg(-1);
+        });
+
+    }
+
+    function DispReg(regcnt) {
+        if (regcnt > 0) {
+            $("#pnl_sign").hide();
+            $("#pnl_regest").hide();
+            $("#pnl_myprod").show();
+        } else if (regcnt == 0) {
+            $("#pnl_sign").hide();
+            $("#pnl_regest").show();
+            $("#pnl_myprod").hide();
+        } else {
+            $("#pnl_sign").show();
+            $("#pnl_regest").hide();
+            $("#pnl_myprod").hide();
+        }
+        SetAdditionaljCar();
+        $("#pnl_sign").unblock();
+    }
+
+</script> 
+    <script>
+    $(document).ready(function () {
+        GetRegProd();
+    });
+</script> 
+    <script>
+    function SetAdditionaljCar() {
+        if ($(".additional-zone li").length > 0) {
+            if ($(window).width() < 959) {
+                //additional to vertical
+                $("#vote_right_btn").unbind();
+                $("#vote_left_btn").unbind();
+
+                $(".additional-zone").jCarouselLite({
+                    btnNext: "#vote_right_btn",
+                    btnPrev: "#vote_left_btn",
+                    circular: false,
+                    visible: 4,
+                    vertical: true
+                });
+            } else {
+                $("#vote_right_btn").unbind();
+                $("#vote_left_btn").unbind();
+
+                $(".additional-zone").jCarouselLite({
+                    btnNext: "#vote_right_btn",
+                    btnPrev: "#vote_left_btn",
+                    circular: false,
+                    visible: 2
+                });
+                
+            }
+        }
+    }
+
+</script> 
+    <aside class="service-bottom"> 
+     <div class="fluid-box"> 
+      <div class="col-4"> 
+       <div class="col-inner"> 
+        <h3 class="title" langtype="support_main" langtextid="info_title1">Important Information</h3> 
+        <ul class="it-list"> 
+         <li><a href="/ae-en/support/Article/565/" target="_self">How to find model name</a></li> 
+         <li><a href="/ae-en/support/Article/566/" target="_self">How to find product S/N</a></li> 
+         <li><a href="/ae-en/support/Article/588/" target="_self">ASUS ServerCare Service Program </a></li> 
+         <li><a href="/ae-en/support/Article/604/" target="_self">ASUS Battery Information Center</a></li> 
+        </ul> 
+        <a href="/ae-en/support/Article/565/" id="info_service1_lnkPopularMore" class="see-all " langtype="support_main" langtextid="more">More</a> 
+       </div> 
+      </div> 
+      <div class="col-4"> 
+       <div class="col-inner"> 
+        <h3 class="title" langtype="support_main" langtextid="info_title2">News &amp; Announcement</h3> 
+        <a href="/ae-en/support/Information" id="info_service1_lnkNewsMore" class="see-all " langtype="support_main" langtextid="more">More</a> 
+       </div> 
+      </div> 
+      <div class="col-4"> 
+       <div class="col-inner"> 
+        <h3 id="info_service1_serviceTitle" class="title">Contact Us</h3> 
+        <ul class="bh-list"> 
+         <li><a href="/ae-en/support/CallUs">Call Us</a></li> 
+         <li><a href="http://vip.asus.com/vip2/Services/QuestionForm?lang=en-us">Email Us</a></li> 
+         <li><a href="/ae-en/support/Service-Center/United%20Arab%20Emirates">Find service locations</a></li> 
+         <li><a href="http://emea-chat.asus.com/ChatService/index.htm?tenant=EG&amp;lang=eg">Online Chat</a></li> 
+        </ul> 
+        <h3 id="info_service1_repairTitle" class="title mt-30">Get Repair Relative</h3> 
+        <ul class="bh-list"> 
+         <li><a href="/ae-en/support/Repair-Status-Inquiry/?country=United%20Arab%20Emirates">Check Repair Status</a></li> 
+        </ul> 
+       </div> 
+      </div> 
+     </div> 
+    </aside> 
+   </div> 
+  </main> 
+  <!--support start--> 
+  <!--support end-->  
+ </body>
+</html>

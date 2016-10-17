@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width"> 
+  <meta name="description" content="Powered by ASUS offers dream machines with select system-builders, from small-form-factor dynamos to giant liquid-cooled beasts, Powered by ASUS means exclusivity, performance, and art."> 
+  <meta name="keywords" content="ASUS,VGA,MB,Desktop,Display,Monitor,Networks,Server &amp; Workstation,Chassis,Motherboards,PC Gaming hardware,Gaming motherboard,overclocking motherboard,Battlefield,assassins creed,Optical Storage,Graphics Cards,Multimedia,Peripherals &amp; Accessories,accessories,Peripheral,PC Accessories,Computer Peripheral,Power Supply,Thermal Solution,Eshop,PCs,Barebone PC, ASUS Partners, PBA, PBA Systems, ASUS System Integrator, ASUS System Builder, ASUS Gaming Systems, Gaming System, ASUS Computer, ASUS Gaming Computer"> 
+  <meta property="og:site_name" content="Powered by ASUS"> 
+  <meta property="og:title" content="Powered by ASUS."> 
+  <meta property="og:description" content="Powered by ASUS offers dream machines with select system-builders, from small-form-factor dynamos to giant liquid-cooled beasts, Powered by ASUS means exclusivity, performance, and art."> 
+  <link rel="shortcut icon" href="http://www.asus.com/media/img/favicon.ico"> 
+  <title>Powered by ASUS</title> 
+  <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" type="text/css"> 
+  <link href="Theme/CSS/normalize.css" rel="stylesheet" media="screen"> 
+  <link href="Theme/CSS/default.css" rel="stylesheet" media="screen"> 
+  <link href="Theme/CSS/idangerous.swiper.css" rel="stylesheet" media="screen"> 
+  <script type="text/javascript">
+    //ASUS header & footer
+        window.ASUSInit = function () {
+            asus_api.init({ appkey: 'campa00004' , lang: 'ru', api_menu_logo: '0' } );
+        };
+        (function(d){
+            var js, id = 'asus-jsapi';
+            if (d.getElementById("asus-jsapi")) {return;}
+            js = d.createElement('script');
+            js.id = id;
+            js.async = true;
+            js.src = "//www.asus.com/API/js/asus_api.js";
+            d.getElementsByTagName('head')[0].appendChild(js);
+        }(document));
+     </script> 
+  <script src="Theme/Javascript/modernizr.custom.08193.js"></script> 
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> 
+  <script src="Theme/Javascript/default.js"></script> 
+  <script src="Theme/Javascript/idangerous.swiper.min.js"></script> 
+  <script type="text/javascript">
+    //ASUS header & footer
+        window.ASUSInit = function () {
+            asus_api.init({ appkey: 'campa00004' , lang: 'ru)', api_menu_logo: '0' } );
+        };
+        (function(d){
+            var js, id = 'asus-jsapi';
+            if (d.getElementById("asus-jsapi")) {return;}
+            js = d.createElement('script');
+            js.id = id;
+            js.async = true;
+            js.src = "//www.asus.com/API/js/asus_api.js";
+            d.getElementsByTagName('head')[0].appendChild(js);
+        }(document));
+     </script> 
+ </head> 
+ <body> 
+  <!-- Yandex.Metrika counter --> 
+  <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter37871905 = new Ya.Metrika({ id:37871905, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> 
+  <noscript>
+   <div>
+    <img src="https://mc.yandex.ru/watch/37871905" style="position:absolute; left:-9999px;" alt="">
+   </div>
+  </noscript> 
+  <!-- /Yandex.Metrika counter --> 
+  <div class="wrapper"> 
+   <header class="header"> 
+    <section class="header-inner"> 
+     <a href="index.html"><img class="logo" src="Theme/Image/UI/logo.png"></a> 
+     <div class="burger-wrapper"> 
+      <a class="burger burger-on"></a> 
+      <a class="burger burger-off"></a> 
+     </div> 
+     <ul class="menu"> 
+      <li><a href="index.html" class="active" onclick="ga('send', 'event', 'menus', 'clicked', ‘powered-by-asus-au')">Почему ASUS</a></li> 
+      <li><a href="buynowgaming.html" class="icon-cart" onclick="ga('send', 'event', 'menus', 'clicked', ‘buy-a-pc-now-au')">Игровые компьютеры</a></li> 
+      <li><a href="buynowws.html" class="icon-cart" onclick="ga('send', 'event', ‘menus’, 'clicked', ‘best-companion-with-your-pc-au')">Рабочие станции</a></li> 
+      <li><a href="companion.html" onclick="ga('send', 'event', ‘menus’, 'clicked', ‘best-companion-with-your-pc-au')">Периферия и аксессуары</a></li> 
+      <li><a href="promotion.html" onclick="ga('send', 'event', ‘menus', 'clicked', ‘events-and-promotion-au')">Акции</a></li> 
+     </ul> 
+    </section> 
+   </header> 
+   <main class="main"> 
+    <!-- <section class="banner home-banner">
+            <div class="hero">
+                <a href="buynow.html"><div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-1.jpg)"></div></a>
+            </div> --> 
+    <main class="main"> 
+     <section class="banner home-banner"> 
+      <div class="hero"> 
+       <!--banner slider : start --> 
+       <a class="arrow-left" href="#"></a> 
+       <a class="arrow-right" href="#"></a> 
+       <div class="swiper-container"> 
+        <div class="swiper-wrapper"> 
+         <div class="swiper-slide"> 
+          <div class="swiper-img">
+           <a href="http://www.asus.com/ru/Graphics-Cards/ROG-STRIX-GTX1080-O8G-GAMING/" target="_blank" onclick="ga('send', 'event', ‘banners', 'clicked')">
+            <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-8.jpg)"></div></a>
+          </div> 
+         </div> 
+         <div class="swiper-slide"> 
+          <div class="swiper-img">
+           <a href="buynowgaming.html" class="action" onclick="ga('send', 'event', 'navigations', 'clicked', ‘buy-a-pc-now')">
+            <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-1.jpg)"></div></a>
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="pagination"></div> 
+       <!--banner slider : end --> 
+      </div>
+     </section> 
+     <section class="home-intro"> 
+      <div class="home-intro-inner clear"> 
+       <div class="home-logo">
+        <img src="Theme/Image/UI/PC_01.png">
+       </div> 
+       <div class="text"> 
+        <h2>Идеальные компьютеры на лучших компонентах</h2> 
+        <p>ASUS – крупнейший производитель материнских плат с долей мирового рынка около 40%. За последние несколько десятилетий компания стала настоящим лидером в области технических инноваций. Имя компании стало синонимом таких понятий, как качество, стиль, производительность. Обладая одним из лучших в мире центров исследований и разработок, компания ASUS разработала и внедрила множество решений и технологий, которые впоследствие стали отраслевыми стандартами. Основываясь на глубоком понимании потребностей каждого отдельно взятого пользователя, компания ASUS уверена, что предлагает полный спектр самых современных и высокотехнологичных продуктов, способных решать задачи совершенного разного уровня. Благодаря многолетнему опыту в разработке аппаратного обеспечения, компания ASUS является лидером отрасли с точки зрения производительности, безопасности и надежности производимых ей устройств. Если вы хотите собрать самый лучший компьютер – используйте комплектующие от ASUS.</p> 
+       </div> 
+      </div> 
+     </section> 
+     <section class="home-duet clear"> 
+      <div class="asset"> 
+       <div class="text"> 
+        <h3>№1 на рынке материнских плат</h3> 
+        <p>На протяжении 10 лет компания ASUS удерживает свои лидирующие позиции на рынке материнских плат, сочетая в своих продуктах технологичность, инновационность и непревзойденную производительность. 500 миллионов материнских плат ASUS, проданных с 1989 года вкупе с великолепной надежностью и отличной поддержкой продуктов, говорят о том, что ASUS – бренд, которому можно доверять.</p> 
+       </div> 
+       <div class="img">
+        <img src="Theme/Image/home/asset-a-1.jpg">
+       </div> 
+      </div> 
+      <div class="asset"> 
+       <div class="text"> 
+        <h3>№1 на рынке видеокарт</h3> 
+        <p>ASUS - первая компания в мире с полностью автоматизированным производством видеокарт. Отборные компоненты, системы охлаждения собственной разработки и высочайший контроль качества на всех этапах производства вывели ASUS на лидирующие позиции на рынке видеокарт. Удобное и интуитивно понятное ПО позволяет гибко настраивать параметры работы видеокарт для достижения максимальной производительности. Выбирая лучшее, выбирай ASUS</p> 
+       </div> 
+       <div class="img">
+        <img src="Theme/Image/home/asset-a-2.jpg">
+       </div> 
+      </div> 
+     </section> 
+     <section class="home-team clear"> 
+      <div class="asset"> 
+       <div class="text"> 
+        <h3>№1 на рынке игровых мониторов</h3> 
+        <p>Мониторы ASUS заслуженно пользуются уважением и популярностью геймеров во всем мире. Отличное качество изображения, поддержка технологий NVIDIA G-SYNC и AMD Free Sync, малое время отклика и дополнительные игровые функции позволят вам получить максимум удовольствия от виртуальных сражений. Кроме того, в мониторах ASUS применяются технологии, защищающие зрение, снижая воздействие на глаза синего спектра света до 70%!</p> 
+       </div> 
+       <div class="img">
+        <img src="Theme/Image/home/asset-b-1.jpg">
+       </div> 
+      </div> 
+      <div class="asset"> 
+       <div class="text"> 
+        <h3>На предельных скоростях</h3> 
+        <p>Беспроводные сетевые решения ASUS - это широчайшая зона покрытия, высочайшая скорость обмена данных, быстрые и удобные настройка и управление параметрами работы благодаря интуитивно-понятному графическому интерфейсу ASUSWRT, надежная защита данных при работе в сети (технология AiProtection), качественная техподдержка и, как у всех продуктов ASUS, высочайшая надежность и стабильность.</p> 
+       </div> 
+       <div class="img">
+        <img src="Theme/Image/home/asset-b-2.jpg">
+       </div> 
+      </div> 
+      <div class="asset"> 
+       <div class="text"> 
+        <h3>До 1000 лет хранения информации</h3> 
+        <p>Все внутренние оптические приводы ASUS поддерживают технологию M-DISC™ - идеальное решение для хранения особо важной информации. Записанные с помощью оптических приводов ASUS данные благодаря технологии M-DISC будут находиться под надежной защитой от экстремальных воздействий столетиями.</p> 
+       </div> 
+       <div class="img">
+        <img src="Theme/Image/home/asset-b-3.jpg">
+       </div> 
+      </div> 
+      <div class="asset"> 
+       <div class="text"> 
+        <h3>Выбор читателей "PC Games Hardware" три года подряд</h3> 
+        <p>Звуковые карты ASUS способны удовлетворить самых требовательных ценителей звука. Компоненты аудиофильского класса, высокое соотношение сигнал-шум (SNR), тщательно подобранные усилители для наушников и многоканальный объемный звук - все это делает звуковые карты ASUS лучшим выбором для игровых и мультимедийных задач. </p> 
+       </div> 
+       <div class="img">
+        <img src="Theme/Image/home/asset-b-4.jpg">
+       </div> 
+      </div> 
+     </section> 
+     <section class="buy-now"> 
+      <a href="buynowgaming.html" class="action" onclick="ga('send', 'event', 'navigations', 'clicked', ‘buy-a-pc-now-au');yaCounter37871905.reachGoal('buttonclick-chooseyourpc'); return true;">ВЫБЕРИ СВОЙ ИГРОВОЙ КОМПЬЮТЕР</a> 
+     </section> 
+    </main> 
+    <footer class="footer"> 
+     <p class="backtotop"><a>Back to Top</a></p> 
+     <section class="content"> 
+      <p class="copyright "><a href="http://asus.ru/" target="_blank"><img src="Theme/Image/UI/asus.png"></a><br>©ASUSTeK Computer Inc. Все права защищены.</p> 
+     </section> 
+    </footer> 
+    <div class="sidenav"> 
+     <!--<a class="sidenav-home-1"><span>OVERVIEW</span></a>--> 
+     <a class="sidenav-home-2"><span>ПОЧЕМУ POWERED BY ASUS?</span></a> 
+     <a class="sidenav-home-3"><span>ВЫБИРАЯ ЛУЧШЕЕ.ВЫБИРАЙ ASUS?</span></a> 
+    </div> 
+   </main>
+  </div> 
+  <!-- Код тега ремаркетинга Google --> 
+  <script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 879541035;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script> 
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script> 
+  <noscript> 
+   <div style="display:inline;"> 
+    <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/879541035/?value=0&amp;guid=ON&amp;script=0"> 
+   </div> 
+  </noscript>  
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NJRLM8');</script> 
+  <!-- End Google Tag Manager -->  
+ </body>
+</html>

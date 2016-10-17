@@ -1,0 +1,944 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"> 
+  <meta name="description" content="ASUS"> 
+  <meta name="keywords" content="ASUS"> 
+  <meta property="og:site_name" content="ASUS"> 
+  <meta property="og:image" content="http://promos.asus.com/us/Z87/assets/img/social-200x200.jpg"> 
+  <meta property="og:title" content="Upgrade Your ASUS Motherboard For Ultimate-speed USB3.1"> 
+  <meta property="og:description" content="The world’s most comprehensive USB3.1 solutions"> 
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:title" content="Upgrade Your ASUS Motherboard For Ultimate-speed USB3.1"> 
+  <meta name="twitter:image" content="http://promos.asus.com/us/Z87/assets/img/social-200x200.jpg"> 
+  <link rel="shortcut icon" href="http://www.asus.com/media/img/favicon.ico"> 
+  <title>Upgrade Your ASUS Motherboard For Ultimate-speed USB3.1</title> 
+  <link href="Theme/CSS/normalize.css" rel="stylesheet" media="screen"> 
+  <link href="Theme/CSS/default.css" rel="stylesheet" media="screen"> 
+  <link href="http://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css"> 
+  <link href="http://fonts.googleapis.com/css?family=Jockey+One" rel="stylesheet" type="text/css"> 
+ </head> 
+ <body> 
+  <div class="wrapper"> 
+   <div class="lan-wrapper"> 
+    <div class="lan">
+     <!--選擇語言--> 
+     <span id="lan-lan-1">change language</span> 
+     <select id="sel_language" onchange="change_language()"> <option value="en">English</option> <option value="fr">Français</option> <option value="de">German</option> <option value="it">Italian</option> <option value="es">Spanish</option> <option value="hu">Hungarian</option> <option value="pl">Polish</option> <option value="sk">Slovak</option> <option value="cs">Czech</option> <option value="ru">Russian</option> <option value="ar">Arabic</option> <option value="kr">Korean</option> <option value="th">Thai</option> <option value="vi">Vietnamese</option> <option value="id">Indonesian</option> <option value="ja">日本語</option> <option value="zh-tw">中文</option> </select> 
+    </div> 
+   </div> 
+   <div class="title-1"> 
+    <h1 id="lan-title-1"><span style="background-image: url('Theme/Image/title-1.png')">Upgrade Your ASUS Motherboard For Ultimate-speed USB3.1</span></h1> 
+    <h2 id="lan-title-2">The world’s most comprehensive USB3.1 solutions</h2> 
+    <div id="lan-title-3">
+     <img class="title-1-mobile" src="Theme/Image/title-1-mobile.png">
+    </div> 
+   </div> 
+   <div class="main"> 
+    <div class="forword"> 
+     <img src="Theme/Image/trio.png"> 
+     <p id="lan-main-1">USB 3.1 is here and ASUS brings you next-gen data transfers before anyone else on the planet. Be it a new ASUS motherboard or an upgrade, with our two USB 3.1 Card options (dual Type-A and Type-C) and our exclusive ASUS USB 3.1 Boost utility to accelerate your existing PC faster than ever before, you’ll experience lightning-speed transfers of up to 10Gb/s!</p> 
+    </div> 
+    <img class="main-mobile" src="Theme/Image/main-mobile.jpg"> 
+    <ul> 
+     <li class="main-1"> <h3 id="lan-main-2"><span>1</span>USB 3.1 built-in motherboard</h3> <p id="lan-main-3">Latest most popular dual Type A USB 3.1 connectivity!</p> <a class="pointer" id="lan-main-4">[<span>Learn more about available models</span>]</a> </li> 
+     <li class="main-2"> <h3 id="lan-main-5"><span>2</span>Discrete USB 3.1 Type-A Card (Dual)</h3> <p id="lan-main-6">World’s first PCIe card for any PCIe x4, x8 and x16 slot, adding two Type-A USB 3.1 ports. Our USB 3.1 Card is included with some ASUS motherboards, and is also available as a separate upgrade to accelerate your PC faster than ever.<br><span>* It requires both driver and BIOS update.</span></p> <a class="pointer" id="lan-main-7">[<span>Learn more via our QVL list</span>]</a> </li> 
+     <li class="main-3"> <h3 id="lan-main-8"><span>3</span>Brilliant speed</h3> <p id="lan-main-9">Up to 10Gbit/s — 2X faster than USB 3.0</p> </li> 
+     <li class="main-4"> <h3 id="lan-main-10"><span>&nbsp;</span>Backwards compatibility</h3> <p id="lan-main-11">USB 3.1 works perfectly with USB 3.0 and 2.0 devices</p> <img src="Theme/Image/main-4.png"> </li> 
+     <li class="main-5"> <h3 id="lan-main-12"><span>&nbsp;</span>Dual Type-A ports</h3> <p id="lan-main-13">The most popular USB socket</p> <img src="Theme/Image/main-5.png"> </li> 
+    </ul> 
+   </div> 
+   <div class="card"> 
+    <div class="text"> 
+     <h3 id="lan-card-1">Discrete USB 3.1 Type-C Card (Single)</h3> 
+     <p id="lan-card-2">World’s first PCIe card for any PCIe x4, x8 and x16 slots, adding a future-proof reversible Type-C USB 3.1 port. It works perfectly with ASUS motherboards*. <br><span>* It requires both driver and BIOS update.</span></p> 
+     <a class="pointer" id="lan-card-3">[<span>Learn more via our QVL list</span>]</a> 
+    </div> 
+    <span id="lan-card-4"><img src="Theme/Image/card.jpg"></span> 
+   </div> 
+   <div class="middle"> 
+    <span id="lan-middle-3"><img src="Theme/Image/boost.jpg"></span> 
+    <div class="text"> 
+     <h3 id="lan-middle-1">ASUS USB 3.1 Boost</h3> 
+     <p id="lan-middle-2">An exclusive utility that automatically accelerates USB 3.1 for sequential read/write speeds of up to 854.6/863.9MB/s<br><br><span>* It requires to update USB 3.1 Boost to V1.08.02 or later version</span></p> 
+    </div> 
+   </div> 
+   <div class="graph"> 
+    <span id="lan-graph-1"><img src="Theme/Image/graph-1.png"></span> 
+    <span id="lan-graph-2"><img src="Theme/Image/graph-2.png"></span> 
+    <span id="lan-graph-3"><img src="Theme/Image/graph-3.png"></span> 
+    <p id="lan-graph-4">Intel core™ I7-5930K @ 3.5GHz CPU<br>ASUS X99-PRO motherboard (BIOS 0201)<br>ASUS USB 3.1 Type-A Card <br>SK Hynix MEN-HYN DDR4-2133 4G x2 memory<br>Win8.1 64bit | Samsung 840 EVO 250GB x2</p> 
+   </div> 
+   <div class="title-2"> 
+    <h1 id="lan-title-4">2-step installation to ensure the best USB 3.1 performance</h1> 
+   </div> 
+   <div class="step"> 
+    <div class="step-1"> 
+     <p id="lan-step-1">Visit your ASUS motherboard’s support page to download and refresh the latest BIOS.</p> 
+     <p class="tip" id="lan-step-2">Tip – use <a href="http://event.asus.com/2012/mb/USB_BIOS_Flashback_GUIDE/" target="_blank">USB BIOS Flashback*</a> to flash the BIOS using a USB storage device.<br>(USB BIOS Flashback is available on selected models)</p> 
+    </div> 
+    <div class="step-2"> 
+     <p><span id="lan-step-3">Install the ASUS USB 3.1 Card driver from support DVD or ASUS support site.</span><br><img src="Theme/Image/tip.png"></p> 
+    </div> 
+   </div> 
+   <div class="title-3"> 
+    <div class="spec-tab"> 
+     <a class="spec-1 active" id="lan-title-7">ASUS USB 3.1 Motherboard Line-up</a> 
+     <a class="spec-2" id="lan-title-8">USB 3.1 Compatible Devices</a> 
+    </div> 
+   </div> 
+   <div class="spec spec-table-1"> 
+    <table> 
+     <tbody>
+      <tr> 
+       <th colspan="2"> <span id="lan-spec-1">MODELS</span><br><br> <span id="lan-spec-9">By chipset</span> <select id="sel_mb_class" onchange="set_mother_board_list()"> <option value="">ALL</option> <option>X99</option> <option>Z97</option> <option>B85</option> </select> </th> 
+       <th><img src="Theme/Image/spec-3.png"><br> <span id="lan-spec-2">Compatible with ASUS USB 3.1 card</span><br> </th> 
+       <th><img src="Theme/Image/spec-1.png"><br> <span id="lan-spec-3">USB 3.1 integrated or<br>Type A card bundled</span><br> <select id="sel_mb_plus" onchange="set_mother_board_list()"> <option id="lan-spec-12" value="">ALL</option> <option id="lan-spec-10" value="USB_31">USB 3.1 integrated Models</option> <option id="lan-spec-11" value="Type_A">Type A card bundled Models</option> </select> </th> 
+       <th id="lan-spec-3a">BIOS version</th> 
+      </tr> 
+     </tbody>
+     <tbody id="tbody_mother_board"> 
+      <!--X99--> 
+      <tr> 
+       <td rowspan="13" class="name">X99</td> 
+       <td><a href="http://www.asus.com/Motherboards/RAMPAGE_V_EXTREMEU31/" target="_blank">RAMPAGE V EXTREME/U3.1</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td><span class="yes">Yes</span><span>(Type A card bundled)</span></td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/RAMPAGE_V_EXTREMEU31/HelpDesk" target="_blank"><span>(BIOS 1302)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/us/Motherboards/RAMPAGE_V_EXTREME/" target="_blank">RAMPAGE V EXTREME</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/us/Motherboards/RAMPAGE_V_EXTREME/HelpDesk/" target="_blank"><span>(BIOS 1302)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/X99DELUXEU31/" target="_blank">X99-DELUXE/U3.1</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td><span class="yes">Yes</span><span>(Type A card bundled)</span></td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/X99DELUXEU31/HelpDesk/" target="_blank"><span>(BIOS 1502)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/us/Motherboards/X99DELUXE/ " target="_blank">X99-DELUXE</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/us/Motherboards/X99DELUXE/HelpDesk/" target="_blank"><span>(BIOS 1502)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/X99PROUSB_31/" target="_blank">X99-PRO/USB 3.1</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td><span class="yes">Yes</span><span>(BIOS 0401)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/X99PRO/" target="_blank">X99-PRO</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/X99PRO/HelpDesk/" target="_blank"><span>(BIOS 1401)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/X99S/" target="_blank">X99-S</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/X99S/HelpDesk/" target="_blank"><span>(BIOS 1502)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/X99AUSB31TRANSFER_EXPRESS/" target="_blank">X99-A/USB 3.1(TRANSFER EXPRESS)</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td><span class="yes">Yes</span><span>(BIOS 0401)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/X99AUSB31/" target="_blank">X99-A/USB 3.1</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td><span class="yes">Yes</span><span>(BIOS 0401)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/X99A/" target="_blank">X99-A</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/X99A/HelpDesk/" target="_blank"><span>(BIOS 1401)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Commercial_Servers_Workstations/X99E_WSUSB31/" target="_blank">X99-E WS/USB 3.1</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td><span class="yes">Yes</span><span>(Available in April)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Commercial_Servers_Workstations/X99E_WS/" target="_blank">X99-E WS</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 1003)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/X99WSIPMI/" target="_blank">X99-WS/IPMI</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 0605)</span></td> 
+      </tr> 
+      <!--Z97--> 
+      <tr> 
+       <td rowspan="33" class="name">Z97</td> 
+       <td><a href="http://www.asus.com/Motherboards/Z97DELUXENFC_WLC/" target="_blank">Z97-DELUXE(NFC &amp; WLC)</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/Z97DELUXENFC_WLC/HelpDesk/" target="_blank"><span>(BIOS 2205)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/Z97DELUXEUSB_31/" target="_blank">Z97-DELUXE/USB 3.1</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/Z97DELUXEUSB_31/HelpDesk/" target="_blank"><span>(BIOS 0401)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/us/Motherboards/Z97DELUXE/" target="_blank">Z97-DELUXE</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/us/Motherboards/Z97DELUXE/HelpDesk/" target="_blank"><span>(BIOS 2205)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/Z97PROWiFi_acUSB_31/" target="_blank">Z97-PRO(Wi-Fi ac)/USB 3.1</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/Z97PROWiFi_acUSB_31/HelpDesk/" target="_blank"><span>(BIOS 0501)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/Z97PROWiFi_ac/" target="_blank">Z97-PRO(Wi-Fi ac)</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/Z97PROWiFi_ac/HelpDesk/" target="_blank"><span>(BIOS 2205)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/Z97PRO/" target="_blank">Z97-PRO</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/Z97PRO/HelpDesk/" target="_blank"><span>(BIOS 2205)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/Z97AUSB_31/" target="_blank">Z97-A/USB 3.1</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/Z97AUSB_31/HelpDesk/" target="_blank"><span>(BIOS 0501)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/Z97A/" target="_blank">Z97-A</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/Z97A/HelpDesk/" target="_blank"><span>(BIOS 2205)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/Z97AR/" target="_blank">Z97-AR</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/Z97AR/HelpDesk/" target="_blank"><span>(BIOS 2205)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/Z97C/" target="_blank">Z97-C</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 2403)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/Z97EUSB31/" target="_blank">Z97-E/USB 3.1</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/Z97EUSB31/HelpDesk/" target="_blank"><span>(BIOS 0317)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/Z97E/" target="_blank">Z97-E</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/Z97E/HelpDesk/" target="_blank"><span>(BIOS 0701)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/Z97KUSB31/" target="_blank">Z97-K/USB 3.1</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td><span class="yes">Yes</span><span>(BIOS 0313)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/Z97K_R20/ " target="_blank">Z97-K R2.0</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 0801)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/Z97K/" target="_blank">Z97-K</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 2602)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/Z97P/" target="_blank">Z97-P</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 2704)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/Z97MPLUS/" target="_blank">Z97M-PLUS</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 2701)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/SABERTOOTH_Z97_MARK_1USB_31/" target="_blank">SABERTOOTH Z97 MARK 1/USB 3.1</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/SABERTOOTH_Z97_MARK_1USB_31/HelpDesk/" target="_blank"><span>(BIOS 0401)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/SABERTOOTH_Z97_MARK_1/" target="_blank">SABERTOOTH Z97 MARK 1</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/SABERTOOTH_Z97_MARK_1/HelpDesk/" target="_blank"><span>(BIOS 2205)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/SABERTOOTH_Z97_MARK_S/" target="_blank">SABERTOOTH Z97 MARK S</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/SABERTOOTH_Z97_MARK_S/HelpDesk/" target="_blank"><span>(BIOS 2205)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/SABERTOOTH_Z97_MARK_2/" target="_blank">SABERTOOTH Z97 MARK 2</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/SABERTOOTH_Z97_MARK_2/HelpDesk/" target="_blank"><span>(BIOS 2205)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/GRYPHON_Z97/" target="_blank">GRYPHON Z97</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/GRYPHON_Z97/HelpDesk/" target="_blank"><span>(BIOS 2205)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/GRYPHON_Z97_ARMOR_EDITION/" target="_blank">GRYPHON Z97(ARMOR EDITION)</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/GRYPHON_Z97_ARMOR_EDITION/HelpDesk/" target="_blank"><span>(BIOS 2205)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/MAXIMUS_VII_FORMULAWATCH_DOGS/" target="_blank">MAXIMUS VII FORMULA/WATCH DOGS</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/MAXIMUS_VII_FORMULAWATCH_DOGS/HelpDesk/" target="_blank"><span>(BIOS 2304)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/MAXIMUS_VII_FORMULA/" target="_blank">MAXIMUS VII FORMULA</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/MAXIMUS_VII_FORMULA/HelpDesk/" target="_blank"><span>(BIOS 2304)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/MAXIMUS_VII_HERO/" target="_blank">MAXIMUS VII HERO</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/MAXIMUS_VII_HERO/HelpDesk/" target="_blank"><span>(BIOS 2304)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/MAXIMUS_VII_HERO/" target="_blank">MAXIMUS VII HERO/ACU</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/MAXIMUS_VII_HERO/HelpDesk/" target="_blank"><span>(BIOS 2304)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/MAXIMUS_VII_GENE/" target="_blank">MAXIMUS VII GENE</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/MAXIMUS_VII_GENE/HelpDesk/" target="_blank"><span>(BIOS 2304)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/MAXIMUS_VII_GENE/HelpDesk/" target="_blank">MAXIMUS VII RANGER</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/MAXIMUS_VII_RANGER/HelpDesk/" target="_blank"><span>(BIOS 2304)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/MAXIMUS_VII_IMPACT/" target="_blank">MAXIMUS VII IMPACT</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><a href="http://www.asus.com/Motherboards/MAXIMUS_VII_IMPACT/HelpDesk/" target="_blank"><span>(BIOS 2304)</span></a></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/Z97PRO_GAMER/" target="_blank">Z97-PRO GAMER</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 2102)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/Z97WS/" target="_blank">Z97-WS</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 2304)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/Z97I_PLUS/" target="_blank">Z97I-PLUS</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 2603)</span></td> 
+      </tr> 
+      <!--H97--> 
+      <tr> 
+       <td rowspan="6" class="name">H97</td> 
+       <td><a href="http://www.asus.com/Motherboards/H97_PRO_GAMER/" target="_blank">H97-PRO GAMER</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 2404)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/H97_PRO/" target="_blank">H97-PRO</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 2705)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/H97_PLUS/" target="_blank">H97-PLUS</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 2501)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/H97M_PLUS/" target="_blank">H97M-PLUS</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 2404)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/H97M_E/" target="_blank">H97M-E</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 2401)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/H97I_PLUS/" target="_blank">H97I-PLUS</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 2602)</span></td> 
+      </tr> 
+      <!--Q87--> 
+      <tr> 
+       <td rowspan="4" class="name">Q87</td> 
+       <td><a href="http://www.asus.com/Motherboards/Q87I_PLUS/" target="_blank">Q87I-PLUS</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 0401)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/Q87M_E/" target="_blank">Q87M-E</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 1501)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/Q87T/" target="_blank">Q87T</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 0912)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/CS_B/" target="_blank">CS-B</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 1201)</span></td> 
+      </tr> 
+      <!--B85--> 
+      <tr> 
+       <td rowspan="15" class="name">B85</td> 
+       <td><a href="http://www.asus.com/Motherboards/B85GPLUSUSB31/" target="_blank">B85M-G PLUS/USB 3.1</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td><span class="yes">Yes</span><span>(BIOS 0305)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="http://www.asus.com/Motherboards/B85PLUSUSB31/" target="_blank">B85-PLUS/USB 3.1</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td><span class="yes">Yes</span><span>(BIOS 0309)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="">B85-PRO GAMER</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(Available in April)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="">B85-PRO</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 2202)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="">B85-PRO R2.0</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 0602)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="">B85-PLUS</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 2302)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="">B85-PLUS R2.0</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 0501)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="">B85-A R2.0</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 2102)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="">B85M-GAMER</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 0502)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="">B85M-G PLUS</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 0304)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="">B85M-D PLUS</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 0510)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="">B85M-D</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 2008)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="">B85M-K PLUS</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 0401)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="">B85M-K</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 1005)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="">B85M-F</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 2601)</span></td> 
+      </tr> 
+      <!--H81--> 
+      <tr> 
+       <td rowspan="14" class="name">H81</td> 
+       <td><a href="">H81-PLUS</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 2301)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="">H81-A R2.0</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 2301)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="">H81M-A</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 2201)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="">H81M-C</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 2301)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="">H81M-C R2.0</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 2201)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="">H81M-CS</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 0401)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="">H81M-D</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 2203)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="">H81M-D R2.0</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 0501)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="">H81M-E</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 2201)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="">H81M-E R2.0</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 0501)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="">H81M-K</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 1101)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="">H81M-V PLUS</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 2006)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="">H81M-V3</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 2005)</span></td> 
+      </tr> 
+      <tr> 
+       <td><a href="">H81M-R</a></td> 
+       <td><span class="yes">Yes</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">Yes</span><span>(BIOS 0503)</span></td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <p class="notice" id="lan-spec-8"></p> 
+   </div> 
+   <div class="spec spec-table-2"> 
+    <!--<p class="comingsoon">COMING SOON!</p>--> 
+    <!--<table>
+            <tr>
+                <th id="lan-spec-4">Manufacturer name</th>
+                <th id="lan-spec-5">Product category</th>
+                <th id="lan-spec-6">Product name</th>
+                <th id="lan-spec-7">Availability</th>
+            </tr>
+            <tbody id="tbody_device">
+                <tr>
+                    <td rowspan="2" class="name">AKiTiO</td>
+                    <td>USB 3.1 device</td>
+                    <td>Neutrino Bridge USB3.1</td>
+                    <td>March 2015</td>
+                </tr>
+                <tr>
+                    <td>USB 3.1 device</td>
+                    <td>NT2 U3.1</td>
+                    <td>March 2015</td>
+                </tr>
+                <tr>
+                    <td rowspan="3" class="name">AVLAB Technology SIIG</td>
+                    <td>USB 3.1 to 2.5-inch</td>
+                    <td>USB 3.1 to SATA 2.5-inch Enclosure</td>
+                    <td>April 2015</td>
+                </tr>
+                <tr>
+                    <td>USB 3.1 to 2.5-inch</td>
+                    <td>USB 3.1 to SATA 2.5-inch Enclosure Pro</td>
+                    <td>Q2-Q3 2015</td>
+                </tr>
+                <tr>
+                    <td>USB 3.1 to 3.5-inch</td>
+                    <td>USB 3.1 to SATA 3.5-inch Enclosure</td>
+                    <td>April 2015</td>
+                </tr>
+                <tr>
+                    <td rowspan="3" class="name">GODO</td>
+                    <td>2.5-inch USB 3.1 enclosure</td>
+                    <td>GD25602 2.5-inch USB3.1 HDD Enclosure</td>
+                    <td>March 2015</td>
+                </tr>
+                <tr>
+                    <td>2.5-inch USB 3.1 enclosure</td>
+                    <td>GD25702 2.5-inch USB3.1 HDD Enclosure</td>
+                    <td>March 2015</td>
+                </tr>
+                <tr>
+                    <td>2.5-inch USB 3.1 enclosure</td>
+                    <td>GD25611 2.5-inch  USB3.1 HDD Enclosure</td>
+                    <td>March 2015</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="name">HighPoint Technologies, Inc</td>
+                    <td>USB 3.1 device</td>
+                    <td>RS3111A</td>
+                    <td>March 2015</td>
+                </tr>
+                <tr>
+                    <td>USB 3.1 device</td>
+                    <td>USB 3.1 device</td>
+                    <td>April 2015</td>
+                </tr>
+                <tr>
+                    <td rowspan="4" class="name">iomaster</td>
+                    <td>2-port host card</td>
+                    <td>IOT-U31A3</td>
+                    <td>March 2015</td>
+                </tr>
+                <tr>
+                    <td>SATA 2.5 enclosure</td>
+                    <td>IOT-3125A3</td>
+                    <td>March 2015</td>
+                </tr>
+                <tr>
+                    <td>USB 3.1 to SATA 2.5 &amp; 3.5 adapter</td>
+                    <td>IOT-3123A3</td>
+                    <td>April 2015</td>
+                </tr>
+                <tr>
+                    <td>USB 3.1 to MSATA &amp; M2 SSD enclosure</td>
+                    <td>IOT-U31NF </td>
+                    <td>March 2015</td>
+                </tr>
+                <tr>
+                    <td rowspan="3" class="name">Minerva Innovation Company</td>
+                    <td>3.5-inch SATA to USB 3.1 enclosure</td>
+                    <td>3.5-inch SATA mSATA x 2 and M.2 x 2 to USB 3.1 Adapter (Type B)</td>
+                    <td>March 2015</td>
+                </tr>
+                <tr>
+                    <td>2.5-inch SATA to USB 3.1 enclosure</td>
+                    <td>2.5-inch SATA mSATA SSD x 2 to USB 3.1 External Enclosure (Type-C x 2) </td>
+                    <td>March 2015</td>
+                </tr>
+                <tr>
+                    <td>2.5-inch SATA to USB 3.1 enclosure</td>
+                    <td>2.5-inch SATA M.2 SSD x 2 to USB 3.1 External Enclosure  (Type-C x 2) </td>
+                    <td>April 2015</td>
+                </tr>
+                <tr>
+                    <td rowspan="4" class="name">Speed Dragon</td>
+                    <td>USB 3.1 device</td>
+                    <td>USB 3.1 to SATA 6G cable adapter</td>
+                    <td>March 2015</td>
+                </tr>
+                <tr>
+                    <td>USB 3.1 device</td>
+                    <td>USB 3.1 PCI-Express add-on card</td>
+                    <td>March 2015</td>
+                </tr>
+                <tr>
+                    <td>USB 3.1 device</td>
+                    <td>USB 3.1 PCI-Express add-on card</td>
+                    <td>March 2015</td>
+                </tr>
+                <tr>
+                    <td>USB 3.1 device</td>
+                    <td>USB 3.1 to dual SATA 6G hard drive enclosure</td>
+                    <td>April 2015</td>
+                </tr>
+                <tr>
+                    <td rowspan="1" class="name">Super Talent Technology Corporation</td>
+                    <td>USB 3.1 device</td>
+                    <td>USB3.1 Portable SSD</td>
+                    <td>May 2015</td>
+                </tr>
+                <tr>
+                    <td rowspan="6" class="name">Sunrich Technology</td>
+                    <td>Adapter</td>
+                    <td>U-1040 USB 3.1 to SATA 6G Adapter</td>
+                    <td>March 2015</td>
+                </tr>
+                <tr>
+                    <td>Adapter</td>
+                    <td>U-1050 USB 3.1 to SATA 6G Adapter</td>
+                    <td>April 2015</td>
+                </tr>
+                <tr>
+
+                    <td>Hub</td>
+                    <td>U-1060 USB 3.1 4-Port Hub</td>
+                    <td>TBA</td>
+                </tr>
+                <tr>
+                    <td>Hub</td>
+                    <td>U-1070 USB 3.1 7-Port Hub</td>
+                    <td>TBA</td>
+                </tr>
+                <tr>
+
+                    <td>Docking station</td>
+                    <td>U-1080 USB 3.1 Docking Station</td>
+                    <td>TBA</td>
+                </tr>
+                <tr>
+                    <td>Docking station</td>
+                    <td>U-1090 USB 3.1 Docking Station</td>
+                    <td>TBA</td>
+                </tr>
+                <tr>
+                    <td rowspan="6" class="name">UNITEK</td>
+                    <td>PCI Express to 2 Ports USB 3.1 (Type-A x 2)</td>
+                    <td>Y-7305</td>
+                    <td>March 2015</td>
+                </tr>
+                <tr>
+                    <td>PCI Express to 2 Ports USB 3.1 (Type-A x 1, Type-C x 1)</td>
+                    <td>Y-7306</td>
+                    <td>March 2015</td>
+                </tr>
+                <tr>
+                    <td>USB 3.1 to SATA6G enclosure</td>
+                    <td>Y-3363</td>
+                    <td>April 2015</td>
+                </tr>
+                <tr>
+                    <td>USB 3.1 to SATA6G Docking Station</td>
+                    <td>Y-3605</td>
+                    <td>April 2015</td>
+                </tr>
+                <tr>
+                    <td>USB 3.1 to 2.5-inch Dual SATA6G enclosure (Type-C)</td>
+                    <td>Y-3364</td>
+                    <td>April 2015</td>
+                </tr>
+                <tr>
+                    <td>USB 3.1 active extension cable</td>
+                    <td>Y-3001</td>
+                    <td>June 2015</td>
+                </tr>
+            </tbody>
+        </table>--> 
+    <table> 
+     <tbody>
+      <tr> 
+       <th id="lan-spec-newtab-1">Vendor</th> 
+       <th id="lan-spec-newtab-2">Model name</th> 
+       <th id="lan-spec-newtab-3">Device Type</th> 
+       <th id="lan-spec-newtab-4">Gen 1 (5Gbps)</th> 
+       <th id="lan-spec-newtab-5">Gen 2 (10Gbps)</th> 
+       <th id="lan-spec-newtab-6">Type A</th> 
+       <th id="lan-spec-newtab-7">Type C</th> 
+       <th id="lan-spec-newtab-8">Launch schedule</th> 
+      </tr> 
+     </tbody>
+     <tbody> 
+      <!--<tr>
+                    <td>ADATA</td>
+                    <td>SE730</td>
+                    <td>Enclosure</td>
+                    <td>&nbsp;</td>
+                    <td><span class="yes">YES</span></td>
+                    <td>&nbsp;</td>
+                    <td><span class="yes">YES</span></td>
+                    <td>15'Q3</td>
+                </tr>--> 
+      <tr> 
+       <td>CFD Sales Inc.<br> (Brand Name: KUROUTOSHIKOU)</td> 
+       <td>GW2.5FST-SU3.1</td> 
+       <td>Enclosure</td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">YES</span></td> 
+       <td><span class="yes">YES</span></td> 
+       <td>&nbsp;</td> 
+       <td>4/E</td> 
+      </tr> 
+      <tr> 
+       <td>PQI</td> 
+       <td>Connect 312</td> 
+       <td>PenDrive</td> 
+       <td><span class="yes">YES</span></td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">YES</span></td> 
+       <td><span class="yes">YES</span></td> 
+       <td>5/E</td> 
+      </tr> 
+      <tr> 
+       <td>SanDisk</td> 
+       <td>SanDisk Dual USB Drive Type-C</td> 
+       <td>PenDrive</td> 
+       <td><span class="yes">YES</span></td> 
+       <td>&nbsp;</td> 
+       <td>&nbsp;</td> 
+       <td><span class="yes">YES</span></td> 
+       <td>4/25</td> 
+      </tr> 
+     </tbody> 
+    </table> 
+   </div> 
+   <div class="footer"> 
+    <p><img src="Theme/Image/asus.png"> ©ASUSTeK Computer Inc. All rights reserved.</p> 
+   </div> 
+  </div> 
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> 
+  <script type="text/javascript" src="Theme/Javascript/cookieLib.js"></script> 
+  <script type="text/javascript" src="Theme/Javascript/lang.js"></script> 
+  <script>
+
+$(function(){
+    $('.pointer').click(function(){
+        var $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body');
+        $body.animate({
+                scrollTop: $('.title-3').offset().top
+        }, 800);
+    });
+});
+
+
+$(function(){
+    // spec表格切換
+    $('.spec-tab a').click(function(){
+        $(this).addClass('active');
+        $(this).siblings().removeClass('active');
+    });
+    $('.spec-1').click(function(){
+        $('.spec-table-1').show();
+        $('.spec-table-2').hide();
+    });
+    $('.spec-2').click(function(){
+        $('.spec-table-2').show();
+        $('.spec-table-1').hide();
+    });
+
+    // spec表格型號顯示
+    $('.control a').click(function(){
+        $(this).siblings().removeClass('active');
+        $(this).addClass('active');
+    });
+});
+
+</script> 
+  <script>
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ 
+
+  ga('create', ' UA-56028643-1', 'auto');
+
+  ga('require', 'displayfeatures');
+
+  ga('send', 'pageview');
+
+ 
+
+</script>   
+ </body>
+</html>

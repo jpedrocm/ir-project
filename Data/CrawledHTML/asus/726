@@ -1,0 +1,493 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-US" itemscope itemtype="http://schema.org/QAPage">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
+  <title>How to do hardware reset on your phone?
+</title> 
+  <link rel="canonical" href="https://www.asus.com/us/support/faq/1006346"> 
+  <script src="/support/js/jquery.js"></script> 
+  <link type="text/css" rel="stylesheet" href="/support/stylesheets/base.css"> 
+  <script src="/support/js/faq.js" type="text/javascript"></script> 
+  <script src="/support/js/Knowledge.js" type="text/javascript"></script> 
+ </head>  
+ <body> 
+  <form method="post" action="./1006346?ln=en-us&amp;no=1006346&amp;" id="ctl00"> 
+   <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExNTgyMDc0MzIPZBYCZg9kFggCBQ8WAh4EaHJlZgURLy93d3cuYXN1cy5jb20vdXNkAgcPZBYCAgEPZBYIAgEPFgQfAAUEL3VzLx4JaW5uZXJodG1sBQRIb21lZAICDxYCHgVzdHlsZQUOZGlzcGxheTppbmxpbmVkAgMPFgYfAAULL3VzL3N1cHBvcnQfAgUOZGlzcGxheTppbmxpbmUfAQUHU3VwcG9ydGQCBA8WAh8CBQ5kaXNwbGF5OmlubGluZWQCCQ9kFgICAQ8WAh8BBQNGQVFkAgsPZBYEZg9kFgRmDw8WAh4EVGV4dAUvPHA+SG93IHRvIGRvIGhhcmR3YXJlIHJlc2V0IG9uIHlvdXIgcGhvbmU/PC9wPgpkZAIBDxYCHwMF60k8cD5JZiB5b3XCoGNhbm5vdMKgdXNlICJGYWN0b3J5IGRhdGEgcmVzZXQiIGZ1bmN0aW9uIGluwqBTZXR0aW5ncyBtZW51LCB5b3UgY2FuIHVzZSBSZWNvdmVyeSBtb2RlIHRvIHJlc2V0IHlvdXIgZGV2aWNlLiBUbyBkbyBhIGZhY3RvcnkgZGF0YSByZXNldCwgcGxlYXNlIHNlZSBzb21lIGV4YW1wbGVzIGJlbG93LjwvcD4KCjxwPlRoZSBzdGVwcyBvZiBwZXJmb3JtaW5nIGEgaGFyZHdhcmUgcmVzZXQgbWF5IHZhcnkgZnJvbSBkaWZmZXJlbnQgbW9kZWxzLjwvcD4KCjxwPsKgPC9wPgoKPHA+PHNwYW4gc3R5bGU9ImNvbG9yOnJnYigyNTUsIDAsIDApIj48c3Ryb25nPk5vdGU6PC9zdHJvbmc+PC9zcGFuPjwvcD4KCjxwPjxzcGFuIHN0eWxlPSJjb2xvcjpyZ2IoMjU1LCAwLCAwKSI+PHN0cm9uZz4xLiBBbGwgZGF0YSBzdG9yZWQgb24geW91ciBwaG9uZSB3aWxsIGJlIGRlbGV0ZWQgYWZ0ZXIgcmVzZXQuPC9zdHJvbmc+PC9zcGFuPjwvcD4KCjxwPjxzcGFuIHN0eWxlPSJjb2xvcjpyZ2IoMjU1LCAwLCAwKSI+PHN0cm9uZz4yLiBCZWZvcmUgcGVyZm9ybWluZyBhIHJlc2V0LCBwbGVhc2UgZW5zdXJlIHRoZSBiYXR0ZXJ5IGxpZmUgaGlnaGVyIHRoYW4gMTUlLCBvciBjaGFyZ2UgdGhlIHBob25lIGR1cmluZyByZXNldCBwcm9jZXNzLiA8L3N0cm9uZz48L3NwYW4+PC9wPgoKPHA+PHNwYW4gc3R5bGU9ImNvbG9yOnJnYigyNTUsIDAsIDApIj48c3Ryb25nPjxzcGFuIHN0eWxlPSJjb2xvcjpyZ2IoMjU1LCAwLCAwKSI+PHN0cm9uZz4zLsKgwqBXaGVuIGEgcmVzZXQgc3RhcnRzLCBpdCB3aWxsIHRha2UgYWJvdXQgNC04IG1pbnV0ZXPCoGJlZm9yZSBzZXR1cCB3aXphcmQgYXBwZWFycy48L3N0cm9uZz48L3NwYW4+PC9zdHJvbmc+PC9zcGFuPjxzcGFuIHN0eWxlPSJjb2xvcjpyZ2IoMjU1LCAwLCAwKSI+PHN0cm9uZz48c3BhbiBzdHlsZT0iY29sb3I6cmdiKDI1NSwgMCwgMCkiPjxzdHJvbmc+IDwvc3Ryb25nPjwvc3Bhbj48L3N0cm9uZz48L3NwYW4+PC9wPgoKPHA+wqA8L3A+Cgo8cD48c3BhbiBzdHlsZT0iY29sb3I6cmdiKDAsIDAsIDIwNSkiPjxzdHJvbmc+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxNnB4Ij5aRTUwMEtHIC8gWkU1MDBLTCAvIFpFNTUwS0wgLyBaRTU1MUtMIC8gWkQ1NTFLTDwvc3Bhbj48L3N0cm9uZz48L3NwYW4+PC9wPgoKPHA+MS4gV2hlbiBkZXZpY2UgaXMgb2ZmLCBwcmVzcyAoYWxzbyBob2xkKSB2b2x1bWXCoGRvd24ga2V5IGFuZCB0aGVuIHByZXNzIChhbHNvIGhvbGQpIHBvd2VyIGtleS48L3A+Cgo8cD7CoMKgwqAgQWZ0ZXIgdGhlIGRldmljZSB2aWJyYXRlcywgcmVsZWFzZSBwb3dlciBrZXkgKGtlZXAgaG9sZGluZyB2b2x1bWXCoGRvd24ga2V5KSB0byBlbnRlcsKgcmVjb3ZlcnkgbW9kZS48L3A+Cgo8cD4yLiBTZWxlY3QgIjxzcGFuIHN0eWxlPSJjb2xvcjpyZ2IoMCwgMCwgMjA1KSI+PHN0cm9uZz53aXBlIGRhdGEvZmFjdG9yeSByZXNldDwvc3Ryb25nPjwvc3Bhbj4iIGJ5IHZvbHVtZSBkb3duIGtleSAob3Igdm9sdW1lIHVwIGtleSksIGFuZCB0aGVuIHByZXNzIHBvd2VyIGtleS48YnIgLz4KwqDCoMKgIDxpbWcgc3JjPSJodHRwOi8va21waWMuYXN1cy5jb20vaW1hZ2VzLzIwMTUvMDkvMjYvN2YxNmI0YTUtNGU5Ny00MjkzLTk0MGUtNDJkNTE2Nzg3MmE0LmpwZyIgLz48YnIgLz4KPGJyIC8+CjMuIFNlbGVjdCAiPHNwYW4gc3R5bGU9ImNvbG9yOnJnYigwLCAwLCAyMDUpIj48c3Ryb25nPlllcyAtLSBkZWxldGUgYWxsIHVzZXIgZGF0YTwvc3Ryb25nPjwvc3Bhbj4iIGJ5IHZvbHVtZSBkb3duIGtleSAob3Igdm9sdW1lIHVwIGtleSksIGFuZCB0aGVuIHByZXNzIHBvd2VyIGtleSB0byBzdGFydCByZXNldC48YnIgLz4KwqDCoMKgIDxpbWcgc3JjPSJodHRwOi8va21waWMuYXN1cy5jb20vaW1hZ2VzLzIwMTUvMDkvMjYvODRmYzQxMzEtZTIwYy00NTRjLTg2NTAtMDk1MDQ2NTY4ZjdjLmpwZyIgLz48YnIgLz4KPGJyIC8+CjQuIEFmdGVyIHJlc2V0IGlzIGNvbXBsZXRlZCwgc2VsZWN0ICI8c3BhbiBzdHlsZT0iY29sb3I6cmdiKDAsIDAsIDIwNSkiPjxzdHJvbmc+cmVib290IHN5c3RlbSBub3c8L3N0cm9uZz48L3NwYW4+IiBhbmQgcHJlc3MgcG93ZXIga2V5IHRvIHJlYm9vdCB5b3VyIGRldmljZS48YnIgLz4KwqDCoMKgIDxpbWcgc3JjPSJodHRwOi8va21waWMuYXN1cy5jb20vaW1hZ2VzLzIwMTUvMTIvMDcvYzg0YzY0OTctNDIwZi00NDViLWE5NGItMzAzZGUwYjQzN2JjLmpwZyIgLz7CoMKgPC9wPgoKPHA+wqA8L3A+Cgo8cD7CoDwvcD4KCjxwPjxzcGFuIHN0eWxlPSJjb2xvcjpyZ2IoMCwgMCwgMjA1KSI+PHN0cm9uZz48c3BhbiBzdHlsZT0iZm9udC1zaXplOjE2cHgiPkE1MDBLTDwvc3Bhbj48L3N0cm9uZz48L3NwYW4+PC9wPgoKPHA+MS4gV2hlbiBkZXZpY2UgaXMgb2ZmLCBwcmVzcyAoYWxzbyBob2xkKSB2b2x1bWXCoGRvd24ga2V5IGFuZCB0aGVuIHByZXNzIChhbHNvIGhvbGQpIHBvd2VyIGtleS48L3A+Cgo8cD7CoMKgwqAgQWZ0ZXIgdGhlIGRldmljZSB2aWJyYXRlcywgcmVsZWFzZSBwb3dlciBrZXkgKGtlZXAgaG9sZGluZyB2b2x1bWXCoGRvd24ga2V5KSB0byBlbnRlcsKgcmVjb3ZlcnkgbW9kZS48L3A+Cgo8cD4yLiBBZnRlciB5b3Ugc2VlIHRoZSBwaWN0dXJlIGJlbG93LCBzZWxlY3TCoCI8c3BhbiBzdHlsZT0iY29sb3I6cmdiKDAsIDAsIDIwNSkiPjxzdHJvbmc+MS4gRW50ZXIgU0QgZG93bmxvYWQgbW9kZTwvc3Ryb25nPjwvc3Bhbj4iIGJ5IHZvbHVtZSBrZXkgYW5kIHRoZW4gcHJlc3MgcG93ZXIga2V5IHRvIGNvbmZpcm0uPGJyIC8+CsKgwqDCoCA8aW1nIHNyYz0iaHR0cDovL2ttcGljLmFzdXMuY29tL2ltYWdlcy8yMDE1LzA5LzI2LzJhNDNhZWQwLWI4N2ItNGNhYy1iNDk2LTZkMTcwZmUwNzc3Mi5qcGciIC8+PGJyIC8+CjxiciAvPgozLiBTZWxlY3QgIjxzcGFuIHN0eWxlPSJjb2xvcjpyZ2IoMCwgMCwgMjA1KSI+PHN0cm9uZz53aXBlIGRhdGEvZmFjdG9yeSByZXNldDwvc3Ryb25nPjwvc3Bhbj4iIGJ5IHZvbHVtZSBkb3duIGtleSAob3Igdm9sdW1lIHVwIGtleSksIGFuZCB0aGVuIHByZXNzIHBvd2VyIGtleS48YnIgLz4KwqDCoMKgIDxpbWcgc3JjPSJodHRwOi8va21waWMuYXN1cy5jb20vaW1hZ2VzLzIwMTUvMDkvMjYvNGU2OTkyM2QtZGI3ZC00MDZjLTgzODgtMDZiZDM0NWQ0MTk3LmpwZyIgLz48YnIgLz4KPGJyIC8+CjQuIFNlbGVjdCAiPHNwYW4gc3R5bGU9ImNvbG9yOnJnYigwLCAwLCAyMDUpIj48c3Ryb25nPlllcyAtLSBkZWxldGUgYWxsIHVzZXIgZGF0YTwvc3Ryb25nPjwvc3Bhbj4iIGJ5IHZvbHVtZSBkb3duIGtleSAob3Igdm9sdW1lIHVwIGtleSksIGFuZCB0aGVuIHByZXNzIHBvd2VyIGtleSB0byBzdGFydCByZXNldC48YnIgLz4KwqDCoMKgIDxpbWcgc3JjPSJodHRwOi8va21waWMuYXN1cy5jb20vaW1hZ2VzLzIwMTUvMDkvMjYvZjBjY2VhNDMtOTE0YS00OTJhLWIyNzEtNmI5ZDIyMjQ2ZjhmLmpwZyIgLz48YnIgLz4KPGJyIC8+CjUuIEFmdGVyIHJlc2V0IGlzIGNvbXBsZXRlZCwgc2VsZWN0ICI8c3BhbiBzdHlsZT0iY29sb3I6cmdiKDAsIDAsIDIwNSkiPjxzdHJvbmc+cmVib290IHN5c3RlbSBub3c8L3N0cm9uZz48L3NwYW4+IiBhbmQgcHJlc3MgcG93ZXIga2V5IHRvIHJlYm9vdCB5b3VyIGRldmljZS48YnIgLz4KwqDCoMKgIDxpbWcgc3JjPSJodHRwOi8va21waWMuYXN1cy5jb20vaW1hZ2VzLzIwMTUvMTIvMDcvYzg0YzY0OTctNDIwZi00NDViLWE5NGItMzAzZGUwYjQzN2JjLmpwZyIgLz48L3A+Cgo8cD7CoDwvcD4KCjxwPsKgPC9wPgoKPHA+PHNwYW4gc3R5bGU9ImNvbG9yOnJnYigwLCAwLCAyMDUpIj48c3Ryb25nPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTZweCI+WkU1NTBNTCAvIFpFNTUxTUwgLyBBNTAwQ0cgKEFuZHJvaWQgNS4wKTwvc3Bhbj48L3N0cm9uZz48L3NwYW4+PC9wPgoKPHA+MS4gV2hlbiBkZXZpY2UgaXMgb2ZmLCBwcmVzcyAoYWxzbyBob2xkKSB2b2x1bWUgdXAga2V5IGFuZCB0aGVuIHByZXNzIChhbHNvIGhvbGQpIHBvd2VyIGtleS48L3A+Cgo8cD7CoMKgwqAgQWZ0ZXIgdGhlIGRldmljZSB2aWJyYXRlcywgcmVsZWFzZSBwb3dlciBrZXkgKGtlZXAgaG9sZGluZyB2b2x1bWUgdXAga2V5KSB0byBlbnRlciBGYXN0Ym9vdCBtb2RlLjwvcD4KCjxwPjIuIFNlbGVjdCAiPHNwYW4gc3R5bGU9ImNvbG9yOnJnYigwLCAwLCAyMDUpIj48c3Ryb25nPlJFQ09WRVJZIE1PREU8L3N0cm9uZz48L3NwYW4+IiBieSAidm9sdW1lIGRvd24ga2V5IiAob3IgInZvbHVtZSB1cCBrZXkiKSwgYW5kIHRoZW4gcHJlc3MgInBvd2VyIGtleSIgdG8gY29uZmlycm0uPGJyIC8+CsKgwqDCoCA8aW1nIGFsdD0iIiBzcmM9Imh0dHA6Ly9rbXBpYy5hc3VzLmNvbS9pbWFnZXMvMjAxNS8wNS8xMC8xMGMwMjU4Yy1iNDA0LTRjYTAtYjEwNi0xN2U5MGY1ZDQ2Y2YuanBnIiBzdHlsZT0iaGVpZ2h0OjUzM3B4OyB3aWR0aDozMDBweCIgLz48YnIgLz4KPGJyIC8+CjMuIFlvdSB3aWxsIHNlZSB0aGlzIG9uIHlvdXIgc2NyZWVuIGFmdGVyIGRldmljZSByZWJvb3RzLjwvcD4KCjxwPsKgwqDCoCBQcmVzcyAoYWxzbyBob2xkKSBwb3dlciBrZXkgYW5kIHRoZW4gcHJlc3MgKHRoZW4gcmVsZWFzZSkgdm9sdW1lIHVwIGtleS48YnIgLz4KwqDCoMKgIDxpbWcgYWx0PSIiIHNyYz0iaHR0cDovL2ttcGljLmFzdXMuY29tL2ltYWdlcy8yMDE1LzA1LzExLzA1MTE3ZWI3LWVjYWQtNGQ0ZC1hZGY3LTE3MDU2YzMwYzAyMi5qcGciIHN0eWxlPSJoZWlnaHQ6MzQ5cHg7IHdpZHRoOjMwMHB4IiAvPjxiciAvPgo8YnIgLz4KNC4gU2VsZWN0ICI8c3BhbiBzdHlsZT0iY29sb3I6cmdiKDAsIDAsIDIwNSkiPjxzdHJvbmc+d2lwZSBkYXRhL2ZhY3RvcnkgcmVzZXQ8L3N0cm9uZz48L3NwYW4+IiBieSB2b2x1bWUgZG93biBrZXkgKG9yIHZvbHVtZSB1cCBrZXkpLCBhbmQgdGhlbiBwcmVzcyBwb3dlciBrZXkgdG8gc3RhcnQgcmVzZXQuPGJyIC8+CsKgwqDCoCA8aW1nIGFsdD0iIiBzcmM9Imh0dHA6Ly9rbXBpYy5hc3VzLmNvbS9pbWFnZXMvMjAxNS8wNS8xMC83NGMzNTIxNi1jMDQ0LTQ3ZmYtODViNC01ZTA4ODIzMjA1N2UuanBnIiBzdHlsZT0iaGVpZ2h0OjI2N3B4OyB3aWR0aDo1MDBweCIgLz48YnIgLz4KPGJyIC8+CjUuIFNlbGVjdCAiPHNwYW4gc3R5bGU9ImNvbG9yOnJnYigwLCAwLCAyMDUpIj48c3Ryb25nPlllcyAtLSBkZWxldGUgYWxsIHVzZXIgZGF0YTwvc3Ryb25nPjwvc3Bhbj4iIGJ5IHZvbHVtZSBkb3duIGtleSAob3Igdm9sdW1lIHVwIGtleSksIGFuZCB0aGVuIHByZXNzIHBvd2VyIGtleSB0byBzdGFydCByZXNldC48YnIgLz4KwqDCoMKgIDxpbWcgc3JjPSJodHRwOi8va21waWMuYXN1cy5jb20vaW1hZ2VzLzIwMTUvMDkvMjYvODRmYzQxMzEtZTIwYy00NTRjLTg2NTAtMDk1MDQ2NTY4ZjdjLmpwZyIgLz48YnIgLz4KPGJyIC8+CjYuIEFmdGVyIHJlc2V0IGlzIGNvbXBsZXRlZCwgc2VsZWN0ICI8c3BhbiBzdHlsZT0iY29sb3I6cmdiKDAsIDAsIDIwNSkiPjxzdHJvbmc+cmVib290IHN5c3RlbSBub3c8L3N0cm9uZz48L3NwYW4+IiBhbmQgcHJlc3MgcG93ZXIga2V5IHRvIHJlYm9vdCB5b3VyIGRldmljZS48YnIgLz4KwqDCoMKgIDxpbWcgc3JjPSJodHRwOi8va21waWMuYXN1cy5jb20vaW1hZ2VzLzIwMTUvMTIvMDcvYzg0YzY0OTctNDIwZi00NDViLWE5NGItMzAzZGUwYjQzN2JjLmpwZyIgLz48L3A+Cgo8cD7CoDwvcD4KCjxwPsKgPC9wPgoKPHA+PHNwYW4gc3R5bGU9ImNvbG9yOnJnYigwLCAwLCAyMDUpIj48c3BhbiBzdHlsZT0iZm9udC1zaXplOjE2cHgiPjxzdHJvbmc+WkU1MDBDTDwvc3Ryb25nPjwvc3Bhbj48L3NwYW4+PC9wPgoKPHA+MS4gV2hlbiBkZXZpY2UgaXMgb2ZmLCBwcmVzcyAoYWxzbyBob2xkKSB2b2x1bWUgdXAga2V5IGFuZCB0aGVuIHByZXNzIChhbHNvIGhvbGQpIHBvd2VyIGtleS48L3A+Cgo8cD7CoMKgwqAgQWZ0ZXIgdGhlIGRldmljZSB2aWJyYXRlcywgcmVsZWFzZSBwb3dlciBrZXkgKGtlZXAgaG9sZGluZyB2b2x1bWUgdXAga2V5KSB0byBlbnRlciBGYXN0Ym9vdCBtb2RlLjxiciAvPgo8YnIgLz4KMi4gU2VsZWN0ICI8c3BhbiBzdHlsZT0iY29sb3I6cmdiKDAsIDAsIDIwNSkiPjxzdHJvbmc+UkVDT1ZFUlkgTU9ERTwvc3Ryb25nPjwvc3Bhbj4iIGJ5ICJ2b2x1bWUgZG93biBrZXkiIChvciAidm9sdW1lIHVwIGtleSIpLCBhbmQgdGhlbiBwcmVzcyAicG93ZXIga2V5IiB0byBjb25maXJtLjxiciAvPgrCoMKgwqAgPGltZyBhbHQ9IiIgc3JjPSJodHRwOi8va21waWMuYXN1cy5jb20vaW1hZ2VzLzIwMTUvMDUvMTAvNzMyNDBmNTQtZTA2OC00MzAzLWI1ZGQtZThlZTg4NWMyYjg4LmpwZyIgc3R5bGU9ImhlaWdodDo1MzNweDsgd2lkdGg6MzAwcHgiIC8+PGJyIC8+CjxiciAvPgozLiBTZWxlY3QgIjxzcGFuIHN0eWxlPSJjb2xvcjpyZ2IoMCwgMCwgMjA1KSI+PHN0cm9uZz53aXBlIGRhdGEvZmFjdG9yeSByZXNldDwvc3Ryb25nPjwvc3Bhbj4iIGJ5IHZvbHVtZSBkb3duIGtleSAob3Igdm9sdW1lIHVwIGtleSksIGFuZCB0aGVuIHByZXNzIHBvd2VyIGtleSB0byBzdGFydCByZXNldC48YnIgLz4KwqDCoMKgIDxpbWcgYWx0PSIiIHNyYz0iaHR0cDovL2ttcGljLmFzdXMuY29tL2ltYWdlcy8yMDE1LzA1LzEwL2FiMTU0MmRiLTBmMDUtNDZmMi1iNzQwLTViZjM4NmE4ODY3NC5qcGciIHN0eWxlPSJoZWlnaHQ6Mjc5cHg7IHdpZHRoOjUwMHB4IiAvPjxiciAvPgo8YnIgLz4KNC5TZWxlY3QgIjxzcGFuIHN0eWxlPSJjb2xvcjpyZ2IoMCwgMCwgMjA1KSI+PHN0cm9uZz5ZZXMgLS0gZGVsZXRlIGFsbCB1c2VyIGRhdGE8L3N0cm9uZz48L3NwYW4+IiBieSB2b2x1bWUgZG93biBrZXkgKG9yIHZvbHVtZSB1cCBrZXkpLCBhbmQgdGhlbiBwcmVzcyBwb3dlciBrZXkgdG8gc3RhcnQgcmVzZXQuPGJyIC8+CsKgwqDCoCA8aW1nIHNyYz0iaHR0cDovL2ttcGljLmFzdXMuY29tL2ltYWdlcy8yMDE1LzA5LzI2Lzg0ZmM0MTMxLWUyMGMtNDU0Yy04NjUwLTA5NTA0NjU2OGY3Yy5qcGciIC8+PGJyIC8+CjxiciAvPgo1LiBBZnRlciByZXNldCBpcyBjb21wbGV0ZWQsIHNlbGVjdCAiPHNwYW4gc3R5bGU9ImNvbG9yOnJnYigwLCAwLCAyMDUpIj48c3Ryb25nPnJlYm9vdCBzeXN0ZW0gbm93PC9zdHJvbmc+PC9zcGFuPiIgYW5kIHByZXNzIHBvd2VyIGtleSB0byByZWJvb3QgeW91ciBkZXZpY2UuPGJyIC8+CsKgwqDCoCA8aW1nIHNyYz0iaHR0cDovL2ttcGljLmFzdXMuY29tL2ltYWdlcy8yMDE1LzEyLzA3L2M4NGM2NDk3LTQyMGYtNDQ1Yi1hOTRiLTMwM2RlMGI0MzdiYy5qcGciIC8+PC9wPgoKPHA+wqA8L3A+Cgo8cD7CoDwvcD4KCjxwPjxzcGFuIHN0eWxlPSJjb2xvcjpyZ2IoMCwgMCwgMjA1KSI+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxNnB4Ij48c3Ryb25nPkE1MDBDRyAoQW5kcm9pZCA0LjQpPC9zdHJvbmc+PC9zcGFuPjwvc3Bhbj48L3A+Cgo8cD4xLiBXaGVuIGRldmljZSBpcyBvZmYsIHByZXNzIChhbHNvIGhvbGQpIHZvbHVtZSB1cCBrZXkgYW5kIHRoZW4gcHJlc3MgKGFsc28gaG9sZCkgcG93ZXIga2V5LjwvcD4KCjxwPsKgwqDCoCBBZnRlciB0aGUgZGV2aWNlIHZpYnJhdGVzLCByZWxlYXNlIHBvd2VyIGtleSAoa2VlcCBob2xkaW5nIHZvbHVtZSB1cCBrZXkpIHRvIGVudGVyIEZhc3Rib290IG1vZGUuPC9wPgoKPHA+Mi4gU2VsZWN0ICI8c3BhbiBzdHlsZT0iY29sb3I6cmdiKDAsIDAsIDIwNSkiPjxzdHJvbmc+UkVDT1ZFUlk8L3N0cm9uZz48L3NwYW4+IiBieSAidm9sdW1lIGRvd24ga2V5IiAob3IgInZvbHVtZSB1cCBrZXkiKSwgYW5kIHRoZW4gcHJlc3MgInBvd2VyIGtleSIgdG8gY29uZmlybS48YnIgLz4KwqDCoMKgIDxpbWcgYWx0PSIiIHNyYz0iaHR0cDovL2ttcGljLmFzdXMuY29tL2ltYWdlcy8yMDE1LzA1LzEwLzliYTlhMzIyLWI3NGEtNDI1NS04NmVjLWM2ZWI0MzZhN2U1Yy5qcGciIHN0eWxlPSJoZWlnaHQ6NDUxcHg7IHdpZHRoOjMwMHB4IiAvPjxiciAvPgo8YnIgLz4KMy4gWW91IHdpbGwgc2VlIHRoaXMgb24geW91ciBzY3JlZW4gYWZ0ZXIgZGV2aWNlIHJlYm9vdHMuPC9wPgoKPHA+wqAgwqAgRmlyc3QgcHJlc3MgdGhlIHZvbHVtZS1kb3duLWtleSBjb25zZWN1dGl2ZWx5IGFuZCBwcmVzcyB0aGUgdm9sdW1lLXVwLWtleTxiciAvPgrCoMKgwqAgPGltZyBhbHQ9IiIgc3JjPSJodHRwOi8va21waWMuYXN1cy5jb20vaW1hZ2VzLzIwMTUvMDUvMTAvNzc5Y2YxYTYtNWRhYS00MjIxLTkxZDAtZThjNjZjOTM5NDZjLmpwZyIgc3R5bGU9ImhlaWdodDozNjRweDsgd2lkdGg6MzAwcHgiIC8+PGJyIC8+CjxiciAvPgo0LiBTZWxlY3QgIjxzcGFuIHN0eWxlPSJjb2xvcjpyZ2IoMCwgMCwgMjA1KSI+PHN0cm9uZz53aXBlIGRhdGEvZmFjdG9yeSByZXNldDwvc3Ryb25nPjwvc3Bhbj4iIGJ5IHZvbHVtZSBkb3duIGtleSAob3Igdm9sdW1lIHVwIGtleSksIGFuZCB0aGVuIHByZXNzIHBvd2VyIGtleSB0byBzdGFydCByZXNldC48YnIgLz4KwqDCoMKgIDxpbWcgYWx0PSIiIHNyYz0iaHR0cDovL2ttcGljLmFzdXMuY29tL2ltYWdlcy8yMDE1LzA1LzEwLzExZWFjZmMxLTE4MGMtNDY2OC1hZDU2LTcxNzFjNjkwYTI3Ni5qcGciIHN0eWxlPSJoZWlnaHQ6MjQycHg7IHdpZHRoOjUwMHB4IiAvPjxiciAvPgo8YnIgLz4KNS4gQWZ0ZXIgcmVzZXQgaXMgY29tcGxldGVkLCBzZWxlY3QgIjxzcGFuIHN0eWxlPSJjb2xvcjpyZ2IoMCwgMCwgMjA1KSI+PHN0cm9uZz5yZWJvb3Qgc3lzdGVtIG5vdzwvc3Ryb25nPjwvc3Bhbj4iIGFuZCBwcmVzcyBwb3dlciBrZXkgdG8gcmVib290IHlvdXIgZGV2aWNlLjxiciAvPgrCoMKgwqAgPGltZyBzcmM9Imh0dHA6Ly9rbXBpYy5hc3VzLmNvbS9pbWFnZXMvMjAxNS8xMi8wNy9jODRjNjQ5Ny00MjBmLTQ0NWItYTk0Yi0zMDNkZTBiNDM3YmMuanBnIiAvPjwvcD4KCjxwPsKgPC9wPgoKPHA+V2Ugc3VnZ2VzdCB5b3UgZ2/CoHRvIGxvY2FsIFNlcnZpY2UgQ2VudGVyIGZvciByZXBhaXIgaWYgeW91csKgcHJvYmxlbSBzdGlsbCBjYW5ub3QgYmUgc29sdmVkLjwvcD4KCjxwPsKgPC9wPgoKPHA+wqA8L3A+Cgo8cD48c3BhbiBzdHlsZT0iZm9udC1zaXplOjE0cHgiPjxzdHJvbmc+UmVsYXRlZCBUb3BpY3M8L3N0cm9uZz48L3NwYW4+PC9wPgoKPHVsPgoJPGxpPjxhIGhyZWY9Imh0dHA6Ly93d3cuYXN1cy5jb20vc3VwcG9ydC9GQVEvMTAwNjM0NyI+SG93IHRvIEZhY3RvcnkgUmVzZXQgWW91ciBaZW5Gb25lPzwvYT48L2xpPgoJPGxpPjxhIGhyZWY9Imh0dHA6Ly93d3cuYXN1cy5jb20vc3VwcG9ydC9GQVEvMTAwNjM0NiI+SG93IHRvIGRvIGhhcmR3YXJlIHJlc2V0IG9uIHlvdXIgcGhvbmU/PC9hPjwvbGk+Cgk8bGk+PGEgaHJlZj0iaHR0cDovL3d3dy5hc3VzLmNvbS9zdXBwb3J0L0ZBUS8xMDEwOTgwIj5Ib3cgdG8gdHJhbnNmZXIgZmlsZXMgYmV0d2VlbiB5b3VyIGNvbXB1dGVyIGFuZCBtb2JpbGUgZGV2aWNlPzwvYT48L2xpPgo8L3VsPgoKPHA+wqA8L3A+Cgo8cD7CoDwvcD4KZAIBD2QWFgIBDxYCHwFlZAIDDxYCHwEFJkRvZXMgdGhpcyBkb2N1bWVudCBzb2x2ZSB5b3VyIHByb2JsZW0/ZAIFDxYCHwEFA1llc2QCBw8WAh8BBQJOb2QCCQ8WAh8BBRNJcyBpdCBlYXN5IHRvIGZpbmQ/ZAILDxYCHwEFA1llc2QCDQ8WAh8BBQJOb2QCDw8PFgIfAwUIYmVjYXVzZT9kZAIRDxYCHgtfIUl0ZW1Db3VudAIFFgpmD2QWAmYPFQMKcXVlc3Rpb25fMAExIFRoaXMgRkFRIGlzIG5vdCBzcGVjaWZpYyBlbm91Z2guZAIBD2QWAmYPFQMKcXVlc3Rpb25fMQEyKlRoaXMgRkFRIGlzIHRvbyBjb21wbGljYXRlZCB0byBjb21wcmVoZW5kLmQCAg9kFgJmDxUDCnF1ZXN0aW9uXzIBMyNUaGUgdGl0bGUgb2YgdGhpcyBGQVEgaXMgbm90IGNsZWFyLmQCAw9kFgJmDxUDCnF1ZXN0aW9uXzMBNFNTb21lIG9mIHRoZSBpbWFnZXMgaW4gdGhpcyBGQVEgY2Fubm90IGJlIGRpc3BsYXllZCBwcm9wZXJseSBvciBsYWNrIHJlbGF0ZWQgaW1hZ2VzLmQCBA9kFgJmDxUDCnF1ZXN0aW9uXzQBNU5Tb21lIG9mIHRoZSBsaW5rcyBpbiB0aGlzIEZBUSBjYW5ub3QgYmUgb3BlbmVkIHByb3Blcmx5IG9yIGxhY2sgcmVsYXRlZCBsaW5rcy5kAhMPFgIfAQUoV2hhdCBjYW4gd2UgZG8gdG8gaW1wcm92ZSB0aGlzIGRvY3VtZW50P2QCFQ8WAh4LcGxhY2Vob2xkZXIFWVRvIHByb3RlY3QgeW91ciBwcml2YWN5LCBwbGVhc2UgRE8gTk9UIGluY2x1ZGUgeW91ciBjb250YWN0IGluZm9ybWF0aW9uIGluIHlvdXIgZmVlZGJhY2suZGQ+3eZdNBtBeQ2rS7tbpkgrx3tP3g=="> 
+   <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="14BD25B6"> 
+   <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdABp/nDR8yzZlIFYT8OsBPedWZJ5g6/mxVAyLL7pLu+1jWBuYfV4idFVYyc+C+jsdmxVsY1GbsNNnrrZ2VOa/j2O9KMxJPQRexYCAA3vXTL9Dg4t4GxE3XDJHQRQV/lGO+ZDYITSnInSQ+wJpr/sRs6AvOD2YBzoxYhlQhptE6XeIdyvHpGRA0RkoZaQ6Tz8Nf/jD/6gyGBSgN6uTT5FcsOYu5ZmL6XOuo2UBLHYiGzNZQ4wMHmZ3nA70roudDbi8wYKg2blLaM6WCy43Sr+KU5wBXABe/qz8xC3u3ellmYlwlcfUEF+L7yGNZTQxpJqXf5XHEql9eln9Spg3W3DooYjhaF50JlJslPraF8pmIMnm7rehgACrmthY5wY6tqMKBgm2dPP5l1Rcu0HGXjopXK1Z53ZrSJjhb1RIV8DxCgGvBtDUCT+Hj/jOFtUMe1wfBw4Zzit4vBnHsVWF9s/M0ySy0aASQJBmhh4ZmUds3OzXuj2WQufc8Ev3gOJYUuvbADvCvZdoA7Wl1tXD++gbqCaUVehs5eHi+mMCV2T5VwHDmmHLyMr12rosiEpmAFUP5an+PkZ7"> 
+   <!-- H-A-6 --> 
+   <input name="page_info1$langNormal" type="hidden" id="langNormal" value="en-us"> 
+   <input name="page_info1$hd_lang_prefix" type="hidden" id="hd_lang_prefix" value="/us/support"> 
+   <input name="page_info1$hd_product" type="hidden" id="hd_product"> 
+   <input name="page_info1$hd_product_name" type="hidden" id="hd_product_name"> 
+   <input name="page_info1$hd_product_name_ml" type="hidden" id="hd_product_name_ml"> 
+   <input name="page_info1$hd_series" type="hidden" id="hd_series"> 
+   <input name="page_info1$hd_series_name" type="hidden" id="hd_series_name"> 
+   <input name="page_info1$hd_series_name_ml" type="hidden" id="hd_series_name_ml"> 
+   <input name="page_info1$hd_model" type="hidden" id="hd_model"> 
+   <input name="page_info1$hd_model_ml" type="hidden" id="hd_model_ml"> 
+   <input name="page_info1$hd_os" type="hidden" id="hd_os"> 
+   <input name="page_info1$hd_hid" type="hidden" id="hd_hid"> 
+   <input name="page_info1$hd_offical_url" type="hidden" id="hd_offical_url"> 
+   <!-- Google Tag Manager with Origin gaTrace --> 
+   <noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+   </noscript> 
+   <script src="/support/js/gaTrace.js" type="text/javascript"></script> 
+   <!-- End Google Tag Manager --> 
+   <!--Online Chat--> 
+   <link href="/support/stylesheets/online-chat-btn.css" rel="stylesheet" type="text/css"> 
+   <script>
+    function inIframe() {
+        try {
+            return window.self !== window.top; //window.self means the current application , window.top means the top ahead application
+        } catch (e) {
+            return true;
+        }
+    }
+</script> 
+   <script type="text/javascript">
+    $(document).ready(function () {
+        var IsInIframe = inIframe();
+
+        if (IsInIframe) {
+            return false;
+        }
+
+        var _Local = $("#langNormal").val();
+
+        var onlineService = initOnlineService(_Local);
+        onlineService.init();
+    });
+
+    function initOnlineService(Local) {
+        var ApiUrl = window.location.protocol + "//demeter.asus.com/WSC/Support_API_New/SupportNewAPI/GetOnlineChatUrl/",
+            ApiOption;
+
+        ApiUrl += Local;
+
+        return {
+            init: function () {
+                if ($("#online-service").length > 0) return;
+
+                $.getJSON(ApiUrl + "?callback=?", ApiOption).done(function (result) {
+                    if (result && result.StatusCode == 0) {
+                        var onlineServiceString = result.Link_Name ? result.Link_Name : "Online Chat",
+                            serviceUrl = result.URL;
+
+                        onlineChatBtn = '<div id="online-service"><a class="btn" onclick="javascript:window.open(\'' + serviceUrl + '\', \'\',  \'width=520, height=700, scrollbars=yes\'); ga(\'send\', \'event\', \'button\', \'clicked\', \'onlinechat\');">' + onlineServiceString + '</a></div>';
+                        $(onlineChatBtn).appendTo("body");
+                    }
+                });
+            }
+        }
+    };
+</script> 
+   <!--Redirect en--> 
+   <input name="page_info_faq1$faq_type" type="hidden" id="faq_type" value="list"> 
+   <input name="page_info_faq1$base_url_detail" type="hidden" id="base_url_detail" value="/Faq/Detail.aspx"> 
+   <input name="page_info_faq1$HitRecordID" type="hidden" id="HitRecordID"> 
+   <input name="page_info_faq1$KbGuid" type="hidden" id="KbGuid" value="6A7F309E-927A-4B8A-9CB5-6C0D8447313B"> 
+   <div class="faq-pop"> 
+    <div class="navbar"> 
+     <a href="//www.asus.com/us" id="a_asusimg" target="_blank"> <img src="https://www.asus.com/images/asus.jpg" alt="" border="0"></a> 
+    </div> 
+    <!--Support--> 
+    <div class="grayBg"> 
+     <div class="faq-zone"> 
+      <div id="breadcrumbs"> 
+       <div id="product-topinfo"> 
+        <div id="breadcrumbs"> 
+         <a href="/us/" id="breadcrumb1_a_home" target="_self">Home</a>
+         <span id="breadcrumb1_s1" style="display:inline">&nbsp;&gt;&nbsp;</span>
+         <a href="/us/support" id="breadcrumb1_a_support" target="_self" style="display:inline">Support</a>
+         <span id="breadcrumb1_s2" style="display:inline">&nbsp;&gt;&nbsp;</span>
+         <a href="../../../uc_3/general/index.aspx" id="breadcrumb1_a_pagename" target="_self" style="display: none">[Page Name]</a> 
+         <span id="breadcrumb1_s_l1" style="display: none">&nbsp;&gt;&nbsp;</span>
+         <a href="../../../uc_3/general/index.aspx" id="breadcrumb1_a_l1" target="_self" style="display: none">[level 1]</a> 
+         <span id="breadcrumb1_s_l2" style="display: none">&nbsp;&gt;&nbsp;</span>
+         <a href="../../../uc_3/general/index.aspx" id="breadcrumb1_a_l2" target="_self" style="display: none">[level 2]</a> 
+         <span id="breadcrumb1_s_m" style="display: none">&nbsp;&gt;&nbsp;</span>
+         <a href="../../../uc_3/general/index.aspx" id="breadcrumb1_a_m" target="_self" style="display: none">[model]</a> 
+        </div> 
+        <div class="pull-right" id="MDA" style="display: none"> 
+         <span class="mdatext">ASUS recommends Windows® 7.</span> 
+        </div> 
+       </div> 
+      </div> 
+      <!--<script type="text/javascript" src="/support/js/gaTrace.js"></script>--> 
+      <!--Content Start--> 
+      <div> 
+       <h1 id="id_top_page_title" class="page-title" langtype="faq" langtextid="faq">FAQ</h1> 
+       <div class="divider"> 
+       </div> 
+      </div> 
+      <input name="faqheader$hd_version" type="hidden" id="hd_version" value="1"> 
+      <script type="text/javascript">
+    $(document).ready(function () {
+        var version = $("#hd_version").val();
+        if (version == "1") {//full_style需在resp前
+            var linkfs = document.createElement('link');
+            linkfs.type = 'text/css';
+            linkfs.rel = "stylesheet";
+            linkfs.href = "/support/stylesheets/full_style.css";
+            document.getElementsByTagName("head")[0].appendChild(linkfs);
+        }
+        var linkresp = document.createElement('link');
+        linkresp.type = 'text/css';
+        linkresp.rel = "stylesheet";
+        linkresp.href = "/support/stylesheets/responsive.css";
+        document.getElementsByTagName("head")[0].appendChild(linkresp);
+    });
+</script> 
+      <script type="text/javascript">
+
+    $("#a_mailpage").click(function () {
+        location.href = "mailto:?subject=" + escape(jQuery(document).attr('title')) + "&body=" + escape(document.location.href.replace(/ /g, "%20"));
+        return false;
+    });
+</script> 
+      <script src="/support/js/MISTrack.js" type="text/javascript"></script> 
+      <!--FAQ Start--> 
+      <div class="faq-content" itemscope itemtype="http://schema.org/Question"> 
+       <meta itemprop="author" content="ASUS"> 
+       <meta itemprop="dateCreated" content="2014-02-18T09:50:52"> 
+       <meta itemprop="dateModified" content="2016-03-28T11:21:53"> 
+       <meta itemprop="datePublished" content="2014-02-18T09:50:52"> 
+       <style>
+.sbs_title
+{
+    font-size:30px;
+    line-height:1.8 !important;
+}
+.sbs_titleDesc
+{
+    font-size:24px;
+    line-height:1.8 !important;
+}
+.sbs_steps_text
+{
+    font-size:18px;
+}
+.sbs_setps_imgs
+{    
+    margin:15px 0 80px 0;
+}
+@media (min-width: 768px) {
+    .sbs_steps_text
+    {
+        display:block;
+    }
+    .step-pop
+    {
+        display:none;
+    }
+}
+@media (max-width: 767px) 
+{
+    .sbs_steps_text
+    {
+        display:none;
+    }
+    .step-pop
+    {
+        display:block;
+    }
+    .phone
+    {
+        height:auto;
+    }
+    .phone-bg
+    {
+        display:none !important;
+    }
+}
+</style> 
+       <h3 class="title" itemprop="name"> <span id="mainzone_detail1_solutionzone1_Label1"><p>How to do hardware reset on your phone?</p> </span> </h3> 
+       <div itemprop="suggestedAnswer acceptedAnswer" itemscope itemtype="http://schema.org/Answer"> 
+        <meta itemprop="dateCreated" content="2014-02-18T09:50:52"> 
+        <meta itemprop="author" content="ASUS"> 
+        <div itemprop="text"> 
+         <p id="pnl_content"> </p>
+         <p>If you&nbsp;cannot&nbsp;use "Factory data reset" function in&nbsp;Settings menu, you can use Recovery mode to reset your device. To do a factory data reset, please see some examples below.</p> 
+         <p>The steps of performing a hardware reset may vary from different models.</p> 
+         <p>&nbsp;</p> 
+         <p><span style="color:rgb(255, 0, 0)"><strong>Note:</strong></span></p> 
+         <p><span style="color:rgb(255, 0, 0)"><strong>1. All data stored on your phone will be deleted after reset.</strong></span></p> 
+         <p><span style="color:rgb(255, 0, 0)"><strong>2. Before performing a reset, please ensure the battery life higher than 15%, or charge the phone during reset process. </strong></span></p> 
+         <p><span style="color:rgb(255, 0, 0)"><strong><span style="color:rgb(255, 0, 0)"><strong>3.&nbsp;&nbsp;When a reset starts, it will take about 4-8 minutes&nbsp;before setup wizard appears.</strong></span></strong></span><span style="color:rgb(255, 0, 0)"><strong><span style="color:rgb(255, 0, 0)"><strong> </strong></span></strong></span></p> 
+         <p>&nbsp;</p> 
+         <p><span style="color:rgb(0, 0, 205)"><strong><span style="font-size:16px">ZE500KG / ZE500KL / ZE550KL / ZE551KL / ZD551KL</span></strong></span></p> 
+         <p>1. When device is off, press (also hold) volume&nbsp;down key and then press (also hold) power key.</p> 
+         <p>&nbsp;&nbsp;&nbsp; After the device vibrates, release power key (keep holding volume&nbsp;down key) to enter&nbsp;recovery mode.</p> 
+         <p>2. Select "<span style="color:rgb(0, 0, 205)"><strong>wipe data/factory reset</strong></span>" by volume down key (or volume up key), and then press power key.<br> &nbsp;&nbsp;&nbsp; <img src="http://kmpic.asus.com/images/2015/09/26/7f16b4a5-4e97-4293-940e-42d5167872a4.jpg"><br> <br> 3. Select "<span style="color:rgb(0, 0, 205)"><strong>Yes -- delete all user data</strong></span>" by volume down key (or volume up key), and then press power key to start reset.<br> &nbsp;&nbsp;&nbsp; <img src="http://kmpic.asus.com/images/2015/09/26/84fc4131-e20c-454c-8650-095046568f7c.jpg"><br> <br> 4. After reset is completed, select "<span style="color:rgb(0, 0, 205)"><strong>reboot system now</strong></span>" and press power key to reboot your device.<br> &nbsp;&nbsp;&nbsp; <img src="http://kmpic.asus.com/images/2015/12/07/c84c6497-420f-445b-a94b-303de0b437bc.jpg">&nbsp;&nbsp;</p> 
+         <p>&nbsp;</p> 
+         <p>&nbsp;</p> 
+         <p><span style="color:rgb(0, 0, 205)"><strong><span style="font-size:16px">A500KL</span></strong></span></p> 
+         <p>1. When device is off, press (also hold) volume&nbsp;down key and then press (also hold) power key.</p> 
+         <p>&nbsp;&nbsp;&nbsp; After the device vibrates, release power key (keep holding volume&nbsp;down key) to enter&nbsp;recovery mode.</p> 
+         <p>2. After you see the picture below, select&nbsp;"<span style="color:rgb(0, 0, 205)"><strong>1. Enter SD download mode</strong></span>" by volume key and then press power key to confirm.<br> &nbsp;&nbsp;&nbsp; <img src="http://kmpic.asus.com/images/2015/09/26/2a43aed0-b87b-4cac-b496-6d170fe07772.jpg"><br> <br> 3. Select "<span style="color:rgb(0, 0, 205)"><strong>wipe data/factory reset</strong></span>" by volume down key (or volume up key), and then press power key.<br> &nbsp;&nbsp;&nbsp; <img src="http://kmpic.asus.com/images/2015/09/26/4e69923d-db7d-406c-8388-06bd345d4197.jpg"><br> <br> 4. Select "<span style="color:rgb(0, 0, 205)"><strong>Yes -- delete all user data</strong></span>" by volume down key (or volume up key), and then press power key to start reset.<br> &nbsp;&nbsp;&nbsp; <img src="http://kmpic.asus.com/images/2015/09/26/f0ccea43-914a-492a-b271-6b9d22246f8f.jpg"><br> <br> 5. After reset is completed, select "<span style="color:rgb(0, 0, 205)"><strong>reboot system now</strong></span>" and press power key to reboot your device.<br> &nbsp;&nbsp;&nbsp; <img src="http://kmpic.asus.com/images/2015/12/07/c84c6497-420f-445b-a94b-303de0b437bc.jpg"></p> 
+         <p>&nbsp;</p> 
+         <p>&nbsp;</p> 
+         <p><span style="color:rgb(0, 0, 205)"><strong><span style="font-size:16px">ZE550ML / ZE551ML / A500CG (Android 5.0)</span></strong></span></p> 
+         <p>1. When device is off, press (also hold) volume up key and then press (also hold) power key.</p> 
+         <p>&nbsp;&nbsp;&nbsp; After the device vibrates, release power key (keep holding volume up key) to enter Fastboot mode.</p> 
+         <p>2. Select "<span style="color:rgb(0, 0, 205)"><strong>RECOVERY MODE</strong></span>" by "volume down key" (or "volume up key"), and then press "power key" to confirrm.<br> &nbsp;&nbsp;&nbsp; <img alt="" src="http://kmpic.asus.com/images/2015/05/10/10c0258c-b404-4ca0-b106-17e90f5d46cf.jpg" style="height:533px; width:300px"><br> <br> 3. You will see this on your screen after device reboots.</p> 
+         <p>&nbsp;&nbsp;&nbsp; Press (also hold) power key and then press (then release) volume up key.<br> &nbsp;&nbsp;&nbsp; <img alt="" src="http://kmpic.asus.com/images/2015/05/11/05117eb7-ecad-4d4d-adf7-17056c30c022.jpg" style="height:349px; width:300px"><br> <br> 4. Select "<span style="color:rgb(0, 0, 205)"><strong>wipe data/factory reset</strong></span>" by volume down key (or volume up key), and then press power key to start reset.<br> &nbsp;&nbsp;&nbsp; <img alt="" src="http://kmpic.asus.com/images/2015/05/10/74c35216-c044-47ff-85b4-5e088232057e.jpg" style="height:267px; width:500px"><br> <br> 5. Select "<span style="color:rgb(0, 0, 205)"><strong>Yes -- delete all user data</strong></span>" by volume down key (or volume up key), and then press power key to start reset.<br> &nbsp;&nbsp;&nbsp; <img src="http://kmpic.asus.com/images/2015/09/26/84fc4131-e20c-454c-8650-095046568f7c.jpg"><br> <br> 6. After reset is completed, select "<span style="color:rgb(0, 0, 205)"><strong>reboot system now</strong></span>" and press power key to reboot your device.<br> &nbsp;&nbsp;&nbsp; <img src="http://kmpic.asus.com/images/2015/12/07/c84c6497-420f-445b-a94b-303de0b437bc.jpg"></p> 
+         <p>&nbsp;</p> 
+         <p>&nbsp;</p> 
+         <p><span style="color:rgb(0, 0, 205)"><span style="font-size:16px"><strong>ZE500CL</strong></span></span></p> 
+         <p>1. When device is off, press (also hold) volume up key and then press (also hold) power key.</p> 
+         <p>&nbsp;&nbsp;&nbsp; After the device vibrates, release power key (keep holding volume up key) to enter Fastboot mode.<br> <br> 2. Select "<span style="color:rgb(0, 0, 205)"><strong>RECOVERY MODE</strong></span>" by "volume down key" (or "volume up key"), and then press "power key" to confirm.<br> &nbsp;&nbsp;&nbsp; <img alt="" src="http://kmpic.asus.com/images/2015/05/10/73240f54-e068-4303-b5dd-e8ee885c2b88.jpg" style="height:533px; width:300px"><br> <br> 3. Select "<span style="color:rgb(0, 0, 205)"><strong>wipe data/factory reset</strong></span>" by volume down key (or volume up key), and then press power key to start reset.<br> &nbsp;&nbsp;&nbsp; <img alt="" src="http://kmpic.asus.com/images/2015/05/10/ab1542db-0f05-46f2-b740-5bf386a88674.jpg" style="height:279px; width:500px"><br> <br> 4.Select "<span style="color:rgb(0, 0, 205)"><strong>Yes -- delete all user data</strong></span>" by volume down key (or volume up key), and then press power key to start reset.<br> &nbsp;&nbsp;&nbsp; <img src="http://kmpic.asus.com/images/2015/09/26/84fc4131-e20c-454c-8650-095046568f7c.jpg"><br> <br> 5. After reset is completed, select "<span style="color:rgb(0, 0, 205)"><strong>reboot system now</strong></span>" and press power key to reboot your device.<br> &nbsp;&nbsp;&nbsp; <img src="http://kmpic.asus.com/images/2015/12/07/c84c6497-420f-445b-a94b-303de0b437bc.jpg"></p> 
+         <p>&nbsp;</p> 
+         <p>&nbsp;</p> 
+         <p><span style="color:rgb(0, 0, 205)"><span style="font-size:16px"><strong>A500CG (Android 4.4)</strong></span></span></p> 
+         <p>1. When device is off, press (also hold) volume up key and then press (also hold) power key.</p> 
+         <p>&nbsp;&nbsp;&nbsp; After the device vibrates, release power key (keep holding volume up key) to enter Fastboot mode.</p> 
+         <p>2. Select "<span style="color:rgb(0, 0, 205)"><strong>RECOVERY</strong></span>" by "volume down key" (or "volume up key"), and then press "power key" to confirm.<br> &nbsp;&nbsp;&nbsp; <img alt="" src="http://kmpic.asus.com/images/2015/05/10/9ba9a322-b74a-4255-86ec-c6eb436a7e5c.jpg" style="height:451px; width:300px"><br> <br> 3. You will see this on your screen after device reboots.</p> 
+         <p>&nbsp; &nbsp; First press the volume-down-key consecutively and press the volume-up-key<br> &nbsp;&nbsp;&nbsp; <img alt="" src="http://kmpic.asus.com/images/2015/05/10/779cf1a6-5daa-4221-91d0-e8c66c93946c.jpg" style="height:364px; width:300px"><br> <br> 4. Select "<span style="color:rgb(0, 0, 205)"><strong>wipe data/factory reset</strong></span>" by volume down key (or volume up key), and then press power key to start reset.<br> &nbsp;&nbsp;&nbsp; <img alt="" src="http://kmpic.asus.com/images/2015/05/10/11eacfc1-180c-4668-ad56-7171c690a276.jpg" style="height:242px; width:500px"><br> <br> 5. After reset is completed, select "<span style="color:rgb(0, 0, 205)"><strong>reboot system now</strong></span>" and press power key to reboot your device.<br> &nbsp;&nbsp;&nbsp; <img src="http://kmpic.asus.com/images/2015/12/07/c84c6497-420f-445b-a94b-303de0b437bc.jpg"></p> 
+         <p>&nbsp;</p> 
+         <p>We suggest you go&nbsp;to local Service Center for repair if your&nbsp;problem still cannot be solved.</p> 
+         <p>&nbsp;</p> 
+         <p>&nbsp;</p> 
+         <p><span style="font-size:14px"><strong>Related Topics</strong></span></p> 
+         <ul> 
+          <li><a href="http://www.asus.com/support/FAQ/1006347">How to Factory Reset Your ZenFone?</a></li> 
+          <li><a href="http://www.asus.com/support/FAQ/1006346">How to do hardware reset on your phone?</a></li> 
+          <li><a href="http://www.asus.com/support/FAQ/1010980">How to transfer files between your computer and mobile device?</a></li> 
+         </ul> 
+         <p>&nbsp;</p> 
+         <p>&nbsp;</p> 
+         <p></p> 
+         <input name="mainzone_detail1$solutionzone1$hd_Kbno" type="hidden" id="hd_Kbno" value="1006346"> 
+        </div> 
+       </div> 
+       <script>
+    $(window).on("resize", window_resize);
+    $(document).ready(function () {
+        if ($(window).width() < 768) {
+            setMobileView()
+        }
+    });
+    
+    function window_resize() {
+        if ($(window).width() < 768) {
+            setMobileView();
+        } else if ($(window).width() >= 768) {
+            $("#div_pc").show();
+            $("#div_mobile").hide();
+            
+        }
+    }
+    function setMobileView() {
+        $("#div_pc").hide();
+        $("#div_mobile").show();
+        var zm = ($(window).width() / $(".mobile-phone").attr("data-imgw"));
+        $(".mobile-phone").css("zoom", zm * 0.97);
+    }
+
+
+//$(document).ready(function () {
+//    if ($("#iframe_sbs").length) {
+//        var ww = $(window).width();
+//        if (ww < 768) {// && ("createTouch" in document))
+//            $("#iframe_sbs").hide();
+//            $("#div_sbs_static").show();
+//        }
+//        else {
+//            $("#iframe_sbs").show();
+//            $("#div_sbs_static").hide();
+//        }
+//    }
+//})
+</script> 
+       <div class="divider"> 
+       </div> 
+       <div class="feedback-zone"> 
+        <h3 langtype="faq" langtextid="feedback"></h3> 
+        <div> 
+         <p langtype="faq" langtextid="does_solved">Does this document solve your problem?</p> 
+         <label class="radio inline"> <input type="radio" name="rbList1" id="Radio1" onclick="solve_click()" value="1"><span id="mainzone_detail1_feedback1_Span1" langtype="faq" langtextid="yes">Yes</span> </label> 
+         <label class="radio inline"> <input type="radio" name="rbList1" id="Radio2" onclick="solve_click()" value="0"><span id="mainzone_detail1_feedback1_Span2" langtype="faq" langtextid="no">No</span> </label> 
+        </div> 
+        <div id="div_easyfind" style="display: none;"> 
+         <font id="mainzone_detail1_feedback1_Span3" langtype="faq" langtextid="is_easy_find">Is it easy to find?</font> 
+         <label class="radio inline"> <input id="Radio_Easy" type="radio" value="1" name="rbList2"><span id="mainzone_detail1_feedback1_Span4" langtype="faq" langtextid="yes">Yes</span></label> 
+         <label class="radio inline"> <input id="Radio_Hard" type="radio" value="0" name="rbList2"><span id="mainzone_detail1_feedback1_Span5" langtype="faq" langtextid="no">No</span></label> 
+        </div> 
+        <div id="div_questions" style="display: none" class="solve"> 
+         <span id="mainzone_detail1_feedback1_lbl_notsolve">because?</span> 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_0" value="1">This FAQ is not specific enough. 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_1" value="2">This FAQ is too complicated to comprehend. 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_2" value="3">The title of this FAQ is not clear. 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_3" value="4">Some of the images in this FAQ cannot be displayed properly or lack related images. 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_4" value="5">Some of the links in this FAQ cannot be opened properly or lack related links. 
+         <br> 
+        </div> 
+        <script type="text/javascript">
+        function solve_click() {
+            var answer1 = $("input[name='rbList1']:checked").val();
+
+            //是跟否的回傳值 20150503
+            //$("input[name='rbList1']").attr('disabled', 'disabled');
+            quick_feedback_solve();
+
+            //如果是否就出現勾勾 20150503
+            if (answer1 == "0") {
+                $("#div_questions").show();
+                $("#div_easyfind").hide();
+            }
+            else { //是就出現單選項 20150503
+                $("#div_easyfind").show();
+                $("#div_questions").hide();
+            }
+        }
+
+        //傳回值 20150503
+        function quick_feedback_solve() {
+            var s_langNormal = $("#langNormal").val();
+            var s_KbNo = $("#hd_Kbno").val();
+            var s_HitRecordID = $("#hdn_HitRecordID").val();
+            var s_product = $("#hdn_product").val();
+            var s_model = $("#hdn_model").val();
+            var s_kbtype = $("#hdn_kbtype").val();
+            
+            var s_isSolve = $("input[name='rbList1']:checked");
+            s_isSolve = s_isSolve.val();
+            
+
+            var strXML = "<?xml version='1.0' encoding='utf-8' ?>" +
+                "<root>" +
+                "<langNormal>" + s_langNormal + "</langNormal>" +
+                "<KBNO>" + s_KbNo + "</KBNO>" +
+                "<HitRecordID>" + s_HitRecordID + "</HitRecordID>" +
+                "<product>" + s_product + "</product>" +
+                "<model>" + s_model + "</model>" +
+                "<kbtype>" + s_kbtype + "</kbtype>" +
+                "<isSolve>" + s_isSolve + "</isSolve>" +
+                "</root>";
+
+            var post_url = "/support/utilities/log/feedback_qsolve.aspx";
+
+            $.ajax({
+                url: post_url,
+                data: strXML,
+                type: 'POST',
+                contentType: "text/xml",
+                dataType: "text",
+                success: function () {
+                    //console.log("");
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    console.log(xhr.status);
+                    console.log(thrownError);
+                }
+            });
+
+        }
+    </script> 
+        <div> 
+         <p id="mainzone_detail1_feedback1_P1" langtype="faq" langtextid="what_we_do">What can we do to improve this document?</p> 
+        </div> 
+        <div class="center"> 
+         <textarea name="mainzone_detail1$feedback1$text_feedback" id="mainzone_detail1_feedback1_text_feedback" class="text_feedback" cols="20" rows="3" langtype="faq" langtextid="is_easy_find" placeholder="To protect your privacy, please DO NOT include your contact information in your feedback."></textarea> 
+        </div> 
+        <div class="center"> 
+         <input type="button" value="Feedback" class="btn-asus" onclick="callfeedback();"> 
+        </div> 
+        <script type="text/javascript">
+        //傳回剩下的值  20150503
+        function callfeedback() {
+            var s_langNormal = $("#langNormal").val();
+            var s_KbGuid = $("#KbGuid").val();
+            var s_HitRecordID = $("#hdn_HitRecordID").val();
+            var s_product = $("#hdn_product").val();
+            var s_model = $("#hdn_model").val();
+            var s_kbtype = $("#hdn_kbtype").val();
+
+            var s_isSolve = $("input[name='rbList1']:checked");
+            if (s_isSolve.length <= 0) {
+                alert('please select Q1 answer');
+            } else {
+                s_isSolve = s_isSolve.val();
+                var s_isEasyfind = ($("input[name='rbList2']:checked").length > 0) ? $("input[name='rbList2']:checked").val() : "";
+                var rbList3 = $("input[name='rbList3']");
+
+                var question = new Array(5);
+                for (i = 0; i < rbList3.length; i++) {
+                    if (rbList3.eq(i)[0].checked == true) {
+                        question[i] = "1";
+                    } else {
+                        question[i] = "0"
+                    }
+                }
+                var s_feedBakTxt = $(".text_feedback").val();
+
+                var strXML = "<?xml version='1.0' encoding='utf-8' ?>" +
+                  "<root>" +
+                    "<langNormal>" + s_langNormal + "</langNormal>" +
+                    "<KbGuid>" + s_KbGuid + "</KbGuid>" +
+                    "<HitRecordID>" + s_HitRecordID + "</HitRecordID>" +
+                    "<product>" + s_product + "</product>" +
+                    "<model>" + s_model + "</model>" +
+                    "<kbtype>" + s_kbtype + "</kbtype>" +
+                    "<isSolve>" + s_isSolve + "</isSolve>" +
+                    "<isEasyfind>" + s_isEasyfind + "</isEasyfind>" +
+                    "<question1>" + question[0] + "</question1>" +
+                    "<question2>" + question[1] + "</question2>" +
+                    "<question3>" + question[2] + "</question3>" +
+                    "<question4>" + question[3] + "</question4>" +
+                    "<question5>" + question[4] + "</question5>" +
+                    "<feedBakTxt>" + s_feedBakTxt + "</feedBakTxt>" +
+                  "</root>";
+
+                var post_url = "/support/utilities/log/feedback.aspx";
+
+                $.ajax({
+                    url: post_url,
+                    data: strXML,
+                    type: 'POST',
+                    contentType: "text/xml",
+                    dataType: "text",
+                    success: function () {
+                        //console.log("");
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        console.log(xhr.status);
+                        console.log(thrownError);
+                    }
+                });
+
+                alert("OK");
+            }
+        }
+    </script> 
+       </div> 
+       <br> 
+       <br> 
+       <br> 
+      </div> 
+     </div> 
+    </div> 
+    <input name="hdn_HitRecordID" type="hidden" id="hdn_HitRecordID" value="d75ae444-0e5d-4edd-ba24-89cd17cfaa7c"> 
+    <input name="hdn_KbGuid" type="hidden" id="hdn_KbGuid"> 
+    <input name="hdn_product" type="hidden" id="hdn_product"> 
+    <input name="hdn_model" type="hidden" id="hdn_model"> 
+    <input name="hdn_kbtype" type="hidden" id="hdn_kbtype" value="2"> 
+   </div> 
+  </form> 
+  <script type="text/javascript">
+         var Parameter = window.location.search;
+         if (Parameter.indexOf("DisASUSMenu") > -1) {
+             $(".navbar").css("display", "none");
+         }
+    </script>   
+ </body>
+</html>

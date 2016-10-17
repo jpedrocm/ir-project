@@ -3,6 +3,7 @@ package classification;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -171,7 +172,7 @@ public class Classifier {
 		crawleds.put(folderName, new Integer(docs.length));
 		
 		for(String doc : docs)
-			if(classifySingleDoc(directory+doc))
+			if(classifySingleDoc(Paths.get(directory, doc).toString()))
 				relevantDocs.add(doc);
 		
 		rels.put(folderName, new Integer((int)relevantDocs.size()));
@@ -182,15 +183,15 @@ public class Classifier {
 	public HashMap<String, ArrayList<String>> classifyAllDocs(String directory, boolean filtered, String setPath, String modelPath) {
 		HashMap<String, ArrayList<String>> relevantDocuments = new HashMap<String, ArrayList<String>>();
 		
-		this.loadSet("Data/full_data.arff");
-        this.loadModel("Data/random_forest.model");		
+		this.loadSet(setPath);
+        this.loadModel(modelPath);		
         
 		String[] foldersPerDomain = new File(directory).list();
 		for(String folder : foldersPerDomain){
 		    if (filtered && folder.contains("Filtered"))
-		        relevantDocuments.put(folder, classifyAllDocsFromSingleDomain(directory+folder+"/"));	
+		        relevantDocuments.put(folder, classifyAllDocsFromSingleDomain(Paths.get(directory, folder).toString()));	
 		    else if (!filtered && !folder.contains("Filtered"))
-		        relevantDocuments.put(folder, classifyAllDocsFromSingleDomain(directory+folder+"/"));
+		        relevantDocuments.put(folder, classifyAllDocsFromSingleDomain(Paths.get(directory, folder).toString()));
 		}
 		
 		return relevantDocuments;

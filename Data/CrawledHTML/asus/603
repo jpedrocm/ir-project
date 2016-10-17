@@ -1,0 +1,779 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-tw">
+ <!--[if IE 6]><html class="ie6 lte9 lte8 lte7" lang="zh-tw"><![endif]-->
+ <!--[if IE 8]><html class="ie8 lte9 lte8" lang="zh-tw"><![endif]-->
+ <!--[if IE 9]><html class="ie9 lte9" lang="zh-tw"><![endif]-->
+ <!--[if IE 7]><html class="ie7 lte9 lte8 lte7" lang="zh-tw"><![endif]-->
+ <!--[if !(IE 6) | !(IE 7) | !(IE 8) | !(IE 9)  ]><!-->
+ <!--<![endif]-->
+ <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta property="og:title">
+  <meta property="og:description">
+  <meta property="og:url">
+  <meta property="og:image">
+  <link href="/support/stylesheets/zencare/main/normalize.css" rel="stylesheet">
+  <link href="/support/stylesheets/zencare/main/style.css" rel="stylesheet"> 
+  <!--[if gte IE 9]><!--> 
+  <link href="/support/stylesheets/zencare/main/responsive.css" rel="stylesheet"> 
+  <!--<![endif]--> 
+  <!--[if lt IE 9]>
+	    <script src="/support/js/zencare/main/libs/html5.js"></script>
+		<script src="/support/js/zencare/main/libs/IE9.js" ></script>      
+    <![endif]--> 
+  <title>
+	ASUSTeK Computer Inc. -ZenCare-
+</title> 
+  <link rel="shortcut icon" href="//www.asus.com/images/favicon.ico" type="image/x-icon"> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="description" content=""> 
+  <meta name="author" content=""> 
+  <script type="text/javascript" src="/support/js/jquery.js"></script> 
+  <script src="/support/js/zencare/main/libs/jquery.min.js"></script> 
+  <script type="text/javascript" src="/support/js/jquery.colorbox.js"></script> 
+  <script type="text/javascript" src="/support/js/bootstrap.js"></script> 
+  <link type="text/css" rel="stylesheet" href="/support/stylesheets/colorbox.css"> 
+  <script src="/support/js/zencare/main/plugin/jquery-youtubeBox.js"></script> 
+  <script src="/support/js/zencare/main/plugin/jquery-SBSBox.js"></script> 
+  <!--<script type="text/javascript" src="/support/js/gaTrace.js"></script>--> 
+  <script type="text/javascript">
+    //loading local css file
+    $(document).ready(function () {
+        var css_name = "";
+        var lang_prefix = window.location.pathname.split("/");
+        if (lang_prefix.length >= 2)
+            if (lang_prefix[1] == "support")
+                css_name = "";
+            else
+                css_name = lang_prefix[1] + ".css";
+
+        if (window.console)
+            console.log("css name: " + css_name);
+
+        if (window.location.hostname.indexOf("asus.com.cn") >= 0) {
+            css_name = "cn.css";
+        }
+
+        if (window.console)
+            console.log("css name: " + css_name);
+
+        if (css_name != "") {
+            var link = document.createElement('link');
+            link.type = 'text/css';
+            link.rel = "stylesheet";
+            link.href = "/support/stylesheets/zencare/local/" + css_name;
+            document.getElementsByTagName("head")[0].appendChild(link);
+        }
+    });
+</script> 
+  <script type="text/javascript">
+    $(document).ready(function () {
+        document.title = 'ASUSTeK Computer Inc. -Support- ';
+        if ($('#id_top_page_title') != undefined && $('#id_top_page_title').text() != "")
+            document.title += '  ' + $('#id_top_page_title').text();
+    });
+</script> 
+  <script language="javascript">
+    var _wmxq = _wmxq || [];
+    _wmxq.push(["_getTracker", "SupportSite", "website", "etrk.asus.com"]); _wmxq.push(["trackPageview"]);
+    (function () {
+        var sc = document.createElement("script"); sc.type = "text/javascript"; sc.async = true;
+        sc.src = ("https:" == document.location.protocol ? "https:" : "http:") + "//etrk.asus.com/web_service/TrackingJS/wmxtracker.js";
+        var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(sc, s);
+    })();
+</script> 
+ </head> 
+ <body> 
+  <div id="lightCanvas" class=""> 
+   <div class="light-bg"></div> 
+   <a href="javascript:void(0);" class="totu-close" onclick="closetutorial();"><img src="/support/images/zencare/g_close.png" alt=""></a> 
+   <div class="totu-logo">
+    <img src="/support/images/zencare/logo.png" alt="">
+   </div> 
+   <div id="tutorial-cont"> 
+   </div> 
+   <div class="tutu-footer-box"> 
+    <a id="a_sbs_seemore_link" href="SBS/" class="bh-more see-more">See more ZenFone tutorial <img src="/support/images/zencare/sub_button.png" alt=""></a> 
+    <div class="totu-footer"> 
+     <p>Haven't worked out your problem? </p> 
+     <p>Please contact by <a id="a_chat_link" href="javascript:void(0);" class="bh-more">online chat</a> or <a id="a_call_link" href="#" target="_blank" class="bh-more">call</a></p> 
+    </div> 
+   </div> 
+  </div> 
+  <form method="post" action="./?ln=zh-tw&amp;" id="form1"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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aWQlMhPoq4vllY/lpoLkvZXmk7flnJY/ZAIDD2QWAmYPFQJkaHR0cDovL3d3dy5hc3VzLmNvbS96ZW50YWxrL3R3L2ZvcnVtLnBocD9tb2Q9dmlld3RocmVhZCZ0aWQ9ODA4MzUmZXh0cmE9cGFnZSUzRDElMjZmaWx0ZXIlM0R0eXBlaWQlMjbngrrkvZUgWmVuRm9uZSAyIFdpRmnliIbkuqvntabnrYbpm7vpgJ/luqblj6rmnIk2NU1icHNkAgQPZBYCZg8VAlJodHRwOi8vd3d3LmFzdXMuY29tL3plbnRhbGsvdHcvZm9ydW0ucGhwP21vZD12aWV3dGhyZWFkJnRpZD04MjMwMyZwYWdlPTEjcGlkMzY4MTMzG+aIkeaDs+imgeino+mZpOieouW5lemOluWummQCFQ8WAh8ABQNGQVFkAhcPFgQfAQVCaHR0cDovL3d3dy5hc3VzLmNvbS90dy9zdXBwb3J0L0tub3dsZWRnZS1zZWFyY2hWMi8/a2V5d29yZD1aZW5mb25lHwAFOuabtOWkmjxpbWcgc3JjPScvc3VwcG9ydC9pbWFnZXMvemVuY2FyZS9hcnJvdy5wbmcnIGFsdD0nJz5kAhkPFgIfAgIFFgpmD2QWAmYPFQIqaHR0cDovL3d3dy5hc3VzLmNvbS90dy9zdXBwb3J0L0ZBUS8xMDE2MjMxNVplbkZvbmUgTWF4IChaQzU1MEtMKSDmmK/lkKblj6/ku6Xoh6rooYzmm7Tmj5vpm7vmsaA/ZAIBD2QWAmYPFQIqaHR0cDovL3d3dy5hc3VzLmNvbS90dy9zdXBwb3J0L0ZBUS8xMDA3MzIwGeWmguS9leWuieijnUFTVVMgUEMgTGluaz9kAgIPZBYCZg8VAipodHRwOi8vd3d3LmFzdXMuY29tL3R3L3N1cHBvcnQvRkFRLzEwMDYzNDYe5omL5qmf56Gs6auU6YKE5Y6f5pON5L2c5q2l6amfZAIDD2QWAmYPFQIqaHR0cDovL3d3dy5hc3VzLmNvbS90dy9zdXBwb3J0L0ZBUS8xMDA5NzQ4HOWmguS9leabtOaWsOaJi+apn+eahOmfjOmrlD9kAgQPZBYCZg8VAipodHRwOi8vd3d3LmFzdXMuY29tL3R3L3N1cHBvcnQvRkFRLzEwMDc0OTA65aaC5L2V6YCP6YGOIFJlbW90ZSBMaW5rIOmAo+aOpSBaZW5Gb25lIOWSjOaCqOeahOmbu+iFpu+8n2QCGw8WAh8ABRLoj6/noqnmnIPlk6HluLPomZ9kAh0PFgQfAQU3aHR0cHM6Ly9hY2NvdW50LmFzdXMuY29tL3NpZ251cC5hc3B4P2xhbmc9emgtdHcmc2l0ZT10dx8ABUDnlKLlk4HoqLvlhoo8aW1nIHNyYz0nL3N1cHBvcnQvaW1hZ2VzL3plbmNhcmUvYXJyb3cucG5nJyBhbHQ9Jyc+ZAIfDxYCHwAFVOiou+WGiuiPr+eiqeacg+WToe+8jOS7peeNsuW+l+abtOWujOaVtOS4lOi/hemAn+eahOWuouaItuacjeWLme+8jOePvuWcqOWwseiou+WGiu+8gWQCIQ8WAh8ABRjlnKjmraToqLvlhormgqjnmoTnlKLlk4FkAiMPFgQfAQU8aHR0cHM6Ly9hY2NvdW50LmFzdXMuY29tL3Byb2R1Y3RfcmVnLmFzcHg/bGFuZz16aC10dyZzaXRlPXR3HwAFQOeUouWTgeiou+WGijxpbWcgc3JjPScvc3VwcG9ydC9pbWFnZXMvemVuY2FyZS9hcnJvdy5wbmcnIGFsdD0nJz5kAiUPFgIfAAU6542y5b6X5pu05aSa6Zec5pa855Si5ZOB55u46Zec5oqA6KGT5pSv5o+06IiH5ZSu5b6M5pyN5YuZIGQCJw8WAh8ABQznlKLlk4HmiYvlhopkAikPFgQfAQUHaHR0cDovLx8ABUDmjInmraTkuIvovIk8aW1nIHNyYz0nL3N1cHBvcnQvaW1hZ2VzL3plbmNhcmUvYXJyb3cucG5nJyBhbHQ9Jyc+ZAIrDxYCHwICFxYuZg9kFgJmDxUHBXpoLXR3AjM5ATEBMAIxMRhBU1VTIFplbkZvbmUgMiAoWkU1MDBDTCkYQVNVUyBaZW5Gb25lIDIgKFpFNTAwQ0wpZAIBD2QWAmYPFQcFemgtdHcCMzkBMQEwAjEyGEFTVVMgWmVuRm9uZSAyIChaRTU1ME1MKRhBU1VTIFplbkZvbmUgMiAoWkU1NTBNTClkAgIPZBYCZg8VBwV6aC10dwIzOQExATACMTMYQVNVUyBaZW5Gb25lIDIgKFpFNTUxTUwpGEFTVVMgWmVuRm9uZSAyIChaRTU1MU1MKWQCAw9kFgJmDxUHBXpoLXR3AjM5ATEBMAIyMR5BU1VTIFplbkZvbmUgMiBMYXNlciAoWkU1MDBLRykeQVNVUyBaZW5Gb25lIDIgTGFzZXIgKFpFNTAwS0cpZAIED2QWAmYPFQcFemgtdHcCMzkBMQEwAjIwHkFTVVMgWmVuRm9uZSAyIExhc2VyIChaRTUwMEtMKR5BU1VTIFplbkZvbmUgMiBMYXNlciAoWkU1MDBLTClkAgUPZBYCZg8VBwV6aC10dwIzOQExATACMjceQVNVUyBaZW5Gb25lIDIgTGFzZXIgKFpFNTUwS0cpHkFTVVMgWmVuRm9uZSAyIExhc2VyIChaRTU1MEtHKWQCBg9kFgJmDxUHBXpoLXR3AjM5ATEBMAIyMh5BU1VTIFplbkZvbmUgMiBMYXNlciAoWkU1NTBLTCkeQVNVUyBaZW5Gb25lIDIgTGFzZXIgKFpFNTUwS0wpZAIHD2QWAmYPFQcFemgtdHcCMzkBMQEwAjIzHkFTVVMgWmVuRm9uZSAyIExhc2VyIChaRTU1MUtMKR5BU1VTIFplbkZvbmUgMiBMYXNlciAoWkU1NTFLTClkAggPZBYCZg8VBwV6aC10dwIzOQExATACMjQeQVNVUyBaZW5Gb25lIDIgTGFzZXIgKFpFNjAwS0wpHkFTVVMgWmVuRm9uZSAyIExhc2VyIChaRTYwMEtMKWQCCQ9kFgJmDxUHBXpoLXR3AjM5ATEBMAIyNR5BU1VTIFplbkZvbmUgMiBMYXNlciAoWkU2MDFLTCkeQVNVUyBaZW5Gb25lIDIgTGFzZXIgKFpFNjAxS0wpZAIKD2QWAmYPFQcFemgtdHcCMzkBMQEwAjE2HkFTVVMgWmVuRm9uZSAyRSAoWkU1MDBDTCBBVCZUKR5BU1VTIFplbkZvbmUgMkUgKFpFNTAwQ0wgQVQmVClkAgsPZBYCZg8VBwV6aC10dwIzOQExATACMjkYQVNVUyBaZW5Gb25lIDMgKFpFNTIwS0wpGEFTVVMgWmVuRm9uZSAzIChaRTUyMEtMKWQCDA9kFgJmDxUHBXpoLXR3AjM5ATEBMAIyOBhBU1VTIFplbkZvbmUgMyAoWkU1NTJLTCkYQVNVUyBaZW5Gb25lIDMgKFpFNTUyS0wpZAIND2QWAmYPFQcFemgtdHcCMzkBMQEwAjMwH0FTVVMgWmVuRm9uZSAzIERlbHV4ZSAoWlM1NzBLTCkfQVNVUyBaZW5Gb25lIDMgRGVsdXhlIChaUzU3MEtMKWQCDg9kFgJmDxUHBXpoLXR3AjM5ATEBMAIzMR5BU1VTIFplbkZvbmUgMyBMYXNlciAoWkM1NTFLTCkeQVNVUyBaZW5Gb25lIDMgTGFzZXIgKFpDNTUxS0wpZAIPD2QWAmYPFQcFemgtdHcCMzkBMQEwATEXQVNVUyBaZW5Gb25lIDQgKEE0MDBDRykXQVNVUyBaZW5Gb25lIDQgKEE0MDBDRylkAhAPZBYCZg8VBwV6aC10dwIzOQExATABNRdBU1VTIFplbkZvbmUgNCAoQTQ1MENHKRdBU1VTIFplbkZvbmUgNCAoQTQ1MENHKWQCEQ9kFgJmDxUHBXpoLXR3AjM5ATEBMAEyF0FTVVMgWmVuRm9uZSA1IChBNTAwQ0cpF0FTVVMgWmVuRm9uZSA1IChBNTAwQ0cpZAISD2QWAmYPFQcFemgtdHcCMzkBMQEwATYXQVNVUyBaZW5Gb25lIDUgKEE1MDBLTCkXQVNVUyBaZW5Gb25lIDUgKEE1MDBLTClkAhMPZBYCZg8VBwV6aC10dwIzOQExATABNxdBU1VTIFplbkZvbmUgNSAoQTUwMkNHKRdBU1VTIFplbkZvbmUgNSAoQTUwMkNHKWQCFA9kFgJmDxUHBXpoLXR3AjM5ATEBMAEzF0FTVVMgWmVuRm9uZSA2IChBNjAwQ0cpF0FTVVMgWmVuRm9uZSA2IChBNjAwQ0cpZAIVD2QWAmYPFQcFemgtdHcCMzkBMQEwAjE3HUFTVVMgWmVuRm9uZSBTZWxmaWUgKFpENTUxS0wpHUFTVVMgWmVuRm9uZSBTZWxmaWUgKFpENTUxS0wpZAIWD2QWAmYPFQcFemgtdHcCMzkBMQEwAjI2G0FTVVMgWmVuRm9uZSBab29tIChaWDU1MU1MKRtBU1VTIFplbkZvbmUgWm9vbSAoWlg1NTFNTClkAi0PFgIfAAUM5pWZ5a245b2x54mHZAIvDxYEHwEFHi90dy9TdXBwb3J0L1plbkNhcmUvVmlkZW8vMjkvMR8ABTrmm7TlpJo8aW1nIHNyYz0nL3N1cHBvcnQvaW1hZ2VzL3plbmNhcmUvYXJyb3cucG5nJyBhbHQ9Jyc+ZAIxDxYCHwICBRYKZg9kFgJmDxUDC200RHJ3eG5PRGtrKlplblVJIC0g5aaC5L2V5Zyo5Li755Wr6Z2i5bu656uL6LOH5paZ5YyjPypaZW5VSSAtIOWmguS9leWcqOS4u+eVq+mdouW7uueri+izh+aWmeWMoz9kAgEPZBYCZg8VAwtnbmZvRGtJSEM2VRjmlJ3pjITlvbHmqZ8gLSDpmLLmiYvpnIcY5pSd6YyE5b2x5qmfIC0g6Ziy5omL6ZyHZAICD2QWAmYPFQMLQ09NZTJydzVGRDQV55u45qmfIC0g576O6aGP5qih5byPFeebuOapnyAtIOe+jumhj+aooeW8j2QCAw9kFgJmDxUDC2tHeTVQcWcwSlhzKE9wZW4gQ2xvdWQgLSDmlbTlkIjkuI3lkIznmoTntrLot6/nqbrplpMoT3BlbiBDbG91ZCAtIOaVtOWQiOS4jeWQjOeahOe2sui3r+epuumWk2QCBA9kFgJmDxUDC3lZM2VNWm8tQWpRM1plblVJIC0g5aaC5L2V6YCP6YGOVVNC57ay6Lev5YWx55So6YCj5o6l5Yiw57ay6LevPzNaZW5VSSAtIOWmguS9lemAj+mBjlVTQue2sui3r+WFseeUqOmAo+aOpeWIsOe2sui3rz9kAjMPFgIfAAUP5LqS5YuV5byP5pWZ5a24ZAI1DxYEHwEFHC90dy9TdXBwb3J0L1plbkNhcmUvU0JTLzI5LzEfAAU65pu05aSaPGltZyBzcmM9Jy9zdXBwb3J0L2ltYWdlcy96ZW5jYXJlL2Fycm93LnBuZycgYWx0PScnPmQCNw8WAh8CAgUWCmYPZBYCZg8VAwMxMTQBNjHjgJDoqK3lrprjgJHngrrkvZXmiJHnhKHms5XmlLbliLDoqIrmga/nmoTpgJrnn6U/ZAIBD2QWAmYPFQMDMTI2ATYi44CQT21sZXQgQ2hhdOOAkeWmguS9leWKoOWFpeWlveWPi2QCAg9kFgJmDxUDAzExNwE2LeOAkE9tbGV0IENoYXTjgJHlpoLkvZXoqLvlhopPbWxldCBDaGF0IOW4s+iZn2QCAw9kFgJmDxUDAzExNgE2KOOAkE9wZW4gQ2xvdWTjgJHlpoLkvZXnmbvlh7rpm7Lnq6/luLPmiLZkAgQPZBYCZg8VAwMxMTMBNiXjgJDoqK3lrprjgJHlpoLkvZXmgaLlvqnljp/lu6DoqK3lrpo/ZAI5DxYCHwAFDVplblRhbGvoq5blo4dkAjsPFgQfAQUfaHR0cDovL3d3dy5hc3VzLmNvbS90dy96ZW50YWxrLx8ABTrmm7TlpJo8aW1nIHNyYz0nL3N1cHBvcnQvaW1hZ2VzL3plbmNhcmUvYXJyb3cucG5nJyBhbHQ9Jyc+ZAI9DxYCHwICBRYKZg9kFgJmDxUCQWh0dHA6Ly93d3cuYXN1cy5jb20vemVudGFsay90dy9mb3J1bS5waHA/bW9kPXZpZXd0aHJlYWQmdGlkPTM0MTMzNOmrmOmajuaWsOapn0FTVVMgUGFkRm9uZSBT5pC25YWI5YuV5omL546pIDfmnIjkuIrluIJkAgEPZBYCZg8VAlBodHRwOi8vd3d3LmFzdXMuY29tL3plbnRhbGsvdHcvZm9ydW0ucGhwP21vZD12aWV3dGhyZWFkJnRpZD0zOTM3MCZleHRyYT1wYWdlJTNEMiroq4vllY/lj6/ku6XlnKjnmoflrrbkv7HmqILpg6josrfmiYvmqZ/ll45kAgIPZBYCZg8VAkdodHRwOi8vd3d3LmFzdXMuY29tL3plbnRhbGsvdHcvZm9ydW0ucGhwP21vZD1mb3J1bWRpc3BsYXkmZmlkPTcxJnBhZ2U9MxdQYWRGb25lMueahOiXjeiKveiAs+apn2QCAw9kFgJmDxUCUGh0dHA6Ly93d3cuYXN1cy5jb20vemVudGFsay90dy9mb3J1bS5waHA/bW9kPXZpZXd0aHJlYWQmdGlkPTM3Njc0JmV4dHJhPXBhZ2UlM0QzJOiri+WVjyBwYWRmb25lIG1pbmkgVVNC57ay6Lev5YWx55SoP2QCBA9kFgJmDxUCUGh0dHA6Ly93d3cuYXN1cy5jb20vemVudGFsay90dy9mb3J1bS5waHA/bW9kPXZpZXd0aHJlYWQmdGlkPTM1MDY2JmV4dHJhPXBhZ2UlM0Q0IVBGSSDlj6/ku6XnlKjkuK3oj6/pm7vkv6HnmoQ0R+WXjmQCPw8WAh8ABQNGQVFkAkEPFgQfAQVCaHR0cDovL3d3dy5hc3VzLmNvbS90dy9zdXBwb3J0L0tub3dsZWRnZS1zZWFyY2hWMi8/a2V5d29yZD1QYWRmb25lHwAFOuabtOWkmjxpbWcgc3JjPScvc3VwcG9ydC9pbWFnZXMvemVuY2FyZS9hcnJvdy5wbmcnIGFs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IEZvbmVwYWQgNyAoRkUxNzFNRylkAgUPZBYCZg8VBwV6aC10dwIyOAE3ATACMTAYQVNVUyBGb25lcGFkIDcgKEZFMzc1Q0cpGEFTVVMgRm9uZXBhZCA3IChGRTM3NUNHKWQCBg9kFgJmDxUHBXpoLXR3AjI4ATcBMAIxORhBU1VTIEZvbmVwYWQgNyAoRkUzNzVDTCkYQVNVUyBGb25lcGFkIDcgKEZFMzc1Q0wpZAIHD2QWAmYPFQcFemgtdHcCMjgBNwEwAjIxGUFTVVMgRm9uZXBhZCA3IChGRTM3NUNYRykZQVNVUyBGb25lcGFkIDcgKEZFMzc1Q1hHKWQCCA9kFgJmDxUHBXpoLXR3AjI4ATcBMAIxNhlBU1VTIEZvbmVwYWQgNyAoRkU3MDEwQ0cpGUFTVVMgRm9uZXBhZCA3IChGRTcwMTBDRylkAgkPZBYCZg8VBwV6aC10dwIyOAE3ATACMTMaQVNVUyBGb25lcGFkIDcgKEZFNzUzMENYRykaQVNVUyBGb25lcGFkIDcgKEZFNzUzMENYRylkAgoPZBYCZg8VBwV6aC10dwIyOAE3ATACMjQYQVNVUyBGb25lcGFkIDcgKE1FMzczQ0cpGEFTVVMgRm9uZXBhZCA3IChNRTM3M0NHKWQCCw9kFgJmDxUHBXpoLXR3AjI4ATcBMAE2IUFTVVMgRm9uZXBhZCA3IER1YWwgU0lNIChNRTE3NUNHKSFBU1VTIEZvbmVwYWQgNyBEdWFsIFNJTSAoTUUxNzVDRylkAgwPZBYCZg8VBwV6aC10dwIyOAE3ATACMjIcQVNVUyBGb25lcGFkIDcgTFRFIChNRTM3M0NMKRxBU1VTIEZvbmVwYWQgNyBMVEUgKE1FMzczQ0wpZAIND2QWAmYPFQcFemgtdHcCMjgBNwEwAjIwHUFTVVMgRm9uZXBhZCA3IExURSAoTUU3MjMwQ0wpHUFTVVMgRm9uZXBhZCA3IExURSAoTUU3MjMwQ0wpZAIOD2QWAmYPFQcFemgtdHcCMjgBNwEwATkWQVNVUyBGb25lcGFkIDcgTUUzNzJDTBZBU1VTIEZvbmVwYWQgNyBNRTM3MkNMZAIPD2QWAmYPFQcFemgtdHcCMjgBNwEwAjExGEFTVVMgRm9uZXBhZCA4IChGRTM4MENHKRhBU1VTIEZvbmVwYWQgOCAoRkUzODBDRylkAhAPZBYCZg8VBwV6aC10dwIyOAE3ATACMTIZQVNVUyBGb25lcGFkIDggKEZFMzgwQ1hHKRlBU1VTIEZvbmVwYWQgOCAoRkUzODBDWEcpZAIRD2QWAmYPFQcFemgtdHcCMjgBNwEwAjE1GkFTVVMgRm9uZXBhZCA4IChGRTgwMzBDWEcpGkFTVVMgRm9uZXBhZCA4IChGRTgwMzBDWEcpZAISD2QWAmYPFQcFemgtdHcCMjgBNwEwAjE3G0FTVVMgRm9uZXBhZCBMVEUgKE1FNzMyMENMKRtBU1VTIEZvbmVwYWQgTFRFIChNRTczMjBDTClkAhMPZBYCZg8VBwV6aC10dwIyOAE3ATABMxNBU1VTIEZvbmVwYWQgTm90ZSA2E0FTVVMgRm9uZXBhZCBOb3RlIDZkAoEBDxYCHwAFDOiBr+e1oeiPr+eiqWQCgwEPFgIfAgIGFgxmD2QWAmYPFQMSL3R3L3N1cHBvcnQvQ2FsbFVzCmljb25zLWNhbGwT6IGv57Wh5oiR5YCRLembu+ipsWQCAQ9kFgJmDxUDOmh0dHBzOi8vdmlwLmFzdXMuY29tL1ZJUDIvU2VydmljZXMvUXVlc3Rpb25Gb3JtP2xhbmc9emgtdHcLaWNvbnMtZW1haWwZ6IGv57Wh5oiR5YCRLeWuouacjeS/oeeusWQCAg9kFgJmDxUDIS90dy9zdXBwb3J0L1NlcnZpY2UtQ2VudGVyL1RhaXdhbglpY29ucy1tYXAS5om+5bCL5pyN5YuZ5pOa6bueZAIDD2QWAmYPFQOtAWphdmFzY3JpcHQ6dm9pZCgwKSIgb25jbGljaz0id2luZG93Lm9wZW4oJ2h0dHBzOi8vY2hhdC10dy5hc3VzLmNvbS9jaGF0c2VydmljZS9pbmRleC5odG0/dGVuYW50PVRXJywgJ19uZXcnLCAndG9vbGJhcj1ubywgc2Nyb2xsYmFycz1ubywgcmVzaXphYmxlPW5vLHdpZHRoPTUyMCxoZWlnaHQ9NjcwJyk7CWljb25zLW1zZw/lrqLmnI3ljbPmmYLpgJpkAgQPZBYCZg8VAzEvdHcvc3VwcG9ydC9SZXBhaXItU3RhdHVzLUlucXVpcnkvP2NvdW50cnk9VGFpd2FuCmljb25zLXRvb2wS5p+l6Kmi57at5L+u6YCy5bqmZAIFD2QWAmYPFQMoaHR0cDovL3d3dy5hc3VzLmNvbS90dy9zdXBwb3J0L1JDQm9va2luZwppY29ucy1kYXRlEumgkOe0hOeUouWTgee2reS/rmRkEuVuoYfSqjE0wIA6MSck2DzzYnE="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="29C80973"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdABOeQ1oJpfwByi46xYJhwZl8ZJ5g6/mxVAyLL7pLu+1jWBuYfV4idFVYyc+C+jsdmxVsY1GbsNNnrrZ2VOa/j2O9KMxJPQRexYCAA3vXTL9Dg4t4GxE3XDJHQRQV/lGO+ZDYITSnInSQ+wJpr/sRs6AvOD2YBzoxYhlQhptE6XeIdyvHpGRA0RkoZaQ6Tz8Nf/jD/6gyGBSgN6uTT5FcsOYu5ZmL6XOuo2UBLHYiGzNZQ4wMHmZ3nA70roudDbi8wYKg2blLaM6WCy43Sr+KU5wBXABe/qz8xC3u3ellmYlwld0Ljd95u2VqTaX2ZWfLaITuTY51X7bmhu2CO86nVAQcdqX4naSeBkH1FUlFgd8kiKumBpJMAVpWwLsEJfGEorUuFYLbPvHIXNTzr/f+OqODbWNUSYhUOrK0WcaOqrrDwsoB24w="> 
+   </div> 
+   <!-- H-A-6 --> 
+   <input name="page_info1$langNormal" type="hidden" id="langNormal" value="zh-tw"> 
+   <input name="page_info1$hd_lang_prefix" type="hidden" id="hd_lang_prefix" value="/tw/support"> 
+   <input name="page_info1$hd_product" type="hidden" id="hd_product"> 
+   <input name="page_info1$hd_product_name" type="hidden" id="hd_product_name"> 
+   <input name="page_info1$hd_product_name_ml" type="hidden" id="hd_product_name_ml"> 
+   <input name="page_info1$hd_series" type="hidden" id="hd_series"> 
+   <input name="page_info1$hd_series_name" type="hidden" id="hd_series_name"> 
+   <input name="page_info1$hd_series_name_ml" type="hidden" id="hd_series_name_ml"> 
+   <input name="page_info1$hd_model" type="hidden" id="hd_model"> 
+   <input name="page_info1$hd_model_ml" type="hidden" id="hd_model_ml"> 
+   <input name="page_info1$hd_os" type="hidden" id="hd_os"> 
+   <input name="page_info1$hd_hid" type="hidden" id="hd_hid"> 
+   <input name="page_info1$hd_offical_url" type="hidden" id="hd_offical_url"> 
+   <!-- Google Tag Manager with Origin gaTrace --> 
+   <noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+   </noscript> 
+   <script src="/support/js/gaTrace.js" type="text/javascript"></script> 
+   <!-- End Google Tag Manager --> 
+   <!--Online Chat--> 
+   <link href="/support/stylesheets/online-chat-btn.css" rel="stylesheet" type="text/css"> 
+   <script>
+    function inIframe() {
+        try {
+            return window.self !== window.top; //window.self means the current application , window.top means the top ahead application
+        } catch (e) {
+            return true;
+        }
+    }
+</script> 
+   <script type="text/javascript">
+    !function (a) { var b = /iPhone/i, c = /iPod/i, d = /iPad/i, e = /(?=.*\bAndroid\b)(?=.*\bMobile\b)/i, f = /Android/i, g = /(?=.*\bAndroid\b)(?=.*\bSD4930UR\b)/i, h = /(?=.*\bAndroid\b)(?=.*\b(?:KFOT|KFTT|KFJWI|KFJWA|KFSOWI|KFTHWI|KFTHWA|KFAPWI|KFAPWA|KFARWI|KFASWI|KFSAWI|KFSAWA)\b)/i, i = /IEMobile/i, j = /(?=.*\bWindows\b)(?=.*\bARM\b)/i, k = /BlackBerry/i, l = /BB10/i, m = /Opera Mini/i, n = /(CriOS|Chrome)(?=.*\bMobile\b)/i, o = /(?=.*\bFirefox\b)(?=.*\bMobile\b)/i, p = new RegExp("(?:Nexus 7|BNTV250|Kindle Fire|Silk|GT-P1000)", "i"), q = function (a, b) { return a.test(b) }, r = function (a) { var r = a || navigator.userAgent, s = r.split("[FBAN"); return "undefined" != typeof s[1] && (r = s[0]), s = r.split("Twitter"), "undefined" != typeof s[1] && (r = s[0]), this.apple = { phone: q(b, r), ipod: q(c, r), tablet: !q(b, r) && q(d, r), device: q(b, r) || q(c, r) || q(d, r) }, this.amazon = { phone: q(g, r), tablet: !q(g, r) && q(h, r), device: q(g, r) || q(h, r) }, this.android = { phone: q(g, r) || q(e, r), tablet: !q(g, r) && !q(e, r) && (q(h, r) || q(f, r)), device: q(g, r) || q(h, r) || q(e, r) || q(f, r) }, this.windows = { phone: q(i, r), tablet: q(j, r), device: q(i, r) || q(j, r) }, this.other = { blackberry: q(k, r), blackberry10: q(l, r), opera: q(m, r), firefox: q(o, r), chrome: q(n, r), device: q(k, r) || q(l, r) || q(m, r) || q(o, r) || q(n, r) }, this.seven_inch = q(p, r), this.any = this.apple.device || this.android.device || this.windows.device || this.other.device || this.seven_inch, this.phone = this.apple.phone || this.android.phone || this.windows.phone, this.tablet = this.apple.tablet || this.android.tablet || this.windows.tablet, "undefined" == typeof window ? this : void 0 }, s = function () { var a = new r; return a.Class = r, a }; "undefined" != typeof module && module.exports && "undefined" == typeof window ? module.exports = r : "undefined" != typeof module && module.exports && "undefined" != typeof window ? module.exports = s() : "function" == typeof define && define.amd ? define("isMobile", [], a.isMobile = s()) : a.isMobile = s() }(this);
+
+    var cookiefn = {
+        val: Object,
+        set: function (name, value, expiresec) {
+            var exdate = new Date();
+            exdate.setSeconds(exdate.getSeconds() + expiresec);
+            document.cookie = name + "=" + escape(value) + ((expiresec == null) ? "" : ";expires=" + exdate.toGMTString()) + ";domain=" + window.location.host.replace(/.+?\.asus/, '.asus') + "; path =/";
+            cookiefn.val[name] = value;
+        },
+        get: function (name) {
+            try {
+                if (Object.keys(cookiefn.val).length == 0) { cookiefn.init(); };
+            }
+            catch (e) {
+                cookiefn.init();
+            }
+            cookiefn.get = function (name) { return cookiefn.val[name]; };
+            return cookiefn.val[name];
+        },
+        del: function (name) {
+            var exdate = new Date();
+            exdate.setTime(exdate.getTime() - 1);
+            var cval = cookiefn.get(name);
+            document.cookie = name + "=" + cval + "; expires=" + exdate.toGMTString() + ";domain=" + window.location.host.replace(/.+?\.asus/, '.asus') + "; path =/";
+            delete cookiefn.val[name];
+        },
+        init: function () {
+            if (!document.cookie) { return false; }
+            var list = document.cookie.split(';');
+            for (var i = 0; i < list.length; i++) {
+                var data = list[i].split('=');
+                if (!data[1]) { continue; }
+                data[0] = data[0].replace(/^\s+/, '');
+                cookiefn.val[data[0]] = unescape(data[1]);
+            }
+        }
+    };
+
+    $(document).ready(function () {
+        var IsInIframe = inIframe();
+
+        if (IsInIframe) {
+            return false;
+        }
+
+        //var getABResult = typeof (cookiefn.get === "function") ? cookiefn.get("ab-onlineChatBtn") : null;
+        var _Local = $("#langNormal").val();
+        var onlineService = initOnlineService(_Local);
+
+        onlineService.init();
+
+        //var abTestingSample = ['zenny', 'zenny-big'],
+        //    abTestingMin = 0,
+        //    abTestingRandom = Math.floor(Math.random() * (abTestingSample.length - abTestingMin)) + abTestingMin;
+
+        //var onlineService = initOnlineService(_Local);
+        //if (isMobile.apple.phone || isMobile.android.phone || isMobile.seven_inch) {
+        //    onlineService.init();
+        //} else {
+        //    if (getABResult) {
+        //        onlineService.init(getABResult);
+        //    } else {
+        //        cookiefn.set("ab-onlineChatBtn", abTestingSample[abTestingRandom]);
+        //        onlineService.init(abTestingSample[abTestingRandom]);
+        //    }
+        //}
+    });
+
+    function initOnlineService(Local) {
+        var ApiUrl = window.location.protocol + "//demeter.asus.com/WSC/Support_API_New/SupportNewAPI/GetOnlineChatUrl/",
+            ApiOption;
+
+        ApiUrl += Local;
+
+        return {
+            init: function (_case) {
+                if ($(".online-chat-btn").length > 0) return;
+                $.getJSON(ApiUrl + "?callback=?", ApiOption).done(function (result) {
+                    if (result && result.StatusCode == 0) {
+                        var onlineServiceString = result.Link_Name ? result.Link_Name : "Online Chat",
+                            serviceUrl = result.URL;
+                        //20160926 HsiaoChun Modify
+                        onlineChatBtn = '<div id="online-service"  class="online-chat-btn zenny" class="top"><a class="btn" onclick="javascript:window.open(\'' + serviceUrl + '\', \'\',  \'\'); ga(\'send\', \'event\', \'button\', \'clicked\', \'onlinechat\');">' + onlineServiceString + '</a></div>';
+                        $(onlineChatBtn).appendTo("body");
+                    }
+                });
+            }
+        }
+    };
+</script> 
+   <!--Redirect en--> 
+   <div class="grayBg"> 
+    <div id="indexZone" class="container"> 
+     <script src="/support/js/jquery-ui-tabs.js"></script> 
+     <script>
+    $(function () {
+        $("#tabs").tabs();
+        // Hover states on the static widgets
+        $("#dialog-link, #icons li").hover(
+			function () {
+			    $(this).addClass("ui-state-hover");
+			},
+			function () {
+			    $(this).removeClass("ui-state-hover");
+			}
+		);
+    });
+	</script> 
+     <style>
+    #tutorial-cont
+    {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+    }
+    .totu-close, .totu-logo
+    {
+        z-index: 99;
+    }
+</style> 
+     <div class="wrapper"> 
+      <div class="inner"> 
+       <div id="tabs"> 
+        <div id="zenfone_main1_div_headbanner"> 
+         <h1 id="zenfone_main1_h_main_title" class="page-title"> ZenCare</h1> 
+         <div class="top-banner"> 
+          <img id="img_title_banner" src="/support/images/zencare/zencare-banner.jpg" alt="">
+         </div> 
+         <nav class="page-menu"> 
+          <ul> 
+           <li><a data-type="zenfone" href="#Zenfone">Zenfone<img src="/support/images/zencare/Zencare_tab_icon.png"></a></li> 
+           <li><a data-type="padfone" href="#PadFone">PadFone<img src="/support/images/zencare/Padfone_tab_icon.png"></a></li> 
+           <li><a data-type="fonepad" href="#Fonepad">Fonepad<img src="/support/images/zencare/fonepad_tab_icon.png"></a></li> 
+          </ul> 
+         </nav> 
+        </div> 
+        <script>
+                $(".page-menu ul>li>a").click(function () {
+                    switch ($(this).data('type')) {
+                        case "zenfone":
+                            $("#img_title_banner").attr("src", "/support/images/zencare/zencare-banner01.jpg");
+                            break;
+                        case "padfone":
+                            $("#img_title_banner").attr("src", "/support/images/zencare/zencare-banner02.jpg");
+                            break;
+                        case "fonepad":
+                            $("#img_title_banner").attr("src", "/support/images/zencare/zencare-banner03.jpg");
+                            break;
+                        default:
+                            break;
+                    }
+                })
+            </script> 
+        <div id="Zenfone"> 
+         <div class="row-box"> 
+          <section class="se-box se-left"> 
+           <div class="se-inner"> 
+            <h1 id="zenfone_main1_title_video" class="se-title">教學影片</h1> 
+            <a href="/tw/Support/ZenCare/Video/39/1" id="zenfone_main1_a_video_more" class="more-bh">更多<img src="/support/images/zencare/arrow.png" alt=""></a> 
+            <ul class="qu-list"> 
+             <li><a class="youtube-box" data-yid="Gi5h-9FlvvI" data-title="ZenFone Zoom - 開啟手機攝影的新紀元" target="_blank" href="javascript:void(0);">ZenFone Zoom - 開啟手機攝影的新紀元</a></li> 
+             <li><a class="youtube-box" data-yid="eT5xLgndkvo" data-title="David Sandberg x ASUS ZenFone Zoom 精彩 近在眼前" target="_blank" href="javascript:void(0);">David Sandberg x ASUS ZenFone Zoom 精彩 近在眼前</a></li> 
+             <li><a class="youtube-box" data-yid="hkrTPcfZMls" data-title="蕭敬騰 X 暗光俠 Zenny 帶你體驗 ZenFone Zoom世界最薄 3 倍光學變焦手機" target="_blank" href="javascript:void(0);">蕭敬騰 X 暗光俠 Zenny 帶你體驗 ZenFone Zoom世界最薄 3 倍光學變焦手機</a></li> 
+             <li><a class="youtube-box" data-yid="iWeTibqOc9U" data-title="ZenUI - 如何使用 Share Link?" target="_blank" href="javascript:void(0);">ZenUI - 如何使用 Share Link?</a></li> 
+             <li><a class="youtube-box" data-yid="rqz9gB-hKHg" data-title="ZenUI - What's Next - 配置日曆" target="_blank" href="javascript:void(0);">ZenUI - What's Next - 配置日曆</a></li> 
+            </ul> 
+           </div> 
+          </section> 
+          <section class="se-box se-right"> 
+           <div class="se-inner"> 
+            <h1 id="zenfone_main1_title_sbs" class="se-title">互動式教學</h1> 
+            <a href="/tw/Support/ZenCare/SBS/39/1" id="zenfone_main1_a_sbs_more" class="more-bh">更多<img src="/support/images/zencare/arrow.png" alt=""></a> 
+            <ul class="qu-list"> 
+             <li><a href="javascript:void(0);" onclick="opentutorial(114,6);">【設定】為何我無法收到訊息的通知?</a></li> 
+             <li><a href="javascript:void(0);" onclick="opentutorial(126,6);">【Omlet Chat】如何加入好友</a></li> 
+             <li><a href="javascript:void(0);" onclick="opentutorial(117,6);">【Omlet Chat】如何註冊Omlet Chat 帳號</a></li> 
+             <li><a href="javascript:void(0);" onclick="opentutorial(116,6);">【Open Cloud】如何登出雲端帳戶</a></li> 
+             <li><a href="javascript:void(0);" onclick="opentutorial(113,6);">【設定】如何恢復原廠設定?</a></li> 
+            </ul> 
+           </div> 
+          </section> 
+         </div> 
+         <hr class="gray"> 
+         <div class="row-box"> 
+          <section class="se-box se-left" id="section_forum"> 
+           <div class="se-inner"> 
+            <h1 id="zenfone_main1_title_forum" class="se-title">ZenTalk論壇</h1> 
+            <a href="http://www.asus.com/tw/zentalk/" id="a_forum_more" class="more-bh" target="_blank">更多<img src="/support/images/zencare/arrow.png" alt=""></a> 
+            <ul class="qu-list"> 
+             <li><a href="http://www.asus.com/zentalk/tw/forum.php?mod=viewthread&amp;tid=68977&amp;extra=page%3D1" target="_blank">【全民Zen瘋了】月月抽免費ZenFone 2</a></li> 
+             <li><a href="http://www.asus.com/zentalk/tw/forum.php?mod=viewthread&amp;tid=73098&amp;extra=page%3D1" target="_blank">[公告]【點子Zen你提】 獎勵懸賞令，有獎品還有獎金!!!</a></li> 
+             <li><a href="http://www.asus.com/zentalk/tw/forum.php?mod=viewthread&amp;tid=82447&amp;extra=page%3D1%26filter%3Dtypeid%2" target="_blank">請問如何擷圖?</a></li> 
+             <li><a href="http://www.asus.com/zentalk/tw/forum.php?mod=viewthread&amp;tid=80835&amp;extra=page%3D1%26filter%3Dtypeid%2" target="_blank">為何 ZenFone 2 WiFi分享給筆電速度只有65Mbps</a></li> 
+             <li><a href="http://www.asus.com/zentalk/tw/forum.php?mod=viewthread&amp;tid=82303&amp;page=1#pid368133" target="_blank">我想要解除螢幕鎖定</a></li> 
+            </ul> 
+           </div> 
+          </section> 
+          <section class="se-box se-right" id="section_faq"> 
+           <div class="se-inner"> 
+            <h1 id="zenfone_main1_title_faq" class="se-title">FAQ</h1> 
+            <a href="http://www.asus.com/tw/support/Knowledge-searchV2/?keyword=Zenfone" id="a_faq_more" class="more-bh" target="_blank">更多<img src="/support/images/zencare/arrow.png" alt=""></a> 
+            <ul class="qu-list"> 
+             <li><a href="http://www.asus.com/tw/support/FAQ/1016231" target="_blank">ZenFone Max (ZC550KL) 是否可以自行更換電池?</a></li> 
+             <li><a href="http://www.asus.com/tw/support/FAQ/1007320" target="_blank">如何安裝ASUS PC Link?</a></li> 
+             <li><a href="http://www.asus.com/tw/support/FAQ/1006346" target="_blank">手機硬體還原操作步驟</a></li> 
+             <li><a href="http://www.asus.com/tw/support/FAQ/1009748" target="_blank">如何更新手機的韌體?</a></li> 
+             <li><a href="http://www.asus.com/tw/support/FAQ/1007490" target="_blank">如何透過 Remote Link 連接 ZenFone 和您的電腦？</a></li> 
+            </ul> 
+           </div> 
+          </section> 
+         </div> 
+         <hr class="gray phone-hide"> 
+         <div class="row-box phone-hide"> 
+          <section class="se-box se-left"> 
+           <div class="se-inner"> 
+            <h1 id="zenfone_main1_title_account" class="se-title" langtype="support_main" langtextid="account_title">華碩會員帳號</h1> 
+            <a href="https://account.asus.com/signup.aspx?lang=zh-tw&amp;site=tw" id="zenfone_main1_a_customer_regist" class="more-bh" target="_blank">產品註冊<img src="/support/images/zencare/arrow.png" alt=""></a> 
+            <p id="zenfone_main1_p_customer_regist" class="mt-10">註冊華碩會員，以獲得更完整且迅速的客戶服務，現在就註冊！</p> 
+           </div> 
+          </section> 
+          <section class="se-box se-right"> 
+           <div class="se-inner"> 
+            <h1 id="zenfone_main1_title_regist" class="se-title" langtype="support_main" langtextid="account_regist">在此註冊您的產品</h1> 
+            <a href="https://account.asus.com/product_reg.aspx?lang=zh-tw&amp;site=tw" id="zenfone_main1_a_product_regist" class="more-bh" target="_blank">產品註冊<img src="/support/images/zencare/arrow.png" alt=""></a> 
+            <p id="zenfone_main1_p_product_regist" class="mt-10">獲得更多關於產品相關技術支援與售後服務 </p> 
+           </div> 
+          </section> 
+         </div> 
+         <hr class="gray"> 
+         <div class="row-box"> 
+          <section class="se-box se-full"> 
+           <div class="se-inner"> 
+            <h1 id="zenfone_main1_title_manual" class="se-title">產品手冊</h1> 
+            <a href="http://" id="zenfone_main1_a_manual_more" style="display:none;" class="more-bh">按此下載<img src="/support/images/zencare/arrow.png" alt=""></a> 
+            <div class="colorbox_manual"> 
+             <ul class="qu-list"> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=39&amp;l2=1&amp;l3=0&amp;m=11" title="ASUS ZenFone 2 (ZE500CL)">ASUS ZenFone 2 (ZE500CL)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=39&amp;l2=1&amp;l3=0&amp;m=12" title="ASUS ZenFone 2 (ZE550ML)">ASUS ZenFone 2 (ZE550ML)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=39&amp;l2=1&amp;l3=0&amp;m=13" title="ASUS ZenFone 2 (ZE551ML)">ASUS ZenFone 2 (ZE551ML)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=39&amp;l2=1&amp;l3=0&amp;m=21" title="ASUS ZenFone 2 Laser (ZE500KG)">ASUS ZenFone 2 Laser (ZE500KG)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=39&amp;l2=1&amp;l3=0&amp;m=20" title="ASUS ZenFone 2 Laser (ZE500KL)">ASUS ZenFone 2 Laser (ZE500KL)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=39&amp;l2=1&amp;l3=0&amp;m=27" title="ASUS ZenFone 2 Laser (ZE550KG)">ASUS ZenFone 2 Laser (ZE550KG)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=39&amp;l2=1&amp;l3=0&amp;m=22" title="ASUS ZenFone 2 Laser (ZE550KL)">ASUS ZenFone 2 Laser (ZE550KL)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=39&amp;l2=1&amp;l3=0&amp;m=23" title="ASUS ZenFone 2 Laser (ZE551KL)">ASUS ZenFone 2 Laser (ZE551KL)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=39&amp;l2=1&amp;l3=0&amp;m=24" title="ASUS ZenFone 2 Laser (ZE600KL)">ASUS ZenFone 2 Laser (ZE600KL)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=39&amp;l2=1&amp;l3=0&amp;m=25" title="ASUS ZenFone 2 Laser (ZE601KL)">ASUS ZenFone 2 Laser (ZE601KL)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=39&amp;l2=1&amp;l3=0&amp;m=16" title="ASUS ZenFone 2E (ZE500CL AT&amp;T)">ASUS ZenFone 2E (ZE500CL AT&amp;T)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=39&amp;l2=1&amp;l3=0&amp;m=29" title="ASUS ZenFone 3 (ZE520KL)">ASUS ZenFone 3 (ZE520KL)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=39&amp;l2=1&amp;l3=0&amp;m=28" title="ASUS ZenFone 3 (ZE552KL)">ASUS ZenFone 3 (ZE552KL)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=39&amp;l2=1&amp;l3=0&amp;m=30" title="ASUS ZenFone 3 Deluxe (ZS570KL)">ASUS ZenFone 3 Deluxe (ZS570KL)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=39&amp;l2=1&amp;l3=0&amp;m=31" title="ASUS ZenFone 3 Laser (ZC551KL)">ASUS ZenFone 3 Laser (ZC551KL)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=39&amp;l2=1&amp;l3=0&amp;m=1" title="ASUS ZenFone 4 (A400CG)">ASUS ZenFone 4 (A400CG)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=39&amp;l2=1&amp;l3=0&amp;m=5" title="ASUS ZenFone 4 (A450CG)">ASUS ZenFone 4 (A450CG)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=39&amp;l2=1&amp;l3=0&amp;m=2" title="ASUS ZenFone 5 (A500CG)">ASUS ZenFone 5 (A500CG)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=39&amp;l2=1&amp;l3=0&amp;m=6" title="ASUS ZenFone 5 (A500KL)">ASUS ZenFone 5 (A500KL)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=39&amp;l2=1&amp;l3=0&amp;m=7" title="ASUS ZenFone 5 (A502CG)">ASUS ZenFone 5 (A502CG)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=39&amp;l2=1&amp;l3=0&amp;m=3" title="ASUS ZenFone 6 (A600CG)">ASUS ZenFone 6 (A600CG)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=39&amp;l2=1&amp;l3=0&amp;m=17" title="ASUS ZenFone Selfie (ZD551KL)">ASUS ZenFone Selfie (ZD551KL)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=39&amp;l2=1&amp;l3=0&amp;m=26" title="ASUS ZenFone Zoom (ZX551ML)">ASUS ZenFone Zoom (ZX551ML)</a></li> 
+             </ul> 
+            </div> 
+           </div> 
+          </section> 
+         </div> 
+        </div> 
+        <div id="PadFone"> 
+         <div class="row-box"> 
+          <section class="se-box se-left"> 
+           <div class="se-inner"> 
+            <h1 id="zenfone_main1_title_video_pf" class="se-title">教學影片</h1> 
+            <a href="/tw/Support/ZenCare/Video/29/1" id="zenfone_main1_a_video_more_pf" class="more-bh">更多<img src="/support/images/zencare/arrow.png" alt=""></a> 
+            <ul class="qu-list"> 
+             <li><a class="youtube-box" data-yid="m4DrwxnODkk" data-title="ZenUI - 如何在主畫面建立資料匣?" target="_blank" href="javascript:void(0);">ZenUI - 如何在主畫面建立資料匣?</a></li> 
+             <li><a class="youtube-box" data-yid="gnfoDkIHC6U" data-title="攝錄影機 - 防手震" target="_blank" href="javascript:void(0);">攝錄影機 - 防手震</a></li> 
+             <li><a class="youtube-box" data-yid="COMe2rw5FD4" data-title="相機 - 美顏模式" target="_blank" href="javascript:void(0);">相機 - 美顏模式</a></li> 
+             <li><a class="youtube-box" data-yid="kGy5Pqg0JXs" data-title="Open Cloud - 整合不同的網路空間" target="_blank" href="javascript:void(0);">Open Cloud - 整合不同的網路空間</a></li> 
+             <li><a class="youtube-box" data-yid="yY3eMZo-AjQ" data-title="ZenUI - 如何透過USB網路共用連接到網路?" target="_blank" href="javascript:void(0);">ZenUI - 如何透過USB網路共用連接到網路?</a></li> 
+            </ul> 
+           </div> 
+          </section> 
+          <section class="se-box se-right"> 
+           <div class="se-inner"> 
+            <h1 id="zenfone_main1_title_sbs_pf" class="se-title">互動式教學</h1> 
+            <a href="/tw/Support/ZenCare/SBS/29/1" id="zenfone_main1_a_sbs_more_pf" class="more-bh">更多<img src="/support/images/zencare/arrow.png" alt=""></a> 
+            <ul class="qu-list"> 
+             <li><a href="javascript:void(0);" onclick="opentutorial(114,6);">【設定】為何我無法收到訊息的通知?</a></li> 
+             <li><a href="javascript:void(0);" onclick="opentutorial(126,6);">【Omlet Chat】如何加入好友</a></li> 
+             <li><a href="javascript:void(0);" onclick="opentutorial(117,6);">【Omlet Chat】如何註冊Omlet Chat 帳號</a></li> 
+             <li><a href="javascript:void(0);" onclick="opentutorial(116,6);">【Open Cloud】如何登出雲端帳戶</a></li> 
+             <li><a href="javascript:void(0);" onclick="opentutorial(113,6);">【設定】如何恢復原廠設定?</a></li> 
+            </ul> 
+           </div> 
+          </section> 
+         </div> 
+         <hr class="gray"> 
+         <div class="row-box"> 
+          <section class="se-box se-left" id="section_forum_pf"> 
+           <div class="se-inner"> 
+            <h1 id="zenfone_main1_title_forum_pf" class="se-title">ZenTalk論壇</h1> 
+            <a href="http://www.asus.com/tw/zentalk/" id="a_forum_more_pf" class="more-bh" target="_blank">更多<img src="/support/images/zencare/arrow.png" alt=""></a> 
+            <ul class="qu-list"> 
+             <li><a href="http://www.asus.com/zentalk/tw/forum.php?mod=viewthread&amp;tid=34133" target="_blank">高階新機ASUS PadFone S搶先動手玩 7月上市</a></li> 
+             <li><a href="http://www.asus.com/zentalk/tw/forum.php?mod=viewthread&amp;tid=39370&amp;extra=page%3D2" target="_blank">請問可以在皇家俱樂部買手機嗎</a></li> 
+             <li><a href="http://www.asus.com/zentalk/tw/forum.php?mod=forumdisplay&amp;fid=71&amp;page=3" target="_blank">PadFone2的藍芽耳機</a></li> 
+             <li><a href="http://www.asus.com/zentalk/tw/forum.php?mod=viewthread&amp;tid=37674&amp;extra=page%3D3" target="_blank">請問 padfone mini USB網路共用?</a></li> 
+             <li><a href="http://www.asus.com/zentalk/tw/forum.php?mod=viewthread&amp;tid=35066&amp;extra=page%3D4" target="_blank">PFI 可以用中華電信的4G嗎</a></li> 
+            </ul> 
+           </div> 
+          </section> 
+          <section class="se-box se-right" id="section_faq_pf"> 
+           <div class="se-inner"> 
+            <h1 id="zenfone_main1_title_faq_pf" class="se-title">FAQ</h1> 
+            <a href="http://www.asus.com/tw/support/Knowledge-searchV2/?keyword=Padfone" id="a_faq_more_pf" class="more-bh" target="_blank">更多<img src="/support/images/zencare/arrow.png" alt=""></a> 
+            <ul class="qu-list"> 
+             <li><a href="http://www.asus.com/tw/support/FAQ/1006733" target="_blank">手機/平板：觸控螢幕問題簡易故障排除</a></li> 
+             <li><a href="http://www.asus.com/tw/support/FAQ/1004176/" target="_blank">在Android裝置如何設定鈴聲</a></li> 
+             <li><a href="http://www.asus.com/tw/support/FAQ/1003867/" target="_blank">Android系統平板/手機無法透過Wi-Fi連線</a></li> 
+             <li><a href="http://www.asus.com/tw/support/FAQ/1005685/" target="_blank">如何關閉正在運行的應用程式？</a></li> 
+             <li><a href="http://www.asus.com/tw/support/FAQ/1005487/" target="_blank">PadFone如何恢復原廠設定?</a></li> 
+            </ul> 
+           </div> 
+          </section> 
+         </div> 
+         <hr class="gray phone-hide"> 
+         <div class="row-box phone-hide"> 
+          <section class="se-box se-left"> 
+           <div class="se-inner"> 
+            <h1 id="zenfone_main1_title_account_pf" class="se-title" langtype="support_main" langtextid="account_title">華碩會員帳號</h1> 
+            <a href="https://account.asus.com/signup.aspx?lang=zh-tw&amp;site=tw" id="zenfone_main1_a_customer_regist_pf" class="more-bh" target="_blank">產品註冊<img src="/support/images/zencare/arrow.png" alt=""></a> 
+            <p id="zenfone_main1_p_customer_regist_pf" class="mt-10">註冊華碩會員，以獲得更完整且迅速的客戶服務，現在就註冊！</p> 
+           </div> 
+          </section> 
+          <section class="se-box se-right"> 
+           <div class="se-inner"> 
+            <h1 id="zenfone_main1_title_regist_pf" class="se-title" langtype="support_main" langtextid="account_regist">在此註冊您的產品</h1> 
+            <a href="https://account.asus.com/product_reg.aspx?lang=zh-tw&amp;site=tw" id="zenfone_main1_a_product_regist_pf" class="more-bh" target="_blank">產品註冊<img src="/support/images/zencare/arrow.png" alt=""></a> 
+            <p id="zenfone_main1_p_product_regist_pf" class="mt-10">獲得更多關於產品相關技術支援與售後服務 </p> 
+           </div> 
+          </section> 
+         </div> 
+         <hr class="gray"> 
+         <div class="row-box"> 
+          <section class="se-box se-full"> 
+           <div class="se-inner"> 
+            <h1 id="zenfone_main1_title_manual_pf" class="se-title">產品手冊</h1> 
+            <a href="http://" id="zenfone_main1_a_manual_more_pf" style="display:none;" class="more-bh">按此下載<img src="/support/images/zencare/arrow.png" alt=""></a> 
+            <div class="colorbox_manual"> 
+             <ul class="qu-list"> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=29&amp;l2=1&amp;l3=0&amp;m=1" title="PadFone (A66)">PadFone (A66)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=29&amp;l2=1&amp;l3=0&amp;m=2" title="PadFone 2 (A68)">PadFone 2 (A68)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=29&amp;l2=1&amp;l3=0&amp;m=6" title="PadFone E (A68M)">PadFone E (A68M)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=29&amp;l2=1&amp;l3=0&amp;m=3" title="PadFone Infinity (A80)">PadFone Infinity (A80)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=29&amp;l2=1&amp;l3=0&amp;m=8" title="PadFone Infinity Lite (A80C)">PadFone Infinity Lite (A80C)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=29&amp;l2=1&amp;l3=0&amp;m=7" title="PadFone mini (PF400CG)">PadFone mini (PF400CG)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=29&amp;l2=1&amp;l3=0&amp;m=5" title="PadFone mini 4.3 (A11)">PadFone mini 4.3 (A11)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=29&amp;l2=1&amp;l3=0&amp;m=11" title="PadFone mini LTE (PF451CL)">PadFone mini LTE (PF451CL)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=29&amp;l2=1&amp;l3=0&amp;m=10" title="PadFone S (PF500KL)">PadFone S (PF500KL)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=29&amp;l2=1&amp;l3=0&amp;m=9" title="PadFone X (A91)">PadFone X (A91)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=29&amp;l2=1&amp;l3=0&amp;m=12" title="PadFone X mini (PF450CL)">PadFone X mini (PF450CL)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=29&amp;l2=1&amp;l3=0&amp;m=4" title="The new PadFone Infinity (A86)">The new PadFone Infinity (A86)</a></li> 
+             </ul> 
+            </div> 
+           </div> 
+          </section> 
+         </div> 
+        </div> 
+        <div id="Fonepad"> 
+         <div class="row-box"> 
+          <section class="se-box se-left"> 
+           <div class="se-inner"> 
+            <h1 id="zenfone_main1_title_video_fp" class="se-title">教學影片</h1> 
+            <a href="/tw/Support/ZenCare/Video/28/7" id="zenfone_main1_a_video_more_fp" class="more-bh">更多<img src="/support/images/zencare/arrow.png" alt=""></a> 
+            <ul class="qu-list"> 
+             <li><a class="youtube-box" data-yid="KtMWpRPf-t0" data-title="Android裝置如何系統更新?" target="_blank" href="javascript:void(0);">Android裝置如何系統更新?</a></li> 
+             <li><a class="youtube-box" data-yid="pfWSxTprXAA" data-title="平板電腦如何恢復原廠設定?" target="_blank" href="javascript:void(0);">平板電腦如何恢復原廠設定?</a></li> 
+             <li><a class="youtube-box" data-yid="BXqDfUsgW-I" data-title="Android裝置上如何手動安裝應用程式?" target="_blank" href="javascript:void(0);">Android裝置上如何手動安裝應用程式?</a></li> 
+             <li><a class="youtube-box" data-yid="qU1-8Is7GVE" data-title="解除安裝Android應用程式" target="_blank" href="javascript:void(0);">解除安裝Android應用程式</a></li> 
+             <li><a class="youtube-box" data-yid="Z3daTZTHXp8" data-title="Android變更語系教學" target="_blank" href="javascript:void(0);">Android變更語系教學</a></li> 
+            </ul> 
+           </div> 
+          </section> 
+          <section class="se-box se-right"> 
+           <div class="se-inner"> 
+            <h1 id="zenfone_main1_title_sbs_fp" class="se-title">互動式教學</h1> 
+            <a href="/tw/Support/ZenCare/SBS/28/7" id="zenfone_main1_a_sbs_more_fp" class="more-bh">更多<img src="/support/images/zencare/arrow.png" alt=""></a> 
+            <ul class="qu-list"> 
+             <li><a href="javascript:void(0);" onclick="opentutorial(114,6);">【設定】為何我無法收到訊息的通知?</a></li> 
+             <li><a href="javascript:void(0);" onclick="opentutorial(126,6);">【Omlet Chat】如何加入好友</a></li> 
+             <li><a href="javascript:void(0);" onclick="opentutorial(117,6);">【Omlet Chat】如何註冊Omlet Chat 帳號</a></li> 
+             <li><a href="javascript:void(0);" onclick="opentutorial(116,6);">【Open Cloud】如何登出雲端帳戶</a></li> 
+             <li><a href="javascript:void(0);" onclick="opentutorial(113,6);">【設定】如何恢復原廠設定?</a></li> 
+            </ul> 
+           </div> 
+          </section> 
+         </div> 
+         <hr class="gray"> 
+         <div class="row-box"> 
+          <section class="se-box se-left" id="section_forum_fp"> 
+           <div class="se-inner"> 
+            <h1 id="zenfone_main1_title_forum_fp" class="se-title">ZenTalk論壇</h1> 
+            <a href="http://www.asus.com/tw/zentalk/" id="a_forum_more_fp" class="more-bh" target="_blank">更多<img src="/support/images/zencare/arrow.png" alt=""></a> 
+            <ul class="qu-list"> 
+             <li><a href="http://www.asus.com/zentalk/tw/forum.php?mod=viewthread&amp;tid=25663&amp;extra=page%3D2" target="_blank">建議再給Fonepad Note 6出一款站立式皮套</a></li> 
+             <li><a href="http://www.asus.com/zentalk/tw/forum.php?mod=forumdisplay&amp;fid=99&amp;page=4" target="_blank">Fonepad Note 6的電子羅盤問題</a></li> 
+             <li><a href="http://www.asus.com/zentalk/tw/forum.php?mod=forumdisplay&amp;fid=99&amp;page=4" target="_blank">關於Fonepad note 6的一些建議與改進</a></li> 
+             <li><a href="http://www.asus.com/zentalk/tw/forum.php?mod=viewthread&amp;tid=16264&amp;extra=page%3D5" target="_blank">me372cg重開機出現設定精靈&amp;上方狀態列自動隱藏</a></li> 
+             <li><a href="http://www.asus.com/zentalk/tw/forum.php?mod=viewthread&amp;tid=16290&amp;extra=page%3D6" target="_blank">關於fonepad 7 me371mg wifi及3G自動切換問題</a></li> 
+            </ul> 
+           </div> 
+          </section> 
+          <section class="se-box se-right" id="section_faq_fp"> 
+           <div class="se-inner"> 
+            <h1 id="zenfone_main1_title_faq_fp" class="se-title">FAQ</h1> 
+            <a href="http://www.asus.com/tw/support/Knowledge-searchV2/?keyword=Fonepad" id="a_faq_more_fp" class="more-bh" target="_blank">更多<img src="/support/images/zencare/arrow.png" alt=""></a> 
+            <ul class="qu-list"> 
+             <li><a href="http://www.asus.com/tw/support/FAQ/1003867" target="_blank">Android系統平板/手機無法透過Wi-Fi連線</a></li> 
+             <li><a href="http://www.asus.com/tw/support/FAQ/1004827" target="_blank">ASUS Fonepad 如何更改簡訊字體大小？</a></li> 
+             <li><a href="http://www.asus.com/tw/support/FAQ/1005166" target="_blank">Fonepad(ME371MG)如何離開安全模式?</a></li> 
+             <li><a href="http://www.asus.com/tw/support/FAQ/1004825/" target="_blank">ASUS Fonepad 如何設定封鎖來電者？</a></li> 
+             <li><a href="http://www.asus.com/tw/support/FAQ/1005529/" target="_blank">平板電腦如何恢復原廠設定?</a></li> 
+            </ul> 
+           </div> 
+          </section> 
+         </div> 
+         <hr class="gray phone-hide"> 
+         <div class="row-box phone-hide"> 
+          <section class="se-box se-left"> 
+           <div class="se-inner"> 
+            <h1 id="zenfone_main1_title_account_fp" class="se-title" langtype="support_main" langtextid="account_title">華碩會員帳號</h1> 
+            <a href="https://account.asus.com/signup.aspx?lang=zh-tw&amp;site=tw" id="zenfone_main1_a_customer_regist_fp" class="more-bh" target="_blank">產品註冊<img src="/support/images/zencare/arrow.png" alt=""></a> 
+            <p id="zenfone_main1_p_customer_regist_fp" class="mt-10">註冊華碩會員，以獲得更完整且迅速的客戶服務，現在就註冊！</p> 
+           </div> 
+          </section> 
+          <section class="se-box se-right"> 
+           <div class="se-inner"> 
+            <h1 id="zenfone_main1_title_regist_fp" class="se-title" langtype="support_main" langtextid="account_regist">在此註冊您的產品</h1> 
+            <a href="https://account.asus.com/product_reg.aspx?lang=zh-tw&amp;site=tw" id="zenfone_main1_a_product_regist_fp" class="more-bh" target="_blank">產品註冊<img src="/support/images/zencare/arrow.png" alt=""></a> 
+            <p id="zenfone_main1_p_product_regist_fp" class="mt-10">獲得更多關於產品相關技術支援與售後服務 </p> 
+           </div> 
+          </section> 
+         </div> 
+         <hr class="gray"> 
+         <div class="row-box"> 
+          <section class="se-box se-full"> 
+           <div class="se-inner"> 
+            <h1 id="zenfone_main1_title_manual_fp" class="se-title">產品手冊</h1> 
+            <a href="http://" id="zenfone_main1_a_manual_more_fp" style="display:none;" class="more-bh">按此下載<img src="/support/images/zencare/arrow.png" alt=""></a> 
+            <div class="colorbox_manual"> 
+             <ul class="qu-list"> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=28&amp;l2=7&amp;l3=0&amp;m=1" title="ASUS Fonepad">ASUS Fonepad</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=28&amp;l2=7&amp;l3=0&amp;m=4" title="ASUS Fonepad 7">ASUS Fonepad 7</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=28&amp;l2=7&amp;l3=0&amp;m=7" title="ASUS Fonepad 7 (FE170CG)">ASUS Fonepad 7 (FE170CG)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=28&amp;l2=7&amp;l3=0&amp;m=18" title="ASUS Fonepad 7 (FE171CG)">ASUS Fonepad 7 (FE171CG)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=28&amp;l2=7&amp;l3=0&amp;m=14" title="ASUS Fonepad 7 (FE171MG)">ASUS Fonepad 7 (FE171MG)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=28&amp;l2=7&amp;l3=0&amp;m=10" title="ASUS Fonepad 7 (FE375CG)">ASUS Fonepad 7 (FE375CG)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=28&amp;l2=7&amp;l3=0&amp;m=19" title="ASUS Fonepad 7 (FE375CL)">ASUS Fonepad 7 (FE375CL)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=28&amp;l2=7&amp;l3=0&amp;m=21" title="ASUS Fonepad 7 (FE375CXG)">ASUS Fonepad 7 (FE375CXG)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=28&amp;l2=7&amp;l3=0&amp;m=16" title="ASUS Fonepad 7 (FE7010CG)">ASUS Fonepad 7 (FE7010CG)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=28&amp;l2=7&amp;l3=0&amp;m=13" title="ASUS Fonepad 7 (FE7530CXG)">ASUS Fonepad 7 (FE7530CXG)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=28&amp;l2=7&amp;l3=0&amp;m=24" title="ASUS Fonepad 7 (ME373CG)">ASUS Fonepad 7 (ME373CG)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=28&amp;l2=7&amp;l3=0&amp;m=6" title="ASUS Fonepad 7 Dual SIM (ME175CG)">ASUS Fonepad 7 Dual SIM (ME175CG)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=28&amp;l2=7&amp;l3=0&amp;m=22" title="ASUS Fonepad 7 LTE (ME373CL)">ASUS Fonepad 7 LTE (ME373CL)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=28&amp;l2=7&amp;l3=0&amp;m=20" title="ASUS Fonepad 7 LTE (ME7230CL)">ASUS Fonepad 7 LTE (ME7230CL)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=28&amp;l2=7&amp;l3=0&amp;m=9" title="ASUS Fonepad 7 ME372CL">ASUS Fonepad 7 ME372CL</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=28&amp;l2=7&amp;l3=0&amp;m=11" title="ASUS Fonepad 8 (FE380CG)">ASUS Fonepad 8 (FE380CG)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=28&amp;l2=7&amp;l3=0&amp;m=12" title="ASUS Fonepad 8 (FE380CXG)">ASUS Fonepad 8 (FE380CXG)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=28&amp;l2=7&amp;l3=0&amp;m=15" title="ASUS Fonepad 8 (FE8030CXG)">ASUS Fonepad 8 (FE8030CXG)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=28&amp;l2=7&amp;l3=0&amp;m=17" title="ASUS Fonepad LTE (ME7320CL)">ASUS Fonepad LTE (ME7320CL)</a></li> 
+              <li class="qu-list-ho"><a href="/support/utilities/zencare/download_manual.aspx?ln=zh-tw&amp;l1=28&amp;l2=7&amp;l3=0&amp;m=3" title="ASUS Fonepad Note 6">ASUS Fonepad Note 6</a></li> 
+             </ul> 
+            </div> 
+           </div> 
+          </section> 
+         </div> 
+        </div> 
+       </div> 
+       <hr class="gray phone-hide"> 
+       <div class="row-box phone-hide"> 
+        <section class="se-box se-full"> 
+         <div class="se-inner"> 
+          <h1 id="zenfone_main1_title_call" class="se-title">聯絡華碩</h1> 
+          <div class="call-box"> 
+           <a target="_blank" href="/tw/support/CallUs"><i class="icons-call"></i>聯絡我們-電話</a> 
+           <a target="_blank" href="https://vip.asus.com/VIP2/Services/QuestionForm?lang=zh-tw"><i class="icons-email"></i>聯絡我們-客服信箱</a> 
+           <a target="_blank" href="/tw/support/Service-Center/Taiwan"><i class="icons-map"></i>找尋服務據點</a> 
+           <a target="_blank" href="javascript:void(0)" onclick="window.open('https://chat-tw.asus.com/chatservice/index.htm?tenant=TW', '_new', 'toolbar=no, scrollbars=no, resizable=no,width=520,height=670');"><i class="icons-msg"></i>客服即時通</a> 
+           <a target="_blank" href="/tw/support/Repair-Status-Inquiry/?country=Taiwan"><i class="icons-tool"></i>查詢維修進度</a> 
+           <a target="_blank" href="http://www.asus.com/tw/support/RCBooking"><i class="icons-date"></i>預約產品維修</a> 
+          </div> 
+         </div> 
+        </section> 
+       </div> 
+      </div> 
+      <input type="hidden" name="zenfone_main1$hd_sbs_seemore_zf_link" id="hd_sbs_seemore_zf_link" value="/tw/Support/ZenCare/SBS/39/1"> 
+      <input type="hidden" name="zenfone_main1$hd_sbs_seemore_pf_link" id="hd_sbs_seemore_pf_link" value="/tw/Support/ZenCare/SBS/29/1"> 
+      <input type="hidden" name="zenfone_main1$hd_sbs_seemore_fp_link" id="hd_sbs_seemore_fp_link" value="/tw/Support/ZenCare/SBS/28/7"> 
+      <input type="hidden" name="zenfone_main1$hd_chat_link" id="hd_chat_link" value="https://chat-tw.asus.com/ChatPBX/"> 
+      <input type="hidden" name="zenfone_main1$hd_call_link" id="hd_call_link" value="/tw/support/CallUs"> 
+      <script src="/support/js/zencare/main/plugin/jquery-youtubeBox.js"></script> 
+      <script src="/support/js/zencare/main/tutorial.js"></script> 
+      <script>
+        if ($("#langNormal").val() == "zh-cn") {
+            $("#section_faq").css("border-left", "0px");
+            $("#section_faq_pf").css("border-left", "0px");
+            $("#section_faq_fp").css("border-left", "0px");
+
+            $("#section_forum").css("border-bottom", "0px");
+            $("#section_forum").css("padding-bottom", "0px");
+            $("#section_forum").css("margin-bottom", "0px");
+
+            $("#section_forum_pf").css("border-bottom", "0px");
+            $("#section_forum_pf").css("padding-bottom", "0px");
+            $("#section_forum_pf").css("margin-bottom", "0px");
+
+            $("#section_forum_fp").css("border-bottom", "0px");
+            $("#section_forum_fp").css("padding-bottom", "0px");
+            $("#section_forum_fp").css("margin-bottom", "0px");
+
+            if ($(window).width() < 768) {
+                $("#a_faq_more").insertAfter("#a_forum_more");
+                $("#section_faq h1").remove();
+
+                $("#a_faq_more_pf").insertAfter("#a_forum_more_pf");
+                $("#section_faq_pf h1").remove();
+
+                $("#a_faq_more_fp").insertAfter("#a_forum_more_fp");
+                $("#section_faq_fp h1").remove();
+            }
+        }
+    </script> 
+      <script>
+        var sw = $(window).width() < 720 ? "100%" : "50%",
+            sh = $(window).width() < 720 ? "100%" : "85%";
+        $(".colorbox_manual a").colorbox({ iframe: true, width: sw, height: sh });
+    </script> 
+      <script>
+        $(".youtube-box").youtubeBox({
+            type: 3,
+            myHtml: "<div class=\"youtubeBox\"><p class=\"y-title\"></p><a class=\"y-close\" href=\"#\"><img src=\"/support/images/zencare/g_close.png\"></a><div class=\"y-iframe\"></div></div>",
+            canvasTarget: ".y-iframe",
+            close: ".y-close",
+            opacity: 1,
+            bgcolor: "#ffffff",
+            addScuess: function (index, target) {
+                //console.log(target.attr("data-title"));
+                $(".y-title").append(target.attr("data-title"));
+                //$(".y-iframe").css({"margin-top":-($(".y-iframe").height()/2),"margin-left":-($(".y-iframe").width()/2)})
+            }
+        });	
+    </script> 
+      <script>
+        var iframeDOM = "<iframe src={url} frameborder=\"0\" width={w} height={h} scrolling=\"no\"></iframe>";
+        var checkMobile = function () {
+            var ww = $(window).width();
+            if (ww < 768 && ("createTouch" in document)) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+        var opentutorial = function (tid, skin) {
+            if (checkMobile()) {
+                location.href = '/support/utilities/sbs/mobile.htm?view=mobile&tid=' + tid + "&skin=" + skin;
+                return;
+            }
+            var url = "/support/utilities/sbs/tutorial.htm?view=iframe&tid=" + tid + "&skin=" + skin;
+            var dom = iframeDOM.replace("{url}", url)
+						.replace("{w}", "100%")
+						.replace("{h}", "100%");
+
+            $("#tutorial-cont").append(dom);
+            $("#lightCanvas").addClass('open');
+            $("body").css("overflow", "hidden");
+        }
+        var closetutorial = function () {
+            $("#tutorial-cont").empty();
+            $("#lightCanvas").removeClass('open');
+            $("body").css("overflow", "visible");
+        }
+    </script> 
+      <script>
+        $("#a_sbs_seemore_link").attr('href', $("#hd_sbs_seemore_zf_link").val());
+
+        if ($("#hd_chat_link").val() != "") {
+            $("#a_chat_link").click(function () { window.open($("#hd_chat_link").val(), "_blank", "toolbar=no, scrollbars=no, resizable=no,width=520,height=670"); });
+        }
+        $("#a_call_link").attr('href',$("#hd_call_link").val());
+
+    </script> 
+      <script>
+            window.ASUSInit = function () {
+                var api_lang = '';
+                var api_key = '0000000004';
+                var lang_prefix = window.location.pathname.split("/");
+                if (window.console) {
+                    console.log("pathname: " + window.location.pathname);
+                }
+                if (lang_prefix.length >= 2) {
+                    if (lang_prefix[1] == "support")
+                        api_lang = "";
+                    else
+                        api_lang = lang_prefix[1];
+                }
+                if (window.location.hostname.indexOf("asus.com.cn") >= 0) {
+                    api_lang = "cn";
+                    api_key = '0000000019';
+                }
+                if (window.console)
+                    console.log("lang: " + api_lang);
+                asus_api.init({ appkey: api_key, lang: api_lang });
+            };
+            (function (d) {
+                var js, id = 'asus-jsapi';
+                if (d.getElementById("asus-jsapi")) { return; }
+                js = d.createElement('script');
+                js.id = id;
+                js.async = true;
+                if(window.location.hostname.indexOf("asus.com.cn") >=0)
+                    js.src = "//www.asus.com.cn/API/js/asus_api.js";
+                else
+                    js.src = "//www.asus.com/API/js/asus_api.js";
+                d.getElementsByTagName('head')[0].appendChild(js);
+        } (document));
+    </script> 
+     </div> 
+    </div>    
+   </div>
+  </form>
+ </body>
+</html>

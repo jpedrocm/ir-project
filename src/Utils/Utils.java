@@ -21,6 +21,8 @@ public class Utils {
     
     public static final Path CRAWLED_URLS_PATH = Paths.get("Data", "CrawledURLS");
     
+    public static final Path RELEVANT_DOCS_PATH = Paths.get("Data", "RelevantDocs");
+    
     public static final String[] INITIAL_URLS = {            
             "http://www.johnlewis.com/",
             "http://www.newegg.com/", 

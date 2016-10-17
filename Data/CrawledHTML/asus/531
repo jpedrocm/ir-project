@@ -1,0 +1,450 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" itemscope itemtype="http://schema.org/Article" class="no-js">
+ <head id="Head1">
+  <title>
+	ASUS Battery Information Center
+</title> 
+  <link rel="shortcut icon" href="//www.asus.com/images/favicon.ico" type="image/x-icon"> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="description" content=""> 
+  <meta name="author" content=""> 
+  <link rel="canonical" href="https://www.asus.com/support/article/604/"> 
+  <script type="text/javascript" src="/support/js/modernizr-2.5.3.min.js"></script> 
+  <script type="text/javascript" src="/support/js/jquery.js"></script> 
+  <script type="text/javascript" src="/support/js/bootstrap.js"></script> 
+  <script type="text/javascript" src="/support/js/myscript.js"></script> 
+  <script type="text/javascript" src="/support/js/jquery.colorbox.js"></script> 
+  <script type="text/javascript" src="/support/js/jcarousellite_1.0.1.js"></script> 
+  <!--<script type="text/javascript" src="/support/js/gaTrace.js"></script>--> 
+  <script src="/support/js/browser.js"></script> 
+  <script src="/support/js/jquery_phone_nav.js"></script> 
+  <!--[if lt IE 9]>
+      <script src="/support/js/html5.js"></script>
+    <![endif]--> 
+  <link type="text/css" rel="stylesheet" href="/support/stylesheets/reset.css"> 
+  <link type="text/css" rel="stylesheet" href="/support/stylesheets/base.css"> 
+  <link type="text/css" rel="stylesheet" href="/support/stylesheets/colorbox.css"> 
+  <!-- Le fav and touch icons --> 
+ </head>
+ <body>
+  <input name="header1$hd_version" type="hidden" id="hd_version" value="1"> 
+  <script type="text/javascript">
+    $(document).ready(function () {
+        var version = $("#hd_version").val();
+        if(version == "1"){//full_style需在resp前
+            var linkfs = document.createElement('link');
+            linkfs.type = 'text/css';
+            linkfs.rel = "stylesheet";
+            linkfs.href = "/support/stylesheets/full_style.css";
+            document.getElementsByTagName("head")[0].appendChild(linkfs);
+        }
+        var linkresp = document.createElement('link');
+        linkresp.type = 'text/css';
+        linkresp.rel = "stylesheet";
+        linkresp.href = "/support/stylesheets/responsive.css";
+        document.getElementsByTagName("head")[0].appendChild(linkresp);
+    });
+</script> 
+  <script type="text/javascript">
+    //loading local css file
+    $(document).ready(function () {
+        var css_name = "";
+        var lang_prefix = window.location.pathname.split("/");
+        if (lang_prefix.length >= 2)
+            if (lang_prefix[1] == "support")
+                css_name = "en.css";
+            else
+                css_name = lang_prefix[1] + ".css";
+
+        if (window.console)
+            console.log("css name: " + css_name);
+
+        if (window.location.hostname.indexOf("asus.com.cn") >= 0) {
+            css_name = "cn.css";
+        }
+
+        if (window.console)
+            console.log("css name: " + css_name);
+
+        if (css_name != "") {
+            var link = document.createElement('link');
+            link.type = 'text/css';
+            link.rel = "stylesheet";
+            link.href = "/support/stylesheets/local/" + css_name;
+            document.getElementsByTagName("head")[0].appendChild(link);
+        }
+
+        //video play box
+        $(".vEmbedded > a").colorbox({ iframe: true, width: "70%", height: "80%" });
+
+
+
+
+    });
+</script> 
+  <script type="text/javascript">
+    window.ASUSInit = function () {
+        var api_lang = '';
+        var api_key = '0000000004';
+        var lang_prefix = window.location.pathname.split("/");
+        if (window.console) {
+            console.log("pathname: " + window.location.pathname);
+        }
+        if (lang_prefix.length >= 2) {
+            if (lang_prefix[1] == "support")
+                api_lang = "";
+            else
+                api_lang = lang_prefix[1];
+        }
+        if (window.location.hostname.indexOf("asus.com.cn") >= 0) {
+            api_lang = "cn";
+            api_key = '0000000019';
+        }
+        if (window.console)
+            console.log("lang: " + api_lang);
+        asus_api.init({ appkey: api_key, lang: api_lang });
+    };
+    (function (d) {
+        var js, id = 'asus-jsapi', IsDebug='False';
+
+        if (d.getElementById("asus-jsapi")) { return; }
+        js = d.createElement('script');
+        js.id = id;
+        js.async = true;
+
+        if(IsDebug == 'True'){
+//                js.src = "//test.asus.com/API/js/asus_api_v2.js";
+                js.src = "//www.asus.com/API/js/asus_api.js";
+        }else{
+            if (window.location.href.indexOf("asus.com.cn") >= 0 || window.location.hostname.indexOf("asus.com.cn") >= 0)
+                js.src = "//www.asus.com.cn/API/js/asus_api.js";
+            else
+                js.src = "//www.asus.com/API/js/asus_api.js";
+        }
+       
+        d.getElementsByTagName('head')[0].appendChild(js);
+    } (document)); 
+
+</script> 
+  <script src="/support/js/MISTrack.js" type="text/javascript"></script>   
+  <form method="post" action="./?ln=en&amp;no=604&amp;" id="form1"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTczMjI0NjUzOA9kFgICAQ9kFgICAQ9kFgpmD2QWAgIBD2QWCAIBDxYEHgRocmVmBQEvHglpbm5lcmh0bWwFBEhvbWVkAgIPFgIeBXN0eWxlBQ5kaXNwbGF5OmlubGluZWQCAw8WBh8ABQgvc3VwcG9ydB8CBQ5kaXNwbGF5OmlubGluZR8BBQdTdXBwb3J0ZAIEDxYCHwIFDmRpc3BsYXk6aW5saW5lZAIBDxYCHwEFFUltcG9ydGFudCBJbmZvcm1hdGlvbmQCAg8WAh8BBR9BU1VTIEJhdHRlcnkgSW5mb3JtYXRpb24gQ2VudGVyZAIDDxYCHgRUZXh0BflOPHA+VGhlIGJhdHRlcnkgcGFjayYjMzk7cyBzZXJ2aWNlIGxpZmUgd2lsbCBkZXBlbmQgb24gdGhlIGVudmlyb25tZW50IHRlbXBlcmF0dXJlLCBodW1pZGl0eSwgYW5kIG5vdGVib29rIFBDIHVzYWdlLjwvcD4NCg0KPGRpdiBjbGFzcz0iQ09VUlNFIj4NCjxkaXYgY2xhc3M9ImhvdGxpbmVIZWFkIj4NCjxoMz48YSBocmVmPSJqYXZhU2NyaXB0OjsiPkJhdHRlcnkgTGlmZSBBbmQgQ3ljbGU8L2E+PC9oMz4NCjxhIGhyZWY9ImphdmFTY3JpcHQ6OyI+PHNwYW4gY2xhc3M9Imljb24gb3Blbkljb24iIGlkPSJpY29uMSI+aWNvbjwvc3Bhbj4gPC9hPjwvZGl2Pg0KDQo8b2wgY2xhc3M9ImJhdHRlcnlCb3giIHN0eWxlPSJkaXNwbGF5OiBibG9jayI+DQoJPGxpPlRoZSBiYXR0ZXJ5IGNhcGFjaXR5IHVzYWdlIHZlcnN1cyBjeWNsZSBwZXJmb3JtYW5jZSBhdHRlbnVhdGlvbiBmb2xsb3dzIGEgbGluZWFyIHR5cGUgY3VydmUuPC9saT4NCgk8bGk+TGl0aGl1bS1pb24gKExpLWlvbikgYmF0dGVyaWVzIHR5cGljYWxseSBoYXZlIGEgbGlmZXNwYW4gb2YgYmV0d2VlbiAzMDAgYW5kIDUwMCBjeWNsZXMuIFdpdGggbW9kZXJhdGUgdXNlLCBMaXRoaXVtLWlvbiBiYXR0ZXJpZXMgY2FuIGJlIGV4cGVjdGVkIHRvIGRlbGl2ZXIgYXJvdW5kIDgwJSBvZiB0aGVpciBvcmlnaW5hbCBjYXBhY2l0eSBhZnRlciAzMDAgY3ljbGVzIG9yIGFib3V0IG9uZSB5ZWFyIG9mIHVzZS48L2xpPg0KCTxsaT5BIGhpZ2hlciBvciBsb3dlciBhbWJpZW50IHRlbXBlcmF0dXJlIGR1cmluZyBvcGVyYXRpb24gY2FuIHJlc3VsdCBpbiBhIDcwJSBvciBtb3JlIGxvc3Mgb2YgY2FwYWNpdHkgZ2l2ZW4gdGhlIHNhbWUgbnVtYmVyIG9mIGN5Y2xlcy4gPGltZyBzcmM9Ii9zdXBwb3J0L2ltYWdlcy9jeWNsZS1lbi5qcGciIC8+PC9saT4NCgk8bGk+T3RoZXIgZmFjdG9ycyB0aGF0IGFmZmVjdCBiYXR0ZXJ5IHNlcnZpY2UgbGlmZSBhcmUgc3lzdGVtIGRlc2lnbiwgdGhlIG5vdGVib29rIG1vZGVsLCBhbmQgb3BlcmF0aW5nIHN5c3RlbSBwb3dlciBtYW5hZ2VtZW50IHNldHRpbmdzLiBUaGUgZW52aXJvbm1lbnQgdGVtcGVyYXR1cmUsIGFzIHdlbGwgYXMgdGhlIG51bWJlciBvZiB0aW1lcyB0aGUgYmF0dGVyeSBpcyBmdWxseSBkaXNjaGFyZ2VkIGFuZCByZWNoYXJnZWQsIGFsc28gYWZmZWN0cyB0aGUgYmF0dGVyeSYjMzk7cyBwZXJmb3JtYW5jZS48L2xpPg0KCTxsaT5UaGUgYmF0dGVyeSBwYWNrJiMzOTtzIGRpc2NoYXJnZSByYXRlIG9uIGEgbm90ZWJvb2sgY29tcHV0ZXIgaXMgZGlyZWN0bHkgYWZmZWN0ZWQgYnkgdGhlIHBvd2VyIG1hbmFnZW1lbnQgc2V0dGluZ3MgYW5kIHdoYXQgdHlwZXMgb2YgYXBwbGljYXRpb25zIGFyZSBydW5uaW5nLiBGb3IgZXhhbXBsZSwgcHJvY2Vzc29yLWludGVuc2l2ZSBhcHBsaWNhdGlvbnMgZm9yIGdyYXBoaWNzIGFuZCBhbmltYXRpb24sIGdhbWluZywgYW5kIHZpZGVvIHBsYXliYWNrIGNvbnN1bWUgbW9yZSBwb3dlciB0aGFuIGdlbmVyYWwgZGVza3RvcCBhcHBsaWNhdGlvbnMuPC9saT4NCjwvb2w+DQo8L2Rpdj4NCjwhLS0tLS0tLS0tLS0tLS0tLS0tLS0tLTAyLS0tLS0tLS0tLS0tLS0tLS0tLS0tLT4NCg0KPGRpdiBjbGFzcz0iQ09VUlNFIj4NCjxkaXYgY2xhc3M9ImhvdGxpbmVIZWFkIj4NCjxoMz48YSBocmVmPSJqYXZhU2NyaXB0OjsiPkJhdHRlcnkgTWFpbnRlbmFuY2U8L2E+PC9oMz4NCjxhIGhyZWY9ImphdmFTY3JpcHQ6OyI+PHNwYW4gY2xhc3M9Imljb24iIGlkPSJpY29uMSI+aWNvbjwvc3Bhbj4gPC9hPjwvZGl2Pg0KDQo8ZGl2IGNsYXNzPSJiYXR0ZXJ5Qm94Ij4NCjx0YWJsZSBjbGFzcz0idGFibGUgdGFibGUtYm9yZGVyZWQiIGlkPSJiYXR0ZXJ5VGFibGUyIj4NCgk8dGJvZHk+DQoJCTx0cj4NCgkJCTx0ZCBjbGFzcz0ic3BhbjYiPjxiPjEuIDwvYj5SZW1vdmUgdGhlIGJhdHRlcnkgZnJvbSB0aGUgbm90ZWJvb2sgYW5kIGRpc2Nvbm5lY3QgdGhlIHBvd2VyIGFkYXB0ZXIgd2hlbiB0aGUgbm90ZWJvb2sgd2lsbCBub3QgYmUgaW4gdXNlIGZvciBtb3JlIHRoYW4gdHdvIHdlZWtzLiBTaW5jZSB0aGUgYmF0dGVyeSBwYWNrIHdpbGwgZGlzY2hhcmdlIG92ZXIgdGltZSBpbiBzdG9yYWdlLCBpdCBtdXN0IGJlIGNoYXJnZWQgZXZlcnkgdGhyZWUgbW9udGhzIHRvIGV4dGVuZCBjeWNsZSBjYXBhY2l0eSBvciBlbHNlIGl0IG1heSBmYWlsIHRvIGNoYXJnZSBvciBob2xkIHBvd2VyIGluIHRoZSBmdXR1cmUuPC90ZD4NCgkJCTx0ZCBjbGFzcz0iYWRkSW1nRmxvYXQgc3BhbjYiPjxpbWcgc3JjPSIvc3VwcG9ydC9pbWFnZXMvMDMxMi0wMy5qcGciIC8+PGI+Mi4gPC9iPlRoZSBiYXR0ZXJ5IHNob3VsZCBiZSBzdG9yZWQgYXQgYSB0ZW1wZXJhdHVyZSByYW5nZSBiZXR3ZWVuIDEw4oSDIGFuZCAzMOKEgy4gWW91IG11c3QgdGFrZSBpbnRvIGFjY291bnQgdGhhdCB0aGUgbm90ZWJvb2sgUEMmIzM5O3MgaW50ZXJuYWwgdGVtcGVyYXR1cmUgaXMgaGlnaGVyIHRoYW4gdGhlIG91dHNpZGUgdGVtcGVyYXR1cmUuIEFueSB0ZW1wZXJhdHVyZSBiZWxvdyB0aGlzIHJhbmdlIHdvdWxkIGRlY3JlYXNlIGJhdHRlcnkgcGVyZm9ybWFuY2UuIE9wZXJhdGluZyB0aGUgYmF0dGVyeSBhdCBhIGhpZ2hlciB0ZW1wZXJhdHVyZSBpbmNyZWFzZXMgdGhlIHJpc2sgb2YgYSBiYXR0ZXJ5IGV4cGxvc2lvbi48L3RkPg0KCQk8L3RyPg0KCQk8dHI+DQoJCQk8dGQgY2xhc3M9InNwYW42Ij48Yj4zLiA8L2I+VGhlIGJhdHRlcnkgdHlwaWNhbGx5IGhhcyBhIGxpZmVzcGFuIG9mIGJldHdlZW4gMzAwIGFuZCA1MDAgY3ljbGVzIHVuZGVyIG5vcm1hbCB1c2FnZSBhbmQgb3BlcmF0aW5nIGNvbmRpdGlvbnMuIFVzaW5nIHRoZSBub3RlYm9vayBQQyBpbiBhIGhpZ2hlciBvciBsb3dlciBhbWJpZW50IHRlbXBlcmF0dXJlIGFmZmVjdHMgdGhlIHRvdGFsIG51bWJlciBvZiBjeWNsZXMgaW4gdGhlIGJhdHRlcnkmIzM5O3Mgc2VydmljZSBsaWZlLjwvdGQ+DQoJCQk8dGQgY2xhc3M9ImFkZEltZ0Zsb2F0IHNwYW42Ij48aW1nIHNyYz0iL3N1cHBvcnQvL2ltYWdlcy8wMzEyLTA0LmpwZyIgLz48Yj40LiA8L2I+RG8gbm90IHN0b3JlIHRoZSBiYXR0ZXJ5IHBhY2sgaW4gYSBkYW1wIG9yIGNvbGQgZW52aXJvbm1lbnQhIE1vaXN0dXJlIG9yIGEgY29sZCBlbnZpcm9ubWVudCBtaWdodCBzcGVlZCB1cCB0aGUgZGlzY2hhcmdlIHJhdGUuIFRoZSBjaGVtaWNhbCBpbmdyZWRpZW50cyBpbnNpZGUgdGhlIGJhdHRlcnkgbWlnaHQgZGVncmFkZSB3aGVuIGV4cG9zZWQgdG8gbG93IHRlbXBlcmF0dXJlcy4gT24gdGhlIG90aGVyIGhhbmQsIHRoZXJlJiMzOTtzIHJpc2sgb2YgZXhwbG9zaW9uIHdoZW4gZXhwb3NlZCB0byBleHRyZW1lbHkgaGlnaCB0ZW1wZXJhdHVyZXMuPC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkIGNsYXNzPSJzcGFuNiI+PGI+NS4gPC9iPkF2b2lkIGZyZXF1ZW50bHkgcGx1Z2dpbmcgYW5kIHVucGx1Z2dpbmcgdGhlIHBvd2VyIGFkYXB0ZXIgdG8gZXh0ZW5kIHRoZSBiYXR0ZXJ5JiMzOTtzIGxpZmV0aW1lLjwvdGQ+DQoJCQk8dGQgY2xhc3M9ImFkZEltZ0Zsb2F0IHNwYW42Ij48aW1nIHNyYz0iL3N1cHBvcnQvL2ltYWdlcy8wMzEyLTA1LmpwZyIgLz48Yj42LiA8L2I+RG8gbm90IHBsYWNlIHRoZSBub3RlYm9vayBvciBiYXR0ZXJ5IHBhY2sgbmVhciBhIHJhZGlhdG9yLCBmaXJlcGxhY2UsIHN0b3ZlLCBvciBhbnkgc291cmNlIG9mIGhlYXQuIFRlbXBlcmF0dXJlcyBvdmVyIDYw4oSDICgxNDDihIkpIG1pZ2h0IGNhdXNlIHRoZSBiYXR0ZXJ5IHBhY2sgdG8gZXhwbG9kZSwgbGVhayBjaGVtaWNhbCBmbHVpZHMsIG9yIGNhdXNlIGEgZmlyZS48L3RkPg0KCQk8L3RyPg0KCTwvdGJvZHk+DQo8L3RhYmxlPg0KPC9kaXY+DQo8L2Rpdj4NCjwhLS0tLS0tLS0tLS0tLS0tLS0tLS0tLTAzLS0tLS0tLS0tLS0tLS0tLS0tLS0tLT4NCg0KPGRpdiBjbGFzcz0iQ09VUlNFIj4NCjxkaXYgY2xhc3M9ImhvdGxpbmVIZWFkIj4NCjxoMz48YSBocmVmPSJqYXZhU2NyaXB0OjsiPkV4dGVuZGluZyBCYXR0ZXJ5IExpZmU8L2E+PC9oMz4NCjxhIGhyZWY9ImphdmFTY3JpcHQ6OyI+PHNwYW4gY2xhc3M9Imljb24iIGlkPSJpY29uMSI+aWNvbjwvc3Bhbj4gPC9hPjwvZGl2Pg0KDQo8b2wgY2xhc3M9ImJhdHRlcnlCb3giPg0KCTxsaT5BU1VTIFBvd2VyNEdlYXIgKFN1cGVyIEh5YnJpZCBFbmdpbmUpIHByb3ZpZGVzIHlvdSB3aXRoIGZvdXIgcG93ZXIgbWFuYWdlbWVudCBtb2RlcyBmb3IgZGlmZmVyZW50IHNjZW5hcmlvcy4gV2hlbiB5b3VyIHN5c3RlbSBzd2l0Y2hlcyB0byBEQyBtb2RlLCBBU1VTIFBvd2VyNEdlYXIgd2lsbCBhdXRvbWF0aWNhbGx5IHN3aXRjaCB0byBiYXR0ZXJ5IHNhdmluZyBtb2RlIHRvIGV4dGVuZCB0aGUgYmF0dGVyeSBsaWZlLg0KCTxkaXY+DQoJPHA+PGI+WW91IGNhbiBhbHNvIGRvIHRoZSBmb2xsb3dpbmcgOiA8L2I+PC9wPg0KDQoJPHVsPg0KCQk8bGk+RGltIHRoZSBkaXNwbGF5IGJyaWdodG5lc3MuPC9saT4NCgkJPGxpPkxpbWl0IHRoZSBwZXJmb3JtYW5jZSBvZiB0aGUgcHJvY2Vzc29yIChDUFUpIGJ5IGFkanVzdGluZyB0aGUgc2Nyb2xsIGJhciB0byAmbGRxdW87TWF4aW11bSBwcm9jZXNzb3Igc3RhdGUmcmRxdW87IGFuZCAmbGRxdW87TWluaW11bSBwcm9jZXNzb3Igc3RhdGUmcmRxdW87LiBSZWR1Y2luZyBwcm9jZXNzb3IgYWN0aXZpdHkgY2FuIHJlZHVjZSBwb3dlciBjb25zdW1wdGlvbi4qPC9saT4NCgkJPGxpPlR1cm4gb2ZmIGRldmljZXMvaGFyZHdhcmUgY29tcG9uZW50cyBub3QgaW4gdXNlLjwvbGk+DQoJCTxsaT5FbmFibGUgdGhlIGF1dG8gcG93ZXIgc2F2aW5nIHNldHRpbmcgKCBEaW0gdGhlIGRpc3BsYXkgYnJpZ2h0bmVzcywgVHVybiBvZmYgZGlzcGxheSwgU2xlZXAgYWZ0ZXIgKSB0byByZWR1Y2UgcG93ZXIgY29uc3VtcHRpb24uPC9saT4NCgk8L3VsPg0KDQoJPHA+Q2hhbmdpbmcgdGhlIHByb2Nlc3NvciBzdGF0ZSB3b3VsZCBhZmZlY3Qgc3lzdGVtIHBlcmZvcm1hbmNlLiBBU1VTIHN1Z2dlc3RzIHlvdSBhZG9wdCB0aGUgZGVmYXVsdCBzZXR0aW5nIGZvciBlYWNoIHBvd2VyIG1vZGUuPC9wPg0KCTwvZGl2Pg0KCTwvbGk+DQoJPGxpPlR1cm4gb2ZmIHdpcmVsZXNzIGRldmljZXMgKCBGbiArIEYyICk8YnIgLz4NCglJZiB5b3UgYXJlIG9ubHkgcnVubmluZyBhcHBsaWNhdGlvbnMgdGhhdCBkb24mIzM5O3QgbmVlZCBuZXR3b3JrIGFjY2VzcyBzdWNoIGFzIHdvcmQgcHJvY2Vzc2luZywgeW91IGNhbiB0dXJuIG9mZiB5b3VyIHdpcmVsZXNzIG5ldHdvcmsgYWRhcHRlciwgQmx1ZXRvb3RoIG9yIDNHIGNhcmQsIHRvIHJlZHVjZSBwb3dlciBjb25zdW1wdGlvbi48L2xpPg0KCTxsaT5UdXJuIG9mZiBvdGhlciBhcHBsaWNhdGlvbnMgYW5kIGFjY2Vzc29yaWVzPGJyIC8+DQoJWW91IGNhbiB0dXJuIG9mZiBhcHBsaWNhdGlvbnMgb3IgYWNjZXNzb3JpZXMgd2hpY2ggYXJlIGN1cnJlbnRseSBub3QgaW4gdXNlLiBTd2l0Y2hpbmcgb2ZmIG9yIGRpc2FibGluZyB1bm5lY2Vzc2FyeSBhcHBsaWNhdGlvbnMgb3IgY29tcG9uZW50cyBjYW4gcmVkdWNlIHBvd2VyIGNvbnN1bXB0aW9uIGFuZCBleHRlbmQgdGhlIGJhdHRlcnkgbGlmZS48YnIgLz4NCgk8YnIgLz4NCgk8aW1nIHNyYz0iL3N1cHBvcnQvaW1hZ2VzLzA3MDItMDEtZW4uanBnIiAvPjwvbGk+DQo8L29sPg0KPC9kaXY+DQo8IS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0wNC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0+DQoNCjxkaXYgY2xhc3M9IkNPVVJTRSI+DQo8ZGl2IGNsYXNzPSJob3RsaW5lSGVhZCI+DQo8aDM+PGEgaHJlZj0iamF2YVNjcmlwdDo7Ij5BU1VTIEJhdHRlcnkgV2FycmFudHkgU3RhdGVtZW50PC9hPjwvaDM+DQo8YSBocmVmPSJqYXZhU2NyaXB0OjsiPjxzcGFuIGNsYXNzPSJpY29uIiBpZD0iaWNvbjEiPmljb248L3NwYW4+IDwvYT48L2Rpdj4NCg0KPG9sIGNsYXNzPSJiYXR0ZXJ5Qm94Ij4NCgk8bGk+PGI+QVNVUyBiYXR0ZXJ5IHdhcnJhbnR5IGFwcGxpZXMgdG8gdGhlIGZvbGxvd2luZyB0ZXJtcyBhbmQgY29uZGl0aW9ucy48L2I+DQoNCgk8ZGl2Pg0KCTx1bD4NCgkJPGxpPklmIHRoZSBiYXR0ZXJ5IGlzIHdpdGhpbiB3YXJyYW50eSBhbmQgY2F1c2VzIHRoZSBOb3RlYm9vayB0byBzdWRkZW5seSBzd2l0Y2ggT04vc3dpdGNoIE9GRiBvciBzaHV0IGRvd24gb3IgcHJldmVudHMgdGhlIHN5c3RlbSBmcm9tIHR1cm5pbmcgb24sIEFTVVMgd2lsbCByZXBsYWNlIHRoZSBkZWZlY3RpdmUgYmF0dGVyeSB3aXRoIGEgbmV3IG9uZS48L2xpPg0KCQk8bGk+QXN1cyB3aWxsIHJlcGxhY2UgYSBuZXcgYmF0dGVyeSB1bmRlciB0aGUgZm9sbG93aW5nIGNvbmRpdGlvbnM6IChhKSBCYXR0ZXJ5IGRvZXMgbm90IGNoYXJnZTsgKGIpIE5vdGVib29rIGlzIG5vdCBhYmxlIHRvIGRldGVjdCBiYXR0ZXJ5IGNvbm5lY3Rpb247IChjKSBTeXN0ZW0gcHJvbXB0cyBvciB3YXJucyB0aGUgdXNlciByZXBlYXRlZGx5IHRvIHJlcGxhY2UgdGhlIGJhdHRlcnk7IChkKSBCYXR0ZXJ5IENoYXJnZSBJbmRpY2F0b3IgYmxpbmtzIGFibm9ybWFsbHkuPC9saT4NCgk8L3VsPg0KCTwvZGl2Pg0KCTwvbGk+DQoJPGxpPjxiPkV4Y2x1c2lvbnMgZnJvbSB0aGUgTGltaXRlZCBXYXJyYW50eSBTZXJ2aWNlPC9iPg0KCTxkaXY+DQoJPHVsPg0KCQk8bGk+Tm9ybWFsIGRyb3AgaW4gYmF0dGVyeSBjYXBhY2l0eSBvdmVyIHRpbWUgZHVlIHRvIHVzYWdlLjwvbGk+DQoJCTxsaT5UaGUgcHJvZHVjdCBoYXMgYmVlbiB0YW1wZXJlZCwgcmVwYWlyZWQsIGFuZC9vciBtb2RpZmllZCBieSBub24tIGF1dGhvcml6ZWQgcGVyc29ubmVsLjwvbGk+DQoJCTxsaT5GYWlsdXJlIHRvIHByb3ZpZGUgcHJvb2Ygb2YgcHVyY2hhc2Ugb3IgdGhlIHdhcnJhbnR5IHNlYWwgaGFzIGJlZW4gYnJva2VuIG9yIGFsdGVyZWQuIFRvIGF2YWlsIG9mIHRoZSBsaW1pdGVkIHdhcnJhbnR5LCBwbGVhc2Uga2VlcCB5b3VyIHByb29mIG9mIHB1cmNoYXNlIGFuZCBkbyBub3QgcmVtb3ZlIHRoZSB3YXJyYW50eSBzZWFsIG9uIHRoZSBwcm9kdWN0LjwvbGk+DQoJCTxsaT5FbGVjdHJvbmljIGNvbXBvbmVudHMgZGlzcGxheSBydXN0IG9yIHNpZ25zIG9mIG94aWRhdGlvbiBkdWUgdG8gZXhwb3N1cmUgdG8gbW9pc3R1cmUgb3IgaW50ZXJuYWwgbGVha2FnZS48L2xpPg0KCQk8bGk+TWlzdXNlIG9yIG5lZ2xpZ2VuY2UuPC9saT4NCgk8L3VsPg0KCTwvZGl2Pg0KCTwvbGk+DQo8L29sPg0KPC9kaXY+DQo8IS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0wNS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0+DQoNCjxkaXYgY2xhc3M9IkNPVVJTRSI+DQo8ZGl2IGNsYXNzPSJob3RsaW5lSGVhZCI+DQo8aDM+PGEgaHJlZj0iamF2YVNjcmlwdDo7Ij5BU1VTIEJhdHRlcnkgVHlwZTwvYT48L2gzPg0KPGEgaHJlZj0iamF2YVNjcmlwdDo7Ij48c3BhbiBjbGFzcz0iaWNvbiIgaWQ9Imljb24xIj5pY29uPC9zcGFuPiA8L2E+PC9kaXY+DQoNCjxvbCBjbGFzcz0iYmF0dGVyeUJveCI+DQoJPGxpPjxiPkxpdGhpdW0tSW9uIGJhdHRlcmllczwvYj4NCg0KCTxwPkxpdGhpdW0tSW9uIGJhdHRlcmllcyAoTGktSW9uKSBtYWtlIHVzZSBvZiBhbm9kZSBtYXRlcmlhbHMgaW5jbHVkaW5nIGxpdGhpdW0gbWV0YWwgb3IgbGl0aGl1bSBhbGxveSBhbmQgYSBub24tYXF1ZW91cyBlbGVjdHJvbHl0ZSBzb2x1dGlvbi4gTGl0aGl1bS1Jb24gYmF0dGVyaWVzIHByb3ZpZGUgYSBoaWdoIHZvbHRhZ2UsIGEgbG9uZyBsaWZlIGN5Y2xlLCBhbmQgYSBoaWdoIGNoYXJnZSByYXRlLiBUaGV5IGFyZSBsaWdodHdlaWdodCwgbm9uLXBvbGx1dGluZywgYW5kIGRvIG5vdCBzdWZmZXIgdGhlIG1lbW9yeSBlZmZlY3Qgb2YgYW4gaW5jb21wbGV0ZSBkaXNjaGFyZ2UuIFRoZXkgY2FuIGJlIHJlY2hhcmdlZCBxdWlja2x5IGFuZCB1c2VkIHdpdGggYSBzbWFydCBiYXR0ZXJ5IGNoYXJnZXIgd2hpbGUgc3RpbGwgbWFpbnRhaW5pbmcgYSBoaWdoIGRlbnNpdHkgcG93ZXIgY2FwYWNpdHkuIExpdGhpdW0tSW9uIGJhdHRlcmllcyBhcmUgdXNlZCBpbiBwcm9kdWN0cyBzdWNoIGFzIG1vYmlsZSBwaG9uZXMgYW5kIGxhcHRvcHMuPC9wPg0KCTwvbGk+DQoJPGxpPjxiPlRoZSBsaXRoaXVtIHBvbHltZXIgYmF0dGVyeTwvYj4NCgk8cD5UaGUgbGl0aGl1bSBwb2x5bWVyIGJhdHRlcnkgaXMgY3VycmVudGx5IHRoZSBtb3N0IHdpZGVseSB1c2VkIGJhdHRlcnkgb24gdGhlIG1hcmtldC4gVGhlaXIgYWR2YW50YWdlcyBpbmNsdWRlIGEgaGlnaGVyIGVuZXJneSBkZW5zaXR5IGFuZCBhIGJhdHRlcnkgcGFja2FnZSB0aGF0IGNhbiBiZSBzbWFsbCwgdGhpbiwgbGlnaHR3ZWlnaHQsIGFuZCBsb3ctY29zdC4gTGl0aGl1bSBwb2x5bWVyIGJhdHRlcmllcyBjYW4gYmUgbWFkZSBpbnRvIGFueSBzaGFwZSBhbmQgY2FwYWNpdHkgYW5kIGNhbiBiZSBhcyB0aGluIGFzIDAuNW1tLiBUaGV5IHByb3ZpZGUgdHdpY2UgdGhlIHBvd2VyIGNhcGFjaXR5IG9mIGEgbGl0aGl1bS1pb24gYmF0dGVyeSBvZiB0aGUgc2FtZSBzaXplLiBMaXRoaXVtIHBvbHltZXIgYmF0dGVyaWVzIGFyZSBjdXJyZW50bHkgZm91bmQgaW4gbW9iaWxlIHBob25lcywgbGFwdG9wcywgYW5kIHRhYmxldCBjb21wdXRlcnMuPC9wPg0KCTwvbGk+DQo8L29sPg0KPC9kaXY+DQo8IS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0wNi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0+DQoNCjxkaXYgY2xhc3M9IkNPVVJTRSI+DQo8ZGl2IGNsYXNzPSJob3RsaW5lSGVhZCI+DQo8aDM+PGEgaHJlZj0iamF2YVNjcmlwdDo7Ij5TdXBlckJhdHQgVGVjaG5vbG9neTwvYT48L2gzPg0KPGEgaHJlZj0iamF2YVNjcmlwdDo7Ij48c3BhbiBjbGFzcz0iaWNvbiIgaWQ9Imljb24xIj5pY29uPC9zcGFuPiA8L2E+PC9kaXY+DQoNCjxkaXYgY2xhc3M9ImJhdHRlcnlCb3giPg0KPHA+VGhlIGV4Y2x1c2l2ZSBTdXBlckJhdHQgdGVjaG5vbG9neSB1c2VzIHRoZSBBU1VTIFNtYXJ0IENoYXJnaW5nIEFsZ29yaXRobSB0byBleHRlbmQgbm90ZWJvb2sgYmF0dGVyeSBwb3RlbmN5LiBXaGlsZSBzdGFuZGFyZCBiYXR0ZXJpZXMgZGV0ZXJpb3JhdGUgd2l0aCB0aW1lIGFuZCByZWNoYXJnZSB0byBsb3dlciBsZXZlbHMgdGhlIG1vcmUgY3ljbGVzIHRoZXkgZW5kdXJlLCBTdXBlckJhdHQgZW5hYmxlcyB1cCB0byA3MCUgY2hhcmdlLXVwIGV2ZW4gYWZ0ZXIgMTAwMCBjeWNsZXMgJm5kYXNoOyB0aHJlZSB0aW1lcyBtb3JlIHRoYW4gbm9ybWFsLWNlbGwgYmF0dGVyaWVzLjwvcD4NCg0KPHAgY2xhc3M9InJlZCI+KiBBU1VTIFN1cGVyQmF0dCBvbiBLNDUsIEs1NSwgSzc1LCBhbmQgSzk1IG9ubHkuPC9wPg0KDQo8dGFibGUgY2xhc3M9InRhYmxlIHRhYmxlLWJvcmRlcmVkIiBpZD0iYmF0dGVyeVRhYmxlMiI+DQoJPHRib2R5Pg0KCQk8dHI+DQoJCQk8dGQgY2xhc3M9ImJnLWdyYXkiIHJvd3NwYW49IjIiPlRlc3QgTW9kZTwvdGQ+DQoJCQk8dGQgY2xhc3M9ImJnLWdyYXkiIGNvbHNwYW49IjIiPkNhcGFjaXR5IEFmdGVyIEN5Y2xlczwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZD4zMDAgY3ljbGVzPC90ZD4NCgkJCTx0ZD4xMDAwIGN5Y2xlczwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZD5Ob3JtYWwgY2hhcmdlIG9mIG90aGVyIGJyYW5kczwvdGQ+DQoJCQk8dGQ+ODAlfjcwJTwvdGQ+DQoJCQk8dGQ+Ti9BPC90ZD4NCgkJPC90cj4NCgkJPHRyPg0KCQkJPHRkPlNtYXJ0IENoYXJnZSBDZWxsPC90ZD4NCgkJCTx0ZD5+OTAlPC90ZD4NCgkJCTx0ZD5+NzAlPC90ZD4NCgkJPC90cj4NCgk8L3Rib2R5Pg0KPC90YWJsZT4NCjxpbWcgc3JjPSIvc3VwcG9ydC9pbWFnZXMvdGVjaG5vbG9neS1lbi5qcGciIC8+PC9kaXY+DQo8L2Rpdj4NCjwhLS0tLS0tLS0tLS0tLS0tLS0tLS0tLWVuZC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0+PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPg0KJChmdW5jdGlvbigpew0KICQoImRpdi5DT1VSU0UiKS5jbGljayhmdW5jdGlvbigpew0KICAkKHRoaXMpLmZpbmQoIi5iYXR0ZXJ5Qm94Iikuc2xpZGVUb2dnbGUoImZhc3QiKTsNCiAgJCh0aGlzKS5maW5kKCIjaWNvbjEiKS50b2dnbGVDbGFzcygib3Blbkljb24iKTsNCiANCiAgLy9yZXR1cm4gZmFsc2U7DQogfSk7DQp9KTsNCjwvc2NyaXB0PmQCBA9kFgpmDxYCHwEFGVdoYXQmIzM5O3MgTmV3IGFib3V0IEFTVVNkAgEPFgQfAAUUL3N1cHBvcnQvSW5mb3JtYXRpb24fAQUXTmV3cyAmYW1wOyBBbm5vdW5jZW1lbnRkAgIPFgIfAwUBMGQCAw8WAh8BBQ1Qb3B1bGFyIFRvcGljZAIEDxYCHgtfIUl0ZW1Db3VudAIKFhRmD2QWAmYPFQMVL3N1cHBvcnQvQXJ0aWNsZS81NjUvBV9zZWxmFkhvdyB0byBmaW5kIG1vZGVsIG5hbWVkAgEPZBYCZg8VAxUvc3VwcG9ydC9BcnRpY2xlLzU2Ni8FX3NlbGYhSG93IHRvIGZpbmQgcHJvZHVjdCBTZXJpYWwgTnVtYmVyZAICD2QWAmYPFQMVL3N1cHBvcnQvQXJ0aWNsZS81ODgvBV9zZWxmIEFTVVMgU2VydmVyQ2FyZSBTZXJ2aWNlIFByb2dyYW0gZAIDD2QWAmYPFQMVL3N1cHBvcnQvQXJ0aWNsZS82MDQvBV9zZWxmH0FTVVMgQmF0dGVyeSBJbmZvcm1hdGlvbiBDZW50ZXJkAgQPZBYCZg8VAxUvc3VwcG9ydC9BcnRpY2xlLzU5Ny8FX3NlbGYURVBFQVQgUHJvZHVjdCBQb2xpY3lkAgUPZBYCZg8VAxUvc3VwcG9ydC9BcnRpY2xlLzU5Mi8FX3NlbGYnQ29tbWVyY2lhbCBOb3RlYm9vayBIb3RsaW5lIEluZm9ybWF0aW9uZAIGD2QWAmYPFQMVL3N1cHBvcnQvQXJ0aWNsZS81NjgvBV9zZWxmF0N1c3RvbWVyIEluZHVjZWQgRGFtYWdlZAIHD2QWAmYPFQMVL3N1cHBvcnQvQXJ0aWNsZS83NTAvBV9zZWxmEUhvdyB0byBGaW5kIFBQSUQ/ZAIID2QWAmYPFQMVL3N1cHBvcnQvQXJ0aWNsZS83NTEvBV9zZWxmGUhvdyB0byBGaW5kIENoZWNrIE51bWJlcj9kAgkPZBYCZg8VAxUvc3VwcG9ydC9BcnRpY2xlLzU4MC8FX3NlbGY2V2FycmFudHkgUmVwbGFjZW1lbnQgT3B0aW9ucyAmIEluc3RydWN0aW9ucyhpbiBFVVJPUEUpZGQ4gL/GG1aPRpWSJmka+/Pvm5EJww=="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="68439541"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdABAErup/01i7cGlEAmmpHEBBNZB+pap+Eh42iiSS4+k4PiDtOPoS55I9+oKXugLW/gJknmDr+bFUDIsvuku77WNYG5h9XiJ0VVjJz4L6Ox2bFWxjUZuw02eutnZU5r+PY70ozEk9BF7FgIADe9dMv0ODi3gbETdcMkdBFBX+UY75kNghNKcidJD7Ammv+xGzoC84PZgHOjFiGVCGm0Tpd4h3K8ekZEDRGShlpDpPPw1/+MP/qDIYFKA3q5NPkVyw5i7lmYvpc66jZQEsdiIbM1lDjAweZnecDvSui50NuLzBgqDZuUtozpYLLjdKv4pTnAFcAF7+rPzELe7d6WWZiXCVeHyxINm0ULB74I8YxXMIll5GByM="> 
+   </div> 
+   <!--Support--> 
+   <div class="grayBg"> 
+    <div id="important-information" class="container main-zone"> 
+     <div id="breadcrumbs"> 
+      <div id="product-topinfo"> 
+       <div id="breadcrumbs"> 
+        <a href="/" id="mainzone1_breadcrumb2_a_home" target="_self">Home</a>
+        <span id="mainzone1_breadcrumb2_s1" style="display:inline">&nbsp;&gt;&nbsp;</span>
+        <a href="/support" id="mainzone1_breadcrumb2_a_support" target="_self" style="display:inline">Support</a>
+        <span id="mainzone1_breadcrumb2_s2" style="display:inline">&nbsp;&gt;&nbsp;</span>
+        <a href="../../../uc_3/general/index.aspx" id="mainzone1_breadcrumb2_a_pagename" target="_self" style="display: none">[Page Name]</a> 
+        <span id="mainzone1_breadcrumb2_s_l1" style="display: none">&nbsp;&gt;&nbsp;</span>
+        <a href="../../../uc_3/general/index.aspx" id="mainzone1_breadcrumb2_a_l1" target="_self" style="display: none">[level 1]</a> 
+        <span id="mainzone1_breadcrumb2_s_l2" style="display: none">&nbsp;&gt;&nbsp;</span>
+        <a href="../../../uc_3/general/index.aspx" id="mainzone1_breadcrumb2_a_l2" target="_self" style="display: none">[level 2]</a> 
+        <span id="mainzone1_breadcrumb2_s_m" style="display: none">&nbsp;&gt;&nbsp;</span>
+        <a href="../../../uc_3/general/index.aspx" id="mainzone1_breadcrumb2_a_m" target="_self" style="display: none">[model]</a> 
+       </div> 
+       <div class="pull-right" id="MDA" style="display: none"> 
+        <span class="mdatext">ASUS recommends Windows® 7.</span> 
+       </div> 
+      </div> 
+     </div> 
+     <h1 id="id_top_page_title" class="page-title" langtype="support_main" langtextid="info_title1">Important Information</h1> 
+     <div class="double-border-bottom"> 
+     </div> 
+     <!--Main Content --> 
+     <div class="im-main"> 
+      <!--right--> 
+      <div class="rightC curl-shadow"> 
+       <div id="search-result"> 
+        <!--Product--> 
+        <div class="product_contentZone"> 
+         <div class="mediaZone"> 
+          <!-- AddThis Button BEGIN，Expect CN Site --> 
+          <div class="addthis_toolbox addthis_default_style"> 
+           <a class="addthis_button_compact at300m">Share</a> 
+           <a style="width: 65px;"> 
+            <div class="g-plusone" data-size="medium" style="float: left;"> 
+            </div> </a>
+           <a> 
+            <div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true" data-font="arial"> 
+            </div> </a> 
+          </div> 
+          <!-- AddThis Button END --> 
+          <div class="both"> 
+          </div> 
+          <span class="visible-phone"><a href="#" class="btn-adv">more</a></span> 
+         </div> 
+         <h1 id="mainzone1_article_title" class="page-title">ASUS Battery Information Center</h1> 
+         <p>The battery pack's service life will depend on the environment temperature, humidity, and notebook PC usage.</p> 
+         <div class="COURSE"> 
+          <div class="hotlineHead"> 
+           <h3><a href="javaScript:;">Battery Life And Cycle</a></h3> 
+           <a href="javaScript:;"><span class="icon openIcon" id="icon1">icon</span> </a>
+          </div> 
+          <ol class="batteryBox" style="display: block"> 
+           <li>The battery capacity usage versus cycle performance attenuation follows a linear type curve.</li> 
+           <li>Lithium-ion (Li-ion) batteries typically have a lifespan of between 300 and 500 cycles. With moderate use, Lithium-ion batteries can be expected to deliver around 80% of their original capacity after 300 cycles or about one year of use.</li> 
+           <li>A higher or lower ambient temperature during operation can result in a 70% or more loss of capacity given the same number of cycles. <img src="/support/images/cycle-en.jpg"></li> 
+           <li>Other factors that affect battery service life are system design, the notebook model, and operating system power management settings. The environment temperature, as well as the number of times the battery is fully discharged and recharged, also affects the battery's performance.</li> 
+           <li>The battery pack's discharge rate on a notebook computer is directly affected by the power management settings and what types of applications are running. For example, processor-intensive applications for graphics and animation, gaming, and video playback consume more power than general desktop applications.</li> 
+          </ol> 
+         </div> 
+         <!--02----------------------> 
+         <div class="COURSE"> 
+          <div class="hotlineHead"> 
+           <h3><a href="javaScript:;">Battery Maintenance</a></h3> 
+           <a href="javaScript:;"><span class="icon" id="icon1">icon</span> </a>
+          </div> 
+          <div class="batteryBox"> 
+           <table class="table table-bordered" id="batteryTable2"> 
+            <tbody> 
+             <tr> 
+              <td class="span6"><b>1. </b>Remove the battery from the notebook and disconnect the power adapter when the notebook will not be in use for more than two weeks. Since the battery pack will discharge over time in storage, it must be charged every three months to extend cycle capacity or else it may fail to charge or hold power in the future.</td> 
+              <td class="addImgFloat span6"><img src="/support/images/0312-03.jpg"><b>2. </b>The battery should be stored at a temperature range between 10℃ and 30℃. You must take into account that the notebook PC's internal temperature is higher than the outside temperature. Any temperature below this range would decrease battery performance. Operating the battery at a higher temperature increases the risk of a battery explosion.</td> 
+             </tr> 
+             <tr> 
+              <td class="span6"><b>3. </b>The battery typically has a lifespan of between 300 and 500 cycles under normal usage and operating conditions. Using the notebook PC in a higher or lower ambient temperature affects the total number of cycles in the battery's service life.</td> 
+              <td class="addImgFloat span6"><img src="/support//images/0312-04.jpg"><b>4. </b>Do not store the battery pack in a damp or cold environment! Moisture or a cold environment might speed up the discharge rate. The chemical ingredients inside the battery might degrade when exposed to low temperatures. On the other hand, there's risk of explosion when exposed to extremely high temperatures.</td> 
+             </tr> 
+             <tr> 
+              <td class="span6"><b>5. </b>Avoid frequently plugging and unplugging the power adapter to extend the battery's lifetime.</td> 
+              <td class="addImgFloat span6"><img src="/support//images/0312-05.jpg"><b>6. </b>Do not place the notebook or battery pack near a radiator, fireplace, stove, or any source of heat. Temperatures over 60℃ (140℉) might cause the battery pack to explode, leak chemical fluids, or cause a fire.</td> 
+             </tr> 
+            </tbody> 
+           </table> 
+          </div> 
+         </div> 
+         <!--03----------------------> 
+         <div class="COURSE"> 
+          <div class="hotlineHead"> 
+           <h3><a href="javaScript:;">Extending Battery Life</a></h3> 
+           <a href="javaScript:;"><span class="icon" id="icon1">icon</span> </a>
+          </div> 
+          <ol class="batteryBox"> 
+           <li>ASUS Power4Gear (Super Hybrid Engine) provides you with four power management modes for different scenarios. When your system switches to DC mode, ASUS Power4Gear will automatically switch to battery saving mode to extend the battery life. 
+            <div> 
+             <p><b>You can also do the following : </b></p> 
+             <ul> 
+              <li>Dim the display brightness.</li> 
+              <li>Limit the performance of the processor (CPU) by adjusting the scroll bar to “Maximum processor state” and “Minimum processor state”. Reducing processor activity can reduce power consumption.*</li> 
+              <li>Turn off devices/hardware components not in use.</li> 
+              <li>Enable the auto power saving setting ( Dim the display brightness, Turn off display, Sleep after ) to reduce power consumption.</li> 
+             </ul> 
+             <p>Changing the processor state would affect system performance. ASUS suggests you adopt the default setting for each power mode.</p> 
+            </div> </li> 
+           <li>Turn off wireless devices ( Fn + F2 )<br> If you are only running applications that don't need network access such as word processing, you can turn off your wireless network adapter, Bluetooth or 3G card, to reduce power consumption.</li> 
+           <li>Turn off other applications and accessories<br> You can turn off applications or accessories which are currently not in use. Switching off or disabling unnecessary applications or components can reduce power consumption and extend the battery life.<br> <br> <img src="/support/images/0702-01-en.jpg"></li> 
+          </ol> 
+         </div> 
+         <!--04----------------------> 
+         <div class="COURSE"> 
+          <div class="hotlineHead"> 
+           <h3><a href="javaScript:;">ASUS Battery Warranty Statement</a></h3> 
+           <a href="javaScript:;"><span class="icon" id="icon1">icon</span> </a>
+          </div> 
+          <ol class="batteryBox"> 
+           <li><b>ASUS battery warranty applies to the following terms and conditions.</b> 
+            <div> 
+             <ul> 
+              <li>If the battery is within warranty and causes the Notebook to suddenly switch ON/switch OFF or shut down or prevents the system from turning on, ASUS will replace the defective battery with a new one.</li> 
+              <li>Asus will replace a new battery under the following conditions: (a) Battery does not charge; (b) Notebook is not able to detect battery connection; (c) System prompts or warns the user repeatedly to replace the battery; (d) Battery Charge Indicator blinks abnormally.</li> 
+             </ul> 
+            </div> </li> 
+           <li><b>Exclusions from the Limited Warranty Service</b> 
+            <div> 
+             <ul> 
+              <li>Normal drop in battery capacity over time due to usage.</li> 
+              <li>The product has been tampered, repaired, and/or modified by non- authorized personnel.</li> 
+              <li>Failure to provide proof of purchase or the warranty seal has been broken or altered. To avail of the limited warranty, please keep your proof of purchase and do not remove the warranty seal on the product.</li> 
+              <li>Electronic components display rust or signs of oxidation due to exposure to moisture or internal leakage.</li> 
+              <li>Misuse or negligence.</li> 
+             </ul> 
+            </div> </li> 
+          </ol> 
+         </div> 
+         <!--05----------------------> 
+         <div class="COURSE"> 
+          <div class="hotlineHead"> 
+           <h3><a href="javaScript:;">ASUS Battery Type</a></h3> 
+           <a href="javaScript:;"><span class="icon" id="icon1">icon</span> </a>
+          </div> 
+          <ol class="batteryBox"> 
+           <li><b>Lithium-Ion batteries</b> <p>Lithium-Ion batteries (Li-Ion) make use of anode materials including lithium metal or lithium alloy and a non-aqueous electrolyte solution. Lithium-Ion batteries provide a high voltage, a long life cycle, and a high charge rate. They are lightweight, non-polluting, and do not suffer the memory effect of an incomplete discharge. They can be recharged quickly and used with a smart battery charger while still maintaining a high density power capacity. Lithium-Ion batteries are used in products such as mobile phones and laptops.</p> </li> 
+           <li><b>The lithium polymer battery</b> <p>The lithium polymer battery is currently the most widely used battery on the market. Their advantages include a higher energy density and a battery package that can be small, thin, lightweight, and low-cost. Lithium polymer batteries can be made into any shape and capacity and can be as thin as 0.5mm. They provide twice the power capacity of a lithium-ion battery of the same size. Lithium polymer batteries are currently found in mobile phones, laptops, and tablet computers.</p> </li> 
+          </ol> 
+         </div> 
+         <!--06----------------------> 
+         <div class="COURSE"> 
+          <div class="hotlineHead"> 
+           <h3><a href="javaScript:;">SuperBatt Technology</a></h3> 
+           <a href="javaScript:;"><span class="icon" id="icon1">icon</span> </a>
+          </div> 
+          <div class="batteryBox"> 
+           <p>The exclusive SuperBatt technology uses the ASUS Smart Charging Algorithm to extend notebook battery potency. While standard batteries deteriorate with time and recharge to lower levels the more cycles they endure, SuperBatt enables up to 70% charge-up even after 1000 cycles – three times more than normal-cell batteries.</p> 
+           <p class="red">* ASUS SuperBatt on K45, K55, K75, and K95 only.</p> 
+           <table class="table table-bordered" id="batteryTable2"> 
+            <tbody> 
+             <tr> 
+              <td class="bg-gray" rowspan="2">Test Mode</td> 
+              <td class="bg-gray" colspan="2">Capacity After Cycles</td> 
+             </tr> 
+             <tr> 
+              <td>300 cycles</td> 
+              <td>1000 cycles</td> 
+             </tr> 
+             <tr> 
+              <td>Normal charge of other brands</td> 
+              <td>80%~70%</td> 
+              <td>N/A</td> 
+             </tr> 
+             <tr> 
+              <td>Smart Charge Cell</td> 
+              <td>~90%</td> 
+              <td>~70%</td> 
+             </tr> 
+            </tbody> 
+           </table> 
+           <img src="/support/images/technology-en.jpg">
+          </div> 
+         </div> 
+         <!--end---------------------->
+         <script type="text/javascript">
+$(function(){
+ $("div.COURSE").click(function(){
+  $(this).find(".batteryBox").slideToggle("fast");
+  $(this).find("#icon1").toggleClass("openIcon");
+ 
+  //return false;
+ });
+});
+</script> 
+        </div> 
+       </div> 
+      </div> 
+      <!--Left--> 
+      <div id="fast-link" class="leftC left-menu-zone"> 
+       <!--only phone--> 
+       <a href="#" class="btn-adv hide visible-phone">Go Back</a> 
+       <!--only phone--> 
+       <span id="mainzone1_links_news_popular1_Span1" class="item-title" langtype="support_main" langtextid="info_title3">What's New about ASUS</span> 
+       <ul id="left-nav" class="search-nav"> 
+        <li class="nav-item-sub"><a href="/support/Information" id="mainzone1_links_news_popular1_news_link" langtype="support_main" langtextid="info_title2">News &amp; Announcement</a><a href="/support/Information" id="A1"><span class="badge badge-asus">0</span></a></li> 
+        <li class="divider"></li> 
+        <li class="active"> <h3 id="mainzone1_links_news_popular1_h3_title" class="nav-item-title">Popular Topic</h3> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/565/" target="_self"> How to find model name</a> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/566/" target="_self"> How to find product Serial Number</a> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/588/" target="_self"> ASUS ServerCare Service Program </a> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/604/" target="_self"> ASUS Battery Information Center</a> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/597/" target="_self"> EPEAT Product Policy</a> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/592/" target="_self"> Commercial Notebook Hotline Information</a> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/568/" target="_self"> Customer Induced Damage</a> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/750/" target="_self"> How to Find PPID?</a> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/751/" target="_self"> How to Find Check Number?</a> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/580/" target="_self"> Warranty Replacement Options &amp; Instructions(in EUROPE)</a> </li> 
+       </ul> 
+      </div> 
+      <div class="both"> 
+      </div> 
+      <input type="hidden" name="mainzone1$links_news_popular1$hd_CurrURL" id="hd_CurrURL" value="/support/Article/604/"> 
+      <script type="text/javascript">
+    $("a[href$='" + $("#hd_CurrURL").val() + "']").css("color", "#0164a2");
+</script> 
+     </div> 
+     <!--Main Content end--> 
+    </div> 
+   </div> 
+   <!--support end--> 
+   <!--Cn 站不載入任何google & facebook 的套件--> 
+   <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=undefined"></script> 
+   <script type="text/javascript" src="/support/js/plusone.js"></script> 
+   <script type="text/javascript">
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+    } (document, 'script', 'facebook-jssdk'));</script> 
+   <!-- H-A-7 --> 
+   <input name="page_info1$langNormal" type="hidden" id="langNormal" value="en"> 
+   <input name="page_info1$hd_lang_prefix" type="hidden" id="hd_lang_prefix" value="/support"> 
+   <input name="page_info1$hd_product" type="hidden" id="hd_product"> 
+   <input name="page_info1$hd_product_name" type="hidden" id="hd_product_name"> 
+   <input name="page_info1$hd_product_name_ml" type="hidden" id="hd_product_name_ml"> 
+   <input name="page_info1$hd_series" type="hidden" id="hd_series"> 
+   <input name="page_info1$hd_series_name" type="hidden" id="hd_series_name"> 
+   <input name="page_info1$hd_series_name_ml" type="hidden" id="hd_series_name_ml"> 
+   <input name="page_info1$hd_model" type="hidden" id="hd_model"> 
+   <input name="page_info1$hd_model_ml" type="hidden" id="hd_model_ml"> 
+   <input name="page_info1$hd_os" type="hidden" id="hd_os"> 
+   <input name="page_info1$hd_hid" type="hidden" id="hd_hid"> 
+   <input name="page_info1$hd_offical_url" type="hidden" id="hd_offical_url"> 
+   <!-- Google Tag Manager with Origin gaTrace --> 
+   <noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+   </noscript> 
+   <script src="/support/js/gaTrace.js" type="text/javascript"></script> 
+   <!-- End Google Tag Manager --> 
+   <!--Online Chat--> 
+   <link href="/support/stylesheets/online-chat-btn.css" rel="stylesheet" type="text/css"> 
+   <script>
+    function inIframe() {
+        try {
+            return window.self !== window.top; //window.self means the current application , window.top means the top ahead application
+        } catch (e) {
+            return true;
+        }
+    }
+</script> 
+   <script type="text/javascript">
+    $(document).ready(function () {
+        var IsInIframe = inIframe();
+
+        if (IsInIframe) {
+            return false;
+        }
+
+        var _Local = $("#langNormal").val();
+
+        var onlineService = initOnlineService(_Local);
+        onlineService.init();
+    });
+
+    function initOnlineService(Local) {
+        var ApiUrl = window.location.protocol + "//demeter.asus.com/WSC/Support_API_New/SupportNewAPI/GetOnlineChatUrl/",
+            ApiOption;
+
+        ApiUrl += Local;
+
+        return {
+            init: function () {
+                if ($("#online-service").length > 0) return;
+
+                $.getJSON(ApiUrl + "?callback=?", ApiOption).done(function (result) {
+                    if (result && result.StatusCode == 0) {
+                        var onlineServiceString = result.Link_Name ? result.Link_Name : "Online Chat",
+                            serviceUrl = result.URL;
+
+                        onlineChatBtn = '<div id="online-service"><a class="btn" onclick="javascript:window.open(\'' + serviceUrl + '\', \'\',  \'width=520, height=700, scrollbars=yes\'); ga(\'send\', \'event\', \'button\', \'clicked\', \'onlinechat\');">' + onlineServiceString + '</a></div>';
+                        $(onlineChatBtn).appendTo("body");
+                    }
+                });
+            }
+        }
+    };
+</script> 
+   <!--Redirect en--> 
+  </form>   
+ </body>
+</html>

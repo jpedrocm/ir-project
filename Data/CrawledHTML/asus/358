@@ -1,0 +1,337 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link href="//www.asus.com/css/web/base.css" rel="stylesheet">
+  <link href="//www.asus.com/css/web/business.css" rel="stylesheet">
+  <link href="//www.asus.com/css/web/mybootstrap_to_cut.css" rel="stylesheet">
+  <link href="//www.asus.com/css/web/base_responsive.css" rel="stylesheet">
+  <link href="//www.asus.com/css/web/asus_responsive.css" rel="stylesheet">
+  <link href="//www.asus.com/css/web/APIs.css" rel="stylesheet">
+  <link href="//www.asus.com/css/web/full_style.css" rel="stylesheet">
+  <link href="/Search/MasterPages/css/SuggestStyle.css" rel="stylesheet">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>
+
+</title> 
+  <script src="/Search/MasterPages/js/jquery/jquery-1.8.3.min.js"></script> 
+  <script src="/Search/MasterPages/js/jquery/jquery.xdomainrequest.min.js"></script> 
+  <script src="/Search/MasterPages/js/UrlHelper.js"></script> 
+  <script src="/Search/MasterPages/js/GetUrlParameter.js"></script> 
+  <script src="/Search/MasterPages/js/SuggestScript.js"></script> 
+  <script src="/Search/MasterPages/js/RefinementScript.js"></script> 
+  <script src="//www.asus.com/js/web/asus.js"></script> 
+  <script src="//www.asus.com/js/web/bootstrap.js"></script> 
+  <script type="text/javascript" src="//www.asus.com/js/web/AsusGeneralScript.js"></script> 
+  <link class="websiteCSS" rel="stylesheet"> 
+  <script type="text/javascript">
+         var country = GetCountryCode().toLowerCase();
+         //主版頁面埋設GA code, 不同站須替換該國的GoogleTrackingCode欄位, CN與其他國家的處理方式較不同
+         //除CN使用百度tracking外, 其他國家皆用google analytic
+         function setGACode(GACode) {
+             if (country != "cn") {
+                 (function (i, s, o, g, r, a, m) {
+                     i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                         (i[r].q = i[r].q || []).push(arguments)
+                     }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                     m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+                 })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+                 ga('create', GACode, 'auto', { 'allowLinker': true });
+                 ga('require', 'linker');
+                 ga('require', 'displayfeatures');
+                 ga('linker:autoLink', ['asus.com']);
+                 ga('send', 'pageview');
+             }
+             else {
+                 var _hmt = _hmt || [];
+                 (function () {
+                     var hm = document.createElement("script");
+                     hm.src = "//hm.baidu.com/hm.js?b4671500ff917b268437ff5be30c0ff0";
+                     var s = document.getElementsByTagName("script")[0];
+                     s.parentNode.insertBefore(hm, s);
+                 })();
+             }
+         }
+
+         window.ASUSInit = function () {
+             asus_api.init({
+                 appkey: 'search0001',
+                 lang: country
+             });
+         };
+         (function (d) {
+             try {
+                 var js, id = 'asus-jsapi';
+                 if (d.getElementById("asus-jsapi")) { return; }
+                 js = d.createElement('script');
+                 js.id = id;
+                 js.async = true;
+                 js.src = "//www.asus.com/API/js/asus_api.js";
+                 d.getElementsByTagName('head')[0].appendChild(js);
+             }
+             catch(err)
+             {
+                 //d.write('主版頁面發生錯誤!!!');
+             }
+         }(document));
+
+         $(document).ready(function () {
+             setTimeout(function () {
+                 var country = GetCountryCode().toLowerCase().replace('-', '');
+                 $('.websiteCSS').attr('href', '//www.asus.com/websites/' + country + '/css/n_local.css');
+             }, 1000);
+
+         });
+    </script> 
+ </head> 
+ <body class="asus-lmenu-pushbody"> 
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+    new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+'//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NJRLM8');</script> 
+  <!-- End Google Tag Manager --> 
+  <form name="aspnetForm" method="post" action="./results.aspx?SearchKey=faq&amp;SearchType=FAQ&amp;IsSupport=True" id="aspnetForm"> 
+   <div> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="cs4d4NuNK6QkNmJC9pWFkkQkGln3MBlW7zYusS8Yc4DCUt9UnhN3eat/utwz9cpB8ANUt1A5ajm5jfApE6SgqGh1vEYVufb/9LWsJ1jlfVA="> 
+   </div> 
+   <div> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D318BCA5"> 
+   </div> 
+   <div> 
+    <div class="modal hide" id="AwardModal"> 
+     <div class="modal-header"> 
+      <button class="close" data-dismiss="modal"><img src="//www.asus.com/media/images/g_close.png"></button> 
+      <h3><img></h3> 
+     </div> 
+     <div class="modal-body"> 
+      <p>You're about to access @@replaceword@@ which is not part of ASUS. ASUS is not responsible for the content of web pages nor the safety or privacy policies in place by @@replaceword@@.&gt;</p> 
+      <a class="btn btn-primary" href="#" target="_blank">I confirm, please take me there.</a> 
+      <a href="#" class="btn" data-dismiss="modal">Cancel</a> 
+     </div> 
+    </div> 
+    <div id="main-zone" class="container-fluid gray-bg-small"> 
+     <div class="container"> 
+      <h1 class="page-title double-border-bottom">Search</h1> 
+      <div class="row"> 
+       <div class="span12 searchbar-gray"> 
+        <div class="form-search"> 
+         <label>Did you mean to search for </label> 
+         <input type="text" id="searchinput2" name="q" class="input-medium search-query span7" onkeyup="lookup(this.value, event);" autocomplete="off"> 
+         <button id="search-btn2" type="submit" class="search-btn-blue"><span>搜尋結果</span></button> 
+         <ul class="selectbox2" style="display: none;"></ul> 
+        </div> 
+        <div id="suggestions" class="input-medium search-query" style=" left: 31%; position: absolute; display: none; z-index: 100"> 
+        </div> 
+        <a href="#" class="btn-adv hide" id="showLeftPush">Show/Hide products</a> 
+       </div> 
+      </div> 
+      <script type="text/javascript">
+    $(document).ready(function () {
+        var searchKey = getUrlParameter('SearchKey');
+        if (searchKey != undefined) {
+            $('#searchinput2').val(decodeURIComponent(searchKey));
+        }
+
+        $('#searchinput2').keypress(function (event) {
+            if (event.keyCode == 13) {
+                if ($('#searchinput2').val() != '') {
+					var index1 = window.location.href.toLowerCase().indexOf('?searchkey=');
+					var index2 = window.location.href.toLowerCase().indexOf('&searchtype=');
+					if (index2 > -1 && window.parent.document.getElementById('left-nav'))
+					{					
+						var href = window.location.href.replace(window.location.href.slice(index1,index2),'?SearchKey=' + encodeURI($('#searchinput2').val()));
+						var index3 = href.toLowerCase().indexOf('&page=');
+						if (index3 > -1 && href.slice(index3+1).indexOf('&') ==  -1)
+						{
+							href = href.replace(href.slice(index3), '&Page=1');
+						}
+						window.location.href = href;
+					}
+					else
+					{
+						window.location.href = '//' + window.location.host + window.location.pathname + '?SearchKey=' + encodeURI($('#searchinput2').val());
+					}
+					return false;
+                }
+            }
+        });
+
+        $('#search-btn2').click(function () {
+            if ($('#searchinput2').val() != '') {
+				var index1 = window.location.href.toLowerCase().indexOf('?searchkey=');
+				var index2 = window.location.href.toLowerCase().indexOf('&searchtype=');
+				if (index2 > -1 && window.parent.document.getElementById('left-nav'))
+				{						
+						var href = window.location.href.replace(window.location.href.slice(index1,index2),'?SearchKey=' + encodeURI($('#searchinput2').val()));
+						var index3 = href.toLowerCase().indexOf('&page=');
+						if (index3 > -1 && href.slice(index3+1).indexOf('&') ==  -1)
+						{
+							href = href.replace(href.slice(index3), '&Page=1');
+						}
+						window.location.href = href;				}
+				else
+				{
+					window.location.href = '//' + window.location.host + window.location.pathname + '?SearchKey=' + encodeURI($('#searchinput2').val());
+				}
+                return false;
+            }
+            else {
+                window.location.href = '//' + window.location.host + window.location.pathname + '?SearchKey=' + encodeURI($('#searchinput2').val());
+                return false;
+            }
+        });
+    });
+</script> 
+      <div id="ResultArea" class="row"> 
+       <div class="span3">
+        <nav class="asus-lmenu-left">
+         <ul id="left-nav" class="unstyled search-nav"> 
+          <li class="nav-item-sub"><a class="nav-item-title" href="?SearchKey=faq&amp;SearchType=FAQ&amp;IsSupport=True&amp;Page=1">FAQ<span class="badge badge-asus">4823</span></a></li> 
+          <li class="divider"></li> 
+         </ul>
+        </nav>
+       </div> 
+       <script type="text/javascript">
+    function HideShopBlock()
+    {
+        var shopBlock = $('.span9-line').first();
+        var noResult = $('.no-result');
+        if (shopBlock && noResult)
+        {
+            shopBlock.hide();
+        }
+    }
+</script> 
+       <div class="span9-line curl-shadow sp-faq sp-result-area"> 
+        <div id="search-result"> 
+         <div id="search-result-header" class="double-border-bottom clearfix"> 
+          <span class="item-title">FAQ</span> 
+          <span class="pull-right result-count">Total Rows:<span class="blueword">4823</span></span> 
+         </div> 
+         <div class="search-unit"> 
+          <div class="clearfix"> 
+           <img src="//www.asus.com/support/images/faq.gif" class="hot-product-pic" style="display:none;"> 
+           <div class="side-content"> 
+            <h2 class="product-name"><a href="//www.asus.com/US/support/FAQ/1030639">[Trouble shooting] What can you do if you forgot WiFi password</a></h2> [Trouble shooting] What can you do if you forgot WiFi password Back to contents ... "WPA2-Personal" is recommended to use since it’s the most safe encryption way ... 
+           </div> 
+          </div> 
+         </div> 
+         <hr class="gray"> 
+         <div class="search-unit"> 
+          <div class="clearfix"> 
+           <img src="//www.asus.com/support/images/faq.gif" class="hot-product-pic" style="display:none;"> 
+           <div class="side-content"> 
+            <h2 class="product-name"><a href="//www.asus.com/US/support/FAQ/1030719">How to know my cell phone is on Carrier Aggregation (CA) mode?</a></h2> How to know my cell phone is on Carrier Aggregation (CA) mode ... If the 4G+ icon appears on status bar, it means the the cell phone is on Carrier Aggregation mode ... 
+           </div> 
+          </div> 
+         </div> 
+         <hr class="gray"> 
+         <div class="search-unit"> 
+          <div class="clearfix"> 
+           <img src="//www.asus.com/support/images/faq.gif" class="hot-product-pic" style="display:none;"> 
+           <div class="side-content"> 
+            <h2 class="product-name"><a href="//www.asus.com/US/support/FAQ/1030714">ZenCircle new innovations - redefine social photo-sharing</a></h2> ZenCircle new innovations - redefine social photo-sharing ... Everyone likes looking at stunning images on social media ... What if we can actually give new meaning and purpose to these ... 
+           </div> 
+          </div> 
+         </div> 
+         <hr class="gray"> 
+         <div class="search-unit"> 
+          <div class="clearfix"> 
+           <img src="//www.asus.com/support/images/faq.gif" class="hot-product-pic" style="display:none;"> 
+           <div class="side-content"> 
+            <h2 class="product-name"><a href="//www.asus.com/US/support/FAQ/1015543">[Phone/Pad]Troubleshooting- No voice notification of message</a></h2> [Phone/Pad]Troubleshooting- No voice notification of message ... Please follow below steps for troubleshooting ... Please reboot your device and check again if it works well ... 
+           </div> 
+          </div> 
+         </div> 
+         <hr class="gray"> 
+         <div class="search-unit"> 
+          <div class="clearfix"> 
+           <img src="//www.asus.com/support/images/faq.gif" class="hot-product-pic" style="display:none;"> 
+           <div class="side-content"> 
+            <h2 class="product-name"><a href="//www.asus.com/US/support/FAQ/1015550">Troubleshooting- Monitor cannot be waken up when I open the leather case</a></h2> Troubleshooting- Monitor cannot be waken up when I open the leather case ... This troubleshooting is applied to the phone which supports View Flip Cover ... Apply a few screen cleanser on ... 
+           </div> 
+          </div> 
+         </div> 
+         <div class="pagination btn-group">
+          <ul>
+           <li class="disabled"> <a><span class="left-triangle"></span></a> </li>
+           <li class="active"> <a alt="1">1</a> </li>
+           <li> <a href="?SearchKey=faq&amp;SearchType=FAQ&amp;Category=0&amp;IsSupport=True&amp;Page=2" class="activelink" alt="2">2</a> </li>
+           <li> <a href="?SearchKey=faq&amp;SearchType=FAQ&amp;Category=0&amp;IsSupport=True&amp;Page=3" class="activelink" alt="3">3</a> </li>
+           <li> <a href="?SearchKey=faq&amp;SearchType=FAQ&amp;Category=0&amp;IsSupport=True&amp;Page=4" class="activelink" alt="4">4</a> </li>
+           <li> <a href="?SearchKey=faq&amp;SearchType=FAQ&amp;Category=0&amp;IsSupport=True&amp;Page=5" class="activelink" alt="5">...</a> </li>
+           <li><a href="?SearchKey=faq&amp;SearchType=FAQ&amp;Category=0&amp;IsSupport=True&amp;Page=5" class="activelink" alt=""><span class="right-triangle"></span></a></li>
+          </ul>
+         </div> 
+        </div> 
+       </div>
+       <div class="span9-line curl-shadow sp-shop sp-result-area"> 
+        <div id="search-result"> 
+         <div id="search-result-header" class="double-border-bottom clearfix"> 
+          <span class="item-title">{type}</span> 
+          <span class="pull-right result-count">Total Rows:<span class="blueword">{TotalCount}</span></span> 
+         </div> 
+         <iframe id="ifame_auto_size" class="auto_h" frameborder="0" width="100%" scrolling="no" src=""></iframe> 
+        </div> 
+       </div> 
+       <script type="text/javascript">
+                    $("#showLeftPush").on("click", function () {
+                        $("body").toggleClass("asus-lmenu-pushbody-toright");
+                    });
+               </script> 
+      </div> 
+     </div> 
+    </div> 
+    <script type="text/javascript">
+        $(function () {
+            //尋找refiner裡的內容, 名稱+數量 等於item-title, 加上className:active
+            var activeTitle = $('#search-result-header .item-title:first').text();
+            var itemCount = $('#search-result-header .blueword:first').text();
+            if (activeTitle != '{type}') {
+                $('li.nav-item-sub').each(function () {
+                    var $itemSub = $(this);
+                    if ($itemSub.find('a').text() == (activeTitle + itemCount)) {
+                        $itemSub.addClass('active');
+                    }
+                });
+            }
+        });
+        $(document).ready(function () {
+            var first = $('.span9-line').first();
+            if ($('.span9-line').length > 1) {
+                var second = $('.span9-line').eq(1);
+                if (first.has('#ifame_auto_size').length == 0) {
+                    //if first not contains iframe, hide second
+                    second.hide();
+                }
+            }
+            var lastDivider = $('#left-nav > li.divider:last');
+            if (lastDivider.length != 0) {
+                if (lastDivider.next().hasClass('.nav-item-sub') == false) {
+                    lastDivider.remove();
+                }
+            }
+        });
+
+        $(document).click(function (e) {
+            if (e.target.id != "suggestions") {
+                $('#suggestions').fadeOut();
+            }
+        });
+
+</script> 
+   </div> 
+   <script>setGACode('UA-57045933-1');</script>
+  </form>   
+ </body>
+</html>

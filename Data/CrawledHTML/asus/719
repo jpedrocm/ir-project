@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width"> 
+  <meta name="description" content="Powered by ASUS offers dream machines with select system-builders, from small-form-factor dynamos to giant liquid-cooled beasts, Powered by ASUS means exclusivity, performance, and art."> 
+  <meta name="keywords" content="ASUS,VGA,MB,Desktop,Display,Monitor,Networks,Server &amp; Workstation,Chassis,Motherboards,PC Gaming hardware,Gaming motherboard,overclocking motherboard,Battlefield,assassins creed,Optical Storage,Graphics Cards,Multimedia,Peripherals &amp; Accessories,accessories,Peripheral,PC Accessories,Computer Peripheral,Power Supply,Thermal Solution,Eshop,PCs,Barebone PC, ASUS Partners, PBA, PBA Systems, ASUS System Integrator, ASUS System Builder, ASUS Gaming Systems, Gaming System, ASUS Computer, ASUS Gaming Computer"> 
+  <meta property="og:site_name" content="Powered by ASUS"> 
+  <meta property="og:title" content="Powered by ASUS."> 
+  <meta property="og:description" content="Powered by ASUS offers dream machines with select system-builders, from small-form-factor dynamos to giant liquid-cooled beasts, Powered by ASUS means exclusivity, performance, and art."> 
+  <link rel="shortcut icon" href="http://www.asus.com/media/img/favicon.ico"> 
+  <title>Powered by ASUS</title> 
+  <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" type="text/css"> 
+  <link href="Theme/CSS/normalize.css" rel="stylesheet" media="screen"> 
+  <link href="Theme/CSS/default.css" rel="stylesheet" media="screen"> 
+  <link href="Theme/CSS/idangerous.swiper.css" rel="stylesheet" media="screen"> 
+  <script src="Theme/Javascript/modernizr.custom.08193.js"></script> 
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> 
+  <script src="Theme/Javascript/default.js"></script> 
+  <script src="Theme/Javascript/idangerous.swiper.min.js"></script> 
+  <script type="text/javascript">
+    //ASUS header & footer
+        window.ASUSInit = function () {
+            asus_api.init({ appkey: 'campa00004' , lang: 'tw', api_menu_logo: '0');
+        };
+        (function(d){
+            var js, id = 'asus-jsapi';
+            if (d.getElementById("asus-jsapi")) {return;}
+            js = d.createElement('script');
+            js.id = id;
+            js.async = true;
+            js.src = "//www.asus.com/API/js/asus_api.js";
+            d.getElementsByTagName('head')[0].appendChild(js);
+        }(document));
+     </script> 
+ </head> 
+ <body> 
+  <div class="wrapper"> 
+   <header class="header"> 
+    <section class="header-inner"> 
+     <img class="logo" src="Theme/Image/UI/logo.png"> 
+     <div class="burger-wrapper"> 
+      <a class="burger burger-on"></a> 
+      <a class="burger burger-off"></a> 
+     </div> 
+     <ul class="menu"> 
+      <li><a href="index.html" class="active" onclick="ga('send', 'event', 'menus', 'clicked', 'powered-by-asus-UK')">Powered by ASUS</a></li> 
+      <li><a href="q&amp;a.html" onclick="ga('send', 'event', 'menus', 'clicked', 'Q&amp;A-UK')">Q&amp;A</a></li> 
+      <!--
+                <li><a href="index.html" class="active" onclick="ga('send', 'event', 'menus', 'clicked', 'powered-by-asus-au')">Powered by ASUS</a></li>
+                <li><a href="buynow.html" class="icon-cart" onclick="ga('send', 'event', 'menus', 'clicked', 'buy-a-pc-now-au')">Buy A PC Now!</a></li>
+                <li><a href="companion.html" onclick="ga('send', 'event', 'menus’, 'clicked', 'best-companion-with-your-pc-au')">Best Companion with Your PC</a></li>
+                <li><a href="promotion.html" onclick="ga('send', 'event', 'menus', 'clicked', 'events-and-promotion-au')">Events and Promotions</a></li>
+--> 
+     </ul> 
+    </section> 
+   </header> 
+   <main class="main"> 
+    <section class="banner home-banner"> 
+     <div class="hero"> 
+      <div class="swiper-container"> 
+       <div class="swiper-wrapper"> 
+        <div class="swiper-img">
+         <a href="index.html">
+          <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-1.jpg)"></div></a>
+        </div> 
+        <!--
+                        <div class="swiper-slide">
+                            <div class="swiper-img"><a href="http://www.asuspromotion.net/anz/starwars-promo/" target="_blank" onclick="ga('send', 'event', 'banners', 'clicked', 'AMD-Strix-R9-Fury-au')"><div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-2.jpg)"></div></a></div>
+                        </div>
+--> 
+       </div> 
+      </div> 
+      <div class="pagination"></div> 
+      <!--banner slider : end --> 
+     </div> 
+    </section> 
+    <section class="home-intro"> 
+     <div class="home-intro-inner clear"> 
+      <div class="home-logo">
+       <img src="http://s238174724.websitehome.co.uk/temp/Microsite/PBA/Theme/Image/UI/logo.png">
+      </div> 
+      <div class="text"> 
+       <h2>Powered by ASUS. Technology as a Work of Art</h2> 
+       <p>Powered by ASUS is for those who accept only perfection. Our world-class research-and-development teams are devoted to our company’s motto — In Search of Incredible. Our pursuit of perfection is proven by the 3000+ awards we receive annually. Then, it’s over to our Powered by ASUS partners: select system-builders that create dream machines unavailable elsewhere, from small-form-factor dynamos to giant liquid-cooled beasts. Powered by ASUS means exclusivity. It means performance. It means technology as a work of art. Why consider anything less?<br><br> <a href="q&amp;a.html" onclick="ga('send', 'event', 'buttons', 'clicked', 'Q&amp;A-UK')" style="color: #cf121c;">&gt; Learn more</a></p> 
+      </div> 
+     </div> 
+    </section> 
+    <!--        <section class="home-duet clear">--> 
+    <!--Scan--> 
+    <div class="resellerlogos" align="center"> 
+     <a href="https://www.scan.co.uk/shops/asus/pba" target="_blank" onclick="ga('send', 'event', 'buttons', 'clicked', 'Scan-PBA-UK')"> <img src="http://s238174724.websitehome.co.uk/temp/Microsite/PBA/Theme/Image/home/Scan.jpg"></a> 
+    </div> 
+    <div class="reseller_text"> 
+     <p>3XS Systems has been building thousands of PCs, workstations, laptops and servers a month in our state-of-the-art factory in the UK for more than 10 years. Our team of engineers has racked up more than 293 awards in the press and has a Royal Warrant of Appointment to Her Majesty the Queen as supplier of High Performance Personal Computers and IT Hardware. Our goal is to make the most reliable systems in the market, using the best quality components, backed by award-winning customer support.</p> 
+    </div> 
+    <div class="resellerlogos" align="center"> 
+     <a href="https://www.scan.co.uk/shops/asus/pba" target="_blank" onclick="ga('send', 'event', 'buttons', 'clicked', 'Scan-PBA-UK')"> <img src="http://s238174724.websitehome.co.uk/temp/Microsite/PBA/Theme/Image/home/CTA-Scan.jpg" width="400" height="57"> </a> 
+    </div> 
+    <!--Scan--> 
+    <hr id="reddiv" style="border-color: red;"> 
+    <!--Chillblast--> 
+    <div class="resellerlogos" align="center"> 
+     <a href="http://www.chillblast.com/powered-by-asus.html" target="_blank" onclick="ga('send', 'event', 'buttons', 'clicked', 'Chillblast-PBA-UK')"> <img src="http://s238174724.websitehome.co.uk/temp/Microsite/PBA/Theme/Image/home/Chillblast.jpg"></a> 
+    </div> 
+    <div class="reseller_text"> 
+     <p>Chillblast is the UK’s most awarded PC manufacturer with a range of PCs to suit any budget or requirement. They specialise in gaming Desktops and Laptops that utilise quality parts and overclocking techniques to produce machines offering superb performance. Chillblast’s custom-built models can handle the latest video games with ease. The Powered by ASUS range of PCs are exceptionally quiet, despite their extremely high performance. This is achieved by utilising exclusive ASUS technologies such as the semi-active STRIX GPU cooling systems and advanced ASUS motherboard fan control system found on ASUS Z170 and X99 motherboards.</p> 
+    </div> 
+    <div class="resellerlogos" align="center"> 
+     <a href="http://www.chillblast.com/powered-by-asus.html" target="_blank" onclick="ga('send', 'event', 'buttons', 'clicked', 'Chillblast-PBA-UK')"> <img src="http://s238174724.websitehome.co.uk/temp/Microsite/PBA/Theme/Image/home/CTA-Chillblast.jpg" width="400" height="57"> </a> 
+    </div> 
+    <!--Chillblast--> 
+    <section class="home-duet clear"> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>World’s #1 Motherboard Brand</h3> 
+       <p>ASUS has been the world’s leading motherboard brand for over 10 consecutive years, committed to innovation and performance. It is also the most award-winning and BEST motherboard brand, built on four core pillars — Best-selling, Easy to use, Stable and Trusted. With over 500 million boards sold worldwide since 1989, ASUS is the brand you trust.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-a-1.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>World’s #1 Graphics Card Brand</h3> 
+       <p>ASUS is the #1 graphics card brand, with the industry’s first and only Auto-Extreme Technology — a 100% fully-automated production process to ensure the best reliability. With many more exclusive cooling technologies and intuitive software design, ASUS graphics cards provide truly elite gaming experiences, for more thrills, more fun and more victories.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-a-2.jpg">
+      </div> 
+     </div> 
+    </section> 
+    <section class="home-team clear"> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>#1 Gaming-Monitor Brand, Top TÜV Blue-Light Certified</h3> 
+       <p>ASUS displays dominate many industry firsts. Our displays are also premier performers in the reduction of blue-light emissions, reducing harmful blue light by up to 70%, and with more TÜV Rheinland certifications than any other brand— serious recognition from the world-leading authority display-testing organization!</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-1.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>FAST Networking Solutions</h3> 
+       <p>ASUS brings you FAST networking solutions based on four core values: The Farthest Wi-Fi range for always-connected networking; Easy setup and management with the user-friendly ASUS Router App and ASUSWRT; Secure networking with exclusive ASUS AiProtection; and Trusted quality with award-winning reliability.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-2.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>1000-Year Secure Storage for all Internal Optical Drive</h3> 
+       <p>ASUS optical drives support M-DISC™, the archive-grade storage solution that protects your precious digital memories. ASUS M-DISC burning technology engraves recorded data into a patented rock-like layer that’s resistant to extreme conditions — keeping stored information safe for up to a millennium.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-3.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3>Readers’ Choice From PC Games Hardware For Three Consecutive Years</h3> 
+       <p>ASUS sound cards are made to satisfy the most demanding listeners, designed with audiophile-grade materials and strict attention to detail. With high signal-to-noise ratio (SNR), meticulously-selected headphone amplifier, and multi-channel surround sound, ASUS sound cards are your best choice to enhance your entertainment and gaming experiences.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-4.jpg">
+      </div> 
+     </div> 
+    </section> 
+   </main> 
+   <footer class="footer"> 
+    <p class="backtotop"><a>Back to Top</a></p> 
+    <section class="content"> 
+     <p class="copyright "><a href="https://asus.com/" target="_blank"><img src="http://s238174724.websitehome.co.uk/temp/Microsite/PBA/Theme/Image/UI/asus.png"></a><br>© 2016 ASUSTeK Computer Inc. All Rights Reserved.&nbsp;Terms of Use. All specifications and terms are subject to change without notice. Please check with your supplier for exact offers on selected models. Products may not be available in all markets. Product may not be exactly as shown in photos. Brand and product names mentioned are trademarks of their respective companies. ASUS shall not be liable for technical or editorial errors or omissions contained herein.</p> 
+    </section> 
+   </footer> 
+  </div>  
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NJRLM8');</script> 
+  <!-- End Google Tag Manager -->  
+ </body>
+</html>

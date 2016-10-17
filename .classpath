@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="D:/Desenvolvimento/if962-ir/jsoup-1.9.2.jar"/>
-	<classpathentry kind="lib" path="D:/Programas/Weka-3-8/weka.jar" sourcepath="D:/Programas/Weka-3-8/weka-src.jar"/>
-	<classpathentry kind="lib" path="D:/Programas/Weka-3-8/weka-src.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Lucas/Desktop/crawler-commons-0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lucas/Desktop/jsoup-1.9.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lucas/Desktop/slf4j-1.7.21/slf4j-api-1.7.21.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lucas/Desktop/slf4j-1.7.21/slf4j-simple-1.7.21.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Weka-3-8/weka.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Weka-3-8/weka-src.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lucas/Desktop/commons-io-2.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

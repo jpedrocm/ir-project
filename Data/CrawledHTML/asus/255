@@ -1,0 +1,898 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta charset="utf-8"> 
+  <meta name="description" content="ASUS 100-series motherboards proudly exemplify “BEST”: Breakthrough, Easy Setup, Stable and Trusted motherboards. Whether you’re upgrading from Z97 or building for the first time, choose an ASUS 100-series motherboard as the foundation."> 
+  <meta property="og:type" content="article"> 
+  <meta property="og:url" content="http://www.asus.com/us/site/motherboards/Z170/"> 
+  <meta property="og:image" content="http://www.asus.com/us/site/motherboards/Z170/assets/img/social-1200x630.jpg"> 
+  <meta property="og:title" content="ASUS Motherboards - Intel Z170 100-Series 6th Gen Core"> 
+  <meta property="og:description" content="ASUS 100-series motherboards proudly exemplify “BEST”: Breakthrough, Easy Setup, Stable and Trusted motherboards. Whether you’re upgrading from Z97 or building for the first time, choose an ASUS 100-series motherboard as the foundation."> 
+  <meta property="article:author" content="http://www.asus.com/us/"> 
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:url" content="http://www.asus.com/us/site/motherboards/Z170/"> 
+  <meta name="twitter:title" content="ASUS Motherboards - Intel Z170 100-Series 6th Gen Core"> 
+  <meta name="twitter:description" content="ASUS 100-series motherboards proudly exemplify “BEST”: Breakthrough, Easy Setup, Stable and Trusted motherboards. Whether you’re upgrading from Z97 or building for the first time, choose an ASUS 100-series motherboard as the foundation."> 
+  <meta name="twitter:image" content="http://www.asus.com/us/site/motherboards/Z170/assets/img/social-1200x630.jpg"> 
+  <meta name="twitter:site" content="@asususa"> 
+  <meta name="twitter:site:id" content="21347710"> 
+  <link rel="shortcut icon" href="http://www.asus.com/media/img/favicon.ico"> 
+  <title>ASUS Motherboards - Intel Z170 100-Series 6th Gen Core</title> 
+  <link href="http://fonts.googleapis.com" rel="dns-prefetch"> 
+  <link href="http://ajax.googleapis.com" rel="dns-prefetch"> 
+  <link href="assets/css/main.css" rel="stylesheet"> 
+ </head> 
+ <body> 
+  <nav class="navbar"> 
+   <div class="container"> 
+    <a href="http://www.asus.com/" title="ASUS Corporate Website"><img src="http://www.asus.com/us/site/assets/img/asus-logo/asus-logo-notag-white.svg" alt="ASUS Logo" class="asus-logo external"> </a> 
+    <div class="set-lang"> 
+     <span class="lang_menu_select">Select your country &nbsp;</span> 
+     <select id="sel_language" onchange="change_language()"> <option value="en">Global / English</option> <option value="au">Australia / English</option> <option value="cs">Czech Rep / Čeština</option> <option value="fr">France / Français</option> <option value="de">Germany / Deutsch</option> <option value="hk">Hong Kong / 繁體中文</option> <option value="hu">Hungary / Magyar</option> <option value="in">India / English</option> <option value="id">Indonesia / Bahasa Indonesia</option> <option value="fa">Iran/فارسی</option> <option value="it">Italy / Italiano</option> <option value="ja">Japan / 日本語</option> <option value="ko">Korea / 한국어</option> <option value="my">Malaysia / English</option> <option value="mx">Mexico / Español</option> <option value="nz">New Zealand / English</option> <option value="tl">Philippines / English</option> <option value="pl">Poland / Polski</option> <option value="pt">Portugal / Português</option> <option value="ro">Romania / România</option> 
+      <!--<option value="ru">Russia / Русский</option>--> <option value="sg">Singapore / English</option> <option value="es">Spain / Español</option> <option value="de-ch">Switzerland / Deutsch</option> <option value="fr-ch">Switzerland / Français</option> <option value="it-ch">Switzerland / Italiano</option> <option value="zh-tw">Taiwan / 繁體中文</option> <option value="th">Thailand / ไทย</option> <option value="tr">Turkey / Türkçe</option> <option value="en-gb">United Kingdom / English</option> <option value="uk">Ukraine / Українська</option> <option value="vi">Vietnam / Việt Nam</option> </select> 
+    </div> 
+    <div class="u-pull-right"> 
+     <a href="#menu" title="Dropdown Menu" class="nav-button" data-nav="button"> 
+      <div class="menu-bars-container" data-nav="button-bars"> 
+       <div class="menu-bars"></div> 
+      </div><span class="lang_menu" onclick="ga_lang('send', 'event', 'menus', 'clicked', '100series-menus')">Menu</span> </a> 
+    </div> 
+   </div> 
+   <div class="navbar-dropdown" data-nav="dropdown"> 
+    <a href="#Z170-Deluxe" class="navbar-dropdown-link first-link" data-slide="button" data-nav="dropdown-link" onclick="ga_lang('send', 'event', 'navigations', 'clicked', '100series-z170-navi')">Z170-Deluxe</a> 
+    <a href="#Maximus-VIII-Hero" class="navbar-dropdown-link second-link" data-slide="button" data-nav="dropdown-link" onclick="ga_lang('send', 'event', 'navigations', 'clicked', '100series-rog-navi')">ROG Maximus VIII Hero</a> 
+    <a href="#TUF-SABERTOOTH-Z170" class="navbar-dropdown-link third-link" data-slide="button" data-nav="dropdown-link" onclick="ga_lang('send', 'event', 'navigations', 'clicked', '100series-tuf-navi')">TUF SABERTOOTH Z170 MARK 1</a> 
+    <a href="#Picker" class="navbar-dropdown-link fourth-link lang_title_3" data-slide="button" data-nav="dropdown-link" onclick="ga_lang('send', 'event', 'navigations', 'clicked', '100series-choose-navi')">Choose Your Motherboard</a> 
+   </div> 
+  </nav> 
+  <div class="masthead"> 
+   <div class="masthead-kv">
+    <span class="lang_kv"><img src="assets/img/kv-main.jpg" alt="ASUS 100-Series Motherboards: Unleash the 6th Gen Core, Choose the BEST"></span>
+    <img src="assets/img/Z170-Chipset.png" class="intel-chipset" alt="Intel Z170 Chipset Logo"> 
+   </div> 
+   <div class="masthead-copy"> 
+    <p class="lang_intro"><strong>ASUS 100-series motherboards</strong> proudly exemplify <strong>“BEST”</strong>: Breakthrough, Easy-to-use, Stable and Trusted motherboards. Whether you’re upgrading from Z97 or building for the first time, choose an <strong>ASUS 100-series motherboard</strong> as the foundation.</p> 
+   </div> 
+  </div> 
+  <h1 id="award" class="section-heading">
+   <div class="container">
+    <span class="lang_title_4">TESTED, VALIDATED AND ENDORSED</span>
+   </div></h1> 
+  <section class="award-section"> 
+   <div class="container u-container-collapse"> 
+    <div class="content"> 
+     <h3 class="lang_award_title">ONE IN EVERY TWO Z170 AWARD BELONGS TO ASUS</h3> 
+     <p class="lang_award_text">ASUS received 1200+ awards in 2014 alone, and is leading again by winning HALF of all Z170 accolades since its launch! Share the experts’ passion, and put your trust in ASUS — the maker of the world’s best-selling and most award-winning motherboards.</p> 
+     <img src="assets/img/logos-light.jpg" alt="2X MORE AWARDED THAN OTHER BRANDS"> 
+     <p class="award-more lang_award_more">...more to come</p> 
+     <p class="award-notice lang_award_notice">* Since launch, calculated till Q4, 2015</p> 
+    </div> 
+   </div> 
+  </section> 
+  <!--
+    <h1 id="technology" class="section-heading"><div class="container"><span class="lang_title_1">The Technology</span></div></h1>
+    <section class="technology-section">
+        <div class="container">
+            <div class="row u-buffer-top-2 u-buffer-bottom-2">
+                <div class="columns medium-4 medium-push-8 u-text-center"><img src="assets/img/kv-technology.jpg" alt="Close up of ASUS Z170">
+                </div>
+                <div class="columns medium-8 medium-pull-4">
+                    <h3 class="lang_tech_1">More Bandwidth, More Flexibility</h3>
+                    <p class="lang_tech_2">Z170 represents a significant leap forward in chipset bandwidth. With 20 PCIe 3.0 lanes (compared to 8 PCIe 2.0 lanes on Z97), Z170 delivers more bandwidth for cutting-edge storage devices such as PCIe M.2 x4 and NVMe (including U.2) drives. PCIe RAID is also native to Z170, with ASUS motherboards providing several configurations to enable this functionality.</p>
+                    <div class="speed-graph-container">
+                        <div class="speed-graph-label">
+                            <h1 class="speed-graph-text huge-text">6x</h1>
+                            <h2 class="speed-graph-text lang_tech_3">Faster</h2>
+                        </div>
+                        <ul class="speed-graph">
+                            <li class="speed-graph-line pcie-3">32 GB/s <span class="line-label">PCIe 3.0 x4</span>
+                            </li>
+                            <li class="speed-graph-line pcie-2">10 GB/s <span class="line-label">PCIe 2.0 x2</span>
+                            </li>
+                            <li class="speed-graph-line pcie-1">5 GB/s <span class="line-label">PCIe 2.0 x1</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+--> 
+  <h1 class="section-heading">
+   <div class="container">
+    <span class="lang_title_2">The Motherboards</span>
+   </div></h1> 
+  <section id="Z170-Deluxe"> 
+   <div class="container u-container-collapse"> 
+    <div class="row collapse"> 
+     <div class="columns large-6 large-push-6 u-text-center">
+      <img src="assets/img/Z170-Deluxe/kv.jpg" alt="Close up of ASUS Z170-Deluxe" class="kv"> 
+     </div> 
+     <div class="columns large-6 large-pull-6"> 
+      <div class="product-heading"> 
+       <h1>Z170-Deluxe</h1> 
+       <h3 class="lang_Z170_1">Hit your target.</h3> 
+      </div> 
+      <ul class="fab-grid medium-block-grid-3"> 
+       <li><img src="assets/img/Z170-Deluxe/5-way.jpg"> <p class="fab-grid-heading lang_Z170_t1">5-Way Optimization</p> <p class="lang_Z170_c1">The unbeatable combination of automated overclocking, advanced fan controls, enhanced efficiency, digital power and per-app performance profiles optimize nearly every aspect of your Skylake Z170 PC.</p> </li> 
+       <li><img src="assets/img/Z170-Deluxe/pro-clock.jpg"> <p class="fab-grid-heading lang_Z170_t2">ASUS Pro Clock</p> <p class="lang_Z170_c2">A dedicated base-clock (BCLK) generator designed for 6th-generation Intel<sup>®</sup> processors that allows overclocked base clock frequencies up to 400MHz.</p> </li> 
+       <li><img src="assets/img/Z170-Deluxe/water-pump.jpg"> <p class="fab-grid-heading lang_Z170_t3">Water Pump Header</p> <p class="lang_Z170_c3">Self-contained and custom water cooling systems now have a dedicated fan header to connect to that provides the required 1A of power for both DC- or PWM-controlled pumps.</p> </li> 
+       <li><img src="assets/img/Z170-Deluxe/pcie-m.jpg"> <p class="fab-grid-heading lang_Z170_t4">Dual PCIe M.2 x4</p> <p class="lang_Z170_c4">The Hyper M.2 x4 card supports a full range of M.2 lengths up to 22110, while providing flexibility to install M.2 drives away from heat-generating sources. It is a perfect complement to the onboard M.2 slot for RAID-0.</p> </li> 
+       <li><img src="assets/img/Z170-Deluxe/usb-3.1.jpg"> <p class="fab-grid-heading lang_Z170_t5">USB 3.1</p> <p class="lang_Z170_c5">With both Type A and Type C USB 3.1 ports onboard, the Z170-Deluxe is capable of handling current USB 3.1 devices, as well as up-and-coming devices.</p> </li> 
+       <li><img src="assets/img/Z170-Deluxe/crystal-sound.jpg"> <p class="fab-grid-heading lang_Z170_t6">Crystal&nbsp;Sound&nbsp;3, Intel&nbsp;Ethernet &amp; Turbo&nbsp;LAN</p> <p class="lang_Z170_c6">Pairing best-in-class integrated audio with low-latency networking on both hardware and software fronts delivers an ideal immersive, interruptible gaming environment for one-upping your opponents.</p> </li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <section id="Maximus-VIII-Hero"> 
+   <div class="container u-container-collapse"> 
+    <div class="row collapse"> 
+     <div class="columns large-6 u-text-center">
+      <img src="assets/img/Maximus-VIII-Hero/kv.jpg" alt="Close up of ASUS Maximus VIII Hero" class="kv"> 
+     </div> 
+     <div class="columns large-6"> 
+      <div class="product-heading"> 
+       <h1>ROG Maximus VIII Hero</h1> 
+       <h3 class="lang_ROG_1">Accept All Challenges.</h3> 
+      </div> 
+      <ul class="fab-grid medium-block-grid-3"> 
+       <li><img src="assets/img/Maximus-VIII-Hero/5-way.jpg"> <p class="fab-grid-heading lang_ROG_t1">5-Way Optimization on ROG</p> <p class="lang_ROG_c1">All of the enhancements enjoyed by ASUS signature motherboards have arrived on ROG, complete with award-winning automated overclocking and unmatched fan controls.</p> </li> 
+       <li><img src="assets/img/Maximus-VIII-Hero/supreme-fx.jpg"> <p class="fab-grid-heading lang_ROG_t2">SupremeFX 2015</p> <p class="lang_ROG_c2">Onboard audio reinvented by ROG. Best-in-class integrated audio utilizes a special shield design, ESS<sup>®</sup> ES9023P DAC and an exhaustive list of professional-grade audio components, with op-amps powerful enough to drive 2V<sub>RMS</sub> to any headset.</p> </li> 
+       <li><img src="assets/img/Maximus-VIII-Hero/rog-overwolf.jpg"> <p class="fab-grid-heading lang_ROG_t3">Overwolf</p> <p class="lang_ROG_c3">In-game multitasking is a reality for most gamers, but losing focus is not an option. Overwolf integrates external apps into your game via an intuitive out-of-the-way overlay that’s skinnable for ROG.</p> </li> 
+       <li><img src="assets/img/Maximus-VIII-Hero/protected-networking.jpg"> <p class="fab-grid-heading lang_ROG_t4">Optimized, Protected Networking</p> <p class="lang_ROG_c4">Intel Ethernet + LANGuard + GameFirst Technology all combine to keep ping low and connection stability high, without impacting in-game performance.</p> </li> 
+       <li><img src="assets/img/Maximus-VIII-Hero/extreme-engine.jpg"> <p class="fab-grid-heading lang_ROG_t5">Extreme Engine DIGI+</p> <p class="lang_ROG_c5">The removal of the internal voltage regulator from 6th Gen Intel<sup>®</sup> CPUs means that once again, stable, digital power delivery is paramount and ROG Extreme Engine DIGI+ steps right in to fill this role.</p> </li> 
+       <li><img src="assets/img/Maximus-VIII-Hero/keybot-II.jpg"> <p class="fab-grid-heading lang_ROG_t6">KeyBot II</p> <p class="lang_ROG_c6">Functional, convenient and intuitive, KeyBot II links your (existing) keyboard with your system in a way not possible with even high-end gaming keyboards, enabling unparalleled macro and PC control.</p> </li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <section id="TUF-SABERTOOTH-Z170"> 
+   <div class="container u-container-collapse"> 
+    <div class="row collapse"> 
+     <div class="columns large-6 large-push-6 u-text-center">
+      <img src="assets/img/TUF-SABERTOOTH/kv.jpg" alt="Close up of ASUS TUF SABERTOOTH Z170 MARK 1" class="kv"> 
+     </div> 
+     <div class="columns large-6 large-pull-6"> 
+      <div class="product-heading"> 
+       <h1>TUF SABERTOOTH Z170 MARK 1</h1> 
+       <h3 class="lang_TUF_1">UNDENIABLY TOUGH. 24/7 DURABILITY.</h3> 
+      </div> 
+      <ul class="fab-grid medium-block-grid-3"> 
+       <li><img src="assets/img/TUF-SABERTOOTH/thermal-armor.jpg"> <p class="fab-grid-heading lang_TUF_t1">Thermal Armor</p> <p class="lang_TUF_c1">Maximizes airflow and rapid cooling, with reversible-airflow technology to blow dust up and away from the VRM’s heatsink, plus an exclusive flow-valve design controls the heat-pipe's air contact.</p> </li> 
+       <li><img src="assets/img/TUF-SABERTOOTH/fortifier.jpg"> <p class="fab-grid-heading lang_TUF_t2">TUF Fortifier</p> <p class="lang_TUF_c2">Reinforced backplate that ensures the motherboard doesn't buckle under the weight of heavy graphics cards and CPU coolers, minimizing the risk of damaged circuitry from bowing and bending.</p> </li> 
+       <li><img src="assets/img/TUF-SABERTOOTH/detective.jpg"> <p class="fab-grid-heading lang_TUF_t3">TUF Detective 2</p> <p class="lang_TUF_c3">Exclusive app puts detailed system information and user-friendly interface at your fingertips – right on your smartphone or tablet. Your PC doesn't even need to be switched on!</p> </li> 
+       <li><img src="assets/img/TUF-SABERTOOTH/radar.jpg"> <p class="fab-grid-heading lang_TUF_t4">Thermal Radar 2</p> <p class="lang_TUF_c4">With 13 fan connectors, you can monitor graphics card temperatures and other key components in real time, and control fans with TUF Detective 2 wirelessly via smartphone or tablet.</p> </li> 
+       <li><img src="assets/img/TUF-SABERTOOTH/dust-defenders.jpg"> <p class="fab-grid-heading lang_TUF_t5">Dust Defenders</p> <p class="lang_TUF_c5">Protect the rear I/O ports, expansion and memory slots by preventing dust and other airborne particles from entering critical connectors — keeping your PC clean, safe and stable!</p> </li> 
+       <li><img src="assets/img/TUF-SABERTOOTH/badge.jpg"> <p class="fab-grid-heading lang_TUF_t6">TUF Badge</p> <p class="lang_TUF_c6">A detachable metal badge bearing the iconic TUF emblem to use as a unique TUF key chain or necklace.</p> </li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <h1 class="section-heading" id="Picker">
+   <div class="container">
+    <span class="lang_title_3">Choose Your Motherboard</span>
+   </div></h1> 
+  <section class="picker-container"> 
+   <div class="container"> 
+    <div class="question-container"> 
+     <!--Q1--> 
+     <div class="question-group"> 
+      <div class="question lang_q1">
+       Do you have a preferred form factor?
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="formFactor-1" name="formFactor" data-answer="none" onclick="set_q('1', 0); ga_lang('send', 'event', 'option', 'clicked', '100series-1-1')"> 
+        <label class="answer-label lang_a1_1" for="formFactor-1">N/A</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="formFactor-2" name="formFactor" data-answer="formFactor.eATX" onclick="set_q('1', 1); ga_lang('send', 'event', 'option', 'clicked', '100series-1-2')"> 
+        <label class="answer-label lang_a1_2" for="formFactor-2">E-ATX</label>
+        <!--新增答案--> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="formFactor-3" name="formFactor" data-answer="formFactor.ATX" onclick="set_q('1', 2); ga_lang('send', 'event', 'option', 'clicked', '100series-1-3')"> 
+        <label class="answer-label lang_a1_3" for="formFactor-3">Standard ATX</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="formFactor-4" name="formFactor" data-answer="formFactor.microATX" onclick="set_q('1', 3); ga_lang('send', 'event', 'option', 'clicked', '100series-1-4')"> 
+        <label class="answer-label lang_a1_4" for="formFactor-4">microATX</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="formFactor-5" name="formFactor" data-answer="formFactor.miniITX" onclick="set_q('1', 4); ga_lang('send', 'event', 'option', 'clicked', '100series-1-5')"> 
+        <label class="answer-label lang_a1_5" for="formFactor-5">Mini-ITX</label> 
+       </div> 
+      </div> 
+     </div> 
+     <!--Q2--> 
+     <div class="question-group">
+      <!--新增問題--> 
+      <div class="question tooltip-container">
+       <span class="lang_q9">Which PCIe-based storage drive(s) do you plan to use?</span> 
+       <a href="#drive-tip" data-tooltip="button">[?]</a> 
+       <div class="tooltip" data-tooltip="tip">
+        <span class="lang_tip4">To add M.2 storage slots beyond the integrated options, the ASUS Hyper M.2 x4 offers an easy upgrade to support all lengths of M.2 drives with the flexibility to place the card into any free PCIe slot. <br><br>For U.2 support, many ASUS 100-series motherboards include U.2 connectivity onboard. For those that don't, the ASUS Hyper Kit easily adapts an M.2 slot to accommodate U.2 drives.</span> 
+        <a href="#overclock-tip-close" data-tooltip="close" title="Close tooltip" class="lang_close">Close</a> 
+       </div> 
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="drive-1" name="drive" data-answer="none" onclick="set_q('2', 0); ga_lang('send', 'event', 'option', 'clicked', '100series-2-1')"> 
+        <label class="answer-label lang_a9_1" for="drive-1">N/A</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="drive-2" name="drive" data-answer="drive.DualM2" onclick="set_q('2', 1); ga_lang('send', 'event', 'option', 'clicked', '100series-2-2')"> 
+        <label class="answer-label lang_a9_2" for="drive-2">Dual M.2 drives</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="drive-3" name="drive" data-answer="drive.SingleM2" onclick="set_q('2', 2); ga_lang('send', 'event', 'option', 'clicked', '100series-2-3')"> 
+        <label class="answer-label lang_a9_3" for="drive-3">Single M.2 drive</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="drive-4" name="drive" data-answer="drive.U2NVMe" onclick="set_q('2', 3); ga_lang('send', 'event', 'option', 'clicked', '100series-2-4')"> 
+        <label class="answer-label lang_a9_4" for="drive-4">U.2 NVMe drive</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="drive-5" name="drive" data-answer="drive.PCIeNVMe" onclick="set_q('2', 4); ga_lang('send', 'event', 'option', 'clicked', '100series-2-5')"> 
+        <label class="answer-label lang_a9_5" for="drive-5">PCIe NVMe drive</label> 
+       </div> 
+      </div> 
+     </div> 
+     <!--Q3--> 
+     <div class="question-group"> 
+      <div class="question lang_q2">
+       Do you plan to utilize USB 3.1 or Thunderbolt 3 devices?
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="USB31-1" name="USB31" data-answer="none" onclick="set_q('3', 0); ga_lang('send', 'event', 'option', 'clicked', '100series-3-1')"> 
+        <label class="answer-label lang_a2_1" for="USB31-1">N/A</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="USB31-2" name="USB31" data-answer="USB31.typeC" onclick="set_q('3', 1); ga_lang('send', 'event', 'option', 'clicked', '100series-3-2')"> 
+        <label class="answer-label lang_a2_2" for="USB31-2">Type A &amp; Type C</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="USB31-3" name="USB31" data-answer="USB31.typeA" onclick="set_q('3', 2); ga_lang('send', 'event', 'option', 'clicked', '100series-3-3')"> 
+        <label class="answer-label lang_a2_3" for="USB31-3">Type A Only</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="USB31-4" name="USB31" data-answer="USB31.thunderbolt3" onclick="set_q('3', 3); ga_lang('send', 'event', 'option', 'clicked', '100series-3-4')"> 
+        <label class="answer-label lang_a2_4" for="USB31-4">Thunderbolt 3</label>
+        <!--新增答案--> 
+       </div> 
+      </div> 
+     </div> 
+     <!--Q4--> 
+     <div class="question-group"> 
+      <div class="question tooltip-container">
+       <span class="lang_q3">Are you planning to use DDR3 or DDR4 memory?</span> 
+       <a href="#memory-tip" data-tooltip="button">[?]</a> 
+       <div class="tooltip" data-tooltip="tip">
+        <span class="lang_tip1">Although 100-series motherboards represent DDR4 going mainstream, there are still situations where DDR3 memory is preferred.</span> 
+        <a href="#memory-tip-close" data-tooltip="close" title="Close tooltip" class="lang_close">Close</a> 
+       </div> 
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="memory-1" name="memory" data-answer="none" onclick="set_q('4', 0); ga_lang('send', 'event', 'option', 'clicked', '100series-4-1')"> 
+        <label class="answer-label lang_a3_1" for="memory-1">N/A</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="memory-2" name="memory" data-answer="memory.DDR3" onclick="set_q('4', 1); ga_lang('send', 'event', 'option', 'clicked', '100series-4-2')"> 
+        <label class="answer-label lang_a3_2" for="memory-2">DDR3</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="memory-3" name="memory" data-answer="memory.DDR4" onclick="set_q('4', 2); ga_lang('send', 'event', 'option', 'clicked', '100series-4-3')"> 
+        <label class="answer-label lang_a3_3" for="memory-3">DDR4</label> 
+       </div> 
+      </div> 
+     </div> 
+     <!--Q5--> 
+     <div class="question-group"> 
+      <div class="question tooltip-container">
+       <span class="lang_q4">Do you plan to overclock this PC?</span> 
+       <a href="#overclock-tip" data-tooltip="button">[?]</a> 
+       <div class="tooltip" data-tooltip="tip">
+        <span class="lang_tip2">ASUS award-winning 5-Way Optimization with Auto Tuning automated overclocking has expanded from Signature motherboards to now include ROG and Pro Gaming Series motherboards. Choose a board from either of these 3 series to take advantage of 1-step overclocking.</span> 
+        <a href="#overclock-tip-close" data-tooltip="close" title="Close tooltip" class="lang_close">Close</a> 
+       </div> 
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="overclock-1" name="overclock" data-answer="none" onclick="set_q('5', 0); ga_lang('send', 'event', 'option', 'clicked', '100series-5-1')"> 
+        <label class="answer-label lang_a4_1" for="overclock-1">N/A</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="overclock-2" name="overclock" data-answer="overclock.yesAuto" onclick="set_q('5', 1); ga_lang('send', 'event', 'option', 'clicked', '100series-5-2')"> 
+        <label class="answer-label lang_a4_2" for="overclock-2">Yes, and I prefer automatic overclocking</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="overclock-3" name="overclock" data-answer="overclock.yesManual" onclick="set_q('5', 2); ga_lang('send', 'event', 'option', 'clicked', '100series-5-3')"> 
+        <label class="answer-label lang_a4_3" for="overclock-3">Yes, but I prefer manual tuning</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="overclock-4" name="overclock" data-answer="none" onclick="set_q('5', 3); ga_lang('send', 'event', 'option', 'clicked', '100series-5-4')"> 
+        <label class="answer-label lang_a4_4" for="overclock-4">No</label> 
+       </div> 
+      </div> 
+     </div> 
+     <!--Q6--> 
+     <div class="question-group"> 
+      <div class="question tooltip-container">
+       <span class="lang_q5">Would you use a dedicated water pump header (for self-contained or custom water cooling)?</span> 
+       <a href="#water-pump-tip" data-tooltip="button">[?]</a> 
+       <div class="tooltip" data-tooltip="tip">
+        <span class="lang_tip3">A dedicated watercooling pump header that runs at 1A (PWM or DC) takes the guesswork out of where to plug in your pump.</span> 
+        <a href="#water-pump-tip-close" data-tooltip="close" title="Close tooltip" class="lang_close">Close</a> 
+       </div> 
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="waterPump-1" name="waterPump" data-answer="waterPump.yes" onclick="set_q('6', 0); ga_lang('send', 'event', 'option', 'clicked', '100series-6-1')"> 
+        <label class="answer-label lang_a5_1" for="waterPump-1">Yes</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="waterPump-2" name="waterPump" data-answer="none" onclick="set_q('6', 1); ga_lang('send', 'event', 'option', 'clicked', '100series-6-2')"> 
+        <label class="answer-label lang_a5_2" for="waterPump-2">No</label> 
+       </div> 
+      </div> 
+     </div> 
+     <!--Q7--> 
+     <div class="question-group"> 
+      <div class="question lang_q6">
+       Do you planning to run NVIDIA SLI or CrossFire?
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="SLI-1" name="SLI" data-answer="none" onclick="set_q('7', 0); ga_lang('send', 'event', 'option', 'clicked', '100series-7-1')"> 
+        <label class="answer-label lang_a6_1" for="SLI-1">No</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="SLI-2" name="SLI" data-answer="SLI.twoWay" onclick="set_q('7', 1); ga_lang('send', 'event', 'option', 'clicked', '100series-7-2')"> 
+        <label class="answer-label lang_a6_2" for="SLI-2">2-Way SLI</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="SLI-3" name="SLI" data-answer="SLI.twoWayCrossFire" onclick="set_q('7', 2); ga_lang('send', 'event', 'option', 'clicked', '100series-7-3')"> 
+        <label class="answer-label lang_a6_3" for="SLI-3">2-Way CrossFire</label>
+        <!--新增答案--> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="SLI-4" name="SLI" data-answer="SLI.threeWayCrossFire" onclick="set_q('7', 3); ga_lang('send', 'event', 'option', 'clicked', '100series-7-4')"> 
+        <label class="answer-label lang_a6_4" for="SLI-4">3-Way CrossFire</label>
+        <!--新增答案--> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="SLI-5" name="SLI" data-answer="SLI.fourWayCrossFire" onclick="set_q('7', 4); ga_lang('send', 'event', 'option', 'clicked', '100series-7-5')"> 
+        <label class="answer-label lang_a6_5" for="SLI-5">4-Way CrossFire</label>
+        <!--新增答案--> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="SLI-6" name="SLI" data-answer="SLI.threeWay" onclick="set_q('7', 5); ga_lang('send', 'event', 'option', 'clicked', '100series-7-6')"> 
+        <label class="answer-label lang_a6_6" for="SLI-6">3-Way / 4-Way SLI</label> 
+       </div> 
+      </div> 
+     </div> 
+     <!--Q8--> 
+     <div class="question-group"> 
+      <div class="question lang_q7">
+       Do you need onboard Wi-Fi?
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="WiFi-1" name="WiFi" data-answer="WiFi" onclick="set_q('8', 0); ga_lang('send', 'event', 'option', 'clicked', '100series-8-1')"> 
+        <label class="answer-label lang_a7_1" for="WiFi-1">Yes</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="WiFi-2" name="WiFi" data-answer="WiFi.MUMIMO" onclick="set_q('8', 1); ga_lang('send', 'event', 'option', 'clicked', '100series-8-2')"> 
+        <label class="answer-label lang_a7_2" for="WiFi-2">Yes, and with MU-MIMO</label>
+        <!--新增答案--> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="WiFi-3" name="WiFi" data-answer="none" onclick="set_q('8', 2); ga_lang('send', 'event', 'option', 'clicked', '100series-8-3')"> 
+        <label class="answer-label lang_a7_3" for="WiFi-3">No</label> 
+       </div> 
+      </div> 
+     </div> 
+     <!--Q9--> 
+     <div class="question-group"> 
+      <div class="question lang_q8">
+       Do you have a preferred color scheme?
+      </div> 
+      <div class="answer-group"> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="colorScheme-1" name="colorScheme" data-answer="none" onclick="set_q('9', 0); ga_lang('send', 'event', 'option', 'clicked', '100series-9-1')"> 
+        <label class="answer-label lang_a8_1" for="colorScheme-1">No</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="colorScheme-2" name="colorScheme" data-answer="colorScheme.redBlack" onclick="set_q('9', 1); ga_lang('send', 'event', 'option', 'clicked', '100series-9-2')"> 
+        <label class="answer-label lang_a8_2" for="colorScheme-2">Red/Black</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="colorScheme-3" name="colorScheme" data-answer="colorScheme.whiteBlack" onclick="set_q('9', 2); ga_lang('send', 'event', 'option', 'clicked', '100series-9-3')"> 
+        <label class="answer-label lang_a8_3" for="colorScheme-3">White/Black</label> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="colorScheme-4" name="colorScheme" data-answer="colorScheme.goldBlack" onclick="set_q('9', 3); ga_lang('send', 'event', 'option', 'clicked', '100series-9-4')"> 
+        <label class="answer-label lang_a8_4" for="colorScheme-4">Gold/Black</label>
+        <!--新增答案--> 
+       </div> 
+       <div class="answer-check"> 
+        <input class="answer-input" type="radio" id="colorScheme-5" name="colorScheme" data-answer="colorScheme.military" onclick="set_q('9', 4); ga_lang('send', 'event', 'option', 'clicked', '100series-9-5')"> 
+        <label class="answer-label lang_a8_5" for="colorScheme-5">Military</label> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <section class="products-container"> 
+   <div class="container"> 
+    <p class="u-pull-right hide-for-small-only"><a id="a_compare_link" href="#" class="btn-bright-blue lang_compare" onclick="ga_lang('send', 'event', 'Button', 'clicked', '100series-compare')">Compare All Models</a></p> 
+    <h1 class="lang_products">Products</h1> 
+    <div class="picker-object-container"> 
+     <!--20151215新增 1--> 
+     <div class="picker-object" data-motherboard-name="maximusViiiFormula" id="pobjnew1" q1="00100" q2="10111" q3="1111" q4="101" q5="1111" q6="11" q7="111110" q8="110" q9="11000" s1="1"> 
+      <h4 class="picker-heading">MAXIMUS VIII FORMULA</h4>
+      <img src="assets/img/compare/maximus-viii-formula.png" alt="MAXIMUS VIII FORMULA thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_new_1" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-maximus-viii-formula')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!--20151215新增 2--> 
+     <div class="picker-object" data-motherboard-name="maximusViiiExtremeAssembly" id="pobjnew2" q1="11000" q2="10111" q3="1111" q4="101" q5="1111" q6="11" q7="111110" q8="101" q9="11000" s1="1"> 
+      <h4 class="picker-heading">MAXIMUS VIII EXTREME ASSEMBLY</h4>
+      <img src="assets/img/compare/maximus-viii-extreme-assembly.png" alt="MAXIMUS VIII EXTREME ASSEMBLY thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_new_2" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-maximus-viii-extreme-assembly')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-motherboard-name="maximusViiExtreme" id="pobj1" q1="11000" q2="10111" q3="1111" q4="101" q5="1111" q6="11" q7="111110" q8="101" q9="11000" s1="1"> 
+      <h4 class="picker-heading">MAXIMUS VIII EXTREME</h4>
+      <img src="assets/img/compare/maximus-vii-extreme.png" alt="MAXIMUS VIII EXTREME thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_1" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-maximus-viii-extreme')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!--20151215新增 3--> 
+     <div class="picker-object" data-motherboard-name="maximusViiiHeroAlpha" id="pobjnew3" q1="10100" q2="10111" q3="1110" q4="101" q5="1111" q6="11" q7="111100" q8="010" q9="11000" s1="1"> 
+      <h4 class="picker-heading">MAXIMUS VIII HERO ALPHA</h4>
+      <img src="assets/img/compare/maximus-viii-hero-alpha.png" alt="MAXIMUS VIII HERO ALPHA thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_new_3" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-maximus-viii-hero-alpha')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-motherboard-name="maximusViiHero" id="pobj2" q1="10100" q2="10101" q3="1110" q4="101" q5="1111" q6="11" q7="111100" q8="001" q9="11000" s1="1"> 
+      <h4 class="picker-heading">MAXIMUS VIII HERO</h4>
+      <img src="assets/img/compare/maximus-vii-hero.png" alt="MAXIMUS VIII HERO thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_2" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-maximus-viii-hero')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-motherboard-name="maximusViiImpact" id="pobj3" q1="10001" q2="10011" q3="1110" q4="101" q5="1111" q6="01" q7="100000" q8="111" q9="11000" s1="1"> 
+      <h4 class="picker-heading">MAXIMUS VIII IMPACT</h4>
+      <img src="assets/img/compare/maximus-vii-impact.png" alt="MAXIMUS VIII IMPACT thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_3" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-maximus-viii-impact')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="maximusViiGene" id="pobj4" q1="10010" q2="10101" q3="1110" q4="101" q5="1111" q6="11" q7="111000" q8="001" q9="11000" s1="1"> 
+      <h4 class="picker-heading">MAXIMUS VIII GENE</h4>
+      <img src="assets/img/compare/maximus-vii-gene.png" alt="MAXIMUS VIII GENE thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_4" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-maximus-viii-gene')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="maximusViiRanger" id="pobj5" q1="10100" q2="10101" q3="1110" q4="101" q5="1111" q6="11" q7="111100" q8="001" q9="11000" s1="1"> 
+      <h4 class="picker-heading">MAXIMUS VIII RANGER</h4>
+      <img src="assets/img/compare/maximus-vii-ranger.png" alt="MAXIMUS VIII RANGER thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_5" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-maximus-viii-ranger')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="Z170ProGaming" id="pobj6" q1="10100" q2="10101" q3="1110" q4="101" q5="1111" q6="01" q7="111100" q8="001" q9="11000" s1="1"> 
+      <h4 class="picker-heading">Z170 PRO GAMING</h4>
+      <img src="assets/img/compare/z170-pro-gaming.png" alt="Z170 PRO GAMING thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_6" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-z170-pro-gaming')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="Z170IProGaming" id="pobj7" q1="10001" q2="10101" q3="1010" q4="101" q5="1111" q6="01" q7="100000" q8="111" q9="11000" s1="1"> 
+      <h4 class="picker-heading">Z170I PRO GAMING</h4>
+      <img src="assets/img/compare/z170i-pro-gaming.png" alt="Z170I PRO GAMING thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_7" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-z170i-pro-gaming')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="Z170Premium" id="pobj8" q1="10100" q2="11111" q3="1111" q4="101" q5="1111" q6="11" q7="111100" q8="101" q9="10100" s1="1"> 
+      <h4 class="picker-heading">Z170-PREMIUM</h4>
+      <img src="assets/img/compare/z170-premium.png" alt="Z170-PREMIUM thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_8" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-z170-premium')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="Z170Deluxe" id="pobj9" q1="10100" q2="11111" q3="1110" q4="101" q5="1111" q6="11" q7="111100" q8="101" q9="10100" s1="1"> 
+      <h4 class="picker-heading">Z170-DELUXE</h4>
+      <img src="assets/img/compare/Z170-DELUXE.png" alt="Z170-DELUXE thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_9" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-z170-deluxe')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="Z170PRO" id="pobj10" q1="10100" q2="10101" q3="1110" q4="101" q5="1111" q6="11" q7="111100" q8="001" q9="10100" s1="1"> 
+      <h4 class="picker-heading">Z170-PRO</h4>
+      <img src="assets/img/compare/Z170-PRO.png" alt="Z170-PRO thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_10" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-z170-pro')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="Z170A" id="pobj11" q1="10100" q2="10101" q3="1110" q4="101" q5="1111" q6="11" q7="111100" q8="001" q9="10100" s1="1"> 
+      <h4 class="picker-heading">Z170-A</h4>
+      <img src="assets/img/compare/Z170-A.png" alt="Z170-A thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_11" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-z170-a')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!--20151215新增 4--> 
+     <div class="picker-object" data-motherboard-name="sabertoothZ170S" id="pobjnew4" q1="10100" q2="10101" q3="1111" q4="101" q5="1001" q6="11" q7="111100" q8="001" q9="10001" s1="1"> 
+      <h4 class="picker-heading">SABERTOOTH Z170 S</h4>
+      <img src="assets/img/compare/sabertooth-z170-s.png" alt="SABERTOOTH Z170 S thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_new_4" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-sabertooth-z170-s')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <!--20151215 產品19往前調--> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="sabertoothZ170Mark1" id="pobj19" q1="10100" q2="10101" q3="1110" q4="101" q5="1011" q6="11" q7="111100" q8="001" q9="10001" s1="1"> 
+      <h4 class="picker-heading">SABERTOOTH Z170 MARK 1</h4>
+      <img src="assets/img/compare/sabertooth-z170-mark-1.png" alt="SABERTOOTH Z170 MARK 1 thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_19" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-sabertooth-z170-mark-1')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="Z170AR" id="pobj12" q1="10100" q2="10101" q3="1110" q4="101" q5="1111" q6="11" q7="111100" q8="001" q9="10100" s1="1"> 
+      <h4 class="picker-heading">Z170-AR</h4>
+      <img src="assets/img/compare/Z170-AR.png" alt="Z170-AR thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_12" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-z170-ar')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="Z170-E" id="pobj13" q1="10100" q2="10101" q3="1100" q4="101" q5="1111" q6="11" q7="111100" q8="001" q9="10100" s1="1"> 
+      <h4 class="picker-heading">Z170-E</h4>
+      <img src="assets/img/compare/Z170-E.png" alt="Z170-AR thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_13" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-z170-e')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="Z170K" id="pobj14" q1="10100" q2="10101" q3="1010" q4="101" q5="1011" q6="01" q7="101000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">Z170-K</h4>
+      <img src="assets/img/compare/Z170-K.png" alt="Z170-K thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_14" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-z170-k')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="Z170PD3" id="pobj15" q1="10100" q2="10101" q3="1000" q4="101" q5="1011" q6="01" q7="101000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">Z170-P</h4>
+      <img src="assets/img/compare/Z170-P.png" alt="Z170-P thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_15" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-z170-p')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="Z170PD3" id="pobj16" q1="10100" q2="10101" q3="1000" q4="110" q5="1011" q6="01" q7="101000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">Z170-P D3</h4>
+      <img src="assets/img/compare/Z170-P-D3.png" alt="Z170-P D3 thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_16" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-z170-p-d3')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="Z170MPlus" id="pobj17" q1="10010" q2="10101" q3="1000" q4="101" q5="1011" q6="01" q7="101000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">Z170M-PLUS</h4>
+      <img src="assets/img/compare/Z170M-PLUS.png" alt="Z170M-PLUS thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_17" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-z170m-plus')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="Z170MED3" id="pobj18" q1="10010" q2="10101" q3="1000" q4="110" q5="1011" q6="01" q7="101000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">Z170M-E D3</h4>
+      <img src="assets/img/compare/Z170M-E-D3.png" alt="Z170M-E D3 thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_18" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-z170-m-e-d3')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="h170ProGaming" id="pobj20" q1="10100" q2="10101" q3="1110" q4="101" q5="1001" q6="01" q7="101000" q8="001" q9="11000" s1="1"> 
+      <h4 class="picker-heading">H170 PRO GAMING</h4>
+      <img src="assets/img/compare/h170-pro-gaming.png" alt="H170 PRO GAMING thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_20" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-h170-pro-gaming')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="h170Pro" id="pobj21" q1="10100" q2="10101" q3="1000" q4="101" q5="1001" q6="01" q7="101000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">H170-PRO</h4>
+      <img src="assets/img/compare/h170-pro.png" alt="H170-PRO thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_21" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-h170-pro')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="h170PlusD3" id="pobj22" q1="10100" q2="10101" q3="1000" q4="110" q5="1001" q6="01" q7="101000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">H170-PLUS D3</h4>
+      <img src="assets/img/compare/h170-plus-d3.png" alt="H170-PLUS D3 thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_22" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-h170-plus-d3')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="h170MPlus" id="pobj23" q1="10010" q2="10101" q3="1000" q4="101" q5="1001" q6="01" q7="101000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">H170M-PLUS</h4>
+      <img src="assets/img/compare/h170m-plus.png" alt="H170M-PLUS thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_23" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-h170-m-plus')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="h170MED3" id="pobj24" q1="10010" q2="10101" q3="1000" q4="110" q5="1001" q6="01" q7="101000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">H170M-E D3</h4>
+      <img src="assets/img/compare/h170m-e-d3.png" alt="H170M-E D3 thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_24" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-h170-m-e-d3')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="h170IPlusD3" id="pobj25" q1="10001" q2="10101" q3="1000" q4="110" q5="1001" q6="01" q7="101000" q8="111" q9="10010" s1="1"> 
+      <h4 class="picker-heading">H170I-PLUS D3</h4>
+      <img src="assets/img/compare/h170i-plus-d3.png" alt="H170I-PLUS D3 thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_25" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-h170i-plus-d3')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="q170mc" id="pobj26" q1="10010" q2="10001" q3="1000" q4="101" q5="1001" q6="01" q7="101000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">Q170M-C</h4>
+      <img src="assets/img/compare/q170m-c.png" alt="Q170M-C thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_26" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-q170m-c')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="b150ProGamingD3" id="pobj27" q1="10100" q2="10101" q3="1110" q4="110" q5="1001" q6="01" q7="101000" q8="001" q9="11000" s1="1"> 
+      <h4 class="picker-heading">B150 PRO GAMING D3</h4>
+      <img src="assets/img/compare/b150-pro-gaming-d3.png" alt="B150 PRO GAMING D3 thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_27" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-b150-pro-gaming-d3')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="b150ProD3" id="pobj28" q1="10100" q2="10001" q3="1000" q4="110" q5="1001" q6="01" q7="101000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">B150-PRO D3</h4>
+      <img src="assets/img/compare/b150-pro-d3.png" alt="B150-PRO D3 thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_28" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-b150-pro-d3')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="b150PlusD3" id="pobj29" q1="10100" q2="10001" q3="1000" q4="110" q5="1001" q6="01" q7="101000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">B150-PLUS D3</h4>
+      <img src="assets/img/compare/b150-plus-d3.png" alt="B150-PLUS D3 thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_29" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-b150-plus-d3')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="b150mc" id="pobj30" q1="10010" q2="10001" q3="1000" q4="101" q5="1001" q6="01" q7="101000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">B150M-C</h4>
+      <img src="assets/img/compare/b150m-c.png" alt="B150M-C thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_30" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-b150m-c')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="b150ma" id="pobj31" q1="10010" q2="10001" q3="1000" q4="101" q5="1001" q6="01" q7="100000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">B150M-A</h4>
+      <img src="assets/img/compare/b150m-a.png" alt="B150M-A thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_31" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-b150m-a')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="b150MPlusD3" id="pobj32" q1="10010" q2="10001" q3="1000" q4="110" q5="1001" q6="01" q7="101000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">B150M-PLUS D3</h4>
+      <img src="assets/img/compare/b150m-plus-d3.png" alt="B150M-PLUS D3 thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_32" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-b150m-plus-d3')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="b150MCD3" id="pobj33" q1="10010" q2="10001" q3="1000" q4="110" q5="1001" q6="01" q7="101000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">B150M-C D3</h4>
+      <img src="assets/img/compare/b150m-c-d3.png" alt="B150M-C D3 thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_33" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-b150m-c-d3')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="b150MAD3" id="pobj34" q1="10010" q2="10001" q3="1000" q4="110" q5="1001" q6="01" q7="100000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">B150M-A D3</h4>
+      <img src="assets/img/compare/b150m-a-d3.png" alt="B150M-A D3 thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_34" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-b150m-a-d3')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="b150MDD3" id="pobj35" q1="10010" q2="10001" q3="1000" q4="110" q5="1001" q6="01" q7="100000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">B150M-D D3</h4>
+      <img src="assets/img/compare/b150m-d-d3.png" alt="B150M-D D3 thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_35" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-b150m-d-d3')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="b150MKD3" id="pobj36" q1="10010" q2="10001" q3="1000" q4="110" q5="1001" q6="01" q7="100000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">B150M-K D3</h4>
+      <img src="assets/img/compare/b150m-k-d3.png" alt="B150M-K D3 thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_36" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-b150m-k-d3')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="trooperB150d3" id="pobj37" q1="10100" q2="10001" q3="1000" q4="110" q5="1001" q6="01" q7="101000" q8="001" q9="10001" s1="1"> 
+      <h4 class="picker-heading">TROOPER B150 D3</h4>
+      <img src="assets/img/compare/trooper-b150-d3.png" alt="TROOPER B150 D3 thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_37" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-trooper-b150-d3')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="h110mc" id="pobj38" q1="10010" q2="10001" q3="1000" q4="101" q5="1001" q6="01" q7="100000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">H110M-C</h4>
+      <img src="assets/img/compare/h110m-c.png" alt="H110M-C thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_38" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-h110m-c')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="h110ma" id="pobj39" q1="10010" q2="10000" q3="1000" q4="101" q5="1001" q6="01" q7="100000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">H110M-A</h4>
+      <img src="assets/img/compare/h110m-a.png" alt="H110M-A thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_39" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-h110m-a')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="h110mPlusD3" id="pobj40" q1="10010" q2="10000" q3="1010" q4="110" q5="1001" q6="01" q7="100000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">H110M-PLUS D3</h4>
+      <img src="assets/img/compare/h110m-plus-d3.png" alt="H110M-PLUS D3 thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_40" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-h110m-plus-d3')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="h110m2D3" id="pobj41" q1="10010" q2="10000" q3="1000" q4="110" q5="1001" q6="01" q7="100000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">H110M2 D3</h4>
+      <img src="assets/img/compare/h110m2-d3.png" alt="H110M2 D3 thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_41" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-h110m2-d3')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="h110mcD3" id="pobj42" q1="10010" q2="10000" q3="1000" q4="110" q5="1001" q6="01" q7="100000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">H110M-C D3</h4>
+      <img src="assets/img/compare/h110mc-d3.png" alt="H110M-C D3 thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_42" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-h110m-c-d3')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="h110maD3" id="pobj43" q1="10010" q2="10000" q3="1000" q4="110" q5="1001" q6="01" q7="100000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">H110M-A D3</h4>
+      <img src="assets/img/compare/h110ma-d3.png" alt="H110M-A D3 thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_43" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-h110m-a-d3')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="h110mdD3" id="pobj44" q1="10010" q2="10000" q3="1000" q4="110" q5="1001" q6="01" q7="100000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">H110M-D D3</h4>
+      <img src="assets/img/compare/h110md-d3.png" alt="H110M-D D3 thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_44" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-h110m-d-d3')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="h110meD3" id="pobj45" q1="10010" q2="10000" q3="1000" q4="110" q5="1001" q6="01" q7="100000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">H110M-E D3</h4>
+      <img src="assets/img/compare/h110me-d3.png" alt="H110M-E D3 thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_45" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-h110m-e-d3')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="h110mkD3" id="pobj46" q1="10010" q2="10000" q3="1000" q4="110" q5="1001" q6="01" q7="100000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">H110M-K D3</h4>
+      <img src="assets/img/compare/h110mk-d3.png" alt="H110M-K D3 thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_46" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-h110m-k-d3')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="h110IPlusD3" id="pobj47" q1="10001" q2="10000" q3="1000" q4="110" q5="1001" q6="01" q7="100000" q8="001" q9="10010" s1="1"> 
+      <h4 class="picker-heading">H110I-PLUS D3</h4>
+      <img src="assets/img/compare/h110i-plus-d3.png" alt="H110I-PLUS D3 thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_47" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-h110i-plus-d3')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-object" data-picker="object" data-motherboard-name="trooperH110D3" id="pobj48" q1="10100" q2="10000" q3="1000" q4="110" q5="1001" q6="01" q7="100000" q8="001" q9="10001" s1="1"> 
+      <h4 class="picker-heading">TROOPER H110 D3</h4>
+      <img src="assets/img/compare/trooper-h110-d3.png" alt="TROOPER H110 D3 thumbnail" class="picker-thumbnail"> 
+      <p class="lang_product_48" onclick="ga_lang('send', 'event', 'learn-more', 'clicked', '100series-trooper-h110-d3')"><a href="#" class="btn-bright-blue external">LEARN MORE</a></p> 
+     </div> 
+     <div class="picker-not-applicable" style="display:none;"> 
+      <h2 class="lang_no">No motherboards fit your criteria... yet.</h2> 
+     </div> 
+     <div class="picker-see-switch"> 
+      <p id="p_show_picker_all" class="lang_see_more btn-bright-blue no-link" onclick="show_picker_all()">MORE MODELS</p>
+      <!--看所有model--> 
+      <p id="p_show_picker_part" class="lang_see_less btn-bright-blue no-link" style="display: none;" onclick="show_picker_part()">HIDE MODELS</p>
+      <!--只看25個model--> 
+      <input id="hf_show_all" type="hidden" value="0"> 
+     </div> 
+    </div> 
+    <div class="picker-controls"> 
+     <ul class="list-inline"> 
+      <li><a class="btn-bright-blue no-link lang_reset" href="javascript:clear_all_picker();void(0);">Reset Selection</a> </li> 
+     </ul> 
+    </div> 
+    <div class="where-to-buy"> 
+     <h4 class="lang_buy">Where to Buy ASUS 100-Series Motherboards:</h4> 
+     <p class="lang_links" onclick="ga_lang('send', 'event', 'Button', 'clicked', '101series-where-to-buy')"></p> 
+    </div> 
+   </div> 
+  </section> 
+  <footer> 
+   <div class="container"> 
+    <p class="terms">© 2015 ASUSTeK Computer Inc. All Rights Reserved. <a href="http://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Official-Site" class="external">Terms of Use</a>. All specifications are subject to change without notice and features are only in select models. Products may not be available in all markets.</p> 
+   </div> 
+  </footer> 
+  <script src="https://cdn.jsdelivr.net/jquery/2.0.2/jquery.min.js"></script> 
+  <script src="assets/js/main_v2.js"></script> 
+  <script src="js/cookieLib.js"></script> 
+  <script src="js/lang.js"></script> 
+  <script type="text/javascript">
+        var qlist = [1, -1, -1, -1, -1, -1, -1, -1, -1];
+
+        function set_q(nbr, val) {
+
+            qlist[nbr] = val;
+
+            $(".picker-object").each(function () {
+                $(this).attr('s1', '1');
+            });
+
+            for (var i = 1; i < qlist.length; i++)
+            {
+                if (qlist[i] != -1)
+                {
+                    //alert(i);
+                    $(".picker-object").each(function () {
+                        if ($(this).attr('Q' + i.toString()).substr(qlist[i], 1) == '0') {
+                            $(this).attr('s1', '0');
+                            //alert('Q' + i.toString() + '|' + val + '|' + $(this).attr('Q' + i.toString()).substr(val, 1));
+                        }
+                    });
+                }
+            }
+
+            show_picker_part();
+            //show_picker_object();
+        }
+
+        function show_picker_object()
+        {
+            var is_all_hide = true;
+
+            var show_count = 0;
+
+            $(".picker-object").each(function () {
+                $(this).hide();
+                if ($(this).attr('s1') != '0' && $(this).attr('s2') != '0')
+                {
+                    if ($('#hf_show_all').val() == '1')
+                    {
+                        $(this).show();
+                        is_all_hide = false;
+
+                        show_count += 1;
+                    }
+                    else //if ($('#hf_show_all').val() == '0')
+                    {
+                        if (show_count < 25) {
+                            $(this).show();
+                            is_all_hide = false;
+                            show_count += 1;
+                        }
+                    }
+                }
+            });
+
+            if (is_all_hide)
+                $('.picker-not-applicable').show();
+                else
+                $('.picker-not-applicable').hide();
+
+            if (show_count < 25)
+            {
+                $('#p_show_picker_all').hide();
+                $('#p_show_picker_part').hide();
+            }
+        }
+
+        function clear_all_picker()
+        {
+            $('#p_show_picker_all').show();
+            $('#p_show_picker_part').hide();
+
+            $('.answer-input').attr('checked', false);
+
+            qlist = [1, -1, -1, -1, -1, -1, -1, -1, -1];
+
+            $(".picker-object").each(function () {
+                $(this).attr('s1', '1');
+            });
+
+            $('.picker-not-applicable').hide();
+
+            show_picker_object();
+        }
+
+        function show_picker_all()
+        {
+            $('#hf_show_all').val('1');
+
+            $('#p_show_picker_all').hide();
+            $('#p_show_picker_part').show();
+
+            show_picker_object();
+        }
+
+        function show_picker_part()
+        {
+            $('#hf_show_all').val('0');
+
+            $('#p_show_picker_all').show();
+            $('#p_show_picker_part').hide();
+
+            show_picker_object();
+        }
+
+        $(function () {
+            //alert('f');
+            show_picker_part();
+        });
+
+        function ga_lang(parm1, parm2, parm3, parm4, parm5)
+        {
+            //ga_lang('send', 'event', 'menus', 'clicked', '100series-menus-tw')
+            ga(parm1, parm2, parm3, parm4, parm5 + '-' + $('#sel_language').val());
+            //alert(parm5 + '-' + $('#sel_language').val());
+        }
+    </script> 
+  <!-- Google Analytics --> 
+  <script>
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ 
+
+ga('create', ' UA-56028643-1', 'auto');
+
+ga('require', 'displayfeatures');
+
+ga('require', 'linkid', 'linkid.js');
+
+ga_lang('send', 'pageview');
+
+</script> 
+  <!-- Crazyegg --> 
+  <script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0026/9477.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>  
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NH3PBN" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+})(window,document,'script','dataLayer','GTM-NH3PBN');</script> 
+  <!-- End Google Tag Manager --> 
+ </body>
+</html>

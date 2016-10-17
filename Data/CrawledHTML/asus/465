@@ -1,0 +1,704 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<!--Pony Requirement 1188--><!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
+ <head> 
+  <!--Requirement #783 by Glenn--> 
+  <!--app icon--> 
+  <meta name="mobile-web-app-capable" content="yes"> 
+  <link rel="apple-touch-icon" href="http://www.asus.com/zentalk/tw/static/image/common/xzentalk.png.pagespeed.ic.iIpuVIe_dP.png"> 
+  <link rel="apple-touch-icon" sizes="48*48" href="http://www.asus.com/zentalk/tw/static/image/common/xzentalk_48.png.pagespeed.ic.6ZcjpnBGP1.png"> 
+  <link rel="apple-touch-icon" sizes="72*72" href="http://www.asus.com/zentalk/tw/static/image/common/xzentalk_72.png.pagespeed.ic.wVkDMHR_Jm.png"> 
+  <link rel="apple-touch-icon" sizes="144*144" href="http://www.asus.com/zentalk/tw/static/image/common/xzentalk_144.png.pagespeed.ic.9a64ickgk0.png"> 
+  <link rel="apple-touch-icon" sizes="192*192" href="http://www.asus.com/zentalk/tw/static/image/common/xzentalk_192.png.pagespeed.ic.AqzOkKUZQx.png"> 
+  <link rel="apple-touch-icon" sizes="512*512" href="http://www.asus.com/zentalk/tw/static/image/common/xzentalk_512.png.pagespeed.ic.ZYi3-m5DB1.png"> 
+  <link rel="apple-touch-icon-precomposed" href="http://www.asus.com/zentalk/tw/static/image/common/xzentalk.png.pagespeed.ic.iIpuVIe_dP.png"> 
+  <link rel="apple-touch-icon-precomposed" sizes="48*48" href="http://www.asus.com/zentalk/tw/static/image/common/xzentalk_48.png.pagespeed.ic.6ZcjpnBGP1.png"> 
+  <link rel="apple-touch-icon-precomposed" sizes="72*72" href="http://www.asus.com/zentalk/tw/static/image/common/xzentalk_72.png.pagespeed.ic.wVkDMHR_Jm.png"> 
+  <link rel="apple-touch-icon-precomposed" sizes="144*144" href="http://www.asus.com/zentalk/tw/static/image/common/xzentalk_144.png.pagespeed.ic.9a64ickgk0.png"> 
+  <link rel="apple-touch-icon-precomposed" sizes="192*192" href="http://www.asus.com/zentalk/tw/static/image/common/xzentalk_192.png.pagespeed.ic.AqzOkKUZQx.png"> 
+  <link rel="apple-touch-icon-precomposed" sizes="512*512" href="http://www.asus.com/zentalk/tw/static/image/common/xzentalk_512.png.pagespeed.ic.ZYi3-m5DB1.png"> 
+  <!----> 
+  <meta content="ShareZenTalk://webview/tid" property="al:android:url"> 
+  <meta content="com.asus.zentalk" property="al:android:package"> 
+  <meta content="ZenTalk" property="al:android:app_name"> 
+  <meta content="http://www.asus.com/zentalk/tw/portal.php" property="al:web:url"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="Cache-control" content="no-cache"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"> 
+  <meta name="format-detection" content="telephone=no"> 
+  <meta property="og:image:type" content="image/jpeg"> 
+  <meta property="og:image:width" content="600"> 
+  <meta property="og:image:height" content="600"> 
+  <meta name="author" content="ZenTalk"> 
+  <meta name="keywords" content="ZenTalk – ASUS手機論壇|智慧型手機討論區"> 
+  <meta name="description" content="ZenTalk – ASUS手機論壇|智慧型手機討論區 ,ZenTalk – ASUS手機論壇|智慧型手機討論區"> 
+  <base href="http://www.asus.com/zentalk/tw/"> 
+  <script src="http://www.asus.com/zentalk/tw/static/js/lang_discuz.js,qver_cntr=0618.pagespeed.jm.3s0idGOWSc.js" type="text/javascript"></script> 
+  <script src="http://www.asus.com/zentalk/tw/static/js/jquery.js,qver_cntr=0618.pagespeed.jm.YSzgc-BSX9.js" type="text/javascript"></script> 
+  <script src="http://www.asus.com/zentalk/tw/static/js/asusapi_touch.js,,qver_cntr==0618,Mjm.nIWT-gqY76.js+agreement.js,Mjm.smvmRWEqrI.js+mobile,_jquery.slides.min.js,Mjm.7JBRTMfyZ6.js+mobile,_forum.js,,qFz2,Mjm.s9Jodm-_K-.js.pagespeed.jc.a2AxwOmGea.js"></script>
+  <script>eval(mod_pagespeed_13xElaBiQd);</script> 
+  <script>eval(mod_pagespeed_CNkpL89QoN);</script> 
+  <script>eval(mod_pagespeed_IzA2nCADlN);</script> 
+  <script>eval(mod_pagespeed_OlG$FcmKnv);</script> 
+  <title>ZenTalk – ASUS手機論壇|智慧型手機討論區 -  手機版</title> 
+  <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "url": "https://www.asus.com/zentalk/tw/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.asus.com/zentalk/tw/search.php?mod=google&searchsubmit=yes&kw={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+  <link rel="stylesheet" href="./template/strong_mobile/style.css?Fz2" type="text/css" media="all"> 
+  <script src="http://www.asus.com/zentalk/tw/template/strong_mobile/js/jquery-1.9.1.min.js.pagespeed.jm.-H-m8Dpjb9.js" type="text/javascript"></script> 
+  <script type="text/javascript">var STYLEID='6',STATICURL='static/',IMGDIR='static/image/common',VERHASH='Fz2',charset='utf-8',discuz_uid='0',cookiepre='lj0m_2132_',cookiedomain='',cookiepath='/',showusercard='1',attackevasive='0',disallowfloat='viewvote|tradeorder|debate|usergroups|task',creditnotice='1|人氣|,2|Zen珠|,3|美圖數|,4|美圖精華|,5|玩機分享|,6|玩機精華|',defaultstyle='',REPORTURL='aHR0cDovL3d3dy5hc3VzLmNvbS96ZW50YWxrL3R3L2ZvcnVtLnBocD9tb2JpbGU9eWVz',SITEURL='http://www.asus.com/zentalk/tw/',JSPATH='static/js/';</script> 
+  <script src="http://www.asus.com/zentalk/tw/static/js/mobile/common.js,qFz2.pagespeed.jm.Y1q_3SxudL.js" type="text/javascript" charset="utf-8"></script> 
+  <script type="text/javascript">asusInit();</script> 
+  <script src="http://www.asus.com/zentalk/tw/static/js/mobile/lang_zentalk_mobile.js,qFz2.pagespeed.jm.OgHKlGnvws.js" type="text/javascript" charset="utf-8"></script> 
+ </head> 
+ <body class="bg" id="wrap"> 
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-MRWDVM" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MRWDVM');</script> 
+  <!-- End Google Tag Manager --> 
+  <div id="append_parent"></div>
+  <div id="ajaxwaitid"></div> 
+  <div class="sb-slidebar"> 
+   <ul class="s-cbl-ul"> 
+    <div class="profile_login"> 
+     <div class="profile_login_btn"> 
+      <a href="javascript:void(0);" onclick="asus_login('thread-131326-1-1.html?utm_source=1011&amp;utm_medium=zentalkregister&amp;utm_content=素人任務開跑&amp;utm_campaign=zt2016')" class="login_btn"><img class="login_btn_zenny" src="http://www.asus.com/zentalk/tw/static/image/common/xicon_zenny_register.png.pagespeed.ic.yVQOeXNLot.png">註冊享好康！</a> 
+     </div> 
+    </div> 
+    <!--<li><a href="portal.php?mobile=2" ><img src="./template/strong_mobile/images/s_shouye.png" />首頁</a></li>--> 
+    <!--<li><a href="forum.php?forumlist=1&amp;mobile=2" ><img src="./template/strong_mobile/images/s_luntan.png" />論壇</a></li>--> 
+    <!--<li><a href="portal.php?mod=list&amp;catid=1&amp;mobile=2" ><img src="./template/strong_mobile/images/s_wz.png" />文章</a></li>--> 
+    <!--<li><a href="group.php?mobile=2" ><img src="./template/strong_mobile/images/s_group.png" />群組</a></li>--> 
+    <!--<li><a href="misc.php?mod=tag&amp;mobile=2" ><img src="./template/strong_mobile/images/s_tab.png" />標籤</a></li>--> 
+    <!--<li><a href="forum.php?mod=forumdisplay&amp;fid=38&amp;mobile=2" ><img src="./template/strong_mobile/images/s_tupian.png" />就愛拍照</a></li>--> 
+    <!--<li><a href="forum.php?mod=guide&amp;view=hot&amp;mobile=2" ><img src="./template/strong_mobile/images/s_retie.png" />導讀</a></li>--> 
+    <!--<li><a href="group.php?mod=my&amp;mobile=2" onclick="return checkLoginState();"><img src="./template/strong_mobile/images/s_group.png" />我的群組</a></li>--> 
+    <!--<li><a href="home.php?mod=space&amp;uid=0&amp;do=favorite&amp;view=me&amp;type=thread&amp;mobile=2" onclick="return checkLoginState();"><img src="./template/strong_mobile/images/s_shoucang.png" />我的收藏</a></li>
+                <li><a href="home.php?mod=space&amp;uid=0&amp;do=thread&amp;view=me&amp;mobile=2" onclick="return checkLoginState();"><img src="./template/strong_mobile/images/s_zhuti.png" />我的主題</a></li>
+                <li><a href="home.php?mod=space&amp;do=pm&amp;mobile=2" onclick="return checkLoginState();"><img src="./template/strong_mobile/images/s_xiaoxi.png" />我的消息</a></li>
+                <li><a href="home.php?mod=space&amp;uid=0&amp;mobile=2" onclick="return checkLoginState();"><img src="./template/strong_mobile/images/s_ziliao.png" />個人資料</a></li>
+-->
+    <li><a href="https://www.asus.com/zentalk/tw/forum.php?forumlist=findmoreproducts"><img src="http://www.asus.com/zentalk/tw/template/strong_mobile/images/xgetproducts.png.pagespeed.ic._EB8PErIoR.png">找產品</a></li> 
+    <li><a href="https://goo.gl/zHa8es"><img src="http://www.asus.com/zentalk/tw/template/strong_mobile/images/xs_prize.png.pagespeed.ic.1BrXXnzpRl.png">2016攝影大賽</a></li> 
+    <li><a href="https://www.asus.com/zentalk/tw/themes/"><img src="http://www.asus.com/zentalk/tw/template/strong_mobile/images/xs_themes.png.pagespeed.ic.jAhukr1m5g.png">精選專輯</a></li> 
+    <li><a href="https://www.asus.com/zentalk/tw/forum.php?forumlist=1"><img src="http://www.asus.com/zentalk/tw/template/strong_mobile/images/xs_luntan.png.pagespeed.ic.7ZtheNVKUK.png">分類看板</a></li> 
+    <li><a href="https://www.asus.com/zentalk/tw/forum.php?mod=forumdisplay&amp;fid=46&amp;filter=typeid&amp;typeid=5"><img src="http://www.asus.com/zentalk/tw/template/strong_mobile/images/xs_cracker.png.pagespeed.ic.e4w5UDwISe.png">最新活動</a></li> 
+    <li><a href="https://www.asus.com/zentalk/tw/forum.php?mod=forumdisplay&amp;fid=113&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/template/strong_mobile/images/xs_bulb.png.pagespeed.ic.QC1JH7xMwh.png">點子Zen你提</a></li> 
+    <li><a href="https://www.asus.com/zentalk/tw/forum.php?forumlist=geekclub"><img src="http://www.asus.com/zentalk/tw/template/strong_mobile/images/xs_appstore.png.pagespeed.ic.-7ugyxwZsm.png">玩機聚樂部(新品熱報)</a></li> 
+    <li><a href="https://www.asus.com/zentalk/tw/forum.php?forumlist=gallery"><img src="http://www.asus.com/zentalk/tw/template/strong_mobile/images/xs_camera.png.pagespeed.ic.EMTunCmxaU.png">攝影聚樂部</a></li> 
+    <li><a href="https://www.asus.com/zentalk/tw/plugin.php?id=gshop:index"><img src="http://www.asus.com/zentalk/tw/template/strong_mobile/images/xs_shop.png.pagespeed.ic.WfOi_6qzps.png">Zen喜換市集</a></li> 
+    <li><a href="https://www.asus.com/zentalk/tw/forum.php?forumlist=zenny"><img src="http://www.asus.com/zentalk/tw/static/image/banner/xs_zenny.png.pagespeed.ic.rpasUU3ktN.png">Zenny到處玩</a></li> 
+    <li><a href="https://www.asus.com/zentalk/tw/forum.php?forumlist=zenui"><img src="http://www.asus.com/zentalk/tw/template/strong_mobile/images/xs_zenui.png.pagespeed.ic.C85XZzUMLT.png">ZenUI 新功能</a></li> 
+    <li><a href="https://www.asus.com/zentalk/tw/forum.php?mod=forumdisplay&amp;fid=153&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/template/strong_mobile/images/xs_ziliao.png.pagespeed.ic.Wcs0ZgEFft.png">官方公告</a></li> 
+    <li><a href="https://www.asus.com/zentalk/tw/search.php?mod=forum&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/template/strong_mobile/images/xs_soso_w.png.pagespeed.ic.juKwuMj9u2.png">搜尋</a></li> 
+    <li> <a> <select id="region" class="region-block" onchange="switchCountry(getDDLId('region'), getDDLValue('region'))"> <option id="tw" value="//www.asus.com/zentalk/tw/" selected>台灣</option> <option id="ww" value="//www.asus.com/zentalk/portal.php?nocache=1">Global</option> <option id="in" value="//www.asus.com/zentalk/in/index_in.php?nocache=1">India</option> <option id="id" value="//www.asus.com/zentalk/id/index_id.php?nocache=1">Indonesia</option> <option id="ph" value="//www.asus.com/zentalk/ph/index_ph.php?nocache=1">Philippines</option> <option id="cn" value="//zentalk.asus.com.cn/portal.php?nocache=1">中国</option> </select> <span class="region_span"> 區域 </span> </a> </li> 
+    <!--<li><a href="http://www.asus.com/zentalk/tw/forum.php?mobile=no" ><img src="./template/strong_mobile/images/s_diannao.png" />電腦版</a></li>--> 
+    <!-- <li><a href="http://www.asus.com/zentalk/tw/plugin.php?id=levegg&mobile=no" target="blank"><img src="./template/strong_mobile/images/s_gift.png" />十萬好禮Zen你抽</a></li> --> 
+   </ul> 
+  </div> 
+  <div class="s-daohang s-center "> 
+   <div class="s-width-50 s-float-left" onclick="do_left();">
+    <a href="javascript:;" class="sb-toggle-left s-width-50 "><img src="http://www.asus.com/zentalk/tw/template/strong_mobile/images/xs_cbl.png.pagespeed.ic.b7ifr6RSi0.png"></a>
+   </div> 
+   <!--<div class="s-width-50 s-float-right" style="width:50px; height:50px;"> <a href="javascript:;" class="s-width-50 " id="gengduoid"><img src="./template/strong_mobile/images/s_gengduo.png" id="pic1" /></a> </div>--> 
+   <div class="s-width-50 s-float-right">
+    <a href="search.php?mod=forum&amp;mobile=2" class="s-width-50 "><img src="http://www.asus.com/zentalk/tw/template/strong_mobile/images/xs_soso.png.pagespeed.ic.aWOxeeDP89.png"></a>
+   </div> 
+   <!-- <div class="s-center s-daohang-title "><a href="javascript:;" >ZenTalk – ASUS手機論壇|智慧型手機討論區</a></div> --> 
+   <div class="s-center s-daohang-title ">
+    <a href="./forum.php?forumlist=1&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/static/image/common/xlogo.png.pagespeed.ic.-IamiRwQ0L.png" alt="ZenTalk" border="0"></a>
+   </div> 
+  </div> 
+  <div id="sb-site" class="bg" name="sb-site"> 
+   <div class="wei_mbx cl"> 
+    <div class=""> 
+     <!-- <a href="./" class="nvhm" title="首頁">首頁</a><em>&rsaquo;</em> -->
+     <a href="forum.php?forumlist=1&amp;mobile=2">論壇</a>
+    </div> 
+   </div> 
+   <!-- main forumlist start --> 
+   <div class="wp wm " id="wp">
+    <div class=" bmw fl"> 
+     <div class="subforumshow bm_h cl" href="#sub_forum_229"> 
+      <span class="o"><img src="http://www.asus.com/zentalk/tw/template/strong_mobile/images/xcollapsed_yes.png.pagespeed.ic.CNTYK0G73i.png"></span> 
+      <h2><a href="javascript:;">玩機應用</a></h2> 
+     </div> 
+     <div id="sub_forum_229" class="sub_foruml bm_c"> 
+      <ul>
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=50&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/data/attachment/common/c0/xcommon_50_icon.png.pagespeed.ic.q961NyDey6.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=50&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>玩機應用分享<span class="num">14</span></h3> 
+          <p>歡迎分享ZenFone使用小技巧以及讓你生活更便利、有趣的APP喔！</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=120&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/data/attachment/common/da/xcommon_120_icon.png.pagespeed.ic.4mNCIQLYuC.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=120&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>開發者交流區<span class="num">8</span></h3> 
+          <p>Android開發者專版，歡迎交流！</p> 
+         </div> </a></li> 
+      </ul> 
+     </div> 
+    </div> 
+    <div class=" bmw fl"> 
+     <div class="subforumshow bm_h cl" href="#sub_forum_37"> 
+      <span class="o"><img src="http://www.asus.com/zentalk/tw/template/strong_mobile/images/xcollapsed_yes.png.pagespeed.ic.CNTYK0G73i.png"></span> 
+      <h2><a href="javascript:;">粉絲交流</a></h2> 
+     </div> 
+     <div id="sub_forum_37" class="sub_foruml bm_c"> 
+      <ul>
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=38&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/data/attachment/common/a5/xcommon_38_icon.png.pagespeed.ic.g04w5_ykGK.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=38&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>就愛拍照<span class="num">42</span></h3> 
+          <p>給最具美感的你/妳分享使用特攝大師Pixel Master 拍出來的美圖，並且分享最適合在ZenFone上使用的桌布！</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=46&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/data/attachment/common/d9/xcommon_46_icon.png.pagespeed.ic.h32LoMxWeL.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=46&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>活動專區<span class="num">10</span></h3> 
+          <p>ZenFone各種相關活動發布平台</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=75&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/data/attachment/common/d0/xcommon_75_icon.png.pagespeed.ic.Wp4GzYQHSL.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=75&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>粉絲哈拉<span class="num">193</span></h3> 
+          <p>歡迎各位ZenFone同好一起來哈拉！</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=102&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/data/attachment/common/ec/xcommon_102_icon.png.pagespeed.ic.7bufAvZyre.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=102&amp;mobile=2"> </a>
+        <div class="subblock">
+         <a href="forum.php?mod=forumdisplay&amp;fid=102&amp;mobile=2"> <h3>Dr. Zen 專區*<span class="num">4</span></h3> <p><a href="http://goo.gl/lHgNF6" target="_blank"><font color="Red"><u><strong>立刻申請為Dr. Zen</strong></u></font></a>，成為華碩ZenFans 核心成員的一份子!</p></a> 
+        </div> </li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=109&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/data/attachment/common/27/xcommon_109_icon.png.pagespeed.ic.fXcAEpzd8b.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=109&amp;mobile=2"> </a>
+        <div class="subblock">
+         <a href="forum.php?mod=forumdisplay&amp;fid=109&amp;mobile=2"> <h3>BETA測試區*</h3> <p><a href="http://www.asus.com/zentalk/tw/forum.php?mod=viewthread&amp;tid=70293&amp;extra=page%3D1" target="_blank"><font color="Red"><u><strong>立刻申請為內測達人</strong></u></font></a>，內測版本讓你搶先體驗!</p></a> 
+        </div> </li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=39&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/data/attachment/common/d6/xcommon_39_icon.png.pagespeed.ic.weVMp5zp8Q.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=39&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>新聞放送台<span class="num">10</span></h3> 
+          <p>ZenFone及3C相關新聞發布區</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=147&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/data/attachment/common/8d/xcommon_147_icon.png.pagespeed.ic.LGf0w3AFhl.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=147&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>校園Young衝圈</h3> 
+          <p>給最young的你/妳，一個專屬校園分享交流的集散地！</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=199&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/data/attachment/common/84/xcommon_199_icon.png.pagespeed.ic.v4w4jWO-CV.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=199&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>員粉同心園*</h3> 
+          <p>華碩員工看過來，屬於員粉交流＆建議的小小園地!</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=151&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/data/attachment/common/a8/xcommon_151_icon.png.pagespeed.ic.g3YHMVHyLs.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=151&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>華碩數位學園</h3> 
+          <p>華碩數位學園開課訊息及分享園地，歡迎各位學員多多利用！</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=222&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/data/attachment/common/bc/xcommon_222_icon.png.pagespeed.ic.SamB5ORDfC.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=222&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>Zen喜換市集</h3> 
+          <p>超多好禮都在這裡，等你用經驗來換！</p> 
+         </div> </a></li> 
+      </ul> 
+     </div> 
+    </div> 
+    <div class=" bmw fl"> 
+     <div class="subforumshow bm_h cl" href="#sub_forum_228"> 
+      <span class="o"><img src="http://www.asus.com/zentalk/tw/template/strong_mobile/images/xcollapsed_yes.png.pagespeed.ic.CNTYK0G73i.png"></span> 
+      <h2><a href="javascript:;">點子Zen你提</a></h2> 
+     </div> 
+     <div id="sub_forum_228" class="sub_foruml bm_c"> 
+      <ul>
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=113&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/data/attachment/common/73/xcommon_113_icon.png.pagespeed.ic.PPAq6-t5RX.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=113&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>產品功能建議<span class="num">38</span></h3> 
+          <p>您對ZenFone有任何想法嗎？趕緊提出您的好點子讓ZenFone更完美！</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=124&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/data/attachment/common/c8/xcommon_124_icon.png.pagespeed.ic.qVqgQR8ZWx.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=124&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>站務討論與建議<span class="num">6</span></h3> 
+          <p>歡迎提供對於ZenTalk論壇的各種建議，讓我們共同打造一個更好用的交流空間！</p> 
+         </div> </a></li> 
+      </ul> 
+     </div> 
+    </div> 
+    <div class=" bmw fl"> 
+     <div class="subforumshow bm_h cl" href="#sub_forum_231"> 
+      <span class="o"><img src="http://www.asus.com/zentalk/tw/template/strong_mobile/images/xcollapsed_yes.png.pagespeed.ic.CNTYK0G73i.png"></span> 
+      <h2><a href="javascript:;">產品專區</a></h2> 
+     </div> 
+     <div id="sub_forum_231" class="sub_foruml bm_c"> 
+      <ul>
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=76&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/data/attachment/common/fb/xcommon_76_icon.png.pagespeed.ic.KKG8whMO3n.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=76&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>更新公告</h3> 
+          <p>這次的更新又多了哪些新功能？來這邊查就對了！</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=45&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/data/attachment/common/6c/xcommon_45_icon.png.pagespeed.ic.ppPIxKRVEs.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=45&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>創作故事</h3> 
+          <p>ZenFone開發人員的心情故事</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=230&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/data/attachment/common/0a/xcommon_144_icon.png.pagespeed.ic.jyAcsM2-KW.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=230&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>常見問題</h3> 
+          <p>ASUS系列產品常見問題與排除方式</p> 
+         </div> </a></li> 
+      </ul> 
+     </div> 
+    </div> 
+    <div class=" bmw fl"> 
+     <div class="subforumshow bm_h cl" href="#sub_forum_1"> 
+      <span class="o"><img src="http://www.asus.com/zentalk/tw/template/strong_mobile/images/xcollapsed_yes.png.pagespeed.ic.CNTYK0G73i.png"></span> 
+      <h2><a href="javascript:;">討論與求助</a></h2> 
+     </div> 
+     <div id="sub_forum_1" class="sub_foruml bm_c"> 
+      <ul>
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=245&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/data/attachment/common/02/xcommon_245_icon.png.pagespeed.ic.sMkmyh7yRk.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=245&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>ZenFone3<span class="num">7</span></h3> 
+          <p>ZenFone 3 各機型用戶, 歡迎來此求助與討論，請選擇對應機型版塊發問。</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=170&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/data/attachment/common/14/xcommon_170_icon.png.pagespeed.ic.Z6jAKRQE2i.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=170&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>ZenFone2<span class="num">14</span></h3> 
+          <p>ZenFone 2 各機型用戶, 歡迎來此求助與討論，請選擇對應機型版塊發問。</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=169&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/data/attachment/common/36/xcommon_169_icon.png.pagespeed.ic.N_6_8gTUnv.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=169&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>ZenFone</h3> 
+          <p>ZenFone 各機型用戶, 歡迎來此求助與討論，請選擇對應機型版塊發問。</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=218&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/data/attachment/common/e9/xcommon_218_icon.png.pagespeed.ic.DVDUPrzLeA.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=218&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>ZenFone Go</h3> 
+          <p>ZenFone Go各機型用戶, 歡迎來此求助與討論，請選擇對應機型版塊發問。</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=205&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/data/attachment/common/17/xcommon_43_icon.png.pagespeed.ic.6m-I0cnRPa.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=205&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>PadFone<span class="num">1</span></h3> 
+          <p>PadFone 各機型用戶, 歡迎來此求助與討論，請選擇對應機型版塊發問。</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=206&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/data/attachment/common/ed/xcommon_98_icon.png.pagespeed.ic.ge2uHPyK5N.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=206&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>Pad</h3> 
+          <p>FonePad和ZenPad各機型用戶, 歡迎來此求助與討論，請選擇對應機型版塊發問。</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=201&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/data/attachment/common/75/xcommon_201_icon.png.pagespeed.ic.n7PvozoK7Y.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=201&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>Watch</h3> 
+          <p>智慧型手錶的用戶歡迎來此討論。</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=173&amp;mobile=2"><img src="http://www.asus.com/zentalk/tw/data/attachment/common/f7/xcommon_173_icon.png.pagespeed.ic.jM4Nc0aVaB.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=173&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>原廠手機配件<span class="num">1</span></h3> 
+          <p>原廠手機配件的用戶 歡迎來此求助與討論。</p> 
+         </div> </a></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- main forumlist end --> 
+   <!--hook/index_middle_mobile--> 
+   <script src="http://www.asus.com/zentalk/tw/static/js/mobile/jquery.slides.min.js.pagespeed.jm.7JBRTMfyZ6.js" type="text/javascript"></script> 
+   <script>$(function(){$('#slides').slidesjs({width:320,height:50,navigation:false});});</script> 
+   <!-- 手機廣告Banner -->
+   <div class="container">
+    <div id="slides" style="width:320px;height:50px;margin:10px auto;"> 
+     <div style="margin:0 24px;">
+      <a href="http://store.asus.com/tw/category/A47136?utm_campaign=zentalk&amp;utm_source=banner&amp;utm_medium=home_top&amp;utm_content=zenfone3max" target="blank"><img src="https://www.asus.com/zentalk/tw/static/image/banner/ZenFone3_Max_272x50.png"></a>
+     </div> 
+     <div style="margin:0 24px;">
+      <a href="http://store.asus.com/tw/category/A45792?utm_campaign=zentalk&amp;utm_source=banner&amp;utm_medium=home_top&amp;utm_content=zenfone3" target="blank"><img src="https://www.asus.com/zentalk/tw/static/image/banner/ZenFone3_272X50.png"></a>
+     </div> 
+     <div style="margin:0 24px;">
+      <a href="http://store.asus.com/tw/category/A46168?utm_campaign=zentalk&amp;utm_source=banner&amp;utm_medium=home_top&amp;utm_content=zenfone3deluxe" target="blank"><img src="https://www.asus.com/zentalk/tw/static/image/banner/ZenFone3_Deluxe_272X50.png"></a>
+     </div> 
+     <div style="margin:0 24px;"> 
+      <style type="text/css">
+.midaben_con {
+font-family:arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
+background-color:#fff;
+width:272px;
+height:50px;
+border-radius:5px;
+position:relative
+}
+.midaben_con .midaben_signpanel {
+background-color:#00A8FF;
+height:50px;
+display:block;
+position:relative;
+border-radius:6px;
+background-image:url(./source/plugin/k_misign/static/tou.png);
+background-repeat:no-repeat;
+background-position:0 0;
+cursor:pointer;
+}
+.midaben_con .midaben_signpanel .font {
+position:absolute;
+color:#fff;
+width:55px;
+height:30px;
+font-size:24px;
+line-height:30px;
+top:11px;
+left:60px;
+}
+.midaben_con .midaben_signpanel .nums {
+display:none
+}
+.midaben_con .midaben_signpanel .fblock {
+height:43px;
+width:115px;
+background-color:#fff;
+padding-left:5px;
+padding-right:5px;
+position:absolute;
+top:4px;
+right:5px;
+font-size:14px;
+color:#606060;
+border-radius:3px;
+}
+.midaben_con .midaben_signpanel .fblock .all {
+height:21px;
+line-height:23px;
+padding-left:30px;
+border-bottom:1px solid #00a8ff;
+background-image:url(./source/plugin/k_misign/static/tou2.png);
+background-repeat:no-repeat;
+background-position:0 0;
+margin-bottom:0;
+color:#606060;
+*line-height:19px;
+}
+.midaben_con .midaben_signpanel .fblock .line {
+height:22px;
+line-height:23px;
+padding-left:30px;
+width:60px;
+background-image:url(./source/plugin/k_misign/static/tou2.png);
+background-repeat:no-repeat;
+background-position:0px -26px;
+color:#606060;
+*line-height:19px;
+}
+.midaben_con a.midaben_signpanel:hover {
+background-color:#00A8FF;
+filter:alpha(opacity=80);
+-moz-opacity:0.8;
+opacity: 0.8;
+}
+.midaben_con a.midaben_signpanel:active {
+background-color:#00A8FF;
+}
+.midaben_con .default {
+cursor:default;
+background-color:#00A8FF;
+}
+.midaben_con a.default:hover {
+background-color:#00A8FF;
+}
+.midaben_con a.default:active {
+background-color:#00A8FF;
+}
+.midaben_con .visted {
+background-position:0 0;
+background-image: url('./source/plugin/k_misign/static/tou_visted.png');
+}
+.midaben_con .visted .font {
+font-size:21px;
+line-height:25px;
+width:65px;
+left:50px;
+top:14px;
+text-shadow:0 1px 0 #009eff;
+<!-- text-shadow:0 2px 0 #00A8FF; -->
+}
+.midaben_con .visted .nums {
+<!--display:block;-->
+font-size:12px;
+width:56px;
+text-align:center;
+line-height:20px;
+position:absolute;
+color:#fff;
+top:29px;
+left:43px
+}
+.nums {display:none;}
+.midaben_con .midaben_win {
+width:205px;
+height:115px;
+background-color:#fff;
+border:1px solid #dedfe3;
+border-radius:5px;
+position:absolute;
+top:-135px;
+left:10px;
+box-shadow:0 5px 0 #dedfe3;
+padding-left:5px;
+padding-right:5px
+}
+.midaben_con .midaben_win .angleA {
+width:0;
+_border:0;
+position:absolute;
+bottom:-30px;
+left:70px;
+border-color:#dedfe3 transparent transparent;
+border-style:solid;
+border-width:15px
+}
+.midaben_con .midaben_win .angleB {
+width:0;
+_border:0;
+position:absolute;
+bottom:-20px;
+left:75px;
+border-color:#fff transparent transparent;
+border-style:solid;
+border-width:10px
+}
+.midaben_con .midaben_win .title {
+padding-left:58px;
+height:55px;
+padding-top:22px;
+background-repeat:no-repeat;
+background-image:url(./source/plugin/k_misign/static/tou3.jpg);
+background-position:0 5px;
+border-bottom:1px solid #eee
+}
+.midaben_con .midaben_win .title h3 {
+font-size:18px;
+color:#434a54;
+line-height:25px;
+font-weight:400;
+margin:0;
+padding:0
+}
+.midaben_con .midaben_win .title .con {
+font-size:12px;
+color:#434a54;
+line-height:20px;
+font-weight:normal;
+width:150px;
+margin:0;
+padding:0
+}
+.midaben_con .midaben_win .info {
+height:35px;
+line-height:35px;
+color:#aab2bd;
+font-size:14px;
+text-align:center;
+padding-left:10px
+}
+.midaben_con a.midaben_signpanel:visited,.midaben_con a.visted:visited,.midaben_con a.visted:hover,.midaben_con a.visted:active {
+background-color:#00A8FF
+}
+
+</style> 
+      <script type="text/javascript">var signed=false;function cjdsign(){document.getElementById("JD_sign").className='midaben_signpanel JD_sign visted';document.getElementById("JD_sign").href='plugin.php?id=k_misign:sign';document.getElementById("JD_sign").target='_blank';document.getElementById("JD_sign").onclick='';}
+function doAjaxCall(formhash1){$.ajax({url:'plugin.php?id=k_misign:sign&operation=qiandao',data:{formhash:formhash1},dataType:'xml',type:'GET',async:true,success:function(response){cjdsign();$('#JD_sign').html($(response).find('root').text());}});}
+function clickonce(fn){if(!signed){fn;}
+signed=true;return false;}</script> 
+      <div id="midaben_sign"> 
+       <div class="midaben_con mbm"> 
+        <a class="midaben_signpanel JD_sign" id="JD_sign" href="plugin.php?id=k_misign:sign&amp;mobile=2"> 
+         <div class="font">
+           簽到 
+         </div> 
+         <!-- <span class="nums">
+                lang k_misign:row    lang k_misign:days
+            </span> --> 
+         <div class="fblock"> 
+          <div class="all">
+            289人 
+          </div> 
+          <div class="line"> 
+           <span style="font-size:12px;">簽到看排名</span> 
+          </div> 
+         </div> </a> 
+        <div id="JD_win" class="midaben_win JD_win" style="display:none;"> 
+         <div class="title"> 
+          <h3> 簽到成功 </h3> 
+          <p class="con"> </p> 
+         </div> 
+         <div class="info"> 
+         </div> 
+         <div class="angleA"> 
+         </div> 
+         <div class="angleB"> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div style="margin:0 24px;"> 
+      <link href="./source/plugin/count_down/static/css/m_style.css?Fz2" rel="stylesheet" type="text/css"> 
+      <!-- <script src="./source/plugin/count_down/static/common.js" type="text/javascript"></script>
+<script src="./source/plugin/count_down/static/jquery-1.11.0.min.js" type="text/javascript"></script> --> 
+      <script type="text/javascript">$(function(){var cD=new Date();var tMs=1476115200;$(".hook_banner").fadeIn();function timerSet(){var d=new Date();var dMs=Math.floor(d.getTime()/1000);var deltTime=tMs-dMs;var deltD=Math.floor(deltTime/86400);var deltH=Math.floor((deltTime-deltD*86400)/3600);var deltM=Math.floor((deltTime-deltD*86400-deltH*3600)/60);var deltS=deltTime-deltD*86400-deltH*3600-deltM*60;$(".number_w").removeClass(function(index,css){return(css.match(/(^|\s)n_w_\S+/g)||[]).join(' ');});$(".timer_d .number_w-1").addClass("n_w_"+Math.floor(deltD/10));$(".timer_d .number_w-2").addClass("n_w_"+(deltD-Math.floor(deltD/10)*10));$(".timer_h .number_w-1").addClass("n_w_"+Math.floor(deltH/10));$(".timer_h .number_w-2").addClass("n_w_"+(deltH-Math.floor(deltH/10)*10));$(".timer_m .number_w-1").addClass("n_w_"+Math.floor(deltM/10));$(".timer_m .number_w-2").addClass("n_w_"+(deltM-Math.floor(deltM/10)*10));$(".timer_s .number_w-1").addClass("n_w_"+Math.floor(deltS/10));$(".timer_s .number_w-2").addClass("n_w_"+(deltS-Math.floor(deltS/10)*10));if(deltTime>0){setTimeout(timerSet,1000);}else{$(".hook_banner").fadeOut(400);$(".hook_final_banner").fadeIn(800);}}
+timerSet();var nationality=getcookie('nationality');$(".banner_bg").addClass('banner_bg_'+nationality);$(".hook_final_banner").addClass('hook_final_banner_'+nationality);var link='';var final_link='';switch(nationality){case'tw':link="https://www.asus.com/zentalk/tw/thread-131713-1-1.html";final_link="www.asus.com/zentalk/tw/thread-146089-1-1.html";break;case'cn':final_link="zentalk.asus.com.cn/forum.php?mod=viewthread&amp;tid=24120";break;case'ww':link="https://www.asus.com/zentalk/thread-82153-1-1.html";final_link="www.asus.com/zentalk/thread-82308-1-1.html";break;case'in':link="https://www.asus.com/zentalk/in/thread-82434-1-1.html";final_link="www.asus.com/zentalk/in/thread-98515-1-1.html";break;case'id':link="https://www.asus.com/zentalk/id/thread-82995-1-1.html";final_link="www.asus.com/zentalk/id/thread-102351-1-1.html";break;case'ph':link="https://www.asus.com/zentalk/ph/thread-83007-1-1.html";final_link="www.asus.com/zentalk/ph/thread-101077-1-1.html";break;default:break;}
+$(".hook_banner").click(function(){window.location=link;});$(".hook_final_banner").click(function(){window.location="//"+final_link;});});</script> 
+      <div id="count_sign"> 
+       <div class="hook_ad_banner"> 
+        <div class="hook_banner"> 
+         <div class="banner_bg"></div> 
+         <div class="banner_title">
+          <!-- 2015 年 7 月 7 日 Zen是你的眼攝影大賽 -->
+         </div> 
+         <div class="banner_title_word"></div> 
+         <div class="banner_timer"> 
+          <div class="timer_part timer_d"> 
+           <div class="number_w number_w-1"></div> 
+           <div class="number_w number_w-2"></div> 
+           <div class="number_word">
+            天
+           </div> 
+          </div> 
+          <div class="timer_part timer_h"> 
+           <div class="number_w number_w-1"></div> 
+           <div class="number_w number_w-2"></div> 
+           <div class="number_word">
+            時
+           </div> 
+          </div> 
+          <div class="timer_part timer_m"> 
+           <div class="number_w number_w-1"></div> 
+           <div class="number_w number_w-2"></div> 
+           <div class="number_word">
+            分
+           </div> 
+          </div> 
+          <div class="timer_part timer_s"> 
+           <div class="number_w number_w-1"></div> 
+           <div class="number_w number_w-2"></div> 
+           <div class="number_word">
+            秒
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="hook_final_banner"> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <ul class="slidesjs-previous slidesjs-navigation" style="position:relative;top:-50px;float:left;z-index:100;">
+      <i class="icon-chevron-left icon-large"><img src="./template/strong_mobile/images/prev_btn.png"></i>
+     </ul> 
+     <ul class="slidesjs-next slidesjs-navigation" style="position:relative;top:-50px;float:right;z-index:100;">
+      <i class="icon-chevron-right icon-large"><img src="./template/strong_mobile/images/next_btn.png"></i>
+     </ul> 
+    </div> 
+   </div> 
+   <script type="text/javascript">(function(){$('.sub_forum').css('display','block');var menuId=getcookie('meunData');var arrayMenu=menuId.split(',');var arrayExist=arrayMenu[0]!='';if(arrayExist){for(i=0;i<arrayMenu.length;i++){$('#'+arrayMenu[i]).css('display','none');$('#'+arrayMenu[i]).parent().find('img').first().attr('src','./template/strong_mobile/images/collapsed_no.png');}}
+else{setcookie('meunData','','315360000');}
+$('.subforumshow').on('click',function(){var obj=$(this);var subobj=$(obj.attr('href'));var thisId=$(subobj).attr('id');if(subobj.css('display')=='none'){subobj.css('display','block');obj.find('img').attr('src','./template/strong_mobile/images/collapsed_yes.png');menuId=menuId.replace(thisId+',','');setcookie('meunData',menuId,'315360000');}else{subobj.css('display','none');obj.find('img').attr('src','./template/strong_mobile/images/collapsed_no.png');menuId=menuId+thisId+',';setcookie('meunData',menuId,'315360000');}});})();function isEmpty(str){return(!str||0===str.length);}</script> 
+   <script type="text/javascript" src="plugin.php?id=levaward:l&amp;fh=32ccbb44&amp;m=__m.__artwin&amp;mod=&amp;do=&amp;gotoid="></script> 
+   <div id="mask" style="display:none;"></div> 
+   <div class="footer"> 
+    <div> 
+     <!--<a href="forum.php?mobile=2">首頁</a> | <a href="member.php?mod=logging&amp;action=login&amp;mobile=2" title="登錄">登錄</a> | <a href="<!--javascript:;" style="color:#D7D7D7;<!--" title="立即註冊">註冊</a>--> 
+    </div> 
+    <div> 
+     <!--<a href="http://www.asus.com/zentalk/tw/forum.php?mobile=1&simpletype=no">標準版</a> |--> 
+     <a href="javascript:;" style="color:#D7D7D7;">手機版</a> | 
+     <a href="http://www.asus.com/zentalk/tw/forum.php?mobile=no">電腦版</a> | 
+     <a href="https://goo.gl/qNQ25I">下載APP</a> 
+     <div style="display:none;">
+      <script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-54651969-1',{'userId':'0'});ga('send','pageview');</script>
+     </div> 
+    </div> 
+    <!--<p>&copy; Comsenz Inc.</p>--> 
+    <p style="color:#EEEEEE">Powered by Discuz!</p> 
+   </div> 
+  </div> 
+  <!--Pony Requirement 1647--> 
+  <script src="http://www.asus.com/zentalk/tw/static/js/mobile/home_friendselector.js,qFz2.pagespeed.jm.VIpvxFYs7d.js" type="text/javascript"></script> 
+  <script>function do_leftn(){$("#wrap").toggleClass("wrap_l")};function do_left(){if($(".wrap_l").length>0){$(".sb_site,.s-daohang").animate({left:"0%"},500);setTimeout(function(){$("#wrap").toggleClass("wrap_l");},500);}else{$("#wrap").toggleClass("wrap_l");$(".s-daohang,.sb_site").animate({left:"70%"},500);}};</script>  
+ </body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <link href="css/reset.css" rel="stylesheet" type="text/css"> 
+  <link href="css/layout.css" rel="stylesheet" type="text/css">  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <title>ASUS │ VGA + Monitor landing page</title> 
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', ' UA-56028643-1', 'auto', {'allowLinker': true});
+      ga('require', 'linker');
+      ga('require', 'displayfeatures');
+      ga('linker:autoLink', ['asus.com']);
+      ga('send', 'pageview');
+    </script> 
+ </head> 
+ <body> 
+  <div id="wrapper"> 
+   <div id="header"> 
+    <a href="http://www.asus.com/"> 
+     <div class="logo"></div> </a> 
+    <div class="header_txt1 txtstyle"> 
+    </div> 
+    <br class="clearfloat"> 
+   </div> 
+   <div id="sub00"> 
+    <div class="sub00_txt1 txtstyle">
+     With STRIX GTX 980 Ti &amp; ROG SWIFT PG278Q, scenes appear instantly, objects look sharper, and gameplay is super smooth, giving you a stunning visual experience and a serious competitive edge.
+    </div> 
+   </div> 
+   <div id="sub01"> 
+    <img class="sub1_logo sl_01" src="img/logo01.jpg"> 
+    <div class="sub01_txt2 txtstyle">
+     Exclusive DirectCU III cooling technology features two exclusive 10 mm direct-GPU contact heatpipes that transports 40% more heat away from the GPU and outperform reference designs, achieving up to 30% cooler gaming performance.
+    </div> 
+    <img class="sub1_logo sl_02" src="img/logo02.jpg"> 
+    <div class="sub01_txt3 txtstyle">
+     A patented triple wing-blade 0dB fan design to deliver maximum air flow for 30% cooler and 3X quieter performance. The 0dB fans also let you enjoy games in complete silence — because the fan stops completely when the GPU temperature remain below a set level*.
+     <span> (*Performance varies by system configuration)</span>
+    </div> 
+    <img class="sub1_logo sl_03" src="img/logo03.jpg"> 
+    <div class="sub01_txt4 txtstyle">
+     ASUS graphics cards are produced using 
+     <br> AUTO-EXTREME technology, an industry-first 100% automated production process, and feature Super Alloy Power II components for unsurpassed quality and reliability.
+    </div> 
+    <img class="sub1_logo sl_04" src="img/logo04.jpg"> 
+    <div class="sub01_txt5 txtstyle">
+     With an intuitive new UI, GPU Tweak II makes overclocking easier than ever, and features Gaming Booster to maximize graphics performance and XSplit Gamecaster to stream or record your gameplay.
+    </div> 
+    <a href="http://www.asus.com/Graphics_Cards/STRIXGTX980TIDC3OC6GD5GAMING/" target="_blank" title="Learn more" class="learnmore01">Learn more</a> 
+    <img class="sub1_logo sl_05" src="img/logo06.png"> 
+    <div class="sub01_txt7 txtstyle">
+     ASUS-exclusive GamePlus Technology features a customizable crosshair to suit different games, as well as an on-screen timer function to help you keep track of spawn and build times.
+    </div> 
+    <img class="sub1_logo sl_06" src="img/logo05.jpg"> 
+    <div class="sub01_txt8 txtstyle">
+     NVIDIA G-SYNC™ synchronizes the ROG SWIFT's refresh rate to the GPU in your GeForce GTX-powered PC, eliminating screen tearing and minimizing display stutter and input lag.
+    </div> 
+    <img class="sub1_logo sl_07" src="img/logo07.jpg"> 
+    <div class="sub01_txt9 txtstyle">
+     Experience refresh rates of up to 144Hz for the smoothest possible gameplay, even in graphics-intensive fast-paced action sequences.
+    </div> 
+    <img class="sub1_logo sl_08" src="img/logo08.jpg"> 
+    <div class="sub01_txt10 txtstyle">
+     Rapid 1ms response time eliminates smearing, tearing, and motion blur, so you can react instantly to what’s onscreen.
+    </div> 
+    <a href="http://www.asus.com/Monitors/ROG_SWIFT_PG278Q/" target="_blank" class="learnmore02">Learn more</a> 
+   </div> 
+   <div id="sub02"> 
+    <div class="sub02_txt1 txtstyle"> 
+     <ul class="pd_link"> 
+      <li> <a href="http://www.asus.com/Graphics_Cards/STRIXGTX980DC2OC4GD5/" title="STRIX-GTX980-DC2OC-4GD5" target="_blank">STRIX-GTX980-DC2OC-4GD5</a> </li> 
+      <li> <a href="http://www.asus.com/Graphics_Cards/STRIXGTX970DC2OC4GD5/" title="STRIX-GTX970-DC2OC-4GD5" target="_blank">STRIX-GTX970-DC2OC-4GD5</a> </li> 
+      <li> <a href="http://www.asus.com/Graphics_Cards/STRIXGTX960DC2OC4GD5/" title="STRIX-GTX960-DC2OC-4GD5" target="_blank">STRIX-GTX960-DC2OC-4GD5</a> </li> 
+     </ul> 
+    </div> 
+    <div class="pd">
+     <img src="img/pd01.png">
+    </div> 
+    <a class="backtotop" href="#fourpoint"></a> 
+    <br class="clearfloat"> 
+   </div> 
+  </div> 
+  <div id="footer"> 
+   <p>The specifications and price are subject to change without prior notice. <br> ® 2015 <a href="http://advantage.asus.com">ASUS TeK </a>Computer Inc. All rights reserved. <br><br> <a href="http://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Official_Site"> Legal information</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy">Privacy Policy</a> </p> 
+  </div>   
+ </body>
+</html>

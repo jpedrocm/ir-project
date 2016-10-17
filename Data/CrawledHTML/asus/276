@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head id="Head1">
+  <title>
+
+</title> 
+  <script>
+        if (window.location.host == "www.asus.com.cn") {
+            !window.jQuery && document.write(unescape('%3Cscript src="/js/web/jquery.js"%3E%3C/script%3E'))
+        }
+        else {
+            document.write(unescape('%3Cscript src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"%3E%3C/script%3E'));
+            !window.jQuery && document.write(unescape('%3Cscript src="/js/web/jquery.js"%3E%3C/script%3E'))
+        }
+    </script> 
+  <script src="/js/web/asus.js"></script> 
+  <script type="text/javascript" src="/js/web/XML.js"></script> 
+  <script type="text/javascript" src="/js/web/default.js"></script> 
+ </head> 
+ <body> 
+  <form name="form1" method="post" action="Rewrite.aspx" id="form1"> 
+   <div> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE2MTY2ODcyMjlkZIWbFepIJbRBRlHviymeaWURnu36pRCyEfXQwGQEislI"> 
+   </div> 
+   <div></div> 
+   <div> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="DB21C9EB"> 
+   </div>
+  </form> 
+  <script type="text/javascript">
+        var in_page;
+        function fn_compare() { }
+
+        var SecureHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+        $(document).ready(function() {
+            switch (location.href.toLowerCase()) {
+                case SecureHost + "www.asus.com/nl/rma/":
+                case "http://athena.asus.com/nl/rma/":
+                    location = 'https://eu-rma.asus.com/pick_eu/nl';
+                    break;
+                case SecureHost + "nl.asus.com/rma/":
+                case SecureHost + "www.asus.nl/rma/":
+                case "http://athena.asus.com/nl/rma/":
+                    location = 'https://eu-rma.asus.com/pick_eu/nl';
+                    break;
+                case SecureHost + "uk.asus.com/rma/":
+                case "http://athena.asus.com/uk/rma/":
+                    location = 'https://eu-rma.asus.com/pick_eu/uk/';
+                    break;
+                case SecureHost + "be.asus.com/rma/":
+                case "http://athena.asus.com/be/rma/":
+                    location = 'https://eu-rma.asus.com/pick_eu/b_f/';
+                    break;
+                case SecureHost + "be.asus.com/rma/":
+                case "http://athena.asus.com/be/rma/":
+                    location = 'https://eu-rma.asus.com/pick_eu/b_f/';
+                    break;
+                case SecureHost + "www.asus.hu/rma/":
+                    location = 'https://eu-rma.asus.com/pick_eu/h';
+                    break;
+                case SecureHost + "www.asus.com/hu/rma/":
+                case "http://athena.asus.com/newhu/rma/":
+                    location = 'https://eu-rma.asus.com/pick_eu/h/';
+                    break;
+                case SecureHost + "www.asus.com/ro/rma/":
+                case "http://athena.asus.com/newro/rma/":
+                    location = 'https://eu-rma.asus.com/pickup_europe/pickup.aspx?country=ro';
+                    break;
+                case SecureHost + "www.asus.com/cz/rma/":
+                case "http://athena.asus.com/newcz/rma/":
+                    location = 'https://eu-rma.asus.com/pick_eu/cz/';
+                    break;
+                case SecureHost + "www.asus.com/be-nl/rma/":
+                case "http://athena.asus.com/newbe-nl/rma/":
+                    location = 'https://eu-rma.asus.com/pick_eu/nl/';
+                    break;
+                case SecureHost + "www.asus.com/be-fr/rma/":
+                case "http://athena.asus.com/newbe-fr/rma/":
+                    location = 'https://eu-rma.asus.com/pick_eu/b_f/';
+                    break;
+                case SecureHost + "www.asus.com/uk/rma/":
+                case "http://athena.asus.com/newuk/rma/":
+                    location = 'https://eu-rma.asus.com/pick_eu/uk/';
+                    break;
+                case SecureHost + "www.asus.com/il/rma/":
+                case "http://athena.asus.com/newil/rma/":
+                    location = 'https://eu-rma.asus.com/pick_eu/il/';
+                    break;
+                default:
+                    //var path = (window.location.hostname == "athena.asus.com") ? window.location.hostname + "/" + getWebsite()  : window.location.hostname;
+                    var path = window.location.hostname;
+                    if (isApplicationPathSite()) path = window.location.hostname + "/" + getWebsite();
+                    //if(isMultipleLanguageWebsite()) path = window.location.hostname + "/" + getShortLanguage(getWebsite());
+
+                    location = SecureHost + path + '/PageError/';
+                    break;
+            }
+        });
+   </script>   
+ </body>
+</html>

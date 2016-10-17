@@ -1,0 +1,338 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" itemscope itemtype="http://schema.org/Article" class="no-js">
+ <head id="Head1">
+  <title>
+	ASUS ServerCare Service Program
+</title> 
+  <link rel="shortcut icon" href="//www.asus.com/images/favicon.ico" type="image/x-icon"> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="description" content=""> 
+  <meta name="author" content=""> 
+  <link rel="canonical" href="https://www.asus.com/support/article/588/"> 
+  <script type="text/javascript" src="/support/js/modernizr-2.5.3.min.js"></script> 
+  <script type="text/javascript" src="/support/js/jquery.js"></script> 
+  <script type="text/javascript" src="/support/js/bootstrap.js"></script> 
+  <script type="text/javascript" src="/support/js/myscript.js"></script> 
+  <script type="text/javascript" src="/support/js/jquery.colorbox.js"></script> 
+  <script type="text/javascript" src="/support/js/jcarousellite_1.0.1.js"></script> 
+  <!--<script type="text/javascript" src="/support/js/gaTrace.js"></script>--> 
+  <script src="/support/js/browser.js"></script> 
+  <script src="/support/js/jquery_phone_nav.js"></script> 
+  <!--[if lt IE 9]>
+      <script src="/support/js/html5.js"></script>
+    <![endif]--> 
+  <link type="text/css" rel="stylesheet" href="/support/stylesheets/reset.css"> 
+  <link type="text/css" rel="stylesheet" href="/support/stylesheets/base.css"> 
+  <link type="text/css" rel="stylesheet" href="/support/stylesheets/colorbox.css"> 
+  <!-- Le fav and touch icons --> 
+ </head>
+ <body>
+  <input name="header1$hd_version" type="hidden" id="hd_version" value="1"> 
+  <script type="text/javascript">
+    $(document).ready(function () {
+        var version = $("#hd_version").val();
+        if(version == "1"){//full_style需在resp前
+            var linkfs = document.createElement('link');
+            linkfs.type = 'text/css';
+            linkfs.rel = "stylesheet";
+            linkfs.href = "/support/stylesheets/full_style.css";
+            document.getElementsByTagName("head")[0].appendChild(linkfs);
+        }
+        var linkresp = document.createElement('link');
+        linkresp.type = 'text/css';
+        linkresp.rel = "stylesheet";
+        linkresp.href = "/support/stylesheets/responsive.css";
+        document.getElementsByTagName("head")[0].appendChild(linkresp);
+    });
+</script> 
+  <script type="text/javascript">
+    //loading local css file
+    $(document).ready(function () {
+        var css_name = "";
+        var lang_prefix = window.location.pathname.split("/");
+        if (lang_prefix.length >= 2)
+            if (lang_prefix[1] == "support")
+                css_name = "en.css";
+            else
+                css_name = lang_prefix[1] + ".css";
+
+        if (window.console)
+            console.log("css name: " + css_name);
+
+        if (window.location.hostname.indexOf("asus.com.cn") >= 0) {
+            css_name = "cn.css";
+        }
+
+        if (window.console)
+            console.log("css name: " + css_name);
+
+        if (css_name != "") {
+            var link = document.createElement('link');
+            link.type = 'text/css';
+            link.rel = "stylesheet";
+            link.href = "/support/stylesheets/local/" + css_name;
+            document.getElementsByTagName("head")[0].appendChild(link);
+        }
+
+        //video play box
+        $(".vEmbedded > a").colorbox({ iframe: true, width: "70%", height: "80%" });
+
+
+
+
+    });
+</script> 
+  <script type="text/javascript">
+    window.ASUSInit = function () {
+        var api_lang = '';
+        var api_key = '0000000004';
+        var lang_prefix = window.location.pathname.split("/");
+        if (window.console) {
+            console.log("pathname: " + window.location.pathname);
+        }
+        if (lang_prefix.length >= 2) {
+            if (lang_prefix[1] == "support")
+                api_lang = "";
+            else
+                api_lang = lang_prefix[1];
+        }
+        if (window.location.hostname.indexOf("asus.com.cn") >= 0) {
+            api_lang = "cn";
+            api_key = '0000000019';
+        }
+        if (window.console)
+            console.log("lang: " + api_lang);
+        asus_api.init({ appkey: api_key, lang: api_lang });
+    };
+    (function (d) {
+        var js, id = 'asus-jsapi', IsDebug='False';
+
+        if (d.getElementById("asus-jsapi")) { return; }
+        js = d.createElement('script');
+        js.id = id;
+        js.async = true;
+
+        if(IsDebug == 'True'){
+//                js.src = "//test.asus.com/API/js/asus_api_v2.js";
+                js.src = "//www.asus.com/API/js/asus_api.js";
+        }else{
+            if (window.location.href.indexOf("asus.com.cn") >= 0 || window.location.hostname.indexOf("asus.com.cn") >= 0)
+                js.src = "//www.asus.com.cn/API/js/asus_api.js";
+            else
+                js.src = "//www.asus.com/API/js/asus_api.js";
+        }
+       
+        d.getElementsByTagName('head')[0].appendChild(js);
+    } (document)); 
+
+</script> 
+  <script src="/support/js/MISTrack.js" type="text/javascript"></script> 
+  <script type="text/javascript">
+                      var w=window;
+                      if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document,AKSB=AKSB||{};AKSB.q=[];AKSB.mark=function(a,b){AKSB.q.push(["mark",a,b||(new Date).getTime()])};AKSB.measure=function(a,b,c){AKSB.q.push(["measure",a,b,c||(new Date).getTime()])};AKSB.done=function(a){AKSB.q.push(["done",a])};AKSB.mark("firstbyte",(new Date).getTime());AKSB.prof={custid:"327345",ustr:"UNKNOWN",originlat:0,clientrtt:51,ghostip:"177.159.159.52",
+                      ipv6:false,pct:10,clientip:"187.59.114.85",requestid:"23d930f0",protocol:"",blver:10,akM:"e15",akN:"ae",akTT:"O",akTX:"1",akTI:"23d930f0",ai:"159086",ra:"",pmgn:"",pmgi:"",pmp:""};(function(a){var b=
+                      d.createElement("script");b.async="async";b.src=a;a=d.getElementsByTagName("script");a=a[a.length-1];a.parentNode.insertBefore(b,a)})(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")};
+                    </script>   
+  <form method="post" action="./?ln=en&amp;no=588&amp;" id="form1"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTczMjI0NjUzOA9kFgICAQ9kFgICAQ9kFgpmD2QWAgIBD2QWCAIBDxYEHgRocmVmBQEvHglpbm5lcmh0bWwFBEhvbWVkAgIPFgIeBXN0eWxlBQ5kaXNwbGF5OmlubGluZWQCAw8WBh8ABQgvc3VwcG9ydB8CBQ5kaXNwbGF5OmlubGluZR8BBQdTdXBwb3J0ZAIEDxYCHwIFDmRpc3BsYXk6aW5saW5lZAIBDxYCHwEFFUltcG9ydGFudCBJbmZvcm1hdGlvbmQCAg8WAh8BBR9BU1VTIFNlcnZlckNhcmUgU2VydmljZSBQcm9ncmFtZAIDDxYCHgRUZXh0Be0WPHA+PGltZyBjbGFzcz0iZmxvYXRMZWZ0SW1nIiBoZWlnaHQ9IjEyNyIgc3JjPSIvc3VwcG9ydC9pbWFnZXMvc2VydmVyX2NhcmVfbG9nby5naWYiIHdpZHRoPSIxMzMiIC8+PC9wPg0KDQo8cD5PdXIgZ29hbCBpcyB0byBpbmNyZWFzZSBvdXIgcGFydG5lcnMgY29tcGV0aXRpdmVuZXNzIGJ5IHNocmlua2luZyBsZWFkIHRpbWUsIHJlZHVjaW5nIGxvZ2lzdGljcyBjb3N0IGFuZCBpbXByb3Zpbmcgb3VyIGFmdGVyLXNhbGUgc3VwcG9ydCZxdW90OyBzYWlkIFNoYXduIFNodSwgYnVzaW5lc3MgbWFuYWdlciBvZiBBU1VTIFNlcnZlciBTb2x1dGlvbnMuIFRoZSBBU1VTIFNlcnZlckNhcmUgcHJvZ3JhbSBjb25zaXN0cyBvZiA0IGVsZW1lbnRzIHByb2R1Y3QgbWFuYWdlbWVudCwgYWNjb3VudCBtYW5hZ2VtZW50LCB3YXJlaG91c2UgYW5kIGFmdGVyLXNhbGUgc2VydmljZXMuPC9wPg0KDQo8ZGl2IGNsYXNzPSJib3RoIj4mbmJzcDs8L2Rpdj4NCg0KPGg0IGNsYXNzPSJmcmlzdFRleHQiPlByZS1TYWxlcyBTZXJ2aWNlczogUHJvZHVjdCBhbmQgQWNjb3VudCBNYW5hZ2VtZW50PC9oND4NCg0KPHA+UHJvZHVjdCBhbmQgYWNjb3VudCBtYW5hZ2VtZW50IGZvY3VzIG9uIGVuaGFuY2luZyB0aGUgbXV0dWFsbHkgYmVuZWZpY2lhbCByZWxhdGlvbnMgQVNVUyBoYXMgZm9ybWVkIHdpdGggaXRzIHBhcnRuZXJzLiBUaGUgcHJvZHVjdCBtYW5hZ2VtZW50IGFzcGVjdCBvZiBBU1VTIFNlcnZlckNhcmUgZW5jb3VyYWdlcyBpbmZvcm1hdGlvbiBzaGFyaW5nIHRvIGVuc3VyZSBkZWxpdmVyeSBvZiB0aGUgbGF0ZXN0IHByb2R1Y3QgaW5mb3JtYXRpb24uIEluIGFkZGl0aW9uLCB0aGUgcHJvZ3JhbSBwcm92aWRlcyByZWd1bGFyIHNlbWluYXJzIHRvIGludHJvZHVjZSBpbmR1c3RyeSB0cmVuZHMgYW5kIHByb2R1Y3Qgcm9hZG1hcHMsIGFuZCBkZWRpY2F0ZXMgZXhwZXJ0cyB0byBmYWNpbGl0YXRlIHNvbHV0aW9uLWltcGxlbWVudGF0aW9uIGNvbnN1bHRpbmcuIEZvciBhY2NvdW50IG1hbmFnZW1lbnQsIEFTVVMgU2VydmVyQ2FyZSBzdHJpdmVzIGZvciBhYnNvbHV0ZSBjdXN0b21lciBzYXRpc2ZhY3Rpb24gYnkgZ3VhcmFudGVlaW5nIG9yZGVyLCBwcmljaW5nIGFuZCBzaGlwbWVudCBmdWxmaWxsbWVudHMgYW5kIG9yZ2FuaXppbmcgcHJvbW90aW9uIGFuZCByZWJhdGUgcHJvZ3JhbXMuPC9wPg0KDQo8aDQ+QWZ0ZXItU2FsZSBTZXJ2aWNlczogV2FyZWhvdXNlIGFuZCBUZWNobmljYWwgU3VwcG9ydDwvaDQ+DQoNCjxwPkFTVVMgU2VydmVyQ2FyZSBndWFyYW50ZWVzIHRoZSBhdmFpbGFiaWxpdHkgb2Ygc2VydmVyIGJhcmVib25lIHN5c3RlbXMgYW5kIHNlcnZlciBtb3RoZXJib2FyZHMgaW4gdGhlIEFTVVMgd2FyZWhvdXNlIHRvIGVsaW1pbmF0ZSB0aGUgc2hpcHBpbmcgYW5kIGhhbmRsaW5nIGNoYXJnZXMgb24gZWFjaCBvcmRlci4gVGhlIHJlc3VsdHMgYXJlIHJlZHVjZWQgc2hpcHBpbmcgY29zdHMgYW5kIGRlbGl2ZXJ5IGxlYWQtdGltZS4gQSB0ZWNobmljYWwgc3VwcG9ydCBob3RsaW5lIGlzIHNldCB1cCBpbiBoZWFkcXVhcnRlciB0byByZXNvbHZlIHRlY2huaWNhbCBpbnF1aXJpZXMgZnJvbSBwYXJ0bmVycyBhbmQgYW4gQSBSTUEgKCByZXR1cm4gbWF0ZXJpYWwgYXV0aG9yaXphdGlvbiApIHRlYW0sIGJhc2VkIGluIHRoZSBOZXRoZXJsYW5kcywgZmFjaWxpdGF0ZXMgQVNVUyAxLURheSBBUlMgKCBBZHZhbmNlZCBSZXBsYWNlbWVudCBSTUEgU2VydmljZSApIHRvIG9mZmVyIGVmZmljaWVudCB0ZWNobmljYWwgc3VwcG9ydC48L3A+DQoNCjxkaXYgaWQ9ImRiNTg4Ij4NCjxkaXYgY2xhc3M9IndlbGwiPg0KPHVsIGNsYXNzPSJyb3ctZmx1aWQgY2xlYXJmaXgiPg0KCTxsaSBjbGFzcz0ic3BhbjYiPjxhIGhyZWY9Ii9zdXBwb3J0L0FydGljbGUvNTgwLyIgdGFyZ2V0PSJfYmxhbmsiPjxpbWcgc3JjPSIvc3VwcG9ydC9pbWFnZXMvYXN1c2Fyc19ldXJvcGUuZ2lmIiAvPiA8L2E+DQoNCgk8ZGl2IGNsYXNzPSJ0eHQtem9uZSI+PGEgaHJlZj0iL3N1cHBvcnQvQXJ0aWNsZS81ODAvIj48Yj5BU1VTIEFSUzwvYj48YnIgLz4NCglOT1cgU1VSRklORy4uLjxiciAvPg0KCUVVUk9QRSA8L2E+PC9kaXY+DQoJPC9saT4NCgk8bGkgY2xhc3M9InNwYW42Ij48YSBocmVmPSIvc3VwcG9ydC9BcnRpY2xlLzU4MS8iPjxpbWcgc3JjPSIvc3VwcG9ydC9pbWFnZXMvYXN1c2Fyc19ub3J0aGEuZ2lmIiAvPiA8L2E+DQoJPGRpdiBjbGFzcz0idHh0LXpvbmUiPjxhIGhyZWY9Ii9zdXBwb3J0L0FydGljbGUvNTgxLyIgdGFyZ2V0PSJfYmxhbmsiPjxiPkFTVVMgQVJTPC9iPjxiciAvPg0KCWZvciBzZXJ2ZXIgYm9hcmQgbiYjMzk7IGJhcmVib25lPGJyIC8+DQoJTk9SVEggQU1FUklDQSA8L2E+PC9kaXY+DQoJPC9saT4NCjwvdWw+DQo8L2Rpdj4NCjwvZGl2Pg0KDQo8cD5UaGUgbmV3IHByb2dyYW0gaW1wcm92ZXMgdGhlIGN1cnJlbnQgcHJvZHVjdCBhbmQgc2VydmljZSBvZmZlcmluZ3MuIEFTVVMgZnVsbCBsaW5lIG9mIHNlcnZlciBiYXJlYm9uZSBzeXN0ZW1zIGFuZCBzZXJ2ZXIgbW90aGVyYm9hcmRzIGlzIG5vdyBwcm90ZWN0ZWQgdW5kZXIgYSB0aHJlZS15ZWFyIHdhcnJhbnR5LiBUaGUgMS1EYXkgQVJTLCB3aGljaCBwcmV2aW91c2x5IG9ubHkgaW5jbHVkZWQgc2VydmVyIGJhcmVib25lIHN5c3RlbXMsIGhhcyBiZWVuIGV4dGVuZGVkIHRvIHNlcnZlciBtb3RoZXJib2FyZHMgYXMgd2VsbC4gVGhlIHByb2R1Y3RzLCBvZiBjb3Vyc2UsIGFsc28gYWRvcHRlZCBwb3dlcmZ1bCBzZXJ2ZXIgbWFuYWdlbWVudCBzb2Z0d2FyZSwgQVNNQSAoIEFTVVMgU3lzdGVtIE1vbml0b3JpbmcgQWdlbnQgKSBhbmQgQVNXTSAoQVNVUyBTeXN0ZW0gV2ViLUJhc2VkIE1hbmFnZW1lbnQpLjwvcD4NCg0KPHA+PGltZyBzcmM9Ii9zdXBwb3J0L2ltYWdlcy9zZXJ2ZXJjYXJlLmdpZiIgLz48L3A+ZAIED2QWCmYPFgIfAQUZV2hhdCYjMzk7cyBOZXcgYWJvdXQgQVNVU2QCAQ8WBB8ABRQvc3VwcG9ydC9JbmZvcm1hdGlvbh8BBRdOZXdzICZhbXA7IEFubm91bmNlbWVudGQCAg8WAh8DBQEwZAIDDxYCHwEFDVBvcHVsYXIgVG9waWNkAgQPFgIeC18hSXRlbUNvdW50AgoWFGYPZBYCZg8VAxUvc3VwcG9ydC9BcnRpY2xlLzU2NS8FX3NlbGYWSG93IHRvIGZpbmQgbW9kZWwgbmFtZWQCAQ9kFgJmDxUDFS9zdXBwb3J0L0FydGljbGUvNTY2LwVfc2VsZiFIb3cgdG8gZmluZCBwcm9kdWN0IFNlcmlhbCBOdW1iZXJkAgIPZBYCZg8VAxUvc3VwcG9ydC9BcnRpY2xlLzU4OC8FX3NlbGYgQVNVUyBTZXJ2ZXJDYXJlIFNlcnZpY2UgUHJvZ3JhbSBkAgMPZBYCZg8VAxUvc3VwcG9ydC9BcnRpY2xlLzYwNC8FX3NlbGYfQVNVUyBCYXR0ZXJ5IEluZm9ybWF0aW9uIENlbnRlcmQCBA9kFgJmDxUDFS9zdXBwb3J0L0FydGljbGUvNTk3LwVfc2VsZhRFUEVBVCBQcm9kdWN0IFBvbGljeWQCBQ9kFgJmDxUDFS9zdXBwb3J0L0FydGljbGUvNTkyLwVfc2VsZidDb21tZXJjaWFsIE5vdGVib29rIEhvdGxpbmUgSW5mb3JtYXRpb25kAgYPZBYCZg8VAxUvc3VwcG9ydC9BcnRpY2xlLzU2OC8FX3NlbGYXQ3VzdG9tZXIgSW5kdWNlZCBEYW1hZ2VkAgcPZBYCZg8VAxUvc3VwcG9ydC9BcnRpY2xlLzc1MC8FX3NlbGYRSG93IHRvIEZpbmQgUFBJRD9kAggPZBYCZg8VAxUvc3VwcG9ydC9BcnRpY2xlLzc1MS8FX3NlbGYZSG93IHRvIEZpbmQgQ2hlY2sgTnVtYmVyP2QCCQ9kFgJmDxUDFS9zdXBwb3J0L0FydGljbGUvNTgwLwVfc2VsZjZXYXJyYW50eSBSZXBsYWNlbWVudCBPcHRpb25zICYgSW5zdHJ1Y3Rpb25zKGluIEVVUk9QRSlkZLj8vmp9M/I688KghxsEPR2RUGVR"> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="68439541"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdABA+KROWX3TYOsj5hDlFvHxFNZB+pap+Eh42iiSS4+k4PiDtOPoS55I9+oKXugLW/gJknmDr+bFUDIsvuku77WNYG5h9XiJ0VVjJz4L6Ox2bFWxjUZuw02eutnZU5r+PY70ozEk9BF7FgIADe9dMv0ODi3gbETdcMkdBFBX+UY75kNghNKcidJD7Ammv+xGzoC84PZgHOjFiGVCGm0Tpd4h3K8ekZEDRGShlpDpPPw1/+MP/qDIYFKA3q5NPkVyw5i7lmYvpc66jZQEsdiIbM1lDjAweZnecDvSui50NuLzBgqDZuUtozpYLLjdKv4pTnAFcAF7+rPzELe7d6WWZiXCVfpZ7uc0mBz6D63ioXBDOIGhhcaY="> 
+   </div> 
+   <!--Support--> 
+   <div class="grayBg"> 
+    <div id="important-information" class="container main-zone"> 
+     <div id="breadcrumbs"> 
+      <div id="product-topinfo"> 
+       <div id="breadcrumbs"> 
+        <a href="/" id="mainzone1_breadcrumb2_a_home" target="_self">Home</a>
+        <span id="mainzone1_breadcrumb2_s1" style="display:inline">&nbsp;&gt;&nbsp;</span>
+        <a href="/support" id="mainzone1_breadcrumb2_a_support" target="_self" style="display:inline">Support</a>
+        <span id="mainzone1_breadcrumb2_s2" style="display:inline">&nbsp;&gt;&nbsp;</span>
+        <a href="../../../uc_3/general/index.aspx" id="mainzone1_breadcrumb2_a_pagename" target="_self" style="display: none">[Page Name]</a> 
+        <span id="mainzone1_breadcrumb2_s_l1" style="display: none">&nbsp;&gt;&nbsp;</span>
+        <a href="../../../uc_3/general/index.aspx" id="mainzone1_breadcrumb2_a_l1" target="_self" style="display: none">[level 1]</a> 
+        <span id="mainzone1_breadcrumb2_s_l2" style="display: none">&nbsp;&gt;&nbsp;</span>
+        <a href="../../../uc_3/general/index.aspx" id="mainzone1_breadcrumb2_a_l2" target="_self" style="display: none">[level 2]</a> 
+        <span id="mainzone1_breadcrumb2_s_m" style="display: none">&nbsp;&gt;&nbsp;</span>
+        <a href="../../../uc_3/general/index.aspx" id="mainzone1_breadcrumb2_a_m" target="_self" style="display: none">[model]</a> 
+       </div> 
+       <div class="pull-right" id="MDA" style="display: none"> 
+        <span class="mdatext">ASUS recommends Windows® 7.</span> 
+       </div> 
+      </div> 
+     </div> 
+     <h1 id="id_top_page_title" class="page-title" langtype="support_main" langtextid="info_title1">Important Information</h1> 
+     <div class="double-border-bottom"> 
+     </div> 
+     <!--Main Content --> 
+     <div class="im-main"> 
+      <!--right--> 
+      <div class="rightC curl-shadow"> 
+       <div id="search-result"> 
+        <!--Product--> 
+        <div class="product_contentZone"> 
+         <div class="mediaZone"> 
+          <!-- AddThis Button BEGIN，Expect CN Site --> 
+          <div class="addthis_toolbox addthis_default_style"> 
+           <a class="addthis_button_compact at300m">Share</a> 
+           <a style="width: 65px;"> 
+            <div class="g-plusone" data-size="medium" style="float: left;"> 
+            </div> </a>
+           <a> 
+            <div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true" data-font="arial"> 
+            </div> </a> 
+          </div> 
+          <!-- AddThis Button END --> 
+          <div class="both"> 
+          </div> 
+          <span class="visible-phone"><a href="#" class="btn-adv">more</a></span> 
+         </div> 
+         <h1 id="mainzone1_article_title" class="page-title">ASUS ServerCare Service Program</h1> 
+         <p><img class="floatLeftImg" height="127" src="/support/images/server_care_logo.gif" width="133"></p> 
+         <p>Our goal is to increase our partners competitiveness by shrinking lead time, reducing logistics cost and improving our after-sale support" said Shawn Shu, business manager of ASUS Server Solutions. The ASUS ServerCare program consists of 4 elements product management, account management, warehouse and after-sale services.</p> 
+         <div class="both">
+          &nbsp;
+         </div> 
+         <h4 class="fristText">Pre-Sales Services: Product and Account Management</h4> 
+         <p>Product and account management focus on enhancing the mutually beneficial relations ASUS has formed with its partners. The product management aspect of ASUS ServerCare encourages information sharing to ensure delivery of the latest product information. In addition, the program provides regular seminars to introduce industry trends and product roadmaps, and dedicates experts to facilitate solution-implementation consulting. For account management, ASUS ServerCare strives for absolute customer satisfaction by guaranteeing order, pricing and shipment fulfillments and organizing promotion and rebate programs.</p> 
+         <h4>After-Sale Services: Warehouse and Technical Support</h4> 
+         <p>ASUS ServerCare guarantees the availability of server barebone systems and server motherboards in the ASUS warehouse to eliminate the shipping and handling charges on each order. The results are reduced shipping costs and delivery lead-time. A technical support hotline is set up in headquarter to resolve technical inquiries from partners and an A RMA ( return material authorization ) team, based in the Netherlands, facilitates ASUS 1-Day ARS ( Advanced Replacement RMA Service ) to offer efficient technical support.</p> 
+         <div id="db588"> 
+          <div class="well"> 
+           <ul class="row-fluid clearfix"> 
+            <li class="span6"><a href="/support/Article/580/" target="_blank"><img src="/support/images/asusars_europe.gif"> </a> 
+             <div class="txt-zone">
+              <a href="/support/Article/580/"><b>ASUS ARS</b><br> NOW SURFING...<br> EUROPE </a>
+             </div> </li> 
+            <li class="span6"><a href="/support/Article/581/"><img src="/support/images/asusars_northa.gif"> </a> 
+             <div class="txt-zone">
+              <a href="/support/Article/581/" target="_blank"><b>ASUS ARS</b><br> for server board n' barebone<br> NORTH AMERICA </a>
+             </div> </li> 
+           </ul> 
+          </div> 
+         </div> 
+         <p>The new program improves the current product and service offerings. ASUS full line of server barebone systems and server motherboards is now protected under a three-year warranty. The 1-Day ARS, which previously only included server barebone systems, has been extended to server motherboards as well. The products, of course, also adopted powerful server management software, ASMA ( ASUS System Monitoring Agent ) and ASWM (ASUS System Web-Based Management).</p> 
+         <p><img src="/support/images/servercare.gif"></p> 
+        </div> 
+       </div> 
+      </div> 
+      <!--Left--> 
+      <div id="fast-link" class="leftC left-menu-zone"> 
+       <!--only phone--> 
+       <a href="#" class="btn-adv hide visible-phone">Go Back</a> 
+       <!--only phone--> 
+       <span id="mainzone1_links_news_popular1_Span1" class="item-title" langtype="support_main" langtextid="info_title3">What's New about ASUS</span> 
+       <ul id="left-nav" class="search-nav"> 
+        <li class="nav-item-sub"><a href="/support/Information" id="mainzone1_links_news_popular1_news_link" langtype="support_main" langtextid="info_title2">News &amp; Announcement</a><a href="/support/Information" id="A1"><span class="badge badge-asus">0</span></a></li> 
+        <li class="divider"></li> 
+        <li class="active"> <h3 id="mainzone1_links_news_popular1_h3_title" class="nav-item-title">Popular Topic</h3> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/565/" target="_self"> How to find model name</a> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/566/" target="_self"> How to find product Serial Number</a> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/588/" target="_self"> ASUS ServerCare Service Program </a> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/604/" target="_self"> ASUS Battery Information Center</a> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/597/" target="_self"> EPEAT Product Policy</a> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/592/" target="_self"> Commercial Notebook Hotline Information</a> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/568/" target="_self"> Customer Induced Damage</a> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/750/" target="_self"> How to Find PPID?</a> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/751/" target="_self"> How to Find Check Number?</a> </li> 
+        <li class="nav-item-sub"><a href="/support/Article/580/" target="_self"> Warranty Replacement Options &amp; Instructions(in EUROPE)</a> </li> 
+       </ul> 
+      </div> 
+      <div class="both"> 
+      </div> 
+      <input type="hidden" name="mainzone1$links_news_popular1$hd_CurrURL" id="hd_CurrURL" value="/support/Article/588/"> 
+      <script type="text/javascript">
+    $("a[href$='" + $("#hd_CurrURL").val() + "']").css("color", "#0164a2");
+</script> 
+     </div> 
+     <!--Main Content end--> 
+    </div> 
+   </div> 
+   <!--support end--> 
+   <!--Cn 站不載入任何google & facebook 的套件--> 
+   <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=undefined"></script> 
+   <script type="text/javascript" src="/support/js/plusone.js"></script> 
+   <script type="text/javascript">
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+    } (document, 'script', 'facebook-jssdk'));</script> 
+   <!-- H-A-7 --> 
+   <input name="page_info1$langNormal" type="hidden" id="langNormal" value="en"> 
+   <input name="page_info1$hd_lang_prefix" type="hidden" id="hd_lang_prefix" value="/support"> 
+   <input name="page_info1$hd_product" type="hidden" id="hd_product"> 
+   <input name="page_info1$hd_product_name" type="hidden" id="hd_product_name"> 
+   <input name="page_info1$hd_product_name_ml" type="hidden" id="hd_product_name_ml"> 
+   <input name="page_info1$hd_series" type="hidden" id="hd_series"> 
+   <input name="page_info1$hd_series_name" type="hidden" id="hd_series_name"> 
+   <input name="page_info1$hd_series_name_ml" type="hidden" id="hd_series_name_ml"> 
+   <input name="page_info1$hd_model" type="hidden" id="hd_model"> 
+   <input name="page_info1$hd_model_ml" type="hidden" id="hd_model_ml"> 
+   <input name="page_info1$hd_os" type="hidden" id="hd_os"> 
+   <input name="page_info1$hd_hid" type="hidden" id="hd_hid"> 
+   <input name="page_info1$hd_offical_url" type="hidden" id="hd_offical_url"> 
+   <!-- Google Tag Manager with Origin gaTrace --> 
+   <noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+   </noscript> 
+   <script src="/support/js/gaTrace.js" type="text/javascript"></script> 
+   <!-- End Google Tag Manager --> 
+   <!--Online Chat--> 
+   <link href="/support/stylesheets/online-chat-btn.css" rel="stylesheet" type="text/css"> 
+   <script>
+    function inIframe() {
+        try {
+            return window.self !== window.top; //window.self means the current application , window.top means the top ahead application
+        } catch (e) {
+            return true;
+        }
+    }
+</script> 
+   <script type="text/javascript">
+    $(document).ready(function () {
+        var IsInIframe = inIframe();
+
+        if (IsInIframe) {
+            return false;
+        }
+
+        var _Local = $("#langNormal").val();
+
+        var onlineService = initOnlineService(_Local);
+        onlineService.init();
+    });
+
+    function initOnlineService(Local) {
+        var ApiUrl = window.location.protocol + "//demeter.asus.com/WSC/Support_API_New/SupportNewAPI/GetOnlineChatUrl/",
+            ApiOption;
+
+        ApiUrl += Local;
+
+        return {
+            init: function () {
+                if ($("#online-service").length > 0) return;
+
+                $.getJSON(ApiUrl + "?callback=?", ApiOption).done(function (result) {
+                    if (result && result.StatusCode == 0) {
+                        var onlineServiceString = result.Link_Name ? result.Link_Name : "Online Chat",
+                            serviceUrl = result.URL;
+
+                        onlineChatBtn = '<div id="online-service"><a class="btn" onclick="javascript:window.open(\'' + serviceUrl + '\', \'\',  \'width=520, height=700, scrollbars=yes\'); ga(\'send\', \'event\', \'button\', \'clicked\', \'onlinechat\');">' + onlineServiceString + '</a></div>';
+                        $(onlineChatBtn).appendTo("body");
+                    }
+                });
+            }
+        }
+    };
+</script> 
+   <!--Redirect en--> 
+  </form>   
+ </body>
+</html>

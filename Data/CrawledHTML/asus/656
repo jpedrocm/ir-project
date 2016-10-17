@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <title>Chương Trình Khuyến Mãi ASUS LCD</title> 
+  <style type="text/css">
+<!--
+body{background-color: #333;margin:0;
+
+	font-size:12px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height:20px; color:#FFF;}
+a{color: #FFF;text-decoration: none;}
+h1{font-size:14px;}
+p{ width:550px; margin-left:30px;}
+table{margin-bottom:10px;}
+.table_in td{
+	height:30px;border: 1px solid #999;
+	background-color: #000;color:#FFF;}
+
+table td{width:200px; height:20px;}
+input { margin:5px;}
+.top{ width:633px; margin:0px auto; background-color:#000;}
+.lod_in{text-align:center; margin:25px 0 25px 0px;}
+.Note {color:#666;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #666;}
+span{ color:#666;}
+ul{ width:545px;}
+
+.Register_list td{
+	height:20px;
+	border: 1px solid #999;
+	background-color: #CCC;
+	color:#000;
+}
+-->
+</style> 
+  <script src="jquery.min.js"></script> 
+ </head> 
+ <body> 
+  <div class="top"> 
+   <div>
+    <img src="img/top_asus-vn.jpg" alt="註冊步驟說明" width="633" height="859">
+   </div> 
+   <div> 
+    <p><b>Thời gian bắt đầu: Từ ngày 15/08/2016 - 30/09/2016</b></p> 
+    <p><b>Nội dung:</b><br> <span style="color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 0, 0); display: inline !important; float: none;"> Trong thời gian chương trình, khách hàng mua màn hình ASUS LCD sẽ nhận được các phần quà hấp dẫn: chuột không dây, bàn phím không dây, ổ cứng di động 1TB.</span></p> 
+    <p><span style="color: #C90; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 0, 0); display: inline !important; float: none;"></span> <b>Điều kiện áp dụng:</b><br> * Áp dụng cho các NPP ở Việt Nam. <br> * Sản phẩm áp dụng tặng chuột không dây NX-7015 trị giá 250.000VNĐ. <br> (Nhận trực tiếp tại nơi mua hàng)<br> - Màn hình ASUS LCD từ 21.5" đến 24”. <br> * Sản phẩm áp dụng tặng bàn phím không dây KB-8000X trị giá 500.000VNĐ. <br> (Nhận trực tiếp tại nơi mua hàng)<br> - Màn hình ASUS LCD từ 27” trở lên.<br> * Sản phẩm áp dụng tặng ổ cứng di động Transcend 1TB StoreJet M3 USB 3.0 trị giá 1.600.000VNĐ. <br> (Đăng ký nhận quà tại website)<br> - Màn hình ASUS LCD thuộc các dòng PG/MG/PA/PB. <br></p> 
+    <p> <b>Cách thức nhận quà khi mua các dòng sản phẩm PG/MG/PA/PB</b><br> - Sau khi đăng ký thành công, ASUS sẽ gửi email phản hồi tới khách hàng. <br> - Khách hàng vui lòng gửi email xác nhận địa chỉ để ASUS chuyển quà tới cho bạn. <br> - Mọi thắc mắc về chương trình, các bạn có thể gửi email về: <a href="mailto:dangkyasus@gmail.com" target="_blank"> dangkyasus@gmail.com</a>. </p> 
+   </div> 
+   <div class="lod_in"> 
+    <p>_____________________________________________________</p> 
+    <p>Bước 1: đăng ký sản phẩm　</p> 
+    <p>Đăng ký thành viên tại trang web thành viên ASUS<br> <a href="https://account.asus.com/loginform.aspx?lang=vi-vn" target="_blank" class="loginaccount">https://account.asus.com/</a></p> 
+    <p>Chọn nút đăng ký sản phẩm và điền các thông tin cần thiết</p> 
+    <p><a href="https://account.asus.com/product_reg.aspx?lang=vi-vn" target="_blank"><img src="img/daftarkanproduk-vn.jpg" width="130" height="31"></a></p> 
+    <p>Đăng ký xong quay về trang chủ </p> 
+    <p>_____________________________________________________</p> 
+    <form method="post" id="searchform" action="RegProduct.aspx"> 
+     <table border="0" cellpadding="0" cellspacing="0" align="center"> 
+      <tbody> 
+       <tr> 
+        <td align="center"> <input name="Button1" value="Nhận Quà Tặng" id="Button1" class="button-base-style" type="submit" style="width: 300px;
+height: 35px;
+font-size: 15px;
+color: #00F;" "></td> 
+       </tr> 
+      </tbody> 
+     </table> 
+    </form> 
+    <p>_____________________________________________________</p> 
+    <span>Dùng mã số thành viên, mật mã đăng nhập, <br> nếu bạn không phải là thành viên <a href="https://account.asus.com/loginform.aspx?lang=id-id" class="loginaccount">[ nhấn vào đăng ký ]</a></span> 
+   </div> 
+   <div class="Note"> 
+    <ul> 
+     <li><b>Chú ý</b></li> 
+     <li>ASUS sẽ không chịu trách nhiệm nếu khách hàng không điền đúng, đầy đủ các thông tin dẫn đến việc quà tặng bị thất lạc. </li> 
+     <li>Chương trình này áp dụng cho khách hàng cuối tại Việt Nam, thông tin đăng ký (người đăng ký, người liên hệ, người mua, điện thoại cố định, điện thoại di động, địa chỉ...) phải khớp với các thông tin từ đại lý tham dự, nếu không không thể tham gia chương trình. Để bảo vệ quyền lợi người tiêu dùng, hoạt động này không cho phép NPP đăng ký. Nếu các giấy tờ thủ tục đăng ký không không trung thực, ASUS có quyền hủy bỏ tư cách tham gia chương trình và khách hàng phải chịu toàn bộ trách nhiệm pháp lý.</li> 
+     <li>ASUS có quyền thay đổi chỉnh sửa hoặc hủy bỏ chương trình mà không cần báo trước. Những khách hàng tham gia chương trình có nghĩa đã hiểu và đồng ý với các quy định liên quan đến chương trình.</li> 
+     <li>Nếu gặp trường hợp không thể đăng ký, quý khách vui lòng gửi email tới: dangkyasus@gmail.com </li> 
+    </ul> 
+    <p>&nbsp; </p> 
+    <br> 
+    <table border="0" cellpadding="0" cellspacing="0" align="center" width="600px;"> 
+     <tbody>
+      <tr> 
+       <td align="center"><a href="http://www.asus.com/vn/Terms_of_Use_Notice_Privacy_Policy/Terms_of_Use_Notice/">[Thông báo Điều khoản Sử dụng]</a> </td> 
+       <td align="center"><a href="http://www.asus.com/vn/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy/">[Chính sách Riêng tư]</a></td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <br>
+    <br> 
+   </div> 
+  </div> 
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-38617894-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script> 
+  <script>
+    window.ASUSInit = function () { asus_api.init({ appkey: 'event00000', lang: 'vn', api_background: 'simple_black', api_layout: '1' }); };
+    (function (d) {
+        var js, id = 'asus-jsapi';
+        if (d.getElementById("asus-jsapi")) { return; }
+        js = d.createElement('script');
+        js.id = id;
+        js.async = true;
+        js.src = "//www.asus.com/API/js/asus_api.js";
+        d.getElementsByTagName('head')[0].appendChild(js);
+    }(document));
+
+
+    var appid = 'event00000';
+    window.asusapi = window.asusapi || {};
+
+    asusapi.member = {
+
+        login: function (url) {
+            if ($("#api_login")[0]) { $("#api_login").submit(); return; }
+            url = url ? url : window.location.href;
+            $("body").append('<form id="api_login" method="post" action="https://account.asus.com/signin.aspx" style="display:none"><input type="hidden" name="AppID" value="' + appid + '"><input type="hidden" name="ReturnUrl" value="' + url + '"></form>');
+            $("#api_login").submit();
+            return false;
+        }
+    };
+
+    if (window.location.href.indexOf('index.aspx') == '-1') {
+        window.location.href = "index.aspx";
+    }
+
+    
+    $('#Button1').on('click', function () {
+        asusapi.member.login("http://www.asus.com/vn/event/2015/LCD-Promotion/RegProduct.aspx");
+        return false;
+    })
+    
+    
+    $('.loginaccount').on('click',function(){
+        if ($("#api_login")[0]){ $("#api_login").submit(); return; }
+        var  url = window.location.href;
+        jQuery("body").append('<form id="api_login" method="post" action="https://account.asus.com/signin.aspx" style="display:none"><input type="hidden" name="AppID" value="'+appid+'"><input type="hidden"  name="ReturnUrl" value="'+url+'"></form>');
+        jQuery("#api_login").submit();
+        return false;
+    });
+</script>   
+ </body>
+</html>

@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width"> 
+  <meta name="description" content="Powered by ASUS offers dream machines with select system-builders, from small-form-factor dynamos to giant liquid-cooled beasts, Powered by ASUS means exclusivity, performance, and art."> 
+  <meta name="keywords" content="ASUS,VGA,MB,Desktop,Display,Monitor,Networks,Server &amp; Workstation,Chassis,Motherboards,PC Gaming hardware,Gaming motherboard,overclocking motherboard,Battlefield,assassins creed,Optical Storage,Graphics Cards,Multimedia,Peripherals &amp; Accessories,accessories,Peripheral,PC Accessories,Computer Peripheral,Power Supply,Thermal Solution,Eshop,PCs,Barebone PC, ASUS Partners, PBA, PBA Systems, ASUS System Integrator, ASUS System Builder, ASUS Gaming Systems, Gaming System, ASUS Computer, ASUS Gaming Computer"> 
+  <meta property="og:site_name" content="Powered by ASUS"> 
+  <meta property="og:title" content="Powered by ASUS."> 
+  <meta property="og:description" content="Powered by ASUS offers dream machines with select system-builders, from small-form-factor dynamos to giant liquid-cooled beasts, Powered by ASUS means exclusivity, performance, and art."> 
+  <link rel="shortcut icon" href="http://www.asus.com/media/img/favicon.ico"> 
+  <title style="direction: rtl !important;">بدعم من ASUS</title> 
+  <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" type="text/css"> 
+  <link href="Theme/CSS/normalize.css" rel="stylesheet" media="screen"> 
+  <link href="Theme/CSS/default.css" rel="stylesheet" media="screen"> 
+  <link href="Theme/CSS/idangerous.swiper.css" rel="stylesheet" media="screen"> 
+  <script src="Theme/Javascript/modernizr.custom.08193.js"></script> 
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> 
+  <script src="Theme/Javascript/default.js"></script> 
+  <script src="Theme/Javascript/idangerous.swiper.min.js"></script> 
+  <script type="text/javascript">
+    //ASUS header & footer
+        window.ASUSInit = function () {
+            asus_api.init({ appkey: 'campa00004' , lang: 'sa-ar', api_menu_logo: '0' } );
+        };
+        (function(d){
+            var js, id = 'asus-jsapi';
+            if (d.getElementById("asus-jsapi")) {return;}
+            js = d.createElement('script');
+            js.id = id;
+            js.async = true;
+            js.src = "//www.asus.com/API/js/asus_api.js";
+            d.getElementsByTagName('head')[0].appendChild(js);
+        }(document));
+     </script> 
+ </head> 
+ <body> 
+  <div class="wrapper"> 
+   <header class="header"> 
+    <section class="header-inner"> 
+     <a href="index.html"><img class="logo" src="Theme/Image/UI/logo.png"></a> 
+     <div class="burger-wrapper"> 
+      <a class="burger burger-on"></a> 
+      <a class="burger burger-off"></a> 
+     </div> 
+     <ul class="menu"> 
+      <li style="direction: rtl !important;"><a href="index.html" class="active" onclick="ga('send', 'event', 'menus', 'clicked', ‘powered-by-asus-au')">بدعم من ASUS</a></li> 
+      <li style="direction: rtl !important;"><a href="buynow.html" class="icon-cart" onclick="ga('send', 'event', 'menus', 'clicked', ‘buy-a-pc-now-au')">اشتر جهاز مكتبي الآن!</a></li> 
+      <li style="direction: rtl !important;"><a href="companion.html" onclick="ga('send', 'event', ‘menus’, 'clicked', ‘best-companion-with-your-pc-au')">أفضل رفيق لجهازك المكتبي</a></li> 
+      <li style="direction: rtl !important;"><a href="promotion.html" onclick="ga('send', 'event', ‘menus', 'clicked', ‘events-and-promotion-au')">الأحداث والعروض</a></li> 
+     </ul> 
+    </section> 
+   </header> 
+   <main class="main"> 
+    <section class="banner home-banner"> 
+     <div class="hero"> 
+      <!-- <a href="#"><div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-12.jpg)"></div></a> --> 
+      <!--banner slider : start --> 
+      <a class="arrow-left" href="#"></a> 
+      <a class="arrow-right" href="#"></a> 
+      <div class="swiper-container"> 
+       <div class="swiper-wrapper"> 
+        <div class="swiper-slide"> 
+         <div class="swiper-img">
+          <a href="http://www.asus.com/sa-ar/Graphics-Cards/ROG-STRIX-GTX1080-O8G-GAMING/" target="_blank" onclick="ga('send', 'event', ‘banners', 'clicked', ‘ROG STRIX-GTX1080-O8G-GAMING')">
+           <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-8.jpg)"></div></a>
+         </div> 
+        </div> 
+        <div class="swiper-slide"> 
+         <div class="swiper-img">
+          <a href="#" target="_blank">
+           <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/Banner-1.jpg)"></div></a>
+         </div> 
+        </div> 
+        <div class="swiper-slide"> 
+         <div class="swiper-img">
+          <a href="http://www.asus.com/sa-ar/Graphics-Cards/ROG-STRIX-RX480-O8G-GAMING/" target="_blank" onclick="ga('send', 'event', ‘banners', 'clicked', ‘ROG-STRIX-RX480-O8G-GAMING')">
+           <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-13.jpg)"></div></a>
+         </div> 
+        </div> 
+        <div class="swiper-slide"> 
+         <div class="swiper-img">
+          <a href="http://www.asus.com/sa-ar/Graphics-Cards/STRIXR9390XDC3OC8GD5GAMING/" target="_blank" onclick="ga('send', 'event', ‘banners', 'clicked', ‘STRIXR9390XDC3OC8GD5GAMING')">
+           <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-14.jpg)"></div></a>
+         </div> 
+        </div> 
+        <div class="swiper-slide"> 
+         <div class="swiper-img">
+          <a href="https://www.asus.com/event/vga/gears-of-war-4/" target="_blank">
+           <div class="swiper-img-container" style="background-image: url(Theme/Image/banner/banner-15.jpg)"></div></a>
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pagination"></div> 
+      <!--banner slider : end --> 
+     </div> 
+    </section> 
+    <section class="home-intro"> 
+     <div class="home-intro-inner clear"> 
+      <div class="home-logo">
+       <img src="Theme/Image/UI/logo.png">
+      </div> 
+      <div class="text"> 
+       <h2 style="direction: rtl !important;">مدعومة بواسطة ASUS التكنولوجيا كعمل فني.</h2> 
+       <p style="direction: rtl !important;">أجهزة ASUS لأولئك الذين يقبلون الكمال فحسب. ففريق البحث والتطوير العالمي الخاص بنا مكرس للوفاء بشعار الشركة – بحثاً عن المذهل. ويتأكد سعينا الحثيث لتحقيق الكمال بما يزيد على 3000 جائزة نحصل عليها سنوياً. وبعد ذلك، يعود الفضل لشركائنا في الوفاء بهذا الشعار: فنحن نختار بناة الأنظمة الذين يقومون بتصميم آلات خرافية غير متوفرة في أي مكان آخر، بدءً من المولدات صغيرة الحجم وصولاً إلى الأجهزة المتوحشة العملاقة المبردة بالسائل. أجهزة ASUS تعني الحصرية. تعني الأداء. تعني التكنولوجيا كعمل فني. لماذا قد تنظر إلى أي شيء أقل من ذلك؟</p> 
+      </div> 
+     </div> 
+    </section> 
+    <section class="home-duet clear"> 
+     <div class="asset"> 
+      <div class="text"> 
+       <h3 style="direction: rtl !important;">العلامة التجارية رقم واحد على مستوى العالم في اللوحات الأم</h3> 
+       <p style="direction: rtl !important;">كانت ASUS العلامة التجارية الرائدة على مستوى العالم في اللوحات الأم لما يزيد على 10 أعوام متتالية، ملتزمة بالإبداع والأداء. كما أنها أفضل علامة تجارية للوحات الأم، مع المنتجات المبنية على أربعة محاور – الأفضل مبيعاً، سهلة الاستخدام، الاستقرار، والثقة. ومع بيع ما يزيد على 500 مليون لوحة على مستوى العالم منذ عام 1989، فإن ASUS هي العلامة التجارية التي تثق بها.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-a-1.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text" style="direction: rtl !important;"> 
+       <h3>العلامة التجارية رقم 1 على مستوى العالم في بطاقات الجرافيكس</h3> 
+       <p>تعتبر ASUS العلامة التجارية رقم 1 في بطاقات الجرافيكس، مع تكنولوجيا Auto-Extreme الأولى من نوعها على مستوى الصناعة – وهي عملية إنتاج مؤتمتة بالكامل بنسبة 100% لضمان أفضل موثوقية. ومع تكنولوجيات التبريد الحصرية، وتصميم البرمجيات البديهي، تقدم بطاقات الجرافيكس ASUS تجربة ألعاب راقية حقاً، لمزيد من الإثارة، ومزيد من المرح، ومزيد من الإنتصارات.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-a-2.jpg">
+      </div> 
+     </div> 
+    </section> 
+    <section class="home-team clear"> 
+     <div class="asset"> 
+      <div class="text" style="direction: rtl !important;"> 
+       <h3>العلامة التجارية رقم 1 في شاشات الألعاب، معتمدة بتكنولوجيا TÜV Blue-Light</h3> 
+       <p>تسيطر شاشات ASUS على الكثير من المراكز الأولى في الصناعة. وتتميز شاشاتنا بالأداء المتميز في خفض إشعاعات الضوء الأزرق، مما يخفض الضوء الأزرق الضار بما يصل إلى 70%، مع المزيد من الإعتمادات من معمل TÜV أكثر من أي علامة تجارية أخرى- إعتراف جاد من منظمة اختبار الشاشات الرائدة على مستوى العالم!</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-1.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text" style="direction: rtl !important;"> 
+       <h3>حلول التوصيل الشبكي السريعة</h3> 
+       <p>تقدم لك ASUS حلول توصيل شبكي سريعة قائمة على أربعة قيم أساسية: أبعد تغطية واي فاي لتوصيل شبكي متصل دائماً، سهولة الإعداد والإدارة مع تطبيق ASUS Router البديهي سهل الاستخدام والواجهة ASUSWRT، والتوصيل الشبكي الآمن مع خاصية ASUS AiProtection، والجودة الموثوقة مع الموثوقية الحائزة على جائزة.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-2.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text" style="direction: rtl !important;"> 
+       <h3>تخزين آمن لمدة 1000 عام لكل المحركات الضوئية الداخلية</h3> 
+       <p>تدعم محركات ASUS الضوئية تكنولوجيا M-DISC™، حل التخزين الأرشيفي الذي يحمي الذكريات الرقمية الثمينة. وتنقش تكنولوجيا النسخ ASUS M-DISC البيانات المسجلة في طبقة قوية كالصخر حائزة على براءة اختراع تقاوم أقصى الظروف – مما يحافظ على المعلومات المخزنة آمنة لعقود.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-3.jpg">
+      </div> 
+     </div> 
+     <div class="asset"> 
+      <div class="text" style="direction: rtl !important;"> 
+       <h3>اختيار القراء من مجلة PC Games Hardware لثلاثة أعوام متتالية</h3> 
+       <p>تم تصميم بطاقات ASUS الصوتية لإرضاء المستمعين الأكثر تطلباً، فقد تم تصميمها بمكونات بمستوى مكونات أجهزة عشاق دقة الصوت، مع الإنتباه الصارم للتفاصيل. ومع نسبة SNR العالية، ومكبر سماعة الرأس المختار بدقة، والصوت المحيطي متعدد القنوات، فإن بطاقات ASUS الصوتية هي أفضل خيار لتحسين تجارب الترفيه واللعب الخاصة بك.</p> 
+      </div> 
+      <div class="img">
+       <img src="Theme/Image/home/asset-b-4.jpg">
+      </div> 
+     </div> 
+    </section> 
+    <section class="buy-now"> 
+     <a href="buynow.html" class="action" onclick="ga('send', 'event', 'navigations', 'clicked', ‘buy-a-pc-now-au')" style="direction: rtl;">اشتر جهاز مكتبي الآن!</a> 
+    </section> 
+   </main> 
+   <footer class="footer"> 
+    <p class="backtotop"><a>Back to Top</a></p> 
+    <section class="content"> 
+     <p class="copyright " style="direction: rtl !important;"><a href="https://asus.com/" target="_blank"><img src="Theme/Image/UI/asus.png"></a><br>شركة © 2016 ASUSTeK Computer. جميع الحقوق محفوظة. شروط الاستخدام. كل المواصفات والشروط خاضعة للتغيير بدون إخطار. يرجى التحقق مع المورد الخاص بك للحصول على العروض بالضبط على الموديلات المختارة. قد لا تتوافر المنتجات في كل الأسواق. قد لا تبدو المنتجات كما هو معروض في الصورة بالضبط. العلامة التجارية وأسماء المنتجات المذكورة هي علامات تجارية للشركات المعنية. شركة ASUS لن تكون مسئولة عن الأخطاء الفنية أو التحريرية أو الحذف الموجود في هذا المستند.</p> 
+    </section> 
+   </footer> 
+   <div class="sidenav" style="direction: rtl !important;"> 
+    <!--<a class="sidenav-home-1"><span>OVERVIEW</span></a>--> 
+    <a class="sidenav-home-2"><span>لماذا المنتجات المدعومة من ASUS؟</span></a> 
+    <a class="sidenav-home-3"><span>لماذا تختار منتجات ASUS؟</span></a> 
+   </div> 
+  </div>  
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NJRLM8');</script> 
+  <!-- End Google Tag Manager -->  
+ </body>
+</html>

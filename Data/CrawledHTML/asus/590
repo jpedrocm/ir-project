@@ -1,0 +1,1337 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <title>ZenBook</title> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="shortcut icon" href="../_img/favicon.ico"> 
+  <link rel="stylesheet" href="../_js/plugin/jquery-ui/jquery-ui.min.css"> 
+  <link href="../_js/plugin/jScrollPane-master/style/jquery.jscrollpane.css" rel="stylesheet" media="all"> 
+  <link rel="stylesheet" type="text/css" href="../_css/main.css" media="screen"> 
+  <link rel="stylesheet" type="text/css" href="../_css/mobile.css" media="screen"> 
+  <link rel="stylesheet" href="../_css/font.css"> 
+  <!--[if lt IE 9]>
+    <script src="../_js/plugin/html5shiv-master/src/html5shiv.js"></script>
+  <![endif]--> 
+  <link href="../_js/plugin/video-js/video-js.css" rel="stylesheet"> 
+  <!-- If you'd like to support IE8 --> 
+  <script src="../_js/plugin/video-js/ie8/videojs-ie8.min.js"></script> 
+  <script type="text/javascript" src="../_js/plugin/jquery-1.12.4.min.js"></script> 
+  <script type="text/javascript" src="../_js/plugin/jquery-ui/jquery-ui.min.js"></script> 
+  <script type="text/javascript" src="../_js/plugin/unveil-master/jquery.unveil.js"></script> 
+  <script type="text/javascript" src="../_js/plugin/jScrollPane-master/script/jquery.mousewheel.js"></script> 
+  <script type="text/javascript" src="../_js/plugin/jScrollPane-master/script/jquery.jscrollpane.js"></script> 
+  <script src="../_js/ga_map.js"></script> 
+  <script src="./custom/link_map.js"></script> 
+  <script src="../_js/country.js"></script> 
+  <script src="./custom/home_lang.js"></script> 
+  <script src="../_js/newsListCont.js"></script> 
+  <script src="../_js/newsList.js"></script> 
+  <script src="../_js/system/slide_view.js"></script> 
+  <script src="../_js/system/evtManage.js"></script> 
+  <script src="../_js/home/section_00.js"></script> 
+  <script src="../_js/home/section_01.js"></script> 
+  <script src="../_js/home/section_02.js"></script> 
+  <script src="../_js/home/section_03.js"></script> 
+  <script src="../_js/home/section_04.js"></script> 
+  <script src="../_js/home/section_07.js"></script> 
+  <script src="../_js/home/section_10.js"></script> 
+  <script src="./custom/HOME_section_11.js"></script> 
+  <script src="../_js/home/controller.js"></script> 
+  <script src="../_js/main.js"></script> 
+ </head> 
+ <body onload="" country="ph" lang="eng" page="home"> 
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NJRLM8');</script> 
+  <!-- End Google Tag Manager --> 
+  <div class="header"> 
+   <div class="full-panel pc-only"> 
+    <div class="css-before"></div> 
+    <div class="share"> 
+     <div class="list"> 
+      <div class="entry"> 
+       <img src="" width="38" height="38" data-src="../_img/header/social_youtube.png"> 
+      </div> 
+      <div class="entry"> 
+       <img src="" width="38" height="38" data-src="../_img/header/social_fb.png"> 
+      </div> 
+      <div class="entry"> 
+       <img src="" width="39" height="38" data-src="../_img/header/social_twitter.png"> 
+      </div> 
+      <div class="entry"> 
+       <img src="" width="38" height="38" data-src="../_img/header/social_myzen.png"> 
+      </div> 
+      <div class="entry"> 
+       <img src="" width="38" height="38" data-src="../_img/header/social_ig.png"> 
+      </div> 
+      <div class="entry"> 
+       <img src="" width="38" height="38" data-src="../_img/header/social_pcdiy.png"> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="book"> 
+     <div class="logo"> 
+      <img class="white" src="" width="192" height="43" data-src="../_img/header/zenbook-logo.png"> 
+      <img class="black" src="" width="192" height="43" data-src="../_img/header/zenbook-logo_b.png"> 
+     </div> 
+     <div class="line"></div> 
+     <div class="cont"> 
+      <div class="entry active" data-lancont="world_of_zen" jslink="./index.html"></div> 
+      <div class="dot">
+       ,
+      </div> 
+      <div class="entry" data-lancont="find_your_zen" jslink="./question.html"></div> 
+      <div class="dot">
+       ,
+      </div> 
+      <div class="entry" data-lancont="zen_world" jslink="./world.html"></div> 
+      <div class="dot">
+       ,
+      </div> 
+      <div class="entry" data-lancont="where_to_buy" jslink="./find.html"></div> 
+     </div> 
+    </div> 
+    <div class="country"> 
+     <div class="css-before"></div> 
+     <div class="icon"> 
+      <img src="" width="19" height="19" data-src="../_img/header/foot_global.png"> 
+     </div> 
+     <div class="text">
+       Global / English 
+     </div> 
+    </div> 
+   </div> 
+   <div class="mobile-panel mb-only"> 
+    <div class="nav-icon"> 
+     <div class="css-before"></div> 
+     <div class="nav btn active"> 
+      <div class="css-before"></div> 
+      <img src="../_img/hamberger.png" class="nolazy"> 
+     </div> 
+     <div class="close btn"> 
+      <div class="css-before"></div> 
+      <img src="../_img/nav-close.png" class="nolazy"> 
+     </div> 
+    </div> 
+    <div class="asus-logo"> 
+     <div class="css-before"></div> 
+     <img class="nolazy" src="../_img/header/zenbook-logo.png"> 
+    </div> 
+    <div class="country"> 
+     <div class="css-before"></div> 
+     <div class="icon"> 
+      <img class="nolazy" src="../_img/header/foot_global.png"> 
+     </div> 
+     <div class="text">
+       UK 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="main"> 
+   <div class="section section00" tag="SEC1. Key Visual" id="home"> 
+    <div class="bg video pc-only"> 
+     <video id="my-video" class="video-js" preload="auto" width="100%" height="auto" poster="../_img/home/bg00.jpg" data-setup="{}" autoplay="true" loop> 
+      <source src="../_img/ver2.mp4" type="video/mp4"> 
+      <img alt="no video" src="../_img/home/bg00.jpg" width="100%" height="1200" title="No video"> 
+     </video> 
+    </div> 
+    <div class="bg mb-only"> 
+     <img class="" src="" width="415" height="630" data-src="../_img/home/bg00-m.jpg"> 
+    </div> 
+    <div class="cover"> 
+    </div> 
+    <div class="container"> 
+     <div class="view"> 
+      <div class="css-before"></div> 
+      <div class="cont"> 
+       <div class="text" data-lancont="sec00_title"></div> 
+       <div class="line"></div> 
+       <div class="video" youtubecode="yYEGp58_sy0"> 
+        <div class="css-before"></div> 
+        <img class="recorder" src="" width="32" height="27" data-src="../_img/home/recorder.png"> 
+        <div class="line"></div> 
+        <div class="text" data-lancont="watch_now"></div> 
+       </div> 
+      </div> 
+      <div class="asus" data-lancont="sec00_asus"></div> 
+      <div class="mouse"> 
+       <div class="entry"> 
+        <img class="mouse pc-only" src="" width="33" height="57" data-src="../_img/home/mouse.png"> 
+        <div class="text" data-lancont="sec00_scroll_down"></div> 
+        <img class="mouse mb-only" src="" width="15" height="7" data-src="../_img/home/downArrow.png"> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="section section01" tag="SEC2. Discription Movie (Parallax Scrolling)" id="movie"> 
+    <div class="bg pc-only"> 
+     <img class="" src="" width="1920" height="1370" data-src="../_img/home/bg01.png"> 
+    </div> 
+    <div class="bg mb-only"> 
+     <img class="" src="" width="1920" height="1370" data-src="../_img/home/bg01-m.jpg"> 
+    </div> 
+    <div class="cover"> 
+    </div> 
+    <div class="container"> 
+     <div class="view"> 
+      <div class="panel panel00"> 
+       <div class="css-before"></div> 
+       <div class="entry"> 
+        <img class="circle" src="" width="596" height="597" data-src="../_img/2text/entry00/00.png"> 
+        <div class="text"> 
+         <div class="title" data-lancont="sec01_t00"></div> 
+         <div class="cont" data-lancont="sec01_c00"></div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="panel panel01"> 
+       <div class="css-before"></div> 
+       <div class="entry"> 
+        <img class="circle mb-only" src="" width="596" height="597" data-src="../_img/2text/entry01/00.png"> 
+        <div class="text"> 
+         <div class="title" data-lancont="sec01_t01"></div> 
+         <div class="cont" data-lancont="sec01_c01"></div> 
+        </div> 
+        <img class="circle pc-only" src="" width="596" height="597" data-src="../_img/2text/entry01/00.png"> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="section section02" tag="SEC3. About Zenbook (slider)" id="about_zenbook"> 
+    <div class="container"> 
+     <div class="view"> 
+      <div class="slide"> 
+       <div class="entry "> 
+        <div class="point option"> 
+         <div class="pre">
+          <img src="" width="6" height="6" data-src="../_img/home/begin-mark.png">
+         </div> 
+         <div class="text" data-lancont="sec02_opt00"></div> 
+         <div class="after">
+          <img src="" width="6" height="6" data-src="../_img/home/end-mark.png">
+         </div> 
+        </div> 
+        <div class="point active"> 
+         <div class="pre">
+          <img src="" width="6" height="6" data-src="../_img/home/begin-mark.png">
+         </div> 
+         <div class="text" data-lancont="sec02_opt00"></div> 
+         <div class="after">
+          <img src="" width="6" height="6" data-src="../_img/home/end-mark.png">
+         </div> 
+        </div> 
+       </div> 
+       <div class="comma">
+        ,
+       </div> 
+       <div class="entry "> 
+        <div class="point option"> 
+         <div class="pre">
+          <img src="" width="6" height="6" data-src="../_img/home/begin-mark.png">
+         </div> 
+         <div class="text" data-lancont="sec02_opt01"></div> 
+         <div class="after">
+          <img src="" width="6" height="6" data-src="../_img/home/end-mark.png">
+         </div> 
+        </div> 
+        <div class="point active"> 
+         <div class="pre">
+          <img src="" width="6" height="6" data-src="../_img/home/begin-mark.png">
+         </div> 
+         <div class="text" data-lancont="sec02_opt01"></div> 
+         <div class="after">
+          <img src="" width="6" height="6" data-src="../_img/home/end-mark.png">
+         </div> 
+        </div> 
+       </div> 
+       <div class="comma">
+        ,
+       </div> 
+       <div class="entry "> 
+        <div class="point option"> 
+         <div class="pre">
+          <img src="" width="6" height="6" data-src="../_img/home/begin-mark.png">
+         </div> 
+         <div class="text" data-lancont="sec02_opt02"></div> 
+         <div class="after">
+          <img src="" width="6" height="6" data-src="../_img/home/end-mark.png">
+         </div> 
+        </div> 
+        <div class="point active"> 
+         <div class="pre">
+          <img src="" width="6" height="6" data-src="../_img/home/begin-mark.png">
+         </div> 
+         <div class="text" data-lancont="sec02_opt02"></div> 
+         <div class="after">
+          <img src="" width="6" height="6" data-src="../_img/home/end-mark.png">
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="line"> 
+       <img src="" width="1" height="5" data-src="../_img/home/sec03-line.png"> 
+      </div> 
+      <div class="book"> 
+       <div class="page"> 
+        <div class="css-before"></div> 
+        <div class="img"> 
+         <img src="" width="1021" height="885" data-src="../_img/home/sec02-img00.jpg"> 
+        </div> 
+        <div class="text"> 
+         <div class="entry"> 
+          <div class="main" data-lancont="set02_p01_h"></div> 
+          <div class="line"></div> 
+          <div class="title" data-lancont="set02_p01_t"></div> 
+          <div class="cont" data-lancont="set02_p01_c"></div> 
+          <div class="button pc-only"> 
+           <img class="base" src="" width="175" height="52" data-src="../_img/home/sec02-btn.png"> 
+           <div class="text"> 
+            <div class="css-before"></div> 
+            <div class="entry" data-lancont="s_learn_more"></div> 
+           </div> 
+          </div> 
+          <div class="button mb-only"> 
+           <div class="text"> 
+            <div class="css-before"></div> 
+            <div class="entry" data-lancont="dot_learn_more"></div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="page"> 
+        <div class="css-before"></div> 
+        <div class="img"> 
+         <img src="" width="1019" height="900" data-src="../_img/home/sec02-img01.jpg"> 
+        </div> 
+        <div class="text"> 
+         <div class="entry"> 
+          <div class="main" data-lancont="set02_p00_h"></div> 
+          <div class="line"></div> 
+          <div class="title" data-lancont="set02_p00_t"></div> 
+          <div class="cont" data-lancont="set02_p00_c"></div> 
+          <div class="button pc-only"> 
+           <img class="base" src="" width="175" height="52" data-src="../_img/home/sec02-btn.png"> 
+           <div class="text"> 
+            <div class="css-before"></div> 
+            <div class="entry" data-lancont="s_learn_more"></div> 
+           </div> 
+          </div> 
+          <div class="button mb-only"> 
+           <div class="text"> 
+            <div class="css-before"></div> 
+            <div class="entry" data-lancont="dot_learn_more"></div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="page"> 
+        <div class="css-before"></div> 
+        <div class="img"> 
+         <img src="" width="1020" height="903" data-src="../_img/home/sec02-img02.jpg"> 
+        </div> 
+        <div class="text"> 
+         <div class="entry"> 
+          <div class="main" data-lancont="set02_p02_h"></div> 
+          <div class="line"></div> 
+          <div class="title" data-lancont="set02_p02_t"></div> 
+          <div class="cont" data-lancont="set02_p02_c"></div> 
+          <div class="button pc-only"> 
+           <img class="base" src="" width="175" height="52" data-src="../_img/home/sec02-btn.png"> 
+           <div class="text"> 
+            <div class="css-before"></div> 
+            <div class="entry" data-lancont="s_learn_more"></div> 
+           </div> 
+          </div> 
+          <div class="button mb-only"> 
+           <div class="text"> 
+            <div class="css-before"></div> 
+            <div class="entry" data-lancont="dot_learn_more"></div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="section section03" tag="SEC4. ZenBook3 - Key Visual (Parallax Scrolling)" id="key_visual"> 
+    <div class="bg pc-only"> 
+     <img class="" src="" width="1920" height="1557" data-src="../_img/home/bg02.jpg"> 
+    </div> 
+    <div class="container"> 
+     <div class="view"> 
+      <div class="css-before"></div> 
+      <div class="cont"> 
+       <div class="line mb-only"> 
+        <img src="" width="415" height="3" data-src="../_img/home/sec03-line01.png"> 
+       </div> 
+       <div class="header pc-only" data-lancont="sec03_h"></div> 
+       <div class="logo"> 
+        <img class="pc-only" src="" width="341" height="83" data-src="../_img/home/sec03-logo.png"> 
+        <img class="mb-only" src="" width="415" height="55" data-src="../_img/home/sec03-logo-m.png"> 
+       </div> 
+       <div class="title" data-lancont="sec03_t"></div> 
+       <div class="cont" data-lancont="sec03_c"></div> 
+      </div> 
+     </div> 
+     <div class="bg mb-only"> 
+      <img class="" src="" width="415" height="545" data-src="../_img/home/bg02-m.jpg"> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="section section08" tag="SEC4. ZenBook3 - Zenbook3-design" id="design"> 
+    <div class="container"> 
+     <div class="bg"> 
+      <div class="css-before"></div> 
+      <div class="panel pc-only"> 
+       <img src="" width="940" height="1151" data-src="../_img/home/work-women.jpg"> 
+      </div> 
+      <div class="panel mb-only"> 
+       <img src="" width="386" height="241" data-src="../_img/home/work-women-m.jpg"> 
+      </div> 
+     </div> 
+     <div class="view"> 
+      <div class="css-before"></div> 
+      <div class="cont"> 
+       <div class="main"> 
+        <div class="text" data-lancont="sec08_h"></div>
+        <br> 
+        <img class="line" src="" width="378" height="1" data-src="../_img/home/sp-line00.jpg"> 
+       </div> 
+       <div class="title" data-lancont="sec08_t"></div> 
+       <div class="cont" data-lancont="sec08_c"></div> 
+       <div class="button pc-only"> 
+        <img class="base" src="" width="175" height="52" data-src="../_img/home/sec02-btn.png"> 
+        <div class="text"> 
+         <div class="css-before"></div> 
+         <div class="entry" data-lancont="s_learn_more"></div> 
+        </div> 
+       </div> 
+       <div class="button mb-only"> 
+        <div class="text"> 
+         <div class="css-before"></div> 
+         <div class="entry" data-lancont="dot_learn_more"></div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="section section06" tag="SEC4. ZenBook3 - Zenbook3-performance(part 1)" id="performance_1"> 
+    <div class="container"> 
+     <div class="bg"> 
+      <div class="css-before"></div> 
+      <div class="panel pc-only"> 
+       <img src="" width="874" height="1212" data-src="../_img/home/computer02.jpg"> 
+      </div> 
+      <div class="panel mb-only"> 
+       <img src="" width="381" height="285" data-src="../_img/home/computer02-m.png"> 
+      </div> 
+     </div> 
+     <div class="view"> 
+      <div class="css-before"></div> 
+      <div class="cont"> 
+       <div class="main"> 
+        <div class="text" data-lancont="sec06_h"> 
+        </div>
+        <br> 
+        <img class="line" src="" width="378" height="1" data-src="../_img/home/sp-line00.jpg"> 
+       </div> 
+       <div class="title" data-lancont="sec06_t"> 
+       </div> 
+       <div class="cont" data-lancont="sec06_c"></div> 
+       <div class="button pc-only"> 
+        <img class="base" src="" width="175" height="52" data-src="../_img/home/sec02-btn.png"> 
+        <div class="text"> 
+         <div class="css-before"></div> 
+         <div class="entry" data-lancont="s_learn_more"></div> 
+        </div> 
+       </div> 
+       <div class="button mb-only"> 
+        <div class="text"> 
+         <div class="css-before"></div> 
+         <div class="entry" data-lancont="dot_learn_more"></div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="section section07" tag="SEC4. ZenBook3 - Zenbook3-performance(part 2)" id="performance_2"> 
+    <div class="container"> 
+     <div class="bg"> 
+      <div class="css-before"></div> 
+      <div class="panel"> 
+       <img src="" width="1229" height="611" data-src="../_img/home/computer-line.png"> 
+      </div> 
+     </div> 
+     <div class="view"> 
+      <div class="css-before"></div> 
+      <div class="cont"> 
+       <div class="entry icon00"> 
+        <div class="css-before"></div> 
+        <div class="icon"> 
+         <div class="css-before"></div> 
+         <img class="pc-only" src="" width="26" height="26" data-src="../_img/home/icon_00.png"> 
+         <img class="mb-only" src="" width="41" height="41" data-src="../_img/home/icon_m_00.png"> 
+        </div> 
+        <div class="cont"> 
+         <div class="title" data-lancont="sec07_i00_t"></div> 
+         <div class="cont" data-lancont="sec07_i00_c"></div> 
+        </div> 
+       </div> 
+       <div class="entry icon01"> 
+        <div class="css-before"></div> 
+        <div class="icon"> 
+         <div class="css-before"></div> 
+         <img class="pc-only" src="" width="25" height="31" data-src="../_img/home/icon_01.png"> 
+         <img class="mb-only" src="" width="39" height="48" data-src="../_img/home/icon_m_01.png"> 
+        </div> 
+        <div class="cont"> 
+         <div class="title" data-lancont="sec07_i01_t"></div> 
+         <div class="cont" data-lancont="sec07_i01_c"></div> 
+        </div> 
+       </div> 
+       <div class="entry icon02"> 
+        <div class="css-before"></div> 
+        <div class="icon"> 
+         <div class="css-before"></div> 
+         <img class="pc-only" src="" width="27" height="27" data-src="../_img/home/icon_02.png"> 
+         <img class="mb-only" src="" width="41" height="41" data-src="../_img/home/icon_m_02.png"> 
+        </div> 
+        <div class="cont"> 
+         <div class="title" data-lancont="sec07_i02_t"></div> 
+         <div class="cont" data-lancont="sec07_i02_c"></div> 
+        </div> 
+       </div> 
+       <div class="entry icon03"> 
+        <div class="css-before"></div> 
+        <div class="icon"> 
+         <div class="css-before"></div> 
+         <img class="pc-only" src="" width="22" height="29" data-src="../_img/home/icon_03.png"> 
+         <img class="mb-only" src="" width="34" height="45" data-src="../_img/home/icon_m_03.png"> 
+        </div> 
+        <div class="cont"> 
+         <div class="title" data-lancont="sec07_i03_t"></div> 
+         <div class="cont" data-lancont="sec07_i03_c"></div> 
+        </div> 
+       </div> 
+       <div class="entry icon04"> 
+        <div class="css-before"></div> 
+        <div class="icon"> 
+         <div class="css-before"></div> 
+         <img class="pc-only" src="" width="26" height="26" data-src="../_img/home/icon_04.png"> 
+         <img class="mb-only" src="" width="40" height="40" data-src="../_img/home/icon_m_04.png"> 
+        </div> 
+        <div class="cont"> 
+         <div class="title" data-lancont="sec07_i04_t"></div> 
+         <div class="cont" data-lancont="sec07_i04_c"></div> 
+        </div> 
+       </div> 
+       <div class="entry icon05"> 
+        <div class="css-before"></div> 
+        <div class="icon"> 
+         <div class="css-before"></div> 
+         <img class="pc-only" src="" width="26" height="18" data-src="../_img/home/icon_05.png"> 
+         <img class="mb-only" src="" width="40" height="27" data-src="../_img/home/icon_m_05.png"> 
+        </div> 
+        <div class="cont"> 
+         <div class="title" data-lancont="sec07_i05_t"></div> 
+         <div class="cont" data-lancont="sec07_i05_c"></div> 
+        </div> 
+       </div> 
+       <div class="entry icon06"> 
+        <div class="css-before"></div> 
+        <div class="icon"> 
+         <div class="css-before"></div> 
+         <img class="pc-only" src="" width="14" height="28" data-src="../_img/home/icon_06.png"> 
+         <img class="mb-only" src="" width="22" height="43" data-src="../_img/home/icon_m_06.png"> 
+        </div> 
+        <div class="cont"> 
+         <div class="title" data-lancont="sec07_i06_t"></div> 
+         <div class="cont" data-lancont="sec07_i06_c"></div> 
+        </div> 
+       </div> 
+       <div class="entry icon07"> 
+        <div class="css-before"></div> 
+        <div class="icon"> 
+         <div class="css-before"></div> 
+         <img class="pc-only" src="" width="27" height="8" data-src="../_img/home/icon_07.png"> 
+         <img class="mb-only" src="" width="42" height="13" data-src="../_img/home/icon_m_07.png"> 
+        </div> 
+        <div class="cont"> 
+         <div class="title" data-lancont="sec07_i07_t"></div> 
+         <div class="cont" data-lancont="sec07_i07_c"> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="entry icon08"> 
+        <div class="css-before"></div> 
+        <div class="icon"> 
+         <div class="css-before"></div> 
+         <img class="pc-only" src="" width="27" height="22" data-src="../_img/home/icon_08.png"> 
+         <img class="mb-only" src="" width="41" height="34" data-src="../_img/home/icon_m_08.png"> 
+        </div> 
+        <div class="cont"> 
+         <div class="title" data-lancont="sec07_i08_t"></div> 
+         <div class="cont" data-lancont="sec07_i08_c"> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="entry icon09"> 
+        <div class="css-before"></div> 
+        <div class="icon"> 
+         <div class="css-before"></div> 
+         <img class="pc-only" src="" width="26" height="31" data-src="../_img/home/icon_09.png"> 
+         <img class="mb-only" src="" width="40" height="48" data-src="../_img/home/icon_m_09.png"> 
+        </div> 
+        <div class="cont"> 
+         <div class="title" data-lancont="sec07_i09_t"></div> 
+         <div class="cont" data-lancont="sec07_i09_c"></div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="section section04" tag="SEC4. ZenBook3 - Zenbook3-sound(part 1)" id="sound_1"> 
+    <div class="container"> 
+     <div class="bg"> 
+      <img class="base" src="" width="1370" height="1370" data-src="../_img/home/sample.png"> 
+      <div class="object shadow"> 
+       <div class="css-before"></div> 
+       <div class="cont"> 
+        <img class="entry" src="" width="1074" height="820" data-src="../_img/home/shadow.png"> 
+       </div> 
+      </div> 
+      <div class="object wave00 wave"> 
+       <div class="css-before"></div> 
+       <div class="cont"> 
+        <img class="entry" src="" width="1370" height="1370" data-src="../_img/home/wave00.png"> 
+       </div> 
+      </div> 
+      <div class="object wave01 wave"> 
+       <div class="css-before"></div> 
+       <div class="cont"> 
+        <img class="entry" src="" width="1122" height="1122" data-src="../_img/home/wave01.png"> 
+       </div> 
+      </div> 
+      <div class="object wave02 wave"> 
+       <div class="css-before"></div> 
+       <div class="cont"> 
+        <img class="entry" src="" width="931" height="931" data-src="../_img/home/wave02.png"> 
+       </div> 
+      </div> 
+      <div class="object computer"> 
+       <div class="css-before"></div> 
+       <div class="cont"> 
+        <img class="entry" src="" width="1088" height="700" data-src="../_img/home/computer.png"> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="view"> 
+      <div class="cont"> 
+       <div class="main"> 
+        <div class="text" data-lancont="sec04_h"> 
+        </div>
+        <br> 
+        <img class="line" src="" width="378" height="1" data-src="../_img/home/sp-line00.jpg"> 
+       </div> 
+       <div class="title" data-lancont="sec04_t"></div> 
+       <div class="cont" data-lancont="sec04_c"></div> 
+       <div class="button pc-only"> 
+        <img class="base" src="" width="175" height="52" data-src="../_img/home/sec02-btn.png"> 
+        <div class="text"> 
+         <div class="css-before"></div> 
+         <div class="entry" data-lancont="s_learn_more"></div> 
+        </div> 
+       </div> 
+       <div class="button mb-only"> 
+        <div class="text"> 
+         <div class="css-before"></div> 
+         <div class="entry" data-lancont="dot_learn_more"></div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="section section05" tag="SEC4. ZenBook3 - Zenbook3-sound(part 2)" id="sound_2"> 
+    <div class="container"> 
+     <div class="bg"> 
+      <div class="panel"> 
+       <img class="pc-only" src="" width="947" height="593" data-src="../_img/home/women-panel01.jpg"> 
+       <img class="mb-only" src="" width="218" height="299" data-src="../_img/home/women-panel01-m.jpg"> 
+      </div> 
+      <div class="panel"> 
+       <img class="pc-only" src="" width="935" height="1213" data-src="../_img/home/women-panel.jpg"> 
+       <img class="mb-only" src="" width="198" height="602" data-src="../_img/home/women-panel-m.jpg"> 
+      </div> 
+      <div class="float pc-only"> 
+       <div class="css-before"></div> 
+       <div class="entry"> 
+        <img src="" width="492" height="360" data-src="../_img/home/computer01.png"> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="view"> 
+      <div class="cont"> 
+       <div class="css-before"></div> 
+       <div class="entry"> 
+        <img src="" width="492" height="360" data-src="../_img/home/computer01.png"> 
+        <div class="text" data-lancont="sec05_c"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="section section09" tag="SEC5. Zenbook Level (Parallax Scrolling) (part 1)" id="series"> 
+    <div class="bg"> 
+     <div class="css-before"></div> 
+     <div class="panel pc-only"> 
+      <img src="" width="1880" height="1087" data-src="../_img/home/ballonhead.jpg"> 
+     </div> 
+     <div class="panel mb-only"> 
+      <img src="" width="415" height="629" data-src="../_img/home/ballonhead-m.png"> 
+     </div> 
+    </div> 
+    <div class="container"> 
+     <div class="view"> 
+      <div class="css-before"></div> 
+      <div class="cont"> 
+       <div class="title" data-lancont="sec09_t"></div> 
+       <div class="cont" data-lancont="sec09_c"> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="section section10" tag="SEC5. Zenbook Level (Parallax Scrolling) (part 2)" id="prouct_lightbox"> 
+    <div class="container"> 
+     <div class="bg"> 
+      <div class="css-before"></div> 
+      <div class="panel"> 
+       <img src="" width="1880" height="1087" data-src="../_img/home/bg03.png"> 
+      </div> 
+     </div> 
+     <div class="view"> 
+      <div class="rect rect00"> 
+       <img class="base" src="" width="825" height="825" data-src="../_img/home/sea-paint.jpg"> 
+       <div class="cont"> 
+        <div class="css-before"></div> 
+        <div class="entry"> 
+         <div class="title" data-lancont="sec10_t00"></div> 
+         <!--
+                <div class="cont">Diamond Cut with a Defining</div>
+
+                --> 
+         <div class="btn" tag="sec10-rect00"> 
+          <img class="object" src="" width="175" height="52" data-src="../_img/home/sec10-btn.png"> 
+          <div class="text"> 
+           <div class="css-before"></div> 
+           <div class="entry" data-lancont="Learn_More"></div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="rect rect01"> 
+       <img class="base" src="" width="814" height="814" data-src="../_img/home/sleepguy.jpg"> 
+       <div class="cont"> 
+        <div class="css-before"></div> 
+        <div class="entry"> 
+         <div class="title" data-lancont="sec10_t01"></div> 
+         <!--
+                <div class="cont">Diamond Cut with a Defining</div>
+                
+                --> 
+         <div class="btn" tag="sec10-rect01"> 
+          <img class="object" src="" width="175" height="52" data-src="../_img/home/sec10-btn.png"> 
+          <div class="text"> 
+           <div class="css-before"></div> 
+           <div class="entry" data-lancont="Learn_More"></div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="section section11 news" tag="SEC6. Zen World" id="news"> 
+    <link rel="stylesheet" href="../_css/zenbook-hub.css"> 
+    <!--[if lt IE 9]>
+          <link rel="stylesheet" href="../_css/zenbook-hub-ie8.css">
+        <![endif]--> 
+    <section class="wrap-hub"> 
+     <div class="box-hub"> 
+      <!--START--> 
+      <div class="box-head tital-big">
+       Zen Hub
+      </div> 
+      <style>
+                    </style> 
+      <div class="wrap-separate-line"> 
+       <div class="line-bord"></div> 
+       <div class="line-thin"></div> 
+      </div> 
+      <span class="depart"></span> 
+      <div class="box-arrow arrow-l"></div> 
+      <div class="wrap-sort"> 
+       <div class="cont"> 
+       </div> 
+      </div> 
+      <div class="box-arrow arrow-r"></div> 
+      <span class="depart"></span> 
+      <div class="wrap-separate-line"> 
+       <div class="line-thin"></div> 
+       <div class="line-bord"></div> 
+      </div> 
+      <!----> 
+      <!--GLOD-NEWS--> 
+      <section class="wrap-goldNews"> 
+      </section> 
+      <span class="depart-sec"></span> 
+      <!----> 
+      <!--NORMAL-NEWS--> 
+      <style>
+                    </style> 
+      <section class="wrap-normalNews"> 
+       <!--LEFT--> 
+       <div class="wrap-news-left vertical-line"> 
+        <!--L1--> 
+       </div> 
+       <!--RIGHT--> 
+       <div class="wrap-news-right"> 
+       </div> 
+      </section> 
+      <!--END--> 
+      <span class="depart"></span> 
+     </div> 
+    </section> 
+   </div> 
+   <div class="section section12" tag="SEC7. Other ASUS  Collection" id="other"> 
+    <div class="container"> 
+     <div class="view"> 
+      <div class="title" data-lancont="sec12_head"></div> 
+      <div class="panel"> 
+       <div class="entry entry00" tag="Zen Aio" gatag="Zen AiO"> 
+        <div class="image"> 
+         <img class="" src="" width="426" height="344" data-src="../_img/home/sample01.jpg"> 
+        </div> 
+        <div class="text"> 
+         <div class="title" data-lancont="sec12_e00_t"></div> 
+         <div class="cont" data-lancont="sec12_e00_c"></div> 
+        </div> 
+       </div> 
+       <div class="entry entry01" tag="Transformer" gatag="Transformer"> 
+        <div class="image"> 
+         <img class="" src="" width="426" height="344" data-src="../_img/home/sample02.jpg"> 
+        </div> 
+        <div class="text"> 
+         <div class="title" data-lancont="sec12_e01_t"></div> 
+         <div class="cont" data-lancont="sec12_e01_c"></div> 
+        </div> 
+       </div> 
+       <div class="entry entry02" tag="VivoBook" gatag="VivoBook"> 
+        <div class="image"> 
+         <img class="" src="" width="426" height="344" data-src="../_img/home/sample03.jpg"> 
+        </div> 
+        <div class="text"> 
+         <div class="title" data-lancont="sec12_e02_t"></div> 
+         <div class="cont" data-lancont="sec12_e02_c"></div> 
+        </div> 
+       </div> 
+       <div class="entry entry03" tag="Vivo AIO" gatag="Smart Design"> 
+        <div class="image"> 
+         <img class="" src="" width="426" height="344" data-src="../_img/home/sample04.jpg"> 
+        </div> 
+        <div class="text"> 
+         <div class="title" data-lancont="sec12_e03_t"></div> 
+         <div class="cont" data-lancont="sec12_e03_c"></div> 
+        </div> 
+       </div> 
+       <div class="entry entry04" tag="ChromeBook" gatag="Simply Chrome"> 
+        <div class="image"> 
+         <img class="" src="" width="426" height="344" data-src="../_img/home/sample05.jpg"> 
+        </div> 
+        <div class="text"> 
+         <div class="title" data-lancont="sec12_e04_t"></div> 
+         <div class="cont" data-lancont="sec12_e04_c"></div> 
+        </div> 
+       </div> 
+       <div class="entry entry05" tag="VivoPC" gatag="VivoPC"> 
+        <div class="image"> 
+         <img class="" src="" width="426" height="344" data-src="../_img/home/sample06.jpg"> 
+        </div> 
+        <div class="text"> 
+         <div class="title" data-lancont="sec12_e05_t"></div> 
+         <div class="cont" data-lancont="sec12_e05_c"></div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="section footer" tag="footer"> 
+    <div class="container"> 
+     <div class="view"> 
+      <div class="copyright"> 
+       <div class="css-before"></div> 
+       <div class="text" data-lancont="foot_copyright"></div> 
+       <div class="line pc-only"></div> 
+       <div class="country pc-only"> 
+        <div class="css-before"></div> 
+        <div class="icon"> 
+         <img src="" width="19" height="19" data-src="../_img/header/foot_global.png"> 
+        </div> 
+        <div class="text">
+          Global / English 
+        </div> 
+       </div> 
+      </div> 
+      <div class="link"> 
+       <div class="css-before"></div> 
+       <div class="btn  pc-only"> 
+        <div class="base"> 
+         <div class="pre">
+          “ 
+         </div> 
+         <div class="text" data-lancont="sitemap"></div> 
+         <div class="after">
+           ”
+         </div> 
+        </div> 
+        <div class="active"> 
+         <div class="pre">
+          “ 
+         </div> 
+         <div class="text" data-lancont="sitemap"></div> 
+         <div class="after">
+           ”
+         </div> 
+        </div> 
+       </div> 
+       <div class="dot  pc-only">
+        .
+       </div> 
+       <div class="btn"> 
+        <div class="base"> 
+         <div class="pre">
+          “ 
+         </div> 
+         <div class="text" data-lancont="support"></div> 
+         <div class="after">
+           ”
+         </div> 
+        </div> 
+        <div class="active"> 
+         <div class="pre">
+          “ 
+         </div> 
+         <div class="text" data-lancont="support"></div> 
+         <div class="after">
+           ”
+         </div> 
+        </div> 
+       </div> 
+       <div class="dot">
+        .
+       </div> 
+       <div class="btn active"> 
+        <div class="base"> 
+         <div class="pre">
+          “ 
+         </div> 
+         <div class="text" data-lancont="sharing"></div> 
+         <div class="after">
+           ”
+         </div> 
+        </div> 
+        <div class="active"> 
+         <div class="pre">
+          “ 
+         </div> 
+         <div class="text" data-lancont="sharing"></div> 
+         <div class="after">
+           ”
+         </div> 
+        </div> 
+       </div> 
+       <div class="dot">
+        .
+       </div> 
+       <div class="btn"> 
+        <div class="base"> 
+         <div class="pre">
+          “ 
+         </div> 
+         <div class="text" data-lancont="language"></div> 
+         <div class="after">
+           ”
+         </div> 
+        </div> 
+        <div class="active"> 
+         <div class="pre">
+          “ 
+         </div> 
+         <div class="text" data-lancont="language"></div> 
+         <div class="after">
+           ”
+         </div> 
+        </div> 
+       </div> 
+       <div class="dot">
+        .
+       </div> 
+       <div class="btn"> 
+        <div class="base"> 
+         <div class="pre">
+          “ 
+         </div> 
+         <div class="text" data-lancont="shop"></div> 
+         <div class="after">
+           ”
+         </div> 
+        </div> 
+        <div class="active"> 
+         <div class="pre">
+          “ 
+         </div> 
+         <div class="text" data-lancont="shop"></div> 
+         <div class="after">
+           ”
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="community"> 
+       <div class="title" data-lancont="asus_community"></div> 
+       <div class="line"></div> 
+       <div class="question" data-lancont="asus_community_q"></div> 
+       <div class="list"> 
+        <div class="entry"> 
+         <img src="" width="38" height="38" data-src="../_img/header/social_youtube.png"> 
+        </div> 
+        <div class="entry"> 
+         <img src="" width="38" height="38" data-src="../_img/header/social_fb.png"> 
+        </div> 
+        <div class="entry"> 
+         <img src="" width="39" height="38" data-src="../_img/header/social_twitter.png"> 
+        </div> 
+        <div class="entry"> 
+         <img src="" width="38" height="38" data-src="../_img/header/social_myzen.png"> 
+        </div> 
+        <div class="entry"> 
+         <img src="" width="38" height="38" data-src="../_img/header/social_ig.png"> 
+        </div> 
+        <div class="entry"> 
+         <img src="" width="38" height="38" data-src="../_img/header/social_pcdiy.png"> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="footer"> 
+   <div class="view"> 
+    <div class="descript text pc-only" data-lancont="asus_intel_text"></div> 
+    <div class="logo-text text pc-only" data-lancont="intel_logo"></div> 
+    <div class="mobile-text text mb-only" data-lancont="intel_mobile"></div> 
+    <div class="cpu"> 
+     <img data-src="../_img/intel-logo.jpg" width="81" height="81"> 
+    </div> 
+    <div class="cpu-text text pc-only" data-lancont="intel_cpu"></div> 
+   </div> 
+  </div> 
+  <div class="mb-header-cont mb-only"> 
+   <div class="panel"> 
+    <div class="entry"> 
+     <div class="text-area"> 
+      <div class="text" data-lancont="world_of_zen" jslink="./index.html"></div> 
+     </div> 
+    </div> 
+    <div class="entry"> 
+     <div class="text-area"> 
+      <div class="text" data-lancont="find_your_zen" jslink="./question.html"></div> 
+     </div> 
+    </div> 
+    <div class="entry"> 
+     <div class="text-area"> 
+      <div class="text" data-lancont="zen_world" jslink="./world.html"></div> 
+     </div> 
+    </div> 
+    <div class="entry"> 
+     <div class="text-area"> 
+      <div class="text" data-lancont="where_to_buy" jslink="./find.html"></div> 
+     </div> 
+    </div> 
+    <div class="entry share"> 
+     <div class="text-area"> 
+      <div class="text" data-lancont="share_with"></div> 
+     </div> 
+     <div class="opt"> 
+      <div class="list"> 
+       <div class="entry"> 
+        <img src="" width="38" height="38" data-src="../_img/header/social_youtube.png"> 
+       </div> 
+       <div class="entry"> 
+        <img src="" width="38" height="38" data-src="../_img/header/social_fb.png"> 
+       </div> 
+       <div class="entry"> 
+        <img src="" width="39" height="38" data-src="../_img/header/social_twitter.png"> 
+       </div> 
+       <div class="entry"> 
+        <img src="" width="38" height="38" data-src="../_img/header/social_myzen.png"> 
+       </div> 
+       <div class="entry"> 
+        <img src="" width="38" height="38" data-src="../_img/header/social_ig.png"> 
+       </div> 
+       <div class="entry"> 
+        <img src="" width="38" height="38" data-src="../_img/header/social_pcdiy.png"> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div>  
+  <div class="overlay-book"> 
+   <div class="page sec10-rect00 product-view"> 
+    <div class="css-before"></div> 
+    <div class="close"></div> 
+    <div class="text"> 
+     <div class="title" data-lancont="overPage_sec10_rect00_t"></div> 
+     <div class="cont" data-lancont="overPage_sec10_rect00_c"></div> 
+    </div> 
+    <div class="list"> 
+     <div class="entry outer-entry" tag="UX390"> 
+      <div class="base"> 
+       <img data-src="../_img/rect-lightbox/ux390.jpg" width="300" height="200"> 
+      </div> 
+      <div class="rect"></div> 
+      <div class="text"> 
+       <div class="css-before"></div> 
+       <div class="entry"> 
+        <div class="title" data-lancont="overPage_sec10_e00_t"></div> 
+        <div class="line"></div> 
+        <div class="cont" data-lancont="overPage_sec10_e00_c"></div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="entry outer-entry" tag="UX501"> 
+      <div class="base"> 
+       <img data-src="../_img/rect-lightbox/ux501.jpg" width="300" height="200"> 
+      </div> 
+      <div class="rect"></div> 
+      <div class="text"> 
+       <div class="css-before"></div> 
+       <div class="entry"> 
+        <div class="title" data-lancont="overPage_sec10_e01_t"></div> 
+        <div class="line"></div> 
+        <div class="cont" data-lancont="overPage_sec10_e01_c"></div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="entry outer-entry ca" tag="UX305"> 
+      <div class="base"> 
+       <img data-src="../_img/rect-lightbox/ux305.jpg" width="300" height="200"> 
+      </div> 
+      <div class="rect"></div> 
+      <div class="text"> 
+       <div class="css-before"></div> 
+       <div class="entry"> 
+        <div class="title" data-lancont="overPage_sec10_e02_t00"></div> 
+        <div class="line"></div> 
+        <div class="cont" data-lancont="overPage_sec10_e02_c00"></div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="entry outer-entry ua" tag="UX305"> 
+      <div class="base"> 
+       <img data-src="../_img/rect-lightbox/ux305.jpg" width="300" height="200"> 
+      </div> 
+      <div class="rect"></div> 
+      <div class="text"> 
+       <div class="css-before"></div> 
+       <div class="entry"> 
+        <div class="title" data-lancont="overPage_sec10_e02_t01"></div> 
+        <div class="line"></div> 
+        <div class="cont" data-lancont="overPage_sec10_e02_c01"></div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="entry outer-entry" tag="UX309"> 
+      <div class="base"> 
+       <img data-src="../_img/rect-lightbox/ux309.jpg" width="300" height="200"> 
+      </div> 
+      <div class="rect"></div> 
+      <div class="text"> 
+       <div class="css-before"></div> 
+       <div class="entry"> 
+        <div class="title" data-lancont="overPage_sec10_e07_t"></div> 
+        <div class="line"></div> 
+        <div class="cont" data-lancont="overPage_sec10_e07_c"></div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="entry outer-entry" tag="UX510"> 
+      <div class="base"> 
+       <img data-src="../_img/rect-lightbox/ux510.jpg" width="300" height="200"> 
+      </div> 
+      <div class="rect"></div> 
+      <div class="text"> 
+       <div class="css-before"></div> 
+       <div class="entry"> 
+        <div class="title" data-lancont="overPage_sec10_e08_t"></div> 
+        <div class="line"></div> 
+        <div class="cont" data-lancont="overPage_sec10_e08_c"></div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="entry outer-entry" tag="UX310"> 
+      <div class="base"> 
+       <img data-src="../_img/rect-lightbox/ux310.jpg" width="300" height="200"> 
+      </div> 
+      <div class="rect"></div> 
+      <div class="text"> 
+       <div class="css-before"></div> 
+       <div class="entry"> 
+        <div class="title" data-lancont="overPage_sec10_e09_t"></div> 
+        <div class="line"></div> 
+        <div class="cont" data-lancont="overPage_sec10_e09_c"></div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="entry outer-entry" tag="UX330"> 
+      <div class="base"> 
+       <img data-src="../_img/rect-lightbox/ux330.jpg" width="300" height="200"> 
+      </div> 
+      <div class="rect"></div> 
+      <div class="text"> 
+       <div class="css-before"></div> 
+       <div class="entry"> 
+        <div class="title" data-lancont="overPage_sec10_e10_t"></div> 
+        <div class="line"></div> 
+        <div class="cont" data-lancont="overPage_sec10_e10_c"></div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="entry outer-entry" tag="UX303"> 
+      <div class="base"> 
+       <img data-src="../_img/rect-lightbox/ux303.jpg" width="300" height="200"> 
+      </div> 
+      <div class="rect"></div> 
+      <div class="text"> 
+       <div class="css-before"></div> 
+       <div class="entry"> 
+        <div class="title" data-lancont="overPage_sec10_e11_t"></div> 
+        <div class="line"></div> 
+        <div class="cont" data-lancont="overPage_sec10_e11_c"></div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="entry outer-entry" tag="UX306"> 
+      <div class="base"> 
+       <img data-src="../_img/rect-lightbox/ux306.jpg" width="300" height="200"> 
+      </div> 
+      <div class="rect"></div> 
+      <div class="text"> 
+       <div class="css-before"></div> 
+       <div class="entry"> 
+        <div class="title" data-lancont="overPage_sec10_e12_t"></div> 
+        <div class="line"></div> 
+        <div class="cont" data-lancont="overPage_sec10_e12_c"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="page sec10-rect01 product-view"> 
+    <div class="css-before"></div> 
+    <div class="close"></div> 
+    <div class="text"> 
+     <div class="title" data-lancont="overPage_sec10_rect01_t"></div> 
+     <div class="cont" data-lancont="overPage_sec10_rect01_c"></div> 
+    </div> 
+    <div class="list"> 
+     <div class="entry outer-entry" tag="UX360CA"> 
+      <div class="base"> 
+       <img data-src="../_img/rect-lightbox/ux360ca.jpg" width="300" height="200"> 
+      </div> 
+      <div class="rect"></div> 
+      <div class="text"> 
+       <div class="css-before"></div> 
+       <div class="entry"> 
+        <div class="title" data-lancont="overPage_sec10_e04_t"></div> 
+        <div class="line"></div> 
+        <div class="cont" data-lancont="overPage_sec10_e04_c"></div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="entry outer-entry" tag="UX360UA"> 
+      <div class="base"> 
+       <img data-src="../_img/rect-lightbox/ux360ua.jpg" width="300" height="200"> 
+      </div> 
+      <div class="rect"></div> 
+      <div class="text"> 
+       <div class="css-before"></div> 
+       <div class="entry"> 
+        <div class="title" data-lancont="overPage_sec10_e05_t"></div> 
+        <div class="line"></div> 
+        <div class="cont" data-lancont="overPage_sec10_e05_c"></div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="entry outer-entry" tag="UX560"> 
+      <div class="base"> 
+       <img data-src="../_img/rect-lightbox/ux560.jpg" width="300" height="200"> 
+      </div> 
+      <div class="rect"></div> 
+      <div class="text"> 
+       <div class="css-before"></div> 
+       <div class="entry"> 
+        <div class="title" data-lancont="overPage_sec10_e06_t"></div> 
+        <div class="line"></div> 
+        <div class="cont" data-lancont="overPage_sec10_e06_c"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="country-panel overlay"> 
+   <div class="cont"> 
+    <div class="cancle"> 
+     <img src="" width="49" height="49" data-src="../_img/cancle.png"> 
+    </div> 
+    <div class="descript"> 
+     <div class="title" data-lancont="language"></div> 
+     <div class="line"> 
+      <img src="" width="295" height="1" data-src="../_img/lang-line.png"> 
+     </div> 
+     <div class="cont" data-lancont="choose_country"></div> 
+     <div class="tip" data-lancont="country_panel_tip"></div> 
+    </div> 
+    <div class="panel"> 
+     <div class="cont"> 
+     </div> 
+    </div> 
+   </div> 
+  </div>  
+ </body>
+</html>

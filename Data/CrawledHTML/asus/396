@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script> 
+  <title>ASUS | Extra Bullets or Blades</title> 
+  <script type="text/javascript">
+    //ASUS header & footer
+    window.ASUSInit = function () {
+        asus_api.init({ appkey: 'micro00001', api_background: 'general_black' });
+    };
+    (function (d) {
+        var js, id = 'asus-jsapi';
+        if (d.getElementById("asus-jsapi")) { return; }
+        js = d.createElement('script');
+        js.id = id;
+        js.async = true;
+        js.src = "http://www.asus.com/API/js/asus_api.js";
+        d.getElementsByTagName('head')[0].appendChild(js);
+    }(document));
+</script> 
+ </head> 
+ <body style="background-color:#000;"> 
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NJRLM8');</script> 
+  <!-- End Google Tag Manager --> 
+  <div style="width: 960px; margin:30px auto;"> 
+   <div style="text-align:center; ">
+    <img img src="Theme/Image/hero.jpg" class="home-intro" style="width: 960px; margin:30px auto;"> 
+    <p class="lang_home_intro" style="color:#fff; font-family: arial; line-height:22px; font-size:15px; text-align:left; padding-left:5%;"><br> Thank you for choosing ASUS motherboards and gaming monitors.<br> The promotion has already ended.<br> If you have any further issues, please click <a href="https://www.asus.com/support/" target="_self">here</a> for help.<br><br> </p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
+   </div> 
+  </div>   
+ </body>
+</html>

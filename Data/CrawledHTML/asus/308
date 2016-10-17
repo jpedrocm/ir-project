@@ -1,0 +1,452 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<!--Pony Requirement 1188--><!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
+ <head> 
+  <!--Requirement #783 by Glenn--> 
+  <!--app icon--> 
+  <meta name="mobile-web-app-capable" content="yes"> 
+  <link rel="apple-touch-icon" href="http://www.asus.com/zentalk/id/static/image/common/xzentalk.png.pagespeed.ic.iIpuVIe_dP.png"> 
+  <link rel="apple-touch-icon" sizes="48*48" href="http://www.asus.com/zentalk/id/static/image/common/zentalk_48.png"> 
+  <link rel="apple-touch-icon" sizes="72*72" href="http://www.asus.com/zentalk/id/static/image/common/xzentalk_72.png.pagespeed.ic.wVkDMHR_Jm.png"> 
+  <link rel="apple-touch-icon" sizes="144*144" href="http://www.asus.com/zentalk/id/static/image/common/xzentalk_144.png.pagespeed.ic.9a64ickgk0.png"> 
+  <link rel="apple-touch-icon" sizes="192*192" href="http://www.asus.com/zentalk/id/static/image/common/zentalk_192.png"> 
+  <link rel="apple-touch-icon" sizes="512*512" href="http://www.asus.com/zentalk/id/static/image/common/xzentalk_512.png.pagespeed.ic.ZYi3-m5DB1.png"> 
+  <link rel="apple-touch-icon-precomposed" href="http://www.asus.com/zentalk/id/static/image/common/xzentalk.png.pagespeed.ic.iIpuVIe_dP.png"> 
+  <link rel="apple-touch-icon-precomposed" sizes="48*48" href="http://www.asus.com/zentalk/id/static/image/common/zentalk_48.png"> 
+  <link rel="apple-touch-icon-precomposed" sizes="72*72" href="http://www.asus.com/zentalk/id/static/image/common/xzentalk_72.png.pagespeed.ic.wVkDMHR_Jm.png"> 
+  <link rel="apple-touch-icon-precomposed" sizes="144*144" href="http://www.asus.com/zentalk/id/static/image/common/xzentalk_144.png.pagespeed.ic.9a64ickgk0.png"> 
+  <link rel="apple-touch-icon-precomposed" sizes="192*192" href="http://www.asus.com/zentalk/id/static/image/common/zentalk_192.png"> 
+  <link rel="apple-touch-icon-precomposed" sizes="512*512" href="http://www.asus.com/zentalk/id/static/image/common/xzentalk_512.png.pagespeed.ic.ZYi3-m5DB1.png"> 
+  <!----> 
+  <meta content="ShareZenTalk://webview/tid" property="al:android:url"> 
+  <meta content="com.asus.zentalk" property="al:android:package"> 
+  <meta content="ZenTalk" property="al:android:app_name"> 
+  <meta content="http://www.asus.com/zentalk/id/portal.php" property="al:web:url"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="Cache-control" content="no-cache"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"> 
+  <meta name="format-detection" content="telephone=no"> 
+  <meta property="og:image:type" content="image/jpeg"> 
+  <meta property="og:image:width" content="600"> 
+  <meta property="og:image:height" content="600"> 
+  <meta name="author" content="ZenTalk"> 
+  <meta name="keywords" content="Forum"> 
+  <meta name="description" content="Forum ,ZenTalk"> 
+  <base href="http://www.asus.com/zentalk/id/"> 
+  <script src="http://www.asus.com/zentalk/id/static/js/lang_discuz_id.js,qver_cntr=0618.pagespeed.jm.d4pruOt8Pk.js" type="text/javascript"></script> 
+  <script src="http://www.asus.com/zentalk/id/static/js/jquery.js,qver_cntr=0618.pagespeed.jm.YSzgc-BSX9.js" type="text/javascript"></script> 
+  <script src="http://www.asus.com/zentalk/id/static/js/asusapi_touch.js,,qver_cntr==0618,Mjm.nIWT-gqY76.js+agreement.js,Mjm.smvmRWEqrI.js+mobile,_jquery.slides.min.js,Mjm.7JBRTMfyZ6.js+mobile,_forum.js,,qZ6U,Mjm.s9Jodm-_K-.js.pagespeed.jc.h-bNlK5rq3.js"></script>
+  <script>eval(mod_pagespeed_LQUkQQbw6W);</script> 
+  <script>eval(mod_pagespeed_Sd_RWdVWVw);</script> 
+  <script>eval(mod_pagespeed_ZMCcE1XGK3);</script> 
+  <script>eval(mod_pagespeed_1bYFJHLVm1);</script> 
+  <title>Forum -  ZenTalk -  Mobile</title> 
+  <link rel="stylesheet" href="./template/strong_mobile/style.css?Z6U" type="text/css" media="all"> 
+  <script src="http://www.asus.com/zentalk/id/template/strong_mobile/js/jquery-1.9.1.min.js.pagespeed.jm.-H-m8Dpjb9.js" type="text/javascript"></script> 
+  <script type="text/javascript">var STYLEID='2',STATICURL='static/',IMGDIR='static/image/common',VERHASH='Z6U',charset='utf-8',discuz_uid='0',cookiepre='RBS0_2132_',cookiedomain='',cookiepath='/',showusercard='1',attackevasive='0',disallowfloat='viewvote|tradeorder|debate|usergroups|task',creditnotice='1|Popularity|,2|Credit|,3|Beta issue Report|,4|Valid issue|',defaultstyle='',REPORTURL='aHR0cDovL3d3dy5hc3VzLmNvbS96ZW50YWxrL2lkL2ZvcnVtLnBocD9tb2JpbGU9eWVz',SITEURL='http://www.asus.com/zentalk/id/',JSPATH='static/js/';</script> 
+  <script src="http://www.asus.com/zentalk/id/static/js/mobile/common.js,qZ6U.pagespeed.jm.Y1q_3SxudL.js" type="text/javascript" charset="utf-8"></script> 
+  <script type="text/javascript">asusInit();</script> 
+  <script type="text/javascript" charset="utf-8">//<![CDATA[
+var mobilemessages={no:"Page",page:" ",prevpage:"Pre",nextpage:"Next",reload:"Click to Reload",confirm:"Confirm",cancel:"Cancel",errormsg1:"Overtime, Please retry",errormsg2:"Can't detect current location",errormsg3:"Please allow us to get your current location",errormsg4:"Unknown Error",pullrefresh:"Pull to Refresh",release:"Release to Refresh",loading:"Loading..."};var asusapi_touch={login:"Please login App!"};
+//]]></script> 
+ </head> 
+ <body class="bg" id="wrap"> 
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-PCKFD7" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PCKFD7');</script> 
+  <!-- End Google Tag Manager --> 
+  <div id="append_parent"></div>
+  <div id="ajaxwaitid"></div> 
+  <div class="sb-slidebar"> 
+   <ul class="s-cbl-ul"> 
+    <div class="profile_login"> 
+     <div class="profile_login_btn"> 
+      <a href="javascript:void(0);" onclick="asus_login('thread-82995-1-1.html ')" class="login_btn"><img class="login_btn_zenny" src="http://www.asus.com/zentalk/id/static/image/common/xicon_zenny_register.png.pagespeed.ic.yVQOeXNLot.png">Register Now</a> 
+     </div> 
+    </div> 
+    <!--<li><a href="portal.php?mobile=2" ><img src="./template/strong_mobile/images/s_shouye.png" />Beranda</a></li>--> 
+    <!--<li><a href="forum.php?forumlist=1&amp;mobile=2" ><img src="./template/strong_mobile/images/s_luntan.png" />Forum</a></li>--> 
+    <!--<li><a href="portal.php?mod=list&amp;catid=1&amp;mobile=2" ><img src="./template/strong_mobile/images/s_wz.png" />Artikel</a></li>--> 
+    <!--<li><a href="group.php?mobile=2" ><img src="./template/strong_mobile/images/s_group.png" />Grup</a></li>--> 
+    <!--<li><a href="misc.php?mod=tag&amp;mobile=2" ><img src="./template/strong_mobile/images/s_tab.png" />Label</a></li>--> 
+    <!--<li><a href="forum.php?gid=38&amp;mobile=2" ><img src="./template/strong_mobile/images/s_wz.png" />FAQ</a></li>--> 
+    <!--<li><a href="forum.php?mod=guide&amp;view=hot&amp;mobile=2" ><img src="./template/strong_mobile/images/s_retie.png" />Panduan</a></li>--> 
+    <!--<li><a href="group.php?mod=my&amp;mobile=2" onclick="return checkLoginState();"><img src="./template/strong_mobile/images/s_group.png" />Grup saya</a></li>--> 
+    <!--<li><a href="home.php?mod=space&amp;uid=0&amp;do=favorite&amp;view=me&amp;type=thread&amp;mobile=2" onclick="return checkLoginState();"><img src="./template/strong_mobile/images/s_shoucang.png" />Favorit Saya</a></li>
+                <li><a href="home.php?mod=space&amp;uid=0&amp;do=thread&amp;view=me&amp;mobile=2" onclick="return checkLoginState();"><img src="./template/strong_mobile/images/s_zhuti.png" />Diskusi Saya</a></li>
+                <li><a href="home.php?mod=space&amp;do=pm&amp;mobile=2" onclick="return checkLoginState();"><img src="./template/strong_mobile/images/s_xiaoxi.png" />Pesan Pribadi Saya</a></li>
+                <li><a href="home.php?mod=space&amp;uid=0&amp;mobile=2" onclick="return checkLoginState();"><img src="./template/strong_mobile/images/s_ziliao.png" />Profil</a></li>
+--> 
+    <li><a href="https://www.asus.com/zentalk/id/forum.php?forumlist=1&amp;nocache=1"><img src="http://www.asus.com/zentalk/id/template/strong_mobile/images/xs_luntan.png.pagespeed.ic.7ZtheNVKUK.png">Forum</a></li> 
+    <li><a href="https://www.asus.com/zentalk/id/forum.php?mod=viewthread&amp;tid=82995 "><img src="http://www.asus.com/zentalk/id/template/strong_mobile/images/xs_prize.png.pagespeed.ic.1BrXXnzpRl.png">2016 Photography Awards</a></li> 
+    <li><a href="https://www.asus.com/zentalk/id/forum.php?gid=38"><img src="http://www.asus.com/zentalk/id/template/strong_mobile/images/xs_ziliao.png.pagespeed.ic.Wcs0ZgEFft.png">FAQ</a></li> 
+    <li><a href="https://www.asus.com/zentalk/id/search.php?mod=forum&amp;mobile=2"><img src="http://www.asus.com/zentalk/id/template/strong_mobile/images/xs_soso_w.png.pagespeed.ic.juKwuMj9u2.png">Search</a></li> 
+    <li> <a> <select id="region" class="region-block" onchange="switchCountry(getDDLId('region'), getDDLValue('region'))"> <option id="ww" value="http://www.asus.com/zentalk/portal.php?nocache=1">Global</option> <option id="in" value="http://www.asus.com/zentalk/in/index_in.php?nocache=1">India</option> <option id="id" value="http://www.asus.com/zentalk/id/index_id.php?nocache=1" selected>Indonesia</option> <option id="ph" value="http://www.asus.com/zentalk/ph/index_ph.php?nocache=1">Philippines</option> <option id="tw" value="http://www.asus.com/zentalk/tw/portal.php?nocache=1">台灣</option> <option id="cn" value="http://zentalk.asus.com.cn/portal.php?nocache=1">中国</option> </select> <span class="region_span"> Location </span> </a> </li> 
+    <!--<li><a href="http://www.asus.com/zentalk/id/forum.php?mobile=no" ><img src="./template/strong_mobile/images/s_diannao.png" />Web</a></li>--> 
+    <!-- <li><a href="http://www.asus.com/zentalk/id/plugin.php?id=levegg&mobile=no" target="blank"><img src="./template/strong_mobile/images/s_gift.png" />十萬好禮Zen你抽</a></li> --> 
+   </ul> 
+  </div> 
+  <div class="s-daohang s-center "> 
+   <div class="s-width-50 s-float-left" onclick="do_left();">
+    <a href="javascript:;" class="sb-toggle-left s-width-50 "><img src="http://www.asus.com/zentalk/id/template/strong_mobile/images/xs_cbl.png.pagespeed.ic.b7ifr6RSi0.png"></a>
+   </div> 
+   <!--<div class="s-width-50 s-float-right" style="width:50px; height:50px;"> <a href="javascript:;" class="s-width-50 " id="gengduoid"><img src="./template/strong_mobile/images/s_gengduo.png" id="pic1" /></a> </div>--> 
+   <div class="s-width-50 s-float-right">
+    <a href="search.php?mod=forum&amp;mobile=2" class="s-width-50 "><img src="http://www.asus.com/zentalk/id/template/strong_mobile/images/xs_soso.png.pagespeed.ic.aWOxeeDP89.png"></a>
+   </div> 
+   <!-- <div class="s-center s-daohang-title "><a href="javascript:;" >ZenTalk</a></div> --> 
+   <div class="s-center s-daohang-title ">
+    <a href="./forum.php?forumlist=1&amp;mobile=2"><img src="http://www.asus.com/zentalk/id/static/image/common/xlogo.png.pagespeed.ic.Jhrc3psdUZ.png" alt="ZenTalk" border="0"></a>
+   </div> 
+  </div> 
+  <div id="sb-site" class="bg" name="sb-site"> 
+   <div class="wei_mbx cl"> 
+    <div class=""> 
+     <!-- <a href="./" class="nvhm" title="Index">Index</a><em>&rsaquo;</em> -->
+     <a href="forum.php?forumlist=1&amp;mobile=2">Forum</a>
+    </div> 
+   </div> 
+   <!-- main forumlist start --> 
+   <div class="wp wm " id="wp">
+    <div class=" bmw fl"> 
+     <div class="subforumshow bm_h cl" href="#sub_forum_1"> 
+      <span class="o"><img src="./template/strong_mobile/images/collapsed_yes.png"></span> 
+      <h2><a href="javascript:;">Announcement</a></h2> 
+     </div> 
+     <div id="sub_forum_1" class="sub_foruml bm_c"> 
+      <ul>
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=2&amp;mobile=2"><img src="data/attachment/common/c8/common_2_icon.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=2&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>Hot News</h3> 
+          <p>All the official event information in this section of the forum.</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=87&amp;mobile=2"><img src="data/attachment/common/c7/common_87_icon.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=87&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>Fun Event!</h3> 
+          <p>All the official event information in this section of the forum.</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=39&amp;mobile=2"><img src="data/attachment/common/d6/common_39_icon.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=39&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>Release Notes</h3> 
+          <p>Release notes of ASUS devices</p> 
+         </div> </a></li> 
+      </ul> 
+     </div> 
+    </div> 
+    <div class=" bmw fl"> 
+     <div class="subforumshow bm_h cl" href="#sub_forum_36"> 
+      <span class="o"><img src="./template/strong_mobile/images/collapsed_yes.png"></span> 
+      <h2><a href="javascript:;">Discussion</a></h2> 
+     </div> 
+     <div id="sub_forum_36" class="sub_foruml bm_c"> 
+      <ul>
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=214&amp;mobile=2"> <img src="./template/strong_mobile/images/tb.png" alt="ZenFone 3"></a> 
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=214&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>ZenFone 3<span class="num">2</span></h3> 
+          <p></p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=61&amp;mobile=2"><img src="data/attachment/common/7f/common_61_icon.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=61&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>ZenFone2<span class="num">44</span></h3> 
+          <p>Find all the answers and solutions for all your questions about using ZenFone 2.</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=93&amp;mobile=2"><img src="data/attachment/common/14/common_69_icon.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=93&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>ZenFone<span class="num">1</span></h3> 
+          <p>Find all the answers and solutions for all your questions about using ZenFone 4, ZenFone 5, ZenFone 6.</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=94&amp;mobile=2"><img src="data/attachment/common/f4/common_94_icon.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=94&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>PadFone</h3> 
+          <p>Find all the answers and solutions for all your questions about using PadFone.</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=91&amp;mobile=2"><img src="data/attachment/common/66/common_58_icon.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=91&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>Watch</h3> 
+          <p>Find all the answers and solutions for all your questions about using ZenWatch &amp; VivoWatch.</p> 
+         </div> </a></li> 
+      </ul> 
+     </div> 
+    </div> 
+    <div class=" bmw fl"> 
+     <div class="subforumshow bm_h cl" href="#sub_forum_79"> 
+      <span class="o"><img src="./template/strong_mobile/images/collapsed_yes.png"></span> 
+      <h2><a href="javascript:;">Fans Club</a></h2> 
+     </div> 
+     <div id="sub_forum_79" class="sub_foruml bm_c"> 
+      <ul>
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=80&amp;mobile=2"><img src="data/attachment/common/f0/common_80_icon.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=80&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>ZenPhoto<span class="num">3</span></h3> 
+          <p>Share your photo captured by ZenFone!</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=81&amp;mobile=2"><img src="data/attachment/common/43/common_81_icon.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=81&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>Fan Chat<span class="num">2</span></h3> 
+          <p>Chat with ZenFone fans!</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=168&amp;mobile=2"><img src="data/attachment/common/00/common_168_icon.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=168&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>Developer Club</h3> 
+          <p></p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=83&amp;mobile=2"><img src="data/attachment/common/fe/common_83_icon.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=83&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>Beta Testing<span class="num">3</span></h3> 
+          <p></p> 
+         </div> </a></li> 
+      </ul> 
+     </div> 
+    </div> 
+    <div class=" bmw fl"> 
+     <div class="subforumshow bm_h cl" href="#sub_forum_62"> 
+      <span class="o"><img src="./template/strong_mobile/images/collapsed_yes.png"></span> 
+      <h2><a href="javascript:;">Idea for Next</a></h2> 
+     </div> 
+     <div id="sub_forum_62" class="sub_foruml bm_c"> 
+      <ul>
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=46&amp;mobile=2"><img src="data/attachment/common/d9/common_46_icon.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=46&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>ZenFone<span class="num">7</span></h3> 
+          <p>Share your ideas about ZenFone!</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=76&amp;mobile=2"><img src="data/attachment/common/fb/common_76_icon.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=76&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>ZenUI</h3> 
+          <p>Share your ideas about ZenUI!</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=77&amp;mobile=2"><img src="data/attachment/common/28/common_77_icon.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=77&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>Accessory</h3> 
+          <p>Share your ideas about ZenFone accessory!</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=78&amp;mobile=2"><img src="data/attachment/common/35/common_78_icon.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=78&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>ZenTalk</h3> 
+          <p>Share your ideas about ZenTalk!</p> 
+         </div> </a></li> 
+      </ul> 
+     </div> 
+    </div> 
+    <div class=" bmw fl"> 
+     <div class="subforumshow bm_h cl" href="#sub_forum_38"> 
+      <span class="o"><img src="./template/strong_mobile/images/collapsed_yes.png"></span> 
+      <h2><a href="javascript:;">FAQ</a></h2> 
+     </div> 
+     <div id="sub_forum_38" class="sub_foruml bm_c"> 
+      <ul>
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=48&amp;mobile=2"><img src="data/attachment/common/64/common_48_icon.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=48&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>ZenFone</h3> 
+          <p>Frequently asked questions about ZenFone.</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=59&amp;mobile=2"><img src="data/attachment/common/09/common_59_icon.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=59&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>ZenWatch</h3> 
+          <p>Frequently asked questions about ZenWatch.</p> 
+         </div> </a></li> 
+       <li> 
+        <div class="subipc">
+         <a href="forum.php?mod=forumdisplay&amp;fid=51&amp;mobile=2"><img src="data/attachment/common/28/common_51_icon.png" align="left" alt=""></a>
+        </div> <a href="forum.php?mod=forumdisplay&amp;fid=51&amp;mobile=2"> 
+         <div class="subblock"> 
+          <h3>ZenUI</h3> 
+          <p>Frequently asked questions about ZenUI.</p> 
+         </div> </a></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- main forumlist end --> 
+   <!--hook/index_middle_mobile--> 
+   <script src="http://www.asus.com/zentalk/id/static/js/mobile/jquery.slides.min.js.pagespeed.jm.7JBRTMfyZ6.js" type="text/javascript"></script> 
+   <script>$(function(){$('#slides').slidesjs({width:320,height:50,navigation:false});});</script> 
+   <!-- 手機廣告Banner --> 
+   <div class="container"> 
+    <div id="slides" style="width:320px;height:50px;margin:10px auto;"> 
+     <div style="margin:0 24px;"> 
+      <style type="text/css">.midaben_con{font-family:arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;background-color:#fff;width:272px;height:50px;border-radius:5px;position:relative}.midaben_con .midaben_signpanel{background-color:#00a8ff;height:50px;display:block;position:relative;border-radius:6px;background-image:url(http://www.asus.com/zentalk/id/source/plugin/k_misign/static/xtou.png.pagespeed.ic.wjCyjkk0ya.png);background-repeat:no-repeat;background-position:0 0;cursor:pointer}.midaben_con .midaben_signpanel .font{position:absolute;color:#fff;width:80px;height:30px;font-size:18px;line-height:30px;top:11px;left:47px}.midaben_con .midaben_signpanel .nums{display:none}.midaben_con .midaben_signpanel .fblock{height:43px;width:115px;background-color:#fff;padding-left:5px;padding-right:5px;position:absolute;top:4px;right:5px;font-size:14px;color:#606060;border-radius:3px}.midaben_con .midaben_signpanel .fblock .all{height:21px;line-height:23px;padding-left:30px;border-bottom:1px solid #00a8ff;background-image:url(http://www.asus.com/zentalk/id/source/plugin/k_misign/static/xtou2.png.pagespeed.ic.lEUH4rHBO4.png);background-repeat:no-repeat;background-position:0 0;margin-bottom:0;color:#606060;*line-height:19px}.midaben_con .midaben_signpanel .fblock .line{height:22px;line-height:23px;padding-left:30px;width:60px;background-image:url(http://www.asus.com/zentalk/id/source/plugin/k_misign/static/xtou2.png.pagespeed.ic.lEUH4rHBO4.png);background-repeat:no-repeat;background-position:0px -26px;color:#606060;*line-height:19px}.midaben_con a.midaben_signpanel:hover{background-color:#00a8ff;filter:alpha(opacity=80);-moz-opacity:.8;opacity:.8}.midaben_con a.midaben_signpanel:active{background-color:#00a8ff}.midaben_con .default{cursor:default;background-color:#00a8ff}.midaben_con a.default:hover{background-color:#00a8ff}.midaben_con a.default:active{background-color:#00a8ff}.midaben_con .visted{background-position:0 0;background-image:url(http://www.asus.com/zentalk/id/source/plugin/k_misign/static/xtou_visted.png.pagespeed.ic.BCDU17-vCF.png)}.midaben_con .visted .font{font-size:15px;line-height:25px;width:80px;left:47px;top:14px;text-shadow:0 1px 0 #009eff;<!-- text-shadow:0 2px 0 #00A8FF;-->
+}.midaben_con .visted .nums{<!--display:block;-->
+font-size:12px;width:56px;text-align:center;line-height:20px;position:absolute;color:#fff;top:29px;left:43px}.nums{display:none}.midaben_con .midaben_win{width:205px;height:115px;background-color:#fff;border:1px solid #dedfe3;border-radius:5px;position:absolute;top:-135px;left:10px;box-shadow:0 5px 0 #dedfe3;padding-left:5px;padding-right:5px}.midaben_con .midaben_win .angleA{width:0;_border:0;position:absolute;bottom:-30px;left:70px;border-color:#dedfe3 transparent transparent;border-style:solid;border-width:15px}.midaben_con .midaben_win .angleB{width:0;_border:0;position:absolute;bottom:-20px;left:75px;border-color:#fff transparent transparent;border-style:solid;border-width:10px}.midaben_con .midaben_win .title{padding-left:58px;height:55px;padding-top:22px;background-repeat:no-repeat;background-image:url(http://www.asus.com/zentalk/id/source/plugin/k_misign/static/tou3.jpg);background-position:0 5px;border-bottom:1px solid #eee}.midaben_con .midaben_win .title h3{font-size:18px;color:#434a54;line-height:25px;font-weight:400;margin:0;padding:0}.midaben_con .midaben_win .title .con{font-size:12px;color:#434a54;line-height:20px;font-weight:normal;width:150px;margin:0;padding:0}.midaben_con .midaben_win .info{height:35px;line-height:35px;color:#aab2bd;font-size:14px;text-align:center;padding-left:10px}.midaben_con a.midaben_signpanel:visited,.midaben_con a.visted:visited,.midaben_con a.visted:hover,.midaben_con a.visted:active{background-color:#00a8ff}</style> 
+      <script type="text/javascript">var signed=false;function cjdsign(){document.getElementById("JD_sign").className='midaben_signpanel JD_sign visted';document.getElementById("JD_sign").href='plugin.php?id=k_misign:sign';document.getElementById("JD_sign").target='_blank';document.getElementById("JD_sign").onclick='';}
+function doAjaxCall(formhash1){$.ajax({url:'plugin.php?id=k_misign:sign&operation=qiandao',data:{formhash:formhash1},dataType:'xml',type:'GET',async:true,success:function(response){cjdsign();$('#JD_sign').html($(response).find('root').text());}});}
+function clickonce(fn){if(!signed){fn;}
+signed=true;return false;}</script> 
+      <div id="midaben_sign"> 
+       <div class="midaben_con mbm"> 
+        <a class="midaben_signpanel JD_sign" id="JD_sign" href="plugin.php?id=k_misign:sign&amp;mobile=2"> 
+         <div class="font">
+           Check In 
+         </div> 
+         <!-- <span class="nums">
+                lang k_misign:row    lang k_misign:days
+            </span> --> 
+         <div class="fblock"> 
+          <div class="all">
+            94People 
+          </div> 
+          <div class="line"> 
+           <span style="font-size:12px;">Ranking</span> 
+          </div> 
+         </div> </a> 
+        <div id="JD_win" class="midaben_win JD_win" style="display:none;"> 
+         <div class="title"> 
+          <h3> Success Checked </h3> 
+          <p class="con"> </p> 
+         </div> 
+         <div class="info"> 
+         </div> 
+         <div class="angleA"> 
+         </div> 
+         <div class="angleB"> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div style="margin:0 24px;"> 
+      <link href="./source/plugin/count_down/static/css/m_style.css?Z6U" rel="stylesheet" type="text/css"> 
+      <!-- <script src="./source/plugin/count_down/static/common.js" type="text/javascript"></script>
+<script src="./source/plugin/count_down/static/jquery-1.11.0.min.js" type="text/javascript"></script> --> 
+      <script type="text/javascript">$(function(){var cD=new Date();var tMs=1476115200;$(".hook_banner").fadeIn();function timerSet(){var d=new Date();var dMs=Math.floor(d.getTime()/1000);var deltTime=tMs-dMs;var deltD=Math.floor(deltTime/86400);var deltH=Math.floor((deltTime-deltD*86400)/3600);var deltM=Math.floor((deltTime-deltD*86400-deltH*3600)/60);var deltS=deltTime-deltD*86400-deltH*3600-deltM*60;$(".number_w").removeClass(function(index,css){return(css.match(/(^|\s)n_w_\S+/g)||[]).join(' ');});$(".timer_d .number_w-1").addClass("n_w_"+Math.floor(deltD/10));$(".timer_d .number_w-2").addClass("n_w_"+(deltD-Math.floor(deltD/10)*10));$(".timer_h .number_w-1").addClass("n_w_"+Math.floor(deltH/10));$(".timer_h .number_w-2").addClass("n_w_"+(deltH-Math.floor(deltH/10)*10));$(".timer_m .number_w-1").addClass("n_w_"+Math.floor(deltM/10));$(".timer_m .number_w-2").addClass("n_w_"+(deltM-Math.floor(deltM/10)*10));$(".timer_s .number_w-1").addClass("n_w_"+Math.floor(deltS/10));$(".timer_s .number_w-2").addClass("n_w_"+(deltS-Math.floor(deltS/10)*10));if(deltTime>0){setTimeout(timerSet,1000);}else{$(".hook_banner").fadeOut(400);$(".hook_final_banner").fadeIn(800);}}
+timerSet();var nationality=getcookie('nationality');$(".banner_bg").addClass('banner_bg_'+nationality);$(".hook_final_banner").addClass('hook_final_banner_'+nationality);var link='';var final_link='';switch(nationality){case'tw':link="https://www.asus.com/zentalk/tw/thread-131713-1-1.html";final_link="www.asus.com/zentalk/tw/thread-146089-1-1.html";break;case'cn':final_link="zentalk.asus.com.cn/forum.php?mod=viewthread&amp;tid=24120";break;case'ww':link="https://www.asus.com/zentalk/thread-82153-1-1.html";final_link="www.asus.com/zentalk/thread-82308-1-1.html";break;case'in':link="https://www.asus.com/zentalk/in/thread-82434-1-1.html";final_link="www.asus.com/zentalk/in/thread-98515-1-1.html";break;case'id':link="https://www.asus.com/zentalk/id/thread-82995-1-1.html";final_link="www.asus.com/zentalk/id/thread-102351-1-1.html";break;case'ph':link="https://www.asus.com/zentalk/ph/thread-83007-1-1.html";final_link="www.asus.com/zentalk/ph/thread-101077-1-1.html";break;default:break;}
+$(".hook_banner").click(function(){window.location=link;});$(".hook_final_banner").click(function(){window.location="//"+final_link;});});</script> 
+      <div id="count_sign"> 
+       <div class="hook_ad_banner"> 
+        <div class="hook_banner"> 
+         <div class="banner_bg"></div> 
+         <div class="banner_title">
+          <!-- 2015 zenfestival -->
+         </div> 
+         <div class="banner_title_word">
+          <!-- 2015 zenfestival -->
+         </div> 
+         <div class="banner_timer"> 
+          <div class="timer_part timer_d"> 
+           <div class="number_w number_w-1"></div> 
+           <div class="number_w number_w-2"></div> 
+           <div class="number_word">
+            D
+           </div> 
+          </div> 
+          <div class="timer_part timer_h"> 
+           <div class="number_w number_w-1"></div> 
+           <div class="number_w number_w-2"></div> 
+           <div class="number_word">
+            H
+           </div> 
+          </div> 
+          <div class="timer_part timer_m"> 
+           <div class="number_w number_w-1"></div> 
+           <div class="number_w number_w-2"></div> 
+           <div class="number_word">
+            M
+           </div> 
+          </div> 
+          <div class="timer_part timer_s"> 
+           <div class="number_w number_w-1"></div> 
+           <div class="number_w number_w-2"></div> 
+           <div class="number_word">
+            S
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="hook_final_banner"> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <ul class="slidesjs-previous slidesjs-navigation" style="position:relative;top:-50px;float:left;z-index:100;">
+      <i class="icon-chevron-left icon-large"><img src="./template/strong_mobile/images/prev_btn.png"></i>
+     </ul> 
+     <ul class="slidesjs-next slidesjs-navigation" style="position:relative;top:-50px;float:right;z-index:100;">
+      <i class="icon-chevron-right icon-large"><img src="./template/strong_mobile/images/next_btn.png"></i>
+     </ul> 
+    </div> 
+   </div> 
+   <script type="text/javascript">(function(){$('.sub_forum').css('display','block');var menuId=getcookie('meunData');var arrayMenu=menuId.split(',');var arrayExist=arrayMenu[0]!='';if(arrayExist){for(i=0;i<arrayMenu.length;i++){$('#'+arrayMenu[i]).css('display','none');$('#'+arrayMenu[i]).parent().find('img').first().attr('src','./template/strong_mobile/images/collapsed_no.png');}}
+else{setcookie('meunData','','315360000');}
+$('.subforumshow').on('click',function(){var obj=$(this);var subobj=$(obj.attr('href'));var thisId=$(subobj).attr('id');if(subobj.css('display')=='none'){subobj.css('display','block');obj.find('img').attr('src','./template/strong_mobile/images/collapsed_yes.png');menuId=menuId.replace(thisId+',','');setcookie('meunData',menuId,'315360000');}else{subobj.css('display','none');obj.find('img').attr('src','./template/strong_mobile/images/collapsed_no.png');menuId=menuId+thisId+',';setcookie('meunData',menuId,'315360000');}});})();function isEmpty(str){return(!str||0===str.length);}</script> 
+   <img src="http://pingtcss.qq.com/pingd?r2=44641613&amp;ui=0&amp;rt=forum&amp;md=index&amp;pn=1&amp;qq=000&amp;logo=11&amp;url=/zentalk/id/forum.php&amp;arg=mobile%3Dyes&amp;tz=-8&amp;dm=www.asus.com&amp;pvi=1864041782&amp;si=s1220357027&amp;rnd=491426314&amp;ext=mt=0" style="float:right;display:none;" noerror="true"> 
+   <div id="mask" style="display:none;"></div> 
+   <div class="footer"> 
+    <div> 
+     <!--<a href="forum.php?mobile=2">Home</a> | <a href="member.php?mod=logging&amp;action=login&amp;mobile=2" title="Login">Login</a> | <a href="<!--javascript:;" style="color:#D7D7D7;<!--" title="Register Now">Register</a>--> 
+    </div> 
+    <div> 
+     <!--<a href="http://www.asus.com/zentalk/id/forum.php?mobile=1&simpletype=no">Standard</a> |--> 
+     <!--Nick 增加舊手機版連結 --> 
+     <!-- <a href="http://www.asus.com/zentalk/id/forum.php?mobile=2">!old_mobile!</a> |  --> 
+     <a href="javascript:;" style="color:#D7D7D7;">Touch-screen version</a> | 
+     <a href="http://www.asus.com/zentalk/id/forum.php?mobile=no">Web</a> | 
+     <a href="https://goo.gl/qNQ25I">Install ZenTalk app</a> 
+     <div style="display:none;">
+      <script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-54950012-1',{'userId':'0'});ga('send','pageview');</script>
+     </div> 
+    </div> 
+    <!--<p>&copy; Comsenz Inc.</p>--> 
+    <p style="color:#EEEEEE">Powered by Discuz!</p> 
+   </div> 
+  </div> 
+  <!--Pony Requirement 1647--> 
+  <script src="http://www.asus.com/zentalk/id/static/js/mobile/home_friendselector.js,qZ6U.pagespeed.jm.VIpvxFYs7d.js" type="text/javascript"></script> 
+  <script>function do_leftn(){$("#wrap").toggleClass("wrap_l")};function do_left(){if($(".wrap_l").length>0){$(".sb_site,.s-daohang").animate({left:"0%"},500);setTimeout(function(){$("#wrap").toggleClass("wrap_l");},500);}else{$("#wrap").toggleClass("wrap_l");$(".s-daohang,.sb_site").animate({left:"70%"},500);}};</script>  
+ </body>
+</html>

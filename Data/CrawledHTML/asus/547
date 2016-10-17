@@ -1,0 +1,228 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="Description" content="ASUS is a worldwide top-three consumer notebook vendor and maker of the world’s best-selling, most award-winning, motherboards. Driven by innovation and committed to quality, ASUS won 4,256 awards in 2013 and is widely credited with revolutionizing the PC industry with its Eee PC™. Company revenue for 2011 was approximately US$11.9 billion."> 
+  <meta name="Keywords" content="ASUS,Laptop,VGA,Tablet,MB,android phone,Desktop,Eee,Easy,Notebooks,notebook,NB,laptops,Display,Mobile,Smartphone,Navigation smartphone,Mobile phone,Networks,Server &amp; Workstation,Chassis,Motherboards,assassins creed,PC Gaming hardware,Gaming motherboard,overclocking motherboard,Battlefield,Optical Storage,Graphics Cards,Multimedia,Peripherals &amp; Accessories,accessories,Peripheral,PC Accessories,Computer Peripheral,NB Accessories,Power Supply,Thermal Solution,Eshop,All-in-one PCs,Commercial Notebooks,Commercial Desktop,Barebone PC,Pad,touch screen,Touch Panel,華碩電腦,Zenfone,筆電,桌機,平板,主機板,桌上型電腦,筆記型電腦,小筆電,推薦筆電,比較,輕薄筆電,顯示器,手機,android手機,智慧型手機,雙卡手機,老人手機推薦,3g 行動電話,網通產品,伺服器&amp;工作站,機殼,光碟機/燒錄機,顯示卡,週邊與配件,周邊配件,電源供應器,散熱裝置,多媒體產品,All-in-one PC,商用筆電,商用桌上型電腦,平板電腦,7吋平板,android平板,平板推薦,平板比較,"> 
+  <title></title> 
+  <link href="/css/bar.css" rel="stylesheet" type="text/css"> 
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"> 
+  <link rel="canonical" href="https://www.asus.com/za/PageError/"> 
+  <!-- Google Fonts embed code --> 
+  <script type="text/javascript">
+            (function () {
+                var link_element = document.createElement("link"),
+                    s = document.getElementsByTagName("script")[0];
+                if (window.location.protocol !== "http:" && window.location.protocol !== "https:") {
+                    link_element.href = "http:";
+                }
+                link_element.href += "//fonts.googleapis.com/css?family=Roboto:100italic,100,300italic,300,400italic,400,500italic,500,700italic,700,900italic,900";
+                link_element.rel = "stylesheet";
+                link_element.type = "text/css";
+                s.parentNode.insertBefore(link_element, s);
+            })();
+        </script> 
+  <script>
+        if (window.location.host == "www.asus.com.cn") {
+            !window.jQuery && document.write(unescape('%3Cscript src="/js/web/jquery.js"%3E%3C/script%3E'))
+        }
+        else {
+            document.write(unescape('%3Cscript src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"%3E%3C/script%3E'));
+        }
+    </script> 
+  <script>
+        if (window.location.host != "www.asus.com.cn") {
+            !window.jQuery && document.write(unescape('%3Cscript src="/js/web/jquery.js"%3E%3C/script%3E'))
+        }
+    </script> 
+  <script src="/js/web/asus.js"></script> 
+  <style type="text/css">
+            
+    </style> 
+ </head> 
+ <body> 
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({ 'gtm.start':
+new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+'//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NJRLM8');</script> 
+  <!-- End Google Tag Manager --> 
+  <div id="out"> 
+   <div class="logo"> 
+    <a href="http://www.asus.com"> <img src="/images/logo.png"></a>
+   </div> 
+   <div id="main"> 
+    <div class="vi"> 
+     <img src="/images/vi2.jpg">
+    </div> 
+    <div class="main_title">
+     Oops!
+    </div> 
+    <div class="main_text">
+     We couldn’t find that page..
+    </div> 
+    <div class="search-bar"> 
+     <input type="text" class="input-search" id="top-search-bar" autocomplete="off" placeholder="Search out products" onkeyup="lookup(this.value, event);"> 
+     <button class="btn btn-search-submit" onclick="Search();return false;"> <i class="icon icon-search"></i> </button> 
+     <div id="suggestions" class="input-medium search-query"></div> 
+    </div> 
+    <div class="link_home"> 
+     <a href="http://www.asus.com">Return to Homepage <img src="/images/arr.png"></a>
+    </div> 
+   </div> 
+  </div>  
+  <script language="javascript" type="text/javascript">
+
+    function Search() {
+        var domain = "//www.asus.com";
+        var keyword = $("#top-search-bar").val();
+        var local = ("/" + getWebsite()).replace("/global", "");
+        var APIurl = domain + local + "/search/results.aspx?SearchKey=" + encodeURI(keyword);
+        window.location.href = APIurl;
+    }
+
+    $("#top-search-bar").keypress(function (event) {
+        if (event.keyCode == 13) { Search(); }
+    });
+
+    var currentIndex = -1;
+    var firstStr = "";
+
+    function lookup(inputString, e) {
+        
+        var url = "https://www.asus.com/searchapi/api/Suggestion";
+        var options = {
+            queryText: inputString.trim() + "*",
+            country: getWebsite(),
+            type: "Products,Commercial",
+            RowLimit: "10,10"
+        };
+        var KeyCode = window.event ? e.keyCode : e.which;
+        $("#searchresults a").removeClass("highlight");
+        if (KeyCode != 38 && KeyCode != 40) {
+            if (inputString.length == 0) {
+                $('#suggestions').fadeOut();
+            } else {
+                if (KeyCode != 13) {
+                    ajaxCallJsonp(url + "?", options);
+                    $('#suggestions').fadeIn();
+                }
+            }
+        }
+        else {
+
+            var $results = $("#searchresults"), currentItem;
+            var total = $results.find("a").length;
+            var maxIndex = total - 1;
+            //向上鍵
+            if ((event.keyCode == 38) && ($("#suggestions").html() != "")) {
+                currentIndex = currentIndex <= -1 ? maxIndex : currentIndex - 1;
+                $results.find("a").removeClass("highlight");
+                if (currentIndex == (-1)) {
+                    //currentIndex == -1, 顯示使用者輸入的搜尋字串
+                    $("#searchinput2").focus();
+                    $("#searchinput2").val(firstStr.trim());
+                }
+                else {
+                    currentItem = $results.find("a").eq(currentIndex);
+                    currentItem.addClass("highlight");
+                    $("#searchinput2").val(currentItem.text().trim());
+                }
+            }
+            //向下鍵
+            if ((event.keyCode == 40) && ($("#suggestions").html() != "")) {
+                currentIndex = currentIndex >= maxIndex ? -1 : currentIndex + 1;
+                $results.find("a").removeClass("highlight");
+                if (currentIndex == (-1)) {
+                    //currentIndex == -1, 顯示使用者輸入的搜尋字串
+                    $("#searchinput2").focus();
+                    $("#searchinput2").val(firstStr.trim());
+                }
+                else {
+                    currentItem = $results.find("a").eq(currentIndex);
+                    currentItem.addClass("highlight");
+                    $("#searchinput2").val(currentItem.text().trim());
+                }
+            }
+        }
+
+
+        function ajaxCallJsonp(target, options) {
+
+            var data = $.getJSON(target, options);
+
+            //成功得到資料
+            data.success(function (msg) {
+                msg = MarkHighLight(inputString, msg);
+                $("#suggestions").empty();
+                $("#suggestions").append(msg);
+                $('#searchresults a').each(function () {
+                    var href = $(this).attr('href');
+                    $(this).attr('onclick', "window.location='" + href + "?SearchKey=" + inputString + "/'").removeAttr('href');
+                });
+                $('#searchresults a').mouseover(function () {
+                    var $parent = $(this).parent();
+                    $parent.find('a').removeClass('highlight');
+                    $(this).not('.MoreTag').addClass('highlight');
+                }).mouseout(function () {
+                    $(this).removeClass('highlight');
+                });
+
+                //起始從-1開始，並記一開始輸入查詢
+                currentIndex = -1;
+                firstStr = $("#searchinput2").val();
+                //replace span to hr
+                var $span = $("#suggestions span.category");
+                $span.replaceWith(function () {
+                    return $('<hr/>', {
+                        html: this.innerHTML,
+                        style: 'color: #F8F8F8'
+                    });
+                });
+                var left = document.getElementById('searchinput2').getBoundingClientRect().left;
+                var width = $('.span7').css('width');
+                $('#suggestions').css({ 'width': width, 'left': left });
+                $('p#searchresults').css({ 'width': width });
+            });
+
+            //取得資料失敗
+            data.error(function (XMLHttpRequest, textStatus, errorThrown) {
+                //$("#suggestions").html("fail getting data: " + errorThrown);
+            });
+
+        }
+
+    }
+
+   function MarkHighLight(inputString, msg) {
+        var inputStringTrim = inputString.trim();
+        var html = $.parseHTML(msg);
+        if (msg.length > 0) {
+            $(html).find('span').each(function () {
+                //find highlight word
+                var word = $(this).text();
+                var index = word.toLowerCase().indexOf(inputStringTrim.toLowerCase());
+                if (index > -1) {
+                    var highlight = word.slice(index, index + inputStringTrim.length);
+                    //surround highlight word with <span class='keyword'></span>
+                    var keyword = '<span class="keyword">' + highlight + '</span>';
+                    //replace span.text() in msg surrounded word
+                    var regex = new RegExp(highlight, 'g');
+                    var surroundedWord = word.replace(regex, keyword);
+                    $(this).html(surroundedWord);
+                }
+            });
+        }
+        return html;
+    }
+
+    
+</script>  
+ </body>
+</html>

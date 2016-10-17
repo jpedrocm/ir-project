@@ -1,0 +1,479 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-US" itemscope itemtype="http://schema.org/QAPage">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
+  <title>How to boot the system from the USB disk or the CD-ROM drive?
+</title> 
+  <link rel="canonical" href="https://www.asus.com/us/support/faq/1008277"> 
+  <script src="/support/js/jquery.js"></script> 
+  <link type="text/css" rel="stylesheet" href="/support/stylesheets/base.css"> 
+  <script src="/support/js/faq.js" type="text/javascript"></script> 
+  <script src="/support/js/Knowledge.js" type="text/javascript"></script> 
+ </head>  
+ <body> 
+  <form method="post" action="./1008277?ln=en-us&amp;no=1008277&amp;" id="ctl00"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExNTgyMDc0MzIPZBYCZg9kFggCBQ8WAh4EaHJlZgURLy93d3cuYXN1cy5jb20vdXNkAgcPZBYCAgEPZBYIAgEPFgQfAAUEL3VzLx4JaW5uZXJodG1sBQRIb21lZAICDxYCHgVzdHlsZQUOZGlzcGxheTppbmxpbmVkAgMPFgYfAAULL3VzL3N1cHBvcnQfAgUOZGlzcGxheTppbmxpbmUfAQUHU3VwcG9ydGQCBA8WAh8CBQ5kaXNwbGF5OmlubGluZWQCCQ9kFgICAQ8WAh8BBQNGQVFkAgsPZBYEZg9kFgRmDw8WAh4EVGV4dAVFPHA+SG93IHRvIGJvb3QgdGhlIHN5c3RlbSBmcm9tIHRoZSBVU0IgZGlzayBvciB0aGUgQ0QtUk9NIGRyaXZlPzwvcD4KZGQCAQ8WAh8DBasTPHA+MS4gQmVmb3JlIGJvb3QgdXAgdGhlIE5vdGVib29rLCBpbnNlcnQgdGhlIFVTQiBkaXNrIG9yIHRoZSBDRC1ST00gZHJpdmUuPC9wPgoKPHA+Mi4gRW50ZXIgdGhlIEJJT1MgY29uZmlndXJhdGlvbiBvZiB0aGUgc3lzdGVtLjwvcD4KCjxwPsKgwqDCoCBJZiB5b3UgZG9uJ3Qga25vdyBob3cgdG8gZW50ZXIgdGhlIEJJT1MgY29uZmlndXJhdGlvbiBvZiBXaW5kb3dzIDgsIHBsZWFzZSByZWZlciB0byB0aGUgS0I8L3A+Cgo8cD7CoMKgwqAgPGEgaHJlZj0iaHR0cDovL3d3dy5hc3VzLmNvbS9zdXBwb3J0L0ZBUS8xMDA4MzI5LyI+W1dpbmRvd3MgOF0gSG93IHRvIGVudGVyIHRoZSBCSU9TIGNvbmZpZ3VyYXRpb24gb2YgV2luZG93cyA4PyA8L2E+PC9wPgoKPHA+wqDCoMKgIDxhIGhyZWY9Imh0dHA6Ly93d3cuYXN1cy5jb20vc3VwcG9ydC9GQVEvMTAwODgyOS8iPkhvdyB0byBlbnRlciB0aGUgQklPUyBjb25maWd1cmF0aW9uIG9mIG15IE5vdGVib29rPzwvYT48L3A+Cgo8cD4zLiBDbGljayAiQm9vdCIgLT4gZW50ZXIgdGhlIGNvbmZpZ3VyYXRpb24gb2YgIkJvb3QgT3B0aW9uICMxwqAiIC0+IFNlbGVjdCB0aGUgcHJvcGVyIGRldmljZS48L3A+Cgo8cD7CoMKgwqDCoEZvciBleGFtcGxlLCB0aGUgcGljdHVyZSBiZWxvdyBzZXQgVVNCIGRpc2sgYXMgdGhlIGZpcnN0IGJvb3RpbmcgZGV2aWNlLjwvcD4KCjxwPjxpbWcgc3JjPSJodHRwOi8va21waWMuYXN1cy5jb20vaW1hZ2VzLzIwMTQvMDcvMjgvMmUyMGEyODYtYWRmZC00NDA3LTk1NjctZmM5MGQ2MzIyYThmLmpwZyIgc3R5bGU9ImhlaWdodDo2MDFweDsgd2lkdGg6ODAwcHgiIC8+PC9wPgoKPHA+wqA8L3A+Cgo8cD40LiBFbnRlciB0aGUgY29uZmlndXJhdGlvbiBvZiAiQm9vdCBPcHRpb24gIzLCoCIgLT4gU2VsZWN0IHRoZSBwcm9wZXIgZGV2aWNlLjwvcD4KCjxwPsKgwqDCoMKgRm9yIGV4YW1wbGUsIHRoZSBwaWN0dXJlIGJlbG93IHNldCBIREQgYXMgdGhlwqBzZWNvbmQgYm9vdGluZyBkZXZpY2UuPC9wPgoKPHA+PGltZyBzcmM9Imh0dHA6Ly9rbXBpYy5hc3VzLmNvbS9pbWFnZXMvMjAxNC8wNy8yOC84ODMxNzc3MS0wZmEyLTQxZjAtOTBmZS1jMzk3NWRjODk3OWMuanBnIiBzdHlsZT0iaGVpZ2h0OjYwMnB4OyB3aWR0aDo4MDBweCIgLz48L3A+Cgo8cD7CoDwvcD4KCjxwPjUuIENsaWNrIFtTYXZlICYgRXhpdF3CoC0+IHNlbGVjdCBbU2F2ZSBDaGFuZ2VzIGFuZCBFeGl0XSAtPiBwcmVzcyAiRW50ZXIiIHRvIHNhdmUgdGhlIGNvbmZpZ3VyYXRpb24uPC9wPgoKPHA+PGltZyBzcmM9Imh0dHA6Ly9rbXBpYy5hc3VzLmNvbS9pbWFnZXMvMjAxNC8wNy8yOC9kZmFhNGMzNi0zYzRiLTQ5NTUtOWMzNi04NzM4MjQ5NTY0ZDIuanBnIiBzdHlsZT0iaGVpZ2h0OjYwMnB4OyB3aWR0aDo4MDBweCIgLz48L3A+Cgo8cD42LiBUaGUgc3lzdGVtIHdpbGwgcmVib290IGF1dG9tYXRpY2FsbHkgYW5kwqBib290IGZyb20gdGhlIGRldmljZSBpbiBzdGVwIDQuPC9wPgoKPHA+wqA8L3A+Cgo8cD5QbGVhc2Ugbm90ZSB0aGUgQklPUyBzdHJ1Y3R1cmUgb2YgdGhlIFdpbmRvd3MgOCAob3IgYWJvdmUpIE5vdGVib29rIGlzIFVFRkkgd2hpY2ggZG9lc24ndCBzdXBwb3J0IERPUyBieSBkZWZhdWx0LjxiciAvPgpJZiB5b3Ugd2FudCB0byBydW4gRE9TIChvciBvdGhlciAxNi1iaXQgb3IgMzItYml0IGFwcGxpY2F0aW9ucykgdmlhIHRoZSBVU0IgZGlzaywgaXQgaXMgcmVjb21tZW5kZWQgdG8gZW5hYmxlIHRoZSBDU00oQ29tcGF0aWJpbGl0eSBTdXBwb3J0IE1vZHVsZSkgbW9kZSBpbiB0aGUgQklPUyBzZXR0aW5ncy48L3A+Cgo8cD4xLiBDbGljayBbU2VjdXJpdHldIC0+IHNlbGVjdCBbU2VjdXJlIEJvb3QgbWVudV0uPC9wPgoKPHA+PGltZyBzcmM9Imh0dHA6Ly9rbXBpYy5hc3VzLmNvbS9pbWFnZXMvMjAxNS8xMC8xMi9kNzRjZjVlNi01MjYzLTQxMWUtYmFlMC04MzcyOTU2ZmY3MzguanBnIiAvPjwvcD4KCjxwPsKgPC9wPgoKPHA+Mi7CoCBDbGljayBbU2VjdXJlIEJvb3QgQ29udHJvbF0gLT4gc2VsZWN0IFtEaXNhYmxlZF0uPC9wPgoKPHA+PGltZyBzcmM9Imh0dHA6Ly9rbXBpYy5hc3VzLmNvbS9pbWFnZXMvMjAxNS8xMC8xMi80Y2Q5NWFjNC05MWY5LTQyNjUtYWI2MS02YTk5MjViNjg2YjMuanBnIiAvPjwvcD4KCjxwPsKgPC9wPgoKPHA+My4gQ2xpY2sgW0Jvb3RdIC0+IHNlbGVjdCBbTGF1bmNoIENTTV0gLT4gc2VsZWN0IFtFbmFibGVkXS48L3A+Cgo8cD48aW1nIHNyYz0iaHR0cDovL2ttcGljLmFzdXMuY29tL2ltYWdlcy8yMDE1LzEwLzEyL2YyZDAyMzIyLTc3MDctNDAzMi1hYjk5LTg5ODc3OThhZjg0Mi5qcGciIC8+PC9wPgoKPHA+NC4gQ2xpY2sgW1NhdmUgJiBFeGl0XcKgLT4gc2VsZWN0IFtTYXZlIENoYW5nZXMgYW5kIEV4aXRdIC0+IHByZXNzICJFbnRlciIgdG8gc2F2ZSB0aGUgY29uZmlndXJhdGlvbi48L3A+Cgo8cD7CoDwvcD4KCjxwPsKgPC9wPgoKPHA+wqA8L3A+Cgo8cD7CoDwvcD4KZAIBD2QWFgIBDxYCHwFlZAIDDxYCHwEFJkRvZXMgdGhpcyBkb2N1bWVudCBzb2x2ZSB5b3VyIHByb2JsZW0/ZAIFDxYCHwEFA1llc2QCBw8WAh8BBQJOb2QCCQ8WAh8BBRNJcyBpdCBlYXN5IHRvIGZpbmQ/ZAILDxYCHwEFA1llc2QCDQ8WAh8BBQJOb2QCDw8PFgIfAwUIYmVjYXVzZT9kZAIRDxYCHgtfIUl0ZW1Db3VudAIFFgpmD2QWAmYPFQMKcXVlc3Rpb25fMAExIFRoaXMgRkFRIGlzIG5vdCBzcGVjaWZpYyBlbm91Z2guZAIBD2QWAmYPFQMKcXVlc3Rpb25fMQEyKlRoaXMgRkFRIGlzIHRvbyBjb21wbGljYXRlZCB0byBjb21wcmVoZW5kLmQCAg9kFgJmDxUDCnF1ZXN0aW9uXzIBMyNUaGUgdGl0bGUgb2YgdGhpcyBGQVEgaXMgbm90IGNsZWFyLmQCAw9kFgJmDxUDCnF1ZXN0aW9uXzMBNFNTb21lIG9mIHRoZSBpbWFnZXMgaW4gdGhpcyBGQVEgY2Fubm90IGJlIGRpc3BsYXllZCBwcm9wZXJseSBvciBsYWNrIHJlbGF0ZWQgaW1hZ2VzLmQCBA9kFgJmDxUDCnF1ZXN0aW9uXzQBNU5Tb21lIG9mIHRoZSBsaW5rcyBpbiB0aGlzIEZBUSBjYW5ub3QgYmUgb3BlbmVkIHByb3Blcmx5IG9yIGxhY2sgcmVsYXRlZCBsaW5rcy5kAhMPFgIfAQUoV2hhdCBjYW4gd2UgZG8gdG8gaW1wcm92ZSB0aGlzIGRvY3VtZW50P2QCFQ8WAh4LcGxhY2Vob2xkZXIFWVRvIHByb3RlY3QgeW91ciBwcml2YWN5LCBwbGVhc2UgRE8gTk9UIGluY2x1ZGUgeW91ciBjb250YWN0IGluZm9ybWF0aW9uIGluIHlvdXIgZmVlZGJhY2suZGRLhuPCvAeldRJiIw7pclCVk8TV3g=="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="14BD25B6"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdABr+jB+1clfs6iicYUW8Hcq2ZJ5g6/mxVAyLL7pLu+1jWBuYfV4idFVYyc+C+jsdmxVsY1GbsNNnrrZ2VOa/j2O9KMxJPQRexYCAA3vXTL9Dg4t4GxE3XDJHQRQV/lGO+ZDYITSnInSQ+wJpr/sRs6AvOD2YBzoxYhlQhptE6XeIdyvHpGRA0RkoZaQ6Tz8Nf/jD/6gyGBSgN6uTT5FcsOYu5ZmL6XOuo2UBLHYiGzNZQ4wMHmZ3nA70roudDbi8wYKg2blLaM6WCy43Sr+KU5wBXABe/qz8xC3u3ellmYlwlcfUEF+L7yGNZTQxpJqXf5XHEql9eln9Spg3W3DooYjhaF50JlJslPraF8pmIMnm7rehgACrmthY5wY6tqMKBgm2dPP5l1Rcu0HGXjopXK1Z53ZrSJjhb1RIV8DxCgGvBtDUCT+Hj/jOFtUMe1wfBw4Zzit4vBnHsVWF9s/M0ySy0aASQJBmhh4ZmUds3OzXuj2WQufc8Ev3gOJYUuvbADvCvZdoA7Wl1tXD++gbqCaUVehs5eHi+mMCV2T5VwHDmgmQd2YusVl2losolmggK2ke++HJ"> 
+   </div> 
+   <!-- H-A-5 --> 
+   <input name="page_info1$langNormal" type="hidden" id="langNormal" value="en-us"> 
+   <input name="page_info1$hd_lang_prefix" type="hidden" id="hd_lang_prefix" value="/us/support"> 
+   <input name="page_info1$hd_product" type="hidden" id="hd_product"> 
+   <input name="page_info1$hd_product_name" type="hidden" id="hd_product_name"> 
+   <input name="page_info1$hd_product_name_ml" type="hidden" id="hd_product_name_ml"> 
+   <input name="page_info1$hd_series" type="hidden" id="hd_series"> 
+   <input name="page_info1$hd_series_name" type="hidden" id="hd_series_name"> 
+   <input name="page_info1$hd_series_name_ml" type="hidden" id="hd_series_name_ml"> 
+   <input name="page_info1$hd_model" type="hidden" id="hd_model"> 
+   <input name="page_info1$hd_model_ml" type="hidden" id="hd_model_ml"> 
+   <input name="page_info1$hd_os" type="hidden" id="hd_os"> 
+   <input name="page_info1$hd_hid" type="hidden" id="hd_hid"> 
+   <input name="page_info1$hd_offical_url" type="hidden" id="hd_offical_url"> 
+   <!-- Google Tag Manager with Origin gaTrace --> 
+   <noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+   </noscript> 
+   <script src="/support/js/gaTrace.js" type="text/javascript"></script> 
+   <!-- End Google Tag Manager --> 
+   <!--Online Chat--> 
+   <link href="/support/stylesheets/online-chat-btn.css" rel="stylesheet" type="text/css"> 
+   <script>
+    function inIframe() {
+        try {
+            return window.self !== window.top; //window.self means the current application , window.top means the top ahead application
+        } catch (e) {
+            return true;
+        }
+    }
+</script> 
+   <script type="text/javascript">
+    $(document).ready(function () {
+        var IsInIframe = inIframe();
+
+        if (IsInIframe) {
+            return false;
+        }
+
+        var _Local = $("#langNormal").val();
+
+        var onlineService = initOnlineService(_Local);
+        onlineService.init();
+    });
+
+    function initOnlineService(Local) {
+        var ApiUrl = window.location.protocol + "//demeter.asus.com/WSC/Support_API_New/SupportNewAPI/GetOnlineChatUrl/",
+            ApiOption;
+
+        ApiUrl += Local;
+
+        return {
+            init: function () {
+                if ($("#online-service").length > 0) return;
+
+                $.getJSON(ApiUrl + "?callback=?", ApiOption).done(function (result) {
+                    if (result && result.StatusCode == 0) {
+                        var onlineServiceString = result.Link_Name ? result.Link_Name : "Online Chat",
+                            serviceUrl = result.URL;
+
+                        onlineChatBtn = '<div id="online-service"><a class="btn" onclick="javascript:window.open(\'' + serviceUrl + '\', \'\',  \'width=520, height=700, scrollbars=yes\'); ga(\'send\', \'event\', \'button\', \'clicked\', \'onlinechat\');">' + onlineServiceString + '</a></div>';
+                        $(onlineChatBtn).appendTo("body");
+                    }
+                });
+            }
+        }
+    };
+</script> 
+   <!--Redirect en--> 
+   <input name="page_info_faq1$faq_type" type="hidden" id="faq_type" value="list"> 
+   <input name="page_info_faq1$base_url_detail" type="hidden" id="base_url_detail" value="/Faq/Detail.aspx"> 
+   <input name="page_info_faq1$HitRecordID" type="hidden" id="HitRecordID"> 
+   <input name="page_info_faq1$KbGuid" type="hidden" id="KbGuid" value="292A7332-E4CC-4B11-A12F-0449D24AD8D1"> 
+   <div class="faq-pop"> 
+    <div class="navbar"> 
+     <a href="//www.asus.com/us" id="a_asusimg" target="_blank"> <img src="https://www.asus.com/images/asus.jpg" alt="" border="0"></a> 
+    </div> 
+    <!--Support--> 
+    <div class="grayBg"> 
+     <div class="faq-zone"> 
+      <div id="breadcrumbs"> 
+       <div id="product-topinfo"> 
+        <div id="breadcrumbs"> 
+         <a href="/us/" id="breadcrumb1_a_home" target="_self">Home</a>
+         <span id="breadcrumb1_s1" style="display:inline">&nbsp;&gt;&nbsp;</span>
+         <a href="/us/support" id="breadcrumb1_a_support" target="_self" style="display:inline">Support</a>
+         <span id="breadcrumb1_s2" style="display:inline">&nbsp;&gt;&nbsp;</span>
+         <a href="../../../uc_3/general/index.aspx" id="breadcrumb1_a_pagename" target="_self" style="display: none">[Page Name]</a> 
+         <span id="breadcrumb1_s_l1" style="display: none">&nbsp;&gt;&nbsp;</span>
+         <a href="../../../uc_3/general/index.aspx" id="breadcrumb1_a_l1" target="_self" style="display: none">[level 1]</a> 
+         <span id="breadcrumb1_s_l2" style="display: none">&nbsp;&gt;&nbsp;</span>
+         <a href="../../../uc_3/general/index.aspx" id="breadcrumb1_a_l2" target="_self" style="display: none">[level 2]</a> 
+         <span id="breadcrumb1_s_m" style="display: none">&nbsp;&gt;&nbsp;</span>
+         <a href="../../../uc_3/general/index.aspx" id="breadcrumb1_a_m" target="_self" style="display: none">[model]</a> 
+        </div> 
+        <div class="pull-right" id="MDA" style="display: none"> 
+         <span class="mdatext">ASUS recommends Windows® 7.</span> 
+        </div> 
+       </div> 
+      </div> 
+      <!--<script type="text/javascript" src="/support/js/gaTrace.js"></script>--> 
+      <!--Content Start--> 
+      <div> 
+       <h1 id="id_top_page_title" class="page-title" langtype="faq" langtextid="faq">FAQ</h1> 
+       <div class="divider"> 
+       </div> 
+      </div> 
+      <input name="faqheader$hd_version" type="hidden" id="hd_version" value="1"> 
+      <script type="text/javascript">
+    $(document).ready(function () {
+        var version = $("#hd_version").val();
+        if (version == "1") {//full_style需在resp前
+            var linkfs = document.createElement('link');
+            linkfs.type = 'text/css';
+            linkfs.rel = "stylesheet";
+            linkfs.href = "/support/stylesheets/full_style.css";
+            document.getElementsByTagName("head")[0].appendChild(linkfs);
+        }
+        var linkresp = document.createElement('link');
+        linkresp.type = 'text/css';
+        linkresp.rel = "stylesheet";
+        linkresp.href = "/support/stylesheets/responsive.css";
+        document.getElementsByTagName("head")[0].appendChild(linkresp);
+    });
+</script> 
+      <script type="text/javascript">
+
+    $("#a_mailpage").click(function () {
+        location.href = "mailto:?subject=" + escape(jQuery(document).attr('title')) + "&body=" + escape(document.location.href.replace(/ /g, "%20"));
+        return false;
+    });
+</script> 
+      <script src="/support/js/MISTrack.js" type="text/javascript"></script> 
+      <!--FAQ Start--> 
+      <div class="faq-content" itemscope itemtype="http://schema.org/Question"> 
+       <meta itemprop="author" content="ASUS"> 
+       <meta itemprop="dateCreated" content="2014-07-28T14:10:15"> 
+       <meta itemprop="dateModified" content="2015-10-14T15:15:29"> 
+       <meta itemprop="datePublished" content="2014-07-28T14:10:15"> 
+       <style>
+.sbs_title
+{
+    font-size:30px;
+    line-height:1.8 !important;
+}
+.sbs_titleDesc
+{
+    font-size:24px;
+    line-height:1.8 !important;
+}
+.sbs_steps_text
+{
+    font-size:18px;
+}
+.sbs_setps_imgs
+{    
+    margin:15px 0 80px 0;
+}
+@media (min-width: 768px) {
+    .sbs_steps_text
+    {
+        display:block;
+    }
+    .step-pop
+    {
+        display:none;
+    }
+}
+@media (max-width: 767px) 
+{
+    .sbs_steps_text
+    {
+        display:none;
+    }
+    .step-pop
+    {
+        display:block;
+    }
+    .phone
+    {
+        height:auto;
+    }
+    .phone-bg
+    {
+        display:none !important;
+    }
+}
+</style> 
+       <h3 class="title" itemprop="name"> <span id="mainzone_detail1_solutionzone1_Label1"><p>How to boot the system from the USB disk or the CD-ROM drive?</p> </span> </h3> 
+       <div itemprop="suggestedAnswer acceptedAnswer" itemscope itemtype="http://schema.org/Answer"> 
+        <meta itemprop="dateCreated" content="2014-07-28T14:10:15"> 
+        <meta itemprop="author" content="ASUS"> 
+        <div itemprop="text"> 
+         <p id="pnl_content"> </p>
+         <p>1. Before boot up the Notebook, insert the USB disk or the CD-ROM drive.</p> 
+         <p>2. Enter the BIOS configuration of the system.</p> 
+         <p>&nbsp;&nbsp;&nbsp; If you don't know how to enter the BIOS configuration of Windows 8, please refer to the KB</p> 
+         <p>&nbsp;&nbsp;&nbsp; <a href="http://www.asus.com/support/FAQ/1008329/">[Windows 8] How to enter the BIOS configuration of Windows 8? </a></p> 
+         <p>&nbsp;&nbsp;&nbsp; <a href="http://www.asus.com/support/FAQ/1008829/">How to enter the BIOS configuration of my Notebook?</a></p> 
+         <p>3. Click "Boot" -&gt; enter the configuration of "Boot Option #1&nbsp;" -&gt; Select the proper device.</p> 
+         <p>&nbsp;&nbsp;&nbsp;&nbsp;For example, the picture below set USB disk as the first booting device.</p> 
+         <p><img src="http://kmpic.asus.com/images/2014/07/28/2e20a286-adfd-4407-9567-fc90d6322a8f.jpg" style="height:601px; width:800px"></p> 
+         <p>&nbsp;</p> 
+         <p>4. Enter the configuration of "Boot Option #2&nbsp;" -&gt; Select the proper device.</p> 
+         <p>&nbsp;&nbsp;&nbsp;&nbsp;For example, the picture below set HDD as the&nbsp;second booting device.</p> 
+         <p><img src="http://kmpic.asus.com/images/2014/07/28/88317771-0fa2-41f0-90fe-c3975dc8979c.jpg" style="height:602px; width:800px"></p> 
+         <p>&nbsp;</p> 
+         <p>5. Click [Save &amp; Exit]&nbsp;-&gt; select [Save Changes and Exit] -&gt; press "Enter" to save the configuration.</p> 
+         <p><img src="http://kmpic.asus.com/images/2014/07/28/dfaa4c36-3c4b-4955-9c36-8738249564d2.jpg" style="height:602px; width:800px"></p> 
+         <p>6. The system will reboot automatically and&nbsp;boot from the device in step 4.</p> 
+         <p>&nbsp;</p> 
+         <p>Please note the BIOS structure of the Windows 8 (or above) Notebook is UEFI which doesn't support DOS by default.<br> If you want to run DOS (or other 16-bit or 32-bit applications) via the USB disk, it is recommended to enable the CSM(Compatibility Support Module) mode in the BIOS settings.</p> 
+         <p>1. Click [Security] -&gt; select [Secure Boot menu].</p> 
+         <p><img src="http://kmpic.asus.com/images/2015/10/12/d74cf5e6-5263-411e-bae0-8372956ff738.jpg"></p> 
+         <p>&nbsp;</p> 
+         <p>2.&nbsp; Click [Secure Boot Control] -&gt; select [Disabled].</p> 
+         <p><img src="http://kmpic.asus.com/images/2015/10/12/4cd95ac4-91f9-4265-ab61-6a9925b686b3.jpg"></p> 
+         <p>&nbsp;</p> 
+         <p>3. Click [Boot] -&gt; select [Launch CSM] -&gt; select [Enabled].</p> 
+         <p><img src="http://kmpic.asus.com/images/2015/10/12/f2d02322-7707-4032-ab99-8987798af842.jpg"></p> 
+         <p>4. Click [Save &amp; Exit]&nbsp;-&gt; select [Save Changes and Exit] -&gt; press "Enter" to save the configuration.</p> 
+         <p>&nbsp;</p> 
+         <p>&nbsp;</p> 
+         <p>&nbsp;</p> 
+         <p>&nbsp;</p> 
+         <p></p> 
+         <input name="mainzone_detail1$solutionzone1$hd_Kbno" type="hidden" id="hd_Kbno" value="1008277"> 
+        </div> 
+       </div> 
+       <script>
+    $(window).on("resize", window_resize);
+    $(document).ready(function () {
+        if ($(window).width() < 768) {
+            setMobileView()
+        }
+    });
+    
+    function window_resize() {
+        if ($(window).width() < 768) {
+            setMobileView();
+        } else if ($(window).width() >= 768) {
+            $("#div_pc").show();
+            $("#div_mobile").hide();
+            
+        }
+    }
+    function setMobileView() {
+        $("#div_pc").hide();
+        $("#div_mobile").show();
+        var zm = ($(window).width() / $(".mobile-phone").attr("data-imgw"));
+        $(".mobile-phone").css("zoom", zm * 0.97);
+    }
+
+
+//$(document).ready(function () {
+//    if ($("#iframe_sbs").length) {
+//        var ww = $(window).width();
+//        if (ww < 768) {// && ("createTouch" in document))
+//            $("#iframe_sbs").hide();
+//            $("#div_sbs_static").show();
+//        }
+//        else {
+//            $("#iframe_sbs").show();
+//            $("#div_sbs_static").hide();
+//        }
+//    }
+//})
+</script> 
+       <div class="divider"> 
+       </div> 
+       <div class="feedback-zone"> 
+        <h3 langtype="faq" langtextid="feedback"></h3> 
+        <div> 
+         <p langtype="faq" langtextid="does_solved">Does this document solve your problem?</p> 
+         <label class="radio inline"> <input type="radio" name="rbList1" id="Radio1" onclick="solve_click()" value="1"><span id="mainzone_detail1_feedback1_Span1" langtype="faq" langtextid="yes">Yes</span> </label> 
+         <label class="radio inline"> <input type="radio" name="rbList1" id="Radio2" onclick="solve_click()" value="0"><span id="mainzone_detail1_feedback1_Span2" langtype="faq" langtextid="no">No</span> </label> 
+        </div> 
+        <div id="div_easyfind" style="display: none;"> 
+         <font id="mainzone_detail1_feedback1_Span3" langtype="faq" langtextid="is_easy_find">Is it easy to find?</font> 
+         <label class="radio inline"> <input id="Radio_Easy" type="radio" value="1" name="rbList2"><span id="mainzone_detail1_feedback1_Span4" langtype="faq" langtextid="yes">Yes</span></label> 
+         <label class="radio inline"> <input id="Radio_Hard" type="radio" value="0" name="rbList2"><span id="mainzone_detail1_feedback1_Span5" langtype="faq" langtextid="no">No</span></label> 
+        </div> 
+        <div id="div_questions" style="display: none" class="solve"> 
+         <span id="mainzone_detail1_feedback1_lbl_notsolve">because?</span> 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_0" value="1">This FAQ is not specific enough. 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_1" value="2">This FAQ is too complicated to comprehend. 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_2" value="3">The title of this FAQ is not clear. 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_3" value="4">Some of the images in this FAQ cannot be displayed properly or lack related images. 
+         <br> 
+         <input type="checkbox" name="rbList3" id="question_4" value="5">Some of the links in this FAQ cannot be opened properly or lack related links. 
+         <br> 
+        </div> 
+        <script type="text/javascript">
+        function solve_click() {
+            var answer1 = $("input[name='rbList1']:checked").val();
+
+            //是跟否的回傳值 20150503
+            //$("input[name='rbList1']").attr('disabled', 'disabled');
+            quick_feedback_solve();
+
+            //如果是否就出現勾勾 20150503
+            if (answer1 == "0") {
+                $("#div_questions").show();
+                $("#div_easyfind").hide();
+            }
+            else { //是就出現單選項 20150503
+                $("#div_easyfind").show();
+                $("#div_questions").hide();
+            }
+        }
+
+        //傳回值 20150503
+        function quick_feedback_solve() {
+            var s_langNormal = $("#langNormal").val();
+            var s_KbNo = $("#hd_Kbno").val();
+            var s_HitRecordID = $("#hdn_HitRecordID").val();
+            var s_product = $("#hdn_product").val();
+            var s_model = $("#hdn_model").val();
+            var s_kbtype = $("#hdn_kbtype").val();
+            
+            var s_isSolve = $("input[name='rbList1']:checked");
+            s_isSolve = s_isSolve.val();
+            
+
+            var strXML = "<?xml version='1.0' encoding='utf-8' ?>" +
+                "<root>" +
+                "<langNormal>" + s_langNormal + "</langNormal>" +
+                "<KBNO>" + s_KbNo + "</KBNO>" +
+                "<HitRecordID>" + s_HitRecordID + "</HitRecordID>" +
+                "<product>" + s_product + "</product>" +
+                "<model>" + s_model + "</model>" +
+                "<kbtype>" + s_kbtype + "</kbtype>" +
+                "<isSolve>" + s_isSolve + "</isSolve>" +
+                "</root>";
+
+            var post_url = "/support/utilities/log/feedback_qsolve.aspx";
+
+            $.ajax({
+                url: post_url,
+                data: strXML,
+                type: 'POST',
+                contentType: "text/xml",
+                dataType: "text",
+                success: function () {
+                    //console.log("");
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    console.log(xhr.status);
+                    console.log(thrownError);
+                }
+            });
+
+        }
+    </script> 
+        <div> 
+         <p id="mainzone_detail1_feedback1_P1" langtype="faq" langtextid="what_we_do">What can we do to improve this document?</p> 
+        </div> 
+        <div class="center"> 
+         <textarea name="mainzone_detail1$feedback1$text_feedback" id="mainzone_detail1_feedback1_text_feedback" class="text_feedback" cols="20" rows="3" langtype="faq" langtextid="is_easy_find" placeholder="To protect your privacy, please DO NOT include your contact information in your feedback."></textarea> 
+        </div> 
+        <div class="center"> 
+         <input type="button" value="Feedback" class="btn-asus" onclick="callfeedback();"> 
+        </div> 
+        <script type="text/javascript">
+        //傳回剩下的值  20150503
+        function callfeedback() {
+            var s_langNormal = $("#langNormal").val();
+            var s_KbGuid = $("#KbGuid").val();
+            var s_HitRecordID = $("#hdn_HitRecordID").val();
+            var s_product = $("#hdn_product").val();
+            var s_model = $("#hdn_model").val();
+            var s_kbtype = $("#hdn_kbtype").val();
+
+            var s_isSolve = $("input[name='rbList1']:checked");
+            if (s_isSolve.length <= 0) {
+                alert('please select Q1 answer');
+            } else {
+                s_isSolve = s_isSolve.val();
+                var s_isEasyfind = ($("input[name='rbList2']:checked").length > 0) ? $("input[name='rbList2']:checked").val() : "";
+                var rbList3 = $("input[name='rbList3']");
+
+                var question = new Array(5);
+                for (i = 0; i < rbList3.length; i++) {
+                    if (rbList3.eq(i)[0].checked == true) {
+                        question[i] = "1";
+                    } else {
+                        question[i] = "0"
+                    }
+                }
+                var s_feedBakTxt = $(".text_feedback").val();
+
+                var strXML = "<?xml version='1.0' encoding='utf-8' ?>" +
+                  "<root>" +
+                    "<langNormal>" + s_langNormal + "</langNormal>" +
+                    "<KbGuid>" + s_KbGuid + "</KbGuid>" +
+                    "<HitRecordID>" + s_HitRecordID + "</HitRecordID>" +
+                    "<product>" + s_product + "</product>" +
+                    "<model>" + s_model + "</model>" +
+                    "<kbtype>" + s_kbtype + "</kbtype>" +
+                    "<isSolve>" + s_isSolve + "</isSolve>" +
+                    "<isEasyfind>" + s_isEasyfind + "</isEasyfind>" +
+                    "<question1>" + question[0] + "</question1>" +
+                    "<question2>" + question[1] + "</question2>" +
+                    "<question3>" + question[2] + "</question3>" +
+                    "<question4>" + question[3] + "</question4>" +
+                    "<question5>" + question[4] + "</question5>" +
+                    "<feedBakTxt>" + s_feedBakTxt + "</feedBakTxt>" +
+                  "</root>";
+
+                var post_url = "/support/utilities/log/feedback.aspx";
+
+                $.ajax({
+                    url: post_url,
+                    data: strXML,
+                    type: 'POST',
+                    contentType: "text/xml",
+                    dataType: "text",
+                    success: function () {
+                        //console.log("");
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        console.log(xhr.status);
+                        console.log(thrownError);
+                    }
+                });
+
+                alert("OK");
+            }
+        }
+    </script> 
+       </div> 
+       <br> 
+       <br> 
+       <br> 
+      </div> 
+     </div> 
+    </div> 
+    <input name="hdn_HitRecordID" type="hidden" id="hdn_HitRecordID" value="9f7323e2-76cf-4bbb-bb5d-c882da232224"> 
+    <input name="hdn_KbGuid" type="hidden" id="hdn_KbGuid"> 
+    <input name="hdn_product" type="hidden" id="hdn_product"> 
+    <input name="hdn_model" type="hidden" id="hdn_model"> 
+    <input name="hdn_kbtype" type="hidden" id="hdn_kbtype" value="2"> 
+   </div> 
+  </form> 
+  <script type="text/javascript">
+         var Parameter = window.location.search;
+         if (Parameter.indexOf("DisASUSMenu") > -1) {
+             $(".navbar").css("display", "none");
+         }
+    </script>   
+ </body>
+</html>

@@ -1,0 +1,1533 @@
+<!doctype html>
+<!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">-->
+<html id="ctl00_HtmlTag" xmlns="http://www.w3.org/1999/xhtml" lang="en-PH">
+ <head id="ctl00_Head1">
+  <!--Info:I-49-->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
+  <meta name="Keywords" content="ASUS,Laptop,VGA,Tablet,MB,android phone,Static WebPage,Product Guide"> 
+  <meta id="ctl00_wmx_websiteid" content="Phillipines">
+  <meta id="ctl00_wmx_engagement">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="author">
+  <meta name="msvalidate.01" content="34DA1E6382CC8063A22EB8CAEEF605A4">
+  <!--uG6WBgek9hWb3x4WemdJDA==-->
+  <script>var isProductPage = ''; var addthis_settingLanguaheConfig='en';var in_page = 'Static_WebPage'; var tracking_country = 'Phillipines';var EntryPageCookie = '1';var newVersionMenu = '1';</script>
+  <title>
+	Static WebPage - Product Guide 
+</title>
+  <!--[if lt IE 7 ]> <meta content='0; url=/ph/BrowserInfo.htm' http-equiv='refresh' /> <![endif]-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700" rel="stylesheet" type="text/css"> 
+  <script>
+        if (window.location.host == "www.asus.com.cn") {
+            !window.jQuery && document.write(unescape('%3Cscript src="/js/web/jquery.js"%3E%3C/script%3E'))
+        }
+        else {
+            document.write(unescape('%3Cscript src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"%3E%3C/script%3E'));
+        }
+    </script> 
+  <script>
+        if (window.location.host != "www.asus.com.cn") {
+            !window.jQuery && document.write(unescape('%3Cscript src="/js/web/jquery.js"%3E%3C/script%3E'))
+        }
+    </script> 
+  <link rel="stylesheet" type="text/css" media="all" href="/css/2015/reset.css">
+  <link href="/css/2015/dist/base.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/web/business.css" type="text/css">
+  <link rel="stylesheet" href="/css/web/mybootstrap_to_cut.css" type="text/css">
+  <link rel="stylesheet" href="/css/web/overview.css" type="text/css"> 
+  <link rel="stylesheet" href="/css/about.css" type="text/css"> 
+  <link rel="stylesheet" href="/css/tabbedPanels.css" type="text/css"> 
+  <script type="text/javascript" src="/js/jquery.include.pack.js"></script> 
+  <script type="text/javascript" src="/js/tabbedPanels.js"></script>
+  <link href="/css/2015/dist/base_responsive.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="all" href="/css/2015/main.css"> 
+  <!-- Le fav and touch icons --> 
+  <link rel="shortcut icon" href="/media/img/favicon.ico"> 
+  <!--<link rel="apple-touch-icon" href="/media/img/apple-touch-icon.png" /><link rel="apple-touch-icon" sizes="72x72" href="/media/img/apple-touch-icon-72x72.png" /><link rel="apple-touch-icon" sizes="114x114" href="/media/img/apple-touch-icon-114x114.png" />--> 
+  <script src="/js/web/dist/asus.min.js"></script> 
+  <script type="text/javascript" src="/js/web/XML.js"></script> 
+  <script type="text/javascript" src="/js/web/dist/default.min.js"></script> 
+  <script src="/js/web/asus-setting.js"></script> 
+  <script src="/js/web/dist/bootstrap.min.js"></script> 
+  <!--<script type="text/javascript" src="/js/web/jquery.bt.min.js"></script>--> 
+  <script type="text/javascript" src="/js/2015/dist/main.min.js"></script> 
+  <!--[if lt IE 9]>
+    <script src="/js/web/html5.js"></script>
+    <script src="/js/web/respond.js"></script>
+    <link rel="stylesheet" type="text/css" media="all" href="/css/2015/ie-fix.css" />
+ <![endif]--> 
+  <script type="text/javascript">
+        var Global_Tracking_Flag = (getWebsite() == "global" && in_page == "Index") ? "0" : "1";
+        var SecureHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+        var addthis_settingConfig = "";
+        var addthis_settingLanguaheConfig = "";
+        if (getWebsite() == "cafr") {
+            addthis_settingLanguaheConfig = "fr";
+        }
+
+        var cookie_name = "";
+
+        if (isMultipleLanguageWebsite()) {
+            var strLang = querySt('Lang');
+            if (strLang != '') {
+                add_cookie('Lang', strLang);
+            }
+        }
+        
+        function setClickRelationIdCookie(ProductGroup_RelationId) {
+            if (!getcookiedata("ProductGroup_RelationId")) {
+                add_cookie('ProductGroup_RelationId', ProductGroup_RelationId);
+            }
+            else {
+                document.cookie = "ProductGroup_RelationId = '' ;path=/;domain=.asus.com;";
+                add_cookie('ProductGroup_RelationId', ProductGroup_RelationId);
+            }
+        }
+        
+        function setBusinessCookie(type) {
+            if (!getcookiedata("BuinsessCookie")) {
+                add_cookie("isBusiness", type);
+            }
+            else {
+                document.cookie = "BuinsessCookie = '' ;path=/;domain=.asus.com;";
+                add_cookie("isBusiness", type);
+            }
+        }
+
+   
+        
+
+        if (getWebsite() != "cn") {
+            (function() {
+                var sc = document.createElement("script"); sc.type = "text/javascript";
+                sc.src = "//apis.google.com/js/plusone.js";
+                var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(sc, s);
+            })();
+        }
+   </script> 
+  <link href="/css/2015/dist/APIs.css" rel="stylesheet">
+  <link href="/css/2015/dist/full_style.css" rel="stylesheet">
+  <script src="/js/web/asus_script.js"></script>
+  <link id="ctl00_localcss" rel="stylesheet" type="text/css"> 
+  <style>
+        iframe[name="google_conversion_frame"] {display: none;}
+        #main-product-nav div { display:none; }
+        #main-search,#main-product-nav { height:auto; }
+   </style> 
+  <script language="javascript">
+    if (tracking_country != "" && Global_Tracking_Flag == "1") {
+        var _wmxq = _wmxq || [];
+        _wmxq.push(["_getTracker", tracking_country, "website", "etrk.asus.com"]); _wmxq.push(["trackPageview"]);
+        (function() {
+            var sc = document.createElement("script"); sc.type = "text/javascript"; sc.async = true;
+            sc.src = ("https:" == document.location.protocol ? "https:" : "http:") + "//etrk.asus.com/web_service/TrackingJS/wmxtracker.js";
+            var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(sc, s);
+        })();
+    }
+</script> 
+  <script>
+    function ButtonTrk(level, product, type, detail_info) {
+        if (tracking_country != "") {
+            var _item = _item || [];
+            _item.push("1=" + tracking_country);
+            _item.push("2=" + level);
+            _item.push("5=" + product);
+            _item.push("6=" + type);
+            _item.push("7=" + detail_info);
+            try {
+                wmx_BtnTrack(_item);
+            }
+            catch (err) { }
+        }
+    }
+</script> 
+  <script>
+    if (getWebsite() == "cn") {
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?b4671500ff917b268437ff5be30c0ff0";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    }
+
+</script> 
+ </head> 
+ <body class=""> 
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({ 'gtm.start':
+new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+'//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NJRLM8');</script> 
+  <!-- End Google Tag Manager --> 
+  <div class="aai-point-bar"> 
+   <div class="aai-pb-inner"> 
+    <div class="aai-more-point"> 
+     <i id="dropMsg" class="aai-circle-num"></i> 
+    </div> 
+   </div> 
+  </div> 
+  <form name="aspnetForm" method="post" action="Rewrite.aspx" id="aspnetForm"> 
+   <div> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUBMA9kFgJmD2QWAmYPFgIeBGxhbmcFBWVuLVBIFgRmD2QWEGYPFgIeBFRleHQFEDwhLS1JbmZvOkktNDktLT5kAgUPFgIeB2NvbnRlbnQFREFTVVMsTGFwdG9wLFZHQSxUYWJsZXQsTUIsYW5kcm9pZCBwaG9uZSxTdGF0aWMgV2ViUGFnZSxQcm9kdWN0IEd1aWRlZAINDxYCHwEFHzwhLS11RzZXQmdlazloV2IzeDRXZW1kSkRBPT0tLT5kAg4PFgIfAWVkAg8PFgIfAQXIATxzY3JpcHQ+dmFyIGlzUHJvZHVjdFBhZ2UgPSAnJzsgdmFyIGFkZHRoaXNfc2V0dGluZ0xhbmd1YWhlQ29uZmlnPSdlbic7dmFyIGluX3BhZ2UgPSAnU3RhdGljX1dlYlBhZ2UnOyB2YXIgdHJhY2tpbmdfY291bnRyeSA9ICdQaGlsbGlwaW5lcyc7dmFyIEVudHJ5UGFnZUNvb2tpZSA9ICcxJzt2YXIgbmV3VmVyc2lvbk1lbnUgPSAnMSc7PC9zY3JpcHQ+ZAIRDxYCHwEFYjwhLS1baWYgbHQgSUUgNyBdPiA8bWV0YSBjb250ZW50PScwOyB1cmw9L3BoL0Jyb3dzZXJJbmZvLmh0bScgaHR0cC1lcXVpdj0ncmVmcmVzaCcgLz4gPCFbZW5kaWZdLS0+ZAITDxYCHwEFcTxsaW5rIGhyZWY9Imh0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1Sb2JvdG86NDAwLDEwMCwzMDAsNTAwLDcwMCIgcmVsPSJzdHlsZXNoZWV0IiB0eXBlPSJ0ZXh0L2NzcyI+ZAIjDxYCHwEFoAE8bGluayBocmVmPSIvY3NzLzIwMTUvZGlzdC9BUElzLmNzcyIgcmVsPSJzdHlsZXNoZWV0Ij48bGluayBocmVmPSIvY3NzLzIwMTUvZGlzdC9mdWxsX3N0eWxlLmNzcyIgcmVsPSJzdHlsZXNoZWV0Ij48c2NyaXB0IHNyYz0iL2pzL3dlYi9hc3VzX3NjcmlwdC5qcyI+PC9zY3JpcHQ+ZAIDD2QWBgIBD2QWAmYPZBYCZg9kFgJmDxYCHwEFZzxzY3JpcHQ+c3RyTGFuZyA9ICdlbi11cyc7c3RyUmVnaXN0ZXI9J1JlZ2lzdGVyJzt2YXIgc3RyTG9naW4gPSAnTE9HSU4nO3ZhciBTaG93TWluaUNhcnQgPSAnMSc8L3NjcmlwdD5kAgMPZBYCZg9kFghmDxYCHwEFUzxzY3JpcHQ+dmFyIHN0clR5cGUgPSAnc3RhdGljd2VicGFnZSc7IHZhciBpZD0gJzcyOTknOyB2YXIgc3RySUQgPSAnNzI5OSc7PC9zY3JpcHQ+ZAICD2QWAmYPFgIfAQUpPHNjcmlwdD52YXIgYnJlYWRjcnVtYlN0ciA9ICcsJzs8L3NjcmlwdD5kAgQPFgIfAQUNUHJvZHVjdCBHdWlkZWQCCA9kFgICAQ8WAh4JaW5uZXJodG1sBfg7PGg0PkFTVVMgUHJvZHVjdCBHdWlkZTwvaDQ+DQo8YnIgLz4NCjx0YWJsZSBib3JkZXI9IjAiIGNlbGxzcGFjaW5nPSIwIiBjZWxscGFkZGluZz0iMCIgd2lkdGg9IjU2MCI+DQogICAgIDx0Ym9keT4NCiAgICAgICAgIDx0cj4NCiAgICAgICAgICAgICA8dGQgaGVpZ2h0PSIxIiB3aWR0aD0iMzAiPjxiciAvPg0KICAgICAgICAgICAgIDwvdGQ+DQogICAgICAgICAgICAgPHRkIGJnY29sb3I9IiM5OTk5OTkiIGhlaWdodD0iMSI+PGJyIC8+DQogICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgICAgICA8dGQgYmdjb2xvcj0iIzk5OTk5OSIgaGVpZ2h0PSIxIj48YnIgLz4NCiAgICAgICAgICAgICA8L3RkPg0KICAgICAgICAgPC90cj4NCiAgICAgICAgIDx0cj4NCiAgICAgICAgICAgICA8dGQ+PGJyIC8+DQogICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgICAgICA8dGQgaGVpZ2h0PSIzMCI+PHN0cm9uZz5TeXN0ZW0gPC9zdHJvbmc+PC90ZD4NCiAgICAgICAgICAgICA8dGQgaGVpZ2h0PSIzMCI+PGJyIC8+DQogICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgIDwvdHI+DQogICAgICAgICA8dHI+DQogICAgICAgICAgICAgPHRkIHdpZHRoPSIzMCI+PGJyIC8+DQogICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgICAgICA8dGQgaGVpZ2h0PSIzMCI+QVNVUyBTbWFsbCAmYW1wOyBNZWRpdW0gQnVzaW5lc3MgUHJvZHVjdCBHdWlkZTwvdGQ+DQogICAgICAgICAgICAgPHRkIGhlaWdodD0iMzAiIHZhbGlnbj0ibWlkZGxlIiB3aWR0aD0iOTAiIGFsaWduPSJjZW50ZXIiPjxhIGhyZWY9Imh0dHA6Ly93d3cuYXN1cy5jb20vZXZlbnQvMjAxNC9waC9wcm9kdWN0Z3VpZGUvQVNVU19TTUJfQnJvY2h1cmVfRkEucGRmIiB0YXJnZXQ9Il9ibGFuayIganF1ZXJ5MTgzMDEwNjgxMzQ4NDk3Mzg1MzM0PSIxMTMiIGpxdWVyeTEyODY3NzIxMTI1MzE9IjE0MyI+PGltZyBib3JkZXI9IjAiIGhzcGFjZT0iMCIgYWx0PSIiIHNyYz0iaHR0cDovL3d3dy5hc3VzLmNvbS93ZWJzaXRlcy9NWS9hYm91dGFzdXMvaXJvdy5wbmciIC8+RG93bmxvYWQ8L2E+PC90ZD4NCiAgICAgICAgIDwvdHI+DQogICAgICAgICA8dHI+DQogICAgICAgICAgICAgPHRkIHdpZHRoPSIzMCI+PGJyIC8+DQogICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgICAgICA8dGQgaGVpZ2h0PSIzMCI+QVNVUyBMYXB0b3AgYW5kIERlc2t0b3AgUHJvZHVjdCBHdWlkZSBEZWMgMjAxNDwvdGQ+DQogICAgICAgICAgICAgPHRkIGhlaWdodD0iMzAiIHZhbGlnbj0ibWlkZGxlIiB3aWR0aD0iOTAiIGFsaWduPSJjZW50ZXIiPjxhIGhyZWY9Imh0dHA6Ly93d3cuYXN1cy5jb20vZXZlbnQvMjAxNC9waC9wcm9kdWN0Z3VpZGUvQVNVU19MYXB0b3BfYW5kX0Rlc2t0b3BfUHJvZHVjdF9HdWlkZV9EZWNfMjAxNC5wZGYiIHRhcmdldD0iX2JsYW5rIiBqcXVlcnkxODMwMTA2ODEzNDg0OTczODUzMzQ9IjExMyIganF1ZXJ5MTI4Njc3MjExMjUzMT0iMTQzIj48aW1nIGJvcmRlcj0iMCIgaHNwYWNlPSIwIiBhbHQ9IiIgc3JjPSJodHRwOi8vd3d3LmFzdXMuY29tL3dlYnNpdGVzL01ZL2Fib3V0YXN1cy9pcm93LnBuZyIgLz5Eb3dubG9hZDwvYT48L3RkPg0KICAgICAgICAgPC90cj4NCiAgICAgICAgIDx0cj4NCiAgICAgICAgICAgICA8dGQgd2lkdGg9IjMwIj48YnIgLz4NCiAgICAgICAgICAgICA8L3RkPg0KICAgICAgICAgICAgIDx0ZCBoZWlnaHQ9IjMwIj5Bc3VzIFByb2R1Y3QgR3VpZGUgSnVuZSAtIEp1bHkgMjAxNSBmb3IgTm90ZWJvb2sgYW5kIERlc2t0b3A8L3RkPg0KICAgICAgICAgICAgIDx0ZCBoZWlnaHQ9IjMwIiB2YWxpZ249Im1pZGRsZSIgd2lkdGg9IjkwIiBhbGlnbj0iY2VudGVyIj48YSBocmVmPSJodHRwOi8vd3d3LmFzdXMuY29tL2V2ZW50LzIwMTUvcHJvZHVjdGd1aWRlL3BoL0p1bmUtSnVseS1OQi1Qcm9kdWN0LUd1aWRlLnBkZiIgdGFyZ2V0PSJfYmxhbmsiIGpxdWVyeTE4MzAxMDY4MTM0ODQ5NzM4NTMzND0iMTEzIiBqcXVlcnkxMjg2NzcyMTEyNTMxPSIxNDMiPjxpbWcgYm9yZGVyPSIwIiBoc3BhY2U9IjAiIGFsdD0iIiBzcmM9Imh0dHA6Ly93d3cuYXN1cy5jb20vd2Vic2l0ZXMvTVkvYWJvdXRhc3VzL2lyb3cucG5nIiAvPkRvd25sb2FkPC9hPjwvdGQ+DQogICAgICAgICA8L3RyPg0KICAgICAgICAgPHRyPg0KICAgICAgICAgICAgIDx0ZCB3aWR0aD0iMzAiPjxiciAvPg0KICAgICAgICAgICAgIDwvdGQ+DQogICAgICAgICAgICAgPHRkIGhlaWdodD0iMzAiPlEzIEF1Z3VzdC1TZXB0ZW1iZXIgQXN1cyBNb2JpbGUgUHJvZHVjdCBHdWlkZTwvdGQ+DQogICAgICAgICAgICAgPHRkIGhlaWdodD0iMzAiIHZhbGlnbj0ibWlkZGxlIiB3aWR0aD0iOTAiIGFsaWduPSJjZW50ZXIiPjxhIGhyZWY9Imh0dHA6Ly93d3cuYXN1cy5jb20vZXZlbnQvMjAxNS9wcm9kdWN0Z3VpZGUvcGgvUTMtWmVuRm9uZTItTW9iaWxlLVRhYmxldC1MaW5ldXAtTW9iaWxlLVNpemUucGRmIiB0YXJnZXQ9Il9ibGFuayIganF1ZXJ5MTgzMDEwNjgxMzQ4NDk3Mzg1MzM0PSIxMTMiIGpxdWVyeTEyODY3NzIxMTI1MzE9IjE0MyI+PGltZyBib3JkZXI9IjAiIGhzcGFjZT0iMCIgYWx0PSIiIHNyYz0iaHR0cDovL3d3dy5hc3VzLmNvbS93ZWJzaXRlcy9NWS9hYm91dGFzdXMvaXJvdy5wbmciIC8+RG93bmxvYWQ8L2E+PC90ZD4NCiAgICAgICAgIDwvdHI+DQogICAgICAgICA8dHI+DQogICAgICAgICAgICAgPHRkIHdpZHRoPSIzMCI+PGJyIC8+DQogICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgICAgICA8dGQgaGVpZ2h0PSIzMCI+Uk9HIEJvb2tsZXQgUEhJTCAyMDE1PC90ZD4NCiAgICAgICAgICAgICA8dGQgaGVpZ2h0PSIzMCIgdmFsaWduPSJtaWRkbGUiIHdpZHRoPSI5MCIgYWxpZ249ImNlbnRlciI+PGEgaHJlZj0iaHR0cDovL3d3dy5hc3VzLmNvbS9ldmVudC8yMDE1L3Byb2R1Y3RndWlkZS9waC9ST0dfQm9va2xldF9QSElMXzIwMTUucGRmIiB0YXJnZXQ9Il9ibGFuayIganF1ZXJ5MTgzMDEwNjgxMzQ4NDk3Mzg1MzM0PSIxMTMiIGpxdWVyeTEyODY3NzIxMTI1MzE9IjE0MyI+PGltZyBib3JkZXI9IjAiIGhzcGFjZT0iMCIgYWx0PSIiIHNyYz0iaHR0cDovL3d3dy5hc3VzLmNvbS93ZWJzaXRlcy9NWS9hYm91dGFzdXMvaXJvdy5wbmciIC8+RG93bmxvYWQgbGF0ZXN0IGNhdGFsb2d1ZTwvYT48L3RkPg0KICAgICAgICAgPC90cj4NCiAgICAgICAgIDx0cj4NCiAgICAgICAgICAgICA8dGQgd2lkdGg9IjMwIj48YnIgLz4NCiAgICAgICAgICAgICA8L3RkPg0KICAgICAgICAgICAgIDx0ZCBoZWlnaHQ9IjMwIj5aZW5Gb25lIEZhbWlseSBCb29rbGV0LUZBX1JldjZfTG93PC90ZD4NCiAgICAgICAgICAgICA8dGQgaGVpZ2h0PSIzMCIgdmFsaWduPSJtaWRkbGUiIHdpZHRoPSI5MCIgYWxpZ249ImNlbnRlciI+PGEgaHJlZj0iaHR0cDovL3d3dy5hc3VzLmNvbS9ldmVudC8yMDE2L3Byb2R1Y3RndWlkZS9waC9aZW5Gb25lLUZhbWlseS1Cb29rbGV0LUZBX1JldjZfTG93LnBkZiIgdGFyZ2V0PSJfYmxhbmsiIGpxdWVyeTE4MzAxMDY4MTM0ODQ5NzM4NTMzND0iMTEzIiBqcXVlcnkxMjg2NzcyMTEyNTMxPSIxNDMiPjxpbWcgYm9yZGVyPSIwIiBoc3BhY2U9IjAiIGFsdD0iIiBzcmM9Imh0dHA6Ly93d3cuYXN1cy5jb20vd2Vic2l0ZXMvTVkvYWJvdXRhc3VzL2lyb3cucG5nIiAvPkRvd25sb2FkPC9hPjwvdGQ+DQogICAgICAgICA8L3RyPg0KICAgICAgICAgPHRyPg0KICAgICAgICAgICAgIDx0ZCB3aWR0aD0iMzAiPjxiciAvPg0KICAgICAgICAgICAgIDwvdGQ+DQogICAgICAgICAgICAgPHRkIGhlaWdodD0iMzAiPk5CIHN1bW1lciBwcm9tbyBXRUIgRkxZRVI8L3RkPg0KICAgICAgICAgICAgIDx0ZCBoZWlnaHQ9IjMwIiB2YWxpZ249Im1pZGRsZSIgd2lkdGg9IjkwIiBhbGlnbj0iY2VudGVyIj48YSBocmVmPSJodHRwOi8vd3d3LmFzdXMuY29tL2V2ZW50LzIwMTYvcHJvZHVjdGd1aWRlL3BoL05CLXN1bW1lci1wcm9tby1XRUItRkxZRVIucGRmIiB0YXJnZXQ9Il9ibGFuayIganF1ZXJ5MTgzMDEwNjgxMzQ4NDk3Mzg1MzM0PSIxMTMiIGpxdWVyeTEyODY3NzIxMTI1MzE9IjE0MyI+PGltZyBib3JkZXI9IjAiIGhzcGFjZT0iMCIgYWx0PSIiIHNyYz0iaHR0cDovL3d3dy5hc3VzLmNvbS93ZWJzaXRlcy9NWS9hYm91dGFzdXMvaXJvdy5wbmciIC8+RG93bmxvYWQ8L2E+PC90ZD4NCiAgICAgICAgIDwvdHI+DQogICAgICAgICA8dHI+DQogICAgICAgICAgICAgPHRkIHdpZHRoPSIzMCI+PGJyIC8+DQogICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgICAgICA8dGQgaGVpZ2h0PSIzMCI+QVNVUyBQcm9kdWN0IEd1aWRlX0phbiAyMDE2IElzc3VlPC90ZD4NCiAgICAgICAgICAgICA8dGQgaGVpZ2h0PSIzMCIgdmFsaWduPSJtaWRkbGUiIHdpZHRoPSI5MCIgYWxpZ249ImNlbnRlciI+PGEgaHJlZj0iaHR0cDovL3d3dy5hc3VzLmNvbS9ldmVudC8yMDE2L3Byb2R1Y3RndWlkZS9waC9BU1VTLVByb2R1Y3QtR3VpZGUtSmFuLTIwMTYtSXNzdWUucGRmIiB0YXJnZXQ9Il9ibGFuayIganF1ZXJ5MTgzMDEwNjgxMzQ4NDk3Mzg1MzM0PSIxMTMiIGpxdWVyeTEyODY3NzIxMTI1MzE9IjE0MyI+PGltZyBib3JkZXI9IjAiIGhzcGFjZT0iMCIgYWx0PSIiIHNyYz0iaHR0cDovL3d3dy5hc3VzLmNvbS93ZWJzaXRlcy9NWS9hYm91dGFzdXMvaXJvdy5wbmciIC8+RG93bmxvYWQ8L2E+PC90ZD4NCiAgICAgICAgIDwvdHI+DQogICAgICAgICA8dHI+DQogICAgICAgICAgICAgPHRkIHdpZHRoPSIzMCI+PGJyIC8+DQogICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgICAgICA8dGQgaGVpZ2h0PSIzMCI+QVNVUyBDb21tZXJjaWFsIEJyb2NodXJlXzIwMTYgUTI8L3RkPg0KICAgICAgICAgICAgIDx0ZCBoZWlnaHQ9IjMwIiB2YWxpZ249Im1pZGRsZSIgd2lkdGg9IjkwIiBhbGlnbj0iY2VudGVyIj48YSBocmVmPSJodHRwOi8vd3d3LmFzdXMuY29tL2V2ZW50LzIwMTYvcHJvZHVjdGd1aWRlL3BoL0FDUEgtQVNVUy1Db21tZXJjaWFsLUJyb2NodXJlLTIwMTYtUTIucGRmIiB0YXJnZXQ9Il9ibGFuayIganF1ZXJ5MTgzMDEwNjgxMzQ4NDk3Mzg1MzM0PSIxMTMiIGpxdWVyeTEyODY3NzIxMTI1MzE9IjE0MyI+PGltZyBib3JkZXI9IjAiIGhzcGFjZT0iMCIgYWx0PSIiIHNyYz0iaHR0cDovL3d3dy5hc3VzLmNvbS93ZWJzaXRlcy9NWS9hYm91dGFzdXMvaXJvdy5wbmciIC8+RG93bmxvYWQ8L2E+PC90ZD4NCiAgICAgICAgIDwvdHI+DQogICAgICAgICA8dHI+DQogICAgICAgICAgICAgPHRkIHdpZHRoPSIzMCI+PGJyIC8+DQogICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgICAgICA8dGQgaGVpZ2h0PSIzMCI+UEcgMjAxNl9NQVkgMjAxNjwvdGQ+DQogICAgICAgICAgICAgPHRkIGhlaWdodD0iMzAiIHZhbGlnbj0ibWlkZGxlIiB3aWR0aD0iOTAiIGFsaWduPSJjZW50ZXIiPjxhIGhyZWY9Imh0dHA6Ly93d3cuYXN1cy5jb20vZXZlbnQvMjAxNi9wcm9kdWN0Z3VpZGUvcGgvQUNQSC1QRy0yMDE2LU1BWS0yMDE2LnBkZiIgdGFyZ2V0PSJfYmxhbmsiIGpxdWVyeTE4MzAxMDY4MTM0ODQ5NzM4NTMzND0iMTEzIiBqcXVlcnkxMjg2NzcyMTEyNTMxPSIxNDMiPjxpbWcgYm9yZGVyPSIwIiBoc3BhY2U9IjAiIGFsdD0iIiBzcmM9Imh0dHA6Ly93d3cuYXN1cy5jb20vd2Vic2l0ZXMvTVkvYWJvdXRhc3VzL2lyb3cucG5nIiAvPkRvd25sb2FkPC9hPjwvdGQ+DQogICAgICAgICA8L3RyPg0KICAgICAgICAgPHRyPg0KICAgICAgICAgICAgIDx0ZCB3aWR0aD0iMzAiPjxiciAvPg0KICAgICAgICAgICAgIDwvdGQ+DQogICAgICAgICAgICAgPHRkIGhlaWdodD0iMzAiPlJPRyBCb29rbGV0IEVORyAyMDE2IFYyLSBXaW5kb3dzIFZlcnNpb248L3RkPg0KICAgICAgICAgICAgIDx0ZCBoZWlnaHQ9IjMwIiB2YWxpZ249Im1pZGRsZSIgd2lkdGg9IjkwIiBhbGlnbj0iY2VudGVyIj48YSBocmVmPSJodHRwOi8vd3d3LmFzdXMuY29tL2V2ZW50LzIwMTYvcHJvZHVjdGd1aWRlL3BoL0FDUEgtUk9HLUJvb2tsZXQtRU5HLTIwMTYtVjItV2luZG93cy1WZXJzaW9uLnBkZiIgdGFyZ2V0PSJfYmxhbmsiIGpxdWVyeTE4MzAxMDY4MTM0ODQ5NzM4NTMzND0iMTEzIiBqcXVlcnkxMjg2NzcyMTEyNTMxPSIxNDMiPjxpbWcgYm9yZGVyPSIwIiBoc3BhY2U9IjAiIGFsdD0iIiBzcmM9Imh0dHA6Ly93d3cuYXN1cy5jb20vd2Vic2l0ZXMvTVkvYWJvdXRhc3VzL2lyb3cucG5nIiAvPkRvd25sb2FkPC9hPjwvdGQ+DQogICAgICAgICA8L3RyPg0KIDx0cj4NCiAgICAgICAgICAgICA8dGQgd2lkdGg9IjMwIj48YnIgLz4NCiAgICAgICAgICAgICA8L3RkPg0KICAgICAgICAgICAgIDx0ZCBoZWlnaHQ9IjMwIj5aZW5mb25lIDMgU2VyaWVzIHByb2R1Y3QgZ3VpZGU8L3RkPg0KICAgICAgICAgICAgIDx0ZCBoZWlnaHQ9IjMwIiB2YWxpZ249Im1pZGRsZSIgd2lkdGg9IjkwIiBhbGlnbj0iY2VudGVyIj48YSBocmVmPSJodHRwOi8vd3d3LmFzdXMuY29tL2V2ZW50LzIwMTYvcHJvZHVjdGd1aWRlL3BoL1plbmZvbmUtMy1TZXJpZXMtcHJvZHVjdC1ndWlkZS5wZGYiIHRhcmdldD0iX2JsYW5rIiBqcXVlcnkxODMwMTA2ODEzNDg0OTczODUzMzQ9IjExMyIganF1ZXJ5MTI4Njc3MjExMjUzMT0iMTQzIj48aW1nIGJvcmRlcj0iMCIgaHNwYWNlPSIwIiBhbHQ9IiIgc3JjPSJodHRwOi8vd3d3LmFzdXMuY29tL3dlYnNpdGVzL01ZL2Fib3V0YXN1cy9pcm93LnBuZyIgLz5Eb3dubG9hZDwvYT48L3RkPg0KICAgICAgICAgPC90cj4NCiAgICAgICAgIDx0cj4NCiAgICAgICAgICAgICA8dGQ+PGJyIC8+DQogICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgICAgICA8dGQgaGVpZ2h0PSIzMCI+PHN0cm9uZz5PcGVuIFBsYXRmb3JtIDwvc3Ryb25nPjwvdGQ+DQogICAgICAgICAgICAgPHRkIGhlaWdodD0iMzAiPjxiciAvPg0KICAgICAgICAgICAgIDwvdGQ+DQogICAgICAgICA8L3RyPg0KICAgICAgICAgPHRyPg0KICAgICAgICAgICAgIDx0ZCB3aWR0aD0iMzAiPjxiciAvPg0KICAgICAgICAgICAgIDwvdGQ+DQogICAgICAgICAgICAgPHRkIGhlaWdodD0iMzAiPkFTVVMgUEMgQ29tcG9uZW50cyBhbmQgUGVyaXBoZXJhbHMgUHJvZHVjdCBHdWlkZTwvdGQ+DQogICAgICAgICAgICAgPHRkIGhlaWdodD0iMzAiIHZhbGlnbj0ibWlkZGxlIiB3aWR0aD0iOTAiIGFsaWduPSJjZW50ZXIiPjxhIGhyZWY9Imh0dHA6Ly93d3cuYXN1cy5jb20vZXZlbnQvMjAxNi9wcm9kdWN0Z3VpZGUvcGgvT1AtUHJvZHVjdGd1aWRlMjAxNiIgdGFyZ2V0PSJfYmxhbmsiIGpxdWVyeTE4MzAxMDY4MTM0ODQ5NzM4NTMzND0iMTEzIiBqcXVlcnkxMjg2NzcyMTEyNTMxPSIxNDMiPjxpbWcgYm9yZGVyPSIwIiBoc3BhY2U9IjAiIGFsdD0iIiBzcmM9Imh0dHA6Ly93d3cuYXN1cy5jb20vd2Vic2l0ZXMvTVkvYWJvdXRhc3VzL2lyb3cucG5nIiAvPlZpZXc8L2E+PC90ZD4NCiAgICAgICAgIDwvdHI+DQogICAgICAgICA8dHI+DQogICAgICAgICAgICAgPHRkIGhlaWdodD0iMSIgd2lkdGg9IjMwIj48YnIgLz4NCiAgICAgICAgICAgICA8L3RkPg0KICAgICAgICAgICAgIDx0ZCBiZ2NvbG9yPSIjOTk5OTk5IiBoZWlnaHQ9IjEiPjxiciAvPg0KICAgICAgICAgICAgIDwvdGQ+DQogICAgICAgICAgICAgPHRkIGJnY29sb3I9IiM5OTk5OTkiIGhlaWdodD0iMSI+PGJyIC8+DQogICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgIDwvdHI+DQogICAgIDwvdGJvZHk+DQo8L3RhYmxlPmQCBQ9kFgJmD2QWEGYPFgIeC18hSXRlbUNvdW50AgkWEgIBD2QWAmYPFQMUaHR0cDovL3JvZy5hc3VzLmNvbS8GX2JsYW5rA1JPR2QCAg9kFgJmDxUDFmh0dHA6Ly90ZWNoaW5zdHlsZS50di8GX2JsYW5rDlRlY2ggSW4gU3R5bGUgZAIDD2QWAmYPFQMfaHR0cDovL3d3dy5hc3VzLmNvbS9zb25pY21hc3RlcgZfYmxhbmsMU29uaWNNYXN0ZXIgZAIED2QWAmYPFQMUaHR0cDovL2VlZS5hc3VzLmNvbS8GX2JsYW5rCkVlZSBpcyBNZSBkAgUPZBYCZg8VAx9odHRwOi8vZXZlbnQuYXN1cy5jb20vMjAxMy92aWJlBl9ibGFuawpBU1VTQHZpYmUrZAIGD2QWAmYPFQM0aHR0cDovL3d3dy5hc3VzLmNvbS9QSC9TdGF0aWNfV2ViUGFnZS9Qcm9kdWN0LUd1aWRlLwZfYmxhbmsNUHJvZHVjdCBHdWlkZWQCBw9kFgJmDxUDJmh0dHA6Ly93d3cuYXN1cy5jb20vcGgvV2hlcmVUb0J1eUxpc3QvBl9ibGFuawxXaGVyZSB0byBidXlkAggPZBYCZg8VAzFodHRwOi8vd3d3LmFzdXMuY29tL21pY3Jvc2l0ZS9wb3dlcmVkLWJ5LWFzdXMvcGgvBl9ibGFuaw9Qb3dlcmVkIEJ5IEFTVVNkAgkPZBYCZg8VAxpodHRwOi8vaGVhbHRoY2FyZS5hc3VzLmNvbQZfYmxhbmsPQVNVUyBIZWFsdGhDYXJlZAIBDxYCHwEF3AMgDQogICAgICAgICAgICAgICAgPGxpIGNsYXNzPSJuYXZiYXItbGkiPjxhIGhyZWY9Ii9waC9Bd2FyZC8iIGlkPSJtZW51X2F3YXJkcyIgdGFyZ2V0PSJfc2VsZiIgb25jbGljaz0iZ29vZ2xlVHJhY2tFdmVudCgnaW5kZXhfbWVudScsIHRoaXMsIHRydWUpO3JldHVybiBmYWxzZTsiPkF3YXJkczwvYT48L2xpPg0KICAgICAgICAgICAgICAgIDxsaSBjbGFzcz0iZGl2aWRlci12ZXJ0aWNhbCI+PC9saT4NCiAgICAgICAgICAgICAgICA8bGkgY2xhc3M9Im5hdmJhci1saSI+PGEgaHJlZj0iL3BoL05ld3MvIiBpZD0ibWVudV9uZXdzIj5OZXdzPC9hPjwvbGk+DQogICAgICAgICAgICAgICAgPGxpIGNsYXNzPSJkaXZpZGVyLXZlcnRpY2FsIj48L2xpPjxsaSBjbGFzcz0ibmF2YmFyLWxpIj48YSBocmVmPS9waC9BYm91dF9BU1VTL09yaWdpbl9vZl90aGVfTmFtZV9BU1VTIGlkPSJtZW51X2Fib3V0YXN1cyI+QWJvdXQgQVNVUzwvYT48L2xpPmQCAg8WAh8EAgQWCAIBD2QWAmYPFQMRL3BoL2ludmVzdG9yLmFzcHgFX3NlbGYSSW52ZXN0b3IgUmVsYXRpb25zZAICD2QWAmYPFQMnL3BoL0FTVVNfV2Vic2l0ZV9JbmZvcm1hdGlvbi9FbXBsb3ltZW50BV9zZWxmCkVtcGxveW1lbnRkAgMPZBYCZg8VAx5odHRwOi8vZ3JlZW4uYXN1cy5jb20vZW5nbGlzaC8GX2JsYW5rD0Fib3V0ICZhbXA7IENTUmQCBA9kFgJmDxUDFmh0dHA6Ly9wcmVzcy5hc3VzLmNvbS8GX2JsYW5rClByZXNzIFJvb21kAgMPFgIfBAICFgQCAQ9kFgJmDxUDLWh0dHA6Ly93d3cuYXN1cy5jb20vcGgvc3VwcG9ydC9Db250YWN0LUFTVVMvIAVfc2VsZgpDb250YWN0IHVzZAICD2QWAmYPFQM8aHR0cHM6Ly9hY2NvdW50LmFzdXMuY29tL3Byb2R1Y3RfcmVnLmFzcHg/bGFuZz1lbi11cyZzaXRlPXBoBV9zZWxmFFByb2R1Y3QgUmVnaXN0cmF0aW9uZAIEDxYCHwQCAhYEAgEPZBYCZg8VAyNodHRwczovL3lvdXR1LmJlL2tiQUxYOWY5Zk1ZP3Q9NDc1MgdZb3VUdWJlKC9tZWRpYS9nbG9iYWwvaWNvbnMvc29jaWFsbWVkaWEvNTJfbi5wbmdkAgIPZBYCZg8VAy1odHRwczovL3d3dy5mYWNlYm9vay5jb20vQVNVU3BoP3JlZj1ib29rbWFya3MIRmFjZWJvb2soL21lZGlhL2dsb2JhbC9pY29ucy9zb2NpYWxtZWRpYS81NF9uLnBuZ2QCBQ8WAh8EZmQCBg8WAh8BBb0BPGEgaHJlZj0iaHR0cDovL3d3dy5hc3VzLmNvbS9lbnRyeS5odG0iIG9uY2xpY2s9Imdvb2dsZVRyYWNrRXZlbnQoJ0NvdW50cnlfTGFuZ19NZW51JywgdGhpcywgdHJ1ZSk7cmV0dXJuIGZhbHNlOyIgdGl0bGU9ImVudHJ5X3BhZ2UiPlBoaWxpcHBpbmVzIC8gPHNwYW4gY2xhc3M9Imxhbmdfc2V0Ij4gRW5nbGlzaDwvc3Bhbj48L2E+ZAIHDxYCHwQCAhYEAgEPZBYCZg8VAzQvcGgvVGVybXNfb2ZfVXNlX05vdGljZV9Qcml2YWN5X1BvbGljeS9PZmZpY2lhbC1TaXRlBl9ibGFuaw1UZXJtcyBvZiAgVXNlZAICD2QWAmYPFQM1L3BoL1Rlcm1zX29mX1VzZV9Ob3RpY2VfUHJpdmFjeV9Qb2xpY3kvUHJpdmFjeV9Qb2xpY3kFX3NlbGYOUHJpdmFjeSBQb2xpY3lkZPToVKyfcTtJ1GhbwfI4DKtzboJ1QnwdMjzQeClzkWDL"> 
+   </div> 
+   <div class="outer-wrapper"> 
+    <div id="af-container"> 
+     <div id="af-header"> 
+      <div class="af-inner"> 
+       <a class="logo" href="/ph/"></a> 
+       <span class="mobile-menu-toggle"><i class="icon icon-css-menu"></i></span> 
+       <div class="nav-bar"> 
+        <!--Main Menu--> 
+        <div class="main-area"> 
+         <div class="nav-main nav">
+          <ul> 
+           <li data-target="products-menu"><a>Products</a></li> 
+           <li data-target="hot-menu"><a>What´s Hot</a></li> 
+           <li data-target="commercial-menu"><a>Commercial</a></li> 
+           <li data-target="service-menu"><a>Service</a></li> 
+           <li><a href="http://store.asus.com/ph/" target="_blank">Store</a></li> 
+          </ul> 
+         </div> 
+        </div> 
+        <div class="sub-area"> 
+         <div class="nav-member nav"> 
+          <ul> 
+           <!--member--> 
+           <li class="member-item member-info" data-lang="en-us" data-appid="0000000002" data-js-returnurl="asus.url.the_url" data-register="Register"> <script>strLang = 'en-us';strRegister='Register';var strLogin = 'LOGIN';var ShowMiniCart = '1'</script> <a>LOGIN <i class="icon icon-profile"></i></a> 
+            <div class="sub-block user-profile"> 
+             <div class="user-img"> 
+              <img src="" alt=""> 
+             </div> 
+             <div class="user-name"></div> 
+             <a href="" class="member-center-btn">ASUS Account</a> 
+             <a href="" class="logout">Logout</a> 
+            </div> </li> 
+           <!--message--> 
+           <li class="member-item msg-center" style="display:none"> <a title="Message"> <i class="icon icon-msg"></i><span class="count"></span></a> 
+            <div class="sub-block"> 
+             <p class="top-title">Message Center</p> 
+             <div class="af-msg-center-group"> 
+              <ul class="sender-list"></ul> 
+             </div> 
+             <div class="af-msg-center-footer"> 
+              <a href="">Display all</a> 
+             </div> 
+            </div> </li> 
+           <!--recently/compare--> 
+           <li id="menu_compare" class="aai-mm-item member-item products-compare"> 
+            <div class="aai-mm-sub aai-mms-list sub-block compare-block"> 
+             <div class="aai-mmst-inner"> 
+              <div class="aai-mst-header"> 
+               <a data-id="viewed-list"></a> 
+              </div> 
+              <!-- Viewed --> 
+              <div class="aai-tls-se " id="viewed-list"> 
+               <div class="aai-tm"> 
+                <ul class="aai-vls"> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                 <li class="span-5col"><img src="/media/img/p_130_rull.jpg"></li> 
+                </ul> 
+               </div> 
+              </div> 
+              <!-- Viewed @end --> 
+              <!-- compare --> 
+              <div class="aai-tls-se " id="div_compare_panel"> 
+               <div class="aai-tm"> 
+                <div class="compare_group"></div> 
+               </div> 
+              </div> 
+              <!-- compare @end--> 
+             </div> 
+            </div> </li> 
+           <!-- Shopping Cart--> 
+           <li class="member-item shopcart"> 
+            <div class="sub-block"> 
+             <div class="cart-wrap"> 
+             </div> 
+            </div> </li> 
+          </ul> 
+         </div> 
+         <!--search--> 
+         <div class="search-bar"> 
+          <a class="aai-mm-btn hide"><i class="aai-icons aai-icon-search"></i></a> 
+          <input type="text" class="input-search" id="top-search-bar" name="q" autocomplete="off"> 
+          <input type="text" id="searchinputDefault" class="input-search hide"> 
+          <button class="btn btn-search-submit" onclick="Search();return false;"><i class="icon icon-search"></i></button> 
+          <div class="search-result"></div> 
+         </div> 
+        </div> 
+        <!--Sub Menu--> 
+        <div class="submenu-area">
+         <div class="products-menu submenu"> 
+          <h3 class="title">Products</h3> 
+          <ul class="nav"> 
+           <li class="products-item" data-submenu-id="1"><a>Phone</a></li> 
+           <li class="products-item" data-submenu-id="78"><a>Notebook &amp; 2-in-1 PCs</a></li> 
+           <li class="products-item" data-submenu-id="155"><a>Tablet</a></li> 
+           <li class="products-item" data-submenu-id="232"><a>Motherboards</a></li> 
+           <li class="products-item" data-submenu-id="309"><a>Graphics Cards</a></li> 
+           <li class="products-item" data-submenu-id="386"><a>Wearable &amp; Healthcare</a></li> 
+           <li class="products-item" data-submenu-id="463"><a>Desktop &amp; All-in-One PCs</a></li> 
+           <li class="products-item" data-submenu-id="540"><a>Display</a></li> 
+           <li class="products-item" data-submenu-id="617"><a>Networking</a></li> 
+           <li class="products-item" data-submenu-id="694"><a>Sound</a></li> 
+           <li class="products-item" data-submenu-id="771"><a>Home &amp; Automobile</a></li> 
+           <li class="products-item" data-submenu-id="848"><a>Peripheral</a></li> 
+           <li class="products-item" data-submenu-id="925"><a>Gaming</a></li> 
+          </ul> 
+          <div class="display-area"> 
+           <ul class="sub-products-list sub-cat-list"> 
+            <li class="products-1 sub-item"> <h3 class="origin-title">Phone</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/ph/Phone/">Phone</a> </h4>
+              <ul> 
+               <li><a href="/ph/Phone/ZenFone-Products/">ZenFone (Versatile Performer)</a></li> 
+               <li><a href="/ph/Phone/ZenFone-Deluxe-Products/">ZenFone Deluxe (Premium Performance)</a></li> 
+               <li><a href="/ph/Phone/ZenFone-Ultra-Products/">ZenFone Ultra (Premium Entertainment)</a></li> 
+               <li><a href="/ph/Phone/ZenFone-Zoom-Products/">ZenFone Zoom (3X Optical Zoom)</a></li> 
+               <li><a href="/ph/Phone/ZenFone-Selfie-Products/">ZenFone Selfie (Dual 13MP Cameras)</a></li> 
+               <li><a href="/ph/Phone/ZenFone-Laser-Products/">ZenFone Laser (Rapid Laser Auto-Focus)</a></li> 
+               <li><a href="/ph/Phone/ZenFone-Max-Products/">ZenFone Max (Super Long Life Battery)</a></li> 
+               <li><a href="/ph/Phone/ZenFone-Go-Products/">ZenFone Go (Fun &amp; Colorful)</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/ph/Phone-Accessory/">Phone Accessory</a> </h4>
+              <ul> 
+               <li><a href="/ph/Phone-Accessory/Power-Banks-Products/">Power Banks</a></li> 
+               <li><a href="/ph/Phone-Accessory/Cases-Covers-Sleeves-Products/">Cases, Covers &amp; Sleeves</a></li> 
+               <li><a href="/ph/Phone-Accessory/Screen-Protectors-Products/">Screen Protectors</a></li> 
+               <li><a href="/ph/Phone-Accessory/Miracast-Products/">Miracast</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="http://www.asus.com/ph/Phone/ZenFone-3-Deluxe-ZS570KL/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/ph/ProductLevel1/Topmenu/1.png" alt="">
+                </div> 
+                <div class="title">
+                 ZenFone 3 Deluxe (ZS570KL)
+                </div> 
+                <div class="summary">
+                 •Metal Unibody •AMOLED Display with ASUS Tru2Life •S820 Series Processor with up to 6GB Ram •23/8MP Rear &amp; Front cameras &amp; OIS+EIS
+                </div> Learn more</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-78 sub-item two-column"> <h3 class="origin-title">Notebook &amp; 2-in-1 PCs</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/ph/Notebooks/">Notebooks</a> </h4>
+              <ul> 
+               <li><a href="/ph/Notebooks/Zenbook-Series-Products/">Zenbook Series</a></li> 
+               <li><a href="/ph/Notebooks/Gaming-Series-Products/">Gaming Series</a></li> 
+               <li><a href="/ph/Notebooks/N-series-Products/">N series</a></li> 
+               <li><a href="/ph/Notebooks/K-A-series-Products/">K series</a></li> 
+               <li><a href="/ph/Notebooks/X-series-Products/">X series</a></li> 
+               <li><a href="/ph/Notebooks/Chromebook-Products/">Chromebook</a></li> 
+               <li><a href="/ph/Notebooks/Vivobook-Series-Products/">V Series</a></li> 
+               <li><a href="/ph/Notebooks/Taichi-Series-Products/">Taichi Series</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/ph/2-in-1-PCs/">2-in-1 PCs</a> </h4>
+              <ul> 
+               <li><a href="/ph/2-in-1-PCs/Transformer-Book-series-Detachable-Products/">Transformer Book series (Detachable)</a></li> 
+               <li><a href="/ph/2-in-1-PCs/Transformer-Book-series-Convertible-Products/">Transformer Book series (Convertible)</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/ph/Notebooks-Accessory/">Notebooks Accessory</a> </h4>
+              <ul> 
+               <li><a href="/ph/Notebooks-Accessory/Adapters-Products/">Adapters</a></li> 
+               <li><a href="/ph/Notebooks-Accessory/Stylus-Products/">Stylus</a></li> 
+               <li><a href="/ph/Notebooks-Accessory/Docks-Products/">Docks</a></li> 
+               <li><a href="/ph/Notebooks-Accessory/Screen-Protectors-Products/">Screen Protectors</a></li> 
+               <li><a href="/ph/Notebooks-Accessory/Cases-Covers-Sleeves-Products/">Cases, Covers &amp; Sleeves</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/ph/Notebooks/ASUS-ZenBook-UX305FA/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/ph/ProductLevel1/Topmenu/78.png" alt="">
+                </div> 
+                <div class="title">
+                 UX305FA
+                </div> 
+                <div class="summary">
+                 Fast. Slim. Beautiful.
+                </div> Learn more</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-155 sub-item"> <h3 class="origin-title">Tablet</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/ph/Tablets/">Tablets</a> </h4>
+              <ul> 
+               <li><a href="/ph/Tablets/ZenPad-Products/">ZenPad</a></li> 
+               <li><a href="/ph/Tablets/Fonepad-Products/">Fonepad</a></li> 
+               <li><a href="/ph/Tablets/Transformer-Pad-Products/">Transformer Pad</a></li> 
+               <li><a href="/ph/Tablets/Nexus-Products/">Nexus</a></li> 
+               <li><a href="/ph/Tablets/MeMO-Pad-Products/">MeMO Pad</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/ph/Tablets/ASUS_ZenPad_S_80_Z580CA/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/global/ProductLevel1/Topmenu/155.png" alt="">
+                </div> 
+                <div class="title">
+                 ASUS ZenPad S 8.0 (Z580CA)
+                </div> 
+                <div class="summary">
+                 Super Quad-Core Tablet with 8-inch 2K IPS Display
+                </div> Learn more</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-232 sub-item"> <h3 class="origin-title">Motherboards</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/ph/Motherboards/">Motherboards</a> </h4>
+              <ul> 
+               <li><a href="/ph/Motherboards/ASUS-Prime-Products/">ASUS Signature</a></li> 
+               <li><a href="/ph/Motherboards/ROG-Republic-of-Gamers-Products/">ROG - Republic of Gamers</a></li> 
+               <li><a href="/ph/Motherboards/Pro-Gaming-Products/">Pro Gaming</a></li> 
+               <li><a href="/ph/Motherboards/TUF-24-7-Durability-Products/">TUF (24/7 durability)</a></li> 
+               <li><a href="/ph/Motherboards/Workstation-Products/">Workstation</a></li> 
+               <li><a href="/ph/Motherboards/Intel-platform-Products/">Intel platform</a></li> 
+               <li><a href="/ph/Motherboards/AMD-platform-Products/">AMD platform</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="http://www.asus.com/ph/ROG-Republic-Of-Gamers/ROG-MAXIMUS-VIII-FORMULA/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/ph/ProductLevel1/Topmenu/232.png" alt="">
+                </div> 
+                <div class="title">
+                 ROG-MAXIMUS-VIII-FORMULA
+                </div> 
+                <div class="summary">
+                 Perfect your build from cooling to color
+                </div> Learn more</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-309 sub-item"> <h3 class="origin-title">Graphics Cards</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/ph/Graphics-Cards/">Graphics Cards</a> </h4>
+              <ul> 
+               <li><a href="/ph/Graphics-Cards/AMD-Series-Products/">AMD Series</a></li> 
+               <li><a href="/ph/Graphics-Cards/NVIDIA-Series-Products/">NVIDIA Series</a></li> 
+               <li><a href="/ph/Graphics-Cards/ROG-Republic-of-Gamers-Products/">ROG Series</a></li> 
+               <li><a href="/ph/Graphics-Cards/STRIX-Gaming-Products/">STRIX Series</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/ph/Graphics-Cards/STRIXGTX980TIDC3OC6GD5GAMING/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/ph/ProductLevel1/Topmenu/309.png" alt="">
+                </div> 
+                <div class="title">
+                 STRIX-GTX980Ti-DC3OC-6GD5-GAMING
+                </div> 
+                <div class="summary">
+                 ASUS STRIX GTX™ 980 Ti delivers truly elite gaming experience
+                </div> Learn more</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-386 sub-item"> <h3 class="origin-title">Wearable &amp; Healthcare</h3> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"> <a href="/ph/VivoWatch/">Health &amp; Fitness</a> </h4>
+              <ul> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/ph/VivoWatch/ASUS_VivoWatch/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/ph/ProductLevel1/Topmenu/386.png" alt="">
+                </div> 
+                <div class="title">
+                 ASUS VivoWatch
+                </div> 
+                <div class="summary">
+                 The pulse of life: A watch to care for you and your family
+                </div> Learn more</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-463 sub-item two-column"> <h3 class="origin-title">Desktop &amp; All-in-One PCs</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/ph/Tower-PCs/">Tower PCs</a> </h4>
+              <ul> 
+               <li><a href="/ph/Tower-PCs/VivoPC-Series-Products/">VivoPC series</a></li> 
+               <li><a href="/ph/Tower-PCs/ROG-Series-Products/">ROG series</a></li> 
+               <li><a href="/ph/Tower-PCs/Gaming-Series-Products/">Gaming series</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/ph/Mini-PCs/">Mini PCs</a> </h4>
+              <ul> 
+               <li><a href="/ph/Mini-PCs/VivoPC-Products/">VivoPC</a></li> 
+               <li><a href="/ph/Mini-PCs/VivoMini-Products/">VivoMini</a></li> 
+               <li><a href="/ph/Mini-PCs/ROG-Series-Products/">ROG Series</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/ph/Stick-PCs/">Stick PCs</a> </h4>
+              <ul> 
+               <li><a href="/ph/Stick-PCs/VivoStick-PC-Products/">Stick PCs</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/ph/Chrome-Devices/">Chrome Devices</a> </h4>
+              <ul> 
+               <li><a href="/ph/Chrome-Devices/Chromebox-Products/">Chromebox</a></li> 
+               <li><a href="/ph/Chrome-Devices/Chromebit-Products/">Chrome Devices</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/ph/AllinOne-PCs/">All-in-One PCs</a> </h4>
+              <ul> 
+               <li><a href="/ph/AllinOne-PCs/Zen-AiO-Series-Products/">Zen AiO Series</a></li> 
+               <li><a href="/ph/AllinOne-PCs/Vivo-AiO-Products/">Vivo AiO</a></li> 
+               <li><a href="/ph/AllinOne-PCs/Portable-AiO-Products/">Portable AiO</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/ph/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/ph/ProductLevel1/Topmenu/463.png" alt="">
+                </div> 
+                <div class="title">
+                  VivoMini UN62V 
+                </div> 
+                <div class="summary">
+                 Ultra-compact 0.6L mini PC measuring 131 x 131 x 42mm
+                </div> Learn more</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-540 sub-item"> <h3 class="origin-title">Display</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/ph/Monitors/">Monitors</a> </h4>
+              <ul> 
+               <li><a href="/ph/Monitors/4K-UHD-2K-WQHD-Products/">4K &amp; WQHD</a></li> 
+               <li><a href="/ph/Monitors/Professional-Products/">Professional</a></li> 
+               <li><a href="/ph/Monitors/Gaming-Products/">3D &amp; Gaming</a></li> 
+               <li><a href="/ph/Monitors/Business-Products/">Wide-Viewing</a></li> 
+               <li><a href="/ph/Monitors/Eye-Care-Products/">Eye Care</a></li> 
+               <li><a href="/ph/Monitors/ZenScreen-Products/">More…</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/ph/Projectors/">Projectors</a> </h4>
+              <ul> 
+               <li><a href="/ph/Projectors/Projectors-Products/">Projectors</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/ph/ROG-Republic-Of-Gamers/ROG-SWIFT-PG279Q/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/ph/ProductLevel1/Topmenu/540.png" alt="">
+                </div> 
+                <div class="title">
+                 PG279Q
+                </div> 
+                <div class="summary">
+                 ROG Swift PG279Q Gaming monitor
+                </div> Learn more</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-617 sub-item"> <h3 class="origin-title">Networking</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/ph/Networking/">Networking</a> </h4>
+              <ul> 
+               <li><a href="/ph/Networking/Wireless-Routers-Products/">Wireless Routers</a></li> 
+               <li><a href="/ph/Networking/Wireless-AP-Repeater-Bridges-Products/">Wireless AP/Repeater/Bridges</a></li> 
+               <li><a href="/ph/Networking/Wireless-Adapters-Products/">Wireless Adapters</a></li> 
+               <li><a href="/ph/Networking/Wired-Networking-Products/">Wired Networking</a></li> 
+               <li><a href="/ph/Networking/Bluetooth-Antennas-Products/">Bluetooth &amp; Antennas</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/ph/Networking/RTAC87U/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/ph/ProductLevel1/Topmenu/617.png" alt="">
+                </div> 
+                <div class="title">
+                 RT-AC88U
+                </div> 
+                <div class="summary">
+                 AC3100 Dual-Band Wi-Fi Gigabit Router
+                </div> Learn more</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-694 sub-item two-column"> <h3 class="origin-title">Sound</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/ph/Essence-Hi-Fi-Audio/">Essence Hi-Fi Audio</a> </h4>
+              <ul> 
+               <li><a href="/ph/Essence-Hi-Fi-Audio/Hi-Fi-Sound-Cards-Products/">Sound Cards</a></li> 
+               <li><a href="/ph/Essence-Hi-Fi-Audio/DACs-Amplifiers-Products/">DACs &amp; Amplifiers</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/ph/Sound-Cards/">Sound Cards</a> </h4>
+              <ul> 
+               <li><a href="/ph/Sound-Cards/Hi-Fi-Sound-Cards-Products/">Essence Hi-Fi Series</a></li> 
+               <li><a href="/ph/Sound-Cards/STRIX-Gaming-Series-Products/">STRIX Gaming Series</a></li> 
+               <li><a href="/ph/Sound-Cards/Gaming-Products/">Gaming</a></li> 
+               <li><a href="/ph/Sound-Cards/Entertainment-Products/">Entertainment</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/ph/Headphones-Headsets/">Headphones &amp; Headsets</a> </h4>
+              <ul> 
+               <li><a href="/ph/Headphones-Headsets/ROG-Republic-of-Gamers-Products/">ROG Gaming Series</a></li> 
+               <li><a href="/ph/Headphones-Headsets/Gaming-Products/">Gaming</a></li> 
+               <li><a href="/ph/Headphones-Headsets/Entertainment-Products/">Entertainment</a></li> 
+               <li><a href="/ph/Headphones-Headsets/STRIX-Gaming-Series-Products/">STRIX Gaming Series</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/ph/Speakers/">Speakers</a> </h4>
+              <ul> 
+               <li><a href="/ph/Speakers/Speakers-Products/">Speakers</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/ph/Essence-Hi-Fi-Audio/Essence_III/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/ph/ProductLevel1/Topmenu/694.png" alt="">
+                </div> 
+                <div class="title">
+                  Essence III 
+                </div> 
+                <div class="summary">
+                 Preamplifier, USB DAC and headphone amplifier
+                </div> Learn more</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-771 sub-item"> <h3 class="origin-title">Home &amp; Automobile</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/ph/Home-Entertainment/">Home Entertaiment</a> </h4>
+              <ul> 
+               <li><a href="/ph/Home-Entertainment/USB-TV-Tuner-Products/">USB TV Tuner</a></li> 
+               <li><a href="/ph/Home-Entertainment/O-Play-Digital-Media-Player-Products/">O!Play Digital Media Player</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/ph/Car-Electronics/">Car Electronics</a> </h4>
+              <ul> 
+               <li><a href="/ph/Car-Electronics/Video-Recorder-Camcorder-Products/">Video Recorder &amp; Camcoder</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/ph/Car-Electronics/RECO_Classic_Car_Cam/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/ph/ProductLevel1/Topmenu/771.png" alt="">
+                </div> 
+                <div class="title">
+                 RECO Classic Car Cam 
+                </div> 
+                <div class="summary">
+                 ASUS RECO Classic Car Cam
+                </div> Learn more</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-848 sub-item two-column"> <h3 class="origin-title">Peripheral</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/ph/Computer-Bags/">Computer Bags</a> </h4>
+              <ul> 
+               <li><a href="/ph/Computer-Bags/Backpacks-Products/">Backpacks</a></li> 
+               <li><a href="/ph/Computer-Bags/Carry-Cases-Products/">Carry Cases</a></li> 
+               <li><a href="/ph/Computer-Bags/Sleeves-Products/">Sleeves</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/ph/Keyboards-Mice/">Keyboards &amp; Mice</a> </h4>
+              <ul> 
+               <li><a href="/ph/Keyboards-Mice/Keyboards-Products/">Keyboards</a></li> 
+               <li><a href="/ph/Keyboards-Mice/Mice-Products/">Mice</a></li> 
+               <li><a href="/ph/Keyboards-Mice/Mouse-pads-Products/">Mousepads</a></li> 
+              </ul> 
+             </div> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/ph/Optical-Drives-Storage/">Optical Drives &amp; Storage</a> </h4>
+              <ul> 
+               <li><a href="/ph/Optical-Drives-Storage/External-Blu-ray-Drive-Products/">External Bluray Drive</a></li> 
+               <li><a href="/ph/Optical-Drives-Storage/External-Slim-DVD-Drive-Products/">External Slim DVD Drive</a></li> 
+               <li><a href="/ph/Optical-Drives-Storage/Internal-Blu-ray-Drive-Products/">Internal Blu-ray Drive</a></li> 
+               <li><a href="/ph/Optical-Drives-Storage/Internal-DVD-Drive-Products/">Internal DVD Drive</a></li> 
+               <li><a href="/ph/Optical-Drives-Storage/Storage-Products/">Storage</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/ph/Optical-Drives-Storage/SBW06D2XU_PRO/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/ph/ProductLevel1/Topmenu/848.png" alt="">
+                </div> 
+                <div class="title">
+                 SBW-06D2X-U PRO
+                </div> 
+                <div class="summary">
+                 BDXL Support - Maximum Data Storage up to 128GB
+                </div> Learn more</a> 
+              </div> 
+             </div> </li> 
+            <li class="products-925 sub-item"> <h3 class="origin-title">Gaming</h3> 
+             <div class="sub-group "> 
+              <h4 class="sub-cat-title"> <a href="/ph/ROG-Republic-Of-Gamers/">ROG - Republic Of Gamers</a> </h4>
+              <ul> 
+               <li><a href="/ph/ROG-Republic-Of-Gamers/Notebooks-Products/">Notebooks</a></li> 
+               <li><a href="/ph/ROG-Republic-Of-Gamers/Desktops-Products/">Desktops</a></li> 
+               <li><a href="/ph/ROG-Republic-Of-Gamers/Motherboards-Products/">Motherboards</a></li> 
+               <li><a href="/ph/ROG-Republic-Of-Gamers/Graphics-Cards-Products/">Graphics Cards</a></li> 
+               <li><a href="/ph/ROG-Republic-Of-Gamers/Monitors-Products/">Monitors</a></li> 
+               <li><a href="/ph/ROG-Republic-Of-Gamers/Headsets-Products/">Headset</a></li> 
+               <li><a href="/ph/ROG-Republic-Of-Gamers/Sound-Cards-Products/">Sound</a></li> 
+               <li><a href="/ph/ROG-Republic-Of-Gamers/Mice-Products/">Mouse</a></li> 
+               <li><a href="/ph/ROG-Republic-Of-Gamers/Mousepads-Products/">Mousepad</a></li> 
+              </ul> 
+             </div> 
+             <div class="highlight"> 
+              <div class="product-info"> 
+               <a href="/ph/Motherboards/ROG-MAXIMUS-VIII-HERO-ALPHA/" target="_blank" class="btn-more"> 
+                <div class="cover-img">
+                 <img src="/media/ph/ProductLevel1/Topmenu/925.png" alt="">
+                </div> 
+                <div class="title">
+                 ROG MAXIMUS VIII HERO ALPHA 
+                </div> 
+                <div class="summary">
+                 World’s first Z170 gaming motherboard with integrated RGB headers
+                </div> Learn more</a> 
+              </div> 
+             </div> </li> 
+           </ul> 
+          </div> 
+         </div> 
+         <div class="hot-menu submenu three-column"> 
+          <h3 class="title">What´s Hot</h3> 
+          <ul class="hot-list clearfix"> 
+           <li class="hot-item first"><a onclick="TopmenuGoogleTraking(this, '1', '/media/ph/TopMenuItem/45.jpg'); return false;" href="http://www.asus.com/zenbook/ph/index.html" target="_blank"><img src="/media/ph/TopMenuItem/45.jpg" alt="ZenBook"><span class="title">ZenBook</span></a></li> 
+           <li class="hot-item"><a onclick="TopmenuGoogleTraking(this, '2', '/media/ph/TopMenuItem/46.jpg'); return false;" href="http://www.asus.com/ph/ROG-Republic-Of-Gamers/CERBERUS/" target="_blank"><img src="/media/ph/TopMenuItem/46.jpg" alt="CERBERUS"><span class="title">CERBERUS</span></a></li> 
+           <li class="hot-item"><a onclick="TopmenuGoogleTraking(this, '3', '/media/ph/TopMenuItem/47.jpg'); return false;" href="http://www.asus.com/ph/Motherboards/RAMPAGE_V_EXTREME/" target="_blank"><img src="/media/ph/TopMenuItem/47.jpg" alt="RAMPAGE_V_EXTREME"><span class="title">RAMPAGE_V_EXTREME</span></a></li> 
+          </ul> 
+          <ul class="hot-list clearfix"> 
+           <li class="hot-item"><a onclick="TopmenuGoogleTraking(this, '4', '/media/ph/TopMenuItem/49.jpg'); return false;" href="http://www.asus.com/ph/Desktops/ROG_G20AJ/" target="_blank"><img src="/media/ph/TopMenuItem/49.jpg" alt="ROG G20AJ"><span class="title">ROG G20AJ</span></a></li> 
+           <li class="hot-item"><a onclick="TopmenuGoogleTraking(this, '5', '/media/ph/TopMenuItem/50.jpg'); return false;" href="http://www.asus.com/ph/Notebooks_Ultrabooks/ASUS_Transformer_Book_T100TAF/" target="_blank"><img src="/media/ph/TopMenuItem/50.jpg" alt="ASUS Transformer Book T100"><span class="title">ASUS Transformer Book T100</span></a></li> 
+           <li class="hot-item"><a onclick="TopmenuGoogleTraking(this, '6', '/media/ph/TopMenuItem/52.jpg'); return false;" href="http://www.asus.com/ph/Networking/RT-AC88U/" target="_blank"><img src="/media/ph/TopMenuItem/52.jpg" alt="RT-AC88U"><span class="title">RT-AC88U</span></a></li> 
+          </ul> 
+          <ul class="hot-list clearfix"> 
+           <li class="hot-item"><a onclick="TopmenuGoogleTraking(this, '7', '/media/ph/TopMenuItem/54.jpg'); return false;" href="http://www.asus.com/ph/ROG-Republic-Of-Gamers/ROG-SWIFT-PG348Q/" target="_blank"><img src="/media/ph/TopMenuItem/54.jpg" alt="ROG-SWIFT-PG348Q"><span class="title">ROG-SWIFT-PG348Q</span></a></li> 
+           <li class="hot-item"><a onclick="TopmenuGoogleTraking(this, '8', '/media/ph/TopMenuItem/86.jpg'); return false;" href="http://www.asus.com/ph/Tablets/ASUS_ZenPad_S_80_Z580CA/" target="_blank"><img src="/media/ph/TopMenuItem/86.jpg" alt="ASUS ZenPad S 80"><span class="title">ASUS ZenPad S 80</span></a></li> 
+           <li class="hot-item"><a onclick="TopmenuGoogleTraking(this, '9', '/media/ph/TopMenuItem/87.jpg'); return false;" href="http://athena.asus.com/newph/Graphics-Cards/GTX1080-8G/" target="_blank"><img src="/media/ph/TopMenuItem/87.jpg" alt="GTX1080-8G"><span class="title">GTX1080-8G</span></a></li> 
+          </ul> 
+         </div> 
+         <div class="commercial-menu submenu"> 
+          <h3 class="title">Commercial</h3> 
+          <ul class="nav"> 
+           <li class="commercial-item" data-submenu-id="products"><a href="/ph/commercial/" target="_self">Products</a></li> 
+           <li class="commercial-item" data-submenu-id="Industry"><a href="/ph/CommercialInfo/Industry/">Industry</a></li> 
+           <li class="commercial-item" data-submenu-id="Business_Size"><a href="/ph/CommercialInfo/Business_Size/">Business Size</a></li> 
+           <li class="commercial-item" data-submenu-id="Solution"><a href="/ph/CommercialInfo/Solution/">Solution</a></li> 
+          </ul> 
+          <div class="display-area"> 
+           <ul class="sub-commercial-list sub-cat-list"> 
+            <li class="commercial-products sub-item two-column"> <h3 class="origin-title">Products</h3> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/ph/Commercial-All-in-One-PCs/">All-in-One PCs</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/ph/Commercial-Monitors/">Monitors</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/ph/Commercial-Servers-Workstations/">Server &amp; Workstation</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/ph/Commercial-Desktop/">Desktop</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/ph/Commercial-Notebooks/">Notebooks</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/ph/Commercial-Tablets/">Tablets</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/ph/Commercial-Projectors/">Projectors</a></h4> 
+             </div> </li> 
+            <li class="commercial-Industry sub-item two-column"> <h3 class="origin-title">Industry</h3> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/ph/CommercialInfo/Industry/Education/">Education</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/ph/CommercialInfo/Industry/Retail_Service/">Retail &amp; Service</a></h4> 
+             </div> </li> 
+            <li class="commercial-Business_Size sub-item two-column"> <h3 class="origin-title">Business Size</h3> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/ph/CommercialInfo/Business_Size/SOHO_Micro_Business/">SOHO &amp; Micro Business</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/ph/CommercialInfo/Business_Size/Small_Midsize_Business/">Small &amp; Mid-size Business</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/ph/CommercialInfo/Business_Size/Enterprise_Large_Business/">Enterprise &amp; Large Business</a></h4> 
+             </div> </li> 
+            <li class="commercial-Solution sub-item two-column"> <h3 class="origin-title">Solution</h3> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/ph/CommercialInfo/Solution/Mobile_Solution/">Mobile Solution</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/ph/CommercialInfo/Solution/Business_Protection/">Business Protection</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/ph/CommercialInfo/Solution/Improve_Performance/">Improve Performance</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/ph/CommercialInfo/Solution/Enhance_Communication/">Enhance Communication</a></h4> 
+             </div> 
+             <div class="sub-group empty"> 
+              <h4 class="sub-cat-title"><a href="/ph/CommercialInfo/Solution/Green_Office/">Green Office</a></h4> 
+             </div> </li> 
+           </ul> 
+          </div> 
+         </div> 
+         <div class="service-menu submenu"> 
+          <h3 class="title">Service</h3> 
+          <ul class="nav"> 
+           <li class="service-item" data-submenu-id="1"><a href="http://www.asus.com/ph/support/" target="_blank">Support</a></li> 
+           <li class="service-item" data-submenu-id="2"><a href="http://www.asus.com/zentalk/ph/" target="_blank">ZenTalk</a></li> 
+          </ul> 
+         </div> 
+         <div class="store-menu submenu"> 
+          <h3 class="title">Store</h3> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="mobile-action"> 
+        <a class="btn" href="#"><i class="icon icon-search"></i></a> 
+       </div> 
+      </div> 
+     </div> 
+     <script>
+    var intControlstopSysWordingCheckId;
+    intControlstopSysWordingCheckId = setInterval("controlstopSysWordingCheck()", intSysWordingCheckSpeed);
+
+    function controlstopSysWordingCheck() {
+        if (sysWordingRead) {
+            $("#aai-search-btn").val(sysWording.SearchTitle);
+            $("#minicart_panel p.aai-item-titl").html(sysWording.ShoppingCart);
+
+            clearTimeout(intControlstopSysWordingCheckId);
+        }
+    }
+</script> 
+     <script>
+    var isInGroup = '0';
+    var compare_open = "F";
+
+    function checkShoppingCart(url) {
+        //: Check Cart Quantity
+        $.getJSON(url, function (cartJsonData) {
+            if (!cartJsonData.shoppingCart.isEmpty) $("#num_shoppingcart").html(cartJsonData.shoppingCart.totalQuantity);
+        });
+    }
+
+    //: ------------- BEGIN -------------
+    //: [[Compare Model 2012/05/29 Angel]]
+    function getCompareCookie() {
+        var theData = "";
+        var theCookie = document.cookie;
+        var compareGroupName = "";
+        var val = theCookie.split(";");
+
+        for (i = 0; i < val.length; i++) {
+            compareGroupName = "";
+            var data = val[i].split("=");
+            if (data.length > 1) {
+                var index = data[0].indexOf("compare_");
+                if (index > -1) {
+                    var compareid = data[0].substring(index + 8);
+                    if (CompareJson) {
+                        $.map(CompareJson, function (obj_compare) {
+                            if (obj_compare.CompareID === compareid)
+                                compareGroupName = obj_compare.CompareName
+                        });
+                    }
+                    if (data[1] != "")
+                        theData += "compare_" + compareid + "." + compareGroupName.replace(/^\s+/, "") + ":" + unescape(data[1]) + ";";
+                }
+            }
+        }
+        return theData;
+    }
+
+    function getMessage() {
+        //var msg_data = (getWebsite() == "cn") ? '//www.asus.com.cn/message.aspx.aspx?lang=' + strLang :
+        //    '//www.asus.com/message.aspx?lang=' + strLang;
+        //
+        //$.ajax({
+        //    url: msg_data,
+        //    dataType: 'jsonp',
+        //    jsonp: 'callback',
+        //    cache: true,
+        //    jsonpCallback: '_asus_message_fn',
+        //    success: function (res) {
+        //        $("#menu_msg ul.sender-list").html(res.message);
+        //        $("#menu_msg .aai-msgcenter-footer a").attr("href", "https://account.asus.com/msgcenter.aspx?lang=" + strLang + "&site=" + getWebsite());
+        //        $("#menu_msg ul.sender-list li.list-item").on("click", message_detail);
+        //
+        //        if (res.Total == "0") { $("#menu_msg .aai-circle-num").css({ 'display': 'none' }); $("#menu_msg .aai-circle-num").text("0"); }
+        //        else {
+        //            $("#menu_msg .aai-circle-num").css({ 'display': 'block' });
+        //            $("#menu_msg .aai-circle-num").text(res.Total);
+        //        }
+        //    },
+        //    error: function () { }
+        //});
+        //
+        //var message_detail = function () {
+        //    var message_id = $(this).data('messageid');
+        //    window.open("https://account.asus.com/msgcenter.aspx?sid=" + message_id + "&lang=" + strLang + "&site=" + getWebsite());
+        //};
+    }
+
+    var timeoutHandle;
+    function setCompareList() {
+        var content = getCompareCookie(),
+            compareCookieName = getcookiedata("comparecookiename"),
+            intI,
+            compareGroup = content.split(";"),
+            $cp = $("#div_compare_panel"),
+            slideVal,
+            compare_count = 0,
+            currentSliderValue = "",
+            imgTarget = "";
+        $cp.empty();
+        //$cp.append("<p class=\"aai-item-title\">" + sysWording.CompareList + "</p>");
+        for (i = 0; i < compareGroup.length - 1; i++) {
+            var cookie_type = compareGroup[i].split(":"),
+                models = cookie_type[1].split(","), tempCookie_name = cookie_type[0].split(".")[0], cookieAry = [];
+            if (Number(tempCookie_name.split('compare_')[1]) == Number(compareCookieName.split('compare_')[1])) { currentSliderValue = tempCookie_name; }
+            if (cookie_type[1] != "") {
+                $cp.append("<div class=\"compare_group\"><span class=\"panel-group-title\">" + cookie_type[0].split(".")[1] + "</span></div>");
+
+                $cp.find("div.compare_group:last").append("<ul class=\"aai-vls\"></ul>");
+                for (intI = 1; intI <= 5; intI++) {
+                    if (intI <= models.length - 1) {
+                        compare_count += 1;
+                        cookieAry = models[intI - 1].split(".");
+                        cookieAry[2] = cookieAry[2] == undefined ? "" : cookieAry[2];
+                        cookieAry[3] = cookieAry[3] == undefined ? "global" : cookieAry[3];
+                        imgTarget = cookieAry[2] == "png" ? "/P_setting_fff_1_80_end_130.png" : "/P_130.jpg";
+                        $cp.find("ul:last").append("<li class=\"span-5col\"><a href='product.aspx?P_ID=" + cookieAry[0] + "'><img src='/media/" + cookieAry[3] + "/products/" + cookieAry[0] + imgTarget + "' alt='Compare" + intI + "' /></a><a href='#' onclick='compare_remove_click(\"" + tempCookie_name + "\",\"" + cookieAry[0] + "\",\"" + cookieAry[1] + "\",\"" + cookieAry[2] + "\",\"" + cookieAry[3] + "\");return false;' class='removebutton'>" + sysWording.ProductComparisonButtom2 + "</a><span class=\"list-product-name\">" + cookieAry[1].replace("^", ".") + "</span></li>");
+                    }
+                    else {
+                        $cp.find("ul:last").append("<li class=\"span-5col\"><img src=\"/media/img/p_130_rull.jpg\"></li>");
+                    }
+                }
+                $cp.find("div.compare_group:last").append("<a class=\"btn-asus comparenow\" id='" + tempCookie_name + "' onclick=\"GoCompare('" + tempCookie_name + "', '" + models[0].split(".")[0] + "')\">" + sysWording.CompareNow + "</a>");
+            }
+        }
+
+        $("#num_compare").html(compare_count);
+        var topmenu_unm = (typeof ($("#num_shoppingcart")) == "undefined") ? Number($("#num_compare").html()) : (Number($("#num_compare").html()) + Number($("#num_shoppingcart").html()));
+        $(".aai-right-more a.aai-more .aai-circle-num").html(topmenu_unm);
+        $("#dropMsg").html(topmenu_unm);
+
+        if (Number(topmenu_unm) > 0) {
+            $(".aai-right-more a.aai-more .aai-circle-num").css({ display: 'inline-block' });
+        }
+        else {
+            $(".aai-right-more a.aai-more .aai-circle-num").css({ display: 'inline-block' });
+            $(".aai-right-more a.aai-more .aai-circle-num").css({ display: 'none' });
+        }
+    }
+
+    function compare_remove_click(cookie_name, product_id, model_name, imgtype, img_ref) {
+        remove_compare_model(cookie_name, product_id, model_name, imgtype, img_ref);
+        setCompareList();
+        //if (isInGroup == "1") checkCompareItem();
+        //if (isInGroup == "2") checkProductCompareItem();
+        $("div.aai-mst-header a.active").click();
+    }
+
+    function GoCompare(cookie_name, producthashedid) {
+        add_cookie("comparecookiename", cookie_name);
+        window.name = "";
+        window.location.href = 'compare.aspx';
+    }
+    //: ------------- END -------------
+
+
+    function SetGa(value1,value2,value3,value4,value5) {
+        ga(value1, value2, value3, value4, value5);
+    }
+
+</script> 
+     <script>var strType = 'staticwebpage'; var id= '7299'; var strID = '7299';</script> 
+     <div id="main-zone" class="container-fluid gray-bg-small"> 
+      <div class="container"> 
+       <script>var breadcrumbStr = ',';</script> 
+       <div id="product-topinfo"> 
+        <!--<div id="breadcrumbs"></div>--> 
+        <div id="bmenu_outline" class="hide"> 
+         <div id="bemnu_content"> 
+          <div id="bmenu_return"></div> 
+          <div id="scrollbarBreadcrumb"> 
+           <div class="scrollbar">
+            <div class="track">
+             <div class="thumb">
+              <div class="end"></div>
+             </div>
+            </div>
+           </div> 
+           <div class="viewport"> 
+            <div class="overview"> 
+             <ul></ul> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="pull-right" id="MDA">
+         <span id="ctl00_ContentPlaceHolder1_ctl00_breadcrumbs1_lblMDA"></span>
+        </div> 
+       </div> 
+       <script type="text/javascript">
+    var breadcrumbsXML;
+    var intProductCategoryLevel = 1;
+    var xmlProduct;
+    var intMouseOverCategoryLevel;
+    var TrackerWording = "";
+
+    var intControlsbreadcrumbsSysWordingCheckId;
+
+    function getMBNo1() {
+        $("#MDA").html("<img src='/media/" + getWebsite() + "/images/no1.jpg' border='0' onerror='this.src=\"media/global/images/no1.jpg\";' />");
+    }
+
+    function create_breadcrumbs(ProductGroupNow, TargetNow) {}
+    
+    function controlsbreadcrumbsSysWordingCheck() {
+        if (sysWordingRead) {
+            $("#breadcrumbs a:first").html(sysWording.ProductNavigationHome);
+            clearTimeout(intControlsbreadcrumbsSysWordingCheckId);
+        }
+    }
+
+    function ProductGroupAll(xml) {
+        breadcrumbsXML = xml;
+        var intI;
+        var cont = $("content category" + intProductCategoryLevel, breadcrumbsXML).text();
+        while ($("content category" + intProductCategoryLevel, breadcrumbsXML).text().indexOf(strID) != -1) {
+            intProductCategoryLevel += 1;
+        }
+        intProductCategoryLevel -= 1;
+
+        if (breadcrumbStr != "" && intProductCategoryLevel > 0) {
+            var productgroupname = breadcrumbStr.split(",");
+            $("content category" + intProductCategoryLevel + "_name", breadcrumbsXML).each(function(e) {
+                if ($("content category" + intProductCategoryLevel + "_name:eq(" + e + ")", breadcrumbsXML).text() == productgroupname[productgroupname.length - 1]) {
+                    xmlProduct = $("content category" + intProductCategoryLevel + "_name:eq(" + e + ")", breadcrumbsXML);
+                    //:[[2012/02/09 Angel Motherboard AMD3 AMD3+ products]]
+                    for (i = intProductCategoryLevel - 1; i > 1; i--) {
+                        var temp = $(this).parents("category" + i);
+                        var temp2 = $(temp).parents("category" + (i - 1));
+                        if ((productgroupname[i] == $("category" + i + "_name", temp).text() &&
+                            productgroupname[i - 1] == $("category" + (i - 1) + "_name", temp2).text()
+                           )) {
+                            return false;
+                        }
+                    }
+                    //if ($("content category" + (intProductCategoryLevel - 1) + "_name:eq(" + e + ")", breadcrumbsXML).text() == productgroupname[1]) return false;
+                }
+            });
+            for (intI = 1; intI <= productgroupname.length; intI++) {
+                var config = {
+                    sensitivity: 3,
+                    interval: 200,
+                    over: pri_showmenu,
+                    out: function() { }
+                };
+                $("#breadcrumbs a:eq(" + (intI + 1) + ")").hoverIntent(config);
+                $("#breadcrumbs a:eq(" + (intI + 1) + ")").data('level', intI);
+            }
+        }
+        if (intProductCategoryLevel == 0) {
+            if (breadcrumbStr != "") {
+                var productgroupname = breadcrumbStr.split(",");
+                intProductCategoryLevel = productgroupname.length - 1;
+                var inCategory2 = "N";
+                $("content category1_name", breadcrumbsXML).each(function(e) {
+                    if ($("content category1_name:eq(" + e + ")", breadcrumbsXML).text() == productgroupname[1]) {
+                        var Level1Category = $(this).parent();
+                        $("category2", $(this).parent()).each(function(i) {
+                            if ($("category2_name", this).text() == productgroupname[2]) {
+                                xmlProduct = $($("category3_name:eq(0)", this), breadcrumbsXML);
+                                inCategory2 = "Y";
+                            }
+                        });
+                        if (inCategory2 == "N") xmlProduct = $("category2:eq(0) category3_name:eq(0)", Level1Category);
+                    }
+                });
+                for (intI = 1; intI <= productgroupname.length; intI++) {
+                    var config = {
+                        sensitivity: 3,
+                        interval: 200,
+                        over: pri_showmenu,
+                        out: function() { }
+                    };
+                    if (inCategory2 == "N") {
+                        if (intI < productgroupname.length - 1) {
+                            $("#breadcrumbs a:eq(" + (intI + 1) + ")").hoverIntent(config);
+                            $("#breadcrumbs a:eq(" + (intI + 1) + ")").data('level', intI);
+                        }
+                    }
+                    else {
+                        $("#breadcrumbs a:eq(" + (intI + 1) + ")").hoverIntent(config);
+                        $("#breadcrumbs a:eq(" + (intI + 1) + ")").data('level', intI);
+                    }
+                }
+            }
+        }
+        TrackerWording = TrackerWording + ">" + $(xmlProduct).parents("category" + intI).children("category" + intI + "_name").text();
+    }
+
+    function pri_showmenu() {
+        showmenu($(this));
+    }
+
+    function showmenu(aObject) {
+        var categoryLevel = $(aObject).data('level');
+        //var intMaxWidth=0;
+        $("#breadcrumbs a").removeClass("hovercolor");
+        $(aObject).addClass("hovercolor");
+        $("#bemnu_content ul").empty();
+        $("#bmenu_return").html("&nbsp;");
+        $(xmlProduct).parents("category" + categoryLevel).parent().children("category" + categoryLevel).each(function(e) {
+            if ($("category" + categoryLevel + "_ProductHashedId", this).text() == "") {
+                intMouseOverCategoryLevel = categoryLevel;
+                var sendObject = this;
+                $("#bemnu_content ul").append("<li class='havenext'><a href='#'>" + $("category" + categoryLevel + "_name", this).text() + "</a></li>");
+                $("#bemnu_content ul a:eq(" + e + ")").click(function() { showmenu_onclick(sendObject, (categoryLevel + 1)); return false; });
+            }
+            else {
+                $("#bemnu_content ul").append("<li><a href='product.aspx?P_ID=" + $("category" + categoryLevel + "_ProductHashedId", this).text() + "' onclick=\"setClickRelationIdCookie('" + $("ProductGroupRelationId", this).text() + "');\">" + $("category" + categoryLevel + "_name", this).text() + "</a></li>");
+                //$("#bemnu_content ul").append("<li><a href='product.aspx?P_ID=" + $("category" + categoryLevel + "_ProductHashedId", this).text() + "'>" + $("category" + categoryLevel + "_name", this).text() + "</a></li>");
+            }
+        });
+        $("#bmenu_outline").css({ left: $(aObject).position().left + "px" });
+        $("#bmenu_outline").removeClass("hide");
+        $('#scrollbarBreadcrumb').tinyscrollbar();
+    }
+
+    function showmenu_onclick(parentObject, level) {
+        $("#bemnu_content ul").slideUp("slow", function() {
+            $("#bemnu_content ul").empty();
+            if (level == intMouseOverCategoryLevel) {
+                $("#bmenu_return").html("&nbsp;");
+            }
+            else {
+                $("#bmenu_return").html("<a href='#'>" + $(parentObject).children("category" + (level - 1) + "_name").text() + "</a>");
+                $("#bmenu_return a").click(function() {
+                    showmenu_onclick($(parentObject).parent(), (level - 1));
+                    return false;
+                });
+            }
+            $("category" + level, $(parentObject)).each(function(e) {
+                if ($("category" + level + "_ProductHashedId", this).text() == "") {
+                    var sendObject = this;
+                    $("#bemnu_content ul").append("<li class='havenext'><a href='#'>" + $("category" + level + "_name", this).text() + "</a></li>");
+                    $("#bemnu_content ul a:eq(" + e + ")").click(function() { showmenu_onclick(sendObject, (level + 1)); return false; });
+                }
+                else {
+                    $("#bemnu_content ul").append("<li><a href='product.aspx?P_ID=" + $("category" + level + "_ProductHashedId", this).text() + "' onclick=\"setClickRelationIdCookie('" + $("ProductGroupRelationId", this).text() + "');\">" + $("category" + level + "_name", this).text() + "</a></li>");
+                    //$("#bemnu_content ul").append("<li><a href='product.aspx?P_ID=" + $("category" + level + "_ProductHashedId", this).text() + "'>" + $("category" + level + "_name", this).text() + "</a></li>");
+                }
+            });
+            $("#bemnu_content ul").slideDown("slow", function() { $('#scrollbarBreadcrumb').tinyscrollbar_update(); });
+        });
+    }
+
+    $("#product-topinfo").mouseout(function(evt) {
+        evt = evt || window.event;
+        var target = evt.target || evt.srcElement;
+        var relatedTarget = evt.relatedTarget || evt.toElement;
+        if ($(relatedTarget).parents('#product-topinfo').attr("id") != this.id && $(relatedTarget).attr('id') != this.id) {
+            $("#breadcrumbs a").removeClass("hovercolor");
+            $('#bmenu_outline').addClass('hide');
+        }
+    })
+</script> 
+       <h1 class="page-title double-border-bottom">Product Guide</h1> 
+       <div class="row"> 
+        <div id="contentpage_menu_list" class="span3"> 
+         <div class="visible-phone" id="phone-list-menu"> 
+          <div class="btn-group"> 
+           <button id="btn_category_all" class="btn dropdown-toggle" data-toggle="dropdown"> All Category <span class="caret"></span> </button> 
+           <ul class="dropdown-menu"> 
+           </ul> 
+          </div> 
+         </div> 
+         <nav class="hidden-phone"> 
+         </nav> 
+        </div> 
+        <script type="text/javascript">
+    var intContentCategorysSysWordingCheckId;
+    intContentCategorysSysWordingCheckId = setInterval("ContentCategorySysWordingCheck()", intSysWordingCheckSpeed);
+    function ContentCategorySysWordingCheck() {
+        if (sysWordingRead) {
+            window.name = "";
+            create_breadcrumbs("", "");
+            clearTimeout(intContentCategorysSysWordingCheckId);
+        }
+    }
+</script> 
+        <div class="span9-line" id="member-page-content"> 
+         <span id="ctl00_ContentPlaceHolder1_ctl00_ContentPageContent1_span_product_content_area"><h4>ASUS Product Guide</h4> <br> 
+          <table border="0" cellspacing="0" cellpadding="0" width="560"> 
+           <tbody> 
+            <tr> 
+             <td height="1" width="30"><br> </td> 
+             <td bgcolor="#999999" height="1"><br> </td> 
+             <td bgcolor="#999999" height="1"><br> </td> 
+            </tr> 
+            <tr> 
+             <td><br> </td> 
+             <td height="30"><strong>System </strong></td> 
+             <td height="30"><br> </td> 
+            </tr> 
+            <tr> 
+             <td width="30"><br> </td> 
+             <td height="30">ASUS Small &amp; Medium Business Product Guide</td> 
+             <td height="30" valign="middle" width="90" align="center"><a href="http://www.asus.com/event/2014/ph/productguide/ASUS_SMB_Brochure_FA.pdf" target="_blank" jquery183010681348497385334="113" jquery1286772112531="143"><img border="0" hspace="0" alt="" src="http://www.asus.com/websites/MY/aboutasus/irow.png">Download</a></td> 
+            </tr> 
+            <tr> 
+             <td width="30"><br> </td> 
+             <td height="30">ASUS Laptop and Desktop Product Guide Dec 2014</td> 
+             <td height="30" valign="middle" width="90" align="center"><a href="http://www.asus.com/event/2014/ph/productguide/ASUS_Laptop_and_Desktop_Product_Guide_Dec_2014.pdf" target="_blank" jquery183010681348497385334="113" jquery1286772112531="143"><img border="0" hspace="0" alt="" src="http://www.asus.com/websites/MY/aboutasus/irow.png">Download</a></td> 
+            </tr> 
+            <tr> 
+             <td width="30"><br> </td> 
+             <td height="30">Asus Product Guide June - July 2015 for Notebook and Desktop</td> 
+             <td height="30" valign="middle" width="90" align="center"><a href="http://www.asus.com/event/2015/productguide/ph/June-July-NB-Product-Guide.pdf" target="_blank" jquery183010681348497385334="113" jquery1286772112531="143"><img border="0" hspace="0" alt="" src="http://www.asus.com/websites/MY/aboutasus/irow.png">Download</a></td> 
+            </tr> 
+            <tr> 
+             <td width="30"><br> </td> 
+             <td height="30">Q3 August-September Asus Mobile Product Guide</td> 
+             <td height="30" valign="middle" width="90" align="center"><a href="http://www.asus.com/event/2015/productguide/ph/Q3-ZenFone2-Mobile-Tablet-Lineup-Mobile-Size.pdf" target="_blank" jquery183010681348497385334="113" jquery1286772112531="143"><img border="0" hspace="0" alt="" src="http://www.asus.com/websites/MY/aboutasus/irow.png">Download</a></td> 
+            </tr> 
+            <tr> 
+             <td width="30"><br> </td> 
+             <td height="30">ROG Booklet PHIL 2015</td> 
+             <td height="30" valign="middle" width="90" align="center"><a href="http://www.asus.com/event/2015/productguide/ph/ROG_Booklet_PHIL_2015.pdf" target="_blank" jquery183010681348497385334="113" jquery1286772112531="143"><img border="0" hspace="0" alt="" src="http://www.asus.com/websites/MY/aboutasus/irow.png">Download latest catalogue</a></td> 
+            </tr> 
+            <tr> 
+             <td width="30"><br> </td> 
+             <td height="30">ZenFone Family Booklet-FA_Rev6_Low</td> 
+             <td height="30" valign="middle" width="90" align="center"><a href="http://www.asus.com/event/2016/productguide/ph/ZenFone-Family-Booklet-FA_Rev6_Low.pdf" target="_blank" jquery183010681348497385334="113" jquery1286772112531="143"><img border="0" hspace="0" alt="" src="http://www.asus.com/websites/MY/aboutasus/irow.png">Download</a></td> 
+            </tr> 
+            <tr> 
+             <td width="30"><br> </td> 
+             <td height="30">NB summer promo WEB FLYER</td> 
+             <td height="30" valign="middle" width="90" align="center"><a href="http://www.asus.com/event/2016/productguide/ph/NB-summer-promo-WEB-FLYER.pdf" target="_blank" jquery183010681348497385334="113" jquery1286772112531="143"><img border="0" hspace="0" alt="" src="http://www.asus.com/websites/MY/aboutasus/irow.png">Download</a></td> 
+            </tr> 
+            <tr> 
+             <td width="30"><br> </td> 
+             <td height="30">ASUS Product Guide_Jan 2016 Issue</td> 
+             <td height="30" valign="middle" width="90" align="center"><a href="http://www.asus.com/event/2016/productguide/ph/ASUS-Product-Guide-Jan-2016-Issue.pdf" target="_blank" jquery183010681348497385334="113" jquery1286772112531="143"><img border="0" hspace="0" alt="" src="http://www.asus.com/websites/MY/aboutasus/irow.png">Download</a></td> 
+            </tr> 
+            <tr> 
+             <td width="30"><br> </td> 
+             <td height="30">ASUS Commercial Brochure_2016 Q2</td> 
+             <td height="30" valign="middle" width="90" align="center"><a href="http://www.asus.com/event/2016/productguide/ph/ACPH-ASUS-Commercial-Brochure-2016-Q2.pdf" target="_blank" jquery183010681348497385334="113" jquery1286772112531="143"><img border="0" hspace="0" alt="" src="http://www.asus.com/websites/MY/aboutasus/irow.png">Download</a></td> 
+            </tr> 
+            <tr> 
+             <td width="30"><br> </td> 
+             <td height="30">PG 2016_MAY 2016</td> 
+             <td height="30" valign="middle" width="90" align="center"><a href="http://www.asus.com/event/2016/productguide/ph/ACPH-PG-2016-MAY-2016.pdf" target="_blank" jquery183010681348497385334="113" jquery1286772112531="143"><img border="0" hspace="0" alt="" src="http://www.asus.com/websites/MY/aboutasus/irow.png">Download</a></td> 
+            </tr> 
+            <tr> 
+             <td width="30"><br> </td> 
+             <td height="30">ROG Booklet ENG 2016 V2- Windows Version</td> 
+             <td height="30" valign="middle" width="90" align="center"><a href="http://www.asus.com/event/2016/productguide/ph/ACPH-ROG-Booklet-ENG-2016-V2-Windows-Version.pdf" target="_blank" jquery183010681348497385334="113" jquery1286772112531="143"><img border="0" hspace="0" alt="" src="http://www.asus.com/websites/MY/aboutasus/irow.png">Download</a></td> 
+            </tr> 
+            <tr> 
+             <td width="30"><br> </td> 
+             <td height="30">Zenfone 3 Series product guide</td> 
+             <td height="30" valign="middle" width="90" align="center"><a href="http://www.asus.com/event/2016/productguide/ph/Zenfone-3-Series-product-guide.pdf" target="_blank" jquery183010681348497385334="113" jquery1286772112531="143"><img border="0" hspace="0" alt="" src="http://www.asus.com/websites/MY/aboutasus/irow.png">Download</a></td> 
+            </tr> 
+            <tr> 
+             <td><br> </td> 
+             <td height="30"><strong>Open Platform </strong></td> 
+             <td height="30"><br> </td> 
+            </tr> 
+            <tr> 
+             <td width="30"><br> </td> 
+             <td height="30">ASUS PC Components and Peripherals Product Guide</td> 
+             <td height="30" valign="middle" width="90" align="center"><a href="http://www.asus.com/event/2016/productguide/ph/OP-Productguide2016" target="_blank" jquery183010681348497385334="113" jquery1286772112531="143"><img border="0" hspace="0" alt="" src="http://www.asus.com/websites/MY/aboutasus/irow.png">View</a></td> 
+            </tr> 
+            <tr> 
+             <td height="1" width="30"><br> </td> 
+             <td bgcolor="#999999" height="1"><br> </td> 
+             <td bgcolor="#999999" height="1"><br> </td> 
+            </tr> 
+           </tbody> 
+          </table></span> 
+        </div> 
+        <script type="text/javascript">
+    $(document).ready(function() {
+        tabbedPanels();
+    });
+</script> 
+        <script type="text/JavaScript">
+<!--
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//-->
+</script> 
+       </div> 
+      </div> 
+     </div> 
+     <script type="text/javascript">
+    $(document).ready(function() {
+        if ($("#phone-list-menu ul li").length == 0) {
+            $("#phone-list-menu").parents("div.row").addClass("no-menu-list");
+        }
+    });
+</script> 
+     <!-- footer @start  --> 
+     <div id="asus-api-footer"> 
+      <div class="aai-inner"> 
+       <div class="aai-fmiddle"> 
+        <div id="FindItFast_menu" class="aai-footer-span"> 
+         <h4>Want More?</h4> 
+         <ul class="aai-fnav"> 
+          <li><a href="http://rog.asus.com/" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">ROG</a></li> 
+          <li><a href="http://techinstyle.tv/" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Tech In Style </a></li> 
+          <li><a href="http://www.asus.com/sonicmaster" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">SonicMaster </a></li> 
+          <li><a href="http://eee.asus.com/" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Eee is Me </a></li> 
+          <li><a href="http://event.asus.com/2013/vibe" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">ASUS@vibe+</a></li> 
+          <li><a href="http://www.asus.com/PH/Static_WebPage/Product-Guide/" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Product Guide</a></li> 
+          <li><a href="http://www.asus.com/ph/WhereToBuyList/" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Where to buy</a></li> 
+          <li><a href="http://www.asus.com/microsite/powered-by-asus/ph/" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Powered By ASUS</a></li> 
+          <li><a href="http://healthcare.asus.com" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">ASUS HealthCare</a></li> 
+         </ul> 
+        </div> 
+        <div id="Company_menu" class="aai-footer-span"> 
+         <h4>Who We Are?</h4> 
+         <ul class="aai-fnav"> 
+          <li class="navbar-li"><a href="/ph/Award/" id="menu_awards" target="_self" onclick="googleTrackEvent('index_menu', this, true);return false;">Awards</a></li> 
+          <li class="divider-vertical"></li> 
+          <li class="navbar-li"><a href="/ph/News/" id="menu_news">News</a></li> 
+          <li class="divider-vertical"></li>
+          <li class="navbar-li"><a href="/ph/About_ASUS/Origin_of_the_Name_ASUS" id="menu_aboutasus">About ASUS</a></li> 
+          <li><a href="/ph/investor.aspx" target="_self" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Investor Relations</a></li> 
+          <li><a href="/ph/ASUS_Website_Information/Employment" target="_self" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Employment</a></li> 
+          <li><a href="http://green.asus.com/english/" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">About &amp; CSR</a></li> 
+          <li><a href="http://press.asus.com/" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Press Room</a></li> 
+         </ul> 
+        </div> 
+        <div id="Support_menu" class="aai-footer-span"> 
+         <h4>Need Help?</h4> 
+         <ul class="aai-fnav"> 
+          <li><a href="http://www.asus.com/ph/support/Contact-ASUS/ " target="_self" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Contact us</a></li> 
+          <li><a href="https://account.asus.com/product_reg.aspx?lang=en-us&amp;site=ph" target="_self" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Product Registration</a></li> 
+          <li>Monday to Friday from 9:00 to 18:00</li> 
+         </ul> 
+         <div id="service_call" class="hide"> 
+          <div id="call_center"> 
+           <h4></h4> 
+           <span class="tel"></span> 
+          </div> 
+         </div> 
+         <div id="call_message" class="hide"></div> 
+        </div> 
+        <div id="Community_menu" class="aai-footer-span"> 
+         <h4>Community</h4> 
+         <ul class="aai-fnav"> 
+          <li class="aai-social-media"> <a href="https://youtu.be/kbALX9f9fMY?t=4752" target="_blank" title="YouTube" onclick="googleTrackFamilySite(this, 'SiteMap');return false;"><img src="/media/global/icons/socialmedia/52_n.png"></a> <a href="https://www.facebook.com/ASUSph?ref=bookmarks" target="_blank" title="Facebook" onclick="googleTrackFamilySite(this, 'SiteMap');return false;"><img src="/media/global/icons/socialmedia/54_n.png"></a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div class="aai-fbootom"> 
+        <div id="extra_link"> 
+         <div id="footer_country_link"> 
+          <a href="http://www.asus.com/entry.htm" onclick="googleTrackEvent('Country_Lang_Menu', this, true);return false;" title="entry_page">Philippines / <span class="lang_set"> English</span></a> 
+         </div> 
+        </div> 
+        <div id="aai-copyright"> 
+         <ul id="copyright"> 
+          <li><a href="/ph/Terms_of_Use_Notice_Privacy_Policy/Official-Site" target="_blank" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Terms of Use</a></li>
+          <li><a href="/ph/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy" target="_self" onclick="googleTrackFamilySite(this, 'SiteMap');return false;">Privacy Policy</a></li> 
+          <li class="copyright">©ASUSTeK Computer Inc. All rights reserved.</li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <script>
+     var intControlsbottomSysWordingCheckId;
+     intControlsbottomSysWordingCheckId = setInterval("controlsbottomSysWordingCheck()", intSysWordingCheckSpeed);
+
+     function controlsbottomSysWordingCheck() {
+         if (sysWordingRead) {
+             $("#call_message").children().removeAttr("style");
+             clearTimeout(intControlsbottomSysWordingCheckId);
+         }
+     }
+     $(document).ready(function () {
+         $("#call_message>div").removeAttr("style");
+
+         if (isApplicationPathSite()) {
+             var domail_url = "";
+             switch (getWebsite()) {
+                 case "ch-de":
+                 case "ch-fr":
+                 case "ch-it":
+                     domail_url = "ch.asus.com"
+                     break;
+                 case "ca-fr":
+                 case "ca-en":
+                     domail_url = "ca.asus.com"
+                     break;
+                 case "ae-en":
+                 case "ae-ar":
+                     domail_url = "ae.asus.com"
+                     break;
+                 case "be-fr":
+                 case "be-nl":
+                     domail_url = "be.asus.com"
+                     break;
+                 case "af-pa":
+                 case "af-da":
+                     domail_url = "www.asus.com/af"
+                     break; be
+                 case "sa-en":
+                 case "sa-ar":
+                     domail_url = "www.asus.com/sa"
+                     break;
+                 case "nafr-ar":
+                 case "nafr-fr":
+                     domail_url = "www.asus.com/nafr"
+                     break;
+                 case "ua":
+                 case "ua-ua":
+                     domail_url = "www.asus.ua"
+                     break;
+                 case "tn-fr":
+                 case "tn-ar":
+                     domail_url = "www.asus.com/tn"
+                     break;
+                 case "ma-fr":
+                 case "ma-ar":
+                     domail_url = "www.asus.com/ma"
+                     break;
+                 case "dz-fr":
+                 case "dz-ar":
+                     domail_url = "www.asus.com/dz"
+                     break;
+             }
+
+             $.ajax({
+                 dataType: 'xml',
+                 url: "/" + getWebsite() + "/GetData.asmx/getMultipleLang",
+                 type: 'get',
+                 cache: true,
+                 success: function (xml) {
+                     $("Domain", xml).each(function (e) {
+                         if ($("domain_name", this).text() == domail_url) {
+                             $("website", this).each(function (e) {
+                                 if ($("website_code", this).text() != getWebsite()) {
+                                     $("#footer_country_link a:last").after(" | <a href=\"" + $("url", this).text() + "\"><span>" + $("websiteLanguage", this).text() + "</span></a>");
+                                 }
+                             });
+                         }
+                         return;
+                     });
+                 },
+                 error: function (XMLHttpRequest, textStatus, errorThrown) {
+                     //alert(XMLHttpRequest + '\n' + textStatus + '\n' + errorThrown);
+                 }
+             });
+         }
+     });
+
+</script> 
+     <script>
+    if (getWebsite() == "cn") {
+        document.write(unescape('%3Cdiv style="text-align:center"%3E'))
+        document.write(unescape('%3Cscript src="https://kxlogo.knet.cn/seallogo.dll?sn=2011012700100006231&size=1"%3E%3C/script%3E'))
+        document.write(unescape('%3C/div%3E'))
+    }
+</script> 
+    </div> 
+   </div> 
+   <a id="LangSelection" href="/LangSelection.aspx?KeepThis=ture&amp;TB_iframe=ture&amp;height=150&amp;width=300&amp;inlineId=displayWarning&amp;white=true" class="thickbox hide" title=""></a> 
+   <div> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C21772F6"> 
+   </div> 
+   <script>$(document).ready(function(){create_breadcrumbs('', '');});</script>
+  </form>   
+  <script>
+    $(document).ready(function () {
+        if (getWebsite() == "us") {
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("data-link", "http://store.asus.com/us/");
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("target", "_blank");
+        }
+        if (getWebsite() == "th") {
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("data-link", "http://store.asus.com/th/");
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("target", "_blank");
+        }
+        if (getWebsite() == "tw") {
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("data-link", "http://store.asus.com/tw/");
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("target", "_blank");
+        }
+        if (getWebsite() == "ph") {
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("data-link", "http://store.asus.com/ph/");
+            $("ul.aai-nav").find("li[data-name=store-sub-nav]").attr("target", "_blank");
+        }
+    });
+
+    (function () {
+        var sc = document.createElement("link"); sc.type = "text/css"; sc.rel = 'stylesheet';
+        sc.href = "/css/2015/alert-info.css";
+        var s = document.getElementsByTagName("head")[0];
+        setTimeout(function () {
+            s.appendChild(sc);
+        }, 100);
+
+        var sc2 = document.createElement("script"); sc2.type = "text/javascript";
+        sc2.src = "/js/2015/alert-info.js";
+        var s2 = document.getElementsByTagName("script")[0]; s2.parentNode.insertBefore(sc2, s2);
+    })();
+
+</script>
+ </body>
+</html>

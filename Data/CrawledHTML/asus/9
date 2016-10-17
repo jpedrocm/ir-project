@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:title" content="RAMP UP FOR YOUR PC BEYOND VR"> 
+  <meta name="twitter:description" content="Complete Your Immersion with ASUS"> 
+  <meta property="og:title" name="title" content="RAMP UP FOR YOUR PC BEYOND VR"> 
+  <meta property="og:description" name="description" content="Complete Your Immersion with ASUS"> 
+  <link rel="shortcut icon" href="http://www.asus.com/media/img/favicon.ico"> 
+  <title>VYLEPŠITE SVOJE PC AŽ ZA HRANICE VIRTUÁLNEJ REALITY</title> 
+  <link href="Style/normalize.css" rel="stylesheet" media="screen"> 
+  <link href="Style/default.css" rel="stylesheet" media="screen"> 
+  <link href="Style/1responsive.css" rel="stylesheet" media="screen"> 
+  <!--[if lt IE 9]>  
+<link href="Style/ie.css" rel="stylesheet" type="text/css" media="screen" />  
+<![endif]--> 
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> 
+  <script type="text/javascript" src="Scripts/default.js"></script> 
+  <!--天地API--> 
+  <script type="text/javascript">
+
+    window.ASUSInit = function () {
+
+        asus_api.init({ appkey: 'micro00002' , lang: 'global', api_menu_logo: '1'});
+
+    };
+
+    (function(d){
+
+        var js, id = 'asus-jsapi';
+
+        if (d.getElementById("asus-jsapi")) {return;}
+
+        js = d.createElement('script');
+
+        js.id = id;
+
+        js.async = true;
+
+        js.src = "//www.asus.com/API/js/asus_api.js";
+
+        d.getElementsByTagName('head')[0].appendChild(js);
+
+    }(document));
+
+</script> 
+ </head> 
+ <body> 
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+})(window,document,'script','dataLayer','GTM-NJRLM8');</script> 
+  <!-- End Google Tag Manager --> 
+  <div class="wrapper" id="top"> 
+   <div class="header"> 
+    <img src="Image/hero.jpg"> 
+    <h1>VYLEPŠITE SVOJE PC AŽ ZA HRANICE VIRTUÁLNEJ REALITY </h1> 
+    <h2>Vďaka produktom ASUS bude váš zážitok z virtuálnej reality skutočne dokonalý</h2> 
+   </div>
+   <!--end of .header--> 
+   <div class="content"> 
+    <p class="intro">Značka VR Ready informuje o základnej špecifikácii nutnej na to, aby si používatelia mohli naplno vychutnať zábavu s virtuálnou realitou. Spotrebitelia si síce môžu ľahko zistiť minimálne špecifikácie potrebné na zostavenie alebo kúpu počítača, na ktorom budú fungovať najnovšie programy a headsety pre virtuálnu realitu, ale potvrdenie vzájomnej kompatibility a interoperability je o poznanie ťažšie. Spoločnosť ASUS v podobe svojej značky Beyond VR Ready prináša laboratórne testované komponenty či systémy, pri ktorých si používatelia môžu byť istí, že po pripojení a zapnutí budú aplikácie aj hry optimálne fungovať.</p> 
+    <section class="part-1"> 
+     <div class="text"> 
+      <h2><span class="tron" style="font-size:0.8em">Zostavovanie systémov so značkou Beyond VR Ready</span></h2> 
+      <p>Pri zostavovaní počítača nejde len o začiarkovanie položiek zo zoznamu ideálneho hardvéru pre virtuálnu realitu – systém musí byť oveľa viac než obyčajou špeciálne zostavenou konzolou virtuálnej reality. Správna kombinácia špičkových komponentov ASUS zaistí, že aj po odložení headsetu bude počítač dokonale pripravený uspokojiť všetky vaše pracovné, herné aj zábavné potreby. Značka ASUS Beyond VR Ready otvára nové spôsoby, ako jednoducho a&nbsp;bez problémov konfigurovať a&nbsp;zostavovať vysnený systém.</p> 
+     </div> 
+     <img src="Image/wall.jpg"> 
+    </section> 
+    <section class="part-2 clear"> 
+     <div class="text"> 
+      <h2 class="tron">Herné stolové počítače ASUS vhodné na použitie zariadenia Oculus Rift </h2> 
+      <p>Technologické inovácie a kvalita sú pre značku ASUS charakteristické a teraz sme sa spojili s tímom Oculus, aby sme mohli ponúknuť exkluzívnu zľavu na predobjednávky zariadenia Oculus Rift, keď si kúpite skvelé herné stolové počítače ASUS G11CD alebo ASUS ROG G20CB, ktoré sú od prvej chvíle pripravené otvoriť pre vás brány do sveta virtuálnej reality.<br><a href="http://www.asus.com/us/event/2015/oculus-ready-pc/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></p> 
+     </div> 
+     <img src="Image/pc.jpg"> 
+    </section> 
+    <section class="part-lineup"> 
+     <h2>Zoznam modelov ASUS VR Ready</h2> 
+     <div class="tab"> 
+      <a class="tab-mb active">Základná doska</a>
+      <a class="tab-vga">GPU</a> 
+     </div> 
+     <div class="lineup"> 
+      <ul class="product-list product-list-mb clear"> 
+       <li><span>ROG RAMPAGE V EDITION 10</span><a href="https://www.asus.com/sk/Motherboards/ROG-RAMPAGE-V-EDITION-10/" target="_blank"><img src="Image/MB/ROG-RAMPAGE-V-EDITION-10.jpg"></a><a href="https://www.asus.com/sk/Motherboards/ROG-RAMPAGE-V-EDITION-10/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li><span>ROG STRIX X99 GAMING</span><a href="https://www.asus.com/sk/Motherboards/ROG-STRIX-X99-GAMING/" target="_blank"><img src="Image/MB/ROG-STRIX-X99-GAMING.jpg"></a><a href="https://www.asus.com/sk/Motherboards/ROG-STRIX-X99-GAMING/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li><span>X99-DELUXE II</span><a href="https://www.asus.com/sk/Motherboards/X99-DELUXE-II/" target="_blank"><img src="Image/mb/X99-DELUXE-II.jpg"></a><a href="https://www.asus.com/sk/Motherboards/X99-DELUXE-II/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li><span>X99-A II</span><a href="https://www.asus.com/sk/Motherboards/X99-A-II/" target="_blank"><img src="Image/MB/X99-A-II.jpg"></a><a href="https://www.asus.com/sk/Motherboards/X99-A-II/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li><span>X99-E</span><a href="https://www.asus.com/sk/Motherboards/X99-E/" target="_blank"><img src="Image/MB/X99-E.jpg"></a><a href="https://www.asus.com/sk/Motherboards/X99-E/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li><span>RAMPAGE V EXTREME/U3.1</span><a href="https://www.asus.com/sk/Motherboards/RAMPAGE_V_EXTREMEU31/" target="_blank"><img src="Image/MB/RAMPAGE-V-EXTREME-U31.jpg"></a><a href="https://www.asus.com/sk/Motherboards/RAMPAGE_V_EXTREMEU31/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li><span>RAMPAGE V EXTREME</span><a href="https://www.asus.com/sk/Motherboards/RAMPAGE_V_EXTREME/" target="_blank"><img src="Image/MB/RAMPAGE-V-EXTREME.jpg"></a><a href="https://www.asus.com/sk/Motherboards/RAMPAGE_V_EXTREME/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li><span>SABERTOOTH X99</span><a href="https://www.asus.com/sk/Motherboards/SABERTOOTH_X99/" target="_blank"><img src="Image/MB/Sabertooth-X99.jpg"></a><a href="https://www.asus.com/sk/Motherboards/SABERTOOTH_X99/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li><span>X99-DELUXE/U3.1</span><a href="https://www.asus.com/sk/Motherboards/X99DELUXEU31/" target="_blank"><img src="Image/MB/X99-DELUXE-U31.jpg"></a><a href="https://www.asus.com/sk/Motherboards/X99DELUXEU31/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li><span>X99-DELUXE</span><a href="https://www.asus.com/sk/Motherboards/X99DELUXE/" target="_blank"><img src="Image/MB/X99-DELUXE.jpg"></a><a href="https://www.asus.com/sk/Motherboards/X99DELUXE/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li><span>X99-PRO/USB 3.1</span><a href="https://www.asus.com/sk/Motherboards/X99PROUSB_31/" target="_blank"><img src="Image/MB/X99-PRO-USB-31.jpg"></a><a href="https://www.asus.com/sk/Motherboards/X99PROUSB_31/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li><span>X99-PRO</span><a href="https://www.asus.com/sk/Motherboards/X99PRO/" target="_blank"><img src="Image/MB/X99-PRO.jpg"></a><a href="https://www.asus.com/sk/Motherboards/X99PRO/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show long-name"><span>X99-A/USB 3.1<br>(TRANSFER EXPRESS)</span><a href="https://www.asus.com/sk/Motherboards/X99AUSB_31TRANSFER_EXPRESS/" target="_blank"><img src="Image/MB/X99-A-USB-31-TRANSFER-EXPRESS.jpg"></a><a href="https://www.asus.com/sk/Motherboards/X99AUSB_31TRANSFER_EXPRESS/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>X99-A/USB 3.1</span><a href="https://www.asus.com/sk/Motherboards/X99AUSB_31/" target="_blank"><img src="Image/MB/X99-A-USB-31.jpg"></a><a href="https://www.asus.com/sk/Motherboards/X99AUSB_31/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>X99-A</span><a href="https://www.asus.com/sk/Motherboards/X99A" target="_blank"><img src="Image/MB/X99-A.jpg"></a><a href="https://www.asus.com/sk/Motherboards/X99A" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>MAXIMUS VIII EXTREME</span><a href="http://www.asus.com/sk/Motherboards/MAXIMUS-VIII-EXTREME/" target="_blank"><img src="Image/MB/MAXIMUS-VIII-EXTREME.jpg"></a><a href="http://www.asus.com/sk/Motherboards/MAXIMUS-VIII-EXTREME/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show long-name"><span>MAXIMUS VIII<br>EXTREME/ASSEMBLY</span><a href="http://www.asus.com/sk/Motherboards/ROG-MAXIMUS-VIII-EXTREME-ASSEMBLY/" target="_blank"><img src="Image/MB/MAXIMUS-VIII-EXTREME-ASSEMBLY.jpg"></a><a href="http://www.asus.com/sk/Motherboards/ROG-MAXIMUS-VIII-EXTREME-ASSEMBLY/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>MAXIMUS VIII FORMULA</span><a href="http://www.asus.com/sk/Motherboards/ROG-MAXIMUS-VIII-FORMULA/" target="_blank"><img src="Image/MB/MAXIMUS-VIII-FORMULA.jpg"></a><a href="http://www.asus.com/sk/Motherboards/ROG-MAXIMUS-VIII-FORMULA/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>MAXIMUS VIII HERO ALPHA</span><a href="http://www.asus.com/sk/Motherboards/ROG-MAXIMUS-VIII-HERO-ALPHA/" target="_blank"><img src="Image/MB/MAXIMUS-VIII-HERO-ALPHA.jpg"></a><a href="http://www.asus.com/sk/Motherboards/ROG-MAXIMUS-VIII-HERO-ALPHA/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>MAXIMUS VIII HERO</span><a href="http://www.asus.com/sk/Motherboards/MAXIMUS-VIII-HERO/" target="_blank"><img src="Image/MB/MAXIMUS-VIII-HERO.jpg"></a><a href="http://www.asus.com/sk/Motherboards/MAXIMUS-VIII-HERO/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>MAXIMUS VIII RANGER</span><a href="http://www.asus.com/sk/Motherboards/MAXIMUS-VIII-RANGER/" target="_blank"><img src="Image/MB/MAXIMUS-VIII-RANGER.jpg"></a><a href="http://www.asus.com/sk/Motherboards/MAXIMUS-VIII-RANGER/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>MAXIMUS VIII GENE</span><a href="http://www.asus.com/sk/Motherboards/MAXIMUS-VIII-GENE/" target="_blank"><img src="Image/MB/MAXIMUS-VIII-GENE.jpg"></a><a href="http://www.asus.com/sk/Motherboards/MAXIMUS-VIII-GENE/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>SABERTOOTH Z170 Mark 1</span><a href="http://www.asus.com/sk/Motherboards/SABERTOOTH-Z170-MARK-1/" target="_blank"><img src="Image/MB/SABERTOOTH-Z170-Mark-1.jpg"></a><a href="http://www.asus.com/sk/Motherboards/SABERTOOTH-Z170-MARK-1/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>SABERTOOTH Z170 S</span><a href="http://www.asus.com/sk/Motherboards/SABERTOOTH-Z170-S/" target="_blank"><img src="Image/MB/SABERTOOTH-Z170-S.jpg"></a><a href="http://www.asus.com/sk/Motherboards/SABERTOOTH-Z170-S/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>Z170-PREMIUM</span><a href="http://www.asus.com/sk/Motherboards/Z170-PREMIUM/" target="_blank"><img src="Image/MB/Z170-PREMIUM.jpg"></a><a href="http://www.asus.com/sk/Motherboards/Z170-PREMIUM/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>Z170-DELUXE</span><a href="http://www.asus.com/sk/Motherboards/Z170-DELUXE/" target="_blank"><img src="Image/MB/Z170-DELUXE.jpg"></a><a href="http://www.asus.com/sk/Motherboards/Z170-DELUXE/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>Z170-PRO</span><a href="http://www.asus.com/sk/Motherboards/Z170PRO" target="_blank"><img src="Image/MB/Z170-PRO.jpg"></a><a href="http://www.asus.com/sk/Motherboards/Z170PRO" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>Z170-A</span><a href="http://www.asus.com/sk/Motherboards/Z170-A/" target="_blank"><img src="Image/MB/Z170-A.jpg"></a><a href="http://www.asus.com/sk/Motherboards/Z170-A/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>Z170-AR</span><a href="http://www.asus.com/sk/Motherboards/Z170AR" target="_blank"><img src="Image/MB/Z170-AR.jpg"></a><a href="http://www.asus.com/sk/Motherboards/Z170AR" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>Z170-E</span><a href="http://www.asus.com/sk/Motherboards/Z170E" target="_blank"><img src="Image/MB/Z170-E.jpg"></a><a href="http://www.asus.com/sk/Motherboards/Z170E" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>Z170 PRO GAMING</span><a href="http://www.asus.com/sk/Motherboards/Z170-PRO-GAMING/" target="_blank"><img src="Image/MB/Z170-PRO-GAMING.jpg"></a><a href="http://www.asus.com/sk/Motherboards/Z170-PRO-GAMING/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>H170 PRO GAMING</span><a href="http://www.asus.com/sk/Motherboards/H170-PRO-GAMING/" target="_blank"><img src="Image/MB/H170-PRO-GAMING.jpg"></a><a href="http://www.asus.com/sk/Motherboards/H170-PRO-GAMING/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>H170-PRO/USB 3.1</span><a href="https://www.asus.com/sk/Motherboards/H170-PRO-USB-3-1/" target="_blank"><img src="Image/MB/H170-PRO-USB-31.jpg"></a><a href="https://www.asus.com/sk/Motherboards/H170-PRO-USB-3-1/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>B150 PRO GAMING/AURA</span><a href="https://www.asus.com/sk/Motherboards/B150-PRO-GAMING-AURA/" target="_blank"><img src="Image/MB/B150-PRO-GAMING-AURA.jpg"></a><a href="https://www.asus.com/sk/Motherboards/B150-PRO-GAMING-AURA/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>B150-PLUS</span><a href="https://www.asus.com/sk/Motherboards/B150-PLUS/" target="_blank"><img src="Image/MB/B150-PLUS.jpg"></a><a href="https://www.asus.com/sk/Motherboards/B150-PLUS/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show long-name"><span> ROG CROSSHAIR V<br>FORMULA-Z</span><a href="https://www.asus.com/sk/Motherboards/CROSSHAIR_V_FORMULAZ/" target="_blank"><img src="Image/MB/ROG-CROSSHAIR-V-FORMULA-Z.jpg"></a><a href="https://www.asus.com/sk/Motherboards/CROSSHAIR_V_FORMULAZ/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>SABERTOOTH 990FX R2.0</span><a href="https://www.asus.com/sk/Motherboards/SABERTOOTH_990FX_R20/" target="_blank"><img src="Image/MB/SABERTOOTH-990FX-R2.jpg"></a><a href="https://www.asus.com/sk/Motherboards/SABERTOOTH_990FX_R20/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>970 PRO GAMING/AURA</span><a href="https://www.asus.com/sk/Motherboards/970-PRO-GAMING-AURA/" target="_blank"><img src="Image/MB/970-PRO-GAMING-AURA.jpg"></a><a href="https://www.asus.com/sk/Motherboards/970-PRO-GAMING-AURA/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+      </ul> 
+      <ul class="product-list product-list-vga clear"> 
+       <li class="long-name"><span>GEFORCE GTX 1080<br>FOUNDERS EDITION</span><a href="http://www.asus.com/sk/Graphics-Cards/GTX1080-8G/" target="_blank"><img src="Image/VGA/GeForce-GTX-1080-Founders-Edition.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/GTX1080-8G/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li><span>ROG STRIX GEFORCE GTX 1080</span><a href="http://www.asus.com/sk/Graphics-Cards/ROG-STRIX-GTX1080-O8G-GAMING/" target="_blank"><img src="Image/VGA/ROG-Strix-GeForce-GTX-1080.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/ROG-STRIX-GTX1080-O8G-GAMING/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li><span>TURBO GEFORCE GTX 1080</span><a href="http://www.asus.com/sk/Graphics-Cards/TURBO-GTX1080-8G/" target="_blank"><img src="Image/VGA/Turbo-GeForce-GTX-1080.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/TURBO-GTX1080-8G/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="long-name"><span>GEFORCE GTX 1070<br>FOUNDERS EDITION</span><a href="http://www.asus.com/sk/Graphics-Cards/GTX1070-8G/" target="_blank"><img src="Image/VGA/GeForce-GTX-1070-Founders-Edition.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/GTX1070-8G/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li><span>ROG STRIX GEFORCE GTX 1070</span><a href="http://www.asus.com/sk/Graphics-Cards/ROG-STRIX-GTX1070-O8G-GAMING/" target="_blank"><img src="Image/VGA/ROG-Strix-GeForce-GTX-1070.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/ROG-STRIX-GTX1070-O8G-GAMING/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li><span>DUAL GEFORCE GTX 1070</span><a href="http://www.asus.com/sk/Graphics-Cards/DUAL-GTX1070-O8G/" target="_blank"><img src="Image/VGA/DUAL-GEFORCE-GTX-1070.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/DUAL-GTX1070-O8G/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li><span>TURBO GEFORCE GTX 1070</span><a href="http://www.asus.com/sk/Graphics-Cards/TURBO-GTX1070-8G/" target="_blank"><img src="Image/VGA/Turbo-GeForce-GTX-1070.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/TURBO-GTX1070-8G/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li><span>ROG STRIX GEFORCE GTX 1060</span><a href="http://www.asus.com/sk/Graphics-Cards/ROG-STRIX-GTX1060-O6G-GAMING/" target="_blank"><img src="Image/VGA/ROG-STRIX-GEFORCE-GTX-1060.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/ROG-STRIX-GTX1060-O6G-GAMING/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li><span>DUAL GEFORCE GTX 1060</span><a href="http://www.asus.com/sk/Graphics-Cards/DUAL-GTX1060-O6G/" target="_blank"><img src="Image/VGA/DUAL-GEFORCE-GTX-1060.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/DUAL-GTX1060-O6G/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li><span>TURBO GEFORCE GTX 1060</span><a href="http://www.asus.com/sk/Graphics-Cards/TURBO-GTX1060-6G/" target="_blank"><img src="Image/VGA/TURBO-GEFORCE-GTX-1060.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/TURBO-GTX1060-6G/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li><span>ROG STRIX RX480</span><a href="http://www.asus.com/sk/Graphics-Cards/ROG-STRIX-RX480-O8G-GAMING/" target="_blank"><img src="Image/VGA/ROG-STRIX-RX-480.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/ROG-STRIX-RX480-O8G-GAMING/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li><span>GEFORCE GTX TITANX</span><a href="http://www.asus.com/sk/Graphics-Cards/GTXTITANX12GD5/" target="_blank"><img src="Image/VGA/GTX-TITANX.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/GTXTITANX12GD5/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show long-name"><span> 20th Anniversary Gold Edition<br>GEFORCE GTX980TI</span><a href="http://www.asus.com/sk/Graphics-Cards/GOLD20TH-GTX980TI-P-6G-GAMING/" target="_blank"><img src="Image/VGA/20th-Anniversary-Gold-Edition-GTX980TI.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/GOLD20TH-GTX980TI-P-6G-GAMING/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show long-name"><span>ROG MATRIX<br>GEFORCE GTX980TI</span><a href="http://www.asus.com/sk/Graphics-Cards/MATRIX-GTX980TI-P-6GD5-GAMING/" target="_blank"><img src="Image/VGA/ROG-MATRIX-GTX980TI.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/MATRIX-GTX980TI-P-6GD5-GAMING/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show long-name"><span>ROG POSEIDON<br>GEFORCE GTX980TI</span><a href="http://www.asus.com/sk/Graphics-Cards/POSEIDON-GTX980TI-P-6GD5/" target="_blank"><img src="Image/VGA/ROG-POSEIDON-GTX980TI.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/POSEIDON-GTX980TI-P-6GD5/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>STRIX GEFORCE GTX980TI</span><a href="http://www.asus.com/sk/Graphics-Cards/STRIXGTX980TIDC3OC6GD5GAMING/" target="_blank"><img src="Image/VGA/STRIX-GTX980TI.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/STRIXGTX980TIDC3OC6GD5GAMING/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>ROG MATRIX GEFORCE GTX980</span><a href="http://www.asus.com/sk/Graphics-Cards/MATRIXGTX980P4GD5/" target="_blank"><img src="Image/VGA/ROG-MATRIX-GTX980.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/MATRIXGTX980P4GD5/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show long-name"><span>ROG POSEIDON<br>GEFORCE GTX980</span><a href="http://www.asus.com/sk/Graphics-Cards/POSEIDONGTX980P4GD5/" target="_blank"><img src="Image/VGA/ROG-POSEIDON-GTX980.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/POSEIDONGTX980P4GD5/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>STRIX GEFORCE GTX980</span><a href="http://www.asus.com/sk/Graphics-Cards/STRIXGTX980DC2OC4GD5/" target="_blank"><img src="Image/VGA/STRIX-GTX980.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/STRIXGTX980DC2OC4GD5/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>STRIX GEFORCE GTX970</span><a href="http://www.asus.com/sk/Graphics-Cards/STRIXGTX970DC2OC4GD5/" target="_blank"><img src="Image/VGA/STRIX-GTX970.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/STRIXGTX970DC2OC4GD5/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>MINI GEFORCE GTX970</span><a href="http://www.asus.com/sk/Graphics-Cards/GTX970DCMOC4GD5/" target="_blank"><img src="Image/VGA/MINI-GTX970.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/GTX970DCMOC4GD5/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>TURBO GEFORCE GTX970</span><a href="http://www.asus.com/sk/Graphics-Cards/TURBOGTX970OC4GD5/" target="_blank"><img src="Image/VGA/TURBO-GTX970.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/TURBOGTX970OC4GD5/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>R9 FURY X</span><a href="http://www.asus.com/sk/Graphics-Cards/R9FURYX4G/" target="_blank"><img src="Image/VGA/R9-FURY-X.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/R9FURYX4G/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>STRIX R9 FURY</span><a href="http://www.asus.com/sk/Graphics-Cards/STRIXR9FURYDC34GGAMING/" target="_blank"><img src="Image/VGA/STRIX-R9-FURY.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/STRIXR9FURYDC34GGAMING/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>R9 NANO</span><a href="http://www.asus.com/sk/Graphics-Cards/R9NANO-4G/" target="_blank"><img src="Image/VGA/R9-NANO.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/R9NANO-4G/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>R9 NANO WHITE</span><a href="http://www.asus.com/sk/Graphics-Cards/R9NANO-4G-WHITE/" target="_blank"><img src="Image/VGA/R9-NANO-WHITE.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/R9NANO-4G-WHITE/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>STRIX R9 390X</span><a href="http://www.asus.com/sk/Graphics-Cards/STRIXR9390XDC3OC8GD5GAMING/" target="_blank"><img src="Image/VGA/STRIX-R9-390X.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/STRIXR9390XDC3OC8GD5GAMING/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+       <li class="no-show"><span>STRIX R9 390</span><a href="http://www.asus.com/sk/Graphics-Cards/STRIXR9390DC3OC8GD5GAMING/" target="_blank"><img src="Image/VGA/STRIX-R9-390.jpg"></a><a href="http://www.asus.com/sk/Graphics-Cards/STRIXR9390DC3OC8GD5GAMING/" target="_blank" style="font-size:0.6em">Ďalšie informácie</a></li> 
+      </ul> 
+      <a class="lineup-control">Zobraziť viac modelov</a> 
+     </div> 
+     <div class="config"> 
+      <p>Testovacia konfigurácia:</p> 
+      <ol> 
+       <li> Základná doska: RAMPAGE V EDITION 10, X99-DELUXE II, X99-A II, X99-E, STRIX X99 GAMING; OS: Windows 10 (64-bitový); CPU: Intel Core i7-6950X; grafická karta: ASUS Matrix 980Ti / ASUS R9 Fury X; DIMM: Panram PUD42400C158GNJW 8GB*2; ovládač grafickej karty: NV 365.19/AMD 16.5.2.1; ovládač ASM: 1.16.33.1 Základná doska: RAMPAGE V EXTREME/U3.1, RAMPAGE V EXTREME, SABERTOOTH X99, X99-DELUXE/U3.1, X99-DELUXE, X99-PRO/USB 3.1, X99-PRO, X99-A/USB 3.1(TRANSFER EXPRESS), X99-A/USB 3.1, X99-A; OS: Windows 10 (64-bitový); CPU: Intel Core i7-6900X; grafická karta: Matrix GTX 980 Ti / ASUS R9 Fury X; DIMM: Panram PUD42400C158GNJW 8GB*2; ovládač grafickej karty: NV 365.19 / AMD 16.5.2.1; ovládač ASM: 1.16.33.1</li> 
+       <li> Základná doska: MAXIMUS VIII EXTREME, MAXIMUS VIII, EXTREME/ASSEMBLY, MAXIMUS VIII FORMULA, MAXIMUS VIII HERO/ALPHA, MAXIMUS VIII HERO, MAXIMUS VIII RANGER, MAXIMUS VIII GENE, Z170-PRO GAMING; OS: Windows 10 (64-bitový); CPU: i7-6700K; grafická karta: ASUS Strix GTX 980 Ti / R9 Fury; DIMM: G.skill F4-3400C16Q-16GRBD 4GB*2; ovládače grafickej karty: NV 364.72 / AMD 16.3.2; ovládač ASM: 1.16.33.1</li> 
+       <li> Základná doska: Z170-PREMIUM, Z170-DELUXE, Z170-PRO, Z170-A, Z170-AR, Z170-E, SABERTOOTH Z170 MARK 1, SABERTOOTH Z170 S; OS: Windows 10 (64-bitový); CPU: i7-6700K; grafická karta: ASUS GTX980 / ASUS R9 Fury; DIMM: G.skill F4-3400C16Q-16GRBD 4GB*2; ovládače grafickej karty: NV 364.72 / AMD 16.3.2; ovládač ASM: V1.16.29.1</li> 
+       <li> Základná doska: H170 PRO GAMING, H170-PRO/USB 3.1; OS: Windows 10 (64-bitový); CPU: i5-6500; grafická karta: ASUS GTX 970 / ASUS R9390X; DIMM: Kingston HX428C14PB2K4 4GB*2; ovládač grafickej karty: NV 368.22 / AMD 16.5.3; ovládač ASM: 1.16.33.1</li> 
+       <li> Základná doska: B150 PRO GAMING/AURA, B150-PLUS; OS: Windows 10 (64-bitový); CPU: i5-6600; grafická karta: ASUS GTX 970 / ASUS R9290X; DIMM: Kingston HX428C14PB2K4 4GB*2; ovládač grafickej karty: NV 368.22 / AMD 16.5.3; ovládač ASM: 1.16.33.1(Iba B150 PRE GAMING/AURA)</li> 
+       <li> Základná doska: 970 Pro GAMING/AURA; OS: Windows 10 (64-bitový); CPU: AMD FD-8300; grafická karta: ASUS GTX 970 / ASUS R9390X; ovládač grafickej karty: NV 368.39 / AMD 16.6.1; ovládač ASM: 1.16.33.1</li> 
+       <li> Základná doska: SABERTOOTH 990FX R2.0; OS: Windows 10 (64-bitový); CPU: AMD FX-9590; grafická karta: Strix GTX 980 Ti / GTX 970 / R9 Fury / R9390X; ovládač grafickej karty: NV 364.72 / NV 368.39 / AMD 16.3.2 / AMD 16.6.1; ovládač ASM: 1.16.33.1</li> 
+       <li>Základná doska: 970 Pro GAMING/AURA; OS: Win10 (64-bitový); CPU: AMD FD-8300; grafická karta: ASUS GTX 970 / ASUS R9390X; ovládač grafickej karty: NV 368.39 / AMD 16.6.1; ovládač ASM: 1.16.33.1</li> 
+      </ol> 
+     </div> 
+    </section> 
+   </div> 
+  </div>
+  <!--end of .wrapper-->   
+ </body>
+</html>

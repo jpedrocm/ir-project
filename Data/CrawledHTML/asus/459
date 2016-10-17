@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="es">
+ <head> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta charset="utf-8"> 
+  <meta name="description" content="¿Cuándo fue la última vez que vio una obra de arte limpiar el piso con todos los juegos del mercado? Nuestros socios Powered by ASUS hacen entregas entusiastas en cada PC que sale de nuestras líneas de producción."> 
+  <meta name="keywords" content="Powered by ASUS, ASUS Partners, PBA, PBA Systems, ASUS System Integrator, ASUS System Builder, ASUS Gaming Systems, Gaming System, ASUS Computer, ASUS Gaming Computer"> 
+  <meta name="author" content="OPBG Marketing"> 
+  <meta property="og:type" content="article"> 
+  <meta property="og:url" content="http://www.asus.com/mx/site/powered-by-asus/"> 
+  <meta property="og:site_name" content="ASUS MX"> 
+  <meta property="og:image" content="http://www.asus.com/mx/site/powered-by-asus/images/social-1200x630.jpg"> 
+  <meta property="og:title" content="Powered by ASUS"> 
+  <meta property="og:description" content="¿Cuándo fue la última vez que vio una obra de arte limpiar el piso con todos los juegos del mercado? Nuestros socios Powered by ASUS hacen entregas entusiastas en cada PC que sale de nuestras líneas de producción."> 
+  <meta property="article:author" content="http://www.asus.com/mx/"> 
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:url" content="http://www.asus.com/mx/site/powered-by-asus/"> 
+  <meta name="twitter:title" content="Powered by ASUS"> 
+  <meta name="twitter:description" content="¿Cuándo fue la última vez que vio una obra de arte limpiar el piso con todos los juegos del mercado? Nuestros socios Powered by ASUS hacen entregas entusiastas en cada PC que sale de nuestras líneas de producción."> 
+  <meta name="twitter:image" content="http://www.asus.com/us/site/powered-by-asus/images/social-1200x630.jpg"> 
+  <meta name="twitter:site" content="@mxasus"> 
+  <meta name="twitter:site:id" content="21347710"> 
+  <link rel="shortcut icon" href="http://www.asus.com/media/img/favicon.ico"> 
+  <title>Powered By ASUS</title> 
+  <link href="css/framework.css" rel="stylesheet"> 
+  <link href="css/main.css" rel="stylesheet"> 
+  <script>
+		// appkey 'event00007' = full top w/ menu
+		// appkey 'event00005' = top bar only
+		window.ASUSInit = function () { asus_api.init({ appkey: 'event00007', lang: 'mx' }); };
+		(function (d) {
+		var js, id = 'asus-jsapi';
+		if (d.getElementById("asus-jsapi")) { return; }
+		js = d.createElement('script');
+		js.id = id;
+		js.async = true;
+		js.src = "http://www.asus.com/API/js/asus_api.js";
+		d.getElementsByTagName('head')[0].appendChild(js);
+		} (document));
+	</script> 
+ </head> 
+ <body> 
+  <div class="container"> 
+   <header class="on-black"> 
+    <a href="http://www.asus.com/mx/" class="external"> <h1 class="pba-logo-with-rog text-hide">Powered by ASUS</h1> </a> 
+    <img src="images/kv-x99.png" alt="ASUS ROG X99 motherboard with ROG STRIX GTX 1080 graphics card" class="kv"> 
+    <h2 class="kv-lockup text-hide">Diseñados para dominar por dentro y por fuera</h2> 
+   </header> 
+   <section class="on-black buffer-top"> 
+    <div class="row"> 
+     <div class="columns medium-6 pba-container"> 
+      <div class="center-everything"> 
+       <img src="images/logo-pba.png" alt="Powered by ASUS"> 
+      </div> 
+     </div> 
+     <div class="columns medium-6 buffer-top buffer-bottom"> 
+      <h4>¿Cuándo fue la última vez que admiraste una pieza de arte?</h4> 
+      <p>Nuestros colaboradores "Powered by ASUS" entregan arte de forma entusiasta en cada PC que sale de sus líneas de producción. Ellos entienden que las computadoras perfectas empiezan con los mejores componentes, y nos hemos asociado con ellos por que toman los componentes de ASUS y los llevan a niveles que solo se puede soñar con ellos: desde pequeños dínamos hasta bestias gigantes de refrigeración líquida. Contruidos para ser los mejores <i>"BEST: (Breakthrough, Easy Setup, Stable, and Trusted)"</i>, los sistemas Powered by ASUS combinan componentes de vanguardia y sistemas de arquitectura de punta con un servicio sin igual, con la última palabra de principio a fin.</p> 
+     </div> 
+    </div> 
+   </section> 
+   <section class="on-black buffer-top"> 
+    <div class="row"> 
+     <h1 class="red-ribbon">ROG STRIX X99 GAMING</h1> 
+     <div class="columns medium-6 buffer-bottom"> 
+      <h1>Lo último en juegos para X99</h1> 
+      <p>Un nuevo agregado a Republic of Gamers, la tarjeta madre ROG Strix X99 Gaming brinda nuevas características como iluminación Aura RGB y todos los nuevos SafeSlot.</p>
+      <br> 
+      <ul> 
+       <li><p>Chipset Intel X99.</p></li> 
+       <li><p>Soporta la nueva generación de procesadores Intel X-Series.</p></li> 
+       <li><p>Ilimunación Aura. Perzonalizala a tu manera.</p></li> 
+       <li><p>ASUS SafeSlot para soporte extra en GPU.</p></li> 
+       <li><p>Mejor control de ventiladores.</p></li> 
+      </ul> 
+     </div> 
+     <div class="columns medium-6 pba-container"> 
+      <img src="images/new-arrival-x99.png" alt="ASUS STRIX X99 GAMING"> 
+     </div> 
+    </div> 
+   </section> 
+   <section class="on-black buffer-top"> 
+    <div class="row"> 
+     <h1 class="red-ribbon">ROG STRIX GTX™ 1080</h1> 
+     <div class="columns medium-6 buffer-bottom"> 
+      <h1>Eclipsa a tus rivales.</h1> 
+      <br> 
+      <ul> 
+       <li><p>DirectCU III con triple aspa y diseño 0dB de ventilación entrega maximo flujo de aire, 30% mas frio y 3X mas silencioso.</p></li> 
+       <li><p>La Tecnologia AUTO-EXTREME con Super Alloy Power II entrega un desempeño confiable y de calidad premium.</p></li> 
+       <li><p>La luz pulsada de STRIX LED hace la diferencia ademas de agregar estilo a tu sistema.</p></li> 
+       <li><p>STRIX GPU-Fortifier alivia el estrés fisico al rededor del GPU permitiendole una mejor protección.</p></li> 
+      </ul> 
+     </div> 
+     <div class="columns medium-6 pba-container"> 
+      <img src="images/kv-1080.png" alt="STRIX GTX™ 980 Ti"> 
+     </div> 
+    </div> 
+   </section> 
+   <section class="buffer-top"> 
+    <div class="row"> 
+     <h1 class="red-ribbon">ASUS DRW-24B3ST</h1> 
+     <div class="columns medium-6 buffer-bottom"> 
+      <h1>Un entorno verde para el presente y el futuro</h1> 
+      <p>DRW-24B3ST es una potente unidad óptica 24X DVD±R/12X DVD±R(DL)/8X DVD+RW/6X DVD-RW/16X DVD-ROM/12X DVDRAM/ 48X CD-R/32X CD-RW/48X CD-ROM, con una gran flexibilidad, calidad y fiabilidad.</p>
+      <br> 
+     </div> 
+     <div class="columns medium-6"> 
+      <img src="images/kv-4.png" alt="ASUS DRW-24B3ST"> 
+     </div> 
+    </div> 
+   </section> 
+   <section class="buffer-top buffer-bottom"> 
+    <h1 class="red-ribbon">¿Dónde Comprar?</h1> 
+    <ul class="small-block-grid-2 medium-block-grid-3 si-block"> 
+     <li><a href="http://www.ddtech.mx/productos/computadoras/escritorio?marca-de-computadoras[]=powered-by-asus&amp;precio=1:99999" target="_blank"><img src="images/ddtech.jpg" alt="DDTech"></a></li> 
+     <li><a href="https://www.laptopshop.mx/index.php/powered-by-asus.html" target="_blank"><img src="images/smx.jpg" alt="SMX"></a></li> 
+     <li><a href="http://www.dimercom.mx/index.php?route=product/search&amp;search=flex one" target="_blank"><img src="images/dimercom.jpg" alt="Dimercom"></a></li> 
+     <li><a href="http://longview.com.mx/PBA/" target="_blank"><img src="images/longview.jpg" alt="Longview"></a></li> 
+    </ul> 
+   </section> 
+   <p class="terms">© 2016 ASUSTeK Computer Inc. Todos los derechos reservados. <a href="http://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Official_Site/">Términos de uso</a>. Todas las especificaciones y términos están sujetos a cambio sin previo aviso. Favor de revisar con su distribuidor para ofertas más concretas en modelos seleccionados. Algunos productos pueden no estar disponibles en el mercado. El producto puede variar a como se muestra en las imágenes. Todas lass marcas y nombres de productos mencionados son marcas registradas de sus respectivas compañías. ASUS no será responsable de los errores, omisiones técnicas o editoriales aquí presentadas.</p> 
+  </div> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-71421926-5', 'auto');
+  ga('send', 'pageview');
+</script>  
+ </body>
+</html>
