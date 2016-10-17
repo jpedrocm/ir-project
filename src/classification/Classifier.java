@@ -3,18 +3,14 @@ package classification;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
 import Utils.Utils;
-import weka.classifiers.Classifier;
 import weka.classifiers.trees.RandomForest;
 import weka.core.Attribute;
 import weka.core.DenseInstance;
@@ -26,18 +22,18 @@ import weka.core.converters.ArffSaver;
 import weka.core.converters.ConverterUtils.DataSource;
 
 @SuppressWarnings("deprecation")
-public class Classificador {
+public class Classifier {
 	
 	List<String> featureNames;
 	FastVector<Attribute> attrs;
-	Classifier classifier;
+	weka.classifiers.Classifier classifier;
 	final static String posDir = "Data/laptop/";
 	final static String negDir = "Data/non_laptop/";
 	Instances fullSet;
 	HashMap<String, Integer> crawleds;
 	HashMap<String, Integer> rels;
 	
-	public Classificador(){
+	public Classifier(){
 		chooseFeaturesToExtract();
 		createAttributes();
 		rels = new HashMap<String, Integer>();

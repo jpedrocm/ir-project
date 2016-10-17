@@ -1,169 +1,135 @@
 package Program;
 
-import java.io.BufferedWriter;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
-import java.io.Writer;
-import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 
-import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
-import Crawl.Crawler;
 import Utils.Utils;
-import classification.Classificador;
+import classification.Classifier;
 import extraction.AbstractWrapper;
+import extraction.AsusWrapper;
+import extraction.BrandSmartUSAWrapper;
 import extraction.GeneralExtractor;
+import extraction.HPWrapper;
+import extraction.JohnLewisWrapper;
+import extraction.LenovoWrapper;
+import extraction.MicrocenterWrapper;
+import extraction.NeweggWrapper;
+import extraction.PCWorldWrapper;
+import extraction.StaplesWrapper;
+import extraction.ToshibaWrapper;
 
 public class Main {
+
+    private static final String SET_PATH = "Data/full_data.arff";
+
+    private static final String MODEL_PATH = "Data/random_forest.model";
+
+    private static final AbstractWrapper[] EXTRACTORS = {
+            new JohnLewisWrapper(),
+            new NeweggWrapper(),
+            new AsusWrapper(),
+            new MicrocenterWrapper(),
+            new ToshibaWrapper(),
+            new LenovoWrapper(),
+            new BrandSmartUSAWrapper(),
+            new StaplesWrapper(),
+            new PCWorldWrapper(),
+            new HPWrapper()
+    };    
     
-    public static final boolean SAVE_TO_FILE = true;
-    public static final String[] URL_FILTER = {"laptop", "notebook"};
-    public static final String[] URLS = {            
-            "http://www.johnlewis.com/",
-            "http://www.newegg.com/", 
-            "http://www.asus.com/us/", 
-            "http://www.microcenter.com/",
-            "http://us.toshiba.com/",
-            "http://shop.lenovo.com/us",
-            "http://www.brandsmartusa.com/",
-            "http://www.staples.com/",
-            "http://www.pcworld.co.uk/",
-            "http://store.hp.com"
-    }; 
+    public static void main(String[] args) { 
+        EvaluateCrawlerAndExtractor(true);
+        EvaluateCrawlerAndExtractor(false);
+    }
 
-    public static final String[] DOMAINS = { 
-            "http://www.johnlewis.com/",
-            "http://www.newegg.com/", 
-            "http://www.asus.com", 
-            "http://www.microcenter.com/",
-            "http://us.toshiba.com/",
-            "http://shop.lenovo.com",
-            "http://www.brandsmartusa.com/",
-            "http://www.staples.com/",
-            "http://www.pcworld.co.uk/",            
-            "http://store.hp.com"            
-    };
+    private static void EvaluateCrawlerAndExtractor(boolean filtered) {     
+        Classifier classifier = new Classifier();
 
-    public static void main(String[] args) {        
-        Classificador filteredClassifier = new Classificador();
-        Classificador unfilteredClassifier = new Classificador();        
+        HashMap<String, ArrayList<String>> relevantDocs = classifier.classifyAllDocs(Utils.CRAWLED_HTML_PATH.toString(), filtered, SET_PATH, MODEL_PATH);
 
-        HashMap<String, ArrayList<String>> relevantsFiltered = filteredClassifier.classifyAllDocs(Paths.get("Data", "CrawledHTML").toString(), true, "Data/full_data.arff", "Data/random_forest.model");
-        HashMap<String, ArrayList<String>> relevants = unfilteredClassifier.classifyAllDocs(Paths.get("Data", "CrawledHTML").toString(), false, "Data/full_data.arff", "Data/random_forest.model");
+        EvaluateCrawler(classifier, filtered);    
+        
+        EvaluateExtractor(relevantDocs, filtered);
+    }
 
-        HashMap<String, Double> filteredDomainHarvestRatio = filteredClassifier.calculateDomainsHarvestRatio();
-        Double filteredTotalHarvestRatio = filteredClassifier.calculateTotalHarvestRatio();
+    private static void EvaluateCrawler(Classifier classifier, boolean filtered) {
+        HashMap<String, Double> domainHarvestRatio = classifier.calculateDomainsHarvestRatio();
 
-        HashMap<String, Double> unfilteredDomainHarvestRatio = filteredClassifier.calculateDomainsHarvestRatio();
-        Double unfilteredTotalHarvestRatio = filteredClassifier.calculateTotalHarvestRatio();
+        Double totalHarvestRatio = classifier.calculateTotalHarvestRatio();
 
-        System.out.println("CRAWLER RESULTS");
-
-        for (String brand : BRANDS) {
-            System.out.println("Domain: " + brand);
-            System.out.println("Filtered domain harvest ratio: " + filteredDomainHarvestRatio);
-            System.out.println("Unfiltered domain harvest ratio: " + unfilteredDomainHarvestRatio);
-        }
-
-        System.out.println("Filtered total harvest ratio: " + filteredTotalHarvestRatio);
-        System.out.println("Unfiltered total harvest ratio: " + unfilteredTotalHarvestRatio);
+        if (filtered)
+            System.out.println("FILTERED CRAWLER RESULTS");
+        else
+            System.out.println("UNFILTERED CRAWLER RESULTS");
 
         System.out.println();
-        System.out.println("----------------------------------------------------------------------------");
-        System.out.println();
 
-        System.out.println("EXTRACTION RESULTS");
-        for (int i = 0; i < BRANDS.length; i++) {
-            String brand = BRANDS[i];
-
-            System.out.println("Domain: " + brand);
-
-            Path unfilteredHTMLPath = Paths.get("Data", "CrawledHTML", brand);
-            Path filteredHTMLPath = Paths.get("Data", "CrawledHTML", brand + "Filtered");
-
-            AbstractWrapper generalExtractor = new GeneralExtractor();
-
-            long totalUnfilteredSpecificSpecifications = 0;
-            long totalUnfilteredGeneralSpecifications = 0;
-            long totalUnfilteredCorrectGeneralSpecifications = 0;
-            for (String filename : relevants.get(unfilteredHTMLPath)) {
-                String filePath = Paths.get(unfilteredHTMLPath.toString(), filename).toString();
-                Document doc = Utils.fileToDoc(filePath);
-
-                AbstractWrapper extractor = EXTRACTORS[i];
-                HashMap<String, List<String>> specifications = extractor.getSpecifications(doc);
-                HashMap<String, List<String>> generalSpecifications = generalExtractor.getSpecifications(doc);     
-
-                for (String spec : specifications.keySet()) {
-                    if (generalSpecifications.containsKey(spec) && specifications.get(spec).equals(generalSpecifications.get(spec)))
-                        totalUnfilteredCorrectGeneralSpecifications++;
-                }
-
-                totalUnfilteredSpecificSpecifications += specifications.size();
-                totalUnfilteredGeneralSpecifications += generalSpecifications.size();
-            }
-
-            long totalfilteredSpecificSpecifications = 0;
-            long totalfilteredGeneralSpecifications = 0;
-            long totalFilteredGeneralSpecifications = 0;
-            for (String filename : relevantsFiltered.get(filteredHTMLPath)) {
-                String filePath = Paths.get(filteredHTMLPath.toString(), filename).toString();
-                Document doc = Utils.fileToDoc(filePath);
-
-                AbstractWrapper extractor = EXTRACTORS[i];
-                HashMap<String, List<String>> specifications = extractor.getSpecifications(doc);
-                HashMap<String, List<String>> generalSpecifications = generalExtractor.getSpecifications(doc); 
-
-                for (String spec : specifications.keySet()) {
-                    if (generalSpecifications.containsKey(spec) && specifications.get(spec).equals(generalSpecifications.get(spec)))
-                        totalFilteredGeneralSpecifications++;
-                }
-
-                totalfilteredSpecificSpecifications += specifications.size();
-                totalfilteredGeneralSpecifications += generalSpecifications.size();
-            }
+        for (String domain : Utils.DOMAIN) {
+            System.out.println("Domain: " + domain);
+            System.out.println("Domain harvest ratio: " + domainHarvestRatio.get(domain));
+            System.out.println();
         }
+
+        System.out.println("Total harvest ratio: " + totalHarvestRatio);
     }
     
-    public static void saveURLs(String filename, HashSet<String> crawledURLs) throws FileNotFoundException, IOException {
-        try (FileOutputStream fos = new FileOutputStream((filename));
-                OutputStreamWriter osw = new OutputStreamWriter(fos, "utf-8");
-                Writer writer = new BufferedWriter(osw)) {
-
-            for (String crawledURL : crawledURLs)
-                writer.write(crawledURL + "\n"); 
-
-        }
-    }
-    
-    private static void saveToFile(String URL, String fileName, String domain) throws IOException {
-        Path directory = Paths.get("Data", "CrawledHTML", domain);
-        Path file = Paths.get(directory.toString(), fileName);
-        
-        try {
-            Files.createDirectories(directory);
-        } catch (IOException e1) {
-            e1.printStackTrace();
-        }
-        
-        Document doc = Jsoup.connect(URL).get();
-        
-        try (FileOutputStream fos = new FileOutputStream((file.toString()));
-                OutputStreamWriter osw = new OutputStreamWriter(fos, "utf-8");
-                Writer writer = new BufferedWriter(osw)) {
+    private static void EvaluateExtractor(HashMap<String, ArrayList<String>> relevantDocs, boolean filtered) {
+        for (int i = 0; i < Utils.DOMAIN.length; i++) {
+            String domain = Utils.DOMAIN[i];
             
-            writer.write(doc.html());            
+            String htmlPath = Paths.get(Utils.CRAWLED_HTML_PATH.toString(), domain).toString();
+            if (filtered)
+                htmlPath += "Filtered";
+            
+            AbstractWrapper generalExtractor = new GeneralExtractor();
+            AbstractWrapper specificExtractor = EXTRACTORS[i];
+            
+            long specificSpecsColected = 0;
+            long generalSpecsColected = 0;
+            long correctGeneralSpecs = 0;
+            
+            for (String filename : relevantDocs.get(htmlPath)) {
+                String filepath = Paths.get(htmlPath, filename).toString();                
+                Document doc = Utils.fileToDoc(filepath);
+                
+                HashMap<String, List<String>> specificSpecs = specificExtractor.getSpecifications(doc);
+                HashMap<String, List<String>> generalSpecs = generalExtractor.getSpecifications(doc);
+                
+                for (String spec : specificSpecs.keySet())
+                    if (generalSpecs.containsKey(spec) && specificSpecs.get(spec).equals(generalSpecs.get(spec)))
+                        correctGeneralSpecs++;
+                
+                specificSpecsColected += specificSpecs.size();
+                generalSpecsColected += generalSpecs.size();
+                
+            }
+            
+            double recall = (double) correctGeneralSpecs / specificSpecsColected;
+            
+            double precision = (double) correctGeneralSpecs / generalSpecsColected;
+            
+            double fMeasure = (2 * recall * precision) / (recall + precision);
+            
+            if (filtered)
+                System.out.println("FILTERED EXTRACTION RESULTS");
+            else
+                System.out.println("EXTRACTION RESULTS");
+            
+            
+            System.out.println();
+            System.out.println("Total specific extractions: " + specificSpecsColected);
+            System.out.println("Total general extractions: " + generalSpecsColected);
+            System.out.println("Correct general extractions: " + correctGeneralSpecs);
+            System.out.println();
+            System.out.println("Recall: " + recall);
+            System.out.println("Precision: " + precision);
+            System.out.println("F-Measure: " + fMeasure);
+            System.out.println();
         }
-        
-    }
+    }   
 
 }

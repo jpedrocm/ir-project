@@ -52,11 +52,8 @@ public class GetHTMLSMain {
                     System.err.println(x);
                 }
         }
-        
-        
 
     }
-
 }
 
 class FileWriter extends Thread {
