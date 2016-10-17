@@ -11,7 +11,7 @@ import java.util.Map;
 
 import org.jsoup.nodes.Document;
 
-import Utils.Utils;
+import utils.Utils;
 import weka.classifiers.trees.RandomForest;
 import weka.core.Attribute;
 import weka.core.DenseInstance;
@@ -39,6 +39,13 @@ public class Classifier {
 		createAttributes();
 		rels = new HashMap<String, Integer>();
 		crawleds = new HashMap<String, Integer>();
+	}
+	
+	public Classifier(HashMap<String, Integer> crawleds, HashMap<String, Integer> rels) {
+	    this.crawleds = crawleds;
+	    this.rels = rels;
+	    chooseFeaturesToExtract();
+        createAttributes();
 	}
 	
 	private void chooseFeaturesToExtract(){
@@ -180,8 +187,8 @@ public class Classifier {
 		return relevantDocs;
 	}
 	
-	public HashMap<String, ArrayList<String>> classifyAllDocs(String directory, boolean filtered, String setPath, String modelPath) {
-		HashMap<String, ArrayList<String>> relevantDocuments = new HashMap<String, ArrayList<String>>();
+	public HashMap<String, List<String>> classifyAllDocs(String directory, boolean filtered, String setPath, String modelPath) {
+		HashMap<String, List<String>> relevantDocuments = new HashMap<String, List<String>>();
 		
 		this.loadSet(setPath);
         this.loadModel(modelPath);		

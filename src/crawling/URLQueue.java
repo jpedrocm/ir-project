@@ -1,4 +1,4 @@
-package Crawling;
+package crawling;
 
 import java.util.HashSet;
 import java.util.LinkedList;

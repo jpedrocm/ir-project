@@ -25,7 +25,8 @@ public class GeneralExtractor extends AbstractWrapper {
         
         if (name == null) {
             Element title = head.getElementsByTag("title").first();
-            name = title.text();
+            if (title != null)
+                name = title.text();
         }
         
         return name;

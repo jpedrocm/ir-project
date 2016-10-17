@@ -1,16 +1,20 @@
-package Utils;
+package utils;
 
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -78,6 +82,19 @@ public class Utils {
         }
         
         return doc;
+    }
+    
+    public static List<String> getFileLines(String filepath) throws FileNotFoundException, IOException {
+        List<String> lines = new ArrayList<String>();
+        
+        try(BufferedReader br = new BufferedReader(new FileReader(filepath))) {
+            String line = br.readLine();
+
+            while ((line = br.readLine()) != null) 
+                lines.add(line);
+        }
+        
+        return lines;
     }
     
     public static void createDirectory(Path directory) {

@@ -1,11 +1,11 @@
-package Crawling;
+package crawling;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.HashSet;
 
-import Utils.Utils;
+import utils.Utils;
 
 public class CrawlerMain {    
 

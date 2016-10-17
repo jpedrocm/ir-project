@@ -1,4 +1,4 @@
-package Crawling;
+package crawling;
 
 import java.net.URI;
 import java.util.HashSet;

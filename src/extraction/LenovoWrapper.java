@@ -31,12 +31,10 @@ public class LenovoWrapper extends AbstractWrapper {
         if (specTable != null) {
             Elements tableRows = specTable.getElementsByTag("tr");
 
-            for(Element tr : tableRows){
-                Elements rowElements = tr.getAllElements();
-                
-                if (rowElements.size() > 2) {
-                    String descName = rowElements.get(0).text();
-                    String descDetail = rowElements.get(1).text();
+            for(Element tr : tableRows){  
+                if (tr.children().size() == 2) {
+                    String descName = tr.child(0).text();
+                    String descDetail = tr.child(1).text();
                     
                     specifications.put(descName, Arrays.asList(descDetail));
                 }                

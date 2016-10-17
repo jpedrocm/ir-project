@@ -1,0 +1,344 @@
+Classifying all docs
+Docs classified
+Evaluating Crawler
+filtered
+Calculating Domain Harvest Ratio
+Calculated
+Calculating total harvest ratio
+Calculating
+FILTERED CRAWLER RESULTS
+
+Domain: johnlewisFiltered
+Domain harvest ratio: 0.17981072555205047
+
+Domain: neweggFiltered
+Domain harvest ratio: 0.7585170340681363
+
+Domain: asusFiltered
+Domain harvest ratio: 0.09528795811518324
+
+Domain: microcenterFiltered
+Domain harvest ratio: 0.312
+
+Domain: toshibaFiltered
+Domain harvest ratio: 0.1011011011011011
+
+Domain: lenovoFiltered
+Domain harvest ratio: 0.8718861209964412
+
+Domain: brandsmartusaFiltered
+Domain harvest ratio: 0.5100200400801603
+
+Domain: staplesFiltered
+Domain harvest ratio: 0.574
+
+Domain: pcworldFiltered
+Domain harvest ratio: 0.5088757396449705
+
+Domain: hpFiltered
+Domain harvest ratio: 0.5635036496350365
+
+Total harvest ratio: 0.41046831955922863
+Evaluating extractor
+filtered
+Domain: johnlewis
+FILTERED EXTRACTION RESULTS
+Domain: johnlewisFiltered
+
+Total specific extractions: 6262
+Total general extractions: 6405
+Correct general extractions: 904
+
+Recall: 0.1443628233791121
+Precision: 0.14113973458235754
+F-Measure: 0.1427330859714218
+
+Domain: newegg
+FILTERED EXTRACTION RESULTS
+Domain: neweggFiltered
+
+Total specific extractions: 36084
+Total general extractions: 35389
+Correct general extractions: 5267
+
+Recall: 0.14596497062409933
+Precision: 0.14883155782870383
+F-Measure: 0.14738432694863796
+
+Domain: asus
+FILTERED EXTRACTION RESULTS
+Domain: asusFiltered
+
+Total specific extractions: 1248
+Total general extractions: 1248
+Correct general extractions: 82
+
+Recall: 0.06570512820512821
+Precision: 0.06570512820512821
+F-Measure: 0.06570512820512821
+
+Domain: microcenter
+FILTERED EXTRACTION RESULTS
+Domain: microcenterFiltered
+
+Total specific extractions: 13224
+Total general extractions: 13289
+Correct general extractions: 12977
+
+Recall: 0.9813218390804598
+Precision: 0.9765219354353224
+F-Measure: 0.9789160034699959
+
+Domain: toshiba
+FILTERED EXTRACTION RESULTS
+Domain: toshibaFiltered
+
+Total specific extractions: 2125
+Total general extractions: 1890
+Correct general extractions: 310
+
+Recall: 0.14588235294117646
+Precision: 0.164021164021164
+F-Measure: 0.15442092154420922
+
+Domain: lenovo
+FILTERED EXTRACTION RESULTS
+Domain: lenovoFiltered
+
+Total specific extractions: 3730
+Total general extractions: 3681
+Correct general extractions: 1652
+
+Recall: 0.4428954423592493
+Precision: 0.4487910893778864
+F-Measure: 0.44582377546889757
+
+Domain: brandsmartusa
+FILTERED EXTRACTION RESULTS
+Domain: brandsmartusaFiltered
+
+Total specific extractions: 7981
+Total general extractions: 7965
+Correct general extractions: 7965
+
+Recall: 0.9979952386918932
+Precision: 1.0
+F-Measure: 0.9989966135708014
+
+Domain: staples
+FILTERED EXTRACTION RESULTS
+Domain: staplesFiltered
+
+Total specific extractions: 11267
+Total general extractions: 10723
+Correct general extractions: 4368
+
+Recall: 0.38768083784503415
+Precision: 0.407348689732351
+F-Measure: 0.39727148703956344
+
+Domain: pcworld
+FILTERED EXTRACTION RESULTS
+Domain: pcworldFiltered
+
+Total specific extractions: 11769
+Total general extractions: 11505
+Correct general extractions: 11422
+
+Recall: 0.9705157617469624
+Precision: 0.9927857453281183
+F-Measure: 0.9815244478817566
+
+Domain: hp
+FILTERED EXTRACTION RESULTS
+Domain: hpFiltered
+
+Total specific extractions: 4778
+Total general extractions: 4583
+Correct general extractions: 735
+
+Recall: 0.15383005441607367
+Precision: 0.16037530002181977
+F-Measure: 0.1570345048605918
+
+GLOBAL RESULTS
+
+Total specific extractions: 98468
+Total general extractions: 96678
+Correct general extractions: 45682
+
+Recall: 0.4639273672665231
+Precision: 0.47251701524648837
+F-Measure: 0.468182796470335
+
+Classifying all docs
+Docs classified
+Evaluating Crawler
+Calculating Domain Harvest Ratio
+Calculated
+Calculating total harvest ratio
+Calculating
+UNFILTERED CRAWLER RESULTS
+
+Domain: johnlewis
+Domain harvest ratio: 0.0
+
+Domain: newegg
+Domain harvest ratio: 0.07622868605817452
+
+Domain: asus
+Domain harvest ratio: 0.028930817610062894
+
+Domain: microcenter
+Domain harvest ratio: 0.07307307307307308
+
+Domain: toshiba
+Domain harvest ratio: 0.09628886659979939
+
+Domain: lenovo
+Domain harvest ratio: 0.22932330827067668
+
+Domain: brandsmartusa
+Domain harvest ratio: 0.0030272452068617556
+
+Domain: staples
+Domain harvest ratio: 0.01646090534979424
+
+Domain: pcworld
+Domain harvest ratio: 0.0625
+
+Domain: hp
+Domain harvest ratio: 0.18723404255319148
+
+Total harvest ratio: 0.07688053097345132
+Evaluating extractor
+Domain: johnlewis
+EXTRACTION RESULTS
+Domain: johnlewis
+
+Total specific extractions: 0
+Total general extractions: 0
+Correct general extractions: 0
+
+Recall: NaN
+Precision: NaN
+F-Measure: NaN
+
+Domain: newegg
+EXTRACTION RESULTS
+Domain: newegg
+
+Total specific extractions: 3461
+Total general extractions: 3390
+Correct general extractions: 503
+
+Recall: 0.14533371857844554
+Precision: 0.14837758112094396
+F-Measure: 0.14683987739016205
+
+Domain: asus
+EXTRACTION RESULTS
+Domain: asus
+
+Total specific extractions: 22
+Total general extractions: 40
+Correct general extractions: 0
+
+Recall: 0.0
+Precision: 0.0
+F-Measure: NaN
+
+Domain: microcenter
+EXTRACTION RESULTS
+Domain: microcenter
+
+Total specific extractions: 952
+Total general extractions: 1004
+Correct general extractions: 931
+
+Recall: 0.9779411764705882
+Precision: 0.9272908366533864
+F-Measure: 0.9519427402862984
+
+Domain: toshiba
+EXTRACTION RESULTS
+Domain: toshiba
+
+Total specific extractions: 1296
+Total general extractions: 1170
+Correct general extractions: 185
+
+Recall: 0.1427469135802469
+Precision: 0.1581196581196581
+F-Measure: 0.1500405515004055
+
+Domain: lenovo
+EXTRACTION RESULTS
+Domain: lenovo
+
+Total specific extractions: 2253
+Total general extractions: 2426
+Correct general extractions: 978
+
+Recall: 0.4340878828229028
+Precision: 0.4031327287716406
+F-Measure: 0.41803804231673436
+
+Domain: brandsmartusa
+EXTRACTION RESULTS
+Domain: brandsmartusa
+
+Total specific extractions: 29
+Total general extractions: 29
+Correct general extractions: 29
+
+Recall: 1.0
+Precision: 1.0
+F-Measure: 1.0
+
+Domain: staples
+EXTRACTION RESULTS
+Domain: staples
+
+Total specific extractions: 244
+Total general extractions: 246
+Correct general extractions: 132
+
+Recall: 0.5409836065573771
+Precision: 0.5365853658536586
+F-Measure: 0.5387755102040817
+
+Domain: pcworld
+EXTRACTION RESULTS
+Domain: pcworld
+
+Total specific extractions: 1043
+Total general extractions: 1028
+Correct general extractions: 1011
+
+Recall: 0.9693192713326941
+Precision: 0.9834630350194552
+F-Measure: 0.9763399323998068
+
+Domain: hp
+EXTRACTION RESULTS
+Domain: hp
+
+Total specific extractions: 1996
+Total general extractions: 1915
+Correct general extractions: 223
+
+Recall: 0.11172344689378758
+Precision: 0.11644908616187989
+F-Measure: 0.11403733060598312
+
+GLOBAL RESULTS
+
+Total specific extractions: 11296
+Total general extractions: 11248
+Correct general extractions: 3992
+
+Recall: 0.35339943342776203
+Precision: 0.35490753911806544
+F-Measure: 0.354151880766501
+

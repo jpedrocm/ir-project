@@ -26,20 +26,28 @@ public class MicrocenterWrapper extends AbstractWrapper {
         HashMap<String, List<String>> specifications = super.getSpecifications(doc);
 
 		Element specsTable = doc.getElementById("tab-specs");
-		Elements specBodies = specsTable.getElementsByClass("spec-body");
 		
-		for (Element specBody : specBodies) {
-		    if (specBody.children().size() > 1) {
-		        specifications.put(specBody.child(0).text(), Arrays.asList(specBody.child(1).text()));
-		    }
-		}
+		if (specsTable != null) {
+		    Elements specBodies = specsTable.getElementsByClass("spec-body");
+	        
+	        for (Element specBody : specBodies) {
+	            if (specBody.children().size() > 1) {
+	                specifications.put(specBody.child(0).text(), Arrays.asList(specBody.child(1).text()));
+	            }
+	        }
+		}		
 		
 		return specifications;
 	}
 
 	@Override
 	public String getPrice(Document doc) {
-		// MSI's website does not contain prices
-		return null;
+		String price = null;
+		
+		Element priceElement = doc.getElementById("pricing");
+		if (priceElement != null)
+		    price = priceElement.text();
+		
+		return price;
 	}
 }
