@@ -47,11 +47,11 @@ Domain: johnlewisFiltered
 
 Total specific extractions: 6262
 Total general extractions: 6405
-Correct general extractions: 904
+Correct general extractions: 5922
 
-Recall: 0.1443628233791121
-Precision: 0.14113973458235754
-F-Measure: 0.1427330859714218
+Recall: 0.9457042478441392
+Precision: 0.9245901639344263
+F-Measure: 0.9350280255782742
 
 Domain: newegg
 FILTERED EXTRACTION RESULTS
@@ -59,11 +59,11 @@ Domain: neweggFiltered
 
 Total specific extractions: 36084
 Total general extractions: 35389
-Correct general extractions: 5267
+Correct general extractions: 34401
 
-Recall: 0.14596497062409933
-Precision: 0.14883155782870383
-F-Measure: 0.14738432694863796
+Recall: 0.9533588293980712
+Precision: 0.9720817203085704
+F-Measure: 0.9626292446098527
 
 Domain: asus
 FILTERED EXTRACTION RESULTS
@@ -71,11 +71,11 @@ Domain: asusFiltered
 
 Total specific extractions: 1248
 Total general extractions: 1248
-Correct general extractions: 82
+Correct general extractions: 687
 
-Recall: 0.06570512820512821
-Precision: 0.06570512820512821
-F-Measure: 0.06570512820512821
+Recall: 0.5504807692307693
+Precision: 0.5504807692307693
+F-Measure: 0.5504807692307693
 
 Domain: microcenter
 FILTERED EXTRACTION RESULTS
@@ -95,11 +95,11 @@ Domain: toshibaFiltered
 
 Total specific extractions: 2125
 Total general extractions: 1890
-Correct general extractions: 310
+Correct general extractions: 1789
 
-Recall: 0.14588235294117646
-Precision: 0.164021164021164
-F-Measure: 0.15442092154420922
+Recall: 0.8418823529411765
+Precision: 0.9465608465608466
+F-Measure: 0.8911581569115816
 
 Domain: lenovo
 FILTERED EXTRACTION RESULTS
@@ -107,11 +107,11 @@ Domain: lenovoFiltered
 
 Total specific extractions: 3730
 Total general extractions: 3681
-Correct general extractions: 1652
+Correct general extractions: 3289
 
-Recall: 0.4428954423592493
-Precision: 0.4487910893778864
-F-Measure: 0.44582377546889757
+Recall: 0.881769436997319
+Precision: 0.893507199130671
+F-Measure: 0.8875995142355957
 
 Domain: brandsmartusa
 FILTERED EXTRACTION RESULTS
@@ -131,11 +131,11 @@ Domain: staplesFiltered
 
 Total specific extractions: 11267
 Total general extractions: 10723
-Correct general extractions: 4368
+Correct general extractions: 10149
 
-Recall: 0.38768083784503415
-Precision: 0.407348689732351
-F-Measure: 0.39727148703956344
+Recall: 0.9007721665039495
+Precision: 0.9464702042338897
+F-Measure: 0.923055934515689
 
 Domain: pcworld
 FILTERED EXTRACTION RESULTS
@@ -155,21 +155,21 @@ Domain: hpFiltered
 
 Total specific extractions: 4778
 Total general extractions: 4583
-Correct general extractions: 735
+Correct general extractions: 3520
 
-Recall: 0.15383005441607367
-Precision: 0.16037530002181977
-F-Measure: 0.1570345048605918
+Recall: 0.7367099204688154
+Precision: 0.7680558586078987
+F-Measure: 0.7520564042303173
 
 GLOBAL RESULTS
 
 Total specific extractions: 98468
 Total general extractions: 96678
-Correct general extractions: 45682
+Correct general extractions: 92121
 
-Recall: 0.4639273672665231
-Precision: 0.47251701524648837
-F-Measure: 0.468182796470335
+Recall: 0.9355425112726977
+Precision: 0.9528641469620803
+F-Measure: 0.9441238867309605
 
 Classifying all docs
 Docs classified
@@ -230,11 +230,11 @@ Domain: newegg
 
 Total specific extractions: 3461
 Total general extractions: 3390
-Correct general extractions: 503
+Correct general extractions: 3281
 
-Recall: 0.14533371857844554
-Precision: 0.14837758112094396
-F-Measure: 0.14683987739016205
+Recall: 0.9479919098526437
+Precision: 0.9678466076696165
+F-Measure: 0.9578163771712159
 
 Domain: asus
 EXTRACTION RESULTS
@@ -266,11 +266,11 @@ Domain: toshiba
 
 Total specific extractions: 1296
 Total general extractions: 1170
-Correct general extractions: 185
+Correct general extractions: 1074
 
-Recall: 0.1427469135802469
-Precision: 0.1581196581196581
-F-Measure: 0.1500405515004055
+Recall: 0.8287037037037037
+Precision: 0.9179487179487179
+F-Measure: 0.8710462287104623
 
 Domain: lenovo
 EXTRACTION RESULTS
@@ -278,11 +278,11 @@ Domain: lenovo
 
 Total specific extractions: 2253
 Total general extractions: 2426
-Correct general extractions: 978
+Correct general extractions: 2019
 
-Recall: 0.4340878828229028
-Precision: 0.4031327287716406
-F-Measure: 0.41803804231673436
+Recall: 0.8961384820239681
+Precision: 0.8322341302555647
+F-Measure: 0.8630049155802523
 
 Domain: brandsmartusa
 EXTRACTION RESULTS
@@ -302,11 +302,11 @@ Domain: staples
 
 Total specific extractions: 244
 Total general extractions: 246
-Correct general extractions: 132
+Correct general extractions: 230
 
-Recall: 0.5409836065573771
-Precision: 0.5365853658536586
-F-Measure: 0.5387755102040817
+Recall: 0.9426229508196722
+Precision: 0.9349593495934959
+F-Measure: 0.9387755102040818
 
 Domain: pcworld
 EXTRACTION RESULTS
@@ -326,19 +326,19 @@ Domain: hp
 
 Total specific extractions: 1996
 Total general extractions: 1915
-Correct general extractions: 223
+Correct general extractions: 1465
 
-Recall: 0.11172344689378758
-Precision: 0.11644908616187989
-F-Measure: 0.11403733060598312
+Recall: 0.7339679358717435
+Precision: 0.7650130548302873
+F-Measure: 0.7491690104832524
 
 GLOBAL RESULTS
 
 Total specific extractions: 11296
 Total general extractions: 11248
-Correct general extractions: 3992
+Correct general extractions: 10040
 
-Recall: 0.35339943342776203
-Precision: 0.35490753911806544
-F-Measure: 0.354151880766501
+Recall: 0.8888101983002833
+Precision: 0.8926031294452347
+F-Measure: 0.8907026259758694
 

@@ -124,11 +124,12 @@ public class Main {
                 HashMap<String, List<String>> specificSpecs = specificExtractor.getSpecifications(doc);
                 HashMap<String, List<String>> generalSpecs = generalExtractor.getSpecifications(doc);
 
-                boolean allEqual = true;
+                
                 for (String spec : specificSpecs.keySet())
-                    if (generalSpecs.containsKey(spec)) {                        
-                        for (String specValue : generalSpecs.get(spec))
-                            if (!specificSpecs.get(spec).contains(specValue)) {
+                    if (generalSpecs.containsKey(spec)) {      
+                        boolean allEqual = true;
+                        for (String specValue : specificSpecs.get(spec))
+                            if (!generalSpecs.get(spec).contains(specValue)) {
                                 allEqual = false;
                                 break;
                             }
