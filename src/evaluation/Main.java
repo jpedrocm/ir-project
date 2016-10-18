@@ -98,7 +98,11 @@ public class Main {
         long totalSpecificSpecsColected = 0;
         long totalGeneralSpecsColected = 0;
         long totalCorrectGeneralSpecs = 0;
-
+        
+        double totalRecall = 0;
+        double totalPrecision = 0; 
+        double totalFMeasure = 0;
+        
         for (int i = 0; i < Utils.DOMAIN.length; i++) {
             String domain = Utils.DOMAIN[i];
 
@@ -149,10 +153,16 @@ public class Main {
             }
 
             double recall = (double) correctGeneralSpecs / specificSpecsColected;
+            if (Double.isFinite(recall))
+                totalRecall += recall;
 
             double precision = (double) correctGeneralSpecs / generalSpecsColected;
+            if (Double.isFinite(precision))
+                totalPrecision += precision;
 
             double fMeasure = (2 * recall * precision) / (recall + precision);
+            if (Double.isFinite(fMeasure))
+                totalFMeasure += fMeasure;
 
             if (filtered)
                 System.out.println("FILTERED EXTRACTION RESULTS");
@@ -184,9 +194,15 @@ public class Main {
         System.out.println("Total general extractions: " + totalGeneralSpecsColected);
         System.out.println("Correct general extractions: " + totalCorrectGeneralSpecs);
         System.out.println();
+        System.out.println("Micro Evaluation");
         System.out.println("Recall: " + recall);
         System.out.println("Precision: " + precision);
         System.out.println("F-Measure: " + fMeasure);
+        System.out.println();
+        System.out.println("Macro Evaluation");
+        System.out.println("Recall: " + totalRecall / Utils.DOMAIN.length);
+        System.out.println("Precision: " + totalPrecision / Utils.DOMAIN.length);
+        System.out.println("F-Measure: " + totalFMeasure / Utils.DOMAIN.length);
         System.out.println();
     }   
 

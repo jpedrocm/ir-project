@@ -167,9 +167,15 @@ Total specific extractions: 98468
 Total general extractions: 96678
 Correct general extractions: 92121
 
+Micro Evaluation
 Recall: 0.9355425112726977
 Precision: 0.9528641469620803
 F-Measure: 0.9441238867309605
+
+Macro Evaluation
+Recall: 0.8760510562903555
+Precision: 0.8971054442770512
+F-Measure: 0.8861445114234634
 
 Classifying all docs
 Docs classified
@@ -338,7 +344,13 @@ Total specific extractions: 11296
 Total general extractions: 11248
 Correct general extractions: 10040
 
+Micro Evaluation
 Recall: 0.8888101983002833
 Precision: 0.8926031294452347
 F-Measure: 0.8907026259758694
+
+Macro Evaluation
+Recall: 0.7296685430075013
+Precision: 0.7328755731970524
+F-Measure: 0.7308094714835369
 
