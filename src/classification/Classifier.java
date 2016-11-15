@@ -194,9 +194,12 @@ public class Classifier {
         this.loadModel(modelPath);		
         
 		String[] foldersPerDomain = new File(directory).list();
-		for(String folder : foldersPerDomain){
-		    if (filtered && folder.contains("Filtered"))
+		for(String folder : foldersPerDomain){		    
+		    if (filtered && folder.contains("Filtered")) {
+		        System.out.println("Classifying " + folder);
 		        relevantDocuments.put(folder, classifyAllDocsFromSingleDomain(Paths.get(directory, folder).toString()));	
+		        System.out.println("Classified " + folder);
+		    }
 		    else if (!filtered && !folder.contains("Filtered"))
 		        relevantDocuments.put(folder, classifyAllDocsFromSingleDomain(Paths.get(directory, folder).toString()));
 		}

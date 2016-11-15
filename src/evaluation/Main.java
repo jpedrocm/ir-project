@@ -21,11 +21,7 @@ import extraction.StaplesWrapper;
 import extraction.ToshibaWrapper;
 import utils.Utils;
 
-public class Main {
-
-    private static final String SET_PATH = "Data/full_data.arff";
-
-    private static final String MODEL_PATH = "Data/random_forest.model";
+public class Main {    
 
     private static final AbstractWrapper[] EXTRACTORS = {
             new JohnLewisWrapper(),
@@ -49,7 +45,7 @@ public class Main {
         Classifier classifier = new Classifier();        
 
         System.out.println("Classifying all docs");
-        HashMap<String, List<String>> relevantDocs = classifier.classifyAllDocs(Utils.CRAWLED_HTML_PATH.toString(), filtered, SET_PATH, MODEL_PATH);
+        HashMap<String, List<String>> relevantDocs = classifier.classifyAllDocs(Utils.CRAWLED_HTML_PATH.toString(), filtered, Utils.SET_PATH, Utils.MODEL_PATH);
         System.out.println("Docs classified");
 
         EvaluateCrawler(classifier, filtered);    
