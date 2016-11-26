@@ -74,6 +74,14 @@ public class Utils {
             "hp"         
     };
     
+    public static final String[] MostCommonAttributes = {
+            "cpu",
+            "screenSize",
+            "name",
+            "ports",
+            "storage"
+    };
+    
     public static void URLToFile(String URL, Path directory, String filename) throws IOException {
         Document doc = Jsoup.connect(URL).get();        
         
