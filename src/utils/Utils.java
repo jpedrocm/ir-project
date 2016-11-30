@@ -15,8 +15,10 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -40,6 +42,17 @@ public class Utils {
     public static final String MOST_COMMON_SPECS_FILE = "mostCommonSpecs.txt";
     
     public static final String COMMON_SPECS_SEPARATOR = "`";
+    
+    private static final String HTML_FOLDER_ASUS = "asusFiltered";
+    private static final String HTML_FOLDER_BRANDSMARTUSA = "brandsmartusaFiltered";
+    private static final String HTML_FOLDER_HP = "hpFiltered";
+    private static final String HTML_FOLDER_JOHNLEWIS = "johnlewisFiltered";
+    private static final String HTML_FOLDER_LENOVO = "lenovoFiltered";
+    private static final String HTML_FOLDER_MICROCENTER = "microcenterFiltered";
+    private static final String HTML_FOLDER_NEWEGG = "neweggFiltered";
+    private static final String HTML_FOLDER_PCWORLD = "pcworldFiltered";
+    private static final String HTML_FOLDER_STAPLES = "staplesFiltered";
+    private static final String HTML_FOLDER_TOSHIBA = "toshibaFiltered";
     
     public static final String[] INITIAL_URLS = {            
             "http://www.johnlewis.com/",
@@ -93,6 +106,57 @@ public class Utils {
             ATTR_SCREEN,
             ATTR_STORAGE
     };
+    
+    public static Set<String> getMostCommonAttributes() throws FileNotFoundException, IOException {
+        Set<String> mostCommonAttributes = new HashSet<String>();
+        
+        for (String attr : MOST_COMMON_ATTRIBUTES) {
+            String filepath = Paths.get(DATA_DIRECTORY, attr + "Attributes.txt").toString();
+            
+            mostCommonAttributes.addAll(getFileLines(filepath)); 
+        }
+        
+        return mostCommonAttributes;
+    }
+    
+    public static String readDocument(String documentPath) throws FileNotFoundException, IOException {
+        List<String> lines = getFileLines(documentPath);
+        
+        StringBuilder sb = new StringBuilder();
+        for (String line : lines)
+            sb.append(line);
+        
+        return sb.toString();
+    }
+    
+    public static String getDocumentPath(int document) {
+        Path path = CRAWLED_HTML_PATH;
+        
+        if (document < 2000)
+            path = Paths.get(CRAWLED_HTML_PATH.toString(), HTML_FOLDER_ASUS);
+        else if (document < 4000)
+            path = Paths.get(CRAWLED_HTML_PATH.toString(), HTML_FOLDER_BRANDSMARTUSA);
+        else if (document < 6000)
+            path = Paths.get(CRAWLED_HTML_PATH.toString(), HTML_FOLDER_HP);
+        else if (document < 8000)
+            path = Paths.get(CRAWLED_HTML_PATH.toString(), HTML_FOLDER_JOHNLEWIS);
+        else if (document < 10000)
+            path = Paths.get(CRAWLED_HTML_PATH.toString(), HTML_FOLDER_LENOVO);
+        else if (document < 12000)
+            path = Paths.get(CRAWLED_HTML_PATH.toString(), HTML_FOLDER_MICROCENTER);
+        else if (document < 14000)
+            path = Paths.get(CRAWLED_HTML_PATH.toString(), HTML_FOLDER_NEWEGG);
+        else if (document < 16000)
+            path = Paths.get(CRAWLED_HTML_PATH.toString(), HTML_FOLDER_PCWORLD);
+        else if (document < 18000)
+            path = Paths.get(CRAWLED_HTML_PATH.toString(), HTML_FOLDER_STAPLES);
+        else
+            path = Paths.get(CRAWLED_HTML_PATH.toString(), HTML_FOLDER_TOSHIBA);
+        
+        path = Paths.get(path.toString(), String.valueOf(document));
+        
+        return path.toString();
+    }
     
     public static HashMap<String, List<String>> getRelevantDocs() throws FileNotFoundException, IOException {
         HashMap<String, List<String>> relevantDocs;
