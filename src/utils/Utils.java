@@ -21,6 +21,8 @@ import java.util.Map;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
+import classification.Classifier;
+
 public class Utils {
     
     public static final Path CRAWLED_HTML_PATH = Paths.get("Data", "CrawledHTML");
@@ -34,6 +36,10 @@ public class Utils {
     public static final String MODEL_PATH = Paths.get("Data", "random_forest.model").toString();
     
     public static final String RELEVANT_DOCS_FILE = "RelevantDocs.txt";
+    
+    public static final String MOST_COMMON_SPECS_FILE = "mostCommonSpecs.txt";
+    
+    public static final String COMMON_SPECS_SEPARATOR = "`";
     
     public static final String[] INITIAL_URLS = {            
             "http://www.johnlewis.com/",
@@ -74,13 +80,39 @@ public class Utils {
             "hp"         
     };
     
-    public static final String[] MostCommonAttributes = {
-            "cpu",
-            "screenSize",
-            "name",
-            "ports",
-            "storage"
+    public static final String ATTR_CPU = "cpu";
+    public static final String ATTR_NAME = "name";
+    public static final String ATTR_PORTS = "ports";
+    public static final String ATTR_SCREEN = "screen";
+    public static final String ATTR_STORAGE = "storage";
+    
+    public static final String[] MOST_COMMON_ATTRIBUTES = {
+            ATTR_CPU,
+            ATTR_NAME,
+            ATTR_PORTS,
+            ATTR_SCREEN,
+            ATTR_STORAGE
     };
+    
+    public static HashMap<String, List<String>> getRelevantDocs() throws FileNotFoundException, IOException {
+        HashMap<String, List<String>> relevantDocs;
+        String relevantDocsPath = Paths.get(Utils.DATA_DIRECTORY, Utils.RELEVANT_DOCS_FILE).toString();
+
+        File relevantDocsFile = new File(relevantDocsPath);
+
+        if (relevantDocsFile.exists()) {
+            relevantDocs = Utils.readMapFromFile(relevantDocsPath);
+        }
+        else {
+            Classifier classifier = new Classifier(); 
+            System.out.println("Classifying");
+            relevantDocs = classifier.classifyAllDocs(Utils.CRAWLED_HTML_PATH.toString(), true, Utils.SET_PATH, Utils.MODEL_PATH);
+            System.out.println("Classified");
+            Utils.mapToFile(relevantDocs, Paths.get(Utils.DATA_DIRECTORY), Utils.RELEVANT_DOCS_FILE);
+        }
+
+        return relevantDocs;
+    }
     
     public static void URLToFile(String URL, Path directory, String filename) throws IOException {
         Document doc = Jsoup.connect(URL).get();        
@@ -167,7 +199,7 @@ public class Utils {
             
             for (String key : relevantDocs.keySet())
                 for (String value : relevantDocs.get(key))
-                    sb.append(key + " " + value + "\n"); 
+                    sb.append(key + "`" + value + "\n"); 
             
             writer.write(sb.toString());
         }
