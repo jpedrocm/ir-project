@@ -60,11 +60,14 @@ public class CompressedInvertedList implements InvertedList {
     public HashMap<Integer, Integer> getWordDocuments(String word) {
         HashMap<Integer, Integer> documents = new HashMap<>();
         
-        int lastDoc = 0;
-        for (Pair pair : map.get(word)) {
-            documents.put(lastDoc + pair.key, (int) pair.value);
-            lastDoc += pair.key;
-        }        
+        List<Pair> wordList = map.get(word);
+        if (wordList != null) {
+            int lastDoc = 0;
+            for (Pair pair : wordList) {
+                documents.put(lastDoc + pair.key, (int) pair.value);
+                lastDoc += pair.key;
+            }   
+        }   
         
         return documents;
     }

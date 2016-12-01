@@ -25,11 +25,7 @@ public class DefaultInvertedList implements InvertedList {
     
     public HashMap<Integer, Integer> getWordDocuments(String word) {
         return this.map.get(word);
-    }
-    
-    public int getWordDocumentsCount(String word) {
-        return map.get(word).size();
-    }    
+    }  
     
     public String toString() {
         StringBuilder sb = new StringBuilder();

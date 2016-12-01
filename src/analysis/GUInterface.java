@@ -43,35 +43,35 @@ public class GUInterface {
         nameLabel.setText("Name");
         nameLabel.setLayoutData(new GridData(GridData.VERTICAL_ALIGN_BEGINNING));
         final Text nameInput = new Text(shell, SWT.SHADOW_IN);
-        nameInput.setText("dell");
+        //nameInput.setText("dell");
         nameInput.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, false));
 
         final Label screenLabel = new Label(shell, SWT.PUSH);
         screenLabel.setText("Screen");
         screenLabel.setLayoutData(new GridData(GridData.VERTICAL_ALIGN_BEGINNING));
         final Text screenInput = new Text(shell, SWT.SHADOW_IN);
-        screenInput.setText("14");
+        //screenInput.setText("14");
         screenInput.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, false));
 
         final Label cpuLabel = new Label(shell, SWT.PUSH);
         cpuLabel.setText("CPU");
         cpuLabel.setLayoutData(new GridData(GridData.VERTICAL_ALIGN_BEGINNING));
         final Text cpuInput = new Text(shell, SWT.SHADOW_IN);
-        cpuInput.setText("intel");
+        //cpuInput.setText("intel");
         cpuInput.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, false));
 
         final Label portsLabel = new Label(shell, SWT.PUSH);
         portsLabel.setText("Ports");
         portsLabel.setLayoutData(new GridData(GridData.VERTICAL_ALIGN_BEGINNING));
         final Text portsInput = new Text(shell, SWT.SHADOW_IN);
-        portsInput.setText("usb");
+        //portsInput.setText("usb");
         portsInput.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, false));
 
         final Label storageLabel = new Label(shell, SWT.PUSH);
         storageLabel.setText("Storage");
         storageLabel.setLayoutData(new GridData(GridData.VERTICAL_ALIGN_BEGINNING));
         final Text storageInput = new Text(shell, SWT.SHADOW_IN);
-        storageInput.setText("500gb");
+        //storageInput.setText("500gb");
         storageInput.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, false));
         
         final Label limitLabel = new Label(shell, SWT.PUSH);
@@ -151,7 +151,12 @@ public class GUInterface {
                         for (String value : specs.get(key))
                             sb.append(key + ": " + value + "\n");
                     
-                    sb.append("#######################################################################\n");
+                    sb.append("###################################################################\n\n");
+                    
+                    //dell, 14, intel, usb, 500gb
+                    //acer, 15, intel i7, thunderbolt, 1tb ssd
+                    //hp, 13, i5, hdmi, 256gb
+                    
                 }
                 
                 final Shell shell2 = new Shell(display);

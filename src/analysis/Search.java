@@ -99,24 +99,29 @@ public class Search {
         for (String queryWord : queryWords) {
             HashMap<Integer, Integer> documents = invertedList.getWordDocuments(queryWord);
 
-            for (Integer document : documents.keySet()) {
-                scores.putIfAbsent(document, 0.0);
-                double documentTermWeight;
-                if (isBoolean)
-                    documentTermWeight = 1;
-                else
-                    documentTermWeight = documents.get(document) * Math.log(documentsCount / documents.size());
+            if (documents != null) {
+                for (Integer document : documents.keySet()) {
+                    scores.putIfAbsent(document, 0.0);
+                    double documentTermWeight;
+                    if (isBoolean)
+                        documentTermWeight = 1;
+                    else
+                        documentTermWeight = documents.get(document) * Math.log(documentsCount / documents.size());
 
-                scores.put(document, scores.get(document) + (documentTermWeight * queryWeights.get(queryWord)));
+                    scores.put(document, scores.get(document) + (documentTermWeight * queryWeights.get(queryWord)));
 
-                normalizerDoc.putIfAbsent(document, 0.0);
-                normalizerDoc.put(document, normalizerDoc.get(document) + (documentTermWeight * documentTermWeight));
-            }
+                    normalizerDoc.putIfAbsent(document, 0.0);
+                    normalizerDoc.put(document, normalizerDoc.get(document) + (documentTermWeight * documentTermWeight));
+                }
+            }            
         }       
 
         List<Pair> scoresList = new ArrayList<Pair>();
-        for (Integer document : scores.keySet())
-            scoresList.add(new Pair(document, scores.get(document) / (Math.sqrt(normalizerDoc.get(document)) * Math.sqrt(normalizerQuery))));
+        for (Integer document : scores.keySet()) {
+            double score = scores.get(document) / (Math.sqrt(normalizerDoc.get(document)) * Math.sqrt(normalizerQuery));
+            if (Double.isFinite(score))
+                scoresList.add(new Pair(document, score));
+        }
 
         scoresList.sort((Pair p1, Pair p2) -> Double.compare(p2.value, p1.value));
 
