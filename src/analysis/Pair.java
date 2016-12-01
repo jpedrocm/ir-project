@@ -9,6 +9,10 @@ public class Pair {
         this.value = value;
     }
     
+    public boolean isEqual(Pair other) {
+        return this.key == other.key && this.value == other.value;
+    }
+    
     public String toString() {
         return "[" + key + ", " + value + "], ";
     }

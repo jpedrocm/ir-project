@@ -4,6 +4,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
@@ -11,6 +12,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import org.eclipse.swt.internal.win32.CREATESTRUCT;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
@@ -25,6 +27,8 @@ public class Search {
             invertedList = new CompressedInvertedList();
         else
             invertedList = new DefaultInvertedList();
+        
+        InvertedList debug = new DefaultInvertedList();
 
         HashMap<String, HashSet<String>> attributes = new HashMap<>();
         for (String s : Utils.MOST_COMMON_ATTRIBUTES)
@@ -41,7 +45,8 @@ public class Search {
             for (String token : tokens) {
                 for (String attr : attributes.get(key)) {
                     String word = attr + "." + token;
-                    invertedList.addWord(word, Integer.parseInt(file));
+                    int document = Integer.parseInt(file);
+                    invertedList.addWord(word, document);
                 }                            
             }
         }

@@ -8,6 +8,7 @@ import java.io.OutputStreamWriter;
 import java.io.Writer;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 
 public class CompressedInvertedList implements InvertedList {
@@ -20,6 +21,7 @@ public class CompressedInvertedList implements InvertedList {
     
     @Override
     public void addWord(String word, int document) {
+        int debug = document;
         this.map.putIfAbsent(word, new ArrayList<>());
                 
         List<Pair> list = map.get(word);
@@ -27,35 +29,30 @@ public class CompressedInvertedList implements InvertedList {
         if (list.isEmpty())
             list.add(new Pair(document, 1));
         else {
-            int currentDocument = list.get(0).key;
+            for (int i = 0; i <= list.size(); i++) {
+                if (i == list.size()) {
+                    list.add(new Pair(document, 1)); 
+                    break;
+                }
+                
+                Pair pair = list.get(i);
+                if (document > pair.key)
+                    document -= pair.key;
+                else if (document == pair.key) {
+                    pair.value++;
+                    break;
+                }
+                else {
+                    list.add(i, new Pair(document, 1));
+                    pair.key -= document;
+                    break;
+                }  
+                
+                i++;
+                i--;
+            }
             
             int i = 0;
-            while (currentDocument < document) {
-                i++;
-                if (i < list.size())
-                    currentDocument += list.get(i).key;
-                else
-                    break;
-            }
-            
-            if (currentDocument == document)
-                list.get(i).value++;
-            else if (i == list.size()) {
-                int doc = document - currentDocument;
-                list.add(new Pair(doc, 1));
-            }
-            else {
-                if (i > 0) {
-                    document = currentDocument - document;
-                    list.add(i, new Pair(document, 1));
-                    int nextDocument = list.get(i+1).key - document;
-                    list.get(i+1).key = nextDocument;
-                }
-                else  {
-                    list.add(0, new Pair(document, 1));
-                    list.get(i+1).key = list.get(i+1).key -  document;
-                }
-            }  
         }        
     }
     
@@ -74,10 +71,19 @@ public class CompressedInvertedList implements InvertedList {
 
     @Override
     public int getDocumentCount() {
+        HashSet<Integer> documents = new HashSet<Integer>();
+        
         int documentCount = 0;
         
-        for (String word : map.keySet())
-            documentCount += map.get(word).size();
+        for (String word : this.map.keySet()) {
+            int currentDoc = 0;
+            
+            for (Pair pair : this.map.get(word)) {
+                currentDoc += pair.key;
+                if (documents.add(currentDoc))
+                    documentCount++;
+            }
+        }            
         
         return documentCount;
     }
