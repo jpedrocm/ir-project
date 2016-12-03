@@ -10,11 +10,13 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 public class DefaultInvertedList implements InvertedList {
-    
-    private HashMap<String, HashMap<Integer, Integer>> map;
+
+    private HashMap<String, HashMap<Integer, Integer>> map;    
+    private Integer documentsCount;
     
     public DefaultInvertedList() {
         this.map = new HashMap<String, HashMap<Integer, Integer>>();
+        this.documentsCount = null;
     }
     
     public void addWord(String word, int document) {
@@ -26,6 +28,21 @@ public class DefaultInvertedList implements InvertedList {
     public HashMap<Integer, Integer> getWordDocuments(String word) {
         return this.map.get(word);
     }  
+    
+    public int getDocumentCount() {
+        if (this.documentsCount == null) {
+            HashSet<Integer> documents = new HashSet<Integer>();
+            
+            this.documentsCount = new Integer(0);
+            
+            for (String word : this.map.keySet())
+                for (Integer document : this.map.get(word).keySet())
+                    if (documents.add(document))
+                        this.documentsCount++;
+        }        
+                
+        return this.documentsCount;        
+    }
     
     public String toString() {
         StringBuilder sb = new StringBuilder();
@@ -39,19 +56,6 @@ public class DefaultInvertedList implements InvertedList {
         }        
         
         return sb.toString();
-    }
-    
-    public int getDocumentCount() {
-        HashSet<Integer> documents = new HashSet<Integer>();
-        
-        int count = 0;
-        
-        for (String word : this.map.keySet())
-            for (Integer document : this.map.get(word).keySet())
-                if (documents.add(document))
-                    count++;
-                
-        return count;        
     }
 
     @Override

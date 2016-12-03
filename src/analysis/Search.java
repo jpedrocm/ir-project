@@ -4,15 +4,14 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Collection;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
-import org.eclipse.swt.internal.win32.CREATESTRUCT;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
@@ -20,19 +19,21 @@ import extraction.GeneralExtractor;
 import utils.Utils;
 
 public class Search {
+    
+    HashMap<String, HashSet<String>> mostCommonAttributes;
+    
+    public Search() throws FileNotFoundException, IOException {
+        this.mostCommonAttributes = new HashMap<>();
+        for (String s : Utils.MOST_COMMON_ATTRIBUTES)
+            addAttributes(s, mostCommonAttributes);          
+    }
 
-    public static InvertedList createInvertedList(boolean isCompressed) throws FileNotFoundException, IOException {
+    public InvertedList createInvertedList(boolean isCompressed) throws FileNotFoundException, IOException {
         InvertedList invertedList;
         if (isCompressed)
             invertedList = new CompressedInvertedList();
         else
-            invertedList = new DefaultInvertedList();
-        
-        InvertedList debug = new DefaultInvertedList();
-
-        HashMap<String, HashSet<String>> attributes = new HashMap<>();
-        for (String s : Utils.MOST_COMMON_ATTRIBUTES)
-            addAttributes(s, attributes);
+            invertedList = new DefaultInvertedList();        
 
         List<String> specsFromFile = Utils.getFileLines(Paths.get(Utils.DATA_DIRECTORY, Utils.MOST_COMMON_SPECS_FILE).toString());
         for (String line : specsFromFile) {
@@ -43,7 +44,7 @@ public class Search {
 
             String[] tokens = caseFolding(value);            
             for (String token : tokens) {
-                for (String attr : attributes.get(key)) {
+                for (String attr : this.mostCommonAttributes.get(key)) {
                     String word = attr + "." + token;
                     int document = Integer.parseInt(file);
                     invertedList.addWord(word, document);
@@ -54,14 +55,13 @@ public class Search {
         return invertedList;
     }
 
-    public static LinkedHashMap<Integer, HashMap<String, List<String>>> search(InvertedList invertedList, Map<String, String> query, boolean isBoolean, int limit) throws FileNotFoundException, IOException {
+    public LinkedHashMap<Integer, HashMap<String, List<String>>> search(InvertedList invertedList, Map<String, String> query, boolean isBoolean, int limit) throws FileNotFoundException, IOException {
         List<Pair> scores = calculateDocumentScores(invertedList, query, isBoolean, limit);
+        System.out.println(scores);
 
         LinkedHashMap<Integer, HashMap<String, List<String>>> result = new LinkedHashMap<>();
 
-        GeneralExtractor extractor = new GeneralExtractor();                
-
-        Set<String> mostCommonAttributes = Utils.getMostCommonAttributes();
+        GeneralExtractor extractor = new GeneralExtractor();  
 
         for (Pair pair : scores) {
             String documentPath = Utils.getDocumentPath(pair.key);
@@ -70,15 +70,17 @@ public class Search {
 
             HashMap<String, List<String>> specs = extractor.getSpecifications(doc);
 
-            filterSpecs(specs, mostCommonAttributes); 
+            filterSpecs(specs); 
+            
+            specs.put("Search Score", Arrays.asList(String.valueOf(pair.value)));
             
             result.put(pair.key, specs);
         }  
-
+        
         return result;
     }
 
-    private static List<Pair> calculateDocumentScores(InvertedList invertedList, Map<String, String> query, boolean isBoolean, int limit) {
+    private List<Pair> calculateDocumentScores(InvertedList invertedList, Map<String, String> query, boolean isBoolean, int limit) {
         HashMap<Integer, Double> scores = new HashMap<>();        
 
         List<String> queryWords = new ArrayList<String>();
@@ -128,7 +130,7 @@ public class Search {
         return scoresList.subList(0, Math.min(limit, scoresList.size()));
     }
 
-    private static HashMap<String, Double> calculateQueryWeights(List<String> query, InvertedList invertedList, boolean isBoolean) {
+    private HashMap<String, Double> calculateQueryWeights(List<String> query, InvertedList invertedList, boolean isBoolean) {
         HashMap<String, Double> queryWeights = new HashMap<String, Double>();
 
         if (isBoolean) {
@@ -160,30 +162,28 @@ public class Search {
         return queryWeights;
     }
 
-    private static String[] caseFolding(String s) {
+    private String[] caseFolding(String s) {
         s = s.toLowerCase();
 
         return s.split(" |\\+|\\@|\\#|\\=|\\%|\\)|\\(|\\:|\\;|\\,|<|>|\\}|\\{|\\/|[/]|\\*");
     }
 
-    private static void filterSpecs(HashMap<String, List<String>> specs, Set<String> filter) {  
-        Set<String> keySet = new HashSet<String>();
-        for (String key : specs.keySet())
-            keySet.add(key);
-
-        for (String key : keySet) { 
-            if (!filter.contains(key))
-                specs.remove(key);
+    private void filterSpecs(HashMap<String, List<String>> specs) { 
+        Iterator<String> keySet = specs.keySet().iterator();       
+        
+        while (keySet.hasNext()) {
+            String key = keySet.next();
+            
+            if (!this.mostCommonAttributes.containsKey(key))
+                keySet.remove();
         }
     }
 
-    private static void addAttributes(String attribute, HashMap<String, HashSet<String>> map) throws FileNotFoundException, IOException {     
+    private void addAttributes(String attribute, HashMap<String, HashSet<String>> map) throws FileNotFoundException, IOException {     
         List<String> lines = Utils.getFileLines(Paths.get(Utils.DATA_DIRECTORY, attribute + "Attributes.txt").toString());
 
         for (String line : lines) {
-            if (!map.containsKey(line)) 
-                map.put(line, new HashSet<String>());
-
+            map.putIfAbsent(line, new HashSet<String>());
             map.get(line).add(attribute);            
         }
     } 

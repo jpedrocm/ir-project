@@ -26,8 +26,7 @@ public class GUInterface {
     static boolean loading = true;
 
     public static void main(String[] args) throws FileNotFoundException, IOException {
-        // TODO Auto-generated method stub
-        
+        // TODO Auto-generated method stub  
         final Display display = new Display();
         Shell shell = new Shell(display);
 
@@ -95,6 +94,11 @@ public class GUInterface {
         final Button button = new Button(shell, SWT.PUSH);
         button.setText("Retrieve!");
         button.setLayoutData(new GridData(GridData.VERTICAL_ALIGN_BEGINNING));
+        
+        Search searcher = new Search();
+        
+        InvertedList defaultInvertedList = searcher.createInvertedList(false);
+        InvertedList compressedInvertedList = searcher.createInvertedList(true);
 
         button.addSelectionListener(new SelectionListener() {
 
@@ -123,20 +127,29 @@ public class GUInterface {
                 
                 int selected = c.getSelectionIndex();
                 int limit = 0;
-                if(selected == 0){
-                    limit = 5;
-                } else if (selected == 1){
-                    limit = 10;
-                } else {
-                    limit = 20;
+                switch (selected) {
+                    case 0:
+                        limit = 5;
+                        break;
+                    case 1:
+                        limit = 10;
+                        break;
+                    default:
+                        limit = 20;                    
                 }
+                
                 boolean isBoolean = booleanInput.getSelection();
                 boolean isCompressed = compressedInput.getSelection();
 
                 LinkedHashMap<Integer, HashMap<String, List<String>>> result = null;
                 try {
-                    InvertedList invertedList = Search.createInvertedList(isCompressed);
-                    result = Search.search(invertedList, query, isBoolean, limit);
+                    InvertedList invertedList;
+                    if (isCompressed)
+                        invertedList = compressedInvertedList;
+                    else
+                        invertedList = defaultInvertedList;
+                    
+                    result = searcher.search(invertedList, query, isBoolean, limit);
                 } catch (IOException e) {
                     // TODO Auto-generated catch block
                     e.printStackTrace();
@@ -175,7 +188,7 @@ public class GUInterface {
             }
         });
 
-        shell.open();
+        shell.open();        
         while (!shell.isDisposed()) {
             if (!display.readAndDispatch())
                 display.sleep();

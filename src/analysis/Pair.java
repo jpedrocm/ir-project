@@ -1,6 +1,10 @@
 package analysis;
 
-public class Pair {
+import java.io.Serializable;
+
+public class Pair implements Serializable {
+
+    private static final long serialVersionUID = 1L;
     public int key;
     public double value;
     
@@ -10,6 +14,6 @@ public class Pair {
     }
     
     public String toString() {
-        return "[" + key + ", " + value + "], ";
+        return "[" + key + ", " + value + "]";
     }
 }

@@ -14,14 +14,15 @@ import java.util.List;
 public class CompressedInvertedList implements InvertedList {
     
     private HashMap<String, List<Pair>> map;
+    private Integer documentsCount;
     
     public CompressedInvertedList() {
         this.map = new HashMap<>();
+        this.documentsCount = null;
     }
     
     @Override
     public void addWord(String word, int document) {
-        int debug = document;
         this.map.putIfAbsent(word, new ArrayList<>());
                 
         List<Pair> list = map.get(word);
@@ -47,12 +48,7 @@ public class CompressedInvertedList implements InvertedList {
                     pair.key -= document;
                     break;
                 }  
-                
-                i++;
-                i--;
             }
-            
-            int i = 0;
         }        
     }
     
@@ -74,21 +70,23 @@ public class CompressedInvertedList implements InvertedList {
 
     @Override
     public int getDocumentCount() {
-        HashSet<Integer> documents = new HashSet<Integer>();
-        
-        int documentCount = 0;
-        
-        for (String word : this.map.keySet()) {
-            int currentDoc = 0;
+        if (this.documentsCount == null) {
+            HashSet<Integer> documents = new HashSet<Integer>();
             
-            for (Pair pair : this.map.get(word)) {
-                currentDoc += pair.key;
-                if (documents.add(currentDoc))
-                    documentCount++;
+            this.documentsCount = new Integer(0);
+            
+            for (String word : this.map.keySet()) {
+                int currentDoc = 0;
+                
+                for (Pair pair : this.map.get(word)) {
+                    currentDoc += pair.key;
+                    if (documents.add(currentDoc))
+                        this.documentsCount++;
+                }
             }
-        }            
+        }                   
         
-        return documentCount;
+        return this.documentsCount;
     }
     
     @Override
